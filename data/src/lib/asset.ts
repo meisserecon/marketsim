@@ -20,5 +20,7 @@ export interface AssetSeries {
   currency: "USD";
   source: string;
   notes?: string;
+  /** Present when the asset ceased to exist. The last row is the month named here. */
+  end?: { month: string; type: "acquisition" | "delisting" | "bankruptcy" | "merger"; note: string };
   rows: MonthRow[];
 }

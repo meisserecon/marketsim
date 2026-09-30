@@ -22,6 +22,31 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Acquisition:** the position is converted to cash at the acquisition price.
 - **Delisting (still a going concern):** the position is sold automatically at the last price.
 - **Wind-down / bankruptcy:** the position goes to zero.
+- **Merger:** the position is converted into shares of the successor at the merger ratio
+  (Sandoz and Ciba-Geigy into Novartis, Credit Suisse into UBS).
+- **Spin-offs** are folded into the parent's price history, as Yahoo Finance does. The player
+  implicitly keeps the spun-off value in the parent position.
+
+## Stock universe
+
+Defined in `data/src/universe.ts`. Guiding ideas: a few full-period blue chips, the companies
+that defined each era, a Swiss angle, the Japanese bubble, and enough failures to make
+survivorship bias visible. Assets appear in the game the month their data starts and vanish
+on their corporate end event.
+
+- **US, full period:** IBM, GE, Exxon, Coca-Cola, Walmart, Boeing, Ford.
+- **US, later arrivals:** Apple (1980-12), Microsoft (1986), Cisco (1990), Amazon (1997),
+  Nvidia (1999), Google (2004), Tesla (2010).
+- **Dot-com boom and bust:** JDS Uniphase, Akamai, Priceline, SoftBank as survivors that lost
+  over 90 percent; Webvan, Pets.com, WorldCom as failures.
+- **International:** Sony, Unilever, TSMC.
+- **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS, Credit Suisse,
+  Swissair.
+- **Japanese bubble:** Industrial Bank of Japan (merged into Mizuho in 2000).
+- **Other failures:** Enron, Lehman Brothers.
+
+Everything not on Yahoo Finance (delisted companies, Swiss stocks before the 1990s, Japanese
+banks before 1999) is hand-curated in `data/manual/`.
 
 ## Data model
 

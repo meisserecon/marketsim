@@ -1,0 +1,10 @@
+{
+  "name": "marketsim",
+  "private": true,
+  "workspaces": ["data"],
+  "scripts": {
+    "data:fetch": "npm run fetch -w data",
+    "data:build": "npm run build -w data",
+    "data:validate": "npm run validate -w data"
+  }
+}

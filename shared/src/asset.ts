@@ -37,11 +37,24 @@ export interface AssetEnd {
 
 export interface AssetSeries {
   id: string;
+  /** The name at the start of the series. Use nameAt() for display; this alone may be outdated. */
   name: string;
+  /** Later names, each valid from the given month on, in ascending order. */
+  renames?: { from: string; name: string }[];
   kind: AssetKind;
   currency: "USD";
+  /** Provenance. For maintainers; may mention later events, so never show it to players. */
   source: string;
+  /** For maintainers; may mention later events, so never show it to players. */
   notes?: string;
+  /** Reveal to players only once the game has moved past end.month. */
   end?: AssetEnd;
   rows: MonthRow[];
+}
+
+/** The name the asset carried in the given month. */
+export function nameAt(asset: Pick<AssetSeries, "name" | "renames">, month: string): string {
+  let name = asset.name;
+  for (const r of asset.renames ?? []) if (r.from <= month) name = r.name;
+  return name;
 }

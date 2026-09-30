@@ -1,6 +1,12 @@
 {
  "id": "ge",
  "name": "General Electric",
+ "renames": [
+  {
+   "from": "2024-04",
+   "name": "GE Aerospace"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance GE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

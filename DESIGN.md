@@ -94,6 +94,7 @@ Rules the engine fixes that were previously open:
   in cash because Mizuho is not in the game.
 - An asset is invisible before its first month and untradable after its last.
 
-Open: asset names and notes currently leak the future ("JDS Uniphase (Viavi)", "UBS
-(Schweizerische Bankgesellschaft until 1998)"). The API promises the name valid in the current
-month, so the universe needs a name history per asset before the server can serve it.
+No lookahead applies to names too. Each asset carries the name it had when its series starts
+plus a list of renames (Uniphase, then JDS Uniphase, then Viavi Solutions), and the server
+resolves the name for the current month with `nameAt`. Notes, sources and end events are for
+maintainers and are never sent to players before the event has happened.

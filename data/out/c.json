@@ -1,9 +1,16 @@
 {
  "id": "c",
- "name": "Citigroup",
+ "name": "Citicorp",
+ "renames": [
+  {
+   "from": "1998-10",
+   "name": "Citigroup"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance C (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Travelers Property Casualty 2002-08 (factor 0.928)",
+ "notes": "Verify which predecessor Yahoo's pre-1998 history follows: Citigroup is legally the renamed Travelers Group, so the early prices may be Travelers/Primerica rather than Citicorp.",
  "rows": [
   {
    "month": "1979-12",

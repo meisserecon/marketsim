@@ -153,6 +153,7 @@ for (const s of UNIVERSE) {
   if (folded.length) sources.push(`spin-offs folded into price: ${folded.join(", ")}`);
   const source = sources.join("; ");
   local = local.filter((r) => r.month >= START_MONTH);
+  if (s.start) local = local.filter((r) => r.month >= s.start!);
   if (s.end) local = local.filter((r) => r.month <= s.end!.month);
   if (!local.length) { console.warn(`${s.id}: no rows in range, skipped`); continue; }
 
@@ -177,6 +178,7 @@ for (const s of UNIVERSE) {
   write({
     id: s.id,
     name: s.name,
+    renames: s.renames,
     kind: "stock",
     currency: "USD",
     source,

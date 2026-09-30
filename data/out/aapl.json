@@ -1,6 +1,12 @@
 {
  "id": "aapl",
- "name": "Apple",
+ "name": "Apple Computer",
+ "renames": [
+  {
+   "from": "2007-01",
+   "name": "Apple"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance AAPL (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

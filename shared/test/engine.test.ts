@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  Market, MAX_POSITIONS, TradeError, advanceMonth, applyTrade, emptyPortfolio, nextMonth, portfolioValue,
+  Market, MAX_POSITIONS, TradeError, advanceMonth, applyTrade, emptyPortfolio, nameAt, nextMonth, portfolioValue,
   type AssetSeries, type Portfolio, type TradeErrorCode,
 } from "../src/index.js";
 
@@ -42,6 +42,15 @@ function expectTradeError(fn: () => unknown, code: TradeErrorCode) {
 test("nextMonth rolls over the year", () => {
   assert.equal(nextMonth("1979-12"), "1980-01");
   assert.equal(nextMonth("1980-01"), "1980-02");
+});
+
+test("nameAt returns the name valid in a month and never a later one", () => {
+  const a = { name: "Uniphase", renames: [{ from: "1999-07", name: "JDS Uniphase" }, { from: "2015-08", name: "Viavi Solutions" }] };
+  assert.equal(nameAt(a, "1995-01"), "Uniphase");
+  assert.equal(nameAt(a, "1999-06"), "Uniphase");
+  assert.equal(nameAt(a, "1999-07"), "JDS Uniphase");
+  assert.equal(nameAt(a, "2020-01"), "Viavi Solutions");
+  assert.equal(nameAt({ name: "IBM" }, "2020-01"), "IBM");
 });
 
 test("buying by USD amount and selling everything returns the cash", () => {

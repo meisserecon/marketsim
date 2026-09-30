@@ -1,6 +1,12 @@
 {
  "id": "mo",
- "name": "Altria (Philip Morris)",
+ "name": "Philip Morris",
+ "renames": [
+  {
+   "from": "2003-01",
+   "name": "Altria"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Kraft Foods 2007-04 (factor 0.750), Philip Morris International 2008-03 (factor 0.302)",

@@ -1,10 +1,24 @@
 {
  "id": "mercedes",
- "name": "Mercedes-Benz (Daimler)",
+ "name": "Daimler-Benz",
+ "renames": [
+  {
+   "from": "1998-11",
+   "name": "DaimlerChrysler"
+  },
+  {
+   "from": "2007-10",
+   "name": "Daimler"
+  },
+  {
+   "from": "2022-02",
+   "name": "Mercedes-Benz Group"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MBG.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
- "notes": "Converted from EUR at month-end FRED rate. Daimler-Benz until 1998, DaimlerChrysler until 2007, Daimler until 2022. Yahoo data from 1996-10; 1980 to 1996 needs a manual prefix.",
+ "notes": "Converted from EUR at month-end FRED rate. Yahoo data from 1996-10; 1980 to 1996 needs a manual prefix.",
  "rows": [
   {
    "month": "1996-10",

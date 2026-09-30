@@ -1,10 +1,20 @@
 {
  "id": "jdsu",
- "name": "JDS Uniphase (Viavi)",
+ "name": "Uniphase",
+ "renames": [
+  {
+   "from": "1999-07",
+   "name": "JDS Uniphase"
+  },
+  {
+   "from": "2015-08",
+   "name": "Viavi Solutions"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance VIAV (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
- "notes": "Fell 99% from the 2000 peak, renamed Viavi in 2015.",
+ "notes": "Fell 99% from the 2000 peak.",
  "rows": [
   {
    "month": "1993-11",

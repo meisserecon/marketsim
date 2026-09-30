@@ -1,6 +1,12 @@
 {
  "id": "xom",
- "name": "Exxon (ExxonMobil)",
+ "name": "Exxon",
+ "renames": [
+  {
+   "from": "1999-12",
+   "name": "ExxonMobil"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance XOM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

@@ -1,6 +1,12 @@
 {
  "id": "ubs",
- "name": "UBS (Schweizerische Bankgesellschaft until 1998)",
+ "name": "Schweizerische Bankgesellschaft",
+ "renames": [
+  {
+   "from": "1998-07",
+   "name": "UBS"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance UBSG.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

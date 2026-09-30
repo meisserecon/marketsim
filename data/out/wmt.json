@@ -1,6 +1,12 @@
 {
  "id": "wmt",
- "name": "Walmart",
+ "name": "Wal-Mart",
+ "renames": [
+  {
+   "from": "2018-02",
+   "name": "Walmart"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance WMT (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

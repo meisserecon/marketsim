@@ -4,7 +4,7 @@
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
- "notes": "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover.",
+ "notes": "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover. Yahoo data from 1981-12; 1980 to 1981 needs a manual prefix.",
  "rows": [
   {
    "month": "1981-12",

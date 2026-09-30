@@ -3,13 +3,16 @@
   "private": true,
   "workspaces": [
     "shared",
-    "data"
+    "data",
+    "server"
   ],
   "scripts": {
     "data:fetch": "npm run fetch -w data",
     "data:build": "npm run build -w data",
     "data:validate": "npm run validate -w data",
-    "test": "npm test -w shared",
-    "typecheck": "npm run typecheck -w shared && tsc --noEmit -p data"
+    "test": "npm test -w shared && npm test -w server",
+    "typecheck": "npm run typecheck -w shared && tsc --noEmit -p data && npm run typecheck -w server",
+    "dev": "npm run dev -w server",
+    "start": "npm run start -w server"
   }
 }

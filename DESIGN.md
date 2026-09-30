@@ -98,3 +98,17 @@ No lookahead applies to names too. Each asset carries the name it had when its s
 plus a list of renames (Uniphase, then JDS Uniphase, then Viavi Solutions), and the server
 resolves the name for the current month with `nameAt`. Notes, sources and end events are for
 maintainers and are never sent to players before the event has happened.
+
+## Running locally
+
+```
+npm install
+npm test            # engine and server tests
+npm run dev         # API on http://localhost:3000, restarts on change
+```
+
+Without `DATABASE_URL` the server uses an embedded Postgres in memory, so no database setup
+is needed for development; set `PGLITE_DIR` to keep games across restarts. With `DATABASE_URL`
+it connects to a real Postgres (Railway) and creates the tables on first start. The server
+serves the built web client from `web/build` when it exists. Market data is read from
+`data/out` at startup; rebuild it with `npm run data:build`.

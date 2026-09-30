@@ -12,8 +12,10 @@ export type Currency = "USD" | "CHF" | "JPY" | "GBP" | "EUR";
 export interface CorporateEnd {
   month: string; // last month the position exists
   type: "acquisition" | "delisting" | "bankruptcy" | "merger";
-  /** For acquisition/merger: what the holder receives. Free text for now. */
+  /** Shown to the player when the event happens. */
   note: string;
+  /** Asset id a merger converts into; see AssetEnd in @marketsim/shared for the rules. */
+  successor?: string;
 }
 
 export interface StockDef {
@@ -71,20 +73,20 @@ export const UNIVERSE: StockDef[] = [
 
   // --- mining ---------------------------------------------------------------
   { id: "glencore", name: "Glencore", source: "yahoo", ticker: "GLEN.L", currency: "GBP", note: "Listed May 2011, merged with Xstrata in 2013." },
-  { id: "xstrata", name: "Xstrata", source: "manual", currency: "GBP", end: { month: "2013-04", type: "merger", note: "Merged into Glencore, 3.05 Glencore shares per Xstrata share" } },
+  { id: "xstrata", name: "Xstrata", source: "manual", currency: "GBP", end: { month: "2013-04", type: "merger", note: "Merged into Glencore, 3.05 Glencore shares per Xstrata share", successor: "glencore" } },
 
   // --- Swiss ----------------------------------------------------------------
   { id: "nestle", name: "Nestlé", source: "yahoo", ticker: "NESN.SW", currency: "CHF", note: "Yahoo data from 1990-01; 1980 to 1989 needs a manual prefix." },
   { id: "novartis", name: "Novartis", source: "yahoo", ticker: "NOVN.SW", currency: "CHF", note: "Formed 1996 from Sandoz and Ciba-Geigy." },
   { id: "ubs", name: "UBS (Schweizerische Bankgesellschaft until 1998)", source: "yahoo", ticker: "UBSG.SW", currency: "CHF", note: "UBS AG is the renamed Schweizerische Bankgesellschaft (Union Bank of Switzerland), which merged with Bankverein in June 1998. Yahoo data from 1995-08; 1980 to 1995 needs a manual prefix. Verify that Yahoo's 1995-1998 prices are Bankgesellschaft's." },
-  { id: "sbv", name: "Schweizerischer Bankverein (Swiss Bank Corporation)", source: "manual", currency: "CHF", end: { month: "1998-06", type: "merger", note: "Merged with Bankgesellschaft into UBS; holders received 1 1/13 UBS shares per Bankverein share" } },
-  { id: "sandoz", name: "Sandoz", source: "manual", currency: "CHF", end: { month: "1996-12", type: "merger", note: "Merged into Novartis" } },
-  { id: "ciba-geigy", name: "Ciba-Geigy", source: "manual", currency: "CHF", end: { month: "1996-12", type: "merger", note: "Merged into Novartis" } },
-  { id: "credit-suisse", name: "Credit Suisse", source: "manual", currency: "CHF", end: { month: "2023-06", type: "acquisition", note: "Taken over by UBS, 1 UBS share per 22.48 CS shares" } },
+  { id: "sbv", name: "Schweizerischer Bankverein (Swiss Bank Corporation)", source: "manual", currency: "CHF", end: { month: "1998-06", type: "merger", note: "Merged with Bankgesellschaft into UBS; holders received 1 1/13 UBS shares per Bankverein share", successor: "ubs" } },
+  { id: "sandoz", name: "Sandoz", source: "manual", currency: "CHF", end: { month: "1996-12", type: "merger", note: "Merged into Novartis", successor: "novartis" } },
+  { id: "ciba-geigy", name: "Ciba-Geigy", source: "manual", currency: "CHF", end: { month: "1996-12", type: "merger", note: "Merged into Novartis", successor: "novartis" } },
+  { id: "credit-suisse", name: "Credit Suisse", source: "manual", currency: "CHF", end: { month: "2023-06", type: "merger", note: "Taken over by UBS, 1 UBS share per 22.48 CS shares", successor: "ubs" } },
   { id: "swissair", name: "Swissair (SAirGroup)", source: "manual", currency: "CHF", end: { month: "2001-10", type: "bankruptcy", note: "Grounded October 2001" } },
 
   // --- Japan bubble ---------------------------------------------------------
-  { id: "ibj", name: "Industrial Bank of Japan", source: "manual", currency: "JPY", end: { month: "2000-09", type: "merger", note: "Merged into Mizuho" } },
+  { id: "ibj", name: "Industrial Bank of Japan", source: "manual", currency: "JPY", end: { month: "2000-09", type: "acquisition", note: "Merged into Mizuho, which is not in the game; paid out at the last price" } },
 
   // --- failures -------------------------------------------------------------
   { id: "enron", name: "Enron", source: "manual", currency: "USD", end: { month: "2001-12", type: "bankruptcy", note: "Chapter 11, December 2001" } },

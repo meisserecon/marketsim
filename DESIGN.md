@@ -66,3 +66,34 @@ bonds rolled monthly.
 
 TypeScript end to end. Svelte (SvelteKit) frontend, Node server, Postgres on Railway.
 Data pipeline is a separate workspace (`data/`) that produces static JSON.
+
+## Contracts
+
+Three interfaces hold the parts together. All live in code, in the `shared` workspace, so
+server, client and data pipeline compile against the same definitions.
+
+- **Asset data** (`shared/src/asset.ts`): what the data pipeline writes to `data/out` and the
+  engine reads. One row per month with `price` and `income`, plus an optional end event.
+- **Game engine** (`shared/src/engine.ts`): the rules as pure functions, covered by
+  `shared/test`. `applyTrade` executes a trade at the month's price; `advanceMonth` winds up
+  ended assets and pays income into cash. A game starts in the base month 1979-12, where
+  players build their first portfolio, and runs to the last month all living assets have data.
+- **HTTP API** (`shared/src/api.ts`): routes and payload types between server and client.
+  Live updates go out as Server-Sent Events.
+
+The database schema is in `server/db/schema.sql`. Market data stays in JSON files loaded into
+memory; Postgres only holds games, players, holdings, the ledger and month-end snapshots.
+
+Rules the engine fixes that were previously open:
+
+- Cash is not one of the five positions. It is the sixth, always present.
+- Fractional units are allowed, so players can invest a USD amount.
+- A merger converts the position into the successor at both assets' final-month prices, which
+  preserves value and avoids share ratios. Sandoz and Ciba-Geigy become Novartis, Bankverein
+  and Credit Suisse become UBS, Xstrata becomes Glencore. Industrial Bank of Japan is paid out
+  in cash because Mizuho is not in the game.
+- An asset is invisible before its first month and untradable after its last.
+
+Open: asset names and notes currently leak the future ("JDS Uniphase (Viavi)", "UBS
+(Schweizerische Bankgesellschaft until 1998)"). The API promises the name valid in the current
+month, so the universe needs a name history per asset before the server can serve it.

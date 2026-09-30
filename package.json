@@ -4,15 +4,17 @@
   "workspaces": [
     "shared",
     "data",
-    "server"
+    "server",
+    "web"
   ],
   "scripts": {
     "data:fetch": "npm run fetch -w data",
     "data:build": "npm run build -w data",
     "data:validate": "npm run validate -w data",
     "test": "npm test -w shared && npm test -w server",
-    "typecheck": "npm run typecheck -w shared && tsc --noEmit -p data && npm run typecheck -w server",
+    "typecheck": "npm run typecheck -w shared && tsc --noEmit -p data && npm run typecheck -w server && npm run check -w web",
     "dev": "npm run dev -w server",
-    "start": "npm run start -w server"
+    "start": "npm run start -w server",
+    "build": "npm run build -w web"
   }
 }

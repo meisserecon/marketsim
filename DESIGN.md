@@ -37,9 +37,10 @@ on their corporate end event.
 - **US, full period:** IBM, GE, Exxon, Coca-Cola, Walmart, Boeing, Ford.
 - **US, later arrivals:** Apple (1980-12), Microsoft (1986), Cisco (1990), Amazon (1997),
   Nvidia (1999), Google (2004), Tesla (2010).
-- **Dot-com boom and bust:** JDS Uniphase, Akamai, Priceline, SoftBank as survivors that lost
-  over 90 percent; Webvan, Pets.com, WorldCom as failures.
-- **International:** Sony, Unilever, TSMC.
+- **Dot-com boom and bust:** JDS Uniphase, Akamai, Priceline as survivors that lost over
+  90 percent; Pets.com, WorldCom as failures.
+- **International:** Sony, Unilever.
+- **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
 - **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS, Credit Suisse,
   Swissair.
 - **Japanese bubble:** Industrial Bank of Japan (merged into Mizuho in 2000).

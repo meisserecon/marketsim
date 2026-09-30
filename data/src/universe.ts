@@ -7,7 +7,7 @@
  *
  * Prices in CHF or JPY are converted to USD at the month-end FRED exchange rate.
  */
-export type Currency = "USD" | "CHF" | "JPY";
+export type Currency = "USD" | "CHF" | "JPY" | "GBP";
 
 export interface CorporateEnd {
   month: string; // last month the position exists
@@ -49,12 +49,14 @@ export const UNIVERSE: StockDef[] = [
   { id: "jdsu", name: "JDS Uniphase (Viavi)", source: "yahoo", ticker: "VIAV", currency: "USD", note: "Fell 99% from the 2000 peak, renamed Viavi in 2015." },
   { id: "akam", name: "Akamai", source: "yahoo", ticker: "AKAM", currency: "USD" },
   { id: "pcln", name: "Priceline (Booking)", source: "yahoo", ticker: "BKNG", currency: "USD" },
-  { id: "softbank", name: "SoftBank", source: "yahoo", ticker: "9984.T", currency: "JPY" },
 
   // --- international --------------------------------------------------------
   { id: "sony", name: "Sony", source: "yahoo", ticker: "SONY", currency: "USD" },
   { id: "unilever", name: "Unilever", source: "yahoo", ticker: "UL", currency: "USD" },
-  { id: "tsmc", name: "TSMC", source: "yahoo", ticker: "TSM", currency: "USD" },
+
+  // --- mining ---------------------------------------------------------------
+  { id: "glencore", name: "Glencore", source: "yahoo", ticker: "GLEN.L", currency: "GBP", note: "Listed May 2011, merged with Xstrata in 2013." },
+  { id: "xstrata", name: "Xstrata", source: "manual", currency: "GBP", end: { month: "2013-04", type: "merger", note: "Merged into Glencore, 3.05 Glencore shares per Xstrata share" } },
 
   // --- Swiss ----------------------------------------------------------------
   { id: "nestle", name: "Nestlé", source: "yahoo", ticker: "NESN.SW", currency: "CHF", note: "Yahoo data from 1989-12; earlier years to be added manually." },
@@ -72,6 +74,5 @@ export const UNIVERSE: StockDef[] = [
   { id: "enron", name: "Enron", source: "manual", currency: "USD", end: { month: "2001-12", type: "bankruptcy", note: "Chapter 11, December 2001" } },
   { id: "lehman", name: "Lehman Brothers", source: "manual", currency: "USD", end: { month: "2008-09", type: "bankruptcy", note: "Chapter 11, September 2008" } },
   { id: "worldcom", name: "WorldCom", source: "manual", currency: "USD", end: { month: "2002-07", type: "bankruptcy", note: "Chapter 11, July 2002" } },
-  { id: "webvan", name: "Webvan", source: "manual", currency: "USD", end: { month: "2001-07", type: "bankruptcy", note: "Shut down July 2001" } },
   { id: "pets-com", name: "Pets.com", source: "manual", currency: "USD", end: { month: "2000-11", type: "bankruptcy", note: "Liquidated November 2000" } },
 ];

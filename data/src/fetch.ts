@@ -14,6 +14,7 @@ import { UNIVERSE } from "./universe.js";
 const FRED_SERIES = [
   "DGS1", "DGS5", "DGS10", // daily constant-maturity treasury yields, percent
   "DEXSZUS", "DEXJPUS", // CHF per USD, JPY per USD, daily
+  "DEXUSUK", // USD per GBP, daily
 ];
 const GOLD_URL = "https://datahub.io/core/gold-prices/r/monthly.csv"; // LBMA monthly average, USD/oz
 
@@ -48,19 +49,24 @@ async function fetchYahooMonthly(ticker: string, file: string) {
     return `${parts.find((p) => p.type === "year")!.value}-${parts.find((p) => p.type === "month")!.value}`;
   };
 
+  // London quotes prices and dividends in pence; normalise to pounds.
+  let currency: string = r.meta.currency;
+  let scale = 1;
+  if (currency === "GBp") { currency = "GBP"; scale = 0.01; }
+
   const ts: number[] = r.timestamp ?? [];
   const closes: (number | null)[] = r.indicators?.quote?.[0]?.close ?? [];
   const close = new Map<string, number>();
-  for (let i = 0; i < ts.length; i++) if (closes[i] != null) close.set(monthOf(ts[i]), closes[i]!);
+  for (let i = 0; i < ts.length; i++) if (closes[i] != null) close.set(monthOf(ts[i]), closes[i]! * scale);
 
   const div = new Map<string, number>();
   for (const d of Object.values<any>(r.events?.dividends ?? {})) {
     const m = monthOf(d.date);
-    div.set(m, (div.get(m) ?? 0) + d.amount);
+    div.set(m, (div.get(m) ?? 0) + d.amount * scale);
   }
 
   const months = [...close.keys()].sort();
-  const lines = ["month,close,dividend,currency", ...months.map((m) => `${m},${close.get(m)},${div.get(m) ?? 0},${r.meta.currency}`)];
+  const lines = ["month,close,dividend,currency", ...months.map((m) => `${m},${close.get(m)},${div.get(m) ?? 0},${currency}`)];
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, lines.join("\n") + "\n");
   console.log(`${path.relative(RAW_DIR, file)}: ${months[0]} .. ${months[months.length - 1]}, ${months.length} months, ${div.size} dividend months, ${r.meta.currency}`);

@@ -88,6 +88,7 @@ const usdPer: Record<Currency, (m: string) => number> = {
   USD: () => 1,
   CHF: (() => { const chfPerUsd = fredMonthly("DEXSZUS"); return (m: string) => 1 / need(chfPerUsd, m, "DEXSZUS"); })(),
   JPY: (() => { const jpyPerUsd = fredMonthly("DEXJPUS"); return (m: string) => 1 / need(jpyPerUsd, m, "DEXJPUS"); })(),
+  GBP: (() => { const usdPerGbp = fredMonthly("DEXUSUK"); return (m: string) => need(usdPerGbp, m, "DEXUSUK"); })(),
 };
 function need(map: Map<string, number>, m: string, what: string): number {
   const v = map.get(m);

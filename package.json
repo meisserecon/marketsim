@@ -3,7 +3,8 @@
   "private": true,
   "workspaces": [
     "shared",
-    "data"
+    "data",
+    "web"
   ],
   "scripts": {
     "data:fetch": "npm run fetch -w data",

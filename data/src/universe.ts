@@ -66,7 +66,6 @@ export const UNIVERSE: StockDef[] = [
 
   // --- international --------------------------------------------------------
   { id: "sony", name: "Sony", source: "yahoo", ticker: "SONY", currency: "USD" },
-  { id: "unilever", name: "Unilever", source: "yahoo", ticker: "UL", currency: "USD" },
   { id: "siemens", name: "Siemens", source: "yahoo", ticker: "SIE.DE", currency: "EUR", note: "Yahoo data from 1996-11; 1980 to 1996 needs a manual prefix." },
   { id: "nokia", name: "Nokia", source: "yahoo", ticker: "NOK", currency: "USD", note: "ADR from 1994-07. Peak 2000, lost the phone business to Apple." },
 

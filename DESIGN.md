@@ -38,20 +38,20 @@ on their corporate end event.
   Citigroup, McDonald's, Disney, Intel.
 - **US, later arrivals:** Apple (1980-12), Microsoft (1986), Cisco (1990), Amazon (1997),
   eBay (1998), Nvidia (1999).
-
-Hindsight is unavoidable, so winners are paired with names that looked as good at the time:
-Intel against Microsoft and Cisco, eBay against Amazon, Schlumberger for the 1980 oil peak.
-The leaderboard should show the S&P 500 total return as a benchmark.
 - **Autos:** Tesla (2010), Mercedes-Benz and BMW (Yahoo from late 1996; earlier Daimler-Benz
   history to be curated, decision pending).
 - **Dot-com boom and bust:** JDS Uniphase, Priceline as survivors that lost over 90 percent;
   Pets.com, WorldCom as failures.
-- **International:** Sony, Unilever, Siemens (1996), Nokia (1994).
+- **International:** Sony, Siemens (1996), Nokia (1994).
 - **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
 - **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS as the continuation
   of Bankgesellschaft with Bankverein separately until the 1998 merger, Credit Suisse, Swissair.
 - **Japanese bubble:** Industrial Bank of Japan (merged into Mizuho in 2000).
 - **Other failures:** Enron, Lehman Brothers.
+
+Hindsight is unavoidable, so winners are paired with names that looked as good at the time:
+Intel against Microsoft and Cisco, eBay against Amazon, Schlumberger for the 1980 oil peak.
+The leaderboard should show the S&P 500 total return as a benchmark.
 
 Everything not on Yahoo Finance (delisted companies, Swiss stocks before the 1990s, Japanese
 banks before 1999) is hand-curated in `data/manual/`.

@@ -1,0 +1,2819 @@
+{
+ "id": "mo",
+ "name": "Altria (Philip Morris)",
+ "kind": "stock",
+ "currency": "USD",
+ "source": "Yahoo Finance MO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Kraft Foods 2007-04 (factor 0.750), Philip Morris International 2008-03 (factor 0.302)",
+ "rows": [
+  {
+   "month": "1979-12",
+   "price": 0.3398,
+   "income": 0.002945
+  },
+  {
+   "month": "1980-01",
+   "price": 0.3269,
+   "income": 0
+  },
+  {
+   "month": "1980-02",
+   "price": 0.3151,
+   "income": 0
+  },
+  {
+   "month": "1980-03",
+   "price": 0.3245,
+   "income": 0.003776
+  },
+  {
+   "month": "1980-04",
+   "price": 0.3587,
+   "income": 0
+  },
+  {
+   "month": "1980-05",
+   "price": 0.3587,
+   "income": 0
+  },
+  {
+   "month": "1980-06",
+   "price": 0.38,
+   "income": 0.003776
+  },
+  {
+   "month": "1980-07",
+   "price": 0.4295,
+   "income": 0
+  },
+  {
+   "month": "1980-08",
+   "price": 0.4165,
+   "income": 0
+  },
+  {
+   "month": "1980-09",
+   "price": 0.3977,
+   "income": 0.003776
+  },
+  {
+   "month": "1980-10",
+   "price": 0.4024,
+   "income": 0
+  },
+  {
+   "month": "1980-11",
+   "price": 0.387,
+   "income": 0
+  },
+  {
+   "month": "1980-12",
+   "price": 0.4083,
+   "income": 0.003776
+  },
+  {
+   "month": "1981-01",
+   "price": 0.413,
+   "income": 0
+  },
+  {
+   "month": "1981-02",
+   "price": 0.4531,
+   "income": 0
+  },
+  {
+   "month": "1981-03",
+   "price": 0.4826,
+   "income": 0.00472
+  },
+  {
+   "month": "1981-04",
+   "price": 0.4791,
+   "income": 0
+  },
+  {
+   "month": "1981-05",
+   "price": 0.4909,
+   "income": 0
+  },
+  {
+   "month": "1981-06",
+   "price": 0.4696,
+   "income": 0.00472
+  },
+  {
+   "month": "1981-07",
+   "price": 0.4696,
+   "income": 0
+  },
+  {
+   "month": "1981-08",
+   "price": 0.4319,
+   "income": 0
+  },
+  {
+   "month": "1981-09",
+   "price": 0.4449,
+   "income": 0.00472
+  },
+  {
+   "month": "1981-10",
+   "price": 0.4909,
+   "income": 0
+  },
+  {
+   "month": "1981-11",
+   "price": 0.4944,
+   "income": 0
+  },
+  {
+   "month": "1981-12",
+   "price": 0.4602,
+   "income": 0.00472
+  },
+  {
+   "month": "1982-01",
+   "price": 0.4755,
+   "income": 0
+  },
+  {
+   "month": "1982-02",
+   "price": 0.4295,
+   "income": 0
+  },
+  {
+   "month": "1982-03",
+   "price": 0.446,
+   "income": 0.005664
+  },
+  {
+   "month": "1982-04",
+   "price": 0.485,
+   "income": 0
+  },
+  {
+   "month": "1982-05",
+   "price": 0.4649,
+   "income": 0
+  },
+  {
+   "month": "1982-06",
+   "price": 0.4838,
+   "income": 0.005664
+  },
+  {
+   "month": "1982-07",
+   "price": 0.4519,
+   "income": 0
+  },
+  {
+   "month": "1982-08",
+   "price": 0.5121,
+   "income": 0
+  },
+  {
+   "month": "1982-09",
+   "price": 0.518,
+   "income": 0.005664
+  },
+  {
+   "month": "1982-10",
+   "price": 0.5959,
+   "income": 0
+  },
+  {
+   "month": "1982-11",
+   "price": 0.5877,
+   "income": 0
+  },
+  {
+   "month": "1982-12",
+   "price": 0.5664,
+   "income": 0.005664
+  },
+  {
+   "month": "1983-01",
+   "price": 0.5546,
+   "income": 0
+  },
+  {
+   "month": "1983-02",
+   "price": 0.5806,
+   "income": 0
+  },
+  {
+   "month": "1983-03",
+   "price": 0.5947,
+   "income": 0.006844
+  },
+  {
+   "month": "1983-04",
+   "price": 0.6018,
+   "income": 0
+  },
+  {
+   "month": "1983-05",
+   "price": 0.5546,
+   "income": 0
+  },
+  {
+   "month": "1983-06",
+   "price": 0.5534,
+   "income": 0.006844
+  },
+  {
+   "month": "1983-07",
+   "price": 0.5523,
+   "income": 0
+  },
+  {
+   "month": "1983-08",
+   "price": 0.5888,
+   "income": 0
+  },
+  {
+   "month": "1983-09",
+   "price": 0.6349,
+   "income": 0.006844
+  },
+  {
+   "month": "1983-10",
+   "price": 0.6443,
+   "income": 0
+  },
+  {
+   "month": "1983-11",
+   "price": 0.6655,
+   "income": 0
+  },
+  {
+   "month": "1983-12",
+   "price": 0.6773,
+   "income": 0.006844
+  },
+  {
+   "month": "1984-01",
+   "price": 0.7021,
+   "income": 0
+  },
+  {
+   "month": "1984-02",
+   "price": 0.6443,
+   "income": 0
+  },
+  {
+   "month": "1984-03",
+   "price": 0.6372,
+   "income": 0.008024
+  },
+  {
+   "month": "1984-04",
+   "price": 0.6136,
+   "income": 0
+  },
+  {
+   "month": "1984-05",
+   "price": 0.6054,
+   "income": 0
+  },
+  {
+   "month": "1984-06",
+   "price": 0.6537,
+   "income": 0.008024
+  },
+  {
+   "month": "1984-07",
+   "price": 0.6443,
+   "income": 0
+  },
+  {
+   "month": "1984-08",
+   "price": 0.7186,
+   "income": 0
+  },
+  {
+   "month": "1984-09",
+   "price": 0.7363,
+   "income": 0.008024
+  },
+  {
+   "month": "1984-10",
+   "price": 0.754,
+   "income": 0
+  },
+  {
+   "month": "1984-11",
+   "price": 0.7647,
+   "income": 0
+  },
+  {
+   "month": "1984-12",
+   "price": 0.7611,
+   "income": 0.008024
+  },
+  {
+   "month": "1985-01",
+   "price": 0.78,
+   "income": 0
+  },
+  {
+   "month": "1985-02",
+   "price": 0.8555,
+   "income": 0
+  },
+  {
+   "month": "1985-03",
+   "price": 0.8815,
+   "income": 0.00944
+  },
+  {
+   "month": "1985-04",
+   "price": 0.8107,
+   "income": 0
+  },
+  {
+   "month": "1985-05",
+   "price": 0.8107,
+   "income": 0
+  },
+  {
+   "month": "1985-06",
+   "price": 0.806,
+   "income": 0.00944
+  },
+  {
+   "month": "1985-07",
+   "price": 0.7871,
+   "income": 0
+  },
+  {
+   "month": "1985-08",
+   "price": 0.7717,
+   "income": 0
+  },
+  {
+   "month": "1985-09",
+   "price": 0.708,
+   "income": 0.00944
+  },
+  {
+   "month": "1985-10",
+   "price": 0.6927,
+   "income": 0
+  },
+  {
+   "month": "1985-11",
+   "price": 0.7505,
+   "income": 0
+  },
+  {
+   "month": "1985-12",
+   "price": 0.8343,
+   "income": 0.00944
+  },
+  {
+   "month": "1986-01",
+   "price": 0.9015,
+   "income": 0
+  },
+  {
+   "month": "1986-02",
+   "price": 0.9865,
+   "income": 0
+  },
+  {
+   "month": "1986-03",
+   "price": 1.1092,
+   "income": 0.010856
+  },
+  {
+   "month": "1986-04",
+   "price": 1.1328,
+   "income": 0
+  },
+  {
+   "month": "1986-05",
+   "price": 1.3027,
+   "income": 0
+  },
+  {
+   "month": "1986-06",
+   "price": 1.4089,
+   "income": 0.010856
+  },
+  {
+   "month": "1986-07",
+   "price": 1.3594,
+   "income": 0
+  },
+  {
+   "month": "1986-08",
+   "price": 1.4349,
+   "income": 0
+  },
+  {
+   "month": "1986-09",
+   "price": 1.2508,
+   "income": 0.010856
+  },
+  {
+   "month": "1986-10",
+   "price": 1.3877,
+   "income": 0
+  },
+  {
+   "month": "1986-11",
+   "price": 1.4019,
+   "income": 0
+  },
+  {
+   "month": "1986-12",
+   "price": 1.357,
+   "income": 0.01416
+  },
+  {
+   "month": "1987-01",
+   "price": 1.6638,
+   "income": 0
+  },
+  {
+   "month": "1987-02",
+   "price": 1.5954,
+   "income": 0
+  },
+  {
+   "month": "1987-03",
+   "price": 1.6072,
+   "income": 0.01416
+  },
+  {
+   "month": "1987-04",
+   "price": 1.5765,
+   "income": 0
+  },
+  {
+   "month": "1987-05",
+   "price": 1.6119,
+   "income": 0
+  },
+  {
+   "month": "1987-06",
+   "price": 1.6922,
+   "income": 0.01416
+  },
+  {
+   "month": "1987-07",
+   "price": 1.8574,
+   "income": 0
+  },
+  {
+   "month": "1987-08",
+   "price": 2.2255,
+   "income": 0
+  },
+  {
+   "month": "1987-09",
+   "price": 2.2444,
+   "income": 0.01416
+  },
+  {
+   "month": "1987-10",
+   "price": 1.7535,
+   "income": 0
+  },
+  {
+   "month": "1987-11",
+   "price": 1.6214,
+   "income": 0
+  },
+  {
+   "month": "1987-12",
+   "price": 1.6119,
+   "income": 0.016992
+  },
+  {
+   "month": "1988-01",
+   "price": 1.6379,
+   "income": 0
+  },
+  {
+   "month": "1988-02",
+   "price": 1.77,
+   "income": 0
+  },
+  {
+   "month": "1988-03",
+   "price": 1.6922,
+   "income": 0.016992
+  },
+  {
+   "month": "1988-04",
+   "price": 1.6827,
+   "income": 0
+  },
+  {
+   "month": "1988-05",
+   "price": 1.5836,
+   "income": 0
+  },
+  {
+   "month": "1988-06",
+   "price": 1.5836,
+   "income": 0.016992
+  },
+  {
+   "month": "1988-07",
+   "price": 1.7299,
+   "income": 0
+  },
+  {
+   "month": "1988-08",
+   "price": 1.7346,
+   "income": 0
+  },
+  {
+   "month": "1988-09",
+   "price": 1.8267,
+   "income": 0.02124
+  },
+  {
+   "month": "1988-10",
+   "price": 1.8007,
+   "income": 0
+  },
+  {
+   "month": "1988-11",
+   "price": 1.8243,
+   "income": 0
+  },
+  {
+   "month": "1988-12",
+   "price": 1.9234,
+   "income": 0.02124
+  },
+  {
+   "month": "1989-01",
+   "price": 2.058,
+   "income": 0
+  },
+  {
+   "month": "1989-02",
+   "price": 2.0414,
+   "income": 0
+  },
+  {
+   "month": "1989-03",
+   "price": 2.268,
+   "income": 0.02124
+  },
+  {
+   "month": "1989-04",
+   "price": 2.4002,
+   "income": 0
+  },
+  {
+   "month": "1989-05",
+   "price": 2.6267,
+   "income": 0
+  },
+  {
+   "month": "1989-06",
+   "price": 2.6173,
+   "income": 0.02124
+  },
+  {
+   "month": "1989-07",
+   "price": 2.9925,
+   "income": 0
+  },
+  {
+   "month": "1989-08",
+   "price": 3.0917,
+   "income": 0
+  },
+  {
+   "month": "1989-09",
+   "price": 3.1082,
+   "income": 0.02596
+  },
+  {
+   "month": "1989-10",
+   "price": 3.2474,
+   "income": 0
+  },
+  {
+   "month": "1989-11",
+   "price": 3.2002,
+   "income": 0
+  },
+  {
+   "month": "1989-12",
+   "price": 3.1436,
+   "income": 0.025979
+  },
+  {
+   "month": "1990-01",
+   "price": 2.8604,
+   "income": 0
+  },
+  {
+   "month": "1990-02",
+   "price": 2.7943,
+   "income": 0
+  },
+  {
+   "month": "1990-03",
+   "price": 2.9925,
+   "income": 0.025979
+  },
+  {
+   "month": "1990-04",
+   "price": 3.1719,
+   "income": 0
+  },
+  {
+   "month": "1990-05",
+   "price": 3.1813,
+   "income": 0
+  },
+  {
+   "month": "1990-06",
+   "price": 3.5118,
+   "income": 0.025979
+  },
+  {
+   "month": "1990-07",
+   "price": 3.6156,
+   "income": 0
+  },
+  {
+   "month": "1990-08",
+   "price": 3.4079,
+   "income": 0
+  },
+  {
+   "month": "1990-09",
+   "price": 3.4173,
+   "income": 0.032474
+  },
+  {
+   "month": "1990-10",
+   "price": 3.559,
+   "income": 0
+  },
+  {
+   "month": "1990-11",
+   "price": 3.6722,
+   "income": 0
+  },
+  {
+   "month": "1990-12",
+   "price": 3.9082,
+   "income": 0.032474
+  },
+  {
+   "month": "1991-01",
+   "price": 4.2009,
+   "income": 0
+  },
+  {
+   "month": "1991-02",
+   "price": 4.9844,
+   "income": 0
+  },
+  {
+   "month": "1991-03",
+   "price": 5.1355,
+   "income": 0.032474
+  },
+  {
+   "month": "1991-04",
+   "price": 5.0411,
+   "income": 0
+  },
+  {
+   "month": "1991-05",
+   "price": 5.1638,
+   "income": 0
+  },
+  {
+   "month": "1991-06",
+   "price": 4.7956,
+   "income": 0.032474
+  },
+  {
+   "month": "1991-07",
+   "price": 5.1166,
+   "income": 0
+  },
+  {
+   "month": "1991-08",
+   "price": 5.598,
+   "income": 0
+  },
+  {
+   "month": "1991-09",
+   "price": 5.447,
+   "income": 0.039649
+  },
+  {
+   "month": "1991-10",
+   "price": 5.2959,
+   "income": 0
+  },
+  {
+   "month": "1991-11",
+   "price": 5.1166,
+   "income": 0
+  },
+  {
+   "month": "1991-12",
+   "price": 6.0606,
+   "income": 0.039649
+  },
+  {
+   "month": "1992-01",
+   "price": 5.768,
+   "income": 0
+  },
+  {
+   "month": "1992-02",
+   "price": 5.7963,
+   "income": 0
+  },
+  {
+   "month": "1992-03",
+   "price": 5.7208,
+   "income": 0.039649
+  },
+  {
+   "month": "1992-04",
+   "price": 5.8812,
+   "income": 0
+  },
+  {
+   "month": "1992-05",
+   "price": 5.8529,
+   "income": 0
+  },
+  {
+   "month": "1992-06",
+   "price": 5.5508,
+   "income": 0.039649
+  },
+  {
+   "month": "1992-07",
+   "price": 6.0323,
+   "income": 0
+  },
+  {
+   "month": "1992-08",
+   "price": 6.1928,
+   "income": 0
+  },
+  {
+   "month": "1992-09",
+   "price": 6.4005,
+   "income": 0.049089
+  },
+  {
+   "month": "1992-10",
+   "price": 5.7396,
+   "income": 0
+  },
+  {
+   "month": "1992-11",
+   "price": 6.0134,
+   "income": 0
+  },
+  {
+   "month": "1992-12",
+   "price": 5.8246,
+   "income": 0.049089
+  },
+  {
+   "month": "1993-01",
+   "price": 5.6452,
+   "income": 0
+  },
+  {
+   "month": "1993-02",
+   "price": 5.0694,
+   "income": 0
+  },
+  {
+   "month": "1993-03",
+   "price": 4.8334,
+   "income": 0.049089
+  },
+  {
+   "month": "1993-04",
+   "price": 3.5495,
+   "income": 0
+  },
+  {
+   "month": "1993-05",
+   "price": 3.8044,
+   "income": 0
+  },
+  {
+   "month": "1993-06",
+   "price": 3.6439,
+   "income": 0.049089
+  },
+  {
+   "month": "1993-07",
+   "price": 3.559,
+   "income": 0
+  },
+  {
+   "month": "1993-08",
+   "price": 3.6817,
+   "income": 0
+  },
+  {
+   "month": "1993-09",
+   "price": 3.4646,
+   "income": 0.049089
+  },
+  {
+   "month": "1993-10",
+   "price": 4.0593,
+   "income": 0
+  },
+  {
+   "month": "1993-11",
+   "price": 4.2292,
+   "income": 0
+  },
+  {
+   "month": "1993-12",
+   "price": 4.2009,
+   "income": 0.049089
+  },
+  {
+   "month": "1994-01",
+   "price": 4.5502,
+   "income": 0
+  },
+  {
+   "month": "1994-02",
+   "price": 4.2292,
+   "income": 0
+  },
+  {
+   "month": "1994-03",
+   "price": 3.8233,
+   "income": 0.05211
+  },
+  {
+   "month": "1994-04",
+   "price": 4.1159,
+   "income": 0
+  },
+  {
+   "month": "1994-05",
+   "price": 3.7194,
+   "income": 0
+  },
+  {
+   "month": "1994-06",
+   "price": 3.8894,
+   "income": 0.05211
+  },
+  {
+   "month": "1994-07",
+   "price": 4.1537,
+   "income": 0
+  },
+  {
+   "month": "1994-08",
+   "price": 4.6068,
+   "income": 0
+  },
+  {
+   "month": "1994-09",
+   "price": 4.6163,
+   "income": 0.062305
+  },
+  {
+   "month": "1994-10",
+   "price": 4.6257,
+   "income": 0
+  },
+  {
+   "month": "1994-11",
+   "price": 4.5124,
+   "income": 0
+  },
+  {
+   "month": "1994-12",
+   "price": 4.3425,
+   "income": 0.062305
+  },
+  {
+   "month": "1995-01",
+   "price": 4.5124,
+   "income": 0
+  },
+  {
+   "month": "1995-02",
+   "price": 4.5879,
+   "income": 0
+  },
+  {
+   "month": "1995-03",
+   "price": 4.9372,
+   "income": 0.020769
+  },
+  {
+   "month": "1995-04",
+   "price": 5.1166,
+   "income": 0
+  },
+  {
+   "month": "1995-05",
+   "price": 5.5036,
+   "income": 0
+  },
+  {
+   "month": "1995-06",
+   "price": 5.6169,
+   "income": 0.062305
+  },
+  {
+   "month": "1995-07",
+   "price": 5.4092,
+   "income": 0
+  },
+  {
+   "month": "1995-08",
+   "price": 5.6358,
+   "income": 0
+  },
+  {
+   "month": "1995-09",
+   "price": 6.306,
+   "income": 0.075521
+  },
+  {
+   "month": "1995-10",
+   "price": 6.3627,
+   "income": 0
+  },
+  {
+   "month": "1995-11",
+   "price": 6.627,
+   "income": 0
+  },
+  {
+   "month": "1995-12",
+   "price": 6.8158,
+   "income": 0.075521
+  },
+  {
+   "month": "1996-01",
+   "price": 7.0046,
+   "income": 0
+  },
+  {
+   "month": "1996-02",
+   "price": 7.4766,
+   "income": 0
+  },
+  {
+   "month": "1996-03",
+   "price": 6.627,
+   "income": 0.075521
+  },
+  {
+   "month": "1996-04",
+   "price": 6.8064,
+   "income": 0
+  },
+  {
+   "month": "1996-05",
+   "price": 7.505,
+   "income": 0
+  },
+  {
+   "month": "1996-06",
+   "price": 7.8542,
+   "income": 0.075521
+  },
+  {
+   "month": "1996-07",
+   "price": 7.9014,
+   "income": 0
+  },
+  {
+   "month": "1996-08",
+   "price": 6.7781,
+   "income": 0
+  },
+  {
+   "month": "1996-09",
+   "price": 6.7781,
+   "income": 0.090626
+  },
+  {
+   "month": "1996-10",
+   "price": 6.9763,
+   "income": 0
+  },
+  {
+   "month": "1996-11",
+   "price": 7.7976,
+   "income": 0
+  },
+  {
+   "month": "1996-12",
+   "price": 8.5339,
+   "income": 0.090626
+  },
+  {
+   "month": "1997-01",
+   "price": 8.9776,
+   "income": 0
+  },
+  {
+   "month": "1997-02",
+   "price": 10.2143,
+   "income": 0
+  },
+  {
+   "month": "1997-03",
+   "price": 8.6189,
+   "income": 0.090626
+  },
+  {
+   "month": "1997-04",
+   "price": 8.921,
+   "income": 0
+  },
+  {
+   "month": "1997-05",
+   "price": 9.9688,
+   "income": 0
+  },
+  {
+   "month": "1997-06",
+   "price": 10.0255,
+   "income": 0.090626
+  },
+  {
+   "month": "1997-07",
+   "price": 10.2237,
+   "income": 0
+  },
+  {
+   "month": "1997-08",
+   "price": 9.898,
+   "income": 0
+  },
+  {
+   "month": "1997-09",
+   "price": 9.4166,
+   "income": 0.090626
+  },
+  {
+   "month": "1997-10",
+   "price": 8.9776,
+   "income": 0
+  },
+  {
+   "month": "1997-11",
+   "price": 9.8556,
+   "income": 0
+  },
+  {
+   "month": "1997-12",
+   "price": 10.252,
+   "income": 0.090626
+  },
+  {
+   "month": "1998-01",
+   "price": 9.4024,
+   "income": 0
+  },
+  {
+   "month": "1998-02",
+   "price": 9.8556,
+   "income": 0
+  },
+  {
+   "month": "1998-03",
+   "price": 9.4449,
+   "income": 0.090626
+  },
+  {
+   "month": "1998-04",
+   "price": 8.4112,
+   "income": 0
+  },
+  {
+   "month": "1998-05",
+   "price": 8.4679,
+   "income": 0
+  },
+  {
+   "month": "1998-06",
+   "price": 8.921,
+   "income": 0.090626
+  },
+  {
+   "month": "1998-07",
+   "price": 9.9264,
+   "income": 0
+  },
+  {
+   "month": "1998-08",
+   "price": 9.4166,
+   "income": 0
+  },
+  {
+   "month": "1998-09",
+   "price": 10.4786,
+   "income": 0.099688
+  },
+  {
+   "month": "1998-10",
+   "price": 11.5831,
+   "income": 0
+  },
+  {
+   "month": "1998-11",
+   "price": 12.6735,
+   "income": 0
+  },
+  {
+   "month": "1998-12",
+   "price": 12.1212,
+   "income": 0.099688
+  },
+  {
+   "month": "1999-01",
+   "price": 10.6202,
+   "income": 0
+  },
+  {
+   "month": "1999-02",
+   "price": 8.8643,
+   "income": 0
+  },
+  {
+   "month": "1999-03",
+   "price": 7.9722,
+   "income": 0.099688
+  },
+  {
+   "month": "1999-04",
+   "price": 7.9439,
+   "income": 0
+  },
+  {
+   "month": "1999-05",
+   "price": 8.7369,
+   "income": 0
+  },
+  {
+   "month": "1999-06",
+   "price": 9.1051,
+   "income": 0.099688
+  },
+  {
+   "month": "1999-07",
+   "price": 8.4395,
+   "income": 0
+  },
+  {
+   "month": "1999-08",
+   "price": 8.482,
+   "income": 0
+  },
+  {
+   "month": "1999-09",
+   "price": 7.7457,
+   "income": 0.108751
+  },
+  {
+   "month": "1999-10",
+   "price": 5.9756,
+   "income": 0
+  },
+  {
+   "month": "1999-11",
+   "price": 5.9473,
+   "income": 0
+  },
+  {
+   "month": "1999-12",
+   "price": 5.211,
+   "income": 0.108751
+  },
+  {
+   "month": "2000-01",
+   "price": 4.7295,
+   "income": 0
+  },
+  {
+   "month": "2000-02",
+   "price": 4.5738,
+   "income": 0
+  },
+  {
+   "month": "2000-03",
+   "price": 4.7012,
+   "income": 0.108751
+  },
+  {
+   "month": "2000-04",
+   "price": 4.9561,
+   "income": 0
+  },
+  {
+   "month": "2000-05",
+   "price": 5.919,
+   "income": 0
+  },
+  {
+   "month": "2000-06",
+   "price": 6.0181,
+   "income": 0.108751
+  },
+  {
+   "month": "2000-07",
+   "price": 5.7208,
+   "income": 0
+  },
+  {
+   "month": "2000-08",
+   "price": 6.7403,
+   "income": 0
+  },
+  {
+   "month": "2000-09",
+   "price": 6.6695,
+   "income": 0.120079
+  },
+  {
+   "month": "2000-10",
+   "price": 8.2979,
+   "income": 0
+  },
+  {
+   "month": "2000-11",
+   "price": 8.6519,
+   "income": 0
+  },
+  {
+   "month": "2000-12",
+   "price": 9.9688,
+   "income": 0.120079
+  },
+  {
+   "month": "2001-01",
+   "price": 9.9688,
+   "income": 0
+  },
+  {
+   "month": "2001-02",
+   "price": 10.9159,
+   "income": 0
+  },
+  {
+   "month": "2001-03",
+   "price": 10.7505,
+   "income": 0.120079
+  },
+  {
+   "month": "2001-04",
+   "price": 11.3532,
+   "income": 0
+  },
+  {
+   "month": "2001-05",
+   "price": 11.6477,
+   "income": 0
+  },
+  {
+   "month": "2001-06",
+   "price": 11.2149,
+   "income": 0.120079
+  },
+  {
+   "month": "2001-07",
+   "price": 10.3087,
+   "income": 0
+  },
+  {
+   "month": "2001-08",
+   "price": 10.7392,
+   "income": 0
+  },
+  {
+   "month": "2001-09",
+   "price": 10.9408,
+   "income": 0.131407
+  },
+  {
+   "month": "2001-10",
+   "price": 10.6032,
+   "income": 0
+  },
+  {
+   "month": "2001-11",
+   "price": 10.6871,
+   "income": 0
+  },
+  {
+   "month": "2001-12",
+   "price": 10.388,
+   "income": 0.131407
+  },
+  {
+   "month": "2002-01",
+   "price": 11.3532,
+   "income": 0
+  },
+  {
+   "month": "2002-02",
+   "price": 11.9309,
+   "income": 0
+  },
+  {
+   "month": "2002-03",
+   "price": 11.9332,
+   "income": 0.131407
+  },
+  {
+   "month": "2002-04",
+   "price": 12.3319,
+   "income": 0
+  },
+  {
+   "month": "2002-05",
+   "price": 12.9708,
+   "income": 0
+  },
+  {
+   "month": "2002-06",
+   "price": 9.8963,
+   "income": 0.131407
+  },
+  {
+   "month": "2002-07",
+   "price": 10.4333,
+   "income": 0
+  },
+  {
+   "month": "2002-08",
+   "price": 11.3282,
+   "income": 0
+  },
+  {
+   "month": "2002-09",
+   "price": 8.7907,
+   "income": 0.145001
+  },
+  {
+   "month": "2002-10",
+   "price": 9.2325,
+   "income": 0
+  },
+  {
+   "month": "2002-11",
+   "price": 8.546,
+   "income": 0
+  },
+  {
+   "month": "2002-12",
+   "price": 9.1827,
+   "income": 0.145001
+  },
+  {
+   "month": "2003-01",
+   "price": 8.58,
+   "income": 0
+  },
+  {
+   "month": "2003-02",
+   "price": 8.7567,
+   "income": 0
+  },
+  {
+   "month": "2003-03",
+   "price": 6.7879,
+   "income": 0.145001
+  },
+  {
+   "month": "2003-04",
+   "price": 6.9691,
+   "income": 0
+  },
+  {
+   "month": "2003-05",
+   "price": 9.3571,
+   "income": 0
+  },
+  {
+   "month": "2003-06",
+   "price": 10.2951,
+   "income": 0.145001
+  },
+  {
+   "month": "2003-07",
+   "price": 9.0649,
+   "income": 0
+  },
+  {
+   "month": "2003-08",
+   "price": 9.339,
+   "income": 0
+  },
+  {
+   "month": "2003-09",
+   "price": 9.9235,
+   "income": 0.154064
+  },
+  {
+   "month": "2003-10",
+   "price": 10.5353,
+   "income": 0
+  },
+  {
+   "month": "2003-11",
+   "price": 11.7814,
+   "income": 0
+  },
+  {
+   "month": "2003-12",
+   "price": 12.3296,
+   "income": 0.154064
+  },
+  {
+   "month": "2004-01",
+   "price": 12.5947,
+   "income": 0
+  },
+  {
+   "month": "2004-02",
+   "price": 13.0388,
+   "income": 0
+  },
+  {
+   "month": "2004-03",
+   "price": 12.3364,
+   "income": 0.154064
+  },
+  {
+   "month": "2004-04",
+   "price": 12.5471,
+   "income": 0
+  },
+  {
+   "month": "2004-05",
+   "price": 10.8683,
+   "income": 0
+  },
+  {
+   "month": "2004-06",
+   "price": 11.3396,
+   "income": 0.154064
+  },
+  {
+   "month": "2004-07",
+   "price": 10.7845,
+   "income": 0
+  },
+  {
+   "month": "2004-08",
+   "price": 11.0903,
+   "income": 0
+  },
+  {
+   "month": "2004-09",
+   "price": 10.6576,
+   "income": 0.165392
+  },
+  {
+   "month": "2004-10",
+   "price": 10.9793,
+   "income": 0
+  },
+  {
+   "month": "2004-11",
+   "price": 13.0252,
+   "income": 0
+  },
+  {
+   "month": "2004-12",
+   "price": 13.8431,
+   "income": 0.165392
+  },
+  {
+   "month": "2005-01",
+   "price": 14.4616,
+   "income": 0
+  },
+  {
+   "month": "2005-02",
+   "price": 14.874,
+   "income": 0
+  },
+  {
+   "month": "2005-03",
+   "price": 14.8151,
+   "income": 0.165392
+  },
+  {
+   "month": "2005-04",
+   "price": 14.7244,
+   "income": 0
+  },
+  {
+   "month": "2005-05",
+   "price": 15.2115,
+   "income": 0
+  },
+  {
+   "month": "2005-06",
+   "price": 14.6497,
+   "income": 0.165392
+  },
+  {
+   "month": "2005-07",
+   "price": 15.1708,
+   "income": 0
+  },
+  {
+   "month": "2005-08",
+   "price": 16.0181,
+   "income": 0
+  },
+  {
+   "month": "2005-09",
+   "price": 16.7001,
+   "income": 0.181252
+  },
+  {
+   "month": "2005-10",
+   "price": 17.0037,
+   "income": 0
+  },
+  {
+   "month": "2005-11",
+   "price": 16.4916,
+   "income": 0
+  },
+  {
+   "month": "2005-12",
+   "price": 16.9289,
+   "income": 0.181252
+  },
+  {
+   "month": "2006-01",
+   "price": 16.3897,
+   "income": 0
+  },
+  {
+   "month": "2006-02",
+   "price": 16.29,
+   "income": 0
+  },
+  {
+   "month": "2006-03",
+   "price": 16.0544,
+   "income": 0.181252
+  },
+  {
+   "month": "2006-04",
+   "price": 16.5755,
+   "income": 0
+  },
+  {
+   "month": "2006-05",
+   "price": 16.392,
+   "income": 0
+  },
+  {
+   "month": "2006-06",
+   "price": 16.6366,
+   "income": 0.181252
+  },
+  {
+   "month": "2006-07",
+   "price": 18.1184,
+   "income": 0
+  },
+  {
+   "month": "2006-08",
+   "price": 18.9249,
+   "income": 0
+  },
+  {
+   "month": "2006-09",
+   "price": 17.3435,
+   "income": 0.194846
+  },
+  {
+   "month": "2006-10",
+   "price": 18.4265,
+   "income": 0
+  },
+  {
+   "month": "2006-11",
+   "price": 19.079,
+   "income": 0
+  },
+  {
+   "month": "2006-12",
+   "price": 19.4438,
+   "income": 0.194846
+  },
+  {
+   "month": "2007-01",
+   "price": 19.7995,
+   "income": 0
+  },
+  {
+   "month": "2007-02",
+   "price": 19.0949,
+   "income": 0
+  },
+  {
+   "month": "2007-03",
+   "price": 19.8946,
+   "income": 0.194846
+  },
+  {
+   "month": "2007-04",
+   "price": 20.806,
+   "income": 0
+  },
+  {
+   "month": "2007-05",
+   "price": 21.4642,
+   "income": 0
+  },
+  {
+   "month": "2007-06",
+   "price": 21.1743,
+   "income": 0.208302
+  },
+  {
+   "month": "2007-07",
+   "price": 20.0664,
+   "income": 0
+  },
+  {
+   "month": "2007-08",
+   "price": 20.954,
+   "income": 0
+  },
+  {
+   "month": "2007-09",
+   "price": 20.9902,
+   "income": 0.226415
+  },
+  {
+   "month": "2007-10",
+   "price": 22.0166,
+   "income": 0
+  },
+  {
+   "month": "2007-11",
+   "price": 23.4143,
+   "income": 0
+  },
+  {
+   "month": "2007-12",
+   "price": 22.8166,
+   "income": 0.226415
+  },
+  {
+   "month": "2008-01",
+   "price": 22.88,
+   "income": 0
+  },
+  {
+   "month": "2008-02",
+   "price": 22.08,
+   "income": 0
+  },
+  {
+   "month": "2008-03",
+   "price": 22.2,
+   "income": 0.75
+  },
+  {
+   "month": "2008-04",
+   "price": 20,
+   "income": 0
+  },
+  {
+   "month": "2008-05",
+   "price": 22.26,
+   "income": 0
+  },
+  {
+   "month": "2008-06",
+   "price": 20.56,
+   "income": 0.29
+  },
+  {
+   "month": "2008-07",
+   "price": 20.35,
+   "income": 0
+  },
+  {
+   "month": "2008-08",
+   "price": 21.03,
+   "income": 0
+  },
+  {
+   "month": "2008-09",
+   "price": 19.84,
+   "income": 0.32
+  },
+  {
+   "month": "2008-10",
+   "price": 19.19,
+   "income": 0
+  },
+  {
+   "month": "2008-11",
+   "price": 16.08,
+   "income": 0
+  },
+  {
+   "month": "2008-12",
+   "price": 15.06,
+   "income": 0.32
+  },
+  {
+   "month": "2009-01",
+   "price": 16.54,
+   "income": 0
+  },
+  {
+   "month": "2009-02",
+   "price": 15.44,
+   "income": 0
+  },
+  {
+   "month": "2009-03",
+   "price": 16.02,
+   "income": 0.32
+  },
+  {
+   "month": "2009-04",
+   "price": 16.33,
+   "income": 0
+  },
+  {
+   "month": "2009-05",
+   "price": 17.09,
+   "income": 0
+  },
+  {
+   "month": "2009-06",
+   "price": 16.39,
+   "income": 0.32
+  },
+  {
+   "month": "2009-07",
+   "price": 17.53,
+   "income": 0
+  },
+  {
+   "month": "2009-08",
+   "price": 18.28,
+   "income": 0
+  },
+  {
+   "month": "2009-09",
+   "price": 17.81,
+   "income": 0.34
+  },
+  {
+   "month": "2009-10",
+   "price": 18.11,
+   "income": 0
+  },
+  {
+   "month": "2009-11",
+   "price": 18.81,
+   "income": 0
+  },
+  {
+   "month": "2009-12",
+   "price": 19.63,
+   "income": 0.34
+  },
+  {
+   "month": "2010-01",
+   "price": 19.86,
+   "income": 0
+  },
+  {
+   "month": "2010-02",
+   "price": 20.12,
+   "income": 0
+  },
+  {
+   "month": "2010-03",
+   "price": 20.52,
+   "income": 0.35
+  },
+  {
+   "month": "2010-04",
+   "price": 21.19,
+   "income": 0
+  },
+  {
+   "month": "2010-05",
+   "price": 20.29,
+   "income": 0
+  },
+  {
+   "month": "2010-06",
+   "price": 20.04,
+   "income": 0.35
+  },
+  {
+   "month": "2010-07",
+   "price": 22.16,
+   "income": 0
+  },
+  {
+   "month": "2010-08",
+   "price": 22.32,
+   "income": 0
+  },
+  {
+   "month": "2010-09",
+   "price": 24.02,
+   "income": 0.38
+  },
+  {
+   "month": "2010-10",
+   "price": 25.42,
+   "income": 0
+  },
+  {
+   "month": "2010-11",
+   "price": 24,
+   "income": 0
+  },
+  {
+   "month": "2010-12",
+   "price": 24.62,
+   "income": 0.38
+  },
+  {
+   "month": "2011-01",
+   "price": 23.51,
+   "income": 0
+  },
+  {
+   "month": "2011-02",
+   "price": 25.37,
+   "income": 0
+  },
+  {
+   "month": "2011-03",
+   "price": 26.03,
+   "income": 0.38
+  },
+  {
+   "month": "2011-04",
+   "price": 26.84,
+   "income": 0
+  },
+  {
+   "month": "2011-05",
+   "price": 28.06,
+   "income": 0
+  },
+  {
+   "month": "2011-06",
+   "price": 26.41,
+   "income": 0.38
+  },
+  {
+   "month": "2011-07",
+   "price": 26.3,
+   "income": 0
+  },
+  {
+   "month": "2011-08",
+   "price": 27.19,
+   "income": 0
+  },
+  {
+   "month": "2011-09",
+   "price": 26.81,
+   "income": 0.41
+  },
+  {
+   "month": "2011-10",
+   "price": 27.55,
+   "income": 0
+  },
+  {
+   "month": "2011-11",
+   "price": 28.69,
+   "income": 0
+  },
+  {
+   "month": "2011-12",
+   "price": 29.65,
+   "income": 0.41
+  },
+  {
+   "month": "2012-01",
+   "price": 28.4,
+   "income": 0
+  },
+  {
+   "month": "2012-02",
+   "price": 30.1,
+   "income": 0
+  },
+  {
+   "month": "2012-03",
+   "price": 30.87,
+   "income": 0.41
+  },
+  {
+   "month": "2012-04",
+   "price": 32.21,
+   "income": 0
+  },
+  {
+   "month": "2012-05",
+   "price": 32.19,
+   "income": 0
+  },
+  {
+   "month": "2012-06",
+   "price": 34.55,
+   "income": 0.41
+  },
+  {
+   "month": "2012-07",
+   "price": 35.97,
+   "income": 0
+  },
+  {
+   "month": "2012-08",
+   "price": 33.96,
+   "income": 0
+  },
+  {
+   "month": "2012-09",
+   "price": 33.39,
+   "income": 0.44
+  },
+  {
+   "month": "2012-10",
+   "price": 31.8,
+   "income": 0
+  },
+  {
+   "month": "2012-11",
+   "price": 33.81,
+   "income": 0
+  },
+  {
+   "month": "2012-12",
+   "price": 31.44,
+   "income": 0.44
+  },
+  {
+   "month": "2013-01",
+   "price": 33.68,
+   "income": 0
+  },
+  {
+   "month": "2013-02",
+   "price": 33.55,
+   "income": 0
+  },
+  {
+   "month": "2013-03",
+   "price": 34.39,
+   "income": 0.44
+  },
+  {
+   "month": "2013-04",
+   "price": 36.51,
+   "income": 0
+  },
+  {
+   "month": "2013-05",
+   "price": 36.1,
+   "income": 0
+  },
+  {
+   "month": "2013-06",
+   "price": 34.99,
+   "income": 0.44
+  },
+  {
+   "month": "2013-07",
+   "price": 35.06,
+   "income": 0
+  },
+  {
+   "month": "2013-08",
+   "price": 33.88,
+   "income": 0
+  },
+  {
+   "month": "2013-09",
+   "price": 34.35,
+   "income": 0.48
+  },
+  {
+   "month": "2013-10",
+   "price": 37.23,
+   "income": 0
+  },
+  {
+   "month": "2013-11",
+   "price": 36.98,
+   "income": 0
+  },
+  {
+   "month": "2013-12",
+   "price": 38.39,
+   "income": 0.48
+  },
+  {
+   "month": "2014-01",
+   "price": 35.22,
+   "income": 0
+  },
+  {
+   "month": "2014-02",
+   "price": 36.26,
+   "income": 0
+  },
+  {
+   "month": "2014-03",
+   "price": 37.43,
+   "income": 0.48
+  },
+  {
+   "month": "2014-04",
+   "price": 40.11,
+   "income": 0
+  },
+  {
+   "month": "2014-05",
+   "price": 41.56,
+   "income": 0
+  },
+  {
+   "month": "2014-06",
+   "price": 41.94,
+   "income": 0.48
+  },
+  {
+   "month": "2014-07",
+   "price": 40.6,
+   "income": 0
+  },
+  {
+   "month": "2014-08",
+   "price": 43.08,
+   "income": 0
+  },
+  {
+   "month": "2014-09",
+   "price": 45.94,
+   "income": 0.52
+  },
+  {
+   "month": "2014-10",
+   "price": 48.34,
+   "income": 0
+  },
+  {
+   "month": "2014-11",
+   "price": 50.26,
+   "income": 0
+  },
+  {
+   "month": "2014-12",
+   "price": 49.27,
+   "income": 0.52
+  },
+  {
+   "month": "2015-01",
+   "price": 53.1,
+   "income": 0
+  },
+  {
+   "month": "2015-02",
+   "price": 56.29,
+   "income": 0
+  },
+  {
+   "month": "2015-03",
+   "price": 50.02,
+   "income": 0.52
+  },
+  {
+   "month": "2015-04",
+   "price": 50.05,
+   "income": 0
+  },
+  {
+   "month": "2015-05",
+   "price": 51.2,
+   "income": 0
+  },
+  {
+   "month": "2015-06",
+   "price": 48.91,
+   "income": 0.52
+  },
+  {
+   "month": "2015-07",
+   "price": 54.38,
+   "income": 0
+  },
+  {
+   "month": "2015-08",
+   "price": 53.58,
+   "income": 0
+  },
+  {
+   "month": "2015-09",
+   "price": 54.4,
+   "income": 0.565
+  },
+  {
+   "month": "2015-10",
+   "price": 60.47,
+   "income": 0
+  },
+  {
+   "month": "2015-11",
+   "price": 57.6,
+   "income": 0
+  },
+  {
+   "month": "2015-12",
+   "price": 58.21,
+   "income": 0.565
+  },
+  {
+   "month": "2016-01",
+   "price": 61.11,
+   "income": 0
+  },
+  {
+   "month": "2016-02",
+   "price": 61.57,
+   "income": 0
+  },
+  {
+   "month": "2016-03",
+   "price": 62.66,
+   "income": 0.565
+  },
+  {
+   "month": "2016-04",
+   "price": 62.71,
+   "income": 0
+  },
+  {
+   "month": "2016-05",
+   "price": 63.64,
+   "income": 0
+  },
+  {
+   "month": "2016-06",
+   "price": 68.96,
+   "income": 0.565
+  },
+  {
+   "month": "2016-07",
+   "price": 67.7,
+   "income": 0
+  },
+  {
+   "month": "2016-08",
+   "price": 66.09,
+   "income": 0
+  },
+  {
+   "month": "2016-09",
+   "price": 63.23,
+   "income": 0.61
+  },
+  {
+   "month": "2016-10",
+   "price": 66.12,
+   "income": 0
+  },
+  {
+   "month": "2016-11",
+   "price": 63.93,
+   "income": 0
+  },
+  {
+   "month": "2016-12",
+   "price": 67.62,
+   "income": 0.61
+  },
+  {
+   "month": "2017-01",
+   "price": 71.18,
+   "income": 0
+  },
+  {
+   "month": "2017-02",
+   "price": 74.92,
+   "income": 0
+  },
+  {
+   "month": "2017-03",
+   "price": 71.42,
+   "income": 0.61
+  },
+  {
+   "month": "2017-04",
+   "price": 71.78,
+   "income": 0
+  },
+  {
+   "month": "2017-05",
+   "price": 75.44,
+   "income": 0
+  },
+  {
+   "month": "2017-06",
+   "price": 74.47,
+   "income": 0.61
+  },
+  {
+   "month": "2017-07",
+   "price": 64.97,
+   "income": 0
+  },
+  {
+   "month": "2017-08",
+   "price": 63.4,
+   "income": 0
+  },
+  {
+   "month": "2017-09",
+   "price": 63.42,
+   "income": 0.66
+  },
+  {
+   "month": "2017-10",
+   "price": 64.22,
+   "income": 0
+  },
+  {
+   "month": "2017-11",
+   "price": 67.83,
+   "income": 0
+  },
+  {
+   "month": "2017-12",
+   "price": 71.41,
+   "income": 0.66
+  },
+  {
+   "month": "2018-01",
+   "price": 70.34,
+   "income": 0
+  },
+  {
+   "month": "2018-02",
+   "price": 62.95,
+   "income": 0
+  },
+  {
+   "month": "2018-03",
+   "price": 62.32,
+   "income": 0.7
+  },
+  {
+   "month": "2018-04",
+   "price": 56.11,
+   "income": 0
+  },
+  {
+   "month": "2018-05",
+   "price": 55.74,
+   "income": 0
+  },
+  {
+   "month": "2018-06",
+   "price": 56.79,
+   "income": 0.7
+  },
+  {
+   "month": "2018-07",
+   "price": 58.68,
+   "income": 0
+  },
+  {
+   "month": "2018-08",
+   "price": 58.52,
+   "income": 0
+  },
+  {
+   "month": "2018-09",
+   "price": 60.31,
+   "income": 0.8
+  },
+  {
+   "month": "2018-10",
+   "price": 65.04,
+   "income": 0
+  },
+  {
+   "month": "2018-11",
+   "price": 54.83,
+   "income": 0
+  },
+  {
+   "month": "2018-12",
+   "price": 49.39,
+   "income": 0.8
+  },
+  {
+   "month": "2019-01",
+   "price": 49.35,
+   "income": 0
+  },
+  {
+   "month": "2019-02",
+   "price": 52.41,
+   "income": 0
+  },
+  {
+   "month": "2019-03",
+   "price": 57.43,
+   "income": 0.8
+  },
+  {
+   "month": "2019-04",
+   "price": 54.33,
+   "income": 0
+  },
+  {
+   "month": "2019-05",
+   "price": 49.06,
+   "income": 0
+  },
+  {
+   "month": "2019-06",
+   "price": 47.35,
+   "income": 0.8
+  },
+  {
+   "month": "2019-07",
+   "price": 47.07,
+   "income": 0
+  },
+  {
+   "month": "2019-08",
+   "price": 43.74,
+   "income": 0
+  },
+  {
+   "month": "2019-09",
+   "price": 40.9,
+   "income": 0.84
+  },
+  {
+   "month": "2019-10",
+   "price": 44.79,
+   "income": 0
+  },
+  {
+   "month": "2019-11",
+   "price": 49.7,
+   "income": 0
+  },
+  {
+   "month": "2019-12",
+   "price": 49.91,
+   "income": 0.84
+  },
+  {
+   "month": "2020-01",
+   "price": 47.53,
+   "income": 0
+  },
+  {
+   "month": "2020-02",
+   "price": 40.37,
+   "income": 0
+  },
+  {
+   "month": "2020-03",
+   "price": 38.67,
+   "income": 0.84
+  },
+  {
+   "month": "2020-04",
+   "price": 39.25,
+   "income": 0
+  },
+  {
+   "month": "2020-05",
+   "price": 39.05,
+   "income": 0
+  },
+  {
+   "month": "2020-06",
+   "price": 39.25,
+   "income": 0.84
+  },
+  {
+   "month": "2020-07",
+   "price": 41.15,
+   "income": 0
+  },
+  {
+   "month": "2020-08",
+   "price": 43.74,
+   "income": 0
+  },
+  {
+   "month": "2020-09",
+   "price": 38.64,
+   "income": 0.86
+  },
+  {
+   "month": "2020-10",
+   "price": 36.08,
+   "income": 0
+  },
+  {
+   "month": "2020-11",
+   "price": 39.83,
+   "income": 0
+  },
+  {
+   "month": "2020-12",
+   "price": 41,
+   "income": 0.86
+  },
+  {
+   "month": "2021-01",
+   "price": 41.08,
+   "income": 0
+  },
+  {
+   "month": "2021-02",
+   "price": 43.6,
+   "income": 0
+  },
+  {
+   "month": "2021-03",
+   "price": 51.16,
+   "income": 0.86
+  },
+  {
+   "month": "2021-04",
+   "price": 47.75,
+   "income": 0
+  },
+  {
+   "month": "2021-05",
+   "price": 49.22,
+   "income": 0
+  },
+  {
+   "month": "2021-06",
+   "price": 47.68,
+   "income": 0.86
+  },
+  {
+   "month": "2021-07",
+   "price": 48.04,
+   "income": 0
+  },
+  {
+   "month": "2021-08",
+   "price": 50.23,
+   "income": 0
+  },
+  {
+   "month": "2021-09",
+   "price": 45.52,
+   "income": 0.9
+  },
+  {
+   "month": "2021-10",
+   "price": 44.11,
+   "income": 0
+  },
+  {
+   "month": "2021-11",
+   "price": 42.64,
+   "income": 0
+  },
+  {
+   "month": "2021-12",
+   "price": 47.39,
+   "income": 0.9
+  },
+  {
+   "month": "2022-01",
+   "price": 50.88,
+   "income": 0
+  },
+  {
+   "month": "2022-02",
+   "price": 51.29,
+   "income": 0
+  },
+  {
+   "month": "2022-03",
+   "price": 52.25,
+   "income": 0.9
+  },
+  {
+   "month": "2022-04",
+   "price": 55.57,
+   "income": 0
+  },
+  {
+   "month": "2022-05",
+   "price": 54.09,
+   "income": 0
+  },
+  {
+   "month": "2022-06",
+   "price": 41.77,
+   "income": 0.9
+  },
+  {
+   "month": "2022-07",
+   "price": 43.86,
+   "income": 0
+  },
+  {
+   "month": "2022-08",
+   "price": 45.12,
+   "income": 0
+  },
+  {
+   "month": "2022-09",
+   "price": 40.38,
+   "income": 0.94
+  },
+  {
+   "month": "2022-10",
+   "price": 46.27,
+   "income": 0
+  },
+  {
+   "month": "2022-11",
+   "price": 46.58,
+   "income": 0
+  },
+  {
+   "month": "2022-12",
+   "price": 45.71,
+   "income": 0.94
+  },
+  {
+   "month": "2023-01",
+   "price": 45.04,
+   "income": 0
+  },
+  {
+   "month": "2023-02",
+   "price": 46.43,
+   "income": 0
+  },
+  {
+   "month": "2023-03",
+   "price": 44.62,
+   "income": 0.94
+  },
+  {
+   "month": "2023-04",
+   "price": 47.51,
+   "income": 0
+  },
+  {
+   "month": "2023-05",
+   "price": 44.42,
+   "income": 0
+  },
+  {
+   "month": "2023-06",
+   "price": 45.3,
+   "income": 0.94
+  },
+  {
+   "month": "2023-07",
+   "price": 45.42,
+   "income": 0
+  },
+  {
+   "month": "2023-08",
+   "price": 44.22,
+   "income": 0
+  },
+  {
+   "month": "2023-09",
+   "price": 42.05,
+   "income": 0.98
+  },
+  {
+   "month": "2023-10",
+   "price": 40.17,
+   "income": 0
+  },
+  {
+   "month": "2023-11",
+   "price": 42.04,
+   "income": 0
+  },
+  {
+   "month": "2023-12",
+   "price": 40.34,
+   "income": 0.98
+  },
+  {
+   "month": "2024-01",
+   "price": 40.12,
+   "income": 0
+  },
+  {
+   "month": "2024-02",
+   "price": 40.91,
+   "income": 0
+  },
+  {
+   "month": "2024-03",
+   "price": 43.62,
+   "income": 0.98
+  },
+  {
+   "month": "2024-04",
+   "price": 43.81,
+   "income": 0
+  },
+  {
+   "month": "2024-05",
+   "price": 46.25,
+   "income": 0
+  },
+  {
+   "month": "2024-06",
+   "price": 45.55,
+   "income": 0.98
+  },
+  {
+   "month": "2024-07",
+   "price": 49.01,
+   "income": 0
+  },
+  {
+   "month": "2024-08",
+   "price": 53.77,
+   "income": 0
+  },
+  {
+   "month": "2024-09",
+   "price": 51.04,
+   "income": 1.02
+  },
+  {
+   "month": "2024-10",
+   "price": 54.46,
+   "income": 0
+  },
+  {
+   "month": "2024-11",
+   "price": 57.74,
+   "income": 0
+  },
+  {
+   "month": "2024-12",
+   "price": 52.29,
+   "income": 1.02
+  },
+  {
+   "month": "2025-01",
+   "price": 52.23,
+   "income": 0
+  },
+  {
+   "month": "2025-02",
+   "price": 55.85,
+   "income": 0
+  },
+  {
+   "month": "2025-03",
+   "price": 60.02,
+   "income": 1.02
+  },
+  {
+   "month": "2025-04",
+   "price": 59.15,
+   "income": 0
+  },
+  {
+   "month": "2025-05",
+   "price": 60.61,
+   "income": 0
+  },
+  {
+   "month": "2025-06",
+   "price": 58.63,
+   "income": 1.02
+  },
+  {
+   "month": "2025-07",
+   "price": 61.94,
+   "income": 0
+  },
+  {
+   "month": "2025-08",
+   "price": 67.21,
+   "income": 0
+  },
+  {
+   "month": "2025-09",
+   "price": 66.06,
+   "income": 1.06
+  },
+  {
+   "month": "2025-10",
+   "price": 56.38,
+   "income": 0
+  },
+  {
+   "month": "2025-11",
+   "price": 59.01,
+   "income": 0
+  },
+  {
+   "month": "2025-12",
+   "price": 57.66,
+   "income": 1.06
+  },
+  {
+   "month": "2026-01",
+   "price": 61.99,
+   "income": 0
+  },
+  {
+   "month": "2026-02",
+   "price": 69.04,
+   "income": 0
+  },
+  {
+   "month": "2026-03",
+   "price": 65.99,
+   "income": 1.06
+  },
+  {
+   "month": "2026-04",
+   "price": 72.65,
+   "income": 0
+  },
+  {
+   "month": "2026-05",
+   "price": 69.58,
+   "income": 0
+  },
+  {
+   "month": "2026-06",
+   "price": 71.95,
+   "income": 1.06
+  },
+  {
+   "month": "2026-07",
+   "price": 68.33,
+   "income": 0
+  },
+  {
+   "month": "2026-08",
+   "price": 68.48,
+   "income": 0
+  },
+  {
+   "month": "2026-09",
+   "price": 67.34,
+   "income": 1.11
+  }
+ ]
+}

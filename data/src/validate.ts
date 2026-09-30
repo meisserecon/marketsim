@@ -39,6 +39,8 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).so
       if (s.kind === "stock") console.warn(`  WARN ${rows[i].month} moved ${pct(ret)} in one month`);
       else fail(`${rows[i].month} moved ${pct(ret)} in one month`);
     }
+    // A distribution this large is a spin-off booked as a dividend; it must be declared in the universe and folded in.
+    if (rows[i].income > 0.15 * rows[i - 1].price) fail(`${rows[i].month} income ${rows[i].income} is ${pct(rows[i].income / rows[i - 1].price)} of price: undeclared spin-off?`);
     if (ret > best.r) best = { m: rows[i].month, r: ret };
     if (ret < worst.r) worst = { m: rows[i].month, r: ret };
     if (rows[i].price > hi.price) hi = rows[i];

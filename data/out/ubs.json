@@ -1,10 +1,10 @@
 {
  "id": "ubs",
- "name": "UBS",
+ "name": "UBS (Schweizerische Bankgesellschaft until 1998)",
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance UBSG.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
- "notes": "Converted from CHF at month-end FRED rate.",
+ "notes": "Converted from CHF at month-end FRED rate. UBS AG is the renamed Schweizerische Bankgesellschaft (Union Bank of Switzerland), which merged with Bankverein in June 1998. Yahoo data from 1995-08; 1980 to 1995 needs a manual prefix. Verify that Yahoo's 1995-1998 prices are Bankgesellschaft's.",
  "rows": [
   {
    "month": "1995-08",
@@ -1524,7 +1524,7 @@
   {
    "month": "2020-11",
    "price": 14.2274,
-   "income": 0.336557
+   "income": 0.336598
   },
   {
    "month": "2020-12",
@@ -1549,7 +1549,7 @@
   {
    "month": "2021-04",
    "price": 15.2569,
-   "income": 0.338663
+   "income": 0.338704
   },
   {
    "month": "2021-05",
@@ -1609,7 +1609,7 @@
   {
    "month": "2022-04",
    "price": 17.1912,
-   "income": 0.4296
+   "income": 0.429651
   },
   {
    "month": "2022-05",
@@ -1669,7 +1669,7 @@
   {
    "month": "2023-04",
    "price": 20.2727,
-   "income": 0.515621
+   "income": 0.515683
   },
   {
    "month": "2023-05",
@@ -1729,7 +1729,7 @@
   {
    "month": "2024-04",
    "price": 26.4552,
-   "income": 0.637432
+   "income": 0.637508
   },
   {
    "month": "2024-05",
@@ -1789,7 +1789,7 @@
   {
    "month": "2025-04",
    "price": 30.254,
-   "income": 0.913893
+   "income": 0.914003
   },
   {
    "month": "2025-05",
@@ -1849,7 +1849,7 @@
   {
    "month": "2026-04",
    "price": 44.0951,
-   "income": 1.174514
+   "income": 1.174655
   },
   {
    "month": "2026-05",

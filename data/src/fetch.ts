@@ -15,6 +15,8 @@ const FRED_SERIES = [
   "DGS1", "DGS5", "DGS10", // daily constant-maturity treasury yields, percent
   "DEXSZUS", "DEXJPUS", // CHF per USD, JPY per USD, daily
   "DEXUSUK", // USD per GBP, daily
+  "DEXUSEU", // USD per EUR, daily, from 1999
+  "EXGEUS", // DEM per USD, monthly average, 1971-2001; used for EUR before 1999 via the fixed 1.95583 DEM/EUR rate
 ];
 const GOLD_URL = "https://datahub.io/core/gold-prices/r/monthly.csv"; // LBMA monthly average, USD/oz
 
@@ -59,14 +61,18 @@ async function fetchYahooMonthly(ticker: string, file: string) {
   const close = new Map<string, number>();
   for (let i = 0; i < ts.length; i++) if (closes[i] != null) close.set(monthOf(ts[i]), closes[i]! * scale);
 
+  // dividend = sum of all distributions with ex-date in the month; maxdiv = the largest single one,
+  // which lets the build separate a spin-off booked as a dividend from the regular payout.
   const div = new Map<string, number>();
+  const maxDiv = new Map<string, number>();
   for (const d of Object.values<any>(r.events?.dividends ?? {})) {
     const m = monthOf(d.date);
     div.set(m, (div.get(m) ?? 0) + d.amount * scale);
+    maxDiv.set(m, Math.max(maxDiv.get(m) ?? 0, d.amount * scale));
   }
 
   const months = [...close.keys()].sort();
-  const lines = ["month,close,dividend,currency", ...months.map((m) => `${m},${close.get(m)},${div.get(m) ?? 0},${currency}`)];
+  const lines = ["month,close,dividend,maxdiv,currency", ...months.map((m) => `${m},${close.get(m)},${div.get(m) ?? 0},${maxDiv.get(m) ?? 0},${currency}`)];
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, lines.join("\n") + "\n");
   console.log(`${path.relative(RAW_DIR, file)}: ${months[0]} .. ${months[months.length - 1]}, ${months.length} months, ${div.size} dividend months, ${r.meta.currency}`);

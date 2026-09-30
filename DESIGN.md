@@ -34,15 +34,22 @@ that defined each era, a Swiss angle, the Japanese bubble, and enough failures t
 survivorship bias visible. Assets appear in the game the month their data starts and vanish
 on their corporate end event.
 
-- **US, full period:** IBM, GE, Exxon, Coca-Cola, Walmart, Boeing, Ford.
+- **US, full period:** IBM, GE, Exxon, Schlumberger, Coca-Cola, Walmart, Boeing, Altria,
+  Citigroup, McDonald's, Disney, Intel.
 - **US, later arrivals:** Apple (1980-12), Microsoft (1986), Cisco (1990), Amazon (1997),
-  Nvidia (1999), Google (2004), Tesla (2010).
-- **Dot-com boom and bust:** JDS Uniphase, Akamai, Priceline as survivors that lost over
-  90 percent; Pets.com, WorldCom as failures.
-- **International:** Sony, Unilever.
+  eBay (1998), Nvidia (1999).
+
+Hindsight is unavoidable, so winners are paired with names that looked as good at the time:
+Intel against Microsoft and Cisco, eBay against Amazon, Schlumberger for the 1980 oil peak.
+The leaderboard should show the S&P 500 total return as a benchmark.
+- **Autos:** Tesla (2010), Mercedes-Benz and BMW (Yahoo from late 1996; earlier Daimler-Benz
+  history to be curated, decision pending).
+- **Dot-com boom and bust:** JDS Uniphase, Priceline as survivors that lost over 90 percent;
+  Pets.com, WorldCom as failures.
+- **International:** Sony, Unilever, Siemens (1996), Nokia (1994).
 - **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
-- **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS, Credit Suisse,
-  Swissair.
+- **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS as the continuation
+  of Bankgesellschaft with Bankverein separately until the 1998 merger, Credit Suisse, Swissair.
 - **Japanese bubble:** Industrial Bank of Japan (merged into Mizuho in 2000).
 - **Other failures:** Enron, Lehman Brothers.
 

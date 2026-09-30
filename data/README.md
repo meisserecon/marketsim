@@ -24,6 +24,12 @@ npm run data:validate   # gap / sanity checks and a summary per series
 
 Stocks start the month their data starts and stop at the `end` event declared in the
 universe. Gaps of up to two months in a source are filled with the previous price.
+Spin-offs are always folded into the parent's price. Yahoo does that itself for most (PayPal,
+Kyndryl, Alcon) but books some as a one-off dividend (Altria's Kraft and Philip Morris
+International, Citigroup's Travelers). Those are declared under `spinoffs` in the universe and
+folded in by the build; the validator fails on any undeclared distribution above 15 percent of
+the price.
+
 `src/probe.ts TICKER...` prints what Yahoo has for a ticker, useful when extending the universe.
 
 ## Bond model

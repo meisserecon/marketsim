@@ -89,6 +89,12 @@ const usdPer: Record<Currency, (m: string) => number> = {
   CHF: (() => { const chfPerUsd = fredMonthly("DEXSZUS"); return (m: string) => 1 / need(chfPerUsd, m, "DEXSZUS"); })(),
   JPY: (() => { const jpyPerUsd = fredMonthly("DEXJPUS"); return (m: string) => 1 / need(jpyPerUsd, m, "DEXJPUS"); })(),
   GBP: (() => { const usdPerGbp = fredMonthly("DEXUSUK"); return (m: string) => need(usdPerGbp, m, "DEXUSUK"); })(),
+  EUR: (() => {
+    // Yahoo restates pre-1999 German prices in euro at the fixed conversion rate, so do the same with the DEM/USD rate.
+    const usdPerEur = fredMonthly("DEXUSEU");
+    const demPerUsd = fredMonthly("EXGEUS"); // monthly average; only used 1996-1998 for the German listings
+    return (m: string) => (m >= "1999-01" ? need(usdPerEur, m, "DEXUSEU") : 1.95583 / need(demPerUsd, m, "EXGEUS"));
+  })(),
 };
 function need(map: Map<string, number>, m: string, what: string): number {
   const v = map.get(m);
@@ -97,19 +103,55 @@ function need(map: Map<string, number>, m: string, what: string): number {
 }
 
 for (const s of UNIVERSE) {
-  let local: { month: string; price: number; income: number }[];
-  let source: string;
+  let local: { month: string; price: number; income: number; maxdiv?: number }[] = [];
+  const sources: string[] = [];
+  const manualFile = path.join(DATA_DIR, "manual", `${s.id}.csv`);
+  const manual = fs.existsSync(manualFile)
+    ? readCsv(manualFile).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income || 0) }))
+    : [];
   if (s.source === "yahoo") {
     const file = path.join(RAW_DIR, "yahoo", `${s.id}.csv`);
     if (!fs.existsSync(file)) { console.warn(`${s.id}: raw file missing, run fetch`); continue; }
-    local = readCsv(file).map((r) => ({ month: r.month, price: Number(r.close), income: Number(r.dividend) }));
-    source = `Yahoo Finance ${s.ticker} (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)`;
+    local = readCsv(file).map((r) => ({ month: r.month, price: Number(r.close), income: Number(r.dividend), maxdiv: Number(r.maxdiv || 0) }));
+    sources.push(`Yahoo Finance ${s.ticker} (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)`);
+    // A manual file for a Yahoo asset is a prefix: it supplies the months before Yahoo's history starts.
+    // Its prices must be on the same share basis as Yahoo's adjusted series (check the overlap month).
+    const yahooStart = local[0].month;
+    const prefix = manual.filter((r) => r.month < yahooStart);
+    if (prefix.length) {
+      const overlap = manual.find((r) => r.month === yahooStart);
+      if (overlap) {
+        const ratio = overlap.price / local[0].price;
+        if (Math.abs(ratio - 1) > 0.05) throw new Error(`${s.id}: manual prefix is off by ${((ratio - 1) * 100).toFixed(1)}% in overlap month ${yahooStart}; rebase it to Yahoo's adjusted prices`);
+      } else console.warn(`${s.id}: manual prefix has no overlap month ${yahooStart} to check the share basis against`);
+      local = [...prefix, ...local];
+      sources.unshift(`manual/${s.id}.csv until ${prefix[prefix.length - 1].month}`);
+    }
   } else {
-    const file = path.join(DATA_DIR, "manual", `${s.id}.csv`);
-    if (!fs.existsSync(file)) { console.warn(`${s.id}: manual/${s.id}.csv not yet curated, skipped`); continue; }
-    local = readCsv(file).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income ?? 0) }));
-    source = `manual/${s.id}.csv`;
+    if (!manual.length) { console.warn(`${s.id}: manual/${s.id}.csv not yet curated, skipped`); continue; }
+    local = manual;
+    sources.push(`manual/${s.id}.csv`);
   }
+  // Fold spin-offs that the source booked as a dividend into the price history (oldest first,
+  // so each later event sees amounts already rescaled by the earlier ones).
+  const folded: string[] = [];
+  for (const sp of [...(s.spinoffs ?? [])].sort((a, b) => a.month.localeCompare(b.month))) {
+    const i = local.findIndex((r) => r.month === sp.month);
+    if (i < 1) throw new Error(`${s.id}: spin-off month ${sp.month} not in data`);
+    const amount = local[i].maxdiv ?? 0;
+    const prev = local[i - 1].price;
+    if (amount / prev < 0.03) throw new Error(`${s.id}: no large distribution found in ${sp.month} for ${sp.name}; has the source started adjusting for it?`);
+    const f = 1 - amount / prev;
+    local[i].income -= amount;
+    for (let k = 0; k < i; k++) {
+      local[k].price *= f;
+      local[k].income *= f;
+      if (local[k].maxdiv) local[k].maxdiv! *= f;
+    }
+    folded.push(`${sp.name} ${sp.month} (factor ${f.toFixed(3)})`);
+  }
+  if (folded.length) sources.push(`spin-offs folded into price: ${folded.join(", ")}`);
+  const source = sources.join("; ");
   local = local.filter((r) => r.month >= START_MONTH);
   if (s.end) local = local.filter((r) => r.month <= s.end!.month);
   if (!local.length) { console.warn(`${s.id}: no rows in range, skipped`); continue; }

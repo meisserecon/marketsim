@@ -34,7 +34,8 @@ import {
   type MarketView,
   type Portfolio,
   type PortfolioView,
-  type Trade
+  type Trade,
+  STARTING_CASH
 } from '@marketsim/shared';
 import { ApiFailure, type Api } from './types';
 
@@ -233,8 +234,7 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
       respond(() => {
         const name = req.name?.trim();
         if (!name) fail(400, 'bad_request', 'The game needs a name.');
-        const startingCash = req.startingCash ?? 100_000;
-        if (!Number.isFinite(startingCash) || startingCash <= 0) fail(400, 'bad_request', 'Starting cash must be a positive amount.');
+        const startingCash = STARTING_CASH;
         const state = load();
         let code: string;
         do code = randomString(5, 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789');

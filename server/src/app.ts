@@ -2,13 +2,13 @@
  * The HTTP API described in shared/src/api.ts. All game rules come from the shared engine;
  * this file only does persistence, authentication and the no-lookahead projection of market data.
  */
-import { createHash, randomBytes, randomInt } from "node:crypto";
+import { createHash, randomBytes, randomInt, timingSafeEqual } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import Fastify, { type FastifyInstance, type FastifyRequest } from "fastify";
 import fastifyStatic from "@fastify/static";
 import {
-  MAX_POSITIONS, Market, TradeError, advanceMonth, applyTrade, nameAt, portfolioValue,
+  MAX_POSITIONS, Market, STARTING_CASH, TradeError, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
   type JoinResponse, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
@@ -16,7 +16,6 @@ import {
 import type { Db, Queryable } from "./db.js";
 import { addMonths } from "./market.js";
 
-const DEFAULT_STARTING_CASH = 100_000;
 const CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // no 0/O, 1/I
 const LEDGER_LIMIT = 500;
 
@@ -46,6 +45,8 @@ export interface AppOptions {
   /** Directory with the built web client; served with an SPA fallback when it exists. */
   staticDir?: string;
   logger?: boolean;
+  /** When set, creating a game requires this password. */
+  createPassword?: string;
 }
 
 export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): Promise<FastifyInstance> {
@@ -162,11 +163,13 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   // --- routes ----------------------------------------------------------------
 
   app.post("/api/games", async (req, reply): Promise<CreateGameResponse> => {
-    const body = (req.body ?? {}) as { name?: unknown; startingCash?: unknown };
+    const body = (req.body ?? {}) as { name?: unknown; password?: unknown };
+    if (opts.createPassword) {
+      const given = hash(typeof body.password === "string" ? body.password : "");
+      if (!timingSafeEqual(Buffer.from(given), Buffer.from(hash(opts.createPassword)))) throw new HttpError(401, "unauthorized", "Wrong password");
+    }
     const name = typeof body.name === "string" ? body.name.trim() : "";
     if (!name || name.length > 60) throw new HttpError(400, "bad_request", "A game needs a name of at most 60 characters");
-    const startingCash = body.startingCash === undefined ? DEFAULT_STARTING_CASH : Number(body.startingCash);
-    if (!Number.isFinite(startingCash) || startingCash < 1_000 || startingCash > 1e9) throw new HttpError(400, "bad_request", "Starting cash must be between 1,000 and 1,000,000,000");
     const token = newToken();
     for (let attempt = 0; ; attempt++) {
       const code = newCode();
@@ -175,7 +178,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       const { rows } = await db.query<GameRow>(
         `insert into games (code, name, current_month, final_month, starting_cash, gm_token_hash)
          values ($1, $2, $3, $4, $5, $6) returning *`,
-        [code, name, market.startMonth, market.finalMonth, startingCash, hash(token)],
+        [code, name, market.startMonth, market.finalMonth, STARTING_CASH, hash(token)],
       );
       reply.code(201);
       return { game: await gameView(db, rows[0]), gameMasterToken: token };

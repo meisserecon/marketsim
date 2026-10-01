@@ -12,6 +12,301 @@
  "source": "Yahoo Finance XOM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 1982-02 corrected to 0.09375",
  "rows": [
   {
+   "month": "1975-01",
+   "price": 2.2852,
+   "income": 0
+  },
+  {
+   "month": "1975-02",
+   "price": 2.418,
+   "income": 0.039063
+  },
+  {
+   "month": "1975-03",
+   "price": 2.3125,
+   "income": 0.039063
+  },
+  {
+   "month": "1975-04",
+   "price": 2.5313,
+   "income": 0
+  },
+  {
+   "month": "1975-05",
+   "price": 2.7383,
+   "income": 0.039063
+  },
+  {
+   "month": "1975-06",
+   "price": 2.8906,
+   "income": 0
+  },
+  {
+   "month": "1975-07",
+   "price": 2.7188,
+   "income": 0
+  },
+  {
+   "month": "1975-08",
+   "price": 2.7109,
+   "income": 0.039063
+  },
+  {
+   "month": "1975-09",
+   "price": 2.7344,
+   "income": 0
+  },
+  {
+   "month": "1975-10",
+   "price": 2.7852,
+   "income": 0
+  },
+  {
+   "month": "1975-11",
+   "price": 2.6875,
+   "income": 0.039063
+  },
+  {
+   "month": "1975-12",
+   "price": 2.7734,
+   "income": 0
+  },
+  {
+   "month": "1976-01",
+   "price": 2.8438,
+   "income": 0
+  },
+  {
+   "month": "1976-02",
+   "price": 2.7227,
+   "income": 0.039063
+  },
+  {
+   "month": "1976-03",
+   "price": 2.9336,
+   "income": 0
+  },
+  {
+   "month": "1976-04",
+   "price": 2.9453,
+   "income": 0
+  },
+  {
+   "month": "1976-05",
+   "price": 3.1523,
+   "income": 0.04375
+  },
+  {
+   "month": "1976-06",
+   "price": 3.2695,
+   "income": 0
+  },
+  {
+   "month": "1976-07",
+   "price": 3.3203,
+   "income": 0
+  },
+  {
+   "month": "1976-08",
+   "price": 3.3047,
+   "income": 0.04375
+  },
+  {
+   "month": "1976-09",
+   "price": 3.4688,
+   "income": 0
+  },
+  {
+   "month": "1976-10",
+   "price": 3.2813,
+   "income": 0
+  },
+  {
+   "month": "1976-11",
+   "price": 3.1953,
+   "income": 0.04375
+  },
+  {
+   "month": "1976-12",
+   "price": 3.3516,
+   "income": 0
+  },
+  {
+   "month": "1977-01",
+   "price": 3.3438,
+   "income": 0
+  },
+  {
+   "month": "1977-02",
+   "price": 3.1797,
+   "income": 0.046875
+  },
+  {
+   "month": "1977-03",
+   "price": 3.1719,
+   "income": 0
+  },
+  {
+   "month": "1977-04",
+   "price": 3.2266,
+   "income": 0
+  },
+  {
+   "month": "1977-05",
+   "price": 3.1953,
+   "income": 0.046875
+  },
+  {
+   "month": "1977-06",
+   "price": 3.3438,
+   "income": 0
+  },
+  {
+   "month": "1977-07",
+   "price": 3.2266,
+   "income": 0
+  },
+  {
+   "month": "1977-08",
+   "price": 3.0313,
+   "income": 0.046875
+  },
+  {
+   "month": "1977-09",
+   "price": 3.0156,
+   "income": 0
+  },
+  {
+   "month": "1977-10",
+   "price": 2.9453,
+   "income": 0
+  },
+  {
+   "month": "1977-11",
+   "price": 2.9063,
+   "income": 0.046875
+  },
+  {
+   "month": "1977-12",
+   "price": 3.0078,
+   "income": 0
+  },
+  {
+   "month": "1978-01",
+   "price": 2.8594,
+   "income": 0
+  },
+  {
+   "month": "1978-02",
+   "price": 2.75,
+   "income": 0.05
+  },
+  {
+   "month": "1978-03",
+   "price": 2.7891,
+   "income": 0
+  },
+  {
+   "month": "1978-04",
+   "price": 2.9453,
+   "income": 0
+  },
+  {
+   "month": "1978-05",
+   "price": 2.9219,
+   "income": 0.05
+  },
+  {
+   "month": "1978-06",
+   "price": 2.7422,
+   "income": 0
+  },
+  {
+   "month": "1978-07",
+   "price": 2.9063,
+   "income": 0
+  },
+  {
+   "month": "1978-08",
+   "price": 3.0859,
+   "income": 0.053125
+  },
+  {
+   "month": "1978-09",
+   "price": 3.2422,
+   "income": 0
+  },
+  {
+   "month": "1978-10",
+   "price": 3,
+   "income": 0
+  },
+  {
+   "month": "1978-11",
+   "price": 3.0703,
+   "income": 0.053125
+  },
+  {
+   "month": "1978-12",
+   "price": 3.0703,
+   "income": 0
+  },
+  {
+   "month": "1979-01",
+   "price": 3.1953,
+   "income": 0
+  },
+  {
+   "month": "1979-02",
+   "price": 3.0781,
+   "income": 0.05625
+  },
+  {
+   "month": "1979-03",
+   "price": 3.2969,
+   "income": 0
+  },
+  {
+   "month": "1979-04",
+   "price": 3.3203,
+   "income": 0
+  },
+  {
+   "month": "1979-05",
+   "price": 3.1094,
+   "income": 0.05625
+  },
+  {
+   "month": "1979-06",
+   "price": 3.3672,
+   "income": 0
+  },
+  {
+   "month": "1979-07",
+   "price": 3.4219,
+   "income": 0
+  },
+  {
+   "month": "1979-08",
+   "price": 3.5078,
+   "income": 0.0625
+  },
+  {
+   "month": "1979-09",
+   "price": 3.6875,
+   "income": 0
+  },
+  {
+   "month": "1979-10",
+   "price": 3.5938,
+   "income": 0
+  },
+  {
+   "month": "1979-11",
+   "price": 3.625,
+   "income": 0.06875
+  },
+  {
    "month": "1979-12",
    "price": 3.4453,
    "income": 0

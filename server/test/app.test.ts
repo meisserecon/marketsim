@@ -34,7 +34,7 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.match(code, /^[A-Z2-9]{5}$/);
   assert.equal(created.body.game.currentMonth, "1979-12");
   assert.equal(created.body.game.status, "lobby");
-  assert.equal(created.body.game.startingCash, 100_000);
+  assert.equal(created.body.game.startingCash, 1_000);
 
   // join; codes are case-insensitive, names unique per game
   const alice = (await call(app, "POST", `/api/games/${code.toLowerCase()}/join`, { name: "Alice" })).body.playerToken as string;
@@ -61,18 +61,21 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.equal((await call(app, "GET", `/api/games/${code}/assets/aapl`)).status, 404);
   assert.equal((await call(app, "GET", `/api/games/${code}/assets/nonsense`)).status, 404);
   const ibm0 = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body;
-  assert.deepEqual(ibm0.rows.map((r) => r.month), ["1979-12"]);
+  // history reaches back before the game start, as chart context, but never past the current month
+  assert.equal(ibm0.rows[0].month, "1975-01");
+  assert.equal(ibm0.rows[ibm0.rows.length - 1].month, "1979-12");
+  assert.ok(byId.get("ibm")!.priceYearAgo! > 0 && byId.get("ibm")!.incomeLastYear > 0);
 
   // trading needs a player token
-  const trade = { assetId: "ust10y", side: "buy", amount: { usd: 50_000 } };
+  const trade = { assetId: "ust10y", side: "buy", amount: { usd: 500 } };
   assert.equal((await call(app, "POST", `/api/games/${code}/trades`, trade)).status, 401);
   assert.equal((await call(app, "POST", `/api/games/${code}/trades`, trade, gm)).status, 401);
   const t1 = await call(app, "POST", `/api/games/${code}/trades`, trade, alice);
   assert.equal(t1.status, 200);
-  assert.equal(t1.body.portfolio.cash, 50_000);
+  assert.equal(t1.body.portfolio.cash, 500);
   assert.equal(t1.body.entry.kind, "buy");
-  await call(app, "POST", `/api/games/${code}/trades`, { assetId: "ibm", side: "buy", amount: { usd: 20_000 } }, alice);
-  const broke = await call(app, "POST", `/api/games/${code}/trades`, { assetId: "gold", side: "buy", amount: { usd: 30_000.01 } }, alice);
+  await call(app, "POST", `/api/games/${code}/trades`, { assetId: "ibm", side: "buy", amount: { usd: 200 } }, alice);
+  const broke = await call(app, "POST", `/api/games/${code}/trades`, { assetId: "gold", side: "buy", amount: { usd: 300.01 } }, alice);
   assert.equal(broke.status, 400);
   assert.equal(broke.body.error, "insufficient_cash");
   assert.equal((await call(app, "POST", `/api/games/${code}/trades`, { assetId: "aapl", side: "buy", amount: { usd: 10 } }, alice)).body.error, "not_tradable");
@@ -88,22 +91,23 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   // Alice received a month of coupons in cash; nothing was reinvested
   const me = (await call<PortfolioView>(app, "GET", `/api/games/${code}/me`, undefined, alice)).body;
   assert.equal(me.month, "1980-01");
-  assert.ok(me.cash > 30_000 + 350 && me.cash < 30_000 + 600, `cash ${me.cash}`); // about 10.3% / 12 on 50,000
+  assert.ok(me.cash > 300 + 3.5 && me.cash < 300 + 6, `cash ${me.cash}`); // about 10.3% / 12 on 500
   assert.equal(me.positions.length, 2);
   assert.ok(me.ledger.some((e) => e.kind === "income" && e.assetId === "ust10y" && e.month === "1980-01"));
   assert.deepEqual(me.history.map((h) => h.month), ["1979-12", "1980-01"]);
-  assert.equal(me.history[0].totalValue, 100_000);
+  assert.equal(me.history[0].totalValue, 1_000);
   assert.ok(Math.abs(me.history[1].totalValue - me.totalValue) < 0.01);
   assert.equal(me.maxPositions, 5);
 
   // history grew by exactly one month
   const ibm1 = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body;
-  assert.deepEqual(ibm1.rows.map((r) => r.month), ["1979-12", "1980-01"]);
+  assert.equal(ibm1.rows.length, ibm0.rows.length + 1);
+  assert.equal(ibm1.rows[ibm1.rows.length - 1].month, "1980-01");
 
   // leaderboard: Bob sat in cash
   const lb = (await call<LeaderboardView>(app, "GET", `/api/games/${code}/leaderboard`)).body;
   assert.equal(lb.players.length, 2);
-  assert.equal(lb.players.find((p) => p.name === "Bob")!.totalValue, 100_000);
+  assert.equal(lb.players.find((p) => p.name === "Bob")!.totalValue, 1_000);
   assert.deepEqual(lb.players.map((p) => p.rank), [1, 2]);
 
   // advance to December 1980: Apple appears, under the name it had then
@@ -119,15 +123,25 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   // a late joiner starts with the starting cash in the current month
   const carol = (await call(app, "POST", `/api/games/${code}/join`, { name: "Carol" })).body.playerToken as string;
   const carolView = (await call<PortfolioView>(app, "GET", `/api/games/${code}/me`, undefined, carol)).body;
-  assert.equal(carolView.cash, 100_000);
+  assert.equal(carolView.cash, 1_000);
   assert.deepEqual(carolView.history.map((h) => h.month), ["1980-12"]);
   assert.ok(bob);
+});
+
+test("creating a game needs the password when one is configured", async () => {
+  const locked = await buildApp(db, loadMarket(), { createPassword: "s3cret" });
+  try {
+    assert.equal((await call(locked, "POST", "/api/games", { name: "x" })).status, 401);
+    assert.equal((await call(locked, "POST", "/api/games", { name: "x", password: "wrong" })).body.error, "unauthorized");
+    assert.equal((await call(locked, "POST", "/api/games", { name: "x", password: "s3cret" })).status, 201);
+  } finally {
+    await locked.close();
+  }
 });
 
 test("unknown games and bad input", async () => {
   assert.equal((await call(app, "GET", "/api/games/ZZZZZ")).status, 404);
   assert.equal((await call(app, "POST", "/api/games", { name: "" })).status, 400);
-  assert.equal((await call(app, "POST", "/api/games", { name: "x", startingCash: 5 })).status, 400);
   assert.equal((await call(app, "GET", "/api/nothing")).status, 404);
 });
 
@@ -145,7 +159,7 @@ test("a game ends at the final month, winds up dead assets, and then refuses tra
   await migrate(db2);
   const app2 = await buildApp(db2, tiny);
   try {
-    const g = (await call(app2, "POST", "/api/games", { name: "Tiny", startingCash: 1000 })).body;
+    const g = (await call(app2, "POST", "/api/games", { name: "Tiny" })).body;
     const code = g.game.code, gm = g.gameMasterToken;
     assert.equal(g.game.finalMonth, "1980-02");
     const p = (await call(app2, "POST", `/api/games/${code}/join`, { name: "P" })).body.playerToken;

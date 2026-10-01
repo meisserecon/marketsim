@@ -15,7 +15,9 @@ await migrate(db);
 const app = await buildApp(db, market, {
   staticDir: process.env.STATIC_DIR ?? path.resolve(here, "..", "..", "web", "build"),
   logger: process.env.LOG === "1",
+  createPassword: process.env.CREATE_PASSWORD || undefined,
 });
+if (!process.env.CREATE_PASSWORD) console.warn("CREATE_PASSWORD is not set: anyone who finds /create can start a game");
 const port = Number(process.env.PORT ?? 3000);
 await app.listen({ port, host: "0.0.0.0" });
 console.log(`marketsim server on :${port}, ${market.ids().length} assets, ${market.startMonth} to ${market.finalMonth}`);

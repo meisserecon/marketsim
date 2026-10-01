@@ -12,6 +12,301 @@
  "source": "Yahoo Finance MO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Kraft Foods 2007-04 (factor 0.750), Philip Morris International 2008-03 (factor 0.302)",
  "rows": [
   {
+   "month": "1975-01",
+   "price": 0.2159,
+   "income": 0
+  },
+  {
+   "month": "1975-02",
+   "price": 0.2089,
+   "income": 0
+  },
+  {
+   "month": "1975-03",
+   "price": 0.2289,
+   "income": 0.001062
+  },
+  {
+   "month": "1975-04",
+   "price": 0.2572,
+   "income": 0
+  },
+  {
+   "month": "1975-05",
+   "price": 0.2555,
+   "income": 0
+  },
+  {
+   "month": "1975-06",
+   "price": 0.2519,
+   "income": 0.001062
+  },
+  {
+   "month": "1975-07",
+   "price": 0.2366,
+   "income": 0
+  },
+  {
+   "month": "1975-08",
+   "price": 0.2124,
+   "income": 0
+  },
+  {
+   "month": "1975-09",
+   "price": 0.2195,
+   "income": 0.001062
+  },
+  {
+   "month": "1975-10",
+   "price": 0.2366,
+   "income": 0
+  },
+  {
+   "month": "1975-11",
+   "price": 0.2631,
+   "income": 0
+  },
+  {
+   "month": "1975-12",
+   "price": 0.2502,
+   "income": 0.00118
+  },
+  {
+   "month": "1976-01",
+   "price": 0.2702,
+   "income": 0
+  },
+  {
+   "month": "1976-02",
+   "price": 0.2513,
+   "income": 0
+  },
+  {
+   "month": "1976-03",
+   "price": 0.2637,
+   "income": 0.00118
+  },
+  {
+   "month": "1976-04",
+   "price": 0.2631,
+   "income": 0
+  },
+  {
+   "month": "1976-05",
+   "price": 0.2543,
+   "income": 0
+  },
+  {
+   "month": "1976-06",
+   "price": 0.2419,
+   "income": 0.00118
+  },
+  {
+   "month": "1976-07",
+   "price": 0.2531,
+   "income": 0
+  },
+  {
+   "month": "1976-08",
+   "price": 0.2649,
+   "income": 0
+  },
+  {
+   "month": "1976-09",
+   "price": 0.2891,
+   "income": 0.001534
+  },
+  {
+   "month": "1976-10",
+   "price": 0.2867,
+   "income": 0
+  },
+  {
+   "month": "1976-11",
+   "price": 0.2885,
+   "income": 0
+  },
+  {
+   "month": "1976-12",
+   "price": 0.2915,
+   "income": 0.001534
+  },
+  {
+   "month": "1977-01",
+   "price": 0.2661,
+   "income": 0
+  },
+  {
+   "month": "1977-02",
+   "price": 0.2608,
+   "income": 0
+  },
+  {
+   "month": "1977-03",
+   "price": 0.249,
+   "income": 0.001534
+  },
+  {
+   "month": "1977-04",
+   "price": 0.2549,
+   "income": 0
+  },
+  {
+   "month": "1977-05",
+   "price": 0.2531,
+   "income": 0
+  },
+  {
+   "month": "1977-06",
+   "price": 0.2631,
+   "income": 0.001945
+  },
+  {
+   "month": "1977-07",
+   "price": 0.2714,
+   "income": 0
+  },
+  {
+   "month": "1977-08",
+   "price": 0.2897,
+   "income": 0
+  },
+  {
+   "month": "1977-09",
+   "price": 0.3015,
+   "income": 0.001945
+  },
+  {
+   "month": "1977-10",
+   "price": 0.2873,
+   "income": 0
+  },
+  {
+   "month": "1977-11",
+   "price": 0.2926,
+   "income": 0
+  },
+  {
+   "month": "1977-12",
+   "price": 0.2921,
+   "income": 0.001945
+  },
+  {
+   "month": "1978-01",
+   "price": 0.2761,
+   "income": 0
+  },
+  {
+   "month": "1978-02",
+   "price": 0.2673,
+   "income": 0
+  },
+  {
+   "month": "1978-03",
+   "price": 0.2738,
+   "income": 0.002417
+  },
+  {
+   "month": "1978-04",
+   "price": 0.3044,
+   "income": 0
+  },
+  {
+   "month": "1978-05",
+   "price": 0.3186,
+   "income": 0
+  },
+  {
+   "month": "1978-06",
+   "price": 0.3127,
+   "income": 0.002417
+  },
+  {
+   "month": "1978-07",
+   "price": 0.3416,
+   "income": 0
+  },
+  {
+   "month": "1978-08",
+   "price": 0.3363,
+   "income": 0
+  },
+  {
+   "month": "1978-09",
+   "price": 0.3381,
+   "income": 0.002417
+  },
+  {
+   "month": "1978-10",
+   "price": 0.3186,
+   "income": 0
+  },
+  {
+   "month": "1978-11",
+   "price": 0.3257,
+   "income": 0
+  },
+  {
+   "month": "1978-12",
+   "price": 0.3328,
+   "income": 0.002417
+  },
+  {
+   "month": "1979-01",
+   "price": 0.321,
+   "income": 0
+  },
+  {
+   "month": "1979-02",
+   "price": 0.3103,
+   "income": 0
+  },
+  {
+   "month": "1979-03",
+   "price": 0.3186,
+   "income": 0.00295
+  },
+  {
+   "month": "1979-04",
+   "price": 0.318,
+   "income": 0
+  },
+  {
+   "month": "1979-05",
+   "price": 0.2968,
+   "income": 0
+  },
+  {
+   "month": "1979-06",
+   "price": 0.3257,
+   "income": 0.002945
+  },
+  {
+   "month": "1979-07",
+   "price": 0.3304,
+   "income": 0
+  },
+  {
+   "month": "1979-08",
+   "price": 0.3634,
+   "income": 0
+  },
+  {
+   "month": "1979-09",
+   "price": 0.3328,
+   "income": 0.002945
+  },
+  {
+   "month": "1979-10",
+   "price": 0.308,
+   "income": 0
+  },
+  {
+   "month": "1979-11",
+   "price": 0.3292,
+   "income": 0
+  },
+  {
    "month": "1979-12",
    "price": 0.3398,
    "income": 0.002945

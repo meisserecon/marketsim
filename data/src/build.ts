@@ -4,11 +4,13 @@ import path from "node:path";
 import { RAW_DIR, OUT_DIR, DATA_DIR } from "./lib/paths.js";
 import { readTwoColumnCsv, readCsv } from "./lib/csv.js";
 import { lastOfMonth, monthRange } from "./lib/months.js";
+import { GAME_START_MONTH } from "@marketsim/shared";
 import { buildBondRows } from "./lib/bonds.js";
 import { UNIVERSE, type Currency } from "./universe.js";
 import type { AssetSeries, MonthRow } from "./lib/asset.js";
 
-export const START_MONTH = "1979-12"; // base month; the game starts one month later
+/** First month of history. The game itself starts at GAME_START_MONTH; the years before are chart context and feed the trailing figures. */
+export const START_MONTH = "1975-01";
 const round = (x: number, d = 4) => Math.round(x * 10 ** d) / 10 ** d;
 
 // Clear stale outputs so removed assets disappear.
@@ -50,7 +52,7 @@ for (const b of bonds) {
     source: `FRED ${b.fred} (daily constant-maturity yield, last observation of each month)`,
     notes:
       "Constant-maturity par bond rolled monthly. price = clean price index, income = previous month yield / 12 paid in cash. extra.yield = month-end yield as fraction.",
-    rows: buildBondRows(monthRange(START_MONTH, last), yields, b.T),
+    rows: buildBondRows(monthRange(START_MONTH, last), yields, b.T, GAME_START_MONTH),
   });
 }
 

@@ -1,14 +1,10 @@
 <script lang="ts">
+  // Players only ever join. Games are created on /create, which is deliberately not linked here.
   import { goto } from '$app/navigation';
   import { api, isApiFailure } from '$lib/api';
   import { getToken, knownGames, setToken, clearToken, type Role } from '$lib/api/tokens';
   import { errorMessage, monthName } from '$lib/format';
   import type { GameView } from '@marketsim/shared';
-
-  let gameName = $state('');
-  let startingCash = $state('100000');
-  let creating = $state(false);
-  let createError = $state('');
 
   let code = $state('');
   let playerName = $state('');
@@ -16,7 +12,6 @@
   let joinError = $state('');
 
   const cleanCode = $derived(code.trim().toUpperCase());
-  const cash = $derived(Number(startingCash.replace(/[,\s$']/g, '')));
 
   // Games this browser already has a token for.
   let mine = $state<{ game: GameView; roles: Role[] }[]>([]);
@@ -33,24 +28,6 @@
       })
     ).then((list) => (mine = list.filter((x) => x !== undefined)));
   });
-
-  async function create(e: SubmitEvent) {
-    e.preventDefault();
-    if (creating) return;
-    createError = '';
-    if (!gameName.trim()) return void (createError = 'Give the game a name.');
-    if (!Number.isFinite(cash) || cash <= 0) return void (createError = 'Starting cash must be a positive amount.');
-    creating = true;
-    try {
-      const res = await api.createGame({ name: gameName.trim(), startingCash: cash });
-      setToken('gm', res.game.code, res.gameMasterToken);
-      await goto(`/g/${res.game.code}/gm`);
-    } catch (err) {
-      createError = errorMessage(err);
-    } finally {
-      creating = false;
-    }
-  }
 
   async function join(e: SubmitEvent) {
     e.preventDefault();
@@ -94,38 +71,21 @@
     <p class="lead">Live through the markets from 1980 to today, one month at a time. Invest in bonds, gold and stocks, collect the income, and see who ends up ahead.</p>
   </header>
 
-  <div class="grid">
-    <form class="card panel" onsubmit={join}>
-      <h2>Join a game</h2>
-      <p class="sub">Enter the code your game master shows on the screen.</p>
-      <label class="field">
-        <span>Game code</span>
-        <input class="input code" bind:value={code} autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCDE" maxlength="12" />
-      </label>
-      <label class="field">
-        <span>Your name</span>
-        <input class="input" bind:value={playerName} autocomplete="nickname" placeholder="Shown on the leaderboard" maxlength="40" />
-      </label>
-      {#if joinError}<p class="notice error" role="alert">{joinError}</p>{/if}
-      <button class="btn primary" type="submit" disabled={joining}>{joining ? 'Joining…' : 'Join game'}</button>
-      <p class="sub muted">Already joined on this browser? Enter the code and you will continue where you left off.</p>
-    </form>
-
-    <form class="card panel" onsubmit={create}>
-      <h2>Create a game</h2>
-      <p class="sub">You become the game master and advance the clock for everybody.</p>
-      <label class="field">
-        <span>Game name</span>
-        <input class="input" bind:value={gameName} placeholder="e.g. Economics 101, Tuesday" maxlength="60" />
-      </label>
-      <label class="field">
-        <span>Starting cash per player (USD)</span>
-        <input class="input" bind:value={startingCash} inputmode="decimal" />
-      </label>
-      {#if createError}<p class="notice error" role="alert">{createError}</p>{/if}
-      <button class="btn primary" type="submit" disabled={creating}>{creating ? 'Creating…' : 'Create game'}</button>
-    </form>
-  </div>
+  <form class="card panel" onsubmit={join}>
+    <h2>Join a game</h2>
+    <p class="sub">Enter the code your game master shows on the screen.</p>
+    <label class="field">
+      <span>Game code</span>
+      <input class="input code" bind:value={code} autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCDE" maxlength="12" />
+    </label>
+    <label class="field">
+      <span>Your name</span>
+      <input class="input" bind:value={playerName} autocomplete="nickname" placeholder="Shown on the leaderboard" maxlength="40" />
+    </label>
+    {#if joinError}<p class="notice error" role="alert">{joinError}</p>{/if}
+    <button class="btn primary" type="submit" disabled={joining}>{joining ? 'Joining…' : 'Join game'}</button>
+    <p class="sub muted">Already joined on this browser? Enter the code and you will continue where you left off.</p>
+  </form>
 
   {#if mine.length}
     <section class="card panel mine">
@@ -150,7 +110,7 @@
 
 <style>
   main {
-    max-width: 880px;
+    max-width: 520px;
     margin: 0 auto;
     padding: 48px 20px 64px;
     display: grid;
@@ -165,12 +125,6 @@
     font-size: 1.1rem;
     max-width: 56ch;
     margin-top: 6px;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    align-items: start;
   }
   .panel {
     padding: 22px;

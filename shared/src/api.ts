@@ -2,7 +2,8 @@
  * The HTTP contract between server and web client. All bodies are JSON. Money is USD.
  *
  * Authentication: a bearer token in the Authorization header. Creating a game returns the
- * game master's token; joining returns the player's token. Tokens are opaque and stored
+ * game master's token; joining returns the player's token. Creating a game may additionally
+ * require a password, so that only the host can start games. Tokens are opaque and stored
  * hashed on the server.
  *
  * No lookahead: nothing the server sends may reveal anything after the game's current month.
@@ -38,7 +39,8 @@ export interface GameView {
   playerCount: number;
 }
 
-export interface CreateGameRequest { name: string; startingCash?: number }
+/** `password` is required when the server has a create password configured. Starting cash is fixed (STARTING_CASH). */
+export interface CreateGameRequest { name: string; password?: string }
 export interface CreateGameResponse { game: GameView; gameMasterToken: string }
 
 export interface JoinRequest { name: string }

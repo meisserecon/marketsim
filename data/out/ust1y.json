@@ -7,9 +7,481 @@
  "notes": "Constant-maturity par bond rolled monthly. price = clean price index, income = previous month yield / 12 paid in cash. extra.yield = month-end yield as fraction.",
  "rows": [
   {
+   "month": "1975-01",
+   "price": 105.3574,
+   "income": 0,
+   "extra": {
+    "yield": 0.0636
+   }
+  },
+  {
+   "month": "1975-02",
+   "price": 105.6747,
+   "income": 0.558394,
+   "extra": {
+    "yield": 0.0601
+   }
+  },
+  {
+   "month": "1975-03",
+   "price": 105.3435,
+   "income": 0.529254,
+   "extra": {
+    "yield": 0.0636
+   }
+  },
+  {
+   "month": "1975-04",
+   "price": 104.8569,
+   "income": 0.55832,
+   "extra": {
+    "yield": 0.0688
+   }
+  },
+  {
+   "month": "1975-05",
+   "price": 105.5865,
+   "income": 0.60118,
+   "extra": {
+    "yield": 0.0608
+   }
+  },
+  {
+   "month": "1975-06",
+   "price": 104.8684,
+   "income": 0.534972,
+   "extra": {
+    "yield": 0.0685
+   }
+  },
+  {
+   "month": "1975-07",
+   "price": 104.3754,
+   "income": 0.598624,
+   "extra": {
+    "yield": 0.0738
+   }
+  },
+  {
+   "month": "1975-08",
+   "price": 104.2021,
+   "income": 0.641909,
+   "extra": {
+    "yield": 0.0756
+   }
+  },
+  {
+   "month": "1975-09",
+   "price": 103.9473,
+   "income": 0.656473,
+   "extra": {
+    "yield": 0.0783
+   }
+  },
+  {
+   "month": "1975-10",
+   "price": 105.3616,
+   "income": 0.678256,
+   "extra": {
+    "yield": 0.0627
+   }
+  },
+  {
+   "month": "1975-11",
+   "price": 104.9761,
+   "income": 0.550515,
+   "extra": {
+    "yield": 0.0668
+   }
+  },
+  {
+   "month": "1975-12",
+   "price": 105.4481,
+   "income": 0.584367,
+   "extra": {
+    "yield": 0.0616
+   }
+  },
+  {
+   "month": "1976-01",
+   "price": 105.9158,
+   "income": 0.5413,
+   "extra": {
+    "yield": 0.0565
+   }
+  },
+  {
+   "month": "1976-02",
+   "price": 105.3888,
+   "income": 0.498687,
+   "extra": {
+    "yield": 0.0621
+   }
+  },
+  {
+   "month": "1976-03",
+   "price": 105.4745,
+   "income": 0.545387,
+   "extra": {
+    "yield": 0.0611
+   }
+  },
+  {
+   "month": "1976-04",
+   "price": 105.44,
+   "income": 0.537041,
+   "extra": {
+    "yield": 0.0614
+   }
+  },
+  {
+   "month": "1976-05",
+   "price": 104.87,
+   "income": 0.539501,
+   "extra": {
+    "yield": 0.0675
+   }
+  },
+  {
+   "month": "1976-06",
+   "price": 105.1287,
+   "income": 0.589894,
+   "extra": {
+    "yield": 0.0646
+   }
+  },
+  {
+   "month": "1976-07",
+   "price": 105.4356,
+   "income": 0.565943,
+   "extra": {
+    "yield": 0.0612
+   }
+  },
+  {
+   "month": "1976-08",
+   "price": 105.6332,
+   "income": 0.537722,
+   "extra": {
+    "yield": 0.059
+   }
+  },
+  {
+   "month": "1976-09",
+   "price": 105.7387,
+   "income": 0.519363,
+   "extra": {
+    "yield": 0.0578
+   }
+  },
+  {
+   "month": "1976-10",
+   "price": 105.9941,
+   "income": 0.509308,
+   "extra": {
+    "yield": 0.055
+   }
+  },
+  {
+   "month": "1976-11",
+   "price": 106.5054,
+   "income": 0.485806,
+   "extra": {
+    "yield": 0.0495
+   }
+  },
+  {
+   "month": "1976-12",
+   "price": 106.586,
+   "income": 0.439335,
+   "extra": {
+    "yield": 0.0486
+   }
+  },
+  {
+   "month": "1977-01",
+   "price": 105.9231,
+   "income": 0.431673,
+   "extra": {
+    "yield": 0.0556
+   }
+  },
+  {
+   "month": "1977-02",
+   "price": 105.9175,
+   "income": 0.490777,
+   "extra": {
+    "yield": 0.0556
+   }
+  },
+  {
+   "month": "1977-03",
+   "price": 106.0617,
+   "income": 0.490751,
+   "extra": {
+    "yield": 0.054
+   }
+  },
+  {
+   "month": "1977-04",
+   "price": 105.8692,
+   "income": 0.477278,
+   "extra": {
+    "yield": 0.056
+   }
+  },
+  {
+   "month": "1977-05",
+   "price": 105.6211,
+   "income": 0.494056,
+   "extra": {
+    "yield": 0.0586
+   }
+  },
+  {
+   "month": "1977-06",
+   "price": 105.7453,
+   "income": 0.515783,
+   "extra": {
+    "yield": 0.0572
+   }
+  },
+  {
+   "month": "1977-07",
+   "price": 105.2747,
+   "income": 0.504053,
+   "extra": {
+    "yield": 0.0622
+   }
+  },
+  {
+   "month": "1977-08",
+   "price": 105.1384,
+   "income": 0.545674,
+   "extra": {
+    "yield": 0.0636
+   }
+  },
+  {
+   "month": "1977-09",
+   "price": 104.8548,
+   "income": 0.557233,
+   "extra": {
+    "yield": 0.0666
+   }
+  },
+  {
+   "month": "1977-10",
+   "price": 104.4895,
+   "income": 0.581944,
+   "extra": {
+    "yield": 0.0705
+   }
+  },
+  {
+   "month": "1977-11",
+   "price": 104.5995,
+   "income": 0.613876,
+   "extra": {
+    "yield": 0.0692
+   }
+  },
+  {
+   "month": "1977-12",
+   "price": 104.5361,
+   "income": 0.60319,
+   "extra": {
+    "yield": 0.0698
+   }
+  },
+  {
+   "month": "1978-01",
+   "price": 104.2719,
+   "income": 0.608051,
+   "extra": {
+    "yield": 0.0726
+   }
+  },
+  {
+   "month": "1978-02",
+   "price": 104.208,
+   "income": 0.630845,
+   "extra": {
+    "yield": 0.0732
+   }
+  },
+  {
+   "month": "1978-03",
+   "price": 104.0532,
+   "income": 0.635669,
+   "extra": {
+    "yield": 0.0748
+   }
+  },
+  {
+   "month": "1978-04",
+   "price": 103.8441,
+   "income": 0.648598,
+   "extra": {
+    "yield": 0.077
+   }
+  },
+  {
+   "month": "1978-05",
+   "price": 103.6171,
+   "income": 0.666333,
+   "extra": {
+    "yield": 0.0794
+   }
+  },
+  {
+   "month": "1978-06",
+   "price": 103.2111,
+   "income": 0.6856,
+   "extra": {
+    "yield": 0.0838
+   }
+  },
+  {
+   "month": "1978-07",
+   "price": 103.2435,
+   "income": 0.720757,
+   "extra": {
+    "yield": 0.0833
+   }
+  },
+  {
+   "month": "1978-08",
+   "price": 103.0973,
+   "income": 0.716682,
+   "extra": {
+    "yield": 0.0848
+   }
+  },
+  {
+   "month": "1978-09",
+   "price": 102.7909,
+   "income": 0.728554,
+   "extra": {
+    "yield": 0.0881
+   }
+  },
+  {
+   "month": "1978-10",
+   "price": 101.7989,
+   "income": 0.754656,
+   "extra": {
+    "yield": 0.0992
+   }
+  },
+  {
+   "month": "1978-11",
+   "price": 101.6338,
+   "income": 0.841538,
+   "extra": {
+    "yield": 0.1009
+   }
+  },
+  {
+   "month": "1978-12",
+   "price": 101.1997,
+   "income": 0.854571,
+   "extra": {
+    "yield": 0.1057
+   }
+  },
+  {
+   "month": "1979-01",
+   "price": 101.5621,
+   "income": 0.891401,
+   "extra": {
+    "yield": 0.1013
+   }
+  },
+  {
+   "month": "1979-02",
+   "price": 101.3708,
+   "income": 0.857354,
+   "extra": {
+    "yield": 0.1033
+   }
+  },
+  {
+   "month": "1979-03",
+   "price": 101.4915,
+   "income": 0.872634,
+   "extra": {
+    "yield": 0.1017
+   }
+  },
+  {
+   "month": "1979-04",
+   "price": 101.3696,
+   "income": 0.86014,
+   "extra": {
+    "yield": 0.1029
+   }
+  },
+  {
+   "month": "1979-05",
+   "price": 101.682,
+   "income": 0.869244,
+   "extra": {
+    "yield": 0.0991
+   }
+  },
+  {
+   "month": "1979-06",
+   "price": 102.1115,
+   "income": 0.839724,
+   "extra": {
+    "yield": 0.094
+   }
+  },
+  {
+   "month": "1979-07",
+   "price": 101.7894,
+   "income": 0.799874,
+   "extra": {
+    "yield": 0.0975
+   }
+  },
+  {
+   "month": "1979-08",
+   "price": 101.2074,
+   "income": 0.827039,
+   "extra": {
+    "yield": 0.104
+   }
+  },
+  {
+   "month": "1979-09",
+   "price": 100.8438,
+   "income": 0.877131,
+   "extra": {
+    "yield": 0.108
+   }
+  },
+  {
+   "month": "1979-10",
+   "price": 99.0513,
+   "income": 0.907594,
+   "extra": {
+    "yield": 0.1289
+   }
+  },
+  {
+   "month": "1979-11",
+   "price": 99.8712,
+   "income": 1.063976,
+   "extra": {
+    "yield": 0.1188
+   }
+  },
+  {
    "month": "1979-12",
    "price": 100,
-   "income": 0,
+   "income": 0.988725,
    "extra": {
     "yield": 0.117
    }

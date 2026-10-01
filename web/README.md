@@ -37,7 +37,8 @@ src/lib/api/http.ts     fetch + EventSource implementation
 src/lib/api/mock.ts     in-browser implementation
 src/lib/api/tokens.ts   player / game master tokens in localStorage, keyed by game code
 src/lib/components/     Chart (hand-written SVG), MarketTable, AssetDetail, TradeForm, ...
-src/routes/+page.svelte             landing: create or join
+src/routes/+page.svelte             landing: join a game
+src/routes/create/+page.svelte      create a game (not linked from anywhere)
 src/routes/g/[code]/+page.svelte    player view
 src/routes/g/[code]/gm/+page.svelte game master view
 ```

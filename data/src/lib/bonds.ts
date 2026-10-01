@@ -33,7 +33,7 @@ export function cleanPriceAfterOneMonth(prevYield: number, newYield: number, T: 
 }
 
 /** Build monthly price index and income from a month-end yield series (fractions, not percent). */
-export function buildBondRows(months: string[], yields: Map<string, number>, T: number) {
+export function buildBondRows(months: string[], yields: Map<string, number>, T: number, baseMonth?: string) {
   let index = 100;
   const rows: { month: string; price: number; income: number; extra: { yield: number } }[] = [];
   for (let i = 0; i < months.length; i++) {
@@ -49,6 +49,12 @@ export function buildBondRows(months: string[], yields: Map<string, number>, T: 
     const income = index * (yPrev / 12);
     index = index * (clean / 100);
     rows.push({ month: m, price: index, income, extra: { yield: y } });
+  }
+  // Rebase so one unit costs 100 in the base month (the game start), wherever the history begins.
+  const base = baseMonth ? rows.find((r) => r.month === baseMonth) : undefined;
+  if (base) {
+    const f = 100 / base.price;
+    for (const r of rows) { r.price *= f; r.income *= f; }
   }
   return rows;
 }

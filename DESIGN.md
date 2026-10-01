@@ -7,6 +7,9 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 
 - **Clock.** One game = one shared timeline. The game master advances time one month at a
   time. Every player in the game sees the same month.
+- **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
+- **Creating games.** Players can only join. Games are created on `/create`, which is not linked
+  from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
 - **Portfolio.** At most five positions plus cash. Players may freely rebalance at the current
   month's price at any time during a month. No order queue, no spread or commission for now.
 - **Assets.** Cash (USD, interest-free), US Treasury 1-, 5- and 10-year bonds, gold, and a
@@ -78,6 +81,8 @@ server, client and data pipeline compile against the same definitions.
   `shared/test`. `applyTrade` executes a trade at the month's price; `advanceMonth` winds up
   ended assets and pays income into cash. A game starts in the base month 1979-12, where
   players build their first portfolio, and runs to the last month all living assets have data.
+  The data itself reaches back to January 1975 where sources allow, so charts and trailing
+  figures have history from the first day. Bond prices are indexed to 100 at the game start.
 - **HTTP API** (`shared/src/api.ts`): routes and payload types between server and client.
   Live updates go out as Server-Sent Events.
 
@@ -109,6 +114,7 @@ npm run dev         # API on http://localhost:3000, restarts on change
 
 Without `DATABASE_URL` the server uses an embedded Postgres in memory, so no database setup
 is needed for development; set `PGLITE_DIR` to keep games across restarts. With `DATABASE_URL`
-it connects to a real Postgres (Railway) and creates the tables on first start. The server
+it connects to a real Postgres (Railway) and creates the tables on first start. Set
+`CREATE_PASSWORD` on any public deployment so that only the host can create games. The server
 serves the built web client from `web/build` when it exists. Market data is read from
 `data/out` at startup; rebuild it with `npm run data:build`.

@@ -4,6 +4,10 @@
  */
 import type { AssetSeries, MonthRow } from "./asset.js";
 
+/** Every player starts with this much cash, in USD. Fixed for all games. */
+export const STARTING_CASH = 1000;
+/** The month a game starts in: players build their first portfolio at these prices. Data may reach further back, as chart history. */
+export const GAME_START_MONTH = "1979-12";
 /** Positions a player may hold besides cash. */
 export const MAX_POSITIONS = 5;
 /** Holdings worth less than this after a sale are dropped, so float dust never occupies a position slot. */
@@ -65,11 +69,12 @@ export class Market {
     return a.rows[a.rows.length - 1].price;
   }
 
-  /** The base month: players build their first portfolio here, before the first advance. */
+  /** The month a game starts in: GAME_START_MONTH, or the first month with data if that is later. Earlier rows are history only. */
   get startMonth(): string {
     const cash = this.assets.get("cash");
     if (!cash) throw new Error("market has no cash asset");
-    return cash.rows[0].month;
+    const first = cash.rows[0].month;
+    return first > GAME_START_MONTH ? first : GAME_START_MONTH;
   }
 
   /** Last month a game can reach: the earliest final month among assets that have no end event. */

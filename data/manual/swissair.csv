@@ -1,0 +1,55 @@
+# Swissair (SAirGroup N, registered share), month-end close in CHF, March 1998 to October 2001.
+# Source: Neue Zürcher Zeitung, table "Schweizer Aktien", first issue after each month end; raw readings with issue, page and
+#   quote date in raw/nzz-readings.csv (series swissair, class N). Read 2026-10-01 from PDFs of the NZZ archive.
+# Share basis: the share of the final month. The quotes of 31.3.1998 (2129) and 30.4.1998 (1962) are divided by 5.
+#   Evidence for the 1-for-5 split in May 1998: the paper's year high/low for the share changes from 2170/1815 (issue of 2.5.1998)
+#   to 457/363 (issue of 30.5.1998; 1815 / 5 = 363), and the participation certificate SAirGroup GS, quoted at 390 on 30.4.1998
+#   (one fifth of 1962), is no longer listed. No notice stating the terms was found in the issues read. No later break.
+# Quote dates are the last trading day of the month (30 December in 1998 and 1999). July 2001 is the "Vortag" of the table of 1 August.
+# 1999-03 is missing: the issue of 1.4.1999 prints only an intraday snapshot (314) and an option-page reference price (317).
+# income: dividends were not collected; the column is 0 throughout.
+# The universe ends the series in 2001-10 (grounding on 2 October 2001, debt moratorium); the last quote is 4.76 on 31.10.2001.
+month,price,income
+1998-03,425.80,0
+1998-04,392.40,0
+1998-05,453.00,0
+1998-06,499.00,0
+1998-07,466.00,0
+1998-08,359.50,0
+1998-09,284.50,0
+1998-10,342.00,0
+1998-11,308.50,0
+1998-12,341.00,0
+1999-01,302.00,0
+1999-02,312.00,0
+1999-04,349.00,0
+1999-05,344.50,0
+1999-06,325.50,0
+1999-07,336.00,0
+1999-08,318.50,0
+1999-09,324.50,0
+1999-10,320.50,0
+1999-11,327.50,0
+1999-12,320.50,0
+2000-01,327.50,0
+2000-02,317.00,0
+2000-03,312.50,0
+2000-04,306.00,0
+2000-05,311.50,0
+2000-06,272.00,0
+2000-07,286.50,0
+2000-08,269.50,0
+2000-09,247.00,0
+2000-10,243.00,0
+2000-11,257.00,0
+2000-12,258.50,0
+2001-01,240.00,0
+2001-02,214.00,0
+2001-03,177.50,0
+2001-04,125.00,0
+2001-05,124.75,0
+2001-06,108.00,0
+2001-07,135.00,0
+2001-08,92.55,0
+2001-09,41.05,0
+2001-10,4.76,0

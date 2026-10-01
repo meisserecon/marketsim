@@ -1,0 +1,50 @@
+# Newspaper-archive pilot (not read by the build). Quotes read by eye from page images of the Journal de Genève,
+# page "Bourses", at https://www.letempsarchives.ch/page/JDG_<yyyy>_<mm>_<dd>/<page>. CHF per share, Zurich column
+# unless noted. Each issue prints the two previous trading days; the value below is the later one.
+# The column-header dates were checked for 1985-06 and 1985-09 only; for the other 1985 rows the quote date is the
+# last trading day before the issue and is assumed, not read.
+# Single reading each, except 1985-12 (also in the 3 January 1986 issue) and 1990-01 (Zurich and Geneva columns).
+series,month,quote_date,class,raw_quote,issue,note
+nestle,1985-01,1985-01-31,bearer (P),6140,JDG 1985-02-01 p6,
+nestle,1985-01,1985-01-31,registered (N),3435,JDG 1985-02-01 p6,
+nestle,1985-02,1985-02-28,bearer (P),6325,JDG 1985-03-01 p8,
+nestle,1985-02,1985-02-28,registered (N),3370,JDG 1985-03-01 p8,
+nestle,1985-03,1985-03-29,bearer (P),6300,JDG 1985-03-30 p6,
+nestle,1985-03,1985-03-29,registered (N),3330,JDG 1985-03-30 p6,
+nestle,1985-04,1985-04-30,bearer (P),6550,JDG 1985-05-01 p6,
+nestle,1985-04,1985-04-30,registered (N),3425,JDG 1985-05-01 p6,
+nestle,1985-05,1985-05-31,bearer (P),6330,JDG 1985-06-01 p6,
+nestle,1985-05,1985-05-31,registered (N),3330,JDG 1985-06-01 p6,
+nestle,1985-06,1985-06-28,bearer (P),6300,JDG 1985-06-29 p8,
+nestle,1985-06,1985-06-28,registered (N),3340,JDG 1985-06-29 p8,
+nestle,1985-07,1985-07-31,bearer (P),6575,JDG 1985-08-01 p6,
+nestle,1985-07,1985-07-31,registered (N),3440,JDG 1985-08-01 p6,
+nestle,1985-08,1985-08-30,bearer (P),7375,JDG 1985-08-31 p6,
+nestle,1985-08,1985-08-30,registered (N),3675,JDG 1985-08-31 p6,
+nestle,1985-09,1985-09-30,bearer (P),7200,JDG 1985-10-01 p8,
+nestle,1985-09,1985-09-30,registered (N),3580,JDG 1985-10-01 p8,
+nestle,1985-10,1985-10-31,bearer (P),7755,JDG 1985-11-01 p8,
+nestle,1985-10,1985-10-31,registered (N),3800,JDG 1985-11-01 p8,
+nestle,1985-11,1985-11-29,bearer (P),8125,JDG 1985-11-30 p6,
+nestle,1985-11,1985-11-29,registered (N),4400,JDG 1985-11-30 p6,
+nestle,1985-12,1985-12-30,bearer (P),8925,JDG 1985-12-31 p6,same in JDG 1986-01-03 p4; 31 Dec not a trading day in the table
+nestle,1985-12,1985-12-30,registered (N),4950,JDG 1985-12-31 p6,same in JDG 1986-01-03 p4
+nestle,1985-12,1985-12-30,participation certificate (bp),1600,JDG 1985-12-31 p6,
+nestle,1990-01,1990-01-31,bearer (P),8745,JDG 1990-02-01 p4,Zurich; Geneva column 8750
+nestle,1990-01,1990-01-31,registered (N),8480,JDG 1990-02-01 p4,Zurich; Geneva column 8490. Yahoo NESN.SW 1990-01 = 8.475 = registered / 1000
+nestle,1990-01,1990-01-31,participation certificate (bp),1720,JDG 1990-02-01 p4,Zurich; Geneva column 1715
+ubs,1995-08,1995-08-31,SBG bearer (UBS p),1075,JDG 1995-09-01 p10,Yahoo UBSG.SW 1995-08 = 18.8757
+ubs,1995-08,1995-08-31,SBG registered (UBS n),235,JDG 1995-09-01 p10,
+ubs,1995-10,1995-10-31,SBG bearer (UBS p),1230,JDG 1995-11-01 p10,Yahoo UBSG.SW 1995-10 = 20.5314
+ubs,1995-10,1995-10-31,SBG registered (UBS n),260,JDG 1995-11-01 p10,
+sbv,1995-08,1995-08-31,SBV bearer (SBS p),410,JDG 1995-09-01 p10,
+sbv,1995-08,1995-08-31,SBV registered (SBS n),205.75,JDG 1995-09-01 p10,
+sbv,1995-10,1995-10-31,SBV bearer (SBS p),466,JDG 1995-11-01 p10,
+sbv,1995-10,1995-10-31,SBV registered (SBS n),232.75,JDG 1995-11-01 p10,
+swissair,1995-08,1995-08-31,registered (n),760,JDG 1995-09-01 p10,
+swissair,1995-10,1995-10-31,registered (n),715,JDG 1995-11-01 p10,
+credit-suisse,1995-08,1995-08-31,CS Holding registered (n),98.75,JDG 1995-09-01 p10,
+sandoz,1995-08,1995-08-31,bearer (p),882,JDG 1995-09-01 p10,
+sandoz,1995-08,1995-08-31,registered (n),869,JDG 1995-09-01 p10,
+ciba-geigy,1995-08,1995-08-31,bearer (p),855,JDG 1995-09-01 p10,
+ciba-geigy,1995-08,1995-08-31,registered (n),853,JDG 1995-09-01 p10,

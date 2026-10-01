@@ -1,0 +1,157 @@
+# Xstrata plc (London: XTA), ordinary shares, GBP (pounds, not pence), 2002-05 to 2013-04 (last full month before
+#   the merger into Glencore completed on 2 May 2013).
+# Source: investing.com monthly chart data for the London listing,
+#   https://api.investing.com/api/financialdata/23496/historical/chart/?period=MAX&interval=P1M&pointscount=160
+#   (monthly open/high/low/close in pence; retrieved 2026-10-01; instrument id taken from the archived page
+#   web.archive.org/web/20130109091551/http://www.investing.com:80/equities/xstrata). The endpoint refuses plain
+#   HTTP clients and was read through a fetch tool that transcribes the JSON; two independent transcriptions of
+#   the 132 monthly closes were identical. price = source close / 100.
+# Share basis: the source's own back-adjusted basis, i.e. final share count with earlier prices scaled down for
+#   the rights issues of 2003, 2006 and 2009. The factors were NOT derived here; they are whatever investing.com
+#   applied. What was checked: six unadjusted daily closes from archived Yahoo Finance pages for XTA.L
+#   (web.archive.org/web/20101208213446/http://finance.yahoo.com:80/q/hp?s=XTA.L+Historical+Prices and
+#   web.archive.org/web/20040911060149/http://finance.yahoo.com:80/q/hp?s=XTA.L):
+#     2010-09-30 1218.0p, 2010-10-29 1209.5p, 2010-11-30 1292.0p  = source exactly (factor 1 after the 2009 issue)
+#     2004-06-30 737.0p, 2004-07-30 776.0p, 2004-08-31 807.5p     = source / 0.5066 in all three months
+#   So the source values are month-end closes times a constant factor per period. Implied factor steps (from thin
+#   Frankfurt quotes on ariva.de): about 0.34 until 2003-04, 0.51 until 2006-09, 0.56 until 2009-02, 1 afterwards.
+#   Documented terms: 2009 rights issue of 2 new shares per existing share at 210p (circular,
+#   rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf). Terms of the 2003 and 2006 issues were not retrieved.
+#   Raw source values and the anchors are in raw/xstrata-raw.csv.
+# Verified against a second source: only the six month-ends above. All other months rest on the single source.
+# Missing: 2002-03 and 2002-04 (London listing began 19 or 25 March 2002; no usable source found for those months).
+# Dividends: none entered (income = 0). Xstrata paid dividends in USD from 2003 to 2012; only EUR-converted
+#   amounts were found (ariva.de) and they were not used.
+month,price,income
+2002-05,3.046,0
+2002-06,2.856,0
+2002-07,1.973,0
+2002-08,2.14,0
+2002-09,2.151,0
+2002-10,2.229,0
+2002-11,2.113,0
+2002-12,2.182,0
+2003-01,1.761,0
+2003-02,1.943,0
+2003-03,1.612,0
+2003-04,1.871,0
+2003-05,2.265,0
+2003-06,2.039,0
+2003-07,2.127,0
+2003-08,2.451,0
+2003-09,2.354,0
+2003-10,3.065,0
+2003-11,3.01,0
+2003-12,3.192,0
+2004-01,3.395,0
+2004-02,3.623,0
+2004-03,3.674,0
+2004-04,3.215,0
+2004-05,3.494,0
+2004-06,3.734,0
+2004-07,3.932,0
+2004-08,4.091,0
+2004-09,4.603,0
+2004-10,4.281,0
+2004-11,4.707,0
+2004-12,4.722,0
+2005-01,4.687,0
+2005-02,5.543,0
+2005-03,5.118,0
+2005-04,4.57,0
+2005-05,4.996,0
+2005-06,5.457,0
+2005-07,6.131,0
+2005-08,6.592,0
+2005-09,7.443,0
+2005-10,6.551,0
+2005-11,6.658,0
+2005-12,6.891,0
+2006-01,7.99,0
+2006-02,8.436,0
+2006-03,9.44,0
+2006-04,10.053,0
+2006-05,10.792,0
+2006-06,10.387,0
+2006-07,11.639,0
+2006-08,11.948,0
+2006-09,11.182,0
+2006-10,12.68,0
+2006-11,12.907,0
+2006-12,14.435,0
+2007-01,13.428,0
+2007-02,13.558,0
+2007-03,14.786,0
+2007-04,14.95,0
+2007-05,16.428,0
+2007-06,16.909,0
+2007-07,18.103,0
+2007-08,16.445,0
+2007-09,18.364,0
+2007-10,19.513,0
+2007-11,19.354,0
+2007-12,20.096,0
+2008-01,21.664,0
+2008-02,22.417,0
+2008-03,19.966,0
+2008-04,22.338,0
+2008-05,22.581,0
+2008-06,22.779,0
+2008-07,20.639,0
+2008-08,17.356,0
+2008-09,9.714,0
+2008-10,5.972,0
+2008-11,5.267,0
+2008-12,3.623,0
+2009-01,3.224,0
+2009-02,3.937,0
+2009-03,4.668,0
+2009-04,6.075,0
+2009-05,6.84,0
+2009-06,6.573,0
+2009-07,8.082,0
+2009-08,8.265,0
+2009-09,9.225,0
+2009-10,8.825,0
+2009-11,10.69,0
+2009-12,11.21,0
+2010-01,10.315,0
+2010-02,10.3,0
+2010-03,12.485,0
+2010-04,10.865,0
+2010-05,10.155,0
+2010-06,8.868,0
+2010-07,10.155,0
+2010-08,10.26,0
+2010-09,12.18,0
+2010-10,12.095,0
+2010-11,12.92,0
+2010-12,15.055,0
+2011-01,13.85,0
+2011-02,14.05,0
+2011-03,14.57,0
+2011-04,15.215,0
+2011-05,14.255,0
+2011-06,13.715,0
+2011-07,12.955,0
+2011-08,10.79,0
+2011-09,8.208,0
+2011-10,10.455,0
+2011-11,10.17,0
+2011-12,9.78,0
+2012-01,10.745,0
+2012-02,12,0
+2012-03,10.68,0
+2012-04,11.775,0
+2012-05,9.225,0
+2012-06,7.986,0
+2012-07,8.481,0
+2012-08,9.522,0
+2012-09,9.575,0
+2012-10,9.791,0
+2012-11,10.34,0
+2012-12,10.59,0
+2013-01,11.815,0
+2013-02,11.625,0
+2013-03,10.68,0
+2013-04,9.635,0

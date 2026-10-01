@@ -1,0 +1,17 @@
+# Raw quotes behind ../pets-com.csv. No split, so raw_close = price.
+# source A = companiesmarketcap.com/pets-dot-com-ipet-holdings/stock-price-history/ (daily closes, retrieved 2026-10-01)
+# source B = Form 10-K for fiscal 2000, SEC accession 0001095811-01-002065 (closing price on the delisting day)
+month,date,raw_close,split_factor,price,source
+2000-02,2000-02-11,11,1,11,A (first trading day; IPO price 11.00)
+2000-02,2000-02-29,7,1,7,A
+2000-03,2000-03-31,4.28125,1,4.28125,A
+2000-04,2000-04-28,2.875,1,2.875,A
+2000-05,2000-05-31,2.09375,1,2.09375,A
+2000-06,2000-06-30,2.25,1,2.25,A
+2000-07,2000-07-31,1.625,1,1.625,A
+2000-08,2000-08-31,0.96875,1,0.96875,A
+2000-09,2000-09-29,0.75,1,0.75,A
+2000-10,2000-10-31,0.5,1,0.5,A
+2000-11,2000-11-30,0.28125,1,0.28125,A
+2000-12,2000-12-29,0.09375,1,0.09375,A (after the universe end month; not in pets-com.csv)
+2001-01,2001-01-18,0.125,1,0.125,A and B (last trading day on Nasdaq; not in pets-com.csv)

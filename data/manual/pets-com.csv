@@ -1,0 +1,24 @@
+# Pets.com, Inc. (Nasdaq: IPET), common stock, USD. IPO 11 February 2000 at USD 11.00.
+# Source: companiesmarketcap.com/pets-dot-com-ipet-holdings/stock-price-history/ (daily closes embedded in the
+#   page, retrieved 2026-10-01; 236 trading days from 2000-02-11 to 2001-01-18). Price = close of the last trading
+#   day of the month; the exact day and the unrounded quote are in raw/pets-com-raw.csv.
+# Share basis: no split ever, prices are as quoted (in 1/32 dollar fractions).
+# Dividends: none were paid while the company operated; income = 0.
+# Cross-check (second source): Form 10-K for 2000 (SEC accession 0001095811-01-002065), item 5, quarterly
+#   high/low sale prices on Nasdaq: Q1 (from 11 Feb) 14.00/3.88, Q2 4.63/1.88, Q3 2.44/0.59, Q4 0.81/0.06, and
+#   "closing price on January 18, 2001 was $0.125" (the day of the Nasdaq delisting). Every month-end close below
+#   lies inside its quarter's range and the source's last row (2001-01-18, 0.125) equals the 10-K figure.
+#   The month-end closes themselves rest on the single source above.
+# Note: the company announced its wind-down on 7 November 2000 but the shares kept trading until 18 January 2001
+#   (2000-12 close 0.09375, 2001-01-18 close 0.125, see raw file). The universe ends the series in 2000-11.
+month,price,income
+2000-02,7,0
+2000-03,4.28125,0
+2000-04,2.875,0
+2000-05,2.09375,0
+2000-06,2.25,0
+2000-07,1.625,0
+2000-08,0.96875,0
+2000-09,0.75,0
+2000-10,0.5,0
+2000-11,0.28125,0

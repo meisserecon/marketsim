@@ -19,7 +19,7 @@ from memory. "Entered" means a CSV exists in this folder and the build accepts i
 | sandoz | Journal de Genève scans | daily close | 1980-01 to 1996-12 | about 204 issues | readable | not started |
 | ciba-geigy | Journal de Genève scans | daily close | 1980-01 to 1996-12 | about 204 issues | readable | not started |
 | credit-suisse | Journal de Genève scans to 1998-02; digrin.com monthly 1995-04 to 2023-06 (adjusted) | daily / month-end | 1980 to 2023 | 218 issues + one download | scans readable; digrin is back-adjusted (0.9155 x true close in 2008) | not started |
-| swissair | Journal de Genève scans | daily close | 1980-01 to 1998-02 | about 218 issues | readable | 1998-03..2001-10: no source found |
+| swissair | Journal de Genève scans to 1998-02; NZZ issues after | daily close | 1980-01 to 2001-10 | about 218 issues for 1980 to 1998-02 | readable | entered 1998-03..2001-10 from the NZZ (see NZZ section); earlier years not started |
 | mercedes (prefix) | onvista.de daily from 1987-12-30; Journal de Genève "Allemagne" table before | daily close | 1987-12 to 1996-10 online; 1980-87 scans only | download + about 96 issues | online part good; scans not piloted for German shares | not started |
 | bmw (prefix) | boerse.de monthly from 1973 (adjusted) / onvista daily from 1987-12-30 (raw) | month-end / daily | 1980 to 1996 | one download | medium; pre-1988 rights adjustments unverified | not started |
 | siemens (prefix) | boerse.de monthly from 1973 / onvista daily from 1987-12-30 | month-end / daily | 1980 to 1996 | one download | good; both are raw quotes times a constant | not started |
@@ -60,7 +60,7 @@ from memory. "Entered" means a CSV exists in this folder and the build accepts i
   be delisted" for CSGN.SW, XTA.L, 8302. onvista and ariva have no Swissair history; ariva's UBS history starts
   1998-06.
 - Schlumberger's investor site (split history) returns "Access Denied" to scripts.
-- NZZ archive, SNB and SIX historical data: not examined.
+- SNB and SIX historical data: not examined. (The NZZ archive was examined later; see the NZZ section at the end.)
 
 ## Newspaper-archive pilot (Journal de Genève)
 
@@ -180,3 +180,70 @@ JPX publishes the Tokyo daily official list for 1949-2010. A 29 December 1989 sc
 21 September 2000 PDF shows it at 835. Month-ends before 1999 mean one 100-170 MB download and one page read
 each. JPX asks for manual retrieval only and prohibits reproduction of the files. No split or dividend
 history was found.
+
+## NZZ archive route (pilot of 46 issues, March 1998 to October 2001)
+
+What was done: 46 whole issues of the Neue Zürcher Zeitung (the first issue after each month end) were read for
+SAirGroup, SBV, UBS, CS Group, Nestlé, Novartis, Roche (control), and for Industrial Bank of Japan (Tokio list)
+and Daimler, BMW, Siemens (Frankfurt list). 441 readings are in `raw/nzz-readings.csv`; `swissair.csv` is entered
+for 1998-03 to 2001-10 (43 of 44 months). The PDFs (7.6 GB) stay outside git in `scans/nzz/`.
+
+Two PDF formats:
+
+- **Scans (issues to December 1998).** One Flate-compressed 4-bit grayscale image per page, about 3700 x 5550
+  pixels, 170 to 520 MB per issue, no text layer (the issue of 31 December 1998 has an OCR layer, but it turns
+  107.50 into 10750 and is useless for numbers). Rendering libraries fail on these files; the page image has to be
+  cut straight out of the PDF stream. With a small index of the image offsets a crop takes about a second.
+  The Swiss table needs a page-header strip to find the page (33 or 35 in most issues, 29 to 35 overall),
+  then about six crops at full resolution; the Tokio and Frankfurt rows need about five more. At full resolution
+  the print is easy to read; the close stands directly after the volume without a gap ("2566316500" is volume
+  25663, close 16500), so the digit count must be checked against the neighbouring columns.
+- **Typeset text (issues from January 1999).** 30 to 250 MB per issue. `pdfjs-dist` extracts the text of a
+  whole issue in 10 to 55 seconds. In the tables the text arrives as single glyphs and fused numbers
+  ("17773349", "92.3593.7092.10"), so rows must be rebuilt from coordinates: group by baseline, split where
+  the gap exceeds a third of a point, take the last token before the next sub-column as the close. Rendering
+  for a visual check works only with image drawing switched off (the page images crash the native canvas).
+
+Reliability found:
+
+- Eye readings of the ten scan issues: every value was read twice (two crops, or main table plus the
+  "Meistgehandelte Titel" box or the option underlying on the derivatives page). No second reading contradicted
+  a first one. Nestlé and Novartis agree with Yahoo in all ten months.
+- Text extraction: of 324 accepted text readings, the automatic row parser produced the same value for 219, a
+  wrong candidate for 19 and nothing for 86 (rows it could not segment). A parser alone is therefore not
+  enough; every accepted Swiss, Tokio, BMW and Daimler value was also compared with a rendering of the row.
+  The text itself was never wrong where it could be segmented by hand; the errors are all in segmentation.
+- The control did real work. Nestlé N matches Yahoo exactly in 44 of 44 months and Novartis N within 0.15
+  percent, but only after three corrections that the control forced: (1) in the issues of 1 April 1999 and
+  29 April 2000 the main Swiss table is an intraday snapshot with low volumes, and only the "Meistgehandelte
+  Titel" box carries the close; (2) in the issue of 2 August 2001 the rows of the SMI shares are of 1 August
+  (they traded on virt-x on the national holiday) and the month-end close is the "Vortag" column; (3) page
+  headers such as "31.Mai/1.Juni" cover two days, and which day a given table shows has to be settled per
+  market (settled for Frankfurt with Yahoo BMW, not settled for Tokio, so two IBJ months were left out).
+  A stock without such a control and without a second place in the paper (Swissair in March 1999) could not
+  be rescued and is missing.
+- Year-end: the Monday issues after New Year (4 January 1999, 3 January 2000) carry no share tables; the
+  issue of 31 December prints the close of 30 December, which was the last trading day in 1998 and 1999.
+- Splits show up in the paper as a restated year high/low next to the quote, which gives the factor (SAirGroup
+  5, UBS 2 and 3, Novartis 40, Roche 100, Nestlé 10) but not the legal terms; only the UBS split of May 2000
+  was documented in an issue read (bond notices). A split series cannot be built from month-end issues
+  alone without that restated range or a second share class to compare with.
+
+Time per issue in this session (agent reading images): scan issue about 15 image crops and two passes;
+text issue one extraction plus one rendered strip sheet of all target rows. The whole pilot including tool
+building took one long session; with the tools in place, 46 issues are about half a session.
+
+What this implies for 1980 to 1998 (all scans):
+
+- The route works and is the only one found for Swissair, SBV and Credit Suisse after February 1998. For
+  1980 to February 1998 it competes with the Journal de Genève scans: same reading effort per issue, but the
+  NZZ files are 150 to 500 MB each and must be downloaded whole (218 month-ends are roughly 50 to 70 GB),
+  while the Journal de Genève serves single page regions. The NZZ has the better table from the mid-1990s
+  (volume, year range, most-traded box as a built-in second reading); how the page looks in the 1980s was not
+  examined in this pilot.
+- No text layer means no automatic extraction; OCR of these tables is not good enough (see the 31 December
+  1998 layer). Budget two eye readings per number and keep Nestlé N as the per-issue control: it is in Yahoo
+  from 1990, so for 1980 to 1989 there is no control at all and the second reading has to come from the paper
+  itself (the following issue's "Vortag" column is the natural choice, which doubles the downloads).
+- The traps found here will recur: snapshot tables before holidays, two-day headers, year-end issues,
+  share-class lines appearing and disappearing, and nominal changes visible only through the year range.

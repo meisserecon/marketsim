@@ -1,0 +1,241 @@
+{
+ "id": "swissair",
+ "name": "Swissair",
+ "renames": [
+  {
+   "from": "1997-04",
+   "name": "SAirGroup"
+  }
+ ],
+ "kind": "stock",
+ "currency": "USD",
+ "source": "manual/swissair.csv",
+ "notes": "Converted from CHF at month-end FRED rate.",
+ "end": {
+  "month": "2001-10",
+  "type": "bankruptcy",
+  "note": "Grounded in October 2001 and placed in debt moratorium"
+ },
+ "rows": [
+  {
+   "month": "1998-03",
+   "price": 279.3047,
+   "income": 0
+  },
+  {
+   "month": "1998-04",
+   "price": 261.5128,
+   "income": 0
+  },
+  {
+   "month": "1998-05",
+   "price": 305.668,
+   "income": 0
+  },
+  {
+   "month": "1998-06",
+   "price": 329.3729,
+   "income": 0
+  },
+  {
+   "month": "1998-07",
+   "price": 312.4371,
+   "income": 0
+  },
+  {
+   "month": "1998-08",
+   "price": 249.3584,
+   "income": 0
+  },
+  {
+   "month": "1998-09",
+   "price": 206.04,
+   "income": 0
+  },
+  {
+   "month": "1998-10",
+   "price": 252.4358,
+   "income": 0
+  },
+  {
+   "month": "1998-11",
+   "price": 220.9411,
+   "income": 0
+  },
+  {
+   "month": "1998-12",
+   "price": 248.2708,
+   "income": 0
+  },
+  {
+   "month": "1999-01",
+   "price": 213.1564,
+   "income": 0
+  },
+  {
+   "month": "1999-02",
+   "price": 215.2466,
+   "income": 0
+  },
+  {
+   "month": "1999-03",
+   "price": 215.2466,
+   "income": 0
+  },
+  {
+   "month": "1999-04",
+   "price": 228.7475,
+   "income": 0
+  },
+  {
+   "month": "1999-05",
+   "price": 225.4581,
+   "income": 0
+  },
+  {
+   "month": "1999-06",
+   "price": 209.2575,
+   "income": 0
+  },
+  {
+   "month": "1999-07",
+   "price": 225.1256,
+   "income": 0
+  },
+  {
+   "month": "1999-08",
+   "price": 210.5089,
+   "income": 0
+  },
+  {
+   "month": "1999-09",
+   "price": 216.0165,
+   "income": 0
+  },
+  {
+   "month": "1999-10",
+   "price": 210.2604,
+   "income": 0
+  },
+  {
+   "month": "1999-11",
+   "price": 206.0656,
+   "income": 0
+  },
+  {
+   "month": "1999-12",
+   "price": 201.1927,
+   "income": 0
+  },
+  {
+   "month": "2000-01",
+   "price": 198.545,
+   "income": 0
+  },
+  {
+   "month": "2000-02",
+   "price": 190.219,
+   "income": 0
+  },
+  {
+   "month": "2000-03",
+   "price": 187.9134,
+   "income": 0
+  },
+  {
+   "month": "2000-04",
+   "price": 177.3913,
+   "income": 0
+  },
+  {
+   "month": "2000-05",
+   "price": 184.5051,
+   "income": 0
+  },
+  {
+   "month": "2000-06",
+   "price": 166.6973,
+   "income": 0
+  },
+  {
+   "month": "2000-07",
+   "price": 171.67,
+   "income": 0
+  },
+  {
+   "month": "2000-08",
+   "price": 154.6628,
+   "income": 0
+  },
+  {
+   "month": "2000-09",
+   "price": 143.064,
+   "income": 0
+  },
+  {
+   "month": "2000-10",
+   "price": 135.1652,
+   "income": 0
+  },
+  {
+   "month": "2000-11",
+   "price": 147.9988,
+   "income": 0
+  },
+  {
+   "month": "2000-12",
+   "price": 159.5482,
+   "income": 0
+  },
+  {
+   "month": "2001-01",
+   "price": 146.1187,
+   "income": 0
+  },
+  {
+   "month": "2001-02",
+   "price": 127.8681,
+   "income": 0
+  },
+  {
+   "month": "2001-03",
+   "price": 102.2465,
+   "income": 0
+  },
+  {
+   "month": "2001-04",
+   "price": 72.0669,
+   "income": 0
+  },
+  {
+   "month": "2001-05",
+   "price": 69.4213,
+   "income": 0
+  },
+  {
+   "month": "2001-06",
+   "price": 60.1069,
+   "income": 0
+  },
+  {
+   "month": "2001-07",
+   "price": 78.1024,
+   "income": 0
+  },
+  {
+   "month": "2001-08",
+   "price": 55.4258,
+   "income": 0
+  },
+  {
+   "month": "2001-09",
+   "price": 25.3583,
+   "income": 0
+  },
+  {
+   "month": "2001-10",
+   "price": 2.9118,
+   "income": 0
+  }
+ ]
+}

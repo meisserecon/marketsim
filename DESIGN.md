@@ -118,3 +118,19 @@ it connects to a real Postgres (Railway) and creates the tables on first start. 
 `CREATE_PASSWORD` on any public deployment so that only the host can create games. The server
 serves the built web client from `web/build` when it exists. Market data is read from
 `data/out` at startup; rebuild it with `npm run data:build`.
+
+## Data sourcing decisions
+
+- **Swiss share classes.** Before the Swiss companies unified their shares, the bearer share
+  (Inhaberaktie) is used, because it is what a foreign investor could buy. Registered shares
+  were closed to foreigners and traded at roughly half the price until Nestlé opened its
+  register on 17 November 1988. Yahoo's series continue the registered line, so the bearer
+  series is carried up to each company's unification and Yahoo is used from there.
+- **Swiss history 1980 to 1998** is read from full issues of the NZZ (first issue after each
+  month end), downloaded through the user's subscription and kept outside git in
+  `data/manual/scans/`. Raw readings go to `data/manual/raw/` unadjusted; the series files
+  apply documented splits. Nestlé and Novartis are read alongside as controls against Yahoo.
+- **German history before late 1996** comes from online chart sources (boerse.de, onvista),
+  rebased to Yahoo's series and cross-checked against printed NZZ quotes where available.
+- **Japan** is represented by Industrial Bank of Japan, from the NZZ's Tokyo list.
+- **News library:** scope and format are still to be decided.

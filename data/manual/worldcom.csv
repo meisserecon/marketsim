@@ -1,0 +1,177 @@
+# WorldCom, Inc. (Nasdaq: WCOM; LDDS Communications until 1995, MCI WorldCom 1998-2000; from July 2001 the
+#   "WorldCom group" tracking stock), common stock, USD, 1990-01 to 2002-07 (Chapter 11 filing on 21 July 2002).
+# Source: companiesmarketcap.com/worldcom/stock-price-history/ (monthly points, last trading day of each month,
+#   embedded in the page, retrieved 2026-10-01). The source expresses every price per share of January 1990,
+#   i.e. the quoted close multiplied by the splits since then; dividing by 40.5 gives the price on the final
+#   share count.
+# Share basis: final share count (after the 3-for-2 split of 30 December 1999). Splits from 1993 on, per the
+#   Forms 10-K: 3-for-2 distributed 14 January 1993, 2-for-1 distributed 6 January 1994, 2-for-1 distributed
+#   3 July 1996, 3-for-2 at the end of 1999. Divisor applied to quoted prices: 3 from 1994-01 to 1996-06, 1.5
+#   until 1999-11, 1 afterwards. The divisor 40.5 was fixed on the 1994-2001 quotes; the source's own split
+#   table (companiesmarketcap.com/worldcom/stock-splits/) multiplies to 20.25 only, so it lacks one 2-for-1
+#   step somewhere before 1994. Raw figures are in raw/worldcom-raw.csv.
+# Check: 108 month-end closes of 1993-2001 were compared with the quarterly high/low sale prices in the
+#   Forms 10-K for 1994, 1995, 1997, 1999, 2000 and 2001; 0 fall outside their quarter's range.
+#   The month-end closes themselves rest on the one source. 1990-01 to 1992-12 could not be checked against
+#   anything and it is not established whether the source follows LDDS Communications (Tennessee) or Resurgens
+#   Communications Group, the two companies that merged on 15 September 1993 (LDDS holders received 0.9595
+#   new shares per share; Resurgens was the legal survivor). Treat 1990-1992 as unverified.
+# Not included: on 13 July 2001 each WorldCom share became one WorldCom group share plus 1/25 share of MCI
+#   group stock (MCIT, quarterly range 15.02-22.50 at the time, about 4 percent of the holding). The series
+#   follows the WorldCom group share only; the MCI group share and its dividends (0.60 a quarter) are left out.
+# 2002-06 is the close of 25 June 2002 (0.83), the last trade before Nasdaq halted the shares until 1 July.
+# Dividends: none. "The Company has never paid cash dividends on its Common Stock" (Form 10-K 1997); "we have
+#   never paid cash dividends on the WorldCom group stock" (Form 10-K 2001).
+# Not covered: 1989 and earlier (no monthly source found).
+month,price,income
+1990-01,0.666667,0
+1990-02,0.691358,0
+1990-03,0.839506,0
+1990-04,0.851852,0
+1990-05,0.950617,0
+1990-06,1.234568,0
+1990-07,1.055556,0
+1990-08,1.074074,0
+1990-09,1.12963,0
+1990-10,1.055556,0
+1990-11,1.166667,0
+1990-12,1.333333,0
+1991-01,1.740741,0
+1991-02,2.037037,0
+1991-03,2.074074,0
+1991-04,2.092593,0
+1991-05,2.046296,0
+1991-06,2.194444,0
+1991-07,2.763889,0
+1991-08,3.055556,0
+1991-09,2.833333,0
+1991-10,2.972222,0
+1991-11,2.694444,0
+1991-12,3.055556,0
+1992-01,3.277778,0
+1992-02,3.5,0
+1992-03,3.277778,0
+1992-04,3.638889,0
+1992-05,3.444444,0
+1992-06,3.222222,0
+1992-07,3.666667,0
+1992-08,3.416667,0
+1992-09,3.722222,0
+1992-10,3.916667,0
+1992-11,4.513889,0
+1992-12,4.986111,0
+1993-01,5.125,0
+1993-02,5.875,0
+1993-03,5.875,0
+1993-04,6.375,0
+1993-05,5.958333,0
+1993-06,5.833333,0
+1993-07,6.895833,0
+1993-08,7.229167,0
+1993-09,8.333333,0
+1993-10,8.375,0
+1993-11,7.104167,0
+1993-12,8.041667,0
+1994-01,9.166667,0
+1994-02,9.041667,0
+1994-03,8,0
+1994-04,7.833333,0
+1994-05,6.125,0
+1994-06,5.833333,0
+1994-07,6.5,0
+1994-08,7.75,0
+1994-09,7.333333,0
+1994-10,7.833333,0
+1994-11,6.708333,0
+1994-12,6.5,0
+1995-01,7.25,0
+1995-02,7.833333,0
+1995-03,7.791667,0
+1995-04,8,0
+1995-05,8.666667,0
+1995-06,9,0
+1995-07,9.958333,0
+1995-08,11.25,0
+1995-09,10.708333,0
+1995-10,10.875,0
+1995-11,10.833333,0
+1995-12,11.75,0
+1996-01,12.208333,0
+1996-02,13.125,0
+1996-03,15.333333,0
+1996-04,15.666667,0
+1996-05,16.291667,0
+1996-06,18.458333,0
+1996-07,17.25,0
+1996-08,14,0
+1996-09,14.25,0
+1996-10,16.25,0
+1996-11,15.416667,0
+1996-12,17.333333,0
+1997-01,16.75,0
+1997-02,17.75,0
+1997-03,14.666667,0
+1997-04,16,0
+1997-05,19.75,0
+1997-06,21.333333,0
+1997-07,23.291667,0
+1997-08,19.958333,0
+1997-09,23.583333,0
+1997-10,22.416667,0
+1997-11,21.333333,0
+1997-12,20.166667,0
+1998-01,23.875,0
+1998-02,25.458333,0
+1998-03,28.708333,0
+1998-04,28.520833,0
+1998-05,30.333333,0
+1998-06,32.291667,0
+1998-07,35.25,0
+1998-08,27.291667,0
+1998-09,32.583333,0
+1998-10,36.833333,0
+1998-11,39.333333,0
+1998-12,47.833333,0
+1999-01,53.166667,0
+1999-02,55,0
+1999-03,59.041667,0
+1999-04,54.791667,0
+1999-05,57.583333,0
+1999-06,57.375,0
+1999-07,55,0
+1999-08,50.5,0
+1999-09,47.916667,0
+1999-10,57.208333,0
+1999-11,55.125,0
+1999-12,53.0625,0
+2000-01,45.9375,0
+2000-02,44.625,0
+2000-03,45.3125,0
+2000-04,45.4375,0
+2000-05,37.625,0
+2000-06,45.875,0
+2000-07,39.0625,0
+2000-08,36.5,0
+2000-09,30.375,0
+2000-10,23.75,0
+2000-11,14.9375,0
+2000-12,14.0625,0
+2001-01,21.5625,0
+2001-02,16.625,0
+2001-03,18.6875,0
+2001-04,18.25,0
+2001-05,17.84,0
+2001-06,14.2,0
+2001-07,14,0
+2001-08,12.86,0
+2001-09,15.04,0
+2001-10,13.45,0
+2001-11,14.54,0
+2001-12,14.08,0
+2002-01,10.05,0
+2002-02,7.52,0
+2002-03,6.74,0
+2002-04,2.479,0
+2002-05,1.66,0
+2002-06,0.83,0
+2002-07,0.14,0

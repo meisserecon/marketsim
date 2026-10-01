@@ -3,9 +3,129 @@
  "name": "Schlumberger",
  "kind": "stock",
  "currency": "USD",
- "source": "Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Transocean Sedco Forex 1999-12 (factor 0.892)",
+ "source": "manual/slb.csv until 1981-11; Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Transocean Sedco Forex 1999-12 (factor 0.892)",
  "notes": "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover. Yahoo data from 1981-12; 1980 to 1981 needs a manual prefix.",
  "rows": [
+  {
+   "month": "1979-12",
+   "price": 9.2867,
+   "income": 0
+  },
+  {
+   "month": "1980-01",
+   "price": 10.3639,
+   "income": 0
+  },
+  {
+   "month": "1980-02",
+   "price": 11.0944,
+   "income": 0
+  },
+  {
+   "month": "1980-03",
+   "price": 10.5249,
+   "income": 0
+  },
+  {
+   "month": "1980-04",
+   "price": 10.5496,
+   "income": 0
+  },
+  {
+   "month": "1980-05",
+   "price": 10.9211,
+   "income": 0
+  },
+  {
+   "month": "1980-06",
+   "price": 11.4412,
+   "income": 0
+  },
+  {
+   "month": "1980-07",
+   "price": 12.8528,
+   "income": 0
+  },
+  {
+   "month": "1980-08",
+   "price": 13.1871,
+   "income": 0
+  },
+  {
+   "month": "1980-09",
+   "price": 14.1653,
+   "income": 0
+  },
+  {
+   "month": "1980-10",
+   "price": 16.0659,
+   "income": 0
+  },
+  {
+   "month": "1980-11",
+   "price": 19.2977,
+   "income": 0
+  },
+  {
+   "month": "1980-12",
+   "price": 17.3847,
+   "income": 0
+  },
+  {
+   "month": "1981-01",
+   "price": 15.6202,
+   "income": 0
+  },
+  {
+   "month": "1981-02",
+   "price": 16.2703,
+   "income": 0
+  },
+  {
+   "month": "1981-03",
+   "price": 15.1001,
+   "income": 0
+  },
+  {
+   "month": "1981-04",
+   "price": 14.5615,
+   "income": 0
+  },
+  {
+   "month": "1981-05",
+   "price": 14.8215,
+   "income": 0
+  },
+  {
+   "month": "1981-06",
+   "price": 14.06,
+   "income": 0
+  },
+  {
+   "month": "1981-07",
+   "price": 15.0444,
+   "income": 0
+  },
+  {
+   "month": "1981-08",
+   "price": 13.5957,
+   "income": 0
+  },
+  {
+   "month": "1981-09",
+   "price": 11.6455,
+   "income": 0
+  },
+  {
+   "month": "1981-10",
+   "price": 12.7042,
+   "income": 0
+  },
+  {
+   "month": "1981-11",
+   "price": 12.7599,
+   "income": 0
+  },
   {
    "month": "1981-12",
    "price": 12.4534,

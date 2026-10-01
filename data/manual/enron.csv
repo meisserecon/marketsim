@@ -1,0 +1,169 @@
+# Enron Corp. (NYSE: ENE), common stock, USD, 1990-01 to 2001-12 (Chapter 11 filing on 2 December 2001).
+# Source A (all months): companiesmarketcap.com/enron/stock-price-history/ (monthly points, last trading day of
+#   each month, embedded in the page, retrieved 2026-10-01). The source expresses every price per share of
+#   January 1990, i.e. the quoted close multiplied by the splits since then; dividing by 8 gives the price on
+#   the final share count.
+# Source B (1998-01 to 2001-12, cross-check): "Enron historical stock price", daily open/high/low/close table
+#   published by the UMKC Famous Trials site, famous-trials.com/images/ftrials/Enron/documents/enronstockchart.pdf
+#   (scanned table, read by eye; prices already split-adjusted to the final basis, rounded to cents).
+#   A/8 and B agree to the cent in 45 of 48 months. 2000-05 (A 72.875, B 71.63) and 2000-07 (A 73.625, B 73.75)
+#   differ; B is used there because A's figures equal the next day's opening price in B. 2000-09 differs by
+#   1.5 cents (A 87.625, B 87.64); A is kept.
+# Share basis: final share count (after the last split). 2-for-1 splits: December 1991, August 1993 (effective
+#   16 August 1993 per the 1993 Form 10-K), August 1999 (effective 13 August 1999 per the 1999 Form 10-K);
+#   dates as listed at companiesmarketcap.com/enron/stock-splits/. Divisor applied to quoted prices: 8 until
+#   1991-12, 4 until 1993-07, 2 until 1999-07, 1 afterwards. Raw figures are in raw/enron-raw.csv.
+# Second check: 108 month-end closes of 1992-2000 were compared with the quarterly high/low sale prices
+#   in Enron's Forms 10-K for 1993, 1994, 1996, 1997, 1998, 1999 and 2000; 1 falls outside its quarter's range:
+#   1993-06 (source A 131.75, i.e. 65.875 as quoted, above the second-quarter high of 62.5). That month is left
+#   out (the build carries the May price forward) and its dividend is booked in 1993-07.
+#   1990-01 to 1991-12 rest on source A alone and could not be checked against anything.
+# Dividends: "dividends paid per share" per calendar quarter from the same Forms 10-K (1992-2000), converted to
+#   the final share basis. The filings give the quarter, not the payment date; each dividend is booked in the
+#   last month of its quarter. No source was retrieved for 1990-1991 and for 2001; income is 0 there although
+#   dividends were paid.
+# Not covered: 1985-1989 (no monthly source found).
+month,price,income
+1990-01,7.109375,0
+1990-02,6.703125,0
+1990-03,6.703125,0
+1990-04,6.46875,0
+1990-05,7.0625,0
+1990-06,7.09375,0
+1990-07,6.9375,0
+1990-08,6.4375,0
+1990-09,7.0625,0
+1990-10,7.53125,0
+1990-11,7.171875,0
+1990-12,6.84375,0
+1991-01,6.4375,0
+1991-02,7.0625,0
+1991-03,7.015625,0
+1991-04,7,0
+1991-05,7.546875,0
+1991-06,7.203125,0
+1991-07,7.75,0
+1991-08,8.140625,0
+1991-09,8.515625,0
+1991-10,9.0625,0
+1991-11,9.09375,0
+1991-12,8.75,0
+1992-01,7.84375,0
+1992-02,8.53125,0
+1992-03,9.03125,0.08125
+1992-04,9.15625,0
+1992-05,10.375,0
+1992-06,10.46875,0.08125
+1992-07,11.34375,0
+1992-08,11.90625,0
+1992-09,12.25,0.08125
+1992-10,12.25,0
+1992-11,11.5625,0
+1992-12,11.59375,0.0875
+1993-01,12.25,0
+1993-02,14.0625,0
+1993-03,15.0625,0.0875
+1993-04,14.03125,0
+1993-05,14.25,0
+1993-07,16.3125,0.0875
+1993-08,17.125,0
+1993-09,17.5,0.0875
+1993-10,16.9375,0
+1993-11,15.5625,0
+1993-12,14.5,0.09375
+1994-01,16.4375,0
+1994-02,15.9375,0
+1994-03,15.25,0.09375
+1994-04,14.8125,0
+1994-05,15.25,0
+1994-06,16.375,0.09375
+1994-07,16.0625,0
+1994-08,15.25,0
+1994-09,15.125,0.09375
+1994-10,16.1875,0
+1994-11,13.5,0
+1994-12,15.25,0.1
+1995-01,14.5625,0
+1995-02,16.5,0
+1995-03,16.5,0.1
+1995-04,17,0
+1995-05,18.25,0
+1995-06,17.5625,0.1
+1995-07,17.375,0
+1995-08,16.8125,0
+1995-09,16.75,0.1
+1995-10,17.1875,0
+1995-11,18.75,0
+1995-12,19.0625,0.10625
+1996-01,18.5,0
+1996-02,18.3125,0
+1996-03,18.4375,0.10625
+1996-04,20.125,0
+1996-05,20,0
+1996-06,20.4375,0.10625
+1996-07,19.6875,0
+1996-08,20.0625,0
+1996-09,20.375,0.10625
+1996-10,23.25,0
+1996-11,22.9375,0
+1996-12,21.5625,0.1125
+1997-01,20.625,0
+1997-02,19.9375,0
+1997-03,19.0625,0.1125
+1997-04,18.8125,0
+1997-05,20.375,0
+1997-06,20.40625,0.1125
+1997-07,18.9375,0
+1997-08,19.25,0
+1997-09,19.25,0.1125
+1997-10,19,0
+1997-11,19.34375,0
+1997-12,20.78125,0.11875
+1998-01,20.71875,0
+1998-02,23.5,0
+1998-03,23.1875,0.11875
+1998-04,24.59375,0
+1998-05,25.0625,0
+1998-06,27.03125,0.11875
+1998-07,26.46875,0
+1998-08,21.15625,0
+1998-09,26.75,0.11875
+1998-10,26.375,0
+1998-11,26.25,0
+1998-12,28.53125,0.125
+1999-01,33,0
+1999-02,32.5,0
+1999-03,32.125,0.125
+1999-04,37.625,0
+1999-05,35.6875,0
+1999-06,40.875,0.125
+1999-07,42.59375,0
+1999-08,41.875,0
+1999-09,41.0625,0.125
+1999-10,39.9375,0
+1999-11,38.0625,0
+1999-12,44.375,0.125
+2000-01,67.875,0
+2000-02,68.75,0
+2000-03,74.875,0.125
+2000-04,69.6875,0
+2000-05,71.63,0
+2000-06,64.5,0.125
+2000-07,73.75,0
+2000-08,84.875,0
+2000-09,87.625,0.125
+2000-10,82.0625,0
+2000-11,64.75,0
+2000-12,83.125,0.125
+2001-01,80,0
+2001-02,68.5,0
+2001-03,58.1,0
+2001-04,62.72,0
+2001-05,52.91,0
+2001-06,49.1,0
+2001-07,45.35,0
+2001-08,34.99,0
+2001-09,27.23,0
+2001-10,13.9,0
+2001-11,0.26,0
+2001-12,0.6,0

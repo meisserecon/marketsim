@@ -1,0 +1,51 @@
+# Schlumberger Ltd (NYSE: SLB), common stock, USD. Prefix for the Yahoo series, which starts 1981-12.
+# Source: Journal de Genève, page "Bourses", table "New York - cotées en Suisse" (New York closing prices in
+#   USD of US shares also listed in Switzerland), scans at https://www.letempsarchives.ch (page images read
+#   by eye, no OCR). The paper of day D prints the New York close of the previous trading day and of the day
+#   before that. Each month-end close below was read from the first issue after month end and, except where
+#   noted, read a second time from the following issue, which repeats it in its "previous day" column.
+#   Issue dates, page numbers and raw quotes are in raw/slb-raw.csv.
+# Share basis: Yahoo's split-adjusted basis. Raw quotes are divided by
+#   9    up to 1980-09   (3-for-2 split of 1980, 3-for-2 split of 1981, 2-for-1 of 1997, 2-for-1 of 2006)
+#   6    1980-10 .. 1981-06
+#   4    from 1981-07
+#   The two 3-for-2 splits are listed on Schlumberger's shareholder information page
+#   (investorcenter.slb.com/investor-resources/shareholder-information-notices, dated September 15, 1980 and
+#   June 15, 1981; seen only through a web-search summary, the page itself blocks automated access). In the
+#   newspaper quotes they take effect between 14 and 21 October 1980 (154 -> 115) and between 14 and 31 July
+#   1981 (95.125 -> 67.5). The 2-for-1 splits of 1997 and 2006 are those in Yahoo's series
+#   (companiesmarketcap.com/schlumberger/stock-splits/).
+# Overlap check: 30 Dec 1981 raw 55.75 / 4 = 13.9375 against Yahoo's 1981-12 close (31 Dec) of 13.96875.
+# Days that are not the last trading day of the month (the paper did not appear on 1 and 2 January, so the
+#   31 December close was never printed): 1979-12 is 28 Dec 1979, 1980-12 is 30 Dec 1980, 1981-12 is 30 Dec 1981.
+# Single readings (no second issue found or legible): 1979-12, 1981-05. For 1981-03, 1981-04 and 1981-12 the
+#   first issue after month end and the following issue disagree slightly (103.125 / 101.625, 98.125 / 98,
+#   55.625 / 55.75; some issues carried "cours de 16 heures", not the final close); the later issue is used.
+# Dividends: no source retrieved for 1980-1981, income = 0 (Yahoo's series has dividends from 1982-03).
+month,price,income
+1979-12,10.4167,0
+1980-01,11.625,0
+1980-02,12.4444,0
+1980-03,11.8056,0
+1980-04,11.8333,0
+1980-05,12.25,0
+1980-06,12.8333,0
+1980-07,14.4167,0
+1980-08,14.7917,0
+1980-09,15.8889,0
+1980-10,18.0208,0
+1980-11,21.6458,0
+1980-12,19.5,0
+1981-01,17.5208,0
+1981-02,18.25,0
+1981-03,16.9375,0
+1981-04,16.3333,0
+1981-05,16.625,0
+1981-06,15.7708,0
+1981-07,16.875,0
+1981-08,15.25,0
+1981-09,13.0625,0
+1981-10,14.25,0
+1981-11,14.3125,0
+# overlap row with Yahoo's first month (30 Dec 1981; Yahoo has 31 Dec 1981 = 13.96875)
+1981-12,13.9375,0

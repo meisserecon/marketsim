@@ -1,0 +1,32 @@
+# Raw quotes behind ../slb.csv: Schlumberger, New York close in USD as printed in the Journal de Genève
+# (table "New York - cotées en Suisse"), page images at https://www.letempsarchives.ch/page/JDG_<yyyy>_<mm>_<dd>/<page>.
+# The paper prints eighths as decimals cut to two digits (104.62 = 104 5/8, 133.12 = 133 1/8); raw_close gives the exact eighth.
+# issue1 = first issue after the quote date (quote in the "latest" column); issue2 = a later issue repeating the quote
+# in its "previous day" column. confirm: yes = both issues show the same number; no value = second issue not found or illegible.
+# price = raw_close / divisor (divisor 9, 6 or 4, see ../slb.csv).
+month,quote_date,raw_close,divisor,price,issue1,issue2,confirm,note
+1979-12,1979-12-28,93.75,9,10.4167,JDG 1980-01-03 p6,,,31 Dec 1979 close not printed (columns are 28 Dec and 2 Jan)
+1980-01,1980-01-31,104.625,9,11.625,JDG 1980-02-01 p6,JDG 1980-02-02 p6,yes,
+1980-02,1980-02-29,112,9,12.4444,JDG 1980-03-01 p6,JDG 1980-03-04 p4,yes,
+1980-03,1980-03-31,106.25,9,11.8056,JDG 1980-04-01 p6,JDG 1980-04-02 p6,yes,column headers in both issues are one day ahead (31/1 and 1/2)
+1980-04,1980-04-30,106.5,9,11.8333,JDG 1980-05-01 p6,JDG 1980-05-02 p4,yes,
+1980-05,1980-05-30,110.25,9,12.25,JDG 1980-05-31 p6,JDG 1980-06-03 p6,yes,
+1980-06,1980-06-30,115.5,9,12.8333,JDG 1980-07-01 p6,JDG 1980-07-02 p6,yes,
+1980-07,1980-07-31,129.75,9,14.4167,JDG 1980-08-01 p4,JDG 1980-08-02 p4,yes,
+1980-08,1980-08-29,133.125,9,14.7917,JDG 1980-08-30 p4,JDG 1980-09-02 p4,yes,
+1980-09,1980-09-30,143,9,15.8889,JDG 1980-10-01 p6,JDG 1980-10-02 p6,yes,
+1980-10,1980-10-31,108.125,6,18.0208,JDG 1980-11-01 p6,JDG 1980-11-04 p8,yes,after 3-for-2 split (7 Oct 153; 14 Oct 154; 21 Oct 115 in JDG 1980-10-08 p8 / 10-15 p6 / 10-22 p6)
+1980-11,1980-11-28,129.875,6,21.6458,JDG 1980-11-29 p6,JDG 1980-12-02 p4,yes,
+1980-12,1980-12-30,117,6,19.5,JDG 1980-12-31 p6,JDG 1981-01-03 p4,yes,31 Dec 1980 close not printed (columns are 30 Dec and 2 Jan)
+1981-01,1981-01-30,105.125,6,17.5208,JDG 1981-01-31 p6,JDG 1981-02-03 p6,yes,
+1981-02,1981-02-27,109.5,6,18.25,JDG 1981-02-28 p6,JDG 1981-03-03 p4,yes,
+1981-03,1981-03-31,101.625,6,16.9375,JDG 1981-04-02 p6,JDG 1981-04-01 p8,no,JDG 1981-04-01 ("cours de 16 heures") has 103.125 in its latest column; the 2 April issue is used
+1981-04,1981-04-30,98,6,16.3333,JDG 1981-05-02 p4,JDG 1981-05-01 p4,no,JDG 1981-05-01 ("cours de 16 heures") has 98.125; the 2 May issue is used
+1981-05,1981-05-29,99.75,6,16.625,JDG 1981-05-30 p6,JDG 1981-06-02 p6,,second issue is a poor scan (only ".75" legible)
+1981-06,1981-06-30,94.625,6,15.7708,JDG 1981-07-01 p6,JDG 1981-07-02 p4,yes,
+1981-07,1981-07-31,67.5,4,16.875,JDG 1981-08-01 p6,JDG 1981-08-04 p4,yes,after 3-for-2 split (7 Jul 91.75; 14 Jul 95.125 in JDG 1981-07-08 p4 / 07-15 p4)
+1981-08,1981-08-31,61,4,15.25,JDG 1981-09-01 p6,JDG 1981-09-02 p8,yes,
+1981-09,1981-09-30,52.25,4,13.0625,JDG 1981-10-01 p6,JDG 1981-10-02 p6,yes,
+1981-10,1981-10-30,57,4,14.25,JDG 1981-10-31 p6,JDG 1981-11-03 p6,yes,
+1981-11,1981-11-30,57.25,4,14.3125,JDG 1981-12-01 p6,JDG 1981-12-02 p4,yes,
+1981-12,1981-12-30,55.75,4,13.9375,JDG 1982-01-05 p4,JDG 1982-01-04 p6,no,JDG 1982-01-04 has 55.625 for 30 Dec; 31 Dec 1981 not printed; Yahoo 31 Dec = 55.875 raw (13.96875 adjusted)

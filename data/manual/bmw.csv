@@ -1,0 +1,266 @@
+# BMW ordinary shares (Stammaktien), month-end prices 1979-06 to 1996-11, EUR, on the share basis of data/raw/yahoo/bmw.csv (BMW.DE). Prefix for Yahoo, which starts 1996-11; the 1996-11 row is the overlap row.
+# SOURCE of every price below: boerse.de, page "BMW St historische Kurse", table "BMW St Monats-Schlusskurse <year>" (monthly closes from 1973, 2 decimals),
+#   https://www.boerse.de/historische-kurse/BMW-Aktie/DE0005190003 , read in a browser on 2026-10-01 (all years 1973-2001 retrieved, kept in raw/bmw-raw.csv). boerse.de names ariva.ag as its data source.
+#   The monthly table does not say which exchange; the site's daily list on the same page is Stuttgart. onvista.de Frankfurt closes (same month-ends) agree with it after the constant factor below to 0.1 % (1996-11 to 1998-04); over 1998-06 to 2001-12 boerse.de / onvista is 1.000, 0.9998 to 1.004.
+# ADJUSTMENT. boerse.de is back-adjusted for splits AND for bonus and rights issues (every step is a capital measure, see EVENTS). Yahoo is adjusted for splits only, so the two series differ by
+#   a factor that changes when a capital measure falls inside the overlap. FACTOR TO YAHOO: price = boerse.de / 0.804 (rows are boerse.de / 0.804, 4 decimals).
+#   Evidence, 18 months 1996-11 to 1998-04 (before the 1998 measures): boerse.de / Yahoo has median 0.8046, range 0.787 to 0.816 (scatter = Yahoo month-end dates; Yahoo vs onvista same months
+#   1.000 median, 0.979 to 1.015). boerse.de / onvista on the same days: 0.8038 to 0.8042 in all 17 of those months for which onvista has the month-end, i.e. constant. The ratio then JUMPS to 1.00 at 1998-05/06 (median 1.0016, range 0.972 to 1.054,
+#   43 months 1998-06 to 2001-12): boerse.de also adjusts for the 20.05.1998 "Gratisaktien 5:1" and the 09.06.1998 "Bezugsrecht 12:1" (ariva event list), Yahoo does not; the NZZ prints (DM 2045 on 31.3.1998,
+#   1293 on 30.12.1998) equal Yahoo x 26 x 1.95583 (ratio 49.4 to 52.3, mean 51.1 against 50.85), so Yahoo is the unadjusted basis. Only the pre-1998-05 factor 0.804 is used, all rows here are before 1996-12.
+# BUILD OVERLAP CHECK: 1996-11 row 19.6020 against Yahoo 19.6920, -0.5 % (limit 5 %).
+# WHAT THE SERIES IS: continuous, adjusted for splits, bonus issues and rights issues up to the end of 1996 (not for the 1998 measures, to match Yahoo), no dividends. A buy-and-hold holder
+#   who sold or exercised the subscription rights is what the series follows. The unadjusted Frankfurt close is the printed DM quote divided by 50.8516 (= 26 x 1.95583) times the cumulative factor below.
+# EVENTS (all capital measures that show as steps in raw/boerse.de, with the source of each): raw Frankfurt close divided by 50.8516, divided by boerse.de, is flat between measures:
+#   1979-06 to 1982-07: 1.886 (8 JdG readings, range 1.866 to 1.901);  1982-08 to 1986-06: 1.7065 (11 readings, 1.691 to 1.720);  1986-07 to 1989-07: 1.479 to 1.486 (2 JdG readings; onvista 1988-01 to 1989-07: 1/0.676 = 1.479).
+#   1982-08 (between the 30.7.1982 and 31.8.1982 closes): UNIDENTIFIED measure. Not in the ariva event list (which starts 1986). JdG Frankfurt close fell 203.5 to 182.5 DM (-10.3 %) while peers in the same
+#     table moved -5 to +2 % (Daimler 302 to 305, Siemens 220.3 to 224, Allianz 445 to 435, BASF 117.5 to 111.5), so a capital measure of about 11 % is real; its type is not known.
+#   1986-07-28 Bezugsrecht 4:1 (ariva event list https://www.ariva.de/bmw-aktie/historische_ereignisse, read via a fetch tool, so the table is a summary): confirmed to fall in July 1986: raw/boerse 1.695 on 30.6.1986,
+#     1.479 on 31.7.1986 (480 DM) and 1.486 on 29.8.1986 (644.5 DM), x1.154 step (the raw close fell 592 to 480 DM in July while Siemens fell 622 to 605.5; the August rise to 644.5 DM, +34 %, is real, boerse.de shows +34 % too).
+#   1989-08-07 Bezugsrecht 20:1 (ariva): boerse.de/onvista steps 0.676 to 0.690 between the 1989-07 and 1989-08 month-ends (x1.021).
+#   1991-06-07 Gratisaktien 8:1 (ariva; onvista lists the same as split 1.125 dated 1991-06-05): onvista daily Frankfurt close falls 11.48 to 10.34 (-9.9 %) on 1991-06-06/07; JdG 31.5.1991 570 DM, 28.6.1991 473.5 DM;
+#     boerse.de/onvista steps 0.691 to 0.776 (x1.1235). Note onvista does NOT adjust its older prices for this bonus issue, boerse.de does.
+#   1994-05-31 Bezugsrecht 11:1 (ariva): boerse.de/onvista steps 0.777 to 0.804 at 1994-05 (x1.035).
+#   After the overlap (not in this file): 1998-05-20 Gratisaktien 5:1 and 1998-06-09 Bezugsrecht 12:1 (ariva), 4.1.1999 euro conversion, 23.8.1999 split 1:26 (ariva, onvista factor 26.0; NZZ 740 on 30.7.1999 to 29.80 on 31.8.1999).
+#   Nominal-value changes: DM 50 shares until the euro conversion of 1999; no other found. boerse.de's own split page lists no BMW split (it does not carry the 1999 split or bonus issues).
+# INDEPENDENT CHECKS (Journal de Geneve "Allemagne" table, Frankfurt close in DM, read by eye from page images at https://www.letempsarchives.ch ; raw, unadjusted). Columns: date, issue and page, DM close,
+#   raw/50.8516 (unadjusted EUR-basis), this file's value, raw-basis/boerse.de (flat inside a regime), onvista close of that day where onvista exists:
+#   1979-06-29  JDG_1979_07_02 p4  185 DM  raw/50.8516 = 3.638  series 2.413  raw-basis/boerse 1.875
+#   1979-12-28  JDG_1980_01_03 p6  166 DM  raw/50.8516 = 3.264  series 2.164  raw-basis/boerse 1.876
+#   1980-03-31  JDG_1980_04_01 p6  157.5 DM  raw/50.8516 = 3.097  series 2.065  raw-basis/boerse 1.866
+#   1980-06-30  JDG_1980_07_01 p6  151.5 DM  raw/50.8516 = 2.979  series 1.965  raw-basis/boerse 1.886
+#   1980-09-30  JDG_1980_10_01 p6  162 DM  raw/50.8516 = 3.186  series 2.090  raw-basis/boerse 1.896
+#   1981-06-30  JDG_1981_07_01 p6  192.2 DM  raw/50.8516 = 3.780  series 2.475  raw-basis/boerse 1.899
+#   1982-06-30  JDG_1982_07_01 p6  204 DM  raw/50.8516 = 4.012  series 2.624  raw-basis/boerse 1.901
+#   1982-07-30  JDG_1982_08_02 p4  203.5 DM  raw/50.8516 = 4.002  series 2.637  raw-basis/boerse 1.888
+#   1982-08-31  JDG_1982_09_01 p6  182.5 DM  raw/50.8516 = 3.589  series 2.624  raw-basis/boerse 1.701
+#   1982-09-30  JDG_1982_10_01 p8  195 DM  raw/50.8516 = 3.835  series 2.786  raw-basis/boerse 1.712
+#   1982-12-30  JDG_1982_12_31 p4  227.5 DM  raw/50.8516 = 4.474  series 3.259  raw-basis/boerse 1.708
+#   1983-01-31  JDG_1983_02_01 p6  228.8 DM  raw/50.8516 = 4.499  series 3.271  raw-basis/boerse 1.711
+#   1983-03-30  JDG_1983_03_31 p4  295.8 DM  raw/50.8516 = 5.817  series 4.279  raw-basis/boerse 1.691
+#   1983-04-29  JDG_1983_05_02 p6  345.5 DM  raw/50.8516 = 6.794  series 4.950  raw-basis/boerse 1.707
+#   1983-06-30  JDG_1983_07_01 p6  384 DM  raw/50.8516 = 7.551  series 5.485  raw-basis/boerse 1.712
+#   1984-06-29  JDG_1984_06_30 p6  400.5 DM  raw/50.8516 = 7.876  series 5.697  raw-basis/boerse 1.720
+#   1985-03-29  JDG_1985_04_02 p8  378 DM  raw/50.8516 = 7.433  series 5.410  raw-basis/boerse 1.709
+#   1985-12-30  JDG_1985_12_31 p6  569.5 DM  raw/50.8516 = 11.199  series 8.159  raw-basis/boerse 1.707
+#   1986-06-30  JDG_1986_07_01 p6  592 DM  raw/50.8516 = 11.642  series 8.545  raw-basis/boerse 1.695
+#   1986-07-31  JDG_1986_08_01 p4  480 DM  raw/50.8516 = 9.439  series 7.935  raw-basis/boerse 1.480
+#   1986-08-29  JDG_1986_08_30 p4  644.5 DM  raw/50.8516 = 12.674  series 10.609  raw-basis/boerse 1.486
+#   1990-01-31  JDG_1990_02_01 p4  533 DM  raw/50.8516 = 10.481  series 8.993  raw-basis/boerse 1.450  onvista 10.482
+#   1991-05-31  JDG_1991_06_01 p8  570 DM  raw/50.8516 = 11.209  series 9.627  raw-basis/boerse 1.448  onvista 11.209
+#   1991-06-28  JDG_1991_06_29 p10  473.5 DM  raw/50.8516 = 9.311  series 8.993  raw-basis/boerse 1.288  onvista 9.312
+#   Result: inside each regime the ratio is flat to about +-0.7 % (sd 0.8 to 1.2 %), so the shape of boerse.de is confirmed by raw prints; from 1990 the unadjusted prints equal onvista to the 3rd decimal (3 of 3 dates).
+#   The LEVEL of the pre-1991 values rests on boerse.de's adjustment steps, whose size was measured (1.886 to 1.7065 to onvista basis), not on an independent adjustment calculation.
+# NOT COVERED: before 1979-06. A JdG print of 30.6.1975 (221.5 DM) gives raw/boerse 2.774, so one or more further capital measures lie between 1975-06 and 1979-06 that were not located; months before 1979-06 are left out.
+# DIVIDENDS: 0 (unknown). The ariva event page lists dividends but only in its own adjusted units, which were not verified.
+month,price,income
+1979-06,2.4129,0
+1979-07,2.3881,0
+1979-08,2.2886,0
+1979-09,2.2512,0
+1979-10,2.1393,0
+1979-11,2.1891,0
+1979-12,2.1642,0
+1980-01,2.0149,0
+1980-02,2.1642,0
+1980-03,2.0647,0
+1980-04,2.1020,0
+1980-05,2.1766,0
+1980-06,1.9652,0
+1980-07,1.8532,0
+1980-08,1.9403,0
+1980-09,2.0896,0
+1980-10,2.0025,0
+1980-11,2.0398,0
+1980-12,2.0274,0
+1981-01,1.9030,0
+1981-02,1.9776,0
+1981-03,2.0398,0
+1981-04,2.2512,0
+1981-05,2.3010,0
+1981-06,2.4751,0
+1981-07,2.4627,0
+1981-08,2.3756,0
+1981-09,2.3259,0
+1981-10,2.3507,0
+1981-11,2.5373,0
+1981-12,2.4627,0
+1982-01,2.5124,0
+1982-02,2.7488,0
+1982-03,2.7239,0
+1982-04,2.6741,0
+1982-05,2.6741,0
+1982-06,2.6244,0
+1982-07,2.6368,0
+1982-08,2.6244,0
+1982-09,2.7861,0
+1982-10,2.8109,0
+1982-11,3.0721,0
+1982-12,3.2587,0
+1983-01,3.2711,0
+1983-02,4.0174,0
+1983-03,4.2786,0
+1983-04,4.9502,0
+1983-05,4.6517,0
+1983-06,5.4851,0
+1983-07,5.5597,0
+1983-08,5.3731,0
+1983-09,5.4353,0
+1983-10,5.9701,0
+1983-11,6.1194,0
+1983-12,6.1443,0
+1984-01,6.3557,0
+1984-02,5.8582,0
+1984-03,5.9328,0
+1984-04,5.5721,0
+1984-05,5.4229,0
+1984-06,5.6965,0
+1984-07,5.1617,0
+1984-08,5.4353,0
+1984-09,5.5846,0
+1984-10,5.4353,0
+1984-11,5.2861,0
+1984-12,5.3607,0
+1985-01,5.3109,0
+1985-02,5.4851,0
+1985-03,5.4104,0
+1985-04,5.1493,0
+1985-05,5.5100,0
+1985-06,6.3184,0
+1985-07,5.6716,0
+1985-08,6.8159,0
+1985-09,6.8035,0
+1985-10,7.5995,0
+1985-11,8.0473,0
+1985-12,8.1592,0
+1986-01,8.3209,0
+1986-02,7.2264,0
+1986-03,7.9229,0
+1986-04,8.1468,0
+1986-05,8.2711,0
+1986-06,8.5448,0
+1986-07,7.9353,0
+1986-08,10.6095,0
+1986-09,10.1368,0
+1986-10,9.5522,0
+1986-11,9.8881,0
+1986-12,9.6642,0
+1987-01,8.3333,0
+1987-02,7.7985,0
+1987-03,8.5572,0
+1987-04,9.3532,0
+1987-05,9.9502,0
+1987-06,11.2935,0
+1987-07,12.0274,0
+1987-08,12.9229,0
+1987-09,12.1517,0
+1987-10,8.6070,0
+1987-11,6.9900,0
+1987-12,7.5249,0
+1988-01,7.8980,0
+1988-02,8.7562,0
+1988-03,8.2960,0
+1988-04,8.3831,0
+1988-05,8.4950,0
+1988-06,8.3831,0
+1988-07,8.4080,0
+1988-08,7.9353,0
+1988-09,8.4453,0
+1988-10,9.0299,0
+1988-11,8.5323,0
+1988-12,8.6443,0
+1989-01,8.1965,0
+1989-02,8.2960,0
+1989-03,8.4577,0
+1989-04,8.4950,0
+1989-05,8.9552,0
+1989-06,9.2910,0
+1989-07,9.9502,0
+1989-08,10.0995,0
+1989-09,10.3358,0
+1989-10,8.6940,0
+1989-11,8.7438,0
+1989-12,9.5771,0
+1990-01,8.9925,0
+1990-02,10.4478,0
+1990-03,10.4975,0
+1990-04,9.7015,0
+1990-05,9.8632,0
+1990-06,9.8383,0
+1990-07,9.7512,0
+1990-08,8.1841,0
+1990-09,6.3930,0
+1990-10,7.0274,0
+1990-11,7.0025,0
+1990-12,6.6294,0
+1991-01,6.6542,0
+1991-02,7.8980,0
+1991-03,8.8184,0
+1991-04,9.4652,0
+1991-05,9.6269,0
+1991-06,8.9925,0
+1991-07,9.4900,0
+1991-08,9.9876,0
+1991-09,9.2537,0
+1991-10,8.7811,0
+1991-11,8.9801,0
+1991-12,8.9677,0
+1992-01,10.1741,0
+1992-02,10.6841,0
+1992-03,10.9080,0
+1992-04,10.9577,0
+1992-05,11.6045,0
+1992-06,11.2065,0
+1992-07,10.4975,0
+1992-08,9.6642,0
+1992-09,8.8433,0
+1992-10,9.2164,0
+1992-11,9.4403,0
+1992-12,9.2662,0
+1993-01,9.4776,0
+1993-02,9.3905,0
+1993-03,9.0299,0
+1993-04,8.8184,0
+1993-05,8.6070,0
+1993-06,9.7139,0
+1993-07,10.3234,0
+1993-08,10.8582,0
+1993-09,10.6592,0
+1993-10,11.9403,0
+1993-11,11.5796,0
+1993-12,13.7065,0
+1994-01,14.0423,0
+1994-02,15.7836,0
+1994-03,15.7338,0
+1994-04,17.1144,0
+1994-05,16.1194,0
+1994-06,15.3358,0
+1994-07,17.0522,0
+1994-08,16.2935,0
+1994-09,14.8259,0
+1994-10,15.2363,0
+1994-11,14.8507,0
+1994-12,15.1368,0
+1995-01,14.4154,0
+1995-02,14.9005,0
+1995-03,13.5323,0
+1995-04,13.9677,0
+1995-05,14.9751,0
+1995-06,14.9627,0
+1995-07,16.0821,0
+1995-08,16.0697,0
+1995-09,15.3980,0
+1995-10,14.8507,0
+1995-11,15.3234,0
+1995-12,14.4527,0
+1996-01,16.6418,0
+1996-02,16.2438,0
+1996-03,15.1741,0
+1996-04,16.2562,0
+1996-05,16.5174,0
+1996-06,17.3507,0
+1996-07,16.2189,0
+1996-08,16.8781,0
+1996-09,17.1766,0
+1996-10,17.4254,0
+1996-11,19.6020,0

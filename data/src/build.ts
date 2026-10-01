@@ -132,6 +132,14 @@ for (const s of UNIVERSE) {
     local = manual;
     sources.push(`manual/${s.id}.csv`);
   }
+  for (const fix of s.dividendFixes ?? []) {
+    const r = local.find((x) => x.month === fix.month);
+    if (!r) throw new Error(`${s.id}: dividend fix month ${fix.month} not in data`);
+    if (Math.abs(r.income - fix.dividend) < 1e-9) throw new Error(`${s.id}: dividend in ${fix.month} already is ${fix.dividend}; the source was corrected, remove the fix`);
+    r.income = fix.dividend;
+    if (r.maxdiv !== undefined) r.maxdiv = fix.dividend;
+    sources.push(`dividend ${fix.month} corrected to ${fix.dividend}`);
+  }
   // Fold spin-offs that the source booked as a dividend into the price history (oldest first,
   // so each later event sees amounts already rescaled by the earlier ones).
   const folded: string[] = [];

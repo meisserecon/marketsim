@@ -285,18 +285,18 @@
           <li class="income-line">
             {#if summary.incomeTotal > 0}
               You received <strong>{usd(summary.incomeTotal, { cents: true })}</strong> of income in cash:
-              {#each summary.income as e, i (e.assetId)}{i > 0 ? ', ' : ' '}{nameOf(e.assetId)} {usd(e.cash, { cents: true })}{/each}.
+              {#each summary.income as e, i (e.assetId)}{i > 0 ? ', ' : ' '}{(e.assetName ?? nameOf(e.assetId))} {usd(e.cash, { cents: true })}{/each}.
             {:else}
               You received no income this month.
             {/if}
           </li>
           {#each summary.events as e, i (i)}
             <li class="event">
-              <strong>{LEDGER_LABEL[e.kind]}: {nameOf(e.assetId)}.</strong>
+              <strong>{LEDGER_LABEL[e.kind]}: {(e.assetName ?? nameOf(e.assetId))}.</strong>
               {#if e.kind === 'bankruptcy'}Your position is now worthless.
               {:else if e.kind === 'payout'}Your position was paid out: {usd(e.cash, { cents: true })} added to cash.
               {:else if e.units < 0}Your position was converted.
-              {:else}You received a position in {nameOf(e.assetId)}.{/if}
+              {:else}You received a position in {(e.assetName ?? nameOf(e.assetId))}.{/if}
               {#if e.note}<span class="sub">{e.note}</span>{/if}
             </li>
           {/each}

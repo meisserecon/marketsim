@@ -3,7 +3,7 @@
  "name": "Coca-Cola",
  "kind": "stock",
  "currency": "USD",
- "source": "Yahoo Finance KO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
+ "source": "Yahoo Finance KO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 2001-09 corrected to 0.09",
  "rows": [
   {
    "month": "1979-12",
@@ -1313,7 +1313,7 @@
   {
    "month": "2001-09",
    "price": 23.425,
-   "income": 0.27
+   "income": 0.09
   },
   {
    "month": "2001-10",

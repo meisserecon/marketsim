@@ -59,7 +59,7 @@
     {#if thisMonth.length}
       <ul class="lines">
         {#each thisMonth as e (e.assetId)}
-          <li><span>{nameOf(e.assetId)}</span><span class="num">{usd(e.cash, { cents: true, sign: true })}</span></li>
+          <li><span>{(e.assetName ?? nameOf(e.assetId))}</span><span class="num">{usd(e.cash, { cents: true, sign: true })}</span></li>
         {/each}
       </ul>
     {:else}

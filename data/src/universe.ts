@@ -40,16 +40,22 @@ export interface StockDef {
    * so every spin-off is folded into the parent's price the same way.
    */
   spinoffs?: { month: string; name: string }[];
+  /**
+   * Corrections for single dividends the source reports wrongly (typically one payment left
+   * unadjusted for a later split, so it is an exact multiple of its neighbours). In the source
+   * currency and on the source share basis.
+   */
+  dividendFixes?: { month: string; dividend: number; reason: string }[];
 }
 
 export const UNIVERSE: StockDef[] = [
   // --- US, full period ------------------------------------------------------
   { id: "ibm", name: "IBM", source: "yahoo", ticker: "IBM", currency: "USD" },
   { id: "ge", name: "General Electric", renames: [{ from: "2024-04", name: "GE Aerospace" }], source: "yahoo", ticker: "GE", currency: "USD" },
-  { id: "xom", name: "Exxon", renames: [{ from: "1999-12", name: "ExxonMobil" }], source: "yahoo", ticker: "XOM", currency: "USD" },
-  { id: "slb", name: "Schlumberger", source: "yahoo", ticker: "SLB", currency: "USD", note: "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover. Yahoo data from 1981-12; 1980 to 1981 needs a manual prefix." },
+  { id: "xom", name: "Exxon", renames: [{ from: "1999-12", name: "ExxonMobil" }], source: "yahoo", ticker: "XOM", currency: "USD", dividendFixes: [{ month: "1982-02", dividend: 0.09375, reason: "Yahoo shows 0.1875, exactly twice every neighbouring quarter; Exxon paid a steady 0.75 USD per quarter in 1981-82" }] },
+  { id: "slb", name: "Schlumberger", source: "yahoo", ticker: "SLB", currency: "USD", note: "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover. Yahoo data from 1981-12; 1980 to 1981 needs a manual prefix.", spinoffs: [{ month: "1999-12", name: "Transocean Sedco Forex" }] },
   { id: "intc", name: "Intel", source: "yahoo", ticker: "INTC", currency: "USD", note: "Largest tech stock in 2000, flat for 25 years afterwards." },
-  { id: "ko", name: "Coca-Cola", source: "yahoo", ticker: "KO", currency: "USD" },
+  { id: "ko", name: "Coca-Cola", source: "yahoo", ticker: "KO", currency: "USD", dividendFixes: [{ month: "2001-09", dividend: 0.09, reason: "Yahoo shows 0.27, exactly three times the neighbouring quarters; Coca-Cola paid 0.18 USD per quarter in 2001, 0.09 after the 2012 split" }] },
   { id: "wmt", name: "Wal-Mart", renames: [{ from: "2018-02", name: "Walmart" }], source: "yahoo", ticker: "WMT", currency: "USD" },
   { id: "ba", name: "Boeing", source: "yahoo", ticker: "BA", currency: "USD" },
   { id: "mo", name: "Philip Morris", renames: [{ from: "2003-01", name: "Altria" }], source: "yahoo", ticker: "MO", currency: "USD", spinoffs: [{ month: "2007-04", name: "Kraft Foods" }, { month: "2008-03", name: "Philip Morris International" }] },

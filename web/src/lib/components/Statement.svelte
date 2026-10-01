@@ -67,7 +67,7 @@
               <tr>
                 <td class="month">{monthShort(e.month)}</td>
                 <td><span class="kind {group(e)} {e.kind}">{LEDGER_LABEL[e.kind]}</span></td>
-                <td>{nameOf(e.assetId)}</td>
+                <td>{(e.assetName ?? nameOf(e.assetId))}</td>
                 <td class="sub">{detail(e)}</td>
                 <td class="num">{e.cash === 0 ? '–' : usd(e.cash, { cents: true, sign: true })}</td>
               </tr>

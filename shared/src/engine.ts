@@ -111,6 +111,8 @@ export interface LedgerEntry {
   month: string;
   kind: LedgerKind;
   assetId: string;
+  /** The name the asset carried in `month`. Filled in by the server when it serves a ledger; the engine leaves it out. */
+  assetName?: string;
   units: number;
   /** Price per unit for trades, payouts and conversions; income per unit for income. */
   price: number;

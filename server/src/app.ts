@@ -126,10 +126,18 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       totalValue: portfolioValue(p, market, month), maxPositions: MAX_POSITIONS,
       history: history.rows.map((r) => ({ month: r.month, totalValue: Number(r.total_value), cash: Number(r.cash) })),
       ledger: ledger.rows.map((r): LedgerEntry => ({
-        month: r.month, kind: r.kind, assetId: r.asset_id, units: Number(r.units), price: Number(r.price), cash: Number(r.cash),
+        month: r.month, kind: r.kind, assetId: r.asset_id, assetName: ledgerName(r.asset_id, r.month), units: Number(r.units), price: Number(r.price), cash: Number(r.cash),
         ...(r.note ? { note: r.note } : {}),
       })),
     };
+  }
+
+  /** The name an asset carried when a ledger entry was written; for an asset that has ended, its last name. */
+  function ledgerName(assetId: string, month: string): string {
+    const a = market.asset(assetId);
+    if (!a) return assetId;
+    const last = market.lastMonth(assetId);
+    return nameAt(a, month < last ? month : last);
   }
 
   // --- market projection: nothing after the current month leaves the server ---
@@ -239,7 +247,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       await savePortfolio(q, player.id, result.portfolio);
       await saveLedger(q, player.id, [result.entry]);
       const updated = { ...player, cash: String(result.portfolio.cash) };
-      return { portfolio: await portfolioView(q, g, updated), entry: result.entry };
+      return { portfolio: await portfolioView(q, g, updated), entry: { ...result.entry, assetName: ledgerName(result.entry.assetId, result.entry.month) } };
     });
   });
 

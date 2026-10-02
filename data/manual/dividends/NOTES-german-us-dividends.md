@@ -59,3 +59,12 @@ Factor and control: the series divisor is 9 until 1980-09, 6 until 1981-06, 4 af
 Months: the 1980/81 reports give amounts PAID per quarter; Yahoo's month is the last month of the quarter of DECLARATION (verified for 8 quarters), payment follows in the next quarter. So the ex month of each line is the last month of the quarter before the payment quarter, flagged "month assumed". Totals confirm the shift: declared 1981 = 0.767 (report: 0.77), declared 1980 = 0.628 (report: 0.63 on the same basis).
 Yield (calendar year sum / average price of the series): 1980 1.06, 1981 1.22 percent (1979 has one line only). Per-quarter yields 0.2 to 0.4 percent.
 Open: none for 1980 and 1981. The 1979-12 line is just outside the request (1980 and 1981) but inside the series, kept.
+## Enron (enron)
+
+Covered: the eight quarters of 1990 and 1991 (0.0775 per quarter on the final basis, 0.08125 for 1991 Q4) and the first two quarters of 2001 (0.125). Not covered: 2001 Q3 and Q4 (see below).
+Sources (EDGAR): Enron Form 10-K for 1993, Note 11 and Item 6 (quarterly dividends of $.155 until the final quarter of 1991, then $.1625; per share $0.62 for 1990 and $0.63 for 1991 on the basis after the splits of Dec 1991 and Aug 1993); Enron S-3/A of July 2001 (declared 0.125 in each of the first two quarters of 2001, none yet in the third as of 12 July).
+Factor and control: enron.csv divides as-then amounts by 8, 4, 2, 1 for the splits of Dec 1991, Aug 1993, Jul 1999; the 1993 10-K is already on the post-1993-split basis, so final basis = 10-K amount / 2. Control: the same rule on the 1992 10-K amounts gives 0.08125 for 1992 Q1 to Q3, exactly the value already in enron.csv. Yearly sums on the series basis 0.310 (1990), 0.314 (1991), 0.331 (1992) show no step.
+Yield: 1990 4.5, 1991 4.0 percent (quarterly 0.9 to 1.2); 2001 two payments 0.6 percent of the average price.
+Months: last month of the calendar quarter, as enron.csv does for 1992 to 2000 (the filings give the quarter, not the payment date).
+2001 Q3 and Q4: the 10-Q for Q3 2001 shows dividends paid of $394 million for nine months against $396 million in 2000, compatible with three common payments of 0.125, but no per-share figure was retrieved, so the quarter is left out. A search summary of eepower.com (page blocked, not read) says a 0.125 dividend was announced on 23.10.2001 payable 20.12.2001; Enron filed for Chapter 11 on 2.12.2001, so it was probably never paid. Not used.
+Caveat: the 1990 to 1991 prices in enron.csv rest on one source only (see its header).

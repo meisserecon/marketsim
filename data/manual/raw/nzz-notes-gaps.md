@@ -65,3 +65,11 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Nestle I, N and PS still separate lines in May 1993 (the unification came in June, see earlier notes). Swissair: no bearer line since 1993; N read in running text; Swissair bearer left out. CS Holding I and N both listed.
 - Left out: IBM. The 1 June NY table (2 June issue, idx 48) has IBM Vortag 52 1/4 (31 May Memorial Day, so 28 May) but the 3/4 vs 1/4 fraction could not be settled against Yahoo (52.25 vs 52.75 give ratios 4.144 and 4.184 against 12.6076); the 29 May issue NY page was not located. Not recorded.
 - Pass agreement: 10 of 10.
+
+## 1995-12
+
+- Issues: 1995-12-30 (Sat/Sun; Europa/Frankfurt printed p33 'Kurse vom 29. Dezember', Asien/Tokio p37; no Swiss share table), 1996-01-04 (Swiss share table printed p27 'Kurse vom 3. Januar' in the box layout 'Inland'/'Ausland', Vortag column), 1996-01-03 (not used). 
+- Quote date: the Reuters piece 'Geschlossene Boersen' in the 30 Dec issue says Zurich, Basel, Geneva, Vienna, Amsterdam and Helsinki were closed ('feiertagshalber') on 29 Dec; Zurich was also closed 2 Jan. So the Vortag of the 3 Jan table is taken as the close of 28 Dec (not 29 Dec). If the Swiss closed table instead meant 29 Dec the values would be the same, no other print exists.
+- Class: Nestle only N, SBG I and N, SBV I and N, Swissair N, Sandoz I, Ciba-Geigy I are listed; Nestle I, Swissair I and SKA/CS I are gone; CS Hold N left out: Vortag printed '118 3/4' or '118 7/8', the glyph is unclear in two crops. Sandoz N/Ciba N not requested. SBG/SBV N readings carry no independent control except Nestle N vs Yahoo (1276 vs 1275).
+- IBM: not read (the NY list prints fractions in a font that is hard to tell apart, see 1995-1998 notes; the 3 Jan table Vortag would be 2 Jan, not 29 Dec).
+- Pass agreement: 11 of 11 (Swiss: two crops; Frankfurt: crop + onvista + earlier file; IBJ: two crops).

@@ -29,3 +29,11 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Frankfurt: the 30 Dec table (31 Dec issue) says "geschlossen" in the Schluss column (FAZ index Schluss "geschl.") and its Vortag column does not move from the 28 Dec values (BMW 427, Daimler 651). The 29 Dec table (30 Dec issue) has Schluss BMW 426.50, Daimler-Benz 650.50, FAZ 351.83 = Vortag of the 30 Dec table. So 29 Dec is the last trading day; rows differ from the earlier agent's file by 0.5 DM.
 - IBM 122 3/4 from the 31 Dec issue (p20); IBJ not read (see earlier notes).
 - Pass agreement: 11 of 11 (Swiss values as brackets cannot be compared against a running sequence).
+
+## 1984-12
+
+- Issues: 1984-12-29 (Sat/Sun 29/30 Dec; Swiss p18 "Kurse vom 28. Dezember" printed page 19, Frankfurt/NY p21 printed page 22; page column = printed page), 1985-01-03 (NY printed p16 and Frankfurt p17, "Kurse vom 2. Januar" with Vortag columns), 1985-01-04 (p16 Swiss "Kurse vom 3. Januar", brackets = 28 Dec closes). Zurich closed 31 Dec-2 Jan, Frankfurt closed 31 Dec (its 2 Jan Vortag equals the 28 Dec Schluss), NY traded 31 Dec. Last trading days: Zurich/Frankfurt 28 Dec, NY 31 Dec.
+- Swiss pass 1 = last unmarked print of the 28 Dec running text; pass 2 = bracket in the 1985-01-04 table. 7 of 7 agree (Nestle N: last print 300L accepted, bracket 3300).
+- Left out: Swissair I. The 28 Dec line is "(1060) 1065 3 R 5 t": the closing print "5" (1065) is followed by a lone dagger on the next line; if it marks the 5 the last unmarked print is 3 = 1063, but the 3 Jan bracket is (1065). The two readings differ (1063 vs 1065), no further evidence; left out.
+- Frankfurt pass 2 from a different issue; IBM 123 read in this session once (1985-01-03 table, Vortag column), second reading = the earlier agent's independent value 123 in nzz-readings-1983-1985.csv. IBM control: 123/29.4276 = 4.180. IBJ not read.
+- Comparison to earlier file nzz-readings-1983-1985.csv: BMW 372, Daimler 592, IBM 123 identical.

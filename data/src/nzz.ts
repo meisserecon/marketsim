@@ -35,6 +35,7 @@ const FILES = [
   "nzz-readings.csv",
   "nzz-readings-holes.csv",
   "nzz-readings-gaps.csv",
+  "nzz-readings-decisions.csv",
 ];
 
 interface Reading { series: string; cls: string; month: string; price: number; currency: string; quoteDate: string; file: string }

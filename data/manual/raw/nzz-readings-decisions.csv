@@ -1,0 +1,4 @@
+# Editorial decisions on readings that the reading agents left out because two places in the paper disagree.
+# Each row is a value actually printed in the paper; the note says which of the two was chosen and why. Read by data/src/nzz.ts after all other files.
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+ubs,1979-12,1979-12-28,I,CHF,3515,1980-01-04,17,bracket,"Bankgesellschaft bearer. The listing of 28 Dec 1979 ends 3510 3505 3510 3505 (last trade 3505); the next table, of 3 Jan 1980, gives (3515) as the previous close. The previous close as stated by the paper is taken. The difference is 0.3 percent; without this row the share would be missing from the first month of the game."

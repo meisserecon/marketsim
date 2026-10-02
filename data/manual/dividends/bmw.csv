@@ -1,4 +1,4 @@
-﻿# BMW ordinary share (Stammaktie) dividends per share on the share basis of data/manual/bmw.csv and data/raw/yahoo/bmw.csv (BMW.DE), for the years Yahoo has none (Yahoo starts with May 2000, EUR 0.40 for 1999).
+# BMW ordinary share (Stammaktie) dividends per share on the share basis of data/manual/bmw.csv and data/raw/yahoo/bmw.csv (BMW.DE), for the years Yahoo has none (Yahoo starts with May 2000, EUR 0.40 for 1999).
 # Source: BMW Group Annual Report 1999, "BMW Share" table printed p.37 (https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf, read 2026-10-02): dividend per DM 50 ordinary share in EUR 6.90 (FY1995), 7.67 (1996), 10.23 (1997), 10.23 (1998),
 #   which are exactly DM 13.50, 15.00, 20.00, 20.00 at 1.95583 (footnote: "in previous years per DM 50 par value share"). AGM dates 18.5.1999 and 16.5.2000: BMW AR 1999 printed p.12 and p.80, AR 2000 p.5.
 # Basis: Yahoo adjusts for the 1:26 split of 23.8.1999 only; it does NOT adjust for the 1998 bonus and rights issues, and bmw.csv (header) uses the same unadjusted-for-1998 basis. From the 1994-05 rights issue on the series equals the unadjusted

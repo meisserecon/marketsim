@@ -73,3 +73,11 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Class: Nestle only N, SBG I and N, SBV I and N, Swissair N, Sandoz I, Ciba-Geigy I are listed; Nestle I, Swissair I and SKA/CS I are gone; CS Hold N left out: Vortag printed '118 3/4' or '118 7/8', the glyph is unclear in two crops. Sandoz N/Ciba N not requested. SBG/SBV N readings carry no independent control except Nestle N vs Yahoo (1276 vs 1275).
 - IBM: not read (the NY list prints fractions in a font that is hard to tell apart, see 1995-1998 notes; the 3 Jan table Vortag would be 2 Jan, not 29 Dec).
 - Pass agreement: 11 of 11 (Swiss: two crops; Frankfurt: crop + onvista + earlier file; IBJ: two crops).
+
+## 1997-03
+
+- Issue 1997-03-29 (Sat/Sun): Swiss 'Aktienmarkt Schweiz' printed p35 'Kurse vom 27. Maerz' (columns Jahres-H/T, Vortag, Tages-H/T, Volumen, Schluss; the legend says () = Tagesschlusskurs of the underlying, not relevant); Frankfurt p39 'Kurse vom 27./28. Maerz' (table header per block 'Kurse vom 27. Maerz'); Tokyo p34 'Kurse vom 27./28. Maerz' with the Tokyo block headed 28. Maerz. Easter 30 Mar: Zurich and Frankfurt closed 28 and 31 Mar; the Swiss text confirms 'am letzten, feiertagsbedingt verkuerzten Handelstag des Monats Maerz'; the last Swiss and Frankfurt day is 27 March.
+- Classes: Nestle N only; Novartis I and N both read; SBG I, N (bearer share still listed), SBV I is gone (only SBV N), Swissair N (no bearer), CS Group N. Sandoz/Ciba no longer exist.
+- Left out: CS Group N, SBV N (fraction glyph 1/2 vs 3/4 unclear: CS 172 3/4 or 172 1/2, SBV 307 3/4 or 307 1/2), no independent control. SBG N 259 1/2 kept because Yahoo ratio 12.08 matches 259.5 (259.75 would give 12.09, so the control is weak). SBG N, SBV N, CS N lines with the other classes (SBV I, CS I) do not exist in March 1997.
+- IBM and IBJ: not recorded. The Tokyo block of 29 Mar is of 28 Mar (IBJ 1300 close); the March month end (31 Mar) is IBJ 1260 in the earlier file (issue 1997-04-01). IBM fractions not read in this period.
+- Pass agreement: 8 of 8. Pass 2 Swiss values came from a second crop in a different window (Nestle, Novartis, Swissair, SBG: two separate crops each).

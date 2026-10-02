@@ -36,7 +36,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "manual/bmw.csv until 1996-10; Yahoo Finance BMW.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 4 dividends from manual/dividends/bmw.csv",
+ "source": "manual/bmw.csv until 1996-10; Yahoo Finance BMW.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 11 dividends from manual/dividends/bmw.csv",
  "notes": "Converted from EUR at month-end FRED rate. Yahoo data from 1996-11; 1980 to 1996 needs a manual prefix.",
  "rows": [
   {
@@ -167,7 +167,7 @@
   {
    "month": "1981-07",
    "price": 1.9736,
-   "income": 0
+   "income": 0.103932
   },
   {
    "month": "1981-08",
@@ -227,7 +227,7 @@
   {
    "month": "1982-07",
    "price": 2.0911,
-   "income": 0
+   "income": 0.092564
   },
   {
    "month": "1982-08",
@@ -287,7 +287,7 @@
   {
    "month": "1983-07",
    "price": 4.1961,
-   "income": 0
+   "income": 0.108176
   },
   {
    "month": "1983-08",
@@ -347,7 +347,7 @@
   {
    "month": "1984-07",
    "price": 3.5432,
-   "income": 0
+   "income": 0.118065
   },
   {
    "month": "1984-08",
@@ -407,7 +407,7 @@
   {
    "month": "1985-07",
    "price": 3.814,
-   "income": 0
+   "income": 0.120482
   },
   {
    "month": "1985-08",
@@ -467,7 +467,7 @@
   {
    "month": "1986-07",
    "price": 7.2129,
-   "income": 0
+   "income": 0.162852
   },
   {
    "month": "1986-08",
@@ -702,7 +702,7 @@
   {
    "month": "1990-06",
    "price": 11.4318,
-   "income": 0
+   "income": 0.245175
   },
   {
    "month": "1990-07",

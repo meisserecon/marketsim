@@ -5,9 +5,20 @@
 #   Frankfurt DM close / (26 x 1.95583) (onvista basis, bmw.csv header: boerse.de / onvista 0.804 is constant 1996-11 to 1998-04 and the series is boerse.de / 0.804). So each declared DM amount per DM 50 share is divided by 26 x 1.95583 = 50.8516.
 #   Control: the same division of the DM 20 of FY1998 gives 0.3933, and boerse.de lists 0.393 for the same payment (adjusted only for the split), and Yahoo's FY1999 dividend of 0.40 follows at +1.7 %.
 # Months: boerse.de gives the ex dates (15.5.96, 16.5.97, 13.5.98, 19.5.99, and 17.5.00 which Yahoo confirms); the two that can be checked against BMW's own reports (19.5.1999, 17.5.2000) agree, and all AGMs 1991 to 2000 are in May on that page.
-# NOT COVERED: FY1978 to FY1994 (payments 1979 to 1995). No primary source with the DM amounts was found: BMW's own site and annual-report archive offer nothing before 1999, and boerse.de/ariva amounts are on their own adjustment basis
-#   (they imply a 1998-adjustment factor that varies from 0.79 to 0.85 against the primary amounts, so they could not be used). See NOTES.
+# Added 2026-10-02 (second session), FY1980 to FY1985 and FY1989, from contemporary press: Die Welt daily issues 1983 to 1986 (archive.org collection DieWelt198xGermanyGerman, OCR text; including BMW's own
+#   payment notices 'Die Auszahlung der in der Hauptversammlung vom ... beschlossenen Dividende'), Die Zeit (zeit.de archive) and taz (taz.de). Declared amounts, quotes and URLs in raw-bmw.csv.
+#   Conversion per line: DM per DM 50 share / (50.8516 x R x 0.804), where R = raw/50.8516/boerse.de of the regime at the ex date (data/manual/bmw.csv header): 1.886 until 1982-07 (divisor 77.109),
+#   1.7065 from 1982-08 to the rights issue of 28.7.1986 (69.770), 1.449 from 1989-08 to 1991-05 (59.242). Raw yields equal series yields: e.g. DM 10 on the JdG close of DM 384 (30.6.1983) is 2.6 percent, the 1983-07 line 2.6 percent.
+# NOT COVERED: FY1978, FY1979 (payments 1979 and 1980), FY1986 to FY1988 (1987 to 1989), FY1990 to FY1994 (1991 to 1995): no source with the amount found (see NOTES). boerse.de/ariva amounts are on their own
+#   adjustment basis (they imply a factor that varies from 0.79 to 0.85 against the primary amounts, and 1.17 to 1.31 against the 1982 to 1986 amounts found now), so they were not used.
 month,dividend,note
+1981-07,0.129687,FY1980; 20 percent = DM 10 per DM 50 share (derived from the percentage: Die Zeit 22.5.1981 'Auch fuer 1980 bekommt Quandt mit zwanzig Prozent eine stattliche Dividende'); AGM date not found: month assumed July (AGMs 1983 to 1986 and boerse.de ex dates 1982 to 1989 are all early July); divisor 77.109
+1982-07,0.116719,FY1981; DM 9 (18 percent) per DM 50 share; derived from the prior-year figures in Die Welt 6.5.1983 ('auf zehn (neun) Mark je 50-Mark-Aktie erhoehte Dividende') and 8.7.1983 ('von 18 auf 20 Prozent'); month from boerse.de ex date 1.7.1982 (secondary); divisor 77.109
+1983-07,0.143329,FY1982; DM 10 per DM 50 share (new shares of the 1982 capital increase DM 5); AGM 7.7.1983; payment notice Die Welt 8.7.1983; divisor 69.770
+1984-07,0.171994,FY1983; DM 11 dividend plus DM 1 bonus per DM 50 share; AGM 5.7.1984 (Die Welt 4.5.1984 proposal; payment notice Die Welt 9.7.1984; Die Zeit 11.5.1984 '22 Prozent ... zweiprozentigen Bonus'); divisor 69.770
+1985-07,0.179161,FY1984; DM 12.50 per DM 50 share; AGM 11.7.1985; payment from 12.7.1985 (notice Die Welt 12.7.1985; Die Welt 25.5.1985 'auf 12;50 DM gestiegenen Ausschuettung'); divisor 69.770
+1986-07,0.179161,FY1985; DM 12.50 per DM 50 share (unchanged); AGM 3.7.1986; payment notice Die Welt 4.7.1986 (coupon 36); ex 4.7.1986 before the rights issue of 28.7.1986 so divisor 69.770
+1990-06,0.210999,FY1989; DM 12.50 per DM 50 share (taz 23.1.1991 'BMW hatte fuer 1989 eine Dividende von 12;50 DM je Aktie gezahlt'); month from boerse.de ex date 1.6.1990 (secondary); divisor 59.242
 1996-05,0.265478,FY1995; DM 13.50 per DM 50 ordinary share (EUR 6.90 in BMW AR 1999 printed p.37); ex 15.5.1996 per boerse.de; which is confirmed for 1999 and 2000 by the AGM dates of BMW's own reports
 1997-05,0.294976,FY1996; DM 15 per DM 50 ordinary share (EUR 7.67 in BMW AR 1999 printed p.37); ex 16.5.1997 per boerse.de
 1998-05,0.393301,FY1997; DM 20 per DM 50 ordinary share (EUR 10.23 in BMW AR 1999 printed p.37); ex 13.5.1998 per boerse.de; not adjusted for the 1998 bonus and rights issues; like the Yahoo prices

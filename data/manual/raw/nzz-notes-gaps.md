@@ -27,3 +27,9 @@ Output: `nzz-readings-gaps.csv`. Read by eye on 2026-10-02 from the replacement 
 - Frankfurt: the 30 Dec table (31 Dec issue) is headed with 'geschlossen' in the Schluss column and its Vortag column merely repeats the Vortag column of the 29 Dec table (BMW 427, Daimler 651, BBC 227.80 are the 28 Dec closes; the 29 Dec Schluss values are 426.50, 650.50, 223.70). The earlier file took 427/651 as the 29 Dec close; the correct 29 Dec closes are BMW 426.50, Daimler-Benz 650.50 (pass 1 and pass 2 both from the 30 Dec issue; the second place, the Vortag of the 3 Jan table, shows 2 Jan values because Frankfurt traded on 2 Jan: FAZ Ende 1983 351.83 = 29 Dec Schluss). Differences to the earlier file: BMW -0.5 DM, Daimler -0.5 DM.
 - IBM: 30 Dec 122 3/4, equal to the earlier file. IBJ not in the Tokyo list (Tokyo also closed 29-30 Dec).
 - Pass agreement: 11 of 11.
+
+## 1984-12
+
+- Issues: 1984-12-29 (prints 28 Dec: Swiss p19 "Kurse vom 28. Dezember", NY p21, Frankfurt p22), 1985-01-04 (Swiss p17 "Kurse vom 3. Januar", brackets = 28 Dec close). Also the 1985-01-03 issue (Frankfurt/NY of 2 Jan, Vortag columns, pp 16/17) was used for the second reading of Frankfurt and for IBM 31 Dec. 31 Dec 1984 (Monday) was no Swiss trading day (the 3 Jan table is headed "Kurse vom 3. Januar", Zurich closed 31 Dec to 2 Jan), so 28 Dec is the last Zurich trading day; Frankfurt likewise (Vortag of 2 Jan = Schluss of 28 Dec for BMW 372 and Daimler 592), and NY traded on 31 Dec (IBM 28 Dec Schl 123 3/4, 31 Dec 123).
+- Swiss: running text, close = last unmarked print; every value confirmed by the Vortag bracket of the 1985-01-04 issue (12/12 agree, one with an ambiguous t mark on the Swissair line). 
+- Pass agreement: 11 of 11. IBM control: 123 / 29.4276 = 4.180. IBJ: no Tokyo bank list including IBJ in these issues (Tokyo column on p22 lists Nippon Electric, ... no Industrial Bank).

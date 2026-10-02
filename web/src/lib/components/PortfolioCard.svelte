@@ -33,12 +33,6 @@
 <section class="card">
   <div class="card-head">
     <h2>Portfolio</h2>
-    <span class="slots" title="Cash does not count as a position">
-      <span class="pips" aria-hidden="true">
-        {#each Array(portfolio.maxPositions) as _, i (i)}<i class:on={i < used}></i>{/each}
-      </span>
-      {used} of {portfolio.maxPositions} positions used
-    </span>
   </div>
   <div class="card-body">
     <h3>Portfolio value <span class="sub">at each month end</span></h3>
@@ -90,28 +84,6 @@
 </section>
 
 <style>
-  .slots {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.87rem;
-    font-weight: 600;
-    color: var(--ink-2);
-  }
-  .pips {
-    display: inline-flex;
-    gap: 3px;
-  }
-  .pips i {
-    width: 10px;
-    height: 10px;
-    border-radius: 3px;
-    border: 1.5px solid var(--axis);
-  }
-  .pips i.on {
-    background: var(--series-1);
-    border-color: var(--series-1);
-  }
   .link {
     all: unset;
     cursor: pointer;

@@ -68,13 +68,11 @@
     const sign = side === 'buy' ? 1 : -1;
     const positionAfter = isAll && side === 'sell' ? 0 : Math.max(0, heldValue + sign * amount);
     const cashAfter = isAll && side === 'buy' ? 0 : Math.max(0, portfolio.cash - sign * amount);
-    const count = portfolio.positions.length + (side === 'buy' && !position ? 1 : 0) - (side === 'sell' && positionAfter < 0.005 ? 1 : 0);
     return {
       units: amount / asset.price,
       cashAfter,
       positionAfter,
       weightAfter: portfolio.totalValue > 0 ? positionAfter / portfolio.totalValue : 0,
-      count,
       // Based on what the asset paid over the past twelve months; says nothing about the future.
       incomePerYear: asset.kind !== 'bond' && asset.price > 0 ? (positionAfter * asset.incomeLastYear) / asset.price : 0,
       // Each unit of a bond repays 100.
@@ -172,8 +170,6 @@
         {#if preview.positionAfter < 0.005}closed
         {:else}{usd(preview.positionAfter, { cents: true })} <span class="muted">({pct(preview.weightAfter)} of your portfolio)</span>{/if}
       </dd>
-      <dt>Positions used</dt>
-      <dd>{preview.count} of {portfolio.maxPositions}</dd>
       {#if preview.positionAfter >= 0.005}
         {#if asset.kind === 'bond'}
           <dt>At maturity</dt>

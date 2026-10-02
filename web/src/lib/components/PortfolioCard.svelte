@@ -1,35 +1,22 @@
 <script lang="ts">
   import type { PortfolioView } from '@marketsim/shared';
-  import { pct, units, usd, usdCompact } from '$lib/format';
-  import Chart from './Chart.svelte';
+  import { pct, units, usd } from '$lib/format';
 
   interface Props {
     portfolio: PortfolioView;
     startingCash: number;
-    /** Last month of the game; the value chart spans the whole game from the start. */
-    finalMonth: string;
     /** Ids that can be opened in the asset panel (quoted this month). */
     tradable: Set<string>;
     selectedId?: string;
     onselect: (id: string) => void;
   }
-  let { portfolio, startingCash, finalMonth, tradable, selectedId, onselect }: Props = $props();
+  let { portfolio, startingCash, tradable, selectedId, onselect }: Props = $props();
 
   const total = $derived(portfolio.totalValue);
   const weight = (v: number) => (total > 0 ? v / total : 0);
   const used = $derived(portfolio.positions.length);
   const positions = $derived([...portfolio.positions].sort((a, b) => b.value - a.value));
   const sinceStart = $derived(startingCash > 0 ? total / startingCash - 1 : undefined);
-
-  /**
-   * Month-end values so far. The contract does not say whether `history` already contains the
-   * current month, so the current month is always taken from the live portfolio.
-   */
-  const curve = $derived.by(() => {
-    const points = portfolio.history.filter((h) => h.month < portfolio.month).map((h) => ({ month: h.month, value: h.totalValue }));
-    points.push({ month: portfolio.month, value: total });
-    return points;
-  });
 </script>
 
 <section class="card">
@@ -37,8 +24,6 @@
     <h2>Portfolio</h2>
   </div>
   <div class="card-body">
-    <Chart points={curve} zero span={{ from: curve[0].month, to: finalMonth }} height={200} label="Total portfolio value over time" formatValue={(v) => usd(v)} formatTick={usdCompact} />
-
     <table class="data holdings">
       <thead>
         <tr><th>Holding</th><th class="num">Value</th><th class="num weight-col">Weight</th></tr>
@@ -106,9 +91,6 @@
   }
   .weight-col {
     width: 42%;
-  }
-  .holdings {
-    margin-top: 16px;
   }
   .bar {
     display: inline-block;

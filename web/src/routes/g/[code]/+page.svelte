@@ -308,7 +308,16 @@
   </div>
 
   <div class="portfolio-wrap">
-    <PortfolioCard {portfolio} startingCash={game.startingCash} finalMonth={game.finalMonth} {tradable} {selectedId} onselect={select} />
+    {#if board}
+      <section class="card">
+        <div class="card-head">
+          <h2>Leaderboard</h2>
+          <span class="sub">{game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</span>
+        </div>
+        <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} limit={10} wide /></div>
+      </section>
+    {/if}
+    <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} />
   </div>
 
   <main class="layout" class:has-detail={!!selected}>
@@ -340,15 +349,6 @@
             ontraded={onTraded}
           />
         </div>
-      {/if}
-      {#if board}
-        <section class="card">
-          <div class="card-head">
-            <h2>Leaderboard</h2>
-            <span class="sub">{game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</span>
-          </div>
-          <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} limit={10} /></div>
-        </section>
       {/if}
     </div>
   </main>
@@ -465,6 +465,8 @@
   }
 
   .portfolio-wrap {
+    display: grid;
+    gap: 14px;
     padding: 14px 20px 0;
     max-width: 1500px;
     margin: 0 auto;

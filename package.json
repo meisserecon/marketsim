@@ -14,6 +14,7 @@
     "test": "npm test -w shared && npm test -w server",
     "typecheck": "npm run typecheck -w shared && tsc --noEmit -p data && npm run typecheck -w server && npm run check -w web",
     "dev": "npm run dev -w server",
+    "dev:web": "npm run dev -w web",
     "start": "npm run start -w server",
     "build": "npm run build -w web"
   }

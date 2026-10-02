@@ -14,8 +14,10 @@
     limit?: number;
     /** Last month of the game. When given, a chart of every listed player's value is shown, spanning the whole game. */
     finalMonth?: string;
+    /** Chart on the left and the list on the right, where the width allows. */
+    wide?: boolean;
   }
-  let { view, startingCash, meId, big = false, limit, finalMonth }: Props = $props();
+  let { view, startingCash, meId, big = false, limit, finalMonth, wide = false }: Props = $props();
 
   const PALETTE = ['#2a78d6', '#e0711c', '#1baf7a', '#c8453b', '#8e5bd0', '#c9a400', '#17a2b8', '#d6589f', '#6b7a8f', '#7a9a1f'];
   /** A player keeps the same colour whatever the ranking: colours go by the order of joining ids, not by rank. */
@@ -40,11 +42,13 @@
 {#if view.players.length === 0}
   <p class="sub muted">No players yet.</p>
 {:else}
+  <div class="wrap" class:wide>
   {#if finalMonth}
     <div class="race">
-      <PlayersChart {series} span={{ from: firstMonth, to: finalMonth }} highlightId={meId} height={big ? 300 : 200} />
+      <PlayersChart {series} span={{ from: firstMonth, to: finalMonth }} highlightId={meId} height={big ? 300 : wide ? 240 : 200} />
     </div>
   {/if}
+  <div class="list">
   <table class="data board" class:big>
     <thead>
       <tr><th class="rank">#</th><th>Player</th><th class="num">Portfolio value</th><th class="num">Since start</th></tr>
@@ -71,11 +75,25 @@
     </tbody>
   </table>
   {#if hidden > 0}<p class="sub muted more">and {hidden} more</p>{/if}
+  </div>
+  </div>
 {/if}
 
 <style>
   .race {
     margin-bottom: 12px;
+    min-width: 0;
+  }
+  @media (min-width: 900px) {
+    .wide {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(300px, 2fr);
+      gap: 24px;
+      align-items: start;
+    }
+    .wide .race {
+      margin-bottom: 0;
+    }
   }
   .key {
     display: inline-block;

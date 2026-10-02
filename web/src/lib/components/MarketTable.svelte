@@ -14,13 +14,13 @@
   }
   let { assets, month, held, selectedId, markNew, onselect }: Props = $props();
 
-  type SortKey = 'name' | 'price' | 'm1' | 'm12' | 'income' | 'yield';
+  type SortKey = 'name' | 'price' | 'm1' | 'm12' | 'yield';
   let sortKey = $state<SortKey>('name');
   let sortDir = $state<1 | -1>(1);
 
-  const GROUPS: { kind: AssetKind; title: string; hint: string }[] = [
+  const GROUPS: { kind: AssetKind; title: string; hint?: string }[] = [
     { kind: 'stock', title: 'Companies', hint: 'Shares of companies. Dividends are paid into your cash.' },
-    { kind: 'gold', title: 'Gold', hint: 'Pays no income.' },
+    { kind: 'gold', title: 'Precious Metals' },
     { kind: 'bond', title: 'Bonds', hint: 'Government promise to pay you 100$ in the future.' }
   ];
 
@@ -28,16 +28,15 @@
     { key: 'price', label: 'Price', title: 'USD per unit, split-adjusted' },
     { key: 'm1', label: '1 month', title: 'Price change since last month' },
     { key: 'm12', label: '12 months', title: 'Price change over twelve months' },
-    { key: 'income', label: 'Income 12 mo', title: 'Dividends paid over the last twelve months, as a percentage of the price' },
-    { key: 'yield', label: 'Bond yield', title: 'Yearly return if you buy now and hold until the bond is repaid' }
+    { key: 'yield', label: 'Yield', title: 'Companies: dividends paid over the last twelve months, as a percentage of the price. Bonds: yearly return if you buy now and hold until the bond is repaid.' }
   ];
 
   interface Row {
     asset: AssetView;
     m1?: number;
     m12?: number;
-    income: number;
-    yield?: number;
+    /** Dividend yield of the last twelve months; for a bond, the yield to maturity. */
+    yield: number;
     isNew: boolean;
   }
 
@@ -47,8 +46,7 @@
         asset: a,
         m1: change(a.price, a.pricePrev),
         m12: change(a.price, a.priceYearAgo),
-        income: a.price > 0 ? a.incomeLastYear / a.price : 0,
-        yield: a.kind === 'bond' ? a.extra?.yield : undefined,
+        yield: a.kind === 'bond' && a.extra?.yield !== undefined ? a.extra.yield : a.price > 0 ? a.incomeLastYear / a.price : 0,
         isNew: markNew && a.listedSince === month
       })
     )
@@ -64,8 +62,6 @@
         return r.m1;
       case 'm12':
         return r.m12;
-      case 'income':
-        return r.income;
       case 'yield':
         return r.yield;
     }
@@ -115,7 +111,7 @@
     {#each groups as g (g.kind)}
       <tbody>
         <tr class="group">
-          <th colspan="6" scope="rowgroup">{g.title} <span class="hint">{g.hint}</span></th>
+          <th colspan="5" scope="rowgroup">{g.title} {#if g.hint}<span class="hint">{g.hint}</span>{/if}</th>
         </tr>
         {#each g.rows as r (r.asset.id)}
           <tr class="asset" class:selected={r.asset.id === selectedId} class:new={r.isNew} onclick={() => onselect(r.asset.id)}>
@@ -127,8 +123,7 @@
             <td class="num">{price(r.asset.price)}</td>
             <td class="num {direction(r.m1)}">{pct(r.m1, { sign: true })}</td>
             <td class="num {direction(r.m12)}">{pct(r.m12, { sign: true })}</td>
-            <td class="num" class:zero={r.income === 0}>{pct(r.income)}</td>
-            <td class="num">{r.yield !== undefined ? pct(r.yield, { digits: 2 }) : ''}</td>
+            <td class="num" class:zero={r.yield === 0}>{pct(r.yield)}</td>
           </tr>
         {/each}
       </tbody>
@@ -141,7 +136,7 @@
     overflow-x: auto;
   }
   .market {
-    min-width: 560px;
+    min-width: 480px;
   }
   thead th {
     position: sticky;

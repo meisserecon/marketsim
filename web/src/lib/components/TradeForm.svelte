@@ -177,12 +177,9 @@
             repays {usd(preview.repayment, { cents: true })}{maturityYear ? ` on 1 January ${maturityYear}` : ''}
             {#if bondYield !== undefined && bondYield > 0}<span class="muted">that is {(bondYield * 100).toFixed(2)}% a year if held until then</span>{/if}
           </dd>
-        {:else}
-        <dt>Income</dt>
-        <dd>
-          {#if preview.incomePerYear > 0}about {usd(preview.incomePerYear, { cents: true })} a year <span class="muted">if it pays what it paid over the last 12 months</span>
-          {:else}<span class="muted">paid nothing over the last 12 months</span>{/if}
-        </dd>
+        {:else if preview.incomePerYear > 0}
+          <dt>Income</dt>
+          <dd>about {usd(preview.incomePerYear, { cents: true })} a year <span class="muted">if it pays what it paid over the last 12 months</span></dd>
         {/if}
       {/if}
     </dl>
@@ -194,7 +191,6 @@
   <button class="btn primary confirm" type="submit" disabled={busy || !!problem || !preview}>
     {#if busy}Trading…{:else if preview}Confirm: {side} {usd(amount, { cents: true })}{:else}{side === 'buy' ? 'Buy' : 'Sell'}{/if}
   </button>
-  <p class="sub muted fine">Executes immediately at this month's price. No fees.</p>
 </form>
 
 <style>
@@ -259,9 +255,5 @@
   }
   .confirm::first-letter {
     text-transform: uppercase;
-  }
-  .fine {
-    font-size: 0.8rem;
-    text-align: center;
   }
 </style>

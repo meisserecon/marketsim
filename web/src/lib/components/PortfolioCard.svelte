@@ -14,7 +14,6 @@
 
   const total = $derived(portfolio.totalValue);
   const weight = (v: number) => (total > 0 ? v / total : 0);
-  const used = $derived(portfolio.positions.length);
   const positions = $derived([...portfolio.positions].sort((a, b) => b.value - a.value));
   const sinceStart = $derived(startingCash > 0 ? total / startingCash - 1 : undefined);
 </script>
@@ -62,9 +61,6 @@
         </tr>
       </tfoot>
     </table>
-    {#if used === 0}
-      <p class="sub hint">All your money is in cash. Pick an asset from the market to invest.</p>
-    {/if}
 
   </div>
 </section>
@@ -124,8 +120,5 @@
   tfoot td.since {
     font-weight: 600;
     font-size: 0.87rem;
-  }
-  .hint {
-    margin-top: 8px;
   }
 </style>

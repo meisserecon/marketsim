@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { AssetHistory, AssetView, PortfolioView } from '@marketsim/shared';
   import { api } from '$lib/api';
-  import { change, direction, errorMessage, monthName, monthShort, pct, price, priceTick, usd } from '$lib/format';
+  import { change, direction, errorMessage, monthShort, pct, price, priceTick, usd } from '$lib/format';
   import Chart from './Chart.svelte';
   import TradeForm from './TradeForm.svelte';
 
@@ -101,19 +101,16 @@
     <div><span class="sub">1 month</span><strong class={direction(m1)}>{pct(m1, { sign: true })}</strong></div>
     <div><span class="sub">12 months</span><strong class={direction(m12)}>{pct(m12, { sign: true })}</strong></div>
     <div>
-      <span class="sub">Income 12 mo</span><strong>{pct(asset.price > 0 ? asset.incomeLastYear / asset.price : 0)}</strong>
+      <span class="sub">Yield</span><strong>{pct(asset.kind === 'bond' && asset.extra?.yield !== undefined ? asset.extra.yield : asset.price > 0 ? asset.incomeLastYear / asset.price : 0)}</strong>
     </div>
-    {#if asset.kind === 'bond' && asset.extra?.yield !== undefined}
-      <div><span class="sub">Yield to maturity</span><strong>{pct(asset.extra.yield, { digits: 2 })}</strong></div>
-      {#if asset.maturity}<div><span class="sub">Repays 100 on</span><strong>1 Jan {asset.maturity.slice(0, 4)}</strong></div>{/if}
-    {/if}
+    {#if asset.kind === 'bond' && asset.maturity}<div><span class="sub">Repays 100 on</span><strong>1 Jan {asset.maturity.slice(0, 4)}</strong></div>{/if}
   </div>
 
   {#if loadError}<p class="notice error">{loadError}</p>{/if}
 
   <section>
     <div class="section-head">
-      <h3>Price <span class="sub">USD per unit, {rows.length ? `${monthShort(rows[0].month)} to ${monthShort(month)}` : ''}</span></h3>
+      <h3>Price <span class="sub">USD per unit</span></h3>
     </div>
     {#if rows.length}
       <Chart points={pricePoints} height={190} label="Price history of {asset.name}" formatValue={(v) => `${price(v)}`} formatTick={priceTick} />
@@ -165,29 +162,6 @@
       <div class="section-head"><h3>Yield <span class="sub">yearly return from buying at that month's price and holding until the bond is repaid</span></h3></div>
       <Chart points={yieldPoints} zero height={130} label="Yield history" formatValue={(v) => pct(v, { digits: 2 })} formatTick={(v) => pct(v, { digits: 0 })} />
     </section>
-  {/if}
-
-  {#if rows.length}
-    <details>
-      <summary>Monthly data table</summary>
-      <div class="table-scroll">
-        <table class="data">
-          <thead>
-            <tr><th>Month</th><th class="num">Price</th><th class="num">Income per unit</th>{#if asset.kind === 'bond'}<th class="num">Yield</th>{/if}</tr>
-          </thead>
-          <tbody>
-            {#each [...rows].reverse() as r (r.month)}
-              <tr>
-                <td>{monthName(r.month)}</td>
-                <td class="num">{price(r.price)}</td>
-                <td class="num">{r.income > 0 ? price(r.income) : '–'}</td>
-                {#if asset.kind === 'bond'}<td class="num">{pct(r.extra?.yield, { digits: 2 })}</td>{/if}
-              </tr>
-            {/each}
-          </tbody>
-        </table>
-      </div>
-    </details>
   {/if}
 </aside>
 
@@ -254,22 +228,6 @@
     padding: 14px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    background: var(--surface);
-  }
-  summary {
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: var(--ink-2);
-  }
-  .table-scroll {
-    max-height: 300px;
-    overflow: auto;
-    margin-top: 8px;
-  }
-  .table-scroll thead th {
-    position: sticky;
-    top: 0;
     background: var(--surface);
   }
   .profile {

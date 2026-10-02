@@ -341,8 +341,7 @@
     <div class="left">
       <section class="card">
         <div class="card-head">
-          <h2>Market <span class="sub">prices at the end of {monthName(market.month)}</span></h2>
-          <span class="sub muted">Select an asset to see its history and trade</span>
+          <h2>Market</h2>
         </div>
         <div class="card-body">
           <MarketTable assets={market.assets} month={market.month} {held} {selectedId} markNew={!lobby} onselect={select} />
@@ -511,10 +510,6 @@
     overflow-y: auto;
     padding-bottom: 8px;
     scrollbar-gutter: stable;
-  }
-  .card-head h2 .sub {
-    font-weight: 400;
-    margin-left: 6px;
   }
 
   .overlay {

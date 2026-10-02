@@ -1,0 +1,19 @@
+# Schlumberger quarterly dividends per share in USD for the quarters before Yahoo's first dividend (1982-03, 0.05), on the share basis of data/manual/slb.csv (divisor 9 until 1980-09, 6 until 1981-06, 4 afterwards).
+# Source: Schlumberger Limited annual reports 1980 to 1983 (https://archive.org/details/01.-schlumberger , files "Schlumberger Limited (SLB) Annual Report <year>.pdf"), table "Common stock, market prices and dividends paid per share"
+#   (from the 1983 report "declared"), read 2026-10-02. The 1980 report prints the amounts adjusted for the 3-for-2 split of September 1980, the 1981 report for the split of June 1981 too, the 1982 report likewise. The amounts are in raw-slb.csv.
+# Basis: the series' divisor of the month applies to the as-then price; an amount printed on the basis "after the split of 1980" is divided by 6 (it is then comparable with prices from 1980-10 to 1981-06 divided by 6; for 1980-03 to 1980-09 the
+#   as-then pre-split amount is 1.5 times the printed one and the divisor is 9, giving the same result); an amount adjusted for both splits is divided by 4. Control: 1982 report prints $0.200 paid in the first quarter of 1982 and $0.200 / 0.240 / 0.240 afterwards;
+#   Yahoo has 0.05 in 1982-03 and 0.06 in 1982-06, 09, 12, i.e. printed amount / 4. The reports for 1982 and 1983 print declared amounts 0.200, 0.240, 0.240, 0.240 (1982) and 0.240, 0.240, 0.260, 0.260 (1983) against Yahoo's 0.05, 0.06, 0.06, 0.06, 0.06, 0.06, 0.065, 0.065
+#   for 1982-03 to 1983-12: Yahoo's month is the last month of the quarter in which the dividend was DECLARED; it is PAID in the following quarter (the paid column of the 1982 report is 0.200, 0.200, 0.240, 0.240).
+# Month: the 1980 and 1981 reports give only the amounts paid in each quarter. Each line therefore uses the last month of the quarter before the payment quarter (Yahoo's pattern for 1982 and 1983, verified quarter by quarter above); marked "month assumed". The declared totals confirm the
+#   shift: declared 1981 = 0.167 + 0.200 + 0.200 + 0.200 = 0.767 (report 1981: $0.77), declared 1980 = 0.147 + 0.147 + 0.167 + 0.167 = 0.628 (report 1981: $0.63, on the same basis).
+month,dividend,note
+1979-12,0.030500,paid Q1 1980; $0.183 printed in annual report 1980 p.38 (printed adjusted for the Sept 1980 split); divided by 6; month assumed
+1980-03,0.036667,paid Q2 1980; $0.220 printed in annual report 1980 p.38; divided by 6; month assumed
+1980-06,0.036667,paid Q3 1980; $0.220 printed in annual report 1980 p.38; divided by 6; month assumed
+1980-09,0.041667,paid Q4 1980; $0.250 printed in annual report 1980 p.38; divided by 6; month assumed
+1980-12,0.041750,paid Q1 1981; $0.167 printed in annual report 1981 p.38 (printed adjusted for the June 1981 split); divided by 4; month assumed
+1981-03,0.041750,paid Q2 1981; $0.167 printed in annual report 1981 p.38; divided by 4; month assumed
+1981-06,0.050000,paid Q3 1981; $0.200 printed in annual report 1981 p.38; divided by 4; month assumed
+1981-09,0.050000,paid Q4 1981; $0.200 printed in annual report 1981 p.38; divided by 4; month assumed
+1981-12,0.050000,paid Q1 1982; $0.200 printed in annual report 1982 p.32; divided by 4; month assumed

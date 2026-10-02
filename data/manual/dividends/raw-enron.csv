@@ -1,0 +1,14 @@
+# Raw declared/paid Enron common dividends as found. Retrieved 2026-10-02 from EDGAR.
+# 10-K 1993 = Enron Corp Form 10-K for 1993, accession 0000072859-94-000005, Note 11 and Item 6 (per-share amounts restated for the 2-for-1 splits of Dec 1991 and Aug 1993).
+# S-3/A 2001 = Enron Corp S-3/A, accession 0000950129-01-501956, "Price range of common stock and dividends" (cash dividends declared per share).
+period,amount_per_share,basis,source
+1990 Q1-Q4,0.155,1993 split basis (as paid then 0.62 per quarter),10-K 1993 Note 11 ("$.155 per share ($.62 per share annually) until the final quarter of 1991"); Item 6 dividends per share 0.62 (1990)
+1991 Q1-Q3,0.155,1993 split basis,10-K 1993 Note 11
+1991 Q4,0.1625,1993 split basis,10-K 1993 Note 11 ("increased to $.1625 per share")
+1991 total,0.63,1993 split basis,10-K 1993 Item 6
+1992 Q1-Q3,0.1625,1993 split basis,10-K 1993 Item 5 table (already in enron.csv)
+1992 Q4,0.175,1993 split basis,10-K 1993 Item 5 table (already in enron.csv)
+2001 Q1,0.125,final basis (declared),S-3/A 2001
+2001 Q2,0.125,final basis (declared),S-3/A 2001
+2001 Q3,,not retrieved,"S-3/A (through 12 July): none declared yet; 10-Q Q3 2001: dividends paid 394 million dollars in nine months against 396 in 2000 (no per-share figure)"
+2001 Q4,,not retrieved,"a $0.125 dividend payable 20.12.2001 to holders of record 3.12.2001 was announced on 23.10.2001 (search-engine summary of eepower.com, page itself blocked); Chapter 11 filing 2.12.2001"

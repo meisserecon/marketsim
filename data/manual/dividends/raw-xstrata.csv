@@ -1,0 +1,25 @@
+# Raw declared Xstrata dividends as found (US cents per ordinary share, declared and paid in US dollars), unadjusted for rights issues. Retrieved 2026-10-02 from web.archive.org copies of xstrata.com documents.
+# AR = Xstrata plc Annual Report of the year; PR = preliminary results of the year; DIL = dividend information letter (xstrata.com/assets/pdf/x_dividend_info_<date>.pdf or dividend_info_oct2003.pdf).
+dividend,us_cents,payment_date,record_date,source
+final 2002,20.0,2003-05-23,2003-05-02,MIM acquisition and rights issue announcement 7.4.2003 p.9 (declared 10.2.2003; new shares do not rank); AR 2003 note 11 restates it to 13.3 with the rights bonus factor 0.66344
+interim 2003,6.7,2003-10-17,2003-09-26,AR 2003 note 11; DIL October 2003 (payment 17 Oct 2003); currency election form record date 26.9.2003
+final 2003,13.3,2004-05-21,2004-04-30,AR 2003 p.15 and note 11 (total 2003 20 cents)
+interim 2004,8.0,2004-10-15,,PR 2004 p.19 (final 16 = two thirds of 24); DIL October 2004 (payment 15 Oct 2004)
+final 2004,16.0,2005-05-20,,PR 2004; AR 2005 p.36 ("paid on 20 May 2005"); DIL May 2005
+interim 2005,9.0,2005-10-14,,PR 2005 p.23; AR 2005 p.36
+final 2005,25.0,2006-05-19,,PR 2005; AR 2005 p.36 ("to be paid on 19 May 2006"); DIL May 2006
+interim 2006,13.0,2006-10-13,,PR 2006 footnote ("2006 interim dividend paid was 13 cents; adjusted to 11.6"); DIL August 2006 (payment 13 Oct 2006); rights issue ex date 30.10.2006 (AR 2006 note 12)
+final 2006,30.0,2007-05-18,2007-04-27,AR 2006 p.58 and note 13 (register 27 April 2007)
+interim 2007,16.0,2007-10-12,,AR 2007 note 13 ("paid on 12 October 2007")
+final 2007,34.0,2008-05-16,,AR 2007 note 13 ("paid on 16 May 2008"); AR 2008 p.114
+interim 2008,18.0,2008-10-10,,AR 2008; AR 2009 note 12 ("2008 interim dividend was paid on 10 October 2008"); restated to 10.2 with factor 0.57
+final 2008,0,,,"AR 2008/2009: no final dividend (rights issue 2009)"
+final 2009,8.0,2010-05-14,,AR 2009 note 12 ("will be paid on 14 May 2010"); AR 2010
+interim 2010,5.0,2010-10-08,,AR 2010 p.57 ("paid on 8 October 2010")
+final 2010,20.0,2011-05-13,,AR 2010 p.57 ("will be paid on 13 May 2011")
+interim 2011,13.0,2011-10-07,,AR 2011 financials note ("paid on 7 October 2011")
+final 2011,27.0,2012-05-23,,AR 2011 financials note ("will be paid on 23 May 2012")
+interim 2012,14.0,,,PR 2012 note (payment date not retrieved)
+final 2012,31.5,2013-06-07,2013-05-24,PR 2012 p.8 (ex 22 May 2013; payment 7 June 2013): after the end of the series
+# Factors: rights issues 2003 (3 new for 2 at 245p; bonus factor 0.66344, TERP GBP 3.70), 30.10.2006 (1 new for 3 at GBP 12.65; TERP GBP 19.51; factor 0.9 rounded), 18.3.2009 (2 new for 1 at GBP 2.10; TERP GBP 3.41; factor 0.57), all from the annual reports.
+# Cross-check only (secondary, not used): dividendmax.com lists final dividends of 15p, 18p, 11.5p and 5.1p for 2006 to 2009 in sterling; this file's sterling amounts as then are 15.1p (final 2006), 17.4p (final 2007), 10.1p (interim 2008), 5.4p (final 2009).

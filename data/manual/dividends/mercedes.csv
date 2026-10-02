@@ -1,0 +1,28 @@
+# Daimler-Benz dividends per share on the share basis of data/manual/mercedes.csv (to 1996-10) and data/raw/yahoo/mercedes.csv, for the years Yahoo has none (Yahoo starts with May 1999, DaimlerChrysler EUR 2.35).
+# Source: Daimler-Benz annual reports (Geschaeftsberichte) 1979 to 1997 of the company's own archive. 1985 to 1997 read from the PDF copies at bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_<year>.pdf; 1979, 1981 and 1984 from the web.archive.org copies of
+#   group.mercedes-benz.com/dokumente/investoren/berichte/geschaeftsberichte/daimler-benz/daimler-ir-geschaeftsbericht-<year>.pdf (the company site itself answers 403 to scripted requests); read 2026-10-02. Declared amounts are in data/manual/dividends/raw-mercedes.csv.
+#   The amounts for financial years 1976 to 1985 come from the table "Major Balance Sheet and Income Figures of Daimler-Benz AG" (AR 1985 p.127, "Dividend per share of DM 50 par value"); later years from each year's report.
+# Basis: the price series is the raw Frankfurt DM close divided by 23.5586 (= 1.95583 x 10 x 1.20452) for the DM 50 share until the split of 1.7.1996, and DM close divided by 2.35586 for the DM 5 share after it (mercedes.csv header, Yahoo
+#   basis incl. the 2021 Daimler Truck factor). It is NOT adjusted for rights or bonus issues, so each declared amount per share actually held is divided by the same factor: DM per DM 50 share / 23.5586, DM per DM 5 share / 2.35586.
+#   Control: the series factor is exact against onvista and Yahoo (mercedes.csv header). NOTE: Yahoo's own dividends (EUR 2.35 from May 1999) are NOT divided by the 1.20452 spin-off factor although its prices are; the lines here follow the price series.
+# Month: the AGM date is given in each report; the dividend is payable the day after, so the ex month is the month of the AGM (all AGMs fall in the same month as the following day). Two lines are marked "month assumed".
+# Left out: FY1995 (no dividend, loss year); the special distribution of DM 20 per share (AGM 27.5.1998), which the company financed back by a capital increase of DM 7.4 billion with subscription rights (AR 1997), i.e. not income.
+month,dividend,note
+1980-07,0.424473,FY1979; DM 10 per DM 50 share (raised from DM 9); AGM 2.7.1980; Daimler-Benz AR 1979 p.9 and 15; table AR 1985 p.127
+1981-07,0.466921,FY1980; DM 10 dividend plus DM 1 bonus per DM 50 share; AGM 1.7.1981 (AR 1981 p.71; AR 1984 p.77); amounts from AR 1985 table p.127
+1982-07,0.424473,FY1981; DM 10 per DM 50 share; AGM 7.7.1982; AR 1981 p.5 and 15
+1983-07,0.488144,FY1982; DM 10.50 dividend plus DM 1 bonus per DM 50 share; AR 1985 table p.127; month assumed (AGM date not found; AGMs 1980 to 1982 and 1985 to 1988 all in early July)
+1984-07,0.445697,FY1983; DM 10.50 per DM 50 share; AR 1985 table p.127; month assumed (AGM date not found; neighbours all early July)
+1985-07,0.445697,FY1984; DM 10.50 per DM 50 share; AGM 3.7.1985; AR 1984 p.6; AR 1985 Highlights
+1986-07,0.615486,FY1985; DM 12 dividend plus DM 2.50 centenary bonus per DM 50 share; AGM 2.7.1986; AR 1985 p.5 and Highlights
+1987-07,0.509368,FY1986; DM 12 per DM 50 share; AGM 1.7.1987; AR 1986
+1988-07,0.509368,FY1987; DM 12 per DM 50 share; AGM 1.7.1988; AR 1987
+1989-06,0.509368,FY1988; DM 12 per DM 50 share; AGM 28.6.1989; AR 1988
+1990-07,0.509368,FY1989; DM 12 per DM 50 share; AGM 4.7.1990; AR 1989
+1991-06,0.509368,FY1990; DM 12 per DM 50 share; AGM 26.6.1991; AR 1990
+1992-06,0.551815,FY1991; DM 13 per DM 50 share; AGM 24.6.1992; AR 1991
+1993-05,0.551815,FY1992; DM 13 per DM 50 share; AGM 26.5.1993; AR 1992
+1994-05,0.339579,FY1993; DM 8 per DM 50 share; AGM 18.5.1994; AR 1993
+1995-05,0.466921,FY1994; DM 11 per DM 50 share; AGM 24.5.1995; AR 1994
+1997-05,0.466921,FY1996; DM 1.10 per DM 5 share (after the 10:1 split of 1.7.1996); AGM 28.5.1997; AR 1996 and AR 1997
+1998-05,0.679158,FY1997; DM 1.60 per DM 5 share; AGM 27.5.1998; AR 1997; the special distribution of DM 20 per share of the same meeting is NOT included; see notes

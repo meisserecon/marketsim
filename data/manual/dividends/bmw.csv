@@ -1,0 +1,14 @@
+# BMW ordinary share (Stammaktie) dividends per share on the share basis of data/manual/bmw.csv and data/raw/yahoo/bmw.csv (BMW.DE), for the years Yahoo has none (Yahoo starts with May 2000, EUR 0.40 for 1999).
+# Source: BMW Group Annual Report 1999, "BMW Share" table printed p.37 (https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf, read 2026-10-02): dividend per DM 50 ordinary share in EUR 6.90 (FY1995), 7.67 (1996), 10.23 (1997), 10.23 (1998),
+#   which are exactly DM 13.50, 15.00, 20.00, 20.00 at 1.95583 (footnote: "in previous years per DM 50 par value share"). AGM dates 18.5.1999 and 16.5.2000: BMW AR 1999 printed p.12 and p.80, AR 2000 p.5.
+# Basis: Yahoo adjusts for the 1:26 split of 23.8.1999 only; it does NOT adjust for the 1998 bonus and rights issues, and bmw.csv (header) uses the same unadjusted-for-1998 basis. From the 1994-05 rights issue on the series equals the unadjusted
+#   Frankfurt DM close / (26 x 1.95583) (onvista basis, bmw.csv header: boerse.de / onvista 0.804 is constant 1996-11 to 1998-04 and the series is boerse.de / 0.804). So each declared DM amount per DM 50 share is divided by 26 x 1.95583 = 50.8516.
+#   Control: the same division of the DM 20 of FY1998 gives 0.3933, and boerse.de lists 0.393 for the same payment (adjusted only for the split), and Yahoo's FY1999 dividend of 0.40 follows at +1.7 %.
+# Months: boerse.de gives the ex dates (15.5.96, 16.5.97, 13.5.98, 19.5.99, and 17.5.00 which Yahoo confirms); the two that can be checked against BMW's own reports (19.5.1999, 17.5.2000) agree, and all AGMs 1991 to 2000 are in May on that page.
+# NOT COVERED: FY1978 to FY1994 (payments 1979 to 1995). No primary source with the DM amounts was found: BMW's own site and annual-report archive offer nothing before 1999, and boerse.de/ariva amounts are on their own adjustment basis
+#   (they imply a 1998-adjustment factor that varies from 0.79 to 0.85 against the primary amounts, so they could not be used). See NOTES.
+month,dividend,note
+1996-05,0.265478,FY1995; DM 13.50 per DM 50 ordinary share (EUR 6.90 in BMW AR 1999 printed p.37); ex 15.5.1996 per boerse.de; which is confirmed for 1999 and 2000 by the AGM dates of BMW's own reports
+1997-05,0.294976,FY1996; DM 15 per DM 50 ordinary share (EUR 7.67 in BMW AR 1999 printed p.37); ex 16.5.1997 per boerse.de
+1998-05,0.393301,FY1997; DM 20 per DM 50 ordinary share (EUR 10.23 in BMW AR 1999 printed p.37); ex 13.5.1998 per boerse.de; not adjusted for the 1998 bonus and rights issues; like the Yahoo prices
+1999-05,0.393301,FY1998; DM 20 per DM 50 ordinary share (EUR 10.23 in BMW AR 1999 printed p.37); AGM 18.5.1999 (AR 1999 p.13); ex 19.5.1999

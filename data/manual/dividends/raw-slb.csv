@@ -1,0 +1,32 @@
+# Raw Schlumberger quarterly dividends per share (USD) as printed. Source: https://archive.org/details/01.-schlumberger annual reports 1980-1983, section "Common stock, market prices and dividends paid per share"; read 2026-10-02.
+# adjusted_for = stock splits already applied in the printed number.
+report,quarter,printed_amount,type,adjusted_for
+1980,1979 Q1,0.156,paid,3-for-2 of Sept 1980
+1980,1979 Q2,0.183,paid,3-for-2 of Sept 1980
+1980,1979 Q3,0.183,paid,3-for-2 of Sept 1980
+1980,1979 Q4,0.183,paid,3-for-2 of Sept 1980
+1980,1980 Q1,0.183,paid,3-for-2 of Sept 1980
+1980,1980 Q2,0.220,paid,3-for-2 of Sept 1980
+1980,1980 Q3,0.220,paid,3-for-2 of Sept 1980
+1980,1980 Q4,0.250,paid,3-for-2 of Sept 1980
+1981,1980 Q1,0.122,paid,both 3-for-2 splits
+1981,1980 Q2,0.147,paid,both 3-for-2 splits
+1981,1980 Q3,0.147,paid,both 3-for-2 splits
+1981,1980 Q4,0.167,paid,both 3-for-2 splits
+1981,1981 Q1,0.167,paid,both 3-for-2 splits
+1981,1981 Q2,0.167,paid,both 3-for-2 splits
+1981,1981 Q3,0.200,paid,both 3-for-2 splits
+1981,1981 Q4,0.200,paid,both 3-for-2 splits
+1982,1982 Q1,0.200,paid,both splits
+1982,1982 Q2,0.200,paid,both splits
+1982,1982 Q3,0.240,paid,both splits
+1982,1982 Q4,0.240,paid,both splits
+1983,1982 Q1,0.200,declared,both splits
+1983,1982 Q2,0.240,declared,both splits
+1983,1982 Q3,0.240,declared,both splits
+1983,1982 Q4,0.240,declared,both splits
+1983,1983 Q1,0.240,declared,both splits
+1983,1983 Q2,0.240,declared,both splits
+1983,1983 Q3,0.260,declared,both splits
+1983,1983 Q4,0.260,declared,both splits
+# Annual declared totals printed in the five-year tables: report 1980 (basis after the Sept 1980 split) 0.94 (1980), 0.73 (1979), 0.56 (1978); report 1981 (both splits) 0.77 (1981), 0.63 (1980), 0.49 (1979); report 1982 0.92 (1982); report 1983 1.00 (1983).

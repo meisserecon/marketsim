@@ -1,0 +1,39 @@
+# Disney (Walt Disney Productions until 1986) cash dividends per share on the share basis of data/raw/yahoo/dis.csv, for the quarters Yahoo has none (Yahoo starts with March 1982, 0.006166 per quarter).
+# Source: Walt Disney Productions annual reports 1975 to 1983 (fiscal years end 30 September), archive.org items wdp-annual-report-<year> (https://archive.org/details/wdp-annual-report-1982 etc.), quarterly "Market price and dividend data"
+#   tables, read 2026-10-02; amounts are cash dividends per share declared in the fiscal quarter, in the raw-dis.csv file as printed.
+# Basis: Yahoo's dividends are the declared amounts divided by one constant. Control: the report of 1982 prints $0.30 for each quarter of FY1982 (raised from $0.25 on 30.11.1981) and Yahoo has 0.006166 for 1982-03, 06, 09, so the factor is 0.30 / 0.006166 = 48.65.
+#   Check that the same constant fits the prices: the printed quarterly high and low prices of every report 1976 to 1982 bracket 48.65 x Yahoo's month-end closes of the same quarters (F interval from the month-ends 47.6-49.1 for FY1982, 47.9-49.6 for FY1981,
+#   47.9-49.4 for FY1976, 48.5-49.7 for FY1977, 47.7-48.0 for FY1978; 43-47.7 for FY1975 which is on the basis after the 3 % stock dividend of FY1976). Yahoo is therefore adjusted for the splits but not for the annual 1.5 to 3 % stock dividends of 1975-78,
+#   so amounts are used as printed; the stock-dividend adjustment in the printed 1975-77 amounts is at most 3 %, below the rounding of the $0.03 and $0.04 cents amounts.
+# Month: the fiscal quarter in which the dividend was declared; the Dec 1977 quarter dividend had record date 12.12.1977 and payment date 6.1.1978 (annual report 1977, p.5), and Yahoo's ex months of 1982 are March, June, September. All lines use the last month of the
+#   fiscal quarter (December, March, June, September) and are marked "month assumed"; the true ex month can be one month earlier or later. The December 1974 quarter dividend (payable January 1975) is not included (ex date before the start of the game).
+# Yield warning: for FY1975 and FY1976 the cash dividend of 12 cents a year is 0.3 % of the price (about $40 to $50 at the time); the payout was low (cash dividends about 5 % of earnings, the company paid mostly stock dividends then), so the yield stays below the 0.5 % guideline.
+month,dividend,note
+1975-03,0.0006166,FY1975 quarter 2; $0.03 per share declared; WDP annual report 1976 p.32 (quarterly table; 12 cents a year); month assumed
+1975-06,0.0006166,FY1975 quarter 3; $0.03 per share declared; WDP annual report 1976 p.32 (quarterly table; 12 cents a year); month assumed
+1975-09,0.0006166,FY1975 quarter 4; $0.03 per share declared; WDP annual report 1976 p.32 (quarterly table; 12 cents a year); month assumed
+1975-12,0.0006166,FY1976 quarter 1; $0.03 per share declared; WDP annual report 1976 p.32 and report 1977 p.5; month assumed
+1976-03,0.0006166,FY1976 quarter 2; $0.03 per share declared; WDP annual report 1976 p.32 and report 1977 p.5; month assumed
+1976-06,0.0006166,FY1976 quarter 3; $0.03 per share declared; WDP annual report 1976 p.32 and report 1977 p.5; month assumed
+1976-09,0.0006166,FY1976 quarter 4; $0.03 per share declared; WDP annual report 1976 p.32 and report 1977 p.5; month assumed
+1976-12,0.0006166,FY1977 quarter 1; $0.03 per share declared; WDP annual report 1977 p.5 and report 1978 p.29; month assumed
+1977-03,0.0008221,FY1977 quarter 2; $0.04 per share declared; WDP annual report 1977 p.5 and report 1978 p.29; month assumed
+1977-06,0.0008221,FY1977 quarter 3; $0.04 per share declared; WDP annual report 1977 p.5 and report 1978 p.29; month assumed
+1977-09,0.0008221,FY1977 quarter 4; $0.04 per share declared; WDP annual report 1977 p.5 and report 1978 p.29; month assumed
+1977-12,0.0016443,FY1978 quarter 1; $0.08 per share declared; WDP annual report 1978 p.29 (total $0.32); month assumed
+1978-03,0.0016443,FY1978 quarter 2; $0.08 per share declared; WDP annual report 1978 p.29 (total $0.32); month assumed
+1978-06,0.0016443,FY1978 quarter 3; $0.08 per share declared; WDP annual report 1978 p.29 (total $0.32); month assumed
+1978-09,0.0016443,FY1978 quarter 4; $0.08 per share declared; WDP annual report 1978 p.29 (total $0.32); month assumed
+1978-12,0.0024664,FY1979 quarter 1; $0.12 per share declared; WDP annual report 1979 p.29 and report 1980 (PDF p.37 quarterly table; total WDP annual report 1979 p.29 (total $0.48).48); month assumed
+1979-03,0.0024664,FY1979 quarter 2; $0.12 per share declared; WDP annual report 1979 p.29 and report 1980 (PDF p.37 quarterly table; total WDP annual report 1979 p.29 (total $0.48).48); month assumed
+1979-06,0.0024664,FY1979 quarter 3; $0.12 per share declared; WDP annual report 1979 p.29 and report 1980 (PDF p.37 quarterly table; total WDP annual report 1979 p.29 (total $0.48).48); month assumed
+1979-09,0.0024664,FY1979 quarter 4; $0.12 per share declared; WDP annual report 1979 p.29 and report 1980 (PDF p.37 quarterly table; total WDP annual report 1979 p.29 (total $0.48).48); month assumed
+1979-12,0.0036996,FY1980 quarter 1; $0.18 per share declared; WDP annual report 1980 (PDF p.37 quarterly table: $.18 in each quarter of FY1980 and $.12 in each of FY1979; rate raised on 20.11.1979 per report 1979); month assumed
+1980-03,0.0036996,FY1980 quarter 2; $0.18 per share declared; WDP annual report 1980 (PDF p.37 quarterly table: $.18 in each quarter of FY1980 and $.12 in each of FY1979; rate raised on 20.11.1979 per report 1979); month assumed
+1980-06,0.0036996,FY1980 quarter 3; $0.18 per share declared; WDP annual report 1980 (PDF p.37 quarterly table: $.18 in each quarter of FY1980 and $.12 in each of FY1979; rate raised on 20.11.1979 per report 1979); month assumed
+1980-09,0.0036996,FY1980 quarter 4; $0.18 per share declared; WDP annual report 1980 (PDF p.37 quarterly table: $.18 in each quarter of FY1980 and $.12 in each of FY1979; rate raised on 20.11.1979 per report 1979); month assumed
+1980-12,0.0051383,FY1981 quarter 1; $0.25 per share declared; WDP annual report 1982 p.44 (quarterly table); month assumed
+1981-03,0.0051383,FY1981 quarter 2; $0.25 per share declared; WDP annual report 1982 p.44 (quarterly table); month assumed
+1981-06,0.0051383,FY1981 quarter 3; $0.25 per share declared; WDP annual report 1982 p.44 (quarterly table); month assumed
+1981-09,0.0051383,FY1981 quarter 4; $0.25 per share declared; WDP annual report 1982 p.44 (quarterly table); month assumed
+1981-12,0.0061660,FY1982 quarter 1; $0.30 per share declared; WDP annual report 1982 p.44 (quarterly table); control: Yahoo 0.006166 in 1982-03; month assumed

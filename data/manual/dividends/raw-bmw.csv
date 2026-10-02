@@ -1,0 +1,11 @@
+# Raw declared BMW ordinary-share dividends as found, unadjusted. Read 2026-10-02.
+# BMW AR 1999 = Annual Report 1999 BMW Group, https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf, table "The BMW share" (PDF page 39): "Dividend, ordinary share: 6.90 / 7.67 / 10.23 / 10.23 / 0.40"
+#   in euro, footnote "Dividend in 1999 per 1 euro par value share; in previous years per DM 50 par value share".
+financial_year,payment_ex_date,amount,currency,per_share,source
+1995,1996-05-15,6.90,EUR (= DM 13.50 at 1.95583),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de BMW St Dividenden
+1996,1997-05-16,7.67,EUR (= DM 15.00),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de
+1997,1998-05-13,10.23,EUR (= DM 20.00),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de
+1998,1999-05-19,10.23,EUR (= DM 20.00),DM 50 ordinary share,BMW AR 1999 table; AGM 18.5.1999 BMW AR 1999
+1999,2000-05-17,0.40,EUR,EUR 1 ordinary share,BMW AR 1999 (proposal) and AR 2000 (0.46 proposed for 2000); in Yahoo already
+# Secondary only, NOT used as amounts (own adjustment basis, boerse.de BMW St Dividenden, read 2026-10-02): 1982 0.100, 1983 0.117, 1984 0.131, 1985 0.150, 1986 0.153, 1987 0.160, 1988 0.160, 1989 0.160, 1990 0.162, 1991 0.161,
+#   1992 0.183, 1993 0.193, 1994 0.194, 1995 0.212, 1996 0.225, 1997 0.240, 1998 0.311, 1999 0.393 (year = ex-date year; ex dates 1.7.82, 8.7.83, 6.7.84, 12.7.85, 4.7.86, 3.7.87, 8.7.88, 7.7.89, 1.6.90, 17.5.91, 13.5.92, 14.5.93, 20.5.94, 18.5.95).

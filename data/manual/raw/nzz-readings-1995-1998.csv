@@ -1,3 +1,17 @@
+# Month-end share prices read by eye from the Neue Zuercher Zeitung (NZZ), January 1995 to February 1998. Raw quotes as printed, no adjustment, no conversion.
+# Source: 40 full issues (first issue after each month end, pure grayscale scans), kept outside git in data/manual/scans/nzz/NZZ_<issue date>.pdf. Read on 2026-10-02 from those files, none from memory.
+# Columns: series = asset id in data/src/universe.ts (roche, novartis N/I read as in nzz-readings.csv; roche is a control only); month = month the price belongs to; quote_date = trading day of the price;
+#   share_class: I = Inhaber (bearer), N = Namen (registered), GS = Genussschein, ordinary for the German and Japanese shares; price_as_printed in the listed currency (CHF, DM, JPY), fractions converted to decimals
+#   (e.g. 105 1/2 = 105.5); issue = date of the NZZ issue; page = printed page number (PDF image index + 2 up to 1996, see the notes for later changes); method = eye.
+# Table used: share table "Schweizer Aktien" (column "Schluss" at the right end, preceded by Volumen, Tages-T., Tages-H., Vortag; Jahres-H./T. at the left), Frankfurt list (column "Tagesschluss"), Tokio list (column "Tagesschluss").
+#   The date line "Kurse vom ..." above each table gives the quote date. The Swiss table prints the close; "Vortag" is the close of the previous day.
+# Second readings: every number was read in two crops, or against the "Meistgehandelte Titel" box, or the Soffex underlying, or (Frankfurt) the onvista close of data/manual/raw/*-raw.csv times the documented factor, or (Aug and Oct 1995) the Journal de Geneve print.
+#   From the May 1996 issues on, many Swiss values (UBS N, UBS I in some months, Swissair, Roche I, Novartis I, Tokio) are single table readings; the note column says so ("single table reading"). Those rows are less certain than the others.
+# Controls (details in nzz-notes-1995-1998.md): Nestle N equals Yahoo x 100 in 36 of 36 months within 0.31 percent (24 exact); Yahoo ubs.csv = UBS/SBG registered (N) line (ratio 12.08, constant from September 1996);
+#   Yahoo novartis.csv = Sandoz N / 50.00 exactly before December 1996 and = Novartis N x 0.020946 from February 1997; Frankfurt prints equal onvista x factor to the last digit in every month compared.
+# Breaks in the raw quotes (not adjusted here): Siemens 1:10 split May 1996 (838.3 -> 85.58); Daimler-Benz 10:1 split 1.7.1996 (814.5 on 28.6.1996 -> 78.37 on 31.7.1996); Sandoz and Ciba-Geigy disappear and Novartis appears in December 1996;
+#   SBG I/N renamed UBS I/N in April 1997; CS Hold became CS Group (December 1996); Swissair became SAirGroup (May 1997); Swissair GS and CS Hold I (bearer) lines come and go (see notes).
+# Left out: December 1995 Swiss shares (the issue of 30.12.1995 prints no Swiss share table), all Swiss and Frankfurt values of March 1997 (the issue of 1.4.1997 has no Swiss or Frankfurt table, Easter), IBM and Schlumberger (fractions not legible, see notes), IBJ April 1996, and the rows listed in the notes.
 series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
 nestle,1995-01,1995-01-31,N,CHF,1173,1995-02-01,33,eye,"Schweizer Aktien 'Schluss'; two crops"
 ubs,1995-01,1995-01-31,I,CHF,1012,1995-02-01,33,eye,"SBG I; two crops"
@@ -381,11 +395,11 @@ siemens,1996-11,1996-11-29,ordinary,DM,74.1,1996-11-30,39,eye,"one crop plus onv
 ibj,1996-11,1996-11-29,ordinary,JPY,2250,1996-11-30,41,eye,"Tokio 'Industrial Bk.'; one crop"
 nestle,1996-12,1996-12-31,N,CHF,1437,1997-01-03,37,eye,"Dec: issue of 3.1.1997 prints 'Kurse vom 31. Dezember' (the issue of 31.12.1996 prints 30 Dec). Table, Soffex underlying (1437) and 'Meistgehandelte Titel' box (1437); Yahoo 14.37"
 ubs,1996-12,1996-12-31,I,CHF,1173,1997-01-03,37,eye,"SBG I; table, Soffex underlying (1173) and Meistgehandelte box (1173)"
-ubs,1996-12,1996-12-31,N,CHF,235.5,1997-01-03,37,eye,"printed 235 1/2 (Vortag column 235 1/4 = 30 Dec close confirmed in the issue of 31.12.1996); one table crop at 1:1 plus neighbouring-day consistency; no second box"
+ubs,1996-12,1996-12-31,N,CHF,235.75,1997-01-03,37,eye,"UBS N; close glyph (3/4 or 1/2) has the same shape as the Vortag 235 3/4 which the issue of 31.12.1996 prints as the 30 Dec close; recorded 235.75 with this caveat (first reading 235.5)"
 sbv,1996-12,1996-12-31,N,CHF,254.5,1997-01-03,37,eye,"printed 254 1/2; table and Soffex underlying (254.5)"
 credit-suisse,1996-12,1996-12-31,N,CHF,137.5,1997-01-03,37,eye,"first month named 'CS Group N'; table, Soffex underlying (137.5) and Meistgehandelte box (137.50)"
 swissair,1996-12,1996-12-31,N,CHF,1083,1997-01-03,37,eye,"table crop plus Vortag 1078 = 30 Dec close of the issue of 31.12.1996 (consistent). The Swissair GS line (175 on 30 Dec) is no longer listed in the issue of 3.1.1997"
-novartis,1996-12,1996-12-31,I,CHF,1532,1997-01-03,37,eye,"first Novartis lines in my issues; Novartis I; one table crop (Vortag 1529); year low printed 972 (= Sandoz low); Soffex page does not list it"
+novartis,1996-12,1996-12-31,I,CHF,1532,1997-01-03,37,eye,"first Novartis lines in my issues; Novartis I; one table crop (Vortag 1529); Soffex page does not list it"
 novartis,1996-12,1996-12-31,N,CHF,1533,1997-01-03,37,eye,"Novartis N; table crop (Vortag 1530); Yahoo NOVN 1996-12 = 30.68 which is 1465 on the 0.020946 basis (4.5 percent below the print; see notes)"
 roche,1996-12,1996-12-31,I,CHF,15100,1997-01-03,37,eye,"one crop (Vortag 15300)"
 roche,1996-12,1996-12-31,GS,CHF,10415,1997-01-03,37,eye,"table, Soffex underlying and Meistgehandelte box (10415)"
@@ -541,3 +555,48 @@ bmw,1997-11,1997-11-28,ordinary,DM,1317,1997-11-29,39,eye,"Frankfurt; one crop p
 mercedes,1997-11,1997-11-28,ordinary,DM,124.9,1997-11-29,39,eye,"one crop plus onvista 53.0172 x 2.35586 = 124.90"
 siemens,1997-11,1997-11-28,ordinary,DM,103.55,1997-11-29,39,eye,"one crop; onvista 34.2449 x 3.02354 = 103.54"
 ibj,1997-11,1997-11-28,ordinary,JPY,1140,1997-11-29,34,eye,"Tokio list; one crop (header 'Kurse vom 28. November' seen in page strip)"
+nestle,1997-12,1997-12-31,N,CHF,2189,1998-01-03,37,eye,"Dec: issue of 3.1.1998 prints 'Kurse vom 31. Dezember' (page 37 = image 36); 2 Jan was a holiday; table and box (2189); Yahoo 21.89. (The issue of 31.12.1997 prints 30 Dec; not read for the Swiss table)"
+ubs,1997-12,1997-12-31,I,CHF,2112,1998-01-03,37,eye,"table and box (UBS 2112)"
+ubs,1997-12,1997-12-31,N,CHF,421,1998-01-03,37,eye,"single table reading (UBS N, nominal 20; year range restated 450/228)"
+sbv,1997-12,1997-12-31,N,CHF,454,1998-01-03,37,eye,"table and box (454); jump from 409.5 (Nov) after the UBS-SBV merger announcement of 8.12.1997"
+credit-suisse,1997-12,1997-12-31,N,CHF,226,1998-01-03,37,eye,"table and box (226)"
+swissair,1997-12,1997-12-31,N,CHF,2000,1998-01-03,37,eye,"SAirGroup N; single table reading"
+swissair,1997-12,1997-12-31,GS,CHF,337,1998-01-03,37,eye,"SAirGroup GS; single table reading"
+novartis,1997-12,1997-12-31,I,CHF,2375,1998-01-03,37,eye,"table"
+novartis,1997-12,1997-12-31,N,CHF,2370,1998-01-03,37,eye,"table and box (2370); Yahoo 49.64 = 2370 on the 0.020946 basis"
+roche,1997-12,1997-12-31,I,CHF,22500,1998-01-03,37,eye,"single table reading"
+roche,1997-12,1997-12-31,GS,CHF,14505,1998-01-03,37,eye,"single table reading"
+bmw,1997-12,1997-12-30,ordinary,DM,1345,1997-12-31,39,eye,"Frankfurt list of the issue of 31.12.1997, header 'Kurse vom 30. Dezember' (30 Dec last Frankfurt day of 1997; the issue of 3.1.1998 prints 'Kurse vom 2. Januar'); one crop; onvista raw has no Dec 1997 row"
+mercedes,1997-12,1997-12-30,ordinary,DM,126.2,1997-12-31,39,eye,"Daimler-Benz; one crop; no onvista Dec 1997 row"
+siemens,1997-12,1997-12-30,ordinary,DM,106.5,1997-12-31,39,eye,"one crop; no onvista Dec 1997 row"
+ibj,1997-12,1997-12-30,ordinary,JPY,930,1997-12-31,34,eye,"Tokio list of the issue of 31.12.1997 headed 'Kurse vom 30. Dezember' (last Tokyo day of 1997); one crop"
+nestle,1998-01,1998-01-30,N,CHF,2355,1998-01-31,35,eye,"printed page 35 (image 34); header 'Kurse vom 30. Januar'; table and box (2355); Yahoo 23.55; year high/low restated to the 1998 year (2358/2095 first printed; 2195/1419 was the 1997 range)"
+ubs,1998-01,1998-01-30,I,CHF,2101,1998-01-31,35,eye,"table; box cut off in my crop"
+ubs,1998-01,1998-01-30,N,CHF,419.5,1998-01-31,35,eye,"printed 419 1/2; single table reading"
+sbv,1998-01,1998-01-30,N,CHF,455,1998-01-31,35,eye,"table and box? table (455)"
+credit-suisse,1998-01,1998-01-30,N,CHF,235.25,1998-01-31,35,eye,"printed 235 1/4 on a wrapped row (volume 108007 on the first line, close on the second); single reading"
+swissair,1998-01,1998-01-30,N,CHF,1900,1998-01-31,35,eye,"SAirGroup N; single table reading"
+swissair,1998-01,1998-01-30,GS,CHF,315,1998-01-31,35,eye,"SAirGroup GS; single table reading"
+novartis,1998-01,1998-01-30,I,CHF,2535,1998-01-31,35,eye,"table"
+novartis,1998-01,1998-01-30,N,CHF,2530,1998-01-31,35,eye,"table; Yahoo 52.99 = 2530 on the 0.020946 basis"
+roche,1998-01,1998-01-30,I,CHF,23050,1998-01-31,35,eye,"single table reading"
+roche,1998-01,1998-01-30,GS,CHF,15340,1998-01-31,35,eye,"table and box (15340)"
+bmw,1998-01,1998-01-30,ordinary,DM,1460,1998-01-31,39,eye,"Frankfurt 'Kurse vom 30. Januar'; one crop plus onvista 28.711 x 50.85 = 1460.0"
+mercedes,1998-01,1998-01-30,ordinary,DM,128.2,1998-01-31,39,eye,"one crop plus onvista 54.418 x 2.35586 = 128.20"
+siemens,1998-01,1998-01-30,ordinary,DM,111.75,1998-01-31,39,eye,"one crop plus onvista 36.9603 x 3.02354 = 111.75"
+ibj,1998-01,1998-01-30,ordinary,JPY,1080,1998-01-31,34,eye,"Tokio 'Kurse vom 30. Januar'; one crop"
+nestle,1998-02,1998-02-27,N,CHF,2570,1998-02-28,35,eye,"header 'Kurse vom 27. Februar'; table and box (2570); Yahoo 25.70"
+ubs,1998-02,1998-02-27,I,CHF,2286,1998-02-28,35,eye,"single table reading"
+ubs,1998-02,1998-02-27,N,CHF,455.75,1998-02-28,35,eye,"printed 455.75 (decimal notation now used in the table); single table reading"
+sbv,1998-02,1998-02-27,N,CHF,491,1998-02-28,35,eye,"table and box (491)"
+credit-suisse,1998-02,1998-02-27,N,CHF,265,1998-02-28,35,eye,"table (close 265; Vortag 267.50, H 270, T 265); box not read"
+swissair,1998-02,1998-02-27,N,CHF,1960,1998-02-28,35,eye,"SAirGroup N; single table reading"
+swissair,1998-02,1998-02-27,GS,CHF,350,1998-02-28,35,eye,"SAirGroup GS; single table reading"
+novartis,1998-02,1998-02-27,I,CHF,2676,1998-02-28,35,eye,"table"
+novartis,1998-02,1998-02-27,N,CHF,2677,1998-02-28,35,eye,"table; Yahoo 56.07 = 2677 on the 0.020946 basis"
+roche,1998-02,1998-02-27,I,CHF,26000,1998-02-28,35,eye,"table; volume glued to close in print ('32126000' = volume 321, close 26000)"
+roche,1998-02,1998-02-27,GS,CHF,17180,1998-02-28,35,eye,"table; volume glued ('2570317180' = volume 25703, close 17180)"
+bmw,1998-02,1998-02-27,ordinary,DM,1830,1998-02-28,39,eye,"Frankfurt 'Kurse vom 27. Februar'; one crop plus onvista 35.9871 x 50.85 = 1830.0"
+mercedes,1998-02,1998-02-27,ordinary,DM,148.6,1998-02-28,39,eye,"one crop plus onvista 63.0773 x 2.35586 = 148.60"
+siemens,1998-02,1998-02-27,ordinary,DM,111.65,1998-02-28,39,eye,"one crop plus onvista 36.9272 x 3.02354 = 111.65"
+ibj,1998-02,1998-02-27,ordinary,JPY,1040,1998-02-28,34,eye,"Tokio 'Kurse vom 27. Februar'; one crop (name in this issue's second column block: 'Industrial Bk.' 1030 1050 1030 1040)"

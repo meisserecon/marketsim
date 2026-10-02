@@ -1,0 +1,17 @@
+# UBS distributions per share in CHF for the years Yahoo has none (Yahoo starts with April 2007), on the share basis of Yahoo UBSG.SW.
+# Source: ubs.com investor relations, dividend history, read 2026-10-02. The page states that amounts are not adjusted for later share splits,
+#   so each is divided by the printed-price-to-Yahoo ratio of its period, established from NZZ month-end quotes: 12.079 until April 2000,
+#   6.0395 from May 2000 (2-for-1 split), 2.000 from July 2001 (3-for-1 split) until the 2-for-1 split of July 2006. Control: the page gives
+#   CHF 2.20 for 2006 (ex 19.4.2007) and Yahoo has 2.20 in April 2007.
+# Left out: the par value repayment of CHF 1.60 (ex 16.7.2001). The ratio steps from 6.0395 to 2.000, not 2.0132, at that date, which shows that
+#   Yahoo folded this repayment into its price history; adding it as income would count it twice.
+month,dividend,note
+1999-04,0.827883,dividend for the 15 months to 31.12.1998, CHF 10.00 per share, ex 27.4.1999; divided by 12.079
+2000-04,0.910671,dividend for 1999, CHF 11.00, ex 26.4.2000; divided by 12.079
+2000-10,0.745095,dividend for the first nine months of 2000, CHF 4.50, ex 3.10.2000; divided by 6.0395
+2002-07,1,par value repayment for 2001, CHF 2.00, ex 8.7.2002; divided by 2
+2003-04,1,dividend for 2002, CHF 2.00, ex 17.4.2003; divided by 2
+2004-04,1.3,dividend for 2003, CHF 2.60, ex 16.4.2004; divided by 2
+2005-04,1.5,dividend for 2004, CHF 3.00, ex 22.4.2005; divided by 2
+2006-04,1.6,dividend for 2005, CHF 3.20, ex 20.4.2006; divided by 2
+2006-07,0.3,par value repayment for 2005, CHF 0.60, ex 10.7.2006 (before the 2-for-1 split of the same day); divided by 2

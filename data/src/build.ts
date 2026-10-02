@@ -146,6 +146,21 @@ for (const s of UNIVERSE) {
     if (r.maxdiv !== undefined) r.maxdiv = fix.dividend;
     sources.push(`dividend ${fix.month} corrected to ${fix.dividend}`);
   }
+  // Dividends the price source lacks, from data/manual/dividends/<id>.csv (same currency and share basis as the series).
+  const divFile = path.join(DATA_DIR, "manual", "dividends", `${s.id}.csv`);
+  if (fs.existsSync(divFile)) {
+    let added = 0;
+    for (const d of readCsv(divFile)) {
+      // A month missing from the price data (a gap) gets its dividend in the next month that has a price.
+      const r = local.find((x) => x.month >= d.month);
+      if (!r) continue; // before the series starts or after it ends
+      if (d.month < local[0].month) continue;
+      if (r.month === d.month && r.income > 0) throw new Error(`${s.id}: ${d.month} already has a dividend of ${r.income} from the price source; remove it from manual/dividends/${s.id}.csv`);
+      r.income += Number(d.dividend);
+      added++;
+    }
+    if (added) sources.push(`${added} dividends from manual/dividends/${s.id}.csv`);
+  }
   // Fold spin-offs that the source booked as a dividend into the price history (oldest first,
   // so each later event sees amounts already rescaled by the earlier ones).
   const folded: string[] = [];

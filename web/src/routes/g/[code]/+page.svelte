@@ -19,6 +19,8 @@
   let fatal = $state('');
   // A personal link (#key=...) wins over a token the browser already holds.
   const linkToken = takeFragmentToken();
+  /** The seat this browser held before the link was opened; restored if the link turns out to be wrong. */
+  let seatBeforeLink = linkToken ? getToken('player', code) : undefined;
   if (linkToken) setToken('player', code, linkToken);
   let token = $state(getToken('player', code));
   let linkRejected = $state(false);
@@ -112,6 +114,13 @@
       if (mine !== generation) return;
       if (isApiFailure(e) && e.code === 'unauthorized') {
         if (token === linkToken) linkRejected = true;
+        if (token === linkToken && seatBeforeLink && seatBeforeLink !== linkToken) {
+          // A wrong link must not cost the player the seat this browser already had.
+          token = seatBeforeLink;
+          seatBeforeLink = undefined;
+          setToken('player', code, token);
+          return refresh();
+        }
         clearToken('player', code);
         token = undefined;
         phase = 'join';

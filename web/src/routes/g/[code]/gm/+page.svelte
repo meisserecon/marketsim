@@ -11,6 +11,8 @@
   const code = (page.params.code ?? '').toUpperCase();
   // A personal link (#key=...) wins over a key the browser already holds.
   const linkToken = takeFragmentToken();
+  /** The key this browser held before the link was opened; restored if the link turns out to be wrong. */
+  let keyBeforeLink = linkToken ? getToken('gm', code) : undefined;
   if (linkToken) setToken('gm', code, linkToken);
   let token = $state(getToken('gm', code));
   let keyRejected = $state(false);
@@ -49,9 +51,17 @@
           .catch((e) => {
             // A key the server does not know (e.g. from a link for another game): drop it.
             if (isApiFailure(e) && e.code === 'unauthorized') {
+              keyRejected = true;
+              if (token === linkToken && keyBeforeLink && keyBeforeLink !== linkToken) {
+                // A wrong link must not cost this browser the key it already had.
+                token = keyBeforeLink;
+                keyBeforeLink = undefined;
+                setToken('gm', code, token);
+                void refresh();
+                return;
+              }
               clearToken('gm', code);
               token = undefined;
-              keyRejected = true;
             }
           });
       }

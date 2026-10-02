@@ -71,7 +71,7 @@ export const UNIVERSE: StockDef[] = [
   { id: "wmt", name: "Wal-Mart", renames: [{ from: "2018-02", name: "Walmart" }], source: "yahoo", ticker: "WMT", currency: "USD" },
   { id: "ba", name: "Boeing", source: "yahoo", ticker: "BA", currency: "USD" },
   { id: "mo", name: "Philip Morris", renames: [{ from: "2003-01", name: "Altria" }], source: "yahoo", ticker: "MO", currency: "USD", spinoffs: [{ month: "2007-04", name: "Kraft Foods" }, { month: "2008-03", name: "Philip Morris International" }] },
-  { id: "c", name: "Citicorp", renames: [{ from: "1998-10", name: "Citigroup" }], source: "yahoo", ticker: "C", currency: "USD", note: "Verify which predecessor Yahoo's pre-1998 history follows: Citigroup is legally the renamed Travelers Group, so the early prices may be Travelers/Primerica rather than Citicorp.", spinoffs: [{ month: "2002-08", name: "Travelers Property Casualty" }] },
+  { id: "c", name: "Citigroup", source: "yahoo", ticker: "C", currency: "USD", start: "1998-10", note: "Formed in October 1998 by the merger of Citicorp and Travelers Group. Yahoo's earlier history of this ticker follows Travelers and its predecessors, not Citicorp (Citicorp paid no dividend in 1992-93 while this series pays one every quarter, matching Travelers' filings), so it is cut.", spinoffs: [{ month: "2002-08", name: "Travelers Property Casualty" }] },
   { id: "mcd", name: "McDonald's", source: "yahoo", ticker: "MCD", currency: "USD" },
   { id: "dis", name: "Disney", source: "yahoo", ticker: "DIS", currency: "USD" },
 

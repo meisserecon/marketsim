@@ -19,3 +19,11 @@ Output: `nzz-readings-gaps.csv`. Read by eye on 2026-10-02 from the replacement 
 - SKA line is "Inh. inkl. PS" from April 1982 (class I includes the PS).
 - Pass 1 and pass 2 (separate crops of the same lines, different window offsets, read without looking at pass 1): 11 of 11 agree. Compared with an earlier scratch reading by a previous (interrupted) attempt: identical.
 - IBJ: not in the Tokyo list (banks listed: Bank of Tokyo, Fuji Bank).
+
+## 1983-12
+
+- Issues: 1983-12-30 (prints 29 Dec; p17 Swiss, p20 Frankfurt), 1983-12-31 (prints 30 Dec; the first-downloaded issue: NY p21, Frankfurt p22, but no Swiss share table anywhere on pages 13-19), 1984-01-03 (Monday 2 Jan: no stock tables in the issue), 1984-01-04 (3 Jan tables: Swiss p17, Frankfurt p20).
+- Swiss: last trading day 30 Dec 1983 (Friday, printed nowhere as a table). The only print is the Vortag bracket in the 3 Jan table ('Kurse vom 3. Januar', first trading day of 1984; Tendenzen text: "startete ... ins neue Jahr"; Zurich closed 2 Jan). Brackets read in two separate crops. They are the previous close as printed; no running text of 30 Dec exists to compare with.
+- Frankfurt: the 30 Dec table (31 Dec issue) is headed with 'geschlossen' in the Schluss column and its Vortag column merely repeats the Vortag column of the 29 Dec table (BMW 427, Daimler 651, BBC 227.80 are the 28 Dec closes; the 29 Dec Schluss values are 426.50, 650.50, 223.70). The earlier file took 427/651 as the 29 Dec close; the correct 29 Dec closes are BMW 426.50, Daimler-Benz 650.50 (pass 1 and pass 2 both from the 30 Dec issue; the second place, the Vortag of the 3 Jan table, shows 2 Jan values because Frankfurt traded on 2 Jan: FAZ Ende 1983 351.83 = 29 Dec Schluss). Differences to the earlier file: BMW -0.5 DM, Daimler -0.5 DM.
+- IBM: 30 Dec 122 3/4, equal to the earlier file. IBJ not in the Tokyo list (Tokyo also closed 29-30 Dec).
+- Pass agreement: 11 of 11.

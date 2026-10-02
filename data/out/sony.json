@@ -33,7 +33,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "Yahoo Finance SONY (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
+ "source": "Yahoo Finance SONY (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 6 dividends from manual/dividends/sony.csv",
  "rows": [
   {
    "month": "1975-01",
@@ -353,7 +353,7 @@
   {
    "month": "1980-04",
    "price": 0.75,
-   "income": 0
+   "income": 0.005697
   },
   {
    "month": "1980-05",
@@ -383,7 +383,7 @@
   {
    "month": "1980-10",
    "price": 1.3523,
-   "income": 0
+   "income": 0.006461
   },
   {
    "month": "1980-11",
@@ -413,7 +413,7 @@
   {
    "month": "1981-04",
    "price": 1.8295,
-   "income": 0
+   "income": 0.007373
   },
   {
    "month": "1981-05",
@@ -443,7 +443,7 @@
   {
    "month": "1981-10",
    "price": 1.6818,
-   "income": 0
+   "income": 0.006834
   },
   {
    "month": "1981-11",
@@ -473,7 +473,7 @@
   {
    "month": "1982-04",
    "price": 1.2841,
-   "income": 0
+   "income": 0.00848
   },
   {
    "month": "1982-05",
@@ -503,7 +503,7 @@
   {
    "month": "1982-10",
    "price": 1.2273,
-   "income": 0
+   "income": 0.007218
   },
   {
    "month": "1982-11",

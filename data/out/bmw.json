@@ -20,6 +20,20 @@
    "about": "A Munich maker of sporty, expensive cars and of motorcycles. It has sold Rover and Land Rover and kept the Mini."
   }
  ],
+ "logos": [
+  {
+   "from": "1963-01",
+   "file": "bmw/1963.svg"
+  },
+  {
+   "from": "1997-01",
+   "file": "bmw/1997.svg"
+  },
+  {
+   "from": "2020-03",
+   "file": "bmw/2020.png"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/bmw.csv until 1996-10; Yahoo Finance BMW.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 4 dividends from manual/dividends/bmw.csv",

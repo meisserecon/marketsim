@@ -10,6 +10,16 @@
    "about": "The largest hamburger restaurant chain. Most restaurants are run by franchisees who pay rent and fees; and it keeps expanding outside the United States."
   }
  ],
+ "logos": [
+  {
+   "from": "1968-11",
+   "file": "mcd/1968.png"
+  },
+  {
+   "from": "2006-09",
+   "file": "mcd/2006.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MCD (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

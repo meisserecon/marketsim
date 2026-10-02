@@ -15,6 +15,16 @@
    "about": "A Houston company that buys and sells natural gas and electricity for delivery months and years ahead, and owns pipelines and power plants."
   }
  ],
+ "logos": [
+  {
+   "from": "1986-04",
+   "file": "enron/1986.svg"
+  },
+  {
+   "from": "1997-01",
+   "file": "enron/1997.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/enron.csv; 10 dividends from manual/dividends/enron.csv",

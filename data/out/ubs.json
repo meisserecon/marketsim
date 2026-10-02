@@ -31,6 +31,16 @@
    "about": "The largest Swiss bank and the largest manager of private wealth in the world. It has taken over its rival Credit Suisse."
   }
  ],
+ "logos": [
+  {
+   "from": "1975-01",
+   "file": "ubs/1975.png"
+  },
+  {
+   "from": "1998-06",
+   "file": "ubs/1998.png"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/ubs.csv until 1998-05; Yahoo Finance UBSG.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 2013-05 corrected to 0.15; 28 dividends from manual/dividends/ubs.csv",

@@ -25,6 +25,24 @@
    "about": "The largest internet retailer, with a membership programme for fast delivery, and the largest provider of cloud computing to other companies."
   }
  ],
+ "logos": [
+  {
+   "from": "1995-01",
+   "file": "amzn/1995.png"
+  },
+  {
+   "from": "2000-01",
+   "file": "amzn/2000.svg"
+  },
+  {
+   "from": "2012-01",
+   "file": "amzn/2012.svg"
+  },
+  {
+   "from": "2024-11",
+   "file": "amzn/2024.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance AMZN (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

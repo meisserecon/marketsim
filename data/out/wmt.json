@@ -26,6 +26,28 @@
    "about": "The largest retailer in the world, with thousands of stores in the United States and abroad and a growing online shop."
   }
  ],
+ "logos": [
+  {
+   "from": "1975-01",
+   "file": "wmt/1975.svg"
+  },
+  {
+   "from": "1981-01",
+   "file": "wmt/1981.svg"
+  },
+  {
+   "from": "1992-06",
+   "file": "wmt/1992.svg"
+  },
+  {
+   "from": "2008-07",
+   "file": "wmt/2008.svg"
+  },
+  {
+   "from": "2025-01",
+   "file": "wmt/2025.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance WMT (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

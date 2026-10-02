@@ -25,6 +25,20 @@
    "about": "An entertainment group with film studios, amusement parks, television networks and its own streaming service, Disney+."
   }
  ],
+ "logos": [
+  {
+   "from": "1972-01",
+   "file": "dis/1972.png"
+  },
+  {
+   "from": "1986-02",
+   "file": "dis/1986.svg"
+  },
+  {
+   "from": "2012-01",
+   "file": "dis/2012.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance DIS (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 28 dividends from manual/dividends/dis.csv",

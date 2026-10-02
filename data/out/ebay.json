@@ -20,6 +20,20 @@
    "about": "Runs an online marketplace for goods sold by individuals and small merchants. The payment service PayPal has been separated into a company of its own."
   }
  ],
+ "logos": [
+  {
+   "from": "1997-01",
+   "file": "ebay/1997.png"
+  },
+  {
+   "from": "1999-01",
+   "file": "ebay/1999.svg"
+  },
+  {
+   "from": "2012-10",
+   "file": "ebay/2012.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance EBAY (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

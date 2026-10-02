@@ -20,6 +20,16 @@
    "about": "A German engineering company focused on factory automation, building technology and trains. It holds a majority of the medical technology company Siemens Healthineers; the energy business has been separated into a company of its own."
   }
  ],
+ "logos": [
+  {
+   "from": "1973-01",
+   "file": "siemens/1973.svg"
+  },
+  {
+   "from": "1991-01",
+   "file": "siemens/1991.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/siemens.csv",

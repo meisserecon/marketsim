@@ -20,6 +20,12 @@
    "about": "Builds electric cars, now including a cheaper model for the mass market, as well as batteries and solar panels."
   }
  ],
+ "logos": [
+  {
+   "from": "2004-01",
+   "file": "tsla/2004.png"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance TSLA (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

@@ -44,6 +44,28 @@
    "about": "Builds Mercedes-Benz cars and vans. The truck business has been separated into a company of its own."
   }
  ],
+ "logos": [
+  {
+   "from": "1969-01",
+   "file": "mercedes/1969.png"
+  },
+  {
+   "from": "1989-01",
+   "file": "mercedes/1989.png"
+  },
+  {
+   "from": "1998-11",
+   "file": "mercedes/1998.png"
+  },
+  {
+   "from": "2007-10",
+   "file": "mercedes/2007.svg"
+  },
+  {
+   "from": "2022-02",
+   "file": "mercedes/2022.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/mercedes.csv until 1996-09; Yahoo Finance MBG.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 18 dividends from manual/dividends/mercedes.csv",

@@ -10,6 +10,20 @@
    "about": "Works for the oil companies. It lowers measuring instruments into wells to tell them where the oil and gas are, and provides drilling technology and crews in oilfields around the world."
   }
  ],
+ "logos": [
+  {
+   "from": "1975-01",
+   "file": "slb/1926.png"
+  },
+  {
+   "from": "1998-01",
+   "file": "slb/1998.svg"
+  },
+  {
+   "from": "2022-10",
+   "file": "slb/2022.svg"
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/slb.csv until 1981-11; Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/slb.csv; spin-offs folded into price: Transocean Sedco Forex 1999-12 (factor 0.892)",

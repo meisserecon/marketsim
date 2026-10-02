@@ -1,7 +1,7 @@
 /** Sanity checks on data/out: no gaps, no NaN, and a printed summary so a human can eyeball each series. */
 import fs from "node:fs";
 import path from "node:path";
-import { OUT_DIR } from "./lib/paths.js";
+import { OUT_DIR, DATA_DIR } from "./lib/paths.js";
 import { monthRange } from "./lib/months.js";
 import type { AssetSeries } from "./lib/asset.js";
 
@@ -36,6 +36,13 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).so
       if (ps[0].from > rows[0].month) fail(`first profile starts ${ps[0].from}, after the first row ${rows[0].month}`);
       for (let i = 1; i < ps.length; i++) if (ps[i].from <= ps[i - 1].from) fail(`profile versions out of order at ${ps[i].from}`);
     }
+  }
+
+  // Logos are optional, but a listed one must exist and the list must be in order.
+  const logos = s.logos ?? [];
+  for (let i = 0; i < logos.length; i++) {
+    if (i > 0 && logos[i].from <= logos[i - 1].from) fail(`logos out of order at ${logos[i].from}`);
+    if (!fs.existsSync(path.join(DATA_DIR, "..", "web", "static", "logos", logos[i].file))) fail(`logo file missing: ${logos[i].file}`);
   }
 
   let best = { m: "", r: 0 };

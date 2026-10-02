@@ -36,7 +36,8 @@ import {
   type PortfolioView,
   type Trade,
   STARTING_CASH,
-  profileAt
+  profileAt,
+  logoAt
 } from '@marketsim/shared';
 import { ApiFailure, type Api } from './types';
 
@@ -298,7 +299,8 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
           kind: a.kind,
           ...(() => {
             const p = profileAt(a, g.currentMonth);
-            return p ? { profile: { tagline: p.tagline, about: p.about, country: a.country, sector: a.sector, logo: p.logo, image: p.image, imageCaption: p.imageCaption } } : {};
+            const logo = logoAt(a, g.currentMonth);
+            return p ? { profile: { tagline: p.tagline, about: p.about, country: a.country, sector: a.sector, logo: logo ? `/logos/${logo}` : undefined, image: p.image, imageCaption: p.imageCaption } } : {};
           })(),
           rows: a.rows
             .filter((r) => r.month <= g.currentMonth)

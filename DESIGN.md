@@ -154,6 +154,12 @@ texts are in `data/src/profiles.ts`. Like names, profiles come in dated versions
 reveals the future: Apple in 1981 is the maker of the Apple II, and the iPhone appears in its
 profile only from July 2007. A version may only say what was true and known when it starts and
 must stay true until the next one. The server sends the version for the game's current month.
-Each version can also carry a logo and a picture; the client shows them when present.
+Each version can also carry a picture; the client shows it when present.
+
+Logos have their own timeline, because a company redraws its logo on a different schedule than
+its business changes. The files are in `web/static/logos/<id>/`, and `data/logos.json` lists
+for each company the logos with the month each came into use and its source. The build copies
+the list into the asset, and the server sends the logo of the game's current month, so players
+watch the styles evolve and never see a logo before its time.
 
 The market lists companies first, then gold, then bonds.

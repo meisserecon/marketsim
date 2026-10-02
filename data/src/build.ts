@@ -18,6 +18,11 @@ const round = (x: number, d = 4) => Math.round(x * 10 ** d) / 10 ** d;
 fs.rmSync(OUT_DIR, { recursive: true, force: true });
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
+/** Logos over time, collected into web/static/logos with data/logos.json as the manifest. */
+const LOGOS_FILE = path.join(DATA_DIR, "logos.json");
+const LOGOS: Record<string, { from: string; file: string }[]> = fs.existsSync(LOGOS_FILE) ? JSON.parse(fs.readFileSync(LOGOS_FILE, "utf8")) : {};
+const logoFields = (id: string) => (LOGOS[id]?.length ? { logos: LOGOS[id].map(({ from, file }) => ({ from, file })) } : {});
+
 const profileFields = (p: CompanyProfile | undefined) => (p ? { ...(p.country ? { country: p.country } : {}), sector: p.sector, profiles: p.versions } : {});
 
 function write(series: AssetSeries) {
@@ -218,6 +223,7 @@ for (const s of UNIVERSE) {
     name: s.name,
     renames: s.renames,
     ...profileFields(PROFILES[s.id]),
+    ...logoFields(s.id),
     kind: "stock",
     currency: "USD",
     source,

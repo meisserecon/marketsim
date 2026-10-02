@@ -44,8 +44,7 @@ export interface AssetProfile {
   tagline: string;
   /** What the company sells and where it is from, in a sentence or two. */
   about: string;
-  /** Optional pictures, as paths the web client can load. */
-  logo?: string;
+  /** Optional picture of what the company sells, as a path the web client can load. */
   image?: string;
   imageCaption?: string;
 }
@@ -66,6 +65,8 @@ export interface AssetSeries {
   sector?: string;
   /** Profile versions in ascending order of `from`. Use profileAt(). */
   profiles?: AssetProfile[];
+  /** Logos over time in ascending order of `from`; `file` is relative to the web client's /logos/. Use logoAt(). */
+  logos?: { from: string; file: string }[];
   /** For bonds: the day the bond repays 100 per unit, "YYYY-MM-DD". Known from the start, so it may be shown. */
   maturity?: string;
   /** Reveal to players only once the game has moved past end.month. */
@@ -84,5 +85,12 @@ export function nameAt(asset: Pick<AssetSeries, "name" | "renames">, month: stri
 export function profileAt(asset: Pick<AssetSeries, "profiles">, month: string): AssetProfile | undefined {
   let found: AssetProfile | undefined;
   for (const p of asset.profiles ?? []) if (p.from <= month) found = p;
+  return found;
+}
+
+/** The logo in use in the given month: the last one introduced by then. */
+export function logoAt(asset: Pick<AssetSeries, "logos">, month: string): string | undefined {
+  let found: string | undefined;
+  for (const l of asset.logos ?? []) if (l.from <= month) found = l.file;
   return found;
 }

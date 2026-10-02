@@ -20,7 +20,6 @@
 
   let history = $state<AssetHistory | undefined>(undefined);
   let loadError = $state('');
-  let log = $state(false);
   let incomeMode = $state<'monthly' | 'year'>('monthly');
 
   // Reload when another asset is opened or the month advances.
@@ -57,7 +56,6 @@
     asset.kind === 'bond' ? rows.filter((r) => r.extra?.yield !== undefined).map((r) => ({ month: r.month, value: r.extra!.yield })) : []
   );
   const paysIncome = $derived(rows.some((r) => r.income > 0));
-  const spansDecades = $derived(rows.length > 60);
 
   const m1 = $derived(change(asset.price, asset.pricePrev));
   const m12 = $derived(change(asset.price, asset.priceYearAgo));
@@ -116,18 +114,11 @@
   <section>
     <div class="section-head">
       <h3>Price <span class="sub">USD per unit, {rows.length ? `${monthShort(rows[0].month)} to ${monthShort(month)}` : ''}</span></h3>
-      <div class="segmented" role="group" aria-label="Price scale">
-        <button aria-pressed={!log} onclick={() => (log = false)}>Linear</button>
-        <button aria-pressed={log} onclick={() => (log = true)} title="Equal percentage moves look equally tall. Better for long histories.">Log</button>
-      </div>
     </div>
     {#if rows.length}
-      <Chart points={pricePoints} {log} height={190} label="Price history of {asset.name}" formatValue={(v) => `${price(v)}`} formatTick={priceTick} />
+      <Chart points={pricePoints} height={190} label="Price history of {asset.name}" formatValue={(v) => `${price(v)}`} formatTick={priceTick} />
     {:else}
       <p class="sub muted loading">{loadError ? '' : 'Loading history…'}</p>
-    {/if}
-    {#if spansDecades && !log}
-      <p class="sub muted tip">Long history: try the log scale, where a doubling looks the same in any decade.</p>
     {/if}
   </section>
 

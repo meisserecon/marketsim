@@ -7,7 +7,6 @@
   import { LEDGER_LABEL, errorMessage, monthName, pct, usd } from '$lib/format';
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
-  import IncomeCard from '$lib/components/IncomeCard.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
@@ -251,10 +250,12 @@
         <dt>Cash</dt>
         <dd>{usd(portfolio.cash, { cents: false })}</dd>
       </div>
-      <div class="income">
-        <dt>Income this month</dt>
-        <dd>{usd(incomeThisMonth, { cents: true })}</dd>
-      </div>
+      {#if incomeThisMonth > 0}
+        <div class="income">
+          <dt>Income this month</dt>
+          <dd>{usd(incomeThisMonth, { cents: true })}</dd>
+        </div>
+      {/if}
     </dl>
   </header>
 
@@ -282,14 +283,12 @@
             Your portfolio is worth <strong>{usd(summary.totalValue, { cents: false })}</strong>{#if summary.change !== undefined},
               <span class={summary.change < 0 ? 'down' : 'up'}>{pct(summary.change, { sign: true, digits: 2 })}</span> on last month{/if}.
           </li>
-          <li class="income-line">
-            {#if summary.incomeTotal > 0}
+          {#if summary.incomeTotal > 0}
+            <li class="income-line">
               You received <strong>{usd(summary.incomeTotal, { cents: true })}</strong> of income in cash:
               {#each summary.income as e, i (e.assetId)}{i > 0 ? ', ' : ' '}{(e.assetName ?? nameOf(e.assetId))} {usd(e.cash, { cents: true })}{/each}.
-            {:else}
-              You received no income this month.
-            {/if}
-          </li>
+            </li>
+          {/if}
           {#each summary.events as e, i (i)}
             <li class="event">
               <strong>{LEDGER_LABEL[e.kind]}: {(e.assetName ?? nameOf(e.assetId))}.</strong>
@@ -306,6 +305,10 @@
         </ul>
       </section>
     {/if}
+  </div>
+
+  <div class="portfolio-wrap">
+    <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} />
   </div>
 
   <main class="layout" class:has-detail={!!selected}>
@@ -338,8 +341,6 @@
           />
         </div>
       {/if}
-      <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} />
-      <IncomeCard {portfolio} {nameOf} />
       {#if board}
         <section class="card">
           <div class="card-head">
@@ -463,6 +464,11 @@
     display: block;
   }
 
+  .portfolio-wrap {
+    padding: 14px 20px 0;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
   .layout {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(380px, 1fr);

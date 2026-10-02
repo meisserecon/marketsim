@@ -21,7 +21,7 @@
   const GROUPS: { kind: AssetKind; title: string; hint: string }[] = [
     { kind: 'stock', title: 'Companies', hint: 'Shares of companies. Dividends are paid into your cash.' },
     { kind: 'gold', title: 'Gold', hint: 'Pays no income.' },
-    { kind: 'bond', title: 'Bonds', hint: 'US Treasuries. Each repays 100 in January of its year and pays nothing before; the price moves against interest rates.' }
+    { kind: 'bond', title: 'Bonds', hint: 'Government promise to pay you 100$ in the future.' }
   ];
 
   const COLUMNS: { key: SortKey; label: string; title: string }[] = [

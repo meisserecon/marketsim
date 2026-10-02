@@ -41,7 +41,10 @@
     </span>
   </div>
   <div class="card-body">
-    <table class="data">
+    <h3>Portfolio value <span class="sub">at each month end</span></h3>
+    <Chart points={curve} height={200} label="Total portfolio value over time" formatValue={(v) => usd(v)} formatTick={usdCompact} />
+
+    <table class="data holdings">
       <thead>
         <tr><th>Holding</th><th class="num">Value</th><th class="num weight-col">Weight</th></tr>
       </thead>
@@ -83,8 +86,6 @@
       <p class="sub hint">All your money is in cash. Pick an asset from the market to invest.</p>
     {/if}
 
-    <h3>Portfolio value <span class="sub">at each month end</span></h3>
-    <Chart points={curve} height={170} label="Total portfolio value over time" formatValue={(v) => usd(v)} formatTick={usdCompact} />
   </div>
 </section>
 
@@ -133,6 +134,9 @@
   .weight-col {
     width: 42%;
   }
+  .holdings {
+    margin-top: 16px;
+  }
   .bar {
     display: inline-block;
     width: calc(100% - 58px);
@@ -172,7 +176,7 @@
   h3 {
     font-size: 0.9rem;
     font-weight: 650;
-    margin: 18px 0 6px;
+    margin: 0 0 6px;
   }
   h3 .sub {
     font-weight: 400;

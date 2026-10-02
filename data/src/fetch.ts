@@ -98,7 +98,8 @@ async function fetchYahooMonthly(ticker: string, file: string) {
     maxDiv.set(m, Math.max(maxDiv.get(m) ?? 0, d.amount * scale));
   }
 
-  const months = [...close.keys()].sort();
+  // The running month has no month-end close yet.
+  const months = [...close.keys()].sort().filter((m) => m < monthOf(Date.now() / 1000));
   const lines = ["month,close,dividend,maxdiv,currency", ...months.map((m) => `${m},${close.get(m)},${div.get(m) ?? 0},${maxDiv.get(m) ?? 0},${currency}`)];
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, lines.join("\n") + "\n");
@@ -113,8 +114,10 @@ if (want("fred")) {
 if (want("gold")) await downloadCsv(GOLD_URL, path.join(RAW_DIR, "gold", "lbma_monthly.csv"));
 if (want("gsw")) await fetchYieldCurve(path.join(RAW_DIR, "fed", "gsw_monthly.csv"));
 if (want("stocks")) {
+  // ONLY=brk,ibm fetches just those, leaving the other raw files as they are.
+  const only = process.env.ONLY?.split(",");
   for (const s of UNIVERSE) {
-    if (s.source !== "yahoo") continue;
+    if (s.source !== "yahoo" || (only && !only.includes(s.id))) continue;
     await fetchYahooMonthly(s.ticker!, path.join(RAW_DIR, "yahoo", `${s.id}.csv`));
     await sleep(300);
   }

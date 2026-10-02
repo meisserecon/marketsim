@@ -56,7 +56,7 @@ survivorship bias visible. Assets appear in the game the month their data starts
 on their corporate end event.
 
 - **US, full period:** IBM, GE, Exxon, Schlumberger, Coca-Cola, Walmart, Boeing, Altria,
-  McDonald's, Disney, Intel.
+  McDonald's, Disney, Intel, Berkshire Hathaway (class A share, from March 1980).
 - **US, later arrivals:** Apple (1980-12), Microsoft (1986), Cisco (1990), Amazon (1997),
   eBay (1998), Citigroup (from its formation in October 1998), Nvidia (1999).
 - **Autos:** Tesla (2010), Mercedes-Benz and BMW (Yahoo from late 1996; earlier Daimler-Benz

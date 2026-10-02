@@ -74,6 +74,7 @@ export const UNIVERSE: StockDef[] = [
   { id: "c", name: "Citigroup", source: "yahoo", ticker: "C", currency: "USD", start: "1998-10", note: "Formed in October 1998 by the merger of Citicorp and Travelers Group. Yahoo's earlier history of this ticker follows Travelers and its predecessors, not Citicorp (Citicorp paid no dividend in 1992-93 while this series pays one every quarter, matching Travelers' filings), so it is cut.", spinoffs: [{ month: "2002-08", name: "Travelers Property Casualty" }] },
   { id: "mcd", name: "McDonald's", source: "yahoo", ticker: "MCD", currency: "USD" },
   { id: "dis", name: "Disney", source: "yahoo", ticker: "DIS", currency: "USD" },
+  { id: "brk", name: "Berkshire Hathaway", source: "yahoo", ticker: "BRK-A", currency: "USD", note: "Class A share, never split and never a dividend since 1967. Yahoo's history starts 17 March 1980, so it enters the game in March 1980." },
 
   // --- US, later arrivals ---------------------------------------------------
   { id: "aapl", name: "Apple Computer", renames: [{ from: "2007-01", name: "Apple" }], source: "yahoo", ticker: "AAPL", currency: "USD" },

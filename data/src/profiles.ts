@@ -29,6 +29,16 @@ export const PROFILES: Record<string, CompanyProfile> = {
       { from: "2019-07", tagline: "Every big company is moving to the cloud, and we are the ones who can connect it with what they already run.", about: "Provides software, consulting and large computer systems to companies and governments, with a focus on cloud computing and artificial intelligence for business." },
     ],
   },
+  brk: {
+    country: "United States", sector: "Holding company",
+    versions: [
+      { from: "1980-03", tagline: "We buy good businesses and good shares, and then we keep them. We pay no dividend, because we think we can invest the money better than you can.", about: "A holding company from Omaha, Nebraska, run by the investor Warren Buffett. It owns insurance companies and a textile mill, and invests the insurers' money in shares of other companies. It has never split its share, so a single share is very expensive." },
+      { from: "1985-08", tagline: "Our favourite holding period is forever.", about: "A holding company from Omaha, Nebraska, run by the investor Warren Buffett. It owns insurance companies, a candy maker, a newspaper and other businesses, and holds large blocks of shares in a few companies it admires. It has closed the textile mills it started with." },
+      { from: "1999-01", tagline: "Insurance gives us other people's money to invest for years before we have to pay it back.", about: "A holding company from Omaha, Nebraska, run by the investor Warren Buffett. It is one of the world's biggest insurers and reinsurers, owns dozens of other businesses from furniture shops to ice cream, and holds large stakes in Coca-Cola, American Express and Gillette." },
+      { from: "2010-03", tagline: "We have made an all-in bet on the economic future of the United States.", about: "A holding company from Omaha, Nebraska, run by the investor Warren Buffett. It owns insurers, one of the largest American railways, electricity and gas utilities and dozens of manufacturers and retailers, and holds large stakes in a few listed companies." },
+      { from: "2026-01", tagline: "The businesses stay, the patience stays, and the cash is ready for the day prices are right.", about: "A holding company from Omaha, Nebraska, built by the investor Warren Buffett and now led by Greg Abel. It owns insurers, a large railway, energy utilities and dozens of manufacturers and retailers, and holds large stakes in a few listed companies." },
+    ],
+  },
   ge: {
     country: "United States", sector: "Industrial conglomerate",
     versions: [

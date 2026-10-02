@@ -5,8 +5,14 @@
 # Basis: the 1993 10-K restates all per-share amounts for the 2-for-1 splits of Dec 1991 and Aug 1993; enron.csv divides as-then amounts by 8 (to 1991-12), 4 (to 1993-07), 2 (to 1999-07), i.e. by 4 and 2 relative to the 1993 basis, so the final basis is the 1993 basis / 2.
 #   Control: the same rule applied to the 1992 10-K amounts reproduces enron.csv's own 1992 dividends (0.1625 / 2 = 0.08125, as in enron.csv for 1992-03). Consistency: yearly sums 1990 0.31, 1991 0.314, 1992 0.331 (series basis) show no step.
 # Month: the 10-Ks give the calendar quarter, not the payment date (see enron.csv header); each dividend is booked in the last month of its quarter, as there.
-# NOT covered: the third and fourth quarter of 2001. The cash flow statement of the 10-Q for the third quarter of 2001 (dividends paid 394 million dollars for nine months against 396 in 2000) is compatible with three payments, but no per-share amount was retrieved for the third quarter,
-#   and a dividend of 0.125 announced for payment on 20 December 2001 (search summary only, the page was blocked) fell after the bankruptcy filing of 2 December, with no evidence that it was paid.
+# Third quarter 2001 (added 2026-10-02): Enron press release "Enron announces dividends", 14 August 2001 (web.archive.org copy of
+#   http://www.enron.com:80/corp/pressroom/releases/2001/ene/56-Dividends-08-14-01-LTR.html): "The Enron Corp. Board of Directors declared today a regular quarterly dividend of $0.125 per share
+#   on the corporation's common stock payable on Sept. 20, 2001 to shareholders of record as of Sept. 4, 2001." Paid: the 10-Q for the third quarter of 2001 (accession 0000950129-01-504218)
+#   shows dividends paid of 394 million dollars for the nine months to 30 September 2001 against 396 in 2000, i.e. three quarters as in 2000; booked 2001-09 (payment date).
+# NOT covered: the fourth quarter of 2001. A $0.125 dividend payable 20.12.2001 to holders of record 3.12.2001 had been declared (search-engine summary of eepower.com; the page itself is behind
+#   a bot check and was not read). On 29.11.2001 Enron "said today it might not pay previously declared dividends on its various stock issues", naming the common stock (Houston Chronicle,
+#   https://www.chron.com/business/enron/article/Enron-says-it-may-not-pay-dividends-already-2067808.php), and it filed for Chapter 11 on 2.12.2001, before the record date. No source states
+#   that it was paid; left out (inference: not paid).
 month,dividend,note
 1990-03,0.077500,Q1 1990; $0.155 per share on the basis of the 1993 Form 10-K (after the splits of Dec 1991 and Aug 1993); divided by 2 for the split of Aug 1999; booked in the last month of the quarter like enron.csv
 1990-06,0.077500,Q2 1990; $0.155 per share on the basis of the 1993 Form 10-K (after the splits of Dec 1991 and Aug 1993); divided by 2 for the split of Aug 1999; booked in the last month of the quarter like enron.csv
@@ -18,3 +24,4 @@ month,dividend,note
 1991-12,0.081250,Q4 1991; $0.1625 per share on the basis of the 1993 Form 10-K (after the splits of Dec 1991 and Aug 1993); divided by 2 for the split of Aug 1999; booked in the last month of the quarter like enron.csv
 2001-03,0.125000,Q1 2001; $0.125 per share declared (S-3/A of July 2001); already on the final share basis (split of July 1999 is before); booked in the last month of the quarter like enron.csv
 2001-06,0.125000,Q2 2001; $0.125 per share declared (S-3/A of July 2001); already on the final share basis (split of July 1999 is before); booked in the last month of the quarter like enron.csv
+2001-09,0.125000,Q3 2001; $0.125 per share declared 14.8.2001 payable 20.9.2001 to holders of record 4.9.2001 (Enron press release); final share basis

@@ -3,8 +3,23 @@
 # Months: interim in December (payment from 10 December in 1997 and 1998 per the interim releases); year-end in June, the month of the ordinary general meeting (27.6.1997, 26.6.1998, 29.6.1999),
 #   after which Japanese companies start paying; the exact payment day was not found, so for the other years the months are assumed from this pattern.
 # Yield: 0.1 to 0.7 percent per half year, about 0.3 percent a year until 1997: genuine for Japanese bank shares of the time (IBJ's market value was about 7 trillion yen on 2.35 billion shares), not a basis error.
-# NOT COVERED: fiscal years ended March 1985 to March 1992 (payments June 1985 to June 1992): no source found (EDGAR has no IBJ filer; the archived ibjbank.co.jp starts with the 1997 documents; no scanned annual reports found).
+# ESTIMATED (lines marked ESTIMATE, added 2026-10-03 at the user's request): the half-year payments from June 1985 to June 1992 carry the 4.25 yen paid every half-year from December 1992 on; no source found for those years (EDGAR has no IBJ filer; the archived ibjbank.co.jp starts with the 1997 documents; no scanned annual reports found).
 month,dividend,note
+1985-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1985-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1985-06)
+1986-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1986-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1986-06)
+1987-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1987-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1987-06)
+1988-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1988-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1988-06)
+1989-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1989-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1989-06)
+1990-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1990-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1990-06)
+1991-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
+1991-12,4.25,ESTIMATE (no source): interim dividend assumed 4.25 yen per share (see 1991-06)
+1992-06,4.25,ESTIMATE (no source): year-end dividend assumed 4.25 yen per share, the amount paid every half-year from December 1992 to June 1998 (June = month of the general meeting)
 1992-12,4.25,FY to 1993-03; interim 4.25 yen per share; record 1992-09-30; paid December 1992 (month assumed); S1 five-year table (interim in brackets)
 1993-06,4.25,FY to 1993-03; year-end 4.25 yen per share; record 1993-03-31; paid June 1993 (month assumed); derived: S1 annual 8.50 minus interim 4.25
 1993-12,4.25,FY to 1994-03; interim 4.25 yen per share; record 1993-09-30; paid December 1993 (month assumed); S1

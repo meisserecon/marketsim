@@ -160,6 +160,11 @@ serves the built web client from `web/build` when it exists. Market data is read
 - **German history before late 1996** comes from online chart sources (boerse.de, onvista),
   rebased to Yahoo's series and cross-checked against printed NZZ quotes where available.
 - **Japan** is represented by Industrial Bank of Japan, from the NZZ's Tokyo list.
+- **Dividend gaps.** Every amount in `data/manual/dividends/` comes from a source cited next to it,
+  with one exception: where a company is known to have paid but no source for a year was found
+  (BMW 1980 and 1987 to 1995, Siemens 1983, Industrial Bank of Japan before December 1992), the
+  year carries the amount of the neighbouring sourced years, marked `ESTIMATE` in the row. A
+  missing year would wrongly show no payment at all; an estimate is replaced when a source turns up.
 - **News library:** scope and format are still to be decided.
 
 ## Company profiles

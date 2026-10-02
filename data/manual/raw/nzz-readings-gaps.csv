@@ -3,3 +3,13 @@
 # quote_date = the trading day of the table, established from the table heading and the issue. See nzz-notes-gaps.md.
 # Class labels: I = bearer (Inhaber), N = registered (Namen); foreign rows have class "ordinary".
 series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+nestle,1979-12,1979-12-28,I,CHF,3410,1979-12-29,13,eye2,"Zurich running text 'Kurse vom 28. Dezember': (3390) 3415 3410 3415t 3415 3410, last unmarked print; pass 2 = Vortag bracket (3410) of the 'Kurse vom 3. Januar' table in the 1980-01-04 issue (Zurich closed 31 Dec and 2 Jan)"
+nestle,1979-12,1979-12-28,N,CHF,2240,1979-12-29,13,eye2,"(2235) 2240 2255ttt; pass 2 = bracket (2240) in 1980-01-04 issue"
+sbv,1979-12,1979-12-28,I,CHF,406,1979-12-29,13,eye2,"Schw. Bankverein (402) 404 405 406; pass 2 = bracket (406) in 1980-01-04 issue"
+credit-suisse,1979-12,1979-12-28,I,CHF,2295,1979-12-29,13,eye2,"Schw. Kreditanst. Inh. (2280) 2295 (separate line from PS in 1979); pass 2 = bracket (2295) in 1980-01-04 issue"
+swissair,1979-12,1979-12-28,I,CHF,778,1979-12-29,13,eye2,"Swissair Inh. (778) 778 780tt 780tL 778; pass 2 = bracket (778) in 1980-01-04 issue"
+sandoz,1979-12,1979-12-28,I,CHF,4090,1979-12-29,13,eye2,"Sandoz Inhaber (4100) 4090; pass 2 = bracket (4090) in 1980-01-04 issue"
+ciba-geigy,1979-12,1979-12-28,I,CHF,1235,1979-12-29,13,eye2,"Ciba-Geigy Inh. (1245) 1240 1235 1245ttt: last unmarked print; pass 2 = bracket (1235) in 1980-01-04 issue"
+mercedes,1979-12,1979-12-31,ordinary,DEM,242.50,1980-01-03,18,eye2,"Daimler-Benz, Frankfurt/Duesseldorf/Muenchen: 'Kurse vom 2. Januar' (Frankfurt closed 2 Jan): single column holds the 31 Dec close (the 28 Dec Schluss was different, see notes); pass 2 = Vortag column of the 'Kurse vom 3. Januar' table in 1980-01-04 issue p20 (242.50)"
+bmw,1979-12,1979-12-31,ordinary,DEM,163,1980-01-03,18,eye2,"same as Daimler-Benz; pass 2 = Vortag column of 3 Jan table (163)"
+ibm,1979-12,1979-12-31,ordinary,USD,64.625,1980-01-03,19,eye2,"New York 'Kurse vom 2. Januar' column Vortag = 31 Dec: 64 5/8, read in two separate crops"

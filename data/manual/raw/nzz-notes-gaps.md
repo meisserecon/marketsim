@@ -14,3 +14,10 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Tokyo/IBJ: not read for this month (the earlier notes state that the Tokyo list of these years has no Industrial Bank of Japan row; not re-checked here).
 - **Left out: Schweizerische Bankgesellschaft I.** 28 Dec sequence '(3565) 3510 3505 3510 3505' (last print 3505) but the bracket of the 3 Jan table (1980-01-04, p17) is (3515); the SBG sequence of 3 Jan reads '(3515) 3530 3535 ...'. The two places disagree, and the cause is not visible; value left out.
 - Pass agreement: 10 of 10 recorded values agree between pass 1 and pass 2; SBG disagrees (dropped).
+
+## 1982-05
+
+- Issue 1982-05-29 (Saturday/Sunday 29/30 May 1982): Swiss p24 "Kurse vom 28. Mai" (Zuerich, J. Vontobel), Frankfurt/Duesseldorf/Muenchen p27 (columns Vortag, Schluss), New York p26 ("Boersenkurse vom 28. Mai", columns Vortag, Eroeff., Hoechst, Tiefst, Vol, P/E, Schl.). 31 May was Whit Monday: all exchanges closed, so 28 May is the last trading day. Page numbers here are the image index + 1 as before.
+- SKA line is "Inh. inkl. PS" (class I includes the PS from April 1982).
+- Pass 1 and pass 2 were separate crops at different windows, read at separate times: 11 of 11 agree. SBG I 2915 ends with an L print (accepted by convention). No second place exists (the 1 June 1982 issue carries no Zurich table, see earlier notes).
+- IBM control: 61.5 / 14.6989 = 4.184. IBJ: not read (the earlier notes state no IBJ in the Tokyo list of 1982; not re-checked).

@@ -1,0 +1,32 @@
+# Dividends of Swiss companies as declared at the time, gross (before 35% withholding tax), per share as printed in the NZZ. NOT adjusted for later splits.
+# Source for every line: Neue Zuercher Zeitung (Zuerich edition), archive zeitungsarchiv.nzz.ch, paid company notices ("Zahlung der Dividende", "Einloesung der Dividendencoupons"), read through the OCR text and, where marked, the page image.
+# payment_or_ex_date = the date from "zahlbar ab ..." (first day the coupon is cashed); month = month in which a holder received it.
+# See NOTES-swiss-dividends.md for method, calibration, conflicts and gaps.
+company,financial_year,share_class,nominal_chf,amount_chf,kind,meeting_date,payment_or_ex_date,month,source,note
+nestle,1979,I,,75,dividend,1980-05-22,1980-05-27,1980-05,"NZZ 27.05.1980 p25 (page image read)",
+nestle,1980,I,,75,dividend,1981-05-14,1981-05-18,1981-05,"NZZ 18.05.1981 p10 (page image read)",
+nestle,1981,I,,85,dividend,1982-05-13,1982-05-18,1982-05,"NZZ 17.05.1982 p22 (page image read)",
+nestle,1982,I,,96,dividend,1983-05-19,1983-05-24,1983-05,"NZZ 24.05.1983 p39",
+nestle,1983,I,,109,dividend,,1984-05-21,1984-05,"NZZ 29.05.1984 p43 (repeat of the notice of 21.05.1984 p39)","meeting date not read"
+nestle,1984,I,,115,dividend,1985-05-23,1985-05-28,1985-05,"NZZ 28.05.1985 p8; meeting date NZZ 06.05.1985 p29","gross not printed in the OCR snippet; derived from the printed withholding tax Fr. 40.25 = 35% of 115"
+nestle,1985,I,,145,dividend,,1986-05-20,1986-05,"NZZ 20.05.1986 p53","PS 29; meeting date not read"
+nestle,1985,PS,,29,dividend,,1986-05-20,1986-05,"NZZ 20.05.1986 p53",
+nestle,1986,I,,145,dividend,1987-05-21,1987-05-25,1987-05,"NZZ 25.05.1987 p27",
+nestle,1986,PS,,29,dividend,1987-05-21,1987-05-25,1987-05,"NZZ 25.05.1987 p27",
+nestle,1987,I,,150,dividend,1988-05-19,1988-05-24,1988-05,"NZZ 24.05.1988 p26 (page image); meeting NZZ 25.04.1988 p32",
+nestle,1987,PS,,30,dividend,1988-05-19,1988-05-24,1988-05,"NZZ 24.05.1988 p26 (page image)",
+nestle,1988,I,,175,dividend,,1989-05-29,1989-05,"NZZ 29.05.1989 p42","meeting date not read"
+nestle,1988,PS,,35,dividend,,1989-05-29,1989-05,"NZZ 29.05.1989 p42",
+nestle,1989,I,,200,dividend,1990-05-31,1990-06-05,1990-06,"NZZ 05.06.1990 p41 (page image read)","paid in June, not May"
+nestle,1989,PS,,40,dividend,1990-05-31,1990-06-05,1990-06,"NZZ 05.06.1990 p41 (page image read)",
+nestle,1990,I,,200,dividend,,1991-06-03,1991-06,"NZZ 03.06.1991 p13","paid in June; meeting date not read"
+nestle,1991,I,,215,dividend,1992-05-21,1992-05-25,1992-05,"NZZ 25.05.1992 p20",
+nestle,1991,PS,,43,dividend,1992-05-21,1992-05-25,1992-05,"NZZ 25.05.1992 p20",
+nestle,1992,N,,23.5,dividend,1993-05-27,,1993-06,"NZZ 01.06.1993 p44","after the 1:10 split of 1.9.1992; PS 47; day of month in 'zahlbar ab ? Juni 1993' lost in the OCR, notice printed 1 June 1993"
+nestle,1992,PS,,47,dividend,1993-05-27,,1993-06,"NZZ 01.06.1993 p44",
+nestle,1994,N,,26.5,dividend,1995-06-01,1995-06-06,1995-06,"NZZ 06.06.1995 p30",
+nestle,1995,N,,26.5,dividend,1996-05-30,1996-06-05,1996-06,"NZZ 05.06.1996 p30",
+nestle,1996,N,,30,dividend,1997-06-05,1997-06-11,1997-06,"NZZ 11.06.1997 p29",
+nestle,1997,N,,35,dividend,1998-05-28,1998-06-03,1998-06,"NZZ 03.06.1998 p44",
+nestle,2000,N,,55,dividend,2001-04-05,2001-04-11,2001-04,"NZZ 11.04.2001 p71","paid in April"
+sandoz,1980,I,,65,dividend,,1981-05-18,1981-05,"NZZ 18.05.1981 p10 (page image read)","PS 13; notice says 'von heute an', dated Basel 18 May 1981"

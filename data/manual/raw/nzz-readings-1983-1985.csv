@@ -1,0 +1,671 @@
+# Month-end share prices read by eye from scanned issues of the Neue Zuercher Zeitung (NZZ), June 1983 to December 1985. Raw quotes as printed, no adjustment.
+# Source: full NZZ issues kept outside git (data/manual/scans/nzz/NZZ_<issue date>.pdf), read on 2026-10-02; every number was read from those files, none from memory.
+# Table: "Schweizer Boersen" / "Schweizer Aktien", sub-table "Zuerich" (Vontobel & Co.). Each line gives: (previous-day price in brackets) then all prints of the day in
+#   sequence, then 'R' = Ruecknahme/closing round (call) and further prints. Flags: t = tel quel/forward deal marks 'tt','ttt' (volume classes of forward trades), L = concluded in the call.
+#   There is NO Schluss column: price_as_printed is the LAST print of the day without a forward-deal mark (dt/t/tt/ttt); where the final print carries only L it is still taken and the note says so.
+# Foreign lists ("Auslandboersen"): Frankfurt columns Vortag/Schluss in DM; Tokio Vortag/Schluss in yen; New York ("New Yorker Boersenkurse vom ...") Tagesschluss in USD (fractions converted to decimals).
+#   When the header date names the day after the month end (issues of 1.5.1985, 2.8.1985, 3.1.1986, 2.8.1984), the Vortag column was taken, and the note says so.
+# Classes: I = bearer (Inh.), N = registered (Na.), PS = participation certificate. SKA is printed as one line 'SKA Inh. inkl. PS / Na. inkl. PS' (PS included in both prices). ubs = Schweiz. Bankgesellschaft (SBG), sbv = SBV, credit-suisse = SKA.
+# method: eye = read in two separate crops at different times (months 1985-06 to 1985-12; Nestle also matched the Journal de Geneve), eye-single = ONE reading only, not yet verified by a second crop (months 1983-06 to 1985-05). Filter on method before use.
+# Not covered: 1983-01 to 1983-05, no Swiss table found for 1983-12 and 1984-12, Roche (not in these tables), Schlumberger/IBJ partially. See nzz-notes-1983-1985.md.
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+bmw,1983-06,1983-06-30,,DEM,384,1983-07-01,26,eye-single,Frankfurt 'Kurse vom 30. Juni' Schluss (Vortag 377); JdG print 384; single reading
+ciba-geigy,1983-06,1983-06-30,I,CHF,2035,1983-07-01,23,eye-single,(2015) 2035 2035ttt; single reading
+ciba-geigy,1983-06,1983-06-30,N,CHF,814,1983-07-01,23,eye-single,(809) 812 820tt 815 813 R 814; single reading
+ciba-geigy,1983-06,1983-06-30,PS,CHF,1600,1983-07-01,23,eye-single,(1590) 159? 1600 R 1610tttL; single reading
+credit-suisse,1983-06,1983-06-30,I,CHF,2040,1983-07-01,23,eye-single,printed 'SKA Inh. inkl. PS'; (2025) 2030 2035 2040L R 2040; single reading
+credit-suisse,1983-06,1983-06-30,N,CHF,390,1983-07-01,23,eye-single,printed 'Na. inkl. PS'; (385) 389 R 390; single reading
+ibm,1983-06,1983-06-30,,USD,120.25,1983-07-01,25,eye-single,New York 'Kurse vom 30. Juni' Schl. 120 1/4 (Vortag 120); single reading
+mercedes,1983-06,1983-06-30,,DEM,569,1983-07-01,26,eye-single,Daimler-Benz Schluss (Vortag 564); JdG print 569; single reading
+nestle,1983-06,1983-06-30,I,CHF,4025,1983-07-01,23,eye-single,(3975) 4000 4020ttt 4010 4020 R 4020 4010 4015 4020 4010 4020 4025; single reading
+nestle,1983-06,1983-06-30,N,CHF,2595,1983-07-01,23,eye-single,(2575) 2580 2590 2600ttt 2610ttt 2585 2595t 2590 259? R 2595 2620ttt; single reading
+sandoz,1983-06,1983-06-30,I,CHF,5425,1983-07-01,23,eye-single,(5325) 5375 5390 5400 R 5425; single reading
+sandoz,1983-06,1983-06-30,N,CHF,1970,1983-07-01,23,eye-single,(1955) 1970 1980ttt; single reading
+sandoz,1983-06,1983-06-30,PS,CHF,812,1983-07-01,23,eye-single,(806) 812 810ttt 812ttt R 820ttt; last unmarked print; single reading
+sbv,1983-06,1983-06-30,I,CHF,313,1983-07-01,23,eye-single,SBV bearer; (312) 312 R 313; single reading
+sbv,1983-06,1983-06-30,N,CHF,232,1983-07-01,23,eye-single,SBV registered; (231) 232; single reading
+sbv,1983-06,1983-06-30,PS,CHF,254,1983-07-01,23,eye-single,SBV participation certificate; (253) 253 254 R 254; single reading
+siemens,1983-06,1983-06-30,,DEM,347,1983-07-01,26,eye-single,"Siemens Schluss (Vortag 346.50); JdG print is 346.5 (0.5 DM lower than this print 347, read twice at high zoom); single reading"
+slb,1983-06,1983-06-30,,USD,54.375,1983-07-01,25,eye-single,New York Schl. 54 3/8 (Vortag 52 3/4); single reading
+swissair,1983-06,1983-06-30,I,CHF,815,1983-07-01,23,eye-single,Zurich table 'Kurse vom 30. Juni' (issue 1.7.); (813) 810 812 815L R 815; single reading
+swissair,1983-06,1983-06-30,N,CHF,695,1983-07-01,23,eye-single,(696) 692 R 695; single reading
+ubs,1983-06,1983-06-30,I,CHF,3190,1983-07-01,23,eye-single,SBG bearer; (3170) 3180 R 3185 3190; single reading
+ubs,1983-06,1983-06-30,PS,CHF,117.5,1983-07-01,23,eye-single,SBG participation certificate; (116.50) 117 117.50L R 117.50; no SBG registered line this day; single reading
+bmw,1983-07,1983-07-29,,DEM,387,1983-07-30,22,eye-single,Frankfurt 'Kurse vom 29. Juli' Schluss (Vortag 392); single reading
+ciba-geigy,1983-07,1983-07-29,I,CHF,2045,1983-07-30,19,eye-single,(2050) 2040 R 2045; single reading
+ciba-geigy,1983-07,1983-07-29,N,CHF,841,1983-07-30,19,eye-single,(841) 842 845tt 847ttt 842 840 847ttt 840 R 840 840t 841; single reading
+ciba-geigy,1983-07,1983-07-29,PS,CHF,1660,1983-07-30,19,eye-single,(1660) 1665 1670ttt 1665t 1660 R 1660; single reading
+credit-suisse,1983-07,1983-07-29,I,CHF,2095,1983-07-30,19,eye-single,printed 'SKA Inh. inkl. PS'; (2085) 2095 R 2095; single reading
+credit-suisse,1983-07,1983-07-29,N,CHF,399,1983-07-30,19,eye-single,printed 'Na. inkl. PS'; (397) 399 R 399; single reading
+ibm,1983-07,1983-07-29,,USD,120,1983-07-30,21,eye-single,New York 'Kurse vom 29. Juli' Schl. 120 (Vortag 121 5/8); single reading
+mercedes,1983-07,1983-07-29,,DEM,602.5,1983-07-30,22,eye-single,Daimler-Benz Schluss 602.50 (Vortag 607); single reading
+nestle,1983-07,1983-07-29,I,CHF,4060,1983-07-30,19,eye-single,(4060) 4060 4080ttt 4070 4070ttt 4060L 4070 4050L R 4060; single reading
+nestle,1983-07,1983-07-29,N,CHF,2700,1983-07-30,19,eye-single,(2710) 2710 2705 2700; single reading
+sandoz,1983-07,1983-07-29,I,CHF,6400,1983-07-30,19,eye-single,(6425) 6450 6500ttt R 6350 6400; single reading
+sandoz,1983-07,1983-07-29,N,CHF,2250,1983-07-30,19,eye-single,(2255) 2250 2255tt 2270ttt 2250 R 2250 2255tt 2250 2260tt; single reading
+sandoz,1983-07,1983-07-29,PS,CHF,990,1983-07-30,19,eye-single,(1010) 1005 1010ttt 1000tt 1000 R 990; single reading
+sbv,1983-07,1983-07-29,I,CHF,314,1983-07-30,19,eye-single,SBV bearer; (311) 312 313 314 R 313 314; single reading
+sbv,1983-07,1983-07-29,N,CHF,237,1983-07-30,19,eye-single,SBV registered; (237) 236 237L R 237; single reading
+sbv,1983-07,1983-07-29,PS,CHF,265,1983-07-30,19,eye-single,SBV participation certificate; (264) 264 265 R 265; single reading
+slb,1983-07,1983-07-29,,USD,53.75,1983-07-30,21,eye-single,New York Schl. 53 3/4 (Vortag 56 1/8); single reading
+swissair,1983-07,1983-07-29,I,CHF,895,1983-07-30,19,eye-single,Zurich table 'Kurse vom 29. Juli' (issue Sat 30.7.); (895) 900 900ttt 900tt 898 895 R 895 900ttt 895; single reading
+swissair,1983-07,1983-07-29,N,CHF,740,1983-07-30,19,eye-single,(735) 746 740 R 740; single reading
+ubs,1983-07,1983-07-29,I,CHF,3285,1983-07-30,19,eye-single,SBG bearer; (3260) 3280 3285 3280 3290 R 3280 3285; single reading
+ubs,1983-07,1983-07-29,N,CHF,617,1983-07-30,19,eye-single,SBG registered; (615) 615 R 617; single reading
+ubs,1983-07,1983-07-29,PS,CHF,118.5,1983-07-30,19,eye-single,SBG participation certificate; (117) 118 118.50; single reading
+bmw,1983-08,1983-08-31,,DEM,376,1983-09-01,26,eye-single,Frankfurt 'Kurse vom 31. August' Schluss (Vortag 377); single reading
+ciba-geigy,1983-08,1983-08-31,I,CHF,1995,1983-09-01,23,eye-single,(1965) 1990 198? R 1990 1995; single reading
+ciba-geigy,1983-08,1983-08-31,N,CHF,808,1983-09-01,23,eye-single,(800) 805 810ttt 805 R 808; single reading
+ciba-geigy,1983-08,1983-08-31,PS,CHF,1610,1983-09-01,23,eye-single,(1620) 1600 1610 1620ttt; single reading
+credit-suisse,1983-08,1983-08-31,I,CHF,2150,1983-09-01,23,eye-single,printed 'SKA Inh. inkl. PS'; (2140) 2145 2150L 2145 2150L R 2145 2150L 2145 2150L; last print flagged L (last unmarked 2145); single reading
+credit-suisse,1983-08,1983-08-31,N,CHF,400,1983-09-01,23,eye-single,printed 'Na. inkl. PS' (400) 400; single reading
+ibm,1983-08,1983-08-31,,USD,119.25,1983-09-01,25,eye-single,New York Schl. 119 1/4 (Vortag 117 1/2); single reading
+mercedes,1983-08,1983-08-31,,DEM,566,1983-09-01,26,eye-single,Daimler-Benz Schluss (Vortag 562.50); single reading
+nestle,1983-08,1983-08-31,I,CHF,3990,1983-09-01,23,eye-single,(3960) 3985 4000ttt 3985 R 3990; single reading
+nestle,1983-08,1983-08-31,N,CHF,2610,1983-09-01,23,eye-single,(2600) 2600 2620ttt R 2610; single reading
+sandoz,1983-08,1983-08-31,I,CHF,5975,1983-09-01,23,eye-single,(5850) 5975 6000ttt; single reading
+sandoz,1983-08,1983-08-31,N,CHF,2110,1983-09-01,23,eye-single,(2090) 2100 2100t R 2110; single reading
+sandoz,1983-08,1983-08-31,PS,CHF,970,1983-09-01,23,eye-single,(960) 960 965 R 970L; last print flagged L; single reading
+sbv,1983-08,1983-08-31,I,CHF,309,1983-09-01,23,eye-single,SBV bearer; (309) 309 310 309 R 309; single reading
+sbv,1983-08,1983-08-31,N,CHF,236,1983-09-01,23,eye-single,SBV registered; (235) 236 R 236; single reading
+siemens,1983-08,1983-08-31,,DEM,334,1983-09-01,26,eye-single,Siemens Schluss (Vortag 332.50); single reading
+slb,1983-08,1983-08-31,,USD,57.25,1983-09-01,25,eye-single,New York Schl. 57 1/4 (Vortag 58 1/4); single reading
+swissair,1983-08,1983-08-31,I,CHF,842,1983-09-01,23,eye-single,Zurich table 'Kurse vom 31. August' (issue 1.9.); (845) 850ttt 845 R 850ttt 842; single reading
+swissair,1983-08,1983-08-31,N,CHF,705,1983-09-01,23,eye-single,(710) 705; single reading
+ubs,1983-08,1983-08-31,I,CHF,3200,1983-09-01,23,eye-single,SBG bearer; (3200) 3210 3200 3210 R 3200; single reading
+ubs,1983-08,1983-08-31,N,CHF,605,1983-09-01,23,eye-single,SBG registered; (605) 605; single reading
+ubs,1983-08,1983-08-31,PS,CHF,116,1983-09-01,23,eye-single,SBG participation certificate; (115.50) 116; single reading
+bmw,1983-09,1983-09-30,,DEM,381.5,1983-10-01,28,eye-single,Frankfurt 'Kurse vom 30. September' Schluss 381.50 (Vortag 382); single reading
+ciba-geigy,1983-09,1983-09-30,I,CHF,2000,1983-10-01,25,eye-single,(1975) 1985 1980 1990 R 1995 2000; single reading
+ciba-geigy,1983-09,1983-09-30,N,CHF,845,1983-10-01,25,eye-single,(844) 84? 850tt 855ttt 845 R 845; single reading
+ciba-geigy,1983-09,1983-09-30,PS,CHF,1625,1983-10-01,25,eye-single,(1615) 1630ttt 1625 R 1625; single reading
+credit-suisse,1983-09,1983-09-30,I,CHF,2090,1983-10-01,25,eye-single,printed 'SKA Inh. inkl. PS' (2110) 2090 2100L 2090 2100 R 2100 2090; single reading
+credit-suisse,1983-09,1983-09-30,N,CHF,405,1983-10-01,25,eye-single,printed 'Na. inkl. PS' (405) 405 403 R 405; single reading
+ibm,1983-09,1983-09-30,,USD,126.875,1983-10-01,27,eye-single,New York Schl. 126 7/8 (Vortag 128); single reading
+mercedes,1983-09,1983-09-30,,DEM,579.5,1983-10-01,28,eye-single,Daimler-Benz Schluss 579.50 (Vortag 579); single reading
+nestle,1983-09,1983-09-30,I,CHF,3990,1983-10-01,25,eye-single,(3980) 3990 4010tt 4015ttt 3990; single reading
+nestle,1983-09,1983-09-30,N,CHF,2690,1983-10-01,25,eye-single,(2690) 2690 R 2715ttt; single reading
+sandoz,1983-09,1983-09-30,I,CHF,6525,1983-10-01,25,eye-single,(6575) 6525 R 6525; single reading
+sandoz,1983-09,1983-09-30,N,CHF,2225,1983-10-01,25,eye-single,(2225) 2225 2240tt 2245ttt R 2225; single reading
+sandoz,1983-09,1983-09-30,PS,CHF,990,1983-10-01,25,eye-single,(1010) 990 R 990; single reading
+sbv,1983-09,1983-09-30,I,CHF,302,1983-10-01,25,eye-single,SBV bearer; (303) 301 302 R 302 303 302; single reading
+sbv,1983-09,1983-09-30,N,CHF,232,1983-10-01,25,eye-single,SBV registered; (232) 231 232 231L R 232; single reading
+sbv,1983-09,1983-09-30,PS,CHF,252,1983-10-01,25,eye-single,SBV participation certificate; (252) 251 252; single reading
+siemens,1983-09,1983-09-30,,DEM,348,1983-10-01,28,eye-single,Siemens Schluss (Vortag 346.50); single reading
+slb,1983-09,1983-09-30,,USD,54.625,1983-10-01,27,eye-single,New York Schl. 54 5/8 (Vortag 56); single reading
+swissair,1983-09,1983-09-30,I,CHF,845,1983-10-01,25,eye-single,Zurich table 'Kurse vom 30. September' (issue Sat 1.10.); (840) 837 835ttt 837 837tt 840tt R 835L 840 845; single reading
+swissair,1983-09,1983-09-30,N,CHF,736,1983-10-01,25,eye-single,(740) 738 732 R 736; single reading
+ubs,1983-09,1983-09-30,I,CHF,3140,1983-10-01,25,eye-single,SBG bearer; (3140) 3130 R 3140 3135 3140; single reading
+ubs,1983-09,1983-09-30,N,CHF,595,1983-10-01,25,eye-single,SBG registered; (607) 595; single reading
+ubs,1983-09,1983-09-30,PS,CHF,112.5,1983-10-01,25,eye-single,SBG participation certificate; (113) 112 R 112.50; single reading
+bmw,1983-10,1983-10-31,,DEM,417.5,1983-11-01,24,eye-single,Frankfurt 'Kurse vom 31. Oktober' Schluss 417.50 (Vortag 417.50); single reading
+ciba-geigy,1983-10,1983-10-31,I,CHF,2170,1983-11-01,21,eye-single,(2155) 2170 2170t 2185ttt R 2170; single reading
+ciba-geigy,1983-10,1983-10-31,N,CHF,940,1983-11-01,21,eye-single,(935) 940 952ttt 950tt 942 940L 940t R 940 952ttt 948tt; value is last unmarked print; single reading
+ciba-geigy,1983-10,1983-10-31,PS,CHF,1735,1983-11-01,21,eye-single,(1730) 1735 1740 R 1735; single reading
+credit-suisse,1983-10,1983-10-31,I,CHF,2130,1983-11-01,21,eye-single,printed 'SKA Inh. inkl. PS'; (2135) 2130 2135L 2130L R 2130; single reading
+credit-suisse,1983-10,1983-10-31,N,CHF,405,1983-11-01,21,eye-single,printed 'Na. inkl. PS'; (405) 405; single reading
+ibm,1983-10,1983-10-31,,USD,126.625,1983-11-01,23,eye-single,New York 'Kurse vom 31. Oktober' Schl. 126 5/8 (Vortag 126 7/8); single reading
+mercedes,1983-10,1983-10-31,,DEM,671,1983-11-01,24,eye-single,Daimler-Benz Schluss (Vortag 671); single reading
+nestle,1983-10,1983-10-31,I,CHF,4160,1983-11-01,21,eye-single,(4130) 4150 4180ttt 4150 R 4160; single reading
+nestle,1983-10,1983-10-31,N,CHF,2760,1983-11-01,21,eye-single,(2745) 2750L 2775ttt 2750L R 2750 2780ttt 2760; single reading
+sandoz,1983-10,1983-10-31,I,CHF,7200,1983-11-01,21,eye-single,(7225) 7200 7225 R 7200; single reading
+sandoz,1983-10,1983-10-31,N,CHF,2450,1983-11-01,21,eye-single,(2450) 2440 2465ttt R 2450 2470ttt 2460tt; last unmarked print; single reading
+sandoz,1983-10,1983-10-31,PS,CHF,1095,1983-11-01,21,eye-single,(1085) 1085 1085tt 1090 R 1095L; last print flagged L; single reading
+sbv,1983-10,1983-10-31,I,CHF,302,1983-11-01,21,eye-single,SBV bearer; (305) 303 304 302; single reading
+sbv,1983-10,1983-10-31,N,CHF,233,1983-11-01,21,eye-single,SBV registered; (233) 233 234 R 233; single reading
+sbv,1983-10,1983-10-31,PS,CHF,254,1983-11-01,21,eye-single,SBV participation certificate; (253) 254 R 254; single reading
+slb,1983-10,1983-10-31,,USD,52.25,1983-11-01,23,eye-single,New York Schl. 52 1/4 (Vortag 52 5/8); single reading
+swissair,1983-10,1983-10-31,I,CHF,885,1983-11-01,21,eye-single,Zurich table 'Kurse vom 31. Oktober' (issue 1.11.); (897) 888 ... 880 882 885; single reading
+swissair,1983-10,1983-10-31,N,CHF,727,1983-11-01,21,eye-single,(748) 745L ... R 722 728ttt 724 725 727; single reading
+ubs,1983-10,1983-10-31,I,CHF,3295,1983-11-01,21,eye-single,SBG bearer; (3290) 3295 3300 R 3300L 3295L; last print flagged L; single reading
+ubs,1983-10,1983-10-31,N,CHF,603,1983-11-01,21,eye-single,SBG registered; (602) 603; single reading
+ubs,1983-10,1983-10-31,PS,CHF,116,1983-11-01,21,eye-single,SBG participation certificate; (116.50) 115.50 116; single reading
+bmw,1983-11,1983-11-30,,DEM,427,1983-12-01,28,eye-single,Frankfurt 'Kurse vom 30. November' Schluss (Vortag 426); single reading
+ciba-geigy,1983-11,1983-11-30,I,CHF,2350,1983-12-01,25,eye-single,(2280) 2320 2330ttt ... 2335 R 2340 2360ttt 2350; single reading
+ciba-geigy,1983-11,1983-11-30,N,CHF,982,1983-12-01,25,eye-single,(967) 980 995ttt ... 982 R 983 982; single reading
+ciba-geigy,1983-11,1983-11-30,PS,CHF,1850,1983-12-01,25,eye-single,(1820) 1840 1850tt R 1850; single reading
+credit-suisse,1983-11,1983-11-30,I,CHF,2190,1983-12-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2170) 2180 2185 2190L R 2185 2190; single reading
+credit-suisse,1983-11,1983-11-30,N,CHF,412,1983-12-01,25,eye-single,printed 'Na. inkl. PS'; (410) 412; single reading
+ibm,1983-11,1983-11-30,,USD,118,1983-12-01,27,eye-single,New York Schl. 118 (Vortag 121 5/8 read); single reading
+mercedes,1983-11,1983-11-30,,DEM,707.5,1983-12-01,28,eye-single,Daimler-Benz Schluss 707.50 (Vortag 706.50); single reading
+nestle,1983-11,1983-11-30,I,CHF,4540,1983-12-01,25,eye-single,(4420) 4550 4540 4530 4530tt 4520 4550ttt 4530 R 4530 4540; single reading
+nestle,1983-11,1983-11-30,N,CHF,2915,1983-12-01,25,eye-single,(2895) 2910 ... 2915L 3030dt 50ttt 2910 R 2915; many forward marks; single reading
+sandoz,1983-11,1983-11-30,I,CHF,7500,1983-12-01,25,eye-single,(7500) 7525 7500; single reading
+sandoz,1983-11,1983-11-30,N,CHF,2520,1983-12-01,25,eye-single,(2515) 2520 2545tt 2650dt 50ttt 2550ttt R 2520 2520tt; single reading
+sandoz,1983-11,1983-11-30,PS,CHF,1145,1983-12-01,25,eye-single,(1155) 1150 1155ttt 1160ttt R 1145; single reading
+sbv,1983-11,1983-11-30,I,CHF,310,1983-12-01,25,eye-single,SBV bearer; (303) 306 307 306 308 309 308 R 309 310; single reading
+sbv,1983-11,1983-11-30,N,CHF,237,1983-12-01,25,eye-single,SBV registered; (233) 234 235 234 235 236 237 R 237; single reading
+sbv,1983-11,1983-11-30,PS,CHF,259,1983-12-01,25,eye-single,SBV participation certificate; (252) 255 256 257 258 257L R 258 259; single reading
+siemens,1983-11,1983-11-30,,DEM,380,1983-12-01,28,eye-single,"Siemens Schluss read at crop edge, Vortag 380 (Schluss cut off); lower confidence; single reading"
+slb,1983-11,1983-11-30,,USD,47.875,1983-12-01,27,eye-single,New York Schl. 47 7/8; single reading
+swissair,1983-11,1983-11-30,I,CHF,920,1983-12-01,25,eye-single,Zurich table 'Kurse vom 30. November'; (912) 913 912 915 918 R 920 920tt; single reading
+swissair,1983-11,1983-11-30,N,CHF,735,1983-12-01,25,eye-single,(736) 738 735 738 735 R 735; single reading
+ubs,1983-11,1983-11-30,I,CHF,3330,1983-12-01,25,eye-single,SBG bearer; (3290) 3300 3310 3315 3320 3325L R 3325 3330; single reading
+ubs,1983-11,1983-11-30,N,CHF,604,1983-12-01,25,eye-single,SBG registered; (601) 602 604; single reading
+ubs,1983-11,1983-11-30,PS,CHF,119,1983-12-01,25,eye-single,SBG participation certificate; (118.50) 119 R 119; single reading
+bmw,1983-12,1983-12-30,,DEM,427,1983-12-31,22,eye-single,Frankfurt single price column on page 22 ('Kurse vom 30. Dezember' header on NY page); columns marked geschlossen; read twice
+ibm,1983-12,1983-12-30,,USD,122.75,1983-12-31,21,eye-single,New York 'Kurse vom 30. Dezember' column Schl. 122 3/4 (Vortag 123); read twice
+mercedes,1983-12,1983-12-30,,DEM,651,1983-12-31,22,eye-single,Daimler-Benz single column; read twice
+siemens,1983-12,1983-12-30,,DEM,383.5,1983-12-31,22,eye-single,single column 383.50; read twice
+slb,1983-12,1983-12-30,,USD,50.125,1983-12-31,21,eye-single,New York Schl. 50 1/8 (Vortag 51); read twice
+bmw,1984-01,1984-01-31,,DEM,447,1984-02-01,28,eye-single,"Frankfurt Schluss 447 (Vortag 447); header not read, date from Swiss/NY tables; single reading"
+ciba-geigy,1984-01,1984-01-31,I,CHF,2210,1984-02-01,25,eye-single,(2220) 2205 25ttt 10 15 10 5t 20 10L R 10 5L 10; single reading
+ciba-geigy,1984-01,1984-01-31,PS,CHF,1835,1984-02-01,25,eye-single,(1820) 1830 5 R 5; single reading
+credit-suisse,1984-01,1984-01-31,I,CHF,2325,1984-02-01,25,eye-single,printed 'SKA Inh. ink. PS'; (2335) 2330 35L 30 R 25; single reading
+credit-suisse,1984-01,1984-01-31,N,CHF,432,1984-02-01,25,eye-single,printed 'Na. inkl. PS'; (434) 432; single reading
+ibm,1984-01,1984-01-31,,USD,114,1984-02-01,27,eye-single,New York 'Kurse vom 31. Januar' Tagesschluss 114 (Vortag 113 7/8); single reading
+mercedes,1984-01,1984-01-31,,DEM,623.5,1984-02-01,28,eye-single,Frankfurt Schluss for Daimler-Benz 623.50 (Vortag 627); single reading
+nestle,1984-01,1984-01-31,I,CHF,4910,1984-02-01,25,eye-single,(4950) 4920 10t 900t 900 20 30 R 20 10; single reading
+nestle,1984-01,1984-01-31,N,CHF,2930,1984-02-01,25,eye-single,"(2945) 2935 30 40ttt 15t 20 25 40 60ttt R 40 3050dt 50ttt 2935 30; many forward marks, lower confidence; single reading"
+sandoz,1984-01,1984-01-31,I,CHF,7200,1984-02-01,25,eye-single,(7050) 7150 75 200; single reading
+sandoz,1984-01,1984-01-31,N,CHF,2460,1984-02-01,25,eye-single,(2450) 2460 90ttt 50L 50L 80ttt R 60L; single reading
+sbv,1984-01,1984-01-31,I,CHF,340,1984-02-01,25,eye-single,SBV bearer; (341) 340 39 40 39L 40 R 40; single reading
+sbv,1984-01,1984-01-31,N,CHF,263,1984-02-01,25,eye-single,SBV registered; (263) 263 R 3; single reading
+sbv,1984-01,1984-01-31,PS,CHF,292,1984-02-01,25,eye-single,SBV participation certificate; (294) 292 R 2; single reading
+slb,1984-01,1984-01-31,,USD,46.5,1984-02-01,27,eye-single,New York Tagesschluss 46 1/2 (Vortag 45 1/4 low); single reading
+swissair,1984-01,1984-01-31,I,CHF,1050,1984-02-01,25,eye-single,Zurich table 'Kurse vom 31. Januar' (issue 1.2.1984); (1050) 1045 50 R 50 60ttt 55 50; single reading
+ubs,1984-01,1984-01-31,PS,CHF,125.5,1984-02-01,25,eye-single,SBG participation certificate; (126.5) 126 5.5 R 5.5; single reading
+bmw,1984-02,1984-02-29,,DEM,409,1984-03-01,24,eye-single,"Frankfurt Schluss (Vortag 419); header not read, date taken from the Swiss and New York tables (29 Feb); single reading"
+credit-suisse,1984-02,1984-02-29,I,CHF,2330,1984-03-01,21,eye-single,printed 'SKA Inh. inkl. PS'; (2350) 2340 45L 40 R 30; single reading
+credit-suisse,1984-02,1984-02-29,N,CHF,437,1984-03-01,21,eye-single,printed 'Na. inkl. PS'; (435) 440 36 R 7; single reading
+ibm,1984-02,1984-02-29,,USD,110.125,1984-03-01,23,eye-single,New York 'Kurse vom 29. Februar' Tagesschluss 110 1/8 (Vortag 109 7/8 read); Yahoo ratio within 0.3 percent; single reading
+mercedes,1984-02,1984-02-29,,DEM,575,1984-03-01,24,eye-single,Frankfurt Schluss for Daimler-Benz (Vortag 573.50); single reading
+nestle,1984-02,1984-02-29,I,CHF,4800,1984-03-01,21,eye-single,(4840) 4850 40L t 20L R 20 10 800; single reading
+sandoz,1984-02,1984-02-29,N,CHF,2400,1984-03-01,21,eye-single,(2420) 2410 400 R 400; single reading
+sbv,1984-02,1984-02-29,I,CHF,340,1984-03-01,21,eye-single,SBV bearer; (345) 342 1 2 1 R 1 40L; single reading
+sbv,1984-02,1984-02-29,N,CHF,261,1984-03-01,21,eye-single,SBV registered; (264) 262 1 2 R 1 2L 1 2L 1L 60 1; single reading
+sbv,1984-02,1984-02-29,PS,CHF,291,1984-03-01,21,eye-single,SBV participation certificate; (293) 291 R 90 1; single reading
+siemens,1984-02,1984-02-29,,DEM,397,1984-03-01,24,eye-single,Frankfurt Schluss (Vortag 399); single reading
+slb,1984-02,1984-02-29,,USD,48,1984-03-01,23,eye-single,New York Tagesschluss 48; single reading
+swissair,1984-02,1984-02-29,N,CHF,810,1984-03-01,21,eye-single,Zurich table 'Kurse vom 29. Februar'; (830) 830L 827 25t 30ttt 25 20tL 20 15 R 25L 20 10; value is last print expanded (tail lines with R are the least certain); single reading
+ubs,1984-02,1984-02-29,I,CHF,3480,1984-03-01,21,eye-single,SBG bearer; (3550) 3500 490 480 485 75 80 R 80; single reading
+ubs,1984-02,1984-02-29,N,CHF,655,1984-03-01,21,eye-single,SBG registered; (660) 660 R 55; single reading
+ubs,1984-02,1984-02-29,PS,CHF,124,1984-03-01,21,eye-single,SBG participation certificate; (126.5) 125.5L 5 4.5 4 R 4 4.5 4; single reading
+bmw,1984-03,1984-03-30,,DEM,412.5,1984-03-31,28,eye-single,Frankfurt Schluss 412.50 (Vortag 412.50); header 'Kurse vom 30. Maerz' read on the New York page only; single reading
+ciba-geigy,1984-03,1984-03-30,I,CHF,2230,1984-03-31,25,eye-single,(2235) 2225 40tt R 30; single reading
+ciba-geigy,1984-03,1984-03-30,N,CHF,985,1984-03-31,25,eye-single,(985) 983 93ttt 83 R 3 5; single reading
+ciba-geigy,1984-03,1984-03-30,PS,CHF,1730,1984-03-31,25,eye-single,(1720) 1730 t 20L R 30; single reading
+credit-suisse,1984-03,1984-03-30,I,CHF,2210,1984-03-31,25,eye-single,printed 'SKA Inh. inkl. PS'; (2210) 2200 10 R 10; single reading
+credit-suisse,1984-03,1984-03-30,N,CHF,425,1984-03-31,25,eye-single,printed 'Na. inkl. PS'; (420) 420 2 R 5; single reading
+ibm,1984-03,1984-03-30,,USD,113.875,1984-03-31,27,eye-single,New York list headed 'Kurse vom 30. Maerz' Tagesschluss 113 7/8 (Vortag 114); single reading
+mercedes,1984-03,1984-03-30,,DEM,556.5,1984-03-31,28,eye-single,Frankfurt Schluss for Daimler-Benz 556.50 (Vortag 557); single reading
+nestle,1984-03,1984-03-30,I,CHF,4950,1984-03-31,25,eye-single,(4945) 4945 55tt 45 R 50L; last print flagged L; single reading
+sandoz,1984-03,1984-03-30,N,CHF,2385,1984-03-31,25,eye-single,(2390) 2385 R 420ttt; last cash print; single reading
+sbv,1984-03,1984-03-30,I,CHF,340,1984-03-31,25,eye-single,SBV bearer; (339) 338 7 8 9 40 R 40; single reading
+sbv,1984-03,1984-03-30,N,CHF,262,1984-03-31,25,eye-single,SBV registered; (260) 259 8 9 8 9 260 59 60 1 2 1 R 1 2; single reading
+sbv,1984-03,1984-03-30,PS,CHF,283,1984-03-31,25,eye-single,SBV participation certificate; (280) 280 1 R 2 3; single reading
+slb,1984-03,1984-03-30,,USD,52.875,1984-03-31,27,eye-single,New York Tagesschluss 52 7/8; single reading
+swissair,1984-03,1984-03-30,I,CHF,1065,1984-03-31,25,eye-single,Zurich table 'Kurse vom 30. Maerz' (issue Sat 31.3.); (1065) 1060 70 65 R 5; value is last print expanded; single reading
+swissair,1984-03,1984-03-30,N,CHF,847,1984-03-31,25,eye-single,(857) 847 55ttt; last cash print; single reading
+ubs,1984-03,1984-03-30,I,CHF,3480,1984-03-31,25,eye-single,SBG bearer; (3450) 3460 70 75 80 R 75 80; single reading
+ubs,1984-03,1984-03-30,N,CHF,645,1984-03-31,25,eye-single,SBG registered; (642) 642 5; single reading
+ubs,1984-03,1984-03-30,PS,CHF,124,1984-03-31,25,eye-single,SBG participation certificate; (121.5) 121.5 2 R .5 3 4; single reading
+bmw,1984-04,1984-04-30,,DEM,394,1984-05-02,28,eye-single,Frankfurt closed 1 May; single price column on page headed with foreign list of 1 May; taken as close of 30 April (header not read); first pass
+ciba-geigy,1984-04,1984-04-30,I,CHF,2290,1984-05-02,25,eye-single,(2275) 2285 500 dt 50tttL 290L R 90; first pass
+ciba-geigy,1984-04,1984-04-30,PS,CHF,1765,1984-05-02,25,eye-single,(1775) 1765 80tttL 65 R 65; first pass
+credit-suisse,1984-04,1984-04-30,I,CHF,2280,1984-05-02,25,eye-single,printed 'SKA Inh. inkl. PS'; (2285) 2280 R 80; first pass
+credit-suisse,1984-04,1984-04-30,N,CHF,430,1984-05-02,25,eye-single,printed 'Na. inkl. PS'; (427) 427 R 8 30L; last print flagged L; first pass
+ibm,1984-04,1984-04-30,,USD,113.75,1984-05-02,27,eye-single,New York list headed 'Kurse vom 1. Mai': month-end = Vortag column 113 3/4 (Schluss 116 3/8); first pass
+mercedes,1984-04,1984-04-30,,DEM,585,1984-05-02,28,eye-single,Frankfurt single column (see BMW); first pass
+nestle,1984-04,1984-04-30,I,CHF,5295,1984-05-02,25,eye-single,"(5280) 5295 300 295 300 50ttt 300 295 850 dt 100tttL 300 R 300 50ttt 30tt 300 295; busy line, medium confidence; first pass"
+nestle,1984-04,1984-04-30,N,CHF,3180,1984-05-02,25,eye-single,"(3150) 3160 70t 90ttt tt 70 60 70 70t 200ttt R 3170 80t 200ttt 10ttt 200tt 180; busy line, medium confidence; first pass"
+sandoz,1984-04,1984-04-30,I,CHF,6750,1984-05-02,25,eye-single,(6750) 6750; first pass
+sandoz,1984-04,1984-04-30,N,CHF,2470,1984-05-02,25,eye-single,(2460) 2460 70t 65 R 70; first pass
+sandoz,1984-04,1984-04-30,PS,CHF,1010,1984-05-02,25,eye-single,(1020) 1015 30ttt 10L; last print flagged L; first pass
+sbv,1984-04,1984-04-30,I,CHF,344,1984-05-02,25,eye-single,SBV bearer; (344) 343 4 3 4L R 4; first pass
+sbv,1984-04,1984-04-30,N,CHF,263,1984-05-02,25,eye-single,SBV registered; (264) 263 R 4 3; first pass
+sbv,1984-04,1984-04-30,PS,CHF,278,1984-05-02,25,eye-single,SBV participation certificate; (279) 277 8 R 8; first pass
+siemens,1984-04,1984-04-30,,DEM,399,1984-05-02,28,eye-single,Frankfurt single column (see BMW); first pass
+slb,1984-04,1984-04-30,,USD,54.5,1984-05-02,27,eye-single,New York Vortag column 54 1/2 (Schluss 53 5/8); first pass
+swissair,1984-04,1984-04-30,I,CHF,1070,1984-05-02,25,eye-single,Zurich table 'Kurse vom 30. April' (1 May holiday); (1080) 1070 R 70; first pass
+swissair,1984-04,1984-04-30,N,CHF,865,1984-05-02,25,eye-single,(865) 865 70ttt 63 5 R 65 70ttt; first pass
+ubs,1984-04,1984-04-30,I,CHF,3545,1984-05-02,25,eye-single,SBG bearer; (3550) 3550 40 50 55L 50 R 45; first pass
+ubs,1984-04,1984-04-30,N,CHF,633,1984-05-02,25,eye-single,SBG registered; (633) 635 30L 35L 30 R 33; first pass
+ubs,1984-04,1984-04-30,PS,CHF,124.5,1984-05-02,25,eye-single,SBG participation certificate; (124) 124 R 4.5; first pass
+bmw,1984-05,1984-05-30,,DEM,383,1984-06-01,28,eye-single,"Frankfurt page: Frankfurt closed 31 May (Ascension), single price column printed; assumed to be the close of 30 May (header not read); first pass"
+ciba-geigy,1984-05,1984-05-30,I,CHF,2200,1984-06-01,25,eye-single,(2210) 2185 90 205 200 195 90 95 R 90 200; first pass
+ciba-geigy,1984-05,1984-05-30,N,CHF,965,1984-06-01,25,eye-single,(978) 973 70tt t tttL 70 72 70 R 68tt 72ttt 65; first pass
+ciba-geigy,1984-05,1984-05-30,PS,CHF,1690,1984-06-01,25,eye-single,(1700) 1700L 695 90 R 5 90 5 90; first pass
+credit-suisse,1984-05,1984-05-30,I,CHF,2190,1984-06-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2215) 2200 195 90 200 195 85 200L 195 R 85 80 75 80 85 90L; first pass
+credit-suisse,1984-05,1984-05-30,N,CHF,415,1984-06-01,25,eye-single,printed 'Na. inkl. PS'; (420) 420 17 R 17 15; first pass
+ibm,1984-05,1984-05-31,,USD,108,1984-06-01,27,eye-single,New York Kurse vom 31. Mai (NY open) Schluss 108 (Vortag 107 1/8); first pass
+mercedes,1984-05,1984-05-30,,DEM,568.5,1984-06-01,28,eye-single,Frankfurt single column 568.50 (see BMW); first pass
+sandoz,1984-05,1984-05-30,I,CHF,6550,1984-06-01,25,eye-single,(6650) 6500 R 50; first pass
+sandoz,1984-05,1984-05-30,N,CHF,2340,1984-06-01,25,eye-single,(2350) 2350 40 R 40; first pass
+sandoz,1984-05,1984-05-30,PS,CHF,960,1984-06-01,25,eye-single,(970) 965 tt 70ttt 65 R 60; first pass
+sbv,1984-05,1984-05-30,I,CHF,335,1984-06-01,25,eye-single,SBV bearer; (338) 338 7 5 7L R 6 5; first pass
+sbv,1984-05,1984-05-30,N,CHF,254,1984-06-01,25,eye-single,SBV registered; (256) 254 5 R 4; first pass
+sbv,1984-05,1984-05-30,PS,CHF,267,1984-06-01,25,eye-single,SBV participation certificate; (274) 270 69 R 8 7; first pass
+siemens,1984-05,1984-05-30,,DEM,388,1984-06-01,28,eye-single,Frankfurt single column (see BMW); first pass
+slb,1984-05,1984-05-31,,USD,47.875,1984-06-01,27,eye-single,New York Schluss read as 47 7/8 (medium legibility); first pass
+swissair,1984-05,1984-05-30,I,CHF,946,1984-06-01,25,eye-single,"Zurich table 'Kurse vom 30. Mai' (31 May Ascension, Zurich closed); (950) 950 3 50 48L R 5 8tt 9 50 47 50L 46; first pass"
+swissair,1984-05,1984-05-30,N,CHF,755,1984-06-01,25,eye-single,(763) 770 65tt 5 8L 5 R 60 5ttt 55tt 65tt 60 55; first pass
+ubs,1984-05,1984-05-30,I,CHF,3360,1984-06-01,25,eye-single,SBG bearer; (3405) 3385 80 75 70 R 60 50 60 55 60L 50 60; first pass
+ubs,1984-05,1984-05-30,N,CHF,610,1984-06-01,25,eye-single,SBG registered; (619) 615 3 10 R 10; first pass
+ubs,1984-05,1984-05-30,PS,CHF,119,1984-06-01,25,eye-single,SBG participation certificate; (120.5) 118 R 18 9; first pass
+bmw,1984-06,1984-06-29,,DEM,399,1984-06-30,28,eye-single,Frankfurt 'Kurse vom 29. Juni' Schluss (Vortag 398); JdG print 400.5; first pass
+ciba-geigy,1984-06,1984-06-29,I,CHF,2185,1984-06-30,25,eye-single,(2175) 2190 200ttt 190 210ttt 195 R 85; first pass
+ciba-geigy,1984-06,1984-06-29,N,CHF,975,1984-06-30,25,eye-single,(972) 973 8ttt 5t R 3 5; first pass
+ciba-geigy,1984-06,1984-06-29,PS,CHF,1685,1984-06-30,25,eye-single,(1665) 1690 700tttL 680 85 R 95ttt; first pass
+credit-suisse,1984-06,1984-06-29,I,CHF,2060,1984-06-30,25,eye-single,printed 'SKA Inh. inkl. PS'; (2060) 2065 60 65L R 60; first pass
+credit-suisse,1984-06,1984-06-29,N,CHF,405,1984-06-30,25,eye-single,printed 'Na. inkl. PS'; (404) 406 5; first pass
+ibm,1984-06,1984-06-29,,USD,105.75,1984-06-30,27,eye-single,New York 'Kurse vom 29. Juni' Schluss 105 3/4 (Vortag 105 1/4); first pass
+mercedes,1984-06,1984-06-29,,DEM,578.5,1984-06-30,28,eye-single,Frankfurt Schluss for Daimler-Benz 578.50 (Vortag 569); JdG print 578; first pass
+nestle,1984-06,1984-06-29,I,CHF,5050,1984-06-30,25,eye-single,(5010) 5040 50 ttt 45 50t R 50; first pass
+nestle,1984-06,1984-06-29,N,CHF,2935,1984-06-30,25,eye-single,(2925) 2935 60ttt 40t R 40 35; first pass
+sandoz,1984-06,1984-06-29,I,CHF,6575,1984-06-30,25,eye-single,(6575) 6575 R 75; first pass
+sandoz,1984-06,1984-06-29,N,CHF,2360,1984-06-30,25,eye-single,(2340) 2360 80ttt 60 R 60; first pass
+sandoz,1984-06,1984-06-29,PS,CHF,948,1984-06-30,25,eye-single,(940) 948 R 8; first pass
+sbv,1984-06,1984-06-29,I,CHF,326,1984-06-30,25,eye-single,SBV bearer; (324) 325 6 R 5 6; first pass
+sbv,1984-06,1984-06-29,N,CHF,248,1984-06-30,25,eye-single,SBV registered; (247) 247 R 8; first pass
+sbv,1984-06,1984-06-29,PS,CHF,260,1984-06-30,25,eye-single,SBV participation certificate; (259) 260 R 60; first pass
+siemens,1984-06,1984-06-29,,DEM,394.5,1984-06-30,28,eye-single,"Frankfurt Schluss (last digit cut at crop edge; reads 394.5, Vortag 391); JdG print 394; first pass"
+slb,1984-06,1984-06-29,,USD,45.25,1984-06-30,27,eye-single,New York Schluss 45 1/4 (Vortag 45 1/2); first pass
+swissair,1984-06,1984-06-29,I,CHF,945,1984-06-30,25,eye-single,Zurich table 'Kurse vom 29. Juni'; (935) 935 40 5; first pass
+swissair,1984-06,1984-06-29,N,CHF,765,1984-06-30,25,eye-single,(760) 761 60tL 5 R 5; first pass
+ubs,1984-06,1984-06-29,I,CHF,3280,1984-06-30,25,eye-single,SBG bearer; (3275) 3280 85L 80 R 80; first pass
+ubs,1984-06,1984-06-29,N,CHF,613,1984-06-30,25,eye-single,SBG registered; (605) 610 R 3; first pass
+ubs,1984-06,1984-06-29,PS,CHF,115.5,1984-06-30,25,eye-single,SBG participation certificate; (115.5) 115.5 R .5; first pass
+bmw,1984-07,1984-07-31,,DEM,366,1984-08-02,22,eye-single,Frankfurt/Auslandboersen page headed 'Kurse vom 1. August': month-end = Vortag column; first pass
+ciba-geigy,1984-07,1984-07-31,I,CHF,2265,1984-08-02,19,eye-single,(2260) 2260 65 70 65 60 R 60 55 60 65; first pass
+ciba-geigy,1984-07,1984-07-31,N,CHF,1000,1984-08-02,19,eye-single,"(995) 998 1000L 998 9 1000 998 1000L R 1000L 2tt 7ttt 3tt; ambiguous tail, value is the repeated 1000L print; first pass"
+ciba-geigy,1984-07,1984-07-31,PS,CHF,1730,1984-08-02,19,eye-single,(1730) 1735 R 30L; first pass
+credit-suisse,1984-07,1984-07-31,I,CHF,2070,1984-08-02,19,eye-single,printed 'SKA Inh. inkl. PS'; (2070) 2070 R 70L; first pass
+credit-suisse,1984-07,1984-07-31,N,CHF,398,1984-08-02,19,eye-single,printed 'Na. inkl. PS'; (400) 400L 398L; first pass
+ibm,1984-07,1984-07-31,,USD,110.625,1984-08-02,21,eye-single,New York 'Kurse vom 1. August' Vortag column 110 5/8 (Schluss 112 1/8); first pass
+mercedes,1984-07,1984-07-31,,DEM,539,1984-08-02,22,eye-single,Daimler-Benz Vortag column; first pass
+nestle,1984-07,1984-07-31,I,CHF,5110,1984-08-02,19,eye-single,(5100) 5115 40ttt 100 R 10 50ttt; first pass
+nestle,1984-07,1984-07-31,N,CHF,2965,1984-08-02,19,eye-single,(2970) 2955 70tttL 60 R 65 75tt; first pass
+sandoz,1984-07,1984-07-31,I,CHF,6825,1984-08-02,19,eye-single,only print; first pass
+sandoz,1984-07,1984-07-31,N,CHF,2400,1984-08-02,19,eye-single,(2420) 2400 R 400; first pass
+sbv,1984-07,1984-07-31,I,CHF,309,1984-08-02,19,eye-single,SBV bearer; (310) 308 9 R 8 9; first pass
+sbv,1984-07,1984-07-31,N,CHF,245,1984-08-02,19,eye-single,SBV registered; (248) 245 R 5; first pass
+sbv,1984-07,1984-07-31,PS,CHF,256,1984-08-02,19,eye-single,SBV participation certificate; (257) 257 6 R 6; first pass
+siemens,1984-07,1984-07-31,,DEM,367.8,1984-08-02,22,eye-single,Siemens Vortag column 367.80; first pass
+slb,1984-07,1984-07-31,,USD,39.625,1984-08-02,21,eye-single,New York Vortag column 39 5/8 (Schluss 41 1/2); first pass
+swissair,1984-07,1984-07-31,I,CHF,930,1984-08-02,19,eye-single,Zurich table 'Kurse vom 31. Juli' (issue 2.8.1984; 1 Aug holiday); (921) 25 8 38tttL 30 28 7 8 30 2 R 2 30; first pass
+swissair,1984-07,1984-07-31,N,CHF,800,1984-08-02,19,eye-single,(808) 805 6 4 R 800; first pass
+ubs,1984-07,1984-07-31,I,CHF,3190,1984-08-02,19,eye-single,SBG bearer; (3185) 3190 R 90L; first pass
+ubs,1984-07,1984-07-31,N,CHF,601,1984-08-02,19,eye-single,SBG registered; (600) 601; first pass
+ubs,1984-07,1984-07-31,PS,CHF,111.5,1984-08-02,19,eye-single,SBG participation certificate; (111.5) 111.5 R 1L .5; first pass
+bmw,1984-08,1984-08-31,,DEM,379,1984-09-01,28,eye-single,Frankfurt 'Kurse vom 31. August' Schluss (Vortag 382); first pass
+ciba-geigy,1984-08,1984-08-31,I,CHF,2440,1984-09-01,25,eye-single,(2440) 2440 45 40 R 40; first pass
+ciba-geigy,1984-08,1984-08-31,N,CHF,1059,1984-09-01,25,eye-single,(1058) 1058 70ttt 59 7 9 R 9 70ttt; first pass
+ciba-geigy,1984-08,1984-08-31,PS,CHF,1930,1984-09-01,25,eye-single,(1940) 1930 45tttL 25tt t 30 25 R 30; first pass
+credit-suisse,1984-08,1984-08-31,I,CHF,2120,1984-09-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2120) 2125 20 R 20; first pass
+credit-suisse,1984-08,1984-08-31,N,CHF,410,1984-09-01,25,eye-single,printed 'Na. inkl. PS'; (408) 410L 08 R 10; first pass
+ibm,1984-08,1984-08-31,,USD,123.25,1984-09-01,27,eye-single,New York Schluss 123 1/4 (Vortag 123 5/8); first pass
+mercedes,1984-08,1984-08-31,,DEM,540.2,1984-09-01,28,eye-single,Frankfurt Schluss for Daimler-Benz 540.20 (Vortag 543); first pass
+nestle,1984-08,1984-08-31,I,CHF,5460,1984-09-01,25,eye-single,(5445) 5460 65 70 R 70 60 50 60; first pass
+nestle,1984-08,1984-08-31,N,CHF,3095,1984-09-01,25,eye-single,(3095) 3100L R 095; no PS line this day; first pass
+sandoz,1984-08,1984-08-31,I,CHF,6950,1984-09-01,25,eye-single,(6950) 6950; first pass
+sandoz,1984-08,1984-08-31,N,CHF,2490,1984-09-01,25,eye-single,(2500) 2495 90t 90 95tt 85 90 85 t R 90; first pass
+sandoz,1984-08,1984-08-31,PS,CHF,1125,1984-09-01,25,eye-single,(1123) 1125 R 25; first pass
+sbv,1984-08,1984-08-31,I,CHF,325,1984-09-01,25,eye-single,SBV bearer; (323) 322 3 4L 3 4 R 4 5; first pass
+sbv,1984-08,1984-08-31,N,CHF,246.5,1984-09-01,25,eye-single,SBV registered; (246) 246.5 R 6.5; first pass
+sbv,1984-08,1984-08-31,PS,CHF,268,1984-09-01,25,eye-single,SBV participation certificate; (268) 268 R 68; first pass
+siemens,1984-08,1984-08-31,,DEM,404,1984-09-01,28,eye-single,Frankfurt Schluss (Vortag 403; column edge cut); first pass
+slb,1984-08,1984-08-31,,USD,48.25,1984-09-01,27,eye-single,New York Schluss 48 1/4; first pass
+swissair,1984-08,1984-08-31,I,CHF,975,1984-09-01,25,eye-single,Zurich table 'Kurse vom 31. August'; (980) 980 75; first pass
+swissair,1984-08,1984-08-31,N,CHF,825,1984-09-01,25,eye-single,(830) 830 R 25L; last print flagged L; first pass
+ubs,1984-08,1984-08-31,I,CHF,3360,1984-09-01,25,eye-single,SBG bearer; (3350) 3360 65 60 65L R 60; first pass
+ubs,1984-08,1984-08-31,N,CHF,618,1984-09-01,25,eye-single,SBG registered; (615) 615 R 18; first pass
+ubs,1984-08,1984-08-31,PS,CHF,117,1984-09-01,25,eye-single,SBG participation certificate; (117.5) 117 R 17; first pass
+bmw,1984-09,1984-09-28,,DEM,388,1984-09-29,28,eye-single,Frankfurt 'Kurse vom 28. September' Schluss (Vortag 396); first pass
+ciba-geigy,1984-09,1984-09-28,I,CHF,2495,1984-09-29,25,eye-single,(2485) 2495 t R 95; first pass
+ciba-geigy,1984-09,1984-09-28,N,CHF,1074,1984-09-29,25,eye-single,(1065) 1072 80ttt 72t 4 2 t R 4; first pass
+ciba-geigy,1984-09,1984-09-28,PS,CHF,1950,1984-09-29,25,eye-single,(1930) 1945 R 50; first pass
+credit-suisse,1984-09,1984-09-28,I,CHF,2250,1984-09-29,25,eye-single,printed 'SKA Inh. inkl. PS'; (2225) 2250 R 50 40 45 50 55 50; first pass
+credit-suisse,1984-09,1984-09-28,N,CHF,421,1984-09-29,25,eye-single,printed 'Na. inkl. PS'; (418) 420 2 4 R 2 1; first pass
+ibm,1984-09,1984-09-28,,USD,124,1984-09-29,27,eye-single,New York Schluss 124 (Vortag 125 1/4); first pass
+mercedes,1984-09,1984-09-28,,DEM,590.5,1984-09-29,28,eye-single,Frankfurt Schluss for Daimler-Benz 590.50 (Vortag 590.70); first pass
+nestle,1984-09,1984-09-28,I,CHF,5295,1984-09-29,25,eye-single,"(5260) 5285 ttt R 85 90 95 300ttt; line cut by column break of crop, read from one crop only; first pass"
+nestle,1984-09,1984-09-28,N,CHF,3025,1984-09-29,25,eye-single,(3000) 3020 50ttt 20L R 25 50ttt; first pass
+sandoz,1984-09,1984-09-28,N,CHF,2470,1984-09-29,25,eye-single,(2460) 2470 90ttt; no bearer line printed; first pass
+sbv,1984-09,1984-09-28,I,CHF,344,1984-09-29,25,eye-single,SBV bearer; (341) 345 6L 5 4 R 4 5 4; first pass
+sbv,1984-09,1984-09-28,N,CHF,260,1984-09-29,25,eye-single,SBV registered; (256) 258 9 60 59 60 1 R 60; first pass
+sbv,1984-09,1984-09-28,PS,CHF,287,1984-09-29,25,eye-single,SBV participation certificate; (286) 287 6 8 7 R 6 7; first pass
+siemens,1984-09,1984-09-28,,DEM,436,1984-09-29,28,eye-single,Frankfurt Schluss (Vortag 437.50); first pass
+slb,1984-09,1984-09-28,,USD,46,1984-09-29,27,eye-single,New York Schluss 46 (high 46 3/8); first pass
+swissair,1984-09,1984-09-28,I,CHF,975,1984-09-29,25,eye-single,Zurich table 'Kurse vom 28. September'; (975) 975 80L R 75; first pass
+swissair,1984-09,1984-09-28,N,CHF,837,1984-09-29,25,eye-single,(838) 837 5t 8 7 R 7; first pass
+ubs,1984-09,1984-09-28,I,CHF,3440,1984-09-29,25,eye-single,SBG bearer; (3415) 3450 45 50L 45 40 45 50 R 45 40; first pass
+ubs,1984-09,1984-09-28,N,CHF,645,1984-09-29,25,eye-single,SBG registered; (640) 640 5 50 2 50L R 5; first pass
+ubs,1984-09,1984-09-28,PS,CHF,126,1984-09-29,25,eye-single,SBG participation certificate; (123.5) 126 .5 7 6.5 6 .5 7 6 .5 R 7 6.5 6L; last print flagged L; first pass
+bmw,1984-10,1984-10-31,,DEM,380,1984-11-01,28,eye-single,Frankfurt 'Kurse vom 31. Oktober' Schluss (Vortag 381); first pass
+ciba-geigy,1984-10,1984-10-31,I,CHF,2550,1984-11-01,25,eye-single,(2510) 2525 t 30ttt 25 30 R 30 35 40ttt 40 50L; last print flagged L; first pass
+ciba-geigy,1984-10,1984-10-31,N,CHF,1072,1984-11-01,25,eye-single,(1072) 1072 85tttL R 72; first pass
+ciba-geigy,1984-10,1984-10-31,PS,CHF,1965,1984-11-01,25,eye-single,(1960) 1965; first pass
+credit-suisse,1984-10,1984-10-31,I,CHF,2290,1984-11-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2260) 2285 90 85L 90 85 90 85 R 90; first pass
+credit-suisse,1984-10,1984-10-31,N,CHF,432,1984-11-01,25,eye-single,printed 'Na. inkl. PS'; (430) 433 R 4 2; first pass
+ibm,1984-10,1984-10-31,,USD,124.625,1984-11-01,27,eye-single,New York Schluss 124 5/8 (Vortag 126 1/4); first pass
+mercedes,1984-10,1984-10-31,,DEM,582.5,1984-11-01,28,eye-single,Frankfurt Schluss for Daimler-Benz 582.50 (Vortag 581.50); first pass
+nestle,1984-10,1984-10-31,I,CHF,5310,1984-11-01,25,eye-single,(5300) 5315 tt 300L 10 R 10; first pass
+nestle,1984-10,1984-10-31,N,CHF,3090,1984-11-01,25,eye-single,(3080) 3080 110ttt R 080 100tt 090L 85t; last cash print flagged L; no PS line this day; first pass
+sandoz,1984-10,1984-10-31,I,CHF,6975,1984-11-01,25,eye-single,(6950) 7025 R 6975; first pass
+sandoz,1984-10,1984-10-31,N,CHF,2485,1984-11-01,25,eye-single,(2470) 2480 500ttt R 485; first pass
+sandoz,1984-10,1984-10-31,PS,CHF,1100,1984-11-01,25,eye-single,(1092) 1095 99 100L 095 R 100; first pass
+sbv,1984-10,1984-10-31,I,CHF,360,1984-11-01,25,eye-single,SBV bearer; (358) 360 1L 60 1 60 R 60; first pass
+sbv,1984-10,1984-10-31,N,CHF,268,1984-11-01,25,eye-single,SBV registered; (266) 266 7 8 9 8 7 8 R 7 8L; last print flagged L; first pass
+sbv,1984-10,1984-10-31,PS,CHF,294,1984-11-01,25,eye-single,SBV participation certificate; (291) 292 3 4 R 3 4L; last print flagged L; first pass
+siemens,1984-10,1984-10-31,,DEM,444,1984-11-01,28,eye-single,Frankfurt Schluss (Vortag 441); first pass
+slb,1984-10,1984-10-31,,USD,41.875,1984-11-01,27,eye-single,New York Schluss 41 7/8; first pass
+ubs,1984-10,1984-10-31,I,CHF,3415,1984-11-01,25,eye-single,SBG bearer; Zurich table 'Kurse vom 31. Oktober'; (3385) 3400 05 20L 10 15 10 15 20L 10 20 25 20 15 R 20 15 10 15; first pass
+ubs,1984-10,1984-10-31,N,CHF,650,1984-11-01,25,eye-single,SBG registered; (640) 648 50; first pass
+ubs,1984-10,1984-10-31,PS,CHF,124.5,1984-11-01,25,eye-single,SBG participation certificate; (124) 124.5L 5 .5 R .5; first pass
+bmw,1984-11,1984-11-30,,DEM,368,1984-12-01,28,eye-single,Frankfurt list 'Kurse vom 30. November' Schluss (Vortag 369); first pass
+ciba-geigy,1984-11,1984-11-30,I,CHF,2455,1984-12-01,25,eye-single,(2445) 2450 40 R 40 50 55; first pass
+ciba-geigy,1984-11,1984-11-30,N,CHF,1068,1984-12-01,25,eye-single,(1058) 1060 70ttt 56 60 58 60 65 R 80ttt 68 70L; value 1068 is the last unmarked cash print before the final L print 1070; first pass
+ciba-geigy,1984-11,1984-11-30,PS,CHF,1960,1984-12-01,25,eye-single,(1970) 60tt 1955 60 55 R 55 60; first pass
+credit-suisse,1984-11,1984-11-30,I,CHF,2295,1984-12-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2300) 2295 90 R 90 95; first pass
+credit-suisse,1984-11,1984-11-30,N,CHF,439,1984-12-01,25,eye-single,printed 'Na. inkl. PS'; (439) 439 R 9; first pass
+ibm,1984-11,1984-11-30,,USD,121.25,1984-12-01,27,eye-single,New York list Schluss 121 1/4 (Vortag 122); first pass
+mercedes,1984-11,1984-11-30,,DEM,575,1984-12-01,28,eye-single,Frankfurt Schluss for Daimler-Benz (Vortag 569); first pass
+nestle,1984-11,1984-11-30,I,CHF,5330,1984-12-01,25,eye-single,(5310) 5320 25 t R 25 30; first pass
+nestle,1984-11,1984-11-30,N,CHF,3200,1984-12-01,25,eye-single,(3170) 3170 ... 190 220ttt R 190 t 95 200L; last print flagged L; no PS line printed this day; first pass
+sandoz,1984-11,1984-11-30,I,CHF,7250,1984-12-01,25,eye-single,(7200) 7250; first pass
+sandoz,1984-11,1984-11-30,N,CHF,2470,1984-12-01,25,eye-single,(2465) 2460 R 60 65 70; first pass
+sandoz,1984-11,1984-11-30,PS,CHF,1135,1984-12-01,25,eye-single,(1135) 1125 35L R 25 35; first pass
+sbv,1984-11,1984-11-30,I,CHF,356,1984-12-01,25,eye-single,SBV bearer; (354) 353 4 3 4L 3 R 4 5 6 5 4 5 6; first pass
+sbv,1984-11,1984-11-30,N,CHF,270,1984-12-01,25,eye-single,SBV registered ('Nam.'); (270) 270L R 70; first pass
+sbv,1984-11,1984-11-30,PS,CHF,296,1984-12-01,25,eye-single,SBV participation certificate; (296) 296 R 6; first pass
+siemens,1984-11,1984-11-30,,DEM,454,1984-12-01,28,eye-single,"Frankfurt Schluss (453 Vortag; Schluss column cut at crop edge, 454 or 454.x); first pass"
+slb,1984-11,1984-11-30,,USD,38.5,1984-12-01,27,eye-single,New York list Schluss 38 1/2; first pass
+swissair,1984-11,1984-11-30,I,CHF,1018,1984-12-01,25,eye-single,Zurich table 'Kurse vom 30. November'; (1027) 1025 22 20 R 5L 2 20 18; first pass
+ubs,1984-11,1984-11-30,I,CHF,3510,1984-12-01,25,eye-single,SBG bearer; (3500) 3495 500L 495 R 500 10; first pass
+ubs,1984-11,1984-11-30,N,CHF,660,1984-12-01,25,eye-single,SBG registered; (662) 662 60 R 60; first pass
+ubs,1984-11,1984-11-30,PS,CHF,127.5,1984-12-01,25,eye-single,SBG participation certificate; (128) 127.5 R .5; first pass
+ibm,1984-12,1984-12-31,,USD,123,1985-01-03,16,eye-single,New York list 'Kurse vom 2. Januar' (issue of 3.1.1985): month-end = Vortag column 123 (Schluss 120 1/4); Yahoo ratio ok; no Swiss share table in either December issue (see notes); read once clearly
+slb,1984-12,1984-12-31,,USD,38.375,1985-01-03,16,eye-single,New York list 'Kurse vom 2. Januar': Vortag column 38 3/8 (Schluss 38); read once clearly
+bmw,1985-01,1985-01-31,,DEM,371,1985-02-01,28,eye-single,Frankfurt 'Kurse vom 31. Januar' Schluss (Vortag 370); first pass
+ciba-geigy,1985-01,1985-01-31,I,CHF,2800,1985-02-01,25,eye-single,(2800 795 800tt ttt 800 R 795 800); first pass
+ciba-geigy,1985-01,1985-01-31,N,CHF,1230,1985-02-01,25,eye-single,(1233 30t 50tttL 30tt R 30L); first pass
+ciba-geigy,1985-01,1985-01-31,PS,CHF,2250,1985-02-01,25,eye-single,(2245 50L 45 50 R 50); first pass
+credit-suisse,1985-01,1985-01-31,I,CHF,2440,1985-02-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2435 40L 35 40L R 35 40); first pass
+credit-suisse,1985-01,1985-01-31,N,CHF,462,1985-02-01,25,eye-single,printed 'Na. inkl. PS'; (462 60 R 2); first pass
+ibm,1985-01,1985-01-31,,USD,136.375,1985-02-01,27,eye-single,New York 'Kurse vom 31. Januar' Schluss 136 3/8; first pass
+mercedes,1985-01,1985-01-31,,DEM,633.2,1985-02-01,28,eye-single,Frankfurt Schluss 633.20 (Vortag 633); first pass
+nestle,1985-01,1985-01-31,I,CHF,6140,1985-02-01,25,eye-single,(6125 tt t 350 dt 200ttt 130 25 30 R 40 ttt); equals JdG 6140; first pass
+nestle,1985-01,1985-01-31,N,CHF,3435,1985-02-01,25,eye-single,(3440 5tt 60ttt 575 dt 50ttt 440 R 35); equals JdG 3435; first pass
+sandoz,1985-01,1985-01-31,I,CHF,7800,1985-02-01,25,eye-single,(7800); first pass
+sandoz,1985-01,1985-01-31,N,CHF,2725,1985-02-01,25,eye-single,(2740 35 R 25); first pass
+sandoz,1985-01,1985-01-31,PS,CHF,1330,1985-02-01,25,eye-single,(1310 tt 20ttt R 20 25 30); first pass
+sbv,1985-01,1985-01-31,I,CHF,373,1985-02-01,25,eye-single,SBV bearer; (373 2 R 3); first pass
+sbv,1985-01,1985-01-31,N,CHF,284,1985-02-01,25,eye-single,SBV registered; (285 4 R 4); first pass
+sbv,1985-01,1985-01-31,PS,CHF,311,1985-02-01,25,eye-single,SBV participation certificate (line without 1.1.85); (310 1 R 1); first pass
+siemens,1985-01,1985-01-31,,DEM,510.5,1985-02-01,28,eye-single,"Frankfurt Schluss, last digit cut by crop edge (510.5 or 510.50); first pass"
+slb,1985-01,1985-01-31,,USD,39.875,1985-02-01,27,eye-single,New York Schluss 39 7/8; first pass
+swissair,1985-01,1985-01-31,I,CHF,1130,1985-02-01,25,eye-single,Zurich table 'Kurse vom 31. Januar'; last print flagged L (concluded in the call) (1125 30L 25 R 25 30L); first pass
+swissair,1985-01,1985-01-31,N,CHF,892,1985-02-01,25,eye-single,(885 9 5 9 R 2) read as 892; first pass
+ubs,1985-01,1985-01-31,I,CHF,3710,1985-02-01,25,eye-single,SBG bearer; (3720 15 10 R 10); first pass
+ubs,1985-01,1985-01-31,N,CHF,690,1985-02-01,25,eye-single,SBG registered; (695 3 90 R 90); first pass
+ubs,1985-01,1985-01-31,PS,CHF,140,1985-02-01,25,eye-single,SBG participation certificate; (139.5 9 R 40); first pass
+bmw,1985-02,1985-02-28,,DEM,383,1985-03-01,28,eye-single,Frankfurt list 'Kurse vom 28. Februar' Schluss (Vortag 382); first pass
+ciba-geigy,1985-02,1985-02-28,I,CHF,2890,1985-03-01,25,eye-single,(2900 10 900 10 900 R 890); first pass
+ciba-geigy,1985-02,1985-02-28,N,CHF,1250,1985-03-01,25,eye-single,(1250 60ttt 55 50 3 R 50); first pass
+ciba-geigy,1985-02,1985-02-28,PS,CHF,2315,1985-03-01,25,eye-single,(2330 25 30L 20t 5 20L 5 20 R 15); first pass
+credit-suisse,1985-02,1985-02-28,I,CHF,2395,1985-03-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2395 400L 390 R 90 5); first pass
+credit-suisse,1985-02,1985-02-28,N,CHF,467,1985-03-01,25,eye-single,printed 'Na. inkl. PS'; (467 6 R 5 6 7); first pass
+ibm,1985-02,1985-02-28,,USD,134,1985-03-01,27,eye-single,New York 'Kurse vom 28. Februar' Schluss 134 (Vortag 132 7/8); first pass
+mercedes,1985-02,1985-02-28,,DEM,652.5,1985-03-01,28,eye-single,Frankfurt Schluss 652.50 (Vortag 652.50); first pass
+nestle,1985-02,1985-02-28,I,CHF,6325,1985-03-01,25,eye-single,(6350 40 35 R 25); first pass
+nestle,1985-02,1985-02-28,N,CHF,3370,1985-03-01,25,eye-single,(3370 400ttt 370 R 70); first pass
+nestle,1985-02,1985-02-28,PS,CHF,1105,1985-03-01,25,eye-single,(1105 15ttt R 05L); first pass
+sandoz,1985-02,1985-02-28,I,CHF,7950,1985-03-01,25,eye-single,(7950 8000 R 7950); first pass
+sandoz,1985-02,1985-02-28,N,CHF,2710,1985-03-01,25,eye-single,(2710 40ttt 10 R 690 720ttt 700 10); first pass
+sandoz,1985-02,1985-02-28,PS,CHF,1360,1985-03-01,25,eye-single,(1370 R 60); first pass
+sbv,1985-02,1985-02-28,I,CHF,368,1985-03-01,25,eye-single,SBV bearer; (369 8 9 R 70L 69 8); first pass
+sbv,1985-02,1985-02-28,N,CHF,277,1985-03-01,25,eye-single,SBV registered; (279 8 R 7); first pass
+sbv,1985-02,1985-02-28,PS,CHF,305,1985-03-01,25,eye-single,SBV participation certificate (the line without 1.1.85 entitlement); (306 7 R 6 5); first pass
+siemens,1985-02,1985-02-28,,DEM,542,1985-03-01,28,eye-single,Frankfurt Schluss (Vortag 542); first pass
+slb,1985-02,1985-02-28,,USD,42,1985-03-01,27,eye-single,New York Schluss 42 (Vortag 41 7/8); first pass
+swissair,1985-02,1985-02-28,I,CHF,1165,1985-03-01,25,eye-single,Zurich table 'Kurse vom 28. Februar'; (1170 65 70 R 65); first pass
+swissair,1985-02,1985-02-28,N,CHF,898,1985-03-01,25,eye-single,(898 R 8); first pass
+ubs,1985-02,1985-02-28,I,CHF,3650,1985-03-01,25,eye-single,SBG bearer; (3670 80 70 80L R 70 65 60 50); first pass
+ubs,1985-02,1985-02-28,N,CHF,695,1985-03-01,25,eye-single,SBG registered; (692 5 R 5L); first pass
+ubs,1985-02,1985-02-28,PS,CHF,135.5,1985-03-01,25,eye-single,SBG participation certificate; (136.5 7 R 6.5 6 5.5); first pass
+bmw,1985-03,1985-03-29,,DEM,375,1985-03-30,28,eye-single,Frankfurt 'Kurse vom 29. Maerz' Schluss (Vortag 380); first pass
+ciba-geigy,1985-03,1985-03-29,I,CHF,2850,1985-03-30,25,eye-single,(2870 60 80ttt 80L 65 50 40 30 45 40 50 R 60 55 50); first pass
+ciba-geigy,1985-03,1985-03-29,N,CHF,1227,1985-03-30,25,eye-single,(1221 1t 5 30L 35ttt 40ttt 35tt R 27); first pass
+ciba-geigy,1985-03,1985-03-29,PS,CHF,2305,1985-03-30,25,eye-single,(2300 20ttt 05 10 300 10tt 300 R 300 20ttt 300 305 20ttt 05 10 05); first pass
+credit-suisse,1985-03,1985-03-29,I,CHF,2405,1985-03-30,25,eye-single,printed 'SKA Inh. inkl. PS'; (2410 R 05); first pass
+credit-suisse,1985-03,1985-03-29,N,CHF,463,1985-03-30,25,eye-single,printed 'Na. inkl. PS'; (463); first pass
+ibm,1985-03,1985-03-29,,USD,126.875,1985-03-30,27,eye-single,"New York 'Kurse vom 29. Maerz' Schluss (read as 126 7/8, Vortag 126 7/8; legibility moderate); first pass"
+mercedes,1985-03,1985-03-29,,DEM,656,1985-03-30,28,eye-single,Frankfurt Schluss (Vortag 661); first pass
+nestle,1985-03,1985-03-29,I,CHF,6300,1985-03-30,25,eye-single,(6250 60 300tt 275ttt ... 290L 80 310ttt R 290 300); equals JdG 6300; first pass
+nestle,1985-03,1985-03-29,N,CHF,3330,1985-03-30,25,eye-single,(3280 310tt ... R 290 320ttt 300 10 20 30); equals JdG 3330; first pass
+nestle,1985-03,1985-03-29,PS,CHF,1110,1985-03-30,25,eye-single,(1100 20ttt 10 R 25 20 10 20L 10L); first pass
+sandoz,1985-03,1985-03-29,I,CHF,7600,1985-03-30,25,eye-single,(7600) only print; first pass
+sandoz,1985-03,1985-03-29,N,CHF,2730,1985-03-30,25,eye-single,(2690 700ttt 700 10 20 30 R 30); first pass
+sandoz,1985-03,1985-03-29,PS,CHF,1290,1985-03-30,25,eye-single,(1290 R 90 305ttt); first pass
+sbv,1985-03,1985-03-29,I,CHF,371,1985-03-30,25,eye-single,SBV bearer; (373 2 R 2 1); first pass
+sbv,1985-03,1985-03-29,N,CHF,284.5,1985-03-30,25,eye-single,SBV registered; (284.5 R 5 4.5); first pass
+sbv,1985-03,1985-03-29,PS,CHF,316,1985-03-30,25,eye-single,SBV participation certificate; (319 8 R 6); first pass
+siemens,1985-03,1985-03-29,,DEM,522,1985-03-30,28,eye-single,Frankfurt Schluss (Vortag 526); first pass
+slb,1985-03,1985-03-29,,USD,38.5,1985-03-30,27,eye-single,New York Schluss 38 1/2 (Vortag 38 1/2); first pass
+swissair,1985-03,1985-03-29,I,CHF,1115,1985-03-30,25,eye-single,Zurich table 'Kurse vom 29. Maerz'; (1120 10 20 30 20 15 R 15); first pass
+ubs,1985-03,1985-03-29,I,CHF,3660,1985-03-30,25,eye-single,SBG bearer; (3670 R 60); first pass
+ubs,1985-03,1985-03-29,N,CHF,693,1985-03-30,25,eye-single,SBG registered; (693); first pass
+ubs,1985-03,1985-03-29,PS,CHF,135,1985-03-30,25,eye-single,SBG participation certificate; (135 1/2 R 5); first pass
+bmw,1985-04,1985-04-30,,DEM,360,1985-05-02,29,eye-single,Frankfurt 'Kurse vom 30. April' Schluss (Vortag 361); first pass
+ciba-geigy,1985-04,1985-04-30,I,CHF,3025,1985-05-02,27,eye-single,(3100 tt ttt 090 ttt 75ttt 75 60ttt 55 t 50 R 25 t); first pass
+ciba-geigy,1985-04,1985-04-30,PS,CHF,2360,1985-05-02,27,eye-single,(2385 95tttL 80 75 70 80ttt 75 80 75 80 70 50 60 R 60); first pass
+credit-suisse,1985-04,1985-04-30,I,CHF,2430,1985-05-02,27,eye-single,printed 'SKA Inh. inkl. PS'; (2415 20 15 25 30 25 R 20 25 30); first pass
+credit-suisse,1985-04,1985-04-30,N,CHF,457,1985-05-02,27,eye-single,printed 'Na. inkl. PS'; (457 60L 57); first pass
+ibm,1985-04,1985-04-30,,USD,126.375,1985-05-02,30,eye-single,New York list headed 'Kurse vom 1. Mai': month-end = Vortag column 126 3/8 (Schluss 125 1/4); first pass
+mercedes,1985-04,1985-04-30,,DEM,675,1985-05-02,29,eye-single,Frankfurt Schluss (Vortag 679); first pass
+nestle,1985-04,1985-04-30,I,CHF,6550,1985-05-02,27,eye-single,(6580 ttt 90 80 70 60 50L); equals JdG 6550; first pass
+nestle,1985-04,1985-04-30,N,CHF,3425,1985-05-02,27,eye-single,(3425 70ttt 40t 25 R 25); equals JdG 3425; first pass
+nestle,1985-04,1985-04-30,PS,CHF,1270,1985-05-02,27,eye-single,(1260 1260tt 75ttt 60 R 60 70 60 70); first pass
+sandoz,1985-04,1985-04-30,I,CHF,7800,1985-05-02,27,eye-single,(7850 900ttt 825 800 R 800); first pass
+sandoz,1985-04,1985-04-30,N,CHF,2810,1985-05-02,27,eye-single,(2810 800 790 800 R 10); first pass
+sandoz,1985-04,1985-04-30,PS,CHF,1395,1985-05-02,27,eye-single,(1390 85 R 95); first pass
+sbv,1985-04,1985-04-30,I,CHF,389,1985-05-02,27,eye-single,SBV bearer; (389 8 9 90 1 90 1 90 R 89 90 89); first pass
+sbv,1985-04,1985-04-30,N,CHF,274.5,1985-05-02,27,eye-single,SBV registered; (275.5 4.5 5.5 4.5 R 4.5); first pass
+sbv,1985-04,1985-04-30,PS,CHF,328,1985-05-02,27,eye-single,SBV participation certificate; (328 9 8 R 8); first pass
+siemens,1985-04,1985-04-30,,DEM,534.5,1985-05-02,29,eye-single,Frankfurt Schluss 534.50 (Vortag 540); first pass
+slb,1985-04,1985-04-30,,USD,39.125,1985-05-02,30,eye-single,New York list 'Kurse vom 1. Mai': Vortag column 39 1/8 (Schluss 39); first pass
+swissair,1985-04,1985-04-30,I,CHF,1050,1985-05-02,27,eye-single,Zurich table 'Kurse vom 30. April'; (1055 R 5 50); first pass
+swissair,1985-04,1985-04-30,N,CHF,890,1985-05-02,27,eye-single,(890 85 90 R 87 90); first pass
+ubs,1985-04,1985-04-30,I,CHF,3700,1985-05-02,27,eye-single,SBG bearer; (3680 70 60 70 80 85 90 R 90 95 700); first pass
+ubs,1985-04,1985-04-30,N,CHF,670,1985-05-02,27,eye-single,SBG registered; (670); first pass
+ubs,1985-04,1985-04-30,PS,CHF,138,1985-05-02,27,eye-single,SBG participation certificate; (138 1/2 R 8); first pass
+bmw,1985-05,1985-05-31,,DEM,385,1985-06-01,27,eye-single,Frankfurt list 'Kurse vom 31. Mai' column Schluss (Vortag 384); first pass
+ciba-geigy,1985-05,1985-05-31,I,CHF,3220,1985-06-01,25,eye-single,(3225 30tt ttt 20 5 R 20); first pass
+ciba-geigy,1985-05,1985-05-31,N,CHF,1320,1985-06-01,25,eye-single,(1320 35ttt 19 20 19 20 R t 20); first pass
+ciba-geigy,1985-05,1985-05-31,PS,CHF,2515,1985-06-01,25,eye-single,(2510 15 25L 15 20 R 15 tt); first pass
+credit-suisse,1985-05,1985-05-31,I,CHF,2600,1985-06-01,25,eye-single,printed 'SKA Inh. inkl. PS'; (2600 595 90 R 600); first pass
+credit-suisse,1985-05,1985-05-31,N,CHF,487,1985-06-01,25,eye-single,printed 'Na. inkl. PS'; (486 R 7); first pass
+ibj,1985-05,1985-05-31,,JPY,1280,1985-06-01,27,eye-single,Tokyo list 'Industrial Bank' column Schluss (Vortag 1310); first pass
+ibm,1985-05,1985-05-31,,USD,128.875,1985-06-01,29,eye-single,New York list 'Kurse vom 31. Mai' column Schluss 128 7/8 (Vortag 128); first pass
+mercedes,1985-05,1985-05-31,,DEM,825,1985-06-01,27,eye-single,"Frankfurt list column Schluss (Vortag printed 701, apparently wrong or ex-rights; Jun Vortag 833); first pass"
+nestle,1985-05,1985-05-31,I,CHF,6330,1985-06-01,25,eye-single,(6330 90ttt 30 R 30); first pass
+nestle,1985-05,1985-05-31,N,CHF,3330,1985-06-01,25,eye-single,(3330 t 60tttL 35 R 30); first pass
+nestle,1985-05,1985-05-31,PS,CHF,1270,1985-06-01,25,eye-single,(1300 t 290 80 5 80ttt R 80 70); first pass
+sandoz,1985-05,1985-05-31,I,CHF,8300,1985-06-01,25,eye-single,(8400 R 300); first pass
+sandoz,1985-05,1985-05-31,N,CHF,2840,1985-06-01,25,eye-single,(2835 40 35 R 40); first pass
+sandoz,1985-05,1985-05-31,PS,CHF,1405,1985-06-01,25,eye-single,(1400 R 5); first pass
+sbv,1985-05,1985-05-31,I,CHF,406,1985-06-01,25,eye-single,SBV bearer; (406 5 R 6); first pass
+sbv,1985-05,1985-05-31,N,CHF,288,1985-06-01,25,eye-single,SBV registered; (288 R 8); first pass
+sbv,1985-05,1985-05-31,PS,CHF,349,1985-06-01,25,eye-single,SBV participation certificate; (348 R 8 9); first pass
+siemens,1985-05,1985-05-31,,DEM,563,1985-06-01,27,eye-single,Frankfurt list column Schluss (Vortag 559); first pass
+slb,1985-05,1985-05-31,,USD,38,1985-06-01,29,eye-single,New York list column Schluss 38 (Vortag 38 1/8); first pass
+swissair,1985-05,1985-05-31,I,CHF,1168,1985-06-01,25,eye-single,Zurich table 'Kurse vom 31. Mai'; last unmarked print (1163 65 75ttt 65tt 66 R 8 70 69 8); first pass
+swissair,1985-05,1985-05-31,N,CHF,950,1985-06-01,25,eye-single,(935 40 5 R 5 50); first pass
+ubs,1985-05,1985-05-31,I,CHF,3870,1985-06-01,25,eye-single,SBG bearer; (3880 70 60 70 R 70); first pass
+ubs,1985-05,1985-05-31,N,CHF,683,1985-06-01,25,eye-single,SBG registered; (683 4 5L R 3); first pass
+ubs,1985-05,1985-05-31,PS,CHF,143.5,1985-06-01,25,eye-single,SBG participation certificate; (143.5 R .5); first pass
+bmw,1985-06,1985-06-28,,DEM,443,1985-06-29,27,eye,Frankfurt list 'Kurse vom 28. Juni' column Schluss (Vortag 432); read twice
+ciba-geigy,1985-06,1985-06-28,I,CHF,3200,1985-06-29,25,eye,(3200 20 25 25 20 25 200 180 50 200 20L 200); read twice
+ciba-geigy,1985-06,1985-06-28,N,CHF,1400,1985-06-29,25,eye,(1390 410ttt 405tt 392 4 5 400 10tt 403 400 05 15ttt R 400 15ttt); read twice
+ciba-geigy,1985-06,1985-06-28,PS,CHF,2510,1985-06-29,25,eye,(2530 25 R 10); read twice
+credit-suisse,1985-06,1985-06-28,I,CHF,2930,1985-06-29,25,eye,printed 'SKA Inh. inkl. PS'; (2875 80 5 90 900 10 900 R 20 25 30); read twice
+credit-suisse,1985-06,1985-06-28,N,CHF,528,1985-06-29,25,eye,printed 'Na. inkl. PS'; (525 8 R 8); read twice
+ibj,1985-06,1985-06-28,,JPY,1330,1985-06-29,27,eye,Tokyo list 'Industrial Bank' column Schluss (Vortag 1330); read twice
+ibm,1985-06,1985-06-28,,USD,123.75,1985-06-29,29,eye,New York list 'Kurse vom 28. Juni' column Schluss 123 3/4 (Vortag 124); read twice
+mercedes,1985-06,1985-06-28,,DEM,851,1985-06-29,27,eye,Frankfurt list column Schluss (Vortag 833); read twice
+nestle,1985-06,1985-06-28,I,CHF,6300,1985-06-29,25,eye,(6300 R 275 300); equals JdG 6300; read twice
+nestle,1985-06,1985-06-28,N,CHF,3340,1985-06-29,25,eye,(3335 70ttt 40 R 40 70ttt); equals JdG 3340; read twice
+nestle,1985-06,1985-06-28,PS,CHF,1275,1985-06-29,25,eye,(1270 80tt 75 80L R 75); read twice
+sandoz,1985-06,1985-06-28,I,CHF,8400,1985-06-29,25,eye,only print; read twice
+sandoz,1985-06,1985-06-28,N,CHF,2980,1985-06-29,25,eye,only print; read twice
+sandoz,1985-06,1985-06-28,PS,CHF,1380,1985-06-29,25,eye,(1370 80ttt R 80); read twice
+sbv,1985-06,1985-06-28,I,CHF,456,1985-06-29,25,eye,SBV bearer; (453 4 5 R 5 6 7 6); read twice
+sbv,1985-06,1985-06-28,N,CHF,319,1985-06-29,25,eye,SBV registered; (318 9 20 R 19); read twice
+sbv,1985-06,1985-06-28,PS,CHF,390,1985-06-29,25,eye,SBV participation certificate; (388 9 90 R 90); read twice
+siemens,1985-06,1985-06-28,,DEM,571,1985-06-29,27,eye,Frankfurt list column Schluss (Vortag 572); read twice
+slb,1985-06,1985-06-28,,USD,38.375,1985-06-29,29,eye,New York list column Schluss 38 3/8 (Vortag 37 7/8); read twice
+swissair,1985-06,1985-06-28,I,CHF,1375,1985-06-29,25,eye,Zurich table 'Kurse vom 28. Juni'; last unmarked print (1355 tt 60 55 60L R 70 ttt 75); read in 3 crops
+swissair,1985-06,1985-06-28,N,CHF,1065,1985-06-29,25,eye,(1070 t tt 80tttL R 60 5); read twice
+ubs,1985-06,1985-06-28,I,CHF,4170,1985-06-29,25,eye,SBG bearer; (4145 50 5 60 55 60 R 70); read twice
+ubs,1985-06,1985-06-28,N,CHF,728,1985-06-29,25,eye,SBG registered; (733 30 R 28); read twice
+ubs,1985-06,1985-06-28,PS,CHF,158,1985-06-29,25,eye,SBG participation certificate; (155 6 R 8); read twice
+bmw,1985-07,1985-07-31,,DEM,400,1985-08-02,21,eye,Frankfurt list header 'Kurse vom 1. August'; month-end close = Vortag column; read twice
+ciba-geigy,1985-07,1985-07-31,I,CHF,3295,1985-08-02,19,eye,(3300 05 10 20tt 5ttt 300L 10ttt 10L 300 R 295 315tt); read twice
+ciba-geigy,1985-07,1985-07-31,N,CHF,1408,1985-08-02,19,eye,(1415 20tt 18 5 8 20 15 R 8); read twice
+ciba-geigy,1985-07,1985-07-31,PS,CHF,2560,1985-08-02,19,eye,(2580 600tt 575 90ttt 75 70 65 60 80ttt R 60 70t); read twice
+credit-suisse,1985-07,1985-07-31,I,CHF,2935,1985-08-02,19,eye,printed 'SKA Inh. PS'; (2930 R 5); read twice
+credit-suisse,1985-07,1985-07-31,N,CHF,547,1985-08-02,19,eye,printed 'Na. PS'; (550 R 47); read twice
+ibj,1985-07,1985-07-31,,JPY,1290,1985-08-02,21,eye,Tokyo list 'Industrial Bank' Vortag column (Kurse vom 1. August); read twice
+ibm,1985-07,1985-07-31,,USD,131.25,1985-08-02,23,eye,"New York list Vortag column 131 1/4 (Kurse vom 1. August, Schluss 132 1/2); read twice"
+mercedes,1985-07,1985-07-31,,DEM,822,1985-08-02,21,eye,Frankfurt list Vortag column (Kurse vom 1. August); read twice
+nestle,1985-07,1985-07-31,I,CHF,6575,1985-08-02,19,eye,(6575 610tt R 575); read twice
+nestle,1985-07,1985-07-31,N,CHF,3440,1985-08-02,19,eye,(3450 45 tt 60ttt 40 35 40L 35 R 35 40); equals JdG 3440; read twice
+nestle,1985-07,1985-07-31,PS,CHF,1250,1985-08-02,19,eye,(1250 R 50 55t 50); read twice
+sandoz,1985-07,1985-07-31,I,CHF,8650,1985-08-02,19,eye,(8650 ttt R 50); read twice
+sandoz,1985-07,1985-07-31,N,CHF,3050,1985-08-02,19,eye,(3050 R 50); read twice
+sandoz,1985-07,1985-07-31,PS,CHF,1385,1985-08-02,19,eye,(1385 80 R 85); read twice
+sbv,1985-07,1985-07-31,I,CHF,468,1985-08-02,19,eye,SBV bearer; (471 70 R 67 8 7L 8 7 8); read twice
+sbv,1985-07,1985-07-31,N,CHF,311,1985-08-02,19,eye,SBV registered; (312 R 1); read twice
+sbv,1985-07,1985-07-31,PS,CHF,416,1985-08-02,19,eye,SBV participation certificate; (418 R 6); read twice
+siemens,1985-07,1985-07-31,,DEM,527.5,1985-08-02,21,eye,Frankfurt list Vortag column (Kurse vom 1. August); read twice
+slb,1985-07,1985-07-31,,USD,38.75,1985-08-02,23,eye,New York list Vortag column 38 3/4 (Schluss 38 1/8); read twice
+swissair,1985-07,1985-07-31,I,CHF,1330,1985-08-02,19,eye,Zurich table 'Kurse vom 31. Juli' (Zurich closed 1 Aug); last unmarked print (1330 5 R 5 30); read twice
+swissair,1985-07,1985-07-31,N,CHF,1150,1985-08-02,19,eye,last unmarked print (1145 tt 40tt 40 50 R 50 45tt 40ttL); read twice
+ubs,1985-07,1985-07-31,I,CHF,4380,1985-08-02,19,eye,SBG bearer; (4300 290 80 R 80); read twice
+ubs,1985-07,1985-07-31,N,CHF,755,1985-08-02,19,eye,SBG registered; (760 R 55); read twice
+ubs,1985-07,1985-07-31,PS,CHF,165,1985-08-02,19,eye,SBG participation certificate; (165.5 R 5); read twice
+bmw,1985-08,1985-08-30,,DEM,475,1985-08-31,27,eye,Frankfurt list column Schluss (Vortag 469); read twice
+ciba-geigy,1985-08,1985-08-30,I,CHF,3395,1985-08-31,23,eye,last print (3410 400 395 R 400 395); read twice
+ciba-geigy,1985-08,1985-08-30,N,CHF,1490,1985-08-31,23,eye,last cash print (a 500ttt forward print follows); read twice
+ciba-geigy,1985-08,1985-08-30,PS,CHF,2600,1985-08-31,23,eye,last print (2600 R 600); read twice
+credit-suisse,1985-08,1985-08-30,I,CHF,3075,1985-08-31,23,eye,printed 'SKA Inh. inkl. PS'; last print (3075 R 75); read twice
+credit-suisse,1985-08,1985-08-30,N,CHF,575,1985-08-31,23,eye,printed 'Na. inkl. PS'; last print (575 R 5); read twice
+ibj,1985-08,1985-08-30,,JPY,1300,1985-08-31,27,eye,Tokyo list 'Industrial Bank' column Schluss (Vortag 1310); read twice
+ibm,1985-08,1985-08-30,,USD,126.75,1985-08-31,29,eye,New York list column Tagesschluss 126 3/4 (Vortag 127 1/2); read twice
+mercedes,1985-08,1985-08-30,,DEM,958,1985-08-31,27,eye,Frankfurt list column Schluss (Vortag 963); read twice
+nestle,1985-08,1985-08-30,I,CHF,7375,1985-08-31,23,eye,last print; equals JdG 7375; read twice
+nestle,1985-08,1985-08-30,N,CHF,3675,1985-08-31,23,eye,last cash print (700ttt forward before it); equals JdG 3675; read twice
+nestle,1985-08,1985-08-30,PS,CHF,1360,1985-08-31,23,eye,last cash print (a 55tt forward print follows); read twice
+sandoz,1985-08,1985-08-30,I,CHF,8725,1985-08-31,23,eye,only print of the day; read twice
+sandoz,1985-08,1985-08-30,N,CHF,3200,1985-08-31,23,eye,last cash print (3190 200ttt R 200ttt 200); read twice
+sandoz,1985-08,1985-08-30,PS,CHF,1450,1985-08-31,23,eye,only cash print (1450 then forward 1500 dt 50ttt); read twice
+sbv,1985-08,1985-08-30,I,CHF,482,1985-08-31,23,eye,SBV bearer; last print flagged L (481 80 R 1 2L); read twice
+sbv,1985-08,1985-08-30,N,CHF,327,1985-08-31,23,eye,SBV registered; last print (325 R 7); read twice
+sbv,1985-08,1985-08-30,PS,CHF,415,1985-08-31,23,eye,SBV participation certificate; last print (416 R 6 5 4 5); read twice
+siemens,1985-08,1985-08-30,,DEM,552,1985-08-31,27,eye,Frankfurt list column Schluss (Vortag 552); read twice
+slb,1985-08,1985-08-30,,USD,36.625,1985-08-31,29,eye,New York list column Tagesschluss 36 5/8 (Vortag 37 1/8); read twice
+swissair,1985-08,1985-08-30,I,CHF,1473,1985-08-31,23,eye,"Zurich table, last print (1465 R 73); read twice"
+swissair,1985-08,1985-08-30,N,CHF,1180,1985-08-31,23,eye,last print (1180 90ttt 85L R 80); read twice
+ubs,1985-08,1985-08-30,I,CHF,4375,1985-08-31,23,eye,SBG bearer; last print (4370 R 75 80L 75); read twice
+ubs,1985-08,1985-08-30,N,CHF,767,1985-08-31,23,eye,SBG registered; last print (760 R 67); read twice
+ubs,1985-08,1985-08-30,PS,CHF,164,1985-08-31,23,eye,SBG participation certificate; last print (163.5 3 .5 R 4L 3.5L 4); read twice
+bmw,1985-09,1985-09-30,,DEM,479,1985-10-01,27,eye,Frankfurt list column Schluss (Vortag 470); read twice
+ciba-geigy,1985-09,1985-09-30,I,CHF,3075,1985-10-01,25,eye,last cash print (a 3110 forward print follows); read twice
+ciba-geigy,1985-09,1985-09-30,N,CHF,1430,1985-10-01,25,eye,last cash print; read twice
+ciba-geigy,1985-09,1985-09-30,PS,CHF,2460,1985-10-01,25,eye,last cash print; read twice
+credit-suisse,1985-09,1985-09-30,I,CHF,2800,1985-10-01,25,eye,printed 'SKA Inh. inkl. PS'; last print; read twice
+credit-suisse,1985-09,1985-09-30,N,CHF,540,1985-10-01,25,eye,printed 'Na. ink. PS'; last print; read twice
+ibj,1985-09,1985-09-30,,JPY,1200,1985-10-01,27,eye,Tokyo list 'Industrial Bank' column Schluss (Vortag 1180); read twice
+ibm,1985-09,1985-09-30,,USD,124,1985-10-01,29,eye,New York list column Tagesschluss 124 (Vortag 123 1/2); read twice
+mercedes,1985-09,1985-09-30,,DEM,964,1985-10-01,27,eye,Frankfurt list column Schluss (Vortag 965); read twice
+nestle,1985-09,1985-09-30,I,CHF,7200,1985-10-01,25,eye,last cash print (a 7150 forward print follows); equals JdG 7200; read twice
+nestle,1985-09,1985-09-30,N,CHF,3580,1985-10-01,25,eye,last cash print; equals JdG 3580; read twice
+nestle,1985-09,1985-09-30,PS,CHF,1370,1985-10-01,25,eye,last print; read twice
+sandoz,1985-09,1985-09-30,I,CHF,8100,1985-10-01,25,eye,last print; read twice
+sandoz,1985-09,1985-09-30,N,CHF,3075,1985-10-01,25,eye,last print; read twice
+sandoz,1985-09,1985-09-30,PS,CHF,1380,1985-10-01,25,eye,last cash print (a forward print follows); read twice
+sbv,1985-09,1985-09-30,I,CHF,459,1985-10-01,25,eye,SBV bearer; last print; read twice
+sbv,1985-09,1985-09-30,N,CHF,317,1985-10-01,25,eye,SBV registered; last print; read twice
+sbv,1985-09,1985-09-30,PS,CHF,397,1985-10-01,25,eye,SBV participation certificate; last print; read twice
+siemens,1985-09,1985-09-30,,DEM,602,1985-10-01,27,eye,Frankfurt list column Schluss (Vortag 600); read twice
+slb,1985-09,1985-09-30,,USD,34.25,1985-10-01,29,eye,New York list column Tagesschluss 34 1/4 (Vortag 34 3/8); read twice
+swissair,1985-09,1985-09-30,I,CHF,1475,1985-10-01,25,eye,"Zurich table, last print of the day (prints 1470 75 70 R 78 80 78 75); read twice"
+swissair,1985-09,1985-09-30,N,CHF,1130,1985-10-01,25,eye,last print; read twice
+ubs,1985-09,1985-09-30,I,CHF,4100,1985-10-01,25,eye,SBG bearer; last print; read twice
+ubs,1985-09,1985-09-30,N,CHF,752,1985-10-01,25,eye,SBG registered; last print; read twice
+ubs,1985-09,1985-09-30,PS,CHF,153.5,1985-10-01,25,eye,SBG participation certificate; last print printed as 3 1/2 after 153; read twice
+bmw,1985-10,1985-10-31,,DEM,537,1985-11-01,27,eye,Frankfurt list column Schluss (Vortag 525); read twice
+ciba-geigy,1985-10,1985-10-31,I,CHF,3500,1985-11-01,25,eye,last cash print; read twice
+ciba-geigy,1985-10,1985-10-31,N,CHF,1605,1985-11-01,25,eye,last cash print; a lone forward mark follows; read twice
+ciba-geigy,1985-10,1985-10-31,PS,CHF,2840,1985-11-01,25,eye,"last print flagged L (concluded in the call), preceding print 2830; read twice"
+credit-suisse,1985-10,1985-10-31,I,CHF,3200,1985-11-01,25,eye,printed 'SKA Inh. inkl. PS'; last cash print; read twice
+credit-suisse,1985-10,1985-10-31,N,CHF,578,1985-11-01,25,eye,printed 'Na. inkl. PS'; last cash print; read twice
+ibj,1985-10,1985-10-31,,JPY,1150,1985-11-01,27,eye,Tokyo list 'Industrial Bank' column Schluss (Vortag 1170); read twice
+ibm,1985-10,1985-10-31,,USD,129.875,1985-11-01,29,eye,New York list column Tagesschluss 129 7/8 (Vortag 131); Yahoo ratio constant with 1985-11; read twice
+mercedes,1985-10,1985-10-31,,DEM,1140,1985-11-01,27,eye,Frankfurt list column Schluss (Vortag 1145); read twice
+nestle,1985-10,1985-10-31,I,CHF,7755,1985-11-01,25,eye,last cash print; equals JdG 7755; read twice
+nestle,1985-10,1985-10-31,N,CHF,3800,1985-11-01,25,eye,last cash print; equals JdG 3800; read twice
+nestle,1985-10,1985-10-31,PS,CHF,1440,1985-11-01,25,eye,last cash print (later prints are forward deals); read twice
+sandoz,1985-10,1985-10-31,I,CHF,9500,1985-11-01,25,eye,last cash print; read twice
+sandoz,1985-10,1985-10-31,N,CHF,3590,1985-11-01,25,eye,"last print flagged L (concluded in the call), preceding print 3575; read twice"
+sandoz,1985-10,1985-10-31,PS,CHF,1590,1985-11-01,25,eye,last cash print; read twice
+sbv,1985-10,1985-10-31,I,CHF,522,1985-11-01,25,eye,"SBV bearer; last print flagged L (concluded in the call), preceding print 520; read twice"
+sbv,1985-10,1985-10-31,N,CHF,368,1985-11-01,25,eye,SBV registered; last cash print; read twice
+sbv,1985-10,1985-10-31,PS,CHF,452,1985-11-01,25,eye,SBV participation certificate; last cash print; read twice
+siemens,1985-10,1985-10-31,,DEM,686.5,1985-11-01,27,eye,Frankfurt list column Schluss (Vortag 687); read twice
+slb,1985-10,1985-10-31,,USD,33.375,1985-11-01,29,eye,New York list column Tagesschluss 33 3/8 (Vortag 33 5/8); read twice
+swissair,1985-10,1985-10-31,I,CHF,1535,1985-11-01,25,eye,"Zurich table (Vontobel), last cash print of the day; read twice"
+swissair,1985-10,1985-10-31,N,CHF,1240,1985-11-01,25,eye,last cash print; read twice
+ubs,1985-10,1985-10-31,I,CHF,4740,1985-11-01,25,eye,SBG bearer; last cash print; read twice
+ubs,1985-10,1985-10-31,N,CHF,810,1985-11-01,25,eye,SBG registered; last cash print; read twice
+ubs,1985-10,1985-10-31,PS,CHF,173,1985-11-01,25,eye,SBG participation certificate; last cash print; read twice
+bmw,1985-11,1985-11-29,,DEM,560,1985-11-30,27,eye,Frankfurt list column Schluss (Vortag 573); read twice
+ciba-geigy,1985-11,1985-11-29,I,CHF,3605,1985-11-30,25,eye,last cash print; read twice
+ciba-geigy,1985-11,1985-11-29,N,CHF,1740,1985-11-30,25,eye,last cash print; read twice
+ciba-geigy,1985-11,1985-11-29,PS,CHF,2930,1985-11-30,25,eye,last cash print; read twice
+credit-suisse,1985-11,1985-11-29,I,CHF,3500,1985-11-30,25,eye,"printed 'SKA Inh. inkl. PS'; last print flagged L (concluded in the call), preceding print 3495; read twice"
+credit-suisse,1985-11,1985-11-29,N,CHF,645,1985-11-30,25,eye,printed 'Na. inkl. PS' without a previous-day figure; last cash print; read twice
+ibj,1985-11,1985-11-29,,JPY,1030,1985-11-30,27,eye,Tokyo list 'Industrial Bank' column Schluss (Vortag 1030); read twice
+ibm,1985-11,1985-11-29,,USD,139.75,1985-11-30,29,eye,New York list column Tagesschluss 139 3/4 (Vortag 140 1/4); read twice
+mercedes,1985-11,1985-11-29,,DEM,1135,1985-11-30,27,eye,Frankfurt list column Schluss (Vortag 1165); read twice
+nestle,1985-11,1985-11-29,I,CHF,8110,1985-11-30,25,eye,"last print flagged L (concluded in the call), the 1st-session print is also 8110; previous-day figure 8125 equals the JdG value filed under 29.11. (JdG issue is a Saturday issue and appears to show 28.11.); read twice"
+nestle,1985-11,1985-11-29,N,CHF,4475,1985-11-30,25,eye,last cash print; previous-day figure 4400 equals the JdG value filed under 29.11.; read twice
+nestle,1985-11,1985-11-29,PS,CHF,1510,1985-11-30,25,eye,last cash print; read twice
+sandoz,1985-11,1985-11-29,N,CHF,4150,1985-11-30,25,eye,last cash print; read twice
+sandoz,1985-11,1985-11-29,PS,CHF,1720,1985-11-30,25,eye,last cash print; read twice
+sbv,1985-11,1985-11-29,I,CHF,526,1985-11-30,25,eye,SBV bearer; last cash print; read twice
+sbv,1985-11,1985-11-29,N,CHF,405,1985-11-30,25,eye,SBV registered; last cash print; read twice
+sbv,1985-11,1985-11-29,PS,CHF,462,1985-11-30,25,eye,SBV participation certificate; last cash print; read twice
+siemens,1985-11,1985-11-29,,DEM,637,1985-11-30,27,eye,Frankfurt list column Schluss (Vortag 653); read twice
+slb,1985-11,1985-11-29,,USD,35.625,1985-11-30,29,eye,New York list column Tagesschluss 35 5/8 (Vortag 36); read twice
+swissair,1985-11,1985-11-29,I,CHF,1540,1985-11-30,25,eye,"Zurich table (Vontobel), last cash print of the day; read twice"
+swissair,1985-11,1985-11-29,N,CHF,1270,1985-11-30,25,eye,"last print of the day, flagged L (concluded in the call); preceding print 1259; read twice"
+ubs,1985-11,1985-11-29,I,CHF,4965,1985-11-30,25,eye,SBG bearer; prints 4960 4970 4965 R 4965; last print; read twice
+ubs,1985-11,1985-11-29,N,CHF,895,1985-11-30,25,eye,SBG registered; last cash print; read twice
+ubs,1985-11,1985-11-29,PS,CHF,190,1985-11-30,25,eye,SBG participation certificate; last cash print; read twice
+bmw,1985-12,1985-12-30,,DEM,570,1985-12-31,19,eye,Frankfurt list column Schluss (Vortag 570); JdG print 569.5; read twice
+ciba-geigy,1985-12,1985-12-30,I,CHF,4000,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+ciba-geigy,1985-12,1985-12-30,N,CHF,2250,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+ciba-geigy,1985-12,1985-12-30,PS,CHF,3050,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+credit-suisse,1985-12,1985-12-30,I,CHF,3700,1985-12-31,17,eye,printed as one line 'SKA Inh. PS'; last cash print; read twice
+credit-suisse,1985-12,1985-12-30,N,CHF,720,1985-12-31,17,eye,printed as one line 'Na. PS'; last cash print; read twice
+ibj,1985-12,1985-12-28,,JPY,1080,1985-12-31,19,eye,"Tokyo list printed 'Industrial Bank'; Schluss column 'geschlossen' on 30.12.; value is the Vortag column (last trading day, Saturday 28.12. assumed, not printed); read twice"
+ibm,1985-12,1985-12-31,,USD,155,1986-01-03,21,eye,"New York list, issue of 3.1.1986 (Kurse vom 2. Januar), column Vortag = close of 31.12.; the issue of 31.12.1985 printed 158 1/4 for 30.12.; Yahoo implies about 155.5 (0.3 percent higher); read twice"
+mercedes,1985-12,1985-12-30,,DEM,1246,1985-12-31,19,eye,Frankfurt list column Schluss (Vortag 1226); JdG print 1245; read twice
+nestle,1985-12,1985-12-30,I,CHF,8925,1985-12-31,17,eye,"Zurich table, last cash print; equals JdG 8925; read twice"
+nestle,1985-12,1985-12-30,N,CHF,4950,1985-12-31,17,eye,"Zurich table, last cash print; equals JdG 4950; read twice"
+nestle,1985-12,1985-12-30,PS,CHF,1600,1985-12-31,17,eye,"Zurich table, last cash print (printed 600; previous-day price in brackets 1530); equals JdG 1600; read twice"
+sandoz,1985-12,1985-12-30,I,CHF,10950,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+sandoz,1985-12,1985-12-30,N,CHF,5200,1985-12-31,17,eye,"Zurich table; last print of the day, flagged L (concluded in the call), preceding print 5150; read twice"
+sandoz,1985-12,1985-12-30,PS,CHF,1740,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+sbv,1985-12,1985-12-30,I,CHF,575,1985-12-31,17,eye,SBV bearer (printed without class); last cash print; read twice
+sbv,1985-12,1985-12-30,N,CHF,472,1985-12-31,17,eye,SBV registered; last cash print; read twice
+sbv,1985-12,1985-12-30,PS,CHF,505,1985-12-31,17,eye,SBV participation certificate; last cash print; read twice
+siemens,1985-12,1985-12-30,,DEM,755,1985-12-31,19,eye,Frankfurt list column Schluss (Vortag 750); JdG print 755.5; read twice
+slb,1985-12,1985-12-31,,USD,36.625,1986-01-03,21,eye,"New York list, issue of 3.1.1986 (Kurse vom 2. Januar), column Vortag 36 5/8 = close of 31.12.; the issue of 31.12.1985 printed 36 1/8 for 30.12.; read twice"
+swissair,1985-12,1985-12-30,I,CHF,1790,1985-12-31,17,eye,"Zurich table (Vontobel), last cash print of the day; read twice"
+swissair,1985-12,1985-12-30,N,CHF,1500,1985-12-31,17,eye,"Zurich table, last cash print; read twice"
+ubs,1985-12,1985-12-30,I,CHF,5240,1985-12-31,17,eye,Schweiz. Bankgesellschaft (SBG) bearer; last cash print; read twice
+ubs,1985-12,1985-12-30,N,CHF,975,1985-12-31,17,eye,SBG registered; last cash print; read twice
+ubs,1985-12,1985-12-30,PS,CHF,199,1985-12-31,17,eye,SBG participation certificate; last cash print; read twice

@@ -10,6 +10,14 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
   from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
+- **Seats and rejoining.** Joining returns a token that the browser keeps in localStorage, so
+  reopening `/g/CODE` there returns to the same seat. There are no passwords. To come back from
+  another device or after clearing site data, a player (and the game master, on `/g/CODE/gm`)
+  can copy a personal link, `/g/CODE#key=<token>`. The token sits in the fragment on purpose:
+  it is never sent to the server and stays out of logs. On load the client stores it, removes
+  the fragment from the address bar and carries on; the link wins over a token already held. A
+  token the server rejects is dropped and the visitor sees the join form. Anyone holding the
+  link can act as that player, so it is shown with that warning.
 - **Portfolio.** At most five positions plus cash. Players may freely rebalance at the current
   month's price at any time during a month. No order queue, no spread or commission for now.
 - **Assets.** Cash (USD, interest-free), three US Treasury bonds, gold, and a curated list of

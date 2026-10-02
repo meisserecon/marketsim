@@ -3,7 +3,8 @@
   import { page } from '$app/state';
   import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
-  import { clearToken, getToken, setToken } from '$lib/api/tokens';
+  import { clearToken, getToken, setToken, takeFragmentToken } from '$lib/api/tokens';
+  import RejoinLink from '$lib/components/RejoinLink.svelte';
   import { LEDGER_LABEL, errorMessage, monthName, pct, usd } from '$lib/format';
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
@@ -16,7 +17,11 @@
 
   let phase = $state<'loading' | 'join' | 'play' | 'missing' | 'error'>('loading');
   let fatal = $state('');
+  // A personal link (#key=...) wins over a token the browser already holds.
+  const linkToken = takeFragmentToken();
+  if (linkToken) setToken('player', code, linkToken);
   let token = $state(getToken('player', code));
+  let linkRejected = $state(false);
   const hasGmToken = !!getToken('gm', code);
 
   let game = $state<GameView | undefined>(undefined);
@@ -106,6 +111,7 @@
     } catch (e) {
       if (mine !== generation) return;
       if (isApiFailure(e) && e.code === 'unauthorized') {
+        if (token === linkToken) linkRejected = true;
         clearToken('player', code);
         token = undefined;
         phase = 'join';
@@ -217,6 +223,7 @@
     <form class="card join" onsubmit={join}>
       <p class="sub">Game {game.code} · {game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</p>
       <h1>{game.name}</h1>
+      {#if linkRejected}<p class="notice warn" role="alert">That link is not valid for this game. You can join below instead.</p>{/if}
       {#if game.status === 'finished'}
         <p class="notice warn">This game is over and cannot be joined any more.</p>
       {:else}
@@ -240,6 +247,7 @@
     <div class="game">
       <span class="sub">{game.name} · {game.code} · {portfolio.name}</span>
       <h1>{monthName(game.currentMonth)}</h1>
+      {#if token}<RejoinLink path="/g/{code}" {token} />{/if}
     </div>
     <dl class="figures">
       <div class="total">

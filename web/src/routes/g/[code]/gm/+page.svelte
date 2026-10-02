@@ -3,12 +3,17 @@
   import { page } from '$app/state';
   import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
-  import { getToken } from '$lib/api/tokens';
+  import { clearToken, getToken, setToken, takeFragmentToken } from '$lib/api/tokens';
+  import RejoinLink from '$lib/components/RejoinLink.svelte';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
-  const token = getToken('gm', code);
+  // A personal link (#key=...) wins over a key the browser already holds.
+  const linkToken = takeFragmentToken();
+  if (linkToken) setToken('gm', code, linkToken);
+  let token = $state(getToken('gm', code));
+  let keyRejected = $state(false);
   const hasPlayerToken = !!getToken('player', code);
 
   let phase = $state<'loading' | 'ready' | 'missing' | 'error'>('loading');
@@ -37,7 +42,19 @@
       board = l;
       phase = 'ready';
       // Only the game master's browser may see who holds what.
-      if (token) api.holdings(code, token).then((h) => (holdings = h)).catch(() => {});
+      if (token) {
+        api
+          .holdings(code, token)
+          .then((h) => (holdings = h))
+          .catch((e) => {
+            // A key the server does not know (e.g. from a link for another game): drop it.
+            if (isApiFailure(e) && e.code === 'unauthorized') {
+              clearToken('gm', code);
+              token = undefined;
+              keyRejected = true;
+            }
+          });
+      }
     } catch (e) {
       if (phase !== 'loading') return;
       if (isApiFailure(e) && e.code === 'not_found') phase = 'missing';
@@ -115,6 +132,7 @@
           {:else if lobby}Not started: players are building their first portfolios.
           {:else}{monthsLeft} {monthsLeft === 1 ? 'month' : 'months'} to go until {monthName(game.finalMonth)}{/if}
         </p>
+        {#if token}<RejoinLink path="/g/{code}/gm" {token} gm />{/if}
       </div>
       <div class="join card">
         <span class="sub">Join at <strong>{host}</strong> with code</span>
@@ -128,6 +146,7 @@
 
     <section class="control">
       {#if !token}
+        {#if keyRejected}<p class="notice warn" role="alert">That link is not valid for this game.</p>{/if}
         <p class="notice warn">
           This browser does not hold the game master key for this game, so it can watch but not advance the clock. The key is stored in the browser that created the game.
         </p>

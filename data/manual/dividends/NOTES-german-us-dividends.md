@@ -52,6 +52,20 @@ Months: AGM month where the AGM date was found (1980, 1988, 1989, 1993), otherwi
 Factor g: 1.1196 for 1980-03, 1.0822 for 1982, 1.048 for 1984, 1.002 from 1985 (for 1985-03 it is assumed that the 1984/85 capital measure was before the ex date of 22.3.1985; with g 1.048 the line would be 4.6 percent lower).
 Yields: 1980 3.2, 1982 3.6, 1984 2.0, 1985 1.9, 1988 3.1, 1989 2.1, 1990 1.5, 1992 1.9, 1993 2.0, 1994 1.9 percent.
 
+## Industrial Bank of Japan (ibj)
+
+Covered: 16 half-yearly dividends, December 1992 to June 2000 (fiscal years to March 1993 to March 2000): 4.25 yen per half until the interim of December 1997 (8.50 a year), 3.50 from December 1998 (7.00 a year). Sources: IBJ's own earnings releases (tanshin) for March 1997, March 1998, March 1999 and the interims of September 1997 and 1998, the disclosure magazines 1997 and 2000 (web.archive.org copies of ibjbank.co.jp and mizuho-fg.co.jp), the English annual report 1999. The year-end halves of FY1993 to FY1995 are the five-year table's annual 8.50 minus its interim 4.25.
+Basis: the NZZ price is the unadjusted yen quote; IBJ had no split or free distribution 1972 to 2000 (only paid rights issues 1987, 1988, 1996 and allotments 1998/99), so the declared yen per share is used as is.
+Months: interim December (paid from 10 December in 1997 and 1998), year-end June (AGM end of June); month assumed for the years without a date.
+Yields: 0.13 to 0.24 percent per half until mid-1997, 0.36 to 0.67 percent after the price fell; low but genuine for Japanese banks of the time.
+Missing: fiscal years to March 1985 to March 1992 (payments June 1985 to June 1992). No source: EDGAR has no IBJ filer, the archived IBJ site starts with the 1997 documents, no scanned annual reports and no Financial Times item with IBJ dividends were found.
+
+## Sony (sony)
+
+Covered: six half-yearly dividends 1980-04 to 1982-10 (15, 15, 17.50, 17.50, 22, 22 yen per share), converted to USD per ADS at the FRED month-end yen rate and divided by Yahoo's split factor 11. Sources: Sony's own table of capital and dividends (annual 30, 35, 44 yen for FY October 1980, 1981, 1982) and the Financial Times of 17.6.1980 (interim 15) and 18.6.1982 (interim 22, an increase of 4.50); the other halves are annual minus interim.
+Month: record-date month (April, October), the convention of Yahoo's own Sony dividends from 1983; actual payment came later.
+Basis check: Yahoo's 1984-10 dividend times 11 is 0.0740 USD against the declared 22 yen = 0.0895 USD, i.e. Yahoo is about 17 percent lower than the gross amount (withholding tax or another rate); the lines here are gross, so there is a step to the Yahoo years. Yields 0.40 to 0.76 percent per half, about 1 percent a year, as in Yahoo's 1983 to 1985 rows.
+
 ## Citicorp (c): lineage finding, no file written
 
 Question: does Yahoo's price history of ticker C before October 1998 follow Citicorp or Travelers Group? Answer: Travelers Group (Primerica), NOT Citicorp. Citicorp dividends are therefore not appropriate and no dividends/c.csv was written.
@@ -85,6 +99,7 @@ Factor and control: enron.csv divides as-then amounts by 8, 4, 2, 1 for the spli
 Yield: 1990 4.5, 1991 4.0 percent (quarterly 0.9 to 1.2); 2001 two payments 0.6 percent of the average price.
 Months: last month of the calendar quarter, as enron.csv does for 1992 to 2000 (the filings give the quarter, not the payment date).
 2001 Q3 and Q4: the 10-Q for Q3 2001 shows dividends paid of $394 million for nine months against $396 million in 2000, compatible with three common payments of 0.125, but no per-share figure was retrieved, so the quarter is left out. A search summary of eepower.com (page blocked, not read) says a 0.125 dividend was announced on 23.10.2001 payable 20.12.2001; Enron filed for Chapter 11 on 2.12.2001, so it was probably never paid. Not used.
+Update (second pass, 2026-10-02): 2001 Q3 added. Enron's press release of 14.8.2001 (web.archive.org copy of enron.com) declares $0.125 payable 20.9.2001 to holders of record 4.9.2001; with the nine-month cash flow of the 10-Q it counts as paid (line 2001-09). 2001 Q4 ($0.125 payable 20.12.2001, record 3.12.2001) stays out: on 29.11.2001 Enron said it might not pay previously declared dividends on its common stock (Houston Chronicle), and the Chapter 11 filing of 2.12.2001 came before the record date; no source says it was paid, so 'not paid' is an inference.
 Caveat: the 1990 to 1991 prices in enron.csv rest on one source only (see its header).
 ## Lehman Brothers (lehman): no file written, checks only
 

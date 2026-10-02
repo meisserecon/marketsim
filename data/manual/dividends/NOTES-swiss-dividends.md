@@ -235,3 +235,10 @@ Wahldividende and "Schweizerischer Bankverein" for 14 to 30 April 1998 found onl
 Reliability: all amounts and dates were read from page images (OCR snippets only to find the page); gross/tax/net agree arithmetically where read (the net lines of FY1979, FY1984, FY1985, FY1987 and the
 registered-share tax of 1996 were not read). I judge the Bankverein series reliable. The weaker points: FY1980 (table, not notice) and the interpretation of the choice dividends (the gross amount is what
 the paper calls the dividend).
+
+## UBS 2001 and 2017 (second pass, 2026-10-02)
+
+UBS's dividend payment history (ubs.com) lists for calendar 2001 only the par value repayment of CHF 1.60 for the fourth quarter of 2000 (ex 16.7.2001, paid 18.7.2001) and for 2017 the CHF 0.60 for 2016 out of capital contribution reserves (ex 8.5.2017, paid 10.5.2017).
+2001: no line, because Yahoo folded the repayment into its price history (NZZ / Yahoo is 6.0395 in June and 2.0000 in July 2001; 6.0395 / 6 = 1.0066 = 1 / (1 - 1.60 / about 245)), so the game already credits it through the price.
+2017: added as 2017-05 0.60 in ubs.csv; Yahoo's dividend events skip it (2016-05 0.85, then 2018-05 0.65). Yield 3.9 percent.
+

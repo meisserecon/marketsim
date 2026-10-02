@@ -1,0 +1,145 @@
+# NZZ month-end readings, January 1988 to December 1988, reduced list, every value read twice (pass 1 and pass 2 in separate crops) and compared. Raw quotes as printed, no adjustment.
+# Source: NZZ issues NZZ_1988-01-30 .. NZZ_1988-12-31 (scans, outside git). Read 2026-10-02 by eye from crops of the page images.
+# Zurich table: "Zuercher Boerse" page, running text per company: name/class, previous day's price in round brackets, then every trade; R = Reprise (2nd session); marks: L = Losgeschaeft,
+#   dt = premium deal, month abbreviations (Jan, Feb, Dez ...) after a price = forward deal. Value taken = last price of the day without dt or month mark (L kept).
+# Frankfurt, Tokyo, New York tables ("Auslandboersen"): columns Vortag, Tages H, Tages T, Tagesschluss, Jahres H, T; value = Tagesschluss. New York in fractions (converted to decimals), IBM column Schluss.
+# Columns as in nzz-readings.csv; share_class I = bearer (SKA: Inh. incl. PS), N = registered; method eye2 = two readings agree, eye3 = settled by a third reading.
+# NOT in this file: Swiss shares for 1988-12 (the issue of 31 Dec 1988 has no Zuercher Boerse page, the issue of 3 Jan 1989 was not downloaded). Foreign December values are present.
+# Quote dates: 1988-04 Tokyo 28 Apr, 1988-12 Tokyo 28 Dec (see notes column), all others the last trading day of the month.
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+nestle,1988-01,1988-01-29,I,CHF,7950,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-01,1988-01-29,N,CHF,3990,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-01,1988-01-29,I,CHF,2935,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-01,1988-01-29,I,CHF,318,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-01,1988-01-29,I+PS,CHF,2330,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-01,1988-01-29,I,CHF,990,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-01,1988-01-29,I,CHF,11950,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-01,1988-01-29,I,CHF,2625,1988-01-30,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-01,1988-01-29,,DEM,530,1988-01-30,45,eye2,Tagesschluss column
+bmw,1988-01,1988-01-29,,DEM,477,1988-01-30,45,eye2,Tagesschluss column
+ibj,1988-01,1988-01-29,,JPY,3450,1988-01-30,46,eye2,Tagesschluss column
+ibm,1988-01,1988-01-29,,USD,112.75,1988-01-30,47,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-02,1988-02-29,I,CHF,8600,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-02,1988-02-29,N,CHF,4265,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-02,1988-02-29,I,CHF,3155,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-02,1988-02-29,I,CHF,346,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-02,1988-02-29,I+PS,CHF,2540,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-02,1988-02-29,I,CHF,1070,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-02,1988-02-29,I,CHF,12600,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-02,1988-02-29,I,CHF,2900,1988-03-01,39,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-02,1988-02-29,,DEM,688.5,1988-03-01,43,eye2,Tagesschluss column
+bmw,1988-02,1988-02-29,,DEM,529,1988-03-01,43,eye2,Tagesschluss column
+ibj,1988-02,1988-02-29,,JPY,3700,1988-03-01,44,eye2,Tagesschluss column
+ibm,1988-02,1988-02-29,,USD,117.625,1988-03-01,45,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-03,1988-03-31,I,CHF,8450,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-03,1988-03-31,N,CHF,4125,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-03,1988-03-31,I,CHF,3020,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-03,1988-03-31,I,CHF,331,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-03,1988-03-31,I+PS,CHF,2250,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-03,1988-03-31,I,CHF,1085,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-03,1988-03-31,I,CHF,12000,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-03,1988-03-31,I,CHF,2700,1988-04-02,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-03,1988-03-31,,DEM,640,1988-04-02,43,eye2,Tagesschluss column; issue of 2 Apr 1988 (Good Friday 1 Apr): Frankfurt table has a single price column = Vortag = 31 Mar close
+bmw,1988-03,1988-03-31,,DEM,503,1988-04-02,43,eye2,Tagesschluss column; issue of 2 Apr 1988 (Good Friday 1 Apr): Frankfurt table has a single price column = Vortag = 31 Mar close
+ibj,1988-03,1988-03-31,,JPY,3600,1988-04-02,44,eye2,Tagesschluss column; Vortag column of the 1 April table = 31 Mar close
+ibm,1988-03,1988-03-31,,USD,107.5,1988-04-02,45,eye2,Schluss column (fractions converted to decimal); Vortag column of the 1 April table = 31 Mar close
+nestle,1988-04,1988-04-29,I,CHF,8375,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-04,1988-04-29,N,CHF,4280,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-04,1988-04-29,I,CHF,2990,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-04,1988-04-29,I,CHF,323,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-04,1988-04-29,I+PS,CHF,2210,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-04,1988-04-29,I,CHF,1095,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-04,1988-04-29,I,CHF,11600,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-04,1988-04-29,I,CHF,2890,1988-04-30,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-04,1988-04-29,,DEM,611,1988-04-30,47,eye2,Tagesschluss column
+bmw,1988-04,1988-04-29,,DEM,511,1988-04-30,47,eye2,Tagesschluss column
+ibj,1988-04,1988-04-28,,JPY,3430,1988-04-30,48,eye2,Tagesschluss column; Tokyo closed 29 Apr (holiday); table has single Vortag column = 28 Apr close
+ibm,1988-04,1988-04-29,,USD,113.5,1988-04-30,49,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-05,1988-05-31,I,CHF,8225,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-05,1988-05-31,N,CHF,4200,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-05,1988-05-31,I,CHF,2975,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-05,1988-05-31,I,CHF,327,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-05,1988-05-31,I+PS,CHF,2360,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-05,1988-05-31,I,CHF,1060,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-05,1988-05-31,I,CHF,11600,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-05,1988-05-31,I,CHF,3100,1988-06-01,45,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-05,1988-05-31,,DEM,608,1988-06-01,47,eye2,Tagesschluss column
+bmw,1988-05,1988-05-31,,DEM,519,1988-06-01,47,eye2,Tagesschluss column
+ibj,1988-05,1988-05-31,,JPY,3210,1988-06-01,48,eye2,Tagesschluss column
+ibm,1988-05,1988-05-31,,USD,113,1988-06-01,49,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-06,1988-06-30,I,CHF,8500,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-06,1988-06-30,N,CHF,4210,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-06,1988-06-30,I,CHF,3110,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-06,1988-06-30,I,CHF,351,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-06,1988-06-30,I+PS,CHF,2530,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-06,1988-06-30,I,CHF,1125,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-06,1988-06-30,I,CHF,12000,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-06,1988-06-30,I,CHF,3390,1988-07-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-06,1988-06-30,,DEM,641.5,1988-07-01,45,eye2,Tagesschluss column
+bmw,1988-06,1988-06-30,,DEM,509,1988-07-01,45,eye2,Tagesschluss column
+ibj,1988-06,1988-06-30,,JPY,3200,1988-07-01,46,eye2,Tagesschluss column
+ibm,1988-06,1988-06-30,,USD,127.375,1988-07-01,47,eye3,Schluss column (fractions converted to decimal); pass1 and pass2 disagreed; settled by third reading at higher magnification
+nestle,1988-07,1988-07-29,I,CHF,8320,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-07,1988-07-29,N,CHF,4110,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-07,1988-07-29,I,CHF,3300,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-07,1988-07-29,I,CHF,380,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-07,1988-07-29,I+PS,CHF,2550,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-07,1988-07-29,I,CHF,1185,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-07,1988-07-29,I,CHF,12625,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-07,1988-07-29,I,CHF,3295,1988-07-30,35,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-07,1988-07-29,,DEM,688,1988-07-30,37,eye2,Tagesschluss column
+bmw,1988-07,1988-07-29,,DEM,509,1988-07-30,37,eye2,Tagesschluss column
+ibj,1988-07,1988-07-29,,JPY,3520,1988-07-30,38,eye2,Tagesschluss column
+ibm,1988-07,1988-07-29,,USD,125.75,1988-07-30,39,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-08,1988-08-31,I,CHF,8315,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-08,1988-08-31,N,CHF,4230,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-08,1988-08-31,I,CHF,3180,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-08,1988-08-31,I,CHF,357,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-08,1988-08-31,I+PS,CHF,2500,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-08,1988-08-31,I,CHF,1140,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-08,1988-08-31,I,CHF,12275,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-08,1988-08-31,I,CHF,3290,1988-09-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-08,1988-08-31,,DEM,653,1988-09-01,45,eye2,Tagesschluss column
+bmw,1988-08,1988-08-31,,DEM,480,1988-09-01,45,eye2,Tagesschluss column
+ibj,1988-08,1988-08-31,,JPY,3230,1988-09-01,46,eye2,Tagesschluss column
+ibm,1988-08,1988-08-31,,USD,111.5,1988-09-01,47,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-09,1988-09-30,I,CHF,8750,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-09,1988-09-30,N,CHF,4240,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-09,1988-09-30,I,CHF,3255,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-09,1988-09-30,I,CHF,375,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-09,1988-09-30,I+PS,CHF,2675,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-09,1988-09-30,I,CHF,1160,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-09,1988-09-30,I,CHF,12350,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-09,1988-09-30,I,CHF,3390,1988-10-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-09,1988-09-30,,DEM,706,1988-10-01,45,eye2,Tagesschluss column
+bmw,1988-09,1988-09-30,,DEM,511,1988-10-01,45,eye2,Tagesschluss column
+ibj,1988-09,1988-09-30,,JPY,3200,1988-10-01,46,eye2,Tagesschluss column
+ibm,1988-09,1988-09-30,,USD,115.375,1988-10-01,47,eye3,Schluss column (fractions converted to decimal); pass1 and pass2 disagreed; settled by third reading at higher magnification
+nestle,1988-10,1988-10-31,I,CHF,8890,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+nestle,1988-10,1988-10-31,N,CHF,4375,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ubs,1988-10,1988-10-31,I,CHF,3440,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-10,1988-10-31,I,CHF,391,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-10,1988-10-31,I+PS,CHF,2880,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-10,1988-10-31,I,CHF,1185,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-10,1988-10-31,I,CHF,12300,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+ciba-geigy,1988-10,1988-10-31,I,CHF,3475,1988-11-01,43,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+mercedes,1988-10,1988-10-31,,DEM,758.5,1988-11-01,47,eye2,Tagesschluss column
+bmw,1988-10,1988-10-31,,DEM,546.5,1988-11-01,47,eye2,Tagesschluss column
+ibj,1988-10,1988-10-31,,JPY,3300,1988-11-01,48,eye2,Tagesschluss column
+ibm,1988-10,1988-10-31,,USD,122.875,1988-11-01,49,eye2,Schluss column (fractions converted to decimal)
+nestle,1988-11,1988-11-30,I,CHF,6875,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); Nestle registered shares opened to foreigners 17 Nov 1988
+nestle,1988-11,1988-11-30,N,CHF,6000,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); Nestle registered shares opened to foreigners 17 Nov 1988
+ubs,1988-11,1988-11-30,I,CHF,3125,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); SBG I
+sbv,1988-11,1988-11-30,I,CHF,363,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+credit-suisse,1988-11,1988-11-30,I+PS,CHF,2690,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); line is Inh. incl. PS (SKA I+PS)
+swissair,1988-11,1988-11-30,I,CHF,1090,1988-12-01,41,eye2,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded)
+sandoz,1988-11,1988-11-30,I,CHF,10575,1988-12-01,41,eye3,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); pass1 and pass2 disagreed; settled by third reading at higher magnification
+ciba-geigy,1988-11,1988-11-30,I,CHF,2710,1988-12-01,41,eye3,last cash price of the day in the Zuercher Boerse running text (last price without forward/premium mark; month-abbreviation prices excluded); pass1 and pass2 disagreed; settled by third reading at higher magnification
+mercedes,1988-11,1988-11-30,,DEM,739,1988-12-01,45,eye2,Tagesschluss column
+bmw,1988-11,1988-11-30,,DEM,516,1988-12-01,45,eye2,Tagesschluss column
+ibj,1988-11,1988-11-30,,JPY,3740,1988-12-01,46,eye2,Tagesschluss column
+ibm,1988-11,1988-11-30,,USD,118.5,1988-12-01,47,eye2,Schluss column (fractions converted to decimal)
+mercedes,1988-12,1988-12-30,,DEM,738,1988-12-31,41,eye2,"Tagesschluss column; Frankfurt/New York list of 30 Dec (Auslandboersen ""Kurse vom 30. Dezember""), year-end single-column layout for Frankfurt"
+bmw,1988-12,1988-12-30,,DEM,523,1988-12-31,41,eye2,"Tagesschluss column; Frankfurt/New York list of 30 Dec (Auslandboersen ""Kurse vom 30. Dezember""), year-end single-column layout for Frankfurt"
+ibj,1988-12,1988-12-28,,JPY,4350,1988-12-31,42,eye2,"Tagesschluss column; Tokyo year-end list: only column headed 28.12. printed (Tokyo closed 29-30 Dec); value = 28 Dec close; Frankfurt/New York list of 30 Dec (Auslandboersen ""Kurse vom 30. Dezember""), year-end single-column layout for Frankfurt"
+ibm,1988-12,1988-12-30,,USD,121.75,1988-12-31,43,eye2,"Schluss column (fractions converted to decimal); Frankfurt/New York list of 30 Dec (Auslandboersen ""Kurse vom 30. Dezember""), year-end single-column layout for Frankfurt"

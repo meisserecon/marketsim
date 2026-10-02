@@ -58,3 +58,10 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Layout: since 1990 the box of the most traded shares with Tagesschluss column; only box shares: Sandoz bearer is not in the box (only N, PS) so Sandoz I is not recorded. All seven recorded Swiss values agree between the Tagesschluss of 28 Dec and the Vortag of 3 Jan. Frankfurt/Tokyo also from two issues.
 - Last trading days: Zurich, Frankfurt, Tokyo 28 Dec; New York 31 Dec.
 - Pass agreement: 11 of 11. IBM ratio 4.184.
+
+## 1993-05
+
+- Issues: 1993-05-29 (Sat/Sun; Swiss 'Permanent gehandelte Schweizer Aktien' box on image 44, running text on the same page, Frankfurt image 46 'Kurse vom 28. Mai', Tokyo image 47) and 1993-06-02 (Swiss image 42 and Frankfurt 46, Tokyo 47, NY 48, all 'Kurse vom 1. Juni'). 31 May 1993 was Whit Monday (Zurich, Frankfurt, New York closed (Memorial Day)); Tokyo traded. So 28 May is the last day for Zurich/Frankfurt; Tokyo 31 May. The Vortag columns of the 1 June tables equal the 28 May Schluss for all seven Swiss lines and both Frankfurt lines (pass 2).
+- Nestle I, N and PS still separate lines in May 1993 (the unification came in June, see earlier notes). Swissair: no bearer line since 1993; N read in running text; Swissair bearer left out. CS Holding I and N both listed.
+- Left out: IBM. The 1 June NY table (2 June issue, idx 48) has IBM Vortag 52 1/4 (31 May Memorial Day, so 28 May) but the 3/4 vs 1/4 fraction could not be settled against Yahoo (52.25 vs 52.75 give ratios 4.144 and 4.184 against 12.6076); the 29 May issue NY page was not located. Not recorded.
+- Pass agreement: 10 of 10.

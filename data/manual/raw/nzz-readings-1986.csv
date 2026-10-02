@@ -1,0 +1,158 @@
+﻿# NZZ month-end readings, January 1986 to January 1987 (13 month ends), double-read and verified. Raw quotes as printed, no adjustment, no conversion.
+# Source: full NZZ issues (JPEG page scans) in data/manual/scans/nzz (outside git), first issue after each month end, read by eye on 2026-10-02.
+# Reduced reading list: bearer shares only (Nestle I and N, SBG/ubs I, SBV/sbv I, SKA/credit-suisse I, Swissair I, Sandoz I, Ciba-Geigy I) plus Daimler-Benz (series mercedes), BMW, IBJ, IBM.
+# Method eye2 = every value read in two passes (separate crops, pass 2 after pass 1); all 146 values agree between the passes. No value read only once is included.
+# Swiss rows: the Zuercher Boerse of these years is running text, no closing column: name (Vortag) first prices ... R second session; t/tt/ttt = forward deals, dt = premium deals,
+#   L = trade in the call; lone figures abbreviate the last digits. price = last price of the day without t/tt/ttt/dt mark (a trailing L mark is accepted and noted where it was the last price).
+#   Series names as in nzz-readings.csv: ubs = Schweizerische Bankgesellschaft, credit-suisse = SKA (line reads Inh. inkl. PS), mercedes = Daimler-Benz.
+# Foreign lists (Auslandboersen): Frankfurt columns "Ende 1985 / Vortag / Schluss" (DM, Schluss = the day's close as printed), Tokio "Ende 1985 / Vortag / Schluss" (yen), New York (USD) fractions as decimals.
+# Issue pages = PDF page (index + 1). header "Kurse vom <date>" gives quote_date; where a table names the day after the month end the Vortag column is used (see notes).
+# Missing: all rows of 1986-03 Swiss shares (no Swiss share table in the 60 page issue of 1986-04-01), Sandoz 1987-01 (ambiguous), IBJ 1986-12 (Tokio closed on 30 Dec).
+# Controls: IBM / data/raw/yahoo/ibm.csv = 4.176 to 4.194 in 12 of 13 months, 4.215 in 1986-12 (30 Dec close vs Yahoo 31 Dec). See nzz-notes-1986.md.series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+bmw,1986-01,1986-01-31,,DEM,582,1986-02-01,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-01,1986-01-31,I,CHF,3775,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-01,1986-01-31,I,CHF,3550,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-01,1986-01-31,,JPY,1040,1986-02-01,27,eye2,Tokio Schluss column
+ibm,1986-01,1986-01-31,,USD,151.25,1986-02-01,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-01,1986-01-31,,DEM,1314,1986-02-01,27,eye2,Frankfurt Schluss column
+nestle,1986-01,1986-01-31,I,CHF,8300,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-01,1986-01-31,N,CHF,4490,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-01,1986-01-31,I,CHF,10850,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-01,1986-01-31,I,CHF,548,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-01,1986-01-31,I,CHF,1880,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-01,1986-01-31,I,CHF,4850,1986-02-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+bmw,1986-02,1986-02-28,,DEM,504,1986-03-01,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-02,1986-02-28,I,CHF,3850,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-02,1986-02-28,I,CHF,3580,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-02,1986-02-28,,JPY,1120,1986-03-01,27,eye2,Tokio Schluss column
+ibm,1986-02,1986-02-28,,USD,151,1986-03-01,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-02,1986-02-28,,DEM,1184,1986-03-01,27,eye2,Frankfurt Schluss column
+nestle,1986-02,1986-02-28,I,CHF,8375,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-02,1986-02-28,N,CHF,4450,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-02,1986-02-28,I,CHF,10200,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-02,1986-02-28,I,CHF,534,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-02,1986-02-28,I,CHF,1910,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-02,1986-02-28,I,CHF,4620,1986-03-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+bmw,1986-03,1986-03-27,,DEM,550,1986-04-01,11,eye2,"Frankfurt closed Fri 28 and Mon 31 Mar (Easter): single column = Vortag, close of Thu 27 Mar"
+ibj,1986-03,1986-03-31,,JPY,1600,1986-04-01,11,eye2,Tokio Schluss column
+ibm,1986-03,1986-03-31,,USD,151.5,1986-04-01,12,eye2,"New York Tagesschluss column, fractions as decimals; NZZ notice of 1.4.1986 says US quotes in this edition are 15h (not closing) quotes; matches Yahoo ratio anyway"
+mercedes,1986-03,1986-03-27,,DEM,1323,1986-04-01,11,eye2,"Frankfurt closed Fri 28 and Mon 31 Mar (Easter): single column = Vortag, close of Thu 27 Mar"
+bmw,1986-04,1986-04-30,,DEM,567.5,1986-05-02,27,eye2,Frankfurt Schluss column; Vortag column of the table Kurse vom 1. Mai = close of 30 Apr
+ciba-geigy,1986-04,1986-04-30,I,CHF,3625,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-04,1986-04-30,I,CHF,3795,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-04,1986-04-30,,JPY,1400,1986-05-02,27,eye2,Tokio Schluss column; Vortag column of the table Kurse vom 1. Mai = close of 30 Apr
+ibm,1986-04,1986-04-30,,USD,156.625,1986-05-02,29,eye2,"New York Tagesschluss column, fractions as decimals; Vortag column"
+mercedes,1986-04,1986-04-30,,DEM,1495,1986-05-02,27,eye2,Frankfurt Schluss column; Vortag column of the table Kurse vom 1. Mai = close of 30 Apr
+nestle,1986-04,1986-04-30,I,CHF,8410,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-04,1986-04-30,N,CHF,4570,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-04,1986-04-30,I,CHF,12800,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-04,1986-04-30,I,CHF,580,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); last price marked L
+swissair,1986-04,1986-04-30,I,CHF,1930,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-04,1986-04-30,I,CHF,5460,1986-05-02,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); R session all forward-marked; last unmarked is first session
+bmw,1986-05,1986-05-30,,DEM,577,1986-05-31,27,eye2,Frankfurt Schluss of 30 May (Vortag column marked geschlossen)
+ciba-geigy,1986-05,1986-05-30,I,CHF,3550,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); R session forward-marked; last unmarked first session
+credit-suisse,1986-05,1986-05-30,I,CHF,3800,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-05,1986-05-30,,JPY,1590,1986-05-31,27,eye2,Tokio Schluss column
+ibm,1986-05,1986-05-30,,USD,152.375,1986-05-31,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-05,1986-05-30,,DEM,1335,1986-05-31,27,eye2,Frankfurt Schluss of 30 May (Vortag column marked geschlossen)
+nestle,1986-05,1986-05-30,I,CHF,8400,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-05,1986-05-30,N,CHF,4470,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-05,1986-05-30,I,CHF,12300,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-05,1986-05-30,I,CHF,564,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-05,1986-05-30,I,CHF,1700,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-05,1986-05-30,I,CHF,5610,1986-05-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); R session forward-marked; last unmarked first session
+bmw,1986-06,1986-06-30,,DEM,593,1986-07-01,23,eye2,Frankfurt Schluss column
+ciba-geigy,1986-06,1986-06-30,I,CHF,3510,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-06,1986-06-30,I,CHF,3740,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-06,1986-06-30,,JPY,1510,1986-07-01,23,eye2,Tokio Schluss column
+ibm,1986-06,1986-06-30,,USD,146.5,1986-07-01,25,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-06,1986-06-30,,DEM,1340,1986-07-01,23,eye2,Frankfurt Schluss column
+nestle,1986-06,1986-06-30,I,CHF,8400,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-06,1986-06-30,N,CHF,4350,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-06,1986-06-30,I,CHF,11875,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-06,1986-06-30,I,CHF,539,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-06,1986-06-30,I,CHF,1560,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-06,1986-06-30,I,CHF,5690,1986-07-01,21,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+bmw,1986-07,1986-07-31,,DEM,479,1986-08-02,21,eye2,Frankfurt Schluss column; Vortag column of the table Kurse vom 1. August = close of 31 Jul
+ciba-geigy,1986-07,1986-07-31,I,CHF,2900,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-07,1986-07-31,I,CHF,3555,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-07,1986-07-31,,JPY,1930,1986-08-02,21,eye2,Tokio Schluss column; Vortag column of the table Kurse vom 1. August = close of 31 Jul
+ibm,1986-07,1986-07-31,,USD,132.5,1986-08-02,23,eye2,"New York Tagesschluss column, fractions as decimals; Vortag column"
+mercedes,1986-07,1986-07-31,,DEM,1130,1986-08-02,21,eye2,Frankfurt Schluss column; Vortag column of the table Kurse vom 1. August = close of 31 Jul
+nestle,1986-07,1986-07-31,I,CHF,7425,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-07,1986-07-31,N,CHF,4030,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); last price marked L
+sandoz,1986-07,1986-07-31,I,CHF,10100,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-07,1986-07-31,I,CHF,502,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-07,1986-07-31,I,CHF,1370,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-07,1986-07-31,I,CHF,5530,1986-08-02,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+bmw,1986-08,1986-08-29,,DEM,643,1986-08-30,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-08,1986-08-29,I,CHF,3550,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-08,1986-08-29,I,CHF,3810,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-08,1986-08-29,,JPY,2290,1986-08-30,27,eye2,Tokio Schluss column
+ibm,1986-08,1986-08-29,,USD,138.625,1986-08-30,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-08,1986-08-29,,DEM,1322,1986-08-30,27,eye2,Frankfurt Schluss column
+nestle,1986-08,1986-08-29,I,CHF,8500,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+nestle,1986-08,1986-08-29,N,CHF,4370,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-08,1986-08-29,I,CHF,10900,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-08,1986-08-29,I,CHF,567,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-08,1986-08-29,I,CHF,1450,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); last price marked L
+ubs,1986-08,1986-08-29,I,CHF,5860,1986-08-30,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+bmw,1986-09,1986-09-30,,DEM,612,1986-10-01,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-09,1986-09-30,I,CHF,3450,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+credit-suisse,1986-09,1986-09-30,I,CHF,3610,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1986-09,1986-09-30,,JPY,2140,1986-10-01,27,eye2,Tokio Schluss column
+ibm,1986-09,1986-09-30,,USD,134.5,1986-10-01,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-09,1986-09-30,,DEM,1242,1986-10-01,27,eye2,Frankfurt Schluss column
+nestle,1986-09,1986-09-30,I,CHF,8300,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); last price marked L
+nestle,1986-09,1986-09-30,N,CHF,4140,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-09,1986-09-30,I,CHF,11000,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-09,1986-09-30,I,CHF,525,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1986-09,1986-09-30,I,CHF,1300,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+ubs,1986-09,1986-09-30,I,CHF,5645,1986-10-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); last token single digit 5 read as 5645
+bmw,1986-10,1986-10-31,,DEM,579,1986-11-01,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-10,1986-10-31,I,CHF,3600,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); Permanenter Handel box
+credit-suisse,1986-10,1986-10-31,I,CHF,3720,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS; Permanenter Handel box
+ibj,1986-10,1986-10-31,,JPY,1950,1986-11-01,27,eye2,Tokio Schluss column
+ibm,1986-10,1986-10-31,,USD,123.5,1986-11-01,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-10,1986-10-31,,DEM,1249,1986-11-01,27,eye2,Frankfurt Schluss column
+nestle,1986-10,1986-10-31,I,CHF,8790,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); Permanenter Handel box
+nestle,1986-10,1986-10-31,N,CHF,4490,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-10,1986-10-31,I,CHF,11900,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-10,1986-10-31,I,CHF,536,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); Permanenter Handel box
+swissair,1986-10,1986-10-31,I,CHF,1300,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); Permanenter Handel box
+ubs,1986-10,1986-10-31,I,CHF,5825,1986-11-01,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); Permanenter Handel box
+bmw,1986-11,1986-11-28,,DEM,605,1986-11-29,27,eye2,Frankfurt Schluss column
+ciba-geigy,1986-11,1986-11-28,I,CHF,3510,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+credit-suisse,1986-11,1986-11-28,I,CHF,3800,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS; p.H.
+ibj,1986-11,1986-11-28,,JPY,2070,1986-11-29,27,eye2,Tokio Schluss column
+ibm,1986-11,1986-11-28,,USD,127.125,1986-11-29,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1986-11,1986-11-28,,DEM,1344,1986-11-29,27,eye2,Frankfurt Schluss column
+nestle,1986-11,1986-11-28,I,CHF,9610,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+nestle,1986-11,1986-11-28,N,CHF,4770,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-11,1986-11-28,I,CHF,9925,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-11,1986-11-28,I,CHF,572,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+swissair,1986-11,1986-11-28,I,CHF,1350,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.; mark ambiguity near end
+ubs,1986-11,1986-11-28,I,CHF,6035,1986-11-29,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.; line start partially clipped
+bmw,1986-12,1986-12-30,,DEM,583,1986-12-31,21,eye2,Frankfurt Schluss column; Schluss column of Kurse vom 30. Dezember
+ciba-geigy,1986-12,1986-12-30,I,CHF,3570,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.; last marked L
+credit-suisse,1986-12,1986-12-30,I,CHF,3800,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS; p.H.; last marked L
+ibm,1986-12,1986-12-30,,USD,120.875,1986-12-31,22,eye2,"New York Schluss of 30 Dec (table Kurse vom 30. Dezember); 31 Dec close was 120 3/8 per later issue (earlier agent), not part of this reading"
+mercedes,1986-12,1986-12-30,,DEM,1233.5,1986-12-31,21,eye2,Frankfurt Schluss column; Schluss column of Kurse vom 30. Dezember
+nestle,1986-12,1986-12-30,I,CHF,9775,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.; Kurse vom 30 Dec
+nestle,1986-12,1986-12-30,N,CHF,4830,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sandoz,1986-12,1986-12-30,I,CHF,11000,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1986-12,1986-12-30,I,CHF,562,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+swissair,1986-12,1986-12-30,I,CHF,1190,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.; level drop vs Nov (1350) - check
+ubs,1986-12,1986-12-30,I,CHF,6000,1986-12-31,19,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+bmw,1987-01,1987-01-30,,DEM,505,1987-01-31,27,eye2,Frankfurt Schluss column
+ciba-geigy,1987-01,1987-01-30,I,CHF,3225,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+credit-suisse,1987-01,1987-01-30,I,CHF,3660,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); line reads Inh. inkl. PS
+ibj,1987-01,1987-01-30,,JPY,3320,1987-01-31,27,eye2,Tokio Schluss column
+ibm,1987-01,1987-01-30,,USD,128.5,1987-01-31,29,eye2,"New York Tagesschluss column, fractions as decimals"
+mercedes,1987-01,1987-01-30,,DEM,1022.5,1987-01-31,27,eye2,Frankfurt Schluss column
+nestle,1987-01,1987-01-30,I,CHF,9100,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+nestle,1987-01,1987-01-30,N,CHF,4750,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+sbv,1987-01,1987-01-30,I,CHF,525,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+swissair,1987-01,1987-01-30,I,CHF,1110,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits); p.H.
+ubs,1987-01,1987-01-30,I,CHF,5725,1987-01-31,25,eye2,last cash price in the Zuercher Boerse running text (last price without t/tt/ttt/dt mark; lone figures expand the last digits)
+

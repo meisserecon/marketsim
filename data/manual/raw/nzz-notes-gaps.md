@@ -11,3 +11,11 @@ Output: `nzz-readings-gaps.csv`. Read by eye on 2026-10-02 from the replacement 
 - IBJ: not in the Tokyo list of 29 Dec 1979 (listed: Alps ... Mitsubishi Est.; no Industrial Bank of Japan); Tokyo was closed 3 Jan.
 - **Left out: Schweizerische Bankgesellschaft I.** The last print in the 28 Dec sequence is 3505 (3510, 3505, 3510, 3505, read twice), but the bracket in both the 2 Jan table (1980-01-03) and the 3 Jan table (1980-01-04) is (3515). All other names read (Swissair, SBV, SKA, Nestle I/N, Sandoz, Ciba-Geigy, also Aare-Tessin, BBC, Hermes) have a bracket equal to the last unmarked print, so the SBG bracket is odd; the two readings disagree and a third crop confirms both printed figures. Left out; candidates 3505 (last print) and 3515 (bracket).
 - Pass agreement: 8 Swiss and Frankfurt/NY values, 7 of 8 Swiss agree with the bracket reading, 1 disagreement (SBG). Frankfurt 2 of 2, IBM 2 of 2.
+
+## 1982-05
+
+- Issue 1982-05-29 (Saturday/Sunday 29/30 May 1982): Swiss page 25 "Kurse vom 28. Mai" (Zurich, Vontobel), NY p27 "New Yorker Boersenkurse vom 28. Mai", Frankfurt/Duesseldorf/Muenchen p28 "Kurse vom 28. Mai". 31 May was Whit Monday (all exchanges closed), so 28 May is the last trading day of the month.
+- Layout: running text as in 1980-82; the Swiss page has four narrow columns; the Zurich list of foreign shares on the same page is not the Frankfurt list and was not used. Frankfurt columns Vortag / Schluss, NY columns Vortag, Eroeff., Hoechst, Tiefst, Vol, P/E, Schl.
+- SKA line is "Inh. inkl. PS" from April 1982 (class I includes the PS).
+- Pass 1 and pass 2 (separate crops of the same lines, different window offsets, read without looking at pass 1): 11 of 11 agree. Compared with an earlier scratch reading by a previous (interrupted) attempt: identical.
+- IBJ: not in the Tokyo list (banks listed: Bank of Tokyo, Fuji Bank).

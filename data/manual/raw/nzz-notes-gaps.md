@@ -21,3 +21,11 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - SKA line is "Inh. inkl. PS" (class I includes the PS from April 1982).
 - Pass 1 and pass 2 were separate crops at different windows, read at separate times: 11 of 11 agree. SBG I 2915 ends with an L print (accepted by convention). No second place exists (the 1 June 1982 issue carries no Zurich table, see earlier notes).
 - IBM control: 61.5 / 14.6989 = 4.184. IBJ: not read (the earlier notes state no IBJ in the Tokyo list of 1982; not re-checked).
+
+## 1983-12
+
+- Issues: 1983-12-30 (prints 29 Dec: Frankfurt p19 "Kurse vom 29. Dezember"), 1983-12-31 (Sat/Sun; prints 30 Dec; Auslandboersen p20-21; NO Swiss share table in that issue), 1984-01-03 (Monday 2 Jan, no tables), 1984-01-04 (p16 Swiss "Kurse vom 3. Januar", the Tendenzen text says the Zurich Boerse "startete ... ins neue Jahr"). Page numbers are image index + 1 of this session.
+- Swiss: no table prints 30 Dec 1983; values are the Vortag brackets of the 3 Jan table (previous trading day = Fri 30 Dec). Eight values, each seen in two separate crops.
+- Frankfurt: the 30 Dec table (31 Dec issue) says "geschlossen" in the Schluss column (FAZ index Schluss "geschl.") and its Vortag column does not move from the 28 Dec values (BMW 427, Daimler 651). The 29 Dec table (30 Dec issue) has Schluss BMW 426.50, Daimler-Benz 650.50, FAZ 351.83 = Vortag of the 30 Dec table. So 29 Dec is the last trading day; rows differ from the earlier agent's file by 0.5 DM.
+- IBM 122 3/4 from the 31 Dec issue (p20); IBJ not read (see earlier notes).
+- Pass agreement: 11 of 11 (Swiss values as brackets cannot be compared against a running sequence).

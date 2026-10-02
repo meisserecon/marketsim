@@ -1,7 +1,7 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import type { FastifyInstance } from "fastify";
-import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView } from "@marketsim/shared";
+import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView } from "@marketsim/shared";
 import { buildApp } from "../src/app.js";
 import { migrate, openEmbedded, type Db } from "../src/db.js";
 import { loadMarket } from "../src/market.js";
@@ -112,6 +112,19 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.equal(lb.players.length, 2);
   assert.equal(lb.players.find((p) => p.name === "Bob")!.totalValue, 1_000);
   assert.deepEqual(lb.players.map((p) => p.rank), [1, 2]);
+  for (const p of lb.players) assert.deepEqual(p.history.map((h) => h.month), ["1979-12", "1980-01"]);
+  assert.equal(lb.players.find((p) => p.name === "Alice")!.history[0].totalValue, 1_000);
+  assert.ok(!JSON.stringify(lb).includes("ust1985"), "the leaderboard does not reveal positions");
+
+  // only the game master sees who holds what
+  assert.equal((await call(app, "GET", `/api/games/${code}/holdings`)).status, 401);
+  assert.equal((await call(app, "GET", `/api/games/${code}/holdings`, undefined, alice)).status, 401);
+  const hold = (await call<HoldingsView>(app, "GET", `/api/games/${code}/holdings`, undefined, gm)).body;
+  assert.equal(hold.month, "1980-01");
+  const aliceHold = hold.players.find((p) => p.name === "Alice")!;
+  assert.deepEqual(aliceHold.positions.map((p) => p.assetId).sort(), ["ibm", "ust1985"]);
+  assert.equal(aliceHold.cash, 300);
+  assert.deepEqual(hold.players.find((p) => p.name === "Bob")!.positions, []);
 
   // advance to December 1980: Apple appears, under the name it had then
   for (let i = 0; i < 11; i++) await call(app, "POST", `/api/games/${code}/advance`, undefined, gm);

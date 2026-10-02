@@ -18,6 +18,7 @@
  *   GET  /api/games/:code/me                (player)           -> PortfolioView
  *   POST /api/games/:code/trades            (player) TradeRequest -> TradeResponse
  *   GET  /api/games/:code/leaderboard                          -> LeaderboardView
+ *   GET  /api/games/:code/holdings          (game master)      -> HoldingsView
  *   POST /api/games/:code/advance           (game master)      -> GameView
  *   GET  /api/games/:code/events            Server-Sent Events of GameEvent
  *
@@ -109,9 +110,23 @@ export interface TradeResponse { portfolio: PortfolioView; entry: LedgerEntry }
 
 export interface LeaderboardView {
   month: string;
-  players: { playerId: string; name: string; totalValue: number; rank: number }[];
+  players: {
+    playerId: string;
+    name: string;
+    totalValue: number;
+    rank: number;
+    /** Total value at each month end since the player joined, up to and including the current month. */
+    history: { month: string; totalValue: number }[];
+  }[];
   /** Value of the starting cash had it tracked the benchmark, once a benchmark series exists. */
   benchmark?: { name: string; totalValue: number };
+}
+
+/** What every player holds this month. For the game master only; players see each other's values, not positions. */
+export interface HoldingsView {
+  month: string;
+  /** In leaderboard order. */
+  players: { playerId: string; name: string; cash: number; totalValue: number; positions: PositionView[] }[];
 }
 
 export type GameEvent =

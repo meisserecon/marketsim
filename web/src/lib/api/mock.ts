@@ -29,6 +29,7 @@ import {
   type GameEvent,
   type GameStatus,
   type GameView,
+  type HoldingsView,
   type LeaderboardView,
   type LedgerEntry,
   type MarketView,
@@ -344,7 +345,12 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
       respond((): LeaderboardView => {
         const g = findGame(load(), code);
         const rows = g.players
-          .map((p) => ({ playerId: p.id, name: p.name, totalValue: portfolioValue(p.portfolio, market, g.currentMonth) }))
+          .map((p) => {
+            const totalValue = portfolioValue(p.portfolio, market, g.currentMonth);
+            const history = p.history.filter((h) => h.month < g.currentMonth).map((h) => ({ month: h.month, totalValue: h.totalValue }));
+            history.push({ month: g.currentMonth, totalValue });
+            return { playerId: p.id, name: p.name, totalValue, history };
+          })
           .sort((a, b) => b.totalValue - a.totalValue);
         let rank = 0;
         let lastValue = 0;
@@ -354,6 +360,19 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
           return { ...r, rank };
         });
         // No benchmark series exists in data/out yet, so `benchmark` stays undefined.
+        return { month: g.currentMonth, players };
+      }),
+
+    holdings: (code, token) =>
+      respond((): HoldingsView => {
+        const g = findGame(load(), code);
+        if (!token || token !== g.gameMasterToken) fail(401, 'unauthorized', 'Only the game master can see the positions of all players.');
+        const players = g.players
+          .map((p) => {
+            const v = portfolioView(g, p);
+            return { playerId: v.playerId, name: v.name, cash: v.cash, totalValue: v.totalValue, positions: v.positions };
+          })
+          .sort((a, b) => b.totalValue - a.totalValue);
         return { month: g.currentMonth, players };
       }),
 

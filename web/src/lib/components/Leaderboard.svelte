@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { LeaderboardView } from '@marketsim/shared';
   import { direction, pct, usd } from '$lib/format';
+  import PlayersChart from './PlayersChart.svelte';
 
   interface Props {
     view: LeaderboardView;
@@ -11,19 +12,39 @@
     big?: boolean;
     /** Show only the top rows (plus the viewer's own). */
     limit?: number;
+    /** Last month of the game. When given, a chart of every listed player's value is shown, spanning the whole game. */
+    finalMonth?: string;
   }
-  let { view, startingCash, meId, big = false, limit }: Props = $props();
+  let { view, startingCash, meId, big = false, limit, finalMonth }: Props = $props();
+
+  const PALETTE = ['#2a78d6', '#e0711c', '#1baf7a', '#c8453b', '#8e5bd0', '#c9a400', '#17a2b8', '#d6589f', '#6b7a8f', '#7a9a1f'];
+  /** A player keeps the same colour whatever the ranking: colours go by the order of joining ids, not by rank. */
+  const colors = $derived(new Map([...view.players].sort((a, b) => a.playerId.localeCompare(b.playerId)).map((p, i) => [p.playerId, PALETTE[i % PALETTE.length]])));
 
   const ret = (v: number) => (startingCash > 0 ? v / startingCash - 1 : undefined);
   const rows = $derived(
     limit === undefined ? view.players : view.players.filter((p, i) => i < limit || p.playerId === meId)
   );
   const hidden = $derived(view.players.length - rows.length);
+  const series = $derived(
+    rows.map((p) => ({
+      id: p.playerId,
+      name: p.name,
+      color: colors.get(p.playerId) ?? PALETTE[0],
+      points: (p.history ?? []).map((h) => ({ month: h.month, value: h.totalValue }))
+    }))
+  );
+  const firstMonth = $derived(series.flatMap((s) => s.points.map((p) => p.month)).sort()[0] ?? view.month);
 </script>
 
 {#if view.players.length === 0}
   <p class="sub muted">No players yet.</p>
 {:else}
+  {#if finalMonth}
+    <div class="race">
+      <PlayersChart {series} span={{ from: firstMonth, to: finalMonth }} highlightId={meId} height={big ? 300 : 200} />
+    </div>
+  {/if}
   <table class="data board" class:big>
     <thead>
       <tr><th class="rank">#</th><th>Player</th><th class="num">Portfolio value</th><th class="num">Since start</th></tr>
@@ -33,7 +54,7 @@
         {@const r = ret(p.totalValue)}
         <tr class:me={p.playerId === meId} class:first={p.rank === 1}>
           <td class="rank">{p.rank}</td>
-          <td class="name">{p.name}{#if p.playerId === meId} <span class="badge held">You</span>{/if}</td>
+          <td class="name">{#if finalMonth}<i class="key" style:background={colors.get(p.playerId)}></i>{/if}{p.name}{#if p.playerId === meId} <span class="badge held">You</span>{/if}</td>
           <td class="num value">{usd(p.totalValue, { cents: false })}</td>
           <td class="num {direction(r)}">{pct(r, { sign: true })}</td>
         </tr>
@@ -53,6 +74,16 @@
 {/if}
 
 <style>
+  .race {
+    margin-bottom: 12px;
+  }
+  .key {
+    display: inline-block;
+    width: 0.62em;
+    height: 0.62em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+  }
   .rank {
     width: 2.2em;
     color: var(--muted);

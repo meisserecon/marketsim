@@ -5,6 +5,7 @@ import type {
   CreateGameResponse,
   GameEvent,
   GameView,
+  HoldingsView,
   JoinRequest,
   JoinResponse,
   LeaderboardView,
@@ -28,6 +29,7 @@ export interface Api {
   me(code: string, playerToken: string): Promise<PortfolioView>;
   trade(code: string, playerToken: string, trade: TradeRequest): Promise<TradeResponse>;
   leaderboard(code: string, token?: string): Promise<LeaderboardView>;
+  holdings(code: string, gameMasterToken: string): Promise<HoldingsView>;
   advance(code: string, gameMasterToken: string): Promise<GameView>;
   /**
    * Live events of a game. `onReconnect` fires when the stream comes back after an

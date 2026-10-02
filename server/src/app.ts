@@ -10,7 +10,7 @@ import fastifyStatic from "@fastify/static";
 import {
   MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
-  type JoinResponse, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
+  type HoldingsView, type JoinResponse, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
 } from "@marketsim/shared";
 import type { Db, Queryable } from "./db.js";
@@ -111,13 +111,17 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     );
   }
 
-  async function portfolioView(q: Queryable, g: GameRow, player: PlayerRow): Promise<PortfolioView> {
-    const month = g.current_month;
-    const p = await loadPortfolio(q, player);
-    const positions = Object.entries(p.holdings).map(([assetId, units]) => {
+  function positionViews(p: Portfolio, month: string) {
+    return Object.entries(p.holdings).map(([assetId, units]) => {
       const price = market.valuationPrice(assetId, month) ?? 0;
       return { assetId, name: nameAt(market.asset(assetId)!, month), units, price, value: units * price };
     }).sort((a, b) => b.value - a.value);
+  }
+
+  async function portfolioView(q: Queryable, g: GameRow, player: PlayerRow): Promise<PortfolioView> {
+    const month = g.current_month;
+    const p = await loadPortfolio(q, player);
+    const positions = positionViews(p, month);
     const history = await q.query<{ month: string; total_value: string; cash: string }>(
       "select month, total_value, cash from snapshots where player_id = $1 order by month", [player.id]);
     const ledger = await q.query<any>(
@@ -262,8 +266,16 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   app.get<{ Params: { code: string } }>("/api/games/:code/leaderboard", async (req): Promise<LeaderboardView> => {
     const g = await gameByCode(db, req.params.code);
     const { rows: players } = await db.query<PlayerRow>("select * from players where game_id = $1", [g.id]);
+    const snapshots = await db.query<{ player_id: string; month: string; total_value: string }>(
+      "select s.player_id, s.month, s.total_value from snapshots s join players p on p.id = s.player_id where p.game_id = $1 and s.month < $2 order by s.month",
+      [g.id, g.current_month]);
     const valued = [];
-    for (const pl of players) valued.push({ playerId: pl.id, name: pl.name, totalValue: portfolioValue(await loadPortfolio(db, pl), market, g.current_month) });
+    for (const pl of players) {
+      const totalValue = portfolioValue(await loadPortfolio(db, pl), market, g.current_month);
+      const history = snapshots.rows.filter((s) => s.player_id === pl.id).map((s) => ({ month: s.month, totalValue: Number(s.total_value) }));
+      history.push({ month: g.current_month, totalValue });
+      valued.push({ playerId: pl.id, name: pl.name, totalValue, history });
+    }
     valued.sort((a, b) => b.totalValue - a.totalValue || a.name.localeCompare(b.name));
     let rank = 0;
     let last = Number.NaN;
@@ -272,6 +284,19 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       return { ...v, rank };
     });
     return { month: g.current_month, players: ranked };
+  });
+
+  app.get<{ Params: { code: string } }>("/api/games/:code/holdings", async (req): Promise<HoldingsView> => {
+    const g = await gameByCode(db, req.params.code);
+    if (hash(bearer(req)) !== g.gm_token_hash) throw new HttpError(401, "unauthorized", "Only the game master can see everybody's positions");
+    const { rows: players } = await db.query<PlayerRow>("select * from players where game_id = $1", [g.id]);
+    const out = [];
+    for (const pl of players) {
+      const p = await loadPortfolio(db, pl);
+      out.push({ playerId: pl.id, name: pl.name, cash: p.cash, totalValue: portfolioValue(p, market, g.current_month), positions: positionViews(p, g.current_month) });
+    }
+    out.sort((a, b) => b.totalValue - a.totalValue || a.name.localeCompare(b.name));
+    return { month: g.current_month, players: out };
   });
 
   app.post<{ Params: { code: string } }>("/api/games/:code/advance", async (req): Promise<GameView> => {

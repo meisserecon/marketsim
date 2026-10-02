@@ -347,7 +347,7 @@
             <h2>Leaderboard</h2>
             <span class="sub">{game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</span>
           </div>
-          <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} meId={portfolio.playerId} limit={10} /></div>
+          <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} limit={10} /></div>
         </section>
       {/if}
     </div>
@@ -358,7 +358,7 @@
       <div class="card final">
         <p class="sub">{game.name} · final month {monthName(game.currentMonth)}</p>
         <h1>Final standings</h1>
-        <Leaderboard view={board} startingCash={game.startingCash} meId={portfolio.playerId} />
+        <Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} />
         <button class="btn primary" onclick={() => (showFinal = false)}>Close</button>
       </div>
     </div>

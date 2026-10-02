@@ -1,10 +1,10 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { page } from '$app/state';
-  import { nextMonth, type GameEvent, type GameView, type LeaderboardView } from '@marketsim/shared';
+  import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { getToken } from '$lib/api/tokens';
-  import { errorMessage, monthName } from '$lib/format';
+  import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
@@ -15,6 +15,7 @@
   let fatal = $state('');
   let game = $state<GameView | undefined>(undefined);
   let board = $state<LeaderboardView | undefined>(undefined);
+  let holdings = $state<HoldingsView | undefined>(undefined);
   let lastJoined = $state('');
 
   let advancing = $state(false);
@@ -35,6 +36,8 @@
       game = g;
       board = l;
       phase = 'ready';
+      // Only the game master's browser may see who holds what.
+      if (token) api.holdings(code, token).then((h) => (holdings = h)).catch(() => {});
     } catch (e) {
       if (phase !== 'loading') return;
       if (isApiFailure(e) && e.code === 'not_found') phase = 'missing';
@@ -74,7 +77,7 @@
     try {
       game = await api.advance(code, token);
       cooling = true;
-      setTimeout(() => (cooling = false), 1200);
+      setTimeout(() => (cooling = false), 250);
       void refresh();
     } catch (e) {
       advanceError = errorMessage(e);
@@ -153,9 +156,41 @@
         </span>
       </div>
       <div class="card-body">
-        {#if board}<Leaderboard view={board} startingCash={game.startingCash} big />{/if}
+        {#if board}<Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} big />{/if}
       </div>
     </section>
+
+    {#if holdings && holdings.players.length}
+      <section class="card">
+        <div class="card-head">
+          <h2>Who holds what</h2>
+          <span class="sub">positions of every player in {monthName(holdings.month)}, as a share of their portfolio · only you see this</span>
+        </div>
+        <div class="card-body">
+          <table class="data holdings">
+            <thead>
+              <tr><th>Player</th><th>Positions</th><th class="num">Cash</th><th class="num">Portfolio value</th></tr>
+            </thead>
+            <tbody>
+              {#each holdings.players as p (p.playerId)}
+                <tr>
+                  <td class="who">{p.name}</td>
+                  <td>
+                    {#each p.positions as pos (pos.assetId)}
+                      <span class="pos" title={usd(pos.value)}>{pos.name} <b>{pct(p.totalValue > 0 ? pos.value / p.totalValue : 0, { digits: 0 })}</b></span>
+                    {:else}
+                      <span class="muted">all in cash</span>
+                    {/each}
+                  </td>
+                  <td class="num">{pct(p.totalValue > 0 ? p.cash / p.totalValue : 0, { digits: 0 })}</td>
+                  <td class="num total">{usd(p.totalValue)}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {/if}
   </main>
 {/if}
 
@@ -231,6 +266,30 @@
   }
   .done h2 {
     font-size: 1.6rem;
+  }
+  .holdings {
+    font-size: 1.1rem;
+  }
+  .holdings td {
+    padding: 9px 10px;
+    vertical-align: top;
+  }
+  .who,
+  .total {
+    font-weight: 650;
+    white-space: nowrap;
+  }
+  .pos {
+    display: inline-block;
+    margin: 0 6px 5px 0;
+    padding: 2px 9px;
+    border-radius: 999px;
+    background: var(--surface-2);
+    white-space: nowrap;
+  }
+  .pos b {
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
   }
   .board .card-head h2 {
     font-size: 1.4rem;

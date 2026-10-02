@@ -1,0 +1,793 @@
+# Month-end share prices read from the Neue Zuercher Zeitung (NZZ), January 1992 to December 1994 (35 of 36 month ends; 1994-05 missing, 1993-05 only IBJ). Raw quotes as printed, no adjustment, no conversion.
+# Source: full NZZ issues from the archive (pure scans, JPEG or Flate page images, no text layer), kept outside git in data/manual/scans/nzz/NZZ_<issue date>.pdf. Read by eye on 2026-10-02 from page crops at full resolution; method = eye for every row.
+# Columns: series = asset id (as in nzz-readings.csv; sbg, sandoz, ciba-geigy are new, ubs/sbv/credit-suisse/swissair/nestle/roche/ibj/bmw/mercedes/siemens reuse existing ids; slb = Schlumberger, ibm = IBM control); month = month the price belongs to;
+#   quote_date = trading day of the price (read from the table header "Kurse vom ..."); share_class: I = Inhaber (bearer), N = Namen (registered), PS = Partizipationsschein, GS = Genussschein, empty for Frankfurt, Tokio and New York quotes;
+#   price_as_printed in the listed currency (CHF, DEM, JPY, USD; the Frankfurt, Tokio and New York tables print no currency; US prices are fractions converted to decimals, e.g. 62 1/8 = 62.125); issue = date of the NZZ issue; page = page-image index (1-based) of the PDF file.
+# Series naming: SBG (Schweizerische Bankgesellschaft) is the later UBS but is stored as sbg here because it is the pre-merger bank; the downstream mapping to ubs is for the series files to decide.
+# Table layouts (details in nzz-notes-1992-1994.md): to 1993-04 "Permanent gehandelte Schweizer Aktien" with columns Jahres-H, Jahres-T, Vortag, Eroeffnung, Tages-H, Tages-T, Volumen, Tagesschluss (close = last column); from 1993-06 and in 1994 the same table with Nestle N only;
+#   from 1994-08 the alphabetical "Inland" table (Vortag, Tages-H, Tages-T, Volumen 1000 Fr., Schluss). Frankfurt/Tokio/New York: Vortag, Eroeffnung or Hoechst, Tiefst, Tagesschluss.
+# Double reading: in most months every value was read in two separately made crops (first pass, then re-crop with shifted windows); some rows were read in one crop only or only in a slightly overlapping second crop (flagged in the notes file; flagged rows in the note column where known). Rows where two readings disagreed were re-read at higher magnification or left out.
+# Controls (see notes): Nestle N / 1000 (to 1992-08) or / 100 (from 1992-09) equals data/raw/yahoo/nestle.csv in 32 of 34 months within 0.3 percent (all within 0.5 percent; 1992-12 and 1993-02 are 0.4 percent low); IBM / Yahoo (split-adjusted) = 4.184 constant (4.15 to 4.23, Yahoo month-end date scatter);
+#   BMW, Siemens and Daimler-Benz DM closes equal the onvista closes (x 50.8516, 30.2354, 23.5586) of the same day to the pfennig in all 35 months.
+# Breaks in the raw quotes (not adjusted here), all seen in the paper as a restated year high/low next to the quote:
+#   Nestle I and N 1:10 split between 31.8.1992 (9120, 9140) and 30.9.1992 (976, 988); Nestle PS not split; PS and I classes merged into one registered share Nestle N between 3.5.1993 and 30.6.1993.
+#   SBG I 3570 (30.6.1992) -> 701 (31.7.1992) and N 784 -> 153: split 1:5; Ciba-Geigy I 3320 -> 662 (30.6.1992 -> 31.7.1992), N 3350 -> 664, PS 3320 -> 652: split 1:5.
+#   SBV N 346 (31.3.1993) -> 166 (30.4.1993): split 1:2; CS Holding I 3595 (30.11.1993) -> 737 (30.12.1993) and N 708 -> 147: split 1:5; Sandoz I 3710 (29.4.1994) -> 718 (30.6.1994), N 3720 -> 694, PS gone: split 1:5.
+# Left out (rule: only readings that were read twice and agree): IBM 1994-01, 1994-02, 1994-09; IBJ 1994-03; Schlumberger and IBM where the issue has no USA page (1994-07); IBM and Schlumberger 1993-02 (not read); everything of 1994-05 (no issue in the archive); 1993-05 only IBJ readable (see notes).
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+nestle,1992-01,1992-01-31,I,CHF,9120,1992-02-01,41,eye,
+nestle,1992-01,1992-01-31,N,CHF,9050,1992-02-01,41,eye,
+nestle,1992-01,1992-01-31,PS,CHF,1775,1992-02-01,41,eye,
+sbg,1992-01,1992-01-31,I,CHF,3780,1992-02-01,41,eye,
+sbg,1992-01,1992-01-31,N,CHF,810,1992-02-01,41,eye,
+sbv,1992-01,1992-01-31,I,CHF,300,1992-02-01,41,eye,
+sbv,1992-01,1992-01-31,N,CHF,277,1992-02-01,41,eye,
+sbv,1992-01,1992-01-31,PS,CHF,273,1992-02-01,41,eye,
+credit-suisse,1992-01,1992-01-31,I,CHF,1905,1992-02-01,41,eye,
+credit-suisse,1992-01,1992-01-31,N,CHF,365,1992-02-01,41,eye,
+swissair,1992-01,1992-01-31,I,CHF,720,1992-02-01,41,eye,
+swissair,1992-01,1992-01-31,N,CHF,540,1992-02-01,41,eye,
+swissair,1992-01,1992-01-31,GS,CHF,105,1992-02-01,41,eye,
+sandoz,1992-01,1992-01-31,I,CHF,2580,1992-02-01,41,eye,
+sandoz,1992-01,1992-01-31,N,CHF,2600,1992-02-01,41,eye,
+sandoz,1992-01,1992-01-31,PS,CHF,2460,1992-02-01,41,eye,
+ciba-geigy,1992-01,1992-01-31,I,CHF,3230,1992-02-01,41,eye,
+ciba-geigy,1992-01,1992-01-31,N,CHF,3220,1992-02-01,41,eye,
+ciba-geigy,1992-01,1992-01-31,PS,CHF,3090,1992-02-01,41,eye,
+roche,1992-01,1992-01-31,I,CHF,4190,1992-02-01,41,eye,
+roche,1992-01,1992-01-31,GS,CHF,2670,1992-02-01,41,eye,
+bmw,1992-01,,,DEM,536,1992-02-01,43,eye,
+mercedes,1992-01,,,DEM,749.20,1992-02-01,43,eye,
+siemens,1992-01,,,DEM,662,1992-02-01,43,eye,
+ibj,1992-01,,,JPY,2940,1992-02-01,44,eye,
+slb,1992-01,,,USD,59.5,1992-02-01,45,eye,
+ibm,1992-01,,,USD,90,1992-02-01,45,eye,
+nestle,1992-02,1992-02-28,I,CHF,9490,1992-02-29,43,eye,
+nestle,1992-02,1992-02-28,N,CHF,9390,1992-02-29,43,eye,
+nestle,1992-02,1992-02-28,PS,CHF,1835,1992-02-29,43,eye,
+sbg,1992-02,1992-02-28,I,CHF,3930,1992-02-29,43,eye,
+sbg,1992-02,1992-02-28,N,CHF,825,1992-02-29,43,eye,
+sbv,1992-02,1992-02-28,I,CHF,309,1992-02-29,43,eye,
+sbv,1992-02,1992-02-28,N,CHF,279,1992-02-29,43,eye,
+sbv,1992-02,1992-02-28,PS,CHF,274,1992-02-29,43,eye,
+credit-suisse,1992-02,1992-02-28,I,CHF,2060,1992-02-29,43,eye,
+credit-suisse,1992-02,1992-02-28,N,CHF,384,1992-02-29,43,eye,
+swissair,1992-02,1992-02-28,I,CHF,680,1992-02-29,43,eye,
+swissair,1992-02,1992-02-28,N,CHF,530,1992-02-29,43,eye,
+swissair,1992-02,1992-02-28,GS,CHF,106,1992-02-29,43,eye,
+sandoz,1992-02,1992-02-28,I,CHF,2630,1992-02-29,43,eye,
+sandoz,1992-02,1992-02-28,N,CHF,2670,1992-02-29,43,eye,
+sandoz,1992-02,1992-02-28,PS,CHF,2550,1992-02-29,43,eye,
+ciba-geigy,1992-02,1992-02-28,I,CHF,3410,1992-02-29,43,eye,
+ciba-geigy,1992-02,1992-02-28,N,CHF,3410,1992-02-29,43,eye,
+ciba-geigy,1992-02,1992-02-28,PS,CHF,3320,1992-02-29,43,eye,
+roche,1992-02,1992-02-28,I,CHF,4140,1992-02-29,43,eye,
+roche,1992-02,1992-02-28,GS,CHF,2910,1992-02-29,43,eye,
+bmw,1992-02,,,DEM,562.50,1992-02-29,47,eye,
+mercedes,1992-02,,,DEM,757.50,1992-02-29,47,eye,
+siemens,1992-02,,,DEM,687.50,1992-02-29,47,eye,
+ibj,1992-02,,,JPY,2580,1992-02-29,48,eye,
+slb,1992-02,,,USD,59.875,1992-02-29,49,eye,
+ibm,1992-02,,,USD,86.875,1992-02-29,49,eye,
+nestle,1992-03,1992-03-31,I,CHF,9490,1992-04-01,45,eye,
+nestle,1992-03,1992-03-31,N,CHF,9470,1992-04-01,45,eye,
+nestle,1992-03,1992-03-31,PS,CHF,1875,1992-04-01,45,eye,
+sbg,1992-03,1992-03-31,I,CHF,3720,1992-04-01,45,eye,
+sbg,1992-03,1992-03-31,N,CHF,779,1992-04-01,45,eye,
+sbv,1992-03,1992-03-31,I,CHF,292,1992-04-01,45,eye,
+sbv,1992-03,1992-03-31,N,CHF,264,1992-04-01,45,eye,
+sbv,1992-03,1992-03-31,PS,CHF,261,1992-04-01,45,eye,
+credit-suisse,1992-03,1992-03-31,I,CHF,1935,1992-04-01,45,eye,
+credit-suisse,1992-03,1992-03-31,N,CHF,364,1992-04-01,45,eye,
+swissair,1992-03,1992-03-31,I,CHF,738,1992-04-01,45,eye,
+swissair,1992-03,1992-03-31,N,CHF,635,1992-04-01,45,eye,
+sandoz,1992-03,1992-03-31,I,CHF,2530,1992-04-01,45,eye,
+sandoz,1992-03,1992-03-31,N,CHF,2550,1992-04-01,45,eye,
+sandoz,1992-03,1992-03-31,PS,CHF,2480,1992-04-01,45,eye,
+ciba-geigy,1992-03,1992-03-31,I,CHF,3490,1992-04-01,45,eye,
+ciba-geigy,1992-03,1992-03-31,N,CHF,3490,1992-04-01,45,eye,
+ciba-geigy,1992-03,1992-03-31,PS,CHF,3360,1992-04-01,45,eye,
+roche,1992-03,1992-03-31,I,CHF,4350,1992-04-01,45,eye,
+roche,1992-03,1992-03-31,GS,CHF,3070,1992-04-01,45,eye,
+bmw,1992-03,,,DEM,574.50,1992-04-01,47,eye,
+mercedes,1992-03,,,DEM,758,1992-04-01,47,eye,
+siemens,1992-03,,,DEM,673,1992-04-01,47,eye,
+ibj,1992-03,,,JPY,2220,1992-04-01,48,eye,
+slb,1992-03,,,USD,55.625,1992-04-01,49,eye,
+ibm,1992-03,,,USD,83.5,1992-04-01,49,eye,
+nestle,1992-04,1992-04-30,I,CHF,9860,1992-05-02,43,eye,
+nestle,1992-04,1992-04-30,N,CHF,9810,1992-05-02,43,eye,
+nestle,1992-04,1992-04-30,PS,CHF,1945,1992-05-02,43,eye,
+sbg,1992-04,1992-04-30,I,CHF,3760,1992-05-02,43,eye,
+sbg,1992-04,1992-04-30,N,CHF,784,1992-05-02,43,eye,
+sbv,1992-04,1992-04-30,I,CHF,271,1992-05-02,43,eye,
+sbv,1992-04,1992-04-30,N,CHF,262,1992-05-02,43,eye,
+sbv,1992-04,1992-04-30,PS,CHF,255,1992-05-02,43,eye,
+credit-suisse,1992-04,1992-04-30,I,CHF,1985,1992-05-02,43,eye,
+credit-suisse,1992-04,1992-04-30,N,CHF,378,1992-05-02,43,eye,
+swissair,1992-04,1992-04-30,I,CHF,762,1992-05-02,43,eye,
+swissair,1992-04,1992-04-30,N,CHF,685,1992-05-02,43,eye,
+swissair,1992-04,1992-04-30,GS,CHF,118,1992-05-02,43,eye,text listing: single trade marked L
+sandoz,1992-04,1992-04-30,I,CHF,2630,1992-05-02,43,eye,
+sandoz,1992-04,1992-04-30,N,CHF,2610,1992-05-02,43,eye,
+sandoz,1992-04,1992-04-30,PS,CHF,2560,1992-05-02,43,eye,
+ciba-geigy,1992-04,1992-04-30,I,CHF,3570,1992-05-02,43,eye,
+ciba-geigy,1992-04,1992-04-30,N,CHF,3600,1992-05-02,43,eye,
+ciba-geigy,1992-04,1992-04-30,PS,CHF,3450,1992-05-02,43,eye,
+roche,1992-04,1992-04-30,I,CHF,4320,1992-05-02,43,eye,
+roche,1992-04,1992-04-30,GS,CHF,3160,1992-05-02,43,eye,
+bmw,1992-04,,,DEM,577.30,1992-05-02,47,eye,
+mercedes,1992-04,,,DEM,785,1992-05-02,47,eye,
+siemens,1992-04,,,DEM,685.90,1992-05-02,47,eye,
+slb,1992-04,,,USD,62.125,1992-05-02,49,eye,NY table headed Kurse vom 1. Mai: value is the Vortag column = close of 30 April; printed 62 1/8
+ibm,1992-04,,,USD,90.75,1992-05-02,49,eye,NY table headed Kurse vom 1. Mai: value is the Vortag column = close of 30 April; printed 90 3/4 (1 May close also 90 3/4)
+nestle,1992-05,1992-05-29,I,CHF,9800,1992-05-30,43,eye,
+nestle,1992-05,1992-05-29,N,CHF,9790,1992-05-30,43,eye,
+nestle,1992-05,1992-05-29,PS,CHF,1925,1992-05-30,43,eye,
+sbg,1992-05,1992-05-29,I,CHF,3830,1992-05-30,43,eye,
+sbg,1992-05,1992-05-29,N,CHF,809,1992-05-30,43,eye,
+sbv,1992-05,1992-05-29,I,CHF,270,1992-05-30,43,eye,
+sbv,1992-05,1992-05-29,N,CHF,264,1992-05-30,43,eye,
+sbv,1992-05,1992-05-29,PS,CHF,256,1992-05-30,43,eye,
+credit-suisse,1992-05,1992-05-29,I,CHF,1975,1992-05-30,43,eye,
+credit-suisse,1992-05,1992-05-29,N,CHF,384,1992-05-30,43,eye,
+swissair,1992-05,1992-05-29,I,CHF,775,1992-05-30,43,eye,
+swissair,1992-05,1992-05-29,N,CHF,720,1992-05-30,43,eye,
+swissair,1992-05,1992-05-29,GS,CHF,138,1992-05-30,43,eye,
+sandoz,1992-05,1992-05-29,I,CHF,2910,1992-05-30,43,eye,
+sandoz,1992-05,1992-05-29,N,CHF,2950,1992-05-30,43,eye,
+sandoz,1992-05,1992-05-29,PS,CHF,2850,1992-05-30,43,eye,
+ciba-geigy,1992-05,1992-05-29,I,CHF,3520,1992-05-30,43,eye,
+ciba-geigy,1992-05,1992-05-29,N,CHF,3590,1992-05-30,43,eye,
+ciba-geigy,1992-05,1992-05-29,PS,CHF,3460,1992-05-30,43,eye,
+roche,1992-05,1992-05-29,I,CHF,4610,1992-05-30,43,eye,
+roche,1992-05,1992-05-29,GS,CHF,3380,1992-05-30,43,eye,
+bmw,1992-05,,,DEM,611.10,1992-05-30,47,eye,
+mercedes,1992-05,,,DEM,809.80,1992-05-30,47,eye,
+siemens,1992-05,,,DEM,698.90,1992-05-30,47,eye,
+ibj,1992-05,,,JPY,1850,1992-05-30,48,eye,
+slb,1992-05,,,USD,65.75,1992-05-30,49,eye,
+ibm,1992-05,,,USD,90.75,1992-05-30,49,eye,
+nestle,1992-06,1992-06-30,I,CHF,9740,1992-07-01,37,eye,
+nestle,1992-06,1992-06-30,N,CHF,9730,1992-07-01,37,eye,
+nestle,1992-06,1992-06-30,PS,CHF,1880,1992-07-01,37,eye,
+sbg,1992-06,1992-06-30,I,CHF,3570,1992-07-01,37,eye,
+sbg,1992-06,1992-06-30,N,CHF,784,1992-07-01,37,eye,
+sbv,1992-06,1992-06-30,I,CHF,254,1992-07-01,37,eye,
+sbv,1992-06,1992-06-30,N,CHF,240,1992-07-01,37,eye,
+sbv,1992-06,1992-06-30,PS,CHF,235,1992-07-01,37,eye,
+credit-suisse,1992-06,1992-06-30,I,CHF,1755,1992-07-01,37,eye,
+credit-suisse,1992-06,1992-06-30,N,CHF,333,1992-07-01,37,eye,
+swissair,1992-06,1992-06-30,I,CHF,635,1992-07-01,37,eye,
+swissair,1992-06,1992-06-30,N,CHF,590,1992-07-01,37,eye,text listing: single trade marked L
+swissair,1992-06,1992-06-30,GS,CHF,125,1992-07-01,37,eye,
+sandoz,1992-06,1992-06-30,I,CHF,3020,1992-07-01,37,eye,
+sandoz,1992-06,1992-06-30,N,CHF,3020,1992-07-01,37,eye,
+sandoz,1992-06,1992-06-30,PS,CHF,2970,1992-07-01,37,eye,
+ciba-geigy,1992-06,1992-06-30,I,CHF,3320,1992-07-01,37,eye,
+ciba-geigy,1992-06,1992-06-30,N,CHF,3350,1992-07-01,37,eye,
+ciba-geigy,1992-06,1992-06-30,PS,CHF,3320,1992-07-01,37,eye,
+roche,1992-06,1992-06-30,I,CHF,5100,1992-07-01,37,eye,
+roche,1992-06,1992-06-30,GS,CHF,3360,1992-07-01,37,eye,
+bmw,1992-06,,,DEM,590,1992-07-01,39,eye,
+mercedes,1992-06,,,DEM,761.80,1992-07-01,39,eye,
+siemens,1992-06,,,DEM,665.20,1992-07-01,39,eye,
+ibj,1992-06,,,JPY,1530,1992-07-01,40,eye,
+slb,1992-06,,,USD,62.875,1992-07-01,41,eye,
+ibm,1992-06,,,USD,97.875,1992-07-01,41,eye,
+nestle,1992-07,1992-07-31,I,CHF,9370,1992-08-03,31,eye,
+nestle,1992-07,1992-07-31,N,CHF,9320,1992-08-03,31,eye,
+nestle,1992-07,1992-07-31,PS,CHF,1820,1992-08-03,31,eye,
+sbg,1992-07,1992-07-31,I,CHF,701,1992-08-03,31,eye,SBG split: bearer 3570 (30.6.1992) -> 701; year high/low restated
+sbg,1992-07,1992-07-31,N,CHF,153,1992-08-03,31,eye,SBG split: registered 784 -> 153
+sbv,1992-07,1992-07-31,I,CHF,247,1992-08-03,31,eye,
+sbv,1992-07,1992-07-31,N,CHF,237,1992-08-03,31,eye,
+sbv,1992-07,1992-07-31,PS,CHF,234,1992-08-03,31,eye,
+credit-suisse,1992-07,1992-07-31,I,CHF,1755,1992-08-03,31,eye,
+credit-suisse,1992-07,1992-07-31,N,CHF,345,1992-08-03,31,eye,
+swissair,1992-07,1992-07-31,I,CHF,607,1992-08-03,31,eye,
+swissair,1992-07,1992-07-31,N,CHF,555,1992-08-03,31,eye,
+sandoz,1992-07,1992-07-31,I,CHF,2850,1992-08-03,31,eye,
+sandoz,1992-07,1992-07-31,N,CHF,2870,1992-08-03,31,eye,
+sandoz,1992-07,1992-07-31,PS,CHF,2810,1992-08-03,31,eye,
+ciba-geigy,1992-07,1992-07-31,I,CHF,662,1992-08-03,31,eye,Ciba-Geigy split: bearer 3320 (30.6.1992) -> 662; year high/low restated
+ciba-geigy,1992-07,1992-07-31,N,CHF,664,1992-08-03,31,eye,
+ciba-geigy,1992-07,1992-07-31,PS,CHF,652,1992-08-03,31,eye,
+roche,1992-07,1992-07-31,I,CHF,5100,1992-08-03,31,eye,
+roche,1992-07,1992-07-31,GS,CHF,3260,1992-08-03,31,eye,
+bmw,1992-07,,,DEM,553,1992-08-03,33,eye,
+mercedes,1992-07,,,DEM,685,1992-08-03,33,eye,
+siemens,1992-07,,,DEM,625.50,1992-08-03,33,eye,
+ibj,1992-07,,,JPY,1780,1992-08-03,34,eye,
+slb,1992-07,,,USD,66.75,1992-08-03,35,eye,
+ibm,1992-07,,,USD,94.625,1992-08-03,35,eye,
+nestle,1992-08,1992-08-31,I,CHF,9120,1992-09-01,41,eye,
+nestle,1992-08,1992-08-31,N,CHF,9140,1992-09-01,41,eye,
+nestle,1992-08,1992-08-31,PS,CHF,1800,1992-09-01,41,eye,
+sbg,1992-08,1992-08-31,I,CHF,690,1992-09-01,41,eye,
+sbg,1992-08,1992-08-31,N,CHF,143,1992-09-01,41,eye,
+sbv,1992-08,1992-08-31,I,CHF,240,1992-09-01,41,eye,
+sbv,1992-08,1992-08-31,N,CHF,230,1992-09-01,41,eye,
+sbv,1992-08,1992-08-31,PS,CHF,229,1992-09-01,41,eye,
+credit-suisse,1992-08,1992-08-31,I,CHF,1630,1992-09-01,41,eye,
+credit-suisse,1992-08,1992-08-31,N,CHF,320,1992-09-01,41,eye,
+swissair,1992-08,1992-08-31,I,CHF,550,1992-09-01,41,eye,
+sandoz,1992-08,1992-08-31,I,CHF,2720,1992-09-01,41,eye,
+sandoz,1992-08,1992-08-31,N,CHF,2750,1992-09-01,41,eye,
+sandoz,1992-08,1992-08-31,PS,CHF,2690,1992-09-01,41,eye,
+ciba-geigy,1992-08,1992-08-31,I,CHF,634,1992-09-01,41,eye,
+ciba-geigy,1992-08,1992-08-31,N,CHF,630,1992-09-01,41,eye,
+ciba-geigy,1992-08,1992-08-31,PS,CHF,625,1992-09-01,41,eye,
+roche,1992-08,1992-08-31,I,CHF,5100,1992-09-01,41,eye,
+roche,1992-08,1992-08-31,GS,CHF,3310,1992-09-01,41,eye,
+bmw,1992-08,,,DEM,509,1992-09-01,45,eye,
+mercedes,1992-08,,,DEM,628,1992-09-01,45,eye,
+siemens,1992-08,,,DEM,596.30,1992-09-01,45,eye,
+ibj,1992-08,,,JPY,2410,1992-09-01,46,eye,
+slb,1992-08,,,USD,68.875,1992-09-01,49,eye,
+ibm,1992-08,,,USD,86.625,1992-09-01,49,eye,
+nestle,1992-09,1992-09-30,I,CHF,976,1992-10-01,43,eye,Nestle split 1:10 of the bearer and registered share between 31.8.1992 (9120/9140) and 30.9.1992; year high/low restated 10200/8770 -> 1020/877; the PS is not split (1930)
+nestle,1992-09,1992-09-30,N,CHF,988,1992-10-01,43,eye,"after the 1:10 split, see nestle I"
+nestle,1992-09,1992-09-30,PS,CHF,1930,1992-10-01,43,eye,
+sbg,1992-09,1992-09-30,I,CHF,779,1992-10-01,43,eye,
+sbg,1992-09,1992-09-30,N,CHF,163,1992-10-01,43,eye,
+sbv,1992-09,1992-09-30,I,CHF,273,1992-10-01,43,eye,
+sbv,1992-09,1992-09-30,N,CHF,265,1992-10-01,43,eye,
+sbv,1992-09,1992-09-30,PS,CHF,261,1992-10-01,43,eye,
+credit-suisse,1992-09,1992-09-30,I,CHF,1955,1992-10-01,43,eye,
+credit-suisse,1992-09,1992-09-30,N,CHF,373,1992-10-01,43,eye,
+swissair,1992-09,1992-09-30,I,CHF,530,1992-10-01,43,eye,
+sandoz,1992-09,1992-09-30,I,CHF,2830,1992-10-01,43,eye,
+sandoz,1992-09,1992-09-30,N,CHF,2850,1992-10-01,43,eye,
+sandoz,1992-09,1992-09-30,PS,CHF,2760,1992-10-01,43,eye,
+ciba-geigy,1992-09,1992-09-30,I,CHF,626,1992-10-01,43,eye,
+ciba-geigy,1992-09,1992-09-30,N,CHF,620,1992-10-01,43,eye,
+ciba-geigy,1992-09,1992-09-30,PS,CHF,607,1992-10-01,43,eye,
+roche,1992-09,1992-09-30,I,CHF,5380,1992-10-01,43,eye,
+roche,1992-09,1992-09-30,GS,CHF,3590,1992-10-01,43,eye,
+bmw,1992-09,,,DEM,465.50,1992-10-01,45,eye,
+mercedes,1992-09,,,DEM,558.50,1992-10-01,45,eye,
+siemens,1992-09,,,DEM,570.70,1992-10-01,45,eye,
+ibj,1992-09,,,JPY,2440,1992-10-01,46,eye,
+slb,1992-09,,,USD,67.625,1992-10-01,47,eye,
+ibm,1992-09,,,USD,80.75,1992-10-01,47,eye,
+nestle,1992-10,1992-10-30,I,CHF,1020,1992-10-31,45,eye,
+nestle,1992-10,1992-10-30,N,CHF,1025,1992-10-31,45,eye,
+nestle,1992-10,1992-10-30,PS,CHF,1995,1992-10-31,45,eye,
+sbg,1992-10,1992-10-30,I,CHF,824,1992-10-31,45,eye,
+sbg,1992-10,1992-10-30,N,CHF,172,1992-10-31,45,eye,
+sbv,1992-10,1992-10-30,I,CHF,285,1992-10-31,45,eye,
+sbv,1992-10,1992-10-30,N,CHF,270,1992-10-31,45,eye,
+sbv,1992-10,1992-10-30,PS,CHF,270,1992-10-31,45,eye,
+credit-suisse,1992-10,1992-10-30,I,CHF,1990,1992-10-31,45,eye,
+credit-suisse,1992-10,1992-10-30,N,CHF,377,1992-10-31,45,eye,
+swissair,1992-10,1992-10-30,I,CHF,515,1992-10-31,45,eye,
+sandoz,1992-10,1992-10-30,I,CHF,2840,1992-10-31,45,eye,
+sandoz,1992-10,1992-10-30,N,CHF,2870,1992-10-31,45,eye,
+sandoz,1992-10,1992-10-30,PS,CHF,2790,1992-10-31,45,eye,
+ciba-geigy,1992-10,1992-10-30,I,CHF,607,1992-10-31,45,eye,
+ciba-geigy,1992-10,1992-10-30,N,CHF,593,1992-10-31,45,eye,
+ciba-geigy,1992-10,1992-10-30,PS,CHF,592,1992-10-31,45,eye,
+roche,1992-10,1992-10-30,I,CHF,5400,1992-10-31,45,eye,
+roche,1992-10,1992-10-30,GS,CHF,3680,1992-10-31,45,eye,
+bmw,1992-10,,,DEM,485,1992-10-31,47,eye,
+mercedes,1992-10,,,DEM,532,1992-10-31,47,eye,
+siemens,1992-10,,,DEM,555.60,1992-10-31,47,eye,
+ibj,1992-10,,,JPY,2440,1992-10-31,48,eye,
+slb,1992-10,,,USD,63.5,1992-10-31,49,eye,
+ibm,1992-10,,,USD,66.875,1992-10-31,49,eye,
+nestle,1992-11,1992-11-30,I,CHF,1045,1992-12-01,41,eye,
+nestle,1992-11,1992-11-30,N,CHF,1065,1992-12-01,41,eye,
+nestle,1992-11,1992-11-30,PS,CHF,2090,1992-12-01,41,eye,
+sbg,1992-11,1992-11-30,I,CHF,808,1992-12-01,41,eye,
+sbg,1992-11,1992-11-30,N,CHF,167,1992-12-01,41,eye,
+sbv,1992-11,1992-11-30,I,CHF,258,1992-12-01,41,eye,
+sbv,1992-11,1992-11-30,N,CHF,247,1992-12-01,41,eye,
+sbv,1992-11,1992-11-30,PS,CHF,246,1992-12-01,41,eye,
+credit-suisse,1992-11,1992-11-30,I,CHF,1900,1992-12-01,41,eye,
+credit-suisse,1992-11,1992-11-30,N,CHF,365,1992-12-01,41,eye,
+swissair,1992-11,1992-11-30,I,CHF,475,1992-12-01,41,eye,
+sandoz,1992-11,1992-11-30,I,CHF,3000,1992-12-01,41,eye,
+sandoz,1992-11,1992-11-30,N,CHF,3040,1992-12-01,41,eye,
+sandoz,1992-11,1992-11-30,PS,CHF,2950,1992-12-01,41,eye,
+ciba-geigy,1992-11,1992-11-30,I,CHF,609,1992-12-01,41,eye,
+ciba-geigy,1992-11,1992-11-30,N,CHF,589,1992-12-01,41,eye,
+ciba-geigy,1992-11,1992-11-30,PS,CHF,580,1992-12-01,41,eye,
+roche,1992-11,1992-11-30,I,CHF,5440,1992-12-01,41,eye,
+roche,1992-11,1992-11-30,GS,CHF,3900,1992-12-01,41,eye,
+bmw,1992-11,,,DEM,497,1992-12-01,45,eye,
+mercedes,1992-11,,,DEM,547.50,1992-12-01,45,eye,
+siemens,1992-11,,,DEM,602,1992-12-01,45,eye,
+ibj,1992-11,,,JPY,2500,1992-12-01,46,eye,
+slb,1992-11,,,USD,61,1992-12-01,49,eye,
+ibm,1992-11,,,USD,68.25,1992-12-01,49,eye,
+nestle,1992-12,1992-12-30,I,CHF,1145,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+nestle,1992-12,1992-12-30,N,CHF,1160,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+nestle,1992-12,1992-12-30,PS,CHF,2240,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sbg,1992-12,1992-12-30,I,CHF,862,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sbg,1992-12,1992-12-30,N,CHF,176,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sbv,1992-12,1992-12-30,I,CHF,301,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sbv,1992-12,1992-12-30,N,CHF,295,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sbv,1992-12,1992-12-30,PS,CHF,289,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+credit-suisse,1992-12,1992-12-30,I,CHF,2130,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+credit-suisse,1992-12,1992-12-30,N,CHF,397,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+swissair,1992-12,1992-12-30,I,CHF,450,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sandoz,1992-12,1992-12-30,I,CHF,3140,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sandoz,1992-12,1992-12-30,N,CHF,3130,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+sandoz,1992-12,1992-12-30,PS,CHF,3100,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+ciba-geigy,1992-12,1992-12-30,I,CHF,670,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+ciba-geigy,1992-12,1992-12-30,N,CHF,656,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+ciba-geigy,1992-12,1992-12-30,PS,CHF,650,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+roche,1992-12,1992-12-30,I,CHF,5800,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+roche,1992-12,1992-12-30,GS,CHF,4170,1992-12-31,33,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+bmw,1992-12,,,DEM,488,1992-12-31,35,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+mercedes,1992-12,,,DEM,537,1992-12-31,35,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+siemens,1992-12,,,DEM,594.40,1992-12-31,35,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+ibj,1992-12,,,JPY,2470,1992-12-31,36,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+slb,1992-12,,,USD,57.375,1992-12-31,37,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+ibm,1992-12,,,USD,50.125,1992-12-31,37,eye,"issue of 31.12.1992 prints Kurse vom 30. Dezember; the issue of 5.1.1993 (Kurse vom 4. Januar) shows the same Swiss closes in its Vortag column, so 30.12.1992 was the last trading day of the year (Swiss values checked in both issues)"
+nestle,1993-01,1993-01-29,I,CHF,1080,1993-01-30,41,eye,
+nestle,1993-01,1993-01-29,N,CHF,1075,1993-01-30,41,eye,
+nestle,1993-01,1993-01-29,PS,CHF,2130,1993-01-30,41,eye,
+sbg,1993-01,1993-01-29,I,CHF,904,1993-01-30,41,eye,
+sbg,1993-01,1993-01-29,N,CHF,186,1993-01-30,41,eye,
+sbv,1993-01,1993-01-29,I,CHF,325,1993-01-30,41,eye,
+sbv,1993-01,1993-01-29,N,CHF,315,1993-01-30,41,eye,
+sbv,1993-01,1993-01-29,PS,CHF,320,1993-01-30,41,eye,
+credit-suisse,1993-01,1993-01-29,I,CHF,2130,1993-01-30,41,eye,
+credit-suisse,1993-01,1993-01-29,N,CHF,399,1993-01-30,41,eye,
+swissair,1993-01,1993-01-29,I,CHF,525,1993-01-30,41,eye,"not in the permanently traded table from Jan 1993; read in the text listing (Transport), last price before V; two crops"
+sandoz,1993-01,1993-01-29,I,CHF,3190,1993-01-30,41,eye,
+sandoz,1993-01,1993-01-29,N,CHF,3150,1993-01-30,41,eye,
+sandoz,1993-01,1993-01-29,PS,CHF,3100,1993-01-30,41,eye,
+ciba-geigy,1993-01,1993-01-29,I,CHF,668,1993-01-30,41,eye,
+ciba-geigy,1993-01,1993-01-29,N,CHF,639,1993-01-30,41,eye,
+ciba-geigy,1993-01,1993-01-29,PS,CHF,639,1993-01-30,41,eye,
+roche,1993-01,1993-01-29,I,CHF,6050,1993-01-30,41,eye,
+roche,1993-01,1993-01-29,GS,CHF,4100,1993-01-30,41,eye,
+bmw,1993-01,,,DEM,499,1993-01-30,43,eye,
+mercedes,1993-01,,,DEM,571.80,1993-01-30,43,eye,
+siemens,1993-01,,,DEM,602.20,1993-01-30,43,eye,
+ibj,1993-01,,,JPY,2410,1993-01-30,44,eye,
+slb,1993-01,,,USD,57.875,1993-01-30,45,eye,
+ibm,1993-01,,,USD,51.5,1993-01-30,45,eye,
+nestle,1993-02,1993-02-26,I,CHF,1100,1993-02-27,45,eye,
+nestle,1993-02,1993-02-26,N,CHF,1100,1993-02-27,45,eye,
+nestle,1993-02,1993-02-26,PS,CHF,2180,1993-02-27,45,eye,
+sbg,1993-02,1993-02-26,I,CHF,939,1993-02-27,45,eye,
+sbg,1993-02,1993-02-26,N,CHF,192,1993-02-27,45,eye,
+sbv,1993-02,1993-02-26,I,CHF,350,1993-02-27,45,eye,
+sbv,1993-02,1993-02-26,N,CHF,342,1993-02-27,45,eye,
+sbv,1993-02,1993-02-26,PS,CHF,349,1993-02-27,45,eye,
+credit-suisse,1993-02,1993-02-26,I,CHF,2140,1993-02-27,45,eye,
+credit-suisse,1993-02,1993-02-26,N,CHF,401,1993-02-27,45,eye,
+swissair,1993-02,1993-02-26,I,CHF,540,1993-02-27,45,eye,"text listing (Transport): single price 540 before V, previous (535)"
+sandoz,1993-02,1993-02-26,I,CHF,2960,1993-02-27,45,eye,
+sandoz,1993-02,1993-02-26,N,CHF,2970,1993-02-27,45,eye,
+sandoz,1993-02,1993-02-26,PS,CHF,2940,1993-02-27,45,eye,
+ciba-geigy,1993-02,1993-02-26,I,CHF,635,1993-02-27,45,eye,
+ciba-geigy,1993-02,1993-02-26,N,CHF,601,1993-02-27,45,eye,
+ciba-geigy,1993-02,1993-02-26,PS,CHF,598,1993-02-27,45,eye,
+roche,1993-02,1993-02-26,I,CHF,6270,1993-02-27,45,eye,
+roche,1993-02,1993-02-26,GS,CHF,3950,1993-02-27,45,eye,
+bmw,1993-02,,,DEM,494.70,1993-02-27,47,eye,
+mercedes,1993-02,,,DEM,602.50,1993-02-27,47,eye,
+siemens,1993-02,,,DEM,662.50,1993-02-27,47,eye,
+ibj,1993-02,,,JPY,2400,1993-02-27,48,eye,
+nestle,1993-03,1993-03-31,I,CHF,1190,1993-04-01,42,eye,
+nestle,1993-03,1993-03-31,N,CHF,1190,1993-04-01,42,eye,
+nestle,1993-03,1993-03-31,PS,CHF,2390,1993-04-01,42,eye,
+sbg,1993-03,1993-03-31,I,CHF,951,1993-04-01,42,eye,
+sbg,1993-03,1993-03-31,N,CHF,196,1993-04-01,42,eye,
+sbv,1993-03,1993-03-31,I,CHF,352,1993-04-01,42,eye,
+sbv,1993-03,1993-03-31,N,CHF,346,1993-04-01,42,eye,
+sbv,1993-03,1993-03-31,PS,CHF,350,1993-04-01,42,eye,
+credit-suisse,1993-03,1993-03-31,I,CHF,2320,1993-04-01,42,eye,
+credit-suisse,1993-03,1993-03-31,N,CHF,442,1993-04-01,42,eye,
+swissair,1993-03,1993-03-31,I,CHF,605,1993-04-01,42,eye,text listing (Transport): last price before V; previous (605)
+sandoz,1993-03,1993-03-31,I,CHF,3010,1993-04-01,42,eye,
+sandoz,1993-03,1993-03-31,N,CHF,2960,1993-04-01,42,eye,
+sandoz,1993-03,1993-03-31,PS,CHF,2960,1993-04-01,42,eye,
+ciba-geigy,1993-03,1993-03-31,I,CHF,644,1993-04-01,42,eye,
+ciba-geigy,1993-03,1993-03-31,N,CHF,620,1993-04-01,42,eye,
+ciba-geigy,1993-03,1993-03-31,PS,CHF,620,1993-04-01,42,eye,
+roche,1993-03,1993-03-31,I,CHF,6600,1993-04-01,42,eye,
+roche,1993-03,1993-03-31,GS,CHF,4170,1993-04-01,42,eye,
+bmw,1993-03,,,DEM,475.50,1993-04-01,46,eye,
+mercedes,1993-03,,,DEM,622.90,1993-04-01,46,eye,
+siemens,1993-03,,,DEM,647.80,1993-04-01,46,eye,
+ibj,1993-03,,,JPY,2460,1993-04-01,47,eye,
+slb,1993-03,,,USD,59.5,1993-04-01,48,eye,
+ibm,1993-03,,,USD,50.875,1993-04-01,48,eye,printed 50 7/8
+nestle,1993-04,1993-04-30,I,CHF,1075,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+nestle,1993-04,1993-04-30,N,CHF,1070,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+nestle,1993-04,1993-04-30,PS,CHF,2120,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sbg,1993-04,1993-04-30,I,CHF,934,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sbg,1993-04,1993-04-30,N,CHF,194,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sbv,1993-04,1993-04-30,I,CHF,340,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sbv,1993-04,1993-04-30,N,CHF,166,1993-05-04,39,eye,"SBV registered share split 2:1 between 31.3.1993 (346) and 3.5.1993: year high/low restated 337/293 -> 180/147; the SBV PS line is gone from the table; issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+credit-suisse,1993-04,1993-04-30,I,CHF,2450,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+credit-suisse,1993-04,1993-04-30,N,CHF,469,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+swissair,1993-04,1993-04-30,I,CHF,630,1993-05-04,39,eye,"text listing (Transport): value in parentheses = Vortag; issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+swissair,1993-04,1993-04-30,N,CHF,614,1993-05-04,39,eye,"text listing: value in parentheses = Vortag; issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sandoz,1993-04,1993-04-30,I,CHF,3050,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sandoz,1993-04,1993-04-30,N,CHF,3000,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+sandoz,1993-04,1993-04-30,PS,CHF,2980,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ciba-geigy,1993-04,1993-04-30,I,CHF,620,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ciba-geigy,1993-04,1993-04-30,N,CHF,590,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ciba-geigy,1993-04,1993-04-30,PS,CHF,590,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+roche,1993-04,1993-04-30,I,CHF,6840,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+roche,1993-04,1993-04-30,GS,CHF,4290,1993-05-04,39,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+bmw,1993-04,,,DEM,464,1993-05-04,43,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+mercedes,1993-04,,,DEM,575.50,1993-05-04,43,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+siemens,1993-04,,,DEM,616,1993-05-04,43,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ibj,1993-04,,,JPY,2680,1993-05-04,44,eye,"Tokio table of 3 May has only the Vortag column filled (3 May was a Japanese holiday): last Tokyo close, 30 April; issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+slb,1993-04,,,USD,64,1993-05-04,47,eye,"issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ibm,1993-04,,,USD,48.625,1993-05-04,47,eye,"printed 48 5/8; issue of 4.5.1993 prints Kurse vom 3. Mai (first trading day of May); the value is the Vortag column = close of 30.4.1993 (Frankfurt Vortag equals onvista close of 30.4. for BMW, Siemens and Daimler; Nestle N 1070 equals Yahoo 10.70)"
+ibj,1993-05,,,JPY,2880,1993-06-01,38,eye,"Tokio table ""Kurse vom 31. Mai"", Tagesschluss; the issue file has no Swiss, Frankfurt or New York table pages (only 63 page images), so only IBJ could be read"
+nestle,1993-06,1993-06-30,N,CHF,1141,1993-07-01,35,eye,"Nestle: only a registered share line ""Nestle N"" is left in the permanent table; the bearer (I) and PS lines of 31.3./3.5.1993 are gone: unification of the share classes between 3.5. and 30.6.1993"
+sbg,1993-06,1993-06-30,I,CHF,1100,1993-07-01,35,eye,
+sbg,1993-06,1993-06-30,N,CHF,243,1993-07-01,35,eye,
+sbv,1993-06,1993-06-30,I,CHF,411,1993-07-01,35,eye,
+sbv,1993-06,1993-06-30,N,CHF,200,1993-07-01,35,eye,
+credit-suisse,1993-06,1993-06-30,I,CHF,2655,1993-07-01,35,eye,
+credit-suisse,1993-06,1993-06-30,N,CHF,514,1993-07-01,35,eye,
+swissair,1993-06,1993-06-30,N,CHF,700,1993-07-01,35,eye,text listing (Transport): last price before V; Swissair I line no longer listed
+sandoz,1993-06,1993-06-30,I,CHF,3300,1993-07-01,35,eye,
+sandoz,1993-06,1993-06-30,N,CHF,3170,1993-07-01,35,eye,
+sandoz,1993-06,1993-06-30,PS,CHF,3130,1993-07-01,35,eye,
+ciba-geigy,1993-06,1993-06-30,I,CHF,721,1993-07-01,35,eye,
+ciba-geigy,1993-06,1993-06-30,N,CHF,667,1993-07-01,35,eye,
+ciba-geigy,1993-06,1993-06-30,PS,CHF,662,1993-07-01,35,eye,
+roche,1993-06,1993-06-30,I,CHF,8530,1993-07-01,35,eye,
+roche,1993-06,1993-06-30,GS,CHF,4995,1993-07-01,35,eye,
+bmw,1993-06,,,DEM,511.50,1993-07-01,39,eye,
+mercedes,1993-06,,,DEM,613.80,1993-07-01,39,eye,
+siemens,1993-06,,,DEM,618.50,1993-07-01,39,eye,
+ibj,1993-06,,,JPY,2950,1993-07-01,40,eye,
+slb,1993-06,,,USD,63.5,1993-07-01,41,eye,
+ibm,1993-06,,,USD,49.375,1993-07-01,41,eye,printed 49 3/8
+nestle,1993-07,1993-07-30,N,CHF,1049,1993-07-31,33,eye,
+sbg,1993-07,1993-07-30,I,CHF,1198,1993-07-31,33,eye,
+sbg,1993-07,1993-07-30,N,CHF,259,1993-07-31,33,eye,
+sbv,1993-07,1993-07-30,I,CHF,476,1993-07-31,33,eye,
+sbv,1993-07,1993-07-30,N,CHF,223,1993-07-31,33,eye,
+credit-suisse,1993-07,1993-07-30,I,CHF,2830,1993-07-31,33,eye,
+credit-suisse,1993-07,1993-07-30,N,CHF,540,1993-07-31,33,eye,
+swissair,1993-07,1993-07-30,N,CHF,775,1993-07-31,33,eye,
+sandoz,1993-07,1993-07-30,I,CHF,3210,1993-07-31,33,eye,
+sandoz,1993-07,1993-07-30,N,CHF,3030,1993-07-31,33,eye,
+sandoz,1993-07,1993-07-30,PS,CHF,3000,1993-07-31,33,eye,
+ciba-geigy,1993-07,1993-07-30,I,CHF,720,1993-07-31,33,eye,
+ciba-geigy,1993-07,1993-07-30,N,CHF,676,1993-07-31,33,eye,
+ciba-geigy,1993-07,1993-07-30,PS,CHF,673,1993-07-31,33,eye,
+roche,1993-07,1993-07-30,I,CHF,8260,1993-07-31,33,eye,
+roche,1993-07,1993-07-30,GS,CHF,5050,1993-07-31,33,eye,
+bmw,1993-07,,,DEM,543.50,1993-07-31,35,eye,
+mercedes,1993-07,,,DEM,662,1993-07-31,35,eye,
+siemens,1993-07,,,DEM,647.60,1993-07-31,35,eye,
+ibj,1993-07,,,JPY,3300,1993-07-31,36,eye,
+ibm,1993-07,,,USD,44.5,1993-07-31,37,eye,printed 44 1/2
+nestle,1993-08,1993-08-31,N,CHF,1105,1993-09-01,33,eye,
+sbg,1993-08,1993-08-31,I,CHF,1200,1993-09-01,33,eye,
+sbg,1993-08,1993-08-31,N,CHF,271,1993-09-01,33,eye,
+sbv,1993-08,1993-08-31,I,CHF,488,1993-09-01,33,eye,
+sbv,1993-08,1993-08-31,N,CHF,228,1993-09-01,33,eye,
+credit-suisse,1993-08,1993-08-31,I,CHF,2950,1993-09-01,33,eye,
+credit-suisse,1993-08,1993-08-31,N,CHF,564,1993-09-01,33,eye,
+swissair,1993-08,1993-08-31,N,CHF,767,1993-09-01,33,eye,
+sandoz,1993-08,1993-08-31,I,CHF,3500,1993-09-01,33,eye,
+sandoz,1993-08,1993-08-31,N,CHF,3265,1993-09-01,33,eye,
+sandoz,1993-08,1993-08-31,PS,CHF,3220,1993-09-01,33,eye,
+ciba-geigy,1993-08,1993-08-31,I,CHF,747,1993-09-01,33,eye,
+ciba-geigy,1993-08,1993-08-31,N,CHF,703,1993-09-01,33,eye,
+ciba-geigy,1993-08,1993-08-31,PS,CHF,698,1993-09-01,33,eye,
+roche,1993-08,1993-08-31,I,CHF,8610,1993-09-01,33,eye,
+roche,1993-08,1993-08-31,GS,CHF,5160,1993-09-01,33,eye,
+bmw,1993-08,,,DEM,572,1993-09-01,39,eye,
+mercedes,1993-08,,,DEM,755,1993-09-01,39,eye,
+siemens,1993-08,,,DEM,677,1993-09-01,39,eye,
+ibj,1993-08,,,JPY,3520,1993-09-01,40,eye,
+ibm,1993-08,,,USD,45.75,1993-09-01,43,eye,printed 45 3/4
+nestle,1993-09,1993-09-30,N,CHF,1090,1993-10-01,39,eye,
+sbg,1993-09,1993-09-30,I,CHF,1206,1993-10-01,39,eye,
+sbg,1993-09,1993-09-30,N,CHF,270,1993-10-01,39,eye,
+sbv,1993-09,1993-09-30,I,CHF,471,1993-10-01,39,eye,
+sbv,1993-09,1993-09-30,N,CHF,220,1993-10-01,39,eye,
+credit-suisse,1993-09,1993-09-30,I,CHF,2940,1993-10-01,39,eye,
+credit-suisse,1993-09,1993-09-30,N,CHF,562,1993-10-01,39,eye,
+swissair,1993-09,1993-09-30,N,CHF,655,1993-10-01,39,eye,
+sandoz,1993-09,1993-09-30,I,CHF,3380,1993-10-01,39,eye,
+sandoz,1993-09,1993-09-30,N,CHF,3265,1993-10-01,39,eye,
+sandoz,1993-09,1993-09-30,PS,CHF,3200,1993-10-01,39,eye,
+ciba-geigy,1993-09,1993-09-30,I,CHF,717,1993-10-01,39,eye,
+ciba-geigy,1993-09,1993-09-30,N,CHF,678,1993-10-01,39,eye,
+ciba-geigy,1993-09,1993-09-30,PS,CHF,678,1993-10-01,39,eye,
+roche,1993-09,1993-09-30,I,CHF,8890,1993-10-01,39,eye,
+roche,1993-09,1993-09-30,GS,CHF,5325,1993-10-01,39,eye,
+bmw,1993-09,,,DEM,561.50,1993-10-01,45,eye,
+mercedes,1993-09,,,DEM,742.50,1993-10-01,45,eye,
+siemens,1993-09,,,DEM,666.60,1993-10-01,45,eye,
+ibj,1993-09,,,JPY,3260,1993-10-01,46,eye,
+ibm,1993-09,,,USD,42,1993-10-01,49,eye,
+nestle,1993-10,1993-10-29,N,CHF,1187,1993-10-30,45,eye,
+sbg,1993-10,1993-10-29,I,CHF,1305,1993-10-30,45,eye,
+sbg,1993-10,1993-10-29,N,CHF,305,1993-10-30,45,eye,
+sbv,1993-10,1993-10-29,I,CHF,502,1993-10-30,45,eye,
+sbv,1993-10,1993-10-29,N,CHF,244,1993-10-30,45,eye,
+credit-suisse,1993-10,1993-10-29,I,CHF,3415,1993-10-30,45,eye,
+credit-suisse,1993-10,1993-10-29,N,CHF,663,1993-10-30,45,eye,
+swissair,1993-10,1993-10-29,N,CHF,695,1993-10-30,45,eye,
+sandoz,1993-10,1993-10-29,I,CHF,3800,1993-10-30,45,eye,
+sandoz,1993-10,1993-10-29,N,CHF,3700,1993-10-30,45,eye,
+sandoz,1993-10,1993-10-29,PS,CHF,3655,1993-10-30,45,eye,
+ciba-geigy,1993-10,1993-10-29,I,CHF,800,1993-10-30,45,eye,read once only in the table (second crop started below this row)
+ciba-geigy,1993-10,1993-10-29,N,CHF,773,1993-10-30,45,eye,
+ciba-geigy,1993-10,1993-10-29,PS,CHF,759,1993-10-30,45,eye,
+roche,1993-10,1993-10-29,I,CHF,9800,1993-10-30,45,eye,
+roche,1993-10,1993-10-29,GS,CHF,5750,1993-10-30,45,eye,
+bmw,1993-10,,,DEM,628.50,1993-10-30,47,eye,
+mercedes,1993-10,,,DEM,754.50,1993-10-30,47,eye,
+siemens,1993-10,,,DEM,724,1993-10-30,47,eye,
+ibj,1993-10,,,JPY,3360,1993-10-30,48,eye,
+ibm,1993-10,,,USD,46,1993-10-30,49,eye,
+nestle,1993-11,1993-11-30,N,CHF,1159,1993-12-01,43,eye,
+sbg,1993-11,1993-11-30,I,CHF,1313,1993-12-01,43,eye,
+sbg,1993-11,1993-11-30,N,CHF,310,1993-12-01,43,eye,
+sbv,1993-11,1993-11-30,I,CHF,480,1993-12-01,43,eye,
+sbv,1993-11,1993-11-30,N,CHF,232,1993-12-01,43,eye,
+credit-suisse,1993-11,1993-11-30,I,CHF,3595,1993-12-01,43,eye,
+credit-suisse,1993-11,1993-11-30,N,CHF,708,1993-12-01,43,eye,
+swissair,1993-11,1993-11-30,N,CHF,753,1993-12-01,43,eye,
+sandoz,1993-11,1993-11-30,I,CHF,3800,1993-12-01,43,eye,
+sandoz,1993-11,1993-11-30,N,CHF,3620,1993-12-01,43,eye,
+sandoz,1993-11,1993-11-30,PS,CHF,3590,1993-12-01,43,eye,
+ciba-geigy,1993-11,1993-11-30,I,CHF,825,1993-12-01,43,eye,
+ciba-geigy,1993-11,1993-11-30,N,CHF,782,1993-12-01,43,eye,
+ciba-geigy,1993-11,1993-11-30,PS,CHF,780,1993-12-01,43,eye,
+roche,1993-11,1993-11-30,I,CHF,10760,1993-12-01,43,eye,
+roche,1993-11,1993-11-30,GS,CHF,6015,1993-12-01,43,eye,
+bmw,1993-11,,,DEM,610,1993-12-01,45,eye,
+mercedes,1993-11,,,DEM,714.70,1993-12-01,45,eye,
+siemens,1993-11,,,DEM,722.50,1993-12-01,45,eye,
+ibj,1993-11,,,JPY,2690,1993-12-01,46,eye,
+ibm,1993-11,,,USD,53.75,1993-12-01,47,eye,printed 53 3/4
+nestle,1993-12,1993-12-30,N,CHF,1283,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sbg,1993-12,1993-12-30,I,CHF,1354,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sbg,1993-12,1993-12-30,N,CHF,325,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sbv,1993-12,1993-12-30,I,CHF,476,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sbv,1993-12,1993-12-30,N,CHF,232,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+credit-suisse,1993-12,1993-12-30,I,CHF,737,1993-12-31,39,eye,CS Holding bearer 3595 (30.11.1993) -> 737 and registered 708 -> 147: 5-for-1 split of the CS Holding shares in December 1993; the year high/low columns are restated; issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+credit-suisse,1993-12,1993-12-30,N,CHF,147,1993-12-31,39,eye,see credit-suisse I: 5-for-1 split; issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+swissair,1993-12,1993-12-30,N,CHF,780,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sandoz,1993-12,1993-12-30,I,CHF,4360,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sandoz,1993-12,1993-12-30,N,CHF,4175,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+sandoz,1993-12,1993-12-30,PS,CHF,4135,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+ciba-geigy,1993-12,1993-12-30,I,CHF,940,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+ciba-geigy,1993-12,1993-12-30,N,CHF,900,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+ciba-geigy,1993-12,1993-12-30,PS,CHF,890,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+roche,1993-12,1993-12-30,I,CHF,11500,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+roche,1993-12,1993-12-30,GS,CHF,6310,1993-12-31,39,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+bmw,1993-12,,,DEM,722,1993-12-31,41,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+mercedes,1993-12,,,DEM,846,1993-12-31,41,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+siemens,1993-12,,,DEM,797.50,1993-12-31,41,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+ibj,1993-12,,,JPY,2830,1993-12-31,42,eye,issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+ibm,1993-12,,,USD,57.125,1993-12-31,43,eye,printed 57 1/8; issue of 31.12.1993 prints Kurse vom 30. Dezember (Nestle N 1283 = Yahoo 12.83); the issue of 3.1.1994 is not needed
+nestle,1994-01,1994-01-31,N,CHF,1426,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sbg,1994-01,1994-01-31,I,CHF,1487,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sbg,1994-01,1994-01-31,N,CHF,362,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sbv,1994-01,1994-01-31,I,CHF,522,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sbv,1994-01,1994-01-31,N,CHF,255,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+credit-suisse,1994-01,1994-01-31,I,CHF,754,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+credit-suisse,1994-01,1994-01-31,N,CHF,148,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+swissair,1994-01,1994-01-31,N,CHF,840,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sandoz,1994-01,1994-01-31,I,CHF,4420,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sandoz,1994-01,1994-01-31,N,CHF,4340,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+sandoz,1994-01,1994-01-31,PS,CHF,4270,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+ciba-geigy,1994-01,1994-01-31,I,CHF,965,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+ciba-geigy,1994-01,1994-01-31,N,CHF,929,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+ciba-geigy,1994-01,1994-01-31,PS,CHF,929,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+roche,1994-01,1994-01-31,I,CHF,12850,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+roche,1994-01,1994-01-31,GS,CHF,7140,1994-02-01,37,eye,IBM left out: the fraction after 56 could not be read reliably
+bmw,1994-01,,,DEM,739.50,1994-02-01,40,eye,IBM left out: the fraction after 56 could not be read reliably
+mercedes,1994-01,,,DEM,812,1994-02-01,40,eye,IBM left out: the fraction after 56 could not be read reliably
+siemens,1994-01,,,DEM,722.80,1994-02-01,40,eye,IBM left out: the fraction after 56 could not be read reliably
+ibj,1994-01,,,JPY,3360,1994-02-01,43,eye,IBM left out: the fraction after 56 could not be read reliably
+nestle,1994-02,1994-02-28,N,CHF,1283,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sbg,1994-02,1994-02-28,I,CHF,1356,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sbg,1994-02,1994-02-28,N,CHF,347,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sbv,1994-02,1994-02-28,I,CHF,450,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sbv,1994-02,1994-02-28,N,CHF,222,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+credit-suisse,1994-02,1994-02-28,I,CHF,638,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+credit-suisse,1994-02,1994-02-28,N,CHF,127,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+swissair,1994-02,1994-02-28,N,CHF,815,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sandoz,1994-02,1994-02-28,I,CHF,3890,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sandoz,1994-02,1994-02-28,N,CHF,3850,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+sandoz,1994-02,1994-02-28,PS,CHF,3805,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+ciba-geigy,1994-02,1994-02-28,I,CHF,871,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+ciba-geigy,1994-02,1994-02-28,N,CHF,825,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+ciba-geigy,1994-02,1994-02-28,PS,CHF,826,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+roche,1994-02,1994-02-28,I,CHF,12200,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+roche,1994-02,1994-02-28,GS,CHF,7000,1994-03-01,37,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+bmw,1994-02,,,DEM,831,1994-03-01,42,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+mercedes,1994-02,,,DEM,812,1994-03-01,42,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+siemens,1994-02,,,DEM,683.50,1994-03-01,42,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+ibj,1994-02,,,JPY,3320,1994-03-01,41,eye,"layout from March 1994: heading SCHWEIZER AKTIEN, permanent table bottom left of the page; IBM left out (fraction not readable with certainty)"
+nestle,1994-03,1994-03-31,N,CHF,1186,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sbg,1994-03,1994-03-31,I,CHF,1183,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sbg,1994-03,1994-03-31,N,CHF,321,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sbv,1994-03,1994-03-31,I,CHF,406,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sbv,1994-03,1994-03-31,N,CHF,205,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+credit-suisse,1994-03,1994-03-31,I,CHF,625,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+credit-suisse,1994-03,1994-03-31,N,CHF,125,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+swissair,1994-03,1994-03-31,N,CHF,750,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sandoz,1994-03,1994-03-31,I,CHF,3920,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sandoz,1994-03,1994-03-31,N,CHF,3870,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+sandoz,1994-03,1994-03-31,PS,CHF,3820,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+ciba-geigy,1994-03,1994-03-31,I,CHF,910,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+ciba-geigy,1994-03,1994-03-31,N,CHF,882,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+ciba-geigy,1994-03,1994-03-31,PS,CHF,872,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+roche,1994-03,1994-03-31,I,CHF,12725,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+roche,1994-03,1994-03-31,GS,CHF,7010,1994-04-02,41,eye,"Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+bmw,1994-03,,,DEM,828.50,1994-04-02,46,eye,"Frankfurt table headed Kurse vom 31. Maerz/1. April (1 April was Good Friday, Frankfurt closed): value is 31 March, equal to onvista close of 31.3.; Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+mercedes,1994-03,,,DEM,858,1994-04-02,46,eye,"see bmw: two-day header, 31 March; Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+siemens,1994-03,,,DEM,695,1994-04-02,46,eye,"see bmw: two-day header, 31 March; Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+ibm,1994-03,,,USD,54.125,1994-04-02,47,eye,"printed 54 1/8; NY table headed Kurse vom 31. Maerz; Swiss table headed Kurse vom 31. Maerz. IBJ left out: Tokio table headed 31. Maerz/1. April and Tokyo traded on 1 April, so the day cannot be settled; read values (3010 close) not recorded"
+nestle,1994-04,1994-04-29,N,CHF,1173,1994-04-30,43,eye,
+sbg,1994-04,1994-04-29,I,CHF,1176,1994-04-30,43,eye,
+sbg,1994-04,1994-04-29,N,CHF,300,1994-04-30,43,eye,
+sbv,1994-04,1994-04-29,I,CHF,392,1994-04-30,43,eye,
+sbv,1994-04,1994-04-29,N,CHF,194,1994-04-30,43,eye,
+credit-suisse,1994-04,1994-04-29,I,CHF,604,1994-04-30,43,eye,
+credit-suisse,1994-04,1994-04-29,N,CHF,120,1994-04-30,43,eye,
+swissair,1994-04,1994-04-29,N,CHF,755,1994-04-30,43,eye,
+sandoz,1994-04,1994-04-29,I,CHF,3710,1994-04-30,43,eye,
+sandoz,1994-04,1994-04-29,N,CHF,3720,1994-04-30,43,eye,
+sandoz,1994-04,1994-04-29,PS,CHF,3710,1994-04-30,43,eye,
+ciba-geigy,1994-04,1994-04-29,I,CHF,881,1994-04-30,43,eye,
+ciba-geigy,1994-04,1994-04-29,N,CHF,837,1994-04-30,43,eye,
+ciba-geigy,1994-04,1994-04-29,PS,CHF,837,1994-04-30,43,eye,
+roche,1994-04,1994-04-29,I,CHF,12650,1994-04-30,43,eye,
+roche,1994-04,1994-04-29,GS,CHF,6720,1994-04-30,43,eye,
+bmw,1994-04,,,DEM,901,1994-04-30,49,eye,
+mercedes,1994-04,,,DEM,903,1994-04-30,49,eye,
+siemens,1994-04,,,DEM,747.50,1994-04-30,49,eye,
+ibj,1994-04,1994-04-28,,JPY,3160,1994-04-30,47,eye,"quote_date is 1994-04-28: the Tokio table of 29 April (Showa Day, market closed) has only the Vortag column filled, 3160 = close of 28 April"
+ibm,1994-04,,,USD,57.25,1994-04-30,51,eye,printed 57 1/4
+nestle,1994-06,1994-06-30,N,CHF,1123,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sbg,1994-06,1994-06-30,I,CHF,1162,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sbg,1994-06,1994-06-30,N,CHF,300,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sbv,1994-06,1994-06-30,I,CHF,394,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sbv,1994-06,1994-06-30,N,CHF,195,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+credit-suisse,1994-06,1994-06-30,I,CHF,558,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+credit-suisse,1994-06,1994-06-30,N,CHF,109,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+swissair,1994-06,1994-06-30,N,CHF,772,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sandoz,1994-06,1994-06-30,I,CHF,718,1994-07-01,35,eye,Sandoz bearer 3710 (29.4.1994) -> 718 and registered 3720 -> 694: 5-for-1 split between April and June 1994 (year high/low restated 888/707); the Sandoz PS line is gone from the table; May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+sandoz,1994-06,1994-06-30,N,CHF,694,1994-07-01,35,eye,see sandoz I: 5-for-1 split; May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+ciba-geigy,1994-06,1994-06-30,I,CHF,814,1994-07-01,35,eye,Ciba-Geigy PS line is gone from the table (bearer and registered only); May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+ciba-geigy,1994-06,1994-06-30,N,CHF,789,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+roche,1994-06,1994-06-30,I,CHF,12725,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+roche,1994-06,1994-06-30,GS,CHF,6390,1994-07-01,35,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+bmw,1994-06,,,DEM,780,1994-07-01,39,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+mercedes,1994-06,,,DEM,725,1994-07-01,39,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+siemens,1994-06,,,DEM,646,1994-07-01,39,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+ibj,1994-06,,,JPY,3240,1994-07-01,43,eye,May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+ibm,1994-06,,,USD,58.75,1994-07-01,41,eye,printed 58 3/4; May 1994 month end missing: the archive has no issue between 26 May and 15 June 1994
+nestle,1994-07,1994-07-29,N,CHF,1173,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sbg,1994-07,1994-07-29,I,CHF,1184,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sbg,1994-07,1994-07-29,N,CHF,300,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sbv,1994-07,1994-07-29,I,CHF,408,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sbv,1994-07,1994-07-29,N,CHF,202,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+credit-suisse,1994-07,1994-07-29,I,CHF,571,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+credit-suisse,1994-07,1994-07-29,N,CHF,112,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+swissair,1994-07,1994-07-29,N,CHF,750,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sandoz,1994-07,1994-07-29,I,CHF,710,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+sandoz,1994-07,1994-07-29,N,CHF,677,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+ciba-geigy,1994-07,1994-07-29,I,CHF,785,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+ciba-geigy,1994-07,1994-07-29,N,CHF,781,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+roche,1994-07,1994-07-29,I,CHF,11350,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+roche,1994-07,1994-07-29,GS,CHF,5320,1994-07-30,29,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+bmw,1994-07,,,DEM,867,1994-07-30,33,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+mercedes,1994-07,,,DEM,802,1994-07-30,33,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+siemens,1994-07,,,DEM,680,1994-07-30,33,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+ibj,1994-07,,,JPY,3020,1994-07-30,34,eye,"this issue (30/31.7.1994) has no USA/Kanada page, so IBM and Schlumberger are not available"
+nestle,1994-08,1994-08-31,N,CHF,1227,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sbg,1994-08,1994-08-31,I,CHF,1174,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sbg,1994-08,1994-08-31,N,CHF,312,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sbv,1994-08,1994-08-31,I,CHF,380,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sbv,1994-08,1994-08-31,N,CHF,187,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+credit-suisse,1994-08,1994-08-31,I,CHF,552,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+credit-suisse,1994-08,1994-08-31,N,CHF,106.50,1994-09-01,34,eye,"printed 106 1/2; new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+swissair,1994-08,1994-08-31,N,CHF,880,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sandoz,1994-08,1994-08-31,I,CHF,730,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+sandoz,1994-08,1994-08-31,N,CHF,691,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+ciba-geigy,1994-08,1994-08-31,I,CHF,808,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+ciba-geigy,1994-08,1994-08-31,N,CHF,806,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+roche,1994-08,1994-08-31,I,CHF,12000,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+roche,1994-08,1994-08-31,GS,CHF,6100,1994-09-01,34,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+bmw,1994-08,,,DEM,828.50,1994-09-01,38,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+mercedes,1994-08,,,DEM,837.50,1994-09-01,38,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+siemens,1994-08,,,DEM,706,1994-09-01,38,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+ibj,1994-08,,,JPY,3020,1994-09-01,42,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+slb,1994-08,,,USD,57,1994-09-01,40,eye,"new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+ibm,1994-08,,,USD,68.625,1994-09-01,40,eye,"printed 68 5/8; new layout from Aug 1994 (headed SCHWEIZER BOERSEN, Kurse vom 31. August): one page with the alphabetical Inland table plus Ausland box USA/Kanada and Deutschland; page numbers are image indexes (printed page = image + 1). The Ausland box on that page (Deutschland, USA/Kanada) is in Swiss francs (Daimler 706, Siemens 595, IBM 92, SLB 75 1/4): NOT used; Frankfurt and New York values are from the Europa/Suedafrika and USA/Kanada pages (DM and USD). Columns Vortag, H, T, Volumen, Schluss"
+nestle,1994-09,1994-09-30,N,CHF,1169,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sbg,1994-09,1994-09-30,I,CHF,1200,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sbg,1994-09,1994-09-30,N,CHF,303,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sbv,1994-09,1994-09-30,I,CHF,368,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sbv,1994-09,1994-09-30,N,CHF,178,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+credit-suisse,1994-09,1994-09-30,I,CHF,526,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+credit-suisse,1994-09,1994-09-30,N,CHF,100.50,1994-10-01,35,eye,"printed 100 1/2; Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+swissair,1994-09,1994-09-30,N,CHF,863,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sandoz,1994-09,1994-09-30,I,CHF,680,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+sandoz,1994-09,1994-09-30,N,CHF,653,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+ciba-geigy,1994-09,1994-09-30,I,CHF,728,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+ciba-geigy,1994-09,1994-09-30,N,CHF,724,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+roche,1994-09,1994-09-30,I,CHF,11600,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+roche,1994-09,1994-09-30,GS,CHF,5785,1994-10-01,35,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+bmw,1994-09,,,DEM,754,1994-10-01,39,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+mercedes,1994-09,,,DEM,740,1994-10-01,39,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+siemens,1994-09,,,DEM,632.50,1994-10-01,39,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+ibj,1994-09,,,JPY,2990,1994-10-01,41,eye,"Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+slb,1994-09,,,USD,54.375,1994-10-01,40,eye,"printed 54 3/8 in both the low and the close column; Kurse vom 30. September; layout as Aug 1994. IBM left out: close printed 69 1/4 or 69 1/2, two readings disagree"
+nestle,1994-10,1994-10-31,N,CHF,1174,1994-11-01,35,eye,Kurse vom 31. Oktober
+sbg,1994-10,1994-10-31,I,CHF,1177,1994-11-01,35,eye,Kurse vom 31. Oktober
+sbg,1994-10,1994-10-31,N,CHF,267,1994-11-01,35,eye,Kurse vom 31. Oktober
+sbv,1994-10,1994-10-31,I,CHF,362,1994-11-01,35,eye,Kurse vom 31. Oktober
+sbv,1994-10,1994-10-31,N,CHF,173.50,1994-11-01,35,eye,printed 173 1/2; Kurse vom 31. Oktober
+credit-suisse,1994-10,1994-10-31,I,CHF,549,1994-11-01,35,eye,Kurse vom 31. Oktober
+credit-suisse,1994-10,1994-10-31,N,CHF,106.50,1994-11-01,35,eye,printed 106 1/2; Kurse vom 31. Oktober
+swissair,1994-10,1994-10-31,N,CHF,854,1994-11-01,35,eye,Kurse vom 31. Oktober
+swissair,1994-10,1994-10-31,GS,CHF,146,1994-11-01,35,eye,Kurse vom 31. Oktober
+sandoz,1994-10,1994-10-31,I,CHF,655,1994-11-01,35,eye,Kurse vom 31. Oktober
+sandoz,1994-10,1994-10-31,N,CHF,626,1994-11-01,35,eye,Kurse vom 31. Oktober
+ciba-geigy,1994-10,1994-10-31,I,CHF,741,1994-11-01,35,eye,Kurse vom 31. Oktober
+ciba-geigy,1994-10,1994-10-31,N,CHF,732,1994-11-01,35,eye,Kurse vom 31. Oktober
+roche,1994-10,1994-10-31,I,CHF,11300,1994-11-01,35,eye,read in one crop only; Kurse vom 31. Oktober
+roche,1994-10,1994-10-31,GS,CHF,5585,1994-11-01,35,eye,Kurse vom 31. Oktober
+bmw,1994-10,,,DEM,775,1994-11-01,39,eye,Kurse vom 31. Oktober
+mercedes,1994-10,,,DEM,773,1994-11-01,39,eye,Kurse vom 31. Oktober
+siemens,1994-10,,,DEM,628.50,1994-11-01,39,eye,Kurse vom 31. Oktober
+ibj,1994-10,,,JPY,3000,1994-11-01,43,eye,read in one crop only; Kurse vom 31. Oktober
+slb,1994-10,,,USD,58.75,1994-11-01,41,eye,Kurse vom 31. Oktober
+ibm,1994-10,,,USD,74.5,1994-11-01,41,eye,printed 74 1/2; Kurse vom 31. Oktober
+nestle,1994-11,1994-11-30,N,CHF,1232,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sbg,1994-11,1994-11-30,I,CHF,1144,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sbg,1994-11,1994-11-30,N,CHF,257,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sbv,1994-11,1994-11-30,I,CHF,365,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sbv,1994-11,1994-11-30,N,CHF,175.50,1994-12-01,35,eye,printed 175 1/2; Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+credit-suisse,1994-11,1994-11-30,I,CHF,562,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+credit-suisse,1994-11,1994-11-30,N,CHF,108.50,1994-12-01,35,eye,printed 108 1/2; Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+swissair,1994-11,1994-11-30,N,CHF,815,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sandoz,1994-11,1994-11-30,I,CHF,710,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+sandoz,1994-11,1994-11-30,N,CHF,682,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+ciba-geigy,1994-11,1994-11-30,I,CHF,777,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+ciba-geigy,1994-11,1994-11-30,N,CHF,771,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+roche,1994-11,1994-11-30,I,CHF,11500,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+roche,1994-11,1994-11-30,GS,CHF,5840,1994-12-01,35,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+bmw,1994-11,,,DEM,755,1994-12-01,39,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+mercedes,1994-11,,,DEM,742.50,1994-12-01,39,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+siemens,1994-11,,,DEM,610.50,1994-12-01,39,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+ibj,1994-11,,,JPY,2750,1994-12-01,43,eye,Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+slb,1994-11,,,USD,53.125,1994-12-01,41,eye,printed 53 1/8; Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+ibm,1994-11,,,USD,70.75,1994-12-01,41,eye,printed 70 3/4; Kurse vom 30. November; the Inland table has more rows than in October (page layout shifted)
+nestle,1994-12,1994-12-29,N,CHF,1247,1994-12-31,27,eye,"weekly table Boersenkurse im Wochenvergleich (23.12.-29.12.94), column Berichtswoche = close of 29.12.1994; the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sbg,1994-12,1994-12-29,I,CHF,1086,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sbg,1994-12,1994-12-29,N,CHF,250,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sbv,1994-12,1994-12-29,I,CHF,362,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sbv,1994-12,1994-12-29,N,CHF,175,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+credit-suisse,1994-12,1994-12-29,I,CHF,560,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+credit-suisse,1994-12,1994-12-29,N,CHF,112,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+swissair,1994-12,1994-12-29,N,CHF,770,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sandoz,1994-12,1994-12-29,I,CHF,692,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+sandoz,1994-12,1994-12-29,N,CHF,682,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+ciba-geigy,1994-12,1994-12-29,I,CHF,783,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+ciba-geigy,1994-12,1994-12-29,N,CHF,781,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+roche,1994-12,1994-12-29,I,CHF,11225,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+roche,1994-12,1994-12-29,GS,CHF,6335,1994-12-31,27,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+bmw,1994-12,1994-12-30,,DEM,770,1994-12-31,29,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+mercedes,1994-12,1994-12-30,,DEM,762,1994-12-31,29,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+siemens,1994-12,1994-12-30,,DEM,649,1994-12-31,29,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+ibj,1994-12,1994-12-30,,JPY,2950,1994-12-31,33,eye,"the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+slb,1994-12,1994-12-30,,USD,50.375,1994-12-31,31,eye,"printed 50 3/8; the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"
+ibm,1994-12,1994-12-30,,USD,73.5,1994-12-31,31,eye,"printed 73 1/2; the Swiss exchanges were closed on Friday 30.12.1994 (Tagesspiegel: ""Die Zuercher Boerse blieb am Freitag geschlossen""), so the issue of 31.12./1.1.1995 has no daily Swiss table; Swiss values are from the weekly table on page 27 (Berichtswoche = 29.12.1994), each read once; Frankfurt, Tokio and New York come from the tables Kurse vom 30. Dezember"

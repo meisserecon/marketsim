@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { PortfolioView } from '@marketsim/shared';
-  import { pct, units, usd } from '$lib/format';
+  import { change, direction, pct, units, usd } from '$lib/format';
 
   interface Props {
     portfolio: PortfolioView;
@@ -25,10 +25,18 @@
   <div class="card-body">
     <table class="data holdings">
       <thead>
-        <tr><th>Holding</th><th class="num">Value</th><th class="num weight-col">Weight</th></tr>
+        <tr>
+          <th>Holding</th>
+          <th class="num">Value</th>
+          <th class="num" title="Price change since last month">1 month</th>
+          <th class="num" title="Price now against your average purchase price">Since bought</th>
+          <th class="num weight-col">Weight</th>
+        </tr>
       </thead>
       <tbody>
         {#each positions as p (p.assetId)}
+          {@const m1 = change(p.price, p.pricePrev)}
+          {@const sinceBought = p.avgPrice > 0 ? p.price / p.avgPrice - 1 : undefined}
           <tr class:selected={p.assetId === selectedId}>
             <td>
               {#if tradable.has(p.assetId)}
@@ -38,6 +46,8 @@
               {/if}
             </td>
             <td class="num">{usd(p.value)}</td>
+            <td class="num {direction(m1)}">{pct(m1, { sign: true })}</td>
+            <td class="num {direction(sinceBought)}" title={p.avgPrice > 0 ? `Bought at ${usd(p.avgPrice, { cents: true })} on average` : ''}>{pct(sinceBought, { sign: true })}</td>
             <td class="num weight-col">
               <span class="bar" aria-hidden="true"><i style:width="{Math.min(100, weight(p.value) * 100)}%"></i></span>{pct(weight(p.value))}
             </td>
@@ -46,6 +56,8 @@
         <tr>
           <td>Cash <span class="muted note">earns nothing</span></td>
           <td class="num">{usd(portfolio.cash)}</td>
+          <td></td>
+          <td></td>
           <td class="num weight-col">
             <span class="bar cash" aria-hidden="true"><i style:width="{Math.min(100, weight(portfolio.cash) * 100)}%"></i></span>{pct(weight(portfolio.cash))}
           </td>
@@ -55,6 +67,8 @@
         <tr>
           <td>Total</td>
           <td class="num">{usd(total)}</td>
+          <td></td>
+          <td></td>
           <td class="num weight-col since {sinceStart !== undefined && sinceStart < 0 ? 'down' : 'up'}" title="Change since the start of the game">
             {pct(sinceStart, { sign: true })} since start
           </td>
@@ -86,7 +100,7 @@
     background: var(--accent-wash);
   }
   .weight-col {
-    width: 42%;
+    width: 32%;
   }
   .bar {
     display: inline-block;

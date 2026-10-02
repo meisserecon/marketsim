@@ -66,7 +66,7 @@ test("buying by USD amount and selling everything returns the cash", () => {
   assert.equal(portfolioValue(p, m, "1979-12"), 1000);
 
   const sold = applyTrade(p, m, "1979-12", { assetId: "a", side: "sell", amount: { all: true } });
-  assert.deepEqual(sold.portfolio, { cash: 1000, holdings: {} });
+  assert.deepEqual(sold.portfolio, { cash: 1000, holdings: {}, cost: {} });
   assert.equal(sold.entry.units, -40);
 });
 
@@ -76,12 +76,12 @@ test("buy all spends all cash; the original portfolio is not mutated", () => {
   const { portfolio } = applyTrade(p, m, "1979-12", { assetId: "a", side: "buy", amount: { all: true } });
   assert.equal(portfolio.cash, 0);
   assert.equal(portfolio.holdings.a, 100);
-  assert.deepEqual(p, { cash: 1000, holdings: {} });
+  assert.deepEqual(p, { cash: 1000, holdings: {}, cost: {} });
 });
 
 test("trades are rejected without enough cash or units, and for nonsense amounts", () => {
   const m = market();
-  const p: Portfolio = { cash: 100, holdings: { a: 5 } };
+  const p: Portfolio = { cash: 100, holdings: { a: 5 }, cost: { a: 50 } };
   expectTradeError(() => applyTrade(p, m, "1979-12", { assetId: "a", side: "buy", amount: { usd: 100.01 } }), "insufficient_cash");
   expectTradeError(() => applyTrade(p, m, "1979-12", { assetId: "a", side: "sell", amount: { units: 6 } }), "insufficient_units");
   expectTradeError(() => applyTrade(p, m, "1979-12", { assetId: "a", side: "buy", amount: { units: 0 } }), "invalid_amount");
@@ -115,14 +115,14 @@ test("at most five positions besides cash, but topping up an existing one is fin
 
 test("selling down to float dust closes the position", () => {
   const m = market();
-  const p: Portfolio = { cash: 0, holdings: { a: 0.1 + 0.2 } };
+  const p: Portfolio = { cash: 0, holdings: { a: 0.1 + 0.2 }, cost: { a: 3 } };
   const { portfolio } = applyTrade(p, m, "1979-12", { assetId: "a", side: "sell", amount: { units: 0.3 } });
   assert.deepEqual(Object.keys(portfolio.holdings), []);
 });
 
 test("advancing pays income into cash and never reinvests it", () => {
   const m = market();
-  const p: Portfolio = { cash: 50, holdings: { a: 100 } };
+  const p: Portfolio = { cash: 50, holdings: { a: 100 }, cost: { a: 1000 } };
   const step = advanceMonth(p, m, "1979-12");
   assert.equal(step.month, "1980-01");
   assert.equal(step.portfolio.holdings.a, 100);
@@ -137,7 +137,7 @@ test("advancing pays income into cash and never reinvests it", () => {
 
 test("bankruptcy wipes the position, acquisition pays cash, merger converts at equal value", () => {
   const m = market();
-  let p: Portfolio = { cash: 0, holdings: { bust: 10, bought: 10, merged: 11 } };
+  let p: Portfolio = { cash: 0, holdings: { bust: 10, bought: 10, merged: 11 }, cost: { bust: 100, bought: 100, merged: 110 } };
   p = advanceMonth(p, m, "1979-12").portfolio; // now 1980-01, the final month of all three
   assert.equal(portfolioValue(p, m, "1980-01"), 10 * 1 + 10 * 9 + 11 * 6);
 
@@ -154,7 +154,7 @@ test("bankruptcy wipes the position, acquisition pays cash, merger converts at e
 
 test("a merger into a position already held adds to it without using another slot", () => {
   const m = market();
-  const p: Portfolio = { cash: 0, holdings: { a: 1, merged: 11 } };
+  const p: Portfolio = { cash: 0, holdings: { a: 1, merged: 11 }, cost: { a: 10, merged: 110 } };
   const step = advanceMonth(advanceMonth(p, m, "1979-12").portfolio, m, "1980-01");
   assert.ok(Math.abs(step.portfolio.holdings.a - 7) < 1e-12);
 });
@@ -222,4 +222,22 @@ test("a postponed listing has history but cannot be traded before its listing mo
   assert.equal(m.listedMonth("late"), "1980-02");
   assert.throws(() => applyTrade(emptyPortfolio(1000), m, "1980-01", { assetId: "postponed", side: "buy", amount: { usd: 100 } }), /not_tradable|cannot be traded/);
   assert.equal(applyTrade(emptyPortfolio(1000), m, "1980-02", { assetId: "postponed", side: "buy", amount: { usd: 100 } }).portfolio.cash, 900);
+});
+
+test("the cost of a position follows the average-cost method and survives a merger", () => {
+  const m = market([
+    series("old", [50, 50, 50], { end: { month: "1980-02", type: "merger", note: "merged", successor: "a" } }),
+  ]);
+  let p = emptyPortfolio(1000);
+  p = applyTrade(p, m, "1979-12", { assetId: "a", side: "buy", amount: { usd: 100 } }).portfolio; // 10 units at 10
+  p = applyTrade(p, m, "1980-01", { assetId: "a", side: "buy", amount: { usd: 220 } }).portfolio; // 20 units at 11
+  assert.equal(p.holdings.a, 30);
+  assert.ok(Math.abs(p.cost.a - 320) < 1e-9); // average price 10.67
+  p = applyTrade(p, m, "1980-02", { assetId: "a", side: "sell", amount: { units: 15 } }).portfolio;
+  assert.ok(Math.abs(p.cost.a - 160) < 1e-9); // half the units, half the cost; the gain does not change the average
+  p = applyTrade(p, m, "1980-02", { assetId: "old", side: "buy", amount: { usd: 200 } }).portfolio;
+  const step = advanceMonth(p, m, "1980-02");
+  assert.equal(step.portfolio.holdings.old, undefined);
+  assert.ok(Math.abs(step.portfolio.cost.a - 360) < 1e-9); // 160 plus the 200 paid for the merged company
+  assert.deepEqual(Object.keys(step.portfolio.cost), Object.keys(step.portfolio.holdings));
 });

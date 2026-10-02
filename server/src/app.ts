@@ -80,17 +80,18 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   }
 
   async function loadPortfolio(q: Queryable, player: PlayerRow): Promise<Portfolio> {
-    const { rows } = await q.query<{ asset_id: string; units: string }>("select asset_id, units from holdings where player_id = $1 order by asset_id", [player.id]);
+    const { rows } = await q.query<{ asset_id: string; units: string; cost: string }>("select asset_id, units, cost from holdings where player_id = $1 order by asset_id", [player.id]);
     const holdings: Record<string, number> = {};
-    for (const r of rows) holdings[r.asset_id] = Number(r.units);
-    return { cash: Number(player.cash), holdings };
+    const cost: Record<string, number> = {};
+    for (const r of rows) { holdings[r.asset_id] = Number(r.units); cost[r.asset_id] = Number(r.cost); }
+    return { cash: Number(player.cash), holdings, cost };
   }
 
   async function savePortfolio(q: Queryable, playerId: string, p: Portfolio) {
     await q.query("update players set cash = $1 where id = $2", [p.cash, playerId]);
     await q.query("delete from holdings where player_id = $1", [playerId]);
     for (const [assetId, units] of Object.entries(p.holdings)) {
-      await q.query("insert into holdings (player_id, asset_id, units) values ($1, $2, $3)", [playerId, assetId, units]);
+      await q.query("insert into holdings (player_id, asset_id, units, cost) values ($1, $2, $3, $4)", [playerId, assetId, units, p.cost[assetId] ?? 0]);
     }
   }
 
@@ -114,7 +115,9 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   function positionViews(p: Portfolio, month: string) {
     return Object.entries(p.holdings).map(([assetId, units]) => {
       const price = market.valuationPrice(assetId, month) ?? 0;
-      return { assetId, name: nameAt(market.asset(assetId)!, month), units, price, value: units * price };
+      const prev = market.row(assetId, addMonths(month, -1))?.price;
+      const cost = p.cost[assetId] ?? 0;
+      return { assetId, name: nameAt(market.asset(assetId)!, month), units, price, value: units * price, ...(prev !== undefined ? { pricePrev: prev } : {}), cost, avgPrice: units > 0 ? cost / units : 0 };
     }).sort((a, b) => b.value - a.value);
   }
 
@@ -206,7 +209,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       if (clash.rows.length) throw new HttpError(409, "name_taken", "Someone in this game already uses that name");
       const { rows } = await q.query<PlayerRow>(
         "insert into players (game_id, name, token_hash, cash) values ($1, $2, $3, $4) returning *", [g.id, name, hash(token), g.starting_cash]);
-      await saveSnapshot(q, rows[0].id, g.current_month, { cash: Number(g.starting_cash), holdings: {} });
+      await saveSnapshot(q, rows[0].id, g.current_month, { cash: Number(g.starting_cash), holdings: {}, cost: {} });
       return { player: rows[0], game: await gameView(q, g) };
     });
     broadcast(result.game.code, { type: "player-joined", name, playerCount: result.game.playerCount });

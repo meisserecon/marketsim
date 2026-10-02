@@ -30,6 +30,7 @@ create table holdings (
   player_id       uuid not null references players (id) on delete cascade,
   asset_id        text not null,
   units           numeric(30, 12) not null check (units > 0),
+  cost            numeric(20, 6) not null default 0,  -- USD paid for these units (average-cost method)
   primary key (player_id, asset_id)
 );
 

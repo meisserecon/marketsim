@@ -187,7 +187,8 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
     const month = g.currentMonth;
     const positions = Object.entries(p.portfolio.holdings).map(([assetId, units]) => {
       const price = market.valuationPrice(assetId, month) ?? 0;
-      return { assetId, name: nameAt(market.asset(assetId)!, month), units, price, value: units * price };
+      const cost = p.portfolio.cost[assetId] ?? 0;
+      return { assetId, name: nameAt(market.asset(assetId)!, month), units, price, value: units * price, pricePrev: market.row(assetId, prevMonth(month))?.price, cost, avgPrice: units > 0 ? cost / units : 0 };
     });
     positions.sort((a, b) => b.value - a.value);
     return {

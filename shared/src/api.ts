@@ -89,6 +89,11 @@ export interface PositionView {
   units: number;
   price: number;
   value: number;
+  /** Price one month ago, if the asset was quoted then. */
+  pricePrev?: number;
+  /** USD paid for the units held (average-cost method), and the resulting average purchase price. */
+  cost: number;
+  avgPrice: number;
 }
 
 export interface PortfolioView {

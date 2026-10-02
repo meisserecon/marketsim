@@ -60,6 +60,7 @@ const SCHEMA_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 /** Creates the tables on an empty database. */
 export async function migrate(db: Db): Promise<void> {
   const { rows } = await db.query<{ t: string | null }>("select to_regclass('public.games')::text as t");
-  if (rows[0].t) return;
-  await db.exec(fs.readFileSync(SCHEMA_FILE, "utf8"));
+  if (!rows[0].t) await db.exec(fs.readFileSync(SCHEMA_FILE, "utf8"));
+  // Columns added after the first release; harmless on a fresh schema.
+  await db.exec("alter table holdings add column if not exists cost numeric(20, 6) not null default 0");
 }

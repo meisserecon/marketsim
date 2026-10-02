@@ -102,10 +102,15 @@ export interface Portfolio {
   cash: number;
   /** Units by asset id. Never contains "cash" and never contains zero entries. */
   holdings: Record<string, number>;
+  /**
+   * USD paid for the units currently held, by asset id (average-cost method: a partial sale removes
+   * its share of the cost; a merger carries the cost over to the successor). Same keys as holdings.
+   */
+  cost: Record<string, number>;
 }
 
 export function emptyPortfolio(cash: number): Portfolio {
-  return { cash, holdings: {} };
+  return { cash, holdings: {}, cost: {} };
 }
 
 export function portfolioValue(p: Portfolio, market: Market, month: string): number {
@@ -172,6 +177,7 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
   if (!Number.isFinite(units) || units <= 0) throw new TradeError("invalid_amount", "Amount must be positive");
 
   const holdings = { ...p.holdings };
+  const costs = { ...p.cost };
   let cash = p.cash;
   const tolerance = 1e-9;
 
@@ -184,7 +190,8 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
     }
     cash = Math.max(0, cash - cost);
     holdings[trade.assetId] = held + units;
-    return { portfolio: { cash, holdings }, entry: { month, kind: "buy", assetId: trade.assetId, units, price, cash: -cost } };
+    costs[trade.assetId] = (costs[trade.assetId] ?? 0) + cost;
+    return { portfolio: { cash, holdings, cost: costs }, entry: { month, kind: "buy", assetId: trade.assetId, units, price, cash: -cost } };
   }
 
   if (units > held * (1 + tolerance) + tolerance) throw new TradeError("insufficient_units", `Holding is ${held}, tried to sell ${units}`);
@@ -193,10 +200,14 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
   if (remaining * price < DUST_USD) {
     units = held;
     delete holdings[trade.assetId];
-  } else holdings[trade.assetId] = remaining;
+    delete costs[trade.assetId];
+  } else {
+    holdings[trade.assetId] = remaining;
+    costs[trade.assetId] = (costs[trade.assetId] ?? 0) * (remaining / held);
+  }
   const proceeds = "usd" in amount && units !== held ? amount.usd : units * price;
   cash += proceeds;
-  return { portfolio: { cash, holdings }, entry: { month, kind: "sell", assetId: trade.assetId, units: -units, price, cash: proceeds } };
+  return { portfolio: { cash, holdings, cost: costs }, entry: { month, kind: "sell", assetId: trade.assetId, units: -units, price, cash: proceeds } };
 }
 
 // --- advancing time ----------------------------------------------------------
@@ -210,6 +221,7 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
 export function advanceMonth(p: Portfolio, market: Market, month: string): { portfolio: Portfolio; month: string; entries: LedgerEntry[] } {
   const to = nextMonth(month);
   const holdings = { ...p.holdings };
+  const costs = { ...p.cost };
   let cash = p.cash;
   const entries: LedgerEntry[] = [];
 
@@ -218,7 +230,9 @@ export function advanceMonth(p: Portfolio, market: Market, month: string): { por
     const end = asset?.end;
     if (!asset || !end || month < end.month) continue;
     const price = market.valuationPrice(id, end.month) ?? 0;
+    const cost = costs[id] ?? 0;
     delete holdings[id];
+    delete costs[id];
 
     if (end.type === "bankruptcy") {
       entries.push({ month: to, kind: "bankruptcy", assetId: id, units: -units, price: 0, cash: 0, note: end.note });
@@ -229,6 +243,7 @@ export function advanceMonth(p: Portfolio, market: Market, month: string): { por
     if (successor && successorPrice) {
       const received = (units * price) / successorPrice;
       holdings[successor] = (holdings[successor] ?? 0) + received;
+      costs[successor] = (costs[successor] ?? 0) + cost;
       entries.push({ month: to, kind: "conversion", assetId: id, units: -units, price, cash: 0, note: end.note });
       entries.push({ month: to, kind: "conversion", assetId: successor, units: received, price: successorPrice, cash: 0, note: `From ${asset.name}` });
     } else {
@@ -246,5 +261,5 @@ export function advanceMonth(p: Portfolio, market: Market, month: string): { por
     entries.push({ month: to, kind: "income", assetId: id, units: 0, price: income, cash: paid });
   }
 
-  return { portfolio: { cash, holdings }, month: to, entries };
+  return { portfolio: { cash, holdings, cost: costs }, month: to, entries };
 }

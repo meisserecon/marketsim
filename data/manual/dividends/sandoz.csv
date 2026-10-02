@@ -1,0 +1,4 @@
+# Sandoz bearer share dividends as declared in company notices printed in the NZZ (raw-swiss-dividends.csv), divided by 25,
+#   the divisor of the price series for those years (data/src/nzz.ts). INCOMPLETE: only the years listed were found so far; all other years pay nothing in the game.
+month,dividend,note
+1981-05,2.6,CHF 65 for 1980 paid 1981-05-18; divided by 25

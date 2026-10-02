@@ -5,7 +5,29 @@
 #   CHF 2.20 for 2006 (ex 19.4.2007) and Yahoo has 2.20 in April 2007.
 # Left out: the par value repayment of CHF 1.60 (ex 16.7.2001). The ratio steps from 6.0395 to 2.000, not 2.0132, at that date, which shows that
 #   Yahoo folded this repayment into its price history; adding it as income would count it twice.
+# Before the 1998 merger: dividends of the Schweizerische Bankgesellschaft bearer share as declared in the bank notices printed in the NZZ
+#   (raw-swiss-dividends.csv), divided by the same divisors as the bearer price series (data/src/nzz.ts): 25 x 12.079 until June 1992, 5 x 12.079 after.
+#   The 1987 payment of CHF 160 includes an anniversary bonus.
 month,dividend,note
+1980-04,0.331153,Bankgesellschaft bearer share: CHF 100 for 1979 paid 1980-04-28 per NZZ notice; divided by 25 x 12.079
+1981-04,0.331153,Bankgesellschaft bearer share: CHF 100 for 1980 paid 1981-04-03 per NZZ notice; divided by 25 x 12.079
+1982-04,0.331153,Bankgesellschaft bearer share: CHF 100 for 1981 paid 1982-04-19 per NZZ notice; divided by 25 x 12.079
+1983-04,0.331153,Bankgesellschaft bearer share: CHF 100 for 1982 paid 1983-04-11 per NZZ notice; divided by 25 x 12.079
+1984-04,0.364269,Bankgesellschaft bearer share: CHF 110 for 1983 paid 1984-04-11 per NZZ notice; divided by 25 x 12.079
+1985-04,0.380826,Bankgesellschaft bearer share: CHF 115 for 1984 paid 1985-04-22 per NZZ notice; divided by 25 x 12.079
+1986-04,0.397384,Bankgesellschaft bearer share: CHF 120 for 1985 paid 1986-04-14 per NZZ notice; divided by 25 x 12.079
+1987-04,0.529845,Bankgesellschaft bearer share: CHF 160 for 1986 paid 1987-04-13 per NZZ notice; divided by 25 x 12.079
+1988-04,0.397384,Bankgesellschaft bearer share: CHF 120 for 1987 paid 1988-04-11 per NZZ notice; divided by 25 x 12.079
+1989-04,0.397384,Bankgesellschaft bearer share: CHF 120 for 1988 paid 1989-04-18 per NZZ notice; divided by 25 x 12.079
+1990-04,0.447057,Bankgesellschaft bearer share: CHF 135 for 1989 paid 1990-04-30 per NZZ notice; divided by 25 x 12.079
+1991-04,0.447057,Bankgesellschaft bearer share: CHF 135 for 1990 paid 1991-04-22 per NZZ notice; divided by 25 x 12.079
+1992-04,0.447057,Bankgesellschaft bearer share: CHF 135 for 1991 per NZZ notice; divided by 25 x 12.079
+1993-05,0.480172,Bankgesellschaft bearer share: CHF 29 for 1992 paid 1993-05-05 per NZZ notice; divided by 5 x 12.079
+1994-05,0.529845,Bankgesellschaft bearer share: CHF 32 for 1993 paid 1994-05-05 per NZZ notice; divided by 5 x 12.079
+1995-05,0.529845,Bankgesellschaft bearer share: CHF 32 for 1994 paid 1995-05-03 per NZZ notice; divided by 5 x 12.079
+1996-04,0.529845,Bankgesellschaft bearer share: CHF 32 for 1995 paid 1996-04-18 per NZZ notice; divided by 5 x 12.079
+1997-04,0.529845,Bankgesellschaft bearer share: CHF 32 for 1996 paid 1997-04-22 per NZZ notice; divided by 5 x 12.079
+1998-04,0.827883,Bankgesellschaft bearer share: CHF 50 for 1997 paid 1998-04-27 per NZZ notice; divided by 5 x 12.079
 1999-04,0.827883,dividend for the 15 months to 31.12.1998, CHF 10.00 per share, ex 27.4.1999; divided by 12.079
 2000-04,0.910671,dividend for 1999, CHF 11.00, ex 26.4.2000; divided by 12.079
 2000-10,0.745095,dividend for the first nine months of 2000, CHF 4.50, ex 3.10.2000; divided by 6.0395

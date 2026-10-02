@@ -1,0 +1,4 @@
+# Swissair bearer share dividends as declared in company notices printed in the NZZ (raw-swiss-dividends.csv), divided by 5,
+#   the divisor of the price series for those years (data/src/nzz.ts). INCOMPLETE: only the years listed were found so far; all other years pay nothing in the game.
+month,dividend,note
+1990-04,8,CHF 40 for 1989 paid 1990-04-30; divided by 5

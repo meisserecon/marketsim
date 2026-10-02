@@ -308,7 +308,7 @@
   </div>
 
   <div class="portfolio-wrap">
-    <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} />
+    <PortfolioCard {portfolio} startingCash={game.startingCash} finalMonth={game.finalMonth} {tradable} {selectedId} onselect={select} />
   </div>
 
   <main class="layout" class:has-detail={!!selected}>

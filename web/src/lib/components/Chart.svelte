@@ -16,6 +16,8 @@
     log?: boolean;
     /** Start the y-axis at zero (always on for bars). */
     zero?: boolean;
+    /** Fix the x-axis to these months (line mode), so that a short series fills only its part of the width. */
+    span?: { from: string; to: string };
     height?: number;
     color?: string;
     label: string;
@@ -30,6 +32,7 @@
     mode = 'line',
     log = false,
     zero = false,
+    span,
     height = 240,
     color = 'var(--series-1)',
     label,
@@ -101,9 +104,21 @@
     return { min, max, ticks, y };
   });
 
+  const monthIndex = (m: string) => Number(m.slice(0, 4)) * 12 + Number(m.slice(5, 7)) - 1;
+  const domain = $derived.by(() => {
+    if (!span || mode !== 'line') return undefined;
+    const from = monthIndex(span.from);
+    const to = Math.max(monthIndex(span.to), from + 1, n ? monthIndex(points[n - 1].month) : 0);
+    return { from, to };
+  });
+
   const slot = $derived(n > 0 ? plotW / n : plotW);
   const x = $derived.by(() => {
     if (mode === 'bars') return (i: number) => (i + 0.5) * slot;
+    if (domain) {
+      const d = domain;
+      return (i: number) => ((monthIndex(points[i].month) - d.from) / (d.to - d.from)) * plotW;
+    }
     return (i: number) => (n <= 1 ? plotW / 2 : (i / (n - 1)) * plotW);
   });
 
@@ -142,9 +157,18 @@
     return out;
   });
 
-  const xTicks = $derived.by(() => {
-    if (n === 0) return [];
+  const xTicks = $derived.by((): { px: number; text: string }[] => {
     const maxLabels = Math.max(2, Math.floor(plotW / 64));
+    if (domain) {
+      const years = (domain.to - domain.from) / 12;
+      const step = [1, 2, 5, 10, 20, 25, 50].find((s) => years / s <= maxLabels) ?? 50;
+      const out: { px: number; text: string }[] = [];
+      for (let y = Math.ceil(domain.from / 12); y * 12 <= domain.to; y++) {
+        if (y % step === 0) out.push({ px: ((y * 12 - domain.from) / (domain.to - domain.from)) * plotW, text: String(y) });
+      }
+      return out;
+    }
+    if (n === 0) return [];
     const januaries: number[] = [];
     points.forEach((p, i) => {
       if (p.month.endsWith('-01')) januaries.push(i);
@@ -152,11 +176,11 @@
     if (januaries.length >= 3) {
       const years = januaries.length;
       const step = [1, 2, 5, 10, 20, 25, 50].find((s) => years / s <= maxLabels) ?? 50;
-      return januaries.filter((i) => Number(points[i].month.slice(0, 4)) % step === 0).map((i) => ({ i, text: points[i].month.slice(0, 4) }));
+      return januaries.filter((i) => Number(points[i].month.slice(0, 4)) % step === 0).map((i) => ({ px: x(i), text: points[i].month.slice(0, 4) }));
     }
     const step = Math.max(1, Math.ceil(n / Math.min(maxLabels, 6)));
-    const out: { i: number; text: string }[] = [];
-    for (let i = 0; i < n; i += step) out.push({ i, text: monthShort(points[i].month) });
+    const out: { px: number; text: string }[] = [];
+    for (let i = 0; i < n; i += step) out.push({ px: x(i), text: monthShort(points[i].month) });
     return out;
   });
 
@@ -166,7 +190,11 @@
     if (n === 0) return;
     const rect = (e.currentTarget as SVGElement).getBoundingClientRect();
     const px = e.clientX - rect.left - M.left;
-    const i = mode === 'bars' ? Math.floor(px / slot) : Math.round((px / plotW) * (n - 1));
+    const i = mode === 'bars'
+      ? Math.floor(px / slot)
+      : domain
+        ? domain.from + Math.round((px / plotW) * (domain.to - domain.from)) - monthIndex(points[0].month)
+        : Math.round((px / plotW) * (n - 1));
     hover = Math.min(n - 1, Math.max(0, i));
   }
 
@@ -205,8 +233,8 @@
         <text class="tick" x="-8" y={scale.y(t)} dy="0.32em" text-anchor="end">{tick(t)}</text>
       {/each}
       <line class="axis" x1="0" x2={plotW} y1={plotH} y2={plotH} />
-      {#each xTicks as t (t.i)}
-        <text class="tick" x={x(t.i)} y={plotH + 16} text-anchor={x(t.i) > plotW - 24 ? 'end' : x(t.i) < 12 ? 'start' : 'middle'}>{t.text}</text>
+      {#each xTicks as t (t.text)}
+        <text class="tick" x={t.px} y={plotH + 16} text-anchor={t.px > plotW - 24 ? 'end' : t.px < 12 ? 'start' : 'middle'}>{t.text}</text>
       {/each}
 
       {#if mode === 'line'}

@@ -6,12 +6,14 @@
   interface Props {
     portfolio: PortfolioView;
     startingCash: number;
+    /** Last month of the game; the value chart spans the whole game from the start. */
+    finalMonth: string;
     /** Ids that can be opened in the asset panel (quoted this month). */
     tradable: Set<string>;
     selectedId?: string;
     onselect: (id: string) => void;
   }
-  let { portfolio, startingCash, tradable, selectedId, onselect }: Props = $props();
+  let { portfolio, startingCash, finalMonth, tradable, selectedId, onselect }: Props = $props();
 
   const total = $derived(portfolio.totalValue);
   const weight = (v: number) => (total > 0 ? v / total : 0);
@@ -35,8 +37,7 @@
     <h2>Portfolio</h2>
   </div>
   <div class="card-body">
-    <h3>Portfolio value <span class="sub">at each month end</span></h3>
-    <Chart points={curve} height={200} label="Total portfolio value over time" formatValue={(v) => usd(v)} formatTick={usdCompact} />
+    <Chart points={curve} zero span={{ from: curve[0].month, to: finalMonth }} height={200} label="Total portfolio value over time" formatValue={(v) => usd(v)} formatTick={usdCompact} />
 
     <table class="data holdings">
       <thead>
@@ -144,13 +145,5 @@
   }
   .hint {
     margin-top: 8px;
-  }
-  h3 {
-    font-size: 0.9rem;
-    font-weight: 650;
-    margin: 0 0 6px;
-  }
-  h3 .sub {
-    font-weight: 400;
   }
 </style>

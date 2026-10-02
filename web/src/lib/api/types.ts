@@ -10,6 +10,7 @@ import type {
   JoinResponse,
   LeaderboardView,
   MarketView,
+  NewsView,
   PortfolioView,
   TradeRequest,
   TradeResponse
@@ -29,6 +30,7 @@ export interface Api {
   me(code: string, playerToken: string): Promise<PortfolioView>;
   trade(code: string, playerToken: string, trade: TradeRequest): Promise<TradeResponse>;
   leaderboard(code: string, token?: string): Promise<LeaderboardView>;
+  news(code: string, month?: string, token?: string): Promise<NewsView>;
   holdings(code: string, gameMasterToken: string): Promise<HoldingsView>;
   advance(code: string, gameMasterToken: string): Promise<GameView>;
   /**

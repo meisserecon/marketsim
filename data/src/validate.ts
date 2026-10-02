@@ -4,6 +4,7 @@ import path from "node:path";
 import { OUT_DIR, DATA_DIR } from "./lib/paths.js";
 import { monthRange } from "./lib/months.js";
 import type { AssetSeries } from "./lib/asset.js";
+import { validateNews } from "./lib/validate-news.js";
 
 // Gold's threshold is set by January 1980 (+48% on monthly averages, the Hunt brothers spike), which is real.
 const MAX_MONTHLY_MOVE: Record<string, number> = { bond: 0.3, gold: 0.5, stock: 0.6, cash: 0 };
@@ -88,5 +89,12 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).so
     console.log(`  total return with income reinvested: ${pct(cagr)} p.a. over ${years.toFixed(1)} years`);
   }
 }
+const assetsById = new Map<string, AssetSeries>();
+for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json"))) {
+  const s: AssetSeries = JSON.parse(fs.readFileSync(path.join(OUT_DIR, file), "utf8"));
+  assetsById.set(s.id, s);
+}
+validateNews(path.join(DATA_DIR, "news"), assetsById, fail);
+
 console.log(failures ? `\n${failures} failure(s)` : "\nall checks passed");
 process.exit(failures ? 1 : 0);

@@ -1,9 +1,10 @@
 <script lang="ts">
   import type { AssetHistory, AssetView, PortfolioView } from '@marketsim/shared';
   import { api } from '$lib/api';
-  import { change, direction, errorMessage, monthShort, pct, price, priceTick, usd } from '$lib/format';
+  import { change, direction, errorMessage, monthName, monthShort, pct, price, priceTick, usd } from '$lib/format';
   import Chart from './Chart.svelte';
   import TradeForm from './TradeForm.svelte';
+  import NewsList from './NewsList.svelte';
 
   interface Props {
     code: string;
@@ -56,6 +57,8 @@
     asset.kind === 'bond' ? rows.filter((r) => r.extra?.yield !== undefined).map((r) => ({ month: r.month, value: r.extra!.yield })) : []
   );
   const paysIncome = $derived(rows.some((r) => r.income > 0));
+  // Newest first: the player wants to know what happened lately before the beginnings.
+  const story = $derived(history && history.id === asset.id ? [...(history.news ?? [])].reverse() : []);
 
   const m1 = $derived(change(asset.price, asset.pricePrev));
   const m12 = $derived(change(asset.price, asset.priceYearAgo));
@@ -156,6 +159,13 @@
       <p class="sub none">{asset.name} has not paid any income so far.</p>
     {/if}
   </section>
+
+  {#if story.length}
+    <section>
+      <div class="section-head"><h3>The story so far</h3></div>
+      <NewsList items={story} nameOf={() => ''} showMonth monthLabel={monthName} />
+    </section>
+  {/if}
 
   {#if yieldPoints.length > 1}
     <section>

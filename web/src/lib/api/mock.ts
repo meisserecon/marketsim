@@ -31,6 +31,9 @@ import {
   type GameView,
   type HoldingsView,
   type LeaderboardView,
+  type NewsItem,
+  type NewsView,
+  newsView,
   type LedgerEntry,
   type MarketView,
   type Portfolio,
@@ -43,6 +46,8 @@ import {
 import { ApiFailure, type Api } from './types';
 
 const files = import.meta.glob<AssetSeries>('../../../../data/out/*.json', { eager: true, import: 'default' });
+const newsFiles = import.meta.glob<NewsItem[]>('../../../../data/news/*.json', { eager: true, import: 'default' });
+const NEWS: NewsItem[] = Object.values(newsFiles).flat().sort((a, b) => a.month.localeCompare(b.month));
 
 interface MockPlayer {
   id: string;
@@ -304,6 +309,10 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
             const logo = logoAt(a, g.currentMonth);
             return p ? { profile: { tagline: p.tagline, about: p.about, country: a.country, sector: a.sector, logo: logo ? `/logos/${logo}` : undefined, image: p.image, imageCaption: p.imageCaption } } : {};
           })(),
+          ...(() => {
+            const story = NEWS.filter((n) => n.month <= g.currentMonth && n.assets.includes(a.id)).map(newsView);
+            return story.length ? { news: story } : {};
+          })(),
           rows: a.rows
             .filter((r) => r.month <= g.currentMonth)
             .map((r) => ({ month: r.month, price: r.price, income: r.income, ...(r.extra ? { extra: r.extra } : {}) }))
@@ -362,6 +371,13 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
         });
         // No benchmark series exists in data/out yet, so `benchmark` stays undefined.
         return { month: g.currentMonth, players };
+      }),
+
+    news: (code, month) =>
+      respond((): NewsView => {
+        const g = findGame(load(), code);
+        const m = month ?? g.currentMonth;
+        return { month: m, items: m > g.currentMonth ? [] : NEWS.filter((n) => n.month === m).map(newsView) };
       }),
 
     holdings: (code, token) =>

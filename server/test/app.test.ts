@@ -1,7 +1,7 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import type { FastifyInstance } from "fastify";
-import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView } from "@marketsim/shared";
+import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView } from "@marketsim/shared";
 import { buildApp } from "../src/app.js";
 import { migrate, openEmbedded, type Db } from "../src/db.js";
 import { loadMarket } from "../src/market.js";
@@ -13,7 +13,11 @@ before(async () => {
   db = await openEmbedded();
   await migrate(db);
   await migrate(db); // second run must be a no-op
-  app = await buildApp(db, loadMarket());
+  app = await buildApp(db, loadMarket(), { news: [
+    { month: "1979-12", kind: "world", headline: "Oil at 30 dollars", text: "Test item.", assets: [], source: "test" },
+    { month: "1980-01", kind: "company", headline: "IBM in January", text: "Test item.", assets: ["ibm"], source: "test" },
+    { month: "1980-02", kind: "company", headline: "IBM in February", text: "Future item.", assets: ["ibm"], source: "test" },
+  ] });
 });
 after(async () => {
   await app.close();
@@ -106,6 +110,15 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   const ibm1 = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body;
   assert.equal(ibm1.rows.length, ibm0.rows.length + 1);
   assert.equal(ibm1.rows[ibm1.rows.length - 1].month, "1980-01");
+
+  // news: the current month's items, never a later month's, and the source stays on the server
+  const newsNow = (await call<NewsView>(app, "GET", `/api/games/${code}/news`)).body;
+  assert.deepEqual(newsNow.items.map((n) => n.headline), ["IBM in January"]);
+  assert.ok(!("source" in newsNow.items[0]));
+  assert.deepEqual((await call<NewsView>(app, "GET", `/api/games/${code}/news?month=1980-02`)).body.items, []);
+  assert.deepEqual((await call<NewsView>(app, "GET", `/api/games/${code}/news?month=1979-12`)).body.items.map((n) => n.headline), ["Oil at 30 dollars"]);
+  const ibmStory = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body.news!;
+  assert.deepEqual(ibmStory.map((n) => n.headline), ["IBM in January"]);
 
   // leaderboard: Bob sat in cash
   const lb = (await call<LeaderboardView>(app, "GET", `/api/games/${code}/leaderboard`)).body;

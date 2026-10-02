@@ -10,7 +10,7 @@ import fastifyStatic from "@fastify/static";
 import {
   MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
-  type HoldingsView, type JoinResponse, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
+  type HoldingsView, type JoinResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
 } from "@marketsim/shared";
 import type { Db, Queryable } from "./db.js";
@@ -47,11 +47,14 @@ export interface AppOptions {
   logger?: boolean;
   /** When set, creating a game requires this password. */
   createPassword?: string;
+  /** News items, sorted by month. Default: none. */
+  news?: NewsItem[];
 }
 
 export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): Promise<FastifyInstance> {
   const app = Fastify({ logger: opts.logger ?? false });
   const subscribers = new Map<string, Set<(e: GameEvent) => void>>();
+  const news = opts.news ?? [];
 
   function broadcast(code: string, event: GameEvent) {
     for (const send of subscribers.get(code) ?? []) send(event);
@@ -233,8 +236,10 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     const asOf = last < g.current_month ? last : g.current_month;
     const p = profileAt(a, asOf);
     const logo = logoAt(a, asOf);
+    const story = news.filter((n) => n.month <= g.current_month && n.assets.includes(a.id)).map(newsView);
     return {
       id: a.id, name: nameAt(a, asOf), kind: a.kind,
+      ...(story.length ? { news: story } : {}),
       ...(p ? { profile: { tagline: p.tagline, about: p.about, ...(a.country ? { country: a.country } : {}), ...(a.sector ? { sector: a.sector } : {}), ...(logo ? { logo: `/logos/${logo}` } : {}), ...(p.image ? { image: p.image } : {}), ...(p.imageCaption ? { imageCaption: p.imageCaption } : {}) } } : {}),
       rows: rows.map((r) => ({ month: r.month, price: r.price, income: r.income, ...(r.extra ? { extra: r.extra } : {}) })),
     };
@@ -287,6 +292,15 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       return { ...v, rank };
     });
     return { month: g.current_month, players: ranked };
+  });
+
+  app.get<{ Params: { code: string }; Querystring: { month?: string } }>("/api/games/:code/news", async (req): Promise<NewsView> => {
+    const g = await gameByCode(db, req.params.code);
+    const month = req.query.month ?? g.current_month;
+    if (!/^\d{4}-\d{2}$/.test(month)) throw new HttpError(400, "bad_request", "month must be YYYY-MM");
+    // The future stays dark: a month after the current one looks like a month without news.
+    if (month > g.current_month) return { month, items: [] };
+    return { month, items: news.filter((n) => n.month === month).map(newsView) };
   });
 
   app.get<{ Params: { code: string } }>("/api/games/:code/holdings", async (req): Promise<HoldingsView> => {

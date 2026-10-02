@@ -1,11 +1,12 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { page } from '$app/state';
-  import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView } from '@marketsim/shared';
+  import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView, type NewsView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
+  import NewsList from '$lib/components/NewsList.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
   // A personal link (#key=...) wins over a key the browser already holds.
@@ -24,6 +25,7 @@
   let game = $state<GameView | undefined>(undefined);
   let board = $state<LeaderboardView | undefined>(undefined);
   let holdings = $state<HoldingsView | undefined>(undefined);
+  let news = $state<NewsView | undefined>(undefined);
   let lastJoined = $state('');
 
   let advancing = $state(false);
@@ -40,9 +42,10 @@
 
   async function refresh() {
     try {
-      const [g, l] = await Promise.all([api.getGame(code), api.leaderboard(code, token)]);
+      const [g, l, n] = await Promise.all([api.getGame(code), api.leaderboard(code, token), api.news(code, undefined, token)]);
       game = g;
       board = l;
+      news = n;
       phase = 'ready';
       // Only the game master's browser may see who holds what.
       if (token) {
@@ -177,6 +180,18 @@
       {/if}
       {#if advanceError}<p class="notice error" role="alert">{advanceError}</p>{/if}
     </section>
+
+    {#if news && news.month === game.currentMonth && news.items.length}
+      <section class="card board">
+        <div class="card-head">
+          <h2>News of {monthName(news.month)}</h2>
+          <span class="sub">read it to the room before anyone trades</span>
+        </div>
+        <div class="card-body">
+          <NewsList items={news.items} nameOf={(id) => id} big />
+        </div>
+      </section>
+    {/if}
 
     <section class="card board">
       <div class="card-head">

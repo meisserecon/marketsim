@@ -28,6 +28,7 @@ export const api: Api = {
   me: async (code, token) => (await getApi()).me(code, token),
   trade: async (code, token, trade) => (await getApi()).trade(code, token, trade),
   leaderboard: async (code, token) => (await getApi()).leaderboard(code, token),
+  news: async (code, month, token) => (await getApi()).news(code, month, token),
   holdings: async (code, token) => (await getApi()).holdings(code, token),
   advance: async (code, token) => (await getApi()).advance(code, token),
   subscribe(code, onEvent, onReconnect) {

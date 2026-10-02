@@ -18,6 +18,7 @@
  *   GET  /api/games/:code/me                (player)           -> PortfolioView
  *   POST /api/games/:code/trades            (player) TradeRequest -> TradeResponse
  *   GET  /api/games/:code/leaderboard                          -> LeaderboardView
+ *   GET  /api/games/:code/news?month=YYYY-MM                   -> NewsView (month defaults to the current one; later months are refused)
  *   GET  /api/games/:code/holdings          (game master)      -> HoldingsView
  *   POST /api/games/:code/advance           (game master)      -> GameView
  *   GET  /api/games/:code/events            Server-Sent Events of GameEvent
@@ -25,6 +26,7 @@
  * Errors: non-2xx with an ApiError body.
  */
 import type { AssetKind } from "./asset.js";
+import type { NewsItemView } from "./news.js";
 import type { LedgerEntry, Trade, TradeErrorCode } from "./engine.js";
 
 export type GameStatus = "lobby" | "running" | "finished";
@@ -81,6 +83,13 @@ export interface AssetHistory {
   profile?: { tagline: string; about: string; country?: string; sector?: string; logo?: string; image?: string; imageCaption?: string };
   /** From the asset's first row up to the current month, never beyond. */
   rows: { month: string; price: number; income: number; extra?: Record<string, number> }[];
+  /** The story so far: news items concerning this asset up to the current month, oldest first. */
+  news?: NewsItemView[];
+}
+
+export interface NewsView {
+  month: string;
+  items: NewsItemView[];
 }
 
 export interface PositionView {

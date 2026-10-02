@@ -1,13 +1,14 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
   import { page } from '$app/state';
-  import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, PortfolioView } from '@marketsim/shared';
+  import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, NewsView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { LEDGER_LABEL, errorMessage, monthName, pct, usd } from '$lib/format';
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
+  import NewsList from '$lib/components/NewsList.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
   import Statement from '$lib/components/Statement.svelte';
@@ -31,6 +32,7 @@
   let market = $state<MarketView | undefined>(undefined);
   let portfolio = $state<PortfolioView | undefined>(undefined);
   let board = $state<LeaderboardView | undefined>(undefined);
+  let news = $state<NewsView | undefined>(undefined);
   let names = $state<Record<string, string>>(loadNames(code));
   let selectedId = $state<string | undefined>(undefined);
   let refreshError = $state('');
@@ -94,7 +96,7 @@
     const mine = ++generation;
     const previousMonth = portfolio?.month;
     try {
-      const [g, m, p, l] = await Promise.all([api.getGame(code), api.market(code, token), api.me(code, token), api.leaderboard(code, token)]);
+      const [g, m, p, l, n] = await Promise.all([api.getGame(code), api.market(code, token), api.me(code, token), api.leaderboard(code, token), api.news(code, undefined, token)]);
       if (mine !== generation) return;
       // The four calls are separate requests; if the clock moved in between, go again.
       if ((m.month !== g.currentMonth || p.month !== g.currentMonth) && attempt < 3) return refresh(attempt + 1);
@@ -103,6 +105,7 @@
       market = m;
       portfolio = p;
       board = l;
+      news = n;
       refreshError = '';
       phase = 'play';
       if (previousMonth && previousMonth !== p.month) {
@@ -327,6 +330,16 @@
   </div>
 
   <div class="portfolio-wrap">
+    {#if news && news.month === game.currentMonth}
+      <section class="card news-card">
+        <div class="card-head">
+          <h2>News <span class="sub">{monthName(news.month)}</span></h2>
+        </div>
+        <div class="card-body">
+          <NewsList items={news.items} {nameOf} openable={tradable} onselect={select} />
+        </div>
+      </section>
+    {/if}
     {#if board}
       <section class="card">
         <div class="card-head">
@@ -482,6 +495,10 @@
     display: block;
   }
 
+  .news-card .card-head h2 .sub {
+    font-weight: 400;
+    margin-left: 6px;
+  }
   .portfolio-wrap {
     display: grid;
     gap: 14px;

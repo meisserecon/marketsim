@@ -110,6 +110,17 @@ const usdPer: Record<Currency, (m: string) => number> = {
     return (m: string) => (m >= "1999-01" ? need(usdPerEur, m, "DEXUSEU") : 1.95583 / need(demPerUsd, m, "EXGEUS"));
   })(),
 };
+function currencyNote(base: Currency, rows: { month: string; currency?: Currency }[]): string {
+  const segs: { cur: Currency; from: string; to: string }[] = [];
+  for (const r of rows) {
+    const cur = r.currency ?? base;
+    const last = segs[segs.length - 1];
+    if (last && last.cur === cur) last.to = r.month;
+    else segs.push({ cur, from: r.month, to: r.month });
+  }
+  if (segs.length <= 1) return (segs[0]?.cur ?? base) !== "USD" ? `Converted from ${segs[0]?.cur ?? base} at month-end FRED rate.` : "";
+  return segs.map((g) => `${g.from} to ${g.to} in ${g.cur}${g.cur !== "USD" ? ", converted at month-end FRED rate" : ""}.`).join(" ");
+}
 function need(map: Map<string, number>, m: string, what: string): number {
   const v = map.get(m);
   if (v === undefined) throw new Error(`missing ${what} for ${m}`);
@@ -117,12 +128,15 @@ function need(map: Map<string, number>, m: string, what: string): number {
 }
 
 for (const s of UNIVERSE) {
-  let local: { month: string; price: number; income: number; maxdiv?: number }[] = [];
+  // `currency` is set only on manual rows whose file has a currency column (a series spliced from sources in different currencies).
+  let local: { month: string; price: number; income: number; maxdiv?: number; currency?: Currency }[] = [];
   const sources: string[] = [];
   const manualFile = path.join(DATA_DIR, "manual", `${s.id}.csv`);
   const manual = fs.existsSync(manualFile)
-    ? readCsv(manualFile).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income || 0) }))
+    ? readCsv(manualFile).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income || 0), ...(r.currency ? { currency: r.currency as Currency } : {}) }))
     : [];
+  for (const r of manual) if (r.currency && !(r.currency in usdPer)) throw new Error(`${s.id}: unknown currency ${r.currency} in ${r.month}`);
+  if (s.source === "yahoo" && manual.some((r) => r.currency)) throw new Error(`${s.id}: a currency column is only supported for manual series`);
   if (s.source === "yahoo") {
     const file = path.join(RAW_DIR, "yahoo", `${s.id}.csv`);
     if (!fs.existsSync(file)) { console.warn(`${s.id}: raw file missing, run fetch`); continue; }
@@ -159,7 +173,8 @@ for (const s of UNIVERSE) {
     if (r.maxdiv !== undefined) r.maxdiv = fix.dividend;
     sources.push(`dividend ${fix.month} corrected to ${fix.dividend}`);
   }
-  // Dividends the price source lacks, from data/manual/dividends/<id>.csv (same currency and share basis as the series).
+  // Dividends the price source lacks, from data/manual/dividends/<id>.csv (share basis of the series; currency of the series,
+  // or of the file's optional currency column). A dividend landing on a row in another currency is converted at that month's rate.
   const divFile = path.join(DATA_DIR, "manual", "dividends", `${s.id}.csv`);
   if (fs.existsSync(divFile)) {
     let added = 0;
@@ -169,7 +184,10 @@ for (const s of UNIVERSE) {
       if (!r) continue; // before the series starts or after it ends
       if (d.month < local[0].month) continue;
       if (r.month === d.month && r.income > 0) throw new Error(`${s.id}: ${d.month} already has a dividend of ${r.income} from the price source; remove it from manual/dividends/${s.id}.csv`);
-      r.income += Number(d.dividend);
+      const divCur = (d.currency || s.currency) as Currency;
+      const rowCur = r.currency ?? s.currency;
+      if (!(divCur in usdPer)) throw new Error(`${s.id}: unknown dividend currency ${divCur} in ${d.month}`);
+      r.income += divCur === rowCur ? Number(d.dividend) : (Number(d.dividend) * usdPer[divCur](r.month)) / usdPer[rowCur](r.month);
       added++;
     }
     if (added) sources.push(`${added} dividends from manual/dividends/${s.id}.csv`);
@@ -212,7 +230,7 @@ for (const s of UNIVERSE) {
       continue;
     }
     gap = 0;
-    const fx = usdPer[s.currency](m);
+    const fx = usdPer[r.currency ?? s.currency](m);
     prev = { month: m, price: r.price * fx, income: r.income * fx };
     rows.push(prev);
   }
@@ -227,7 +245,7 @@ for (const s of UNIVERSE) {
     kind: "stock",
     currency: "USD",
     source,
-    notes: [s.currency !== "USD" ? `Converted from ${s.currency} at month-end FRED rate.` : "", s.note ?? ""].filter(Boolean).join(" ") || undefined,
+    notes: [currencyNote(s.currency, local), s.note ?? ""].filter(Boolean).join(" ") || undefined,
     end: s.end,
     rows,
   });

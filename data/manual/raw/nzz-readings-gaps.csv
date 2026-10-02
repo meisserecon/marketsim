@@ -1,0 +1,15 @@
+# Month-end share prices read by eye from scanned NZZ issues: replacement issues for ten month ends whose first-downloaded issue had no Zurich table. Raw quotes as printed, no adjustment.
+# Source: scans in data/manual/scans/nzz/NZZ_<issue date>.pdf (outside git). Every value read twice (pass 1 and pass 2, separate crops or two places in the paper); method eye2 = both agree, eye3 = settled by a third reading.
+# quote_date = the trading day of the table, established from the table heading and the issue. See nzz-notes-gaps.md for the layout and for the values left out.
+# Class labels: I = bearer (Inhaber), N = registered (Namen); foreign rows have class "ordinary".
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+nestle,1979-12,1979-12-28,I,CHF,3410,1979-12-29,13,eye2,"Zurich running text 'Kurse vom 28. Dezember'; last print without mark (3415, 3410, 3415t, 3415, 3410); pass 2 = Vortag bracket (3410) in 1980-01-04 issue"
+nestle,1979-12,1979-12-28,N,CHF,2240,1979-12-29,13,eye2,"last print without mark (2240 then 2255ttt); pass 2 = Vortag bracket (2240) in 1980-01-04 issue"
+sbv,1979-12,1979-12-28,I,CHF,406,1979-12-29,13,eye2,"405, 406 last print; pass 2 = Vortag bracket (406) in 1980-01-04 issue"
+credit-suisse,1979-12,1979-12-28,I,CHF,2295,1979-12-29,13,eye2,"SKA Inh. single print 2295; pass 2 = Vortag bracket (2295) in 1980-01-04 issue; line did not yet include PS"
+swissair,1979-12,1979-12-28,I,CHF,778,1979-12-29,13,eye2,"778 780tt 780tL 778: last unmarked print; pass 2 = Vortag bracket (778) in 1980-01-04 issue"
+sandoz,1979-12,1979-12-28,I,CHF,4090,1979-12-29,13,eye2,"single print 4090; pass 2 = Vortag bracket (4090) in 1980-01-04 issue"
+ciba-geigy,1979-12,1979-12-28,I,CHF,1235,1979-12-29,13,eye2,"1240, 1235, 1245ttt: last unmarked print 1235; pass 2 = Vortag bracket (1235) in 1980-01-04 issue"
+mercedes,1979-12,1979-12-31,ordinary,DEM,242.50,1980-01-04,20,eye2,"Daimler-Benz, Frankfurt/Duesseldorf/Muenchen list; 31 Dec 1979 was the last Frankfurt trading day (2 Jan closed); Vortag col of the 3 Jan table; pass 2 = Schluss col of the 2 Jan table (geschlossen) in 1980-01-03 issue p18; 28 Dec Schluss was 243 (1979-12-29 issue p16)"
+bmw,1979-12,1979-12-31,ordinary,DEM,163,1980-01-04,20,eye2,"same as Daimler-Benz; 31 Dec Vortag col of 3 Jan table; pass 2 = 2 Jan table (closed) in 1980-01-03 issue p18; 28 Dec Schluss was 167"
+ibm,1979-12,1979-12-31,ordinary,USD,64.625,1980-01-03,19,eye2,"New York list 'Kurse vom 2. Januar' column Vortag = 31 Dec; read twice in two crops; agrees with nzz-readings-1979-1982.csv; 28 Dec Schl was 64 (1979-12-29 issue p15)"

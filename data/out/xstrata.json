@@ -3,7 +3,7 @@
  "name": "Xstrata",
  "kind": "stock",
  "currency": "USD",
- "source": "manual/xstrata.csv",
+ "source": "manual/xstrata.csv; 18 dividends from manual/dividends/xstrata.csv",
  "notes": "Converted from GBP at month-end FRED rate.",
  "end": {
   "month": "2013-04",
@@ -75,7 +75,7 @@
   {
    "month": "2003-05",
    "price": 3.713,
-   "income": 0
+   "income": 0.067849
   },
   {
    "month": "2003-06",
@@ -100,7 +100,7 @@
   {
    "month": "2003-10",
    "price": 5.197,
-   "income": 0
+   "income": 0.034558
   },
   {
    "month": "2003-11",
@@ -135,7 +135,7 @@
   {
    "month": "2004-05",
    "price": 6.4045,
-   "income": 0
+   "income": 0.070285
   },
   {
    "month": "2004-06",
@@ -160,7 +160,7 @@
   {
    "month": "2004-10",
    "price": 7.8535,
-   "income": 0
+   "income": 0.041454
   },
   {
    "month": "2004-11",
@@ -195,7 +195,7 @@
   {
    "month": "2005-05",
    "price": 9.1082,
-   "income": 0
+   "income": 0.079748
   },
   {
    "month": "2005-06",
@@ -220,7 +220,7 @@
   {
    "month": "2005-10",
    "price": 11.5881,
-   "income": 0
+   "income": 0.045827
   },
   {
    "month": "2005-11",
@@ -255,7 +255,7 @@
   {
    "month": "2006-05",
    "price": 20.2156,
-   "income": 0
+   "income": 0.125452
   },
   {
    "month": "2006-06",
@@ -280,7 +280,7 @@
   {
    "month": "2006-10",
    "price": 24.1985,
-   "income": 0
+   "income": 0.067168
   },
   {
    "month": "2006-11",
@@ -315,7 +315,7 @@
   {
    "month": "2007-05",
    "price": 32.5225,
-   "income": 0
+   "income": 0.170607
   },
   {
    "month": "2007-06",
@@ -340,7 +340,7 @@
   {
    "month": "2007-10",
    "price": 40.5422,
-   "income": 0
+   "income": 0.092634
   },
   {
    "month": "2007-11",
@@ -375,7 +375,7 @@
   {
    "month": "2008-05",
    "price": 44.6946,
-   "income": 0
+   "income": 0.196669
   },
   {
    "month": "2008-06",
@@ -400,7 +400,7 @@
   {
    "month": "2008-10",
    "price": 9.6537,
-   "income": 0
+   "income": 0.093403
   },
   {
    "month": "2008-11",
@@ -495,7 +495,7 @@
   {
    "month": "2010-05",
    "price": 14.7166,
-   "income": 0
+   "income": 0.07866
   },
   {
    "month": "2010-06",
@@ -520,7 +520,7 @@
   {
    "month": "2010-10",
    "price": 19.3762,
-   "income": 0
+   "income": 0.050604
   },
   {
    "month": "2010-11",
@@ -555,7 +555,7 @@
   {
    "month": "2011-05",
    "price": 23.4338,
-   "income": 0
+   "income": 0.200268
   },
   {
    "month": "2011-06",
@@ -580,7 +580,7 @@
   {
    "month": "2011-10",
    "price": 16.8754,
-   "income": 0
+   "income": 0.134301
   },
   {
    "month": "2011-11",
@@ -615,7 +615,7 @@
   {
    "month": "2012-05",
    "price": 14.2111,
-   "income": 0
+   "income": 0.261053
   },
   {
    "month": "2012-06",
@@ -640,7 +640,7 @@
   {
    "month": "2012-10",
    "price": 15.7743,
-   "income": 0
+   "income": 0.139818
   },
   {
    "month": "2012-11",

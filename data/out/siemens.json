@@ -3,7 +3,7 @@
  "name": "Siemens",
  "kind": "stock",
  "currency": "USD",
- "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
+ "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/siemens.csv",
  "notes": "Converted from EUR at month-end FRED rate. Yahoo data from 1996-11; 1980 to 1996 needs a manual prefix.",
  "rows": [
   {
@@ -114,7 +114,7 @@
   {
    "month": "1981-03",
    "price": 6.2372,
-   "income": 0
+   "income": 0.203871
   },
   {
    "month": "1981-04",
@@ -414,7 +414,7 @@
   {
    "month": "1986-03",
    "price": 17.6418,
-   "income": 0
+   "income": 0.305678
   },
   {
    "month": "1986-04",
@@ -474,7 +474,7 @@
   {
    "month": "1987-03",
    "price": 21.2652,
-   "income": 0
+   "income": 0.378904
   },
   {
    "month": "1987-04",
@@ -719,7 +719,7 @@
   {
    "month": "1991-04",
    "price": 20.5417,
-   "income": 0
+   "income": 0.442493
   },
   {
    "month": "1991-05",
@@ -949,7 +949,7 @@
   {
    "month": "1995-02",
    "price": 26.1821,
-   "income": 0
+   "income": 0.501553
   },
   {
    "month": "1995-03",
@@ -1009,7 +1009,7 @@
   {
    "month": "1996-02",
    "price": 33.1562,
-   "income": 0
+   "income": 0.513622
   },
   {
    "month": "1996-03",
@@ -1069,7 +1069,7 @@
   {
    "month": "1997-02",
    "price": 29.5753,
-   "income": 0
+   "income": 0.519106
   },
   {
    "month": "1997-03",
@@ -1129,7 +1129,7 @@
   {
    "month": "1998-02",
    "price": 35.9416,
-   "income": 0
+   "income": 0.479693
   },
   {
    "month": "1998-03",
@@ -1189,7 +1189,7 @@
   {
    "month": "1999-02",
    "price": 36.5614,
-   "income": 0
+   "income": 0.488717
   },
   {
    "month": "1999-03",
@@ -1249,7 +1249,7 @@
   {
    "month": "2000-02",
    "price": 103.5533,
-   "income": 0.9643
+   "income": 0.559996
   },
   {
    "month": "2000-03",
@@ -1309,7 +1309,7 @@
   {
    "month": "2001-02",
    "price": 67.2466,
-   "income": 2.21088
+   "income": 1.283919
   },
   {
    "month": "2001-03",
@@ -1364,7 +1364,7 @@
   {
    "month": "2002-01",
    "price": 51.4619,
-   "income": 1.503074
+   "income": 1.309315
   },
   {
    "month": "2002-02",
@@ -1424,7 +1424,7 @@
   {
    "month": "2003-01",
    "price": 35.7884,
-   "income": 1.517891
+   "income": 1.322221
   },
   {
    "month": "2003-02",
@@ -1484,7 +1484,7 @@
   {
    "month": "2004-01",
    "price": 70.6918,
-   "income": 1.36972
+   "income": 1.193151
   },
   {
    "month": "2004-02",
@@ -1544,7 +1544,7 @@
   {
    "month": "2005-01",
    "price": 69.3505,
-   "income": 1.631125
+   "income": 1.420859
   },
   {
    "month": "2005-02",
@@ -1604,7 +1604,7 @@
   {
    "month": "2006-01",
    "price": 79.7176,
-   "income": 1.64133
+   "income": 1.429748
   },
   {
    "month": "2006-02",
@@ -1664,7 +1664,7 @@
   {
    "month": "2007-01",
    "price": 95.9551,
-   "income": 1.88471
+   "income": 1.641754
   },
   {
    "month": "2007-02",
@@ -1724,7 +1724,7 @@
   {
    "month": "2008-01",
    "price": 111.7257,
-   "income": 2.37456
+   "income": 2.068458
   },
   {
    "month": "2008-02",
@@ -1784,7 +1784,7 @@
   {
    "month": "2009-01",
    "price": 49.1908,
-   "income": 2.04864
+   "income": 1.784552
   },
   {
    "month": "2009-02",
@@ -1844,12 +1844,12 @@
   {
    "month": "2010-01",
    "price": 78.7905,
-   "income": 2.2192
+   "income": 1.933126
   },
   {
    "month": "2010-02",
    "price": 75.1633,
-   "income": 0.687528
+   "income": 0.5989
   },
   {
    "month": "2010-03",
@@ -1904,7 +1904,7 @@
   {
    "month": "2011-01",
    "price": 112.1745,
-   "income": 3.70304
+   "income": 3.225686
   },
   {
    "month": "2011-02",
@@ -1964,7 +1964,7 @@
   {
    "month": "2012-01",
    "price": 82.2564,
-   "income": 3.9159
+   "income": 3.411106
   },
   {
    "month": "2012-02",
@@ -2024,7 +2024,7 @@
   {
    "month": "2013-01",
    "price": 95.9262,
-   "income": 4.0752
+   "income": 3.549871
   },
   {
    "month": "2013-02",
@@ -2084,7 +2084,7 @@
   {
    "month": "2014-01",
    "price": 114.3466,
-   "income": 4.05
+   "income": 3.635874
   },
   {
    "month": "2014-02",
@@ -2144,7 +2144,7 @@
   {
    "month": "2015-01",
    "price": 94.6506,
-   "income": 3.7257
+   "income": 3.344735
   },
   {
    "month": "2015-02",
@@ -2204,7 +2204,7 @@
   {
    "month": "2016-01",
    "price": 86.1043,
-   "income": 3.7912
+   "income": 3.403537
   },
   {
    "month": "2016-02",
@@ -2269,7 +2269,7 @@
   {
    "month": "2017-02",
    "price": 117.5405,
-   "income": 3.82248
+   "income": 3.431619
   },
   {
    "month": "2017-03",
@@ -2329,7 +2329,7 @@
   {
    "month": "2018-02",
    "price": 119.3678,
-   "income": 4.51807
+   "income": 4.056082
   },
   {
    "month": "2018-03",
@@ -2384,7 +2384,7 @@
   {
    "month": "2019-01",
    "price": 98.8959,
-   "income": 4.35252
+   "income": 3.90746
   },
   {
    "month": "2019-02",
@@ -2449,7 +2449,7 @@
   {
    "month": "2020-02",
    "price": 92.426,
-   "income": 4.29039
+   "income": 3.851683
   },
   {
    "month": "2020-03",

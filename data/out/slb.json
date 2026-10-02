@@ -3,13 +3,13 @@
  "name": "Schlumberger",
  "kind": "stock",
  "currency": "USD",
- "source": "manual/slb.csv until 1981-11; Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Transocean Sedco Forex 1999-12 (factor 0.892)",
+ "source": "manual/slb.csv until 1981-11; Yahoo Finance SLB (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/slb.csv; spin-offs folded into price: Transocean Sedco Forex 1999-12 (factor 0.892)",
  "notes": "Top-five US stock at the 1980 oil peak, lost 70% and took twenty years to recover. Yahoo data from 1981-12; 1980 to 1981 needs a manual prefix.",
  "rows": [
   {
    "month": "1979-12",
    "price": 9.2867,
-   "income": 0
+   "income": 0.027191
   },
   {
    "month": "1980-01",
@@ -24,7 +24,7 @@
   {
    "month": "1980-03",
    "price": 10.5249,
-   "income": 0
+   "income": 0.032689
   },
   {
    "month": "1980-04",
@@ -39,7 +39,7 @@
   {
    "month": "1980-06",
    "price": 11.4412,
-   "income": 0
+   "income": 0.032689
   },
   {
    "month": "1980-07",
@@ -54,7 +54,7 @@
   {
    "month": "1980-09",
    "price": 14.1653,
-   "income": 0
+   "income": 0.037147
   },
   {
    "month": "1980-10",
@@ -69,7 +69,7 @@
   {
    "month": "1980-12",
    "price": 17.3847,
-   "income": 0
+   "income": 0.037221
   },
   {
    "month": "1981-01",
@@ -84,7 +84,7 @@
   {
    "month": "1981-03",
    "price": 15.1001,
-   "income": 0
+   "income": 0.037221
   },
   {
    "month": "1981-04",
@@ -99,7 +99,7 @@
   {
    "month": "1981-06",
    "price": 14.06,
-   "income": 0
+   "income": 0.044576
   },
   {
    "month": "1981-07",
@@ -114,7 +114,7 @@
   {
    "month": "1981-09",
    "price": 11.6455,
-   "income": 0
+   "income": 0.044576
   },
   {
    "month": "1981-10",
@@ -129,7 +129,7 @@
   {
    "month": "1981-12",
    "price": 12.4534,
-   "income": 0
+   "income": 0.044576
   },
   {
    "month": "1982-01",

@@ -3,7 +3,7 @@
  "name": "Enron",
  "kind": "stock",
  "currency": "USD",
- "source": "manual/enron.csv",
+ "source": "manual/enron.csv; 10 dividends from manual/dividends/enron.csv",
  "end": {
   "month": "2001-12",
   "type": "bankruptcy",
@@ -23,7 +23,7 @@
   {
    "month": "1990-03",
    "price": 6.7031,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1990-04",
@@ -38,7 +38,7 @@
   {
    "month": "1990-06",
    "price": 7.0938,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1990-07",
@@ -53,7 +53,7 @@
   {
    "month": "1990-09",
    "price": 7.0625,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1990-10",
@@ -68,7 +68,7 @@
   {
    "month": "1990-12",
    "price": 6.8438,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1991-01",
@@ -83,7 +83,7 @@
   {
    "month": "1991-03",
    "price": 7.0156,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1991-04",
@@ -98,7 +98,7 @@
   {
    "month": "1991-06",
    "price": 7.2031,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1991-07",
@@ -113,7 +113,7 @@
   {
    "month": "1991-09",
    "price": 8.5156,
-   "income": 0
+   "income": 0.0775
   },
   {
    "month": "1991-10",
@@ -128,7 +128,7 @@
   {
    "month": "1991-12",
    "price": 8.75,
-   "income": 0
+   "income": 0.08125
   },
   {
    "month": "1992-01",
@@ -683,7 +683,7 @@
   {
    "month": "2001-03",
    "price": 58.1,
-   "income": 0
+   "income": 0.125
   },
   {
    "month": "2001-04",
@@ -698,7 +698,7 @@
   {
    "month": "2001-06",
    "price": 49.1,
-   "income": 0
+   "income": 0.125
   },
   {
    "month": "2001-07",

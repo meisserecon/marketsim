@@ -117,6 +117,9 @@ for (const s of UNIVERSE) {
     const file = path.join(RAW_DIR, "yahoo", `${s.id}.csv`);
     if (!fs.existsSync(file)) { console.warn(`${s.id}: raw file missing, run fetch`); continue; }
     local = readCsv(file).map((r) => ({ month: r.month, price: Number(r.close), income: Number(r.dividend), maxdiv: Number(r.maxdiv || 0) }));
+    for (const sc of s.yahooDividendScale ?? []) {
+      for (const r of local) if (r.month < sc.before && r.income) { r.income *= sc.factor; if (r.maxdiv) r.maxdiv *= sc.factor; }
+    }
     sources.push(`Yahoo Finance ${s.ticker} (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)`);
     // A manual file for a Yahoo asset is a prefix: it supplies the months before Yahoo's history starts.
     // Its prices must be on the same share basis as Yahoo's adjusted series (check the overlap month).

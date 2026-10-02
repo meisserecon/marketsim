@@ -1,6 +1,7 @@
 # Raw declared Xstrata dividends as found (US cents per ordinary share, declared and paid in US dollars), unadjusted for rights issues. Retrieved 2026-10-02 from web.archive.org copies of xstrata.com documents.
 # AR = Xstrata plc Annual Report of the year; PR = preliminary results of the year; DIL = dividend information letter (xstrata.com/assets/pdf/x_dividend_info_<date>.pdf or dividend_info_oct2003.pdf).
 dividend,us_cents,payment_date,record_date,source
+interim 2002,0,,,"none: AR 2003 p.101 (xstrata.com/reports/dar/2003/pdf/101.pdf via web.archive.org, read 2026-10-02) gives dividend per share 2002 of 13.3 US cents, which is the final 2002 (20.0) restated for the 2003 rights issue; so no interim 2002 and no payment in calendar 2002"
 final 2002,20.0,2003-05-23,2003-05-02,MIM acquisition and rights issue announcement 7.4.2003 p.9 (declared 10.2.2003; new shares do not rank); AR 2003 note 11 restates it to 13.3 with the rights bonus factor 0.66344
 interim 2003,6.7,2003-10-17,2003-09-26,AR 2003 note 11; DIL October 2003 (payment 17 Oct 2003); currency election form record date 26.9.2003
 final 2003,13.3,2004-05-21,2004-04-30,AR 2003 p.15 and note 11 (total 2003 20 cents)

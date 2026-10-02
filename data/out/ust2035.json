@@ -1,0 +1,200 @@
+{
+ "id": "ust2035",
+ "name": "US Treasury 2035",
+ "kind": "bond",
+ "currency": "USD",
+ "source": "Federal Reserve fitted Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month",
+ "notes": "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
+ "maturity": "2035-01-01",
+ "rows": [
+  {
+   "month": "2025-01",
+   "price": 63.4091,
+   "income": 0,
+   "extra": {
+    "yield": 0.047011,
+    "years": 9.916496
+   }
+  },
+  {
+   "month": "2025-02",
+   "price": 65.8097,
+   "income": 0,
+   "extra": {
+    "yield": 0.043438,
+    "years": 9.839836
+   }
+  },
+  {
+   "month": "2025-03",
+   "price": 66.1101,
+   "income": 0,
+   "extra": {
+    "yield": 0.043337,
+    "years": 9.754962
+   }
+  },
+  {
+   "month": "2025-04",
+   "price": 66.6277,
+   "income": 0,
+   "extra": {
+    "yield": 0.042872,
+    "years": 9.672827
+   }
+  },
+  {
+   "month": "2025-05",
+   "price": 65.3506,
+   "income": 0,
+   "extra": {
+    "yield": 0.045354,
+    "years": 9.590691
+   }
+  },
+  {
+   "month": "2025-06",
+   "price": 66.8077,
+   "income": 0,
+   "extra": {
+    "yield": 0.043345,
+    "years": 9.505818
+   }
+  },
+  {
+   "month": "2025-07",
+   "price": 66.345,
+   "income": 0,
+   "extra": {
+    "yield": 0.044514,
+    "years": 9.420945
+   }
+  },
+  {
+   "month": "2025-08",
+   "price": 67.4766,
+   "income": 0,
+   "extra": {
+    "yield": 0.043011,
+    "years": 9.341547
+   }
+  },
+  {
+   "month": "2025-09",
+   "price": 68.1695,
+   "income": 0,
+   "extra": {
+    "yield": 0.042276,
+    "years": 9.253936
+   }
+  },
+  {
+   "month": "2025-10",
+   "price": 68.733,
+   "income": 0,
+   "extra": {
+    "yield": 0.04174,
+    "years": 9.169062
+   }
+  },
+  {
+   "month": "2025-11",
+   "price": 69.4784,
+   "income": 0,
+   "extra": {
+    "yield": 0.040863,
+    "years": 9.092402
+   }
+  },
+  {
+   "month": "2025-12",
+   "price": 68.788,
+   "income": 0,
+   "extra": {
+    "yield": 0.042437,
+    "years": 9.002053
+   }
+  },
+  {
+   "month": "2026-01",
+   "price": 68.6183,
+   "income": 0,
+   "extra": {
+    "yield": 0.043125,
+    "years": 8.919918
+   }
+  },
+  {
+   "month": "2026-02",
+   "price": 70.6794,
+   "income": 0,
+   "extra": {
+    "yield": 0.040021,
+    "years": 8.843258
+   }
+  },
+  {
+   "month": "2026-03",
+   "price": 68.9194,
+   "income": 0,
+   "extra": {
+    "yield": 0.04343,
+    "years": 8.755647
+   }
+  },
+  {
+   "month": "2026-04",
+   "price": 68.5926,
+   "income": 0,
+   "extra": {
+    "yield": 0.044422,
+    "years": 8.673511
+   }
+  },
+  {
+   "month": "2026-05",
+   "price": 68.3907,
+   "income": 0,
+   "extra": {
+    "yield": 0.0452,
+    "years": 8.594114
+   }
+  },
+  {
+   "month": "2026-06",
+   "price": 68.8148,
+   "income": 0,
+   "extra": {
+    "yield": 0.044917,
+    "years": 8.506502
+   }
+  },
+  {
+   "month": "2026-07",
+   "price": 67.2267,
+   "income": 0,
+   "extra": {
+    "yield": 0.048282,
+    "years": 8.421629
+   }
+  },
+  {
+   "month": "2026-08",
+   "price": 67.4829,
+   "income": 0,
+   "extra": {
+    "yield": 0.048307,
+    "years": 8.336756
+   }
+  },
+  {
+   "month": "2026-09",
+   "price": 65.7956,
+   "income": 0,
+   "extra": {
+    "yield": 0.051933,
+    "years": 8.268309
+   }
+  }
+ ]
+}

@@ -12,10 +12,19 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
 - **Portfolio.** At most five positions plus cash. Players may freely rebalance at the current
   month's price at any time during a month. No order queue, no spread or commission for now.
-- **Assets.** Cash (USD, interest-free), US Treasury 1-, 5- and 10-year bonds, gold, and a
-  curated list of stocks, all quoted in USD.
-- **Income is paid out, never reinvested.** Bond coupons and stock dividends are credited to
-  cash every month so players can watch income accumulate. Cash itself earns nothing.
+- **Assets.** Cash (USD, interest-free), three US Treasury bonds, gold, and a curated list of
+  stocks, all quoted in USD.
+- **Bonds.** Zero-coupon Treasuries named by the year they are repaid: "US Treasury 2000" pays
+  100 on 1 January 2000 and nothing before. "Pay 13 today, get 100 in 2000." Three are on
+  offer at any time, one maturing within 5 years, one within 10 and one within 20, with
+  maturities every five years: 1985, 1990 and 2000 at the start; when a bond is repaid, the
+  longest maturity that restores the rule is listed (1995 in 1985, 2010 in 1990, 2005 in 1995,
+  and so on). A bond that has not matured when the game ends is valued at its last price. Such
+  bonds were not sold to the public in 1980; the prices are what they would have cost given
+  the yield curve of the day.
+- **Income is paid out, never reinvested.** Stock dividends are credited to cash in the month
+  they are paid, so players can watch income accumulate. Bonds pay nothing until they are
+  repaid. Cash itself earns nothing.
 - **Scoring.** Nominal portfolio value. No inflation adjustment (the ranking is the same).
 - **No lookahead.** The server only serves data up to the game's current month. Clients never
   receive the full dataset.
@@ -62,8 +71,8 @@ banks before 1999) is hand-curated in `data/manual/`.
 ## Data model
 
 See `data/README.md`. Every asset is a monthly series of `price` (value of one unit at month
-end) and `income` (cash paid per unit held during the month). Bonds are constant-maturity par
-bonds rolled monthly.
+end) and `income` (cash paid per unit held during the month). Bonds are fixed-maturity zeros
+priced off the Federal Reserve's fitted Treasury yield curve.
 
 ## Stack
 
@@ -82,7 +91,7 @@ server, client and data pipeline compile against the same definitions.
   ended assets and pays income into cash. A game starts in the base month 1979-12, where
   players build their first portfolio, and runs to the last month all living assets have data.
   The data itself reaches back to January 1975 where sources allow, so charts and trailing
-  figures have history from the first day. Bond prices are indexed to 100 at the game start.
+  figures have history from the first day.
 - **HTTP API** (`shared/src/api.ts`): routes and payload types between server and client.
   Live updates go out as Server-Sent Events.
 

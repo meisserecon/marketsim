@@ -38,7 +38,7 @@
 <section class="card income">
   <div class="card-head">
     <h2>Income received</h2>
-    <span class="sub">coupons and dividends, paid into cash</span>
+    <span class="sub">dividends, paid into cash</span>
   </div>
   <div class="card-body">
     <div class="tiles">
@@ -64,7 +64,7 @@
       </ul>
     {:else}
       <p class="sub muted none">
-        {portfolio.positions.length ? 'None of your holdings paid income this month.' : 'Cash earns nothing. Bonds pay a coupon every month; many stocks pay dividends.'}
+        {portfolio.positions.length ? 'None of your holdings paid income this month.' : 'Cash earns nothing, and bonds pay only when they mature. Many stocks pay dividends.'}
       </p>
     {/if}
 

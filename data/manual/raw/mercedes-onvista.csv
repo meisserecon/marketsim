@@ -1,0 +1,124 @@
+# Daimler-Benz (later DaimlerChrysler, Daimler, Mercedes-Benz Group) month-end prices 1987-12 to 1996-10, EUR, on the share basis of data/raw/yahoo/mercedes.csv (MBG.DE). Prefix for Yahoo, which starts 1996-10; the 1996-10 row is the overlap row.
+# SOURCE: onvista.de daily Frankfurt closes (notation 161779, entity 82840), available from 1987-12-30, retrieved on 2026-10-01 from the history feed the site's own chart uses (ordinary page/API requests, no login);
+#   the last close of each month is used (dates in raw/mercedes-raw.csv). https://www.onvista.de/aktien/Mercedes-Benz-Group-Aktie-DE0007100000
+# ADJUSTMENT. onvista adjusts for the split 10:1 of 1.7.1996 (nominal DM 50 to DM 5; onvista split list: 28.6.1996 close 418.34 EUR-basis, 1.7.1996 41.59) and for the 2021 Daimler Truck spin-off (factor 1.20452, so that
+#   DM prints = onvista x 1.95583 x 10 x 1.20452 = x 23.5586 before July 1996). It does NOT adjust for rights/bonus issues (none were identified, see below). FACTOR TO YAHOO: 1.000. Evidence: onvista / Yahoo over 74 months 1996-10 to
+#   2002-12: median 0.9984, mean 0.9984, range 0.959 to 1.043 (26 months to 1998-12: median 0.9999; scatter = Yahoo month-end dates; no trend, no step across the 1.7.1996 split or the 1998-11 merger line change).
+#   NZZ prints (raw/nzz-readings.csv): DM close / Yahoo = 2.36 (2.31 to 2.41) in 1998 = 1.95583 x 1.2018, i.e. the same spin-off factor in Yahoo.
+# BUILD OVERLAP CHECK: 1996-10 row 37.7360 against Yahoo 38.0528, -0.8 % (limit 5 %).
+# INDEPENDENT CHECKS (Journal de Geneve "Allemagne" table, Frankfurt close of "Daimler Benz" in DM, read by eye from https://www.letempsarchives.ch page images): raw DM / 23.5586 against onvista on the same day:
+#   1990-01-31 833 DM -> 35.359, onvista 35.359;  1991-05-31 757.5 -> 32.154, onvista 32.154;  1991-06-28 750 -> 31.836, onvista 31.836 (3 of 3 equal to 3 decimals; JDG_1990_02_01 p4, JDG_1991_06_01 p8, JDG_1991_06_29 p10).
+#   The same readings for 1975-1986 (11 dates, in raw/mercedes-raw.csv) are NOT used in this file; they are DM quotes of the share before the 1996 split and before any adjustment, kept for the later gap filling.
+# CAPITAL MEASURES 1987-1996: split 10:1 of 1.7.1996 (above). No rights issue or bonus issue was identified: boerse.de lists no Daimler split, the ariva event list starts in 1999, and no adjusted source was found,
+#   so a rights issue or bonus issue before 1996 would appear as an unadjusted drop in these prices. In the onvista daily data every one-day drop over 7 % (1988-01-04, 1989-10-16, 1990-08-06, 1991-08-19)
+#   coincides with BMW and Siemens falling by 4 to 13 % the same day. Two smaller isolated drops are unexplained: 1989-11-07 (-5.3 %, BMW -0.8 %, Siemens -1.4 %, mostly regained within a week) and 1995-06-28
+#   (-6.6 %, BMW -1.5 %, Siemens -1.1 %, not regained; news or a capital measure, not identified). Not a proof that no measure is missing.
+# NOT COVERED: before 1987-12-30 (no online source; the gap is to be filled from newspaper scans). DIVIDENDS: 0 (unknown).
+month,price,income
+1987-12,24.4072,0
+1988-01,22.4969,0
+1988-02,29.2249,0
+1988-03,27.1668,0
+1988-04,25.9356,0
+1988-05,25.8086,0
+1988-06,27.2299,0
+1988-07,29.2041,0
+1988-08,27.7181,0
+1988-09,29.9679,0
+1988-10,32.1962,0
+1988-11,31.3685,0
+1988-12,31.3261,0
+1989-01,28.0153,0
+1989-02,28.0576,0
+1989-03,28.2278,0
+1989-04,28.4187,0
+1989-05,28.7160,0
+1989-06,29.3311,0
+1989-07,32.1754,0
+1989-08,35.2314,0
+1989-09,31.7296,0
+1989-10,29.2465,0
+1989-11,27.6757,0
+1989-12,35.1251,0
+1990-01,35.3593,0
+1990-02,36.7175,0
+1990-03,40.1977,0
+1990-04,34.9134,0
+1990-05,34.8495,0
+1990-06,35.8043,0
+1990-07,36.7382,0
+1990-08,29.6707,0
+1990-09,24.1955,0
+1990-10,24.9593,0
+1990-11,24.5774,0
+1990-12,23.4948,0
+1991-01,23.3678,0
+1991-02,25.8509,0
+1991-03,27.2938,0
+1991-04,29.6284,0
+1991-05,32.1538,0
+1991-06,31.8359,0
+1991-07,31.0928,0
+1991-08,32.1032,0
+1991-09,29.9380,0
+1991-10,29.1236,0
+1991-11,30.1804,0
+1991-12,31.4963,0
+1992-01,31.8018,0
+1992-02,32.1538,0
+1992-03,32.1754,0
+1992-04,33.3211,0
+1992-05,34.3738,0
+1992-06,32.3365,0
+1992-07,29.0763,0
+1992-08,26.6571,0
+1992-09,23.7073,0
+1992-10,22.5824,0
+1992-11,23.2399,0
+1992-12,22.7941,0
+1993-01,24.2719,0
+1993-02,25.5745,0
+1993-03,26.4404,0
+1993-04,24.4288,0
+1993-05,23.6052,0
+1993-06,26.0543,0
+1993-07,28.1008,0
+1993-08,32.0484,0
+1993-09,31.5171,0
+1993-10,32.0268,0
+1993-11,30.3374,0
+1993-12,35.9105,0
+1994-01,34.4676,0
+1994-02,34.4676,0
+1994-03,36.4203,0
+1994-04,38.3306,0
+1994-05,34.2767,0
+1994-06,30.7749,0
+1994-07,34.0434,0
+1994-08,35.5502,0
+1994-09,31.4116,0
+1994-10,32.8122,0
+1994-11,31.5171,0
+1994-12,32.3448,0
+1995-01,29.5012,0
+1995-02,30.0954,0
+1995-03,26.4237,0
+1995-04,26.9458,0
+1995-05,29.0555,0
+1995-06,26.9543,0
+1995-07,28.4400,0
+1995-08,30.7958,0
+1995-09,29.8832,0
+1995-10,28.8008,0
+1995-11,30.2015,0
+1995-12,30.6472,0
+1996-01,34.9132,0
+1996-02,34.4463,0
+1996-03,34.0855,0
+1996-04,35.5924,0
+1996-05,35.4014,0
+1996-06,34.5737,0
+1996-07,33.2663,0
+1996-08,34.1916,0
+1996-09,35.6136,0
+1996-10,37.7360,0

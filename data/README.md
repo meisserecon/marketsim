@@ -17,7 +17,7 @@ npm run data:validate   # gap / sanity checks and a summary per series
 | id | source | notes |
 |----|--------|-------|
 | cash | constant | interest-free by design |
-| ust1y, ust5y, ust10y | FRED DGS1 / DGS5 / DGS10, last daily observation of each month | constant-maturity par bond rolled monthly, see `src/lib/bonds.ts`; coupon paid as income |
+| ust1985, ust1990, ... | Federal Reserve fitted zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month, reduced at fetch time to `raw/fed/gsw_monthly.csv` | zero-coupon bond repaying 100 on 1 January of the named year, see `src/lib/bonds.ts`; no income |
 | gold | datahub.io/core/gold-prices (LBMA via Bundesbank) | monthly *average*, not month-end. FRED removed its LBMA series in 2022 |
 | stocks | Yahoo Finance chart API (daily, reduced to month end at fetch time) or `manual/<id>.csv` | split- and spin-off-adjusted close as price, dividends per share by ex-date month as income. Universe in `src/universe.ts` |
 | FX | FRED DEXSZUS, DEXJPUS, last daily observation of each month | converts CHF and JPY listings to USD |
@@ -34,8 +34,16 @@ the price.
 
 ## Bond model
 
-The player holds a par bond of maturity T issued at last month's yield. Each month it is
-repriced at the new yield with one month less to run, the accrued coupon is paid out, and
-the position is rolled into a new par bond. `price` is therefore a clean-price index that
-moves with rates; `income` is `previous yield / 12`. Adding both back gives a normal
-constant-maturity total return, which is how the model was checked.
+Each bond repays 100 on 1 January of its maturity year and pays nothing before. Its price is
+100 discounted at the continuously compounded zero-coupon yield for the time left, computed
+from the Svensson parameters of the Fed's daily curve. The formula reproduces the yields the
+Fed publishes to within 0.0003 percentage points. `extra.yield` is the yearly return from
+holding to maturity and `extra.years` the time left. In its last month (December before the
+maturity year) the price is 100, and the bond ends with a `maturity` event.
+
+Three bonds exist at any time (5, 10 and 20 years at most), with maturities every five years;
+`bondSchedule` generates them. The curve is fitted only up to 15 years before mid-1981, so
+the 2000 bond's first eighteen months extrapolate it; the result is 10.17 percent
+at the start against 10.16 for FRED's 20-year constant-maturity yield, and up to 0.7 points
+below it in mid-1981 (part of that gap is the difference between a zero and a par yield). The two shorter initial
+bonds have history from 1975, the 2000 bond starts with the game.

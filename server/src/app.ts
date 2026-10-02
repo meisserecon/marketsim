@@ -156,6 +156,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       ...(yearAgo !== undefined ? { priceYearAgo: yearAgo } : {}),
       income: row.income, incomeLastYear,
       ...(row.extra ? { extra: row.extra } : {}),
+      ...(a.maturity ? { maturity: a.maturity } : {}),
       listedSince: market.firstMonth(id),
     };
   }

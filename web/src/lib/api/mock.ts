@@ -175,6 +175,7 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
       income: row.income,
       incomeLastYear,
       extra: row.extra,
+      ...(a.maturity ? { maturity: a.maturity } : {}),
       listedSince: market.firstMonth(a.id)
     };
   };

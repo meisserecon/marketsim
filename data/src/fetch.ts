@@ -12,13 +12,14 @@ import { RAW_DIR } from "./lib/paths.js";
 import { UNIVERSE } from "./universe.js";
 
 const FRED_SERIES = [
-  "DGS1", "DGS5", "DGS10", // daily constant-maturity treasury yields, percent
   "DEXSZUS", "DEXJPUS", // CHF per USD, JPY per USD, daily
   "DEXUSUK", // USD per GBP, daily
   "DEXUSEU", // USD per EUR, daily, from 1999
   "EXGEUS", // DEM per USD, monthly average, 1971-2001; used for EUR before 1999 via the fixed 1.95583 DEM/EUR rate
 ];
 const GOLD_URL = "https://datahub.io/core/gold-prices/r/monthly.csv"; // LBMA monthly average, USD/oz
+// Fitted US Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), daily, Svensson parameters. A Federal Reserve staff research product.
+const GSW_URL = "https://www.federalreserve.gov/data/yield-curve-tables/feds200628.csv";
 
 const groups = new Set(process.argv.slice(2));
 const want = (g: string) => groups.size === 0 || groups.has(g);
@@ -32,6 +33,32 @@ async function downloadCsv(url: string, file: string) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, text);
   console.log(`${path.relative(RAW_DIR, file)}: ${text.split("\n").length - 1} lines`);
+}
+
+/** The daily curve file is 16 MB; keep the last observation of each month and only the six curve parameters. */
+async function fetchYieldCurve(file: string) {
+  const res = await fetch(GSW_URL, { headers: { "user-agent": "Mozilla/5.0" } });
+  if (!res.ok) throw new Error(`${GSW_URL} -> HTTP ${res.status}`);
+  const lines = (await res.text()).split(/\r?\n/);
+  const headIndex = lines.findIndex((l) => l.startsWith("Date,"));
+  if (headIndex < 0) throw new Error("yield curve file has no header row");
+  const head = lines[headIndex].split(",");
+  const cols = ["BETA0", "BETA1", "BETA2", "BETA3", "TAU1", "TAU2"];
+  const idx = cols.map((c) => head.indexOf(c));
+  if (idx.some((i) => i < 0)) throw new Error("yield curve file lacks parameter columns");
+  const byMonth = new Map<string, string>();
+  for (const line of lines.slice(headIndex + 1)) {
+    const c = line.split(",");
+    if (c.length < head.length || c[0] < "1974-12") continue;
+    const vals = idx.map((i) => c[i]);
+    if (vals.slice(0, 3).some((v) => v === "NA" || v === "")) continue;
+    // TAU2 and BETA3 are absent in the early Nelson-Siegel years; store 0.
+    byMonth.set(c[0].slice(0, 7), [c[0], ...vals.map((v) => (v === "NA" || v === "" ? "0" : v))].join(","));
+  }
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, ["date," + cols.join(","), ...[...byMonth.values()]].join("\n") + "\n");
+  const months = [...byMonth.keys()];
+  console.log(`${path.relative(RAW_DIR, file)}: ${months[0]} .. ${months[months.length - 1]}, ${months.length} months`);
 }
 
 /** Yahoo daily chart reduced to month-end close and dividends per month (by ex-date). */
@@ -84,6 +111,7 @@ if (want("fred")) {
   }
 }
 if (want("gold")) await downloadCsv(GOLD_URL, path.join(RAW_DIR, "gold", "lbma_monthly.csv"));
+if (want("gsw")) await fetchYieldCurve(path.join(RAW_DIR, "fed", "gsw_monthly.csv"));
 if (want("stocks")) {
   for (const s of UNIVERSE) {
     if (s.source !== "yahoo") continue;

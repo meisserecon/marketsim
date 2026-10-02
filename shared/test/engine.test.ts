@@ -173,23 +173,37 @@ const real = fs.existsSync(OUT_DIR)
   ? new Market(fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(OUT_DIR, f), "utf8"))))
   : undefined;
 
-test("real data: a ten-year treasury held through 1980 pays its coupons into cash", { skip: !real }, () => {
+test("real data: a Treasury bond bought at the start is repaid at 100 when it matures", { skip: !real }, () => {
   const m = real!;
   let month = m.startMonth;
-  let p = applyTrade(emptyPortfolio(10_000), m, month, { assetId: "ust10y", side: "buy", amount: { all: true } }).portfolio;
-  const units = p.holdings.ust10y;
-  for (let i = 0; i < 12; i++) ({ portfolio: p, month } = advanceMonth(p, m, month));
-  assert.equal(month, "1980-12");
-  assert.equal(p.holdings.ust10y, units);
-  // Yields were 10 to 13 percent in 1980, so a year of coupons on 10,000 is roughly 1,100.
-  assert.ok(p.cash > 900 && p.cash < 1400, `coupons were ${p.cash}`);
+  const price = m.row("ust1985", month)!.price;
+  assert.ok(price > 50 && price < 70, `a five-year zero at about 10 percent costs about 60, got ${price}`);
+  let p = applyTrade(emptyPortfolio(10_000), m, month, { assetId: "ust1985", side: "buy", amount: { all: true } }).portfolio;
+  const units = p.holdings.ust1985;
+  assert.ok(Math.abs(units - 10_000 / price) < 1e-9);
+  while (month < "1984-12") ({ portfolio: p, month } = advanceMonth(p, m, month));
+  assert.equal(p.cash, 0); // a zero bond pays nothing on the way
+  assert.equal(p.holdings.ust1985, units);
+  assert.equal(m.row("ust1985", "1984-12")!.price, 100);
+  const step = advanceMonth(p, m, month);
+  assert.equal(step.month, "1985-01");
+  assert.deepEqual(step.portfolio.holdings, {});
+  assert.ok(Math.abs(step.portfolio.cash - units * 100) < 1e-6);
+  assert.equal(step.entries[0].kind, "payout");
+  // three bonds are on offer at any time
+  for (const mm of ["1979-12", "1984-12", "1985-01", "1990-01", "2000-06", "2026-01"]) {
+    const live = m.ids().filter((id) => id.startsWith("ust") && m.isTradable(id, mm));
+    assert.equal(live.length, 3, `${mm}: ${live.join(",")}`);
+  }
+  assert.deepEqual(m.ids().filter((id) => id.startsWith("ust") && m.isTradable(id, "1985-01")).sort(), ["ust1990", "ust1995", "ust2000"]);
+  assert.deepEqual(m.ids().filter((id) => id.startsWith("ust") && m.isTradable(id, "1990-01")).sort(), ["ust1995", "ust2000", "ust2010"]);
 });
 
 test("real data: a full game from start to final month runs without losing track of value", { skip: !real }, () => {
   const m = real!;
   let month = m.startMonth;
   let p = emptyPortfolio(100_000);
-  for (const id of ["ibm", "xom", "gold", "ust10y", "ko"]) p = applyTrade(p, m, month, { assetId: id, side: "buy", amount: { usd: 20_000 } }).portfolio;
+  for (const id of ["ibm", "xom", "gold", "ust2000", "ko"]) p = applyTrade(p, m, month, { assetId: id, side: "buy", amount: { usd: 20_000 } }).portfolio;
   while (month < m.finalMonth) ({ portfolio: p, month } = advanceMonth(p, m, month));
   assert.equal(month, m.finalMonth);
   const value = portfolioValue(p, m, month);

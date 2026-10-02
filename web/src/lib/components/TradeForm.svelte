@@ -59,8 +59,9 @@
     return '';
   });
 
-  /** A bond bought now pays its current yield as coupon; trailing income would lag behind. */
+  /** A bond pays nothing until it matures; what matters is what it repays and the yearly return that implies. */
   const bondYield = $derived(asset.kind === 'bond' ? asset.extra?.yield : undefined);
+  const maturityYear = $derived(asset.maturity ? asset.maturity.slice(0, 4) : '');
 
   const preview = $derived.by(() => {
     if (problem || !hasAmount || !(amount > 0)) return undefined;
@@ -75,7 +76,9 @@
       weightAfter: portfolio.totalValue > 0 ? positionAfter / portfolio.totalValue : 0,
       count,
       // Based on what the asset paid over the past twelve months; says nothing about the future.
-      incomePerYear: bondYield !== undefined ? positionAfter * bondYield : asset.price > 0 ? (positionAfter * asset.incomeLastYear) / asset.price : 0
+      incomePerYear: asset.kind !== 'bond' && asset.price > 0 ? (positionAfter * asset.incomeLastYear) / asset.price : 0,
+      // Each unit of a bond repays 100.
+      repayment: asset.kind === 'bond' && asset.price > 0 ? (positionAfter / asset.price) * 100 : 0
     };
   });
 
@@ -172,11 +175,19 @@
       <dt>Positions used</dt>
       <dd>{preview.count} of {portfolio.maxPositions}</dd>
       {#if preview.positionAfter >= 0.005}
+        {#if asset.kind === 'bond'}
+          <dt>At maturity</dt>
+          <dd>
+            repays {usd(preview.repayment, { cents: true })}{maturityYear ? ` on 1 January ${maturityYear}` : ''}
+            {#if bondYield !== undefined && bondYield > 0}<span class="muted">that is {(bondYield * 100).toFixed(2)}% a year if held until then</span>{/if}
+          </dd>
+        {:else}
         <dt>Income</dt>
         <dd>
-          {#if preview.incomePerYear > 0}about {usd(preview.incomePerYear, { cents: true })} a year <span class="muted">{bondYield !== undefined ? 'at the current yield' : 'if it pays what it paid over the last 12 months'}</span>
+          {#if preview.incomePerYear > 0}about {usd(preview.incomePerYear, { cents: true })} a year <span class="muted">if it pays what it paid over the last 12 months</span>
           {:else}<span class="muted">paid nothing over the last 12 months</span>{/if}
         </dd>
+        {/if}
       {/if}
     </dl>
   {/if}

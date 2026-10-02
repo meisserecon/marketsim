@@ -88,7 +88,8 @@
       <span class="sub">Income 12 mo</span><strong>{pct(asset.price > 0 ? asset.incomeLastYear / asset.price : 0)}</strong>
     </div>
     {#if asset.kind === 'bond' && asset.extra?.yield !== undefined}
-      <div><span class="sub">Yield</span><strong>{pct(asset.extra.yield, { digits: 2 })}</strong></div>
+      <div><span class="sub">Yield to maturity</span><strong>{pct(asset.extra.yield, { digits: 2 })}</strong></div>
+      {#if asset.maturity}<div><span class="sub">Repays 100 on</span><strong>1 Jan {asset.maturity.slice(0, 4)}</strong></div>{/if}
     {/if}
   </div>
 
@@ -129,7 +130,7 @@
       <h3>
         Income
         <span class="sub">
-          {asset.kind === 'bond' ? 'coupon' : 'dividends'} per unit, {incomeMode === 'monthly' ? 'paid each month' : 'sum of the last 12 months'}
+          dividends per unit, {incomeMode === 'monthly' ? 'paid each month' : 'sum of the last 12 months'}
         </span>
       </h3>
       {#if paysIncome}
@@ -152,7 +153,7 @@
 
   {#if yieldPoints.length > 1}
     <section>
-      <div class="section-head"><h3>Yield <span class="sub">what a new bond of this maturity pays per year</span></h3></div>
+      <div class="section-head"><h3>Yield <span class="sub">yearly return from buying at that month's price and holding until the bond is repaid</span></h3></div>
       <Chart points={yieldPoints} zero height={130} label="Yield history" formatValue={(v) => pct(v, { digits: 2 })} formatTick={(v) => pct(v, { digits: 0 })} />
     </section>
   {/if}

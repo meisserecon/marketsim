@@ -4,8 +4,13 @@
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance NOVN.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",
- "notes": "Converted from CHF at month-end FRED rate. Formed December 1996 from Sandoz and Ciba-Geigy. Yahoo back-fills prices to 1995-04, which are cut.",
+ "notes": "Converted from CHF at month-end FRED rate. Formed December 1996 from Sandoz and Ciba-Geigy. Yahoo back-fills earlier prices with the Sandoz registered share / 50 (exact in all 19 months compared); they are cut, except November 1996, which is kept so that Sandoz and Ciba-Geigy positions can convert at the last prices before the merger.",
  "rows": [
+  {
+   "month": "1996-11",
+   "price": 23.2805,
+   "income": 0
+  },
   {
    "month": "1996-12",
    "price": 22.9139,

@@ -5,7 +5,7 @@ import { RAW_DIR, OUT_DIR, DATA_DIR } from "./lib/paths.js";
 import { readTwoColumnCsv, readCsv } from "./lib/csv.js";
 import { lastOfMonth, monthRange } from "./lib/months.js";
 import { GAME_START_MONTH } from "@marketsim/shared";
-import { buildBondRows } from "./lib/bonds.js";
+import { bondSchedule, buildZeroBondRows, type CurvePoint } from "./lib/bonds.js";
 import { UNIVERSE, type Currency } from "./universe.js";
 import type { AssetSeries, MonthRow } from "./lib/asset.js";
 
@@ -33,26 +33,28 @@ function fredMonthly(id: string): Map<string, number> {
 }
 
 // --- bonds -------------------------------------------------------------------
-const bonds = [
-  { id: "ust1y", name: "US Treasury 1-year", fred: "DGS1", T: 1 },
-  { id: "ust5y", name: "US Treasury 5-year", fred: "DGS5", T: 5 },
-  { id: "ust10y", name: "US Treasury 10-year", fred: "DGS10", T: 10 },
-];
-let endMonth: string | undefined;
-for (const b of bonds) {
-  const monthly = fredMonthly(b.fred);
-  const yields = new Map([...monthly].map(([m, pct]) => [m, pct / 100]));
-  const last = [...monthly.keys()].at(-1)!;
-  endMonth = endMonth && endMonth < last ? endMonth : last;
+// Fixed-maturity zero-coupon Treasuries priced off the Fed's fitted yield curve; see lib/bonds.ts.
+const curve = new Map<string, CurvePoint>(
+  readCsv(path.join(RAW_DIR, "fed", "gsw_monthly.csv")).map((r) => [
+    r.date.slice(0, 7),
+    { date: r.date, beta0: Number(r.BETA0), beta1: Number(r.BETA1), beta2: Number(r.BETA2), beta3: Number(r.BETA3), tau1: Number(r.TAU1), tau2: Number(r.TAU2) },
+  ]),
+);
+const curveMonths = [...curve.keys()].sort();
+const endMonth = curveMonths[curveMonths.length - 1];
+for (const def of bondSchedule(GAME_START_MONTH, endMonth, START_MONTH)) {
+  const matured = def.until <= endMonth;
   write({
-    id: b.id,
-    name: b.name,
+    id: `ust${def.maturityYear}`,
+    name: `US Treasury ${def.maturityYear}`,
     kind: "bond",
     currency: "USD",
-    source: `FRED ${b.fred} (daily constant-maturity yield, last observation of each month)`,
+    source: "Federal Reserve fitted Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month",
     notes:
-      "Constant-maturity par bond rolled monthly. price = clean price index, income = previous month yield / 12 paid in cash. extra.yield = month-end yield as fraction.",
-    rows: buildBondRows(monthRange(START_MONTH, last), yields, b.T, GAME_START_MONTH),
+      "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
+    maturity: `${def.maturityYear}-01-01`,
+    ...(matured ? { end: { month: def.until, type: "maturity" as const, note: `Matured on 1 January ${def.maturityYear} and repaid 100 per unit` } } : {}),
+    rows: buildZeroBondRows(def, curve, monthRange(START_MONTH, endMonth)),
   });
 }
 
@@ -81,7 +83,7 @@ write({
   currency: "USD",
   source: "constant",
   notes: "Interest-free by design.",
-  rows: monthRange(START_MONTH, endMonth!).map((m) => ({ month: m, price: 1, income: 0 })),
+  rows: monthRange(START_MONTH, endMonth).map((m) => ({ month: m, price: 1, income: 0 })),
 });
 
 // --- stocks ------------------------------------------------------------------
@@ -118,7 +120,9 @@ for (const s of UNIVERSE) {
     sources.push(`Yahoo Finance ${s.ticker} (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)`);
     // A manual file for a Yahoo asset is a prefix: it supplies the months before Yahoo's history starts.
     // Its prices must be on the same share basis as Yahoo's adjusted series (check the overlap month).
-    const yahooStart = local[0].month;
+    const yahooStart = s.yahooFrom ?? local[0].month;
+    if (s.yahooFrom && !local.some((r) => r.month === s.yahooFrom)) throw new Error(`${s.id}: yahooFrom ${s.yahooFrom} is not in the Yahoo data`);
+    local = local.filter((r) => r.month >= yahooStart);
     const prefix = manual.filter((r) => r.month < yahooStart);
     if (prefix.length) {
       const overlap = manual.find((r) => r.month === yahooStart);

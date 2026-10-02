@@ -1,0 +1,2185 @@
+{
+ "id": "ust2000",
+ "name": "US Treasury 2000",
+ "kind": "bond",
+ "currency": "USD",
+ "source": "Federal Reserve fitted Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month",
+ "notes": "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
+ "maturity": "2000-01-01",
+ "end": {
+  "month": "1999-12",
+  "type": "maturity",
+  "note": "Matured on 1 January 2000 and repaid 100 per unit"
+ },
+ "rows": [
+  {
+   "month": "1979-12",
+   "price": 13.0883,
+   "income": 0,
+   "extra": {
+    "yield": 0.107006,
+    "years": 20.002738
+   }
+  },
+  {
+   "month": "1980-01",
+   "price": 10.709,
+   "income": 0,
+   "extra": {
+    "yield": 0.118698,
+    "years": 19.917864
+   }
+  },
+  {
+   "month": "1980-02",
+   "price": 9.3915,
+   "income": 0,
+   "extra": {
+    "yield": 0.12663,
+    "years": 19.838467
+   }
+  },
+  {
+   "month": "1980-03",
+   "price": 8.5179,
+   "income": 0,
+   "extra": {
+    "yield": 0.132793,
+    "years": 19.753593
+   }
+  },
+  {
+   "month": "1980-04",
+   "price": 11.8729,
+   "income": 0,
+   "extra": {
+    "yield": 0.11441,
+    "years": 19.671458
+   }
+  },
+  {
+   "month": "1980-05",
+   "price": 12.3541,
+   "income": 0,
+   "extra": {
+    "yield": 0.112658,
+    "years": 19.589322
+   }
+  },
+  {
+   "month": "1980-06",
+   "price": 10.1139,
+   "income": 0,
+   "extra": {
+    "yield": 0.124652,
+    "years": 19.504449
+   }
+  },
+  {
+   "month": "1980-07",
+   "price": 9.6261,
+   "income": 0,
+   "extra": {
+    "yield": 0.128097,
+    "years": 19.419576
+   }
+  },
+  {
+   "month": "1980-08",
+   "price": 9.5701,
+   "income": 0,
+   "extra": {
+    "yield": 0.128996,
+    "years": 19.340178
+   }
+  },
+  {
+   "month": "1980-09",
+   "price": 9.7744,
+   "income": 0,
+   "extra": {
+    "yield": 0.128381,
+    "years": 19.252567
+   }
+  },
+  {
+   "month": "1980-10",
+   "price": 10.0795,
+   "income": 0,
+   "extra": {
+    "yield": 0.127176,
+    "years": 19.167693
+   }
+  },
+  {
+   "month": "1980-11",
+   "price": 10.3872,
+   "income": 0,
+   "extra": {
+    "yield": 0.125943,
+    "years": 19.091034
+   }
+  },
+  {
+   "month": "1980-12",
+   "price": 10.7159,
+   "income": 0,
+   "extra": {
+    "yield": 0.124733,
+    "years": 19.000684
+   }
+  },
+  {
+   "month": "1981-01",
+   "price": 10.3822,
+   "income": 0,
+   "extra": {
+    "yield": 0.12719,
+    "years": 18.918549
+   }
+  },
+  {
+   "month": "1981-02",
+   "price": 9.0003,
+   "income": 0,
+   "extra": {
+    "yield": 0.136321,
+    "years": 18.841889
+   }
+  },
+  {
+   "month": "1981-03",
+   "price": 8.9744,
+   "income": 0,
+   "extra": {
+    "yield": 0.137174,
+    "years": 18.754278
+   }
+  },
+  {
+   "month": "1981-04",
+   "price": 8.4408,
+   "income": 0,
+   "extra": {
+    "yield": 0.141559,
+    "years": 18.672142
+   }
+  },
+  {
+   "month": "1981-05",
+   "price": 9.7451,
+   "income": 0,
+   "extra": {
+    "yield": 0.133411,
+    "years": 18.592745
+   }
+  },
+  {
+   "month": "1981-06",
+   "price": 9.1286,
+   "income": 0,
+   "extra": {
+    "yield": 0.138096,
+    "years": 18.505133
+   }
+  },
+  {
+   "month": "1981-07",
+   "price": 8.5713,
+   "income": 0,
+   "extra": {
+    "yield": 0.142675,
+    "years": 18.42026
+   }
+  },
+  {
+   "month": "1981-08",
+   "price": 7.293,
+   "income": 0,
+   "extra": {
+    "yield": 0.153496,
+    "years": 18.335387
+   }
+  },
+  {
+   "month": "1981-09",
+   "price": 6.6524,
+   "income": 0,
+   "extra": {
+    "yield": 0.160067,
+    "years": 18.253251
+   }
+  },
+  {
+   "month": "1981-10",
+   "price": 7.7896,
+   "income": 0,
+   "extra": {
+    "yield": 0.150807,
+    "years": 18.171116
+   }
+  },
+  {
+   "month": "1981-11",
+   "price": 9.8242,
+   "income": 0,
+   "extra": {
+    "yield": 0.136885,
+    "years": 18.086242
+   }
+  },
+  {
+   "month": "1981-12",
+   "price": 8.753,
+   "income": 0,
+   "extra": {
+    "yield": 0.144892,
+    "years": 18.001369
+   }
+  },
+  {
+   "month": "1982-01",
+   "price": 8.6183,
+   "income": 0,
+   "extra": {
+    "yield": 0.146571,
+    "years": 17.921971
+   }
+  },
+  {
+   "month": "1982-02",
+   "price": 8.5346,
+   "income": 0,
+   "extra": {
+    "yield": 0.147872,
+    "years": 17.845311
+   }
+  },
+  {
+   "month": "1982-03",
+   "price": 9.7592,
+   "income": 0,
+   "extra": {
+    "yield": 0.140036,
+    "years": 17.754962
+   }
+  },
+  {
+   "month": "1982-04",
+   "price": 10.2235,
+   "income": 0,
+   "extra": {
+    "yield": 0.137734,
+    "years": 17.672827
+   }
+  },
+  {
+   "month": "1982-05",
+   "price": 10.0505,
+   "income": 0,
+   "extra": {
+    "yield": 0.139479,
+    "years": 17.596167
+   }
+  },
+  {
+   "month": "1982-06",
+   "price": 9.4973,
+   "income": 0,
+   "extra": {
+    "yield": 0.143941,
+    "years": 17.505818
+   }
+  },
+  {
+   "month": "1982-07",
+   "price": 10.1182,
+   "income": 0,
+   "extra": {
+    "yield": 0.140513,
+    "years": 17.423682
+   }
+  },
+  {
+   "month": "1982-08",
+   "price": 11.9019,
+   "income": 0,
+   "extra": {
+    "yield": 0.130632,
+    "years": 17.336071
+   }
+  },
+  {
+   "month": "1982-09",
+   "price": 13.3375,
+   "income": 0,
+   "extra": {
+    "yield": 0.123851,
+    "years": 17.253936
+   }
+  },
+  {
+   "month": "1982-10",
+   "price": 15.7762,
+   "income": 0,
+   "extra": {
+    "yield": 0.113517,
+    "years": 17.174538
+   }
+  },
+  {
+   "month": "1982-11",
+   "price": 15.5545,
+   "income": 0,
+   "extra": {
+    "yield": 0.115054,
+    "years": 17.086927
+   }
+  },
+  {
+   "month": "1982-12",
+   "price": 16.0544,
+   "income": 0,
+   "extra": {
+    "yield": 0.113587,
+    "years": 17.002053
+   }
+  },
+  {
+   "month": "1983-01",
+   "price": 14.7752,
+   "income": 0,
+   "extra": {
+    "yield": 0.11967,
+    "years": 16.91718
+   }
+  },
+  {
+   "month": "1983-02",
+   "price": 15.9029,
+   "income": 0,
+   "extra": {
+    "yield": 0.115364,
+    "years": 16.84052
+   }
+  },
+  {
+   "month": "1983-03",
+   "price": 15.9425,
+   "income": 0,
+   "extra": {
+    "yield": 0.115816,
+    "years": 16.755647
+   }
+  },
+  {
+   "month": "1983-04",
+   "price": 17.2393,
+   "income": 0,
+   "extra": {
+    "yield": 0.111175,
+    "years": 16.676249
+   }
+  },
+  {
+   "month": "1983-05",
+   "price": 15.8539,
+   "income": 0,
+   "extra": {
+    "yield": 0.117423,
+    "years": 16.588638
+   }
+  },
+  {
+   "month": "1983-06",
+   "price": 15.8742,
+   "income": 0,
+   "extra": {
+    "yield": 0.117954,
+    "years": 16.506502
+   }
+  },
+  {
+   "month": "1983-07",
+   "price": 14.4503,
+   "income": 0,
+   "extra": {
+    "yield": 0.124974,
+    "years": 16.427105
+   }
+  },
+  {
+   "month": "1983-08",
+   "price": 14.2709,
+   "income": 0,
+   "extra": {
+    "yield": 0.126568,
+    "years": 16.336756
+   }
+  },
+  {
+   "month": "1983-09",
+   "price": 15.6344,
+   "income": 0,
+   "extra": {
+    "yield": 0.120936,
+    "years": 16.25462
+   }
+  },
+  {
+   "month": "1983-10",
+   "price": 15.0545,
+   "income": 0,
+   "extra": {
+    "yield": 0.124233,
+    "years": 16.169747
+   }
+  },
+  {
+   "month": "1983-11",
+   "price": 15.6878,
+   "income": 0,
+   "extra": {
+    "yield": 0.122028,
+    "years": 16.087611
+   }
+  },
+  {
+   "month": "1983-12",
+   "price": 15.3171,
+   "income": 0,
+   "extra": {
+    "yield": 0.124369,
+    "years": 16.005476
+   }
+  },
+  {
+   "month": "1984-01",
+   "price": 15.891,
+   "income": 0,
+   "extra": {
+    "yield": 0.122498,
+    "years": 15.917864
+   }
+  },
+  {
+   "month": "1984-02",
+   "price": 15.1952,
+   "income": 0,
+   "extra": {
+    "yield": 0.126328,
+    "years": 15.838467
+   }
+  },
+  {
+   "month": "1984-03",
+   "price": 14.6566,
+   "income": 0,
+   "extra": {
+    "yield": 0.129611,
+    "years": 15.756331
+   }
+  },
+  {
+   "month": "1984-04",
+   "price": 14.1286,
+   "income": 0,
+   "extra": {
+    "yield": 0.133006,
+    "years": 15.671458
+   }
+  },
+  {
+   "month": "1984-05",
+   "price": 11.8744,
+   "income": 0,
+   "extra": {
+    "yield": 0.146492,
+    "years": 15.586585
+   }
+  },
+  {
+   "month": "1984-06",
+   "price": 12.273,
+   "income": 0,
+   "extra": {
+    "yield": 0.144854,
+    "years": 15.507187
+   }
+  },
+  {
+   "month": "1984-07",
+   "price": 14.2211,
+   "income": 0,
+   "extra": {
+    "yield": 0.134839,
+    "years": 15.419576
+   }
+  },
+  {
+   "month": "1984-08",
+   "price": 14.9495,
+   "income": 0,
+   "extra": {
+    "yield": 0.131941,
+    "years": 15.334702
+   }
+  },
+  {
+   "month": "1984-09",
+   "price": 15.9885,
+   "income": 0,
+   "extra": {
+    "yield": 0.127669,
+    "years": 15.258042
+   }
+  },
+  {
+   "month": "1984-10",
+   "price": 17.4818,
+   "income": 0,
+   "extra": {
+    "yield": 0.121853,
+    "years": 15.167693
+   }
+  },
+  {
+   "month": "1984-11",
+   "price": 17.5821,
+   "income": 0,
+   "extra": {
+    "yield": 0.12213,
+    "years": 15.085558
+   }
+  },
+  {
+   "month": "1984-12",
+   "price": 17.5841,
+   "income": 0,
+   "extra": {
+    "yield": 0.122853,
+    "years": 15.000684
+   }
+  },
+  {
+   "month": "1985-01",
+   "price": 18.7299,
+   "income": 0,
+   "extra": {
+    "yield": 0.118849,
+    "years": 14.915811
+   }
+  },
+  {
+   "month": "1985-02",
+   "price": 16.9328,
+   "income": 0,
+   "extra": {
+    "yield": 0.127134,
+    "years": 14.839151
+   }
+  },
+  {
+   "month": "1985-03",
+   "price": 17.6517,
+   "income": 0,
+   "extra": {
+    "yield": 0.124687,
+    "years": 14.759754
+   }
+  },
+  {
+   "month": "1985-04",
+   "price": 18.0449,
+   "income": 0,
+   "extra": {
+    "yield": 0.123788,
+    "years": 14.672142
+   }
+  },
+  {
+   "month": "1985-05",
+   "price": 20.899,
+   "income": 0,
+   "extra": {
+    "yield": 0.113287,
+    "years": 14.587269
+   }
+  },
+  {
+   "month": "1985-06",
+   "price": 21.4196,
+   "income": 0,
+   "extra": {
+    "yield": 0.112032,
+    "years": 14.510609
+   }
+  },
+  {
+   "month": "1985-07",
+   "price": 20.6421,
+   "income": 0,
+   "extra": {
+    "yield": 0.115629,
+    "years": 14.42026
+   }
+  },
+  {
+   "month": "1985-08",
+   "price": 21.4245,
+   "income": 0,
+   "extra": {
+    "yield": 0.113435,
+    "years": 14.338125
+   }
+  },
+  {
+   "month": "1985-09",
+   "price": 21.1499,
+   "income": 0,
+   "extra": {
+    "yield": 0.115157,
+    "years": 14.253251
+   }
+  },
+  {
+   "month": "1985-10",
+   "price": 22.4532,
+   "income": 0,
+   "extra": {
+    "yield": 0.111186,
+    "years": 14.168378
+   }
+  },
+  {
+   "month": "1985-11",
+   "price": 24.2386,
+   "income": 0,
+   "extra": {
+    "yield": 0.105824,
+    "years": 14.08898
+   }
+  },
+  {
+   "month": "1985-12",
+   "price": 26.4018,
+   "income": 0,
+   "extra": {
+    "yield": 0.099785,
+    "years": 14.001369
+   }
+  },
+  {
+   "month": "1986-01",
+   "price": 26.2587,
+   "income": 0,
+   "extra": {
+    "yield": 0.100853,
+    "years": 13.916496
+   }
+  },
+  {
+   "month": "1986-02",
+   "price": 31.3178,
+   "income": 0,
+   "extra": {
+    "yield": 0.087506,
+    "years": 13.839836
+   }
+  },
+  {
+   "month": "1986-03",
+   "price": 35.1497,
+   "income": 0,
+   "extra": {
+    "yield": 0.078977,
+    "years": 13.754962
+   }
+  },
+  {
+   "month": "1986-04",
+   "price": 34.9473,
+   "income": 0,
+   "extra": {
+    "yield": 0.079925,
+    "years": 13.672827
+   }
+  },
+  {
+   "month": "1986-05",
+   "price": 31.9374,
+   "income": 0,
+   "extra": {
+    "yield": 0.087611,
+    "years": 13.590691
+   }
+  },
+  {
+   "month": "1986-06",
+   "price": 34.6363,
+   "income": 0,
+   "extra": {
+    "yield": 0.081668,
+    "years": 13.505818
+   }
+  },
+  {
+   "month": "1986-07",
+   "price": 34.0239,
+   "income": 0,
+   "extra": {
+    "yield": 0.083645,
+    "years": 13.420945
+   }
+  },
+  {
+   "month": "1986-08",
+   "price": 36.194,
+   "income": 0,
+   "extra": {
+    "yield": 0.07915,
+    "years": 13.341547
+   }
+  },
+  {
+   "month": "1986-09",
+   "price": 33.9201,
+   "income": 0,
+   "extra": {
+    "yield": 0.084992,
+    "years": 13.253936
+   }
+  },
+  {
+   "month": "1986-10",
+   "price": 35.0407,
+   "income": 0,
+   "extra": {
+    "yield": 0.082887,
+    "years": 13.169062
+   }
+  },
+  {
+   "month": "1986-11",
+   "price": 36.0879,
+   "income": 0,
+   "extra": {
+    "yield": 0.080958,
+    "years": 13.092402
+   }
+  },
+  {
+   "month": "1986-12",
+   "price": 36.1877,
+   "income": 0,
+   "extra": {
+    "yield": 0.081313,
+    "years": 13.002053
+   }
+  },
+  {
+   "month": "1987-01",
+   "price": 36.9954,
+   "income": 0,
+   "extra": {
+    "yield": 0.080004,
+    "years": 12.919918
+   }
+  },
+  {
+   "month": "1987-02",
+   "price": 37.6406,
+   "income": 0,
+   "extra": {
+    "yield": 0.079047,
+    "years": 12.843258
+   }
+  },
+  {
+   "month": "1987-03",
+   "price": 36.658,
+   "income": 0,
+   "extra": {
+    "yield": 0.081852,
+    "years": 12.755647
+   }
+  },
+  {
+   "month": "1987-04",
+   "price": 34.1009,
+   "income": 0,
+   "extra": {
+    "yield": 0.088597,
+    "years": 12.673511
+   }
+  },
+  {
+   "month": "1987-05",
+   "price": 33.5387,
+   "income": 0,
+   "extra": {
+    "yield": 0.090618,
+    "years": 12.594114
+   }
+  },
+  {
+   "month": "1987-06",
+   "price": 34.0015,
+   "income": 0,
+   "extra": {
+    "yield": 0.090086,
+    "years": 12.506502
+   }
+  },
+  {
+   "month": "1987-07",
+   "price": 33.0903,
+   "income": 0,
+   "extra": {
+    "yield": 0.093116,
+    "years": 12.421629
+   }
+  },
+  {
+   "month": "1987-08",
+   "price": 32.3118,
+   "income": 0,
+   "extra": {
+    "yield": 0.095899,
+    "years": 12.336756
+   }
+  },
+  {
+   "month": "1987-09",
+   "price": 30.2573,
+   "income": 0,
+   "extra": {
+    "yield": 0.102466,
+    "years": 12.25462
+   }
+  },
+  {
+   "month": "1987-10",
+   "price": 33.189,
+   "income": 0,
+   "extra": {
+    "yield": 0.094842,
+    "years": 12.172485
+   }
+  },
+  {
+   "month": "1987-11",
+   "price": 33.04,
+   "income": 0,
+   "extra": {
+    "yield": 0.095947,
+    "years": 12.087611
+   }
+  },
+  {
+   "month": "1987-12",
+   "price": 33.796,
+   "income": 0,
+   "extra": {
+    "yield": 0.094592,
+    "years": 12.002738
+   }
+  },
+  {
+   "month": "1988-01",
+   "price": 35.6407,
+   "income": 0,
+   "extra": {
+    "yield": 0.09038,
+    "years": 11.92334
+   }
+  },
+  {
+   "month": "1988-02",
+   "price": 36.4076,
+   "income": 0,
+   "extra": {
+    "yield": 0.089096,
+    "years": 11.838467
+   }
+  },
+  {
+   "month": "1988-03",
+   "price": 35.1534,
+   "income": 0,
+   "extra": {
+    "yield": 0.093023,
+    "years": 11.753593
+   }
+  },
+  {
+   "month": "1988-04",
+   "price": 34.0016,
+   "income": 0,
+   "extra": {
+    "yield": 0.09681,
+    "years": 11.674196
+   }
+  },
+  {
+   "month": "1988-05",
+   "price": 33.7142,
+   "income": 0,
+   "extra": {
+    "yield": 0.098381,
+    "years": 11.586585
+   }
+  },
+  {
+   "month": "1988-06",
+   "price": 35.5507,
+   "income": 0,
+   "extra": {
+    "yield": 0.094061,
+    "years": 11.504449
+   }
+  },
+  {
+   "month": "1988-07",
+   "price": 34.0653,
+   "income": 0,
+   "extra": {
+    "yield": 0.098842,
+    "years": 11.425051
+   }
+  },
+  {
+   "month": "1988-08",
+   "price": 34.7873,
+   "income": 0,
+   "extra": {
+    "yield": 0.097635,
+    "years": 11.334702
+   }
+  },
+  {
+   "month": "1988-09",
+   "price": 36.6072,
+   "income": 0,
+   "extra": {
+    "yield": 0.093415,
+    "years": 11.252567
+   }
+  },
+  {
+   "month": "1988-10",
+   "price": 37.6802,
+   "income": 0,
+   "extra": {
+    "yield": 0.091331,
+    "years": 11.167693
+   }
+  },
+  {
+   "month": "1988-11",
+   "price": 36.7672,
+   "income": 0,
+   "extra": {
+    "yield": 0.094457,
+    "years": 11.085558
+   }
+  },
+  {
+   "month": "1988-12",
+   "price": 37.1814,
+   "income": 0,
+   "extra": {
+    "yield": 0.09408,
+    "years": 11.003422
+   }
+  },
+  {
+   "month": "1989-01",
+   "price": 38.2282,
+   "income": 0,
+   "extra": {
+    "yield": 0.092089,
+    "years": 10.915811
+   }
+  },
+  {
+   "month": "1989-02",
+   "price": 37.1892,
+   "income": 0,
+   "extra": {
+    "yield": 0.095551,
+    "years": 10.839151
+   }
+  },
+  {
+   "month": "1989-03",
+   "price": 37.8,
+   "income": 0,
+   "extra": {
+    "yield": 0.094681,
+    "years": 10.754278
+   }
+  },
+  {
+   "month": "1989-04",
+   "price": 38.6846,
+   "income": 0,
+   "extra": {
+    "yield": 0.093021,
+    "years": 10.677618
+   }
+  },
+  {
+   "month": "1989-05",
+   "price": 40.6151,
+   "income": 0,
+   "extra": {
+    "yield": 0.088831,
+    "years": 10.587269
+   }
+  },
+  {
+   "month": "1989-06",
+   "price": 42.7743,
+   "income": 0,
+   "extra": {
+    "yield": 0.084197,
+    "years": 10.505133
+   }
+  },
+  {
+   "month": "1989-07",
+   "price": 44.3688,
+   "income": 0,
+   "extra": {
+    "yield": 0.081107,
+    "years": 10.42026
+   }
+  },
+  {
+   "month": "1989-08",
+   "price": 42.9092,
+   "income": 0,
+   "extra": {
+    "yield": 0.085307,
+    "years": 10.335387
+   }
+  },
+  {
+   "month": "1989-09",
+   "price": 42.9109,
+   "income": 0,
+   "extra": {
+    "yield": 0.085991,
+    "years": 10.255989
+   }
+  },
+  {
+   "month": "1989-10",
+   "price": 44.739,
+   "income": 0,
+   "extra": {
+    "yield": 0.082313,
+    "years": 10.168378
+   }
+  },
+  {
+   "month": "1989-11",
+   "price": 45.5433,
+   "income": 0,
+   "extra": {
+    "yield": 0.081099,
+    "years": 10.086242
+   }
+  },
+  {
+   "month": "1989-12",
+   "price": 45.311,
+   "income": 0,
+   "extra": {
+    "yield": 0.082321,
+    "years": 10.006845
+   }
+  },
+  {
+   "month": "1990-01",
+   "price": 43.662,
+   "income": 0,
+   "extra": {
+    "yield": 0.087158,
+    "years": 9.916496
+   }
+  },
+  {
+   "month": "1990-02",
+   "price": 43.4919,
+   "income": 0,
+   "extra": {
+    "yield": 0.088298,
+    "years": 9.839836
+   }
+  },
+  {
+   "month": "1990-03",
+   "price": 43.3579,
+   "income": 0,
+   "extra": {
+    "yield": 0.089418,
+    "years": 9.7577
+   }
+  },
+  {
+   "month": "1990-04",
+   "price": 42.1841,
+   "income": 0,
+   "extra": {
+    "yield": 0.093334,
+    "years": 9.672827
+   }
+  },
+  {
+   "month": "1990-05",
+   "price": 44.1644,
+   "income": 0,
+   "extra": {
+    "yield": 0.088976,
+    "years": 9.587953
+   }
+  },
+  {
+   "month": "1990-06",
+   "price": 45.0656,
+   "income": 0,
+   "extra": {
+    "yield": 0.087438,
+    "years": 9.508556
+   }
+  },
+  {
+   "month": "1990-07",
+   "price": 45.7065,
+   "income": 0,
+   "extra": {
+    "yield": 0.086656,
+    "years": 9.420945
+   }
+  },
+  {
+   "month": "1990-08",
+   "price": 43.7749,
+   "income": 0,
+   "extra": {
+    "yield": 0.092519,
+    "years": 9.336071
+   }
+  },
+  {
+   "month": "1990-09",
+   "price": 44.2,
+   "income": 0,
+   "extra": {
+    "yield": 0.092179,
+    "years": 9.259411
+   }
+  },
+  {
+   "month": "1990-10",
+   "price": 45.3873,
+   "income": 0,
+   "extra": {
+    "yield": 0.089973,
+    "years": 9.169062
+   }
+  },
+  {
+   "month": "1990-11",
+   "price": 47.3189,
+   "income": 0,
+   "extra": {
+    "yield": 0.08583,
+    "years": 9.086927
+   }
+  },
+  {
+   "month": "1990-12",
+   "price": 48.0341,
+   "income": 0,
+   "extra": {
+    "yield": 0.084864,
+    "years": 9.002053
+   }
+  },
+  {
+   "month": "1991-01",
+   "price": 48.7393,
+   "income": 0,
+   "extra": {
+    "yield": 0.083932,
+    "years": 8.91718
+   }
+  },
+  {
+   "month": "1991-02",
+   "price": 49.0715,
+   "income": 0,
+   "extra": {
+    "yield": 0.083857,
+    "years": 8.84052
+   }
+  },
+  {
+   "month": "1991-03",
+   "price": 49.1667,
+   "income": 0,
+   "extra": {
+    "yield": 0.084381,
+    "years": 8.76386
+   }
+  },
+  {
+   "month": "1991-04",
+   "price": 49.6326,
+   "income": 0,
+   "extra": {
+    "yield": 0.084117,
+    "years": 8.673511
+   }
+  },
+  {
+   "month": "1991-05",
+   "price": 49.7283,
+   "income": 0,
+   "extra": {
+    "yield": 0.084739,
+    "years": 8.588638
+   }
+  },
+  {
+   "month": "1991-06",
+   "price": 49.1924,
+   "income": 0,
+   "extra": {
+    "yield": 0.086917,
+    "years": 8.511978
+   }
+  },
+  {
+   "month": "1991-07",
+   "price": 50.1563,
+   "income": 0,
+   "extra": {
+    "yield": 0.085385,
+    "years": 8.421629
+   }
+  },
+  {
+   "month": "1991-08",
+   "price": 51.7258,
+   "income": 0,
+   "extra": {
+    "yield": 0.082256,
+    "years": 8.339493
+   }
+  },
+  {
+   "month": "1991-09",
+   "price": 53.6937,
+   "income": 0,
+   "extra": {
+    "yield": 0.078247,
+    "years": 8.25462
+   }
+  },
+  {
+   "month": "1991-10",
+   "price": 54.1329,
+   "income": 0,
+   "extra": {
+    "yield": 0.078016,
+    "years": 8.169747
+   }
+  },
+  {
+   "month": "1991-11",
+   "price": 54.7613,
+   "income": 0,
+   "extra": {
+    "yield": 0.077273,
+    "years": 8.090349
+   }
+  },
+  {
+   "month": "1991-12",
+   "price": 57.929,
+   "income": 0,
+   "extra": {
+    "yield": 0.070602,
+    "years": 8.002738
+   }
+  },
+  {
+   "month": "1992-01",
+   "price": 55.7677,
+   "income": 0,
+   "extra": {
+    "yield": 0.076542,
+    "years": 7.917864
+   }
+  },
+  {
+   "month": "1992-02",
+   "price": 56.0781,
+   "income": 0,
+   "extra": {
+    "yield": 0.076556,
+    "years": 7.841205
+   }
+  },
+  {
+   "month": "1992-03",
+   "price": 55.555,
+   "income": 0,
+   "extra": {
+    "yield": 0.078757,
+    "years": 7.753593
+   }
+  },
+  {
+   "month": "1992-04",
+   "price": 55.8051,
+   "income": 0,
+   "extra": {
+    "yield": 0.079001,
+    "years": 7.671458
+   }
+  },
+  {
+   "month": "1992-05",
+   "price": 57.4115,
+   "income": 0,
+   "extra": {
+    "yield": 0.07583,
+    "years": 7.59206
+   }
+  },
+  {
+   "month": "1992-06",
+   "price": 58.6267,
+   "income": 0,
+   "extra": {
+    "yield": 0.073748,
+    "years": 7.504449
+   }
+  },
+  {
+   "month": "1992-07",
+   "price": 61.0068,
+   "income": 0,
+   "extra": {
+    "yield": 0.068874,
+    "years": 7.419576
+   }
+  },
+  {
+   "month": "1992-08",
+   "price": 61.8581,
+   "income": 0,
+   "extra": {
+    "yield": 0.067679,
+    "years": 7.334702
+   }
+  },
+  {
+   "month": "1992-09",
+   "price": 63.4597,
+   "income": 0,
+   "extra": {
+    "yield": 0.064712,
+    "years": 7.252567
+   }
+  },
+  {
+   "month": "1992-10",
+   "price": 61.8246,
+   "income": 0,
+   "extra": {
+    "yield": 0.069363,
+    "years": 7.170431
+   }
+  },
+  {
+   "month": "1992-11",
+   "price": 61.3618,
+   "income": 0,
+   "extra": {
+    "yield": 0.071358,
+    "years": 7.085558
+   }
+  },
+  {
+   "month": "1992-12",
+   "price": 62.7541,
+   "income": 0,
+   "extra": {
+    "yield": 0.068794,
+    "years": 7.003422
+   }
+  },
+  {
+   "month": "1993-01",
+   "price": 64.9148,
+   "income": 0,
+   "extra": {
+    "yield": 0.06442,
+    "years": 6.921287
+   }
+  },
+  {
+   "month": "1993-02",
+   "price": 66.8984,
+   "income": 0,
+   "extra": {
+    "yield": 0.06049,
+    "years": 6.844627
+   }
+  },
+  {
+   "month": "1993-03",
+   "price": 67.2306,
+   "income": 0,
+   "extra": {
+    "yield": 0.060546,
+    "years": 6.754278
+   }
+  },
+  {
+   "month": "1993-04",
+   "price": 68.1543,
+   "income": 0,
+   "extra": {
+    "yield": 0.05912,
+    "years": 6.67488
+   }
+  },
+  {
+   "month": "1993-05",
+   "price": 68.0787,
+   "income": 0,
+   "extra": {
+    "yield": 0.060031,
+    "years": 6.595483
+   }
+  },
+  {
+   "month": "1993-06",
+   "price": 70.12,
+   "income": 0,
+   "extra": {
+    "yield": 0.056083,
+    "years": 6.505133
+   }
+  },
+  {
+   "month": "1993-07",
+   "price": 70.2188,
+   "income": 0,
+   "extra": {
+    "yield": 0.056588,
+    "years": 6.422998
+   }
+  },
+  {
+   "month": "1993-08",
+   "price": 72.3087,
+   "income": 0,
+   "extra": {
+    "yield": 0.052509,
+    "years": 6.335387
+   }
+  },
+  {
+   "month": "1993-09",
+   "price": 72.7696,
+   "income": 0,
+   "extra": {
+    "yield": 0.052147,
+    "years": 6.253251
+   }
+  },
+  {
+   "month": "1993-10",
+   "price": 72.9238,
+   "income": 0,
+   "extra": {
+    "yield": 0.052474,
+    "years": 6.173854
+   }
+  },
+  {
+   "month": "1993-11",
+   "price": 71.8175,
+   "income": 0,
+   "extra": {
+    "yield": 0.055898,
+    "years": 6.086242
+   }
+  },
+  {
+   "month": "1993-12",
+   "price": 72.1615,
+   "income": 0,
+   "extra": {
+    "yield": 0.05587,
+    "years": 6.001369
+   }
+  },
+  {
+   "month": "1994-01",
+   "price": 73.4067,
+   "income": 0,
+   "extra": {
+    "yield": 0.053642,
+    "years": 5.916496
+   }
+  },
+  {
+   "month": "1994-02",
+   "price": 71.285,
+   "income": 0,
+   "extra": {
+    "yield": 0.059674,
+    "years": 5.839836
+   }
+  },
+  {
+   "month": "1994-03",
+   "price": 69.0685,
+   "income": 0,
+   "extra": {
+    "yield": 0.066417,
+    "years": 5.754962
+   }
+  },
+  {
+   "month": "1994-04",
+   "price": 68.2794,
+   "income": 0,
+   "extra": {
+    "yield": 0.06954,
+    "years": 5.675565
+   }
+  },
+  {
+   "month": "1994-05",
+   "price": 68.3658,
+   "income": 0,
+   "extra": {
+    "yield": 0.070426,
+    "years": 5.587953
+   }
+  },
+  {
+   "month": "1994-06",
+   "price": 68.0088,
+   "income": 0,
+   "extra": {
+    "yield": 0.072533,
+    "years": 5.505818
+   }
+  },
+  {
+   "month": "1994-07",
+   "price": 69.3901,
+   "income": 0,
+   "extra": {
+    "yield": 0.069661,
+    "years": 5.42642
+   }
+  },
+  {
+   "month": "1994-08",
+   "price": 69.5791,
+   "income": 0,
+   "extra": {
+    "yield": 0.070336,
+    "years": 5.336071
+   }
+  },
+  {
+   "month": "1994-09",
+   "price": 68.3447,
+   "income": 0,
+   "extra": {
+    "yield": 0.07513,
+    "years": 5.253936
+   }
+  },
+  {
+   "month": "1994-10",
+   "price": 68.1149,
+   "income": 0,
+   "extra": {
+    "yield": 0.077112,
+    "years": 5.169062
+   }
+  },
+  {
+   "month": "1994-11",
+   "price": 67.6469,
+   "income": 0,
+   "extra": {
+    "yield": 0.079867,
+    "years": 5.086927
+   }
+  },
+  {
+   "month": "1994-12",
+   "price": 67.8774,
+   "income": 0,
+   "extra": {
+    "yield": 0.080495,
+    "years": 5.004791
+   }
+  },
+  {
+   "month": "1995-01",
+   "price": 69.3714,
+   "income": 0,
+   "extra": {
+    "yield": 0.077206,
+    "years": 4.91718
+   }
+  },
+  {
+   "month": "1995-02",
+   "price": 71.3339,
+   "income": 0,
+   "extra": {
+    "yield": 0.072278,
+    "years": 4.84052
+   }
+  },
+  {
+   "month": "1995-03",
+   "price": 71.7691,
+   "income": 0,
+   "extra": {
+    "yield": 0.072242,
+    "years": 4.755647
+   }
+  },
+  {
+   "month": "1995-04",
+   "price": 72.8393,
+   "income": 0,
+   "extra": {
+    "yield": 0.070078,
+    "years": 4.678987
+   }
+  },
+  {
+   "month": "1995-05",
+   "price": 76.0074,
+   "income": 0,
+   "extra": {
+    "yield": 0.06161,
+    "years": 4.588638
+   }
+  },
+  {
+   "month": "1995-06",
+   "price": 76.6136,
+   "income": 0,
+   "extra": {
+    "yield": 0.060896,
+    "years": 4.506502
+   }
+  },
+  {
+   "month": "1995-07",
+   "price": 76.3513,
+   "income": 0,
+   "extra": {
+    "yield": 0.062924,
+    "years": 4.421629
+   }
+  },
+  {
+   "month": "1995-08",
+   "price": 77.1409,
+   "income": 0,
+   "extra": {
+    "yield": 0.061673,
+    "years": 4.336756
+   }
+  },
+  {
+   "month": "1995-09",
+   "price": 77.7028,
+   "income": 0,
+   "extra": {
+    "yield": 0.061048,
+    "years": 4.257358
+   }
+  },
+  {
+   "month": "1995-10",
+   "price": 78.7789,
+   "income": 0,
+   "extra": {
+    "yield": 0.058872,
+    "years": 4.169747
+   }
+  },
+  {
+   "month": "1995-11",
+   "price": 80.0525,
+   "income": 0,
+   "extra": {
+    "yield": 0.055938,
+    "years": 4.087611
+   }
+  },
+  {
+   "month": "1995-12",
+   "price": 80.9279,
+   "income": 0,
+   "extra": {
+    "yield": 0.054213,
+    "years": 4.008214
+   }
+  },
+  {
+   "month": "1996-01",
+   "price": 81.7998,
+   "income": 0,
+   "extra": {
+    "yield": 0.052614,
+    "years": 3.917864
+   }
+  },
+  {
+   "month": "1996-02",
+   "price": 80.6233,
+   "income": 0,
+   "extra": {
+    "yield": 0.057716,
+    "years": 3.838467
+   }
+  },
+  {
+   "month": "1996-03",
+   "price": 79.8963,
+   "income": 0,
+   "extra": {
+    "yield": 0.061525,
+    "years": 3.759069
+   }
+  },
+  {
+   "month": "1996-04",
+   "price": 79.5137,
+   "income": 0,
+   "extra": {
+    "yield": 0.064429,
+    "years": 3.671458
+   }
+  },
+  {
+   "month": "1996-05",
+   "price": 79.3298,
+   "income": 0,
+   "extra": {
+    "yield": 0.066692,
+    "years": 3.586585
+   }
+  },
+  {
+   "month": "1996-06",
+   "price": 80.1693,
+   "income": 0,
+   "extra": {
+    "yield": 0.064998,
+    "years": 3.509925
+   }
+  },
+  {
+   "month": "1996-07",
+   "price": 80.4318,
+   "income": 0,
+   "extra": {
+    "yield": 0.065752,
+    "years": 3.419576
+   }
+  },
+  {
+   "month": "1996-08",
+   "price": 80.4748,
+   "income": 0,
+   "extra": {
+    "yield": 0.067253,
+    "years": 3.33744
+   }
+  },
+  {
+   "month": "1996-09",
+   "price": 81.628,
+   "income": 0,
+   "extra": {
+    "yield": 0.0644,
+    "years": 3.252567
+   }
+  },
+  {
+   "month": "1996-10",
+   "price": 83.0359,
+   "income": 0,
+   "extra": {
+    "yield": 0.060441,
+    "years": 3.167693
+   }
+  },
+  {
+   "month": "1996-11",
+   "price": 84.006,
+   "income": 0,
+   "extra": {
+    "yield": 0.058056,
+    "years": 3.088296
+   }
+  },
+  {
+   "month": "1996-12",
+   "price": 83.571,
+   "income": 0,
+   "extra": {
+    "yield": 0.061636,
+    "years": 3.000684
+   }
+  },
+  {
+   "month": "1997-01",
+   "price": 83.9249,
+   "income": 0,
+   "extra": {
+    "yield": 0.061945,
+    "years": 2.915811
+   }
+  },
+  {
+   "month": "1997-02",
+   "price": 83.9961,
+   "income": 0,
+   "extra": {
+    "yield": 0.063353,
+    "years": 2.839151
+   }
+  },
+  {
+   "month": "1997-03",
+   "price": 83.5936,
+   "income": 0,
+   "extra": {
+    "yield": 0.067227,
+    "years": 2.754278
+   }
+  },
+  {
+   "month": "1997-04",
+   "price": 84.4812,
+   "income": 0,
+   "extra": {
+    "yield": 0.065145,
+    "years": 2.672142
+   }
+  },
+  {
+   "month": "1997-05",
+   "price": 85.0838,
+   "income": 0,
+   "extra": {
+    "yield": 0.064354,
+    "years": 2.590007
+   }
+  },
+  {
+   "month": "1997-06",
+   "price": 85.8022,
+   "income": 0,
+   "extra": {
+    "yield": 0.063031,
+    "years": 2.505133
+   }
+  },
+  {
+   "month": "1997-07",
+   "price": 87.1356,
+   "income": 0,
+   "extra": {
+    "yield": 0.058547,
+    "years": 2.42026
+   }
+  },
+  {
+   "month": "1997-08",
+   "price": 86.9721,
+   "income": 0,
+   "extra": {
+    "yield": 0.061442,
+    "years": 2.340862
+   }
+  },
+  {
+   "month": "1997-09",
+   "price": 87.8006,
+   "income": 0,
+   "extra": {
+    "yield": 0.059439,
+    "years": 2.253251
+   }
+  },
+  {
+   "month": "1997-10",
+   "price": 88.5504,
+   "income": 0,
+   "extra": {
+    "yield": 0.05768,
+    "years": 2.168378
+   }
+  },
+  {
+   "month": "1997-11",
+   "price": 88.6894,
+   "income": 0,
+   "extra": {
+    "yield": 0.059062,
+    "years": 2.091718
+   }
+  },
+  {
+   "month": "1997-12",
+   "price": 89.3693,
+   "income": 0,
+   "extra": {
+    "yield": 0.057765,
+    "years": 2.001369
+   }
+  },
+  {
+   "month": "1998-01",
+   "price": 90.3231,
+   "income": 0,
+   "extra": {
+    "yield": 0.054461,
+    "years": 1.919233
+   }
+  },
+  {
+   "month": "1998-02",
+   "price": 90.3613,
+   "income": 0,
+   "extra": {
+    "yield": 0.056548,
+    "years": 1.842574
+   }
+  },
+  {
+   "month": "1998-03",
+   "price": 90.7244,
+   "income": 0,
+   "extra": {
+    "yield": 0.057035,
+    "years": 1.754962
+   }
+  },
+  {
+   "month": "1998-04",
+   "price": 91.1541,
+   "income": 0,
+   "extra": {
+    "yield": 0.056928,
+    "years": 1.672827
+   }
+  },
+  {
+   "month": "1998-05",
+   "price": 91.6018,
+   "income": 0,
+   "extra": {
+    "yield": 0.056594,
+    "years": 1.593429
+   }
+  },
+  {
+   "month": "1998-06",
+   "price": 92.1033,
+   "income": 0,
+   "extra": {
+    "yield": 0.056147,
+    "years": 1.505818
+   }
+  },
+  {
+   "month": "1998-07",
+   "price": 92.5699,
+   "income": 0,
+   "extra": {
+    "yield": 0.055838,
+    "years": 1.420945
+   }
+  },
+  {
+   "month": "1998-08",
+   "price": 93.5016,
+   "income": 0,
+   "extra": {
+    "yield": 0.051576,
+    "years": 1.336071
+   }
+  },
+  {
+   "month": "1998-09",
+   "price": 94.5512,
+   "income": 0,
+   "extra": {
+    "yield": 0.045696,
+    "years": 1.253936
+   }
+  },
+  {
+   "month": "1998-10",
+   "price": 95.0027,
+   "income": 0,
+   "extra": {
+    "yield": 0.04472,
+    "years": 1.1718
+   }
+  },
+  {
+   "month": "1998-11",
+   "price": 95.1031,
+   "income": 0,
+   "extra": {
+    "yield": 0.047277,
+    "years": 1.086927
+   }
+  },
+  {
+   "month": "1998-12",
+   "price": 95.4913,
+   "income": 0,
+   "extra": {
+    "yield": 0.047117,
+    "years": 1.002053
+   }
+  },
+  {
+   "month": "1999-01",
+   "price": 95.8169,
+   "income": 0,
+   "extra": {
+    "yield": 0.047403,
+    "years": 0.922656
+   }
+  },
+  {
+   "month": "1999-02",
+   "price": 95.8938,
+   "income": 0,
+   "extra": {
+    "yield": 0.05081,
+    "years": 0.845996
+   }
+  },
+  {
+   "month": "1999-03",
+   "price": 96.4483,
+   "income": 0,
+   "extra": {
+    "yield": 0.049021,
+    "years": 0.755647
+   }
+  },
+  {
+   "month": "1999-04",
+   "price": 96.8174,
+   "income": 0,
+   "extra": {
+    "yield": 0.049194,
+    "years": 0.673511
+   }
+  },
+  {
+   "month": "1999-05",
+   "price": 97.0814,
+   "income": 0,
+   "extra": {
+    "yield": 0.050642,
+    "years": 0.599589
+   }
+  },
+  {
+   "month": "1999-06",
+   "price": 97.5003,
+   "income": 0,
+   "extra": {
+    "yield": 0.05125,
+    "years": 0.506502
+   }
+  },
+  {
+   "month": "1999-07",
+   "price": 97.8884,
+   "income": 0,
+   "extra": {
+    "yield": 0.051577,
+    "years": 0.424367
+   }
+  },
+  {
+   "month": "1999-08",
+   "price": 98.2804,
+   "income": 0,
+   "extra": {
+    "yield": 0.052858,
+    "years": 0.336756
+   }
+  },
+  {
+   "month": "1999-09",
+   "price": 98.7302,
+   "income": 0,
+   "extra": {
+    "yield": 0.05147,
+    "years": 0.25462
+   }
+  },
+  {
+   "month": "1999-10",
+   "price": 99.1131,
+   "income": 0,
+   "extra": {
+    "yield": 0.052156,
+    "years": 0.175222
+   }
+  },
+  {
+   "month": "1999-11",
+   "price": 99.5366,
+   "income": 0,
+   "extra": {
+    "yield": 0.054452,
+    "years": 0.087611
+   }
+  },
+  {
+   "month": "1999-12",
+   "price": 100,
+   "income": 0,
+   "extra": {
+    "yield": 0,
+    "years": 0
+   }
+  }
+ ]
+}

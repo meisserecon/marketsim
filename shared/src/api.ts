@@ -60,6 +60,8 @@ export interface AssetView {
   income: number;
   incomeLastYear: number;
   extra?: Record<string, number>;
+  /** For bonds: the day the bond repays 100 per unit, "YYYY-MM-DD". */
+  maturity?: string;
   /** First month the asset was quoted. */
   listedSince: string;
 }

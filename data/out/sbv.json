@@ -1,765 +1,760 @@
 {
- "id": "swissair",
- "name": "Swissair",
- "renames": [
-  {
-   "from": "1997-05",
-   "name": "SAirGroup"
-  }
- ],
+ "id": "sbv",
+ "name": "Schweizerischer Bankverein",
  "kind": "stock",
  "currency": "USD",
- "source": "manual/swissair.csv",
+ "source": "manual/sbv.csv",
  "notes": "Converted from CHF at month-end FRED rate.",
  "end": {
-  "month": "2001-10",
-  "type": "bankruptcy",
-  "note": "Grounded in October 2001 and placed in debt moratorium"
+  "month": "1998-05",
+  "type": "merger",
+  "note": "Merged with Bankgesellschaft into UBS; holders received 1 1/13 UBS shares per Bankverein share",
+  "successor": "ubs"
  },
  "rows": [
   {
    "month": "1980-01",
-   "price": 97.0696,
+   "price": 127.2894,
    "income": 0
   },
   {
    "month": "1980-02",
-   "price": 91.2775,
+   "price": 118.3554,
    "income": 0
   },
   {
    "month": "1980-03",
-   "price": 79.9352,
+   "price": 99.919,
    "income": 0
   },
   {
    "month": "1980-04",
-   "price": 91.7541,
+   "price": 110.3448,
    "income": 0
   },
   {
    "month": "1980-05",
-   "price": 90.4934,
+   "price": 107.0999,
    "income": 0
   },
   {
    "month": "1980-06",
-   "price": 94.2447,
+   "price": 114.4312,
    "income": 0
   },
   {
    "month": "1980-07",
-   "price": 90.1699,
+   "price": 116.2015,
    "income": 0
   },
   {
    "month": "1980-08",
-   "price": 88.6598,
+   "price": 114.9181,
    "income": 0
   },
   {
    "month": "1980-09",
-   "price": 84.7898,
+   "price": 112.791,
    "income": 0
   },
   {
    "month": "1980-10",
-   "price": 81.0496,
+   "price": 109.0379,
    "income": 0
   },
   {
    "month": "1980-11",
-   "price": 70.4055,
+   "price": 111.0152,
    "income": 0
   },
   {
    "month": "1980-12",
-   "price": 75.5245,
+   "price": 107.972,
    "income": 0
   },
   {
    "month": "1981-01",
-   "price": 65.3209,
+   "price": 95.2381,
    "income": 0
   },
   {
    "month": "1981-02",
-   "price": 69.317,
+   "price": 95.3109,
    "income": 0
   },
   {
    "month": "1981-03",
-   "price": 72.9253,
+   "price": 96.7324,
    "income": 0
   },
   {
    "month": "1981-04",
-   "price": 73.429,
+   "price": 82.8798,
    "income": 0
   },
   {
    "month": "1981-05",
-   "price": 70.238,
+   "price": 76.8378,
    "income": 0
   },
   {
    "month": "1981-06",
-   "price": 71.0417,
+   "price": 81.9712,
    "income": 0
   },
   {
    "month": "1981-07",
-   "price": 67.3959,
+   "price": 78.8923,
    "income": 0
   },
   {
    "month": "1981-08",
-   "price": 65.3595,
+   "price": 77.0308,
    "income": 0
   },
   {
    "month": "1981-09",
-   "price": 63.7975,
+   "price": 77.4684,
    "income": 0
   },
   {
    "month": "1981-10",
-   "price": 73.5695,
+   "price": 82.2888,
    "income": 0
   },
   {
    "month": "1981-11",
-   "price": 75.1481,
+   "price": 89.1396,
    "income": 0
   },
   {
    "month": "1981-12",
-   "price": 77.4049,
+   "price": 89.4855,
    "income": 0
   },
   {
    "month": "1982-01",
-   "price": 72.5894,
+   "price": 82.8819,
    "income": 0
   },
   {
    "month": "1982-02",
-   "price": 69.5103,
+   "price": 80.0421,
    "income": 0
   },
   {
    "month": "1982-03",
-   "price": 76.9667,
+   "price": 79.1849,
    "income": 0
   },
   {
    "month": "1982-04",
-   "price": 74.9106,
+   "price": 75.8815,
    "income": 0
   },
   {
    "month": "1982-05",
-   "price": 74.9106,
+   "price": 75.8815,
    "income": 0
   },
   {
    "month": "1982-06",
-   "price": 64.4915,
+   "price": 66.2062,
    "income": 0
   },
   {
    "month": "1982-07",
-   "price": 60.1905,
+   "price": 64.5238,
    "income": 0
   },
   {
    "month": "1982-08",
-   "price": 58.2981,
+   "price": 66.5256,
    "income": 0
   },
   {
    "month": "1982-09",
-   "price": 59.2354,
+   "price": 65.4076,
    "income": 0
   },
   {
    "month": "1982-10",
-   "price": 58.7089,
+   "price": 69.0827,
    "income": 0
   },
   {
    "month": "1982-11",
-   "price": 61.5821,
+   "price": 74.144,
    "income": 0
   },
   {
    "month": "1982-12",
-   "price": 72.2291,
+   "price": 80.1993,
    "income": 0
   },
   {
    "month": "1983-01",
-   "price": 76.4268,
+   "price": 78.4119,
    "income": 0
   },
   {
    "month": "1983-02",
-   "price": 77.7697,
+   "price": 78.303,
    "income": 0
   },
   {
    "month": "1983-03",
-   "price": 78.1587,
+   "price": 77.919,
    "income": 0
   },
   {
    "month": "1983-04",
-   "price": 79.6913,
+   "price": 77.1828,
    "income": 0
   },
   {
    "month": "1983-05",
-   "price": 74.3321,
+   "price": 74.1889,
    "income": 0
   },
   {
    "month": "1983-06",
-   "price": 77.5268,
+   "price": 74.4352,
    "income": 0
   },
   {
    "month": "1983-07",
-   "price": 83.8604,
+   "price": 73.5535,
    "income": 0
   },
   {
    "month": "1983-08",
-   "price": 77.0005,
+   "price": 70.6447,
    "income": 0
   },
   {
    "month": "1983-09",
-   "price": 79.717,
+   "price": 71.2264,
    "income": 0
   },
   {
    "month": "1983-10",
-   "price": 82.5945,
+   "price": 70.462,
    "income": 0
   },
   {
    "month": "1983-11",
-   "price": 85.1261,
+   "price": 71.7095,
    "income": 0
   },
   {
    "month": "1983-12",
-   "price": 85.1261,
+   "price": 71.7095,
    "income": 0
   },
   {
    "month": "1984-01",
-   "price": 93.2091,
+   "price": 75.4549,
    "income": 0
   },
   {
    "month": "1984-02",
-   "price": 95.4797,
+   "price": 78.4133,
    "income": 0
   },
   {
    "month": "1984-03",
-   "price": 98.9547,
+   "price": 78.9779,
    "income": 0
   },
   {
    "month": "1984-04",
-   "price": 95.2593,
+   "price": 76.5635,
    "income": 0
   },
   {
    "month": "1984-05",
-   "price": 83.7168,
+   "price": 74.115,
    "income": 0
   },
   {
    "month": "1984-06",
-   "price": 81.0811,
+   "price": 69.9271,
    "income": 0
   },
   {
    "month": "1984-07",
-   "price": 75.2275,
+   "price": 62.4874,
    "income": 0
   },
   {
    "month": "1984-08",
-   "price": 80.9297,
+   "price": 67.4414,
    "income": 0
   },
   {
    "month": "1984-09",
-   "price": 76.9838,
+   "price": 67.9037,
    "income": 0
   },
   {
    "month": "1984-10",
-   "price": 84.2021,
+   "price": 72.1732,
    "income": 0
   },
   {
    "month": "1984-11",
-   "price": 79.6869,
+   "price": 69.6673,
    "income": 0
   },
   {
    "month": "1984-12",
-   "price": 79.6869,
+   "price": 69.6673,
    "income": 0
   },
   {
    "month": "1985-01",
-   "price": 84.486,
+   "price": 69.7196,
    "income": 0
   },
   {
    "month": "1985-02",
-   "price": 81.5541,
+   "price": 64.4032,
    "income": 0
   },
   {
    "month": "1985-03",
-   "price": 85.7692,
+   "price": 71.3462,
    "income": 0
   },
   {
    "month": "1985-04",
-   "price": 80.7692,
+   "price": 74.8077,
    "income": 0
   },
   {
    "month": "1985-05",
-   "price": 90.7184,
+   "price": 78.835,
    "income": 0
   },
   {
    "month": "1985-06",
-   "price": 108.2251,
+   "price": 89.7285,
    "income": 0
   },
   {
    "month": "1985-07",
-   "price": 115.9547,
+   "price": 102.0052,
    "income": 0
   },
   {
    "month": "1985-08",
-   "price": 127.5325,
+   "price": 104.329,
    "income": 0
   },
   {
    "month": "1985-09",
-   "price": 134.3964,
+   "price": 104.5558,
    "income": 0
   },
   {
    "month": "1985-10",
-   "price": 142.7243,
+   "price": 121.3389,
    "income": 0
   },
   {
    "month": "1985-11",
-   "price": 148.0058,
+   "price": 126.3815,
    "income": 0
   },
   {
    "month": "1985-12",
-   "price": 173.7864,
+   "price": 139.5631,
    "income": 0
   },
   {
    "month": "1986-01",
-   "price": 173.7864,
+   "price": 134.5776,
    "income": 0
   },
   {
    "month": "1986-02",
-   "price": 202.3305,
+   "price": 141.4195,
    "income": 0
   },
   {
    "month": "1986-03",
-   "price": 202.3305,
+   "price": 141.4195,
    "income": 0
   },
   {
    "month": "1986-04",
-   "price": 212.9068,
+   "price": 159.9559,
    "income": 0
   },
   {
    "month": "1986-05",
-   "price": 175.8469,
+   "price": 145.8495,
    "income": 0
   },
   {
    "month": "1986-06",
-   "price": 173.671,
+   "price": 150.0139,
    "income": 0
   },
   {
    "month": "1986-07",
-   "price": 163.2896,
+   "price": 149.5828,
    "income": 0
   },
   {
    "month": "1986-08",
-   "price": 176.7215,
+   "price": 172.7605,
    "income": 0
   },
   {
    "month": "1986-09",
-   "price": 157.8628,
+   "price": 159.3807,
    "income": 0
   },
   {
    "month": "1986-10",
-   "price": 151.9579,
+   "price": 156.6335,
    "income": 0
   },
   {
    "month": "1986-11",
-   "price": 151.9579,
+   "price": 174.0718,
    "income": 0
   },
   {
    "month": "1986-12",
-   "price": 147.4597,
+   "price": 174.1016,
    "income": 0
   },
   {
    "month": "1987-01",
-   "price": 143.5964,
+   "price": 169.793,
    "income": 0
   },
   {
    "month": "1987-02",
-   "price": 149.4963,
+   "price": 154.0461,
    "income": 0
   },
   {
    "month": "1987-03",
-   "price": 152.1089,
+   "price": 157.0907,
    "income": 0
   },
   {
    "month": "1987-04",
-   "price": 158.4292,
+   "price": 146.2424,
    "income": 0
   },
   {
    "month": "1987-05",
-   "price": 166.6116,
+   "price": 140.1653,
    "income": 0
   },
   {
    "month": "1987-06",
-   "price": 176.8393,
+   "price": 153.4147,
    "income": 0
   },
   {
    "month": "1987-07",
-   "price": 191.0952,
+   "price": 160.871,
    "income": 0
   },
   {
    "month": "1987-08",
-   "price": 187.4791,
+   "price": 170.4051,
    "income": 0
   },
   {
    "month": "1987-09",
-   "price": 180.6208,
+   "price": 165.6234,
    "income": 0
   },
   {
    "month": "1987-10",
-   "price": 139.958,
+   "price": 141.7075,
    "income": 0
   },
   {
    "month": "1987-11",
-   "price": 127.8335,
+   "price": 138.9818,
    "income": 0
   },
   {
    "month": "1987-12",
-   "price": 149.4298,
+   "price": 134.8801,
    "income": 0
   },
   {
    "month": "1988-01",
-   "price": 144.8109,
+   "price": 116.2876,
    "income": 0
   },
   {
    "month": "1988-02",
-   "price": 153.6804,
+   "price": 124.237,
    "income": 0
   },
   {
    "month": "1988-03",
-   "price": 159.2661,
+   "price": 121.4679,
    "income": 0
   },
   {
    "month": "1988-04",
-   "price": 157.1582,
+   "price": 115.8952,
    "income": 0
   },
   {
    "month": "1988-05",
-   "price": 146.8347,
+   "price": 113.2428,
    "income": 0
   },
   {
    "month": "1988-06",
-   "price": 149.4024,
+   "price": 116.5339,
    "income": 0
   },
   {
    "month": "1988-07",
-   "price": 151.7286,
+   "price": 121.6389,
    "income": 0
   },
   {
    "month": "1988-08",
-   "price": 143.8486,
+   "price": 112.6183,
    "income": 0
   },
   {
    "month": "1988-09",
-   "price": 146.5109,
+   "price": 118.4086,
    "income": 0
   },
   {
    "month": "1988-10",
-   "price": 157.8422,
+   "price": 130.2031,
    "income": 0
   },
   {
    "month": "1988-11",
-   "price": 149.9828,
+   "price": 124.871,
    "income": 0
   },
   {
    "month": "1988-12",
-   "price": 149.9828,
+   "price": 124.871,
    "income": 0
   },
   {
    "month": "1989-01",
-   "price": 127.5239,
+   "price": 105.6448,
    "income": 0
   },
   {
    "month": "1989-02",
-   "price": 132.4844,
+   "price": 101.6143,
    "income": 0
   },
   {
    "month": "1989-03",
-   "price": 132.3308,
+   "price": 97.1429,
    "income": 0
   },
   {
    "month": "1989-04",
-   "price": 124.2904,
+   "price": 95.608,
    "income": 0
   },
   {
    "month": "1989-05",
-   "price": 121.9226,
+   "price": 85.5803,
    "income": 0
   },
   {
    "month": "1989-06",
-   "price": 129.2436,
+   "price": 100.0596,
    "income": 0
   },
   {
    "month": "1989-07",
-   "price": 146.2807,
+   "price": 115.7796,
    "income": 0
   },
   {
    "month": "1989-08",
-   "price": 170.6161,
+   "price": 109.0047,
    "income": 0
   },
   {
    "month": "1989-09",
-   "price": 165.7629,
+   "price": 109.9951,
    "income": 0
   },
   {
    "month": "1989-10",
-   "price": 152.3692,
+   "price": 104.3667,
    "income": 0
   },
   {
    "month": "1989-11",
-   "price": 164.6246,
+   "price": 110.5875,
    "income": 0
   },
   {
    "month": "1989-12",
-   "price": 164.6246,
+   "price": 110.5875,
    "income": 0
   },
   {
    "month": "1990-01",
-   "price": 153.5904,
+   "price": 110.0399,
    "income": 0
   },
   {
    "month": "1990-02",
-   "price": 146.1616,
+   "price": 109.286,
    "income": 0
   },
   {
    "month": "1990-03",
-   "price": 140.2337,
+   "price": 104.1736,
    "income": 0
   },
   {
    "month": "1990-04",
-   "price": 132.3681,
+   "price": 98.242,
    "income": 0
   },
   {
    "month": "1990-05",
-   "price": 150.0349,
+   "price": 113.0495,
    "income": 0
   },
   {
    "month": "1990-06",
-   "price": 137.054,
+   "price": 111.9746,
    "income": 0
   },
   {
    "month": "1990-07",
-   "price": 139.4969,
+   "price": 119.8338,
    "income": 0
   },
   {
    "month": "1990-08",
-   "price": 115.3993,
+   "price": 117.3099,
    "income": 0
   },
   {
    "month": "1990-09",
-   "price": 98.4994,
+   "price": 107.7337,
    "income": 0
   },
   {
    "month": "1990-10",
-   "price": 93.2401,
+   "price": 109.9456,
    "income": 0
   },
   {
    "month": "1990-11",
-   "price": 90.8735,
+   "price": 106.1496,
    "income": 0
   },
   {
    "month": "1990-12",
-   "price": 90.8735,
+   "price": 106.1496,
    "income": 0
   },
   {
    "month": "1991-01",
-   "price": 96.1844,
+   "price": 114.07,
    "income": 0
   },
   {
    "month": "1991-02",
-   "price": 123.3321,
+   "price": 114.5873,
    "income": 0
   },
   {
    "month": "1991-03",
-   "price": 107.2664,
+   "price": 110.3806,
    "income": 0
   },
   {
    "month": "1991-04",
-   "price": 100.7591,
+   "price": 109.7308,
    "income": 0
   },
   {
    "month": "1991-05",
-   "price": 102.5503,
+   "price": 114.357,
    "income": 0
   },
   {
    "month": "1991-06",
-   "price": 107.56,
+   "price": 101.7199,
    "income": 0
   },
   {
    "month": "1991-07",
-   "price": 106.1599,
+   "price": 108.7811,
    "income": 0
   },
   {
    "month": "1991-08",
-   "price": 101.4066,
+   "price": 108.6032,
    "income": 0
   },
   {
    "month": "1991-09",
-   "price": 103.5197,
+   "price": 105.9351,
    "income": 0
   },
   {
    "month": "1991-10",
-   "price": 92.1502,
+   "price": 102.0478,
    "income": 0
   },
   {
    "month": "1991-11",
-   "price": 94.7075,
+   "price": 106.1978,
    "income": 0
   },
   {
    "month": "1991-12",
-   "price": 105.7657,
+   "price": 110.9071,
    "income": 0
   },
   {
    "month": "1992-01",
-   "price": 100.7698,
+   "price": 104.9685,
    "income": 0
   },
   {
    "month": "1992-02",
-   "price": 91.6133,
+   "price": 104.0754,
    "income": 0
   },
   {
    "month": "1992-03",
-   "price": 98.269,
+   "price": 97.2037,
    "income": 0
   },
   {
    "month": "1992-04",
-   "price": 100.4614,
+   "price": 89.321,
    "income": 0
   },
   {
    "month": "1992-05",
-   "price": 106.4414,
+   "price": 92.707,
    "income": 0
   },
   {
@@ -769,562 +764,357 @@
   },
   {
    "month": "1992-07",
-   "price": 92.0045,
+   "price": 93.5961,
    "income": 0
   },
   {
    "month": "1992-08",
-   "price": 88.2471,
+   "price": 96.2696,
    "income": 0
   },
   {
    "month": "1992-09",
-   "price": 85.6773,
+   "price": 110.3298,
    "income": 0
   },
   {
    "month": "1992-10",
-   "price": 74.8003,
+   "price": 103.4858,
    "income": 0
   },
   {
    "month": "1992-11",
-   "price": 66.087,
+   "price": 89.7391,
    "income": 0
   },
   {
    "month": "1992-12",
-   "price": 61.3915,
+   "price": 102.6603,
    "income": 0
   },
   {
    "month": "1993-01",
-   "price": 70.5645,
+   "price": 109.207,
    "income": 0
   },
   {
    "month": "1993-02",
-   "price": 70.7733,
+   "price": 114.6789,
    "income": 0
   },
   {
    "month": "1993-03",
-   "price": 81.1264,
+   "price": 118.002,
    "income": 0
   },
   {
    "month": "1993-04",
-   "price": 87.8049,
+   "price": 118.4669,
    "income": 0
   },
   {
    "month": "1993-05",
-   "price": 87.8049,
+   "price": 118.4669,
    "income": 0
   },
   {
    "month": "1993-06",
-   "price": 92.6845,
+   "price": 136.0477,
    "income": 0
   },
   {
    "month": "1993-07",
-   "price": 101.7728,
+   "price": 156.2705,
    "income": 0
   },
   {
    "month": "1993-08",
-   "price": 103.6136,
+   "price": 164.8092,
    "income": 0
   },
   {
    "month": "1993-09",
-   "price": 91.5444,
+   "price": 164.5702,
    "income": 0
   },
   {
    "month": "1993-10",
-   "price": 93.7289,
+   "price": 169.2515,
    "income": 0
   },
   {
    "month": "1993-11",
-   "price": 100.3866,
+   "price": 159.9787,
    "income": 0
   },
   {
    "month": "1993-12",
-   "price": 104.8387,
+   "price": 159.9462,
    "income": 0
   },
   {
    "month": "1994-01",
-   "price": 114.8561,
+   "price": 178.4371,
    "income": 0
   },
   {
    "month": "1994-02",
-   "price": 114.386,
+   "price": 157.8947,
    "income": 0
   },
   {
    "month": "1994-03",
-   "price": 106.4056,
+   "price": 144.0023,
    "income": 0
   },
   {
    "month": "1994-04",
-   "price": 107.0163,
+   "price": 138.9086,
    "income": 0
   },
   {
    "month": "1994-05",
-   "price": 107.0163,
+   "price": 138.9086,
    "income": 0
   },
   {
    "month": "1994-06",
-   "price": 115.8724,
+   "price": 147.8424,
    "income": 0
   },
   {
    "month": "1994-07",
-   "price": 111.5656,
+   "price": 151.7293,
    "income": 0
   },
   {
    "month": "1994-08",
-   "price": 132.1817,
+   "price": 142.6962,
    "income": 0
   },
   {
    "month": "1994-09",
-   "price": 134.1625,
+   "price": 143.0237,
    "income": 0
   },
   {
    "month": "1994-10",
-   "price": 136.0956,
+   "price": 144.2231,
    "income": 0
   },
   {
    "month": "1994-11",
-   "price": 123.0189,
+   "price": 137.7358,
    "income": 0
   },
   {
    "month": "1994-12",
-   "price": 117.5573,
+   "price": 138.1679,
    "income": 0
   },
   {
    "month": "1995-01",
-   "price": 110.5489,
+   "price": 145.1927,
    "income": 0
   },
   {
    "month": "1995-02",
-   "price": 121.6348,
+   "price": 143.9345,
    "income": 0
   },
   {
    "month": "1995-03",
-   "price": 110.3266,
+   "price": 164.6072,
    "income": 0
   },
   {
    "month": "1995-04",
-   "price": 122.2174,
+   "price": 164.557,
    "income": 0
   },
   {
    "month": "1995-05",
-   "price": 128.4797,
+   "price": 178.5867,
    "income": 0
   },
   {
    "month": "1995-06",
-   "price": 138.4281,
+   "price": 177.1602,
    "income": 0
   },
   {
    "month": "1995-07",
-   "price": 148.631,
+   "price": 178.1834,
    "income": 0
   },
   {
    "month": "1995-08",
-   "price": 126.0365,
+   "price": 169.9834,
    "income": 0
   },
   {
    "month": "1995-09",
-   "price": 138.4083,
+   "price": 191.1765,
    "income": 0
   },
   {
    "month": "1995-10",
-   "price": 125.8803,
+   "price": 205.1056,
    "income": 0
   },
   {
    "month": "1995-11",
-   "price": 141.7269,
+   "price": 199.0642,
    "income": 0
   },
   {
    "month": "1995-12",
-   "price": 141.7269,
+   "price": 199.0642,
    "income": 0
   },
   {
    "month": "1996-01",
-   "price": 164.6457,
+   "price": 180.2359,
    "income": 0
   },
   {
    "month": "1996-02",
-   "price": 192.6606,
+   "price": 183.9033,
    "income": 0
   },
   {
    "month": "1996-03",
-   "price": 210.137,
+   "price": 183.6597,
    "income": 0
   },
   {
    "month": "1996-04",
-   "price": 197.6641,
+   "price": 187.2735,
    "income": 0
   },
   {
    "month": "1996-05",
-   "price": 197.442,
+   "price": 178.0576,
    "income": 0
   },
   {
    "month": "1996-06",
-   "price": 193.6825,
+   "price": 197.521,
    "income": 0
   },
   {
    "month": "1996-07",
-   "price": 178.6609,
+   "price": 185.9659,
    "income": 0
   },
   {
    "month": "1996-08",
-   "price": 182.6963,
+   "price": 194.6457,
    "income": 0
   },
   {
    "month": "1996-09",
-   "price": 164.2374,
+   "price": 190.5615,
    "income": 0
   },
   {
    "month": "1996-10",
-   "price": 156.0643,
+   "price": 192.9018,
    "income": 0
   },
   {
    "month": "1996-11",
-   "price": 151.922,
+   "price": 197.5754,
    "income": 0
   },
   {
    "month": "1996-12",
-   "price": 161.7625,
+   "price": 190.0672,
    "income": 0
   },
   {
    "month": "1997-01",
-   "price": 183.6505,
+   "price": 185.3418,
    "income": 0
   },
   {
    "month": "1997-02",
-   "price": 170.6142,
+   "price": 190.0238,
    "income": 0
   },
   {
    "month": "1997-03",
-   "price": 170.6142,
+   "price": 190.0238,
    "income": 0
   },
   {
    "month": "1997-04",
-   "price": 174.9746,
+   "price": 218.3791,
    "income": 0
   },
   {
    "month": "1997-05",
-   "price": 203.8883,
+   "price": 240.3676,
    "income": 0
   },
   {
    "month": "1997-06",
-   "price": 224.0175,
+   "price": 267.3559,
    "income": 0
   },
   {
    "month": "1997-07",
-   "price": 256.3222,
+   "price": 270.0561,
    "income": 0
   },
   {
    "month": "1997-08",
-   "price": 236.8191,
+   "price": 240.7818,
    "income": 0
   },
   {
    "month": "1997-09",
-   "price": 267.3907,
+   "price": 270.1402,
    "income": 0
   },
   {
    "month": "1997-10",
-   "price": 268.2387,
+   "price": 269.0247,
    "income": 0
   },
   {
    "month": "1997-11",
-   "price": 261.1014,
+   "price": 287.2676,
    "income": 0
   },
   {
    "month": "1997-12",
-   "price": 273.7851,
+   "price": 310.7461,
    "income": 0
   },
   {
    "month": "1998-01",
-   "price": 256.4103,
+   "price": 307.0175,
    "income": 0
   },
   {
    "month": "1998-02",
-   "price": 267.3578,
+   "price": 334.8793,
    "income": 0
   },
   {
    "month": "1998-03",
-   "price": 279.3047,
+   "price": 352.2466,
    "income": 0
   },
   {
    "month": "1998-04",
-   "price": 261.5128,
+   "price": 347.2176,
    "income": 0
   },
   {
    "month": "1998-05",
-   "price": 305.668,
-   "income": 0
-  },
-  {
-   "month": "1998-06",
-   "price": 329.3729,
-   "income": 0
-  },
-  {
-   "month": "1998-07",
-   "price": 312.4371,
-   "income": 0
-  },
-  {
-   "month": "1998-08",
-   "price": 249.3584,
-   "income": 0
-  },
-  {
-   "month": "1998-09",
-   "price": 206.04,
-   "income": 0
-  },
-  {
-   "month": "1998-10",
-   "price": 252.4358,
-   "income": 0
-  },
-  {
-   "month": "1998-11",
-   "price": 220.9411,
-   "income": 0
-  },
-  {
-   "month": "1998-12",
-   "price": 248.2708,
-   "income": 0
-  },
-  {
-   "month": "1999-01",
-   "price": 213.1564,
-   "income": 0
-  },
-  {
-   "month": "1999-02",
-   "price": 215.2466,
-   "income": 0
-  },
-  {
-   "month": "1999-03",
-   "price": 215.2466,
-   "income": 0
-  },
-  {
-   "month": "1999-04",
-   "price": 228.7475,
-   "income": 0
-  },
-  {
-   "month": "1999-05",
-   "price": 225.4581,
-   "income": 0
-  },
-  {
-   "month": "1999-06",
-   "price": 209.2575,
-   "income": 0
-  },
-  {
-   "month": "1999-07",
-   "price": 225.1256,
-   "income": 0
-  },
-  {
-   "month": "1999-08",
-   "price": 210.5089,
-   "income": 0
-  },
-  {
-   "month": "1999-09",
-   "price": 216.0165,
-   "income": 0
-  },
-  {
-   "month": "1999-10",
-   "price": 210.2604,
-   "income": 0
-  },
-  {
-   "month": "1999-11",
-   "price": 206.0656,
-   "income": 0
-  },
-  {
-   "month": "1999-12",
-   "price": 201.1927,
-   "income": 0
-  },
-  {
-   "month": "2000-01",
-   "price": 198.545,
-   "income": 0
-  },
-  {
-   "month": "2000-02",
-   "price": 190.219,
-   "income": 0
-  },
-  {
-   "month": "2000-03",
-   "price": 187.9134,
-   "income": 0
-  },
-  {
-   "month": "2000-04",
-   "price": 177.3913,
-   "income": 0
-  },
-  {
-   "month": "2000-05",
-   "price": 184.5051,
-   "income": 0
-  },
-  {
-   "month": "2000-06",
-   "price": 166.6973,
-   "income": 0
-  },
-  {
-   "month": "2000-07",
-   "price": 171.67,
-   "income": 0
-  },
-  {
-   "month": "2000-08",
-   "price": 154.6628,
-   "income": 0
-  },
-  {
-   "month": "2000-09",
-   "price": 143.064,
-   "income": 0
-  },
-  {
-   "month": "2000-10",
-   "price": 135.1652,
-   "income": 0
-  },
-  {
-   "month": "2000-11",
-   "price": 147.9988,
-   "income": 0
-  },
-  {
-   "month": "2000-12",
-   "price": 159.5482,
-   "income": 0
-  },
-  {
-   "month": "2001-01",
-   "price": 146.1187,
-   "income": 0
-  },
-  {
-   "month": "2001-02",
-   "price": 127.8681,
-   "income": 0
-  },
-  {
-   "month": "2001-03",
-   "price": 102.2465,
-   "income": 0
-  },
-  {
-   "month": "2001-04",
-   "price": 72.0669,
-   "income": 0
-  },
-  {
-   "month": "2001-05",
-   "price": 69.4213,
-   "income": 0
-  },
-  {
-   "month": "2001-06",
-   "price": 60.1069,
-   "income": 0
-  },
-  {
-   "month": "2001-07",
-   "price": 78.1024,
-   "income": 0
-  },
-  {
-   "month": "2001-08",
-   "price": 55.4258,
-   "income": 0
-  },
-  {
-   "month": "2001-09",
-   "price": 25.3583,
-   "income": 0
-  },
-  {
-   "month": "2001-10",
-   "price": 2.9118,
+   "price": 360.9987,
    "income": 0
   }
  ]

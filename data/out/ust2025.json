@@ -1,0 +1,1096 @@
+{
+ "id": "ust2025",
+ "name": "US Treasury 2025",
+ "kind": "bond",
+ "currency": "USD",
+ "source": "Federal Reserve fitted Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month",
+ "notes": "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
+ "maturity": "2025-01-01",
+ "end": {
+  "month": "2024-12",
+  "type": "maturity",
+  "note": "Matured on 1 January 2025 and repaid 100 per unit"
+ },
+ "rows": [
+  {
+   "month": "2015-01",
+   "price": 83.9059,
+   "income": 0,
+   "extra": {
+    "yield": 0.017843,
+    "years": 9.921971
+   }
+  },
+  {
+   "month": "2015-02",
+   "price": 81.4363,
+   "income": 0,
+   "extra": {
+    "yield": 0.021077,
+    "years": 9.845311
+   }
+  },
+  {
+   "month": "2015-03",
+   "price": 82.2561,
+   "income": 0,
+   "extra": {
+    "yield": 0.02022,
+    "years": 9.7577
+   }
+  },
+  {
+   "month": "2015-04",
+   "price": 81.5069,
+   "income": 0,
+   "extra": {
+    "yield": 0.021359,
+    "years": 9.675565
+   }
+  },
+  {
+   "month": "2015-05",
+   "price": 81.0119,
+   "income": 0,
+   "extra": {
+    "yield": 0.022186,
+    "years": 9.596167
+   }
+  },
+  {
+   "month": "2015-06",
+   "price": 79.5244,
+   "income": 0,
+   "extra": {
+    "yield": 0.024387,
+    "years": 9.508556
+   }
+  },
+  {
+   "month": "2015-07",
+   "price": 81.1033,
+   "income": 0,
+   "extra": {
+    "yield": 0.022474,
+    "years": 9.423682
+   }
+  },
+  {
+   "month": "2015-08",
+   "price": 81.0907,
+   "income": 0,
+   "extra": {
+    "yield": 0.022698,
+    "years": 9.338809
+   }
+  },
+  {
+   "month": "2015-09",
+   "price": 82.6255,
+   "income": 0,
+   "extra": {
+    "yield": 0.020832,
+    "years": 9.256674
+   }
+  },
+  {
+   "month": "2015-10",
+   "price": 81.9586,
+   "income": 0,
+   "extra": {
+    "yield": 0.021922,
+    "years": 9.174538
+   }
+  },
+  {
+   "month": "2015-11",
+   "price": 81.5753,
+   "income": 0,
+   "extra": {
+    "yield": 0.022657,
+    "years": 9.089665
+   }
+  },
+  {
+   "month": "2015-12",
+   "price": 81.2754,
+   "income": 0,
+   "extra": {
+    "yield": 0.023291,
+    "years": 9.004791
+   }
+  },
+  {
+   "month": "2016-01",
+   "price": 84.2592,
+   "income": 0,
+   "extra": {
+    "yield": 0.019375,
+    "years": 8.925394
+   }
+  },
+  {
+   "month": "2016-02",
+   "price": 85.7456,
+   "income": 0,
+   "extra": {
+    "yield": 0.017548,
+    "years": 8.84052
+   }
+  },
+  {
+   "month": "2016-03",
+   "price": 85.8441,
+   "income": 0,
+   "extra": {
+    "yield": 0.017586,
+    "years": 8.755647
+   }
+  },
+  {
+   "month": "2016-04",
+   "price": 85.7056,
+   "income": 0,
+   "extra": {
+    "yield": 0.017938,
+    "years": 8.676249
+   }
+  },
+  {
+   "month": "2016-05",
+   "price": 85.6107,
+   "income": 0,
+   "extra": {
+    "yield": 0.018254,
+    "years": 8.588638
+   }
+  },
+  {
+   "month": "2016-06",
+   "price": 88.5981,
+   "income": 0,
+   "extra": {
+    "yield": 0.014333,
+    "years": 8.506502
+   }
+  },
+  {
+   "month": "2016-07",
+   "price": 88.9282,
+   "income": 0,
+   "extra": {
+    "yield": 0.014022,
+    "years": 8.427105
+   }
+  },
+  {
+   "month": "2016-08",
+   "price": 88.0465,
+   "income": 0,
+   "extra": {
+    "yield": 0.015388,
+    "years": 8.336756
+   }
+  },
+  {
+   "month": "2016-09",
+   "price": 88.2062,
+   "income": 0,
+   "extra": {
+    "yield": 0.015319,
+    "years": 8.25462
+   }
+  },
+  {
+   "month": "2016-10",
+   "price": 86.759,
+   "income": 0,
+   "extra": {
+    "yield": 0.017538,
+    "years": 8.169747
+   }
+  },
+  {
+   "month": "2016-11",
+   "price": 82.8723,
+   "income": 0,
+   "extra": {
+    "yield": 0.023501,
+    "years": 8.087611
+   }
+  },
+  {
+   "month": "2016-12",
+   "price": 82.5615,
+   "income": 0,
+   "extra": {
+    "yield": 0.024226,
+    "years": 8.005476
+   }
+  },
+  {
+   "month": "2017-01",
+   "price": 82.9596,
+   "income": 0,
+   "extra": {
+    "yield": 0.023875,
+    "years": 7.917864
+   }
+  },
+  {
+   "month": "2017-02",
+   "price": 83.5998,
+   "income": 0,
+   "extra": {
+    "yield": 0.023107,
+    "years": 7.841205
+   }
+  },
+  {
+   "month": "2017-03",
+   "price": 83.5969,
+   "income": 0,
+   "extra": {
+    "yield": 0.023368,
+    "years": 7.756331
+   }
+  },
+  {
+   "month": "2017-04",
+   "price": 84.6263,
+   "income": 0,
+   "extra": {
+    "yield": 0.021974,
+    "years": 7.679671
+   }
+  },
+  {
+   "month": "2017-05",
+   "price": 85.3583,
+   "income": 0,
+   "extra": {
+    "yield": 0.021079,
+    "years": 7.589322
+   }
+  },
+  {
+   "month": "2017-06",
+   "price": 84.8832,
+   "income": 0,
+   "extra": {
+    "yield": 0.022072,
+    "years": 7.507187
+   }
+  },
+  {
+   "month": "2017-07",
+   "price": 85.2843,
+   "income": 0,
+   "extra": {
+    "yield": 0.021678,
+    "years": 7.422313
+   }
+  },
+  {
+   "month": "2017-08",
+   "price": 86.5517,
+   "income": 0,
+   "extra": {
+    "yield": 0.019879,
+    "years": 7.33744
+   }
+  },
+  {
+   "month": "2017-09",
+   "price": 85.3864,
+   "income": 0,
+   "extra": {
+    "yield": 0.022005,
+    "years": 7.258042
+   }
+  },
+  {
+   "month": "2017-10",
+   "price": 85.2431,
+   "income": 0,
+   "extra": {
+    "yield": 0.022517,
+    "years": 7.170431
+   }
+  },
+  {
+   "month": "2017-11",
+   "price": 84.9228,
+   "income": 0,
+   "extra": {
+    "yield": 0.023324,
+    "years": 7.088296
+   }
+  },
+  {
+   "month": "2017-12",
+   "price": 85.0018,
+   "income": 0,
+   "extra": {
+    "yield": 0.023455,
+    "years": 7.008898
+   }
+  },
+  {
+   "month": "2018-01",
+   "price": 83.3272,
+   "income": 0,
+   "extra": {
+    "yield": 0.026714,
+    "years": 6.918549
+   }
+  },
+  {
+   "month": "2018-02",
+   "price": 82.6799,
+   "income": 0,
+   "extra": {
+    "yield": 0.028188,
+    "years": 6.841889
+   }
+  },
+  {
+   "month": "2018-03",
+   "price": 83.5821,
+   "income": 0,
+   "extra": {
+    "yield": 0.026875,
+    "years": 6.762491
+   }
+  },
+  {
+   "month": "2018-04",
+   "price": 82.5817,
+   "income": 0,
+   "extra": {
+    "yield": 0.029087,
+    "years": 6.67488
+   }
+  },
+  {
+   "month": "2018-05",
+   "price": 83.4073,
+   "income": 0,
+   "extra": {
+    "yield": 0.027914,
+    "years": 6.590007
+   }
+  },
+  {
+   "month": "2018-06",
+   "price": 83.3975,
+   "income": 0,
+   "extra": {
+    "yield": 0.028278,
+    "years": 6.510609
+   }
+  },
+  {
+   "month": "2018-07",
+   "price": 83.1305,
+   "income": 0,
+   "extra": {
+    "yield": 0.029183,
+    "years": 6.422998
+   }
+  },
+  {
+   "month": "2018-08",
+   "price": 83.867,
+   "income": 0,
+   "extra": {
+    "yield": 0.028148,
+    "years": 6.338125
+   }
+  },
+  {
+   "month": "2018-09",
+   "price": 83.0496,
+   "income": 0,
+   "extra": {
+    "yield": 0.030107,
+    "years": 6.261465
+   }
+  },
+  {
+   "month": "2018-10",
+   "price": 82.9771,
+   "income": 0,
+   "extra": {
+    "yield": 0.0307,
+    "years": 6.171116
+   }
+  },
+  {
+   "month": "2018-11",
+   "price": 83.9394,
+   "income": 0,
+   "extra": {
+    "yield": 0.02917,
+    "years": 6.08898
+   }
+  },
+  {
+   "month": "2018-12",
+   "price": 85.8242,
+   "income": 0,
+   "extra": {
+    "yield": 0.025788,
+    "years": 6.004107
+   }
+  },
+  {
+   "month": "2019-01",
+   "price": 86.4099,
+   "income": 0,
+   "extra": {
+    "yield": 0.024984,
+    "years": 5.919233
+   }
+  },
+  {
+   "month": "2019-02",
+   "price": 86.0419,
+   "income": 0,
+   "extra": {
+    "yield": 0.026065,
+    "years": 5.842574
+   }
+  },
+  {
+   "month": "2019-03",
+   "price": 87.7789,
+   "income": 0,
+   "extra": {
+    "yield": 0.022875,
+    "years": 5.763176
+   }
+  },
+  {
+   "month": "2019-04",
+   "price": 87.6651,
+   "income": 0,
+   "extra": {
+    "yield": 0.023466,
+    "years": 5.675565
+   }
+  },
+  {
+   "month": "2019-05",
+   "price": 89.5589,
+   "income": 0,
+   "extra": {
+    "yield": 0.01992,
+    "years": 5.590691
+   }
+  },
+  {
+   "month": "2019-06",
+   "price": 90.5745,
+   "income": 0,
+   "extra": {
+    "yield": 0.018116,
+    "years": 5.514031
+   }
+  },
+  {
+   "month": "2019-07",
+   "price": 90.4154,
+   "income": 0,
+   "extra": {
+    "yield": 0.018751,
+    "years": 5.423682
+   }
+  },
+  {
+   "month": "2019-08",
+   "price": 92.7687,
+   "income": 0,
+   "extra": {
+    "yield": 0.014151,
+    "years": 5.341547
+   }
+  },
+  {
+   "month": "2019-09",
+   "price": 92.092,
+   "income": 0,
+   "extra": {
+    "yield": 0.015795,
+    "years": 5.256674
+   }
+  },
+  {
+   "month": "2019-10",
+   "price": 92.3696,
+   "income": 0,
+   "extra": {
+    "yield": 0.015466,
+    "years": 5.1718
+   }
+  },
+  {
+   "month": "2019-11",
+   "price": 91.9413,
+   "income": 0,
+   "extra": {
+    "yield": 0.016636,
+    "years": 5.092402
+   }
+  },
+  {
+   "month": "2019-12",
+   "price": 91.7961,
+   "income": 0,
+   "extra": {
+    "yield": 0.017251,
+    "years": 5.004791
+   }
+  },
+  {
+   "month": "2020-01",
+   "price": 93.6981,
+   "income": 0,
+   "extra": {
+    "yield": 0.013318,
+    "years": 4.919918
+   }
+  },
+  {
+   "month": "2020-02",
+   "price": 95.6677,
+   "income": 0,
+   "extra": {
+    "yield": 0.009187,
+    "years": 4.843258
+   }
+  },
+  {
+   "month": "2020-03",
+   "price": 97.9596,
+   "income": 0,
+   "extra": {
+    "yield": 0.004344,
+    "years": 4.755647
+   }
+  },
+  {
+   "month": "2020-04",
+   "price": 98.2519,
+   "income": 0,
+   "extra": {
+    "yield": 0.003781,
+    "years": 4.673511
+   }
+  },
+  {
+   "month": "2020-05",
+   "price": 98.5958,
+   "income": 0,
+   "extra": {
+    "yield": 0.003083,
+    "years": 4.594114
+   }
+  },
+  {
+   "month": "2020-06",
+   "price": 98.7285,
+   "income": 0,
+   "extra": {
+    "yield": 0.002844,
+    "years": 4.506502
+   }
+  },
+  {
+   "month": "2020-07",
+   "price": 99.0841,
+   "income": 0,
+   "extra": {
+    "yield": 0.002083,
+    "years": 4.421629
+   }
+  },
+  {
+   "month": "2020-08",
+   "price": 98.9005,
+   "income": 0,
+   "extra": {
+    "yield": 0.002553,
+    "years": 4.336756
+   }
+  },
+  {
+   "month": "2020-09",
+   "price": 98.9719,
+   "income": 0,
+   "extra": {
+    "yield": 0.002432,
+    "years": 4.25462
+   }
+  },
+  {
+   "month": "2020-10",
+   "price": 98.6522,
+   "income": 0,
+   "extra": {
+    "yield": 0.003258,
+    "years": 4.172485
+   }
+  },
+  {
+   "month": "2020-11",
+   "price": 98.7731,
+   "income": 0,
+   "extra": {
+    "yield": 0.003025,
+    "years": 4.087611
+   }
+  },
+  {
+   "month": "2020-12",
+   "price": 98.9016,
+   "income": 0,
+   "extra": {
+    "yield": 0.002763,
+    "years": 4.002738
+   }
+  },
+  {
+   "month": "2021-01",
+   "price": 98.7485,
+   "income": 0,
+   "extra": {
+    "yield": 0.003215,
+    "years": 3.92334
+   }
+  },
+  {
+   "month": "2021-02",
+   "price": 98.006,
+   "income": 0,
+   "extra": {
+    "yield": 0.00525,
+    "years": 3.84668
+   }
+  },
+  {
+   "month": "2021-03",
+   "price": 97.7645,
+   "income": 0,
+   "extra": {
+    "yield": 0.006037,
+    "years": 3.756331
+   }
+  },
+  {
+   "month": "2021-04",
+   "price": 98.0183,
+   "income": 0,
+   "extra": {
+    "yield": 0.005462,
+    "years": 3.674196
+   }
+  },
+  {
+   "month": "2021-05",
+   "price": 98.3274,
+   "income": 0,
+   "extra": {
+    "yield": 0.0047,
+    "years": 3.597536
+   }
+  },
+  {
+   "month": "2021-06",
+   "price": 97.983,
+   "income": 0,
+   "extra": {
+    "yield": 0.005827,
+    "years": 3.507187
+   }
+  },
+  {
+   "month": "2021-07",
+   "price": 98.505,
+   "income": 0,
+   "extra": {
+    "yield": 0.004408,
+    "years": 3.425051
+   }
+  },
+  {
+   "month": "2021-08",
+   "price": 98.3985,
+   "income": 0,
+   "extra": {
+    "yield": 0.004849,
+    "years": 3.33744
+   }
+  },
+  {
+   "month": "2021-09",
+   "price": 98.0285,
+   "income": 0,
+   "extra": {
+    "yield": 0.006136,
+    "years": 3.255305
+   }
+  },
+  {
+   "month": "2021-10",
+   "price": 97.4122,
+   "income": 0,
+   "extra": {
+    "yield": 0.00829,
+    "years": 3.175907
+   }
+  },
+  {
+   "month": "2021-11",
+   "price": 97.4236,
+   "income": 0,
+   "extra": {
+    "yield": 0.008488,
+    "years": 3.088296
+   }
+  },
+  {
+   "month": "2021-12",
+   "price": 97.0801,
+   "income": 0,
+   "extra": {
+    "yield": 0.009915,
+    "years": 3.003422
+   }
+  },
+  {
+   "month": "2022-01",
+   "price": 96.0261,
+   "income": 0,
+   "extra": {
+    "yield": 0.013991,
+    "years": 2.918549
+   }
+  },
+  {
+   "month": "2022-02",
+   "price": 95.5166,
+   "income": 0,
+   "extra": {
+    "yield": 0.016272,
+    "years": 2.841889
+   }
+  },
+  {
+   "month": "2022-03",
+   "price": 93.429,
+   "income": 0,
+   "extra": {
+    "yield": 0.024959,
+    "years": 2.757016
+   }
+  },
+  {
+   "month": "2022-04",
+   "price": 92.6289,
+   "income": 0,
+   "extra": {
+    "yield": 0.029009,
+    "years": 2.677618
+   }
+  },
+  {
+   "month": "2022-05",
+   "price": 93.3386,
+   "income": 0,
+   "extra": {
+    "yield": 0.026974,
+    "years": 2.590007
+   }
+  },
+  {
+   "month": "2022-06",
+   "price": 92.7836,
+   "income": 0,
+   "extra": {
+    "yield": 0.030316,
+    "years": 2.507871
+   }
+  },
+  {
+   "month": "2022-07",
+   "price": 93.2536,
+   "income": 0,
+   "extra": {
+    "yield": 0.029179,
+    "years": 2.428474
+   }
+  },
+  {
+   "month": "2022-08",
+   "price": 92.2291,
+   "income": 0,
+   "extra": {
+    "yield": 0.035203,
+    "years": 2.338125
+   }
+  },
+  {
+   "month": "2022-09",
+   "price": 90.7977,
+   "income": 0,
+   "extra": {
+    "yield": 0.04372,
+    "years": 2.255989
+   }
+  },
+  {
+   "month": "2022-10",
+   "price": 90.6789,
+   "income": 0,
+   "extra": {
+    "yield": 0.046098,
+    "years": 2.171116
+   }
+  },
+  {
+   "month": "2022-11",
+   "price": 91.361,
+   "income": 0,
+   "extra": {
+    "yield": 0.0442,
+    "years": 2.08898
+   }
+  },
+  {
+   "month": "2022-12",
+   "price": 91.4924,
+   "income": 0,
+   "extra": {
+    "yield": 0.045301,
+    "years": 2.006845
+   }
+  },
+  {
+   "month": "2023-01",
+   "price": 92.1949,
+   "income": 0,
+   "extra": {
+    "yield": 0.043252,
+    "years": 1.919233
+   }
+  },
+  {
+   "month": "2023-02",
+   "price": 91.4742,
+   "income": 0,
+   "extra": {
+    "yield": 0.049552,
+    "years": 1.842574
+   }
+  },
+  {
+   "month": "2023-03",
+   "price": 92.9369,
+   "income": 0,
+   "extra": {
+    "yield": 0.042554,
+    "years": 1.7577
+   }
+  },
+  {
+   "month": "2023-04",
+   "price": 93.1385,
+   "income": 0,
+   "extra": {
+    "yield": 0.043191,
+    "years": 1.68104
+   }
+  },
+  {
+   "month": "2023-05",
+   "price": 92.922,
+   "income": 0,
+   "extra": {
+    "yield": 0.047231,
+    "years": 1.590691
+   }
+  },
+  {
+   "month": "2023-06",
+   "price": 92.5737,
+   "income": 0,
+   "extra": {
+    "yield": 0.052482,
+    "years": 1.508556
+   }
+  },
+  {
+   "month": "2023-07",
+   "price": 93.011,
+   "income": 0,
+   "extra": {
+    "yield": 0.052208,
+    "years": 1.423682
+   }
+  },
+  {
+   "month": "2023-08",
+   "price": 93.4087,
+   "income": 0,
+   "extra": {
+    "yield": 0.05225,
+    "years": 1.338809
+   }
+  },
+  {
+   "month": "2023-09",
+   "price": 93.551,
+   "income": 0,
+   "extra": {
+    "yield": 0.054358,
+    "years": 1.259411
+   }
+  },
+  {
+   "month": "2023-10",
+   "price": 94.024,
+   "income": 0,
+   "extra": {
+    "yield": 0.053993,
+    "years": 1.1718
+   }
+  },
+  {
+   "month": "2023-11",
+   "price": 94.6577,
+   "income": 0,
+   "extra": {
+    "yield": 0.051676,
+    "years": 1.089665
+   }
+  },
+  {
+   "month": "2023-12",
+   "price": 95.3606,
+   "income": 0,
+   "extra": {
+    "yield": 0.048145,
+    "years": 1.010267
+   }
+  },
+  {
+   "month": "2024-01",
+   "price": 95.7407,
+   "income": 0,
+   "extra": {
+    "yield": 0.048453,
+    "years": 0.919918
+   }
+  },
+  {
+   "month": "2024-02",
+   "price": 95.8683,
+   "income": 0,
+   "extra": {
+    "yield": 0.051483,
+    "years": 0.84052
+   }
+  },
+  {
+   "month": "2024-03",
+   "price": 96.2044,
+   "income": 0,
+   "extra": {
+    "yield": 0.051962,
+    "years": 0.76386
+   }
+  },
+  {
+   "month": "2024-04",
+   "price": 96.5295,
+   "income": 0,
+   "extra": {
+    "yield": 0.053843,
+    "years": 0.673511
+   }
+  },
+  {
+   "month": "2024-05",
+   "price": 96.9876,
+   "income": 0,
+   "extra": {
+    "yield": 0.053336,
+    "years": 0.588638
+   }
+  },
+  {
+   "month": "2024-06",
+   "price": 97.3382,
+   "income": 0,
+   "extra": {
+    "yield": 0.054108,
+    "years": 0.511978
+   }
+  },
+  {
+   "month": "2024-07",
+   "price": 97.8714,
+   "income": 0,
+   "extra": {
+    "yield": 0.052354,
+    "years": 0.421629
+   }
+  },
+  {
+   "month": "2024-08",
+   "price": 98.3337,
+   "income": 0,
+   "extra": {
+    "yield": 0.05074,
+    "years": 0.339493
+   }
+  },
+  {
+   "month": "2024-09",
+   "price": 98.8115,
+   "income": 0,
+   "extra": {
+    "yield": 0.048076,
+    "years": 0.25462
+   }
+  },
+  {
+   "month": "2024-10",
+   "price": 99.2217,
+   "income": 0,
+   "extra": {
+    "yield": 0.047105,
+    "years": 0.169747
+   }
+  },
+  {
+   "month": "2024-11",
+   "price": 99.5901,
+   "income": 0,
+   "extra": {
+    "yield": 0.046512,
+    "years": 0.090349
+   }
+  },
+  {
+   "month": "2024-12",
+   "price": 100,
+   "income": 0,
+   "extra": {
+    "yield": 0,
+    "years": 0
+   }
+  }
+ ]
+}

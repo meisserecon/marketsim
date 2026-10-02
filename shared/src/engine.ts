@@ -171,7 +171,8 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
   const tolerance = 1e-9;
 
   if (trade.side === "buy") {
-    const cost = units * price;
+    // Spend exactly the amount asked for; units * price can be off by a rounding error.
+    const cost = "usd" in amount ? amount.usd : "all" in amount ? p.cash : units * price;
     if (cost > cash * (1 + tolerance) + tolerance) throw new TradeError("insufficient_cash", `Costs ${cost.toFixed(2)}, cash is ${cash.toFixed(2)}`);
     if (held === 0 && Object.keys(holdings).length >= MAX_POSITIONS) {
       throw new TradeError("too_many_positions", `At most ${MAX_POSITIONS} positions besides cash`);
@@ -188,7 +189,7 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
     units = held;
     delete holdings[trade.assetId];
   } else holdings[trade.assetId] = remaining;
-  const proceeds = units * price;
+  const proceeds = "usd" in amount && units !== held ? amount.usd : units * price;
   cash += proceeds;
   return { portfolio: { cash, holdings }, entry: { month, kind: "sell", assetId: trade.assetId, units: -units, price, cash: proceeds } };
 }

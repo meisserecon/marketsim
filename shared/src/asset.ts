@@ -21,6 +21,7 @@ export type AssetKind = "cash" | "bond" | "gold" | "stock";
  * advances past that month.
  *
  *   bankruptcy   the position becomes worthless
+ *   maturity     a bond is repaid: the position is paid out in cash at the final price, which is 100
  *   acquisition  the position is paid out in cash at the final price
  *   delisting    the position is sold at the final price
  *   merger       the position is converted into `successor` at both assets' final-month prices
@@ -29,7 +30,7 @@ export type AssetKind = "cash" | "bond" | "gold" | "stock";
  */
 export interface AssetEnd {
   month: string;
-  type: "acquisition" | "delisting" | "bankruptcy" | "merger";
+  type: "acquisition" | "delisting" | "bankruptcy" | "merger" | "maturity";
   note: string;
   /** Asset id the position converts into. Required for a merger. */
   successor?: string;
@@ -47,6 +48,8 @@ export interface AssetSeries {
   source: string;
   /** For maintainers; may mention later events, so never show it to players. */
   notes?: string;
+  /** For bonds: the day the bond repays 100 per unit, "YYYY-MM-DD". Known from the start, so it may be shown. */
+  maturity?: string;
   /** Reveal to players only once the game has moved past end.month. */
   end?: AssetEnd;
   rows: MonthRow[];

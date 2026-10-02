@@ -48,12 +48,14 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   const market = (await call<MarketView>(app, "GET", `/api/games/${code}/market`)).body;
   assert.equal(market.month, "1979-12");
   const byId = new Map(market.assets.map((a) => [a.id, a]));
-  for (const id of ["ibm", "ust10y", "gold", "xom", "mo"]) assert.ok(byId.has(id), `${id} should be quoted`);
+  for (const id of ["ibm", "ust1985", "ust1990", "ust2000", "gold", "xom", "mo"]) assert.ok(byId.has(id), `${id} should be quoted`);
   assert.ok(!byId.has("aapl"), "Apple lists in 1980-12");
   assert.ok(!byId.has("cash"));
   assert.equal(byId.get("xom")!.name, "Exxon");
   assert.equal(byId.get("mo")!.name, "Philip Morris");
-  assert.ok(byId.get("ust10y")!.extra!.yield > 0.09);
+  assert.ok(byId.get("ust2000")!.extra!.yield > 0.09);
+  assert.equal(byId.get("ust2000")!.maturity, "2000-01-01");
+  assert.ok(!byId.has("ust1995"), "the 1995 bond is listed only when the 1985 bond has matured");
   for (const a of market.assets) assert.ok(a.listedSince <= "1979-12");
   assert.ok(!JSON.stringify(market).includes("notes") && !JSON.stringify(market).includes('"end"') && !JSON.stringify(market).includes("source"));
 
@@ -67,7 +69,7 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.ok(byId.get("ibm")!.priceYearAgo! > 0 && byId.get("ibm")!.incomeLastYear > 0);
 
   // trading needs a player token
-  const trade = { assetId: "ust10y", side: "buy", amount: { usd: 500 } };
+  const trade = { assetId: "ust1985", side: "buy", amount: { usd: 500 } };
   assert.equal((await call(app, "POST", `/api/games/${code}/trades`, trade)).status, 401);
   assert.equal((await call(app, "POST", `/api/games/${code}/trades`, trade, gm)).status, 401);
   const t1 = await call(app, "POST", `/api/games/${code}/trades`, trade, alice);
@@ -91,9 +93,9 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   // Alice received a month of coupons in cash; nothing was reinvested
   const me = (await call<PortfolioView>(app, "GET", `/api/games/${code}/me`, undefined, alice)).body;
   assert.equal(me.month, "1980-01");
-  assert.ok(me.cash > 300 + 3.5 && me.cash < 300 + 6, `cash ${me.cash}`); // about 10.3% / 12 on 500
+  assert.equal(me.cash, 300); // a zero bond pays nothing, and IBM pays no dividend in January
   assert.equal(me.positions.length, 2);
-  assert.ok(me.ledger.some((e) => e.kind === "income" && e.assetId === "ust10y" && e.month === "1980-01"));
+  assert.ok(!me.ledger.some((e) => e.kind === "income"));
   assert.deepEqual(me.history.map((h) => h.month), ["1979-12", "1980-01"]);
   assert.equal(me.history[0].totalValue, 1_000);
   assert.ok(Math.abs(me.history[1].totalValue - me.totalValue) < 0.01);
@@ -112,6 +114,11 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
 
   // advance to December 1980: Apple appears, under the name it had then
   for (let i = 0; i < 11; i++) await call(app, "POST", `/api/games/${code}/advance`, undefined, gm);
+  // dividends land in cash and are never reinvested
+  const meDec = (await call<PortfolioView>(app, "GET", `/api/games/${code}/me`, undefined, alice)).body;
+  assert.ok(meDec.ledger.some((e) => e.kind === "income" && e.assetId === "ibm"), "IBM dividends are paid into cash");
+  assert.ok(meDec.cash > 300);
+  assert.equal(meDec.positions.length, 2);
   const dec = (await call<MarketView>(app, "GET", `/api/games/${code}/market`)).body;
   assert.equal(dec.month, "1980-12");
   const aapl = dec.assets.find((a) => a.id === "aapl");

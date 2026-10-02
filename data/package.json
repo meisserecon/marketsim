@@ -5,7 +5,8 @@
   "scripts": {
     "fetch": "tsx src/fetch.ts",
     "build": "tsx src/build.ts",
-    "validate": "tsx src/validate.ts"
+    "validate": "tsx src/validate.ts",
+    "nzz": "tsx src/nzz.ts"
   },
   "devDependencies": {
     "@types/node": "^22.7.0",

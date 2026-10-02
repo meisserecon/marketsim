@@ -19,7 +19,7 @@
   let sortDir = $state<1 | -1>(1);
 
   const GROUPS: { kind: AssetKind; title: string; hint: string }[] = [
-    { kind: 'bond', title: 'Bonds', hint: 'US Treasuries. Pay a coupon every month; the price moves against interest rates.' },
+    { kind: 'bond', title: 'Bonds', hint: 'US Treasuries. Each repays 100 in January of its year and pays nothing before; the price moves against interest rates.' },
     { kind: 'gold', title: 'Gold', hint: 'Pays no income.' },
     { kind: 'stock', title: 'Stocks', hint: 'Dividends are paid into your cash.' }
   ];
@@ -28,8 +28,8 @@
     { key: 'price', label: 'Price', title: 'USD per unit, split-adjusted' },
     { key: 'm1', label: '1 month', title: 'Price change since last month' },
     { key: 'm12', label: '12 months', title: 'Price change over twelve months' },
-    { key: 'income', label: 'Income 12 mo', title: 'Coupons or dividends paid over the last twelve months, as a percentage of the price' },
-    { key: 'yield', label: 'Bond yield', title: 'Current yield to maturity (bonds only)' }
+    { key: 'income', label: 'Income 12 mo', title: 'Dividends paid over the last twelve months, as a percentage of the price' },
+    { key: 'yield', label: 'Bond yield', title: 'Yearly return if you buy now and hold until the bond is repaid' }
   ];
 
   interface Row {

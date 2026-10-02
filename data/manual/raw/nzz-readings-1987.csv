@@ -1,0 +1,138 @@
+# NZZ month-end readings, February 1987 to December 1987 (11 month ends). Raw quotes as printed, no adjustment. Read by eye on 2026-10-02 from the scanned issues in data/manual/scans/nzz; nothing from memory.
+# Method: every value read in two separate passes (pass 2 with new crops, without looking at pass 1). eye2 = both passes agree; eye3 = settled by a third reading at higher magnification. Values read once do not appear.
+# Swiss rows (bearer share only, plus Nestle registered): Zuercher Boerse running text, no closing column. Close = last price of the day carrying no forward/option month mark (Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez, Jan, Feb, Maer) and no kt/dt mark. L = Losgeschaeft counted as cash. The SKA line is Inh.+PS combined.
+# Foreign rows: Frankfurt (DM), Tokio (yen) and New York (USD, fractions converted) columns 'Tagesschluss'.
+# quote_date = date in the table header 'Kurse vom ...'. page = PDF page (index+1) of the table the value comes from. Series names as in the other nzz-readings files; share_class empty for foreign lists.
+# Missing: Industrial Bank of Japan 1987-08 (Tagesschluss printed as a dash on 31 Aug, left out). Controls and problems: see nzz-notes-1987.md.
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+swissair,1987-02,1987-02-27,I,CHF,1150,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-02,1987-02-27,I,CHF,5450,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-02,1987-02-27,I,CHF,474,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-02,1987-02-27,I,CHF,3275,1987-02-28,25,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-02,1987-02-27,I,CHF,3000,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-02,1987-02-27,I,CHF,8925,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-02,1987-02-27,N,CHF,4520,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-02,1987-02-27,I,CHF,10500,1987-02-28,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-02,1987-02-27,,DEM,948.5,1987-02-28,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-02,1987-02-27,,DEM,477,1987-02-28,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-02,1987-02-27,,JPY,3170,1987-02-28,27,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-02,1987-02-27,,USD,139.25,1987-02-28,29,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-03,1987-03-31,I,CHF,1145,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-03,1987-03-31,I,CHF,5270,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-03,1987-03-31,I,CHF,473,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-03,1987-03-31,I,CHF,3130,1987-04-01,25,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-03,1987-03-31,I,CHF,3300,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-03,1987-03-31,I,CHF,9350,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-03,1987-03-31,N,CHF,4740,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-03,1987-03-31,I,CHF,11350,1987-04-01,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-03,1987-03-31,,DEM,998,1987-04-01,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-03,1987-03-31,,DEM,527,1987-04-01,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-03,1987-03-31,,JPY,3500,1987-04-01,27,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-03,1987-03-31,,USD,150.5,1987-04-01,29,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-04,1987-04-30,I,CHF,1170,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-04,1987-04-30,I,CHF,4630,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-04,1987-04-30,I,CHF,432,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-04,1987-04-30,I,CHF,3050,1987-05-02,25,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-04,1987-04-30,I,CHF,3080,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-04,1987-04-30,I,CHF,9225,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-04,1987-04-30,N,CHF,4725,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-04,1987-04-30,I,CHF,11700,1987-05-02,25,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-04,1987-04-30,,DEM,990.5,1987-05-02,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-04,1987-04-30,,DEM,566,1987-05-02,27,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-04,1987-04-30,,JPY,4780,1987-05-02,27,eye2,"Tokio list, column Tagesschluss; Vortag column of the 1 May table (30 April close), 1 May Schluss not used"
+ibm,1987-04,1987-04-30,,USD,160.25,1987-05-02,29,eye2,"New York list, Tagesschluss, fraction converted to decimal; Vortag column of the 1 May table (30 April close), 1 May Schluss not used"
+swissair,1987-05,1987-05-29,I,CHF,1260,1987-05-30,43,eye3,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; pass 1 read 1265, pass 2 read 1260; third reading at 4x magnification gives 1260"
+ubs,1987-05,1987-05-29,I,CHF,4610,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-05,1987-05-29,I,CHF,424,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-05,1987-05-29,I,CHF,3010,1987-05-30,43,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-05,1987-05-29,I,CHF,3165,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-05,1987-05-29,I,CHF,8925,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-05,1987-05-29,N,CHF,4690,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-05,1987-05-29,I,CHF,12000,1987-05-30,43,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-05,1987-05-29,,DEM,1009.8,1987-05-30,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-05,1987-05-29,,DEM,608,1987-05-30,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-05,1987-05-29,,JPY,4760,1987-05-30,46,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-05,1987-05-29,,USD,160.375,1987-05-30,47,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-06,1987-06-30,I,CHF,1340,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-06,1987-06-30,I,CHF,4790,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-06,1987-06-30,I,CHF,465,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-06,1987-06-30,I,CHF,3165,1987-07-01,41,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-06,1987-06-30,I,CHF,3690,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-06,1987-06-30,I,CHF,9775,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-06,1987-06-30,N,CHF,4710,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-06,1987-06-30,I,CHF,12600,1987-07-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-06,1987-06-30,,DEM,1100,1987-07-01,43,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-06,1987-06-30,,DEM,678,1987-07-01,43,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-06,1987-06-30,,JPY,4300,1987-07-01,44,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-06,1987-06-30,,USD,163.375,1987-07-01,45,eye3,"New York list, Tagesschluss, fraction converted to decimal; pass 1 read 163.75, pass 2 read 163.375; third reading at 4x magnification gives 163.375"
+swissair,1987-07,1987-07-31,I,CHF,1470,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-07,1987-07-31,I,CHF,4950,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-07,1987-07-31,I,CHF,495,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-07,1987-07-31,I,CHF,3360,1987-08-03,27,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-07,1987-07-31,I,CHF,3990,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-07,1987-07-31,I,CHF,10550,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-07,1987-07-31,N,CHF,5020,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-07,1987-07-31,I,CHF,14600,1987-08-03,27,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-07,1987-07-31,,DEM,1162,1987-08-03,29,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-07,1987-07-31,,DEM,737,1987-08-03,29,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-07,1987-07-31,,JPY,3950,1987-08-03,30,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-07,1987-07-31,,USD,161,1987-08-03,31,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-08,1987-08-31,I,CHF,1400,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-08,1987-08-31,I,CHF,4940,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-08,1987-08-31,I,CHF,509,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-08,1987-08-31,I,CHF,3370,1987-09-01,41,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-08,1987-08-31,I,CHF,3795,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-08,1987-08-31,I,CHF,10650,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-08,1987-08-31,N,CHF,5070,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-08,1987-08-31,I,CHF,14950,1987-09-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-08,1987-08-31,,DEM,1136,1987-09-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-08,1987-08-31,,DEM,782.5,1987-09-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibm,1987-08,1987-08-31,,USD,168.625,1987-09-01,47,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-09,1987-09-30,I,CHF,1385,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-09,1987-09-30,I,CHF,5050,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-09,1987-09-30,I,CHF,508,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-09,1987-09-30,I,CHF,3460,1987-10-01,41,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-09,1987-09-30,I,CHF,4160,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-09,1987-09-30,I,CHF,11025,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-09,1987-09-30,N,CHF,5400,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-09,1987-09-30,I,CHF,15500,1987-10-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-09,1987-09-30,,DEM,1066,1987-10-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-09,1987-09-30,,DEM,735,1987-10-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-09,1987-09-30,,JPY,3450,1987-10-01,46,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-09,1987-09-30,,USD,150.75,1987-10-01,47,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-10,1987-10-30,I,CHF,1000,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-10,1987-10-30,I,CHF,3925,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-10,1987-10-30,I,CHF,405,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-10,1987-10-30,I,CHF,2775,1987-10-31,45,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-10,1987-10-30,I,CHF,3115,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-10,1987-10-30,I,CHF,8350,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-10,1987-10-30,N,CHF,4400,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-10,1987-10-30,I,CHF,12000,1987-10-31,45,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-10,1987-10-30,,DEM,813,1987-10-31,47,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-10,1987-10-30,,DEM,520,1987-10-31,47,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-10,1987-10-30,,JPY,3000,1987-10-31,48,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-10,1987-10-30,,USD,123,1987-10-31,49,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-11,1987-11-30,I,CHF,860,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-11,1987-11-30,I,CHF,3400,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-11,1987-11-30,I,CHF,374,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-11,1987-11-30,I,CHF,2530,1987-12-01,41,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-11,1987-11-30,I,CHF,2675,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-11,1987-11-30,I,CHF,7850,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-11,1987-11-30,N,CHF,4050,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-11,1987-11-30,I,CHF,11800,1987-12-01,41,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-11,1987-11-30,,DEM,623,1987-12-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-11,1987-11-30,,DEM,415,1987-12-01,45,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-11,1987-11-30,,JPY,3050,1987-12-01,46,eye2,"Tokio list, column Tagesschluss"
+ibm,1987-11,1987-11-30,,USD,111.25,1987-12-01,47,eye2,"New York list, Tagesschluss, fraction converted to decimal"
+swissair,1987-12,1987-12-30,I,CHF,950,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+ubs,1987-12,1987-12-30,I,CHF,3020,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sbv,1987-12,1987-12-30,I,CHF,343,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+credit-suisse,1987-12,1987-12-30,I,CHF,2435,1987-12-31,39,eye2,"Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash; line is Inh.+PS combined, one price for both"
+ciba-geigy,1987-12,1987-12-30,I,CHF,2700,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-12,1987-12-30,I,CHF,8025,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+nestle,1987-12,1987-12-30,N,CHF,3975,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+sandoz,1987-12,1987-12-30,I,CHF,11800,1987-12-31,39,eye2,Zuercher Boerse running text: last price of the day without forward/option month mark or kt/dt; L (Losgeschaeft) counted as cash
+mercedes,1987-12,1987-12-30,,DEM,575,1987-12-31,43,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+bmw,1987-12,1987-12-30,,DEM,447,1987-12-31,43,eye2,"Frankfurt list, column Tagesschluss (closing price)"
+ibj,1987-12,1987-12-28,,JPY,2700,1987-12-31,44,eye2,"Tokio list, column Tagesschluss; Tokio closed 29-30 Dec, table shows only column 28.12.: close of 28 December"
+ibm,1987-12,1987-12-30,,USD,116.875,1987-12-31,45,eye2,"New York list, Tagesschluss, fraction converted to decimal; 30 December close (Yahoo month end is 31 Dec)"

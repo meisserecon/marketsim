@@ -1,8 +1,8 @@
 # Swiss dividends from the NZZ archive: notes
 
 Status: PARTIAL. Nestle (20 of 22 years, 1994/1999/2000 missing), Bankgesellschaft (all 19 years, 1979-1997),
-Swissair (1 year), SKA (7 years of amounts, no payment months), Sandoz (17 years, financial years 1979-1995, see the Sandoz section),
-Bankverein (18 of 19 years, FY1997 missing; see the Bankverein section). Ciba-Geigy: nothing yet.
+Swissair (1 year), Credit Suisse (all years 1979-2022, see the Credit Suisse section at the end), Sandoz (17 years, financial years 1979-1995, see the Sandoz section),
+Bankverein (19 of 19 years; FY1997 is a reported proposal, see the Bankverein section). Ciba-Geigy: nothing yet.
 Output: `raw-swiss-dividends.csv` (company codes: nestle, ubs = Bankgesellschaft, sbv, credit-suisse, swissair, sandoz, ciba-geigy).
 Every line cites the NZZ issue date and page. Amounts are as declared, gross, per the share class printed, not adjusted.
 
@@ -91,7 +91,7 @@ Unusual:
 
 ## Kreditanstalt (credit-suisse)
 
-Only a retrospective table was read: the exchange-offer prospectus of CS Holding (NZZ 17.04.1989 p33) lists the combined dividend of one
+Superseded by the "Credit Suisse (second pass)" section at the end. Original note: only a retrospective table was read: the exchange-offer prospectus of CS Holding (NZZ 17.04.1989 p33) lists the combined dividend of one
 SKA bearer share with its attached participation certificate for 1982-1988: 82.50, 94, 100, 106, 107, 108, 108 (PS part 2.50, 4, 5, 6, 7, 8, 8).
 The NZZ price series quotes this unit as "I+PS" (see `normClass` in `nzz.ts`), so these combined amounts are the right match for the prices.
 The payment months were not read (SKA general meetings were in spring). CS Holding's own registered shares (nominal Fr. 100) paid 5, 8, 10, 12, 14, 16, 16
@@ -229,9 +229,59 @@ Unusual and important:
 - Ex date of FY1981: the notice says 1 April 1982; the earlier agent's market table note (307xD on 2 April) shows the day after.
 - The 1979 notice (26.03.1980) has the registered share ex dividend on 26 March and the bearer share and PS on 28 March, the day of payment.
 
-Missing: FY1997. The meeting was on 15 April 1998, the last one of the Bankverein (NZZ 16.04.1998 p25 reports it without the dividend). Searches "Dividende fuer 1997", "je Namenaktie", "CHF 40 Nennwert",
-Wahldividende and "Schweizerischer Bankverein" for 14 to 30 April 1998 found only other companies. FY1980 is from a prospectus table and the meeting date, not from a payment notice.
+FY1997 (second pass): CHF 12 per registered share, from the report of the extraordinary meeting on the UBS merger, NZZ 05.02.1998 p19
+("Auch SBV-Aktionaere fuer Fusion", page image): Ospel said the Board would propose "eine Dividende von 12 Fr." for 1997, adding that for 1996
+a withholding-tax-free nominal repayment of 10 Fr. had been made. The meeting was on 15 April 1998, the last one of the Bankverein (NZZ 16.04.1998 p25 reports it without the dividend);
+the payment notice was still not found (search "Bankverein Dividende 12", 14 April to 10 May 1998, gave other companies), so the line in `sbv.csv` is in April 1998
+(month from meeting date) and rests on the proposal. Found with the archive API query "Credit Suisse Group Dividende erhoehte Fr." on 5 Feb 1998 while
+looking for Credit Suisse. FY1980 is from a prospectus table and the meeting date, not from a payment notice.
 
 Reliability: all amounts and dates were read from page images (OCR snippets only to find the page); gross/tax/net agree arithmetically where read (the net lines of FY1979, FY1984, FY1985, FY1987 and the
 registered-share tax of 1996 were not read). I judge the Bankverein series reliable. The weaker points: FY1980 (table, not notice) and the interpretation of the choice dividends (the gross amount is what
-the paper calls the dividend).
+the paper calls the dividend). FY1997 (added in the second pass) rests on a reported proposal, not a notice.
+
+## Credit Suisse (second pass): financial years 1979-2022
+
+46 payments, every year from 1980 to 2023. Lines in `raw-swiss-dividends.csv` (company `credit-suisse`, amounts as declared), series-basis amounts in
+`credit-suisse.csv` (divisors as in `data/src/nzz.ts`: 110 x 42/41 for the SKA bearer share with its PS, 100 x 42/41 for the CS Holding bearer share
+of Fr. 500, 20 x 42/41 after the 1993 split, 4 x 42/41 for the registered share of Fr. 20, 42/41 after the 2001 split, 1 after the 2013 stock dividend).
+
+Working method that helped (new): the archive's search endpoint `/solr-epaper-search/1.0/search` can be called from the page with
+`fetch` (JSON body `{query, offset, sortOptions, startDate, endDate}`), and the viewer opens any page at `/read/<editionId>/<editionId>/<date>/<page>`
+(editionId comes with each hit). Once zoomed, the viewer renders each page into a canvas of about 3300 x 5000 pixels; copying a crop of that
+canvas into an overlay canvas gives a legible page image without fighting the viewer's pan and zoom.
+
+Sources by period:
+- FY1979-FY1981 (SKA bearer share, Fr. 500): 80 each, FY1980 plus a 125th-anniversary bonus of 10 (NZZ 27.02.1981 p17, page image). FY1979 and FY1981
+  rest on the statement "die seit 1968 unveraenderte SKA-Dividende" in NZZ 29.02.1984 p17 (page image), which also has FY1983 "um 10 Fr. auf 90 Fr.".
+- FY1982-FY1988: the table in the CS Holding exchange-offer prospectus (NZZ 17.04.1989 p33), re-read from the page image: SKA bearer share with CS Holding PS
+  82.50, 94, 100, 106, 107, 108, 108. The columns are financial years: CS Holding was founded in March 1982 and cannot have paid in 1982.
+- Meeting dates (months used as payment months): 1 Apr 1980, 24 Mar 1981, 26 Mar 1982, 25 Mar 1983 (invitation NZZ 11.03.1983 p29), 23 Mar 1984,
+  April 1985 (report 18.04.1985), 20 Mar 1986 (invitation 04.03.1986 p32), March 1987 (report 27.03.1987), March 1988 (report 25.03.1988),
+  12 Apr 1989. The PS part was paid by CS Holding at its own (earlier) meeting; it is booked with the SKA dividend.
+- CS Holding (financial year to 31 March): FY1989/90 a "Coto" (cash or title option) instead of a dividend, with a guaranteed cash price of 110 Fr.
+  gross per bearer share (NZZ 23.05.1990 p35, page image; table NZZ 30.04.1992 p35 "Coto, Wert 110 Fr."); meeting 28 June 1990.
+  FY1990/91 75, paid from 24 May 1991 (notice NZZ 24.05.1991 p68, page image, with tax 26.25 and net 48.75). FY1991/92 75 (meeting 4 June 1992) and
+  FY1992/93 75 (meeting 15 June 1993): NZZ 30.04.1992 p35 and the table in NZZ 30.04.1994 p37 (page images). FY1993/94 18 per bearer share of Fr. 100
+  after the 1:5 split (same table, footnote "nach Split im Verhaeltnis 1:5"), meeting 30 May 1994; the May 1994 price is missing, so the build books it in June.
+  FY1994/95 18 per bearer share = 3.60 per registered share ("Unveraenderte Bardividende", NZZ 28.04.1995 p27, and "von Fr. 3.60 auf 4 Fr.",
+  NZZ 30.04.1996 p25, both OCR only), meeting 29 May 1995. FY1995/96 4.00 per registered share, ex in early June 1996 (NZZ 07.06.1996 p35, OCR).
+  Free shareholder options were issued with the dividends of 1991-1994 (theoretical values 35, 45, 50 and about 12 Fr. per bearer share); not recorded.
+- Credit Suisse Group: FY1996 4.00 (NZZ 06.03.1997 p27, OCR), FY1997 5.00 (NZZ 18.03.1998 p25, page image: "Dividendenerhoehung um 25% auf 5 Fr. ...
+  zulasten der Substanz"); months from the ADR ex-dates on companiesmarketcap.com (3 June 1997, 3 June 1998).
+- FY1998-FY2022: the "Dividend per ordinary share" tables and dividend paragraphs of the Forms 20-F on SEC EDGAR (CIK 1159510; filings of 2003, 2006,
+  2008, 2011, 2013, 2016, 2019, 2021 and 2023 read), which give the amounts in CHF adjusted for the 2001 split. Payment days from the 20-F where stated
+  (12 July 2004, 4 May 2006, 18 July 2007, 6 May 2013), otherwise from dividendmax.com (2010 onwards) or the ADR ex-date on companiesmarketcap.com.
+  Distributions in lieu of a dividend: nominal repayments for FY2000 (CHF 2.00 after the split, ex 15 August 2001), FY2001 (2.00) and
+  FY2003 (0.50); par value reduction 0.46 in July 2007 beside the FY2006 dividend. Choice of cash or shares for FY2011 and FY2013-FY2016 (cash used).
+  FY2012: 0.10 in cash plus a stock dividend of 1 new share per 41 (media release of 26.04.2013); the stock dividend is the 42/41 in the share basis.
+  FY2019 was paid in two halves of 0.1388 (May and December 2020). FY2022: 0.05 proposed to the AGM of 4 April 2023 (20-F) and listed as paid on
+  12 April 2023 by dividendmax.com.
+
+Checks: yields against the series price of the month before the payment lie between 0.3% (FY2008, the FY2012 cash part) and 6.2% (April 2023, after the
+collapse of the price), mostly 2.5% to 4.5%. The ADR dividends on companiesmarketcap.com agree with these gross amounts: 1995-1997 within 2% after
+undoing the site's 1.024 factor, 1998-2000 at 85% of gross (apparently net of the 15% treaty withholding tax), 2001-2023 within a few percent (exchange rate of the day).
+The FY1988 combined amount 108 divided by 1.1 (the exchange ratio) is 98.2, which matches the "19,6%" of Fr. 500 that NZZ 23.05.1990 p35 gives as
+the previous dividend. Weak points: FY1979 and FY1981 (amount from a later statement), FY1994/95 (amount from "unchanged" and the next year's
+"von Fr. 3.60"), FY1995/96 and FY1996 (OCR snippets, not page images), FY2022 (aggregator), and all months taken from meeting dates or ex-dates.
+Years without a payment: none; no source states a year without a distribution.

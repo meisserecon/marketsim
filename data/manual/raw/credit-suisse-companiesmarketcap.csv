@@ -8,7 +8,8 @@
 #    (https://companiesmarketcap.com/credit-suisse/stock-splits/) lists as a 1.02439:1 split on 2013-05-01. That event is the
 #    stock dividend for 2012: 1 new share for 41 held (42/41 = 1.02439), ex 30.4.2013, approved at the AGM of 26.4.2013
 #    (Credit Suisse media release of 26.4.2013, archived at web.archive.org; Form 20-F 2012 p119 sets the ex-date).
-#  - The site does not adjust for the rights issues of 2017 and 2022 (the plain closes run on unchanged across them).
+#  - The site does not adjust for the rights offerings of 2015, 2017 and 2022: the values from 2013-05 to the end have two (later four)
+#    decimals, i.e. they are not rescaled by any factor.
 #  - Until August 2001 one ADR was a quarter of a registered share: the NZZ registered price / 4 / DEXSZUS matches these values
 #    (median ratio 0.998 after undoing the 1.024, 75 months 1995-05 to 2001-10). The ADR value does not move at the 4-for-1 split
 #    of 15.8.2001, after which one ADR is one share (Form 20-F 2002: 'American Depositary Shares each represent one registered Group share').

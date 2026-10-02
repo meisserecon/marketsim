@@ -1,7 +1,8 @@
 # Schweizerischer Bankverein dividends as declared in company notices printed in the NZZ (raw-swiss-dividends.csv), gross,
 #   on the basis of the price series (data/src/nzz.ts): bearer share divided by 2 until April 1996, registered share afterwards.
 #   From 1993 the dividend was a choice between cash and new shares; the cash amount is used. For 1996 the bank repaid CHF 10 of
-#   nominal value per registered share instead of a dividend. MISSING: the dividend for 1997, paid in spring 1998 (not found).
+#   nominal value per registered share instead of a dividend. The dividend for 1997 (CHF 12) is the proposal reported in the NZZ of
+#   5.2.1998; the payment notice was not found, so the month is that of the meeting of 15.4.1998.
 month,dividend,note
 1980-03,5,CHF 10 for 1979 paid 1980-03-28; divided by 2
 1981-04,5,CHF 10 for 1980 (prospectus table; month from meeting date); divided by 2
@@ -21,3 +22,4 @@ month,dividend,note
 1995-04,8,CHF 16 for 1994 paid 1995-04-24; divided by 2
 1996-05,8,CHF 8 per registered share for 1995 (choice dividend) cash from 1996-05-28
 1997-07,10,CHF 10 nominal repayment per registered share instead of a dividend for 1996 paid 1997-07-28
+1998-04,12,CHF 12 per registered share for 1997 (proposal reported NZZ 1998-02-05 p19; month from meeting date 1998-04-15)

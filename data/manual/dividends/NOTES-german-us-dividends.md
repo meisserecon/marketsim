@@ -34,6 +34,14 @@ Yields (dividend / series price of the month): 1981 3.3, 1986 1.7, 1987 1.8, 199
 Months: 1987-03 (AGM 26.3.1987, Computerwoche), 1981-03 (AGM 19.3.1981, Computerwoche) and 1999-02 are primary; 1986-03, 1991-04, 1995-02 to 1998-02 use the ex dates of the boerse.de table (secondary; the table's ex dates for 1987, 1999 and 2000 agree with primary sources). Siemens' AGM month varies between February and April, so a missing year must not be guessed.
 Conflicts/warnings: (1) boerse.de's Siemens dividend amounts are not usable: against the primary DM amounts they imply inconsistent factors (e.g. 0.365 for 1986 and 0.388 for 1987 although the company says DM 12 unchanged). (2) Yahoo's own dividend of EUR 1.00 in 2000-02 is the declared amount, not divided by the 1.5 x 1.0306 x 1.1139 = 1.72 that is in Yahoo's prices; so Yahoo's Siemens dividends overstate the price-basis dividend by that factor (price basis 0.58); Yahoo's 2.4 in 2001-02 looks even less consistent. The lines here follow the price basis, so there is a step between 1999 and 2000.
 
+### Siemens, second pass (2026-10-02)
+
+Added 10 of the 11 missing payments from contemporary news items: Computerwoche (computerwoche.de archive, searched through its WordPress search) and the taz archive (taz.de, from 1986). Amounts per DM 50 share: FY1978/79 8 (paid 1980-03), FY1980/81 8 (1982-03), FY1982/83 8 (1984-03), FY1983/84 10 (1985-03), FY1986/87 11 (cut from 12; 1988-03), FY1987/88 11 (1989-03), FY1988/89 12.50 (1990-03), FY1990/91 13 (1992-03), FY1991/92 13 (1993-03), FY1992/93 13 (1994-03). Still missing: FY1981/82 (paid 1983); no source found.
+Read directly: 1978/79, 1980/81, 1983/84, 1986/87, 1987/88, 1988/89, 1991/92. Derived from wording: 1982/83 ("Im Vorjahr waren acht Mark", "von acht auf zehn"), 1990/91 (FY1991/92 13 DM "unveraendert"), 1992/93 (FY1993/94 13 DM "wie im letzten Jahr"). Most amounts are the board's proposal; AGM reports confirm FY1986/87 and FY1988/89. The chain is consistent with the earlier lines: 10 -> 12 (CW 29.11.1985 "zwoelf (zehn)"), 12 -> 12 -> 11 -> 11 -> 12.50 -> 13 (CW 8.2.1991 "leichte Anhebung ... auf 13").
+Months: AGM month where the AGM date was found (1980, 1988, 1989, 1993), otherwise the boerse.de ex date (1984, 1985, 1990, 1992, 1994); 1982 has neither and is "month assumed March".
+Factor g: 1.1196 for 1980-03, 1.0822 for 1982, 1.048 for 1984, 1.002 from 1985 (for 1985-03 it is assumed that the 1984/85 capital measure was before the ex date of 22.3.1985; with g 1.048 the line would be 4.6 percent lower).
+Yields: 1980 3.2, 1982 3.6, 1984 2.0, 1985 1.9, 1988 3.1, 1989 2.1, 1990 1.5, 1992 1.9, 1993 2.0, 1994 1.9 percent.
+
 ## Citicorp (c): lineage finding, no file written
 
 Question: does Yahoo's price history of ticker C before October 1998 follow Citicorp or Travelers Group? Answer: Travelers Group (Primerica), NOT Citicorp. Citicorp dividends are therefore not appropriate and no dividends/c.csv was written.

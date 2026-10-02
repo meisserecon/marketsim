@@ -32,7 +32,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/siemens.csv",
+ "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 19 dividends from manual/dividends/siemens.csv",
  "notes": "Converted from EUR at month-end FRED rate. Yahoo data from 1996-11; 1980 to 1996 needs a manual prefix.",
  "rows": [
   {
@@ -83,7 +83,7 @@
   {
    "month": "1980-03",
    "price": 6.9782,
-   "income": 0
+   "income": 0.224068
   },
   {
    "month": "1980-04",
@@ -203,7 +203,7 @@
   {
    "month": "1982-03",
    "price": 5.0019,
-   "income": 0
+   "income": 0.180374
   },
   {
    "month": "1982-04",
@@ -323,7 +323,7 @@
   {
    "month": "1984-03",
    "price": 8.4503,
-   "income": 0
+   "income": 0.170677
   },
   {
    "month": "1984-04",
@@ -383,7 +383,7 @@
   {
    "month": "1985-03",
    "price": 9.1832,
-   "income": 0
+   "income": 0.175721
   },
   {
    "month": "1985-04",
@@ -563,7 +563,7 @@
   {
    "month": "1988-03",
    "price": 12.449,
-   "income": 0
+   "income": 0.380155
   },
   {
    "month": "1988-04",
@@ -623,7 +623,7 @@
   {
    "month": "1989-03",
    "price": 16.1245,
-   "income": 0
+   "income": 0.341175
   },
   {
    "month": "1989-04",
@@ -683,7 +683,7 @@
   {
    "month": "1990-03",
    "price": 27.4192,
-   "income": 0
+   "income": 0.424826
   },
   {
    "month": "1990-04",
@@ -803,7 +803,7 @@
   {
    "month": "1992-03",
    "price": 23.4908,
-   "income": 0
+   "income": 0.453438
   },
   {
    "month": "1992-04",
@@ -863,7 +863,7 @@
   {
    "month": "1993-03",
    "price": 22.8198,
-   "income": 0
+   "income": 0.457569
   },
   {
    "month": "1993-04",
@@ -923,7 +923,7 @@
   {
    "month": "1994-03",
    "price": 23.8418,
-   "income": 0
+   "income": 0.445581
   },
   {
    "month": "1994-04",

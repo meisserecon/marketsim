@@ -1,11 +1,23 @@
 # Raw declared Siemens dividends as found, unadjusted. Read 2026-10-02.
 # GB1998 / GB1999 = Siemens Geschaeftsbericht 1998 / 1999 (web.archive.org copies of siemens.com/investor/pool/en/investor_relations/downloadcenter/gb1998_d_1365088.pdf and gb1999_d_1365089.pdf).
 # CW = computerwoche.de archive (contemporary news agency items).
+# taz = taz archive (taz.de/!<id>/). Rows marked 2026-10-02b were read in the second session of 2026-10-02 (computerwoche.de and taz.de; quotes verbatim, German umlauts transliterated).
 financial_year,agm_or_ex_date,amount,currency,per_share,source
+1978/79,1980-03-20 (AGM),8.00,DM,DM 50 share (16 %),2026-10-02b CW 1979-11-30 https://www.computerwoche.de/article/2881929/daten-und-informationssysteme-mit-beachtlichem-zuwachs.html ('der Hauptversammlung am 20. Maerz 1980 wieder eine Dividende von acht Mark je 50-Mark-Aktie vorzuschlagen'); CW 1980-02-22 https://www.computerwoche.de/article/2886463/ ('Unveraendert 16 Prozent Dividende oder acht Mark ... 283 (Vorjahr: 262) Millionen Mark')
 1979/80,1981-03-19 (AGM),8.00,DM,DM 50 share (16 %),CW 1981-02-06 https://www.computerwoche.de/article/2873763/siemens-hv-stellt-wachstumsweichen.html
+1980/81,,8.00,DM,DM 50 share,2026-10-02b CW 1981-11-20 https://www.computerwoche.de/article/2884852/siemens-freut-sich-ueber-auftragsplus.html ('Eine unveraenderte Dividendenhoehe von acht Mark je Aktie im Nennwert von 50 Mark'; proposal)
+1981/82,,,DM,DM 50 share,NOT FOUND
+1982/83,,8.00,DM,DM 50 share,2026-10-02b derived: CW 1984-11-30 https://www.computerwoche.de/article/2844129/siemens-will-mehr-dividende-zahlen.html ('Im Vorjahr waren acht Mark pro Aktie ausgeschuettet worden'); CW 1984-12-07 https://www.computerwoche.de/article/2844508/ic-branche-faehrt-gewinnerwartungen-zurueck.html ('Dividendenerhoehung von acht auf zehn Mark')
+1983/84,1985-03 (AGM month),10.00,DM,DM 50 share,2026-10-02b CW 1984-11-30 (same URL: 'Eine Dividende von 10 Mark je 50-Mark-Aktie ... der Hauptversammlung im Maerz des kommenden Jahres empfehlen'); CW 1986-02-07 https://www.computerwoche.de/article/2816643/viele-technologiewerte-waren-1985-enttaeuschend.html ('von 10 auf 12 Mark erhoeht'); CW 1985-11-29 https://www.computerwoche.de/article/2849786/siemens-waechst-stark-bei-datentechnik.html ('zwoelf (zehn) Mark je Aktie fuer 1984/85')
 1984/85,,12.00,DM,DM 50 share,derived from CW 1986-11-28 'unchanged' (https://www.computerwoche.de/article/2832132/siemens-dividende-bleibt-unveraendert.html) and CW 1985-11-08 (expected increase to 12)
 1985/86,1987-03-26 (AGM),12.00,DM,DM 50 share,CW 1986-11-28 (see above); total about DM 576 million on DM 2.4 billion dividend-entitled capital
+1986/87,1988-03-24 (AGM),11.00,DM,DM 50 share (cut from 12),2026-10-02b taz 1987-11-19 https://taz.de/!1857260/ ('der Hauptversammlung am 24. Maerz 1988 eine von zwoelf auf elf Mark gekuerzte Dividende je 50-Mark-Aktie fuer das Geschaeftsjahr 1986/87'); taz 1988-03-25 https://taz.de/!1851326/ (AGM report); taz 1988-03-24 https://taz.de/!1851444/
+1987/88,1989-03-23 (AGM),11.00,DM,DM 50 share,2026-10-02b taz 1988-11-17 https://taz.de/!1831322/ ('eine unveraenderte Dividende von 11 Mark je 50-Mark-Aktie (Nennwert)'; proposal); AGM date taz 1989-03-25 https://taz.de/!1817811/
+1988/89,,12.50,DM,DM 50 share,2026-10-02b CW 1989-11-24 https://www.computerwoche.de/article/2780576/siemens-computerbereich-ist-das-umsatz-sorgenkind.html ('will 12,50 Mark pro 50-Mark-Aktie ausschuetten'); taz 1990-03-23 https://taz.de/!1775434/ (AGM report: 'Ausschuettung von 12,50 D-Mark Dividende')
 1989/90,,13.00,DM,DM 50 share,CW 1991-02-08 https://computerwoche.de/a/siemens-kann-mit-erreichtem-ergebnis-1990-zufrieden-sein,1138388 ('leichte Anhebung der Dividende auf 13 Mark')
+1990/91,,13.00,DM,DM 50 share,2026-10-02b derived: taz 1993-01-15 https://taz.de/!1634978/ (FY1991/92: 'eine unveraenderte Dividende von 13 DM je 50-Mark-Aktie')
+1991/92,1993-03-11 (AGM),13.00,DM,DM 50 share,2026-10-02b taz 1993-01-15 https://taz.de/!1634978/ (proposal; 'Hauptversammlung am 11. Maerz'); taz 1993-03-13 https://taz.de/!1625698/
+1992/93,,13.00,DM,DM 50 share,2026-10-02b derived: taz 1994-11-10 https://taz.de/!1534370/ ('Der Hauptversammlung am 23. Februar sollen wie im letzten Jahr 13 Mark Dividende vorgeschlagen werden'); AGM March 1994 taz 1994-03-12 https://taz.de/!1572556/
 1993/94,,13.00,DM,DM 50 share,GB1998 p.88 five-year table
 1994/95,,13.00,DM,DM 50 share,GB1998 p.88; GB1999 p.97 EUR 6.65
 1995/96,,1.50,DM,DM 5 share (after 1:10 split of 2.5.1996),GB1998 p.88

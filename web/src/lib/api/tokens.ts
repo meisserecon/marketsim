@@ -40,22 +40,20 @@ export function clearToken(role: Role, code: string): void {
 }
 
 /**
- * The personal rejoin link: the page address with the token in the fragment, which browsers
- * never send to the server. `path` is the page the link opens, e.g. `/g/CODE` or `/g/CODE/gm`.
+ * The address of a seat is the page address with the token in the fragment, `/g/CODE#key=<token>`:
+ * copying the address bar is how a player takes the seat to another device. Browsers never send
+ * the fragment to the server, so the token stays out of requests and logs.
  */
-export function rejoinLink(path: string, token: string): string {
-  return `${location.origin}${path}#key=${encodeURIComponent(token)}`;
+export function fragmentToken(): string | undefined {
+  if (typeof location === 'undefined') return undefined;
+  return new URLSearchParams(location.hash.slice(1)).get('key') || undefined;
 }
 
-/**
- * Takes a token from `#key=...` in the address bar, if there is one, and removes the fragment
- * so the secret does not linger in the visible URL. Returns the token, not yet stored.
- */
-export function takeFragmentToken(): string | undefined {
-  if (typeof location === 'undefined') return undefined;
-  const found = new URLSearchParams(location.hash.slice(1)).get('key');
-  if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
-  return found || undefined;
+/** Puts the token into the address bar, or removes it, without adding a history entry. */
+export function showTokenInAddress(token: string | undefined): void {
+  if (typeof location === 'undefined') return;
+  const hash = token ? `#key=${encodeURIComponent(token)}` : '';
+  if (location.hash !== hash) history.replaceState(history.state, '', location.pathname + location.search + hash);
 }
 
 /** Codes of games this browser holds a token for, most recently stored last. */

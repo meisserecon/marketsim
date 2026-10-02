@@ -3,18 +3,19 @@
   import { page } from '$app/state';
   import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
-  import { clearToken, getToken, setToken, takeFragmentToken } from '$lib/api/tokens';
-  import RejoinLink from '$lib/components/RejoinLink.svelte';
+  import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
   // A personal link (#key=...) wins over a key the browser already holds.
-  const linkToken = takeFragmentToken();
+  const linkToken = fragmentToken();
   /** The key this browser held before the link was opened; restored if the link turns out to be wrong. */
   let keyBeforeLink = linkToken ? getToken('gm', code) : undefined;
   if (linkToken) setToken('gm', code, linkToken);
   let token = $state(getToken('gm', code));
+  // The address bar always shows the personal link, so it can be copied to another device.
+  $effect(() => showTokenInAddress(token));
   let keyRejected = $state(false);
   const hasPlayerToken = !!getToken('player', code);
 
@@ -115,6 +116,8 @@
   }
 </script>
 
+<svelte:window onhashchange={() => { const k = fragmentToken(); if (k && k !== token) location.reload(); }} />
+
 <svelte:head><title>{game ? `${game.name} · game master` : 'Game master'}</title></svelte:head>
 
 {#if phase === 'loading'}
@@ -142,7 +145,6 @@
           {:else if lobby}Not started: players are building their first portfolios.
           {:else}{monthsLeft} {monthsLeft === 1 ? 'month' : 'months'} to go until {monthName(game.finalMonth)}{/if}
         </p>
-        {#if token}<RejoinLink path="/g/{code}/gm" {token} gm />{/if}
       </div>
       <div class="join card">
         <span class="sub">Join at <strong>{host}</strong> with code</span>

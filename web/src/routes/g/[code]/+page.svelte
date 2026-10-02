@@ -3,8 +3,7 @@
   import { page } from '$app/state';
   import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
-  import { clearToken, getToken, setToken, takeFragmentToken } from '$lib/api/tokens';
-  import RejoinLink from '$lib/components/RejoinLink.svelte';
+  import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { LEDGER_LABEL, errorMessage, monthName, pct, usd } from '$lib/format';
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
@@ -18,11 +17,13 @@
   let phase = $state<'loading' | 'join' | 'play' | 'missing' | 'error'>('loading');
   let fatal = $state('');
   // A personal link (#key=...) wins over a token the browser already holds.
-  const linkToken = takeFragmentToken();
+  const linkToken = fragmentToken();
   /** The seat this browser held before the link was opened; restored if the link turns out to be wrong. */
   let seatBeforeLink = linkToken ? getToken('player', code) : undefined;
   if (linkToken) setToken('player', code, linkToken);
   let token = $state(getToken('player', code));
+  // The address bar always shows the personal link, so it can be copied to another device.
+  $effect(() => showTokenInAddress(token));
   let linkRejected = $state(false);
   const hasGmToken = !!getToken('gm', code);
 
@@ -211,6 +212,8 @@
   }
 </script>
 
+<svelte:window onhashchange={() => { const k = fragmentToken(); if (k && k !== token) location.reload(); }} />
+
 <svelte:head><title>{game ? `${game.name} · marketsim` : 'marketsim'}</title></svelte:head>
 
 {#if phase === 'loading'}
@@ -256,7 +259,6 @@
     <div class="game">
       <span class="sub">{game.name} · {game.code} · {portfolio.name}</span>
       <h1>{monthName(game.currentMonth)}</h1>
-      {#if token}<RejoinLink path="/g/{code}" {token} />{/if}
     </div>
     <dl class="figures">
       <div class="total">

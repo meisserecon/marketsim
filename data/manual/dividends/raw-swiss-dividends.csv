@@ -1,0 +1,91 @@
+# Dividends of Swiss companies as declared at the time, gross (before 35% withholding tax), per share as printed in the NZZ. NOT adjusted for later splits.
+# Source for every line: Neue Zuercher Zeitung (Zuerich edition), archive zeitungsarchiv.nzz.ch, paid company notices ("Zahlung der Dividende", "Einloesung der Dividendencoupons"), read through the OCR text and, where marked, the page image.
+# payment_or_ex_date = the date from "zahlbar ab ..." (first day the coupon is cashed); month = month in which a holder received it.
+# See NOTES-swiss-dividends.md for method, calibration, conflicts and gaps.
+company,financial_year,share_class,nominal_chf,amount_chf,kind,meeting_date,payment_or_ex_date,month,source,note
+nestle,1979,I,,75,dividend,1980-05-22,1980-05-27,1980-05,"NZZ 27.05.1980 p25 (page image read)",
+nestle,1980,I,,75,dividend,1981-05-14,1981-05-18,1981-05,"NZZ 18.05.1981 p10 (page image read)",
+nestle,1981,I,,85,dividend,1982-05-13,1982-05-18,1982-05,"NZZ 17.05.1982 p22 (page image read)",
+nestle,1982,I,,96,dividend,1983-05-19,1983-05-24,1983-05,"NZZ 24.05.1983 p39",
+nestle,1983,I,,109,dividend,,1984-05-21,1984-05,"NZZ 29.05.1984 p43 (repeat of the notice of 21.05.1984 p39)","meeting date not read"
+nestle,1984,I,,115,dividend,1985-05-23,1985-05-28,1985-05,"NZZ 28.05.1985 p8; meeting date NZZ 06.05.1985 p29","gross not printed in the OCR snippet; derived from the printed withholding tax Fr. 40.25 = 35% of 115"
+nestle,1985,I,,145,dividend,,1986-05-20,1986-05,"NZZ 20.05.1986 p53","PS 29; meeting date not read"
+nestle,1985,PS,,29,dividend,,1986-05-20,1986-05,"NZZ 20.05.1986 p53",
+nestle,1986,I,,145,dividend,1987-05-21,1987-05-25,1987-05,"NZZ 25.05.1987 p27",
+nestle,1986,PS,,29,dividend,1987-05-21,1987-05-25,1987-05,"NZZ 25.05.1987 p27",
+nestle,1987,I,,150,dividend,1988-05-19,1988-05-24,1988-05,"NZZ 24.05.1988 p26 (page image); meeting NZZ 25.04.1988 p32",
+nestle,1987,PS,,30,dividend,1988-05-19,1988-05-24,1988-05,"NZZ 24.05.1988 p26 (page image)",
+nestle,1988,I,,175,dividend,,1989-05-29,1989-05,"NZZ 29.05.1989 p42","meeting date not read"
+nestle,1988,PS,,35,dividend,,1989-05-29,1989-05,"NZZ 29.05.1989 p42",
+nestle,1989,I,,200,dividend,1990-05-31,1990-06-05,1990-06,"NZZ 05.06.1990 p41 (page image read)","paid in June, not May"
+nestle,1989,PS,,40,dividend,1990-05-31,1990-06-05,1990-06,"NZZ 05.06.1990 p41 (page image read)",
+nestle,1990,I,,200,dividend,,1991-06-03,1991-06,"NZZ 03.06.1991 p13","paid in June; meeting date not read"
+nestle,1991,I,,215,dividend,1992-05-21,1992-05-25,1992-05,"NZZ 25.05.1992 p20",
+nestle,1991,PS,,43,dividend,1992-05-21,1992-05-25,1992-05,"NZZ 25.05.1992 p20",
+nestle,1992,N,,23.5,dividend,1993-05-27,,1993-06,"NZZ 01.06.1993 p44","after the 1:10 split of 1.9.1992; PS 47; day of month in 'zahlbar ab ? Juni 1993' lost in the OCR, notice printed 1 June 1993"
+nestle,1992,PS,,47,dividend,1993-05-27,,1993-06,"NZZ 01.06.1993 p44",
+nestle,1994,N,,26.5,dividend,1995-06-01,1995-06-06,1995-06,"NZZ 06.06.1995 p30",
+nestle,1995,N,,26.5,dividend,1996-05-30,1996-06-05,1996-06,"NZZ 05.06.1996 p30",
+nestle,1996,N,,30,dividend,1997-06-05,1997-06-11,1997-06,"NZZ 11.06.1997 p29",
+nestle,1997,N,,35,dividend,1998-05-28,1998-06-03,1998-06,"NZZ 03.06.1998 p44",
+nestle,2000,N,,55,dividend,2001-04-05,2001-04-11,2001-04,"NZZ 11.04.2001 p71","paid in April"
+sandoz,1980,I,,65,dividend,,1981-05-18,1981-05,"NZZ 18.05.1981 p10 (page image read)","PS 13; notice says 'von heute an', dated Basel 18 May 1981"
+ubs,1979,I,,100,dividend,,1980-04-28,1980-04,"NZZ 11.04.1980 p31 (OCR text)",""
+ubs,1979,N,,20,dividend,,1980-04-28,1980-04,"NZZ 11.04.1980 p31 (OCR text)",""
+ubs,1979,PS,,4,dividend,,1980-04-28,1980-04,"NZZ 11.04.1980 p31 (OCR text)",""
+ubs,1980,I,,100,dividend,1981-04-02,1981-04-03,1981-04,"NZZ 03.04.1981 p30 (page image)",""
+ubs,1980,N,,20,dividend,1981-04-02,1981-04-03,1981-04,"NZZ 03.04.1981 p30 (page image)",""
+ubs,1980,PS,,4,dividend,1981-04-02,1981-04-03,1981-04,"NZZ 03.04.1981 p30 (page image)",""
+ubs,1981,I,,100,dividend,1982-04-15,1982-04-19,1982-04,"NZZ 16.04.1982 p22 (page image)",""
+ubs,1981,N,,20,dividend,1982-04-15,1982-04-19,1982-04,"NZZ 16.04.1982 p22 (page image)",""
+ubs,1981,PS,,4,dividend,1982-04-15,1982-04-19,1982-04,"NZZ 16.04.1982 p22 (page image)",""
+ubs,1983,I,,110,dividend,,1984-04-11,1984-04,"NZZ 06.04.1984 p55 (OCR text)","meeting date not read"
+ubs,1983,N,,22,dividend,,1984-04-11,1984-04,"NZZ 06.04.1984 p55 (OCR text)",""
+ubs,1983,PS,,4.4,dividend,,1984-04-11,1984-04,"NZZ 06.04.1984 p55 (OCR text)",""
+ubs,1984,I,,115,dividend,,1985-04-22,1985-04,"NZZ 19.04.1985 p56 (OCR text)","meeting date not read"
+ubs,1984,N,,23,dividend,,1985-04-22,1985-04,"NZZ 19.04.1985 p56 (OCR text)",""
+ubs,1984,PS,,4.6,dividend,,1985-04-22,1985-04,"NZZ 19.04.1985 p56 (OCR text)",""
+ubs,1985,I,,120,dividend,,1986-04-14,1986-04,"NZZ 11.04.1986 p57 (OCR text)","meeting date not read"
+ubs,1985,N,,24,dividend,,1986-04-14,1986-04,"NZZ 11.04.1986 p57 (OCR text)",""
+ubs,1985,PS,,4.8,dividend,,1986-04-14,1986-04,"NZZ 11.04.1986 p57 (OCR text)",""
+ubs,1986,I,,160,dividend,1987-04-09,1987-04-13,1987-04,"NZZ 10.04.1987 p44 (page image)","notice says dividend inclusive of Jubilaeumsbonus (125 years); split between ordinary dividend and bonus not stated"
+ubs,1986,N,,32,dividend,1987-04-09,1987-04-13,1987-04,"NZZ 10.04.1987 p44 (page image)",""
+ubs,1986,PS,,6.4,dividend,1987-04-09,1987-04-13,1987-04,"NZZ 10.04.1987 p44 (page image)",""
+ubs,1987,I,,120,dividend,1988-04-07,1988-04-11,1988-04,"NZZ 11.04.1988 p38 (page image)",""
+ubs,1987,N,,24,dividend,1988-04-07,1988-04-11,1988-04,"NZZ 11.04.1988 p38 (page image)",""
+ubs,1987,PS,,4.8,dividend,1988-04-07,1988-04-11,1988-04,"NZZ 11.04.1988 p38 (page image)",""
+ubs,1988,I,,120,dividend,1989-04-13,1989-04-18,1989-04,"NZZ 14.04.1989 p66 (page image)",""
+ubs,1988,N,,24,dividend,1989-04-13,1989-04-18,1989-04,"NZZ 14.04.1989 p66 (page image)",""
+ubs,1988,PS,,4.8,dividend,1989-04-13,1989-04-18,1989-04,"NZZ 14.04.1989 p66 (page image)",""
+ubs,1989,I,,135,dividend,1990-04-25,1990-04-30,1990-04,"NZZ 26.04.1990 p48 (page image)",""
+ubs,1989,N,,27,dividend,1990-04-25,1990-04-30,1990-04,"NZZ 26.04.1990 p48 (page image)",""
+ubs,1989,PS,,5.4,dividend,1990-04-25,1990-04-30,1990-04,"NZZ 26.04.1990 p48 (page image)",""
+ubs,1990,I,,135,dividend,1991-04-17,1991-04-22,1991-04,"NZZ 18.04.1991 p64 (page image)",""
+ubs,1990,N,,27,dividend,1991-04-17,1991-04-22,1991-04,"NZZ 18.04.1991 p64 (page image)",""
+ubs,1990,PS,,5.4,dividend,1991-04-17,1991-04-22,1991-04,"NZZ 18.04.1991 p64 (page image)",""
+ubs,1994,I,,32,dividend,1995-04-27,1995-05-03,1995-05,"NZZ 28.04.1995 p48 (page image)","after the 1992 split; coupon payable from 3 May 1995"
+ubs,1994,N,,6.4,dividend,1995-04-27,1995-05-03,1995-05,"NZZ 28.04.1995 p48 (page image)",""
+ubs,1982,I,,100,dividend,,1983-04-11,1983-04,"NZZ 08.04.1983 p32 (OCR text)","meeting date not read"
+ubs,1982,N,,20,dividend,,1983-04-11,1983-04,"NZZ 08.04.1983 p32 (OCR text)",""
+ubs,1982,PS,,4,dividend,,1983-04-11,1983-04,"NZZ 08.04.1983 p32 (OCR text)",""
+ubs,1991,I,,135,dividend,,,1992-04,"NZZ 24.04.1992 p61 (OCR text)","notice of 24.04.1992; payment date not read, month inferred from notice date (coupons are cashable within days of the meeting)"
+ubs,1991,N,,27,dividend,,,1992-04,"NZZ 24.04.1992 p61 (OCR text)",""
+ubs,1992,I,,29,dividend,1993-04-29,1993-05-05,1993-05,"NZZ 30.04.1993 p29 (page image)","bearer share after the 1992 split; coupon 27"
+ubs,1992,N,,5.8,dividend,1993-04-29,1993-05-05,1993-05,"NZZ 30.04.1993 p29 (page image)",""
+ubs,1993,I,,32,dividend,1994-04-29,1994-05-05,1994-05,"NZZ 30.04.1994 p36 (page image)","coupon 28"
+ubs,1993,N,,6.4,dividend,1994-04-29,1994-05-05,1994-05,"NZZ 30.04.1994 p36 (page image)",""
+ubs,1995,I,,32,dividend,,1996-04-18,1996-04,"NZZ 17.04.1996 p31 (OCR text)","coupon 31; meeting date not read"
+ubs,1995,N,,6.4,dividend,,1996-04-18,1996-04,"NZZ 17.04.1996 p31 (OCR text)",""
+ubs,1996,I,,32,dividend,1997-04-17,1997-04-22,1997-04,"NZZ 18.04.1997 p24 (page image)","coupon 32"
+ubs,1996,N,,6.4,dividend,1997-04-17,1997-04-22,1997-04,"NZZ 18.04.1997 p24 (page image)",""
+ubs,1997,I,,50,dividend,1998-04-23,1998-04-27,1998-04,"NZZ 24.04.1998 p57 (page image)","notice says 'Geschaeftsjahr 1997, abgeschlossen per 30. September'; coupon 33; last SBG dividend before the June 1998 merger with SBV; higher than 32 of the previous years, no reason stated in the notice"
+ubs,1997,N,,10,dividend,1998-04-23,1998-04-27,1998-04,"NZZ 24.04.1998 p57 (page image)",""
+credit-suisse,1982,I,,82.5,dividend,,,,"NZZ 17.04.1989 p33 (CS Holding exchange-offer prospectus, table 'Gesamtdividenden pro Aktie SKA mit PS CS HOLDING', page image)","combined dividend of one SKA bearer share together with its attached participation certificate (the price series quotes them as one unit, 'I+PS'); the PS part was 2.50; payment month not read; column year as printed, presumably financial year"
+credit-suisse,1983,I,,94,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 4); payment month not read"
+credit-suisse,1984,I,,100,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 5); payment month not read"
+credit-suisse,1985,I,,106,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 6); payment month not read"
+credit-suisse,1986,I,,107,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 7); payment month not read"
+credit-suisse,1987,I,,108,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 8); payment month not read"
+credit-suisse,1988,I,,108,dividend,,,,"NZZ 17.04.1989 p33 (prospectus table, page image)","combined bearer share + PS (PS part 8); payment month not read"
+swissair,1989,I,,40,dividend,,1990-04-30,1990-04,"NZZ 30.04.1990 p47 (page image)","Bruttodividende Fr. 40 per Aktie; coupon 56; paid spesenfrei from 30 April 1990; meeting date: notice says 'heutige Generalversammlung'"
+swissair,1989,GS,,8,dividend,,1990-04-30,1990-04,"NZZ 30.04.1990 p47 (page image)","Genussschein"

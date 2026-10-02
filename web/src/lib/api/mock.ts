@@ -179,7 +179,7 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
       incomeLastYear,
       extra: row.extra,
       ...(a.maturity ? { maturity: a.maturity } : {}),
-      listedSince: market.firstMonth(a.id)
+      listedSince: market.listedMonth(a.id)
     };
   };
 
@@ -293,7 +293,7 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
         const g = findGame(load(), code);
         const a = market.asset(id);
         // An asset that is not listed yet must be indistinguishable from one that does not exist.
-        if (!a || a.kind === 'cash' || market.firstMonth(id) > g.currentMonth) fail(404, 'not_found', 'No such asset.');
+        if (!a || a.kind === 'cash' || market.listedMonth(id) > g.currentMonth) fail(404, 'not_found', 'No such asset.');
         return {
           id: a.id,
           name: nameAt(a, g.currentMonth),
@@ -323,7 +323,7 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
         if (g.status === 'finished') fail(409, 'game_finished', 'The game is over; trading is closed.');
         // Same answer for "does not exist" and "not listed yet", so a trade cannot probe the future.
         const a = market.asset(trade.assetId);
-        if (!a || market.firstMonth(a.id) > g.currentMonth) fail(400, 'unknown_asset', 'Unknown asset.');
+        if (!a || market.listedMonth(a.id) > g.currentMonth) fail(400, 'unknown_asset', 'Unknown asset.');
         try {
           const result = applyTrade(p.portfolio, market, g.currentMonth, trade);
           p.portfolio = result.portfolio;

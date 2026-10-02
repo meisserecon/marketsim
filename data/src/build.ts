@@ -240,6 +240,7 @@ for (const s of UNIVERSE) {
     id: s.id,
     name: s.name,
     renames: s.renames,
+    ...(s.listed ? { listed: s.listed } : {}),
     ...profileFields(PROFILES[s.id]),
     ...logoFields(s.id),
     kind: "stock",

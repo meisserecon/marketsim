@@ -162,8 +162,9 @@ serves the built web client from `web/build` when it exists. Market data is read
 - **Japan** is represented by Industrial Bank of Japan, from the NZZ's Tokyo list.
 - **Postponed listings.** To ease players into the game, some companies that existed in 1979 are
   listed later: Daimler-Benz and BMW in March 1981, and the three Swiss banks (Bankgesellschaft,
-  Bankverein, Kreditanstalt) in March 1982 (`start` in `data/src/universe.ts`). Their earlier
-  history is cut, so the chart begins at the listing.
+  Bankverein, Kreditanstalt) in March 1982 (`listed` in `data/src/universe.ts`). The story is
+  that the stock only became available to the players then; its earlier prices are kept and shown
+  as chart history from the listing month on, but it cannot be traded before.
 - **Dividend gaps.** Every amount in `data/manual/dividends/` comes from a source cited next to it,
   with one exception: where a company is known to have paid but no source for a year was found
   (BMW 1980 and 1987 to 1995, Siemens 1983, Industrial Bank of Japan before December 1992), the

@@ -38,6 +38,9 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).so
     }
   }
 
+  if (s.listed && s.listed <= rows[0].month) fail(`listed ${s.listed} is not after the first row ${rows[0].month}`);
+  if (s.listed && !rows.some((r) => r.month === s.listed)) fail(`no row in the listing month ${s.listed}`);
+
   // Logos are optional, but a listed one must exist and the list must be in order.
   const logos = s.logos ?? [];
   for (let i = 0; i < logos.length; i++) {

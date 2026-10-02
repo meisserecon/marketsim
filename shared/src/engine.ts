@@ -43,12 +43,17 @@ export class Market {
   asset(id: string): AssetSeries | undefined { return this.assets.get(id); }
   row(id: string, month: string): MonthRow | undefined { return this.rows.get(id)?.get(month); }
   firstMonth(id: string): string { return this.assets.get(id)!.rows[0].month; }
+  /** First month the asset is on offer: its `listed` month if that is later than its first row. */
+  listedMonth(id: string): string {
+    const a = this.assets.get(id)!;
+    return a.listed && a.listed > a.rows[0].month ? a.listed : a.rows[0].month;
+  }
   lastMonth(id: string): string { const r = this.assets.get(id)!.rows; return r[r.length - 1].month; }
 
-  /** Quoted this month and not cash. Assets are invisible before their first row and gone after their last. */
+  /** Quoted this month, listed by then and not cash. Assets are invisible before their listing and gone after their last row. */
   isTradable(id: string, month: string): boolean {
     const a = this.assets.get(id);
-    return !!a && a.kind !== "cash" && this.row(id, month) !== undefined;
+    return !!a && a.kind !== "cash" && this.row(id, month) !== undefined && month >= this.listedMonth(id);
   }
 
   /** True once the asset's end event lies in the past. */

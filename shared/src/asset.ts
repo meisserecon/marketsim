@@ -67,6 +67,8 @@ export interface AssetSeries {
   profiles?: AssetProfile[];
   /** Logos over time in ascending order of `from`; `file` is relative to the web client's /logos/. Use logoAt(). */
   logos?: { from: string; file: string }[];
+  /** First month the asset can be traded in the game, when later than the first row: earlier rows are history shown from the listing on. */
+  listed?: string;
   /** For bonds: the day the bond repays 100 per unit, "YYYY-MM-DD". Known from the start, so it may be shown. */
   maturity?: string;
   /** Reveal to players only once the game has moved past end.month. */

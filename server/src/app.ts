@@ -161,7 +161,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       income: row.income, incomeLastYear,
       ...(row.extra ? { extra: row.extra } : {}),
       ...(a.maturity ? { maturity: a.maturity } : {}),
-      listedSince: market.firstMonth(id),
+      listedSince: market.listedMonth(id),
     };
   }
 
@@ -224,7 +224,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     const g = await gameByCode(db, req.params.code);
     const a = market.asset(req.params.id);
     // An asset that is not listed yet must look exactly like one that does not exist.
-    if (!a || a.kind === "cash" || market.firstMonth(a.id) > g.current_month) throw new HttpError(404, "not_found", "No such asset");
+    if (!a || a.kind === "cash" || market.listedMonth(a.id) > g.current_month) throw new HttpError(404, "not_found", "No such asset");
     const rows = a.rows.filter((r) => r.month <= g.current_month);
     const last = rows[rows.length - 1].month;
     const asOf = last < g.current_month ? last : g.current_month;

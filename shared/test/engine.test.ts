@@ -19,6 +19,7 @@ function series(id: string, prices: number[], opts: Partial<AssetSeries> & { inc
     currency: "USD",
     source: "test",
     end: opts.end,
+    listed: opts.listed,
     rows: prices.map((price, i) => ({ month: MONTHS[from + i], price, income: opts.incomes?.[i] ?? 0 })),
   };
 }
@@ -28,6 +29,7 @@ function market(extra: AssetSeries[] = []): Market {
     series("cash", [1, 1, 1, 1], { kind: "cash" }),
     series("a", [10, 11, 12, 13], { incomes: [0, 0.5, 0, 0.25] }),
     series("late", [20, 22], { from: 2 }),
+    series("postponed", [30, 31, 32, 33], { listed: "1980-02" }),
     series("bust", [5, 1], { end: { month: "1980-01", type: "bankruptcy", note: "Chapter 11" } }),
     series("bought", [8, 9], { end: { month: "1980-01", type: "acquisition", note: "Taken over" } }),
     series("merged", [4, 6], { end: { month: "1980-01", type: "merger", note: "Merged into A", successor: "a" } }),
@@ -209,4 +211,15 @@ test("real data: a full game from start to final month runs without losing track
   const value = portfolioValue(p, m, month);
   assert.ok(Number.isFinite(value) && value > 100_000, `final value ${value}`);
   assert.ok(p.cash > 0);
+});
+
+test("a postponed listing has history but cannot be traded before its listing month", () => {
+  const m = market();
+  assert.equal(m.firstMonth("postponed"), "1979-12");
+  assert.equal(m.listedMonth("postponed"), "1980-02");
+  assert.equal(m.isTradable("postponed", "1980-01"), false);
+  assert.equal(m.isTradable("postponed", "1980-02"), true);
+  assert.equal(m.listedMonth("late"), "1980-02");
+  assert.throws(() => applyTrade(emptyPortfolio(1000), m, "1980-01", { assetId: "postponed", side: "buy", amount: { usd: 100 } }), /not_tradable|cannot be traded/);
+  assert.equal(applyTrade(emptyPortfolio(1000), m, "1980-02", { assetId: "postponed", side: "buy", amount: { usd: 100 } }).portfolio.cash, 900);
 });

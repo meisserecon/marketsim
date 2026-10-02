@@ -1,0 +1,53 @@
+# NZZ second reading, month ends 1984-04 to 1985-05: verification report
+
+Files: `nzz-readings-1984b-second.csv` (my blind reading, method `eye`), compared against `nzz-readings-1983-1985.csv` (first agent, not edited).
+All 14 months were done. Layout is as in `nzz-notes-1983-1985.md` (Zuerich running text, last unmarked print; Frankfurt, Tokio and New York lists). My `page` column is the PDF page index +1 or the printed page, best effort, and can be off by one; the issue date is reliable.
+
+## Method
+Each month was read blind (without the first agent's values), then compared. For differences I cut a new crop at 2.4x to 6x and read again. The comparison is therefore a double reading for every value both of us read; values only I read (see below) are single readings by me and are marked as such. Roche (Genussschein, from the "Vorboerse" boxes) is new; the first file has none. Industrial Bank of Japan (Tokio) was not read by me at all (the first agent has rows for 8 months), so IBJ remains single-read. Nestle PS, SKA (inkl. PS) and the other classes were read as in the first file. Swiss rows count each class separately.
+
+## Per month (compared = rows present in both files; unresolved = left as a definitional difference)
+| month | issue | compared | agreed | corrected (first file value -> new value) | unresolved |
+|---|---|---|---|---|---|
+| 1984-04 | 1984-05-02 | 22 | 22 | - | 0 |
+| 1984-05 | 1984-06-01 | 21 | 20 | slb 47.875 -> 47.75 (third read 2.4x: Schluss 47 3/4; 47 7/8 is the Vortag) | 0 |
+| 1984-06 | 1984-06-30 | 23 | 23 | - | 0 |
+| 1984-07 | 1984-08-02 | 22 | 22 | - | 0 |
+| 1984-08 | 1984-09-01 | 23 | 22 | ibm 123.25 -> 123.75 (third read 2.6x: 123 3/4; Yahoo ratio 4.184 fits 123.75) | 0 |
+| 1984-09 | 1984-09-29 | 21 | 21 | - | 0 |
+| 1984-10 | 1984-11-01 | 21 | 20 | nestle I 5310 -> 5300 (line "5315 tt 300L 10 R 10 300": the last unmarked print is the final 300; the first file stopped at "R 10") | 0 |
+| 1984-11 | 1984-12-01 | 22 | 19 | ibm 121.25 -> 121.125 (third read 6x, 121 1/8); siemens 454 -> 454.5 (my crop clear, the first agent noted its crop edge cut the value) | ciba-geigy N: mine 1070, first 1068 (see below) |
+| 1984-12 | 1985-01-03 | 2 | 1 | slb 38.375 -> 38.125 (third read 5x, 38 1/8; Yahoo 9.53125 x 4 = 38.125 exactly) | 0 |
+| 1985-01 | 1985-02-01 | 23 | 23 | - | 0 |
+| 1985-02 | 1985-03-01 | 24 | 24 | - | 0 |
+| 1985-03 | 1985-03-30 | 23 | 23 | - | 0 |
+| 1985-04 | 1985-05-02 | 23 | 23 | - | 0 |
+| 1985-05 | 1985-06-01 | 24 | 24 | - | 0 |
+| total | | 294 | 287 | 6 corrections, all in favour of my reading | 1 |
+
+Disagreement rate between independent readings: 7 of 294 (2.4 percent). Six of the seven were fractions or last-digit slips; one is a rule difference. Ciba-Geigy N 1984-11: the line ends "R 80ttt 68 70L". Under the first file's own stated rule (last print without a t-mark, an L print taken as it stands) the answer is 1070 (mine); the first agent took 1068, the last print before the final L. I kept 1070 flagged L; the value should be treated as +-2 (it is exactly the kind of tail-print ambiguity the first agent flagged).
+
+Values only I have (single readings by me, not verified): all Roche GS rows (14; several are low confidence: 1984-10, 1984-11, 1985-01, 1985-05 because the Vorboerse lines are full of forward-marked prints), Ciba-Geigy N 1984-04 (1035), Nestle I/N 1984-05 (ex Anrecht, 4940/2955), Sandoz PS 1984-07/09 (1005, 1115), Swissair I/N 1984-10 (1050, 843: the first file lacks them, and 1050 is a jump from 1020 earlier in the line), Swissair N 1984-11 (812) and 1985-03 (875) both completed from a one-digit abbreviated last print (low confidence), Nestle PS 1985-01 (1000, nearly all other prints marked t, low confidence), Ciba-Geigy N 1985-04 (1325, abbreviated prints, low), and the Frankfurt Vortag rows of 1984-12 (below). Roche A (bearer, 109500 in 1984-04) is only in the 1984-04 row and was not followed.
+
+## December 1984 (no Swiss table)
+Checked all December files: the issue of 31.12.1984 (32 pages) has no Zuerich/Schweizer Boersen pages (pages 5 to 30 inspected by headlines); the issue of 3.1.1985 (44 pages) has only the foreign lists ("Auslandboersen", pages 16 and 17 printed). I found no Swiss share table in either, so Swiss shares for 1984-12 stay missing. Foreign lists in the 3.1.1985 issue are headed "Kurse vom 2. Januar" and the first price column is the Vortag, i.e. the previous trading day, which is the last 1984 trading day (the paper does not name the date: 31.12. or 28.12.; Frankfurt may have been open on 31.12.). Values read twice by me from separate crops: BMW 372, Daimler-Benz 592, Siemens 473.5 (Vortag; Schluss 2.1. = 376 / 600 / 481), IBM 123 (agrees with the first agent), Schlumberger 38.125. The Frankfurt values are single-source in the sense that no other newspaper is available; they are consistent with boerse.de (BMW ratio 86.3 against 86.2 to 87.1 in neighbouring months). Treat them as plausible but with a date caveat.
+
+## Controls
+- IBM against Yahoo (printed / split-adjusted): constant 4.18 for all 14 months; range 4.163 to 4.194 (the spread is Yahoo's rounding and the 1/8 steps). Passes. Schlumberger against Yahoo slb.csv: constant 4.00 exactly in 13 of 14 months (1985-01 3.987), i.e. a 4:1 split since; this also confirms the 1/8 fractions I read (including the two Schlumberger values, 1984-05 and 1984-12, where I corrected the first file).
+- Nestle (bearer and registered) against the Journal de Geneve in `pilot-journal-de-geneve.csv`: all 10 pairs of 1985-01 to 1985-05 equal exactly (6140/3435, 6325/3370, 6300/3330, 6550/3425, 6330/3330). In addition I read the JdG Swiss table of 1.6.1985 (page crop kept in scratch only) for 31 May 1985 and compared 15 Swiss values: Swissair N 950, Swissair I 1168, SBG N 683, SBG I 3870, SBG PS 143.5, SBV I 406, N 288, PS 349, Sandoz I 8300, N 2840, PS 1405, Nestle 6330/3330, Ciba-Geigy I 3220, N 1320, PS 2515. All agree exactly with my NZZ readings.
+- Frankfurt prints against JdG (rows "JdG print" in the `*-raw.csv`): the overlap in my period is 1984-06 and 1985-03. 1984-06: BMW 399 vs 400.5, Daimler 578.5 vs 578, Siemens 394.5 vs 394 (my reading equals the first agent's). 1985-03: BMW 375 vs 378, Daimler 656 vs 662, Siemens 522 = 522. I re-read the 1985-03 Frankfurt page (BMW Vortag 380 / Schluss 375, Daimler 661/656, Siemens 526/522): the NZZ values are exactly as the first agent read them, so the differences are real differences between the two newspapers, not misreadings.
+- boerse.de monthly Schluss (EUR) against NZZ DM, as an independent check of the Frankfurt series (ratio should be constant while boerse.de's back-adjustment is constant): BMW 86.2 to 88.2 over all 14 months (1984-04/05/07 at 87.8 to 88.2, the rest 86.2 to 87.1); Siemens 31.5 to 32.2 up to 1985-02, then 30.1 to 30.3 from 1985-03 (a step of 5 percent that is a boerse.de back-adjustment between February and March 1985; NZZ March value 522 equals the JdG print, so the NZZ value is not the cause). No NZZ month stands out.
+
+### What is the NZZ Frankfurt column?
+Table header "Vortag / Schluss" under "Frankfurt fest/schwaecher" with the Commerzbank and FAZ indices, and the footnote box on the same page: "Halbfette Titel sind an der Zuercher Boerse kotiert. ... ex Dividende; ° Geldkurs. Saemtliche Auslandboersenkurse, einschliesslich Boersenindizes, stammen von Reuter (ohne Gewaehr)." So the column is Reuter's last quoted price of the day ("Schluss"), not an official fixing ("amtlicher Kurs", "Kassakurs") that the paper names; a degree sign marks a bid-only quote and none of BMW, Daimler or Siemens carries one in my 14 months. The paper does not say whether Reuter's Schluss is the last trade of the floor session or includes the afterhours market; differences of 0.5 to 6 DM against JdG (which prints something else, probably the amtlicher Kurs or the Kassakurs) are consistent with that. For the simulator: the NZZ Frankfurt column is a daily closing quote (Reuter), the JdG column is a different quote type; they should not be mixed within a series. This is an inference from the paper's own wording, not a finding that identifies JdG's column.
+
+### Daimler May 1985 (Vortag 701, Schluss 825)
+Re-read at high magnification in the issue of 1.6.1985 (Frankfurt page, "Kurse vom 31. Mai"): Daimler-Benz 701 / 825 is exactly as printed, so the first agent did not misread. The same row shows Deutsche Bank 433 / 556 (+28 percent) while Commerzbank 194.5 / 199 and Dresdner 227.5 / 231.5, BMW 384 / 385 and Siemens 559 / 563 are normal; the Deutsche Bank Vortag in March was 432 / 436 and Daimler Schluss in March 656 and April 675. The Zurich Mercedes Holding line the same day moves only 586 to 628. Hence two Vortag cells (Daimler, Deutsche Bank) look inconsistent with their own Schluss, and the Schluss 825 looks high compared with a Zurich move of +7 percent. I cannot decide from the paper whether Vortag or Schluss is the odd figure. Conclusion: the Daimler 1985-05 Frankfurt value (825) is exactly as printed but UNVERIFIED and doubtful; do not use it without a second newspaper for 31 May 1985 (the JdG issue of 1.6.1985 prints only Zurich quotes). I would leave it out of the series until then. I left the value in my CSV with a note.
+
+## Other observations
+- 1984-04 and 1985-04 (1 May holiday) and 1984-05 (Ascension, 31 May closed in Frankfurt) are handled as in the first file: Vortag columns used where the header names the next day; the notes in the rows say so. 1984-07 header 1 August (Vortag column = 31 July).
+- Month-to-month: no factor-2 jumps in any series. Largest moves: Swissair I 1020 -> 1050 inside the day of 1984-10-31 (printed), Roche GS 9300 (1984-08) to 8750 (1984-11). No split or class change in the period; Nestle ex-Anrecht (subscription right) 1984-05: bearer 5020 cum rights (Vortag) to 4940 ex, registered 3015 to 2955, a break of about 2 percent, not a split.
+- Bank "SBV PS": the Zurich table prints two PS lines for SBV ("PS" and "PS 1.1.85"); I used the line labelled PS, as the first agent did (1985-04 value 328 also appears in the "groesste Tagesgewinne/-verluste" box).
+
+## Error rate (honest estimate)
+Of 294 values read independently by two readings, 287 agree. Where both agree the remaining error chance is low (shared systematic reading rule: last unmarked print, L taken, abbreviated prints completed from the line); I estimate under 1 percent for agreed values, confirmed by the 25 exact JdG matches. My single-only values (about 25) carry perhaps 10 percent risk, the Roche and abbreviated-print ones more. Frankfurt rows are read correctly but are Reuter closes, not fixings.

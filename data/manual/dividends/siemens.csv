@@ -1,0 +1,21 @@
+# Siemens ordinary share dividends per share on the share basis of data/manual/siemens.csv and data/raw/yahoo/siemens.csv (SIE.DE), for the years Yahoo has none (Yahoo starts with February 2000, EUR 1.00 for FY1998/99).
+# Sources: Siemens Geschaeftsbericht 1998 (five-year table p.88: dividend per share DM 13, 13, 1.50, 1.50, 1.50 for 1993/94 to 1997/98, "ab 1996 je 5 DM-Aktie"; AGM 18.2.1999 p.45, ex dividend 19.2.1999 p.91; web.archive.org copy of
+#   https://www.siemens.com/investor/pool/en/investor_relations/downloadcenter/gb1998_d_1365088.pdf) and Geschaeftsbericht 1999 (p.97: EUR 1.00, 0.77, 0.77, 0.77, 6.65 for 1999 to 1995; p.58 AGM 24.2.2000, ex 25.2.2000), read 2026-10-02;
+#   for 1981 to 1991 contemporary Computerwoche news items (computerwoche.de archive, cited per line). Declared amounts are in data/manual/dividends/raw-siemens.csv.
+# Basis: siemens.csv header: series = boerse.de / 1.1139, and raw Frankfurt DM close of the DM 50 share / 30.2354 / boerse.de = g (1.0822 for 1980-06 to 1983-04, 1.002 from 1985-03; 30.2354 = 15.459 x 1.95583 = split 1:10, bonus 3:2 and
+#   correction 1.0306 of later years). So a declared DM amount per DM 50 share becomes DM / (30.2354 x g x 1.1139), and per DM 5 share (after the 1:10 split of 2.5.1996) 10 times that: 1.50 DM -> 0.4445 for g = 1.002.
+#   Control: for 1998 the NZZ prints of the DM 5 share divided by Yahoo are 3.37 (siemens.csv header) = 30.2354 x 1.002 x 1.1139 / 10; Yahoo's own EUR 1.00 of February 2000 equals the declared EUR 1 of the Geschaeftsbericht, i.e. Yahoo does NOT divide
+#   its dividends by the bonus-issue factor 1.5 x 1.0306 x 1.1139 that is in its prices (see NOTES): lines here follow the price basis.
+# Months: ex dates of boerse.de (27.3.1987 and 19.2.1999 and 25.2.2000 are confirmed by primary sources; the other ex dates are the secondary list only and are marked as such). Siemens' AGMs fall between February and early April.
+# NOT COVERED: FY1978/79 (paid 1980), FY1980/81 to FY1983/84 (1982 to 1985), FY1986/87 to FY1988/89 (1988 to 1990), FY1990/91 to FY1992/93 (1992 to 1994): no source with the DM amount found. boerse.de's amounts for these years are on an
+#   adjustment basis that is not consistent with the primary figures (see NOTES) and were not used.
+month,dividend,note
+1981-03,0.219493,FY1979/80; DM 8 (16 %) per DM 50 share; AGM 19.3.1981 in Berlin (Computerwoche 6.2.1981; 'Dividende von 16 Prozent vorgeschlagen'); g 1.0822 = regime 1980-06 to 1983-04
+1986-03,0.355592,FY1984/85; DM 12 per DM 50 share; derived: Computerwoche 28.11.1986 says the FY1985/86 dividend of DM 12 is unchanged; Computerwoche 8.11.1985 reports the increase to 12 as expected; month from boerse.de ex date 21.3.1986 (not independently confirmed)
+1987-03,0.355592,FY1985/86; DM 12 per DM 50 share; AGM 26.3.1987 (Computerwoche 28.11.1986 'Siemens-Dividende bleibt unveraendert'); boerse.de ex date 27.3.1987 agrees
+1991-04,0.385224,FY1989/90; DM 13 per DM 50 share (Computerwoche 8.2.1991: slight increase of the dividend to 13 Mark); month from boerse.de ex date 2.4.1991 (not independently confirmed)
+1995-02,0.385224,FY1993/94; DM 13 per DM 50 share (Siemens Geschaeftsbericht 1998 five-year table p.88); month from boerse.de ex date 24.2.1995
+1996-02,0.385224,FY1994/95; DM 13 per DM 50 share (Geschaeftsbericht 1998 p.88; EUR 6.65 in Geschaeftsbericht 1999 p.97); boerse.de ex date 26.2.1996 (the 1:10 split followed on 2.5.1996)
+1997-02,0.444490,FY1995/96; DM 1.50 per DM 5 share (Geschaeftsbericht 1998 p.88; 'ab 1996 je 5 DM-Aktie'); boerse.de ex date 14.2.1997
+1998-02,0.444490,FY1996/97; DM 1.50 per DM 5 share (Geschaeftsbericht 1998 p.88); boerse.de ex date 20.2.1998
+1999-02,0.444490,FY1997/98; DM 1.50 per DM 5 share; AGM 18.2.1999 and ex date 19.2.1999 (Geschaeftsbericht 1998 pp.45 and 91)

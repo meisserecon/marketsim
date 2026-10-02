@@ -1,0 +1,15 @@
+﻿# Raw declared Siemens dividends as found, unadjusted. Read 2026-10-02.
+# GB1998 / GB1999 = Siemens Geschaeftsbericht 1998 / 1999 (web.archive.org copies of siemens.com/investor/pool/en/investor_relations/downloadcenter/gb1998_d_1365088.pdf and gb1999_d_1365089.pdf).
+# CW = computerwoche.de archive (contemporary news agency items).
+financial_year,agm_or_ex_date,amount,currency,per_share,source
+1979/80,1981-03-19 (AGM),8.00,DM,DM 50 share (16 %),CW 1981-02-06 https://www.computerwoche.de/article/2873763/siemens-hv-stellt-wachstumsweichen.html
+1984/85,,12.00,DM,DM 50 share,derived from CW 1986-11-28 'unchanged' (https://www.computerwoche.de/article/2832132/siemens-dividende-bleibt-unveraendert.html) and CW 1985-11-08 (expected increase to 12)
+1985/86,1987-03-26 (AGM),12.00,DM,DM 50 share,CW 1986-11-28 (see above); total about DM 576 million on DM 2.4 billion dividend-entitled capital
+1989/90,,13.00,DM,DM 50 share,CW 1991-02-08 https://computerwoche.de/a/siemens-kann-mit-erreichtem-ergebnis-1990-zufrieden-sein,1138388 ('leichte Anhebung der Dividende auf 13 Mark')
+1993/94,,13.00,DM,DM 50 share,GB1998 p.88 five-year table
+1994/95,,13.00,DM,DM 50 share,GB1998 p.88; GB1999 p.97 EUR 6.65
+1995/96,,1.50,DM,DM 5 share (after 1:10 split of 2.5.1996),GB1998 p.88
+1996/97,,1.50,DM,DM 5 share,GB1998 p.88
+1997/98,1999-02-18 (AGM; ex 1999-02-19),1.50,DM,DM 5 share,GB1998 p.8 p.45 p.91
+1998/99,2000-02-24 (AGM; ex 2000-02-25),1.00,EUR,no-par share (DM 5 share before 1999),GB1999 p.58 p.97; Yahoo has it
+# Secondary ex dates (boerse.de Siemens Dividenden, read 2026-10-02; amounts not used): 1983-03-25, 1984-03-30, 1985-03-22, 1986-03-21, 1987-03-27, 1988-03-25, 1989-03-28, 1990-03-23, 1991-04-02, 1992-03-13, 1993-03-12, 1994-03-11, 1995-02-24, 1996-02-26, 1997-02-14, 1998-02-20, 1999-02-19, 2000-02-25.

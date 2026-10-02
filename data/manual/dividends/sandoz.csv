@@ -1,4 +1,21 @@
-# Sandoz bearer share dividends as declared in company notices printed in the NZZ (raw-swiss-dividends.csv), divided by 25,
-#   the divisor of the price series for those years (data/src/nzz.ts). INCOMPLETE: only the years listed were found so far; all other years pay nothing in the game.
+# Sandoz bearer share dividends as declared in company notices and meeting reports printed in the NZZ (raw-swiss-dividends.csv),
+#   gross, divided by the divisor of the price series at the time (data/src/nzz.ts): 25 for the original share, 5 after the 1991 split,
+#   1 after the 1994 split. The dividends paid in May 1991 and May 1994 were still declared per old share. Complete for 1980 to 1996.
 month,dividend,note
+1980-05,2.6,CHF 65 for 1979 (meeting report; month from meeting date); divided by 25
 1981-05,2.6,CHF 65 for 1980 paid 1981-05-18; divided by 25
+1982-05,2.6,CHF 65 for 1981 paid 1982-05-06; divided by 25
+1983-05,2.9,CHF 72.50 for 1982 paid 1983-05-06; divided by 25
+1984-05,3.2,CHF 80 for 1983 paid 1984-05-21; divided by 25
+1985-05,3.6,CHF 90 for 1984 paid 1985-05-08; divided by 25
+1986-05,4.8,CHF 100 plus 20 anniversary bonus for 1985 paid 1986-05-21; divided by 25
+1987-05,4.2,CHF 105 for 1986 paid 1987-05-07; divided by 25
+1988-05,4.4,CHF 110 for 1987 (meeting report; month from meeting date); divided by 25
+1989-05,4.8,CHF 120 for 1988 paid 1989-05-12; divided by 25
+1990-05,6,CHF 150 for 1989 paid 1990-05-14; divided by 25
+1991-05,6,CHF 150 for 1990 paid 1991-05-17 per old share; divided by 25
+1992-05,7,CHF 35 for 1991 paid 1992-05-15; divided by 5
+1993-05,9.4,CHF 47 for 1992 paid 1993-05-10; divided by 5
+1994-05,11.6,CHF 58 for 1993 paid 1994-05-16 per old share; divided by 5
+1995-05,12,CHF 12 for 1994 paid 1995-05-15
+1996-04,15,CHF 15 for 1995 paid 1996-04-26

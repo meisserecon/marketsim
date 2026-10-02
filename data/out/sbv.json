@@ -18,7 +18,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "manual/sbv.csv",
+ "source": "manual/sbv.csv; 18 dividends from manual/dividends/sbv.csv",
  "notes": "Converted from CHF at month-end FRED rate.",
  "end": {
   "month": "1998-05",
@@ -45,7 +45,7 @@
   {
    "month": "1980-03",
    "price": 99.919,
-   "income": 0
+   "income": 2.700513
   },
   {
    "month": "1980-04",
@@ -110,7 +110,7 @@
   {
    "month": "1981-04",
    "price": 82.8798,
-   "income": 0
+   "income": 2.474023
   },
   {
    "month": "1981-05",
@@ -170,7 +170,7 @@
   {
    "month": "1982-04",
    "price": 75.8815,
-   "income": 0
+   "income": 2.554931
   },
   {
    "month": "1982-05",
@@ -225,7 +225,7 @@
   {
    "month": "1983-03",
    "price": 77.919,
-   "income": 0
+   "income": 2.397507
   },
   {
    "month": "1983-04",
@@ -290,7 +290,7 @@
   {
    "month": "1984-04",
    "price": 76.5635,
-   "income": 0
+   "income": 2.448253
   },
   {
    "month": "1984-05",
@@ -350,7 +350,7 @@
   {
    "month": "1985-04",
    "price": 74.8077,
-   "income": 0
+   "income": 2.307692
   },
   {
    "month": "1985-05",
@@ -410,7 +410,7 @@
   {
    "month": "1986-04",
    "price": 159.9559,
-   "income": 0
+   "income": 3.585218
   },
   {
    "month": "1986-05",
@@ -470,7 +470,7 @@
   {
    "month": "1987-04",
    "price": 146.2424,
-   "income": 0
+   "income": 4.400812
   },
   {
    "month": "1987-05",
@@ -525,7 +525,7 @@
   {
    "month": "1988-03",
    "price": 121.4679,
-   "income": 0
+   "income": 4.770642
   },
   {
    "month": "1988-04",
@@ -590,7 +590,7 @@
   {
    "month": "1989-04",
    "price": 95.608,
-   "income": 0
+   "income": 3.884075
   },
   {
    "month": "1989-05",
@@ -650,7 +650,7 @@
   {
    "month": "1990-04",
    "price": 98.242,
-   "income": 0
+   "income": 4.825922
   },
   {
    "month": "1990-05",
@@ -715,7 +715,7 @@
   {
    "month": "1991-05",
    "price": 114.357,
-   "income": 0
+   "income": 4.722709
   },
   {
    "month": "1991-06",
@@ -770,7 +770,7 @@
   {
    "month": "1992-04",
    "price": 89.321,
-   "income": 0
+   "income": 4.61437
   },
   {
    "month": "1992-05",
@@ -835,7 +835,7 @@
   {
    "month": "1993-05",
    "price": 130.4195,
-   "income": 0
+   "income": 4.93479
   },
   {
    "month": "1993-06",
@@ -900,7 +900,7 @@
   {
    "month": "1994-06",
    "price": 147.8424,
-   "income": 0
+   "income": 6.003752
   },
   {
    "month": "1994-07",
@@ -950,7 +950,7 @@
   {
    "month": "1995-04",
    "price": 164.557,
-   "income": 0
+   "income": 6.98385
   },
   {
    "month": "1995-05",
@@ -1015,7 +1015,7 @@
   {
    "month": "1996-05",
    "price": 178.0576,
-   "income": 0
+   "income": 6.394884
   },
   {
    "month": "1996-06",
@@ -1085,7 +1085,7 @@
   {
    "month": "1997-07",
    "price": 270.0561,
-   "income": 0
+   "income": 6.602839
   },
   {
    "month": "1997-08",

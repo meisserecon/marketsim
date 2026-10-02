@@ -1,0 +1,23 @@
+# Industrial Bank of Japan dividends in yen per share, on the basis of data/manual/ibj.csv (NZZ Tokyo close in yen, unadjusted; no split or free distribution 1985 to 2000, see raw-ibj.csv).
+# So the declared yen amount per share is used as it is. Declared amounts and sources: raw-ibj.csv (IBJ earnings releases and disclosure magazines 1997 to 2000 via web.archive.org, read 2026-10-02).
+# Months: interim in December (payment from 10 December in 1997 and 1998 per the interim releases); year-end in June, the month of the ordinary general meeting (27.6.1997, 26.6.1998, 29.6.1999),
+#   after which Japanese companies start paying; the exact payment day was not found, so for the other years the months are assumed from this pattern.
+# Yield: 0.1 to 0.7 percent per half year, about 0.3 percent a year until 1997: genuine for Japanese bank shares of the time (IBJ's market value was about 7 trillion yen on 2.35 billion shares), not a basis error.
+# NOT COVERED: fiscal years ended March 1985 to March 1992 (payments June 1985 to June 1992): no source found (EDGAR has no IBJ filer; the archived ibjbank.co.jp starts with the 1997 documents; no scanned annual reports found).
+month,dividend,note
+1992-12,4.25,FY to 1993-03; interim 4.25 yen per share; record 1992-09-30; paid December 1992 (month assumed); S1 five-year table (interim in brackets)
+1993-06,4.25,FY to 1993-03; year-end 4.25 yen per share; record 1993-03-31; paid June 1993 (month assumed); derived: S1 annual 8.50 minus interim 4.25
+1993-12,4.25,FY to 1994-03; interim 4.25 yen per share; record 1993-09-30; paid December 1993 (month assumed); S1
+1994-06,4.25,FY to 1994-03; year-end 4.25 yen per share; record 1994-03-31; paid June 1994 (month assumed); derived: S1 annual 8.50 minus interim 4.25
+1994-12,4.25,FY to 1995-03; interim 4.25 yen per share; record 1994-09-30; paid December 1994 (month assumed); S1
+1995-06,4.25,FY to 1995-03; year-end 4.25 yen per share; record 1995-03-31; paid June 1995 (month assumed); derived: S1 annual 8.50 minus interim 4.25
+1995-12,4.25,FY to 1996-03; interim 4.25 yen per share; record 1995-09-30; paid December 1995 (month assumed); S2; S1
+1996-06,4.25,FY to 1996-03; year-end 4.25 yen per share; record 1996-03-31; paid June 1996 (month assumed); S2; S1
+1996-12,4.25,FY to 1997-03; interim 4.25 yen per share; record 1996-09-30; paid December 1996 (month assumed); S2; S1
+1997-06,4.25,FY to 1997-03; year-end 4.25 yen per share; record 1997-03-31; paid after the AGM of 27.6.1997; S2; S1 ("前期同様１株につき４円25銭（年間８円50銭）")
+1997-12,4.25,FY to 1998-03; interim 4.25 yen per share; record 1997-09-30; paid from 10.12.1997; S4; S3; S5
+1998-06,4.25,FY to 1998-03; year-end 4.25 yen per share; record 1998-03-31; paid after the AGM of 26.6.1998; S3; S5; S7 (annual 8.50)
+1998-12,3.50,FY to 1999-03; interim 3.50 yen per share; record 1998-09-30; paid from 10.12.1998; S9; S5
+1999-06,3.50,FY to 1999-03; year-end 3.50 yen per share; record 1999-03-31; paid after the AGM of 29.6.1999; S5; S7 (annual 7.00)
+1999-12,3.50,FY to 2000-03; interim 3.50 yen per share; record 1999-09-30; paid December 1999 (month assumed); S6
+2000-06,3.50,FY to 2000-03; year-end 3.50 yen per share; record 2000-03-31; paid June 2000 (month assumed); S6

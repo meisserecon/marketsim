@@ -1,0 +1,30 @@
+# Raw declared dividends of The Industrial Bank of Japan (TSE 8302), yen per common share (par 50 yen), as found. Retrieved 2026-10-02 (web.archive.org copies of ibjbank.co.jp and mizuho-fg.co.jp).
+# Fiscal year ends 31 March. Interim: record date 30 September, paid in December. Year-end: record date 31 March, paid after the ordinary general meeting at the end of June.
+# S1 = disclosure magazine 1997 (five-year table "8.50円 （4.25）" = annual (interim)): https://web.archive.org/web/19980526180038/http://www.ibjbank.co.jp:80/Japanese/jouhou/pdf/ibj97d.pdf
+# S2 = earnings release (kessan tanshin) for March 1997, "(2)配当状況 ... 平成9年3月期 円 銭 8 50 / 4 25 / 4 25 ... 平成8年3月期 8 50 / 4 25 / 4 25"; AGM 27 June 1997: https://web.archive.org/web/1999/http://www.ibjbank.co.jp:80/Japanese/zaimu/tansinH0903/tan001.html
+# S3 = tanshin March 1998: https://web.archive.org/web/1999/http://www.ibjbank.co.jp:80/Japanese/zaimu/tansin/tan001.html
+# S4 = interim tanshin September 1997 ("中間配当支払開始日 平成９年１２月１０日"): https://web.archive.org/web/1999/http://www.ibjbank.co.jp:80/Japanese/zaimu/tansin9711/tan001.html
+# S5 = tanshin March 1999, "11年3月期 7 00 / 3 50 / 3 50 ... 10年3月期 8 50 / 4 25 / 4 25"; AGM 29 June 1999: https://web.archive.org/web/1999/http://www.ibjbank.co.jp:80/Japanese/zaimu/tansinH1103/tan001.html
+# S6 = disclosure magazine 2000 ("平成11年度の普通株式配当金については、中間配当金と同様、1株当たり3円50銭（年間7円）としました"): https://web.archive.org/web/20250629134644/https://www.mizuho-fg.co.jp/investors/disclosure/archive/data0003d_ibj/pdf/ibj00d.pdf
+# S7 = English annual report 1999, highlights "Cash Dividends 7.00 8.50": https://web.archive.org/web/20000522200212/http://www.ibjbank.co.jp:80/English/corporate/99pdf/99ar_1.pdf
+# S9 = interim tanshin September 1998 (interim 3.50, paid from 10 December 1998): https://web.archive.org/web/1999/http://www.ibjbank.co.jp:80/Japanese/zaimu/tansin9811/tansin001.html
+# S2 and S5 were re-read by the lead session; the others by a research subagent in the same session.
+# Capital (S1 and S6, "資本金の推移"): rights issues to shareholders 1.8.1981 (1:0.2 at par), 1.10.1987 (1:0.05 at an intermediate price), 1.10.1988 (1:0.08), 1.11.1996 (1:0.08); third-party allotments
+#   25.12.1998 and 31.3.1999 (preferred shares). No stock split and no free share distribution 1972 to 2000.
+fiscal_year_end,half,amount_yen,record_date,payment,source
+1993-03,interim,4.25,1992-09-30,December 1992 (month assumed),S1 five-year table (interim in brackets)
+1993-03,year-end,4.25,1993-03-31,June 1993 (month assumed),derived: S1 annual 8.50 minus interim 4.25
+1994-03,interim,4.25,1993-09-30,December 1993 (month assumed),S1
+1994-03,year-end,4.25,1994-03-31,June 1994 (month assumed),derived: S1 annual 8.50 minus interim 4.25
+1995-03,interim,4.25,1994-09-30,December 1994 (month assumed),S1
+1995-03,year-end,4.25,1995-03-31,June 1995 (month assumed),derived: S1 annual 8.50 minus interim 4.25
+1996-03,interim,4.25,1995-09-30,December 1995 (month assumed),S2; S1
+1996-03,year-end,4.25,1996-03-31,June 1996 (month assumed),S2; S1
+1997-03,interim,4.25,1996-09-30,December 1996 (month assumed),S2; S1
+1997-03,year-end,4.25,1997-03-31,after the AGM of 27.6.1997,S2; S1 ("前期同様１株につき４円25銭（年間８円50銭）")
+1998-03,interim,4.25,1997-09-30,from 10.12.1997,S4; S3; S5
+1998-03,year-end,4.25,1998-03-31,after the AGM of 26.6.1998,S3; S5; S7 (annual 8.50)
+1999-03,interim,3.50,1998-09-30,from 10.12.1998,S9; S5
+1999-03,year-end,3.50,1999-03-31,after the AGM of 29.6.1999,S5; S7 (annual 7.00)
+2000-03,interim,3.50,1999-09-30,December 1999 (month assumed),S6
+2000-03,year-end,3.50,2000-03-31,June 2000 (month assumed),S6

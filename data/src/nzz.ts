@@ -151,20 +151,6 @@ const SPECS: Spec[] = [
     ],
   },
   {
-    id: "swissair", series: "swissair", currency: "CHF",
-    segments: [
-      { cls: "I", until: "1993-04", divisor: 5 },
-      { cls: "N", from: "1993-05", until: "1998-04", divisor: 5 },
-      { cls: "N", from: "1998-05", divisor: 1 },
-    ],
-    header: [
-      "Swissair (from 1997 SAirGroup): bearer share until April 1993, then the registered share, month-end close in CHF on the share basis of 2001.",
-      "Divisor 5 until April 1998: the paper shows the registered share at 1962 on 30.4.1998 and 453 on 29.5.1998 with the year range restated",
-      "from 2170/1815 to 457/363 (1-for-5 split). Bearer and registered shares had the same nominal value and traded within a few percent of each other.",
-      "March 1999 is missing (the issue prints only an intraday snapshot). Dividends were not collected.",
-    ],
-  },
-  {
     id: "sandoz", series: "sandoz", currency: "CHF",
     segments: [
       { cls: "I", until: "1991-04", divisor: 25 },
@@ -176,18 +162,6 @@ const SPECS: Spec[] = [
       "Divisors: 25 until April 1991, 5 until May 1994. Evidence: the registered share goes from 11500 (30.4.1991) to 2400 (31.5.1991) with the year range",
       "restated, and the bearer share is printed at 10800 on 30.3.1990 and at 2470 on 31.7.1991; then 3710 (29.4.1994) to 718 (30.6.1994), year range restated.",
       "Last quote 1518 on 29.11.1996, before the merger with Ciba-Geigy into Novartis.",
-    ],
-  },
-  {
-    id: "ciba-geigy", series: "ciba-geigy", currency: "CHF",
-    segments: [
-      { cls: "I", until: "1992-06", divisor: 5 },
-      { cls: "I", from: "1992-07", divisor: 1 },
-    ],
-    header: [
-      "Ciba-Geigy bearer share, month-end close in CHF on the share basis of 1996.",
-      "Divisor 5 until June 1992: the paper shows 3320 on 30.6.1992 and 662 on 31.7.1992 with the year range restated (1-for-5 split).",
-      "Last quote 1611 on 29.11.1996, before the merger with Sandoz into Novartis.",
     ],
   },
   {
@@ -305,7 +279,6 @@ ratioReport("SBG I/N 1993-1998", "ubs|I", "ubs|N", "1993-01", "1998-05");
 ratioReport("SBG I/N 1980-1988", "ubs|I", "ubs|N", "1980-01", "1988-12");
 ratioReport("SBV I/N 1993-05..1996-04", "sbv|I", "sbv|N", "1993-05", "1996-04");
 ratioReport("SBV I/N 1980-1987", "sbv|I", "sbv|N", "1980-01", "1987-01");
-ratioReport("Swissair I/N 1989-1993", "swissair|I", "swissair|N", "1989-01", "1993-04");
 ratioReport("Nestlé I/N 1980-1988-10", "nestle|I", "nestle|N", "1980-01", "1988-10");
 ratioReport("Nestlé I/N 1988-11..1993-04", "nestle|I", "nestle|N", "1988-11", "1993-04");
 ratioReport("Kreditanstalt I/N 1994-1995", "credit-suisse|I", "credit-suisse|N", "1994-01", "1995-05");

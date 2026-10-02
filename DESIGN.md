@@ -35,7 +35,7 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Delisting (still a going concern):** the position is sold automatically at the last price.
 - **Wind-down / bankruptcy:** the position goes to zero.
 - **Merger:** the position is converted into shares of the successor at the merger ratio
-  (Sandoz and Ciba-Geigy into Novartis, Credit Suisse into UBS).
+  (Sandoz into Novartis, Bankverein and Credit Suisse into UBS).
 - **Spin-offs** are folded into the parent's price history, as Yahoo Finance does. The player
   implicitly keeps the spun-off value in the parent position.
 
@@ -56,8 +56,10 @@ on their corporate end event.
   Pets.com, WorldCom as failures.
 - **International:** Sony, Siemens (1996), Nokia (1994).
 - **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
-- **Swiss:** Nestlé, Novartis with Sandoz and Ciba-Geigy before 1996, UBS as the continuation
-  of Bankgesellschaft with Bankverein separately until the 1998 merger, Credit Suisse, Swissair.
+- **Swiss:** Nestlé, Novartis with Sandoz before 1996, UBS as the continuation of
+  Bankgesellschaft with Bankverein separately until the 1998 merger, Credit Suisse.
+  Ciba-Geigy and Swissair were dropped for simplicity; their month-end prices are read and
+  kept in `data/manual/raw/` should they be wanted again.
 - **Japanese bubble:** Industrial Bank of Japan (merged into Mizuho in 2000).
 - **Other failures:** Enron, Lehman Brothers.
 
@@ -103,7 +105,7 @@ Rules the engine fixes that were previously open:
 - Cash is not one of the five positions. It is the sixth, always present.
 - Fractional units are allowed, so players can invest a USD amount.
 - A merger converts the position into the successor at both assets' final-month prices, which
-  preserves value and avoids share ratios. Sandoz and Ciba-Geigy become Novartis, Bankverein
+  preserves value and avoids share ratios. Sandoz becomes Novartis, Bankverein
   and Credit Suisse become UBS, Xstrata becomes Glencore. Industrial Bank of Japan is paid out
   in cash because Mizuho is not in the game.
 - An asset is invisible before its first month and untradable after its last.

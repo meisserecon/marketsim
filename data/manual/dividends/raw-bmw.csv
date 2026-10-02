@@ -1,7 +1,21 @@
 # Raw declared BMW ordinary-share dividends as found, unadjusted. Read 2026-10-02.
 # BMW AR 1999 = Annual Report 1999 BMW Group, https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf, table "The BMW share" (PDF page 39): "Dividend, ordinary share: 6.90 / 7.67 / 10.23 / 10.23 / 0.40"
 #   in euro, footnote "Dividend in 1999 per 1 euro par value share; in previous years per DM 50 par value share".
+# Second session 2026-10-02: Die Welt = archive.org DieWelt<year>GermanyGerman daily OCR texts (URL pattern https://archive.org/download/DieWelt1983GermanyGerman/<Mon DD YYYY, Die Welt, #nnn, Germany (de)>_djvu.txt); quotes as OCR'd.
 financial_year,payment_ex_date,amount,currency,per_share,source
+1978,,,DM,DM 50 ordinary share,NOT FOUND (Die Zeit 16.2.1979 https://www.zeit.de/1979/08/firmen-und-fakten only expects 'wieder eine Dividende von 18 Prozent'; forecast not used)
+1979,,,DM,DM 50 ordinary share,NOT FOUND
+1980,1981 (AGM date not found),10.00 (20 %),DM,DM 50 ordinary share,Die Zeit 22.5.1981 https://www.zeit.de/1981/22/manager-und-maerkte ('Auch fuer 1980 bekommt Quandt mit zwanzig Prozent eine stattliche Dividende'); amount derived from the percentage
+1981,1982-07-01 (ex; boerse.de),9.00 (18 %),DM,DM 50 ordinary share,derived: Die Welt 6.5.1983 https://archive.org/download/DieWelt1983GermanyGerman/May%2006%201983%2C%20Die%20Welt%2C%20%23105%2C%20Germany%20%28de%29_djvu.txt ('Eine auf zehn (neun) Mark je 50-Mark-Aktie erhoehte Dividende'); Die Welt 8.7.1983 ('Dividende von 18 auf 20 Prozent')
+1982,1983-07-08 (payment from; AGM 7.7.1983),10.00,DM,DM 50 ordinary share (DM 5 on the half-entitled new capital of DM 100 million),Die Welt 8.7.1983 https://archive.org/download/DieWelt1983GermanyGerman/Jul%2008%201983%2C%20Die%20Welt%2C%20%23156%2C%20Germany%20%28de%29_djvu.txt (payment notice; OCR 'Dividende vonlO DM ]e Aktie zu 5G Dr.l ... auf das voll dlvidendenberechtigie Grundkapital von 500 Mio. DM')
+1983,1984-07 (AGM 5.7.1984),11.00 + 1.00 bonus,DM,DM 50 ordinary share,Die Welt 4.5.1984 https://archive.org/download/DieWelt1984GermanyGerman/May%2004%201984%2C%20Die%20Welt%2C%20%23104%2C%20Germany%20%28de%29_djvu.txt ('neben einer auf 11 (10) DM aufgestockten Dividende einen Bonus von einer DM je 50-DM-Aktie'); payment notice Die Welt 9.7.1984; Die Zeit 11.5.1984 https://www.zeit.de/1984/20/manager-und-maerkte ('von 20 auf 22 Prozent ... zweiprozentigen Bonus')
+1984,1985-07-12 (payment from; AGM 11.7.1985),12.50,DM,DM 50 ordinary share,Die Welt 12.7.1985 https://archive.org/download/DieWelt1985GermanyGerman/Jul%2012%201985%2C%20Die%20Welt%2C%20%23159%2C%20Germany%20%28de%29_djvu.txt (payment notice; OCR '1230 DM Je Aktie zu 50 DM' = 12.50; AGM report '12£0 (11 plus 1) DM'); Die Welt 25.5.1985 ('auf 12,50 DM gestiegenen Ausschuettung ... 150 (144) Mio DM')
+1985,1986-07 (AGM 3.7.1986),12.50,DM,DM 50 ordinary share,Die Welt 4.7.1986 https://archive.org/download/DieWelt1986GermanyGerman/Jul%2004%201986%2C%20Die%20Welt%2C%20%23152%2C%20Germany%20%28de%29_djvu.txt (payment notice 'Dividende von 12.50 DM je Aktie zu 50 DM ... Gewinnanteilschein Nr. 36'); Die Welt 7.5.1986 (proposal 'unveraenderte Dividende')
+1986,,,DM,DM 50 ordinary share,NOT FOUND
+1987,,,DM,DM 50 ordinary share,NOT FOUND
+1988,,,DM,DM 50 ordinary share,NOT FOUND
+1989,1990-06-01 (ex; boerse.de),12.50,DM,DM 50 ordinary share,taz 23.1.1991 https://taz.de/BMW-mit-nur-wenig-Wachstum/!1735947/ ('BMW hatte fuer 1989 eine Dividende von 12,50 DM je Aktie gezahlt')
+1990 to 1994,,,DM,DM 50 ordinary share,NOT FOUND (AGMs 16.5.1991 taz 23.1.1991; 12.5.1992 taz 13.5.1992; 17.5.1995 taz 18.5.1995; no amounts)
 1995,1996-05-15,6.90,EUR (= DM 13.50 at 1.95583),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de BMW St Dividenden
 1996,1997-05-16,7.67,EUR (= DM 15.00),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de
 1997,1998-05-13,10.23,EUR (= DM 20.00),DM 50 ordinary share,BMW AR 1999 table; ex date boerse.de

@@ -1,0 +1,19 @@
+# Raw declared Sony Corporation dividends, yen per share of common stock (1 ADS = 1 share), as found. Retrieved 2026-10-02.
+# Fiscal year then ended 31 October; interim record date 30 April, year-end record date 31 October (payment after the January general meeting).
+# P1 = Sony, "資本金・発行済株式総数・配当金の推移" (capital, shares and dividends by fiscal year), web.archive.org copy of http://www.sony.co.jp/SonyInfo/IR/stock/capital_J.pdf (capture 2015-08-24):
+#   "1980年10月 30.00 / 1981年10月 35.00 / 1982年10月 ... 44.00 / 1983年10月 44.00 / 1984年10月 44.00 / 1985年10月 44.00"; stock splits 1:1.1 on 20.11.1991 and 1:2 on 19.5.2000; no free distribution after 1975.
+# FT = Financial Times daily texts in the archive.org collections FinancialTimes1980UKEnglish / 1982 / 1984 (OCR):
+#   17.6.1980: "The interim dividend has been raised from Y12.5 a share to Y15." (https://archive.org/download/FinancialTimes1980UKEnglish/Jun%2017%201980%2C%20Financial%20Times%2C%20%2328194%2C%20UK%20%28en%29_djvu.txt)
+#   18.6.1982: "Sony increased its half-year dividend by Y4.50 to Y22 a share." (https://archive.org/download/FinancialTimes1982UKEnglish/Jun%2018%201982%2C%20Financial%20Times%2C%20%2328802%2C%20UK%20%28en%29_djvu.txt)
+#   20.12.1984: "a final dividend of Y22 per ADR for an unchanged total of Y44 for the year" (https://archive.org/download/FinancialTimes1984UKEnglish/Dec%2020%201984%2C%20Financial%20Times%2C%20%2329505%2C%20UK%20%28en%29_djvu.txt; read by the research subagent only)
+# P1 and the FT texts of 1980 and 1982 were re-read by the lead session.
+fiscal_year,half,amount_yen,record_date,source
+FY Oct-1979,interim,12.50,1979-04-30,FT 17.6.1980 (previous interim); before the game
+FY Oct-1980,interim,15.00,1980-04-30,FT 17.6.1980
+FY Oct-1980,year-end,15.00,1980-10-31,derived: P1 annual 30.00 minus interim 15.00
+FY Oct-1981,interim,17.50,1981-04-30,derived: P1 annual 35.00 minus 17.50 (see next line)
+FY Oct-1981,year-end,17.50,1981-10-31,derived: FT 18.6.1982 interim 22 = increase of 4.50; whether the comparison is with the previous half (year-end FY1981) or with the previous interim (FY1981) both halves of FY1981 come out at 17.50 with P1's 35.00
+FY Oct-1982,interim,22.00,1982-04-30,FT 18.6.1982
+FY Oct-1982,year-end,22.00,1982-10-31,derived: P1 annual 44.00 minus interim 22.00
+FY Oct-1983,both,44.00 total,,P1 (halves not found; Yahoo has these from 1983-04)
+FY Oct-1984,year-end,22.00,1984-10-31,FT 20.12.1984 (total 44 unchanged); calibration: Yahoo 1984-10 0.006727 x 11 = 0.0740 USD against 22 / 245.7 = 0.0895 USD gross

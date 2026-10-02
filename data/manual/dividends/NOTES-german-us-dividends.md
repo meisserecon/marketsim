@@ -25,6 +25,16 @@ Months: May for all four (boerse.de ex dates 15.5.96, 16.5.97, 13.5.98, 19.5.99;
 Yields: 1996 1.6, 1997 1.1, 1998 1.1, 1999 1.7 percent.
 Open: 15 payments (1979 to 1995, ex dates mostly early July until 1989, 1.6.1990, then May according to boerse.de) need the DM amounts from BMW annual reports 1978 to 1994 (not online) or contemporary newspaper tables.
 
+### BMW, second pass (2026-10-02)
+
+Added 7 payments: FY1980 DM 10 (1981-07), FY1981 DM 9 (1982-07), FY1982 DM 10 (1983-07), FY1983 DM 11 + DM 1 bonus (1984-07), FY1984 DM 12.50 (1985-07), FY1985 DM 12.50 (1986-07), FY1989 DM 12.50 (1990-06), all per DM 50 ordinary share.
+Sources: Die Welt daily issues 1983 to 1986 on archive.org (OCR text; BMW's own payment notices for FY1982, FY1983, FY1984, FY1985 with AGM dates 7.7.1983, 5.7.1984, 11.7.1985, 3.7.1986), Die Zeit (FY1980 as "zwanzig Prozent", FY1982/83 as 20 and 22 percent plus a 2 percent bonus), taz 23.1.1991 (FY1989). FY1981 is derived from the prior-year figures in brackets ("zehn (neun) Mark", "von 18 auf 20 Prozent"); FY1980 is derived from the percentage of the DM 50 par value. Die Welt exists on archive.org only for 1983 to 1986.
+Still missing: FY1978, FY1979 (payments 1979, 1980), FY1986 to FY1988 (1987 to 1989), FY1990 to FY1994 (1991 to 1995). Tried: Spiegel (site search is script-only, a bulk scan hit a bot check and was stopped), Die Zeit and taz teasers, archive.org (Hoover's handbooks with ten-year DM rows are lending-restricted), Wayback copies of bmwgroup.com (only the 2000 report, in euro, adjusted).
+Factor: DM / (50.8516 x R x 0.804) with R of the regime at the ex date (1.886 until 1982-07, 1.7065 until the rights issue of 28.7.1986, 1.449 from 1989-08 to 1991-05). The FY1985 dividend went ex on 4.7.1986, before that rights issue.
+Months: payment month from the notices for 1983 to 1986; boerse.de ex dates for 1982 (1.7.) and 1990 (1.6.); 1981 assumed July (no date found; all known AGMs and ex dates 1982 to 1989 are early July).
+Yields: 1981 5.3, 1982 4.4, 1983 2.6, 1984 3.3, 1985 3.2, 1986 2.3, 1990 2.1 percent. The 1981 yield is high but matches the raw quote (DM 10 on a Frankfurt close of about DM 190).
+boerse.de check: its adjusted amounts for 1982 to 1986 are 0.100, 0.117, 0.131, 0.150, 0.153; the lines here are 1.17, 1.23, 1.31, 1.19 and 1.17 times these, which confirms again that boerse.de's dividend basis is not usable.
+
 ## Siemens (siemens)
 
 Covered (9 lines): payments 1981-03 (FY1979/80), 1986-03 (FY1984/85), 1987-03, 1991-04, 1995-02, 1996-02, 1997-02, 1998-02, 1999-02. Missing: FY1978/79 and FY1980/81 to FY1983/84 (payments 1980, 1982 to 1985), FY1986/87 to FY1988/89 (1988 to 1990), FY1990/91 to FY1992/93 (1992 to 1994) - 11 payments. No primary source with the amounts exists online in what was searchable: Siemens' investor archive starts with the 1998 report; Siemens Historical Institute reports are not online; Computerwoche's archive has only a few dividend items (found: 6.2.1981, 28.11.1986, 8.2.1991; one more search snippet mentions an "unchanged 16 percent / DM 8, DM 283 million" proposal whose year could not be established).
@@ -33,6 +43,28 @@ Factor: DM per DM 50 share / (30.2354 x g x 1.1139), with g = 1.0822 for 1980-06
 Yields (dividend / series price of the month): 1981 3.3, 1986 1.7, 1987 1.8, 1991 2.2, 1995 1.9, 1996 1.6, 1997 1.8, 1998 1.3, 1999 1.3 percent.
 Months: 1987-03 (AGM 26.3.1987, Computerwoche), 1981-03 (AGM 19.3.1981, Computerwoche) and 1999-02 are primary; 1986-03, 1991-04, 1995-02 to 1998-02 use the ex dates of the boerse.de table (secondary; the table's ex dates for 1987, 1999 and 2000 agree with primary sources). Siemens' AGM month varies between February and April, so a missing year must not be guessed.
 Conflicts/warnings: (1) boerse.de's Siemens dividend amounts are not usable: against the primary DM amounts they imply inconsistent factors (e.g. 0.365 for 1986 and 0.388 for 1987 although the company says DM 12 unchanged). (2) Yahoo's own dividend of EUR 1.00 in 2000-02 is the declared amount, not divided by the 1.5 x 1.0306 x 1.1139 = 1.72 that is in Yahoo's prices; so Yahoo's Siemens dividends overstate the price-basis dividend by that factor (price basis 0.58); Yahoo's 2.4 in 2001-02 looks even less consistent. The lines here follow the price basis, so there is a step between 1999 and 2000.
+
+### Siemens, second pass (2026-10-02)
+
+Added 10 of the 11 missing payments from contemporary news items: Computerwoche (computerwoche.de archive, searched through its WordPress search) and the taz archive (taz.de, from 1986). Amounts per DM 50 share: FY1978/79 8 (paid 1980-03), FY1980/81 8 (1982-03), FY1982/83 8 (1984-03), FY1983/84 10 (1985-03), FY1986/87 11 (cut from 12; 1988-03), FY1987/88 11 (1989-03), FY1988/89 12.50 (1990-03), FY1990/91 13 (1992-03), FY1991/92 13 (1993-03), FY1992/93 13 (1994-03). Still missing: FY1981/82 (paid 1983); no source found.
+Read directly: 1978/79, 1980/81, 1983/84, 1986/87, 1987/88, 1988/89, 1991/92. Derived from wording: 1982/83 ("Im Vorjahr waren acht Mark", "von acht auf zehn"), 1990/91 (FY1991/92 13 DM "unveraendert"), 1992/93 (FY1993/94 13 DM "wie im letzten Jahr"). Most amounts are the board's proposal; AGM reports confirm FY1986/87 and FY1988/89. The chain is consistent with the earlier lines: 10 -> 12 (CW 29.11.1985 "zwoelf (zehn)"), 12 -> 12 -> 11 -> 11 -> 12.50 -> 13 (CW 8.2.1991 "leichte Anhebung ... auf 13").
+Months: AGM month where the AGM date was found (1980, 1988, 1989, 1993), otherwise the boerse.de ex date (1984, 1985, 1990, 1992, 1994); 1982 has neither and is "month assumed March".
+Factor g: 1.1196 for 1980-03, 1.0822 for 1982, 1.048 for 1984, 1.002 from 1985 (for 1985-03 it is assumed that the 1984/85 capital measure was before the ex date of 22.3.1985; with g 1.048 the line would be 4.6 percent lower).
+Yields: 1980 3.2, 1982 3.6, 1984 2.0, 1985 1.9, 1988 3.1, 1989 2.1, 1990 1.5, 1992 1.9, 1993 2.0, 1994 1.9 percent.
+
+## Industrial Bank of Japan (ibj)
+
+Covered: 16 half-yearly dividends, December 1992 to June 2000 (fiscal years to March 1993 to March 2000): 4.25 yen per half until the interim of December 1997 (8.50 a year), 3.50 from December 1998 (7.00 a year). Sources: IBJ's own earnings releases (tanshin) for March 1997, March 1998, March 1999 and the interims of September 1997 and 1998, the disclosure magazines 1997 and 2000 (web.archive.org copies of ibjbank.co.jp and mizuho-fg.co.jp), the English annual report 1999. The year-end halves of FY1993 to FY1995 are the five-year table's annual 8.50 minus its interim 4.25.
+Basis: the NZZ price is the unadjusted yen quote; IBJ had no split or free distribution 1972 to 2000 (only paid rights issues 1987, 1988, 1996 and allotments 1998/99), so the declared yen per share is used as is.
+Months: interim December (paid from 10 December in 1997 and 1998), year-end June (AGM end of June); month assumed for the years without a date.
+Yields: 0.13 to 0.24 percent per half until mid-1997, 0.36 to 0.67 percent after the price fell; low but genuine for Japanese banks of the time.
+Missing: fiscal years to March 1985 to March 1992 (payments June 1985 to June 1992). No source: EDGAR has no IBJ filer, the archived IBJ site starts with the 1997 documents, no scanned annual reports and no Financial Times item with IBJ dividends were found.
+
+## Sony (sony)
+
+Covered: six half-yearly dividends 1980-04 to 1982-10 (15, 15, 17.50, 17.50, 22, 22 yen per share), converted to USD per ADS at the FRED month-end yen rate and divided by Yahoo's split factor 11. Sources: Sony's own table of capital and dividends (annual 30, 35, 44 yen for FY October 1980, 1981, 1982) and the Financial Times of 17.6.1980 (interim 15) and 18.6.1982 (interim 22, an increase of 4.50); the other halves are annual minus interim.
+Month: record-date month (April, October), the convention of Yahoo's own Sony dividends from 1983; actual payment came later.
+Basis check: Yahoo's 1984-10 dividend times 11 is 0.0740 USD against the declared 22 yen = 0.0895 USD, i.e. Yahoo is about 17 percent lower than the gross amount (withholding tax or another rate); the lines here are gross, so there is a step to the Yahoo years. Yields 0.40 to 0.76 percent per half, about 1 percent a year, as in Yahoo's 1983 to 1985 rows.
 
 ## Citicorp (c): lineage finding, no file written
 
@@ -67,6 +99,7 @@ Factor and control: enron.csv divides as-then amounts by 8, 4, 2, 1 for the spli
 Yield: 1990 4.5, 1991 4.0 percent (quarterly 0.9 to 1.2); 2001 two payments 0.6 percent of the average price.
 Months: last month of the calendar quarter, as enron.csv does for 1992 to 2000 (the filings give the quarter, not the payment date).
 2001 Q3 and Q4: the 10-Q for Q3 2001 shows dividends paid of $394 million for nine months against $396 million in 2000, compatible with three common payments of 0.125, but no per-share figure was retrieved, so the quarter is left out. A search summary of eepower.com (page blocked, not read) says a 0.125 dividend was announced on 23.10.2001 payable 20.12.2001; Enron filed for Chapter 11 on 2.12.2001, so it was probably never paid. Not used.
+Update (second pass, 2026-10-02): 2001 Q3 added. Enron's press release of 14.8.2001 (web.archive.org copy of enron.com) declares $0.125 payable 20.9.2001 to holders of record 4.9.2001; with the nine-month cash flow of the 10-Q it counts as paid (line 2001-09). 2001 Q4 ($0.125 payable 20.12.2001, record 3.12.2001) stays out: on 29.11.2001 Enron said it might not pay previously declared dividends on its common stock (Houston Chronicle), and the Chapter 11 filing of 2.12.2001 came before the record date; no source says it was paid, so 'not paid' is an inference.
 Caveat: the 1990 to 1991 prices in enron.csv rest on one source only (see its header).
 ## Lehman Brothers (lehman): no file written, checks only
 

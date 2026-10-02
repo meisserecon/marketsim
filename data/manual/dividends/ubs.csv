@@ -5,6 +5,13 @@
 #   CHF 2.20 for 2006 (ex 19.4.2007) and Yahoo has 2.20 in April 2007.
 # Left out: the par value repayment of CHF 1.60 (ex 16.7.2001). The ratio steps from 6.0395 to 2.000, not 2.0132, at that date, which shows that
 #   Yahoo folded this repayment into its price history; adding it as income would count it twice.
+#   Rechecked 2026-10-02: UBS dividend payment history (https://www.ubs.com/global/en/investor-relations/investors/shareholder-information/dividend/history.html, read via a fetch tool)
+#   lists for calendar 2001 only this repayment ("2000, 4th quarter par value repayment, CHF 1.60, record 13 July 2001, ex 16 July 2001, payment 18 July 2001"; the 2001 repayment
+#   of CHF 2.00 followed on 10 July 2002). NZZ 257.50 (29.6.2001) / Yahoo 42.6358 = 6.0395 and NZZ 78.35 (31.7.2001) / Yahoo 39.175 = 2.0000; 6.0395 / 3 / 2 = 1.00658, i.e. Yahoo
+#   scaled the earlier prices by 1 - 1.60/about 245 (the pre-split price), so the game already credits the 2001 repayment through the price. No row for 2001.
+# 2017: the dividend for 2016, CHF 0.60 out of capital contribution reserves ("2016 Pay-out per share 0.60, ex 8 May 2017, record 9 May 2017, payment 10 May 2017", same UBS page),
+#   is missing from Yahoo's dividend events (Yahoo lists 2016-05 0.85 and 2018-05 0.65 and nothing in between; its daily close falls from 17.40 on 5.5.2017 to 16.97 on the ex date).
+#   Yahoo's 0.65 of 2018 equals the declared amount, so the basis is 1:1 since the 2008 stock dividend.
 # Before the 1998 merger: dividends of the Schweizerische Bankgesellschaft bearer share as declared in the bank notices printed in the NZZ
 #   (raw-swiss-dividends.csv), divided by the same divisors as the bearer price series (data/src/nzz.ts): 25 x 12.079 until June 1992, 5 x 12.079 after.
 #   The 1987 payment of CHF 160 includes an anniversary bonus.
@@ -37,3 +44,4 @@ month,dividend,note
 2005-04,1.5,dividend for 2004, CHF 3.00, ex 22.4.2005; divided by 2
 2006-04,1.6,dividend for 2005, CHF 3.20, ex 20.4.2006; divided by 2
 2006-07,0.3,par value repayment for 2005, CHF 0.60, ex 10.7.2006 (before the 2-for-1 split of the same day); divided by 2
+2017-05,0.6,dividend for 2016; CHF 0.60 out of capital contribution reserves; ex 8.5.2017; paid 10.5.2017 (UBS dividend payment history); missing from Yahoo; basis 1:1 as Yahoo's 0.65 of 2018

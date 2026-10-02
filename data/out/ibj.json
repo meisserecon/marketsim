@@ -18,7 +18,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "manual/ibj.csv",
+ "source": "manual/ibj.csv; 16 dividends from manual/dividends/ibj.csv",
  "notes": "Converted from JPY at month-end FRED rate.",
  "end": {
   "month": "2000-08",
@@ -484,7 +484,7 @@
   {
    "month": "1992-12",
    "price": 19.7837,
-   "income": 0
+   "income": 0.034041
   },
   {
    "month": "1993-01",
@@ -514,7 +514,7 @@
   {
    "month": "1993-06",
    "price": 27.6217,
-   "income": 0
+   "income": 0.039794
   },
   {
    "month": "1993-07",
@@ -544,7 +544,7 @@
   {
    "month": "1993-12",
    "price": 25.3357,
-   "income": 0
+   "income": 0.038048
   },
   {
    "month": "1994-01",
@@ -574,7 +574,7 @@
   {
    "month": "1994-06",
    "price": 32.8901,
-   "income": 0
+   "income": 0.043143
   },
   {
    "month": "1994-07",
@@ -604,7 +604,7 @@
   {
    "month": "1994-12",
    "price": 29.6185,
-   "income": 0
+   "income": 0.042671
   },
   {
    "month": "1995-01",
@@ -634,7 +634,7 @@
   {
    "month": "1995-06",
    "price": 26.0675,
-   "income": 0
+   "income": 0.05013
   },
   {
    "month": "1995-07",
@@ -664,7 +664,7 @@
   {
    "month": "1995-12",
    "price": 30.306,
-   "income": 0
+   "income": 0.04115
   },
   {
    "month": "1996-01",
@@ -694,7 +694,7 @@
   {
    "month": "1996-06",
    "price": 24.8447,
-   "income": 0
+   "income": 0.03882
   },
   {
    "month": "1996-07",
@@ -724,7 +724,7 @@
   {
    "month": "1996-12",
    "price": 17.362,
-   "income": 0
+   "income": 0.036711
   },
   {
    "month": "1997-01",
@@ -754,7 +754,7 @@
   {
    "month": "1997-06",
    "price": 15.5309,
-   "income": 0
+   "income": 0.037082
   },
   {
    "month": "1997-07",
@@ -784,7 +784,7 @@
   {
    "month": "1997-12",
    "price": 7.1292,
-   "income": 0
+   "income": 0.03258
   },
   {
    "month": "1998-01",
@@ -814,7 +814,7 @@
   {
    "month": "1998-06",
    "price": 6.2911,
-   "income": 0
+   "income": 0.030733
   },
   {
    "month": "1998-07",
@@ -844,7 +844,7 @@
   {
    "month": "1998-12",
    "price": 4.6074,
-   "income": 0
+   "income": 0.030952
   },
   {
    "month": "1999-01",
@@ -874,7 +874,7 @@
   {
    "month": "1999-06",
    "price": 7.9378,
-   "income": 0
+   "income": 0.02894
   },
   {
    "month": "1999-07",
@@ -904,7 +904,7 @@
   {
    "month": "1999-12",
    "price": 9.6417,
-   "income": 0
+   "income": 0.03426
   },
   {
    "month": "2000-01",
@@ -934,7 +934,7 @@
   {
    "month": "2000-06",
    "price": 7.5749,
-   "income": 0
+   "income": 0.032975
   },
   {
    "month": "2000-07",

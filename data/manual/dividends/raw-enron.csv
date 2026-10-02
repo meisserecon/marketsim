@@ -10,5 +10,5 @@ period,amount_per_share,basis,source
 1992 Q4,0.175,1993 split basis,10-K 1993 Item 5 table (already in enron.csv)
 2001 Q1,0.125,final basis (declared),S-3/A 2001
 2001 Q2,0.125,final basis (declared),S-3/A 2001
-2001 Q3,,not retrieved,"S-3/A (through 12 July): none declared yet; 10-Q Q3 2001: dividends paid 394 million dollars in nine months against 396 in 2000 (no per-share figure)"
-2001 Q4,,not retrieved,"a $0.125 dividend payable 20.12.2001 to holders of record 3.12.2001 was announced on 23.10.2001 (search-engine summary of eepower.com, page itself blocked); Chapter 11 filing 2.12.2001"
+2001 Q3,0.125,final basis (declared),"Enron press release 14.8.2001 (web.archive.org copy of enron.com/corp/pressroom/releases/2001/ene/56-Dividends-08-14-01-LTR.html, retrieved 2026-10-02): declared 0.125 payable 20.9.2001, record 4.9.2001; 10-Q Q3 2001: dividends paid 394 million dollars in nine months against 396 in 2000"
+2001 Q4,,not retrieved,"a $0.125 dividend payable 20.12.2001 to holders of record 3.12.2001 was announced on 23.10.2001 (search-engine summary of eepower.com, page itself blocked); Chapter 11 filing 2.12.2001; Houston Chronicle 29.11.2001 (retrieved 2026-10-02): Enron said it might not pay previously declared dividends on its common stock; not paid as far as known"

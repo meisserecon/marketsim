@@ -1,0 +1,15 @@
+# Sony dividends in USD per ADS on the share basis of data/raw/yahoo/sony.csv (SONY ADR, split-adjusted), for 1980 to 1982, where Yahoo has none (Yahoo's dividends restart in 1983-04).
+# Declared yen per share and sources: raw-sony.csv (Sony's own capital and dividend table, P1, and Financial Times reports of 1980 and 1982). 1 ADS = 1 share (Sony Form 20-F 1996: "Each American Depositary Share represents one share of Common Stock").
+# Basis: Yahoo's split events for SONY are 11:10 (1991), 2:1 (2000), 5:1 (2024), so its pre-1991 prices and dividends are divided by 11; P1 confirms the 1:1.1 split of 20.11.1991 and the 1:2 split of 19.5.2000.
+#   USD = yen / JPY per USD at the end of the record-date month (FRED DEXJPUS, the series the build uses) / 11. Sony paid in yen; the depositary converted at the rate of the payment date, which is not known, so the rate is an approximation.
+# Month: the record-date month (April and October), as Yahoo books Sony's dividends from 1983 on (ex dates 25.4.1983, 24.10.1983 ...). The money reached ADR holders later (interim around mid-year, year-end after the January meeting); month by convention, not by payment.
+# Gross: the lines are the declared amount before the 15 percent Japanese withholding tax. Yahoo's own amounts look lower: Yahoo 1984-10 0.006727 x 11 = 0.0740 USD against the declared 22 yen / 245.7 = 0.0895 USD (83 percent);
+#   the research also found Yahoo's 1990s Sony dividends off the 20-F USD amounts by up to about 20 percent either way. So there is a step of roughly 15 to 20 percent between the last line here and Yahoo's first (1983-04).
+# NOT COVERED: the year-end dividend of FY October 1979 (record 31.10.1979; amount not found; it falls before the game start in any case).
+month,dividend,note
+1980-04,0.005697,FY Oct-1980 interim; 15 yen per share (record date end of 1980-04); FT 17.6.1980; / 239.35 JPY per USD (FRED DEXJPUS 1980-04-30) / 11 (Yahoo split factor)
+1980-10,0.006461,FY Oct-1980 year-end; 15 yen per share (record date end of 1980-10); derived: P1 annual 30 minus interim 15; / 211.05 JPY per USD (FRED DEXJPUS 1980-10-31) / 11 (Yahoo split factor)
+1981-04,0.007373,FY Oct-1981 interim; 17.5 yen per share (record date end of 1981-04); derived: P1 annual 35 and FT 18.6.1982 (increase of 4.50 to 22); / 215.78 JPY per USD (FRED DEXJPUS 1981-04-30) / 11 (Yahoo split factor)
+1981-10,0.006834,FY Oct-1981 year-end; 17.5 yen per share (record date end of 1981-10); derived: P1 annual 35 and FT 18.6.1982; / 232.8 JPY per USD (FRED DEXJPUS 1981-10-30) / 11 (Yahoo split factor)
+1982-04,0.008480,FY Oct-1982 interim; 22 yen per share (record date end of 1982-04); FT 18.6.1982; / 235.85 JPY per USD (FRED DEXJPUS 1982-04-30) / 11 (Yahoo split factor)
+1982-10,0.007218,FY Oct-1982 year-end; 22 yen per share (record date end of 1982-10); derived: P1 annual 44 minus interim 22; / 277.1 JPY per USD (FRED DEXJPUS 1982-10-29) / 11 (Yahoo split factor)

@@ -44,3 +44,10 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Frankfurt: the single price column is the 27 Mar close (the second column reads "geschlossen"). Second reading is the earlier agent's independent value from another issue (both 550 and 1323).
 - Swiss: two readings (overview crop and a 2.5x zoom crop); all 8 agree. No second place in the paper exists for the lines. Ambiguities: SBG I (5190 R 200 t) taken as 5190 because the t belongs to 200; SBV/SKA lines have lone t marks between prints.
 - Not in the csv: IBM and IBJ. NYSE was closed on Good Friday and traded on 31 March, so the 27 March New York close is not the month end; Tokyo traded on 31 March. The month-end values are in nzz-readings-1986.csv (issue 1986-04-01).
+
+## 1988-12
+
+- Issues: 1988-12-30 (Zurich p37 "Kurse vom 29. Dezember"; Frankfurt p39, Tokyo p40, NY p41, all of 29 Dec), 1988-12-31 (Sat/Sun; Frankfurt/Tokyo p41-42 and NY p43 "Kurse vom 30. Dezember"; no Zurich table), 1989-01-03 (Tuesday; foreign tables "Kurse vom 2. Januar"; Zurich page not found in the pages checked), 1989-01-04 (p35 "Zuercher Boerse, Kurse vom 3. Januar"). Page = printed page.
+- Zurich: 30 Dec 1988 (Friday) was a trading day but no issue prints its table; the Vortag brackets of the 3 Jan table (first trading day of 1989, Zurich closed 2 Jan) give the 30 Dec close. Eight values, each seen in two separate crops of the 4 Jan page. I did not compare against the 29 Dec running text because that is a different day. Plausibility vs 1988-11: SBV 363 -> 339, Sandoz 10575 -> 9575, Nestle I 6875 -> 7240, others within 6 percent.
+- Frankfurt: the 30 Dec issue text says Frankfurt was closed on 30 Dec (last trading day of the year was 29 Dec); BMW 523 and Daimler 738 are the 29 Dec Schluss values, so quote date 29 Dec. Tokyo: closed 29-30 Dec; 28 Dec close 4350.
+- Pass agreement: 8/8 Swiss, 4/4 foreign.

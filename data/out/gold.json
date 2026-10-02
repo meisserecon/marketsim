@@ -2,6 +2,14 @@
  "id": "gold",
  "name": "Gold",
  "kind": "gold",
+ "sector": "Precious metal",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "It pays nothing, it cannot go bankrupt, and people have trusted it for five thousand years.",
+   "about": "One troy ounce of gold, about 31 grams. Gold pays no interest or dividend. People buy it when they fear inflation, war or the failure of banks, and sell it when they feel safe."
+  }
+ ],
  "currency": "USD",
  "source": "datahub.io/core/gold-prices (LBMA, via Deutsche Bundesbank), monthly average USD per troy ounce",
  "notes": "Monthly average, not month-end. No income.",

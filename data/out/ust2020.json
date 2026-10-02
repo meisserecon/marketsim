@@ -6,6 +6,15 @@
  "source": "Federal Reserve fitted Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), last observation of each month",
  "notes": "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
  "maturity": "2020-01-01",
+ "country": "United States",
+ "sector": "Government bond",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Lend the US government money and get 100 back on 1 January 2020.",
+   "about": "A promise by the US Treasury to pay 100 dollars on 1 January 2020. It pays nothing before that, so it costs less than 100 today and the difference is your interest. If interest rates rise in the meantime the price falls, and if they fall it rises; the further away 2020 is, the stronger the effect. Held until 2020, it pays exactly what was promised."
+  }
+ ],
  "end": {
   "month": "2019-12",
   "type": "maturity",

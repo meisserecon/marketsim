@@ -1,6 +1,25 @@
 {
  "id": "c",
  "name": "Citigroup",
+ "country": "United States",
+ "sector": "Banking",
+ "profiles": [
+  {
+   "from": "1998-10",
+   "tagline": "Banking, insurance and investments under one roof, in a hundred countries. Nobody has built this before.",
+   "about": "The largest financial company in the world, formed by the merger of Citicorp and Travelers. It runs Citibank, the Travelers insurance business and the Salomon Smith Barney brokerage."
+  },
+  {
+   "from": "2005-07",
+   "tagline": "The biggest bank in the world, present in more countries than any other.",
+   "about": "A global bank with consumer banking and credit cards in dozens of countries and a large investment bank. It has sold its insurance businesses."
+  },
+  {
+   "from": "2009-01",
+   "tagline": "We are becoming a simpler and safer bank.",
+   "about": "A global bank that needed a rescue by the US government in the financial crisis. It is selling businesses and shrinking to its core of banking for companies and consumers."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance C (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Travelers Property Casualty 2002-08 (factor 0.928)",

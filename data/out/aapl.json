@@ -7,6 +7,40 @@
    "name": "Apple"
   }
  ],
+ "country": "United States",
+ "sector": "Computers",
+ "profiles": [
+  {
+   "from": "1980-12",
+   "tagline": "We want to put a computer into the hands of ordinary people.",
+   "about": "A young Californian company that makes the Apple II, a small computer for homes, schools and small businesses. It has just sold its shares to the public for the first time."
+  },
+  {
+   "from": "1984-01",
+   "tagline": "A computer for the rest of us: you point, you click, and it just works.",
+   "about": "Makes personal computers. Its new Macintosh is operated with a mouse and pictures on the screen instead of typed commands."
+  },
+  {
+   "from": "1997-10",
+   "tagline": "Think different.",
+   "about": "Makes Macintosh computers, used above all by designers, publishers and schools. It has only a small share of the computer market."
+  },
+  {
+   "from": "2001-11",
+   "tagline": "A thousand songs in your pocket.",
+   "about": "Makes Macintosh computers and the iPod, a small music player."
+  },
+  {
+   "from": "2007-07",
+   "tagline": "A phone, a music player and the internet in one device that you operate with your fingers.",
+   "about": "Makes Macintosh computers, the iPod music player with its online music shop, and now a mobile phone, the iPhone."
+  },
+  {
+   "from": "2015-05",
+   "tagline": "A billion people carry our devices, and each of them is a customer for our services.",
+   "about": "Makes the iPhone, iPad tablets, Mac computers and a watch, and sells apps, music and storage to their users."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance AAPL (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

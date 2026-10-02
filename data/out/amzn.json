@@ -1,6 +1,30 @@
 {
  "id": "amzn",
  "name": "Amazon",
+ "country": "United States",
+ "sector": "Internet retail",
+ "profiles": [
+  {
+   "from": "1997-05",
+   "tagline": "Earth's biggest bookstore. We spend to grow now and will profit later.",
+   "about": "Sells books over the internet from Seattle and ships them to customers' homes. It is growing very fast and is deliberately losing money to do so."
+  },
+  {
+   "from": "1999-07",
+   "tagline": "We want to be the place where people can find and buy anything online.",
+   "about": "An internet shop that sells books, music, films, electronics and toys and ships them to customers' homes. It is growing fast and losing money."
+  },
+  {
+   "from": "2007-11",
+   "tagline": "We lower prices, more customers come, more sellers join, and we lower prices again.",
+   "about": "The largest internet retailer. It sells its own stock and lets other merchants sell through its site, and rents out computing power to other companies."
+  },
+  {
+   "from": "2015-04",
+   "tagline": "Our shop is what people know. Our cloud is what the internet runs on.",
+   "about": "The largest internet retailer, with a membership programme for fast delivery, and the largest provider of cloud computing to other companies."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance AMZN (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

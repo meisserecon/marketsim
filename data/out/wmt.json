@@ -7,6 +7,25 @@
    "name": "Walmart"
   }
  ],
+ "country": "United States",
+ "sector": "Retail",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "We sell for less, in the small towns the big chains ignore.",
+   "about": "A chain of discount stores in small towns of the American South, run from Arkansas. It sells everyday goods at low prices and is opening new stores every month."
+  },
+  {
+   "from": "1991-01",
+   "tagline": "Everyday low prices. We pass every saving on to the customer, and the customers keep coming.",
+   "about": "The largest retailer in the United States. Its big discount stores sell everything from groceries to clothing and electronics, supplied by its own highly efficient distribution network."
+  },
+  {
+   "from": "2018-02",
+   "tagline": "Low prices in the store, at the kerb or at your front door.",
+   "about": "The largest retailer in the world, with thousands of stores in the United States and abroad and a growing online shop."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance WMT (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

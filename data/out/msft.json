@@ -1,6 +1,30 @@
 {
  "id": "msft",
  "name": "Microsoft",
+ "country": "United States",
+ "sector": "Software",
+ "profiles": [
+  {
+   "from": "1986-03",
+   "tagline": "A computer on every desk and in every home, running Microsoft software.",
+   "about": "Writes software for personal computers. Its MS-DOS operating system runs IBM's personal computer and the many machines compatible with it, and it sells programs such as Word and Excel."
+  },
+  {
+   "from": "1995-09",
+   "tagline": "Windows is on nine out of ten personal computers, and Office is what people do their work with.",
+   "about": "The largest software company in the world. It sells the Windows operating system and the Office programs for personal computers."
+  },
+  {
+   "from": "2015-01",
+   "tagline": "Mobile first, cloud first: our software as a service on any device.",
+   "about": "Sells Windows and Office, increasingly as a subscription, the Xbox games console, and rents out computing power in its data centres."
+  },
+  {
+   "from": "2023-02",
+   "tagline": "Artificial intelligence will be a copilot in every program people use for work.",
+   "about": "Sells Windows and Office by subscription, runs one of the two largest cloud computing businesses, and is building artificial intelligence into its products."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MSFT (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

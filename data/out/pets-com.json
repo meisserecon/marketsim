@@ -1,6 +1,15 @@
 {
  "id": "pets-com",
  "name": "Pets.com",
+ "country": "United States",
+ "sector": "Internet retail",
+ "profiles": [
+  {
+   "from": "2000-02",
+   "tagline": "Because pets can't drive.",
+   "about": "Sells pet food and supplies over the internet and delivers them to the door. It is famous for the sock puppet in its television advertising, and it is spending far more than it earns to win customers."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/pets-com.csv",

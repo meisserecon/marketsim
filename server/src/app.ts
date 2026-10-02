@@ -8,7 +8,7 @@ import path from "node:path";
 import Fastify, { type FastifyInstance, type FastifyRequest } from "fastify";
 import fastifyStatic from "@fastify/static";
 import {
-  MAX_POSITIONS, Market, STARTING_CASH, TradeError, advanceMonth, applyTrade, nameAt, portfolioValue,
+  MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
   type JoinResponse, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
@@ -223,8 +223,11 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     if (!a || a.kind === "cash" || market.firstMonth(a.id) > g.current_month) throw new HttpError(404, "not_found", "No such asset");
     const rows = a.rows.filter((r) => r.month <= g.current_month);
     const last = rows[rows.length - 1].month;
+    const asOf = last < g.current_month ? last : g.current_month;
+    const p = profileAt(a, asOf);
     return {
-      id: a.id, name: nameAt(a, last < g.current_month ? last : g.current_month), kind: a.kind,
+      id: a.id, name: nameAt(a, asOf), kind: a.kind,
+      ...(p ? { profile: { tagline: p.tagline, about: p.about, ...(a.country ? { country: a.country } : {}), ...(a.sector ? { sector: a.sector } : {}), ...(p.logo ? { logo: p.logo } : {}), ...(p.image ? { image: p.image } : {}), ...(p.imageCaption ? { imageCaption: p.imageCaption } : {}) } } : {}),
       rows: rows.map((r) => ({ month: r.month, price: r.price, income: r.income, ...(r.extra ? { extra: r.extra } : {}) })),
     };
   });

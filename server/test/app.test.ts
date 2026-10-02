@@ -65,6 +65,7 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   const ibm0 = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body;
   // history reaches back before the game start, as chart context, but never past the current month
   assert.equal(ibm0.rows[0].month, "1975-01");
+  assert.ok(ibm0.profile!.tagline.length > 10 && /mainframes/.test(ibm0.profile!.about) && !/personal computer/.test(ibm0.profile!.about));
   assert.equal(ibm0.rows[ibm0.rows.length - 1].month, "1979-12");
   assert.ok(byId.get("ibm")!.priceYearAgo! > 0 && byId.get("ibm")!.incomeLastYear > 0);
 
@@ -125,7 +126,12 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.equal(aapl?.name, "Apple Computer");
   assert.equal(aapl?.listedSince, "1980-12");
   assert.equal(aapl?.pricePrev, undefined);
-  assert.equal((await call(app, "GET", `/api/games/${code}/assets/aapl`)).status, 200);
+  const aaplHist = await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/aapl`);
+  assert.equal(aaplHist.status, 200);
+  // the profile is the one of 1980: it knows the Apple II and nothing that came later
+  assert.match(aaplHist.body.profile!.about, /Apple II/);
+  assert.ok(!/Macintosh|iPod|iPhone/.test(JSON.stringify(aaplHist.body.profile)));
+  assert.equal(aaplHist.body.profile!.country, "United States");
 
   // a late joiner starts with the starting cash in the current month
   const carol = (await call(app, "POST", `/api/games/${code}/join`, { name: "Carol" })).body.playerToken as string;

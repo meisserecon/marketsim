@@ -15,6 +15,25 @@
    "name": "WorldCom"
   }
  ],
+ "country": "United States",
+ "sector": "Telecommunications",
+ "profiles": [
+  {
+   "from": "1989-01",
+   "tagline": "Long-distance calls for less. We grow by buying one small competitor after another.",
+   "about": "A Mississippi company that resells long-distance telephone service to small businesses at a discount."
+  },
+  {
+   "from": "1995-05",
+   "tagline": "Telephone, data and the internet from one company, anywhere in the world.",
+   "about": "A fast-growing long-distance telephone company that has been built by a long series of takeovers."
+  },
+  {
+   "from": "1998-09",
+   "tagline": "A phone company built for the age of the internet.",
+   "about": "The second-largest long-distance telephone company in the United States after taking over MCI, and the owner of a large part of the internet's main lines."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/worldcom.csv",

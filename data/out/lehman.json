@@ -1,6 +1,20 @@
 {
  "id": "lehman",
  "name": "Lehman Brothers",
+ "country": "United States",
+ "sector": "Investment banking",
+ "profiles": [
+  {
+   "from": "1994-05",
+   "tagline": "A Wall Street name since 1850, and independent again.",
+   "about": "A New York investment bank that trades bonds and helps companies and governments raise money. It has just been separated from American Express."
+  },
+  {
+   "from": "2004-01",
+   "tagline": "Record earnings, year after year.",
+   "about": "A New York investment bank that trades bonds and shares, advises on takeovers, and is one of the biggest dealers in securities backed by mortgages and in commercial property."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/lehman.csv",

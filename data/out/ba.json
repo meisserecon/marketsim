@@ -1,6 +1,20 @@
 {
  "id": "ba",
  "name": "Boeing",
+ "country": "United States",
+ "sector": "Aircraft",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Most of the world's airliners are ours, and every year more people fly.",
+   "about": "The leading maker of passenger jets, among them the 727, the 737 and the 747 jumbo jet. It also builds military aircraft and space systems for the US government."
+  },
+  {
+   "from": "1997-08",
+   "tagline": "Airliners, fighters, rockets and satellites: one company now builds them all.",
+   "about": "The largest aerospace company in the world after taking over McDonnell Douglas. It builds passenger jets, military aircraft, satellites and rockets."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance BA (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

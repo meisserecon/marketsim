@@ -1,6 +1,20 @@
 {
  "id": "nokia",
  "name": "Nokia",
+ "country": "Finland",
+ "sector": "Telecommunications",
+ "profiles": [
+  {
+   "from": "1994-07",
+   "tagline": "Connecting people: soon everyone will carry a telephone, and we intend to make it.",
+   "about": "A Finnish company that has turned itself from a maker of paper, rubber and cables into a maker of mobile phones and the networks they use."
+  },
+  {
+   "from": "2014-05",
+   "tagline": "We build the networks the mobile world runs on.",
+   "about": "A Finnish maker of equipment for mobile and fixed telephone networks. It has sold its mobile phone business to Microsoft."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance NOK (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

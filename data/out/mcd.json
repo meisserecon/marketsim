@@ -1,6 +1,15 @@
 {
  "id": "mcd",
  "name": "McDonald's",
+ "country": "United States",
+ "sector": "Restaurants",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "The same burger, the same fries and the same smile, in every restaurant we open.",
+   "about": "The largest hamburger restaurant chain. Most restaurants are run by franchisees who pay rent and fees; and it keeps expanding outside the United States."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MCD (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

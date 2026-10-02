@@ -76,6 +76,8 @@ export interface AssetHistory {
   id: string;
   name: string;
   kind: AssetKind;
+  /** How the asset would be described in the current month; never mentions later events. */
+  profile?: { tagline: string; about: string; country?: string; sector?: string; logo?: string; image?: string; imageCaption?: string };
   /** From the asset's first row up to the current month, never beyond. */
   rows: { month: string; price: number; income: number; extra?: Record<string, number> }[];
 }

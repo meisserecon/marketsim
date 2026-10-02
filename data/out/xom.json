@@ -7,6 +7,20 @@
    "name": "ExxonMobil"
   }
  ],
+ "country": "United States",
+ "sector": "Oil and gas",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "The world needs more energy every year. We find it, refine it and deliver it.",
+   "about": "The largest oil company in the world. It searches for oil and gas on every continent, refines it, and sells petrol through its Exxon and Esso stations."
+  },
+  {
+   "from": "1999-12",
+   "tagline": "Two of the best oil companies are now one, and nobody in this industry runs its operations more tightly.",
+   "about": "The largest oil company in the world after the merger of Exxon and Mobil. It produces oil and gas, refines them, makes chemicals and sells fuel under the Exxon, Mobil and Esso names."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance XOM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 1982-02 corrected to 0.09375",

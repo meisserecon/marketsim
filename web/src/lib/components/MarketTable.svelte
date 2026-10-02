@@ -19,9 +19,9 @@
   let sortDir = $state<1 | -1>(1);
 
   const GROUPS: { kind: AssetKind; title: string; hint: string }[] = [
-    { kind: 'bond', title: 'Bonds', hint: 'US Treasuries. Each repays 100 in January of its year and pays nothing before; the price moves against interest rates.' },
+    { kind: 'stock', title: 'Companies', hint: 'Shares of companies. Dividends are paid into your cash.' },
     { kind: 'gold', title: 'Gold', hint: 'Pays no income.' },
-    { kind: 'stock', title: 'Stocks', hint: 'Dividends are paid into your cash.' }
+    { kind: 'bond', title: 'Bonds', hint: 'US Treasuries. Each repays 100 in January of its year and pays nothing before; the price moves against interest rates.' }
   ];
 
   const COLUMNS: { key: SortKey; label: string; title: string }[] = [

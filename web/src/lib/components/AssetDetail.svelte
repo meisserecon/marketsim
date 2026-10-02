@@ -80,6 +80,24 @@
     <button class="btn small" onclick={onclose} aria-label="Close details">Close ✕</button>
   </header>
 
+  {#if history?.profile}
+    {@const p = history.profile}
+    <section class="profile" aria-label="About {asset.name}">
+      <div class="profile-head">
+        {#if p.logo}<img class="logo" src={p.logo} alt="{asset.name} logo" />{/if}
+        <p class="sub">{[p.sector, p.country].filter(Boolean).join(' · ')}</p>
+      </div>
+      <blockquote>{p.tagline}</blockquote>
+      {#if p.image}
+        <figure>
+          <img src={p.image} alt={p.imageCaption ?? ''} />
+          {#if p.imageCaption}<figcaption class="sub">{p.imageCaption}</figcaption>{/if}
+        </figure>
+      {/if}
+      <p class="about">{p.about}</p>
+    </section>
+  {/if}
+
   <div class="stats">
     <div><span class="sub">Price</span><strong>${price(asset.price)}</strong></div>
     <div><span class="sub">1 month</span><strong class={direction(m1)}>{pct(m1, { sign: true })}</strong></div>
@@ -262,5 +280,48 @@
     position: sticky;
     top: 0;
     background: var(--surface);
+  }
+  .profile {
+    display: grid;
+    gap: 8px;
+    padding: 12px 0 14px;
+    border-bottom: 1px solid var(--line, #e3e1da);
+  }
+  .profile-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .profile .logo {
+    height: 36px;
+    max-width: 120px;
+    object-fit: contain;
+  }
+  .profile blockquote {
+    margin: 0;
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.35;
+    quotes: '\201C' '\201D';
+  }
+  .profile blockquote::before {
+    content: open-quote;
+  }
+  .profile blockquote::after {
+    content: close-quote;
+  }
+  .profile figure {
+    margin: 0;
+  }
+  .profile figure img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+  .profile .about {
+    margin: 0;
+    line-height: 1.5;
   }
 </style>

@@ -7,6 +7,30 @@
    "name": "Altria"
   }
  ],
+ "country": "United States",
+ "sector": "Tobacco and food",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Marlboro is the best-selling cigarette in the world, and smokers are the most loyal customers there are.",
+   "about": "A cigarette maker whose main brand is Marlboro. It also owns the Miller brewery."
+  },
+  {
+   "from": "1989-01",
+   "tagline": "Cigarettes pay for everything, and with the money we have bought some of the best food brands in America.",
+   "about": "Sells Marlboro and other cigarettes around the world and, through General Foods and Kraft, coffee, cheese and packaged food. It also owns the Miller brewery."
+  },
+  {
+   "from": "2002-07",
+   "tagline": "Cigarettes pay for everything, and with the money we have bought some of the best food brands in America.",
+   "about": "Sells Marlboro and other cigarettes around the world and, through Kraft, coffee, cheese and packaged food. It has sold the Miller brewery."
+  },
+  {
+   "from": "2008-04",
+   "tagline": "A simple business that turns almost all its profit into dividends.",
+   "about": "Sells Marlboro and other cigarettes in the United States only. The food business and the international cigarette business have been separated into companies of their own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance MO (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); spin-offs folded into price: Kraft Foods 2007-04 (factor 0.750), Philip Morris International 2008-03 (factor 0.302)",

@@ -1,6 +1,15 @@
 {
  "id": "nestle",
  "name": "Nestlé",
+ "country": "Switzerland",
+ "sector": "Food",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "People everywhere have to eat, and all over the world they trust our brands.",
+   "about": "The largest food company in the world, based in Vevey. It sells Nescafé instant coffee, milk products, baby food, chocolate and Maggi soups in almost every country."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/nestle.csv until 1993-05; Yahoo Finance NESN.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 22 dividends from manual/dividends/nestle.csv",

@@ -1,6 +1,20 @@
 {
  "id": "nvda",
  "name": "Nvidia",
+ "country": "United States",
+ "sector": "Semiconductors",
+ "profiles": [
+  {
+   "from": "1999-01",
+   "tagline": "We make video games look real.",
+   "about": "Designs graphics chips that draw three-dimensional images in personal computers, mainly for games. Other companies manufacture the chips for it."
+  },
+  {
+   "from": "2017-01",
+   "tagline": "The chips we built for games turn out to be what artificial intelligence needs.",
+   "about": "Designs graphics chips for games and, increasingly, for data centres, where they are used to train artificial intelligence. Other companies manufacture the chips for it."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance NVDA (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

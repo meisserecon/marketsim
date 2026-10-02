@@ -1,6 +1,20 @@
 {
  "id": "enron",
  "name": "Enron",
+ "country": "United States",
+ "sector": "Energy",
+ "profiles": [
+  {
+   "from": "1985-01",
+   "tagline": "Natural gas is the fuel of the future, and we own the pipelines that carry it.",
+   "about": "A Houston company that owns one of the largest networks of natural gas pipelines in the United States and builds power plants."
+  },
+  {
+   "from": "1997-01",
+   "tagline": "We are not a pipeline company any more. We make markets in energy, and soon in much more.",
+   "about": "A Houston company that buys and sells natural gas and electricity for delivery months and years ahead, and owns pipelines and power plants."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/enron.csv; 10 dividends from manual/dividends/enron.csv",

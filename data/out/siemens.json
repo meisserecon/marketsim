@@ -1,6 +1,25 @@
 {
  "id": "siemens",
  "name": "Siemens",
+ "country": "Germany",
+ "sector": "Electrical engineering",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "From the power station to the telephone: wherever electricity is at work, so are we.",
+   "about": "Germany's largest electrical engineering company. It builds power plants, telephone exchanges, medical equipment, industrial controls and household appliances."
+  },
+  {
+   "from": "2007-01",
+   "tagline": "Energy, industry and healthcare: we are concentrating on what the world will need more of.",
+   "about": "A German engineering company that builds power plant equipment, factory automation, trains and medical scanners. It has given up mobile phones and telephone network equipment."
+  },
+  {
+   "from": "2020-10",
+   "tagline": "We make factories, buildings and trains smarter.",
+   "about": "A German engineering company focused on factory automation, building technology and trains. It holds a majority of the medical technology company Siemens Healthineers; the energy business has been separated into a company of its own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/siemens.csv until 1996-10; Yahoo Finance SIE.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 9 dividends from manual/dividends/siemens.csv",

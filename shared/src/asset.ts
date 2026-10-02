@@ -36,6 +36,20 @@ export interface AssetEnd {
   successor?: string;
 }
 
+/** A description of the asset as it could be given at the time. Versions change over the years so that none reveals the future. */
+export interface AssetProfile {
+  /** First month this version applies. */
+  from: string;
+  /** One line in the voice of the company pitching itself to investors at the time. */
+  tagline: string;
+  /** What the company sells and where it is from, in a sentence or two. */
+  about: string;
+  /** Optional pictures, as paths the web client can load. */
+  logo?: string;
+  image?: string;
+  imageCaption?: string;
+}
+
 export interface AssetSeries {
   id: string;
   /** The name at the start of the series. Use nameAt() for display; this alone may be outdated. */
@@ -48,6 +62,10 @@ export interface AssetSeries {
   source: string;
   /** For maintainers; may mention later events, so never show it to players. */
   notes?: string;
+  country?: string;
+  sector?: string;
+  /** Profile versions in ascending order of `from`. Use profileAt(). */
+  profiles?: AssetProfile[];
   /** For bonds: the day the bond repays 100 per unit, "YYYY-MM-DD". Known from the start, so it may be shown. */
   maturity?: string;
   /** Reveal to players only once the game has moved past end.month. */
@@ -60,4 +78,11 @@ export function nameAt(asset: Pick<AssetSeries, "name" | "renames">, month: stri
   let name = asset.name;
   for (const r of asset.renames ?? []) if (r.from <= month) name = r.name;
   return name;
+}
+
+/** The profile valid in the given month: the last version that had started by then. */
+export function profileAt(asset: Pick<AssetSeries, "profiles">, month: string): AssetProfile | undefined {
+  let found: AssetProfile | undefined;
+  for (const p of asset.profiles ?? []) if (p.from <= month) found = p;
+  return found;
 }

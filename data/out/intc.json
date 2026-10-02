@@ -1,6 +1,20 @@
 {
  "id": "intc",
  "name": "Intel",
+ "country": "United States",
+ "sector": "Semiconductors",
+ "profiles": [
+  {
+   "from": "1980-01",
+   "tagline": "We put a whole computer on a chip, and every couple of years we double what it can do.",
+   "about": "A Californian maker of memory chips and of microprocessors, the chips that act as the brain of small computers and electronic devices."
+  },
+  {
+   "from": "1986-01",
+   "tagline": "The brain of nearly every personal computer in the world is ours.",
+   "about": "Designs and manufactures microprocessors, the chips at the heart of personal computers. It has given up memory chips to concentrate on them."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance INTC (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

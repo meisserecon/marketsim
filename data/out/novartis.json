@@ -1,6 +1,25 @@
 {
  "id": "novartis",
  "name": "Novartis",
+ "country": "Switzerland",
+ "sector": "Pharmaceuticals",
+ "profiles": [
+  {
+   "from": "1996-11",
+   "tagline": "Two great Basel companies become one world leader in the life sciences.",
+   "about": "Formed by the merger of Sandoz and Ciba-Geigy in Basel. It makes medicines, crop protection products and seeds, and nutrition products."
+  },
+  {
+   "from": "2000-11",
+   "tagline": "We are now a pure healthcare company.",
+   "about": "A Basel company that develops and sells medicines, including low-priced copies of drugs whose patents have expired. The agricultural business has been separated into a company of its own."
+  },
+  {
+   "from": "2023-10",
+   "tagline": "New medicines and nothing else.",
+   "about": "A Basel company that develops and sells patented medicines. The business with low-priced copies of older drugs has been separated into a company of its own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance NOVN.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

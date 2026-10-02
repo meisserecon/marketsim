@@ -1,6 +1,25 @@
 {
  "id": "ebay",
  "name": "eBay",
+ "country": "United States",
+ "sector": "Internet marketplace",
+ "profiles": [
+  {
+   "from": "1998-09",
+   "tagline": "The world's online marketplace: we own no stock and ship nothing, we just take a fee on every sale.",
+   "about": "Runs a website where people auction things to each other, from collectibles to used cars. Unlike most internet companies it makes a profit."
+  },
+  {
+   "from": "2002-10",
+   "tagline": "The marketplace and the way to pay for it now belong together.",
+   "about": "Runs the largest online marketplace for goods sold by individuals and small merchants, and owns PayPal, a service for paying over the internet."
+  },
+  {
+   "from": "2015-07",
+   "tagline": "A marketplace for everything that is not on a supermarket shelf.",
+   "about": "Runs an online marketplace for goods sold by individuals and small merchants. The payment service PayPal has been separated into a company of its own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance EBAY (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

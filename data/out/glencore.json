@@ -1,6 +1,20 @@
 {
  "id": "glencore",
  "name": "Glencore",
+ "country": "Switzerland",
+ "sector": "Mining and commodity trading",
+ "profiles": [
+  {
+   "from": "2011-05",
+   "tagline": "We dig up, buy, ship and sell the raw materials the world is made of.",
+   "about": "A Swiss commodity trader and miner based in Baar. It trades and produces copper, zinc, coal, oil and grain, and has just sold shares to the public for the first time."
+  },
+  {
+   "from": "2013-05",
+   "tagline": "From the mine to the customer, in one hand.",
+   "about": "A Swiss commodity trader and one of the world's largest mining companies after its merger with Xstrata. It produces and trades copper, zinc, coal, nickel, oil and grain."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance GLEN.L (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

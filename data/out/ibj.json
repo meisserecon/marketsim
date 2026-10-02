@@ -1,6 +1,15 @@
 {
  "id": "ibj",
  "name": "Industrial Bank of Japan",
+ "country": "Japan",
+ "sector": "Banking",
+ "profiles": [
+  {
+   "from": "1985-01",
+   "tagline": "We finance the companies that have made Japan the envy of the world.",
+   "about": "A Tokyo bank that provides long-term loans to Japan's large industrial companies and holds shares in many of them."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/ibj.csv",

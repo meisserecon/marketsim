@@ -28,6 +28,16 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".json")).so
     if (!Number.isFinite(r.income) || r.income < 0) fail(`${r.month} bad income ${r.income}`);
   });
 
+  // A profile must exist from the first month, in ascending order, so that players never see an undescribed or future-dated company.
+  if (s.kind !== "cash") {
+    const ps = s.profiles ?? [];
+    if (!ps.length) fail("no profile");
+    else {
+      if (ps[0].from > rows[0].month) fail(`first profile starts ${ps[0].from}, after the first row ${rows[0].month}`);
+      for (let i = 1; i < ps.length; i++) if (ps[i].from <= ps[i - 1].from) fail(`profile versions out of order at ${ps[i].from}`);
+    }
+  }
+
   let best = { m: "", r: 0 };
   let worst = { m: "", r: 0 };
   let hi = rows[0];

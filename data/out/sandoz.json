@@ -1,6 +1,20 @@
 {
  "id": "sandoz",
  "name": "Sandoz",
+ "country": "Switzerland",
+ "sector": "Pharmaceuticals and chemicals",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Medicines, dyes and seeds from Basel for the whole world.",
+   "about": "One of the three big Basel chemical companies. It makes medicines, dyes and chemicals, seeds, and nutrition products such as Ovomaltine."
+  },
+  {
+   "from": "1995-07",
+   "tagline": "Medicines, nutrition and seeds: we are concentrating on life.",
+   "about": "A Basel company that makes medicines, nutrition products and seeds. The chemicals and dyes business has been separated into a company of its own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/sandoz.csv; 1 dividends from manual/dividends/sandoz.csv",

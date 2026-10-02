@@ -1,6 +1,25 @@
 {
  "id": "bmw",
  "name": "BMW",
+ "country": "Germany",
+ "sector": "Cars",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Sheer driving pleasure: we build cars for people who love to drive.",
+   "about": "A Munich maker of sporty, expensive cars and of motorcycles."
+  },
+  {
+   "from": "1994-03",
+   "tagline": "With Rover and Land Rover we now cover the whole market, from the small car to the luxury saloon.",
+   "about": "A Munich maker of sporty, expensive cars and of motorcycles. It has bought the British Rover Group with the Rover, Land Rover and Mini brands."
+  },
+  {
+   "from": "2000-06",
+   "tagline": "Premium and nothing else.",
+   "about": "A Munich maker of sporty, expensive cars and of motorcycles. It has sold Rover and Land Rover and kept the Mini."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/bmw.csv until 1996-10; Yahoo Finance BMW.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 4 dividends from manual/dividends/bmw.csv",

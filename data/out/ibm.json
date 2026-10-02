@@ -1,6 +1,35 @@
 {
  "id": "ibm",
  "name": "IBM",
+ "country": "United States",
+ "sector": "Computers",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Every large organisation in the world runs on our computers.",
+   "about": "The world's biggest computer maker. It builds and leases mainframes, the room-sized machines that banks, airlines and governments use to process their data, and sells typewriters and other office equipment."
+  },
+  {
+   "from": "1981-08",
+   "tagline": "From the data centre to the desk: now there is an IBM computer for everyone.",
+   "about": "The world's biggest computer maker. Its mainframes run the data processing of banks, airlines and governments, and it has just started selling a small personal computer for the office desk."
+  },
+  {
+   "from": "1995-01",
+   "tagline": "Our customers don't want boxes. They want their problems solved, and nobody knows their systems better than we do.",
+   "about": "Makes large computers, personal computers and software, and increasingly earns its money by running and advising the computer departments of big companies."
+  },
+  {
+   "from": "2005-05",
+   "tagline": "We left the commodity business to focus on what companies will pay a premium for.",
+   "about": "Provides computer services, software and large systems to companies and governments. It has sold its personal computer business."
+  },
+  {
+   "from": "2019-07",
+   "tagline": "Every big company is moving to the cloud, and we are the ones who can connect it with what they already run.",
+   "about": "Provides software, consulting and large computer systems to companies and governments, with a focus on cloud computing and artificial intelligence for business."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance IBM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

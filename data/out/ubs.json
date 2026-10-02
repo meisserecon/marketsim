@@ -7,6 +7,30 @@
    "name": "UBS"
   }
  ],
+ "country": "Switzerland",
+ "sector": "Banking",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "The world brings its savings to Switzerland, and we are the largest bank in Switzerland.",
+   "about": "The Schweizerische Bankgesellschaft, based in Zurich, is the largest of the three big Swiss banks. It manages the wealth of private clients from all over the world, lends to Swiss companies and households, and trades securities."
+  },
+  {
+   "from": "1998-06",
+   "tagline": "Two Swiss banks become one of the largest in the world, and the largest manager of private wealth anywhere.",
+   "about": "Formed by the merger of Bankgesellschaft and Bankverein. It manages the wealth of private clients around the world, runs an investment bank and is the leading bank in Switzerland."
+  },
+  {
+   "from": "2009-01",
+   "tagline": "We are going back to what clients come to us for: looking after their wealth.",
+   "about": "A Swiss bank that had to be rescued by the state in the financial crisis after large losses in its investment bank. It manages the wealth of private clients around the world and is the leading bank in Switzerland."
+  },
+  {
+   "from": "2023-06",
+   "tagline": "One Swiss bank, twice the size.",
+   "about": "The largest Swiss bank and the largest manager of private wealth in the world. It has taken over its rival Credit Suisse."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/ubs.csv until 1998-05; Yahoo Finance UBSG.SW (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 2013-05 corrected to 0.15; 28 dividends from manual/dividends/ubs.csv",

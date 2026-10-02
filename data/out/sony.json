@@ -1,6 +1,30 @@
 {
  "id": "sony",
  "name": "Sony",
+ "country": "Japan",
+ "sector": "Consumer electronics",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "We make things nobody has seen before, and then everybody wants one.",
+   "about": "A Japanese maker of televisions, radios and tape recorders, known for its Trinitron colour television and for its inventiveness."
+  },
+  {
+   "from": "1979-07",
+   "tagline": "We make things nobody has seen before, and then everybody wants one.",
+   "about": "A Japanese maker of televisions, video recorders and audio equipment. Its newest product is the Walkman, a cassette player small enough to carry around."
+  },
+  {
+   "from": "1989-11",
+   "tagline": "We make the machines, and now we own the music and the films to play on them.",
+   "about": "A Japanese maker of televisions, video cameras and audio equipment that has bought the record company CBS Records and the Hollywood studio Columbia Pictures."
+  },
+  {
+   "from": "1995-01",
+   "tagline": "Electronics, music, films and now games.",
+   "about": "A Japanese maker of televisions, cameras and audio equipment that also owns a record company and a Hollywood studio and makes the PlayStation games console."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance SONY (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

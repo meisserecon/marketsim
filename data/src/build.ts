@@ -7,6 +7,7 @@ import { lastOfMonth, monthRange } from "./lib/months.js";
 import { GAME_START_MONTH } from "@marketsim/shared";
 import { bondSchedule, buildZeroBondRows, type CurvePoint } from "./lib/bonds.js";
 import { UNIVERSE, type Currency } from "./universe.js";
+import { PROFILES, GOLD_PROFILE, bondProfile, type CompanyProfile } from "./profiles.js";
 import type { AssetSeries, MonthRow } from "./lib/asset.js";
 
 /** First month of history. The game itself starts at GAME_START_MONTH; the years before are chart context and feed the trailing figures. */
@@ -16,6 +17,8 @@ const round = (x: number, d = 4) => Math.round(x * 10 ** d) / 10 ** d;
 // Clear stale outputs so removed assets disappear.
 fs.rmSync(OUT_DIR, { recursive: true, force: true });
 fs.mkdirSync(OUT_DIR, { recursive: true });
+
+const profileFields = (p: CompanyProfile | undefined) => (p ? { ...(p.country ? { country: p.country } : {}), sector: p.sector, profiles: p.versions } : {});
 
 function write(series: AssetSeries) {
   const rows = series.rows.map((r) => ({
@@ -53,6 +56,7 @@ for (const def of bondSchedule(GAME_START_MONTH, endMonth, START_MONTH)) {
     notes:
       "Zero-coupon bond repaying 100 on 1 January of its maturity year. price = 100 discounted at the zero-coupon yield for the remaining time; no income. extra.yield = yearly return if held to maturity; extra.years = years left. A stylisation: such bonds were not sold to the public before 1982.",
     maturity: `${def.maturityYear}-01-01`,
+    ...profileFields(bondProfile(def.maturityYear)),
     ...(matured ? { end: { month: def.until, type: "maturity" as const, note: `Matured on 1 January ${def.maturityYear} and repaid 100 per unit` } } : {}),
     rows: buildZeroBondRows(def, curve, monthRange(START_MONTH, endMonth)),
   });
@@ -65,6 +69,7 @@ write({
   id: "gold",
   name: "Gold",
   kind: "gold",
+  ...profileFields(GOLD_PROFILE),
   currency: "USD",
   source: "datahub.io/core/gold-prices (LBMA, via Deutsche Bundesbank), monthly average USD per troy ounce",
   notes: "Monthly average, not month-end. No income.",
@@ -207,10 +212,12 @@ for (const s of UNIVERSE) {
     rows.push(prev);
   }
 
+  if (!PROFILES[s.id]) console.warn(`${s.id}: no profile in profiles.ts`);
   write({
     id: s.id,
     name: s.name,
     renames: s.renames,
+    ...profileFields(PROFILES[s.id]),
     kind: "stock",
     currency: "USD",
     source,

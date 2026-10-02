@@ -15,6 +15,35 @@
    "name": "Mercedes-Benz Group"
   }
  ],
+ "country": "Germany",
+ "sector": "Cars and trucks",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "We build the cars that demanding drivers want, and the trucks that carry the world's goods.",
+   "about": "A Stuttgart company that builds Mercedes-Benz cars and is one of the world's biggest makers of heavy trucks."
+  },
+  {
+   "from": "1986-01",
+   "tagline": "From the car to aerospace and electronics: an integrated technology group.",
+   "about": "Builds Mercedes-Benz cars and trucks and has bought its way into aircraft engines, aerospace and, with AEG, electrical equipment."
+  },
+  {
+   "from": "1998-11",
+   "tagline": "A merger of equals: the first truly global car company.",
+   "about": "Formed by the merger of Daimler-Benz and the American Chrysler Corporation. It builds Mercedes-Benz, Chrysler, Jeep and Dodge cars and heavy trucks."
+  },
+  {
+   "from": "2007-10",
+   "tagline": "We are concentrating on what we do best: premium cars and trucks.",
+   "about": "Builds Mercedes-Benz cars and is the world's biggest maker of heavy trucks. It has sold Chrysler."
+  },
+  {
+   "from": "2022-02",
+   "tagline": "Fewer cars, more luxury.",
+   "about": "Builds Mercedes-Benz cars and vans. The truck business has been separated into a company of its own."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/mercedes.csv until 1996-09; Yahoo Finance MBG.DE (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 18 dividends from manual/dividends/mercedes.csv",

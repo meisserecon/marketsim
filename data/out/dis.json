@@ -1,6 +1,30 @@
 {
  "id": "dis",
  "name": "Disney",
+ "country": "United States",
+ "sector": "Entertainment",
+ "profiles": [
+  {
+   "from": "1975-01",
+   "tagline": "Families trust our name, in the cinema, on television and in our parks.",
+   "about": "Makes family films and television programmes, runs the Disneyland and Walt Disney World amusement parks, and licenses Mickey Mouse and its other characters for toys and books."
+  },
+  {
+   "from": "1996-02",
+   "tagline": "We make the stories, and now we own the network that brings them into every living room.",
+   "about": "An entertainment group with film studios, amusement parks, merchandise and, since buying ABC, a national television network and the sports channel ESPN."
+  },
+  {
+   "from": "2010-01",
+   "tagline": "The best characters in the world belong to us, and each one can become a film, a ride and a toy.",
+   "about": "An entertainment group with film studios including Pixar and Marvel, amusement parks around the world, the ABC network and the sports channel ESPN."
+  },
+  {
+   "from": "2019-11",
+   "tagline": "A century of stories, now streamed straight to the family.",
+   "about": "An entertainment group with film studios, amusement parks, television networks and its own streaming service, Disney+."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance DIS (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); 28 dividends from manual/dividends/dis.csv",

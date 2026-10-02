@@ -145,3 +145,15 @@ serves the built web client from `web/build` when it exists. Market data is read
   rebased to Yahoo's series and cross-checked against printed NZZ quotes where available.
 - **Japan** is represented by Industrial Bank of Japan, from the NZZ's Tokyo list.
 - **News library:** scope and format are still to be decided.
+
+## Company profiles
+
+Every asset has a profile for players who do not know it: sector and country, a one-line pitch
+in the voice of the company's boss at the time, and a sentence or two on what it sells. The
+texts are in `data/src/profiles.ts`. Like names, profiles come in dated versions so that none
+reveals the future: Apple in 1981 is the maker of the Apple II, and the iPhone appears in its
+profile only from July 2007. A version may only say what was true and known when it starts and
+must stay true until the next one. The server sends the version for the game's current month.
+Each version can also carry a logo and a picture; the client shows them when present.
+
+The market lists companies first, then gold, then bonds.

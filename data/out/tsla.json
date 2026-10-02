@@ -1,6 +1,25 @@
 {
  "id": "tsla",
  "name": "Tesla",
+ "country": "United States",
+ "sector": "Cars",
+ "profiles": [
+  {
+   "from": "2010-06",
+   "tagline": "We will prove that an electric car can be better than a petrol car.",
+   "about": "A small Californian company that builds an expensive electric sports car and plans a family saloon. It loses money and has just sold shares to the public for the first time."
+  },
+  {
+   "from": "2012-06",
+   "tagline": "The best car in the world happens to be electric.",
+   "about": "Builds the Model S, an electric luxury saloon, and is setting up its own network of fast chargers."
+  },
+  {
+   "from": "2017-07",
+   "tagline": "An electric car that ordinary families can afford, built by the hundred thousand.",
+   "about": "Builds electric cars, now including a cheaper model for the mass market, as well as batteries and solar panels."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "Yahoo Finance TSLA (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted)",

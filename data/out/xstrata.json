@@ -1,6 +1,15 @@
 {
  "id": "xstrata",
  "name": "Xstrata",
+ "country": "Switzerland",
+ "sector": "Mining",
+ "profiles": [
+  {
+   "from": "2002-03",
+   "tagline": "The world is building, and it needs our coal, our copper and our zinc.",
+   "about": "A mining company based in Zug and listed in London. It owns coal, copper, zinc and alloy mines and grows by buying other miners. The commodity trader Glencore is its largest shareholder."
+  }
+ ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/xstrata.csv; 18 dividends from manual/dividends/xstrata.csv",

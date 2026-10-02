@@ -98,13 +98,26 @@ interface Spec {
   /** Readings known to be wrong in the paper or unverifiable; left out. */
   exclude?: Record<string, string>;
   header: string[];
-  /** Rows from a file in data/manual/raw to append after the NZZ part (kept as they are). */
-  appendFrom?: { file: string; from: string };
+  /**
+   * Rows from a file in data/manual/raw to append after the NZZ part. By default the file has columns month,price,income
+   * in the spec's currency and its rows are copied as they are. With `currency`, the output gets a currency column (the NZZ
+   * rows in the spec's currency, the appended rows in this one) and the build converts each row from its own currency.
+   * `priceColumn` names the price column; `scale` multiplies prices in months before `before` (entries accumulate).
+   */
+  appendFrom?: { file: string; from: string; until?: string; currency?: string; priceColumn?: string; scale?: { before: string; factor: number }[] };
 }
 
 // Divisors: Deutsche Mark to the euro-equivalent basis of the online Daimler series, established on
 // 30 December 1987 (NZZ 575 DM = onvista 24.4072) and exact in every later month compared.
 const DAIMLER_DM_PER_UNIT = 23.5586;
+
+// Credit Suisse: the series is on the basis of one registered share after the 4-for-1 split of 2001 and the stock dividend of
+// 2013 (1 new share per 41, so one earlier share is 42/41 later shares). Earlier share classes are expressed in that unit:
+// CS Holding bearer share = 5 registered shares (1995 unification) = 25 (1993 split) = 100 shares of 2001; one SKA bearer share
+// with its CS Holding PS = 1.1 CS Holding bearer shares (1989 exchange offer).
+const CS_2013 = 42 / 41;
+// companiesmarketcap.com divides its Credit Suisse prices before May 2013 by 1.024 (see the raw file's header); undo that and apply 42/41.
+const CMC_2013 = 1.024;
 
 const SPECS: Spec[] = [
   {
@@ -165,6 +178,42 @@ const SPECS: Spec[] = [
     ],
   },
   {
+    id: "credit-suisse", series: "credit-suisse", currency: "CHF",
+    segments: [
+      { cls: "I", until: "1989-03", divisor: 1.1 * 100 * CS_2013 },
+      { cls: "I", from: "1989-04", until: "1993-11", divisor: 100 * CS_2013 },
+      { cls: "I", from: "1993-12", until: "1995-05", divisor: 20 * CS_2013 },
+      { cls: "N", from: "1995-06", until: "2001-07", divisor: 4 * CS_2013 },
+      { cls: "N", from: "2001-08", until: "2001-10", divisor: CS_2013 },
+    ],
+    appendFrom: {
+      file: "credit-suisse-companiesmarketcap.csv", from: "2001-11", until: "2023-06", currency: "USD", priceColumn: "price_as_published",
+      scale: [{ before: "2013-05", factor: CMC_2013 / CS_2013 }],
+    },
+    header: [
+      "Schweizerische Kreditanstalt (SKA), from April 1989 CS Holding, from 1997 Credit Suisse Group. Month-end close on the basis of one",
+      "registered share after the 4-for-1 split of August 2001 and the stock dividend of May 2013 (1 new share per 41 held, factor 42/41).",
+      "Until October 2001 in CHF from the NZZ (bearer share until May 1995, then the single registered share); from November 2001 the",
+      "NYSE ADR (one ADR = one share) in USD from raw/credit-suisse-companiesmarketcap.csv, whose prices before May 2013 are multiplied",
+      "by 1.024 (the site's own adjustment, undone) / (42/41). The build converts the CHF rows at the month-end FRED rate.",
+      "Divisors and evidence (all from the NZZ archive, page images):",
+      " - until March 1989: SKA bearer share, printed with its CS Holding participation certificate (inseparable since 1982, 'Inh. inkl. PS')",
+      "   from April 1982; 1.1 x 100 x 42/41. Exchange offer of CS Holding (NZZ 17.4.1989 p33): one SKA bearer share of Fr. 500 with one",
+      "   CS Holding PS of Fr. 50 = 1.1 CS Holding bearer shares of Fr. 500 (also NZZ 4.3.1989 p35). Check: 2895 (31.3.1989) / 1.1 = 2632",
+      "   against 2620 for CS Holding I on 28.4.1989.",
+      " - April 1989 to November 1993: CS Holding bearer share of Fr. 500; 100 x 42/41. 1:5 split decided by the meeting of 7.12.1993",
+      "   (Fr. 500 bearer into five of Fr. 100, Fr. 100 registered into five of Fr. 20; NZZ 25.11.1993 p14): 3595 (30.11.) to 737 (30.12.1993).",
+      " - December 1993 to May 1995: bearer share of Fr. 100; 20 x 42/41. The meeting of 29.5.1995 split each bearer share of Fr. 100",
+      "   into five registered shares of Fr. 20 (NZZ 30.5.1995 p21); bearer / registered printed 4.98 to 5.23 in 1994-1995. Last bearer 545.",
+      " - June 1995 to July 2001: registered share of Fr. 20; 4 x 42/41. 4-for-1 split effective 15.8.2001 (Form 20-F 2002):",
+      "   292.50 (31.7.) to 70.95 (31.8.2001).",
+      "Not adjusted, as for the other NZZ series: the paid subscription of the CS Holding PS in 1982 (Fr. 50 per bearer share, NZZ 4.3.1989),",
+      "the rights issues of 1980 (10:1 at Fr. 1250, NZZ 2.4.1980 p22), 1981 (20:1 at Fr. 750, NZZ 27.2.1981 p17) and 1989 (1 new per 15 at",
+      "par, NZZ 17.4.1989 p33), a capital measure in May 1991 (year range restated slightly), the free shareholder options of 1991-1994, and",
+      "in the online part the rights offerings of 2015, 2017 and 2022 (Form 20-F 2015, 2018, 2022).",
+    ],
+  },
+  {
     id: "ibj", series: "ibj", currency: "JPY",
     segments: [{ cls: "", divisor: 1 }],
     header: [
@@ -214,19 +263,26 @@ for (const spec of SPECS) {
     console.warn(`${spec.id.padEnd(12)} NOT WRITTEN: readings missing from ${longGap}`);
     continue;
   }
-  let tail: string[] = [];
-  if (spec.appendFrom) {
-    tail = readCsv(path.join(READINGS_DIR, spec.appendFrom.file))
-      .filter((r) => r.month >= spec.appendFrom!.from)
-      .map((r) => `${r.month},${r.price},${r.income || 0}`);
-  }
   const round = (x: number) => Number(x.toPrecision(7));
+  const ap = spec.appendFrom;
+  let tail: string[] = [];
+  if (ap) {
+    tail = readCsv(path.join(READINGS_DIR, ap.file))
+      .filter((r) => r.month >= ap.from && (!ap.until || r.month <= ap.until))
+      .map((r) => {
+        let price = Number(r[ap.priceColumn ?? "price"]);
+        for (const sc of ap.scale ?? []) if (r.month < sc.before) price *= sc.factor;
+        const p = ap.priceColumn || ap.scale ? round(price) : r[ap.priceColumn ?? "price"];
+        return ap.currency ? `${r.month},${p},${r.income || 0},${ap.currency}` : `${r.month},${p},${r.income || 0}`;
+      });
+  }
+  const cur = ap?.currency ? `,${spec.currency}` : "";
   const lines = [
     "# Generated by data/src/nzz.ts from data/manual/raw/nzz-readings*.csv. Do not edit by hand; change the readings or the spec.",
     ...spec.header.map((h) => "# " + h),
     "# income: dividends were not collected for the NZZ part; the column is 0 there.",
-    "month,price,income",
-    ...rows.map((r) => `${r.month},${round(r.price)},0`),
+    ap?.currency ? "month,price,income,currency" : "month,price,income",
+    ...rows.map((r) => `${r.month},${round(r.price)},0${cur}`),
     ...tail,
   ];
   fs.writeFileSync(outFile, lines.join("\n") + "\n");

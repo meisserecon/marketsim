@@ -150,6 +150,13 @@ serves the built web client from `web/build` when it exists. Market data is read
   month end), downloaded through the user's subscription and kept outside git in
   `data/manual/scans/`. Raw readings go to `data/manual/raw/` unadjusted; the series files
   apply documented splits. Nestlé and Novartis are read alongside as controls against Yahoo.
+- **Credit Suisse** is one series from 1979 to its takeover by UBS in June 2023: the NZZ bearer
+  share (SKA, from 1989 CS Holding) until May 1995 and the registered share until October 2001 in
+  CHF, then the NYSE ADR (companiesmarketcap.com) in USD; a manual series may carry a currency per
+  row for this. Divisors for the 1989 exchange, the 1993 split, the 1995 single registered share,
+  the 2001 split and the 2013 stock dividend are documented in `data/src/nzz.ts`. Rights issues are
+  not adjusted, as in the other NZZ series. Dividends 1980 to 2023 in
+  `data/manual/dividends/credit-suisse.csv`.
 - **German history before late 1996** comes from online chart sources (boerse.de, onvista),
   rebased to Yahoo's series and cross-checked against printed NZZ quotes where available.
 - **Japan** is represented by Industrial Bank of Japan, from the NZZ's Tokyo list.

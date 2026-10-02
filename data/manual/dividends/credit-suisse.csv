@@ -1,0 +1,55 @@
+# Credit Suisse (Schweizerische Kreditanstalt, CS Holding, Credit Suisse Group) cash paid per share, gross, in CHF, on the share basis of the
+#   price series (data/src/nzz.ts): the amount as declared divided by 110 x 42/41 until March 1989 (SKA bearer share with its CS Holding PS),
+#   100 x 42/41 until November 1993 (CS Holding bearer share of Fr. 500), 20 x 42/41 until May 1995 (bearer share of Fr. 100), 4 x 42/41 until
+#   July 2001 (registered share of Fr. 20), 42/41 until April 2013 (registered share before the stock dividend of 1 new per 41).
+#   Sources and declared amounts per line in raw-swiss-dividends.csv (company credit-suisse); method in NOTES-swiss-dividends.md.
+#   Choice dividends and the 1990 Coto are booked at their cash amount; nominal repayments and par value reductions are included as cash.
+#   Free shareholder options (1991-1994) and the 2013 stock dividend are not income (the stock dividend is in the share basis).
+#   From 2001-11 the price rows are in USD; the build converts these CHF amounts at the month-end rate of the row's month.
+month,dividend,note
+1980-04,0.709957,FY 1979: CHF 80 per SKA bearer / 112.683; dividend; month from meeting date
+1981-03,0.798701,FY 1980: CHF 90 per SKA bearer / 112.683; dividend 80 + anniversary bonus 10; month from meeting date
+1982-03,0.709957,FY 1981: CHF 80 per SKA bearer / 112.683; dividend; month from meeting date
+1983-03,0.732143,FY 1982: CHF 82.5 per SKA bearer with CS Holding PS / 112.683; SKA 80 + PS 2.50; month from SKA meeting date
+1984-03,0.834199,FY 1983: CHF 94 per SKA bearer with CS Holding PS / 112.683; SKA 90 + PS 4; month from meeting date
+1985-04,0.887446,FY 1984: CHF 100 per SKA bearer with CS Holding PS / 112.683; incl. PS 5; month from meeting date
+1986-03,0.940693,FY 1985: CHF 106 per SKA bearer with CS Holding PS / 112.683; incl. PS 6; month from meeting date
+1987-03,0.949567,FY 1986: CHF 107 per SKA bearer with CS Holding PS / 112.683; incl. PS 7; month from meeting date
+1988-03,0.958442,FY 1987: CHF 108 per SKA bearer with CS Holding PS / 112.683; incl. PS 8; month from meeting date
+1989-04,0.958442,FY 1988: CHF 108 per SKA bearer with CS Holding PS / 112.683; incl. PS 8; month from SKA meeting date
+1990-06,1.07381,FY 1989/90: CHF 110 per CS Holding bearer Fr. 500 / 102.439; cash alternative of the Coto (guaranteed 110 gross); month from meeting date
+1991-05,0.732143,FY 1990/91: CHF 75 per CS Holding bearer Fr. 500 / 102.439; paid from 1991-05-24
+1992-06,0.732143,FY 1991/92: CHF 75 per CS Holding bearer Fr. 500 / 102.439; month from meeting date
+1993-06,0.732143,FY 1992/93: CHF 75 per CS Holding bearer Fr. 500 / 102.439; month from meeting date
+1994-05,0.878571,FY 1993/94: CHF 18 per CS Holding bearer Fr. 100 / 20.4878; month from meeting date
+1995-05,0.878571,FY 1994/95: CHF 18 per CS Holding bearer Fr. 100 / 20.4878; = 3.60 per registered share; month from meeting date
+1996-06,0.97619,FY 1995/96: CHF 4 per registered Fr. 20 / 4.09756; ex-dividend early June 1996
+1997-06,0.97619,FY 1996: CHF 4 per registered Fr. 20 / 4.09756; month of ADR ex-date
+1998-06,1.22024,FY 1997: CHF 5 per registered Fr. 20 / 4.09756; month of ADR ex-date
+1999-06,1.22024,FY 1998: CHF 5 per registered Fr. 20 / 4.09756; month of ADR ex-date
+2000-05,1.70833,FY 1999: CHF 7 per registered Fr. 20 / 4.09756; month of ADR ex-date
+2001-08,1.95238,FY 2000: CHF 2 per registered after the 2001 split / 1.02439; nominal repayment (8 per pre-split share); ex 2001-08-15
+2002-08,1.95238,FY 2001: CHF 2 per registered / 1.02439; nominal repayment; ex 2002-08-09
+2003-04,0.097619,FY 2002: CHF 0.1 per registered / 1.02439; ex 2003-04-23
+2004-07,0.488095,FY 2003: CHF 0.5 per registered / 1.02439; nominal repayment paid 2004-07-12
+2005-05,1.46429,FY 2004: CHF 1.5 per registered / 1.02439; ex 2005-05-02
+2006-05,1.95238,FY 2005: CHF 2 per registered / 1.02439; paid 2006-05-04
+2007-05,2.18667,FY 2006: CHF 2.24 per registered / 1.02439; ex 2007-05-07
+2007-07,0.449048,FY 2006: CHF 0.46 per registered / 1.02439; par value reduction paid 2007-07-18
+2008-04,2.44048,FY 2007: CHF 2.5 per registered / 1.02439; month of ex-date 2008-04-29
+2009-04,0.097619,FY 2008: CHF 0.1 per registered / 1.02439; month of ex-date 2009-04-27
+2010-05,1.95238,FY 2009: CHF 2 per registered / 1.02439; paid 2010-05-14
+2011-05,1.26905,FY 2010: CHF 1.3 per registered / 1.02439; paid 2011-05-13
+2012-04,0.732143,FY 2011: CHF 0.75 per registered / 1.02439; cash or shares; cash amount; month of ex-date 2012-04-30
+2013-05,0.097619,FY 2012: CHF 0.1 per registered before the 2013 stock dividend / 1.02439; cash part paid 2013-05-06 (the 1-for-41 stock dividend is in the share basis)
+2014-05,0.7,FY 2013: CHF 0.7 per registered / 1; cash or scrip; paid 2014-05-16
+2015-05,0.7,FY 2014: CHF 0.7 per registered / 1; cash or scrip; paid 2015-05-21
+2016-06,0.7,FY 2015: CHF 0.7 per registered / 1; cash or scrip; paid 2016-06-06
+2017-05,0.7,FY 2016: CHF 0.7 per registered / 1; cash or scrip; paid 2017-05-24
+2018-05,0.25,FY 2017: CHF 0.25 per registered / 1; month of ex-date 2018-05-04
+2019-05,0.2625,FY 2018: CHF 0.2625 per registered / 1; paid 2019-05-07
+2020-05,0.1388,FY 2019: CHF 0.1388 per registered / 1; first half paid 2020-05-11
+2020-12,0.1388,FY 2019: CHF 0.1388 per registered / 1; second half paid 2020-12-07
+2021-05,0.1,FY 2020: CHF 0.1 per registered / 1; paid 2021-05-06
+2022-05,0.1,FY 2021: CHF 0.1 per registered / 1; paid 2022-05-11
+2023-04,0.05,FY 2022: CHF 0.05 per registered / 1; paid 2023-04-12

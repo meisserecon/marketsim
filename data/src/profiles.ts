@@ -287,6 +287,17 @@ export const PROFILES: Record<string, CompanyProfile> = {
       { from: "1975-01", tagline: "A Swiss bank that has always looked beyond Switzerland.", about: "The Schweizerischer Bankverein, based in Basel, is one of the three big Swiss banks. It manages private wealth, lends to companies and is active in the international securities and currency markets." },
     ],
   },
+  "credit-suisse": {
+    country: "Switzerland", sector: "Banking",
+    versions: [
+      { from: "1975-01", tagline: "Founded to finance Switzerland's railways, we now finance Swiss industry and look after the wealth of clients from all over the world.", about: "The Schweizerische Kreditanstalt, based in Zurich, is one of the three big Swiss banks. It lends to companies and households, manages private wealth and trades and issues securities." },
+      { from: "1989-01", tagline: "A Swiss bank with a Wall Street investment bank under the same roof.", about: "CS Holding, based in Zurich, owns the Schweizerische Kreditanstalt, one of the three big Swiss banks, and a large stake in the international investment bank CS First Boston." },
+      { from: "1994-01", tagline: "We have built the bank with the most branches in Switzerland and an investment bank that competes worldwide.", about: "A Zurich holding company that owns the Kreditanstalt, the Volksbank and Bank Leu in Switzerland and the investment bank CS First Boston." },
+      { from: "1998-01", tagline: "Banking and insurance from one hand: we have joined forces with Winterthur.", about: "The Credit Suisse Group, based in Zurich, runs a Swiss bank, a global investment bank, an asset manager and, since its merger with Winterthur, one of the large Swiss insurance companies." },
+      { from: "2007-01", tagline: "One bank: private banking, investment banking and asset management, everywhere.", about: "A Zurich bank that manages private wealth around the world and runs a large investment bank. It has sold the Winterthur insurance business." },
+      { from: "2021-04", tagline: "We are cutting risk in the investment bank and putting wealth management first.", about: "A Zurich bank that manages private wealth around the world and runs an investment bank. It has just suffered large losses from the collapse of an investment firm it lent to and of supply-chain finance funds it sold to its clients." },
+    ],
+  },
   ibj: {
     country: "Japan", sector: "Banking",
     versions: [

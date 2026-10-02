@@ -51,3 +51,10 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Zurich: 30 Dec 1988 (Friday) was a trading day but no issue prints its table; the Vortag brackets of the 3 Jan table (first trading day of 1989, Zurich closed 2 Jan) give the 30 Dec close. Eight values, each seen in two separate crops of the 4 Jan page. I did not compare against the 29 Dec running text because that is a different day. Plausibility vs 1988-11: SBV 363 -> 339, Sandoz 10575 -> 9575, Nestle I 6875 -> 7240, others within 6 percent.
 - Frankfurt: the 30 Dec issue text says Frankfurt was closed on 30 Dec (last trading day of the year was 29 Dec); BMW 523 and Daimler 738 are the 29 Dec Schluss values, so quote date 29 Dec. Tokyo: closed 29-30 Dec; 28 Dec close 4350.
 - Pass agreement: 8/8 Swiss, 4/4 foreign.
+
+## 1990-12
+
+- Issues: 1990-12-29 (Sat/Sun; Zurich printed p35 "Zuercher Boerse, Kurse vom 28. Dezember"; Frankfurt p37, Tokyo p38 "Kurse vom 28. Dezember"), 1991-01-03 (no Zurich table; Frankfurt p31, Tokyo p32, NY p33, "Kurse vom 2. Januar", Frankfurt/Tokyo with a 28.12. column, NY "Alle Vortagskurse vom 31. Dezember"), 1991-01-04 (p31 Zurich "Kurse vom 3. Januar" box: Vortag column = 28 Dec close). The earlier notes said 1990-12 could not be read; it can.
+- Layout: since 1990 the box of the most traded shares with Tagesschluss column; only box shares: Sandoz bearer is not in the box (only N, PS) so Sandoz I is not recorded. All seven recorded Swiss values agree between the Tagesschluss of 28 Dec and the Vortag of 3 Jan. Frankfurt/Tokyo also from two issues.
+- Last trading days: Zurich, Frankfurt, Tokyo 28 Dec; New York 31 Dec.
+- Pass agreement: 11 of 11. IBM ratio 4.184.

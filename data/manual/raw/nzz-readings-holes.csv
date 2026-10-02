@@ -1,0 +1,27 @@
+# Holes filled in the earlier NZZ month-end readings. Raw quotes as printed, no adjustment. Provenance, conventions and problems in nzz-notes-holes.md.
+# Every value read in two passes with fresh crops of different geometry (pass 2 made without the pass 1 numbers in view); both agree = eye2; settled by a third reading at higher magnification = eye3.
+# Sandoz bearer 1990-04 to 1991-06: running-text listing "Permanent gehandelte Titel" page (Zürcher Börse), entry "Sandoz I (previous close) ticks ... V (volume)"; close = last tick without forward-month suffix (Jun, Aug, Dez ...) or [Applikationskurs]; L (Losgeschäft) ticks are kept and said in the note.
+series,month,quote_date,share_class,currency,price_as_printed,issue,page,method,note
+sandoz,1990-04,1990-04-30,I,CHF,10600,1990-05-02,43,eye2,"line (10675) 10575 R 10575 10600 V; old basis"
+sandoz,1990-05,1990-05-31,I,CHF,11650,1990-06-01,45,eye2,"line (11750) 11700 11675 11650 11675 R 11650 V; old basis"
+sandoz,1990-06,1990-06-29,I,CHF,12000,1990-06-30,43,eye2,"line (11500) 11750 ... R 11850 ... 11975 12000 V; old basis"
+sandoz,1990-07,1990-07-31,I,CHF,11000,1990-08-02,33,eye2,"line (10900) 10975 11000L R 11000L V; last tick is a Losgeschaeft (L); old basis"
+sandoz,1990-08,1990-08-31,I,CHF,9350,1990-09-01,41,eye2,"line (9300) 9200 9350 R 9350 V; old basis"
+sandoz,1990-09,1990-09-28,I,CHF,8600,1990-09-29,41,eye2,"line (8700) 8700 8650 R 8600 8550Dez 8500Dez 8500L 8600 [8550] 8600 8600Dez V; last plain cash tick 8600 (8600Dez is forward); old basis"
+sandoz,1990-10,1990-10-31,I,CHF,8900,1990-11-01,41,eye2,"line (8950) 8900 R 8950 8900 V; old basis"
+sandoz,1990-11,1990-11-30,I,CHF,8870,1990-12-01,41,eye2,"line (8780) [8900] 8880 8850 8800 R 8750 [8880] 8850 8860 8870 V; old basis"
+sandoz,1991-01,1991-01-31,I,CHF,10150,1991-02-01,41,eye2,"line (10250) 10250 [10300Mär] 10250 R 10150 V; old basis"
+sandoz,1991-02,1991-02-28,I,CHF,10900,1991-03-01,45,eye2,"line (10950) 10950 R 10900 11000Mär V; 11000Mär is forward, last cash tick 10900; old basis"
+sandoz,1991-03,1991-03-28,I,CHF,11500,1991-03-30,43,eye2,"line (11475) 11500 11700Jun 11550 R 11550 11500 V; old basis; Zürich closed Good Friday 29 March"
+sandoz,1991-04,1991-04-30,I,CHF,11700,1991-05-02,41,eye2,"line (11800) 11700 11800Mai 11700 R 11725 11700 V; old basis"
+sandoz,1991-05,1991-05-31,I,CHF,2520,1991-06-01,45,eye2,"BASIS CHANGE: new line 'I neu (2440) 2450 2460 R 2530 2540 2550 2570 2590 2570 2560 2550 2520 V' directly after 'Sandoz I Anr 1 335 R 360 365 355 V' (subscription right); bracket 2440 (30 May) is already on the new basis; previous printed bearer close 11700 on 30 April"
+sandoz,1991-06,1991-06-28,I,CHF,2300,1991-06-29,43,eye2,"line 'I neu (2310) 2300 [2310Jul] 2310 2320 2310 2300 2290 2280 2290 R 2290 2300L 2290 2300 2310 2300 V'; last tick 2300; new basis"
+swissair,1986-01,1986-01-31,I,CHF,1880,1986-02-01,25,eye2,"line (1900) 1860 80tttL 75tt 50 40 60 70 80 R 900 ttt 10tt: last cash tick before R is 1880; both session-2 ticks carry forward marks; also equals the value of nzz-readings-1986.csv"
+swissair,1986-11,1986-11-28,I,CHF,1350,1986-11-29,25,eye2,"p.H. line (1320) 1330 t 40tt 45tt 40 35 40 35 40 50 45 40 35L 50 60tt 60 t 50 60 t 70 tt 80ttt, no R: marks follow the figure (same convention as every other line, e.g. 'PS 1680 90 700 10 700'), so '60 t' and '70 tt' are forward and the last plain tick is 50 (1350); if the stray t belonged to the next figure the close would read 1360, therefore medium confidence; equals nzz-readings-1986.csv"
+nestle,1981-07,1981-07-31,I,CHF,3150,1981-08-03,17,eye2,"line Nestlé Inh. (3135) 3150 R 3150 TZ 313 [Na. follows]; 'TZ 313' is a three-digit annotation (cannot be a Nestlé price), last price 3150; meaning of TZ not explained in the paper"
+nestle,1982-12,1982-12-30,I,CHF,3850,1982-12-31,19,eye2,"line (3800) 3800 3840tttL 3850ttt 3820 3825 3835 3870ttt 3840 3840tt R 3850 TZ 382 [Na. follows]; last price 3850 before the annotation 'TZ 382' (three digits, not a price); meaning of TZ not explained"
+ciba-geigy,1981-08,1981-08-31,I,CHF,1200,1981-09-01,19,eye2,"line Ciba-Geigy Inh. (1210) 1205 1220ttt 1205 1200 R 1200 Na. is complete and at the bottom of the left column; the earlier note 'cut off at top of column' referred to the registered line"
+ubs,1986-04,1986-04-30,I,CHF,5460,1986-05-02,25,eye2,"line SBG (5470) 5460 80ttt R 70 tt 90ttt: first session 5460 plain, 5480 forward, second session 5470 tt and 5490 ttt forward; last plain tick 5460; equals nzz-readings-1986.csv"
+sandoz,1987-01,1987-01-30,I,CHF,10650,1987-01-31,25,eye3,"line Sandoz Inh. (10750) 10750 650 R 50: lone figures replace the trailing digits of the previous price (proved inside the same block: 'PS (1690) 1680 90 700 10 700 690 85 80 75' = 1680 1690 1700 1710 1700 1690 1685 1680 1675), so 650 = 10650 and the lone 50 after R = 10650 (a change of the hundreds digit would be printed '750'); close 10650"
+ibj,1985-05,1985-05-31,,JPY,1280,1985-06-01,27,eye2,"Tokio list row 'Industrial Bank' columns Vortag 1310, Schluss 1280; FIRST month in which the NZZ Tokio list contains the bank (issue of 2 May 1985, April, still lacks it); equals the single reading in nzz-readings-1983-1985.csv"
+ibj,1987-01,1987-01-30,,JPY,3320,1987-01-31,27,eye2,"Tokio list row 'Industrial Bank' Vortag 3290, Schluss 3320; two crops of mine plus the eye2 value of nzz-readings-1986.csv agree"

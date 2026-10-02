@@ -170,7 +170,28 @@ serves the built web client from `web/build` when it exists. Market data is read
   (BMW 1980 and 1987 to 1995, Siemens 1983, Industrial Bank of Japan before December 1992), the
   year carries the amount of the neighbouring sourced years, marked `ESTIMATE` in the row. A
   missing year would wrongly show no payment at all; an estimate is replaced when a source turns up.
-- **News library:** scope and format are still to be decided.
+
+## News
+
+The news is the storytelling of the game and carries the fundamentals where they matter
+("IBM reports record profits"), instead of a systematic fundamentals database. One file per
+year in , each a JSON array of items ( in
+): month, kind, headline, two to four sentences written as of the end of
+that month, the companies concerned, a source for maintainers, and a slot for a picture.
+Kinds: world (politics, economy, markets), company, colour (life of the time), listing and
+delisting. About three to five items a month, more in big months. Every company entry, exit and
+merger has its item; a company must have its story when it becomes tradable.
+
+Rules: no lookahead (an item knows nothing after its month, and later names or fates never
+leak into earlier items); nothing from memory alone, every fact cites a source. Items are
+written by agents per period and reviewed for lookahead and dullness.
+
+The server serves a month's items only once the game has reached it (), and the
+asset history carries "the story so far": the company's items up to the current month. The
+player view shows the month's news above the leaderboard; the game master page shows it large,
+to be read to the room before anyone trades; the company panel shows the story so far.
+ checks the files, the company ids against their listing months, and
+that every listing and exit in a covered year has its item.
 
 ## Company profiles
 

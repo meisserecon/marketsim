@@ -37,3 +37,10 @@ Correction note: an earlier state of this branch (commits "NZZ gaps: 1979-12" to
 - Left out: Swissair I. The 28 Dec line is "(1060) 1065 3 R 5 t": the closing print "5" (1065) is followed by a lone dagger on the next line; if it marks the 5 the last unmarked print is 3 = 1063, but the 3 Jan bracket is (1065). The two readings differ (1063 vs 1065), no further evidence; left out.
 - Frankfurt pass 2 from a different issue; IBM 123 read in this session once (1985-01-03 table, Vortag column), second reading = the earlier agent's independent value 123 in nzz-readings-1983-1985.csv. IBM control: 123/29.4276 = 4.180. IBJ not read.
 - Comparison to earlier file nzz-readings-1983-1985.csv: BMW 372, Daimler 592, IBM 123 identical.
+
+## 1986-03
+
+- Issue 1986-03-29 (Sat/Sun 29/30 March 1986): Swiss printed p24 "Kurse vom 27. Maerz" (Zuercher Boerse, running text), Frankfurt printed p27 "Kurse vom 28. Maerz". Easter 30 March: Zurich and Frankfurt closed 28 March (Good Friday) and 31 March; 27 March is the last trading day. The earlier file had no Swiss rows for 1986-03.
+- Frankfurt: the single price column is the 27 Mar close (the second column reads "geschlossen"). Second reading is the earlier agent's independent value from another issue (both 550 and 1323).
+- Swiss: two readings (overview crop and a 2.5x zoom crop); all 8 agree. No second place in the paper exists for the lines. Ambiguities: SBG I (5190 R 200 t) taken as 5190 because the t belongs to 200; SBV/SKA lines have lone t marks between prints.
+- Not in the csv: IBM and IBJ. NYSE was closed on Good Friday and traded on 31 March, so the 27 March New York close is not the month end; Tokyo traded on 31 March. The month-end values are in nzz-readings-1986.csv (issue 1986-04-01).

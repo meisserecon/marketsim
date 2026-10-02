@@ -90,6 +90,30 @@
     "imageCaption": null
   },
   {
+    "month": "1983-02",
+    "kind": "company",
+    "headline": "McDonald's posts record results for the 18th year in a row",
+    "text": "On 1 February McDonald's reported record profit, revenue and sales for 1982, its 18th record year in a row; earnings per share rose 15%. It ended the year with 7,259 restaurants, up from 6,739, and 96 more under construction. Chairman Fred Turner expects 1983 to be another record year.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.upi.com/Archives/1983/02/01/McDonalds-reports-record-1982-earnings/1277412923600/ (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
+    "month": "1983-02",
+    "kind": "company",
+    "headline": "Coca-Cola's profit jumps 14.6%, helped by Diet Coke",
+    "text": "On 14 February Coca-Cola said 1982 profit rose 14.6% to 512.2 million dollars, or 3.95 dollars a share, its biggest rise since 1976. Revenue grew 6.1% to 6.25 billion. Diet Coke is already the No. 2 diet drink in most markets, and Columbia Pictures has hits like Tootsie and Gandhi. Roberto Goizueta will propose a higher dividend.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.upi.com/Archives/1983/02/14/Coca-Cola-earnings-up-recommends-dividend-increase/9194414046800/ (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
     "month": "1983-03",
     "kind": "world",
     "headline": "OPEC cuts its oil price for the first time, to $29",
@@ -233,6 +257,18 @@
     "text": "On 20 May research groups led by Robert Gallo and Luc Montagnier each reported in the journal Science a retrovirus that may cause the new disease AIDS. It is still unproven whether it is the cause.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1983 (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
+    "month": "1983-05",
+    "kind": "company",
+    "headline": "Bankgesellschaft places a big block of Jacobs Suchard shares",
+    "text": "Bankgesellschaft led eleven banks selling 30,000 Jacobs Suchard shares, worth about 170 million francs, for the family holding Colima. Sales this large are rare in Switzerland. The banks had promised secrecy, but some told clients before the contract was signed on Monday evening. The shares went at 5,650 francs each.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "Neue Zürcher Zeitung, 1 June 1983 ('Zur Streuung von Jacobs-Suchard-Aktien'), scan data/manual/scans/nzz/NZZ_1983-06-01.pdf (read 2026-10-03)",
     "image": null,
     "imageCaption": null
   },
@@ -445,6 +481,18 @@
     "imageCaption": null
   },
   {
+    "month": "1983-10",
+    "kind": "company",
+    "headline": "Daimler-Benz chief Gerhard Prinz dies at 54",
+    "text": "Gerhard Prinz, chairman of the Daimler-Benz management board since 1980, died of a heart attack in Stuttgart on 29 October, aged only 54. The maker of Mercedes cars and lorries now has to find a new leader.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "https://de.wikipedia.org/wiki/Gerhard_Prinz (read 2026-10-03); Neue Zürcher Zeitung, 1 December 1983 (Reuter, 'den verstorbenen Vorstandsvorsitzenden der Daimler-Benz AG, Gerhard Prinz'), scan data/manual/scans/nzz/NZZ_1983-12-01.pdf (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
     "month": "1983-11",
     "kind": "company",
     "headline": "The FDA approves Sandoz's anti-rejection drug cyclosporine",
@@ -527,6 +575,36 @@
     "text": "On 10 December Raul Alfonsin took office as president of Argentina, ending seven years of military rule.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1983 (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
+    "month": "1983-12",
+    "kind": "company",
+    "headline": "Daimler-Benz and BMW shares soar 80% and 90% in 1983",
+    "text": "German shares rose 35% on average in 1983, and car makers led with gains of more than 70%. Daimler-Benz rose about 80% and BMW about 90%; Siemens gained around 50%. The Commerzbank index hit a record 1,044 on 28 December, almost 60% above its low of August 1982.",
+    "assets": [
+      "mercedes",
+      "bmw",
+      "siemens"
+    ],
+    "source": "Neue Zürcher Zeitung, 30 December 1983 (review of the German stock market in 1983), scan data/manual/scans/nzz/NZZ_1983-12-30.pdf (read 2026-10-03)",
+    "image": null,
+    "imageCaption": null
+  },
+  {
+    "month": "1983-12",
+    "kind": "company",
+    "headline": "Zurich in 1983: drug and food shares soar, bank shares lag",
+    "text": "Chemical and drug shares rose more than 40% in Zurich this year, helped by new medicines such as Sandoz's transplant drug Sandimmun. Nestle took off after saying it is looking for a company to buy, and is now worth more than 10 billion francs. Bank shares lagged, as everywhere: investors fear loans to countries that cannot pay, which will take years of profits to write off.",
+    "assets": [
+      "sandoz",
+      "nestle",
+      "ubs",
+      "sbv",
+      "credit-suisse"
+    ],
+    "source": "Neue Zürcher Zeitung, 30 December 1983 (Zurich exchange year review), scan data/manual/scans/nzz/NZZ_1983-12-30.pdf (read 2026-10-03)",
     "image": null,
     "imageCaption": null
   }

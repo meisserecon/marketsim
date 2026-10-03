@@ -113,6 +113,8 @@ if (want("fred")) {
 }
 if (want("gold")) await downloadCsv(GOLD_URL, path.join(RAW_DIR, "gold", "lbma_monthly.csv"));
 if (want("gsw")) await fetchYieldCurve(path.join(RAW_DIR, "fed", "gsw_monthly.csv"));
+// The market itself, for the news and as a benchmark; not an asset of the game.
+if (want("index")) await fetchYahooMonthly("^GSPC", path.join(RAW_DIR, "yahoo", "sp500.csv"));
 if (want("stocks")) {
   // ONLY=brk,ibm fetches just those, leaving the other raw files as they are.
   const only = process.env.ONLY?.split(",");

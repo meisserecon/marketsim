@@ -96,6 +96,18 @@ write({
   rows: monthRange(START_MONTH, endMonth).map((m) => ({ month: m, price: 1, income: 0 })),
 });
 
+// --- reference series (not tradable): the S&P 500, written next to the assets for the news tooling and the leaderboard benchmark ---
+{
+  const file = path.join(RAW_DIR, "yahoo", "sp500.csv");
+  if (fs.existsSync(file)) {
+    const rows = readCsv(file).filter((r) => r.month >= START_MONTH).map((r) => ({ month: r.month, price: round(Number(r.close), 2) }));
+    const REF_DIR = path.join(DATA_DIR, "reference");
+    fs.mkdirSync(REF_DIR, { recursive: true });
+    fs.writeFileSync(path.join(REF_DIR, "sp500.json"), JSON.stringify({ id: "sp500", name: "S&P 500", source: "Yahoo Finance ^GSPC, month-end close, price index without dividends", rows }, null, 1));
+    console.log(`sp500           ${rows.length} months, ${rows[0].month} .. ${rows[rows.length - 1].month} (reference, not an asset)`);
+  }
+}
+
 // --- stocks ------------------------------------------------------------------
 // USD per unit of foreign currency at month end.
 const usdPer: Record<Currency, (m: string) => number> = {

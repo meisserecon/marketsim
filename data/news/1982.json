@@ -50,8 +50,9 @@
       "ust2000"
     ],
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
-    "image": "/news/rates/1982-03-gold-vault.jpg",
-    "imageCaption": "A vault stacked with gold bars"
+    "image": "/news/rates/1982-03-credit-suisse-gold-bars.jpg",
+    "imageCaption": "One-kilogram Credit Suisse gold bars, New York, 1982",
+    "imageCredit": "Photo by Brownie Harris/Corbis via Getty Images"
   },
   {
     "month": "1982-05",
@@ -156,7 +157,10 @@
     "headline": "1982 in review: from the August low to records",
     "text": "The S&P 500 rose 15% in 1982 to 140.64, and the Dow gained 19.6% to 1,046.54, its best year in seven, after reaching an all-time high of 1,070.55 on 27 December. From the August low the Dow is up 37.7%. A record 16.46 billion shares traded on the New York Stock Exchange, while unemployment is near 11 percent, the highest since the war.",
     "assets": [],
-    "source": "https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/1982-12-nyse-floor.jpg",
+    "imageCaption": "The floor of the New York Stock Exchange during the record-volume rally, 22 September 1982",
+    "imageCredit": "Bettmann / Getty Images (Bettmann Archive)"
   },
   {
     "month": "1982-12",

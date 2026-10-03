@@ -49,8 +49,8 @@
     "id": "8861332f",
     "month": "1981-08",
     "title": "IBM enters the personal computer market; Apple falls 20%",
-    "what": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in. Apple shares fell 20% in August and another 24% in September.",
-    "why": "The arrival of the competitor that will define Apple's next fifteen years. The share reaction is from the data; the link is the timing.",
+    "what": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in.",
+    "why": "The arrival of the competitor that will define Apple's next fifteen years. The share reaction is from the data; the link is the timing. (Time check: cut the September fall from this August beat.)",
     "assets": [
       "aapl",
       "ibm"
@@ -77,9 +77,9 @@
   {
     "id": "6f5bf2f2",
     "month": "1982-08",
-    "title": "Wall Street turns, and Apple leads the way up",
+    "title": "Wall Street rallies, and Apple leads the way up",
     "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
-    "why": "The start of the 1982-83 bull market and of Apple's best twelve months in the game (+312% to May 1983); Apple behaved as a high-risk growth stock.",
+    "why": "The start of the 1982-83 bull market and of Apple's best twelve months in the game (+312% to May 1983); Apple behaved as a high-risk growth stock. (Time check: title said Wall Street 'turns', which assumes the bull market that followed.)",
     "assets": [
       "aapl"
     ],
@@ -152,9 +152,9 @@
   {
     "id": "214c912b",
     "month": "1987-05",
-    "title": "Apple pays its first dividend and splits its shares",
-    "what": "On 11 May Apple declared its first dividend, and in June its shares split two for one for the first time. The Macintosh Plus and the new Macintosh II with colour are selling well to businesses, designers and schools, and the Mac with Apple's LaserWriter printer has become the tool for desktop publishing.",
-    "why": "Apple at the height of the Sculley years: profitable, growing, paying dividends. The shares nearly doubled in 1986 and doubled again in 1987.",
+    "title": "Apple pays its first dividend",
+    "what": "On 11 May Apple declared its first dividend. The Macintosh Plus and the new Macintosh II with colour are selling well to businesses, designers and schools, and the Mac with Apple's LaserWriter printer has become the tool for desktop publishing.",
+    "why": "Apple at the height of the Sculley years: profitable, growing, paying dividends. The shares nearly doubled in 1986 and doubled again in 1987. (Time check: removed the June share split from this May beat.)",
     "assets": [
       "aapl"
     ],
@@ -165,8 +165,8 @@
     "id": "7293e9eb",
     "month": "1989-09",
     "title": "Apple's first portable Macintosh",
-    "what": "Apple released the Macintosh Portable on 20 September, its first battery-powered computer, at 5,799 dollars. The Mac line is selling well: these are good years for Apple.",
-    "why": "1989 to 1991 were later called the first golden age of the Mac; the Portable itself failed, the PowerBook of 1991 succeeded.",
+    "what": "Apple released the Macintosh Portable on 20 September, its first battery-powered computer, at 5,799 dollars. The Mac line is selling well.",
+    "why": "1989 to 1991 were later called the first golden age of the Mac; the Portable itself failed, the PowerBook of 1991 succeeded. (Time check: cut the hindsight judgement 'these are good years for Apple'.)",
     "assets": [
       "aapl"
     ],
@@ -177,8 +177,8 @@
     "id": "6d417b3f",
     "month": "1990-05",
     "title": "Windows 3.0 gives PCs what made the Mac special",
-    "what": "Microsoft launched Windows 3.0 on 22 May. It gives ordinary IBM-compatible PCs a screen with windows, icons and a mouse much like the Macintosh, at lower prices. Apple's Macs sell well for now, but the gap is closing.",
-    "why": "The long squeeze on Apple's margins and market share begins; 1989-91 was the 'first golden age' of the Mac.",
+    "what": "Microsoft launched Windows 3.0 on 22 May. It gives ordinary IBM-compatible PCs a screen with windows, icons and a mouse much like the Macintosh, at lower prices. Apple's Macs still sell well, but the PCs are catching up.",
+    "why": "The long squeeze on Apple's margins and market share begins; 1989-91 was the 'first golden age' of the Mac. (Time check: dropped the foreshadowing 'for now'.)",
     "assets": [
       "aapl",
       "msft"
@@ -263,9 +263,9 @@
   {
     "id": "ab4b8282",
     "month": "1994-03",
-    "title": "The Power Macintosh, and Mac clones",
+    "title": "The Power Macintosh",
     "what": "Apple has started its Power Macintosh line, built on PowerPC processors developed in an alliance with IBM and Motorola. Parts of the Mac's software were rewritten so that older programs still run.",
-    "why": "In 1995 Apple began licensing the Mac system to clone makers, whose machines took sales from Apple's own; Jobs ended the program in 1997. The exact launch month of the Power Mac is not in the sources read; the beat sits in spring 1994.",
+    "why": "In 1995 Apple began licensing the Mac system to clone makers, whose machines took sales from Apple's own; Jobs ended the program in 1997. The exact launch month of the Power Mac is not in the sources read; the beat sits in spring 1994. (Time check: title mentioned Mac clones, which were not part of the news in March 1994.)",
     "assets": [
       "aapl",
       "ibm"
@@ -382,8 +382,8 @@
     "id": "7589a5bf",
     "month": "2003-04",
     "title": "The iTunes Music Store opens",
-    "what": "Apple opened the iTunes Music Store, where songs can be bought legally for download, and sold 2 million songs in the first 16 days. For now it works only with Macs and in the United States.",
-    "why": "Made the iPod a system; a Windows version followed in October 2003 and opened the iPod to the whole PC market.",
+    "what": "Apple opened the iTunes Music Store, where songs can be bought legally for download. For now it works only with Macs and in the United States.",
+    "why": "Made the iPod a system; a Windows version followed in October 2003 and opened the iPod to the whole PC market. (Time check: cut the sales figure for the first 16 days, which ran into May.)",
     "assets": [
       "aapl"
     ],
@@ -577,8 +577,8 @@
     "id": "4b4f3282",
     "month": "2020-08",
     "title": "Two trillion dollars",
-    "what": "On 19 August Apple's shares briefly topped 467 dollars, making it the first US company worth two trillion dollars, despite the pandemic. Apple has also started moving its Macs from Intel processors to chips of its own design.",
-    "why": "+21% in the month; Apple recovered quickly from the pandemic shock of early 2020.",
+    "what": "On 19 August Apple's shares briefly topped 467 dollars, making it the first US company worth two trillion dollars, despite the pandemic. Apple has also announced that it will move its Macs from Intel processors to chips of its own design.",
+    "why": "+21% in the month; Apple recovered quickly from the pandemic shock of early 2020. (Time check: in August 2020 the switch was announced, not yet under way.)",
     "assets": [
       "aapl",
       "intc"
@@ -594,8 +594,8 @@
     "id": "dd3de77d",
     "month": "2022-07",
     "title": "Profits fall in a weaker market",
-    "what": "Apple reported an 11% fall in profit for the quarter to June compared with a year earlier, as technology shares slid through 2022.",
-    "why": "A pause after the pandemic boom; the shares fell about a quarter in 2022.",
+    "what": "Apple reported an 11% fall in profit for the quarter to June compared with a year earlier, as technology shares have slid this year.",
+    "why": "A pause after the pandemic boom; the shares fell about a quarter in 2022. (Time check: 'through 2022' assumed the rest of the year.)",
     "assets": [
       "aapl"
     ],

@@ -1,11 +1,13 @@
 [
   {
     "beat": "c39ec28f",
-    "file": "news/aapl/1980-12-apple-ii.jpg",
-    "caption": "The Apple II personal computer, introduced 1977",
-    "source": "https://commons.wikimedia.org/wiki/File:Apple_II_at_Mus%C3%A9e_Bolo.jpg",
-    "licence": "CC BY-SA 2.0 FR, photo: Rama & Musée Bolo",
-    "note": "Museum specimen photographed decades later; the machine that Apple sold at the time of the share issue."
+    "file": "news/aapl/1980-12-apple-ii-ad.jpg",
+    "caption": "\"Introducing Apple II\": Apple's advertisement for the computer that made the company, with the machine on a kitchen table",
+    "source": "https://nosher.net/archives/computers/adve_012",
+    "image_url": "https://static.nosher.net/archives/computers/images/adve_012-m.webp",
+    "credit": "Apple Computer advertisement, from Byte, November 1977 (scan: nosher.net)",
+    "licence": "fair use: Apple",
+    "note": "The famous launch advertisement of the Apple II, the machine Apple was selling when it went public; replaces a museum specimen."
   },
   {
     "beat": "c01495cc",
@@ -17,11 +19,13 @@
   },
   {
     "beat": "8861332f",
-    "file": "news/aapl/1981-08-ibm-pc.jpg",
-    "caption": "The IBM Personal Computer, model 5150, launched August 1981",
-    "source": "https://commons.wikimedia.org/wiki/File:IBM_PC-5150.JPG",
-    "licence": "CC BY-SA 3.0, photo: Jordiferrer",
-    "note": "Museum specimen photographed later."
+    "file": "news/aapl/1981-08-ibm-pc-tramp-ad.jpg",
+    "caption": "\"Keeping up with modern times\": IBM's advertisement for its Personal Computer with the Charlie Chaplin tramp, 1982",
+    "source": "https://nosher.net/archives/computers/ibm_5150_percomp_may82?idx=PSU",
+    "image_url": "https://static.nosher.net/archives/computers/images/ibm_5150_percomp_may82-m.webp",
+    "credit": "IBM advertisement, from Personal Computing, May 1982 (scan: nosher.net)",
+    "licence": "fair use: IBM",
+    "note": "The tramp campaign that sold the IBM PC; this print ad ran in May 1982, nine months after the launch, the campaign itself started with the PC in autumn 1981."
   },
   {
     "beat": "0db6cab2",
@@ -33,18 +37,23 @@
   },
   {
     "beat": "5e685bbb",
-    "file": "news/aapl/1983-01-lisa.jpg",
-    "caption": "The Apple Lisa, introduced in January 1983",
-    "source": "https://commons.wikimedia.org/wiki/File:Apple_Lisa_(3)_in_Computer_History_Museum_-_California.jpg",
-    "licence": "CC BY 2.0, photo: Marcin Wichary from San Francisco, Calif.",
-    "note": "Museum specimen photographed later (Computer History Museum, 2005)."
+    "file": "news/aapl/1983-01-lisa-ad.jpg",
+    "caption": "\"Evolution. Revolution.\": Apple's advertisement for the Lisa, with the Apple II and Apple III above it, early 1983",
+    "source": "https://nosher.net/archives/computers/apple_lisa_prac_mar83",
+    "image_url": "https://static.nosher.net/archives/computers/images/apple_lisa_prac_mar83-m.webp",
+    "credit": "Apple Computer advertisement, from Practical Computing, March 1983 (scan: nosher.net)",
+    "licence": "fair use: Apple",
+    "note": "Launch-period advertisement of the Lisa; replaces a museum specimen."
   },
   {
     "beat": "b5ae4948",
     "file": "news/aapl/1984-01-macintosh.jpg",
     "caption": "Steve Jobs with the Macintosh, January 1984",
-    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_January_1984.jpg",
-    "licence": "public domain, photo: Photo: Bernard Gotfryd - Edited from tif by Cart"
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer,_January_1984,_by_Bernard_Gotfryd_-_edited_(cropped).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Steve_Jobs_and_Macintosh_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_edited_%28cropped%29.jpg",
+    "credit": "Bernard Gotfryd (Library of Congress)",
+    "licence": "public domain",
+    "note": "The famous Gotfryd portrait of Jobs with the Macintosh; the earlier crop left out the computer."
   },
   {
     "beat": "94a7ce09",
@@ -63,11 +72,13 @@
   },
   {
     "beat": "6d417b3f",
-    "file": "news/aapl/1990-05-windows.jpg",
-    "caption": "The Windows 3.0 start-up screen, May 1990",
-    "source": "https://commons.wikimedia.org/wiki/File:Windows_3.0_29_12_2020_11_03_55_GER.png",
-    "licence": "public domain, photo: OS by Microsoft Corporation/Screenshot by PantheraLeo1359531",
-    "note": "Software start screen (public domain per Commons), no period photograph of a Windows 3.0 PC was found. Image is 640x480."
+    "file": "news/aapl/1990-05-gates-windows3-launch.jpg",
+    "caption": "Bill Gates holds up the Windows 3.0 box at the launch event in New York's City Center, 22 May 1990",
+    "source": "https://hardcoresoftware.learningbyshipping.com/p/007-windows-30-buzz",
+    "image_url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3608517-50a7-4e7b-9f76-371e76011758_2170x1596.png",
+    "credit": "Microsoft (still from the launch video, as printed by Steven Sinofsky, Hardcore Software)",
+    "licence": "fair use: Microsoft",
+    "note": "A still from Microsoft's video of the launch; replaces the software's start-up screen."
   },
   {
     "beat": "454862cc",
@@ -111,27 +122,33 @@
   },
   {
     "beat": "e26d1477",
-    "file": "news/aapl/1996-02-infinite-loop.jpg",
-    "caption": "Apple's headquarters at One Infinite Loop, Cupertino",
-    "source": "https://commons.wikimedia.org/wiki/File:Apple_Infinite_Loop_campus.jpg",
-    "licence": "CC BY-SA 4.0, photo: InvadingInvader",
-    "note": "Period approximate: later aerial photograph; no picture of Gil Amelio found on Commons."
+    "file": "news/aapl/1996-02-amelio.jpg",
+    "caption": "Gil Amelio, Apple's new chief executive, in a television interview, 1996",
+    "source": "https://www.cultofmac.com/apple-history/gil-amelio-apple-ceo",
+    "image_url": "https://www.cultofmac.com/wp-content/uploads/2016/11/gilamelio.jpg",
+    "credit": "not credited on the page",
+    "licence": "fair use: video still",
+    "note": "A video still, 641 px wide; replaces a later aerial view of the headquarters."
   },
   {
     "beat": "b8e111e6",
-    "file": "news/aapl/1996-12-next-cube.jpg",
-    "caption": "The NeXT Computer, the workstation of Steve Jobs's company NeXT",
-    "source": "https://commons.wikimedia.org/wiki/File:NEXT_Cube-IMG_7157.jpg",
-    "licence": "CC BY-SA 2.0 FR, photo: Rama & Musée Bolo",
-    "note": "Museum specimen photographed later."
+    "file": "news/aapl/1996-12-jobs-next.jpg",
+    "caption": "Steve Jobs presenting in front of the NeXT logo, 1990s",
+    "source": "https://www.macrumors.com/2021/12/22/apple-acquiring-next-25th-anniversary/",
+    "image_url": "https://images.macrumors.com/t/k_VO5ZxMIdgZ9tg938dPQ_SYjV4=/1600x/article-new/2021/12/steve-jobs-next.jpeg",
+    "credit": "not credited on the page",
+    "licence": "fair use: press photograph",
+    "note": "Jobs as head of NeXT, as printed in MacRumors' 25th-anniversary piece on the acquisition; no picture of the December 1996 announcement with Amelio found."
   },
   {
     "beat": "41bff9c0",
-    "file": "news/aapl/1997-08-jobs-gates.jpg",
-    "caption": "Steve Jobs and Bill Gates on stage together",
-    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Bill_Gates_(522695099).jpg",
-    "licence": "CC BY 2.0, photo: Joi Ito from Inbamura, Japan",
-    "note": "Period approximate: photograph from 2007 (D: All Things Digital conference); no 1997 Macworld Boston picture found on Commons."
+    "file": "news/aapl/1997-08-gates-on-screen.jpg",
+    "caption": "Bill Gates appears on the giant screen above Steve Jobs at Macworld Boston as the Microsoft investment in Apple is announced, 6 August 1997",
+    "source": "https://thisdayintechhistory.com/08/06/apple-and-microsoft-call-truce/",
+    "image_url": "https://thisdayintechhistory.com/wp-content/uploads/2012/08/billgatesMacworld1997.jpg",
+    "credit": "not credited on the page",
+    "licence": "fair use: press photograph",
+    "note": "The famous picture of the moment; only 512 px wide, no larger copy found (larger copies on the web are video stills of Gates alone)."
   },
   {
     "beat": "b0aedcf1",
@@ -151,11 +168,13 @@
   },
   {
     "beat": "681393a5",
-    "file": "news/aapl/2001-10-ipod.jpg",
-    "caption": "The first iPod, October 2001",
-    "source": "https://commons.wikimedia.org/wiki/File:IPod_1Gen.jpg",
-    "licence": "CC BY 4.0, photo: Alvy",
-    "note": "Specimen photographed in 2021."
+    "file": "news/aapl/2001-10-ipod-apple-press.jpg",
+    "caption": "The first iPod, with its earphones and charger, as Apple presented it on 23 October 2001",
+    "source": "https://www.npr.org/2021/10/23/1048706632/20-years-ago-the-ipod-was-born",
+    "image_url": "https://media.npr.org/assets/img/2021/10/23/gettyimages-1168803_wide-9c23eb410770a54fb332ac8fb8687b5db16c8652.jpg?s=1400&c=85&f=jpeg",
+    "credit": "Apple via Getty Images",
+    "licence": "fair use: Apple / Getty Images",
+    "note": "Apple's own launch photograph; no large copy of a photograph of Jobs holding it at the launch found."
   },
   {
     "beat": "7589a5bf",
@@ -167,11 +186,13 @@
   },
   {
     "beat": "cbcca9a7",
-    "file": "news/aapl/2004-10-ipod.jpg",
-    "caption": "The iPod family",
-    "source": "https://commons.wikimedia.org/wiki/File:IPod_family.jpg",
-    "licence": "CC BY 2.0, photo: Yukinobu Zengame",
-    "note": "Period approximate: photograph from 2005 showing the iPod range."
+    "file": "news/aapl/2004-10-newsweek-ipod.jpg",
+    "caption": "\"iPod, Therefore I Am\": Steve Jobs with an iPod on the cover of Newsweek, 26 July 2004",
+    "source": "https://www.cultofmac.com/news/an-illustrated-history-of-the-ipod-and-its-massive-impact-ipod-10th-anniversary",
+    "image_url": "https://www.cultofmac.com/wp-content/uploads/2016/10/Steve_Jobs_NewsWeek_iPod.jpeg",
+    "credit": "Newsweek cover (as printed by Cult of Mac)",
+    "licence": "fair use: Newsweek",
+    "note": "The magazine cover of the iPod craze, three months before the beat. Portrait format."
   },
   {
     "beat": "ef7b9109",
@@ -210,11 +231,13 @@
   },
   {
     "beat": "1c970dd4",
-    "file": "news/aapl/2011-08-cook.jpg",
-    "caption": "Tim Cook, Apple's chief operating officer",
-    "source": "https://commons.wikimedia.org/wiki/File:Tim_Cook_2009.jpg",
-    "licence": "CC BY-SA 2.0, photo: Kindly granted by Valery Marchive (LeMagIT)",
-    "note": "Photograph from January 2009 (the most recent period picture on Commons)."
+    "file": "news/aapl/2011-08-jobs-2011.jpg",
+    "caption": "Steve Jobs on stage in 2011, his last year as Apple's chief executive",
+    "source": "https://www.aljazeera.com/economy/2011/8/25/steve-jobs-resigns-as-apple-ceo",
+    "image_url": "https://www.aljazeera.com/wp-content/uploads/2011/08/2011824232342661580_20.jpeg?resize=1200%2C675",
+    "credit": "not credited on the page",
+    "licence": "fair use: press photograph",
+    "note": "The picture Al Jazeera printed with the resignation news; Jobs visibly ill at an Apple presentation of 2011. Replaces a 2009 portrait of Tim Cook."
   },
   {
     "beat": "a7b12682",
@@ -265,11 +288,12 @@
   },
   {
     "beat": "a68414c4",
-    "file": "news/aapl/2024-06-jobs-theater.jpg",
-    "caption": "The Steve Jobs Theater at Apple Park, Cupertino, where Apple holds its keynotes",
-    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Theater_-_external_(cropped).jpg",
-    "licence": "CC BY 4.0, photo: Justin Ormont",
-    "note": "Period approximate: 2018 photograph of the venue; no free picture of the June 2024 event found."
+    "file": "news/aapl/2024-06-wwdc-cook.jpg",
+    "caption": "Tim Cook greets the audience at Apple Park on the opening day of WWDC, where Apple Intelligence was presented, 10 June 2024",
+    "source": "https://www.apple.com/newsroom/2024/06/wwdc24-highlights/",
+    "image_url": "https://www.apple.com/newsroom/images/2024/06/wwdc24-highlights/tile/Apple-WWDC24-highlights-240610-lp.jpg.og.jpg?202608191812",
+    "credit": "Apple",
+    "licence": "fair use: Apple (newsroom photograph)"
   },
   {
     "beat": "95abf609",

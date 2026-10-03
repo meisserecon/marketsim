@@ -30,7 +30,7 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1982.html (read 2026-10-03)"
   },
   {
@@ -41,8 +41,9 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
-    "source": "https://www.berkshirehathaway.com/letters/1983.html (read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
+    "importance": 2,
+    "source": "https://www.berkshirehathaway.com/letters/1983.html (read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1985-03",
@@ -56,19 +57,8 @@
       "asset": "brk",
       "pct": 22
     },
-    "importance": 1,
-    "source": "https://www.berkshirehathaway.com/letters/1984.html (subsequent-event note, read 2026-10-03); https://www.berkshirehathaway.com/letters/1985.html (read 2026-10-03)"
-  },
-  {
-    "month": "1985-08",
-    "title": "Berkshire closes the textile mills it started with",
-    "what": "Berkshire Hathaway is shutting down its textile business, centred on New Bedford, Massachusetts, the business that gave the company its name. Buffett decided in July to close it after years in which the mills could not earn an adequate return. Berkshire is now insurers, newspapers, candy and investments.",
-    "why": "The symbolic end of the old Berkshire. The letter says the decision was taken in July and the work was largely done by year end; the month it became public is not confirmed.",
-    "assets": [
-      "brk"
-    ],
     "importance": 2,
-    "source": "https://www.berkshirehathaway.com/letters/1985.html (read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
+    "source": "https://www.berkshirehathaway.com/letters/1984.html (subsequent-event note, read 2026-10-03); https://www.berkshirehathaway.com/letters/1985.html (read 2026-10-03)"
   },
   {
     "month": "1986-03",
@@ -90,22 +80,8 @@
       "brk"
     ],
     "importance": 2,
-    "source": "https://www.berkshirehathaway.com/letters/1987.html (read 2026-10-03); https://en.wikipedia.org/wiki/Salomon_Brothers (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Even Berkshire falls in the crash",
-    "what": "On 19 October the Dow Jones Industrial Average fell 22.6% in one day and the S&P 500 20.5%. Berkshire's shares fell with the market. Its insurers hold large stakes in GEICO, Capital Cities/ABC and the Washington Post, and the new Salomon preferred stock.",
-    "why": "Explains the -21% month (market -22%). Berkshire's book value still rose 19.5% in 1987.",
-    "assets": [
-      "brk"
-    ],
-    "move": {
-      "asset": "brk",
-      "pct": -21
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.berkshirehathaway.com/letters/1987.html (read 2026-10-03)"
+    "source": "https://www.berkshirehathaway.com/letters/1987.html (read 2026-10-03); https://en.wikipedia.org/wiki/Salomon_Brothers (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1989-03",
@@ -118,6 +94,22 @@
     ],
     "importance": 1,
     "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03)"
+  },
+  {
+    "month": "1989-04",
+    "title": "Berkshire jumps 27% to 6,275 dollars a share around its annual meeting",
+    "what": "Berkshire Hathaway shares rose 27% in April to 6,275 dollars, against a market up 5%. Shareholders gathered in Omaha on 24 April for the annual meeting, the first since the share moved to the New York Stock Exchange in November and since Warren Buffett disclosed in his February letter that Berkshire had put 593 million dollars into Coca-Cola, which is already worth more. Berkshire pays no dividend and has never split its share; a round lot of 100 shares now costs more than 600,000 dollars.",
+    "why": "No single cause found: the letter (28 February 1989), the meeting date and the NYSE listing are sourced; that the April jump followed from the meeting and the Coca-Cola news is inferred, the share was thinly traded. Curator asked about this month.",
+    "assets": [
+      "brk",
+      "ko"
+    ],
+    "move": {
+      "asset": "brk",
+      "pct": 27
+    },
+    "importance": 3,
+    "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03); price changes from data/out/brk.json and data/reference/sp500.json"
   },
   {
     "month": "1989-07",

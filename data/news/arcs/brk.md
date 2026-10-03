@@ -33,7 +33,7 @@ The A share was thinly traded (Buffett notes in the 1999 letter that volume was 
 - 1983-09 (+22%, market +1%): the Blue Chip Stamps merger was completed mid-year and the Nebraska Furniture Mart purchase came later in 1983, but neither is dated to September in the sources read.
 - 1985-10 (+24%, market +4%): the Scott Fetzer purchase was agreed in late 1985 and closed right after year end; the agreement date was not confirmed, so the move is not attached to it.
 - 1986-02 (+22%, market +7%): the Capital Cities/ABC merger and the Scott Fetzer purchase closed around the turn of the year; no February event found.
-- 1989-04 (+27%, market +5%): possibly the market's reaction to the Coca-Cola stake revealed in the 1988 letter (dated 28 February 1989), but the publication date of the letter and any press coverage were not confirmed.
+- 1989-04 (+27%, market +5%): now a beat (annual meeting of 24 April, the first after the NYSE listing and the Coca-Cola disclosure); the causal link is inferred, no press report found.
 - 1993-05 (+19%, market +2%): no event found.
 - 1994-07 (+22%, market +3%): no event found.
 - 1995-01 (+21%, market +2%): no event found.

@@ -303,9 +303,9 @@
   {
     "id": "4321ca9e",
     "month": "2013-06",
-    "title": "The taper tantrum",
+    "title": "Bernanke hints at slower bond buying and yields jump",
     "what": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May.",
-    "why": "Just the hint of less support sent long rates up by a full point within months and hit emerging markets; it taught central banks to signal every step far in advance.",
+    "why": "Just the hint of less support sent long rates up by a full point within months and hit emerging markets; it taught central banks to signal every step far in advance. Review 2026-10: 'taper tantrum' is the later label.",
     "assets": [],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
@@ -462,8 +462,8 @@
     "id": "281974e4",
     "month": "2022-09",
     "title": "Third giant hike; the British bond market breaks",
-    "what": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January peak.",
-    "why": "The climax of the 2022 rate shock: bonds and shares fell together, and the gilt crisis showed how years of near-zero rates had left leverage hidden in 'safe' places.",
+    "what": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January record.",
+    "why": "The climax of the 2022 rate shock: bonds and shares fell together, and the gilt crisis showed how years of near-zero rates had left leverage hidden in 'safe' places. Review 2026-10: 'peak' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -486,8 +486,8 @@
     "id": "98d41543",
     "month": "2023-10",
     "title": "Ten-year yields near 5 percent, mortgages near 8",
-    "what": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its last increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
-    "why": "The low point for bonds in the post-2020 cycle: from here yields fell sharply into December, and anyone who bought long bonds this month made double-digit gains within weeks.",
+    "what": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
+    "why": "The low point for bonds in the post-2020 cycle: from here yields fell sharply into December, and anyone who bought long bonds this month made double-digit gains within weeks. Review 2026-10: 'last' increase was hindsight.",
     "assets": [],
     "importance": 2,
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)"

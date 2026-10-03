@@ -214,8 +214,8 @@
     "id": "2b519860",
     "month": "1989-12",
     "title": "1989 in review: up 27 percent and above the 1987 peak",
-    "what": "The S&P 500 gained 27% in 1989 to 353.40, its best year since the bull market began, and the Dow rose 27.0% to 2,753.20. Both are now above their pre-crash records. The October scare showed that the takeover boom, which drove much of the rise, is running out of borrowed money.",
-    "why": "The last year of the 1980s boom before the 1990 recession.",
+    "what": "The S&P 500 gained 27% in 1989 to 353.40, its best year since the bull market began, and the Dow rose 27.0% to 2,753.20. Both are now above their pre-crash records. The October scare raised doubts whether the takeover boom, which drove much of the rise, can keep finding borrowed money.",
+    "why": "The last year of the 1980s boom before the 1990 recession. Review 2026-10: softened a hindsight verdict on the takeover boom.",
     "assets": [],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
@@ -347,9 +347,9 @@
   {
     "id": "104e5fa1",
     "month": "2000-03",
-    "title": "The Nasdaq peaks above 5,000 and the S&P 500 sets a record",
-    "what": "The Nasdaq index closed at a record 5,048.62 on 10 March, and the S&P 500 rose 10% in March, closing above 1,500 for the first time on 22 March and reaching its peak on 24 March. Fed officials worry that the high valuations of many technology shares could see a sizable correction, as the market grows more volatile.",
-    "why": "The top of the dot-com bubble. The S&P 500 did not close above this level for seven years, the Nasdaq for fifteen.",
+    "title": "The Nasdaq tops 5,000 and the S&P 500 sets a record",
+    "what": "The Nasdaq index closed at a record 5,048.62 on 10 March, and the S&P 500 rose 10% in March, closing above 1,500 for the first time on 22 March and setting a new record on 24 March. Fed officials worry that the high valuations of many technology shares could see a sizable correction, as the market grows more volatile.",
+    "why": "The top of the dot-com bubble. The S&P 500 did not close above this level for seven years, the Nasdaq for fifteen. Review 2026-10: 'peaks' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -481,9 +481,9 @@
   {
     "id": "e5f56627",
     "month": "2002-10",
-    "title": "The bottom: shares hit five-year lows, then jump 9 percent",
+    "title": "Shares hit five-year lows, then jump 9 percent",
     "what": "On 7 October the S&P 500 closed at 785.28, its lowest since 1997, and by 9 October the Dow was below 7,200 and the Nasdaq just above 1,100, down almost 80% from its 2000 peak; the S&P 500 had lost about half its value. Then better-than-expected profit reports from several big companies lifted shares, and the S&P 500 ended October up 9% at 885.76.",
-    "why": "The bottom of the 2000-02 bear market (the March 2003 retest held above it). The start of the 2003-07 bull market.",
+    "why": "The bottom of the 2000-02 bear market (the March 2003 retest held above it). The start of the 2003-07 bull market. Review 2026-10: 'The bottom' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -559,9 +559,9 @@
   {
     "id": "5cd24386",
     "month": "2007-08",
-    "title": "The credit crunch begins: BNP Paribas freezes funds, the Fed steps in",
+    "title": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
     "what": "On 9 August the French bank BNP Paribas blocked withdrawals from three funds invested in American mortgage securities, citing 'a complete evaporation of liquidity'. Banks stopped trusting each other, and on 17 August the Federal Reserve cut its discount rate by half a point to 5.75 percent and offered banks loans of up to 30 days against mortgages and other collateral. Shares swung wildly but the S&P 500 ended August up 1%.",
-    "why": "The start of the financial crisis, a year before Lehman. The market did not yet believe it.",
+    "why": "The start of the financial crisis, a year before Lehman. The market did not yet believe it. Review 2026-10: 'begins' presumed the later crisis.",
     "assets": [],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json"
@@ -721,9 +721,9 @@
   {
     "id": "dcbf3de0",
     "month": "2009-03",
-    "title": "The bottom: the S&P 500 at 676, then a sudden rally",
+    "title": "The S&P 500 sinks to 676, then a sudden rally",
     "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
-    "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time.",
+    "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time. Review 2026-10: 'The bottom' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -924,8 +924,8 @@
     "id": "504ab9d8",
     "month": "2018-02",
     "title": "Volatility returns: the Dow falls 1,175 points in a day",
-    "what": "A bigger-than-expected rise in wages in the January jobs report raised fears of inflation and faster rate rises. On 5 February the Dow fell 1,175 points or 4.6%, then its largest point drop ever, and the VIX volatility index jumped to its highest since 2015 as bets on calm markets unwound; on 8 February the Dow fell another 1,033 points. The S&P 500 lost 4% in February.",
-    "why": "The end of the 2017 calm; a preview of the fall at year's end.",
+    "what": "A bigger-than-expected rise in wages in the January jobs report raised fears of inflation and faster rate rises. On 5 February the Dow fell 1,175 points or 4.6%, its largest point drop ever, and the VIX volatility index jumped to its highest since 2015 as bets on calm markets unwound; on 8 February the Dow fell another 1,033 points. The S&P 500 lost 4% in February.",
+    "why": "The end of the 2017 calm; a preview of the fall at year's end. Review 2026-10: 'then' implied a later, bigger drop.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -990,8 +990,8 @@
     "id": "c7685a83",
     "month": "2020-03",
     "title": "Pandemic crash: circuit breakers, zero rates and a 34 percent fall",
-    "what": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 hit its low of 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
-    "why": "The fastest crash in history, and the fastest turn: the low came on the day of the Fed's 'unlimited' promise.",
+    "what": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 fell to 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
+    "why": "The fastest crash in history, and the fastest turn: the low came on the day of the Fed's 'unlimited' promise. Review 2026-10: 'its low' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",
@@ -1131,9 +1131,9 @@
   {
     "id": "f7e4f160",
     "month": "2022-10",
-    "title": "The 2022 low, then an 8 percent rebound",
+    "title": "A new low for the year, then an 8 percent rebound",
     "what": "Shares fell further early in October on inflation news and rate expectations, with the S&P 500 closing at 3,577.03 on 12 October, about 25% below its January record. Then they rebounded, and the index ended October up 8% at 3,871.98.",
-    "why": "The bottom of the 2022 bear market, the start of the AI-led bull market.",
+    "why": "The bottom of the 2022 bear market, the start of the AI-led bull market. Review 2026-10: 'The 2022 low' was hindsight.",
     "assets": [],
     "move": {
       "asset": "sp500",

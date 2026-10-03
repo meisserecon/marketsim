@@ -1,0 +1,515 @@
+[
+  {
+    "month": "1979-12",
+    "title": "Nestlé, the world's biggest food company, from Vevey",
+    "what": "Nestlé of Vevey on Lake Geneva is the largest food company in the world. It sells Nescafé, milk powder, baby food, chocolate and Maggi soups in almost every country, owns a large stake in the French cosmetics group L'Oréal (since 1974) and bought the American eye-care company Alcon in 1977. Foreigners may only buy its bearer share; the cheaper registered share is reserved for Swiss holders.",
+    "why": "The listing beat: a steady, global consumer business whose foreign earnings make the franc matter for its share price. The two share classes set up the big price event of November 1988.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); data/manual/raw/nzz-notes-1987.md and data/src/nzz.ts header on the registered share trading at about half the bearer price (read 2026-10-03); data/src/profiles.ts"
+  },
+  {
+    "month": "1980-03",
+    "title": "Silver crash month: Swiss shares and the franc fall together",
+    "what": "March was a hard month for markets: the silver price collapsed to $10.80 an ounce on 27 March, down from over $50 in January, and the Hunt brothers could not meet their margin calls. American interest rates are very high and money is flowing into the dollar: a dollar bought 1.85 francs at the end of March against 1.70 a month earlier. Swiss shares fell, and in dollars they fell further.",
+    "why": "A two-layer lesson for the Swiss family: Nestlé fell about 8% in francs and the franc's 8% slide against the dollar doubled the loss in the game's dollar prices.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -16
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1980-04",
+    "title": "The franc bounces back",
+    "what": "The dollar gave back its March gains in April: it bought 1.67 francs at the end of the month, against 1.85 at the end of March, a rise of about 11% for the franc. Swiss shares also recovered some of their losses.",
+    "why": "The mirror image of March: most of Nestlé's 19% rise in dollars was the franc (about 11%); in francs the share rose about 7%.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": 19
+    },
+    "importance": 3,
+    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1981-05",
+    "title": "WHO adopts a code on baby milk; the Nestlé boycott goes on",
+    "what": "The World Health Assembly adopted an International Code of Marketing of Breast-milk Substitutes by 118 votes to 1, with the United States voting against. Activist groups have boycotted Nestlé since July 1977, starting in Minneapolis, accusing it of pushing milk powder on mothers in poor countries where clean water is scarce.",
+    "why": "The boycott is the moral thread of the Nestlé story and the reason the family should hear about it early; it never moved the price much.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott (read 2026-10-03)"
+  },
+  {
+    "month": "1981-11",
+    "title": "Helmut Maucher becomes chief executive",
+    "what": "Helmut Maucher, a German who ran Nestlé's business in Germany and came to Vevey as general director in 1980, became chief executive of Nestlé in November. He takes over a group under fire for how it sells baby milk.",
+    "why": "Maucher is the deal-maker of the 1980s: Carnation, Rowntree and later Perrier all happen on his watch, and he runs Nestlé until 1997.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Helmut_Maucher (read 2026-10-03)"
+  },
+  {
+    "month": "1984-01",
+    "title": "Nestlé agrees to follow the baby-milk code; US boycott suspended",
+    "what": "After talks with the boycott groups, Nestlé has agreed to implement the World Health Organization's code on selling breast-milk substitutes and to set up an independent audit commission. In return the boycott, which began in the United States in July 1977, is being called off.",
+    "why": "Closes the first phase of the boycott; it is relaunched in 1988 and never fully ends. Wikipedia gives only the year 1984; the month follows the existing 1984 news item, whose WABA source was not re-read.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott (read 2026-10-03); https://waba.org.my/theboycottbook/takingongoliath.pdf (cited in data/news/1984.json, not re-read)"
+  },
+  {
+    "month": "1984-09",
+    "title": "Nestlé agrees to buy Carnation for $3 billion",
+    "what": "On 4 September Nestlé agreed to buy the American food company Carnation for $83 a share in cash, about $3 billion, with the board's support; it is buying the 27% held by the founder's descendants first. Carnation, with 1983 sales of $3.4 billion and 22,000 employees, makes evaporated milk, Coffee-Mate creamer and Friskies pet food. Carnation shares rose $4 to $79.50 in New York.",
+    "why": "The first of Maucher's big American deals, a huge one for its time, and it gives Nestlé the pet food business that Ralston Purina later doubles.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://www.upi.com/Archives/1984/09/04/Nestle-to-acquire-Carnation-Co/2482463118400/ (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "1985-07",
+    "title": "The dollar slides against the franc",
+    "what": "The dollar, at record highs in March, is falling fast: at the end of July it bought 2.29 francs, against 2.54 a month earlier and 2.86 at the end of February. Since 1980 it had risen by about half against the main European currencies. Swiss shares are worth more in dollars as a result.",
+    "why": "Of Nestlé's 16% rise in dollars, about 11% was the franc; the share rose about 4% in francs. The start of the long dollar decline that makes Swiss shares shine for American investors in 1985-87.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": 16
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1985-12",
+    "title": "Zurich ends a brilliant year with Nestlé at record highs",
+    "what": "The Zurich stock exchange closed the year 'in brilliant form', the Neue Zürcher Zeitung wrote on 31 December: chemical shares were strong and Nestlé's shares again reached record prices. In September the five big industrial countries agreed at the Plaza Hotel in New York to push the dollar down, and a dollar now buys 2.06 francs, against 2.86 in February.",
+    "why": "Caps Nestlé's best twelve months in the game (+101% from December 1984 to December 1985), half shares, half franc.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "importance": 1,
+    "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "1986-12",
+    "title": "Nespresso: coffee in a sealed capsule",
+    "what": "This year Nestlé started selling Nespresso, a system that brews espresso from sealed capsules, invented by its employee Eric Favre and patented in 1976. After a test in Japan it went on sale to consumers in Switzerland, France, Italy and Japan. Sales are still small.",
+    "why": "A slow starter that becomes one of Nestlé's jewels: more than 3 billion francs of sales by 2011. The month is a year-end summary; Wikipedia gives only the year.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nespresso (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The October crash hits Zurich too",
+    "what": "On Monday 19 October the Dow Jones fell 22.6% in one day, and every major stock market in the world fell sharply in October. Nestlé's bearer share fell from 11,025 francs at the end of September to 8,350 at the end of October. The franc rose against the dollar, softening the fall in dollar terms.",
+    "why": "Start of Nestlé's worst stretch in the game, -42% from September 1987 to May 1989: first the crash, then the register opening of November 1988. In francs the bearer share lost about 24%, in dollars 19%.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -19
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); NZZ month-end prices in data/manual/raw/nzz-notes-1987.md (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "1988-06",
+    "title": "Nestlé wins Rowntree for £2.55 billion",
+    "what": "Nestlé won the battle for Rowntree, the British maker of Kit Kat, After Eight and Smarties, with an offer valuing it at £2.55 billion. The fight began on 13 April, when the Zurich chocolate firm Jacobs Suchard bought 14.9% of Rowntree in a dawn raid and Nestlé offered itself as a protective buyer. Rowntree is the world's fourth-largest chocolate maker; critics in Britain point out that Swiss rules protect Nestlé itself from such a takeover.",
+    "why": "The second giant Maucher deal; the complaint about Swiss protection is the background to the opening of Nestlé's register five months later.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Rowntree%27s (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "1988-11",
+    "title": "Nestlé opens its registered share to foreigners; the bearer share tumbles",
+    "what": "On 17 November Nestlé's board decided that foreigners may now hold its registered shares, which until now only Swiss investors could own and which traded at about half the price of the bearer share. The registered share rose from 4,375 to 6,000 francs in November, while the bearer share, until now the only class open to foreigners, fell from 8,890 to 6,875. Bearer shares of other Swiss companies fell too.",
+    "why": "The defining Nestlé price event of the game: the bearer premium collapsed (-23% in francs, -20% in dollars) because foreigners no longer needed it. Our series follows the bearer share until 1993, so the game shows a crash although the company was unchanged; a lesson in share classes. Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 1995, studied it.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -20
+    },
+    "importance": 1,
+    "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03); Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 37(3), 1995, abstract via search result summary (read 2026-10-03)"
+  },
+  {
+    "month": "1990-08",
+    "title": "Iraq invades Kuwait; markets fall",
+    "what": "Iraq invaded Kuwait on 2 August, and an American-led build-up of troops in Saudi Arabia, Operation Desert Shield, has begun. The S&P 500 fell 9% in August and Swiss shares fell too. The franc rose about 3% against the dollar.",
+    "why": "Nestlé fell 11% in francs, 9% in dollars, with the market; no company news.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -9
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "1992-12",
+    "title": "Nestlé buys Perrier",
+    "what": "This year Nestlé took over the French mineral water group Perrier, after a contest with the Agnelli family of Italy. Perrier is still recovering from 1990, when benzene found in its bottles forced it to recall about 160 million bottles worldwide. With Vittel already in hand, Nestlé becomes a leader in bottled water.",
+    "why": "The start of the water business that grows with San Pellegrino (1997) and is finally put into a joint venture in 2026. The exact months of the bids were not confirmed, so the beat is a year-end summary.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Perrier (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "1993-06",
+    "title": "One share for everyone",
+    "what": "Nestlé has merged its bearer shares, registered shares and participation certificates into a single registered share, open to Swiss and foreign investors alike. Last autumn it had already split its shares ten for one.",
+    "why": "Ends the two-class story that caused the 1988 crash. Our price series switches from the bearer to the registered share here, which now trade as one. The NZZ shows three classes on 3 May and only the registered share on 30 June.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "data/manual/raw/nzz-notes-1992-1994.md (NZZ tables of 31 Aug and 30 Sep 1992, 3 May and 30 June 1993, read 2026-10-03)"
+  },
+  {
+    "month": "1995-03",
+    "title": "The dollar falls to 1.13 francs",
+    "what": "The dollar has fallen hard against the franc since the start of the year: at the end of March it bought 1.13 francs, against 1.31 at the end of December. For Swiss companies that sell abroad, foreign profits are worth fewer francs; for a dollar-based investor, Swiss shares are worth more.",
+    "why": "A reminder that the franc keeps rising over the decades; in dollar terms it adds a few percent to Nestlé and Sandoz this quarter.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "importance": 3,
+    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1997-06",
+    "title": "Peter Brabeck takes over from Maucher",
+    "what": "Peter Brabeck-Letmathe, an Austrian who joined Nestlé as a salesman in 1968, became chief executive on 5 June. Helmut Maucher, chief executive since 1981, remains chairman. This year Nestlé also bought the Italian mineral water group Sanpellegrino.",
+    "why": "Brabeck runs Nestlé for eleven years and from 2000 steers it toward 'nutrition, health and wellness'.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03); https://en.wikipedia.org/wiki/Helmut_Maucher (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "1999-01",
+    "title": "Weak sales knock Nestlé and Novartis",
+    "what": "Nestlé and Novartis both reported sharp drops in sales in the week of 18 January, and their shares lost markedly, the NZZ reported on 30 January. Investors are waiting nervously for the full results with profits. Nestlé closed January at 2,595 francs, against 2,990 at the end of December.",
+    "why": "Explains the 16% fall of January 1999 (13% in francs); a rare bad month in Nestlé's long rise. Emerging-market currency troubles of the time are a likely factor but were not confirmed in a source.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -16
+    },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 30 January 1999, p. 33 (weekly Swiss market report, 'Gezügelter Risikoappetit'), scan data/manual/scans/nzz/NZZ_1999-01-30.pdf, text layer (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv"
+  },
+  {
+    "month": "2001-01",
+    "title": "Nestlé agrees to buy Ralston Purina",
+    "what": "Nestlé and the American pet food maker Ralston Purina agreed a merger in January: Nestlé will pay $33.50 a share in cash, an enterprise value of $10.3 billion. Ralston brings Dog Chow, Cat Chow and the Purina brands, to be combined with Nestlé's Friskies. Competition authorities still have to approve.",
+    "why": "Makes Nestlé the world leader in pet food, later one of its most profitable businesses. The share fell 9% in January (8% in francs), but no source linked the fall to the price paid, so no move is claimed.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Ralston_Purina (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "2002-12",
+    "title": "Alcon goes public",
+    "what": "This year Nestlé sold 25% of its eye-care company Alcon to the public in a stock market listing. Nestlé bought Alcon of Fort Worth, Texas, in 1977 and keeps a large majority.",
+    "why": "Sets up the sale of Alcon to Novartis in 2008-2010, the biggest link between the two Swiss arcs. Month not confirmed, hence a year-end summary.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03)"
+  },
+  {
+    "month": "2005-04",
+    "title": "Brabeck becomes chairman as well as chief executive",
+    "what": "Peter Brabeck-Letmathe became chairman of Nestlé in April while staying chief executive. Combining both jobs is controversial among shareholders who want a separate check on management.",
+    "why": "A corporate-governance beat; the double role ends in 2008 when Paul Bulcke becomes chief executive.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03)"
+  },
+  {
+    "month": "2007-04",
+    "title": "Nestlé buys Gerber baby food from Novartis",
+    "what": "Nestlé agreed in April to buy the American baby food maker Gerber from Novartis for $5.5 billion. Gerber has most of the American baby food market. Nestlé is also buying Novartis's medical nutrition business for $2.5 billion.",
+    "why": "Nestlé becomes the world leader in baby food, and Novartis sheds the last of Sandoz's food business: the Gerber that Sandoz bought in 1994 changes Swiss hands.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)"
+  },
+  {
+    "month": "2008-07",
+    "title": "Nestlé sells a quarter of Alcon to Novartis",
+    "what": "Novartis has bought about 25% of Alcon from Nestlé, which keeps the majority for now. Nestlé is now run by its new chief executive Paul Bulcke, with Brabeck as chairman.",
+    "why": "First step of the Alcon handover; the rest follows in January 2010.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Bulcke (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "2010-01",
+    "title": "Nestlé agrees to sell the rest of Alcon to Novartis",
+    "what": "On 4 January Nestlé agreed to sell its remaining majority stake in Alcon to Novartis, part of a $39.3 billion offer by Novartis for all of Alcon. Nestlé also agreed to buy Kraft's American frozen pizza business, including DiGiorno and Tombstone, for $3.7 billion.",
+    "why": "Nestlé exits eye care with a huge gain on its 1977 purchase and uses the cash for food and buybacks.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "title": "The National Bank caps the franc at 1.20 per euro",
+    "what": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs.",
+    "why": "A pure currency month: Nestlé lost 11% in dollars without moving in francs. The floor holds until January 2015.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -11
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "2012-04",
+    "title": "Nestlé buys Pfizer's baby nutrition business",
+    "what": "On 23 April Nestlé agreed to buy Pfizer's infant nutrition business, formerly Wyeth Nutrition, for $11.9 billion. It makes Nestlé much bigger in baby formula.",
+    "why": "Nestlé doubles down on baby formula, the business its critics have attacked since the 1970s.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "2015-01",
+    "title": "The franc floor is scrapped",
+    "what": "On 15 January the Swiss National Bank abandoned its minimum rate of 1.20 francs per euro without warning. The franc closed 23% higher against the euro and 21% higher against the dollar that day. Swiss shares fell in francs, because exporters' foreign profits are now worth less.",
+    "why": "Swiss shares fell in francs but rose in dollars: Nestlé lost about 3% in francs and gained 4% in the game's dollar prices. The best illustration of the currency layer for the family.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "title": "Mark Schneider takes charge",
+    "what": "Ulf Mark Schneider became chief executive of Nestlé in January, succeeding Paul Bulcke, who is to take over as chairman from Peter Brabeck-Letmathe.",
+    "why": "Schneider pushes Nestlé toward health science, coffee and pet food and sells slower businesses; the share hits its all-time high under him in 2021 and then falls back.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Paul_Bulcke (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+  },
+  {
+    "month": "2017-06",
+    "title": "Activist Third Point buys in; Nestlé announces a $20.8 billion buyback",
+    "what": "The American hedge fund Third Point of Daniel Loeb disclosed a stake worth about $3.5 billion in Nestlé and called for changes. Nestlé then announced a share buyback of about $20.8 billion.",
+    "why": "The first activist campaign at Nestlé; it keeps up the pressure in 2018.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03)"
+  },
+  {
+    "month": "2018-05",
+    "title": "Nestlé pays Starbucks $7.15 billion to sell its coffee",
+    "what": "Nestlé agreed to pay Starbucks $7.15 billion in a distribution deal for Starbucks coffee products. It adds a big brand to Nescafé and Nespresso.",
+    "why": "Coffee becomes the centre of Schneider's Nestlé.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03)"
+  },
+  {
+    "month": "2021-02",
+    "title": "Pandemic year: people eat and drink at home",
+    "what": "Nestlé reported organic growth of 3.6% for 2020, its best in five years, as people stuck at home bought more pet food, coffee and dairy products while restaurants and cafes suffered. Online sales grew 48% to almost 13% of the total. In francs, sales fell 8.9% because of the strong franc and the sale of its US ice cream and Skin Health businesses.",
+    "why": "Nestlé as a pandemic winner; the share climbs to its all-time high in December 2021. The page gives no release date; the beat assumes the usual February publication.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2020 (read 2026-10-03)"
+  },
+  {
+    "month": "2023-02",
+    "title": "8% price increases, no more volume",
+    "what": "Nestlé reported 2022 organic growth of 8.3%, of which 8.2% came from higher prices and only 0.1% from selling more. The trading margin slipped to 17.1%. It expects organic growth of 6% to 8% in 2023 and bought back CHF 10.6 billion of its own shares last year.",
+    "why": "Inflation flatters sales but hides stagnant volumes. The share is already down from its 2021 peak. Release date not shown on the page; February assumed.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2022 (read 2026-10-03)"
+  },
+  {
+    "month": "2024-02",
+    "title": "Prices up 7.5%, volumes down",
+    "what": "Nestlé reported 2023 organic growth of 7.2% on 22 February, but almost all of it came from higher prices (7.5%); the volume of goods sold fell 0.3%. For 2024 it expects organic growth of about 4%. Chief executive Mark Schneider spoke of unprecedented inflation and soft consumer demand.",
+    "why": "The stall in one number: after the price increases of 2022-23, volumes stop growing. The share fell about 9% in February and keeps sliding to a low in late 2024.",
+    "assets": [
+      "nestle"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -9
+    },
+    "importance": 1,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2023 (read 2026-10-03)"
+  },
+  {
+    "month": "2024-08",
+    "title": "Schneider out, Laurent Freixe in",
+    "what": "Nestlé announced in August that chief executive Mark Schneider is leaving and that Laurent Freixe, a long-time Nestlé manager, takes over on 1 September. Growth has slowed and the share is well below its high of late 2021.",
+    "why": "The board's answer to the stall; Freixe lasts exactly one year.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Laurent_Freixe (read 2026-10-03)"
+  },
+  {
+    "month": "2025-02",
+    "title": "Freixe's first results lift the share",
+    "what": "On 13 February Nestlé reported 2024 organic growth of 2.2% and a trading margin of 17.2%. Freixe promised a CHF 2.5 billion cost-saving programme over three years and more spending on advertising, and said growth should improve in 2025 while the margin stays at or above 16%.",
+    "why": "Relief that the bad news was already in the price: the share rose 13% in February while the S&P 500 slipped.",
+    "assets": [
+      "nestle"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": 13
+    },
+    "importance": 2,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2024 (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "title": "Coffee and cocoa costs squeeze the margin",
+    "what": "Nestlé's half-year results on 24 July showed organic growth of 2.9%, but volume growth of only 0.2%, and the trading margin fell to 16.5% from 17.4%. Net profit dropped 10%. High coffee and cocoa prices were not fully passed on, and tariffs and the strong franc weigh on the outlook.",
+    "why": "The share fell 12% in July, back toward its 2024 low.",
+    "assets": [
+      "nestle"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": -12
+    },
+    "importance": 3,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2025 (read 2026-10-03)"
+  },
+  {
+    "month": "2025-09",
+    "title": "Chief executive fired; chairman leaves early",
+    "what": "On 1 September Nestlé dismissed chief executive Laurent Freixe with immediate effect and without severance, after an investigation found an undisclosed romantic relationship with an employee. Philipp Navratil, a Zurich-born Nestlé veteran who has run Nespresso since 2024, replaces him. Chairman Paul Bulcke said he would leave at the end of September, six months earlier than planned.",
+    "why": "A governance shock at the top of Switzerland's biggest company; Navratil then accelerates the restructuring.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Laurent_Freixe (read 2026-10-03); https://en.wikipedia.org/wiki/Philipp_Navratil (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Bulcke (read 2026-10-03)"
+  },
+  {
+    "month": "2026-01",
+    "title": "Nestlé's biggest baby-formula recall",
+    "what": "Nestlé is recalling infant formula; Austria's health ministry called it the largest recall in Nestlé's history. The share fell in January.",
+    "why": "Baby milk again, nearly fifty years after the boycott began. The share lost 7% in francs in January, partly offset in dollars by the strong franc.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03)"
+  },
+  {
+    "month": "2026-02",
+    "title": "Navratil's plan: 16,000 jobs, water out, more growth",
+    "what": "On 19 February Nestlé reported 2025 organic growth of 3.5% with positive volume growth in every zone and expects around 3% to 4% for 2026. It plans to cut about 16,000 jobs by the end of 2027, raised its savings target, is negotiating to sell its remaining ice cream business to Froneri and has started a process for its waters business.",
+    "why": "The market took it as the turn: the share rose 15% in February, its best month since 1997. Novartis rose almost as much the same month, so a rotation into Swiss defensive shares may have added to it (not confirmed).",
+    "assets": [
+      "nestle"
+    ],
+    "move": {
+      "asset": "nestle",
+      "pct": 15
+    },
+    "importance": 1,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2025 (read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "Water goes into a joint venture",
+    "what": "On 23 July Nestlé agreed to put S.Pellegrino, Perrier, Acqua Panna, Pure Life and its other water brands into Peranel, a 50:50 joint venture with Platinum Equity, valued at EUR 4.9 billion; Nestlé gets about EUR 3 billion in cash at closing in 2027. Half-year results the same day showed volume growth of 1.5%.",
+    "why": "Closes the water story that began with Perrier in 1992; the share drifts lower into September 2026, far below its 2021 peak.",
+    "assets": [
+      "nestle"
+    ],
+    "importance": 3,
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/nestle-platinum-equity-peranel-water-premium-beverages (read 2026-10-03); https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026 (read 2026-10-03)"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "month": "1994-05",
+    "title": "Lehman Brothers is independent again",
+    "what": "American Express has completed the spin-off of Lehman Brothers, the Wall Street bond trading and investment banking house founded in 1850 that it bought in 1984. Lehman, led since April by Richard Fuld, now trades on its own on the New York Stock Exchange. The firm lost $102 million in 1993.",
+    "why": "Listing beat. A cheap, unloved bond house; from here Fuld would post fourteen straight years of profits before the collapse.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/American_Express (read 2026-10-03, citing New York Times, 1 June 1994); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03)"
+  },
+  {
+    "month": "1994-12",
+    "title": "Lehman cuts costs after a hard first year",
+    "what": "Lehman Brothers announced a programme of cost cuts at the end of its first year as an independent firm; it employed about 8,500 people. It has also moved its financial year to end in November.",
+    "why": "The lean years: the stock went sideways until 1996. Headcount fell to about 7,800 in 1995.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000950112-96-000633.txt (Lehman 10-K for fiscal 1995; read 2026-10-03)"
+  },
+  {
+    "month": "1996-11",
+    "title": "Lehman's president leaves after a power struggle",
+    "what": "Christopher Pettit, president and chief operating officer of Lehman Brothers, left the firm on 26 November after losing a power struggle. Chief executive Richard Fuld is not filling the post.",
+    "why": "Fuld ran Lehman without a number two until 2002; his grip on the firm and its board mattered in 2008, when no one challenged him.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03)"
+  },
+  {
+    "month": "1998-01",
+    "title": "Record year for Lehman",
+    "what": "Lehman Brothers earned a record $647 million in the year to November 1997, or $4.72 a share, in a year of near-record underwriting volumes and mergers on Wall Street.",
+    "why": "The shares rose about 60% in 1997, and Lehman was a full investment bank again, built on bond trading.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999, giving the 1997 figures; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (10-K fiscal 1998; read 2026-10-03)"
+  },
+  {
+    "month": "1998-08",
+    "title": "Russia's default hits Wall Street; Lehman shares nearly halve",
+    "what": "Russia defaulted on its domestic debt on 17 August, and investors fled to the safest government bonds, punishing every firm that trades riskier bonds and emerging-market debt. The S&P 500 fell 15% in August; Lehman Brothers, a firm built on bond trading, lost 45%.",
+    "why": "The first time Lehman nearly went under: in a panic, a firm that borrows short-term to hold long-term securities is only as strong as its lenders' confidence.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -45
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (Lehman 10-K fiscal 1998, market review; read 2026-10-03)"
+  },
+  {
+    "month": "1998-09",
+    "title": "Russia costs Lehman $60 million; it joins the rescue of LTCM",
+    "what": "Lehman said on 3 September that turmoil in Russia and other emerging markets cut its third-quarter profit by about $60 million, to $151 million from $197 million a year earlier, and announced a buyback of up to 7.5 million more shares. On 23 September fourteen banks and brokers, Lehman among them with $100 million, agreed under the eye of the New York Federal Reserve to put $3.6 billion into the collapsing hedge fund Long-Term Capital Management. Concerns about Wall Street firms' exposures kept the shares falling.",
+    "why": "LTCM showed how the big firms were tied to each other through lending and trading; the same web would sink Lehman in 2008, with no rescue.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -28
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000134.txt (Lehman press release, 3 September 1998; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000144.txt (23 September 1998; read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03)"
+  },
+  {
+    "month": "1998-10",
+    "title": "Lehman opens its books; the Fed cuts rates again",
+    "what": "To answer 'recent concerns' about the industry, Lehman disclosed on 5 October that its exposure to hedge funds was $447 million, against $583 million of collateral, and its exposure to Long-Term Capital Management only $32 million; 91% of its credit exposure was to investment-grade borrowers. On 15 October the Federal Reserve cut interest rates for the second time in three weeks, citing unsettled financial markets. Lehman's shares rose by a third in October.",
+    "why": "Disclosure plus a central bank cut calmed the panic. A decade later Lehman tried the same, publishing its exposures and liquidity, and it did not work.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": 34
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000151.txt (Lehman press release, 5 October 1998; read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/1998/19981015/ (read 2026-10-03)"
+  },
+  {
+    "month": "1998-11",
+    "title": "Third rate cut; Wall Street recovers",
+    "what": "The Federal Reserve has now cut interest rates three times since the end of September, and central banks in Europe have followed. Stocks have recovered most of the summer's losses, and the market for new share issues has reopened. Lehman's shares rose another third in November.",
+    "why": "The recovery of autumn 1998 taught Wall Street that the Fed would step in during a panic, a lesson that encouraged risk-taking in the years before 2008.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": 32
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (Lehman 10-K fiscal 1998: three Fed cuts, S&P 500 up 22% from 31 August to 30 November; read 2026-10-03)"
+  },
+  {
+    "month": "1999-01",
+    "title": "Record 1998 for Lehman despite the autumn scare",
+    "what": "Lehman Brothers reported record net income of $736 million for the year to November 1998, up 14%, or $5.19 a share, although fourth-quarter profit fell to $74 million from $185 million. 'Lehman Brothers achieved higher revenues and earnings in 1998 than in any other year in the firm's history,' said chief executive Richard Fuld.",
+    "why": "The panic had been about survival; the results showed the firm had come through, and the shares kept recovering.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": 24
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999; read 2026-10-03)"
+  },
+  {
+    "month": "2000-03",
+    "title": "Lehman's quarterly profit more than doubles",
+    "what": "Lehman Brothers earned a record $541 million in the quarter to February, up 156% from a year earlier, on record revenues of $2.2 billion, driven by share underwriting and merger advice at the height of the technology boom. 'The firm is clearly hitting on all cylinders,' said Richard Fuld.",
+    "why": "Boom-time earnings. The shares gained a third in March, a month in which the S&P 500 rose 10%.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": 34
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000912057-00-012357.txt (Lehman press release, 20 March 2000; read 2026-10-03)"
+  },
+  {
+    "month": "2001-09",
+    "title": "Terror attack drives Lehman from its headquarters",
+    "what": "The 11 September attacks severely damaged Lehman's headquarters at Three World Financial Center, across the street from the World Trade Center, and displaced more than 6,500 employees; one Lehman employee was killed. The firm moved its trading to Jersey City and was trading again when markets reopened on 17 September. Its third-quarter profit fell to $309 million from $457 million.",
+    "why": "Lehman's operations survived the worst day in Wall Street's history, which added to its reputation for resilience.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -13
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000089375001500382/exh99_1.txt (Lehman press release, 25 September 2001; read 2026-10-03)"
+  },
+  {
+    "month": "2003-07",
+    "title": "Lehman buys Neuberger Berman for $2.6 billion",
+    "what": "Lehman Brothers agreed to buy the fund manager Neuberger Berman for about $2.6 billion in cash and Lehman shares. The deal takes the assets Lehman manages for clients to more than $100 billion and makes it a leading firm for wealthy private investors.",
+    "why": "Fuld's push to diversify away from trading; in September 2008 Lehman tried to sell this business to raise cash.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000089375003000407/exh99_1.txt (Lehman press release, 22 July 2003; read 2026-10-03)"
+  },
+  {
+    "month": "2004-12",
+    "title": "Lehman's profit jumps 39% to a record",
+    "what": "Lehman Brothers' net income rose 39% to a record $2.4 billion in the year to November 2004, with a sixth consecutive year of record revenues from bond trading.",
+    "why": "The mortgage boom years: Lehman was one of the biggest lenders and packagers of home loans, through its Aurora and BNC units.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000080608504000232/f04-12_158kexhibits.txt (Lehman press release, December 2004; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2006-12",
+    "title": "Third record year in a row: $4 billion profit",
+    "what": "Lehman Brothers earned a record $4.0 billion in the year to November 2006, up 23%, or $6.81 a share, its third consecutive year of record revenues and profits, with a pre-tax margin of 33.6%. Institutional Investor magazine named Richard Fuld the top chief executive among brokers and asset managers.",
+    "why": "Peak confidence. Lehman's leverage, assets against equity, had risen from about 24 to 31 times by 2007.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465906081389/a06-24932_9ex99d1.htm (Lehman press release, 14 December 2006; read 2026-10-03); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2007-05",
+    "title": "Lehman joins a $22 billion apartment buyout",
+    "what": "Lehman Brothers and the property firm Tishman Speyer agreed to buy Archstone-Smith, an owner of about 87,700 apartments in 359 communities, in a $22.2 billion deal at the top of the property market.",
+    "why": "A commercial property bet that Lehman could not sell on when credit dried up; it was a large part of the real-estate exposure that markets distrusted in 2008.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Archstone-Smith (read 2026-10-03, citing CNBC, 29 May 2007); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2007-06",
+    "title": "Another record quarter for Lehman",
+    "what": "Lehman Brothers reported record net income of $1.3 billion for the quarter to May, up 27%, or $2.21 a share, and a record $2.4 billion for the half-year.",
+    "why": "The last record. Within weeks the subprime mortgage market was breaking up, and Lehman closed its subprime lender in August.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907047005/a07-15674_32ex99d1.htm (Lehman press release, 12 June 2007; read 2026-10-03)"
+  },
+  {
+    "month": "2007-08",
+    "title": "Lehman shuts its subprime mortgage lender",
+    "what": "Lehman Brothers is closing BNC Mortgage, its subprime home loan unit, cutting about 1,200 jobs in 23 locations, because market conditions 'necessitated a substantial reduction in its resources and capacity in the subprime space'. It will keep making mortgages through Aurora Loan Services. The shares fell 17% in July and another 12% in August.",
+    "why": "The mortgage machine that drove the record profits was now losing money; the loans and securities Lehman still held were the problem.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -12
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907064259/a07-20842_46ex99d1.htm (Lehman press release, 22 August 2007; read 2026-10-03)"
+  },
+  {
+    "month": "2007-12",
+    "title": "Lehman reports a fourth record year as rivals write off billions",
+    "what": "Lehman Brothers earned a record $4.2 billion in the year to November 2007, despite about $830 million of negative valuation adjustments in its bond business in the fourth quarter. Erin Callan has become chief financial officer.",
+    "why": "While Citigroup was writing down billions, Lehman kept reporting profits, which later looked like reluctance to mark its holdings to market.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907088588/a07-30473_33ex99d1.htm (Lehman press release, 13 December 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2008-03",
+    "title": "Bear Stearns falls; Lehman is next in line",
+    "what": "Bear Stearns, the smallest of the big Wall Street firms, ran out of cash and was sold to JPMorgan Chase for $2 a share with Federal Reserve support on 16 March; analysts named Lehman as the next firm at risk. Lehman answered on 18 March with a first-quarter profit of $489 million and a cash reserve of $34 billion at the parent company, and its shares jumped 46% that day. They still ended the month down by a quarter.",
+    "why": "The dress rehearsal. The market had learned that a firm can fail in days when its lenders pull back; Lehman's profit report bought time but not trust.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -26
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908018182/a08-8353_1ex99d1.htm (Lehman press release, 18 March 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2008-04",
+    "title": "Lehman raises $4 billion",
+    "what": "Lehman Brothers raised $4 billion of new capital by selling convertible preferred shares. Its shares recovered part of their March losses.",
+    "why": "Raising money calmed investors for a few weeks; each new raise also told the market that Lehman needed it.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": 18
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008, reporting the April issue; read 2026-10-03)"
+  },
+  {
+    "month": "2008-05",
+    "title": "Hedge fund manager attacks Lehman's accounting",
+    "what": "David Einhorn of Greenlight Capital, who said in April that he is betting against Lehman's shares, publicly questioned the firm's accounting for its real-estate holdings after a call with finance chief Erin Callan. Lehman's shares fell 17% in May.",
+    "why": "A short-seller doing what the auditors did not. Lehman blamed short-sellers for its troubles; the losses announced in June showed Einhorn's doubts were justified.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -17
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/David_Einhorn_(hedge_fund_manager) (read 2026-10-03)"
+  },
+  {
+    "month": "2008-06",
+    "title": "Lehman's first loss: $2.8 billion; president and finance chief out",
+    "what": "Lehman Brothers announced on 9 June its first quarterly loss as a public company, about $2.8 billion, as mortgage and real-estate holdings fell in value and some hedges failed, and said it was raising $6 billion of new capital. It said it had cut its leverage from 31.7 times its equity to under 25. On 12 June president Joseph Gregory and finance chief Erin Callan were replaced. The shares fell 46% in the month.",
+    "why": "The point of no return: the losses were real, the capital raised was diluting, and the people Fuld had backed were gone.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -46
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (12 June 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2008-08",
+    "title": "Korean bank considers buying Lehman",
+    "what": "Lehman Brothers plans to cut about 1,500 jobs, 6% of its staff. On 22 August its shares rose 5%, 16% for the week, on reports that the state-owned Korea Development Bank was considering buying the firm.",
+    "why": "The search for a buyer was now public, and every report of talks moved the stock.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03, citing New York Times, 22 August 2008)"
+  },
+  {
+    "month": "2008-09",
+    "title": "Korea talks end; Lehman loses $3.9 billion",
+    "what": "Lehman's shares fell 45% to $7.79 on 9 September after reports that Korea Development Bank had put its talks on hold. On 10 September Lehman said it expected a third-quarter loss of $3.9 billion after $5.6 billion of net write-downs, mostly on mortgages and commercial property, and announced plans to sell most of its investment management business and spin off its commercial real estate.",
+    "why": "A plan that needed months, announced by a firm that had days.",
+    "assets": [
+      "lehman"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908057829/a08-22764_2ex99d1.htm (Lehman press release, 10 September 2008; read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "Lehman Brothers files for bankruptcy",
+    "what": "After talks with Bank of America and Barclays failed over the weekend and the government refused to back a rescue, Lehman Brothers filed for Chapter 11 bankruptcy protection on 15 September, with $639 billion of assets and debts of $613 billion to banks, the largest bankruptcy in U.S. history. The shares fell more than 90% that day and were removed from the New York Stock Exchange; the Dow Jones fell more than 500 points. Barclays agreed to buy Lehman's North American business for a fraction of its former value.",
+    "why": "The exit, and the event that turned a credit crunch into a global panic. For the game's lesson: a firm with 30 times leverage, short-term funding and assets nobody trusts can go from record profits to zero in nine months.",
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "lehman",
+      "pct": -99
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+  }
+]

@@ -1,0 +1,580 @@
+[
+  {
+    "month": "1979-12",
+    "title": "Boeing, the world's airliner maker",
+    "what": "Boeing builds most of the world's passenger jets, from the 727 and 737 to the 747 jumbo, and military aircraft and space systems for the US government. It is developing two new fuel-saving jets at once: the 767 wide-body, launched in 1978 with an order from United Airlines, and the 757, ordered by Eastern Air Lines and British Airways. Europe's Airbus is a young competitor.",
+    "why": "The listing beat. Boeing is a cyclical stock: it lives on airline orders, fuel prices and defence budgets, and the arc swings from booms to near-death experiences (2001, 2009, 2019-20, 2024).",
+    "assets": [
+      "ba"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03); data/src/profiles.ts (Boeing profile from 1975-01)"
+  },
+  {
+    "month": "1981-09",
+    "title": "The 767 flies as airlines suffer",
+    "what": "The Boeing 767 made its first flight on 26 September. When it was rolled out in August, Boeing had 173 firm orders from 17 customers. It is designed to burn 20 to 30% less fuel than older jets and to need only two pilots, which a presidential task force accepted as safe in July.",
+    "why": "The product cycle that carries Boeing through the decade. The stock nonetheless halved in 1981 (-49%), the worst calendar year in its history, as high interest rates and recession hit airlines; no single Boeing event was found for that fall.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03)"
+  },
+  {
+    "month": "1982-08",
+    "title": "Wall Street's great rally starts; the first 767 is delivered",
+    "what": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. On 19 August Boeing delivered its first 767 to United Airlines.",
+    "why": "Explains the +48% month, Boeing's best: a deeply cyclical stock rebounding from the 1981 crash as rates fall (market +12%).",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 48
+    },
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json."
+  },
+  {
+    "month": "1982-10",
+    "title": "Rates fall and Boeing keeps climbing",
+    "what": "Banks cut the prime rate to 13% on 7 October and 12% on 13 October, and stocks extended their rally. Delta Air Lines received its first Boeing 767 on 25 October.",
+    "why": "Explains the +32% month (market +11%); Boeing rose 51% in 1982.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 32
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03, Delta delivery 1982-10-25); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); data/news/arcs/movers.md (market +11%)"
+  },
+  {
+    "month": "1983-12",
+    "title": "Recovery year: the 1,000th 737",
+    "what": "The economy began to recover in 1983 and Boeing assembled its 1,000th 737. Its new 757 and 767 are in service, and airlines are again looking at new planes, though Airbus of Europe is a growing competitor.",
+    "why": "The 1983-1985 upswing (+29%, +29%, +38%).",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
+  },
+  {
+    "month": "1985-10",
+    "title": "Northwest launches the 747-400",
+    "what": "On 22 October Northwest Airlines ordered ten 747-400s, launching a new version of the jumbo jet with more efficient engines, longer wings and a two-pilot cockpit. Boeing's 737-300, flying since 1984, is also selling well.",
+    "why": "The mid-1980s boom in orders: Boeing rose 29% in 1983 and 1984 and 38% in 1985.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing_747-400 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_Classic (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "Black Monday",
+    "what": "On 19 October the Dow Jones average fell 22.6% in a single day, its worst crash ever. Boeing, already weak this year, fell even more than the market over the month.",
+    "why": "Explains the -24% month: a market event. Boeing rebounded 64% in 1988 on a flood of airliner orders.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -24
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ba.json (monthly change)"
+  },
+  {
+    "month": "1989-10",
+    "title": "Machinists strike as Boeing struggles to build enough planes",
+    "what": "Boeing's machinists went on strike on 5 October, demanding higher pay and less mandatory overtime. Many have been working seven-day weeks and up to 200 hours of forced overtime every three months as Boeing tries to keep up with orders; airlines ordered 322 757s alone in 1988 and 1989.",
+    "why": "A boom problem: too many orders. The strike ended after 48 days on 22 November and cost about 2.5 billion dollars of revenue; the stock still rose 47% in 1989.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://www.americanactionforum.org/insight/the-economic-impact-of-strikes-an-historical-boeing-case-study/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03, 1988-89 orders)"
+  },
+  {
+    "month": "1990-08",
+    "title": "Iraq invades Kuwait; jet fuel soars",
+    "what": "Iraq invaded Kuwait on 2 August and the oil price, about 17 dollars a barrel in July, is rising steeply. Higher fuel costs and recession fears are a threat to airlines, Boeing's customers.",
+    "why": "Explains the -16% month and the -14% that followed in September.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -16
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/1990_oil_price_shock (read 2026-10-03)"
+  },
+  {
+    "month": "1990-10",
+    "title": "United launches the Boeing 777",
+    "what": "On 14 October United Airlines ordered 34 Boeing 777s, valued at 11 billion dollars, with options for 34 more, launching a new twin-engine wide-body jet between the 767 and the 747. It will be Boeing's first airliner with fly-by-wire controls.",
+    "why": "The next product cycle, aimed at Airbus; the 777 entered service in 1995.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_777 (read 2026-10-03, citing Time 1990-10-29)"
+  },
+  {
+    "month": "1993-11",
+    "title": "Boeing launches the 737 Next Generation",
+    "what": "On 17 November Boeing announced the 737 Next Generation, an updated family of its best-selling small jet, with new wings and engines, to compete with the Airbus A320.",
+    "why": "The workhorse that funded Boeing for the next twenty years and the base on which the 737 MAX was later built.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation (read 2026-10-03)"
+  },
+  {
+    "month": "1995-06",
+    "title": "The 777 enters service",
+    "what": "United Airlines put the Boeing 777 into passenger service in June. It is the first airliner designed entirely on computers and the first approved for long flights over water on two engines from the day it entered service.",
+    "why": "The start of a strong run: the stock rose 67% in 1995 and 36% in 1996.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_777 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "1996-12",
+    "title": "Boeing to merge with McDonnell Douglas",
+    "what": "On 15 December Boeing announced a merger with McDonnell Douglas, its last American rival in airliners and a big military aircraft maker, in a stock swap worth about 13 billion dollars. Ten days earlier it agreed to buy Rockwell's aerospace and defence units.",
+    "why": "Creates the aerospace giant of the later arcs. Many later blamed the McDonnell Douglas culture of cost-cutting for the 737 MAX disaster.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing Boeing releases of 1996-12-05 and 1996-12-15); https://en.wikipedia.org/wiki/McDonnell_Douglas (read 2026-10-03)"
+  },
+  {
+    "month": "1997-10",
+    "title": "Boeing stops its 747 line to catch up",
+    "what": "On 3 October Boeing said it will halt the 747 production line for 20 working days and put no new 737 Next Generation planes into final assembly for 25 days. Parts shortages have hit every programme as output doubled from 18 to 40 planes a month in 18 months.",
+    "why": "The production meltdown that cost Boeing billions in charges; the stock fell 33% in 1998.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/1997-10-03-Boeing-Announces-Aggressive-Production-Recovery-Plan (read 2026-10-03)"
+  },
+  {
+    "month": "1998-12",
+    "title": "Asia's crisis forces Boeing to cut production",
+    "what": "On 1 December Boeing said it will cut production of the 747 from 3.5 to 2 planes a month in late 1999, and possibly to 1, and slow the 757, 767 and 777 too. 'The economic slowdown in Asia is driving air traffic down,' said Alan Mulally, head of commercial airplanes.",
+    "why": "Explains the -20% month; Boeing's low point of the 1990s.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -20
+    },
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/1998-12-01-Boeing-Announces-Production-Rate-Changes-Financial-Projections (read 2026-10-03)"
+  },
+  {
+    "month": "2000-01",
+    "title": "Boeing buys Hughes' satellite business",
+    "what": "Boeing agreed to buy the satellite businesses of Hughes Electronics, in a deal reported at 3.75 billion dollars, expanding into satellite communications.",
+    "why": "Diversification into space; Boeing rose 59% in 2000 while technology shares crashed.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NYT 2000-01-13 '$3.75 Billion Boeing-Hughes Satellite Deal Expected')"
+  },
+  {
+    "month": "2001-09",
+    "title": "Terror with Boeing jets; up to 30,000 jobs to go",
+    "what": "On 11 September hijackers flew four Boeing jets, two 767s and two 757s, into the World Trade Center, the Pentagon and a field in Pennsylvania. With airlines cutting flights, Boeing said on 18 September it will reduce its airliner workforce by 20,000 to 30,000 by the end of 2002.",
+    "why": "Explains the -35% month. The air travel collapse ended the late-1990s boom; Boeing also lost the Joint Strike Fighter to Lockheed Martin in October.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -35
+    },
+    "importance": 1,
+    "source": "https://boeing.mediaroom.com/2001-09-18-Boeing-Responds-to-Current-Business-Environment (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2003-12",
+    "title": "Chief executive Phil Condit resigns over the tanker scandal",
+    "what": "On 1 December Boeing said chief executive Phil Condit has resigned; Harry Stonecipher, the former McDonnell Douglas chief, takes over. Boeing had fired its finance chief over the hiring of an Air Force procurement official who had worked on a deal to lease Boeing tankers, and the Pentagon has frozen the deal. Airbus is overtaking Boeing as the leading airliner maker this year.",
+    "why": "The low point of Boeing's reputation in the 2000s; the stock bottomed in early 2003.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2003-12-01-Boeing-Announces-Resignation-of-Phil-Condit-Lew-Platt-Named-Non-Executive-Chairman-Harry-Stonecipher-Named-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2004-04",
+    "title": "Boeing launches the 7E7 Dreamliner",
+    "what": "On 26 April Boeing's board approved the 7E7 Dreamliner, a new mid-size long-range jet made largely of carbon composites, after All Nippon Airways ordered 50, worth about 6 billion dollars. It is the largest launch order for a new Boeing jet, with first deliveries planned for 2008.",
+    "why": "The plane that later became the 787: a huge seller, three years late and plagued by problems, but the backbone of the 2005-2007 and 2013-2018 rallies.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 1,
+    "source": "https://boeing.mediaroom.com/2004-04-26-Boeing-Launches-7E7-Dreamliner (read 2026-10-03)"
+  },
+  {
+    "month": "2005-06",
+    "title": "Jim McNerney becomes chief executive",
+    "what": "Boeing's board named Jim McNerney, head of 3M and a former GE executive, as chairman and chief executive on 30 June. His predecessor Harry Stonecipher was forced out in March over a relationship with a female executive.",
+    "why": "A decade of McNerney: big 787 and 737 MAX decisions and large share buybacks.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2005-06-30-Boeing-Board-Elects-W.-James-McNerney-Jr.-Chairman-President-and-CEO (title seen in release list, 2026-10-03); https://boeing.mediaroom.com/2005-03-07-Boeing-CEO-Harry-Stonecipher-Resigns-Board-Appoints-James-Bell-Interim-President-and-CEO-Lew-Platt-to-Expand-Role (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2007-07",
+    "title": "The 787 Dreamliner is unveiled",
+    "what": "Boeing showed its first 787 Dreamliner to about 15,000 people in Everett on 8 July, broadcast to 45 countries. It is the fastest-selling new jet in Boeing's history.",
+    "why": "The peak of the 2000s boom: the stock's July 2007 high was not passed until 2013. In October Boeing delayed first deliveries by six months, the first of many delays.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2007-07-08-Boeing-Celebrates-the-Premiere-of-the-787-Dreamliner (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "Machinists strike in a falling market",
+    "what": "About 27,000 Boeing machinists in Washington, Oregon and Kansas went on strike on 6 September after talks failed. The 787 is already more than a year behind its original schedule, and the financial crisis is hitting airline customers.",
+    "why": "The strike lasted 58 days, until 2 November; Boeing lost 51% in 2008.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2008-09-05-Boeing-Statement-Renegotiation-Fails-Strike-Called (read 2026-10-03); https://boeing.mediaroom.com/2008-11-01-Machinists-Vote-to-Ratify-Contract-Offer-and-Return-to-Work (read 2026-10-03); https://boeing.mediaroom.com/2007-10-10-Boeing-Reschedules-Initial-787-Deliveries-and-First-Flight (read 2026-10-03)"
+  },
+  {
+    "month": "2009-02",
+    "title": "Markets sink to new lows",
+    "what": "Stocks fell to their lowest in more than a decade in February as the recession deepened and banks needed more rescues; the S&P 500 lost 11% in the month. Airlines are cutting capacity and Boeing's 787 has yet to fly.",
+    "why": "Explains the -26% month: no Boeing-specific shock found, a high-beta cyclical in the worst phase of the crisis. The stock bottomed here.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -26
+    },
+    "importance": 3,
+    "source": "data/news/arcs/movers.md (S&P 500 -11% in 2009-02); https://boeing.mediaroom.com/2009-06-23-Boeing-Postpones-787-First-Flight (read 2026-10-03, the 787 had still not flown by June)"
+  },
+  {
+    "month": "2009-12",
+    "title": "The 787 finally flies",
+    "what": "The Boeing 787 Dreamliner completed its first flight on 15 December, more than two years late. In June Boeing had postponed it again to reinforce a part of the wing-body joint, and in August it set a new schedule and took a charge.",
+    "why": "The end of the worst of the 787 saga; first delivery followed in September 2011.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2009-12-15-Boeing-787-Dreamliner-Completes-First-Flight (read 2026-10-03); https://boeing.mediaroom.com/2009-06-23-Boeing-Postpones-787-First-Flight (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "title": "First 787 delivered to ANA",
+    "what": "Boeing handed over the first 787 Dreamliner to All Nippon Airways on 25-26 September, three years later than the 2008 date planned at launch.",
+    "why": "The 787 starts earning. In 2011, pushed by the Airbus A320neo, Boeing also chose to re-engine the 737 (the MAX) instead of designing a new plane.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://boeing.mediaroom.com/2011-09-25-Boeing-ANA-Complete-Contractual-Delivery-of-First-787-Dreamliner (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2013-01",
+    "title": "Battery fires ground the 787",
+    "what": "After a battery fire on an empty Japan Airlines 787 in Boston on 7 January and a battery problem on an ANA flight, the US Federal Aviation Administration grounded the whole 787 fleet on 16 January, the first grounding of an airliner type since the DC-10 in 1979.",
+    "why": "A scare that passed: flights resumed in April with redesigned batteries, and the stock rose 81% in 2013.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2013_Boeing_787_Dreamliner_grounding (read 2026-10-03, citing BBC 2013-01-17)"
+  },
+  {
+    "month": "2015-06",
+    "title": "Dennis Muilenburg to succeed McNerney",
+    "what": "On 23 June Boeing named its chief operating officer, Dennis Muilenburg, as chief executive from 1 July, succeeding Jim McNerney. Muilenburg, an engineer, joined Boeing as an intern.",
+    "why": "The CEO of the buyback boom and of the 737 MAX crashes.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing Boeing release 2015-06-23 and Business Insider 2015-06-23); https://en.wikipedia.org/wiki/Dennis_Muilenburg (read 2026-10-03)"
+  },
+  {
+    "month": "2016-01",
+    "title": "Boeing guides to fewer deliveries",
+    "what": "On 27 January Boeing reported record 2015 revenue of 96.1 billion dollars and 762 deliveries, but forecast 740 to 745 deliveries in 2016 and lower fourth-quarter airliner profits after a charge on the 747.",
+    "why": "Explains the -17% month (market -5%): the first sign the airliner boom might plateau. It did not: 2017 was +89%.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -17
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000095012316013052/a201512dec318kpressrelease.htm (Boeing results release of 2016-01-27, read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "title": "Cash floods in: Boeing raises its forecast",
+    "what": "On 26 July Boeing reported strong second-quarter results, operating cash flow of 5 billion dollars and 2.5 billion dollars of share buybacks in the quarter, and raised its earnings and cash flow forecasts.",
+    "why": "Explains the +23% month. The cash machine phase: Boeing returned most of its cash to shareholders and the stock nearly doubled in 2017, peaking in February 2019.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 23
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000095012317006317/a201706jun308kpressrelease.htm (Boeing results release of 2017-07-26, read 2026-10-03)"
+  },
+  {
+    "month": "2018-10",
+    "title": "A new 737 MAX crashes in Indonesia",
+    "what": "On 29 October a Lion Air Boeing 737 MAX 8 crashed after take-off from Jakarta, killing all 189 people on board. The MAX is the newest version of Boeing's best-selling jet and has been in service for little more than a year.",
+    "why": "The first of the two MAX crashes; Boeing began redesigning the MCAS flight control software right after it, but the plane kept flying.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_MAX (read 2026-10-03)"
+  },
+  {
+    "month": "2019-03",
+    "title": "Second crash: the 737 MAX is grounded worldwide",
+    "what": "On 10 March an Ethiopian Airlines 737 MAX 8 crashed after take-off from Addis Ababa, killing all 157 on board, in circumstances similar to the Lion Air crash. China grounded the plane the next day, others followed, and on 13 March the US FAA became the last major regulator to ground it. Boeing's shares had their biggest fall since 2001.",
+    "why": "The defining crisis. The MAX, Boeing's best-selling plane, stayed grounded for 20 months; the February 2019 price was the all-time high.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -13
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NYT 2019-03-12/13 and Time 2019-03-11); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03)"
+  },
+  {
+    "month": "2019-12",
+    "title": "Boeing halts MAX production and fires its CEO",
+    "what": "On 16 December Boeing said it will suspend 737 MAX production in January, as the plane's return to service drags on. On 23 December the board dismissed chief executive Dennis Muilenburg and named chairman Dave Calhoun to replace him.",
+    "why": "The MAX crisis reaches the top; a $4.9 billion charge for airline compensation had been booked in July.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2019-12-16-Boeing-Statement-Regarding-737-MAX-Production (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing Reuters 2019-12-23); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, July 2019 charge)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Pandemic on top of the MAX: Boeing suspends its dividend",
+    "what": "With air travel collapsing because of Covid-19 and the MAX still grounded, Boeing on 20 March suspended its dividend and extended its halt on buybacks; chief executive Dave Calhoun gives up his pay for the year. On 23 March it said it will stop production in the Seattle area for 14 days.",
+    "why": "Explains the -46% month, Boeing's worst in the game: a company already bleeding cash from the MAX loses its customers' business overnight.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -46
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292720000030/exhibit991.htm (Boeing release of 2020-03-20, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/12927/000001292720000033/exhibit991.htm (Boeing release of 2020-03-23, read 2026-10-03)"
+  },
+  {
+    "month": "2020-06",
+    "title": "Test flights for the MAX's return",
+    "what": "From 28 June the FAA began three days of certification flight tests of the modified 737 MAX, a key step toward letting it fly again. Stock markets have recovered much of their spring losses as economies reopen.",
+    "why": "Explains the +26% month: hope for the MAX and for travel. In May Boeing had announced more than 12,000 job cuts.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 26
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing FlightGlobal 2020-07-01); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NPR 2020-05-27)"
+  },
+  {
+    "month": "2020-11",
+    "title": "A vaccine, and the MAX is cleared to fly",
+    "what": "On 9 November Pfizer and BioNTech said their Covid-19 vaccine was more than 90% effective, and travel stocks soared. On 18 November the FAA ended the 737 MAX's 20-month grounding, the longest ever for a US airliner, subject to fixes on each plane and new pilot training.",
+    "why": "Explains the +46% month, Boeing's second best in the game.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 46
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing Seattle Times 2020-11-18); https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03)"
+  },
+  {
+    "month": "2021-01",
+    "title": "Boeing pays 2.5 billion dollars to settle MAX fraud charge",
+    "what": "On 7 January Boeing agreed to pay more than 2.5 billion dollars to settle a US criminal charge that it hid information from safety regulators about the MAX: a 243.6 million dollar penalty, 1.77 billion dollars for airline customers and a 500 million dollar fund for crash victims' families.",
+    "why": "Closes the legal chapter, or seemed to; the agreement came back to haunt Boeing after the 2024 door-plug blowout.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03)"
+  },
+  {
+    "month": "2022-04",
+    "title": "Another quarterly loss and the 777X slips to 2025",
+    "what": "On 27 April Boeing reported a first-quarter loss with charges on fixed-price defence programmes and the war in Ukraine, negative operating cash flow of 3.2 billion dollars, and said the first 777-9 delivery is now expected in 2025.",
+    "why": "Explains the -22% month together with a falling market (-9%).",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -22
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292722000019/a202203mar318kprex991.htm (Boeing results release of 2022-04-27, read 2026-10-03)"
+  },
+  {
+    "month": "2022-09",
+    "title": "Rate fears crush the market",
+    "what": "The Federal Reserve raised rates by another three quarters of a point on 21 September and signalled more to come. The S&P 500 fell 9% in the month. Boeing, still deep in debt from the MAX crisis and the pandemic, fell much further.",
+    "why": "Explains the -24% month: no Boeing-specific shock found; the 2022 low of the stock.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -24
+    },
+    "importance": 3,
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03, 75 bp increase effective 2022-09-22); data/news/arcs/movers.md (S&P 500 -9% in 2022-09)"
+  },
+  {
+    "month": "2023-11",
+    "title": "Emirates orders 90 more 777Xs in Dubai",
+    "what": "On 13 November, at the Dubai Airshow, Emirates ordered 90 more Boeing 777Xs, 55 of the 777-9 and 35 of the 777-8, bringing its total 777X order to 205. Stock markets rallied strongly in November; the S&P 500 gained 9%.",
+    "why": "Explains the +24% month: big orders plus the market. Boeing ended 2023 up 37%, just before the door-plug accident.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 24
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_777X (read 2026-10-03); data/news/arcs/movers.md (S&P 500 +9% in 2023-11)"
+  },
+  {
+    "month": "2024-01",
+    "title": "A door plug blows out of a new 737 MAX 9",
+    "what": "On 5 January a door plug blew out of an Alaska Airlines 737 MAX 9 shortly after take-off from Portland; all 177 people on board survived. The FAA grounded similar planes, and inspections found loose parts on others. Chief executive Dave Calhoun admitted a 'quality escape', and the FAA opened an investigation into Boeing's production.",
+    "why": "Explains the -19% month: the end of Boeing's recovery story and the start of a second safety crisis.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -19
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_1282 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2024-07",
+    "title": "Boeing buys back Spirit and picks Kelly Ortberg",
+    "what": "On 1 July Boeing agreed to buy Spirit AeroSystems, the Wichita supplier that builds 737 fuselages and was spun off from Boeing in 2005, in an all-stock deal worth about 4.7 billion dollars. On 31 July it named Kelly Ortberg, a former head of Rockwell Collins, as chief executive from 8 August. Dave Calhoun, who announced in March that he would step down after the door-plug accident, leaves on 7 August.",
+    "why": "The repair programme begins: bring quality back in-house and bring in an engineer as boss.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2024-07-01-Boeing-to-Acquire-Spirit-AeroSystems (read 2026-10-03); https://boeing.mediaroom.com/2024-07-31-Boeing-Board-Names-Kelly-Ortberg-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/Spirit_AeroSystems (read 2026-10-03); https://en.wikipedia.org/wiki/Dave_Calhoun (read 2026-10-03)"
+  },
+  {
+    "month": "2024-09",
+    "title": "33,000 machinists strike",
+    "what": "On 13 September more than 33,000 Boeing machinists, mostly around Seattle, went on strike after 94.6% rejected a contract with a 25% raise over four years. Production of the 737, 767 and 777 has stopped.",
+    "why": "Explains the -12% month; the strike cost Boeing an estimated 5 billion dollars by early October and ended on 4 November with a 38% raise.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": -12
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2024_Boeing_machinists%27_strike (read 2026-10-03)"
+  },
+  {
+    "month": "2024-10",
+    "title": "Boeing raises 21 billion dollars of new capital",
+    "what": "On 28 October Boeing sold 112.5 million new shares at 143 dollars and 5 billion dollars of mandatory convertible preferred shares, raising about 21 billion dollars to protect its credit rating. The machinists' strike is still on.",
+    "why": "The dilution price of five years of crises; the stock bottomed around here.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 2,
+    "source": "https://boeing.mediaroom.com/2024-10-29-Boeing-Announces-Pricing-of-Upsized-Concurrent-Offerings-of-Common-Stock-and-Depositary-Shares (read 2026-10-03)"
+  },
+  {
+    "month": "2025-03",
+    "title": "Boeing wins the next-generation fighter",
+    "what": "On 21 March the US Air Force awarded Boeing the contract to build its next-generation air dominance fighter, a programme worth more than 20 billion dollars.",
+    "why": "A much-needed win for the defence side, which had suffered heavy losses on fixed-price programmes.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing CNBC 2025-03-21)"
+  },
+  {
+    "month": "2025-12",
+    "title": "Regulators clear the Spirit deal",
+    "what": "The US Federal Trade Commission asked Boeing to sell Spirit AeroSystems businesses that supply Airbus and Malaysia's Subang to clear the takeover, and EU regulators said the remedy addressed their concerns. Airbus is taking over Spirit's Airbus work.",
+    "why": "Boeing owns its fuselage supplier again; the month was +15%.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing WSJ 2025-12-03); https://en.wikipedia.org/wiki/Spirit_AeroSystems (read 2026-10-03)"
+  },
+  {
+    "month": "2026-05",
+    "title": "China to buy 200 Boeing jets",
+    "what": "On 20 May China confirmed it will buy 200 Boeing aircraft after a summit between the Chinese and US presidents.",
+    "why": "Political orders as a support for the recovery; the share price, however, was below its 2019 peak by more than half.",
+    "assets": [
+      "ba"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing BBC and CNBC 2026-05-20)"
+  }
+]

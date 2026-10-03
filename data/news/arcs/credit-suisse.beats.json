@@ -1,0 +1,393 @@
+[
+  {
+    "month": "1982-03",
+    "title": "Schweizerische Kreditanstalt joins the game",
+    "what": "The Schweizerische Kreditanstalt of Zurich, called Credit Suisse abroad, is the third of Switzerland's three big banks. It is still recovering its reputation from the Chiasso scandal uncovered in 1977, in which its branch near the Italian border ran a fraudulent banking and currency scheme that cost the bank about 1.4 billion francs. Since 1978 it has been partnered with the US investment bank First Boston.",
+    "why": "Listing beat. The Kreditanstalt is the most adventurous of the three; the First Boston link sets the course for an investment bank that it never fully controls and that eventually sinks it.",
+    "assets": ["credit-suisse"],
+    "importance": 1,
+    "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "1984-05",
+    "title": "Swiss voters keep bank secrecy",
+    "what": "On 20 May Swiss voters rejected the popular initiative 'against the abuse of bank client confidentiality and bank power' by 73% to 27%; not a single canton approved it. Turnout was about 42.5%. The big banks can go on guarding their clients' secrets as before.",
+    "why": "The bank-secrecy strand: three decades later Credit Suisse pleads guilty in the US for helping Americans evade taxes.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1984_Swiss_referendums (read 2026-10-03)"
+  },
+  {
+    "month": "1985-10",
+    "title": "Swiss shares rush to new peaks",
+    "what": "After a dip in September, Swiss share indexes, including the Kreditanstalt's own index, climbed to new records in October on very heavy volume. Domestic and foreign buyers are active, registered shares of the blue chips are in strong demand, and the franc firmed further against the dollar.",
+    "why": "The 1985 boom: the Kreditanstalt's best twelve months in the game (+126% from February 1985 to February 1986).",
+    "assets": ["credit-suisse", "ubs", "sbv"],
+    "move": { "asset": "credit-suisse", "pct": 17 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln'), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash reaches Zurich",
+    "what": "Swiss shares collapsed with Wall Street in October. The Kreditanstalt's own share index fell almost 7% more in the week after the black week, before a partial recovery on Friday. Only the most-traded shares could be traded properly. Analysts point to dividend yields of around 4% on the big bank shares.",
+    "why": "The crash; First Boston's troubles after it lead the Kreditanstalt to take control of its US partner in 1988.",
+    "assets": ["credit-suisse", "ubs", "sbv"],
+    "move": { "asset": "credit-suisse", "pct": -14 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 31 October 1987, p. 41 ('Zürcher Börse vom 26. Oktober bis zum 30. Oktober: Schwierige Standortbestimmung'), scan data/manual/scans/nzz/NZZ_1987-10-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1989-01",
+    "title": "The Kreditanstalt moves under CS Holding",
+    "what": "Early in 1989 the Kreditanstalt turned CS Holding into a publicly traded umbrella company over the bank, the investment bank CS First Boston, and other holdings such as the utility Elektrowatt. The reorganisation cost about $80 million. Holders of Kreditanstalt bearer shares are offered CS Holding shares in exchange.",
+    "why": "From now on the shares in the game are CS Holding's. The structure puts a Wall Street investment bank and a Swiss bank under one roof, the model that defines and finally destroys the group.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -3 },
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); exchange offer: data/manual/credit-suisse.csv header (NZZ 17.4.1989) (read 2026-10-03)"
+  },
+  {
+    "month": "1990-04",
+    "title": "CS Holding wins Bank Leu in a hostile takeover",
+    "what": "CS Holding completed its takeover of Bank Leu, Switzerland's oldest bank, in the first hostile takeover in Swiss banking. In the same year CS Holding is also putting $300 million of new equity into the struggling First Boston, raising its stake to 60%.",
+    "why": "Gut's acquisitive strategy at home and his costly commitment to Wall Street, both years before the rivals.",
+    "assets": ["credit-suisse"],
+    "importance": 3,
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
+  },
+  {
+    "month": "1991-10",
+    "title": "A bank run in Thun",
+    "what": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989, and banks with large property loans are under strain.",
+    "why": "The property crisis weakens the Volksbank, which CS Holding takes over fifteen months later.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)"
+  },
+  {
+    "month": "1993-01",
+    "title": "The Kreditanstalt takes over the Volksbank",
+    "what": "On 6 January the Kreditanstalt announced it is taking over the Schweizerische Volksbank for 2.6 billion francs. The Volksbank, the fourth-largest Swiss bank, has been weakened by write-downs on property loans and had to raise its reserves to 500 million francs last year. The Bankgesellschaft, which also bid, lost out at the last moment. Chairman Rainer Gut and the new chief executive Josef Ackermann expect large savings from 1995.",
+    "why": "Gut's coup: with the Volksbank's branches CS Holding becomes the Swiss bank with the most branches and number two by size.",
+    "assets": ["credit-suisse", "ubs"],
+    "importance": 1,
+    "source": "https://www.swissinfo.ch/ger/ska-uebernahm-vor-25-jahren-die-angeschlagene-volksbank/43802724 (read 2026-10-03)"
+  },
+  {
+    "month": "1996-04",
+    "title": "Gut proposes a merger, the Bankgesellschaft says no",
+    "what": "CS Holding chairman Rainer Gut telephoned the Bankgesellschaft's Nikolaus Senn with a merger proposal; on the night of 11 April the Bankgesellschaft's board unanimously rejected it. The combined bank would have earned slightly more than 3 billion francs a year and would have ranked second in the world with a balance sheet of about $419 billion.",
+    "why": "Had the offer succeeded, Credit Suisse would have been the core of the Swiss megabank; instead the Bankverein wins the Bankgesellschaft 20 months later.",
+    "assets": ["credit-suisse", "ubs"],
+    "importance": 2,
+    "source": "https://www.irishtimes.com/business/ubs-rejects-talk-of-cs-holdings-merger-1.39104 (read 2026-10-03)"
+  },
+  {
+    "month": "1997-01",
+    "title": "CS Holding becomes Credit Suisse Group",
+    "what": "In January a far-reaching reorganisation took effect: CS Holding is renamed Credit Suisse Group and organised in four business units, and about 5,000 jobs, 15% of the workforce, are to go. Chief executive Lukas Mühlemann leads the restructuring.",
+    "why": "Mühlemann's modernisation; later in 1997 he adds the insurer Winterthur, a bet on 'bancassurance' that fails.",
+    "assets": ["credit-suisse"],
+    "importance": 3,
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "1997-08",
+    "title": "Credit Suisse buys Winterthur",
+    "what": "In August Credit Suisse Group agreed to merge with the Winterthur insurance group for about $9.5 billion. The combined group will have total assets of about 700 billion francs and offer banking and insurance from one hand.",
+    "why": "The insurance arm drags Credit Suisse down in the bear market of 2001-2002 and is sold to AXA in 2006.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -11 },
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
+  },
+  {
+    "month": "1997-12",
+    "title": "The two rivals merge without Credit Suisse",
+    "what": "On 8 December the Bankgesellschaft and the Bankverein announced their merger into UBS, which would be the world's largest manager of private wealth. Credit Suisse, whose own merger offer to the Bankgesellschaft was rejected last year, is left as the smaller of two Swiss big banks.",
+    "why": "From now on the arc is a duel between UBS and Credit Suisse, which ends in 2023.",
+    "assets": ["credit-suisse", "ubs", "sbv"],
+    "move": { "asset": "credit-suisse", "pct": 6 },
+    "importance": 3,
+    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03)"
+  },
+  {
+    "month": "1998-08",
+    "title": "Russia defaults; Holocaust claims settled",
+    "what": "Russia defaulted on its domestic bonds on 17 August, setting off a rout in markets. Credit Suisse First Boston has large exposure to Russia. On 12 August UBS and Credit Suisse agreed to pay $1.25 billion to settle US class actions over dormant accounts of Holocaust victims.",
+    "why": "CSFB lost about $1.3 billion on Russia in 1998. The month (-30%) is the start of the 1998 roller-coaster.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": -30 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://www.swissinfo.ch/eng/business/twenty-years-ago_when-swiss-banks-settled-with-holocaust-survivors/44315844 (read 2026-10-03)"
+  },
+  {
+    "month": "1998-09",
+    "title": "LTCM rescue; bank shares in free fall",
+    "what": "The hedge fund Long-Term Capital Management lost most of its capital in September; on 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, with Credit Suisse First Boston among those putting in $300 million. Swiss bank shares kept falling: on 30 September the Swiss Market Index lost 4.3%, with investors doubting the leadership of the big financial institutions.",
+    "why": "The worst month of the 1998 crisis for Credit Suisse (-37%).",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -37 },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1998-10",
+    "title": "The market comes back",
+    "what": "Swiss shares recovered strongly in October: by the 30th the Swiss Market Index was 28% above its low of 5 October, as fears of recession faded. Credit Suisse Group shares rose 11% in the last week alone to 208.25 francs, against a 1998 low of 144 and a high of 385.",
+    "why": "The rebound month (+39%).",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": 39 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2000-03",
+    "title": "Out of the 'new economy', back into banks",
+    "what": "In March investors began to sell technology, media and telecom shares and the Nasdaq fell from its 10 March high; the hedge fund manager Julian Robertson closed his value-oriented Tiger funds, saying he no longer understood the markets. In Zurich the broad SPI rose in March, and Credit Suisse Group shares ended the month at 331 francs, their highest in a year.",
+    "why": "Credit Suisse (+25%) gained from the rotation out of technology shares; no company-specific news was found for the month.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": 25 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 1 April 2000, p. 33 ('Die überfällige Nasdaq-Korrektur'; 'Der Schweizer Aktienmarkt vom 27. bis zum 31. März: Kreuzfahrt im dichten Nebel', weekly price table), scan data/manual/scans/nzz/NZZ_2000-04-01.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2000-11",
+    "title": "Credit Suisse buys Donaldson, Lufkin & Jenrette",
+    "what": "In November Credit Suisse completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette for about $12.4 billion, to be merged into Credit Suisse First Boston.",
+    "why": "Bought at the top of the market; in 2021 Credit Suisse writes off 1.6 billion francs of goodwill from this deal.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -7 },
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2001-09",
+    "title": "Terror attacks hit insurers and banks",
+    "what": "After the attacks of 11 September in the US, European share markets plunged; insurance shares were among the hardest hit, falling about 15% on the day in Frankfurt. Credit Suisse owns the insurer Winterthur. By 28 September the Swiss Market Index had recovered from about 5,000 to 6,000 in five days, but the broad SPI is still almost 28% below its level at the end of 2000.",
+    "why": "Credit Suisse fell 18% in the month, far more than UBS (-4%), a first sign of how Winterthur weighs on the group.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -18 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 29 September 2001, p. 33 ('Der DAX schöpft neuen Mut'; 'Der schweizerische Aktienmarkt: In fünf Tagen von 5000 auf 6000'), scan data/manual/scans/nzz/NZZ_2001-09-29.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2001-10",
+    "title": "Swissair grounded",
+    "what": "On 2 October the entire Swissair fleet was grounded after UBS refused to extend its credit line. UBS and Credit Suisse bought SAirGroup's stake in Crossair, which is to take over Swissair's European flights, and federal bridge loans let flights resume on 5 October. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles.",
+    "why": "The banks' role in the Swissair collapse damages their standing in Switzerland; Mühlemann's double role costs him credibility.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": 5 },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)"
+  },
+  {
+    "month": "2002-07",
+    "title": "Rating agencies turn negative on Credit Suisse",
+    "what": "In July the credit-rating agencies put Credit Suisse Group's ratings on negative outlook. The falling stock markets are eating into the capital of its insurer Winterthur, and the group is injecting capital into Winterthur and raising hybrid capital for its insurance business.",
+    "why": "2002 is Credit Suisse's worst year before 2008: a net loss of 3.3 billion francs, Mühlemann's departure, and from January 2003 the co-chief executives Oswald Grübel and John Mack. The exact news of July is softened; the 20-F records only the rating outlooks and the Winterthur measures during 2002.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -23 },
+    "importance": 2,
+    "source": "Credit Suisse Group Form 20-F for 2002, filed 27 March 2003, https://www.sec.gov/Archives/edgar/data/1159510/000104746903010549/a2104752z20-f.htm (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
+  },
+  {
+    "month": "2004-07",
+    "title": "Mack leaves; Grübel runs Credit Suisse alone",
+    "what": "John Mack left Credit Suisse at the end of his three-year contract in early July; Oswald Grübel, with the bank for more than 30 years, is now sole chief executive of the group. Brady Dougan becomes head of Credit Suisse First Boston and Walter Berchtold head of the Swiss bank.",
+    "why": "Grübel's turnaround brings net income of 5.6 billion francs for 2004; Dougan, the investment banker, becomes group chief executive in 2007.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -10 },
+    "importance": 3,
+    "source": "Credit Suisse Group Form 20-F for 2004, filed 30 March 2005, https://www.sec.gov/Archives/edgar/data/1159510/000102123105000251/b78781x20-f.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2006-06",
+    "title": "Winterthur sold to AXA",
+    "what": "On 14 June Credit Suisse agreed to sell the Winterthur insurance group to the French insurer AXA. The bank wants to concentrate on private banking, investment banking and asset management as one integrated bank.",
+    "why": "Undoes the 1997 bancassurance bet and leaves Credit Suisse a pure bank, just before the financial crisis.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -3 },
+    "importance": 2,
+    "source": "https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "2008-02",
+    "title": "Mismarked positions in the CDO business",
+    "what": "In the first quarter of 2008 Credit Suisse found mismarks and pricing errors by a small number of traders on certain asset-backed positions in its CDO trading business, and concluded that its internal controls over financial reporting had a material weakness at the end of 2007. Markets for mortgage-linked securities remain in turmoil.",
+    "why": "A blow to Credit Suisse's claim to have handled the credit crisis better than UBS. The 20-F places the discovery only in the first quarter; February is when the share fell 14%.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -14 },
+    "importance": 2,
+    "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "Credit Suisse raises 10 billion francs without the state",
+    "what": "On 16 October, the day the Swiss state rescued UBS, Credit Suisse announced it had raised new capital from a small group of investors, about 10 billion francs from three existing shareholders; Qatar Holding reported holding 8.9% of the shares on 22 October. Credit Suisse said it would not use the National Bank's facility for illiquid assets. The bank cancelled its share buyback.",
+    "why": "Credit Suisse survives the crisis without state aid, a point of pride that later makes it harder to admit weakness. The new shares and the crash pushed the stock down 23% in October.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -23 },
+    "importance": 1,
+    "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)"
+  },
+  {
+    "month": "2009-03",
+    "title": "Markets turn from their lows",
+    "what": "Equity markets were very weak early in 2009: at the beginning of March developed markets were down more than 20% for the year. In the second half of March share prices rebounded strongly; the S&P 500 ended the month up about 9%.",
+    "why": "March 2009 was the low of the crisis; Credit Suisse rose 26% in the month. A market beat.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": 26 },
+    "importance": 3,
+    "source": "Credit Suisse Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1053092/000137036810000015/a100326ar20f.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2009-04",
+    "title": "Credit Suisse earns 2 billion francs in the first quarter",
+    "what": "On 23 April Credit Suisse reported net income of 2,006 million francs for the first quarter of 2009, against a loss of 2,148 million a year earlier. Private Banking attracted 11.4 billion francs of new money. Chief executive Brady Dougan said the bank was reaping the rewards of its early action to cut risk.",
+    "why": "Credit Suisse looks like the crisis winner among Swiss banks (+26% again in April); 2009 net income reaches 6.7 billion francs.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": 26 },
+    "importance": 2,
+    "source": "Credit Suisse Form 6-K of 23 April 2009, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000007/a090423_6k.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "title": "The National Bank caps the franc",
+    "what": "On 6 September the Swiss National Bank set a minimum exchange rate of 1.20 francs per euro and promised to buy foreign currency in unlimited amounts to defend it. The franc, which had soared during the euro crisis, fell about 11% against the dollar in September.",
+    "why": "For dollar investors the weaker franc adds to the fall in Swiss bank shares (Credit Suisse -9%).",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": -9 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2014-05",
+    "title": "Credit Suisse pleads guilty in the US",
+    "what": "On 19-20 May Credit Suisse pleaded guilty in the United States to conspiring to help American clients evade taxes, and agreed to pay about $2.6 billion in fines and restitution.",
+    "why": "The tax strand reaches Credit Suisse five years after UBS; the plea and the management's survival damage its reputation.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -6 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "2015-10",
+    "title": "Thiam's new strategy and 6 billion francs of new capital",
+    "what": "On 21 October chief executive Tidjane Thiam, in office since July, announced a new strategy: Credit Suisse wants to be a leading private bank and wealth manager with investment banking capabilities, organised in regional divisions. He also announced a capital increase of about 6 billion francs through a private placement and a rights offering, and six new members of the executive board.",
+    "why": "The first of several restructurings and capital raises; the rights issue is not adjusted in the price series.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": 4 },
+    "importance": 2,
+    "source": "Credit Suisse Form 20-F for 2015, https://www.sec.gov/Archives/edgar/data/1053092/000137036816000114/a160324ar20f.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)"
+  },
+  {
+    "month": "2016-02",
+    "title": "A 5.8-billion-franc quarterly loss",
+    "what": "On 4 February Credit Suisse reported a net loss of 5,828 million francs for the fourth quarter of 2015, including a goodwill write-off of 3,797 million, mostly in its trading business; the full-year 2015 loss was 2,944 million francs.",
+    "why": "Thiam's first full results reveal how little the old investment bank was worth (-25% in the month).",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -25 },
+    "importance": 1,
+    "source": "Credit Suisse Earnings Release 4Q15 (Form 6-K of 4 February 2016), https://www.sec.gov/Archives/edgar/data/1053092/000137036816000102/a160204g4q-ex99_1.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "title": "The end of bank secrecy for foreign clients",
+    "what": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
+    "why": "Closes the bank-secrecy strand that began with the 1984 vote.",
+    "assets": ["credit-suisse", "ubs"],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "2020-02",
+    "title": "Thiam resigns over the spying affair",
+    "what": "In the final months of 2019 it emerged that Credit Suisse had had former executives, among them the wealth manager Iqbal Khan, followed by private detectives; the chief operating officer Pierre-Olivier Bouée left. On 7 February Tidjane Thiam announced his resignation as chief executive. Thomas Gottstein, head of the Swiss bank, succeeds him on 14 February. At the end of the month markets began to fall as the coronavirus spread.",
+    "why": "The observation affair shows a culture problem at the top; from here the decline accelerates.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -11 },
+    "importance": 2,
+    "source": "Credit Suisse Form 20-F for 2019, https://www.sec.gov/Archives/edgar/data/1053092/000137036820000046/cs-20191231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Thomas_Gottstein (read 2026-10-03); https://de.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Covid crash",
+    "what": "Markets crashed as the coronavirus spread: the S&P 500 fell 7.6% on 9 March, 9.5% on 12 March and about 12% on 16 March, after the Federal Reserve had cut its rate to zero. On 20 March the Swiss government announced an economic aid programme.",
+    "why": "Credit Suisse lost 28% in the month, twice as much as UBS.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": -28 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
+  },
+  {
+    "month": "2020-11",
+    "title": "Vaccine hopes lift the banks",
+    "what": "Pfizer and BioNTech reported in November that their coronavirus vaccine had met its efficacy goals in the final trial, with a potential efficacy of more than 90%. Share markets rallied; the S&P 500 gained about 11% in November.",
+    "why": "A market beat (+33% for Credit Suisse, its best month after 1998).",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": 33 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03)"
+  },
+  {
+    "month": "2021-03",
+    "title": "Greensill and Archegos in one month",
+    "what": "On 1 March Credit Suisse froze four supply-chain finance funds with about $10 billion of assets, which it ran with Greensill Capital; on 4 March it decided to liquidate them, and Greensill filed for insolvency on 8 March. At the end of the month the US family office Archegos Capital failed to meet margin calls and its lending banks, Credit Suisse among them, began selling the positions they held for it.",
+    "why": "The double blow that starts the endgame: the funds were sold to wealthy clients, the core franchise, and Archegos shows a failure of risk control in the investment bank (-27% in the month).",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -27 },
+    "importance": 1,
+    "source": "Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Greensill_Capital (read 2026-10-03); https://en.wikipedia.org/wiki/Archegos_Capital_Management (read 2026-10-03)"
+  },
+  {
+    "month": "2021-04",
+    "title": "A 4.4-billion-franc hit from Archegos",
+    "what": "Credit Suisse booked a provision for credit losses of 4,430 million francs for the first quarter on the Archegos default. The chief risk officer Lara Warner left on 6 April and the head of the investment bank, Brian Chin, stepped down; the board withdrew its pay proposal for the executive board and revised its dividend proposal. On 22 April the bank placed mandatory convertible notes of about 1.76 billion francs to rebuild capital. António Horta-Osório was elected chairman on 30 April.",
+    "why": "Archegos costs 4.8 billion francs in total; the external report of July finds failures of risk management in the prime-services business.",
+    "assets": ["credit-suisse"],
+    "importance": 2,
+    "source": "Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2022-10",
+    "title": "Körner's rescue plan: 4 billion francs and 9,000 jobs",
+    "what": "After rumours about its health spread on social media early in the month, Credit Suisse announced on 27 October a fourth consecutive quarterly loss and a new plan: a capital increase of 4 billion francs, with the Saudi National Bank investing up to 1.5 billion for a stake of up to 9.9%; about 9,000 jobs cut by 2025; and a separate investment bank, CS First Boston, to be built up under Michael Klein. The shares opened 14% lower at 4.10 francs.",
+    "why": "The last strategy. The rumours triggered withdrawals of 110 billion francs in the fourth quarter; the rights issue that follows is not adjusted in the price series and is part of November's -20%.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": 5 },
+    "importance": 1,
+    "source": "https://www.srf.ch/news/wirtschaft/nach-massivem-quartalsverlust-so-will-die-credit-suisse-aus-der-krise-finden (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2023-02",
+    "title": "7.3 billion francs lost, 110 billion withdrawn",
+    "what": "On 9 February Credit Suisse reported a net loss of 7.3 billion francs for 2022, its worst since 2008, and net outflows of 110.5 billion francs of client money in the fourth quarter after rumours about its stability.",
+    "why": "The outflows show that clients, not markets, are deciding the bank's fate.",
+    "assets": ["credit-suisse"],
+    "move": { "asset": "credit-suisse", "pct": -13 },
+    "importance": 2,
+    "source": "https://www.srf.ch/news/wirtschaft/nur-2008-war-schlimmer-credit-suisse-schreibt-jahresverlust-von-7-3-milliarden (read 2026-10-03)"
+  },
+  {
+    "month": "2023-03",
+    "title": "Forced into the arms of UBS",
+    "what": "On 14 March Credit Suisse published its 2022 annual report, saying it had found material weaknesses in its financial-reporting controls. On 15 March the chairman of its largest shareholder, the Saudi National Bank, said it would 'absolutely not' invest more; the shares fell about a quarter that day. The Swiss National Bank lent 50 billion francs on 16 March. On Sunday 19 March the government announced that UBS takes over Credit Suisse for 3 billion francs, one UBS share for 22.48 Credit Suisse shares, under emergency law without a shareholder vote; 16 billion francs of AT1 bonds are written off.",
+    "why": "The end of Credit Suisse as an independent bank (-71% in March). The parliamentary inquiry later blames mismanagement at the bank.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": -71 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03)"
+  },
+  {
+    "month": "2023-06",
+    "title": "Credit Suisse disappears into UBS",
+    "what": "On 12 June UBS completed the takeover; Credit Suisse Group became a subsidiary of UBS and its shares were exchanged at one UBS share for 22.48 Credit Suisse shares. The shares had fallen to about 1.55 francs in March, against more than 90 francs in 2007.",
+    "why": "Exit beat: holders now own UBS. Over 41 years in the game the share lost 89% in dollars, and 99% from its 2007 peak.",
+    "assets": ["credit-suisse", "ubs"],
+    "move": { "asset": "credit-suisse", "pct": 1 },
+    "importance": 1,
+    "source": "https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)"
+  }
+]

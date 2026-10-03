@@ -1,0 +1,178 @@
+[
+  {
+    "month": "1982-03",
+    "title": "Schweizerischer Bankverein joins the game",
+    "what": "The Schweizerischer Bankverein of Basel, called Swiss Bank Corporation abroad, is the second of Switzerland's three big banks by assets, behind the Bankgesellschaft. It runs a large Swiss branch network, lends to companies and has been building up business abroad, including a portfolio-management company it set up in New York this year. Like its rivals it lives from Switzerland's role as a safe place for the world's savings.",
+    "why": "Listing beat. The Bankverein is the bank that 'always looked beyond Switzerland' and ends up as the strategic core of today's UBS: its managers (Ospel) and its investment-banking purchases run the merged bank from 1998.",
+    "assets": ["sbv"],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/swiss-bank-corporation (read 2026-10-03)"
+  },
+  {
+    "month": "1984-05",
+    "title": "Swiss voters keep bank secrecy",
+    "what": "On 20 May Swiss voters rejected the popular initiative 'against the abuse of bank client confidentiality and bank power' by 73% to 27%; not a single canton approved it. Turnout was about 42.5%. The big banks, the Bankverein among them, can go on guarding their clients' secrets as before.",
+    "why": "Bank secrecy is the foundation of the Swiss banks' business model in the 1980s; this vote is the high-water mark before the pressure from abroad (Holocaust assets in the 1990s, the US tax case in 2008-2009) erodes it.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1984_Swiss_referendums (read 2026-10-03)"
+  },
+  {
+    "month": "1985-06",
+    "title": "Zurich's 'unbraked boom' is led by the banks",
+    "what": "The Zurich stock exchange kept setting records in the last week of June on unusually heavy trading. Measured by the Kreditanstalt index Swiss shares are up nearly 20% this half-year, about as much as Amsterdam and Paris and well ahead of London and Tokyo. Dealers say the boom will last as long as the leading shares, above all the banks and insurers, keep leading it; Bankverein and Kreditanstalt bearer shares were marked up sharply on big volume, and Bankgesellschaft reached a new high for the year.",
+    "why": "The 1985 boom is the bank shares' best year in the game (best twelve months +120% from February 1985). Part of the gain in dollars is the franc recovering from its February low.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 14 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 29 June 1985, p. 23 ('Zürcher Börse vom 24. Juni bis zum 28. Juni: Ungebremste Hausse'), scan data/manual/scans/nzz/NZZ_1985-06-29.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1985-10",
+    "title": "Swiss shares rush to new peaks",
+    "what": "After a dip in September, Swiss share indexes climbed to new records in October on very heavy volume. Both domestic and foreign buyers are active, registered shares of the blue chips are in strong demand, and dealers report institutional investors, among them insurers, already buying for next year. The franc, which gained about 5% against the dollar in September, firmed another 2% in October, which adds to the gain for dollar-based investors.",
+    "why": "Second leg of the 1985 boom; the three banks rose 16-18% in dollars this month. The NZZ's Bankverein index chart shows the October surge.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 16 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln', with SBV/SKA index chart), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); franc: data/raw/fred/DEXSZUS.csv (FRED, read 2026-10-03)"
+  },
+  {
+    "month": "1986-08",
+    "title": "A remarkable August on the Swiss exchanges",
+    "what": "After touching a new low for the year on 1 August, the Bankverein's share index rose on all but three of the month's 19 trading days and ended August 11% higher. Falling short-term interest rates are pushing Swiss investors out of fixed deposits into shares, while foreign investors mostly stay on the sidelines. The bank shares were in strong demand.",
+    "why": "Explains the Bankverein's +15% in dollars (the franc also gained about 2%). A domestic, interest-rate-driven rally.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 15 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 August 1986, p. 23 ('Zürcher Börse vom 25. August bis zum 29. August: Verlangsamt nach oben'), scan data/manual/scans/nzz/NZZ_1986-08-30.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash reaches Zurich",
+    "what": "Swiss shares collapsed with Wall Street in October. In the week after the black week the Bankverein index fell another 8.4%, before a recovery of almost 5% in Friday's session. Only the most-traded shares could be traded properly; many others changed hands only briefly at erratic prices. One of the big banks advised buying registered shares of quality companies, and bank shares are supported by dividend yields of around 4%.",
+    "why": "The 1987 crash; the Bankverein lost 14% in dollars in the month, less than the S&P 500 (-22%) because the franc rose 7% against the dollar.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": -14 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 31 October 1987, p. 41 ('Zürcher Börse vom 26. Oktober bis zum 30. Oktober: Schwierige Standortbestimmung'), scan data/manual/scans/nzz/NZZ_1987-10-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1988-12",
+    "title": "Drug money in Swiss bank accounts",
+    "what": "The Bankverein has emerged as one of the banks that held accounts for people involved in a money-laundering scheme of about $1 billion run by a Lebanese-Turkish drug ring. The bank denies having broken Swiss banking law. On 12 December Justice Minister Elisabeth Kopp said she would resign, after admitting she had phoned her husband, a board member of Shakarchi Trading, about a money-laundering investigation.",
+    "why": "The first crack in the image of Swiss banking secrecy as respectable; money laundering becomes a crime in Switzerland a few years later. Bankverein fell 10% in dollars in December.",
+    "assets": ["sbv"],
+    "move": { "asset": "sbv", "pct": -10 },
+    "importance": 3,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/swiss-bank-corporation (read 2026-10-03); https://en.wikipedia.org/wiki/Elisabeth_Kopp (read 2026-10-03)"
+  },
+  {
+    "month": "1989-06",
+    "title": "Speculation about Japanese buyers lifts the bank shares",
+    "what": "Swiss shares rose strongly in June, carried by foreign investors buying blue chips and by a favourable currency situation; they held up even when interest rates firmed and New York fell late in the month. Bank shares jumped in the third week on speculation that Japanese investors wanted to buy into Swiss banks, then fell back at the end of the month on rumours that a Swiss bank was involved in insider dealing in Germany.",
+    "why": "Explains the Bankverein's +17%; the rumour of Japanese buying was never confirmed in the sources read, but the late-1980s wealth of Japan made it plausible to traders.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 17 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 1 July 1989, p. 39 ('Zürcher Börse vom 26. Juni zum 30. Juni: Gegen Zinserhöhungen resistente Aktienkurse'), scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1989-07",
+    "title": "The franc and Wall Street add to the summer rally",
+    "what": "The rally in Swiss bank shares continued in July. The franc gained about 4.5% against the dollar during the month and the S&P 500 about 9%, so the shares rose even more for a dollar investor. Foreign interest in Swiss blue chips, noted by Zurich dealers since early summer, remained strong.",
+    "why": "No specific Bankverein news found for July 1989; the move (+16% in dollars) is the franc plus a broad rally. The weekly review of late July was not available in the scans.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 16 },
+    "importance": 3,
+    "source": "data/raw/fred/DEXSZUS.csv (FRED, Swiss franc per US dollar, read 2026-10-03); data/reference/sp500.json (read 2026-10-03); Neue Zürcher Zeitung, 1 July 1989, p. 39, scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Swiss shares bounce back from their April low",
+    "what": "After falling to their lowest level of the year in late April, Swiss shares recovered strongly in May: the Swiss Market Index climbed from about 1,550 to about 1,750. Wall Street rallied too, with the S&P 500 up about 9% in the month, and euromarket interest rates began to ease.",
+    "why": "A broad rebound (all three banks +15-18%); the NZZ gives no bank-specific reason, so the beat is about the market. Two months later Iraq invades Kuwait and the gains are lost.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 15 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 June 1990, p. 41 ('Zürcher Börse vom 25. Juni bis zum 29. Juni: In der Gerüchteküche', SMI chart), scan data/manual/scans/nzz/NZZ_1990-06-30.pdf (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+  },
+  {
+    "month": "1991-10",
+    "title": "A bank run in Thun",
+    "what": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages. It is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989 after a boom in which mortgages doubled, and banks with large property loans are under strain.",
+    "why": "Start of the Swiss property and regional-bank crisis of the 1990s, which forces the big banks into years of heavy loan provisions and a wave of takeovers of weakened banks.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03); https://www.oecd.org/content/dam/oecd/en/publications/reports/2016/02/policies-to-tame-the-housing-cycle-in-switzerland_g17a276b/5jm3scgb48d4-en.pdf (search summary, read 2026-10-03)"
+  },
+  {
+    "month": "1992-12",
+    "title": "A toast to the year's high",
+    "what": "Swiss shares ended 1992 at record levels, with both the Swiss Market Index and the broad SPI at new highs in the last days of December. Traders credited a strengthening dollar and falling Swiss interest rates and inflation. Bankverein bearer shares gained 6.7% in the last week of the year alone.",
+    "why": "Explains the Bankverein's +14% in December. Falling rates are the start of the 1993 bank rally.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 14 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 31 December 1992, p. 31 ('Die Zürcher Börse vom 21. bis zum 30. Dezember: «Einen Toast auf den Jahreshöchststand!»'), scan data/manual/scans/nzz/NZZ_1992-12-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1993-07",
+    "title": "Banks expected to report 'brilliant results'",
+    "what": "Swiss shares stayed in demand in July: the franc is strong and attractive as a safe haven after new tension in the European currency system, and falling interest rates push money into dividend shares. Analysts at the Zürcher Kantonalbank see room for another 20% rise and expect the banks to contribute with excellent results, and lower loan provisions from next year. Bankverein bearer shares gained 5.3% in the last week of July and are up 58% since the end of 1992.",
+    "why": "Explains the Bankverein's +15% in July 1993. 1993 is the big rebound year for Swiss bank shares after the property-loss years.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 15 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 31 July 1993, p. 29 ('Die Zürcher Börse vom 26. bis zum 30. Juli: Anhaltende Attraktivität des Schweizer Marktes'), scan data/manual/scans/nzz/NZZ_1993-07-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1995-03",
+    "title": "The dollar collapses, the franc soars",
+    "what": "The dollar fell to new lows in March: on 31 March it was traded at about 1.17 francs in New York, almost 13% less than at the end of 1994. The swings drove the Zurich exchange; the Swiss National Bank and the Bundesbank lowered interest rates during the last week of March. Swiss shares are down for the year in francs, and bank shares were also weighed down by currency-trading worries.",
+    "why": "The Bankverein's +14% in dollars this month is almost entirely the franc (+9% against the dollar); in francs the shares barely moved.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 14 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Neuer schwerer Schwächeanfall des Dollars'; 'Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1995-05",
+    "title": "Bankverein buys S.G. Warburg",
+    "what": "The Bankverein is buying S.G. Warburg, the leading London merchant bank, for about £860 million ($1.34 billion), after earlier buying the Chicago options trader O'Connor & Associates and the Chicago asset manager Brinson Partners. Combined with its own investment bank, the business will be called SBC Warburg.",
+    "why": "The Bankverein turns itself into a global investment bank, the strategy that Ospel carries into the merged UBS. The sources read give only the year (1995) of the Warburg deal; the month is provisional and the beat carries no move.",
+    "assets": ["sbv"],
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)"
+  },
+  {
+    "month": "1997-05",
+    "title": "Dillon Read joins SBC Warburg",
+    "what": "On 16 May the Bankverein agreed to buy the New York investment bank Dillon, Read & Co. for about $600 million in shares, creating SBC Warburg Dillon Read. After O'Connor, Brinson and Warburg it gives the Basel bank a foothold on Wall Street.",
+    "why": "Last piece of the Bankverein's investment-bank build-up; the Dillon Read name lives on in UBS until the disastrous Dillon Read Capital Management hedge fund is closed in 2007.",
+    "assets": ["sbv"],
+    "move": { "asset": "sbv", "pct": 10 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+  },
+  {
+    "month": "1997-12",
+    "title": "Bankverein and Bankgesellschaft to merge",
+    "what": "On 8 December the Bankverein and the Bankgesellschaft announced an all-stock 'merger of equals' under the name UBS. Bankgesellschaft shareholders get about 60% of the new bank, Bankverein shareholders 40%. 13,000 jobs are to go, more than half in Switzerland; the bank targets 10-11 billion francs of profit within four years and would be the world's largest manager of private wealth. The Bankverein's Marcel Ospel becomes chief executive, the Bankgesellschaft's Mathis Cabiallavetta chairman.",
+    "why": "The defining beat of the Bankverein's last year: the smaller, more modern bank effectively takes over the larger one, with its own management in charge.",
+    "assets": ["sbv", "ubs", "credit-suisse"],
+    "move": { "asset": "sbv", "pct": 8 },
+    "importance": 1,
+    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)"
+  },
+  {
+    "month": "1998-05",
+    "title": "Last month of the Bankverein share",
+    "what": "The Bankverein's shareholders approved the merger with the Bankgesellschaft on 4 February, and its last ordinary general meeting was held in Basel on 15 April. The merger takes legal effect at the end of June; each Bankverein share will be exchanged for 1 1/13 shares of the new UBS. The last Bankverein quote in Zurich was on 29 May.",
+    "why": "Exit beat: from June 1998 Bankverein holders own UBS. They did well: the Bankverein share rose about 4.5-fold in dollars over its 16 years in the game.",
+    "assets": ["sbv", "ubs"],
+    "move": { "asset": "sbv", "pct": 4 },
+    "importance": 1,
+    "source": "https://de.wikipedia.org/wiki/Schweizerischer_Bankverein (read 2026-10-03); exchange ratio and last quote: data/src/universe.ts and data/manual/sbv.csv header (read 2026-10-03)"
+  }
+]

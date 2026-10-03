@@ -30,6 +30,7 @@ Under Cook the shares rose roughly twentyfold, with setbacks (the 40% fall of 20
 
 ## Curator additions
 
+- 1981-02, 1981-06, 1981-08, 1981-12: the Apple III failure, the 1981 slide (June -21% with no specific event found) and the IBM PC, added after the curator asked about June 1981; the arc had nothing between the IPO and 1982.
 - 1990-10, 1991-05, 1991-06, 1991-07: the cheap-Mac strategy, the 1991 slide of 39% from the March peak (April -19%, May -15%, June -12%) and the IBM alliance, added after the curator asked why Apple fell in mid-1991; the arc had no beat between May 1990 and April 1992. The June 1991 job-cut figure rests on search summaries only.
 
 ## Unexplained moves

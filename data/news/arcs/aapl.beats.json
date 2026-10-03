@@ -11,6 +11,63 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)"
   },
   {
+    "month": "1981-02",
+    "title": "Apple lays off staff over the troubled Apple III; Jobs becomes chairman",
+    "what": "The Apple III, the office computer launched in November at 4,340 dollars and more, has been plagued by faults: machines overheat and fail. President Mike Scott laid off employees in February to cut costs, a move co-founder Steve Jobs opposed. Mike Markkula takes over as president and Jobs becomes chairman. The shares, 22 dollars at the December float, have been falling since January.",
+    "why": "The first crisis of the listed Apple: the Apple III failure (Wozniak later said it had \"100 percent hardware failures\") and the first management shake-up. Sets up the 1981 slide.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -6
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json"
+  },
+  {
+    "month": "1981-06",
+    "title": "Apple shares drop 21% from their May high",
+    "what": "Apple shares fell 21% in June, giving back the rise of April and May, in a flat market. Investors have little to go on beyond the Apple III's reliability problems and talk that IBM, the giant of the computer industry, is preparing its own personal computer. Apple is still growing fast on the Apple II, but the stock market is no longer sure what a young computer company should be worth.",
+    "why": "No specific June event found (searched UPI, Wikipedia, company histories); the fall follows a 36% rise in April-May and precedes the IBM PC of 12 August, so this reads as the end of the post-IPO enthusiasm against the Apple III background. The IBM rumour is contextual: the PC was announced two months later; the beat says \"talk\", not a sourced report. Curator asked about this month.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -21
+    },
+    "importance": 3,
+    "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
+  },
+  {
+    "month": "1981-08",
+    "title": "IBM enters the personal computer market; Apple falls 20%",
+    "what": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in. Apple shares fell 20% in August and another 24% in September.",
+    "why": "The arrival of the competitor that will define Apple's next fifteen years. The share reaction is from the data; the link is the timing.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -20
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); price changes from data/out/aapl.json"
+  },
+  {
+    "month": "1981-12",
+    "title": "Apple replaces the first 14,000 Apple IIIs with a redesigned model",
+    "what": "Apple is replacing the first 14,000 Apple III computers it sold with a redesigned version that fixes the overheating and faulty circuit boards of the original. The machine, launched a year ago as Apple's step into the office, has sold poorly against the Apple II that still carries the company.",
+    "why": "Closes the Apple III chapter for 1981; the product never recovered. December +19% is not tied to this.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
+  },
+  {
     "month": "1982-08",
     "title": "Wall Street turns, and Apple leads the way up",
     "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",

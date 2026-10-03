@@ -97,9 +97,9 @@
   },
   {
     "month": "1989-04",
-    "title": "Berkshire jumps 27% to 6,275 dollars a share around its annual meeting",
-    "what": "Berkshire Hathaway shares rose 27% in April to 6,275 dollars, against a market up 5%. Shareholders gathered in Omaha on 24 April for the annual meeting, the first since the share moved to the New York Stock Exchange in November and since Warren Buffett disclosed in his February letter that Berkshire had put 593 million dollars into Coca-Cola, which is already worth more. Berkshire pays no dividend and has never split its share; a round lot of 100 shares now costs more than 600,000 dollars.",
-    "why": "No single cause found: the letter (28 February 1989), the meeting date and the NYSE listing are sourced; that the April jump followed from the meeting and the Coca-Cola news is inferred, the share was thinly traded. Curator asked about this month.",
+    "title": "Berkshire soars 27% after its annual meeting in Omaha",
+    "what": "Berkshire Hathaway shares jumped 27% in April to 6,275 dollars, against a market up 5%, after shareholders gathered in Omaha on 24 April for the annual meeting, the first since the share joined the New York Stock Exchange. Chairman Warren Buffett runs the company like no other: he buys businesses and large blocks of shares of companies with, as he puts it, \"outstanding economics and outstanding managements\", and then keeps them. \"Our favourite holding period is forever,\" he wrote to shareholders in February, and he claims no opinion at all about where the stock market will be in a year. The method has lifted Berkshire's book value from 19.46 dollars a share in 1965 to 2,974 dollars at the end of 1988, 23% a year compounded. His latest purchase is a 593 million dollar stake in Coca-Cola.",
+    "why": "Curator asked for this story: the jump told through the meeting and Buffett's philosophy. The meeting date, the quotes, the book-value figures and the Coca-Cola stake are from the 1988 letter (dated 28 February 1989); that the rise followed from the meeting is inferred, no press report found. Note: not Berkshire's first meeting in Omaha, only the first after the NYSE listing.",
     "assets": [
       "brk",
       "ko"
@@ -108,7 +108,7 @@
       "asset": "brk",
       "pct": 27
     },
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03); price changes from data/out/brk.json and data/reference/sp500.json"
   },
   {

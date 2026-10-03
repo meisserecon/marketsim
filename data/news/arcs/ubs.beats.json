@@ -1,0 +1,402 @@
+[
+  {
+    "month": "1982-03",
+    "title": "Schweizerische Bankgesellschaft joins the game",
+    "what": "The Schweizerische Bankgesellschaft of Zurich, called Union Bank of Switzerland abroad, is the largest of Switzerland's three big banks. Led since 1980 by chairman Robert Holzach and president Nikolaus Senn, it manages wealth for clients from all over the world, lends to Swiss companies and households, and has become a leading underwriter of Eurobonds, the bonds sold across borders.",
+    "why": "Listing beat. The Bankgesellschaft is the conservative giant of the cartel years; it is the legal shell of today's UBS, but after 1998 the Bankverein's people run it.",
+    "assets": ["ubs"],
+    "importance": 1,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "1984-05",
+    "title": "Swiss voters keep bank secrecy",
+    "what": "On 20 May Swiss voters rejected the popular initiative 'against the abuse of bank client confidentiality and bank power' by 73% to 27%; not a single canton approved it. Turnout was about 42.5%. The big banks can go on guarding their clients' secrets as before.",
+    "why": "Bank secrecy is the core of the business in the 1980s; the vote is its high-water mark. Twenty-five years later the same secrecy brings UBS to the brink in the US tax case.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1984_Swiss_referendums (read 2026-10-03)"
+  },
+  {
+    "month": "1985-10",
+    "title": "Swiss shares rush to new peaks",
+    "what": "After a dip in September, Swiss share indexes climbed to new records in October on very heavy volume. Domestic and foreign buyers are active, registered shares of the blue chips are in strong demand, and dealers report institutional investors already buying for next year. The franc firmed further against the dollar, adding to the gain for dollar-based investors.",
+    "why": "The 1985 boom: the Bankgesellschaft's best twelve months in the game (+112% from April 1985 to April 1986).",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 18 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln'), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash reaches Zurich",
+    "what": "Swiss shares collapsed with Wall Street in October. Bankgesellschaft bearer shares closed the month at 3,925 francs, against a high for the year of 5,909, down almost 32% since the end of 1986. Only the most-traded shares could be traded properly. Analysts point to dividend yields of around 4% on the big bank shares.",
+    "why": "The 1987 crash. The Bankgesellschaft's London broker Phillips & Drew also lost heavily on its positions, an early lesson in how hard it is for a Swiss bank to run an investment bank.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -17 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 31 October 1987, p. 41 ('Zürcher Börse vom 26. Oktober bis zum 30. Oktober: Schwierige Standortbestimmung', weekly price table), scan data/manual/scans/nzz/NZZ_1987-10-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1988-02",
+    "title": "Phillips & Drew costs the Bankgesellschaft £115 million",
+    "what": "Phillips & Drew, the London broker the Bankgesellschaft bought in 1986, lost £48 million in the October crash. Together with the cost of a settlement system that broke down under the boom's volumes, the Swiss parent has spent as much as £115 million since April 1987 to shore it up.",
+    "why": "The first of the Bankgesellschaft's expensive adventures abroad; the pattern (a Zurich bank losing money in an investment bank it cannot control) repeats with LTCM in 1998 and the US mortgage losses of 2007-2008.",
+    "assets": ["ubs"],
+    "importance": 3,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Swiss shares bounce back from their April low",
+    "what": "After falling to their lowest level of the year in late April, Swiss shares recovered strongly in May: the Swiss Market Index climbed from about 1,550 to about 1,750. Wall Street rallied too, with the S&P 500 up about 9%, and euromarket interest rates began to ease.",
+    "why": "A broad rebound; no Bankgesellschaft-specific news was found. The gains are lost again when Iraq invades Kuwait in August.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 18 },
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 30 June 1990, p. 41 ('Zürcher Börse vom 25. Juni bis zum 29. Juni: In der Gerüchteküche', SMI chart), scan data/manual/scans/nzz/NZZ_1990-06-30.pdf (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+  },
+  {
+    "month": "1991-10",
+    "title": "A bank run in Thun",
+    "what": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989 after a boom in which mortgage lending doubled, and the banks are facing losses on property loans.",
+    "why": "Start of the Swiss property crisis of the 1990s; the Bankgesellschaft is hit hard by bad loans to property developers, culminating in a 3-billion-franc charge and its first loss since the Second World War for 1996.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+  },
+  {
+    "month": "1993-01",
+    "title": "The Kreditanstalt snatches the Volksbank",
+    "what": "On 6 January the Kreditanstalt announced it is taking over the Schweizerische Volksbank, the fourth-largest Swiss bank, weakened by property write-downs, for 2.6 billion francs. The Bankgesellschaft, which had also been bidding, lost out at the last moment. With the Volksbank's branches the Kreditanstalt group moves up to second place among the Swiss banks.",
+    "why": "A humiliation for the Bankgesellschaft and a coup for Rainer Gut; it sharpens the rivalry that leads to Gut's merger offer in 1996.",
+    "assets": ["ubs", "credit-suisse"],
+    "importance": 2,
+    "source": "https://www.swissinfo.ch/ger/ska-uebernahm-vor-25-jahren-die-angeschlagene-volksbank/43802724 (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "1995-03",
+    "title": "Ebner talks fail as the dollar collapses",
+    "what": "Talks between the Bankgesellschaft and Martin Ebner's BK Vision, its largest shareholder, on settling their dispute have broken down. Ebner, who built up a stake from 1991 and has fought the bank's plan, narrowly approved by shareholders late last year, to replace its two share classes with a single share, is challenging it in court. At the same time the dollar fell to about 1.17 francs, almost 13% below its level at the end of 1994.",
+    "why": "The Ebner fight is the first shareholder revolt against a Swiss big bank and pushes the Bankgesellschaft toward the 1997 merger. The +8% in dollars this month is the franc; in francs the share fell.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 8 },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+  },
+  {
+    "month": "1996-04",
+    "title": "Bankgesellschaft rejects a merger with CS Holding",
+    "what": "On the night of 11 April the Bankgesellschaft's board unanimously rejected a merger proposal from CS Holding, whose chairman Rainer Gut had telephoned Nikolaus Senn with the offer. The combined bank would have earned slightly more than 3 billion francs a year and, with a balance sheet of about $419 billion, would have ranked second in the world. A merger could have cost up to 10,000 jobs in Switzerland.",
+    "why": "The Bankgesellschaft keeps its independence for 20 more months and then merges with the Bankverein on worse terms for its own managers. The share fell 10% in dollars in April.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -10 },
+    "importance": 2,
+    "source": "https://www.irishtimes.com/business/ubs-rejects-talk-of-cs-holdings-merger-1.39104 (read 2026-10-03); https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03)"
+  },
+  {
+    "month": "1997-01",
+    "title": "A night guard saves wartime files from the shredder",
+    "what": "On 8 January Christoph Meili, a security guard at the Bankgesellschaft in Zurich, found employees shredding old records, among them files of the Nazi era, and handed some to a Jewish organisation; the press reported it on 14 January. Shredding such records violates a law passed in December 1996 to protect evidence on wartime assets. Swiss banks are already under pressure from US politicians and Jewish groups over dormant accounts of Holocaust victims.",
+    "why": "The Meili affair turns the dormant-accounts dispute into Switzerland's biggest foreign-policy crisis since the war and leads to US sanction threats and the $1.25 billion settlement of August 1998. Meili was fired; the big three banks set up a 100-million-franc humanitarian fund in early 1997 (month not confirmed).",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -5 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Christoph_Meili (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+  },
+  {
+    "month": "1997-12",
+    "title": "Bankgesellschaft and Bankverein to merge into UBS",
+    "what": "On 8 December the Bankgesellschaft and the Bankverein announced an all-stock 'merger of equals' under the name UBS. Bankgesellschaft shareholders get about 60% of the new bank. 13,000 jobs are to go, more than half in Switzerland; the bank targets 10-11 billion francs of profit within four years and would be the world's largest manager of private wealth, with more than 1,000 billion francs of client assets. The Bankverein's Marcel Ospel becomes chief executive, the Bankgesellschaft's Mathis Cabiallavetta chairman. The Bankgesellschaft has recently suffered losses on equity derivatives.",
+    "why": "The defining beat of the arc: the end of the 'big three' and the birth of UBS. The larger bank gets the majority of the shares, the smaller one the management.",
+    "assets": ["ubs", "sbv", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 14 },
+    "importance": 1,
+    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "1998-06",
+    "title": "UBS is born",
+    "what": "The merger of the Bankgesellschaft and the Bankverein took legal effect on 27-28 June. The new UBS has total assets of more than $590 billion, making it the second-largest bank in the world. Each Bankverein share becomes 1 1/13 UBS shares and each Bankgesellschaft bearer share five shares of the new bank.",
+    "why": "Merger beat from the Bankgesellschaft's side: the game's ubs series continues as the new UBS. Six weeks later Russia defaults and LTCM collapses.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 11 },
+    "importance": 1,
+    "source": "https://de.wikipedia.org/wiki/Schweizerische_Bankgesellschaft (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); share terms: data/src/universe.ts and data/manual/ubs.csv header (read 2026-10-03)"
+  },
+  {
+    "month": "1998-08",
+    "title": "Russia defaults; the banks settle the Holocaust claims",
+    "what": "Russia defaulted on its domestic bonds on 17 August, setting off a rout in markets; the hedge fund Long-Term Capital Management, a big UBS client, lost $1.85 billion of capital by the end of the month. On 12 August UBS and Credit Suisse agreed to pay $1.25 billion to settle the US class actions over dormant accounts of Holocaust victims, after US states and cities had threatened sanctions against Swiss firms.",
+    "why": "Two strands meet: the settlement closes the Holocaust-assets affair, while the Russian default starts the LTCM losses that cost the merged bank its chairman within weeks.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -25 },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.swissinfo.ch/eng/business/twenty-years-ago_when-swiss-banks-settled-with-holocaust-survivors/44315844 (read 2026-10-03); https://www.swissinfo.ch/eng/swiss-politics/looking-back-at-the-holocaust-assets-controversy/36756580 (read 2026-10-03)"
+  },
+  {
+    "month": "1998-09",
+    "title": "UBS caught in the LTCM collapse",
+    "what": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks; on 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS among those putting in $300 million. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
+    "why": "The worst month in the ubs series (-40%). UBS was the largest single loser on LTCM (about 950 million francs).",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -40 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+  },
+  {
+    "month": "1998-10",
+    "title": "Cabiallavetta goes, the market recovers",
+    "what": "After a 950-million-franc charge for its exposure to LTCM, UBS chairman Mathis Cabiallavetta resigned together with three other executives; Alex Krauer becomes chairman. Markets recovered fast: by 30 October the Swiss Market Index was 28% above its low of 5 October. UBS shares closed the month at 371.50 francs, against a 1998 low of 267.50 and a high of 657.",
+    "why": "The rebound month (+40%). The LTCM losses leave the former Bankverein team around Ospel firmly in charge of UBS.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 40 },
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2000-11",
+    "title": "UBS takes over PaineWebber",
+    "what": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets. It makes UBS a big player in American wealth management.",
+    "why": "UBS's bet on America: the US wealth business becomes a pillar, but the US presence also exposes the bank to American prosecutors in the tax case of 2008.",
+    "assets": ["ubs"],
+    "importance": 2,
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2001-10",
+    "title": "Swissair grounded; the banks are blamed",
+    "what": "On 2 October the entire Swissair fleet was grounded after UBS refused to extend its credit line to the indebted airline. Many Swiss blamed UBS; demonstrators carried signs calling chairman Marcel Ospel 'Bin Ospel'. UBS and Credit Suisse bought SAirGroup's stake in Crossair, which is to take over Swissair's European flights, and the federal government lent money so that flights could resume on 5 October.",
+    "why": "The day the Swiss public turned against its big banks; the grounding is a national trauma remembered again in 2008 and 2023.",
+    "assets": ["ubs", "credit-suisse"],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Swissair (read 2026-10-03)"
+  },
+  {
+    "month": "2007-07",
+    "title": "Chief executive Peter Wuffli steps down",
+    "what": "On 6 July Peter Wuffli unexpectedly stepped down as chief executive of UBS; Marcel Rohner succeeds him. In May UBS had closed Dillon Read Capital Management, its in-house hedge fund, after losses on US mortgage securities. Markets for such securities are now in turmoil.",
+    "why": "The first visible sign of the subprime losses that bring UBS to state aid fifteen months later.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -7 },
+    "importance": 2,
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2007-12",
+    "title": "$10 billion more in write-downs; Singapore steps in",
+    "what": "On 10 December UBS announced further write-downs of about $10 billion on US subprime mortgage positions and new capital of 13 billion francs: mandatory convertible notes sold to the Government of Singapore Investment Corporation (11 billion) and an investor from the Middle East (2 billion). Shareholders get a stock dividend instead of a cash dividend for 2007. UBS expects a loss for the year.",
+    "why": "UBS turns to sovereign wealth funds; the 2007 net loss comes to 5.2 billion francs. Its shares fall from 61.95 francs in October to 52.40 at year-end.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -9 },
+    "importance": 2,
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2008-04",
+    "title": "Ospel goes after another $19 billion write-down",
+    "what": "On 1 April UBS pre-announced a first-quarter net loss of about 12 billion francs on $19 billion of write-downs on US real-estate assets, a fully underwritten rights issue of about 15 billion francs and a separate unit for its bad mortgage positions. Chairman Marcel Ospel is not standing for re-election; the general counsel, Peter Kurer, was elected chairman at the meeting on 23 April. Investors were relieved: the shares rose 15% in dollars in April.",
+    "why": "End of the Ospel era, which began with the merger in 1998. The relief rally is short-lived.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 15 },
+    "importance": 2,
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2008-05",
+    "title": "Rights issue: seven new shares for every twenty",
+    "what": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at 21 francs. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
+    "why": "Part of the -28% is mechanical: the series is not adjusted for the stock dividend or the rights issue (worth very roughly 10% together). The rest is the market's verdict on UBS.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -28 },
+    "importance": 3,
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "Lehman fails; UBS shares slump",
+    "what": "Stress in money markets and bond markets increased dramatically in the third quarter, culminating in the bankruptcy of Lehman Brothers in September. UBS, still holding large positions in illiquid mortgage securities, lost a quarter of its value in the month.",
+    "why": "Unlike Credit Suisse (+4% in September), UBS was seen as one of the most exposed European banks.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -25 },
+    "importance": 2,
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "The Swiss state rescues UBS",
+    "what": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse, which raised capital privately, does not use the facility.",
+    "why": "The defining moment of UBS's crisis. The share barely moved in October (+1%) because the rescue removed the risk of collapse; the state later exits with a profit.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 1 },
+    "importance": 1,
+    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)"
+  },
+  {
+    "month": "2008-11",
+    "title": "Head of wealth management steps aside",
+    "what": "On 12 November Raoul Weil, head of UBS's global wealth management, relinquished his duties; Marten Hoekstra takes over on an interim basis. US authorities are investigating UBS's cross-border business with American clients. On 27 November shareholders approved the capital needed for the Confederation's convertible notes.",
+    "why": "The US tax case moves to the top of the bank. Bank shares also fell worldwide in November.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -25 },
+    "importance": 3,
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2009-02",
+    "title": "UBS settles with the US and hands over client names",
+    "what": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell to about 11 francs.",
+    "why": "The beginning of the end of Swiss bank secrecy for foreign clients, and the low point of UBS's crisis: -86% from the April 2007 peak to March 2009.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -25 },
+    "importance": 1,
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03); prices: data/raw/yahoo/ubs.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2009-04",
+    "title": "Grübel cuts costs as markets rebound",
+    "what": "On 15 April UBS announced cost cuts and set a target of about 65,000 employees for 2010, against about 76,200 at the end of March, and centralised its finance, risk and legal functions. It also agreed to sell its Brazilian unit, UBS Pactual. Share markets kept recovering from their March lows; the S&P 500 gained about 9% in April.",
+    "why": "The +49% in April is the rebound of a share priced for disaster, helped by the market's turn (S&P 500 +9%).",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 49 },
+    "importance": 2,
+    "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2009-08",
+    "title": "Tax deal with the US; the state cashes in",
+    "what": "On 19 August UBS settled the US 'John Doe' summons case, and the US and Switzerland signed an agreement under which the IRS asks the Swiss tax administration for information on about 4,450 accounts of American clients. The same day the Confederation announced the conversion of its 6 billion francs of convertible notes into UBS shares.",
+    "why": "The two great uncertainties of the crisis, the US lawsuit and state ownership, are resolved in one month (+26%). The Confederation sells its shares in the third quarter at a profit of 1.2 billion francs.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 26 },
+    "importance": 2,
+    "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2010-07",
+    "title": "UBS earns 2 billion francs in a quarter",
+    "what": "On 27 July UBS reported a net profit of 2,005 million francs for the second quarter of 2010, and outflows of client money from its wealth management continued to ease. The S&P 500 gained about 7% in July.",
+    "why": "The first convincing proof that UBS is profitable again after the crisis (+27% in dollars, with the franc also firmer).",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 27 },
+    "importance": 3,
+    "source": "UBS Form 6-K of 27 July 2010 (second-quarter report), https://www.sec.gov/Archives/edgar/data/1114446/000095012310068336/y85737e6vk.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "title": "A rogue trader costs UBS $2.3 billion; Grübel resigns",
+    "what": "On 15 September UBS said unauthorised trading by a trader in London, Kweku Adoboli, had caused a loss estimated at $2 billion, later put at $2.3 billion; the shares fell 10.8% that day. On 24 September chief executive Oswald Grübel resigned; Sergio Ermotti takes over on an interim basis. Earlier in the month, on 6 September, the Swiss National Bank set a minimum exchange rate of 1.20 francs per euro, and the franc fell about 11% against the dollar in September.",
+    "why": "Ermotti's arrival leads to the 2012 retreat from investment banking. The -20% in dollars is the scandal plus the weaker franc.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": -20 },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2012-10",
+    "title": "UBS shrinks its investment bank",
+    "what": "On 30 October UBS announced it will exit most of its fixed-income trading, keep only advisory, research, equities, currencies and precious metals in the investment bank, and cut costs by another 3.4 billion francs by 2015. The workforce is to fall to about 54,000 from about 64,000. Andrea Orcel takes over the investment bank. UBS aims to pay out 50% or more of profits once its capital plans are met.",
+    "why": "The strategic turn that makes UBS a wealth manager first; investors loved it (+23% in the month) and it is why UBS, not Credit Suisse, survives to take over its rival in 2023.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 23 },
+    "importance": 1,
+    "source": "UBS news release of 30 October 2012 (Form 6-K), https://www.sec.gov/Archives/edgar/data/1114446/000119312512440755/d430996d6k.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2012-12",
+    "title": "1.4 billion francs for Libor manipulation",
+    "what": "On 19 December UBS agreed to pay about 1.4 billion francs in fines and disgorgement to US, UK and Swiss authorities over attempts to manipulate Libor and other benchmark interest rates; its Japanese securities unit pleaded guilty to one count of wire fraud. The settlements push UBS to a loss for 2012.",
+    "why": "One of the legal bills from the old investment bank; UBS posts a 2012 net loss of 2.5 billion francs despite the strategic turn.",
+    "assets": ["ubs"],
+    "importance": 3,
+    "source": "UBS Form 20-F for 2012, https://www.sec.gov/Archives/edgar/data/1114446/000119312513106100/d497201d20f.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2015-01",
+    "title": "The National Bank lets the franc go",
+    "what": "On 15 January the Swiss National Bank abandoned the minimum exchange rate of 1.20 francs per euro it had defended since September 2011. The franc jumped; it gained about 8% against the dollar in January.",
+    "why": "For dollar investors the franc's jump offsets the fall of the shares in francs; UBS ended the month -3% in dollars, Credit Suisse -16%.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -3 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "title": "The end of bank secrecy for foreign clients",
+    "what": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
+    "why": "Closes the bank-secrecy strand that began with the 1984 vote; from 2019 Switzerland shares details of 3.1 million foreign-held accounts.",
+    "assets": ["ubs", "credit-suisse"],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "2019-02",
+    "title": "Paris court fines UBS 3.7 billion euros",
+    "what": "On 20 February a Paris court convicted UBS of illegally soliciting clients in France and laundering the proceeds of tax fraud, and ordered it to pay a record of about 3.7 billion euros, including damages. UBS is appealing.",
+    "why": "The French case is the long tail of the cross-border business; the appeal court cuts the bill to 1.8 billion euros in December 2021.",
+    "assets": ["ubs"],
+    "importance": 3,
+    "source": "https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Covid crash",
+    "what": "Markets crashed as the coronavirus spread: the S&P 500 fell 7.6% on 9 March, 9.5% on 12 March and about 12% on 16 March, the day after the Federal Reserve cut its rate to zero. On 20 March the Swiss government announced an economic aid programme. UBS lost 14% in the month, Credit Suisse 28%.",
+    "why": "A market beat; UBS's smaller investment bank made it less vulnerable than Credit Suisse.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -14 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
+  },
+  {
+    "month": "2020-11",
+    "title": "Vaccine hopes lift the banks",
+    "what": "Pfizer and BioNTech reported in November that their coronavirus vaccine had met its efficacy goals in the final trial, with a potential efficacy of more than 90%. Share markets rallied; the S&P 500 gained about 11% in the month. At UBS, Ralph Hamers took over as chief executive from Sergio Ermotti on 1 November.",
+    "why": "A market-wide rotation into banks (S&P 500 +11%, UBS +22%, Credit Suisse +33%).",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 22 },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://fr.wikipedia.org/wiki/UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2023-03",
+    "title": "UBS takes over Credit Suisse",
+    "what": "On Sunday 19 March, after a weekend of talks led by the Swiss government and National Bank, UBS agreed to take over Credit Suisse for 3 billion francs in UBS shares: one UBS share for 22.48 Credit Suisse shares. The government used emergency law so no shareholder vote is needed, provides a guarantee of up to 9 billion francs against losses on Credit Suisse assets, and the National Bank offers up to 100 billion francs of liquidity. Credit Suisse's AT1 bonds worth 16 billion francs are written off.",
+    "why": "The end of the second big Swiss bank; UBS becomes a single Swiss megabank with more than $5 trillion of invested assets, bought for about 1% of Credit Suisse's 2007 market value.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": -3 },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03)"
+  },
+  {
+    "month": "2023-06",
+    "title": "Credit Suisse becomes part of UBS",
+    "what": "On 12 June UBS completed the takeover; Credit Suisse Group is now a subsidiary of UBS. Sergio Ermotti, who returned as chief executive in April, has said integrating the two banks will take years. Credit Suisse shareholders received UBS shares.",
+    "why": "Completion beat from the acquirer's side; the game's credit-suisse holders now own ubs.",
+    "assets": ["ubs", "credit-suisse"],
+    "move": { "asset": "ubs", "pct": 7 },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "2023-08",
+    "title": "UBS gives back the state guarantees and books a giant gain",
+    "what": "On 11 August UBS voluntarily ended the 9-billion-franc loss protection agreement with the Confederation and the public liquidity backstop of the National Bank; Finance Minister Karin Keller-Sutter said Swiss taxpayers no longer bear any risk. For the second quarter UBS reported provisional negative goodwill of $28.9 billion from buying Credit Suisse so cheaply, and outflows at Credit Suisse have stopped.",
+    "why": "The market's verdict that UBS got a bargain (+20% in August).",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 20 },
+    "importance": 2,
+    "source": "UBS Form 20-F for 2023, https://www.sec.gov/Archives/edgar/data/1610520/000161052024000041/ubs-20231231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)"
+  },
+  {
+    "month": "2025-06",
+    "title": "Bern wants UBS to hold much more capital",
+    "what": "In June the Swiss Federal Council proposed tougher rules for systemically important banks, drawing lessons from Credit Suisse: among other things, investments in foreign subsidiaries would have to be fully backed by top-quality capital. On 6 June UBS estimated it would need about $24 billion of additional common equity in its parent bank if the rules were adopted as proposed. Parliament still has to decide.",
+    "why": "The open question of UBS's arc at the time of writing: how much capital the only remaining Swiss big bank must hold, and whether that limits buybacks or its global ambitions.",
+    "assets": ["ubs"],
+    "move": { "asset": "ubs", "pct": 6 },
+    "importance": 2,
+    "source": "UBS Form 20-F for 2025, filed 9 March 2026, https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm (read 2026-10-03)"
+  }
+]

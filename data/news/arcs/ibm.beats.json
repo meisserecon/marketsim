@@ -1,0 +1,532 @@
+[
+  {
+    "month": "1979-12",
+    "title": "IBM, the giant of computing",
+    "what": "IBM is the world's biggest computer maker. Banks, airlines, insurers and governments run their data processing on its mainframes, which they buy or lease, and it also sells typewriters and office equipment. Its size has made it a target: an antitrust suit the US government filed in 1969, which could break the company up, is still in the courts.",
+    "why": "The listing beat. In 1979 IBM is the bluest of blue chips and the safe choice of every pension fund; the arc is about how that safety turned out to be an illusion in the early 1990s and how the company reinvented itself twice.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); data/src/profiles.ts (IBM profile from 1975-01)"
+  },
+  {
+    "month": "1981-08",
+    "title": "IBM launches the Personal Computer",
+    "what": "On 12 August IBM presented its Personal Computer, built in about a year by a small team in Boca Raton, Florida. Prices start at 1,565 dollars for a machine with 16 KB of memory. Unusually for IBM, it uses parts from outside suppliers, including the operating system and the processor chip.",
+    "why": "The defining product of the decade: the PC makes IBM the standard in offices, but outsourcing the chip and the software hands the profits of the PC era to Intel and Microsoft. The seed of both the 1980s boom and the 1990s crisis.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
+  },
+  {
+    "month": "1982-01",
+    "title": "Washington drops its 13-year antitrust case",
+    "what": "On 8 January the Justice Department dropped the antitrust suit against IBM that it filed in 1969, which sought to break the company up. The government had spent 13.6 million dollars on it; Assistant Attorney General William Baxter said continuing would cost far more than the chance of winning was worth.",
+    "why": "Frees IBM to attack every corner of the computer market in the 1980s; part of the 1982 rerating (+69% in the calendar year).",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1982/01/08/Government-settles-with-ATT-drops-IBM-case/6476379314000/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
+  },
+  {
+    "month": "1983-12",
+    "title": "The PC becomes the office standard",
+    "what": "IBM's personal computer is selling far beyond the company's own plans, with sales this year put at more than 750,000 machines, and dealers say they receive only part of what they order. Free of the antitrust case, IBM is now present in almost every computer market, and analysts warn that it is becoming dangerous for its competitors.",
+    "why": "The height of IBM's power: the stock rose 69% in 1982 and 27% in 1983.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1983-10-24 and 'Can Anybody Tackle IBM?' 1983-11-26). The 750,000 figure is a full-year count; at the end of December it would have been an estimate."
+  },
+  {
+    "month": "1985-01",
+    "title": "IBM takes most of the industry's profit",
+    "what": "By one estimate IBM earns 41% of the revenue and 69% of the profit of the hundred largest data-processing companies, with a profit margin of 22%, three times the average of the rest. Its computer revenue is about nine times that of the number two, Digital Equipment. Competitors complain to Congress about its power. John Akers takes over as chief executive this year.",
+    "why": "Peak dominance and peak margins; the share price would reach its 1980s high in August 1987 and then lose 75% by 1993.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1985-01-20 'The Daunting Power of I.B.M.'); https://en.wikipedia.org/wiki/John_Fellows_Akers (read 2026-10-03)"
+  },
+  {
+    "month": "1987-04",
+    "title": "IBM tries to take back the PC with the PS/2",
+    "what": "IBM unveiled its Personal System/2 range, which replaces the PC, XT and AT. The higher models use IBM's own Micro Channel design, which other makers may only copy under licence and against royalties. A new operating system for the machines, OS/2, was announced at the same time.",
+    "why": "The attempt to regain control of a standard IBM had given away. The clone makers balked at the licence terms and kept the open design; OS/2 lost to Windows. IBM's earnings had already peaked: the stock fell 23% in 1986.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/IBM_PS/2 (read 2026-10-03; launch in 1987, the 2 April date is from data/news/1987.json and not re-confirmed); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03, on OS/2's defeat, for the curator only)"
+  },
+  {
+    "month": "1987-10",
+    "title": "Black Monday hits Big Blue",
+    "what": "On 19 October the Dow Jones average fell 22.6% in a single day, the worst crash in its history. IBM, the most widely held stock in America, fell with it and lost about a fifth of its value over the month.",
+    "why": "A market event, not an IBM one, but it marks the top: IBM's August 1987 price was not seen again until 1997.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -19
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ibm.json (monthly change)"
+  },
+  {
+    "month": "1989-12",
+    "title": "IBM to cut 10,000 jobs",
+    "what": "IBM said it will cut 10,000 US jobs through retirement and separation incentives, setting aside 2.3 billion dollars of pre-tax profit, and will buy back another 4 billion dollars of its own shares. It blames sluggish spending by American companies, and personal computers and workstations are now powerful enough to take work away from expensive mainframes. Sales growth has slowed to single digits.",
+    "why": "The first public sign that the mainframe money machine is slowing; earnings fell by more than a third to about 3 billion dollars in 1989 and the stock fell 23% that year.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.deseret.com/1989/12/7/18835678/ibm-s-plan-to-cut-jobs-is-latest-sign-of-computer-slowdown/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, on 1989 earnings)"
+  },
+  {
+    "month": "1992-01",
+    "title": "IBM posts the first annual loss in its history",
+    "what": "IBM lost 2.8 billion dollars in 1991, its first full-year loss ever, and revenue fell to 64.8 billion dollars from 69 billion, the first decline since 1946. It cut about 29,000 jobs last year and expects 15,000 to 20,000 more to go in 1992. Chairman John Akers blamed the weak world economy, competition and product transitions.",
+    "why": "The start of the collapse. Akers' answer was to split IBM into semi-independent 'Baby Blues', a plan his successor reversed.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1992/01/17/IBM-reports-fourth-quarter-loss-will-keep-cutting-jobs/2743695624400/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
+  },
+  {
+    "month": "1992-12",
+    "title": "IBM to cut 25,000 more jobs and warns on its dividend",
+    "what": "On 15 December IBM announced it will shed about 25,000 more employees in 1993, which may mean the first layoffs in its history, and take a charge of about 6 billion dollars. For the first time it said it might cut its dividend. The shares fell to a ten-year low of 56 dollars and dragged the whole market down.",
+    "why": "The worst month in IBM's history in the game. For a widow-and-orphan stock, a hint at a dividend cut was a shock.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -26
+    },
+    "importance": 1,
+    "source": "https://www.baltimoresun.com/1992/12/16/ibm-drags-dow-down-784-points-in-5th-straight-loss/ (read 2026-10-03); https://www.lmtribune.com/northwest/in-the-red-ibm-to-cut-about-25000-workers-no-details-yet-on-where-jobs-will-be-cut-24f326fa/ (headline and summary via search result, read 2026-10-03)"
+  },
+  {
+    "month": "1993-01",
+    "title": "Record loss, dividend slashed, Akers out",
+    "what": "IBM lost 4.97 billion dollars in 1992, including a fourth-quarter loss of 5.46 billion, the largest in its history. On 26 January the board cut the quarterly dividend from 1.21 dollars to 54 cents and announced that chairman John Akers will step down. Standard & Poor's downgraded IBM's debt.",
+    "why": "The low point of the old IBM: the board, not management, now drives change, and the search for an outsider begins.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://www.upi.com/Archives/1993/01/19/IBM-posts-worst-year-ever/3920727419600/ (read 2026-10-03); https://en.wikipedia.org/wiki/John_Fellows_Akers (read 2026-10-03, citing The Independent 1993-01-27)"
+  },
+  {
+    "month": "1993-03",
+    "title": "IBM hires an outsider: Lou Gerstner",
+    "what": "On 26 March IBM named Louis Gerstner, 51, chairman of RJR Nabisco and a former American Express president, as its chairman and chief executive from 1 April. He is the first outsider to run IBM and has no computer industry experience. Asked when IBM would be profitable again, he said: 'I have no idea.'",
+    "why": "The turning point of the arc. Gerstner kept IBM in one piece and rebuilt it around services and software; the stock bottomed in August 1993 at a quarter of its 1987 price.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://www.upi.com/Archives/1993/03/26/IBM-names-RJR-Nabiscos-Gerstner-as-new-CEO/9467733122000/ (read 2026-10-03); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03)"
+  },
+  {
+    "month": "1993-07",
+    "title": "Gerstner takes an 8.9 billion dollar charge and cuts 35,000 jobs",
+    "what": "IBM reported a second-quarter loss of 8.04 billion dollars after an 8.9 billion dollar restructuring charge, and will cut 35,000 more jobs, shrinking to about 225,000 employees by the end of 1994. The dividend was cut again, to 25 cents a quarter. 'The No. 1 priority is to restore the company to profitability,' Gerstner said.",
+    "why": "Kitchen-sinking: the shares rose on the day. From here IBM recovers: it is profitable again in 1994.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1993/07/27/IBM-posts-loss-announces-job-cuts/1007743745600/ (read 2026-10-03)"
+  },
+  {
+    "month": "1995-06",
+    "title": "IBM wins Lotus after a hostile bid",
+    "what": "IBM made a hostile 60-dollar-a-share offer for Lotus Development, the maker of the Notes collaboration software, whose shares had traded at 32 dollars. Lotus looked for other buyers but agreed to a raised offer of 64.50 dollars a share, about 3.5 billion dollars. It makes IBM one of the world's largest software companies.",
+    "why": "The first big step of the Gerstner strategy: software and services instead of boxes. IBM returned to profit in 1994 and the stock rose 24% in 1995.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Lotus_Development (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing 'IBM Buys Lotus To Get Notes', 1995-06-19). Exact day of agreement not confirmed; the deal closed in July 1995."
+  },
+  {
+    "month": "1996-11",
+    "title": "Wall Street rediscovers IBM",
+    "what": "IBM shares jumped more than 17 dollars in a few days to their highest in nine years, as analysts raised their targets: Merrill Lynch sees 195 dollars, Argus 175. 'It's really not a recovery, it's a discovery of IBM,' one analyst said. On 26 November the board approved buying back up to 3.5 billion dollars of stock.",
+    "why": "Explains the +24% month. The market finally prices the turnaround; the stock rose 66% in 1996 and kept going to 1999.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": 24
+    },
+    "importance": 2,
+    "source": "https://www.spokesman.com/stories/1996/nov/21/ibm-stock-rally-reflects-revival-sudden-investor/ (read 2026-10-03); https://www.spokesman.com/stories/1996/nov/27/dow-retreats-from-record-high/ (read 2026-10-03)"
+  },
+  {
+    "month": "1997-05",
+    "title": "Deep Blue beats the world chess champion",
+    "what": "IBM's Deep Blue computer, built from its RS/6000 servers, defeated world chess champion Garry Kasparov 3.5 to 2.5 in a six-game match in New York. It is the first time a computer has beaten a reigning world champion under tournament conditions.",
+    "why": "A brand moment rather than a profit event: it made IBM look like a technology leader again in the middle of the internet boom.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
+  },
+  {
+    "month": "1999-10",
+    "title": "IBM pulls its PCs out of the shops",
+    "what": "IBM said it will stop selling personal computers in retail stores, where its market share has fallen far behind Compaq and Dell, and will fold its PC company into its Personal Systems Group. Business sales and services go on.",
+    "why": "The retreat from the PC that ends with the sale to Lenovo in 2004. In 1998 the stock rose 76%; it peaked in mid-1999.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1999-10-25 'The Strategy For I.B.M.: Loss-Leader PC Sales' and 1999-10-22 'Big Blue to combine PC division with PSG')"
+  },
+  {
+    "month": "2001-01",
+    "title": "IBM beats forecasts as the Fed starts cutting",
+    "what": "IBM earned 1.48 dollars a share in the fourth quarter, up 32%, slightly above analysts' 1.46, on revenue of 25.6 billion dollars. Full-year 2000 profit rose 16% to 8.1 billion dollars. The Federal Reserve cut its key rate twice in January, on the 3rd and the 31st, by half a point each time.",
+    "why": "Explains the +32% month: after the dot-com crash, investors fled into a solid tech name that kept hitting its numbers, helped by the Fed.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": 32
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205701001854/a2035335zex-99_1.txt (IBM results release of 2001-01-17, read 2026-10-03); https://money.cnn.com/2001/01/17/technology/earns_ibm/ (analyst estimate of $1.46, via search result, read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2001-04",
+    "title": "IBM stays on course and the Fed surprises",
+    "what": "IBM reported first-quarter earnings of 98 cents a share, up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. On 18 April the Federal Reserve cut rates by half a point between meetings.",
+    "why": "Explains the +20% month, together with the market's +8%.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": 20
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205701509402/a2045870zex-99_1.txt (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2002-03",
+    "title": "Gerstner hands over to Sam Palmisano",
+    "what": "Samuel Palmisano, a career IBMer and its president, became chief executive in March, succeeding Lou Gerstner, who stays chairman until the end of the year. Since Gerstner arrived in 1993, IBM's stock market value has risen several times over.",
+    "why": "Changing of the guard at the top of the tech bust; Palmisano continued the shift to services and software.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Samuel_J._Palmisano (read 2026-10-03); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03)"
+  },
+  {
+    "month": "2002-04",
+    "title": "IBM warns, then reports a 31% profit drop",
+    "what": "On 8 April IBM warned that first-quarter revenue would fall to about 18.5 billion dollars from 21 billion, as customers put off spending, and that its chip unit would lose money. The results confirmed it: earnings per share fell 31% to 68 cents. New chief executive Sam Palmisano said customers everywhere deferred technology purchases.",
+    "why": "Explains the -19% month: the first profit warning in years for the stock that had seemed immune to the tech bust.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -19
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000100547702001549/d02-37080.txt (IBM 8-K of 2002-04-08, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/0000051143/000089155402002124/d02-37159.txt (IBM results release of 2002-04-17, read 2026-10-03)"
+  },
+  {
+    "month": "2002-09",
+    "title": "Tech stocks sink to new lows",
+    "what": "The stock market fell again in September, after a dramatic slide in July: on the 24th the Dow hit a four-year low and the Nasdaq a six-year low. Accounting scandals at Enron and WorldCom have shaken confidence. IBM, already at its lowest since 1998 in June, fell with the market.",
+    "why": "No IBM-specific news found; the -23% month is the market (-11%) plus the tech discount. It set up the October rebound.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -23
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.foxnews.com/story/ibm-shares-slide-to-low-unseen-since-late-98.amp (2002-06-21, read 2026-10-03)"
+  },
+  {
+    "month": "2002-10",
+    "title": "IBM surprises with growing profits and buys PwC Consulting",
+    "what": "On 16 October IBM reported third-quarter earnings of 99 cents a share from continuing operations, up from 97 cents, on flat revenue of 19.8 billion dollars, in what it called one of the toughest spending environments it has faced. On 1 October it completed the purchase of PricewaterhouseCoopers' consulting arm for about 3.5 billion dollars. The market bottomed on 9 October and rallied.",
+    "why": "Explains the +35% month, IBM's best in the game: relief that the bellwether was still growing, on top of a market rebound (+9%).",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": 35
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205702038827/a2091373z8-k.txt (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)"
+  },
+  {
+    "month": "2004-12",
+    "title": "IBM sells its PC business to China's Lenovo",
+    "what": "On 7 December IBM agreed to sell its personal computer division, including the ThinkPad laptops, to the Chinese computer maker Lenovo for 1.25 billion dollars in cash and stock, with Lenovo also taking on 0.5 billion dollars of liabilities. Lenovo will move its headquarters to New York.",
+    "why": "The end of the business IBM created in 1981. Commodity hardware out, services and software in: the template for the next twenty years.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_the_IBM_PC_business_by_Lenovo (read 2026-10-03)"
+  },
+  {
+    "month": "2006-10",
+    "title": "IBM's profits keep growing without PCs",
+    "what": "On 17 October IBM reported third-quarter earnings of 1.45 dollars a share, up 15% excluding a one-time tax charge a year ago, on revenue of 22.6 billion dollars, up 5%. Mainframe revenue rose 25%. Chief executive Sam Palmisano credited the repositioning of IBM's business model toward the growth and profit areas of the industry.",
+    "why": "The quiet Palmisano years: steady earnings growth and buybacks after the PC sale (stock +18% in 2006, +11% in 2007). The month was +13%.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465906067047/a06-19062_48k.htm (IBM 8-K with the results release of 2006-10-17, read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "IBM keeps its forecast as markets crash",
+    "what": "In the worst month of the financial crisis IBM reported third-quarter earnings of 2.05 dollars a share, up 22%, on revenue of 25.3 billion dollars, and said it still expects at least 8.75 dollars for the year. 'We remain confident in our full-year 2008 outlook,' chief executive Sam Palmisano said.",
+    "why": "Explains the -21% month as pure market (-17%): IBM's business held up, and the stock was one of the first to recover in 2009 (+56%).",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -21
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000110465908064449/a08-26220_28k.htm (IBM 8-K with the results release of 2008-10-16, read 2026-10-03)"
+  },
+  {
+    "month": "2010-05",
+    "title": "IBM promises at least 20 dollars a share by 2015",
+    "what": "At its investor meeting IBM set out a '2015 roadmap': operating earnings of at least 20 dollars a share by 2015, against about 11 dollars for 2010, growth from emerging markets, analytics and cloud computing, and 100 billion dollars of free cash flow, 70% of it returned to shareholders, including about 50 billion dollars of share buybacks.",
+    "why": "The promise that defined the stock for four years and was abandoned in October 2014.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465910027974/a10-9848_18k.htm (IBM 8-K of 2010-05-12 with the investor presentation, read 2026-10-03)"
+  },
+  {
+    "month": "2011-02",
+    "title": "IBM's Watson wins at Jeopardy!",
+    "what": "IBM's question-answering computer Watson beat the two most successful champions of the American quiz show Jeopardy!, Ken Jennings and Brad Rutter, and won the one-million-dollar first prize. IBM celebrates its 100th anniversary this year.",
+    "why": "The start of IBM's artificial intelligence story; Watson Health, built on it, was later sold off. The stock was near its all-time high in 2011-2013.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/IBM_Watson (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
+  },
+  {
+    "month": "2012-02",
+    "title": "Warren Buffett reveals a 10.9 billion dollar bet on IBM",
+    "what": "In his annual letter Warren Buffett said Berkshire Hathaway bought 63.9 million IBM shares in 2011 for 10.9 billion dollars, 5.5% of the company. He praised Lou Gerstner and Sam Palmisano and said Berkshire should wish for a low share price while IBM buys back its own stock. Ginni Rometty became IBM's first woman chief executive in January.",
+    "why": "The vote of confidence at the top: IBM's price peaked in March 2013 (204 dollars adjusted) and then drifted down for five years, so the famous buyer bought near the high.",
+    "assets": [
+      "ibm",
+      "brk"
+    ],
+    "importance": 2,
+    "source": "https://www.berkshirehathaway.com/letters/2011ltr.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Ginni_Rometty (read 2026-10-03)"
+  },
+  {
+    "month": "2014-10",
+    "title": "IBM pays to get rid of its chip factories and drops its 2015 target",
+    "what": "On 20 October IBM agreed to hand its chip manufacturing business to GlobalFoundries and to pay it 1.5 billion dollars over three years, taking a 4.7 billion dollar charge. It also said it no longer expects to earn at least 20 dollars a share in 2015, a target it had promised for years. Chief executive Ginni Rometty said the results were not what IBM expected.",
+    "why": "The start of IBM's lost years under Rometty: the stock fell 14% in both 2014 and 2015 and was lower in 2020 than in 2011.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -13
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465914072335/a14-22457_48k.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/51143/000110465914072339/a14-22457_18k.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2015-04",
+    "title": "IBM creates Watson Health",
+    "what": "IBM set up a new Watson Health unit, built largely through acquisitions, to apply its Watson artificial intelligence to medicine and health data.",
+    "why": "IBM's big AI bet of the 2010s; it disappointed and was sold to Francisco Partners in 2022. The stock fell 14% in 2015.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing ACM 2021-04-21 'What Happened To Watson Health?')"
+  },
+  {
+    "month": "2018-01",
+    "title": "IBM's revenue grows again",
+    "what": "On 18 January IBM reported fourth-quarter revenue of 22.5 billion dollars, up 4% (1% at constant currencies), and said its 'strategic imperatives' such as cloud and analytics now make up 46% of revenue. It took a one-time charge of 5.5 billion dollars for the US tax reform.",
+    "why": "A brief hope of a turnaround under Rometty; the stock still fell 26% in 2018.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465918002862/a18-3308_1ex99d1.htm (IBM results release of 2018-01-18, read 2026-10-03)"
+  },
+  {
+    "month": "2018-10",
+    "title": "Revenue disappoints, then IBM buys Red Hat for 34 billion dollars",
+    "what": "IBM's third-quarter revenue of 18.76 billion dollars missed forecasts of 19.1 billion and the shares fell 7.6% on 17 October, adding to a falling market. On 28 October IBM agreed to buy Red Hat, the open-source software company, for 34 billion dollars, its biggest acquisition ever, to catch up with Amazon and Microsoft in cloud computing.",
+    "why": "Explains the -24% month: a disappointment in a market sell-off. Red Hat became the base of the later recovery.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -24
+    },
+    "importance": 1,
+    "source": "https://www.cnbc.com/2018/10/16/ibm-earnings-q3-2018.html (via search result, read 2026-10-03); https://www.fool.com/investing/2019/01/10/why-ibm-stock-fell-26-in-2018.aspx (read 2026-10-03); https://en.wikipedia.org/wiki/Red_Hat (read 2026-10-03)"
+  },
+  {
+    "month": "2019-07",
+    "title": "IBM closes the Red Hat deal",
+    "what": "IBM completed its 34 billion dollar purchase of Red Hat on 9 July, after the US Justice Department finished its review in May. Red Hat becomes part of IBM's hybrid cloud business.",
+    "why": "The base of the later recovery; IBM's cloud chief Arvind Krishna became CEO in April 2020.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Red_Hat (read 2026-10-03, citing Red Hat press release 2019-07-09); https://en.wikipedia.org/wiki/Arvind_Krishna (read 2026-10-03)"
+  },
+  {
+    "month": "2020-10",
+    "title": "IBM to split off its old infrastructure services",
+    "what": "On 8 October IBM announced it will spin off its managed infrastructure services unit into a separate listed company, keeping hybrid cloud and artificial intelligence. The unit runs IT for about 4,600 clients in 115 countries with a 60 billion dollar backlog. Chief executive Arvind Krishna, formerly head of IBM's cloud business and research, took over from Ginni Rometty in April and credits the Red Hat purchase with making the split possible.",
+    "why": "The biggest divestiture in IBM's history, welcomed by investors; completed in November 2021 as Kyndryl.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing IBM newsroom 2020-10-08 and Reuters 2020-10-09); https://en.wikipedia.org/wiki/Arvind_Krishna (read 2026-10-03)"
+  },
+  {
+    "month": "2021-11",
+    "title": "Kyndryl goes its own way",
+    "what": "The spin-off of IBM's infrastructure services business was completed at the start of November, and Kyndryl began trading as an independent company. IBM shareholders received Kyndryl shares. IBM is now a smaller company built around software, consulting and its mainframes.",
+    "why": "Closes the services era begun in the 1990s; IBM's price in the game is adjusted for the spin-off.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Kyndryl (read 2026-10-03, citing TechCrunch and WSJ 2021-11-04)"
+  },
+  {
+    "month": "2022-01",
+    "title": "IBM sells Watson Health",
+    "what": "On 21 January IBM announced it will sell its Watson Health assets to the private equity firm Francisco Partners.",
+    "why": "Exit from the AI health bet of 2015; IBM now concentrates on hybrid cloud and enterprise AI.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing ZDNet 2022-01-21)"
+  },
+  {
+    "month": "2023-08",
+    "title": "IBM sells The Weather Company",
+    "what": "In August IBM agreed to sell The Weather Company, its weather data and forecasting business, to Francisco Partners.",
+    "why": "More pruning; the stock rose 16% in 2023 and then 34% in 2024 as IBM became an AI and software story.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing CNBC 2023-08-22)"
+  },
+  {
+    "month": "2025-01",
+    "title": "Software growth and an AI order book lift IBM",
+    "what": "IBM's fourth-quarter software revenue grew 10%, led by Red Hat, and its book of generative AI business passed 5 billion dollars. Chief executive Arvind Krishna forecast revenue growth of at least 5% and free cash flow of about 13.5 billion dollars for 2025.",
+    "why": "The AI-era rerating: IBM rose 34% in 2024 and 35% in 2025, reaching its all-time high in November 2025.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": 16
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000005/ibm-20250129xex991.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2025-12",
+    "title": "IBM agrees to buy Confluent for 11 billion dollars",
+    "what": "On 8 December IBM announced a deal to buy Confluent, which makes software for streaming data in real time, for about 11 billion dollars. IBM says it will help companies feed data to their AI systems.",
+    "why": "The second big software bet after Red Hat; it closed in March 2026.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/IBM (read 2026-10-03, citing Reuters and WSJ 2025-12-08)"
+  },
+  {
+    "month": "2026-02",
+    "title": "An AI coding tool sends IBM to its worst day in 25 years",
+    "what": "On 23 February the AI company Anthropic said its Claude Code tool can cut the time to modernise programs written in COBOL, the old language that runs on IBM mainframes, from years to quarters for some projects. IBM shares fell about 13% that day, their steepest daily fall since October 2000, and the drop spread to IT service firms.",
+    "why": "Explains the -22% month: the market's fear that AI erodes the mainframe and services moat, in a broad software sell-off.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -22
+    },
+    "importance": 1,
+    "source": "https://www.analyticsinsight.net/news/ibm-stocks-slide-13-after-anthropic-claims-faster-cobol-modernization (read 2026-10-03); https://www.bloomberg.com/news/articles/2026-02-23/ibm-shares-plunge-as-anthropic-touts-cobol-modernization-efforts (headline via search result, read 2026-10-03)"
+  },
+  {
+    "month": "2026-05",
+    "title": "IBM and Washington plan a quantum chip foundry",
+    "what": "IBM signed a letter of intent with the US Department of Commerce for Anderon, a quantum chip foundry backed by 1 billion dollars of government incentives under the CHIPS Act. At its Think conference in early May IBM laid out its plans for AI and quantum computing.",
+    "why": "The quantum story that IBM pushed through mid-2026 (10 billion dollar quantum commitment on 2 June). Whether it caused the +29% month is not established; see Unexplained moves.",
+    "assets": [
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://newsroom.ibm.com/2026-09-16-anderon,-an-ibm-company,-finalizes-agreement-with-the-u-s-department-of-commerce-for-a-1-billion-chips-award-to-accelerate-r-d-for-u-s-based-pure-play-quantum-foundry (read 2026-10-03; refers to the May 2026 letter of intent); https://newsroom.ibm.com/announcements (release list, read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "IBM warns that big deals failed to close",
+    "what": "On 14 July IBM released early second-quarter figures: revenue of 17.2 billion dollars, up 1%, below forecasts of about 17.9 billion. Chief executive Arvind Krishna said 'numerous large deals failed to close' as clients diverted budgets to servers and storage for AI, and admitted 'we faltered'. The shares fell about 22% in early trading, close to their worst day since 1987.",
+    "why": "Explains the -20% month and gives back the May rally.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -20
+    },
+    "importance": 1,
+    "source": "https://newsroom.ibm.com/2026-07-14-Arvind-Krishnas-Letter-to-IBM-Investors (read 2026-10-03); https://www.aol.com/articles/ibm-tumbles-22-toward-worst-130646000.html (read 2026-10-03)"
+  }
+]

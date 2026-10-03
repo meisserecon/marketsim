@@ -1,0 +1,591 @@
+[
+  {
+    "month": "1979-12",
+    "title": "General Electric, the industrial bellwether",
+    "what": "General Electric is one of America's largest industrial companies, with about 400,000 employees. It makes power plant turbines, jet engines, locomotives, medical scanners, appliances and light bulbs. Its chairman Reginald Jones has more than doubled sales during the 1970s and is one of the most respected business leaders in the country.",
+    "why": "The listing beat. The 1980 GE is a sprawling, solid manufacturer; the arc follows it into finance and media, to the most valuable company on earth in 2000, through near-ruin in 2009 and 2018, and back out as a pure jet-engine maker.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Reginald_H._Jones (read 2026-10-03); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03, 411,000 employees at the end of 1980); data/src/profiles.ts (GE profile from 1975-01)"
+  },
+  {
+    "month": "1981-04",
+    "title": "Jack Welch, 45, takes charge of GE",
+    "what": "Jack Welch, 45, a vice chairman since 1979 and a chemical engineer who joined GE in 1960, has succeeded Reginald Jones as chairman and chief executive. He is the youngest chairman in GE's history and only its eighth. Jones chose him after a long contest between internal candidates.",
+    "why": "The man who defines the next twenty years of the stock. GE confirms 1981; the month follows data/src/profiles.ts and data/news/1981.json (exact date not re-confirmed). The choice itself was announced in late 1980.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://www.ge.com/news/reports/jack-welch-the-ultimate-manager-who-oversaw-ges-rise-to-the-most-valuable-company-dies-at-84 (read 2026-10-03); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03); https://en.wikipedia.org/wiki/Reginald_H._Jones (read 2026-10-03)"
+  },
+  {
+    "month": "1981-12",
+    "title": "Welch: number one or number two, or get out",
+    "what": "On 8 December Jack Welch told Wall Street analysts at the Pierre hotel in New York that GE will keep only businesses that are number one or number two in their markets. The rest are to be fixed, sold or closed. For a company that makes everything from toasters to turbines, it means deep cuts.",
+    "why": "The strategy speech of the era. Between 1980 and 1985 GE's payroll fell from 411,000 to 299,000, earning Welch the nickname 'Neutron Jack'.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/December_1981 (read 2026-10-03); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03)"
+  },
+  {
+    "month": "1982-08",
+    "title": "Wall Street's great rally begins",
+    "what": "On 17 August the Dow jumped a record 39 points after Salomon Brothers economist Henry Kaufman, until then gloomy, predicted that interest rates would fall to single digits within a year; the next day trading passed 100 million shares for the first time. Industrial companies like General Electric rallied with the market.",
+    "why": "Explains GE's +14% month (market +12%) and the start of the 1982-1987 bull market; GE rose 65% in 1982.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 14
+    },
+    "importance": 3,
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03)"
+  },
+  {
+    "month": "1984-07",
+    "title": "GE buys a big reinsurer and builds a finance arm",
+    "what": "General Electric paid Texaco 1.075 billion dollars in cash for Employers Reinsurance, one of the three largest US property and casualty reinsurers. It formed General Electric Financial Services to hold it together with GE Credit, which has 16 billion dollars of assets and is the largest diversified finance and leasing company in the country.",
+    "why": "The birth of GE Capital as a growth engine. Insurance and lending made Welch's GE look smooth and fast-growing, and later nearly sank it (2009, 2018).",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1984/07/02/General-Electric-Corp-expanded-its-interests-into-fast-growth-financial/8730457588800/ (read 2026-10-03)"
+  },
+  {
+    "month": "1985-12",
+    "title": "GE buys RCA and NBC for 6.3 billion dollars",
+    "what": "General Electric agreed to buy RCA for 6.28 billion dollars, mainly to own the NBC television network. It is the largest takeover outside the oil industry ever, bigger than the Capital Cities purchase of ABC earlier this year.",
+    "why": "Makes GE a media company too; NBC stayed until 2013. The stock rose 28% in 1985 and 18% in 1986.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing UPI 1985-12-11)"
+  },
+  {
+    "month": "1987-10",
+    "title": "Black Monday",
+    "what": "On 19 October the Dow Jones average fell 22.6% in one day, the worst crash in its history. General Electric, one of the most widely held stocks, fell almost as much as the market over the month.",
+    "why": "Explains the -23% month: a market event. GE recovered within two years (+44% in 1989).",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -23
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ge.json (monthly change)"
+  },
+  {
+    "month": "1988-06",
+    "title": "GE Plastics buys Borg-Warner's chemicals for 2.3 billion dollars",
+    "what": "General Electric's plastics division bought the chemicals business of Borg-Warner, which makes ABS plastic for computer cabinets, car parts and football helmets, for 2.3 billion dollars, 1 billion in cash and 1.3 billion borrowed. The unit had sales of 1.25 billion dollars last year; GE Plastics expects its own sales to grow from about 3 billion to 5 billion dollars a year.",
+    "why": "Welch buying leadership positions in businesses where GE could be number one; GE Plastics was sold to SABIC in 2007 for 11.6 billion dollars.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://www.upi.com/Archives/1988/06/16/General-Electric-Co-said-Thursday-it-has-acquired-through/7418582436800/ (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 2007 sale to SABIC)"
+  },
+  {
+    "month": "1990-08",
+    "title": "Iraq invades Kuwait and oil doubles",
+    "what": "Iraq invaded Kuwait on 2 August. Oil, at about 17 dollars a barrel in July, is climbing fast, and fears of a recession are pulling shares down. General Electric, with its finance arm and its appliance and engine businesses, is exposed to a slowdown.",
+    "why": "A world beat to anchor GE's -13% month and -11% year; GE rose 33% in 1991 as rates fell.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -13
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/1990_oil_price_shock (read 2026-10-03)"
+  },
+  {
+    "month": "1991-12",
+    "title": "The Fed cuts rates again and stocks surge",
+    "what": "The Federal Reserve cut its key rate by half a point to 4% on 20 December, its tenth cut of the year. Stocks rallied hard into the year end. General Electric, with the largest finance company in the country, benefits from cheaper money.",
+    "why": "Explains GE's +18% month (market +11%).",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 18
+    },
+    "importance": 3,
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03); data/news/arcs/movers.md (S&P 500 +11% in 1991-12)"
+  },
+  {
+    "month": "1993-12",
+    "title": "GE sells its aerospace business to Martin Marietta",
+    "what": "General Electric has sold its aerospace business to Martin Marietta this year. GE keeps its aircraft engine business.",
+    "why": "Portfolio pruning in the Welch style; the engine business (later GE Aviation, then GE Aerospace) is the one that survived everything else.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03: 'In 1993, GE sold its Aerospace business to Martin Marietta'); https://en.wikipedia.org/wiki/GE_Aerospace (read 2026-10-03, engine business history). Month of closing not confirmed."
+  },
+  {
+    "month": "1994-04",
+    "title": "Phantom profits at GE's Kidder, Peabody",
+    "what": "Kidder, Peabody, owned by General Electric since 1986, said that a bond trader, Joseph Jett, had booked about 350 million dollars of profits that did not exist, through trades that were never completed. It is the largest trading fraud yet known, and a blow to General Electric's venture on Wall Street.",
+    "why": "The low point of GE's Wall Street adventure; Kidder was sold to PaineWebber in October 1994.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Joseph_Jett (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, on the 1994 sale to PaineWebber). The exact month of disclosure (April 1994) is not confirmed in the sources read; Jett's 'profits' are dated to the first quarter of 1994."
+  },
+  {
+    "month": "1995-12",
+    "title": "Welch launches Six Sigma",
+    "what": "Jack Welch has adopted Motorola's Six Sigma quality programme, a statistical method to cut defects, for General Electric. It is the latest of his campaigns to run the giant like a lean company.",
+    "why": "The management fashion of the late 1990s, when GE's stock rose every year from 1995 to 1999 (+41%, +37%, +48%, +39%, +52%). 'Late 1995' per Wikipedia; month approximate.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03: 'Welch adopted Motorola's Six Sigma quality program in late 1995')"
+  },
+  {
+    "month": "1997-12",
+    "title": "GE Capital opens a back office in India",
+    "what": "This year GE Capital set up GE Capital International Services in Gurgaon, India, to process car loans, credit card transactions and other back-office work for its finance businesses.",
+    "why": "A small beat for the years of steady growth (GE +48% in 1997); GECIS became Genpact and the start of the outsourcing industry.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Forbes and Times of India); month within 1997 not known"
+  },
+  {
+    "month": "1999-11",
+    "title": "Fortune names Welch 'Manager of the Century'",
+    "what": "Fortune magazine named Jack Welch the manager of the century. Under him GE's yearly revenue has grown from about 27 billion dollars in 1980 toward 130 billion, and its stock market value has multiplied many times over.",
+    "why": "The cult of Welch at its height, just before the top. GE's December 1999 month was +19%.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03, citing Fortune 1999-11-01)"
+  },
+  {
+    "month": "2000-08",
+    "title": "GE is the most valuable company in the world",
+    "what": "General Electric's stock market value has passed 600 billion dollars, making it the most valuable company in the world. A large part of that value rests on GE Capital, its lending, leasing and insurance arm.",
+    "why": "The all-time peak until 2025 (adjusted 281 dollars). From here the stock lost 89% by July 2020, the worst stretch in its game history.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Boston Business Journal 2018-10-30: market value of $601 billion in August 2000); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03, financial services share)"
+  },
+  {
+    "month": "2000-10",
+    "title": "GE agrees to buy Honeywell",
+    "what": "Honeywell, the aerospace and controls maker worth more than 21 billion dollars, accepted a takeover offer from General Electric's chairman Jack Welch. Combined with GE's jet engines, it would create a giant of aircraft equipment.",
+    "why": "Welch's last big deal, and his first big defeat (see 2001-07).",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Honeywell (read 2026-10-03, citing The Economist 2001-07-05)"
+  },
+  {
+    "month": "2001-07",
+    "title": "Europe blocks the Honeywell deal",
+    "what": "On 3 July the European Commission, under competition commissioner Mario Monti, blocked General Electric's takeover of Honeywell, although US authorities had cleared it. Brussels feared GE could bundle its jet engines, aircraft leasing and Honeywell's avionics to squeeze out rivals.",
+    "why": "The end of Welch's dealmaking; GE was already 16% below its 2000 peak.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Honeywell (read 2026-10-03, citing Time 2001-07-08)"
+  },
+  {
+    "month": "2001-09",
+    "title": "Immelt takes over as terror strikes",
+    "what": "Jeff Immelt, the former head of GE Medical Systems, has succeeded Jack Welch as chairman and chief executive. Within days of the handover, the terror attacks of 11 September hit GE's airline and insurance customers. Welch leaves after twenty years in which GE's market value rose from about 14 billion to more than 400 billion dollars.",
+    "why": "The handover at the top. Immelt inherited a GE priced for perfection and heavily reliant on GE Capital; the stock fell 16% in 2001 and 39% in 2002. The exact handover date (7 September 2001) was not confirmed in sources read; GE's 2002 proxy only says Immelt became chairman and CEO in 2001.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000095013002001437/ddef14a.txt (GE proxy 2002, read 2026-10-03); https://www.ge.com/news/reports/jack-welch-the-ultimate-manager-who-oversaw-ges-rise-to-the-most-valuable-company-dies-at-84 (read 2026-10-03, $14 billion to $410 billion)"
+  },
+  {
+    "month": "2002-05",
+    "title": "GE buys Enron's wind turbine business",
+    "what": "General Electric has bought the wind turbine manufacturing business of the bankrupt energy trader Enron and formed GE Wind Energy. It adds wind power to its gas and steam turbines.",
+    "why": "A purchase in a bad year for the stock (GE -39% in 2002); wind later became part of GE Vernova.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing desertskywind.com news of 2002-05-02). Month inferred from the date of the cited page."
+  },
+  {
+    "month": "2004-05",
+    "title": "NBC Universal is born; Genworth is spun off",
+    "what": "General Electric combined NBC with Vivendi's Universal film and TV business into NBC Universal, of which GE owns 80%. It also completed the spin-off of most of its mortgage and life insurance business as Genworth Financial.",
+    "why": "Immelt reshapes the Welch portfolio: more media, less insurance. Exact month of the NBC Universal closing not confirmed (the Genworth listing was in May 2004).",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Forbes 2004-05-25)"
+  },
+  {
+    "month": "2005-05",
+    "title": "GE goes green with 'Ecomagination'",
+    "what": "On 9 May General Electric launched 'Ecomagination', a company-wide push to develop cleaner technologies such as more efficient engines, wind turbines, hybrid locomotives, solar cells and water purification.",
+    "why": "Immelt's attempt to give GE a growth story; the stock went sideways from 2004 to 2007.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Business Wire 2005-05-09 'GE Launches Ecomagination to Develop Environmental Technologies')"
+  },
+  {
+    "month": "2007-05",
+    "title": "GE sells its plastics business for 11.6 billion dollars",
+    "what": "On 21 May General Electric agreed to sell GE Plastics, built up under Jack Welch, to the Saudi petrochemicals company SABIC for net proceeds of 11.6 billion dollars.",
+    "why": "Portfolio reshaping at the top of the credit boom; the money went to a company whose finance arm was about to be tested.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing NYT 2007-05-22)"
+  },
+  {
+    "month": "2008-04",
+    "title": "GE misses its numbers for the first time in years",
+    "what": "On 11 April General Electric reported first-quarter earnings per share of 44 cents, down 8%, and cut its full-year forecast to 2.20 to 2.30 dollars. Chairman Jeff Immelt said the financial services businesses were hit by a slowing US economy and difficult capital markets, and that he was disappointed.",
+    "why": "The first crack: GE Capital, the engine of steady earnings, is exposed to the credit crisis. The stock fell 56% in 2008.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054508000014/ex99.htm (GE results release of 2008-04-11, read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "Buffett backs GE as it raises 15 billion dollars",
+    "what": "On 1 October General Electric announced it will sell at least 12 billion dollars of new shares to the public and 3 billion dollars of preferred stock with a 10% dividend to Warren Buffett's Berkshire Hathaway, which also gets warrants to buy GE shares at 22.25 dollars. 'GE is the symbol of American business to the world,' Buffett said. Jeff Immelt said GE remains committed to its triple-A rating and is meeting its commercial paper needs.",
+    "why": "Explains the -23% month: the market crashed (-17%) and investors feared that GE Capital, funded by short-term borrowing, could not roll over its debt.",
+    "assets": [
+      "ge",
+      "brk"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -23
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000090951808000745/mm10-0108_8ke991.htm (GE press release of 2008-10-01, read 2026-10-03)"
+  },
+  {
+    "month": "2009-01",
+    "title": "GE's profit falls 19% and doubts about GE Capital grow",
+    "what": "On 23 January General Electric reported fourth-quarter earnings of 36 cents a share for common shareholders and full-year profit of 18.1 billion dollars, down 19%. It has built up 48 billion dollars of cash and says there is no change to its 1.24-dollar dividend or to running the company as a triple-A credit. The finance arm still earned 1 billion dollars in the quarter.",
+    "why": "Explains the -25% month: the reassurances did not convince a market (-9%) that feared hidden losses in GE Capital's loan book.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -25
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000002/ex99.htm (GE results release of 2009-01-23, read 2026-10-03)"
+  },
+  {
+    "month": "2009-02",
+    "title": "GE cuts its dividend by two thirds",
+    "what": "On 27 February General Electric's board decided to cut the quarterly dividend from 31 cents to 10 cents from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
+    "why": "Explains the -30% month, GE's worst in the game: the dividend had been the reason many families owned GE. The stock bottomed in early March 2009.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -30
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000079746309000010/exhibit99.htm (GE press release of 2009-02-27, read 2026-10-03)"
+  },
+  {
+    "month": "2009-03",
+    "title": "GE loses its triple-A rating",
+    "what": "On 12 March Standard & Poor's cut General Electric's and GE Capital's long-term rating from AAA to AA+. GE said it expects no significant impact on its funding and has 48 billion dollars in cash. It is holding a detailed investor meeting on GE Capital on 19 March.",
+    "why": "The end of a symbol; the stock nonetheless rebounded 19% in March from its early-month low as the market turned.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000017/ex99.htm (GE statement of 2009-03-12, read 2026-10-03)"
+  },
+  {
+    "month": "2009-04",
+    "title": "GE Capital stays profitable and the shares bounce",
+    "what": "On 17 April General Electric reported first-quarter earnings of 26 cents a share, down 40%, but its finance arm earned 1.1 billion dollars and extended 69 billion dollars of new credit. Jeff Immelt said results matched the plan presented in March. Stock markets are rallying from their lows.",
+    "why": "Explains the +25% month: relief that GE Capital was not about to blow up, in a market up 9%.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 25
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000023/ex99.htm (GE results release of 2009-04-17, read 2026-10-03)"
+  },
+  {
+    "month": "2009-12",
+    "title": "GE agrees to hand control of NBC Universal to Comcast",
+    "what": "On 3 December General Electric and the cable operator Comcast announced a joint venture for NBC Universal in which Comcast will have control and GE 49%. GE will first buy out Vivendi's 20% stake for 5.8 billion dollars.",
+    "why": "The start of GE's exit from media, completed in 2013.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing CNN Money and Vivendi 2009-12-03)"
+  },
+  {
+    "month": "2011-01",
+    "title": "Immelt to chair Obama's jobs council",
+    "what": "President Obama named General Electric's chief executive Jeff Immelt to head his economic advisory panel, with a focus on creating jobs. Immelt had joined the president's economic recovery advisory board in 2009.",
+    "why": "GE as the face of corporate America after the crisis; the stock was still about 70% below its 2000 high.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03, citing Bloomberg 2011-01-21 'Obama Taps Immelt to Head Panel in Bid to Boost Jobs' and LA Times 2009-02-06)"
+  },
+  {
+    "month": "2013-03",
+    "title": "GE sells the rest of NBC Universal to Comcast",
+    "what": "On 19 March Comcast completed the purchase of General Electric's 49% stake in NBC Universal for 16.7 billion dollars. GE's 27 years as owner of the NBC network are over.",
+    "why": "GE leaves media; next to go is most of GE Capital.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Deadline 2013-03-19)"
+  },
+  {
+    "month": "2015-04",
+    "title": "GE will sell most of GE Capital",
+    "what": "On 10 April chief executive Jeff Immelt announced that General Electric will sell most of GE Capital over the next two years and return up to 90 billion dollars to shareholders. It starts by selling 26.5 billion dollars of real estate to Wells Fargo and Blackstone. GE wants to be an industrial company again.",
+    "why": "The reversal of the Welch model; the stock reached its post-crisis high in 2016.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/GE_Capital (read 2026-10-03, citing NYT 2015-04-10); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and Reuters April 2015)"
+  },
+  {
+    "month": "2015-10",
+    "title": "Activist Nelson Peltz buys a 2.5 billion dollar stake",
+    "what": "Trian, the investment fund of activist investor Nelson Peltz, has bought a 2.5 billion dollar stake in General Electric, six months after GE announced it would sell most of GE Capital.",
+    "why": "Outside pressure on Immelt's GE; the month was +15%.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Reuters 2015-10-05)"
+  },
+  {
+    "month": "2017-06",
+    "title": "Immelt retires; John Flannery takes over",
+    "what": "On 12 June General Electric announced that Jeff Immelt will retire and be replaced by John Flannery, head of its healthcare business. During Immelt's sixteen years, GE shares fell about 30% while the S&P 500 more than doubled.",
+    "why": "The changing of the guard that uncovered the problems: Power and insurance.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03, citing NYT 2017-06-12 and Fortune 2017-06-12)"
+  },
+  {
+    "month": "2017-11",
+    "title": "GE halves its dividend",
+    "what": "Under new chief executive John Flannery, General Electric cut its quarterly dividend in half, from 24 cents to 12 cents, its first cut since 2009. Earnings are heading for the low end of a reduced forecast, cash flow is weak, and the power business faces a shrinking market for gas turbines.",
+    "why": "Begins the 2017-2018 collapse (-45% in 2017, -57% in 2018). The 2017-10 results (-17% month) and this cut are one story. The exact announcement date (13 November investor day) is not confirmed in sources read.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Dividends' section); https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03)"
+  },
+  {
+    "month": "2018-01",
+    "title": "A surprise insurance charge at GE Capital",
+    "what": "General Electric took a charge of about 0.91 dollars a share to top up reserves for old long-term care insurance policies it stopped writing more than a decade ago, and suspended dividends from GE Capital to the parent. Regulators require it to put billions into the insurance business over several years.",
+    "why": "The ghost of Welch-era insurance: it led to an SEC investigation and the 2019 fraud accusations. Feb 2018 was -13%.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, $14.5 billion required by the Kansas regulator over seven years). The charge was announced in January 2018 with fourth-quarter results; exact date not re-confirmed."
+  },
+  {
+    "month": "2018-06",
+    "title": "GE is dropped from the Dow after 111 years",
+    "what": "General Electric was removed from the Dow Jones Industrial Average on 26 June and replaced by Walgreens Boots Alliance. It had been in the index continuously since 1907, the longest of any company, and was its worst performer, down more than 55% in a year.",
+    "why": "A symbolic low; the worst was still to come in the autumn.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Stock' section, citing Nasdaq 2018-06-20 and Yahoo 2018-06-20)"
+  },
+  {
+    "month": "2018-10",
+    "title": "Flannery out, Culp in; a 22 billion dollar write-off and a one-cent dividend",
+    "what": "On 1 October General Electric replaced John Flannery with board member Larry Culp, former head of Danaher and the first outsider to run GE. On 30 October it reported a third-quarter loss of 22.8 billion dollars, mostly a write-off on the power business, and cut the quarterly dividend from 12 cents to 1 cent.",
+    "why": "The bottom of the old GE. Culp's plan: sell assets, cut debt, fix Power, and eventually break up the company.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Larry_Culp (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054518000079/ge3q2018ex99.htm (GE third-quarter 2018 results, read 2026-10-03)"
+  },
+  {
+    "month": "2019-01",
+    "title": "GE's cash flow beats fears",
+    "what": "On 31 January General Electric reported fourth-quarter revenue up 5% to 33.3 billion dollars and 5.5 billion dollars of industrial free cash flow in the quarter, more than investors had feared after a year of bad news.",
+    "why": "Explains the +34% month, GE's best: relief after the autumn panic, in a rebounding market (+8%).",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 34
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000006/ge4q2018ex99.htm (GE fourth-quarter 2018 results tables, read 2026-10-03)"
+  },
+  {
+    "month": "2019-08",
+    "title": "Madoff's whistleblower calls GE 'a bigger fraud than Enron'",
+    "what": "On 15 August Harry Markopolos, the investigator who exposed Bernard Madoff, accused General Electric of hiding 38 billion dollars of losses, mainly in long-term care insurance. GE denied any wrongdoing. The shares had their worst day in eleven years.",
+    "why": "A sharp but short scare (the month was -21%). In October 2020 GE disclosed an SEC Wells notice over its accounting, but the 'bigger than Enron' claim never led to a fraud finding in the sources read.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -21
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and CNN 2019-08-15)"
+  },
+  {
+    "month": "2020-03",
+    "title": "The pandemic grounds GE's engine business",
+    "what": "As Covid-19 spread, air travel collapsed and stock markets had their worst days since 1987. General Electric's biggest profit maker is jet engines and their servicing, paid by the hours airlines fly. Factory workers protested to demand that jet engine plants make ventilators.",
+    "why": "Explains the -27% month (market -13%); GE hit its lowest price in decades in mid-2020.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -27
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30)"
+  },
+  {
+    "month": "2020-11",
+    "title": "A vaccine sends travel stocks soaring",
+    "what": "On 9 November Pfizer and BioNTech said their Covid-19 vaccine was more than 90% effective in trials. Shares of companies tied to travel jumped. General Electric had already promised at least 2.5 billion dollars of industrial free cash flow in the fourth quarter.",
+    "why": "Explains the +37% month: GE was a pure reopening bet by then.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 37
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03, citing NPR and STAT 2020-11-09); https://www.sec.gov/Archives/edgar/data/40545/000004054520000057/ge3q2020ex99.htm (GE third-quarter 2020 release, read 2026-10-03)"
+  },
+  {
+    "month": "2021-11",
+    "title": "GE will split into three companies",
+    "what": "On 9 November General Electric announced it will divide itself into three listed companies, focused on aviation, healthcare and energy. The healthcare business is to be spun off first.",
+    "why": "The end of the conglomerate, 129 years after its founding; the market welcomed it.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing CNBC and Reuters 2021-11-09)"
+  },
+  {
+    "month": "2022-10",
+    "title": "Jet engines carry GE's quarter",
+    "what": "On 25 October General Electric reported third-quarter revenue of 19.1 billion dollars, up 3%, with strong results in its aerospace business while the renewable energy unit lost money. It says the planned spin-offs are on track. Stock markets bounced strongly in October.",
+    "why": "Explains the +26% month: the market rally (+8%) plus growing confidence in the aerospace business. From here GE more than doubled in a year.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 26
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054522000059/ge3q2022earningsrelease.htm (GE third-quarter 2022 results, read 2026-10-03)"
+  },
+  {
+    "month": "2023-01",
+    "title": "GE HealthCare spun off; a strong year end",
+    "what": "General Electric completed the spin-off of GE HealthCare on 4 January and keeps a minority stake, which it plans to sell over time. On 24 January it reported fourth-quarter orders up 15% and revenue up 7% to 21.8 billion dollars, led by aerospace and power.",
+    "why": "Explains the +23% month. GE's price in the game is adjusted for the spin-off, so the move reflects the remaining company.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 23
+    },
+    "importance": 1,
+    "source": "https://www.ge.com/news/press-releases/ge-completes-separation-of-ge-healthcare (page found, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054523000019/ge4q2022earningsrelease.htm (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)"
+  },
+  {
+    "month": "2024-04",
+    "title": "GE Vernova spun off: what remains is GE Aerospace",
+    "what": "On 2 April General Electric completed the spin-off of its energy businesses as GE Vernova. The remaining company, which makes and services jet engines, now trades as GE Aerospace.",
+    "why": "The last step of the break-up and the name change in the game. GE Aerospace rose 64% in 2024 and 85% in 2025 on airline demand and engine servicing.",
+    "assets": [
+      "ge"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/GE_Vernova (read 2026-10-03, citing GE Vernova press release 2024-04-02); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)"
+  },
+  {
+    "month": "2025-01",
+    "title": "GE Aerospace orders jump 46%",
+    "what": "On 23 January GE Aerospace reported fourth-quarter orders up 46% to 15.5 billion dollars, revenue up 14%, and operating profit up 49%. It expects another year of substantial growth in 2025.",
+    "why": "Explains the +22% month: the engine maker became one of the market's favourite growth stocks.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": 22
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000009/ge4q2024earningsrelease.htm (read 2026-10-03)"
+  }
+]

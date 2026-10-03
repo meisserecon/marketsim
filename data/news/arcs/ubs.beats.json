@@ -13,53 +13,6 @@
     "cut": true
   },
   {
-    "month": "1984-05",
-    "title": "Swiss voters keep bank secrecy",
-    "what": "On 20 May Swiss voters rejected the popular initiative 'against the abuse of bank client confidentiality and bank power' by 73% to 27%; not a single canton approved it. Turnout was about 42.5%. The big banks can go on guarding their clients' secrets as before.",
-    "why": "Bank secrecy is the core of the business in the 1980s; the vote is its high-water mark. Twenty-five years later the same secrecy brings UBS to the brink in the US tax case.",
-    "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/1984_Swiss_referendums (read 2026-10-03)"
-  },
-  {
-    "month": "1985-10",
-    "title": "Swiss shares rush to new peaks",
-    "what": "After a dip in September, Swiss share indexes climbed to new records in October on very heavy volume. Domestic and foreign buyers are active, registered shares of the blue chips are in strong demand, and dealers report institutional investors already buying for next year. The franc firmed further against the dollar, adding to the gain for dollar-based investors.",
-    "why": "The 1985 boom: the Bankgesellschaft's best twelve months in the game (+112% from April 1985 to April 1986).",
-    "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 18
-    },
-    "importance": 3,
-    "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln'), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash reaches Zurich",
-    "what": "Swiss shares collapsed with Wall Street in October. Bankgesellschaft bearer shares closed the month at 3,925 francs, against a high for the year of 5,909, down almost 32% since the end of 1986. Only the most-traded shares could be traded properly. Analysts point to dividend yields of around 4% on the big bank shares.",
-    "why": "The 1987 crash. The Bankgesellschaft's London broker Phillips & Drew also lost heavily on its positions, an early lesson in how hard it is for a Swiss bank to run an investment bank.",
-    "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -17
-    },
-    "importance": 2,
-    "source": "Neue Zürcher Zeitung, 31 October 1987, p. 41 ('Zürcher Börse vom 26. Oktober bis zum 30. Oktober: Schwierige Standortbestimmung', weekly price table), scan data/manual/scans/nzz/NZZ_1987-10-31.pdf (read 2026-10-03)"
-  },
-  {
     "month": "1988-02",
     "title": "Phillips & Drew costs the Bankgesellschaft £115 million",
     "what": "Phillips & Drew, the London broker the Bankgesellschaft bought in 1986, lost £48 million in the October crash. Together with the cost of a settlement system that broke down under the boom's volumes, the Swiss parent has spent as much as £115 million since April 1987 to shore it up.",
@@ -69,48 +22,6 @@
     ],
     "importance": 3,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
-  },
-  {
-    "month": "1990-05",
-    "title": "Swiss shares bounce back from their April low",
-    "what": "After falling to their lowest level of the year in late April, Swiss shares recovered strongly in May: the Swiss Market Index climbed from about 1,550 to about 1,750. Wall Street rallied too, with the S&P 500 up about 9%, and euromarket interest rates began to ease.",
-    "why": "A broad rebound; no Bankgesellschaft-specific news was found. The gains are lost again when Iraq invades Kuwait in August.",
-    "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 18
-    },
-    "importance": 3,
-    "source": "Neue Zürcher Zeitung, 30 June 1990, p. 41 ('Zürcher Börse vom 25. Juni bis zum 29. Juni: In der Gerüchteküche', SMI chart), scan data/manual/scans/nzz/NZZ_1990-06-30.pdf (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
-  },
-  {
-    "month": "1991-10",
-    "title": "A bank run in Thun",
-    "what": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989 after a boom in which mortgage lending doubled, and the banks are facing losses on property loans.",
-    "why": "Start of the Swiss property crisis of the 1990s; the Bankgesellschaft is hit hard by bad loans to property developers, culminating in a 3-billion-franc charge and its first loss since the Second World War for 1996.",
-    "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
-  },
-  {
-    "month": "1993-01",
-    "title": "The Kreditanstalt snatches the Volksbank",
-    "what": "On 6 January the Kreditanstalt announced it is taking over the Schweizerische Volksbank, the fourth-largest Swiss bank, weakened by property write-downs, for 2.6 billion francs. The Bankgesellschaft, which had also been bidding, lost out at the last moment. With the Volksbank's branches the Kreditanstalt group moves up to second place among the Swiss banks.",
-    "why": "A humiliation for the Bankgesellschaft and a coup for Rainer Gut; it sharpens the rivalry that leads to Gut's merger offer in 1996.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "importance": 2,
-    "source": "https://www.swissinfo.ch/ger/ska-uebernahm-vor-25-jahren-die-angeschlagene-volksbank/43802724 (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
   },
   {
     "month": "1995-03",

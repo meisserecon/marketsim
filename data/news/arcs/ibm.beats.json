@@ -44,33 +44,8 @@
       "ibm"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1985-01-20 'The Daunting Power of I.B.M.'); https://en.wikipedia.org/wiki/John_Fellows_Akers (read 2026-10-03)"
-  },
-  {
-    "month": "1987-04",
-    "title": "IBM tries to take back the PC with the PS/2",
-    "what": "IBM unveiled its Personal System/2 range, which replaces the PC, XT and AT. The higher models use IBM's own Micro Channel design, which other makers may only copy under licence and against royalties. A new operating system for the machines, OS/2, was announced at the same time.",
-    "why": "The attempt to regain control of a standard IBM had given away. The clone makers balked at the licence terms and kept the open design; OS/2 lost to Windows. IBM's earnings had already peaked: the stock fell 23% in 1986.",
-    "assets": [
-      "ibm"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/IBM_PS/2 (read 2026-10-03; launch in 1987, the 2 April date is from data/news/1987.json and not re-confirmed); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03, on OS/2's defeat, for the curator only)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Black Monday hits Big Blue",
-    "what": "On 19 October the Dow Jones average fell 22.6% in a single day, the worst crash in its history. IBM, the most widely held stock in America, fell with it and lost about a fifth of its value over the month.",
-    "why": "A market event, not an IBM one, but it marks the top: IBM's August 1987 price was not seen again until 1997.",
-    "assets": [
-      "ibm"
-    ],
-    "move": {
-      "asset": "ibm",
-      "pct": -19
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ibm.json (monthly change)"
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1985-01-20 'The Daunting Power of I.B.M.'); https://en.wikipedia.org/wiki/John_Fellows_Akers (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1989-12",
@@ -91,7 +66,7 @@
     "assets": [
       "ibm"
     ],
-    "importance": 2,
+    "importance": 1,
     "source": "https://www.upi.com/Archives/1992/01/17/IBM-reports-fourth-quarter-loss-will-keep-cutting-jobs/2743695624400/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)"
   },
   {
@@ -119,17 +94,6 @@
     ],
     "importance": 1,
     "source": "https://www.upi.com/Archives/1993/01/19/IBM-posts-worst-year-ever/3920727419600/ (read 2026-10-03); https://en.wikipedia.org/wiki/John_Fellows_Akers (read 2026-10-03, citing The Independent 1993-01-27)"
-  },
-  {
-    "month": "1993-03",
-    "title": "IBM hires an outsider: Lou Gerstner",
-    "what": "On 26 March IBM named Louis Gerstner, 51, chairman of RJR Nabisco and a former American Express president, as its chairman and chief executive from 1 April. He is the first outsider to run IBM and has no computer industry experience. Asked when IBM would be profitable again, he said: 'I have no idea.'",
-    "why": "The turning point of the arc. Gerstner kept IBM in one piece and rebuilt it around services and software; the stock bottomed in August 1993 at a quarter of its 1987 price.",
-    "assets": [
-      "ibm"
-    ],
-    "importance": 1,
-    "source": "https://www.upi.com/Archives/1993/03/26/IBM-names-RJR-Nabiscos-Gerstner-as-new-CEO/9467733122000/ (read 2026-10-03); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03)"
   },
   {
     "month": "1993-07",

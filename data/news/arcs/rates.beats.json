@@ -97,19 +97,6 @@
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
   },
   {
-    "month": "1982-08",
-    "title": "Henry Kaufman says rates will fall, and Wall Street explodes",
-    "what": "On 17 August Henry Kaufman, the Salomon Brothers economist known for gloomy rate forecasts, said both long and short rates would drop to single digits within a year. The Dow soared nearly 39 points, its biggest one-day gain ever, and the next day more than 100 million shares traded for the first time. Banks cut the prime rate to 14 percent on 18 August, from 16.5 percent in early July, and the rate banks charge each other averaged about 10 percent, down from 14 percent in June. The S&P 500 rose 12 percent in August.",
-    "why": "The start of the great bull market of 1982 to 2000, and it began as a story about interest rates. Mexico's default the same month made the Fed even keener to ease.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 12
-    },
-    "importance": 1,
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Latin_American_debt_crisis (read 2026-10-03)"
-  },
-  {
     "month": "1982-09",
     "title": "Gold jumps 20 percent as rates fall and Mexico wobbles",
     "what": "Gold averaged 437 dollars in September, 20 percent more than in August and almost 40 percent above its June average. Falling interest rates make gold cheaper to hold, and Mexico's announcement in August that it cannot pay its foreign debts has raised fears for the banks that lent to it. Ten-year Treasury yields averaged 12.3 percent, down from 14.3 percent in June.",
@@ -123,19 +110,6 @@
     "source": "data/out/gold.json (read 2026-10-03); https://en.wikipedia.org/wiki/Latin_American_debt_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
-    "month": "1982-10",
-    "title": "Prime rate down to 12 percent as inflation falls to 5",
-    "what": "Banks cut the prime rate to 13 percent on 7 October and to 12 percent on 13 October; it was 16.5 percent in early July. Inflation is down to 5 percent (September), half the rate of a year ago, and the 10-year Treasury yield averaged 10.9 percent in October against 15.3 percent a year earlier. The rate banks charge each other is below 10 percent. The S&P 500 rose 11 percent in the month.",
-    "why": "Volcker's victory becomes visible: inflation broken, the Fed easing, long-term rates finally falling. Bonds and shares rise together, the pattern of the next two decades.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 1,
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03)"
-  },
-  {
     "month": "1983-03",
     "title": "Gold slumps after OPEC cuts the oil price",
     "what": "Gold averaged 420 dollars in March, 14 percent below February's 491. On 14 March OPEC cut its base oil price from 34 to 29 dollars a barrel, the first cut in its history, after twelve days of talks. US inflation is down to 3.5 percent (February), and the rate banks charge each other is still near 8.75 percent.",
@@ -145,99 +119,8 @@
       "asset": "gold",
       "pct": -14
     },
-    "importance": 3,
+    "importance": 1,
     "source": "data/out/gold.json (read 2026-10-03); https://www.upi.com/Archives/1983/03/14/OPEC-prices-down-consumer-optimism-up/3004416466000/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03)"
-  },
-  {
-    "month": "1984-05",
-    "title": "Bond yields climb back to 13.5 percent; Continental Illinois runs into trouble",
-    "what": "Long-term interest rates are climbing again: the 10-year Treasury yield averaged 13.4 percent in May, up from 11.7 percent in January, although inflation is only about 4.6 percent (April). Banks raised the prime rate to 12.5 percent on 8 May, the third rise since March. Large depositors pulled more than 10 billion dollars out of Continental Illinois, the seventh-largest US bank, in early May, and the authorities organised a rescue.",
-    "why": "The last big bond sell-off of the Volcker era and a reminder that the bull market in bonds was not a straight line. Real yields of around 9 percent made 1984 a superb year to buy long bonds.",
-    "assets": [],
-    "move": {
-      "asset": "ust2000",
-      "pct": -16
-    },
-    "importance": 3,
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Continental_Illinois (read 2026-10-03); data/out/ust2000.json (read 2026-10-03)"
-  },
-  {
-    "month": "1984-08",
-    "title": "Shares surge as bond yields come off their peak",
-    "what": "Bond yields have come down from their June peak: the 10-year Treasury yield averaged 12.7 percent in August against 13.6 percent in June, and banks have not raised the prime rate since it reached 13 percent on 26 June. Inflation is steady at about 4.2 percent (July). The S&P 500 gained 11 percent in August, its best month since October 1982.",
-    "why": "The market read the end of the 1984 tightening early; the prime rate started falling in September. The attribution rests on the coincidence with the bond rally; no contemporary account of the August rally was found.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
-  },
-  {
-    "month": "1986-03",
-    "title": "Oil collapse pulls bond yields below 8 percent",
-    "what": "The crash in the oil price, from over 30 dollars a barrel late last year to about 10 at the end of March, is pulling inflation and interest rates down. Consumer prices in February were only 3.1 percent higher than a year earlier, and the 10-year Treasury yield averaged 7.8 percent in March against 9.3 percent in December. The Fed cut its discount rate to 7 percent and banks lowered the prime rate to 9 percent on 7 March. A 20-year zero-coupon Treasury gained about a third in February and March.",
-    "why": "Cheap oil hands the bond market its best stretch of the decade and takes inflation to its lowest since the 1960s by year-end. The 1987 bond slump follows from here.",
-    "assets": [],
-    "move": {
-      "asset": "ust2000",
-      "pct": 12
-    },
-    "importance": 3,
-    "source": "https://countryeconomy.com/raw-materials/crude-oil-wti?dr=1986-04 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); data/out/ust2000.json (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Black Monday after a year of rising rates",
-    "what": "On 19 October the Dow fell 508 points, 22.6 percent, its worst day ever; the S&P 500 lost 22 percent in October. Interest rates had risen all year: the 10-year Treasury yield averaged 9.4 percent in September against 7.1 percent in January, and on 4 September the Fed under its new chairman Alan Greenspan, in office since 11 August, raised the discount rate to 6 percent. On 14 October a large trade deficit pushed the dollar down and rates up. On 20 October Greenspan said the Fed stood ready 'to serve as a source of liquidity', and Treasury bonds rallied as investors fled shares.",
-    "why": "Rising bond yields made shares look expensive and set the stage for the crash; the Fed's response set the template of the 'Greenspan put' that markets relied on for twenty years.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -22
-    },
-    "importance": 1,
-    "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03)"
-  },
-  {
-    "month": "1989-07",
-    "title": "The Fed eases and bond yields fall to 8 percent",
-    "what": "The Federal Reserve is loosening after a year of tightening: the rate banks charge each other averaged 9.2 percent in July, down from 9.85 percent in March, and banks cut the prime rate to 11 percent on 5 June and to 10.5 percent on 31 July. The 10-year Treasury yield averaged 8.0 percent in July against 9.4 percent in March. The S&P 500 gained 9 percent in the month.",
-    "why": "Greenspan's first easing cycle; it fed the 1989 rally that took the market past its 1987 peak.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 9
-    },
-    "importance": 3,
-    "source": "https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait: oil scare hits bonds, gold jumps",
-    "what": "Iraq invaded Kuwait on 2 August, and the jump in oil prices revived fears of inflation, which was already 4.8 percent (July). The 10-year Treasury yield averaged 8.75 percent in August, up from 8.5 percent in July, and long-dated bonds lost about a tenth of their value in the month. Gold averaged 395 dollars, 9 percent more than in July.",
-    "why": "The oil shock pushed the weakening economy into recession; within months the Fed was cutting and bonds recovered. The share market's fall this month belongs to the oil arc.",
-    "assets": [],
-    "move": {
-      "asset": "ust2010",
-      "pct": -11
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "The Fed cuts its discount rate by a full point to 3.5 percent",
-    "what": "Just before Christmas the Federal Reserve cut its discount rate by a full point to 3.5 percent, and banks lowered the prime rate to 6.5 percent on 23 December. The rate banks charge each other averaged 4.4 percent in December, against over 7 percent a year ago. Inflation is about 3 percent (November), and the economy is still weak after last year's recession. The S&P 500 gained 11 percent in December.",
-    "why": "The bold cut that ended the 1990-91 slump for the stock market; cheap money and a steep yield curve rebuilt the banks over the next two years.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 1,
-    "source": "https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)"
   },
   {
     "month": "1994-02",
@@ -246,7 +129,8 @@
     "why": "The first shot of the 1994 bond massacre. Greenspan moved before inflation showed up, a pre-emptive strike that hurt bondholders badly in 1994 but set up the long boom of the late 1990s.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1994-11",

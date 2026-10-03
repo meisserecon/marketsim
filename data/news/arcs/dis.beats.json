@@ -18,7 +18,7 @@
     "assets": [
       "dis"
     ],
-    "importance": 2,
+    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
   },
   {
@@ -30,7 +30,8 @@
       "dis"
     ],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)",
+    "note": "Add a note about Japan's soaring stock prices"
   },
   {
     "month": "1984-03",
@@ -63,17 +64,6 @@
     "source": "https://time.com/archive/6860495/greenmailing-mickey-mouse/ (read 2026-10-03)"
   },
   {
-    "month": "1984-09",
-    "title": "Michael Eisner and Frank Wells take over Disney",
-    "what": "Disney's board named Michael Eisner, president of Paramount Pictures, chairman and chief executive, and Frank Wells president. They replace Ron Miller. The change was pushed by Roy E. Disney, the Texas investor Sid Bass and other large shareholders, who together own about 36% of the stock.",
-    "why": "The turning point of the arc. Under Eisner and Wells Disney's market value rose from about 2 billion to 22 billion dollars by 1994.",
-    "assets": [
-      "dis"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Eisner (read 2026-10-03)"
-  },
-  {
     "month": "1985-12",
     "title": "Disney picks France for Euro Disneyland",
     "what": "On 18 December Disney chose a site at Marne-la-Vallee, about 20 miles east of Paris, over Spain for a European Disneyland due to open in 1991. It could draw up to 10 million visitors a year and employ 10,000 people. French officials put the cost at 1.8 billion dollars, which Disney said 'sounds a little high'.",
@@ -81,23 +71,8 @@
     "assets": [
       "dis"
     ],
-    "importance": 3,
-    "source": "https://www.upi.com/Archives/1985/12/18/Walt-Disney-Productions-chose-France-over-Spain-Wednesday-as/9667503730000/ (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Disney falls with the market in the crash",
-    "what": "On 19 October the Dow Jones Industrial Average fell 22.6% in a single day, the worst crash in its history, and the S&P 500 fell 20.5%. Disney, whose shares had risen strongly since 1984, was among the stocks that fell hardest.",
-    "why": "Explains the -29% month (market -22%). The shares recovered within months; Disney ended 1987 higher than it began.",
-    "assets": [
-      "dis"
-    ],
-    "move": {
-      "asset": "dis",
-      "pct": -29
-    },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/dis.json price series"
+    "source": "https://www.upi.com/Archives/1985/12/18/Walt-Disney-Productions-chose-France-over-Spain-Wednesday-as/9667503730000/ (read 2026-10-03)"
   },
   {
     "month": "1989-11",
@@ -109,28 +84,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/Disney_Renaissance (read 2026-10-03)"
-  },
-  {
-    "month": "1991-11",
-    "title": "Beauty and the Beast opens to acclaim",
-    "what": "Disney's animated musical Beauty and the Beast, its 30th animated feature, opened on 22 November to widespread acclaim and strong ticket sales, following The Little Mermaid two years ago.",
-    "why": "Became the first animated film nominated for the Best Picture Oscar; the Renaissance films kept Disney's earnings growing through the early 1990s.",
-    "assets": [
-      "dis"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1991_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
-  },
-  {
-    "month": "1992-04",
-    "title": "Euro Disney opens near Paris",
-    "what": "Euro Disney Resort and its theme park, Euro Disneyland, opened on 12 April at Marne-la-Vallee east of Paris, with seven hotels and about 5,800 rooms. Disney owns a minority stake in the company that runs it and earns fees.",
-    "why": "Attendance fell far short of plans (about 25,000 a day in May against 60,000 hoped for) and in July Euro Disney warned of a first-year loss; the stock went sideways for two years.",
-    "assets": [
-      "dis"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Disneyland_Paris (read 2026-10-03)"
   },
   {
     "month": "1994-04",

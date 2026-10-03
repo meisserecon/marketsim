@@ -48,39 +48,14 @@
     "lead": true
   },
   {
-    "month": "1982-08",
-    "title": "The great rally begins: Kaufman turns, the Fed cuts, shares soar",
-    "what": "After the Dow hit a 27-month low of 776.92 on 12 August, the Federal Reserve cut its discount rate and the market turned. On 17 August Henry Kaufman of Salomon Brothers, long a pessimist, predicted that interest rates would fall to single digits within a year; the Dow jumped 39 points, its biggest one-day gain ever, and the next day more than 100 million shares traded for the first time. The prime rate fell to 14 percent, its lowest in 21 months, and the S&P 500 rose 12% in August to 119.51.",
-    "why": "The bottom of the 1980-82 bear market and the start of an 18-year bull market, the defining turn of the 1980s. A player who buys here does very well.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 12
-    },
-    "importance": 1,
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "month": "1982-10",
-    "title": "Falling interest rates carry the rally on; shares up another 11 percent",
-    "what": "The rally that began in August gathered pace in October. The Federal Reserve has let its key rate fall back to about 9 percent from close to 20 percent in 1981, and inflation is down to about 5 percent. The S&P 500 rose 11% in the month to 133.72, 25% above where it stood at the end of July, although unemployment has passed 10 percent for the first time since 1941.",
-    "why": "Shows the rule that markets turn before the economy: the recession ended only in November 1982 and unemployment peaked in December.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 2,
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "month": "1982-12",
     "title": "1982 in review: from the August low to records",
     "what": "The S&P 500 rose 15% in 1982 to 140.64, and the Dow gained 19.6% to 1,046.54, its best year in seven, after reaching an all-time high of 1,070.55 on 27 December. From the August low the Dow is up 37.7%. A record 16.46 billion shares traded on the New York Stock Exchange, while unemployment is near 11 percent, the highest since the war.",
     "why": "The year the bull market was born, in the middle of the worst recession since the 1930s.",
     "assets": [],
-    "importance": 2,
-    "source": "https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03); data/reference/sp500.json"
+    "importance": 1,
+    "source": "https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1983-12",
@@ -89,7 +64,8 @@
     "why": "A calm year of recovery between the 1982 turn and the 1984 pause.",
     "assets": [],
     "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1984-08",
@@ -102,7 +78,8 @@
       "pct": 11
     },
     "importance": 2,
-    "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19840821.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Leveraged_buyout (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19840821.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Leveraged_buyout (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1984-12",
@@ -111,7 +88,8 @@
     "why": "The pause in the bull market. Falling rates in the second half set up the strong years 1985 and 1986.",
     "assets": [],
     "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1985-12",
@@ -119,7 +97,7 @@
     "what": "The S&P 500 rose 26% in 1985 to 211.28 and first closed above 200 on 21 November. The Dow ended at 1,546.67, up 27.7%, after 36 record closes. Falling interest rates and the September agreement of the five big economies at the Plaza Hotel to push the dollar down helped shares, and takeover bids financed with borrowed money, often with high-yield 'junk' bonds sold by Drexel Burnham Lambert, have made many shareholders rich.",
     "why": "The heart of the 1980s bull market and of the takeover boom; the debt behind it is what made 1987 and 1989 fragile.",
     "assets": [],
-    "importance": 3,
+    "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Drexel_Burnham_Lambert (read 2026-10-03)"
   },
   {
@@ -136,22 +114,14 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19860923.pdf (read 2026-10-03); data/reference/sp500.json"
   },
   {
-    "month": "1986-11",
-    "title": "Ivan Boesky pays a record 100 million dollars for insider trading",
-    "what": "On 14 November Ivan Boesky, Wall Street's best-known takeover speculator, agreed to plead guilty and pay a record 100 million dollars for trading on inside information about takeover bids, obtained from investment bankers. He is cooperating with investigators, and Wall Street is nervous about who else he will name.",
-    "why": "The scandal that exposed the dark side of the takeover boom and led to Michael Milken and Drexel Burnham Lambert.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Ivan_Boesky (read 2026-10-03)"
-  },
-  {
     "month": "1986-12",
     "title": "1986 in review: another strong year",
     "what": "The S&P 500 rose 15% in 1986 to 242.17, after first closing above 250 on 30 June; the Dow gained 22.6% to 1,895.95, after passing 1,750 in March. September showed how quickly shares can fall when bond yields rise.",
     "why": "The fourth year of the bull market; the speculative climax comes in 1987.",
     "assets": [],
     "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1987-01",
@@ -173,20 +143,8 @@
     "why": "The peak before the crash; the S&P 500 did not close above it again until July 1989.",
     "assets": [],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Black Monday: the S&P 500 falls 20 percent in a day",
-    "what": "After a bad trade deficit report on 14 October pushed interest rates up, shares fell 9% in a week; then on Monday 19 October the Dow plunged 508 points or 22.6% and the S&P 500 20.5%, the largest one-day falls in their history. Blamed are the dollar and the trade deficit, rising interest rates, a public row between Treasury Secretary Baker and Germany over the dollar, a bill to curb tax breaks for takeovers, and 'portfolio insurance' programs that sold automatically as prices fell. On 20 October the Fed said it stood ready to supply cash to the financial system; markets around the world crashed too, and the S&P 500 ended October down 22% at 251.79.",
-    "why": "The defining crash of the game's early years. It is also the lesson that buying after a crash paid: the market was higher two years later.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -22
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1987-11",
@@ -199,7 +157,8 @@
       "pct": -9
     },
     "importance": 2,
-    "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1987-12",
@@ -208,16 +167,8 @@
     "why": "The year's flat result hides the whole drama; a player who held on lost nothing over the year, one who sold in October locked in the loss.",
     "assets": [],
     "importance": 1,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)"
-  },
-  {
-    "month": "1988-12",
-    "title": "1988 in review: recovery, and the biggest buyout ever",
-    "what": "The S&P 500 rose 12% in 1988 to 277.72, and the Dow 11.9% to 2,168.57, still well below the 1987 peak. The takeover boom reached its climax: at the end of November the board of RJR Nabisco accepted a bid of 109 dollars a share, about 25 billion dollars, from the buyout firm Kohlberg Kravis Roberts, the largest leveraged buyout in history. In December Drexel Burnham Lambert, the junk-bond house behind many such deals, agreed to plead guilty to six felonies and pay 650 million dollars.",
-    "why": "Peak takeover mania and the beginning of its end; the junk-bond market cracked in 1989.",
-    "assets": [],
-    "importance": 2,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/RJR_Nabisco (read 2026-10-03); https://en.wikipedia.org/wiki/Drexel_Burnham_Lambert (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1989-07",
@@ -229,8 +180,9 @@
       "asset": "sp500",
       "pct": 9
     },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19890822.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/1989_in_the_United_States (read 2026-10-03); data/reference/sp500.json"
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19890822.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/1989_in_the_United_States (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1989-10",
@@ -238,7 +190,7 @@
     "what": "On Friday 13 October the Dow fell 190.58 points or 6.9% and the S&P 500 6.1%, after financing for a 6.75 billion dollar buyout of UAL, the parent of United Airlines, fell apart. The indexes had closed at records only four days earlier. The failure raises doubts about the junk-bond market that pays for such deals.",
     "why": "The end of the takeover boom; the junk-bond market collapsed and Drexel went bankrupt in February 1990.",
     "assets": [],
-    "importance": 2,
+    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
   },
   {
@@ -251,19 +203,6 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
   },
   {
-    "month": "1990-05",
-    "title": "Weak jobs figures bring lower rates and a 9 percent rally",
-    "what": "Early in May the government reported weaker-than-expected employment for April, and interest rates dropped as investors expected the Fed to ease. Shares rallied strongly: the S&P 500 rose 9% in May to 361.23, close to a record.",
-    "why": "The last high before the 1990 recession and the Gulf crisis.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 9
-    },
-    "importance": 3,
-    "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900703.pdf (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "month": "1990-08",
     "title": "Iraq's invasion of Kuwait sends shares down 9 percent",
     "what": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
@@ -274,7 +213,9 @@
       "pct": -9
     },
     "importance": 1,
-    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json",
+    "lead": true,
+    "note": "Add a note that Kuwait is one of Daimler's biggest shareholders."
   },
   {
     "month": "1990-12",
@@ -295,17 +236,8 @@
       "asset": "sp500",
       "pct": 11
     },
-    "importance": 2,
+    "importance": 1,
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "month": "1992-12",
-    "title": "1992 in review: a quiet year, with small companies in front",
-    "what": "The S&P 500 rose 4% in 1992 to 435.71 and the Dow 4.2% to 3,301.11. The Nasdaq index of smaller and technology companies was the only major index to finish the year at a record. Bill Clinton won the November election on the back of a slow recovery from the recession.",
-    "why": "A pause year; the Nasdaq record hints at where the 1990s boom will be.",
-    "assets": [],
-    "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.upi.com/Archives/1993/01/04/Stocks-start-out-1993-with-mixed-showing/8736726123600/ (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)"
   },
   {
     "month": "1993-12",

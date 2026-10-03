@@ -1,18 +1,5 @@
 [
   {
-    "month": "1982-12",
-    "title": "The computer is Time's Machine of the Year",
-    "what": "Time magazine named the personal computer its Machine of the Year instead of a person. IBM's PC has sold far beyond IBM's plans, and on 22 December IBM agreed to pay 250 million dollars for 12% of Intel, the maker of its chips. The Nasdaq index of smaller and newer companies ended the year at 232.",
-    "why": "Peak public excitement of the first PC boom; the Nasdaq rose another 40% into June 1983 before the shakeout.",
-    "assets": [
-      "ibm",
-      "intc",
-      "aapl"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
     "month": "1983-06",
     "title": "Technology shares at a record",
     "what": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned.",
@@ -23,43 +10,8 @@
       "ibm"
     ],
     "importance": 3,
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)"
-  },
-  {
-    "month": "1983-10",
-    "title": "The home computer shakeout: Texas Instruments quits",
-    "what": "In October Texas Instruments said it will stop making its TI-99/4A home computer, after a price war with Commodore pushed both machines from about 400 dollars in early 1982 to 100 dollars by April. TI lost 100 million dollars in the second quarter and 111 million after tax in the third. In September Osborne, maker of the first popular portable computer, filed for bankruptcy.",
-    "why": "The first bust of the PC era: too many makers, falling prices. Apple fell 38% in September on its own troubles with the Lisa; the survivors were those with the IBM standard or a loyal niche.",
-    "assets": [
-      "aapl",
-      "ibm"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A (read 2026-10-03); https://en.wikipedia.org/wiki/Osborne_Computer_Corporation (read 2026-10-03)"
-  },
-  {
-    "month": "1984-01",
-    "title": "Apple's Macintosh: a computer worked with a mouse",
-    "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar Super Bowl commercial. It is worked with a mouse and pictures on the screen rather than typed commands, has 128 KB of memory and costs 2,495 dollars.",
-    "why": "The graphical way of using a computer that Windows would copy and that won in the end, though the Mac itself stayed a niche against the IBM standard.",
-    "assets": [
-      "aapl",
-      "ibm"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
-  },
-  {
-    "month": "1985-12",
-    "title": "The chip bust: memory prices collapse, US rules Japan dumped",
-    "what": "Prices of the standard 64K memory chip have fallen from 3.50 dollars to as little as 35 cents within 18 months, and more than 60% of these chips come from Japanese makers. On 4 December the US Commerce Department ruled in favour of a complaint that Japanese firms sold below cost. Intel has withdrawn from making memory chips this year to concentrate on microprocessors.",
-    "why": "The 1985 semiconductor recession, the worst the industry had known, forced Intel's pivot to the PC processor, the decision that made it the biggest chip company of the 1990s.",
-    "assets": [
-      "intc",
-      "ibm"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Dynamic_random-access_memory (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1987-01",
@@ -76,50 +28,13 @@
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Compaq (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)"
   },
   {
-    "month": "1987-10",
-    "title": "The crash hits technology shares hardest",
-    "what": "The Nasdaq fell 11% on Black Monday, 19 October, 9% the next day and 9% again on 26 October, and ended the month 27% lower, its worst month on record. Intel and Apple each lost about a third of their value in October.",
-    "why": "Not caused by technology, but the year's high-flyers fell furthest. The crash itself is explained in the market arc.",
-    "assets": [
-      "intc",
-      "aapl",
-      "msft",
-      "ibm"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "month": "1990-05",
-    "title": "Windows 3.0 goes on sale",
-    "what": "Microsoft released Windows 3.0 on 22 May, at 149 dollars or 50 dollars as an upgrade. It gives IBM-style PCs a screen of windows and icons, like Apple's Macintosh, and in its first week it became the top-selling business software. Microsoft rose 26% in May and Intel 22%.",
-    "why": "The first Windows that worked, and the start of the Wintel decade: every new PC needed a faster Intel chip to run Microsoft's software.",
-    "assets": [
-      "msft",
-      "intc",
-      "ibm",
-      "aapl"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Windows_3.0 (read 2026-10-03)"
-  },
-  {
     "month": "1991-08",
     "title": "The World Wide Web opens to the internet",
     "what": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
     "why": "Nobody on Wall Street noticed. Four years later it was the foundation of the biggest stock mania since the 1920s.",
     "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
-  },
-  {
-    "month": "1993-04",
-    "title": "Mosaic, a browser with pictures; the Web becomes free",
-    "what": "On 21 April the National Center for Supercomputing Applications in Illinois released version 1.0 of Mosaic, a program by Marc Andreessen and Eric Bina that shows web pages with pictures inside the text. On 30 April CERN made the Web's code available royalty-free to anyone.",
-    "why": "The browser turned the Web from a research tool into something ordinary people could use; Andreessen went on to found Netscape.",
-    "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Mosaic_(web_browser) (read 2026-10-03); https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
   },
   {
     "month": "1994-10",
@@ -204,14 +119,13 @@
   {
     "month": "1999-12",
     "title": "The Nasdaq ends 1999 up 86%, above 4,000",
-    "what": "The Nasdaq closed above 4,000 for the first time on 29 December, less than two months after first passing 3,000 on 3 November. It rose 22% in December alone and 85.6% in 1999, against 19.5% for the S&P 500. Telecom, phone and internet names led: Sony rose 55% in December, JDS Uniphase 45%, Nokia 36%.",
+    "what": "The Nasdaq closed above 4,000 for the first time on 29 December, less than two months after first passing 3,000 on 3 November. It rose 22% in December alone and 85.6% in 1999, against 19.5% for the S&P 500. Telecom, phone and internet names led: Sony rose 55% in December, Nokia 36%.",
     "why": "The best year in the index's history and the height of the mania; the next fifteen years would not see these levels again.",
     "assets": [
       "csco",
       "msft",
       "intc",
       "nokia",
-      "jdsu",
       "sony",
       "amzn",
       "ebay",
@@ -227,7 +141,6 @@
     "why": "The internet's paper wealth buying the old economy outright, the classic sign of a top. Lucent's warning was the first crack in the telecom equipment boom.",
     "assets": [
       "csco",
-      "jdsu",
       "nokia"
     ],
     "importance": 2,
@@ -241,7 +154,6 @@
     "assets": [
       "nvda",
       "siemens",
-      "jdsu",
       "csco",
       "pets-com"
     ],
@@ -258,7 +170,6 @@
       "intc",
       "msft",
       "nokia",
-      "jdsu",
       "pets-com",
       "pcln"
     ],
@@ -294,7 +205,6 @@
       "pets-com",
       "pcln",
       "amzn",
-      "jdsu",
       "intc",
       "aapl",
       "csco"
@@ -316,8 +226,7 @@
       "intc",
       "msft",
       "amzn",
-      "pcln",
-      "jdsu"
+      "pcln"
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
@@ -346,11 +255,10 @@
   {
     "month": "2001-02",
     "title": "The telecom bust: network gear makers crash",
-    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. JDS Uniphase halved in February, Cisco lost more than a third.",
+    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse.",
     "why": "The telecom bubble, financed by more than 500 billion dollars mostly of debt since 1996, began to burst; telecom companies lost about 700 billion dollars of market value over two years. The S&P's -9% month is this sell-off.",
     "assets": [
       "csco",
-      "jdsu",
       "nokia",
       "worldcom",
       "siemens",
@@ -370,7 +278,6 @@
     "why": "A year after the peak, most of the bubble's gains were gone; the low was still eighteen months away.",
     "assets": [
       "csco",
-      "jdsu",
       "nokia",
       "intc"
     ],
@@ -417,7 +324,6 @@
     "why": "The low point of the telecom bust and of trust in company accounts after Enron; the market's final leg down.",
     "assets": [
       "worldcom",
-      "jdsu",
       "csco",
       "nokia"
     ],
@@ -430,7 +336,6 @@
     "what": "The Nasdaq fell 11% in September to 1,172, its lowest month-end since 1996 and 77% below the record of March 2000. Accounting scandals from Enron to WorldCom have shaken trust in company figures.",
     "why": "The capitulation month of the bust; technology and telecom fell furthest, but this one was broad, so the S&P's -11% belongs as much to the market arc.",
     "assets": [
-      "jdsu",
       "siemens",
       "ibm",
       "pcln",
@@ -455,8 +360,7 @@
       "ibm",
       "siemens",
       "nvda",
-      "pcln",
-      "jdsu"
+      "pcln"
     ],
     "move": {
       "asset": "sp500",
@@ -468,17 +372,12 @@
   {
     "month": "2002-11",
     "title": "The most battered shares bounce hardest",
-    "what": "The Nasdaq rose another 11% in November to 1,479. The shares that had fallen furthest rebounded most: JDS Uniphase rose about half, Nvidia 44%, Cisco a third.",
+    "what": "The Nasdaq rose another 11% in November to 1,479. The shares that had fallen furthest rebounded most: Nvidia rose 44%, Cisco a third.",
     "why": "A classic bear-market bottom pattern: the junk rallies first. December gave back much of it.",
     "assets": [
-      "jdsu",
       "nvda",
       "csco"
     ],
-    "move": {
-      "asset": "jdsu",
-      "pct": 52
-    },
     "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
@@ -796,7 +695,6 @@
     "assets": [
       "intc",
       "nokia",
-      "jdsu",
       "nvda",
       "siemens"
     ],

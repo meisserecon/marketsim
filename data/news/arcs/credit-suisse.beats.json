@@ -39,25 +39,8 @@
       "asset": "credit-suisse",
       "pct": 17
     },
-    "importance": 3,
+    "importance": 1,
     "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln'), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash reaches Zurich",
-    "what": "Swiss shares collapsed with Wall Street in October. The Kreditanstalt's own share index fell almost 7% more in the week after the black week, before a partial recovery on Friday. Only the most-traded shares could be traded properly. Analysts point to dividend yields of around 4% on the big bank shares.",
-    "why": "The crash; First Boston's troubles after it lead the Kreditanstalt to take control of its US partner in 1988.",
-    "assets": [
-      "credit-suisse",
-      "ubs",
-      "sbv"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -14
-    },
-    "importance": 2,
-    "source": "Neue Zürcher Zeitung, 31 October 1987, p. 41 ('Zürcher Börse vom 26. Oktober bis zum 30. Oktober: Schwierige Standortbestimmung'), scan data/manual/scans/nzz/NZZ_1987-10-31.pdf (read 2026-10-03)"
   },
   {
     "month": "1989-01",
@@ -95,7 +78,7 @@
       "sbv",
       "credit-suisse"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)"
   },
   {

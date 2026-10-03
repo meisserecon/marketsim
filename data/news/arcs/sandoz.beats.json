@@ -34,17 +34,6 @@
     "source": "Neue Zürcher Zeitung, 2 May 1981, p. 21 ('«Befriedigendes» Sandoz-Konzern-Ergebnis'), scan data/manual/scans/nzz/NZZ_1981-05-02.pdf (read 2026-10-03)"
   },
   {
-    "month": "1982-12",
-    "title": "Sandoz buys Wasa crispbread",
-    "what": "This year Sandoz bought the Swedish crispbread maker Wasa, adding to the food business it built with Wander (Ovomaltine) and the purchase of Delmark and Wasabröd in 1972.",
-    "why": "Shows how far Sandoz spread beyond drugs; the food and chemicals are shed again in the 1990s. Month not confirmed, hence a year-end summary.",
-    "assets": [
-      "sandoz"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03)"
-  },
-  {
     "month": "1983-11",
     "title": "America approves Sandimmune",
     "what": "The US Food and Drug Administration approved cyclosporin for clinical use on 14 November; Sandoz sells it as Sandimmune (Sandimmun in Switzerland). It damps the immune system so that the body does not reject a transplanted organ.",
@@ -54,22 +43,6 @@
     ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
-  },
-  {
-    "month": "1985-12",
-    "title": "Zurich ends a brilliant year; chemical shares lead",
-    "what": "The Zurich stock exchange closed the year 'in brilliant form', the Neue Zürcher Zeitung wrote on 31 December, with chemical shares strong and Nestlé at record prices. Since the Plaza agreement of September the dollar has kept falling: it buys 2.06 francs against 2.86 in February. This year Sandoz also bought Master Builders of the United States, a maker of chemicals for the building industry.",
-    "why": "Sandoz rose 20% in December alone (19% in francs) and 135% in the twelve months to April 1986, its best run in the game, carried by Sandimmun and the Swiss boom.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": 20
-    },
-    "importance": 2,
-    "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03)"
   },
   {
     "month": "1986-11",
@@ -84,81 +57,8 @@
       "pct": -13
     },
     "importance": 1,
-    "source": "https://www.swissinfo.ch/eng/sci-tech/schweizerhalle-fire_chemical-disaster-still-burns-in-swiss-memory/42559954 (read 2026-10-03); https://en.wikipedia.org/wiki/Schweizerhalle_fire (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); https://www.bafu.admin.ch/en/schweizerhalle-en (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The October crash",
-    "what": "On Monday 19 October the Dow Jones fell 22.6% in one day, and every major stock market in the world fell sharply in October. Sandoz, which reported sales of over 8 billion francs and profits of over 500 million for 1986, lost more than a fifth of its value in francs. The franc rose about 7% against the dollar.",
-    "why": "Ends the great Sandimmun run; the share takes until 1992 to recover its September 1987 level in dollars.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": -17
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
-  },
-  {
-    "month": "1988-11",
-    "title": "Swiss bearer shares slide as Nestlé opens its register",
-    "what": "On 17 November Nestlé decided to let foreigners buy its registered shares, and its bearer share, until now the only class open to foreigners, fell 23% in November. Bearer shares of other Swiss companies fell too: Sandoz's from 12,300 to 10,575 francs, Ciba-Geigy's by 22%.",
-    "why": "Most likely a sympathy move: investors expected other companies to follow Nestlé, which would erase the premium that foreigners paid for bearer shares; the NZZ text on the cause was not read. Sandoz kept falling in December.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": -11
-    },
-    "importance": 2,
-    "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait",
-    "what": "Iraq invaded Kuwait on 2 August and an American-led build-up of troops in Saudi Arabia has begun. The S&P 500 fell 9% in August, and Swiss shares fell with it; Sandoz lost about 15% in francs. The franc rose about 3% against the dollar.",
-    "why": "A market month, no Sandoz news.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": -12
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)"
-  },
-  {
-    "month": "1991-01",
-    "title": "War in the Gulf; shares rally",
-    "what": "The American-led air campaign against Iraq began on 17 January. Stock markets rose in January, the S&P 500 by 4%. Sandoz shares rose about 14% in francs.",
-    "why": "Sandoz's 16% rise in dollars is far more than the market's; no company-specific cause was found, so the link to the war rally is plausible but not certain.",
-    "assets": [
-      "sandoz"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": 16
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; data/out/sandoz.json"
-  },
-  {
-    "month": "1992-12",
-    "title": "A young doctor runs Sandoz Pharma",
-    "what": "Daniel Vasella, a doctor who joined Sandoz's pharmaceutical business in 1988, became chief executive of Sandoz Pharma this year.",
-    "why": "Vasella goes on to engineer the Novartis merger and run Novartis until 2010. Month not confirmed, hence a year-end summary.",
-    "assets": [
-      "sandoz"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Daniel_Vasella (read 2026-10-03)"
+    "source": "https://www.swissinfo.ch/eng/sci-tech/schweizerhalle-fire_chemical-disaster-still-burns-in-swiss-memory/42559954 (read 2026-10-03); https://en.wikipedia.org/wiki/Schweizerhalle_fire (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); https://www.bafu.admin.ch/en/schweizerhalle-en (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1994-05",

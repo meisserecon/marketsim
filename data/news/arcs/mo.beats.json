@@ -19,19 +19,8 @@
     "assets": [
       "mo"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.upi.com/Archives/1983/01/03/A-new-Philip-Morris-cigarette-manufacturing-plant-that-eventually/8161410418000/ (read 2026-10-03)"
-  },
-  {
-    "month": "1984-10",
-    "title": "'Call for Philip Morris': the bellhop goes to the Smithsonian",
-    "what": "The red uniform of 'Johnny', the tiny bellhop who shouted 'Call for Philip Morris' on radio and television for 25 years, is to go on show at the Smithsonian's Museum of American History in November. Albert Altieri was hired in 1935 and retired in 1982 after 47 years with the company.",
-    "why": "A reminder of how old and how marketing-driven the business is; the Marlboro Man had long replaced Johnny.",
-    "assets": [
-      "mo"
-    ],
-    "importance": 3,
-    "source": "https://www.upi.com/Archives/1984/10/22/Call-for-Phillip-Morris-echoes-on/5123467265600/ (read 2026-10-03)"
   },
   {
     "month": "1985-11",
@@ -43,21 +32,6 @@
     ],
     "importance": 1,
     "source": "https://www.csmonitor.com/1985/1001/fphil.html (read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03); https://en.wikipedia.org/wiki/General_Foods (completion in November 1985, read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Philip Morris falls 22% in the crash",
-    "what": "Philip Morris shares lost about 22% in October, as much as the whole market, in the worldwide crash of 19 October. The shares had risen strongly this year.",
-    "why": "A market move that wiped out the gains of August; the business kept growing and the shares were back above their September 1987 level by mid-1989.",
-    "assets": [
-      "mo"
-    ],
-    "move": {
-      "asset": "mo",
-      "pct": -22
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); move from data/out/mo.json"
   },
   {
     "month": "1988-10",
@@ -89,23 +63,8 @@
     "assets": [
       "mo"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03; the month of the Jacobs Suchard purchase is not given there); https://en.wikipedia.org/wiki/General_Foods (read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "Rate cut lifts the market; Philip Morris up 18%",
-    "what": "The Federal Reserve cut its discount rate by a full point to 3.5% in December and stocks surged; Philip Morris gained about 18% in the month, ending the year near its record. Michael Miles, the former head of Kraft and the first non-smoker to lead a major tobacco company, took over as chairman and chief executive this year from Hamish Maxwell, who built the food business.",
-    "why": "The top of the first great run: by April 1993, after 'Marlboro Friday', the shares were about 40% lower.",
-    "assets": [
-      "mo"
-    ],
-    "move": {
-      "asset": "mo",
-      "pct": 18
-    },
-    "importance": 3,
-    "source": "https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://en.wikipedia.org/wiki/Hamish_Maxwell (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_A._Miles (read 2026-10-03); move from data/out/mo.json"
   },
   {
     "month": "1993-04",

@@ -61,8 +61,8 @@ on their corporate end event.
   eBay (1998), Citigroup (from its formation in October 1998), Nvidia (1999).
 - **Autos:** Tesla (2010), Mercedes-Benz and BMW (Yahoo from late 1996; earlier Daimler-Benz
   history to be curated, decision pending).
-- **Dot-com boom and bust:** JDS Uniphase, Priceline as survivors that lost over 90 percent;
-  Pets.com, WorldCom as failures.
+- **Dot-com boom and bust:** Priceline as a survivor that lost over 90 percent; Pets.com,
+  WorldCom as failures.
 - **International:** Sony, Siemens (1996), Nokia (1994).
 - **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
 - **Swiss:** Nestlé, Novartis with Sandoz before 1996, UBS as the continuation of
@@ -120,7 +120,8 @@ Rules the engine fixes that were previously open:
 - An asset is invisible before its first month and untradable after its last.
 
 No lookahead applies to names too. Each asset carries the name it had when its series starts
-plus a list of renames (Uniphase, then JDS Uniphase, then Viavi Solutions), and the server
+plus a list of renames (Daimler-Benz, then DaimlerChrysler, then Daimler, then Mercedes-Benz
+Group), and the server
 resolves the name for the current month with `nameAt`. Notes, sources and end events are for
 maintainers and are never sent to players before the event has happened.
 

@@ -31,7 +31,8 @@
       "intc"
     ],
     "importance": 3,
-    "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)"
+    "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1985-10",
@@ -41,49 +42,8 @@
     "assets": [
       "intc"
     ],
-    "importance": 1,
+    "importance": 2,
     "source": "https://timeline.intel.com/1985/farewell-to-dram (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03); https://thechipletter.substack.com/p/intels-transformation-20 (read 2026-10-03, via search summary)"
-  },
-  {
-    "month": "1987-01",
-    "title": "Chip shares surge as Intel's 386 takes off",
-    "what": "Intel has come through what it calls the toughest year in its history, with a loss for 1986 after the long chip slump. But personal computers built around its 32-bit 386 processor, led by Compaq's Deskpro 386, are selling, and Intel has won trade disputes at home and abroad. Technology shares are leading a sharp rise on Wall Street in January.",
-    "why": "Explains the +49% month: the market rose 13% in January 1987, and Intel, the purest bet on the PC recovery, rose almost four times as much. Intel returned to profit in the first quarter of 1987 and earned a record 248 million dollars that year.",
-    "assets": [
-      "intc"
-    ],
-    "move": {
-      "asset": "intc",
-      "pct": 49
-    },
-    "importance": 2,
-    "source": "https://timeline.intel.com/1986/financial-year-1986 (read 2026-10-03); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-04",
-    "title": "Andy Grove becomes Intel's chief executive",
-    "what": "Intel named Andy Grove chief executive on 28 April, with co-founder Gordon Moore staying on as chairman. Grove, who drove the exit from memory chips, now runs a company built around the 386 processor, which Intel decided to make without licensing it to rival chipmakers.",
-    "why": "Grove's decade as CEO (1987-1998) took Intel's market value from about 4 billion to about 197 billion dollars.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://timeline.intel.com/1987/grove's-big-promotion (read 2026-10-03, via data/news/1987.json); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash hits technology shares hardest",
-    "what": "On 19 October the Dow Jones index fell 22.6% in a single day, the largest one-day drop in its history, and markets around the world crashed with it. Fast-rising technology shares such as Intel, which had nearly tripled since the start of the year, fell further than the market.",
-    "why": "The -32% month is the crash, not company news; Intel's business kept growing through it.",
-    "assets": [
-      "intc"
-    ],
-    "move": {
-      "asset": "intc",
-      "pct": -32
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/intc.json (monthly prices)"
   },
   {
     "month": "1989-04",
@@ -97,29 +57,6 @@
     "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)"
   },
   {
-    "month": "1990-05",
-    "title": "Windows 3.0 makes PCs graphical",
-    "what": "Microsoft launched Windows 3.0 on 22 May, making it practical to run several programs side by side with a mouse and pictures on ordinary IBM-compatible PCs, nearly all of which use Intel's processors or copies of them. Intel is selling its 386 and new 486 chips.",
-    "why": "Graphical software needed ever faster processors; Windows and Intel's chips grew together through the 1990s. Intel rose 22% in a month in which the market rose 9%, but the sources read do not tie the move to Windows.",
-    "assets": [
-      "intc",
-      "msft"
-    ],
-    "importance": 3,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "\"Intel Inside\": a chip with a brand",
-    "what": "This year Intel began advertising directly to computer buyers with its \"Intel Inside\" campaign, so that customers ask for its processors by name.",
-    "why": "The brand campaign turned a hidden component into a consumer brand and helped Intel hold off makers of compatible chips. The launch month of the campaign is not given in the sources read; the beat sits at the year-end.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
-  },
-  {
     "month": "1992-12",
     "title": "Intel becomes the world's largest chipmaker",
     "what": "Intel has become the biggest seller of semiconductors in the world, seven years after it gave up memory chips to concentrate on microprocessors.",
@@ -129,17 +66,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
-  },
-  {
-    "month": "1993-03",
-    "title": "The Pentium arrives",
-    "what": "Intel launched the Pentium, the successor to the 486, with 3.1 million transistors. It is the first of Intel's processors to carry a name instead of a number.",
-    "why": "The Pentium years (1993-2000) were Intel's golden age: the stock rose about twentyfold from the launch to the peak of August 2000.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Pentium (read 2026-10-03, via History of Intel)"
   },
   {
     "month": "1994-12",

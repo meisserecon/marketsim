@@ -41,7 +41,7 @@
     "assets": [
       "nestle"
     ],
-    "importance": 1,
+    "importance": 2,
     "source": "https://www.upi.com/Archives/1984/09/04/Nestle-to-acquire-Carnation-Co/2482463118400/ (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
@@ -70,7 +70,8 @@
       "sandoz"
     ],
     "importance": 1,
-    "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+    "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1986-12",
@@ -80,24 +81,8 @@
     "assets": [
       "nestle"
     ],
-    "importance": 1,
+    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nespresso (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The October crash hits Zurich too",
-    "what": "On Monday 19 October the Dow Jones fell 22.6% in one day, and every major stock market in the world fell sharply in October. Nestlé's bearer share fell from 11,025 francs at the end of September to 8,350 at the end of October. The franc rose against the dollar, softening the fall in dollar terms.",
-    "why": "Start of Nestlé's worst stretch in the game, -42% from September 1987 to May 1989: first the crash, then the register opening of November 1988. In francs the bearer share lost about 24%, in dollars 19%.",
-    "assets": [
-      "nestle",
-      "sandoz"
-    ],
-    "move": {
-      "asset": "nestle",
-      "pct": -19
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); NZZ month-end prices in data/manual/raw/nzz-notes-1987.md (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
   },
   {
     "month": "1988-06",
@@ -127,22 +112,6 @@
     "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03); Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 37(3), 1995, abstract via search result summary (read 2026-10-03)"
   },
   {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait; markets fall",
-    "what": "Iraq invaded Kuwait on 2 August, and an American-led build-up of troops in Saudi Arabia, Operation Desert Shield, has begun. The S&P 500 fell 9% in August and Swiss shares fell too. The franc rose about 3% against the dollar.",
-    "why": "Nestlé fell 11% in francs, 9% in dollars, with the market; no company news.",
-    "assets": [
-      "nestle",
-      "sandoz"
-    ],
-    "move": {
-      "asset": "nestle",
-      "pct": -9
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)"
-  },
-  {
     "month": "1992-12",
     "title": "Nestlé buys Perrier",
     "what": "This year Nestlé took over the French mineral water group Perrier, after a contest with the Agnelli family of Italy. Perrier is still recovering from 1990, when benzene found in its bottles forced it to recall about 160 million bottles worldwide. With Vittel already in hand, Nestlé becomes a leader in bottled water.",
@@ -152,17 +121,6 @@
     ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Perrier (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
-  },
-  {
-    "month": "1993-06",
-    "title": "One share for everyone",
-    "what": "Nestlé has merged its bearer shares, registered shares and participation certificates into a single registered share, open to Swiss and foreign investors alike. Last autumn it had already split its shares ten for one.",
-    "why": "Ends the two-class story that caused the 1988 crash. Our price series switches from the bearer to the registered share here, which now trade as one. The NZZ shows three classes on 3 May and only the registered share on 30 June.",
-    "assets": [
-      "nestle"
-    ],
-    "importance": 3,
-    "source": "data/manual/raw/nzz-notes-1992-1994.md (NZZ tables of 31 Aug and 30 Sep 1992, 3 May and 30 June 1993, read 2026-10-03)"
   },
   {
     "month": "1995-03",

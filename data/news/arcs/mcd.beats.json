@@ -29,7 +29,7 @@
     "assets": [
       "mcd"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json"
   },
   {
@@ -44,21 +44,6 @@
     "source": "https://en.wikipedia.org/wiki/Big_Mac_Index (read 2026-10-03)"
   },
   {
-    "month": "1987-10",
-    "title": "McDonald's falls 16% in the crash",
-    "what": "McDonald's shares lost about 16% in October as stock markets crashed worldwide on 19 October. Michael Quinlan, who started in the company mailroom in 1963, became chief executive in March; McDonald's plans to open about 600 restaurants this year.",
-    "why": "A market move: the business was untouched and the shares were back above their pre-crash level within two years.",
-    "assets": [
-      "mcd"
-    ],
-    "move": {
-      "asset": "mcd",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_R._Quinlan (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); move from data/out/mcd.json"
-  },
-  {
     "month": "1988-04",
     "title": "The 10,000th McDonald's",
     "what": "McDonald's opened its 10,000th restaurant in April, 33 years after Ray Kroc's first. Outside the United States its strongest markets are Japan, Canada, Germany, Britain, Australia and France. On 29 April McDonald's Canada signed a joint-venture agreement with Moscow city officials to open 20 restaurants in the Soviet capital, the first one due in late 1989.",
@@ -66,7 +51,7 @@
     "assets": [
       "mcd"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); https://www.upi.com/Archives/1988/04/29/McDonalds-signs-deal-for-20-Moscow-restaurants/2155578289600/ (read 2026-10-03)"
   },
   {

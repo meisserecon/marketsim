@@ -19,7 +19,7 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
+    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Diet_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Columbia Pictures section, read 2026-10-03)",
     "lead": true
   },
@@ -32,7 +32,8 @@
       "ko"
     ],
     "importance": 3,
-    "source": "https://archive.org/download/cocacolacoannualreports/cocacola1983_djvu.txt (1983 annual report, read 2026-10-03)"
+    "source": "https://archive.org/download/cocacolacoannualreports/cocacola1983_djvu.txt (1983 annual report, read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1985-04",
@@ -54,57 +55,8 @@
       "ko"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/New_Coke (read 2026-10-03); https://www.statmuse.com/money/ask/cocacola-stock-1985 (1985 return, read 2026-10-03)"
-  },
-  {
-    "month": "1986-12",
-    "title": "Coca-Cola floats its bottlers as Coca-Cola Enterprises",
-    "what": "Coca-Cola bought the two largest US bottling groups this year, from the Lupton family's JTL for 1.4 billion dollars and from Beatrice for 1 billion, and put them into a new company, Coca-Cola Enterprises. It sold 51% of it to the public in the largest first share sale in US history so far, raising about 1.5 billion dollars, and keeps 49%. That takes the 2.4 billion dollars of borrowing for the purchases off Coca-Cola's own books.",
-    "why": "The model of the next 30 years: Coca-Cola owns the brands and the syrup, while capital-hungry bottling sits in separate, partly owned companies. Coca-Cola bought the North American part back in 2010 and sold the territories again by 2017.",
-    "assets": [
-      "ko"
-    ],
-    "importance": 1,
-    "source": "https://www.company-histories.com/CocaCola-Enterprises-Inc-Company-History.html (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Crash, and Coca-Cola reshapes its film business",
-    "what": "Coca-Cola shares lost about 15% in October as stock markets crashed on 19 October. In September Coca-Cola agreed to sell its entertainment business, Columbia Pictures, to Tri-Star Pictures, of which it owned 30%, in return for raising its stake in the combined company to 80%. Coca-Cola joined the Dow Jones Industrial Average this year.",
-    "why": "The crash was a market move; Coca-Cola fell less than the market and recovered with it. The Tri-Star deal was the first step out of Hollywood, completed with the sale to Sony in 1989.",
-    "assets": [
-      "ko"
-    ],
-    "move": {
-      "asset": "ko",
-      "pct": -15
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (Tri-Star deal, read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Dow membership since 1987, read 2026-10-03); move from data/out/ko.json"
-  },
-  {
-    "month": "1989-03",
-    "title": "Warren Buffett reveals a big stake in Coca-Cola",
-    "what": "Berkshire Hathaway's annual letter shows that it bought 14,172,500 Coca-Cola shares in 1988 for 592.5 million dollars, worth 632.4 million at the end of the year. Warren Buffett writes that he expects to hold the stake for a long time. Coca-Cola earned more than a billion dollars in 1988, a goal Goizueta had set for 1990.",
-    "why": "Buffett's endorsement and continued buying (23.35 million shares by the end of 1989) became part of the stock's story; 1989 was one of Coca-Cola's best years, with a total return of 76%.",
-    "assets": [
-      "ko",
-      "brk"
-    ],
-    "importance": 1,
-    "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/1989.html (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
-  },
-  {
-    "month": "1989-09",
-    "title": "Sony buys Columbia Pictures, including Coca-Cola's stake",
-    "what": "On 27 September Sony agreed to buy Columbia Pictures Entertainment for 3.4 billion dollars plus 1.4 billion of debt, paying 27 dollars a share in cash for Coca-Cola's 49% stake. Coca-Cola bought Columbia in 1982 and merged it with Tri-Star in 1987. It plans to use much of the proceeds to invest in its bottling system and to buy back its own shares.",
-    "why": "The end of the entertainment detour; from here Coca-Cola was a pure beverage company, and its buybacks were a big part of the 1990s earnings growth.",
-    "assets": [
-      "ko",
-      "sony"
-    ],
-    "importance": 2,
-    "source": "https://www.upi.com/Archives/1989/09/28/Columbia-chairman-praises-Sony-as-new-buyer/8295622958400/ (read 2026-10-03); https://archive.org/download/cocacolacoannualreports/cocacola1989_djvu.txt (use of proceeds, read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/New_Coke (read 2026-10-03); https://www.statmuse.com/money/ask/cocacola-stock-1985 (1985 return, read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1990-02",
@@ -116,21 +68,6 @@
     ],
     "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1989_djvu.txt (letter dated February 1990, read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "Rate cut sends blue chips soaring; Coca-Cola up 16% in a month",
-    "what": "In December the Federal Reserve cut its discount rate by a full percentage point, from 4.5% to 3.5%, after a string of smaller cuts this year. Stocks surged and the S&P 500 gained about 11% in the month. Coca-Cola gained about 16%; over the year its share price rose nearly 73%, almost three times as much as the S&P 500.",
-    "why": "A market move amplified by Coca-Cola's reputation as a steady grower; after 1991 the shares marked time for two years.",
-    "assets": [
-      "ko"
-    ],
-    "move": {
-      "asset": "ko",
-      "pct": 16
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/INTDSRUSM193N (discount rate 4.5% in November 1991, 3.5% from late December, read 2026-10-03); https://archive.org/download/cocacolacoannualreports/cocacola1991_djvu.txt (1991 share price gain, read 2026-10-03); moves from data/out/ko.json and data/reference/sp500.json"
   },
   {
     "month": "1993-02",
@@ -151,7 +88,7 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1993_djvu.txt (letter dated February 1994, read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/Marlboro_Friday (read 2026-10-03)"
   },
   {

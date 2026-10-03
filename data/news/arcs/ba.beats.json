@@ -50,22 +50,8 @@
       "pct": 48
     },
     "importance": 2,
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json."
-  },
-  {
-    "month": "1982-10",
-    "title": "Rates fall and Boeing keeps climbing",
-    "what": "Banks cut the prime rate to 13% on 7 October and 12% on 13 October, and stocks extended their rally. Delta Air Lines received its first Boeing 767 on 25 October.",
-    "why": "Explains the +32% month (market +11%); Boeing rose 51% in 1982.",
-    "assets": [
-      "ba"
-    ],
-    "move": {
-      "asset": "ba",
-      "pct": 32
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03, Delta delivery 1982-10-25); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); data/news/arcs/movers.md (market +11%)"
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.",
+    "note": "Add a note about Apple. Don't foreshadow the \"great rally\"."
   },
   {
     "month": "1983-12",
@@ -79,32 +65,6 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
   },
   {
-    "month": "1985-10",
-    "title": "Northwest launches the 747-400",
-    "what": "On 22 October Northwest Airlines ordered ten 747-400s, launching a new version of the jumbo jet with more efficient engines, longer wings and a two-pilot cockpit. Boeing's 737-300, flying since 1984, is also selling well.",
-    "why": "The mid-1980s boom in orders: Boeing rose 29% in 1983 and 1984 and 38% in 1985.",
-    "assets": [
-      "ba"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Boeing_747-400 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_Classic (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Black Monday",
-    "what": "On 19 October the Dow Jones average fell 22.6% in a single day, its worst crash ever. Boeing, already weak this year, fell even more than the market over the month.",
-    "why": "Explains the -24% month: a market event. Boeing rebounded 64% in 1988 on a flood of airliner orders.",
-    "assets": [
-      "ba"
-    ],
-    "move": {
-      "asset": "ba",
-      "pct": -24
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ba.json (monthly change)"
-  },
-  {
     "month": "1989-10",
     "title": "Machinists strike as Boeing struggles to build enough planes",
     "what": "Boeing's machinists went on strike on 5 October, demanding higher pay and less mandatory overtime. Many have been working seven-day weeks and up to 200 hours of forced overtime every three months as Boeing tries to keep up with orders; airlines ordered 322 757s alone in 1988 and 1989.",
@@ -112,34 +72,8 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
-    "source": "https://www.americanactionforum.org/insight/the-economic-impact-of-strikes-an-historical-boeing-case-study/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03, 1988-89 orders)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait; jet fuel soars",
-    "what": "Iraq invaded Kuwait on 2 August and the oil price, about 17 dollars a barrel in July, is rising steeply. Higher fuel costs and recession fears are a threat to airlines, Boeing's customers.",
-    "why": "Explains the -16% month and the -14% that followed in September.",
-    "assets": [
-      "ba"
-    ],
-    "move": {
-      "asset": "ba",
-      "pct": -16
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1990_oil_price_shock (read 2026-10-03)"
-  },
-  {
-    "month": "1990-10",
-    "title": "United launches the Boeing 777",
-    "what": "On 14 October United Airlines ordered 34 Boeing 777s, valued at 11 billion dollars, with options for 34 more, launching a new twin-engine wide-body jet between the 767 and the 747. It will be Boeing's first airliner with fly-by-wire controls.",
-    "why": "The next product cycle, aimed at Airbus; the 777 entered service in 1995.",
-    "assets": [
-      "ba"
-    ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Boeing_777 (read 2026-10-03, citing Time 1990-10-29)"
+    "source": "https://www.americanactionforum.org/insight/the-economic-impact-of-strikes-an-historical-boeing-case-study/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03, 1988-89 orders)"
   },
   {
     "month": "1993-11",

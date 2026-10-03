@@ -23,7 +23,8 @@
       "pct": -6
     },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json"
+    "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json",
+    "note": "Add a note on Boeing delivering its first 767 to United Airlines."
   },
   {
     "month": "1981-06",
@@ -38,7 +39,8 @@
       "pct": -21
     },
     "importance": 3,
-    "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
+    "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1981-08",
@@ -95,7 +97,8 @@
       "pct": 39
     },
     "importance": 2,
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)"
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)",
+    "lead": true
   },
   {
     "month": "1983-01",
@@ -121,7 +124,8 @@
       "aapl"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1985-09",
@@ -132,7 +136,8 @@
       "aapl"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1987-05",
@@ -144,21 +149,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Macintosh_II (read 2026-10-03, via data/news/1987.json)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash",
-    "what": "On 19 October the Dow Jones index fell 22.6% in one day, the largest drop in its history, and markets fell around the world. Apple's shares, which had more than doubled since January, fell further than the market.",
-    "why": "A market event; Apple ended 1987 still twice as high as a year earlier.",
-    "assets": [
-      "aapl"
-    ],
-    "move": {
-      "asset": "aapl",
-      "pct": -32
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/aapl.json (monthly prices)"
   },
   {
     "month": "1989-09",
@@ -222,7 +212,8 @@
       "pct": -12
     },
     "importance": 2,
-    "source": "SFGate \"Apple layoffs: Painful but necessary\" and Post-Bulletin, via search summaries (pages did not load) (read 2026-10-03); Seattle Times 1991-05-18 for the staff total; price changes from data/out/aapl.json"
+    "source": "SFGate \"Apple layoffs: Painful but necessary\" and Post-Bulletin, via search summaries (pages did not load) (read 2026-10-03); Seattle Times 1991-05-18 for the staff total; price changes from data/out/aapl.json",
+    "lead": true
   },
   {
     "month": "1991-07",
@@ -239,18 +230,6 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/AIM_alliance (read 2026-10-03); price change from data/out/aapl.json"
-  },
-  {
-    "month": "1992-04",
-    "title": "Apple loses its copyright case against Windows",
-    "what": "On 15 April a federal judge ruled that the screen displays Apple complained about in Windows 2.03, and many of those in Windows 3.0, are not protected by Apple's copyrights. Microsoft has just shipped Windows 3.1 with more than a million advance orders.",
-    "why": "Removed Apple's last hope of stopping Windows by law.",
-    "assets": [
-      "aapl",
-      "msft"
-    ],
-    "importance": 2,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03)"
   },
   {
     "month": "1993-10",

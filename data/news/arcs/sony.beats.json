@@ -41,30 +41,8 @@
     "assets": [
       "sony"
     ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Compact_disc (read 2026-10-03); data/news/1982.json (read 2026-10-03)"
-  },
-  {
-    "month": "1984-01",
-    "title": "Supreme Court rules for Sony in the Betamax case",
-    "what": "On 17 January the US Supreme Court ruled 5-4 that makers of video recorders are not liable when owners copy television programmes, because recording a programme to watch later is fair use. Hollywood studios had sued Sony in 1976.",
-    "why": "The ruling secures the home video market, though Sony's own Betamax format goes on to lose the format war to VHS.",
-    "assets": [
-      "sony"
-    ],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Sony_Corp._of_America_v._Universal_City_Studios,_Inc. (read 2026-10-03)"
-  },
-  {
-    "month": "1985-09",
-    "title": "The Plaza Accord pushes the yen up",
-    "what": "On 22 September the finance ministers and central bankers of the United States, Japan, West Germany, France and Britain agreed at the Plaza Hotel in New York to push the dollar down. The yen rose about 10% against the dollar in September. A stronger yen makes Japanese exports dearer abroad, but raises the dollar value of Japanese shares.",
-    "why": "The start of endaka, the strong yen, which squeezes Sony's export profits and pushes Japan into the cheap-money bubble. Sony's ADR rose 21% in October.",
-    "assets": [
-      "sony"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Compact_disc (read 2026-10-03); data/news/1982.json (read 2026-10-03)"
   },
   {
     "month": "1986-12",
@@ -76,21 +54,6 @@
     ],
     "importance": 3,
     "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03, via data/news/1986.json for the index level)"
-  },
-  {
-    "month": "1987-11",
-    "title": "Sony agrees to buy CBS Records for $2 billion",
-    "what": "On 17 November Sony agreed to buy CBS Records, one of the world's biggest record companies, for 2 billion dollars. Sony would own the Columbia and Epic labels and a huge catalogue of recordings to play on its machines. Sony shares rose 19% in November even as markets kept falling after the October crash.",
-    "why": "The first of Norio Ohga's two big American media deals. The month's rise against a falling market (-9%) points to the deal; the link is our reading.",
-    "assets": [
-      "sony"
-    ],
-    "move": {
-      "asset": "sony",
-      "pct": 19
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Sony_Music (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
   },
   {
     "month": "1988-01",
@@ -127,19 +90,8 @@
       "asset": "sony",
       "pct": -22
     },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "Sony sells the first lithium-ion battery",
-    "what": "This year Sony, with Asahi Kasei, brought out the first commercial lithium-ion rechargeable battery. It stores more energy for its weight than older batteries and suits camcorders and portable electronics.",
-    "why": "A quiet invention that powers the phone and laptop era; Sony leads the battery industry until the 2006 recall. The month is not confirmed in the source.",
-    "assets": [
-      "sony"
-    ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/History_of_Sony (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
   },
   {
     "month": "1993-10",

@@ -26,34 +26,8 @@
     "what": "On 22 September the finance ministers of the US, Japan, West Germany, France and Britain agreed at the Plaza Hotel in New York to push the dollar down, after it had gained about 50% against their currencies since 1980. The dollar bought about 242 yen on 20 September and about 217 yen at the end of the month. Japan's exporters, whose goods get dearer abroad, are the most exposed.",
     "why": "The turning point of the arc. The yen roughly doubled within three years; to fight the strong-yen recession Japan cut rates and spent, and the cheap money became the bubble.",
     "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1985 (Bank of England daily rates, read 2026-10-03)"
-  },
-  {
-    "month": "1986-03",
-    "title": "Bank of Japan cuts again as the yen soars",
-    "what": "On 10 March the Bank of Japan cut its discount rate from 4.5% to 4%, its second cut since January, when the rate was 5%. The dollar, which bought about 240 yen before the Plaza agreement, now buys about 180. Cheaper money is meant to help exporters hurt by the strong yen, and Tokyo shares are rising.",
-    "why": "The easing that fed the bubble: further cuts followed in April and November 1986 and February 1987. A stronger yen also lifts the dollar value of every Japanese share.",
-    "assets": [],
-    "move": {
-      "asset": "ibj",
-      "pct": 45
-    },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1986 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-01",
-    "title": "Tokyo's Nikkei passes 20,000",
-    "what": "Japan's Nikkei 225 share index closed above 20,000 for the first time on 30 January, up from about 13,000 at the end of 1985. The dollar has fallen to about 153 yen. Cheap money is pushing up shares and land.",
-    "why": "The bubble in full swing. In dollars, Japanese bank shares rose on both the market and the currency.",
-    "assets": [],
-    "move": {
-      "asset": "ibj",
-      "pct": 69
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1985 (Bank of England daily rates, read 2026-10-03)"
   },
   {
     "month": "1987-04",
@@ -65,22 +39,14 @@
     "source": "https://www.reaganlibrary.gov/archives/speech/statement-tariff-increases-japanese-semiconductor-products (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1987/04/18/sanctions-imposed-on-japan/f0daac66-74fe-4f5c-96ce-3aa08898b4bd/ (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Louvre_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
   },
   {
-    "month": "1987-10",
-    "title": "The crash reaches Tokyo and Hong Kong",
-    "what": "After Wall Street's crash on 19 October, Tokyo's Nikkei fell 14.9% on 20 October to 21,910, from a record of 26,118 on 1 September. Hong Kong closed its stock exchange for four working days, and Hong Kong, Singapore and Australia lost more than 40% over the month.",
-    "why": "Tokyo fell least among the big markets and recovered first, which convinced Japanese investors their market was different. The crash itself belongs to the 1987 crash arc.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/news/1987.json"
-  },
-  {
     "month": "1988-12",
     "title": "Nikkei passes 30,000",
     "what": "Tokyo's Nikkei 225 passed 30,000 in December and ended the year at 30,159, up from 21,564 a year earlier. The dollar buys about 124 yen, half of what it bought before the Plaza agreement. Japan's banks are now the biggest in the world by assets and stock market value.",
     "why": "The year Tokyo's mania became the world's largest stock market story; land in central Tokyo was by now priced in the stratosphere.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://www.capitalmind.in/insights/lost-decades-japan-1980s-asset-price-bubble (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://www.capitalmind.in/insights/lost-decades-japan-1980s-asset-price-bubble (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1989-06",
@@ -89,7 +55,8 @@
     "why": "The great interruption of China's reforms: for almost three years conservatives held back the opening, until Deng's southern tour in 1992.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1989-10",
@@ -97,17 +64,8 @@
     "what": "Mitsubishi Estate, the property company of the Mitsubishi group, is buying control of the Rockefeller Group, owner of Rockefeller Center in New York. It comes a month after Sony agreed to buy Columbia Pictures. Americans are uneasy about Japanese money buying up their landmarks.",
     "why": "The symbol of the top. The Rockefeller Group went bankrupt in 1995 and Mitsubishi gave up the buildings at a large loss.",
     "assets": [],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json"
-  },
-  {
-    "month": "1989-12",
-    "title": "Nikkei ends the decade at a record 38,915",
-    "what": "Tokyo's Nikkei 225 closed at a record 38,915.87 on 29 December, about six times its level at the start of the decade. Four of the world's five most valuable companies are Japanese banks, led by the Industrial Bank of Japan at about $104 billion. The Bank of Japan, under its new governor Yasushi Mieno, raised its rate on 25 December to 4.25%, its third rise since May.",
-    "why": "The peak. The Nikkei did not close above this level again for 34 years, until February 2024.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://finance.yahoo.com/news/were-5-biggest-companies-1989-070200748.html (read 2026-10-03)"
   },
   {
     "month": "1990-03",
@@ -120,51 +78,8 @@
       "pct": -29
     },
     "importance": 1,
-    "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)"
-  },
-  {
-    "month": "1990-10",
-    "title": "Nikkei touches 20,000, then bounces as the yen recovers",
-    "what": "By 1 October the Nikkei had fallen to about 20,000, almost half its December level, after the Bank of Japan raised its rate to 6% on 30 August and Iraq's invasion of Kuwait pushed up oil. During October shares bounced back, and the yen strengthened from about 138 to about 130 per dollar.",
-    "why": "A bear-market rally: the Nikkei ended 1990 at 23,849, down 39% on the year, and kept falling for two more years.",
-    "assets": [],
-    "move": {
-      "asset": "ibj",
-      "pct": 32
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://www.capitalmind.in/insights/lost-decades-japan-1980s-asset-price-bubble (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1990 (read 2026-10-03)"
-  },
-  {
-    "month": "1990-12",
-    "title": "China opens stock exchanges in Shanghai and Shenzhen",
-    "what": "The Shanghai Stock Exchange, closed since the revolution, reopened and began trading on 19 December, and a stock exchange has been founded in Shenzhen. Only a handful of companies are listed.",
-    "why": "The start of China's stock market, which became the world's second largest and the scene of the manias of 2007 and 2015.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/SSE_Composite_Index (read 2026-10-03)"
-  },
-  {
-    "month": "1992-03",
-    "title": "Deng's southern tour restarts China's reforms",
-    "what": "Deng Xiaoping, 87, toured Shenzhen, Zhuhai, Shanghai and other cities from 18 January to 21 February, urging bolder reforms: 'development is of overriding importance'. Hong Kong papers reported the trip first; on 26 March the Shenzhen Special Zone Daily published the first full account in mainland China.",
-    "why": "Ended the post-Tiananmen freeze. Growth was about 13% in both 1992 and 1993 and foreign investment poured in; China's long boom dates from here.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour (read 2026-10-03)"
-  },
-  {
-    "month": "1992-08",
-    "title": "Nikkei falls to 14,309, then rebounds",
-    "what": "The Nikkei fell to 14,309 on 18 August, 63% below its peak of December 1989. The Tokyo market is now worth about 269 trillion yen, less than half its 611 trillion at the end of 1989. Banks are weighed down by loans backed by land whose price is falling.",
-    "why": "The low of the first bust. Bank shares rebounded sharply from it within the month; the trigger (talk of government support for the market and the banks) is not confirmed here and the IBJ arc should give the detail.",
-    "assets": [],
-    "move": {
-      "asset": "ibj",
-      "pct": 40
-    },
-    "importance": 2,
-    "source": "https://www.capitalmind.in/insights/lost-decades-japan-1980s-asset-price-bubble (read 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
+    "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1995-02",

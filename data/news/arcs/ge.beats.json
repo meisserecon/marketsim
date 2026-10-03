@@ -24,21 +24,6 @@
     "cut": true
   },
   {
-    "month": "1982-08",
-    "title": "Wall Street's great rally begins",
-    "what": "On 17 August the Dow jumped a record 39 points after Salomon Brothers economist Henry Kaufman, until then gloomy, predicted that interest rates would fall to single digits within a year; the next day trading passed 100 million shares for the first time. Industrial companies like General Electric rallied with the market.",
-    "why": "Explains GE's +14% month (market +12%) and the start of the 1982-1987 bull market; GE rose 65% in 1982.",
-    "assets": [
-      "ge"
-    ],
-    "move": {
-      "asset": "ge",
-      "pct": 14
-    },
-    "importance": 3,
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03)"
-  },
-  {
     "month": "1984-07",
     "title": "GE buys a big reinsurer and builds a finance arm",
     "what": "General Electric paid Texaco 1.075 billion dollars in cash for Employers Reinsurance, one of the three largest US property and casualty reinsurers. It formed General Electric Financial Services to hold it together with GE Credit, which has 16 billion dollars of assets and is the largest diversified finance and leasing company in the country.",
@@ -50,32 +35,6 @@
     "source": "https://www.upi.com/Archives/1984/07/02/General-Electric-Corp-expanded-its-interests-into-fast-growth-financial/8730457588800/ (read 2026-10-03)"
   },
   {
-    "month": "1985-12",
-    "title": "GE buys RCA and NBC for 6.3 billion dollars",
-    "what": "General Electric agreed to buy RCA for 6.28 billion dollars, mainly to own the NBC television network. It is the largest takeover outside the oil industry ever, bigger than the Capital Cities purchase of ABC earlier this year.",
-    "why": "Makes GE a media company too; NBC stayed until 2013. The stock rose 28% in 1985 and 18% in 1986.",
-    "assets": [
-      "ge"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing UPI 1985-12-11)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Black Monday",
-    "what": "On 19 October the Dow Jones average fell 22.6% in one day, the worst crash in its history. General Electric, one of the most widely held stocks, fell almost as much as the market over the month.",
-    "why": "Explains the -23% month: a market event. GE recovered within two years (+44% in 1989).",
-    "assets": [
-      "ge"
-    ],
-    "move": {
-      "asset": "ge",
-      "pct": -23
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ge.json (monthly change)"
-  },
-  {
     "month": "1988-06",
     "title": "GE Plastics buys Borg-Warner's chemicals for 2.3 billion dollars",
     "what": "General Electric's plastics division bought the chemicals business of Borg-Warner, which makes ABS plastic for computer cabinets, car parts and football helmets, for 2.3 billion dollars, 1 billion in cash and 1.3 billion borrowed. The unit had sales of 1.25 billion dollars last year; GE Plastics expects its own sales to grow from about 3 billion to 5 billion dollars a year.",
@@ -85,47 +44,6 @@
     ],
     "importance": 3,
     "source": "https://www.upi.com/Archives/1988/06/16/General-Electric-Co-said-Thursday-it-has-acquired-through/7418582436800/ (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 2007 sale to SABIC)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait and oil doubles",
-    "what": "Iraq invaded Kuwait on 2 August. Oil, at about 17 dollars a barrel in July, is climbing fast, and fears of a recession are pulling shares down. General Electric, with its finance arm and its appliance and engine businesses, is exposed to a slowdown.",
-    "why": "A world beat to anchor GE's -13% month and -11% year; GE rose 33% in 1991 as rates fell.",
-    "assets": [
-      "ge"
-    ],
-    "move": {
-      "asset": "ge",
-      "pct": -13
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1990_oil_price_shock (read 2026-10-03)"
-  },
-  {
-    "month": "1991-12",
-    "title": "The Fed cuts rates again and stocks surge",
-    "what": "The Federal Reserve cut its key rate by half a point to 4% on 20 December, its tenth cut of the year. Stocks rallied hard into the year end. General Electric, with the largest finance company in the country, benefits from cheaper money.",
-    "why": "Explains GE's +18% month (market +11%).",
-    "assets": [
-      "ge"
-    ],
-    "move": {
-      "asset": "ge",
-      "pct": 18
-    },
-    "importance": 3,
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03); data/news/arcs/movers.md (S&P 500 +11% in 1991-12)"
-  },
-  {
-    "month": "1993-12",
-    "title": "GE sells its aerospace business to Martin Marietta",
-    "what": "General Electric has sold its aerospace business to Martin Marietta this year. GE keeps its aircraft engine business.",
-    "why": "Portfolio pruning in the Welch style; the engine business (later GE Aviation, then GE Aerospace) is the one that survived everything else.",
-    "assets": [
-      "ge"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03: 'In 1993, GE sold its Aerospace business to Martin Marietta'); https://en.wikipedia.org/wiki/GE_Aerospace (read 2026-10-03, engine business history). Month of closing not confirmed."
   },
   {
     "month": "1994-04",

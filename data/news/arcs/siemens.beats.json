@@ -57,70 +57,6 @@
     "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
-    "month": "1985-12",
-    "title": "Siemens buys out Allis-Chalmers in the US",
-    "what": "This year Siemens bought Allis-Chalmers' interest in Siemens-Allis, the partnership formed in 1978 that supplies electrical control equipment in the United States. Siemens shares rose 21% in dollars in December, helped by a falling dollar after the Plaza Accord of September.",
-    "why": "An early step in building Siemens' American business. The 1985 rally (Siemens doubled in dollars during the year) is mostly the German market and the mark.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The October crash hits Frankfurt: Siemens loses a quarter",
-    "what": "Stock markets crashed worldwide in October, starting in Asia and spreading to Europe and then New York, where the Dow fell 22.6% on 19 October. German blue chips fell with them. Siemens shares lost about a quarter of their value in dollars during the month.",
-    "why": "A market beat: nothing Siemens-specific, but its worst month of the 1980s. Frankfurt needed more than a year to recover.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": -25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
-    "month": "1988-12",
-    "title": "Siemens buys Rolm from IBM and bids for Plessey with GEC",
-    "what": "On 13 December IBM agreed to hand Rolm, a leading US maker of business telephone systems, to Siemens; the price was not disclosed, IBM had paid 1.26 billion dollars for it in 1984, and it has lost about 100 million a year since. Also this month Siemens and Britain's GEC teamed up in a hostile bid for the British electronics group Plessey worth about 3.1 billion dollars.",
-    "why": "Kaske spends the cash pile on telecoms and defence electronics abroad. Plessey is the first of the two big deals of this era; Nixdorf follows in 1990.",
-    "assets": [
-      "siemens",
-      "ibm"
-    ],
-    "importance": 2,
-    "source": "https://www.upi.com/Archives/1988/12/13/IBM-telecommunications-division-to-become-part-of-Siemens/4989597992400/ (read 2026-10-03); https://www.globalsecurity.org/military/world/europe/plessey.htm (read 2026-10-03); data/news/1988.json for the bid date of 23 December (not re-checked)"
-  },
-  {
-    "month": "1989-09",
-    "title": "Siemens and GEC complete the Plessey takeover",
-    "what": "Siemens and GEC completed their takeover of Plessey on 8 September after raising their offer to about 3.3 billion dollars. Outside North America GEC takes Plessey's naval systems, avionics and cryptography, Siemens takes radar and defence systems, and the telecoms venture GPT is split 60-40 between GEC and Siemens.",
-    "why": "The Plessey deal: Siemens' biggest foreign acquisition of the decade. It sells the defence part to British Aerospace and DaimlerChrysler Aerospace in 1997.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 1,
-    "source": "https://www.globalsecurity.org/military/world/europe/plessey.htm (read 2026-10-03); https://en.wikipedia.org/wiki/GEC_Plessey_Telecommunications (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
-  },
-  {
-    "month": "1989-11",
-    "title": "The Berlin Wall falls and German shares soar",
-    "what": "On 9 November East Germany opened its border crossings and the Berlin Wall fell, after weeks of mass protests and refugee flights. Siemens, which builds power plants, telephone networks and trains, rose 21% in dollars in November.",
-    "why": "The reunification rally: Siemens gains another 21% in December, as investors price in the rebuilding of East Germany. The link to the Wall is our reading of the timing; no Siemens news drove the month.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": 21
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
     "month": "1990-10",
     "title": "Siemens takes over Nixdorf",
     "what": "On 1 October Siemens took over the shares of Nixdorf Computer, the troubled Paderborn computer maker, and merged it with its own data systems business as Siemens Nixdorf Informationssysteme (SNI). Nixdorf had swung from an operating profit of 331 million marks in 1987 to a loss in 1988. The combination makes Siemens the largest computer company in Europe.",
@@ -129,29 +65,8 @@
       "siemens"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
-  },
-  {
-    "month": "1991-10",
-    "title": "Siemens buys Texas Instruments' industrial controls unit",
-    "what": "In October Siemens acquired the Industrial Systems Division of Texas Instruments, based in Johnson City, Tennessee. Siemens is still digesting Nixdorf, where thousands of jobs have been cut in Paderborn.",
-    "why": "Factory automation, bought piece by piece, becomes the core of the Siemens of the 2020s.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03)"
-  },
-  {
-    "month": "1992-12",
-    "title": "Heinrich von Pierer becomes chief executive",
-    "what": "During 1992 Heinrich von Pierer, a lawyer who ran the nuclear power unit KWU, succeeded Karlheinz Kaske as chief executive. Siemens Nixdorf became a wholly owned subsidiary this year, and Siemens also bought out IBM's half of the Rolm telephone business.",
-    "why": "Von Pierer runs Siemens until January 2005, exits many traditional businesses and later resigns as supervisory board chairman over the bribery scandal. The exact month of his start is not confirmed in the sources read, hence a year-end beat.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Heinrich_von_Pierer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1994-12",

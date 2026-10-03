@@ -46,7 +46,8 @@
       "slb"
     ],
     "importance": 2,
-    "source": "https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (read 2026-10-03); data/out/slb.json (share price versus November 1980)"
+    "source": "https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (read 2026-10-03); data/out/slb.json (share price versus November 1980)",
+    "lead": true
   },
   {
     "month": "1984-09",
@@ -58,17 +59,6 @@
     ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1984/12/31/A-month-by-month-chronology-of-the-1984-stock-market-using/9393473317200/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (price) (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (Sedco Forex formed from Forex Neptune and Sedco) (read 2026-10-03); Schlumberger 1986 annual report (North Sea rig rates peaked in 1981), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
-  },
-  {
-    "month": "1985-10",
-    "title": "Jean Riboud, Schlumberger's chief for 20 years, dies",
-    "what": "Jean Riboud, who ran Schlumberger as chairman and chief executive for two decades and turned it into one of the world's most valuable companies, died on 20 October at 65 after a long illness. Michel Vaillaud had taken over as chairman in September. Schlumberger's profits are falling with oil drilling.",
-    "why": "The end of the founding era; his successor lasted barely a year.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Jean_Riboud (read 2026-10-03); https://www.upi.com/Archives/1986/10/02/Schlumberger-ousts-chairman/2096528609600/ (read 2026-10-03)"
   },
   {
     "month": "1986-10",
@@ -93,32 +83,6 @@
     "source": "Schlumberger 1986 annual report, chairman's letter and financial highlights (auditors' report dated 12 February 1987), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
   },
   {
-    "month": "1987-08",
-    "title": "Fairchild sold to National Semiconductor for 122 million",
-    "what": "Schlumberger sold its Fairchild Semiconductor business to National Semiconductor, announced on 31 August, for about 122 million dollars in National stock and warrants; one analyst called it a bargain-basement price. A plan to merge Fairchild with Fujitsu's chip business was called off in March after mounting criticism from the US government. Schlumberger paid 425 million for Fairchild in 1979, and the sale is reported to cost it a loss of about 220 million.",
-    "why": "Closes the diversification mistake of the boom years; from now on Schlumberger is an oilfield company.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 2,
-    "source": "https://www.upi.com/Archives/1987/08/31/National-Semiconductor-Corp-Monday-said-it-has-bought-rival/5063557380800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (1979 price, reported loss) (read 2026-10-03); Schlumberger 1986 annual report, chairman's letter (Fujitsu deal ended 16 March 1987), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash takes a quarter off Schlumberger",
-    "what": "On 19 October the Dow Jones fell 22.6 percent in a day, its largest one-day percentage drop ever. Schlumberger, whose shares had risen by half this year, fell about a quarter in the month.",
-    "why": "A market beat (the crash) that hit high-hopes stocks like Schlumberger harder than the market; it wiped out all of 1987's recovery.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/slb.json (1987 share price path)"
-  },
-  {
     "month": "1989-02",
     "title": "Schlumberger's profit doubles",
     "what": "Schlumberger's operating results for 1988 rose to 419 million dollars from 211 million, excluding one-off items. Operating income in oilfield services tripled as North American wireline returned to profit, though oil price weakness hurt activity in the second half. It raised its stake in the Norwegian seismic company GECO from 50 to 75 percent.",
@@ -128,39 +92,6 @@
     ],
     "importance": 3,
     "source": "Schlumberger 1988 annual report, chairman's letter dated 7 February 1989, https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
-  },
-  {
-    "month": "1991-01",
-    "title": "The Gulf oil spike fades before it reaches the oilfields",
-    "what": "After Iraq invaded Kuwait in August, oil jumped to 42 dollars a barrel in early October, but it has fallen back to about 25. Analysts expect it to average less than 25 dollars in 1991 even if war breaks out, and Saudi Arabia has largely replaced the lost Iraqi and Kuwaiti oil. Schlumberger's shares, up by a third in the spring and summer of 1990, have given back much of the gain.",
-    "why": "The Gulf crisis from the oilfield side: a price spike is not a drilling boom. The early 1990s were flat years for Schlumberger.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 3,
-    "source": "https://www.upi.com/Archives/1991/01/10/The-year-1990-may-be-remembered-as-the-time/7067663483600/ (read 2026-10-03); data/out/slb.json"
-  },
-  {
-    "month": "1992-12",
-    "title": "A company of 51,000 people from 103 nations",
-    "what": "Schlumberger, run from New York and Paris and listed in New York, now employs more than 51,000 people of more than 103 nationalities. Under Euan Baird it has sold Fairchild and concentrates on oilfield services, where it offers wireline logging, well testing, drilling and pumping services, seismic surveys and offshore drilling rigs, alongside a business making meters and measuring equipment.",
-    "why": "A portrait beat for the quiet early 1990s, when the shares moved sideways with a flat oil price.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 3,
-    "source": "https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03); Schlumberger 1988 annual report (business lines), https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
-  },
-  {
-    "month": "1993-12",
-    "title": "Schlumberger takes full control of Dowell",
-    "what": "This year Schlumberger bought Dow Chemical's half of Dowell Schlumberger, their joint pumping and well-cementing business, for about 800 million dollars in cash and warrants. Schlumberger earned 335 million dollars in 1993 after a charge for retiree benefits.",
-    "why": "Builds the oilfield-services core that drove the late-1990s boom. The month of the deal could not be confirmed; the beat sits at the year end.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 3,
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data, https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03)"
   },
   {
     "month": "1995-03",

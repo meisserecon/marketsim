@@ -4,26 +4,24 @@
     "title": "Industrial Bank of Japan, banker to Japan's big industry, joins the game",
     "what": "The Industrial Bank of Japan, founded in 1902 as a state bank to finance industry, is a long-term credit bank: it lends for many years to large companies such as steelmakers, shipbuilders and carmakers and funds itself by issuing debentures. Its ordinary income passed 1 trillion yen in 1982, and it holds shares in many of its clients.",
     "why": "The listing beat for the purest bet on the Japanese bubble: a bank whose value rises with Tokyo's share and land prices and falls with them.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03); data/src/profiles.ts (read 2026-10-03)"
-  },
-  {
-    "month": "1985-09",
-    "title": "The Plaza Accord: the yen starts to climb",
-    "what": "On 22 September the United States, Japan, West Germany, France and Britain agreed at New York's Plaza Hotel to push the dollar down. The yen rose about 10% against the dollar in September, which raises the dollar value of Japanese shares.",
-    "why": "The strong yen leads the Bank of Japan to cut rates repeatedly in 1986 and 1987, the cheap money that inflates the bubble.",
-    "assets": ["ibj"],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
   },
   {
     "month": "1986-03",
     "title": "Bank of Japan cuts rates again; bank shares jump",
     "what": "The Bank of Japan cut its discount rate to 4.0% on 10 March, its second cut this year after a reduction from 5.0% to 4.5% on 30 January, to support an economy hurt by the strong yen. Cheaper money lowers what banks pay for funds and lifts the value of their shareholdings. IBJ shares rose 45% in March.",
     "why": "The first big leap of the bubble for IBJ. Almost all of it is the yen share price; the yen itself rose only 2% in the month.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 45 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 45
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/ibj.json (read 2026-10-03)"
   },
@@ -32,63 +30,50 @@
     "title": "Tokyo passes 20,000; IBJ soars",
     "what": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. IBJ shares rose 69% in January.",
     "why": "IBJ's best month in the game; it gains another 41% in April. Over the twelve months to April 1987 it quadruples.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 69 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 69
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "Tokyo is the last market to fall in the crash",
-    "what": "Stock markets crashed worldwide in October, first in Asia outside Japan, then in Europe and New York, and finally in Tokyo. IBJ shares fell 8% in dollars, 13% in yen.",
-    "why": "Tokyo recovers fastest of the big markets; the bubble resumes within months.",
-    "assets": ["ibj"],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/ibj.json (read 2026-10-03)"
-  },
-  {
-    "month": "1988-12",
-    "title": "The Nikkei passes 30,000",
-    "what": "Tokyo's Nikkei 225 passed 30,000 on 7 December, less than two years after crossing 20,000, as cheap money keeps pushing Japanese shares up. The Bank of Japan's discount rate has been 2.5% since February 1987.",
-    "why": "IBJ ends 1988 more than six times its 1985 listing price in dollars.",
-    "assets": ["ibj"],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1988.json for the 7 December date); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03)"
   },
   {
     "month": "1989-05",
     "title": "The Bank of Japan starts raising rates",
     "what": "On 30 May the Bank of Japan raised its discount rate from 2.5% to 3.25%, its first increase in years, as it grows worried about soaring share and land prices.",
     "why": "The beginning of the end of cheap money: three more increases follow by August 1990.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)",
+    "lead": true,
+    "note": "I remember a newspaper article from back then saying that the land of the imperial palace of Tokyo is now more valuable than Manhatten. Please add that information."
   },
   {
     "month": "1989-12",
     "title": "IBJ among the world's most valuable companies as Tokyo peaks",
     "what": "The Nikkei 225 hit a record intraday high of 38,957 on 29 December, six times its level at the start of the decade, despite another rate rise to 4.25% on 25 December. By some counts the Industrial Bank of Japan is now the most valuable company in the world, worth more than 100 billion dollars, ahead of Exxon.",
     "why": "The peak of the arc: from here IBJ falls 92% to August 1998.",
-    "assets": ["ibj", "xom"],
+    "assets": [
+      "ibj",
+      "xom"
+    ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)"
-  },
-  {
-    "month": "1990-03",
-    "title": "A full-point rate rise and the Tokyo market caves in",
-    "what": "On 20 March the Bank of Japan raised its discount rate from 4.25% to 5.25%. IBJ shares had already fallen in January and February as Tokyo slid from its peak, and the yen weakened about 6% against the dollar in March. IBJ shares fell 29% in dollars.",
-    "why": "The bubble bursts; bank shares fall hardest because they hold shares and land-backed loans.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": -29 },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
+    "lead": true
   },
   {
     "month": "1991-08",
     "title": "The Onoue scandal: IBJ lent billions to a restaurant owner",
     "what": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
     "why": "The Onoue scandal: the emblem of bubble-era lending, and a reputational blow to the most prestigious bank in Japan.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)"
   },
@@ -97,7 +82,9 @@
     "title": "IBJ's chairman resigns over the Onoue loans",
     "what": "On 22 October IBJ chairman Kaneo Nakamura resigned to take responsibility for 1.85 billion dollars of loans to Nui Onoue; two managing directors and a top adviser also quit and president Yo Kurosawa took a 50% pay cut for six months. 'We are the victims of the scandal but we can't evade our social responsibility,' Nakamura said.",
     "why": "IBJ later recovers only about 17 billion yen from Onoue's bankruptcy.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1991/10/22/The-chairman-of-the-Industrial-Bank-of-Japan-resigned/7963688104000/ (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)"
   },
@@ -106,17 +93,25 @@
     "title": "Tokyo hits bottom; the government steps in",
     "what": "The Nikkei fell to a post-bubble low of 14,338 on 19 August, having lost more than half its value since late 1989. On 28 August the government announced an 85 billion dollar package, including 9 billion dollars to support the stock market and a plan to help banks clear bad loans, estimated at 80 billion dollars or more. Shares rallied. IBJ rose 40% in August.",
     "why": "The first of many bank-rescue rallies; it does not last.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 40 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 40
+    },
     "importance": 2,
-    "source": "https://www.csmonitor.com/1992/0831/31011.html (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
+    "source": "https://www.csmonitor.com/1992/0831/31011.html (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1993-12",
     "title": "No recovery in sight for Japan's banks",
     "what": "Most of 1993 passed without a clear sign of economic recovery, and the troubles of the housing loan companies, the jusen, which borrowed heavily from banks, first hit the headlines this year. The Bank of Japan has concluded that risks in the financial system may be larger than widely believed.",
     "why": "The slow-burning bad-loan problem; the authorities do little until 1994.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -125,7 +120,9 @@
     "title": "Two Tokyo credit co-operatives fail",
     "what": "On 9 December two Tokyo credit co-operatives, Tokyo Kyowa and Anzen, failed. The Bank of Japan and private banks set up a new bank to take over their business, the first time in nearly 30 years that the central bank has put in risk capital. In October the Bank of Japan's governor said it is not the central bank's job to save every institution from failure.",
     "why": "The first failures of the crisis; larger ones follow in 1995 and 1997.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -134,7 +131,9 @@
     "title": "Hyogo Bank and Kizu Credit fail",
     "what": "Kizu Credit Cooperative and Hyogo Bank in western Japan failed in August, after Tokyo's Cosmo Credit Cooperative in July. Private banks are again asked to contribute to cover the losses.",
     "why": "The crisis reaches a listed bank; the big banks keep paying for rescues while carrying their own bad loans.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -143,8 +142,13 @@
     "title": "Bad-loan fears hit the major banks",
     "what": "By early 1997 it has become obvious that bad loans threaten the viability of some of Japan's major banks. Nippon Credit Bank, one of the three long-term credit banks alongside IBJ, has been struggling to raise funds since the start of the year. IBJ shares fell 27% in January.",
     "why": "The crisis reaches the big banks. IBJ is drawn into rescuing its weaker peer Nippon Credit Bank in April.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": -27 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": -27
+    },
     "importance": 2,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -153,7 +157,9 @@
     "title": "IBJ joins the rescue of Nippon Credit Bank",
     "what": "On 1 April Nippon Credit Bank announced a restructuring plan. A consortium of its large shareholders, mainly insurers, and the other two long-term credit banks, IBJ and the Long-Term Credit Bank of Japan, is to put in new capital together with the Bank of Japan.",
     "why": "IBJ pays to prop up a rival that fails anyway in December 1998.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -162,7 +168,9 @@
     "title": "Yamaichi and Hokkaido Takushoku collapse",
     "what": "Major financial firms failed almost weekly in November: Sanyo Securities on 3 November, Hokkaido Takushoku Bank, and on 24 November Yamaichi Securities, one of Japan's four largest brokers. Japanese banks' bad debts are estimated at 264 to 304 billion dollars.",
     "why": "The peak of the 1997 crisis; politicians start to discuss public money for the banks.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 2,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03)"
   },
@@ -171,7 +179,9 @@
     "title": "First public capital for the big banks",
     "what": "On 30 March all major banks, including IBJ, received public capital totalling 1.8 trillion yen under a law passed in February that makes 30 trillion yen of public funds available. Critics say the amount is far too small.",
     "why": "Too little: the calm lasts only until the summer. IBJ shares fell 17% in March.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
@@ -180,8 +190,13 @@
     "title": "The Long-Term Credit Bank crisis and the Russian default",
     "what": "The Long-Term Credit Bank of Japan, IBJ's closest peer, is in crisis: its shares plunged over 70% this summer as details of its bad loans leaked, and the authorities are trying to arrange a rescue merger with Sumitomo Trust Bank. World markets fell sharply in August. IBJ shares fell 29%.",
     "why": "IBJ's low point in the game, 92% below its 1989 peak.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": -29 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": -29
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
@@ -190,8 +205,13 @@
     "title": "LTCB nationalised under new bank laws; the yen leaps",
     "what": "New laws passed this autumn allow troubled banks to be nationalised and make 25 trillion yen available to recapitalise sound banks, doubling the public funds for the banking system to 60 trillion yen. The Long-Term Credit Bank was nationalised on 23 October. The yen rose about 17% against the dollar in October. IBJ rose 31% in dollars.",
     "why": "The system finally gets a safety net. About half of the dollar gain is the yen.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 31 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 31
+    },
     "importance": 2,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
   },
@@ -200,8 +220,13 @@
     "title": "7.5 trillion yen of public capital for 15 big banks",
     "what": "In March the government injected 7.5 trillion yen of public capital, mostly as preferred shares, into 15 major banks, more than four times the 1998 injection; IBJ had applied in January for about 600 billion yen. In return the banks must publish plans to improve profits. IBJ has written off close to 3 trillion yen of bad loans in total.",
     "why": "The real recapitalisation: the 'Japan premium' on bank borrowing begins to fall. IBJ rose 35% in March.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 35 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 35
+    },
     "importance": 2,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)"
   },
@@ -210,8 +235,13 @@
     "title": "IBJ, Fuji and Dai-Ichi Kangyo to form the world's biggest bank",
     "what": "On 20 August the Industrial Bank of Japan, Fuji Bank and Dai-Ichi Kangyo Bank agreed to combine under a joint holding company to be formed in autumn 2000, with full reorganisation by spring 2002. The group will have more than 1.2 trillion dollars of assets, ahead of Deutsche Bank, and plans to close 150 branches and cut 6,000 jobs. The three banks' shares rose almost 12% on reports the day before.",
     "why": "The defensive merger that ends IBJ's 98 years of independence. IBJ rose 26% in August.",
-    "assets": ["ibj"],
-    "move": { "asset": "ibj", "pct": 26 },
+    "assets": [
+      "ibj"
+    ],
+    "move": {
+      "asset": "ibj",
+      "pct": 26
+    },
     "importance": 1,
     "source": "https://www.deseret.com/1999/8/20/19461545/3-japanese-banks-merge/ (read 2026-10-03); https://money.cnn.com/1999/08/20/asia/japan_banks/ via web.archive.org (read 2026-10-03)"
   },
@@ -220,7 +250,9 @@
     "title": "IBJ's last month: Mizuho Holdings takes over",
     "what": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
     "why": "The exit: Mizuho Holdings is not in the game. A dollar investor who bought at the 1985 listing ends 49% up after a 92% fall; one who bought at the 1989 peak loses more than 80%.",
-    "assets": ["ibj"],
+    "assets": [
+      "ibj"
+    ],
     "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1335730/000119312506210651/d20fr12b.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03); data/src/universe.ts (read 2026-10-03)"
   }

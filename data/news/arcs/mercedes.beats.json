@@ -23,19 +23,8 @@
       "asset": "mercedes",
       "pct": 19
     },
-    "importance": 3,
+    "importance": 2,
     "source": "Mercedes-Benz Classic, Illustrated Chronicle 1982 ('Market launch of 190 and 190 E'), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1982.xhtml?oid=4910821 (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_W201 (read 2026-10-03)"
-  },
-  {
-    "month": "1983-12",
-    "title": "Werner Breitschwerdt takes over after the death of Gerhard Prinz",
-    "what": "Gerhard Prinz, chairman of the Daimler-Benz board of management, died suddenly on 29 October. On 1 December the supervisory board appointed Werner Breitschwerdt, a member of the board, as his successor. Daimler shares have risen strongly this year along with the whole German market.",
-    "why": "Breitschwerdt was the last pure car man at the top for a decade; his short reign ended in 1987 when Deutsche Bank backed the strategist Edzard Reuter.",
-    "assets": [
-      "mercedes"
-    ],
-    "importance": 3,
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1983 ('Breitschwerdt takes the chair on the Board of Management', 1 December 1983), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1983.xhtml?oid=4910841 (read 2026-10-03); https://de.wikipedia.org/wiki/Werner_Breitschwerdt (read 2026-10-03); data/out/mercedes.json (December 1982 to December 1983 +45% in dollars) (read 2026-10-03)"
   },
   {
     "month": "1985-06",
@@ -53,36 +42,6 @@
     "source": "Mercedes-Benz Classic, Illustrated Chronicle 1985 ('MTU becomes subsidiary', 14 February 1985; 'Daimler-Benz acquires Dornier shares', 23 April and 15 May 1985), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko.xhtml?oid=4910873&viewType=list (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03); Die Zeit, 'Börsen-Report: Daimler ist Spitze', 30 August 1985, https://www.zeit.de/1985/36/daimler-ist-spitze (read 2026-10-03); data/manual/mercedes.csv header (1985-05 left out) (read 2026-10-03)"
   },
   {
-    "month": "1985-10",
-    "title": "Daimler buys into AEG, the biggest takeover in German history",
-    "what": "On 14 October Daimler-Benz announced that it will take a majority of the troubled electrical group AEG, starting with 24.9% and rising to more than half once the cartel office agrees; the price is put at about 1.6 billion marks. The deal drew worldwide attention to the Frankfurt market, which set post-war records in prices and turnover, with Daimler rising 40 to 50 marks a day. Since the Plaza agreement of 22 September the dollar has been falling against the mark.",
-    "why": "AEG completed Reuter's 'integrated technology group'. In dollars the month's +27% was boosted by the falling dollar after the Plaza Accord (about 7 points of it).",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": 27
-    },
-    "importance": 1,
-    "source": "Mercedes-Benz Classic, 'Daimler-Benz acquires majority of AEG', 14 October 1985, https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Daimler-Benz-acquires-majority-of-AEG.xhtml?oid=4910881 (read 2026-10-03); Die Zeit, 'Börsen-Report: Wild bewegt', 18 October 1985, https://www.zeit.de/1985/43/wild-bewegt (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03)"
-  },
-  {
-    "month": "1985-12",
-    "title": "Deutsche Bank sells Flick's Daimler stake in a day",
-    "what": "Deutsche Bank bought the Flick group, including 3.4 million Daimler-Benz shares (about 10%), and resold them within a day to some 140 banks and investors around the world at 1,120 marks each, raising 3.8 billion marks. Demand was so great that the offer was closed early. Daimler's share price had jumped to 1,220 marks just before the sale.",
-    "why": "The placement spread Daimler's shares widely and marked the peak of the 1985 Daimler euphoria; in 1986 the market valued the company at more than 50 billion marks.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": 13
-    },
-    "importance": 2,
-    "source": "Der Spiegel 52/1985, 'Gut bedient', 22 December 1985, https://www.spiegel.de/wirtschaft/gut-bedient-a-4ede640c-0002-0001-0000-000013516864 (read 2026-10-03); Daimler-Benz Annual Report 1985, 'Change in Shareholder Structure', https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1985.pdf (read 2026-10-03)"
-  },
-  {
     "month": "1987-07",
     "title": "Edzard Reuter to lead Daimler-Benz",
     "what": "Werner Breitschwerdt is stepping down as chairman of Daimler-Benz; Edzard Reuter, the board member for planning who arranged the purchases of MTU, Dornier and AEG, will succeed him on 1 September. Deutsche Bank's chief Alfred Herrhausen backed the choice. Reuter wants to forge the car maker and its new subsidiaries into an integrated technology group. The company is worth about 47.6 billion marks on the stock market.",
@@ -92,21 +51,6 @@
     ],
     "importance": 1,
     "source": "https://de.wikipedia.org/wiki/Edzard_Reuter (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1987 ('Edzard Reuter becomes Chairman of the Board of Management', 1 September 1987), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1987.xhtml?oid=4911147 (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash hits Daimler hard",
-    "what": "Stock markets around the world crashed in the second half of October. In Frankfurt, Daimler-Benz fell from 1,066 marks at the end of September to 813 marks at the end of October. Foreign investors, who had driven the boom, are selling their German shares, and higher interest rates had already cooled the market before the crash.",
-    "why": "Black Monday. The fall continued in November (Daimler 623 marks, -18% in dollars) as private investors sold too; Daimler's market value roughly halved over 1987.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -23
-    },
-    "importance": 1,
-    "source": "data/manual/raw/nzz-notes-1987.md (NZZ Frankfurt closes 30 Sep, 30 Oct, 30 Nov 1987) (read 2026-10-03); Die Zeit, 'Markt-Report: Zu viele junge Aktien', 23 October 1987, https://www.zeit.de/1987/44/zu-viele-junge-aktien (read 2026-10-03); Die Zeit, 'Markt-Report: Im freien Fall', 13 November 1987, https://www.zeit.de/1987/47/im-freien-fall (read 2026-10-03)"
   },
   {
     "month": "1988-02",
@@ -121,7 +65,8 @@
       "pct": 27
     },
     "importance": 2,
-    "source": "Die Zeit, 'Markt-Report: Aktien wieder hoffähig', 19 February 1988, https://www.zeit.de/1988/08/aktien-wieder-hoffaehig (read 2026-10-03); Die Zeit, 'Markt-Report: Ein Lichtblick', 12 February 1988, https://www.zeit.de/1988/07/ein-lichtblick (read 2026-10-03); Die Zeit, 'Daimler/MBB: Perversion', 12 February 1988, https://www.zeit.de/1988/07/perversion (read 2026-10-03)"
+    "source": "Die Zeit, 'Markt-Report: Aktien wieder hoffähig', 19 February 1988, https://www.zeit.de/1988/08/aktien-wieder-hoffaehig (read 2026-10-03); Die Zeit, 'Markt-Report: Ein Lichtblick', 12 February 1988, https://www.zeit.de/1988/07/ein-lichtblick (read 2026-10-03); Die Zeit, 'Daimler/MBB: Perversion', 12 February 1988, https://www.zeit.de/1988/07/perversion (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1989-12",
@@ -137,58 +82,6 @@
     },
     "importance": 1,
     "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); Die Zeit, 'Daimler/MBB: Prinzip Hoffnung', 24 November 1989, https://www.zeit.de/1989/48/prinzip-hoffnung (read 2026-10-03); Daimler-Benz Annual Report 1989, 'Allocation of Earnings' (capital increase of November 1989), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1989.pdf (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1989 ('Mercedes-Benz AG formed', 29 June 1989), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1989.xhtml?oid=4912361 (read 2026-10-03)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait, one of Daimler's biggest shareholders",
-    "what": "Iraqi troops invaded Kuwait on 2 August. Oil prices jumped and stock markets fell around the world. Kuwait has owned about 14% of Daimler-Benz since 1974. The dollar has fallen below 1.60 marks, which hurts Daimler's aircraft business because airliners are sold in dollars.",
-    "why": "Gulf crisis sell-off; the fall continued in September (-18%). It ended the reunification boom on the Frankfurt market.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "Die Zeit, 'Aktien haben ihren Reiz verloren', 17 August 1990, https://www.zeit.de/1990/34/aktien-haben-ihren-reiz-verloren (read 2026-10-03); Die Zeit, 'Manager und Märkte' (Daimler-Benz: Druck vom Dollar), 24 August 1990, https://www.zeit.de/1990/35/manager-und-maerkte (read 2026-10-03); Daimler-Benz Annual Report 1985, 'Change in Shareholder Structure' (Kuwait about 14%), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1985.pdf (read 2026-10-03)"
-  },
-  {
-    "month": "1991-02",
-    "title": "Peace hopes in the Gulf lift Frankfurt",
-    "what": "Stock markets rose in February as the Gulf war neared its end, after Iraq said it was ready, under conditions, to leave Kuwait. Daimler-Benz, partly owned by Kuwait and hit hard by the oil shock and the weak dollar in the autumn, recovered with the market.",
-    "why": "+13%, a relief rally after the Gulf-crisis lows of autumn 1990.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": 13
-    },
-    "importance": 3,
-    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); data/out/mercedes.json (read 2026-10-03)"
-  },
-  {
-    "month": "1993-04",
-    "title": "DASA takes control of Fokker",
-    "what": "On 27 April Deutsche Aerospace, Daimler-Benz's aerospace arm, took a 51% stake in the Dutch aircraft maker Fokker, which builds regional airliners. DASA's chief Jürgen Schrempp wants to make it the leader in small passenger jets.",
-    "why": "The last big purchase of the conglomerate era, and the costliest: Fokker went bankrupt in 1996 after Daimler cut it off.",
-    "assets": [
-      "mercedes"
-    ],
-    "importance": 3,
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1993 ('Dasa acquires majority of Fokker', 27 April 1993), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1993.xhtml?oid=4912585 (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03)"
-  },
-  {
-    "month": "1993-10",
-    "title": "Daimler-Benz is the first German company on Wall Street",
-    "what": "On 5 October Daimler-Benz shares were listed on the New York Stock Exchange, the first German company there. To be admitted it agreed to publish accounts under American rules, which show more than the German ones. The listing comes in a deep recession: revenues fell in the first half of the year and the group is spending heavily on restructuring.",
-    "why": "The listing exposed Daimler's numbers: under US rules 1993 showed heavy losses, the first since the war, and the pressure from shareholders that followed helped end the Reuter era.",
-    "assets": [
-      "mercedes"
-    ],
-    "importance": 2,
-    "source": "Daimler-Benz Annual Report 1993 ('On October 5, 1993, Daimler-Benz AG was the first German company to be listed on the New York Stock Exchange'), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1993.pdf (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1993, https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1993.xhtml?oid=4912585 (read 2026-10-03)"
   },
   {
     "month": "1995-05",

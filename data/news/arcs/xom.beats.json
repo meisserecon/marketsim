@@ -24,17 +24,6 @@
     "cut": true
   },
   {
-    "month": "1984-03",
-    "title": "Oil merger wave: Chevron buys Gulf, Mobil buys Superior",
-    "what": "The oil industry is merging at enormous prices. In January Texaco won Getty Oil with a bid raised to 10.1 billion dollars; in March Gulf agreed to a 13.4 billion dollar takeover by Standard Oil of California (Chevron), and Mobil agreed to buy Superior Oil for 5.7 billion. Exxon, the biggest of them all, is not bidding; it is buying back its own shares instead.",
-    "why": "Exxon's choice in the 1984 merger frenzy: buying its own oil reserves on the stock market (its own shares) rather than paying takeover premiums for others'. The shares rose 12% in August 1984 with the market.",
-    "assets": [
-      "xom"
-    ],
-    "importance": 3,
-    "source": "https://www.upi.com/Archives/1984/12/31/A-month-by-month-chronology-of-the-1984-stock-market-using/9393473317200/ (read 2026-10-03); https://fortune.com/2012/11/21/beating-the-market-by-buying-back-stock/ (Fortune, 29 April 1985, on the buyback since mid-1983) (read 2026-10-03)"
-  },
-  {
     "month": "1985-04",
     "title": "Exxon has quietly bought back a tenth of its own shares",
     "what": "Since mid-1983 Exxon has spent more than 3.5 billion dollars buying back about 10 percent of its own stock, at an average of about 41 dollars a share against a recent price of about 50, and it shows no sign of stopping. At the same time it keeps a large exploration programme. Fortune calculates that buying its own shares has been a cheaper way to get oil reserves than drilling for them.",
@@ -44,47 +33,6 @@
     ],
     "importance": 2,
     "source": "https://fortune.com/2012/11/21/beating-the-market-by-buying-back-stock/ (quotes Fortune, 29 April 1985) (read 2026-10-03)"
-  },
-  {
-    "month": "1986-06",
-    "title": "Oil collapses and 6,200 Exxon workers take the exit",
-    "what": "The oil price, still about 24 dollars a barrel in January, has collapsed this spring. Exxon offered 40,500 US employees early retirement or a payout to cut about 15 percent of jobs (6,075); by the deadline 6,200 had accepted. Exxon employs 146,000 people worldwide and says the falling oil price forces the cut, even though first-quarter profit rose to 1.7 billion dollars.",
-    "why": "The 1986 oil collapse seen from Exxon: unlike the oilfield-service firms it kept earning money and cut costs early, so its shares kept rising through 1986 while Schlumberger's fell.",
-    "assets": [
-      "xom"
-    ],
-    "importance": 1,
-    "source": "https://www.upi.com/Archives/1986/06/04/Over-6000-Exxon-employees-agree-to-leave/8572518241600/ (read 2026-10-03); Schlumberger 1986 annual report, chairman's letter (oil price path in 1986), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-01",
-    "title": "Oil back at 18 dollars, and Exxon jumps with the market",
-    "what": "OPEC's December agreement to cut output is holding for now: US crude averaged about 18.65 dollars a barrel in January, against 11.59 dollars in July 1986. The S&P 500 rose about 13 percent in January, and Exxon's shares rose even faster as investors bet that the worst of the oil slump is over.",
-    "why": "Exxon's best month of the 1980s (+18%), a mix of the January 1987 bull market and the recovery of the oil price from the 1986 low. The gains were lost again in the October crash.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 18
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/MCOILWTICO (monthly WTI) (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md (S&P 500 month); Schlumberger 1986 annual report, chairman's letter ('early in 1987, prices have stayed around $18 per barrel following an agreement among OPEC'), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash hits Exxon too",
-    "what": "On 19 October the Dow Jones fell 22.6 percent in a single day, the largest one-day percentage drop in its history. Exxon's shares, which had risen by about 40 percent this year, fell with the market: about 12 percent in October, and the slide continued into November.",
-    "why": "A market beat seen from Exxon: -12% in October and -14% in November gave back most of the 1987 gains; by early 1988 the shares were recovering.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": -12
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/xom.json (1987 share price path)"
   },
   {
     "month": "1989-03",
@@ -105,7 +53,7 @@
     "assets": [
       "xom"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.upi.com/Archives/1989/10/23/Exxon-earnings-drop-94-percent/2515625118400/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_ExxonMobil (HQ move) (read 2026-10-03)"
   },
   {
@@ -118,17 +66,6 @@
     ],
     "importance": 3,
     "source": "https://www.upi.com/Archives/1991/10/08/Exxon-pleads-guilty-judge-accepts-1-billion-settlement/7997686894400/ (read 2026-10-03); https://evostc.state.ak.us/oil-spill-facts/settlement/ (read 2026-10-03)"
-  },
-  {
-    "month": "1993-04",
-    "title": "Lee Raymond becomes Exxon's chairman",
-    "what": "Lee Raymond became chairman of Exxon on 28 April, and is also chief executive from this year. He now runs the world's largest oil company.",
-    "why": "Raymond ran Exxon, then ExxonMobil, until the end of 2005: the Mobil merger and the record profits of the 2000s were his, and so was the company's long resistance to climate regulation.",
-    "assets": [
-      "xom"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)"
   },
   {
     "month": "1994-09",

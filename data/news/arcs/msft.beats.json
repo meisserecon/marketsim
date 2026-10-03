@@ -8,73 +8,8 @@
       "msft"
     ],
     "importance": 1,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-04",
-    "title": "Microsoft and IBM announce OS/2",
-    "what": "On 2 April Microsoft and IBM announced OS/2, a new operating system for IBM's new PS/2 computers, the first product of a joint development deal signed in 1985. Microsoft also writes DOS, the system on most PCs today, and sales for the year to June 1987 reach about 346 million dollars.",
-    "why": "In 1987 IBM was still Microsoft's most important partner. The stock rose almost fivefold in Microsoft's first eighteen months.",
-    "assets": [
-      "msft",
-      "ibm"
-    ],
-    "importance": 2,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1987 (read 2026-10-03)"
-  },
-  {
-    "month": "1987-10",
-    "title": "The crash halves the year's gains",
-    "what": "On 19 October the Dow Jones index fell 22.6% in one day, the largest drop in its history, and markets fell around the world. Microsoft's shares, which had more than doubled since January, fell with them. Earlier in the month Microsoft announced Excel for Windows.",
-    "why": "A market event; Microsoft's business was unaffected. The year's rise had made Bill Gates, aged 31, the world's youngest billionaire.",
-    "assets": [
-      "msft"
-    ],
-    "move": {
-      "asset": "msft",
-      "pct": -25
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Bill_Gates (read 2026-10-03)"
-  },
-  {
-    "month": "1988-03",
-    "title": "Apple sues Microsoft over Windows",
-    "what": "Apple sued Microsoft and Hewlett-Packard in March, claiming that Windows 2.0 copies the look of the Macintosh screen and breaks Apple's copyright. The case will test how far a company can protect the look of its software.",
-    "why": "If Apple had won, Windows would have been crippled; Apple lost the key ruling in April 1992.",
-    "assets": [
-      "msft",
-      "aapl"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Windows_2.0 (read 2026-10-03, via data/news/1988.json); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03)"
-  },
-  {
-    "month": "1989-06",
-    "title": "Microsoft Office for the Macintosh",
-    "what": "Microsoft Office for the Macintosh went on sale on 19 June, bundling Word, Excel, PowerPoint and Mail in one package. Sales for the year to June 1989 are about 805 million dollars.",
-    "why": "The first Office: bundling the leading programs became Microsoft's second franchise next to the operating system.",
-    "assets": [
-      "msft",
-      "aapl"
-    ],
-    "importance": 3,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1989 (read 2026-10-03, via data/news/1989.json)"
-  },
-  {
-    "month": "1990-05",
-    "title": "Windows 3.0 launches",
-    "what": "On 22 May Microsoft launched Windows 3.0 at a big event in New York. Its better use of computer memory makes it practical to run several programs side by side with a mouse and pictures, and software makers are now writing programs for it.",
-    "why": "The version that made Windows the standard and Microsoft the dominant software company. The stock rose 26% in the month, helped by a market up 9%.",
-    "assets": [
-      "msft"
-    ],
-    "move": {
-      "asset": "msft",
-      "pct": 26
-    },
-    "importance": 1,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1992-04",
@@ -86,18 +21,8 @@
       "aapl"
     ],
     "importance": 2,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1991 (read 2026-10-03)"
-  },
-  {
-    "month": "1993-04",
-    "title": "25 million Windows users",
-    "what": "Microsoft says more than 25 million people now use licensed copies of Windows, making it the most popular graphical operating system in the world.",
-    "why": "Windows had won the desktop.",
-    "assets": [
-      "msft"
-    ],
-    "importance": 3,
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1993 (read 2026-10-03)"
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1991 (read 2026-10-03)",
+    "note": "Needs an explainer why Microsoft is down on this news and Apple up"
   },
   {
     "month": "1994-07",

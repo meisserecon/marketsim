@@ -19,7 +19,7 @@
     "assets": [
       "bmw"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/BMW_3_Series_(E30) (read 2026-10-03)"
   },
   {
@@ -30,7 +30,7 @@
     "assets": [
       "bmw"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship (read 2026-10-03)"
   },
   {
@@ -46,7 +46,8 @@
       "pct": 25
     },
     "importance": 2,
-    "source": "Die Zeit, 'Börsen-Report: Daimler ist Spitze', 30 August 1985, https://www.zeit.de/1985/36/daimler-ist-spitze (read 2026-10-03)"
+    "source": "Die Zeit, 'Börsen-Report: Daimler ist Spitze', 30 August 1985, https://www.zeit.de/1985/36/daimler-ist-spitze (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1986-08",
@@ -64,21 +65,6 @@
     "source": "Die Zeit, 'Markt-Report: Aktien schlagen Renten', 22 August 1986, https://www.zeit.de/1986/35/aktien-schlagen-renten (read 2026-10-03); Die Zeit, 'Bank und Börse: Käufer kehren zurück', 29 August 1986, https://www.zeit.de/1986/36/kaeufer-kehren-zurueck (read 2026-10-03); https://en.wikipedia.org/wiki/BMW_7_Series_(E32) (read 2026-10-03); data/manual/bmw.csv header (rights issue 4:1 of 28 July 1986) (read 2026-10-03)"
   },
   {
-    "month": "1987-10",
-    "title": "The crash wipes almost a third off BMW",
-    "what": "Stock markets crashed around the world in the second half of October. In Frankfurt foreign investors, who drove the boom, sold heavily, and rising interest rates had already cooled the market. BMW shares lost about 29% in the month.",
-    "why": "Black Monday; the fall continued in November (-13%).",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": -29
-    },
-    "importance": 1,
-    "source": "Die Zeit, 'Markt-Report: Zu viele junge Aktien', 23 October 1987, https://www.zeit.de/1987/44/zu-viele-junge-aktien (read 2026-10-03); Die Zeit, 'Markt-Report: Im freien Fall', 13 November 1987, https://www.zeit.de/1987/47/im-freien-fall (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
-  },
-  {
     "month": "1988-10",
     "title": "BMW starts building the Z1 roadster",
     "what": "BMW began production of the Z1 in October, a two-seat roadster with plastic body panels and doors that slide down into the body. It was unveiled at the Frankfurt motor show in 1987; by the start of production the price had risen above the original target of 80,000 marks.",
@@ -88,21 +74,6 @@
     ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/BMW_Z1 (read 2026-10-03)"
-  },
-  {
-    "month": "1989-12",
-    "title": "The 'Germany boom' after the fall of the Wall",
-    "what": "Since the Berlin Wall opened in November, foreign investors have been buying German blue chips, betting that West German industry will be the main winner of the new markets in the East. The DAX passed its post-war record of 1986 just before Christmas. BMW built its first cars in Eisenach in East Germany before the war.",
-    "why": "Reunification euphoria (+15% for BMW); it ended with the Gulf crisis in August 1990.",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": 15
-    },
-    "importance": 3,
-    "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); https://de.wikipedia.org/wiki/BMW (Eisenach, read 2026-10-03)"
   },
   {
     "month": "1990-09",
@@ -116,7 +87,7 @@
       "asset": "bmw",
       "pct": -22
     },
-    "importance": 3,
+    "importance": 1,
     "source": "Die Zeit, 'Aktien haben ihren Reiz verloren', 17 August 1990, https://www.zeit.de/1990/34/aktien-haben-ihren-reiz-verloren (read 2026-10-03); Die Zeit, 'Markt-Report: Verkaufsdruck aus London', 31 August 1990, https://www.zeit.de/1990/36/verkaufsdruck-aus-london (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
   },
   {
@@ -132,7 +103,8 @@
       "pct": 21
     },
     "importance": 3,
-    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); Die Zeit, 'Markt-Report: Jubel-Hausse blieb aus', 1 March 1991, https://www.zeit.de/1991/10/jubel-hausse-blieb-aus (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
+    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); Die Zeit, 'Markt-Report: Jubel-Hausse blieb aus', 1 March 1991, https://www.zeit.de/1991/10/jubel-hausse-blieb-aus (read 2026-10-03); data/out/bmw.json (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1993-05",
@@ -144,17 +116,6 @@
     ],
     "importance": 2,
     "source": "https://de.wikipedia.org/wiki/Eberhard_von_Kuenheim (read 2026-10-03); https://en.wikipedia.org/wiki/Bernd_Pischetsrieder (read 2026-10-03)"
-  },
-  {
-    "month": "1994-01",
-    "title": "BMW buys Rover",
-    "what": "On 31 January British Aerospace agreed to sell its 80% of the Rover Group to BMW for 800 million pounds, to uproar in the British parliament. Rover brings the Rover, Land Rover, MG and Mini brands and large factories in England. BMW believes that in the long run only a big volume maker can survive, and Rover adds small and front-wheel-drive cars and off-roaders to its range.",
-    "why": "The defining mistake of the arc: losses at Rover, worsened by a 30% rise of the pound against the mark, cost BMW about 9 billion marks by 2000.",
-    "assets": [
-      "bmw"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Rover_Group (read 2026-10-03); UPI, 'British Aerospace sells Rover to Germany's BMW', 31 January 1994 (headline via Google News) (read 2026-10-03); https://de.wikipedia.org/wiki/BMW ('Rover-Debakel', read 2026-10-03)"
   },
   {
     "month": "1996-03",

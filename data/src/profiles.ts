@@ -199,14 +199,6 @@ export const PROFILES: Record<string, CompanyProfile> = {
       { from: "2000-06", tagline: "Premium and nothing else.", about: "A Munich maker of sporty, expensive cars and of motorcycles. It has sold Rover and Land Rover and kept the Mini." },
     ],
   },
-  jdsu: {
-    country: "United States", sector: "Optical components",
-    versions: [
-      { from: "1993-11", tagline: "Lasers are in more and more machines, and we make them.", about: "A small Californian maker of lasers used in industrial and scientific equipment." },
-      { from: "1999-07", tagline: "Every phone call and every web page travels as light through a glass fibre, and through our parts.", about: "Makes the lasers, amplifiers and other components for the fibre-optic networks that carry telephone and internet traffic. It is buying competitors at a rapid pace." },
-      { from: "2015-08", tagline: "We test the networks everyone depends on.", about: "Makes equipment for testing and monitoring telephone and data networks. The optical components business has been separated into a company of its own." },
-    ],
-  },
   pcln: {
     country: "United States", sector: "Online travel",
     versions: [

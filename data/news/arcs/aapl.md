@@ -28,6 +28,10 @@ Under Cook the shares rose roughly twentyfold, with setbacks (the 40% fall of 20
 - 2018-08: first trillion-dollar US company; 2020-08: two trillion dollars.
 - 2026-09: John Ternus takes over; shares at a record.
 
+## Curator additions
+
+- 1990-10, 1991-05, 1991-06, 1991-07: the cheap-Mac strategy, the 1991 slide of 39% from the March peak (April -19%, May -15%, June -12%) and the IBM alliance, added after the curator asked why Apple fell in mid-1991; the arc had no beat between May 1990 and April 1992. The June 1991 job-cut figure rests on search summaries only.
+
 ## Unexplained moves
 
 - 1983-09: -38% (market +1%). Checked the History of Apple, Apple Lisa and Apple III articles on Wikipedia and the existing 1983 news items: the Lisa's sluggish sales and losses, the Apple III's failure and the IBM PC overtaking the Apple II in 1983 are documented, but no dated profit warning or event in September 1983 was found.

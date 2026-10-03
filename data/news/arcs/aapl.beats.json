@@ -11,18 +11,6 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)"
   },
   {
-    "month": "1981-08",
-    "title": "IBM enters the personal computer market",
-    "what": "IBM launched its Personal Computer, and Apple bought a full page in the Wall Street Journal headlined \"Welcome, IBM. Seriously.\" Apple's sales in the first half of 1981 already beat all of 1980. Its business computer, the Apple III, has had to be recalled and redesigned after reliability problems.",
-    "why": "The competitor that would define Apple's next fifteen years; within two years the IBM PC outsold the Apple II.",
-    "assets": [
-      "aapl",
-      "ibm"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
-  },
-  {
     "month": "1982-08",
     "title": "Wall Street turns, and Apple leads the way up",
     "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
@@ -137,6 +125,63 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)"
+  },
+  {
+    "month": "1990-10",
+    "title": "Apple goes cheap: the Macintosh Classic for 999 dollars",
+    "what": "On 15 October Apple presented the Macintosh Classic and the Macintosh LC, its first Macs priced for schools and homes: chairman John Sculley said prices would start at 1,000 dollars, less than half of what a Mac used to cost. Apple wants the Macintosh in many more hands. Investors are uneasy, because cheaper machines earn thinner profits on each sale.",
+    "why": "The turn that leads into the 1991 collapse: volume up, margins down. The investor concern is stated in the source.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Macintosh_Classic (read 2026-10-03)"
+  },
+  {
+    "month": "1991-05",
+    "title": "Apple shares fall 15%: cheap Macs sell, but the profit on each is thin",
+    "what": "Apple shares fell 15% in May after a 19% fall in April. The low-priced Macintosh Classic and LC are selling, but Apple earns far less on each one, and the company said it would offset the lower gross margins by cutting operating expenses. Reports in mid-May spoke of 600 to 2,000 of the 15,600 jobs going, mostly in administration; Apple would not confirm a figure.",
+    "why": "Two months into a three-month slide of 39% from the March peak. The margin problem and the layoff reports are from the Seattle Times of 18 May 1991; the share figures from the data. The April fall has no separate source and is folded in here.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -15
+    },
+    "importance": 2,
+    "source": "https://archive.seattletimes.com/archive/19910518/1283813/apple-computer-to-issue-layoffs (read 2026-10-03); price changes from data/out/aapl.json"
+  },
+  {
+    "month": "1991-06",
+    "title": "Apple cuts about 1,500 jobs; shares down 39% since March",
+    "what": "Apple announced the cuts investors had been waiting for: about 1,500 jobs, a tenth of its staff, to bring costs in line with the thinner profits of its cheaper Macintosh models. The shares fell another 12% in June and have lost 39% since March, in a month when the whole market fell 5%. Apple remains profitable; the question is how much it can earn selling computers at 1,000 dollars instead of 2,500.",
+    "why": "Closes the 1991 slide. The 1,500 figure comes only from search-result summaries of later press (SFGate, Post-Bulletin) because the pages themselves would not load; the exact announcement date is not established. Curator asked for this story. The July 1991 IBM alliance is the next beat.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -12
+    },
+    "importance": 2,
+    "source": "SFGate \"Apple layoffs: Painful but necessary\" and Post-Bulletin, via search summaries (pages did not load) (read 2026-10-03); Seattle Times 1991-05-18 for the staff total; price changes from data/out/aapl.json"
+  },
+  {
+    "month": "1991-07",
+    "title": "Apple and IBM, enemies for a decade, agree to work together",
+    "what": "On 3 July Apple and IBM signed a letter of intent for an alliance that would have been unthinkable a few years ago: a new family of microprocessors with Motorola, derived from IBM's POWER chips, a joint company to build a next-generation operating system from Apple's \"Pink\" project, and another for multimedia software. The aim is a common platform that other makers can build on, a direct challenge to the Microsoft-and-Intel world of the PC. Apple shares rose 11% in July.",
+    "why": "The strategic answer to the margin squeeze and to Windows. The formal contract followed on 2 October 1991. Whether the rise was caused by the alliance is inferred from timing.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 11
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/AIM_alliance (read 2026-10-03); price change from data/out/aapl.json"
   },
   {
     "month": "1992-04",

@@ -19,6 +19,19 @@
     "cut": true
   },
   {
+    "month": "1980-11",
+    "title": "Reagan beats Carter in a landslide",
+    "what": "Ronald Reagan won the US presidency on 4 November with 489 electoral votes to 49 and about 51 percent of the vote to Carter's 41, carrying 44 states. He promises tax cuts, less regulation and a harder line with Moscow. Shares jumped: the day after the vote the New York Stock Exchange traded a record 84 million shares, and the Dow climbed back above 1,000 for the first time since 1976.",
+    "why": "Wall Street's verdict on the new president was a +10% month, one of the best of the decade; Reagan's tax cuts, deregulation and arms build-up frame the 1980s market, though the first two years bring recession under Volcker's high rates.",
+    "assets": [],
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/1980_United_States_presidential_election (read 2026-10-03); https://www.washingtonpost.com/archive/business/1980/11/06/stocks-trade-hits-record-84-million-share-volume/2f1af161-3e5e-4454-adb5-a09bdc9f34b2/ (read 2026-10-03)"
+  },
+  {
     "month": "1983-11",
     "title": "The new American missiles arrive in Europe",
     "what": "The first US cruise missiles arrived at RAF Greenham Common in England on 13 November, and the first Pershing II launchers reached West Germany later in the month. NATO decided in 1979 to station the missiles unless the Soviet Union scrapped its SS-20s; after the first Pershings arrived, the Soviet Union broke off the Geneva talks on medium-range weapons. Peace protesters have camped outside Greenham Common since 1981, and in April some 70,000 people formed a human chain there.",
@@ -26,6 +39,15 @@
     "assets": [],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Greenham_Common_Women%27s_Peace_Camp (read 2026-10-03); https://en.wikipedia.org/wiki/Pershing_II (read 2026-10-03); https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03)"
+  },
+  {
+    "month": "1984-11",
+    "title": "Reagan re-elected in a 49-state landslide",
+    "what": "On 6 November Ronald Reagan, 73, won a second term with 525 of 538 electoral votes and 58.8% of the popular vote; Walter Mondale carried only his home state of Minnesota and the District of Columbia. Mondale had made history by choosing Geraldine Ferraro as his running mate, the first woman on a major party ticket. With inflation down to about 4% and the economy growing fast, \"Morning in America\" was an easy sell.",
+    "why": "Every presidential election gets a beat (curator rule). The margin is the biggest in electoral votes ever.",
+    "assets": [],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1984_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "1985-03",
@@ -61,7 +83,8 @@
     "why": "The month Europe lived with the cloud; the death toll of 28 within three months is the figure given for 1986. The food-restriction detail is general (sourced only as \"countries experienced fallout and restrictions\" is not in the fetched page section), so it stays unspecific; a Swiss source on the 1986 measures (BAG, NZZ of 2 June 1986 in the scans) would sharpen it.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Chernobyl_disaster (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Chernobyl_disaster (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1987-12",
@@ -71,6 +94,15 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03)"
+  },
+  {
+    "month": "1988-11",
+    "title": "George Bush wins the White House: \"Read my lips, no new taxes\"",
+    "what": "Vice President George Bush won the presidency on 8 November with 426 electoral votes and 53.4% of the vote against Michael Dukakis, the governor of Massachusetts. The campaign is remembered for Bush's convention pledge, \"Read my lips: no new taxes\", and for Dukakis's ride in a tank, which the Bush campaign turned into an attack advertisement. Bush takes over from Reagan in January with the economy in its sixth year of growth.",
+    "why": "Every presidential election gets a beat (curator rule). The tax pledge sets up 1990 and 1992.",
+    "assets": [],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/1988_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "1989-11",
@@ -87,30 +119,8 @@
     "what": "Presidents Bush and Gorbachev met off Malta on 2 and 3 December. In Prague the communists gave up power after weeks of peaceful protest, and the dissident playwright Vaclav Havel was elected president on 29 December. In Romania an uprising that began in Timisoara on 16 December reached Bucharest, and the dictator Nicolae Ceausescu was executed on 25 December.",
     "why": "Within a year the Soviet empire in Europe is gone; the 1990s open with a peace dividend and new markets in the East.",
     "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03); https://en.wikipedia.org/wiki/Romanian_revolution (read 2026-10-03)"
-  },
-  {
-    "month": "1990-07",
-    "title": "The Deutsche Mark comes to East Germany",
-    "what": "On 1 July the monetary, economic and social union of the two German states took effect, and the Deutsche Mark replaced the East German mark as the currency of the East. East Germans voted in March, in their first free election, for parties promising fast unity.",
-    "why": "The generous exchange of East marks pushed up German spending and, with it, the Bundesbank's interest rates, which strained the European exchange-rate system until it broke in 1992.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/German_reunification (read 2026-10-03)"
-  },
-  {
-    "month": "1990-08",
-    "title": "Iraq invades Kuwait",
-    "what": "Iraqi troops overran Kuwait on 2 August, and Iraq annexed it on the 28th. The UN Security Council demanded withdrawal and imposed sanctions; the United States began sending troops to Saudi Arabia on 7 August. Oil, which averaged 17 dollars a barrel in July, was at 28 dollars within days. Share prices fell: the S&P 500 lost 9 percent in the month.",
-    "why": "The political shock behind the worst stock market month between the 1987 crash and 1998, and the start of the 1990-91 recession that costs George Bush re-election. The Middle East arc tells the war itself.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -9
-    },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait (read 2026-10-03); https://en.wikipedia.org/wiki/1990_oil_price_shock (read 2026-10-03); data/reference/sp500.json (S&P 500 month-end, read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03); https://en.wikipedia.org/wiki/Romanian_revolution (read 2026-10-03)"
   },
   {
     "month": "1990-10",
@@ -119,16 +129,8 @@
     "why": "Unification's cost, high German interest rates, and the European response to a bigger Germany (Maastricht and the euro) shape the next decade in Europe.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/German_reunification (read 2026-10-03); https://en.wikipedia.org/wiki/Treaty_on_the_Final_Settlement_with_Respect_to_Germany (read 2026-10-03)"
-  },
-  {
-    "month": "1991-08",
-    "title": "Hardliners try to topple Gorbachev and fail",
-    "what": "On 19 August a committee of Communist hardliners, including the KGB chief, the defence minister and the vice-president, detained Mikhail Gorbachev at his holiday home and declared a state of emergency. Russia's elected president Boris Yeltsin rallied resistance in Moscow, waving the Russian flag, and the coup collapsed within days. Gorbachev is back, but Yeltsin holds the power, the Communist Party is being dismantled and one republic after another is declaring independence.",
-    "why": "Three days that end the Soviet Union in all but name; markets dipped on the first day and recovered when the coup failed.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/German_reunification (read 2026-10-03); https://en.wikipedia.org/wiki/Treaty_on_the_Final_Settlement_with_Respect_to_Germany (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1991-12",
@@ -137,7 +139,8 @@
     "why": "The end of the Cold War that frames the first decade of the game. December's +11% on Wall Street was a Federal Reserve rate cut, not this, but the 1990s peace dividend and globalisation start here.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1991-12",
@@ -145,17 +148,8 @@
     "what": "At Maastricht on 9 and 10 December the twelve European Community leaders agreed on a treaty for a European Union with common citizenship, foreign policy cooperation and an economic and monetary union with a single currency by 1999 at the latest. Countries must meet limits on inflation, deficits, debt and interest rates to join. The treaty still has to be ratified by all twelve, some by referendum.",
     "why": "The blueprint for the euro; its ratification troubles of 1992 and its convergence rules run through the decade.",
     "assets": [],
-    "importance": 2,
+    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)"
-  },
-  {
-    "month": "1992-09",
-    "title": "Black Wednesday, and France's narrow yes",
-    "what": "On 16 September Britain spent billions defending the pound and raised its base rate from 10 to 12 percent, then promised 15, before pulling sterling out of the European exchange-rate mechanism that evening; Italy's lira also left. On 20 September French voters approved the Maastricht treaty by only 51 percent, after Danish voters rejected it in June by 50.7 percent.",
-    "why": "Europe's currency plan nearly breaks; the episode explains why the euro was built with a hard central bank and why Britain never joined.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Black_Wednesday (read 2026-10-03); https://en.wikipedia.org/wiki/1992_French_Maastricht_Treaty_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/1992_Danish_Maastricht_Treaty_referendum (read 2026-10-03)"
   },
   {
     "month": "1992-11",
@@ -164,16 +158,8 @@
     "why": "Clinton's eight years, with deficit reduction and falling interest rates, coincide with the great bull market of the 1990s.",
     "assets": [],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)"
-  },
-  {
-    "month": "1992-12",
-    "title": "Swiss voters say no to the European Economic Area",
-    "what": "On 6 December Swiss voters rejected membership of the European Economic Area by 50.3 to 49.7 percent, a margin of about 24,000 votes, on a turnout of 78.7 percent, and a clear majority of the cantons voted no. French-speaking cantons voted strongly yes, German-speaking rural ones strongly no. The government's application to join the European Community, sent in May, is now frozen.",
-    "why": "The defining Swiss political vote of the game: it sets Switzerland on the bilateral path, makes Christoph Blocher's SVP the country's strongest force, and is a backdrop of the weak Swiss economy of the mid-1990s.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/1992_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1995-01",
@@ -183,6 +169,15 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/1995_enlargement_of_the_European_Union (read 2026-10-03)"
+  },
+  {
+    "month": "1996-11",
+    "title": "Clinton re-elected; Perot takes 8%",
+    "what": "Bill Clinton won a second term on 5 November with 379 electoral votes and 49.2% of the vote against Bob Dole's 40.7%; Ross Perot, running again as an independent, took 8.4%. The economy is growing, inflation is low and the stock market has doubled since Clinton took office, which left Dole little to run on.",
+    "why": "Every presidential election gets a beat (curator rule).",
+    "assets": [],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/1996_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "1998-08",
@@ -309,6 +304,15 @@
     "source": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union (read 2026-10-03)"
   },
   {
+    "month": "2004-11",
+    "title": "Bush re-elected after a campaign fought over Iraq",
+    "what": "George W. Bush won a second term on 2 November with 286 electoral votes to John Kerry's 251 and 50.7% of the vote; Ohio decided it. Kerry argued that Bush had misled the country into the Iraq war, where no banned weapons had been found; Bush voters named terrorism and traditional values as what mattered most to them.",
+    "why": "Every presidential election gets a beat (curator rule).",
+    "assets": [],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/2004_United_States_presidential_election (read 2026-10-03)"
+  },
+  {
     "month": "2005-06",
     "title": "The Swiss join Schengen as France and the Netherlands reject the EU constitution",
     "what": "On 5 June Swiss voters approved joining the Schengen area of passport-free travel and the Dublin asylum system by 54.6 percent. Days earlier, French voters on 29 May (55 percent) and Dutch voters on 1 June (61.5 percent) rejected the proposed European constitution, throwing the EU into a crisis about its direction.",
@@ -400,6 +404,15 @@
     "assets": [],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Mario_Draghi (read 2026-10-03); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-03)"
+  },
+  {
+    "month": "2012-11",
+    "title": "Obama wins a second term",
+    "what": "Barack Obama was re-elected on 6 November with 332 electoral votes and 51.1% of the vote against Mitt Romney, holding the swing states of Ohio, Florida, Virginia and Colorado. The campaign was fought over the slow recovery from the financial crisis and Obama's health insurance law, and was the most expensive ever, with new \"super PACs\" spending freely.",
+    "why": "Every presidential election gets a beat (curator rule).",
+    "assets": [],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/2012_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "2014-02",

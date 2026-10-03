@@ -69,3 +69,29 @@ A JSON array in ascending month order:
 - Twenty to forty beats per company arc over a long life, fewer for a short one; thirty to sixty for a market arc.
 - Names as at the time (`name` and `renames` in universe.ts); `data/src/profiles.ts` shows what was known when.
 - Existing news items for the 1980s in `data/news/19xx.json` may be mined for facts and sources, but every beat is checked against its source.
+
+## Ids and pictures
+
+Every beat carries an `id`, eight hex characters, assigned once and never changed; it is how
+pictures, curator decisions and later tooling refer to a beat even when its month or title
+is edited. Pictures live in sidecar files, `<id>.images.json` next to the beats:
+
+```json
+[
+  {
+    "beat": "3f9a1c2e",
+    "file": "news/aapl/1984-01-macintosh.jpg",
+    "caption": "Steve Jobs presents the Macintosh, January 1984",
+    "source": "https://commons.wikimedia.org/wiki/File:...",
+    "licence": "CC BY-SA 3.0, photo: Name",
+    "note": "optional: why this picture, or what could not be found"
+  }
+]
+```
+
+`file` is a path under `web/static/`, so the client loads it as `/news/aapl/1984-01-macintosh.jpg`.
+Files: JPEG, PNG or WebP, at most 1600 pixels on the long side, at most 400 KB, named
+`<month>-<slug>.<ext>` inside a folder per arc. One picture per beat; a beat without a picture
+simply has no entry. `licence` records the terms (a Creative Commons licence with the author,
+public domain, or `fair use: <rights holder>` for a press or company picture used under the
+game's educational, non-commercial purpose). The build folds the sidecar into the news items.

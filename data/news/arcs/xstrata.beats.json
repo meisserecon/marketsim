@@ -1,294 +1,462 @@
 [
   {
+    "id": "0185829f",
     "month": "2002-05",
     "title": "Xstrata relaunches in London as Glencore's coal miner",
     "what": "Xstrata, a small Zug-based holding that the commodity trader Glencore has controlled since the 1990s, floated in London in March 2002 and used the listing to buy Glencore's Enex and Duiker coal mines in Australia and South Africa. The deal makes it the world's largest exporter of thermal coal, alongside its ferroalloys and zinc businesses. Chief executive Mick Davis, the former Billiton finance director who helped merge Billiton with BHP, and his board aim to grow it into a major diversified mining company. Glencore remains the largest shareholder and markets much of the output.",
     "why": "The listing beat. A buyer in mid-2002 got a cheap, illiquid coal and alloys company run by a dealmaker, with Glencore behind it, just before China's raw-material boom. The price paid for the coal assets is reported very differently (about $1.1bn in one account, more than $2.5bn in another), so no figure is given.",
-    "assets": ["xstrata"],
+    "assets": [
+      "xstrata"
+    ],
     "importance": 1,
     "source": "Xstrata plc circular of 2 February 2009, part I, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; https://en.wikipedia.org/wiki/Xstrata; https://en.wikipedia.org/wiki/Mick_Davis; https://www.encyclopedia.com/books/politics-and-business-magazines/xstrata-plc (all read 2026-10-03)"
   },
   {
+    "id": "caa4d0b6",
     "month": "2002-07",
     "title": "Coal prices slide as markets crash",
     "what": "Export coal prices have been falling all year: Australian thermal coal averaged about $23 a tonne in July, down from $27 in May, as the world economy stalls. Stock markets fell hard in July amid accounting scandals in the United States, and a newly listed, thinly traded mining share like Xstrata offers little shelter.",
     "why": "Xstrata lost 29% in the month. No company-specific news was found; the fall coincides with the July 2002 market slump (S&P -8%) and the slide in coal prices, its only big business at the time. Treat as context, not a cause.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -29 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -29
+    },
     "importance": 3,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
+    "id": "437f5a83",
     "month": "2003-04",
     "title": "Xstrata bids for Australia's MIM",
     "what": "On 7 April Xstrata agreed to buy MIM Holdings, the troubled Australian copper, zinc, lead and coal miner that owns the Mount Isa mines, for A$1.72 a share in cash, about US$3bn. The deal would more than double Xstrata's size and give it copper and coking coal for the first time. Xstrata plans to fund part of it by selling new shares to its existing investors.",
     "why": "The first of Davis's three transforming deals, struck at the bottom of the metals cycle. Hindsight calls the timing a masterstroke: copper started climbing within months.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 18 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 18
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/MIM_Holdings; https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054 (both read 2026-10-03)"
   },
   {
+    "id": "0ab57bd9",
     "month": "2003-05",
     "title": "Canberra clears the MIM takeover",
     "what": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's A$1.72-a-share bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
     "why": "With the political hurdle gone the deal was nearly done (MIM holders approved it on 6 June and MIM left the ASX on 30 June). The 24% jump reflects relief that Xstrata got MIM at a trough price.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 24 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 24
+    },
     "importance": 2,
     "source": "https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054; https://en.wikipedia.org/wiki/MIM_Holdings (both read 2026-10-03)"
   },
   {
+    "id": "2d43c8a1",
     "month": "2003-10",
     "title": "Metals take off on Chinese demand",
     "what": "Base metal prices jumped in October: copper averaged $1,921 a tonne, up 7% from September and 20% from April; nickel rose to $11,047 from under $10,000 and zinc to $898. Coal is firming too. Xstrata, which now owns MIM's copper and zinc mines, is one of the most direct ways to ride the rise.",
     "why": "The start of the commodity super-cycle. Xstrata rose 33% in the month; no company announcement was found, so the move is explained by the metals rally it was geared to.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 33 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 33
+    },
     "importance": 2,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02 (read 2026-10-03)"
   },
   {
+    "id": "3af811d5",
     "month": "2004-06",
     "title": "Coal price doubles in six months",
     "what": "Australian thermal coal averaged about $60 a tonne in June, against $34 in December, as Chinese and other Asian power stations compete for supply; copper is trading near $2,700, up from $2,200. For the world's largest exporter of thermal coal, every dollar on the coal price drops straight to profit.",
     "why": "Shows the engine of the Xstrata story: its share price roughly doubled between the MIM deal and mid-2004 on coal and copper prices, not on new deals.",
-    "assets": ["xstrata"],
+    "assets": [
+      "xstrata"
+    ],
     "importance": 2,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
   },
   {
+    "id": "ecb2a99d",
     "month": "2005-03",
     "title": "BHP outbids Xstrata for WMC",
     "what": "On 8 March BHP Billiton offered US$6.22 a share in cash, about US$7.3bn, for Australia's WMC Resources, owner of the giant Olympic Dam copper and uranium mine, topping Xstrata's hostile offer by 85 US cents a share. Xstrata had launched its bid in November at A$6.35 a share, valuing WMC at A$7.4bn, and WMC had rejected it as inadequate. WMC's board now recommends BHP's offer.",
     "why": "Davis's first big defeat: he lost Olympic Dam to the industry leader and kept his discipline. The share price dipped 9% in the month.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -9 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)"
   },
   {
+    "id": "a6d21608",
     "month": "2005-08",
     "title": "Xstrata buys a fifth of Falconbridge",
     "what": "Xstrata has bought a 20% stake in Falconbridge, the Canadian nickel, copper and zinc miner, from Brascan. The purchase makes Xstrata Falconbridge's largest shareholder and sets it up for a possible full takeover. Copper is averaging about $3,800 a tonne, double its level of two years ago.",
     "why": "The opening move in the Falconbridge battle that made Xstrata a top-five copper and nickel producer.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 10 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 10
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://en.wikipedia.org/wiki/Xstrata; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "3617b036",
     "month": "2006-05",
     "title": "Hostile bid for Falconbridge as copper hits records",
     "what": "On 18 May Xstrata launched a hostile all-cash bid of C$52.50 a share for the 80% of Falconbridge it does not own, challenging an agreed takeover by the Canadian nickel miner Inco. Copper averaged a record $8,046 a tonne in May, up from $4,734 in January, and nickel and zinc are also at records.",
     "why": "The metals price explosion of spring 2006 made Falconbridge's mines worth far more than the bids, and Xstrata was the one willing to pay in cash.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 10 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 10
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "553caa1b",
     "month": "2006-08",
     "title": "Xstrata wins Falconbridge",
     "what": "After raising its offer to C$62.50 a share in cash, Xstrata took up 257.7 million Falconbridge shares on 14 August and now owns about 92% of the company; Inco's competing bid lapsed in July. The bid values Falconbridge at more than C$20bn; it adds Sudbury nickel and large copper interests, and the business will become Xstrata Nickel, based in Toronto.",
     "why": "The deal that turned Xstrata into one of the world's five largest diversified miners and a major copper producer, financed at the top of a price boom that kept going for two more years.",
-    "assets": ["xstrata"],
+    "assets": [
+      "xstrata"
+    ],
     "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; https://en.wikipedia.org/wiki/Falconbridge_Ltd. (both read 2026-10-03)"
   },
   {
+    "id": "e954b04a",
     "month": "2008-02",
     "title": "Coal soars and Vale comes calling",
     "what": "Australian thermal coal averaged $132 a tonne in February, up from $92 in January, after torrential rains flooded Queensland mines and left dozens of ships queuing at ports; Japanese and Korean steelmakers accepted coking coal price rises of about 65%. Reports say Brazil's Vale has approached Xstrata about a takeover that analysts value at up to $90bn, and that Xstrata turned down a first approach.",
     "why": "Peak Xstrata: record coal prices and a suitor at the door. The Vale details come from search-result summaries of press reports, so the what is phrased as reports.",
-    "assets": ["xstrata"],
+    "assets": [
+      "xstrata"
+    ],
     "importance": 3,
     "source": "https://www.nbcnews.com/id/wbna23719312; World Bank Pink Sheet monthly averages; https://www.cnbc.com/2008/02/12/xstrata-rejects-76-billion-bid-approach-from-vale-ft.html (search summary only, page not fetchable) (all read 2026-10-03)"
   },
   {
+    "id": "68929046",
     "month": "2008-03",
     "title": "Vale talks collapse over Glencore's marketing rights",
     "what": "Talks for Vale to buy Xstrata ended in late March without agreement. Vale's chief Roger Agnelli said they broke down over Glencore's demand to keep, and extend, its rights to market the merged group's metals; Mick Davis said only that the two sides could not reach an agreement. Xstrata shares fell more than 12% at the opening on the news.",
     "why": "The first sign that Glencore's grip on Xstrata, via its stake and marketing contracts, capped what outsiders would pay. The month ended down 11%.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -11 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -11
+    },
     "importance": 2,
     "source": "https://www.cnbc.com/2008/03/26/xstrata-shares-slide-after-vale-talks-collapse.html (search-result summary; page returned 403) (read 2026-10-03)"
   },
   {
+    "id": "bfe414f6",
     "month": "2008-08",
     "title": "Xstrata bids £5bn for Lonmin as commodities turn",
     "what": "On 6 August Xstrata said it would offer £33 a share in cash, about £5bn ($10bn), for the platinum producer Lonmin, a 42% premium; Lonmin rejected it as opportunistic and its shares jumped above the offer price. Commodity prices fell in August: copper averaged $7,635 a tonne against $8,414 in July, coal $158 against $180, and oil dropped from its July peak.",
     "why": "The last deal of the boom, launched just as prices rolled over. The 23% fall in the month is mostly the commodity turn; the bid itself moved Xstrata only 1% on the day.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -23 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -23
+    },
     "importance": 2,
     "source": "https://www.rnz.co.nz/news/business/26135/lonmin-snubs-takeover-offer-by-xstrata; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "9d43e676",
     "month": "2008-09",
     "title": "Credit crisis hits the miners",
     "what": "The failure of Lehman Brothers and the freezing of credit markets in September have hit mining shares hardest. Copper averaged $6,991 a tonne, down 17% from July, and iron ore and coal prices are falling as Chinese steel mills cut output. Investors are questioning the debt taken on by acquisitive miners; Xstrata has been spending heavily on a stake in Lonmin since August.",
     "why": "Xstrata lost 45% in a month: a geared, debt-financed bet on Chinese growth met the financial crisis.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -45 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -45
+    },
     "importance": 1,
     "source": "Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "456650ed",
     "month": "2008-10",
     "title": "Xstrata drops Lonmin and secures its banks",
     "what": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
     "why": "Another 44% gone. Debt, not operations, became the issue, setting up the emergency rights issue three months later.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -44 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -44
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "e225ba0d",
     "month": "2008-12",
     "title": "Copper at a four-year low, mines shut",
     "what": "Copper averaged $3,072 a tonne in December, down 63% from July, and thermal coal $79, less than half its summer peak. Xstrata is suspending or closing higher-cost production and cutting spending. Markets worry how it will carry its debt, which stood at well over $15bn after the Falconbridge and Lonmin purchases.",
     "why": "The low point of the crash for Xstrata: down 90% from June to January. The net debt figure is inferred from the circular's post-rights-issue estimate of $12.6bn plus the $5.9bn raised, so it is softened to 'well over $15bn'.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -34 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -34
+    },
     "importance": 2,
     "source": "World Bank Pink Sheet monthly averages; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
   },
   {
+    "id": "c2d4aa49",
     "month": "2009-01",
     "title": "£4.1bn rescue rights issue, Glencore sells its Colombian coal",
     "what": "On 29 January Xstrata announced a two-for-one rights issue to raise about £4.1bn ($5.9bn) at 210p a share, a 66% discount to the previous close of 623p, to repay debt. At the same time it will buy Glencore's Prodeco coal mines in Colombia for $2bn, with Glencore keeping an option to buy them back within a year for $2.25bn; Glencore, which owns 34.5%, will use the money to take up its new shares. There will be no final dividend for 2008, 2009 capital spending is cut 45% to $3.4bn, and 2008 EBITDA fell 11% to $9.7bn.",
     "why": "The survival move. Shareholders were diluted heavily but the balance sheet was fixed just before the 2009 rebound, which is why the shares could rise more than 250% in the following year.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -12 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -12
+    },
     "importance": 1,
     "source": "Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (read 2026-10-03)"
   },
   {
+    "id": "34161c98",
     "month": "2009-04",
     "title": "China's stimulus lifts copper",
     "what": "Copper averaged $4,407 a tonne in April, up 33% from February, as China spends its 4 trillion yuan stimulus programme on infrastructure. Xstrata's shareholders approved the rights issue and the Prodeco purchase in early March, and stock markets are rebounding strongly.",
     "why": "Xstrata rose 35% in the month, the start of a year in which it more than tripled. The recovered balance sheet plus rising copper made it a leveraged recovery play.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 35 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 35
+    },
     "importance": 2,
     "source": "World Bank Pink Sheet monthly averages; https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program; Xstrata circular 2 Feb 2009 (all read 2026-10-03)"
   },
   {
+    "id": "019d460f",
     "month": "2009-05",
     "title": "The commodity rebound broadens",
     "what": "Copper rose further to an average $4,569 a tonne in May, oil climbed to about $58 a barrel from $51, and nickel and zinc gained more than 7%. Stock markets added another 5% as fears of a depression fade.",
     "why": "Xstrata +23%. No company news found; a continuation of the April rebound.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 23 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 23
+    },
     "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
+    "id": "60eb07bd",
     "month": "2009-07",
     "title": "Copper passes $5,000",
     "what": "Copper averaged $5,216 a tonne in July, 70% above its December low, and iron ore and nickel rose too as Chinese steel and power output recovered. Mining shares led a 7% rise in stock markets.",
     "why": "Xstrata +25%. Again commodity-driven; no company-specific cause found.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": 25 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 25
+    },
     "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
+    "id": "744ea929",
     "month": "2010-05",
     "title": "Australia's super-profits tax and the Greek crisis",
     "what": "Australia's government has proposed a 40% Resource Super Profits Tax on mining profits; Xstrata, which mines much of its coal, copper and zinc in Australia, is among its loudest opponents, and the industry has started an advertising war against it. At the same time Greece needed a €110bn rescue, and copper fell to an average $6,838 a tonne in May from $7,745 in April.",
     "why": "Xstrata fell 12% in April, 12% in May and 10% in June. The tax was watered down in July after Kevin Rudd was replaced by Julia Gillard and Xstrata, BHP and Rio negotiated changes.",
-    "assets": ["xstrata"],
-    "move": { "asset": "xstrata", "pct": -12 },
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -12
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Minerals_Resource_Rent_Tax; https://en.wikipedia.org/wiki/Euro_area_crisis; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "00e80439",
     "month": "2011-05",
     "title": "Glencore floats, valuing itself at $59bn",
     "what": "Glencore, Xstrata's largest shareholder, priced its initial public offering at 530p a share on 19 May, raising about $10bn and valuing the trader at $59.2bn, the largest ever premium listing in London. Its shares started trading in London and Hong Kong in the last week of May. Glencore owns about a third of Xstrata and markets much of its output.",
     "why": "The IPO gave Glencore paper to buy the rest of Xstrata with; within nine months it proposed exactly that.",
-    "assets": ["xstrata", "glencore"],
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (read 2026-10-03)"
   },
   {
+    "id": "9ba91bb6",
     "month": "2011-09",
     "title": "Euro crisis and slowing China crush miners",
     "what": "Fears that the euro debt crisis will spread to Italy and Spain, after the United States lost its AAA rating in August, have driven investors out of cyclical shares. Copper averaged $8,300 a tonne in September, down from $9,650 in July, and fell further late in the month. Mining shares were among the worst performers.",
     "why": "Xstrata lost 27% in September after 18% in August. Pure macro: no company news found.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": -27 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -27
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "d799f32e",
     "month": "2011-10",
     "title": "Relief rally after the Brussels summit",
     "what": "On 26 October euro-area leaders agreed a 50% write-off of Greek debt held by banks and a fourfold increase in the rescue fund to about €1 trillion. Stock markets rose about 11% in October, and the most beaten-down mining shares rebounded hardest.",
     "why": "Xstrata +32% in the month, a mirror image of September.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": 32 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 32
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Euro_area_crisis; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
+    "id": "7f54f483",
     "month": "2012-02",
     "title": "Glencore and Xstrata agree a 'merger of equals'",
     "what": "After confirming talks on 2 February, Glencore and Xstrata announced on 7 February a recommended all-share merger: Xstrata holders would get 2.8 new Glencore shares each, valuing Xstrata at 1,290p a share or £39.1bn, a 15% premium. Glencore already owns 34% of Xstrata. Mick Davis would run the combined Glencore Xstrata, with Ivan Glasenberg as deputy and president; the deal needs 75% of the votes of Xstrata's independent shareholders.",
     "why": "The defining event of both arcs: the trader moves to swallow the miner it created. The low premium immediately drew shareholder resistance.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": 13 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": 13
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/recommended-merger-of-glencore-and-xstrata/2979372; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-rule-2-10-announcement/2939813 (both read 2026-10-03)"
   },
   {
+    "id": "48ccbab4",
     "month": "2012-05",
     "title": "Grexit fears and falling coal",
     "what": "Greece failed to form a government after its 6 May election, raising fears it could leave the euro, and stock markets fell about 6%. Commodity prices slid: thermal coal averaged $96 a tonne, down from $117 in February, copper $7,956 and Brent oil $110 from $120. In Peru, two people died on 28 May when police broke up protests against alleged pollution at Xstrata's Tintaya copper mine.",
     "why": "Xstrata fell 26% in the month, Glencore 24%. Mostly macro and coal; the deal ratio was fixed, so both fell together.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": -26 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -26
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Euro_area_crisis; https://en.wikipedia.org/wiki/Xstrata; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "6cf70534",
     "month": "2012-06",
     "title": "Qatar demands more for Xstrata",
     "what": "On 26 June Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said it would only back the merger at 3.25 Glencore shares per Xstrata share instead of 2.8; with other dissenting investors it is close to the 16.5% needed to block the deal. Investors are also angry about retention payments of more than £170m for 73 Xstrata executives, and Xstrata's board has proposed changes. Glencore is postponing its shareholder meeting set for 11 July.",
     "why": "The sovereign fund turned the friendly merger into a takeover. Ivan Glasenberg said publicly he would not overpay.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": -12 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -12
+    },
     "importance": 3,
     "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update/3327708; https://en.wikipedia.org/wiki/Xstrata (all read 2026-10-03)"
   },
   {
+    "id": "c79b9290",
     "month": "2012-09",
     "title": "Glencore raises to 3.05 and sidelines Davis",
     "what": "On the day of the Xstrata vote, 7 September, Glencore asked for more time and on 10 September proposed 3.05 of its shares per Xstrata share, a premium of more than 27% to the trading ratio. The price: Mick Davis would be chief executive of the combined group for only six months before handing over to Ivan Glasenberg. The deal still depends on Xstrata investors approving incentive arrangements for its managers.",
     "why": "The decisive concession. It won Qatar over and turned the merger of equals into a Glencore takeover.",
-    "assets": ["xstrata", "glencore"],
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-glencore-s-proposal-to-xstrata/2989255; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-adjournment-of-general-meeting/2988032 (both read 2026-10-03)"
   },
   {
+    "id": "94f2945d",
     "month": "2012-11",
     "title": "Shareholders approve, with Qatar on board",
     "what": "Qatar Holding said in mid-November that it would back the revised terms, and on 20 November Xstrata's shareholders approved the merger at 3.05 Glencore shares per Xstrata share. The European Commission cleared the deal on 22 November; antitrust approval from China and a court hearing remain.",
     "why": "From here the only open question was the timing and conditions of the Chinese approval.",
-    "assets": ["xstrata", "glencore"],
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/xstrata-merger-shareholder-approval/3028319; https://en.wikipedia.org/wiki/Ivan_Glasenberg (cites Reuters 15 Nov 2012); Investegate GLEN listing 22 Nov 2012 'Merger Update - EU Merger Control Clearance' (all read 2026-10-03)"
   },
   {
+    "id": "ab9b85ab",
     "month": "2013-04",
     "title": "China clears the deal; Davis leaves",
     "what": "On 16 April China's Ministry of Commerce approved the merger on condition that Glencore Xstrata sells Xstrata's Las Bambas copper project in Peru by mid-2015 and supplies Chinese buyers with at least 900,000 tonnes of copper concentrate a year for eight years. Mick Davis will not join the combined group: Ivan Glasenberg becomes chief executive at completion and Davis receives £4.6m. The merger is due to take effect on 2 May, when each Xstrata share becomes 3.05 Glencore shares.",
     "why": "The exit. Xstrata holders became Glencore holders just as the commodity cycle turned down; Glencore wrote off $7.7bn of the purchase price that summer.",
-    "assets": ["xstrata", "glencore"],
-    "move": { "asset": "xstrata", "pct": -8 },
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541 (both read 2026-10-03)"
   }

@@ -1,375 +1,565 @@
 [
   {
+    "id": "01e73180",
     "month": "2011-05",
     "title": "Glencore goes public at the top of the boom",
     "what": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO at 530p a share on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
     "why": "The listing beat. A buyer got the inside track on the commodity trade from the firm that knows the flows best, but at the moment copper and coal were near their highs; the shares never closed a month above the IPO level again.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03)"
   },
   {
+    "id": "bc4ad6ce",
     "month": "2011-08",
     "title": "Strong first results, falling markets",
     "what": "In its first results as a listed company on 25 August, Glencore reported first-half adjusted EBITDA of $3.85bn, up 47%, declared a maiden dividend of 5 US cents and said its credit ratings had been upgraded. It warned of 'renewed sovereign debt concerns' after a month in which the United States lost its AAA rating and stock markets slumped. The day before it offered to buy out the minority in its Australian nickel miner Minara.",
     "why": "Good numbers did not matter: the shares fell 12% in August with the market and were already a fifth below the IPO price.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -12 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -12
+    },
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/interim-results/2513601; https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (both read 2026-10-03)"
   },
   {
+    "id": "90c9c5be",
     "month": "2012-02",
     "title": "Glencore proposes to merge with Xstrata",
     "what": "On 7 February Glencore and Xstrata announced a recommended all-share merger: 2.8 new Glencore shares for each Xstrata share, valuing Xstrata at £39.1bn ($61.9bn). Glencore already owns 34% of Xstrata. Xstrata's Mick Davis would be chief executive of Glencore Xstrata and Ivan Glasenberg his deputy; completion is expected in the third quarter.",
     "why": "The defining deal of the arc, a vertical merger of trader and miner. It took fifteen months, a sweetened offer and a sovereign wealth fund's blessing to close.",
-    "assets": ["glencore", "xstrata"],
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/recommended-merger-of-glencore-and-xstrata/2979372 (read 2026-10-03)"
   },
   {
+    "id": "cc89ac7b",
     "month": "2012-05",
     "title": "Grexit fears drag down commodities",
     "what": "Greece's failure to form a government after the 6 May election revived fears that it could leave the euro; stock markets fell about 6%. Coal, copper and oil all fell: Australian thermal coal averaged $96 a tonne in May, down from $117 in February, and Brent oil $110 from $120. In March Glencore had agreed to buy the Canadian grain handler Viterra for about $6.1bn, whose shareholders approved at the end of May.",
     "why": "Glencore fell 24% in the month, almost exactly in step with Xstrata because of the fixed merger ratio.",
-    "assets": ["glencore", "xstrata"],
-    "move": { "asset": "glencore", "pct": -24 },
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -24
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Euro_area_crisis; https://en.wikipedia.org/wiki/Viterra; https://www.investegate.co.uk/announcement/rns/glencore--glen/response-to-viterra-shareholder-approval/3137670 (listing title); World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "4a01befc",
     "month": "2012-06",
     "title": "Qatar holds out for a better price",
     "what": "Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said on 26 June it would only support the merger at 3.25 Glencore shares per Xstrata share rather than 2.8. Glencore received proposed changes to the contested retention payments for Xstrata managers and will postpone its 11 July shareholder meeting. Ivan Glasenberg says Glencore will not overpay.",
     "why": "The deal looked close to collapse. Glencore's shares fell 12% in the month.",
-    "assets": ["glencore", "xstrata"],
-    "move": { "asset": "glencore", "pct": -12 },
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -12
+    },
     "importance": 3,
     "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-merger-update/3328691 (all read 2026-10-03)"
   },
   {
+    "id": "ff82540f",
     "month": "2012-08",
     "title": "Half-year profit dips, shares rebound",
     "what": "Glencore's first-half adjusted EBITDA fell 17% to $3.2bn and net income 8% to $2.3bn, as its commodity prices averaged 15% to 28% lower than a year earlier; the trading arm held up better than the mines. Almost all approvals for the Viterra purchase are in, leaving only China. The shares have recovered strongly from their June low.",
     "why": "Glencore +22% in August with no single cause found: the results were weak, commodity prices flat. Likely a general relief rally in markets after the June euro scare and positioning around a revised Xstrata ratio. Treat as partly unexplained.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 22 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 22
+    },
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/interim-results-2012/2849073; https://www.investegate.co.uk/announcement/rns/glencore--glen/regulatory-update/2890981; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926 (all read 2026-10-03)"
   },
   {
+    "id": "fcc5ad91",
     "month": "2012-09",
     "title": "Glencore raises its offer to 3.05",
     "what": "On 7 September, as Xstrata shareholders were about to vote, Glencore asked for an adjournment; on 10 September it proposed 3.05 of its shares per Xstrata share, a premium of more than 27% to the trading ratio. Under the new terms Mick Davis would run the combined group for only six months before Ivan Glasenberg takes over.",
     "why": "The concession that saved the deal and handed control to Glasenberg.",
-    "assets": ["glencore", "xstrata"],
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-glencore-s-proposal-to-xstrata/2989255 (read 2026-10-03)"
   },
   {
+    "id": "284d7d5c",
     "month": "2013-05",
     "title": "Glencore Xstrata is born",
     "what": "The merger took effect on 2 May: Glencore issued 6.16 billion new shares, 3.05 for each Xstrata share, and Xstrata left the stock exchange on 3 May. China approved the deal in April on condition that the Las Bambas copper project in Peru is sold, and Ivan Glasenberg is chief executive of the renamed Glencore Xstrata plc; Mick Davis has left. The group is now one of the world's largest miners as well as its largest commodity trader.",
     "why": "Glencore's own exit from pure trading: from here the share price follows mined copper, coal, zinc and nickel. The company dropped the Xstrata name in May 2014.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541; https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://en.wikipedia.org/wiki/Glencore (rename 20 May 2014) (all read 2026-10-03)"
   },
   {
+    "id": "f25b3905",
     "month": "2013-08",
     "title": "$7.7bn write-down on Xstrata",
     "what": "Glencore Xstrata reported a first-half net loss of $8.9bn after write-downs of $7.7bn, mostly goodwill on the Xstrata purchase, with metal prices about 15% lower. Ivan Glasenberg said savings from the merger would be much larger than the $500m a year first promised.",
     "why": "The bill for buying at the top. The shares, already down, rose 12% in the month regardless; the write-down was expected.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.industryweek.com/the-economy/article/21961027/glencore-xstrata-plunges-to-loss-on-merger-write-downs (read 2026-10-03)"
   },
   {
+    "id": "e677bcb2",
     "month": "2014-10",
     "title": "Rio Tinto rebuffed Glencore",
     "what": "Glencore confirmed on 7 October that it had informally proposed a merger to Rio Tinto in July and that Rio was not interested. Under takeover rules Glencore cannot bid for Rio for six months unless circumstances change. In April Glencore agreed to sell Las Bambas to a Chinese consortium for about $5.85bn, as China required.",
     "why": "Glasenberg's appetite for the biggest deal in mining, a theme that returned in 2026. Oil and iron ore were already sliding.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/response-to-press-speculation-rio-tinto-plc/3868595; https://www.investegate.co.uk/announcement/rns/glencore--glen/sale-of-las-bambas-copper-mine-project/3596844 (both read 2026-10-03)"
   },
   {
+    "id": "6ad2081f",
     "month": "2015-01",
     "title": "Oil and copper crash",
     "what": "Brent oil averaged $48 a barrel in January, down from $112 last June, and copper fell 10% in a month to an average $5,831 a tonne, its lowest in more than five years. Glencore is exposed twice: as a producer of copper, coal and oil, and as a trader whose volumes and credit lines depend on prices.",
     "why": "The start of the slide that nearly broke Glencore in 2015. Shares -20% in January.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -20 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -20
+    },
     "importance": 2,
     "source": "World Bank Pink Sheet monthly averages (read 2026-10-03)"
   },
   {
+    "id": "ecbad08e",
     "month": "2015-02",
     "title": "A bounce, and Lonmin handed to shareholders",
     "what": "Oil rebounded to an average $58 a barrel in February and Australian coal to $69 a tonne from $61. On 11 February Glencore said it would hand its 23.9% stake in the platinum miner Lonmin, inherited from Xstrata, directly to its own shareholders, and published its 2014 production report.",
     "why": "Glencore +24%, mostly the oil and coal rebound. A short reprieve.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 24 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 24
+    },
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-s-23-9-stake-in-lonmin-plc/3795257 (listing); https://en.wikipedia.org/wiki/Lonmin; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "fb56c97e",
     "month": "2015-08",
     "title": "First-half loss and $30bn of debt",
     "what": "On 19 August Glencore reported a first-half net loss of $676m, with adjusted EBITDA down 29% to $4.6bn, a $792m write-down on oil in Chad and its South African coal unit Optimum in business rescue. Net debt is $29.6bn. Copper averaged $5,127 a tonne in August, its lowest since mid-2009, and China's slowdown and a yuan devaluation shook markets.",
     "why": "Investors started to do the arithmetic on Glencore's debt against falling prices. Shares -30%.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -30 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -30
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2015-half-year-report/3961240; World Bank Pink Sheet monthly averages; https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (yuan devaluation 11 and 14 Aug); data/news/arcs/movers.md (all read 2026-10-03)"
   },
   {
+    "id": "426c6130",
     "month": "2015-09",
     "title": "Debt panic: dividend cut, emergency share sale",
     "what": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed at 125p on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
     "why": "The near-death month: -39%, with the shares at about a sixth of the IPO price in dollars. The specific analyst report blamed for the 28 September crash could not be confirmed from a readable source, so it is left out.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -39 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -39
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-glencore-s-plans-to-reduce-net-debt/4174987; https://www.investegate.co.uk/announcement/rns/glencore--glen/african-copper-operational-update/4175016; https://www.investegate.co.uk/announcement/rns/glencore--glen/results-of-placing-of-1-307-794-600-new-shares/4264833; https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement/4069843 (all read 2026-10-03)"
   },
   {
+    "id": "419999fd",
     "month": "2015-10",
     "title": "Glencore cuts zinc output by a third",
     "what": "On 9 October Glencore said it would cut 500,000 tonnes of zinc mine production, about a third of its output, in Australia, Peru and Kazakhstan, to preserve the value of its reserves while prices are low. Days later it put its Cobar and Lomas Bayas copper mines up for sale after unsolicited interest. Stock markets rose about 8% in October.",
     "why": "Glencore +26% as short sellers covered: the company showed it would act as a supplier of last resort and sell assets.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 26 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 26
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-to-reduce-mine-production-of-zinc/4167047; https://www.investegate.co.uk/announcement/rns/glencore--glen/proposed-sale-of-copper-mines/4204774 (both read 2026-10-03)"
   },
   {
+    "id": "53b2ab63",
     "month": "2016-02",
     "title": "Banks roll over, commodities turn",
     "what": "On 17 February Glencore refinanced most of its $8.45bn revolving credit line early, with no financial covenants, and earlier in the month agreed a streaming deal on its Antapaccay copper mine in Peru. Commodities bounced off January lows: zinc averaged $1,710 a tonne, up 12%, iron ore rose 12% and oil steadied after falling near $30.",
     "why": "Glencore +46% in a month, the turning point of the crisis. The banks' support ended the solvency scare and the commodity bottom was in.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 46 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 46
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/early-refinancing-of-revolving-credit-facility/4295495; Investegate GLEN listing 11 Feb 2016 'Streaming Transaction - Antapaccay'; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "8dd3310f",
     "month": "2016-03",
     "title": "Net debt falls to $25.9bn",
     "what": "Glencore's 2015 results on 1 March showed a net loss of $5.0bn after $5.8bn of write-downs and restructuring costs, but net debt down to $25.9bn from $30.5bn a year earlier. It aims for about $15bn by the end of 2017 and plans $4-5bn of asset sales in 2016. Oil recovered to an average $39 a barrel in March.",
     "why": "Glencore +22%: proof the debt plan was working.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 22 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 22
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2015/4401444; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "666c93c8",
     "month": "2016-07",
     "title": "Coal, nickel and zinc rally",
     "what": "Australian thermal coal averaged $61 a tonne in July, up 15% from June, nickel rose 15% and zinc 8%. In April Glencore sold 40% of its agricultural business to Canada's CPPIB for $2.5bn, and in June a further 9.99% to British Columbia's pension manager bcIMC.",
     "why": "Glencore +22%. The commodity rally explains much of it; no single company event in July was found.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 22 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 22
+    },
     "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; https://www.investegate.co.uk/announcement/rns/glencore--glen/sale-of-40-stake-in-glencore-agri-to-cppib/4464101; Investegate GLEN listing 9 Jun 2016 (all read 2026-10-03)"
   },
   {
+    "id": "77ece5e6",
     "month": "2016-12",
     "title": "Dividend back, and a stake in Rosneft",
     "what": "On 1 December Glencore said it would pay $1bn to shareholders in 2017 and expected net debt of $16.5-17.5bn at year-end, after $6.3bn of disposals. On 12 December it and the Qatar Investment Authority agreed to buy 19.5% of Russia's Rosneft for €10.2bn; Glencore puts in only €300m of equity but gets a five-year contract to market an extra 220,000 barrels of oil a day. Coal prices have doubled during 2016.",
     "why": "The crisis is over: the shares rose about two and a half times in 2016. The Rosneft deal shows the trader's way of doing business with state producers.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-plc-investor-update/4883667; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-and-qia-partnership-with-rosneft/4995897; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "db9f3f20",
     "month": "2017-07",
     "title": "More coal: half of Hunter Valley Operations",
     "what": "After losing the contest for Rio Tinto's Coal & Allied to Yancoal, Glencore agreed on 27 July to buy 49% of the Hunter Valley Operations coal mine from Yancoal for $1.14bn in cash plus royalties. Coal and copper prices are rising: thermal coal averaged $88 a tonne in July and copper about $6,000.",
     "why": "Glencore +18% in the month. While others sold coal, Glencore bought it cheaply, which paid off spectacularly in 2021-22.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 18 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 18
+    },
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement-49-in-hunter-valley-operations/4723797; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "f760dcd1",
     "month": "2018-07",
     "title": "US subpoena over bribery",
     "what": "On 3 July Glencore said the US Department of Justice had subpoenaed documents on its compliance with the Foreign Corrupt Practices Act and money-laundering laws, covering its business in Nigeria, the Democratic Republic of Congo and Venezuela since 2007. Copper fell 10% and zinc 14% in July.",
     "why": "The start of the legal saga that ended in guilty pleas in 2022. Shares -8%.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -8 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -8
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Glencore (Investigation by U.S. Department of Justice, citing Glencore's statement); World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "3d081858",
     "month": "2019-02",
     "title": "Glencore caps its coal output",
     "what": "With its 2018 results on 20 February, Glencore committed to limit its coal production capacity broadly to current levels and to put its investment into commodities needed for the energy and transport transition, such as copper, cobalt and nickel.",
     "why": "The first concession to climate investors, and the start of the coal question that runs to the 2024 decision to keep coal.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/commitment-to-transition-to-a-low-carbon-economy/5435344 (read 2026-10-03)"
   },
   {
+    "id": "d11c26a2",
     "month": "2019-08",
     "title": "Cobalt slump shuts Mutanda",
     "what": "Glencore's first-half adjusted EBITDA fell 32% to $5.6bn and net income to $226m. It will put its Mutanda copper and cobalt mine in Congo, which produced about a fifth of the world's cobalt in 2018, on care and maintenance by year-end because cobalt prices have collapsed, and booked a $350m cobalt loss in trading. Copper averaged $5,709 a tonne, its lowest in over two years.",
     "why": "The battery-metals story turned out early and painful. Shares -11%; the US CFTC had opened its own corruption probe in April and the UK SFO followed in December.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -11 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -11
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2019-half-year-report/5702770; https://en.wikipedia.org/wiki/Glencore (Mutanda 2018 output); https://www.investegate.co.uk/announcement/rns/glencore--glen/announcement-commodity-futures-trading-commission/5945728; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "c807ded7",
     "month": "2020-03",
     "title": "Covid crash",
     "what": "Global stock markets crashed in March as the coronavirus spread, with the worst day on 16 March. Brent oil averaged $33 a barrel, against $64 in January, and copper $5,183 a tonne. Glencore says its mines have not been materially disrupted and it has $10bn of undrawn credit and cash; on 31 March it postponed its planned $2.6bn shareholder distribution and refinanced $14.6bn of credit lines.",
     "why": "Glencore -38%, back near its 2015 lows: a geared producer and trader in a demand collapse.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": -38 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": -38
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash; https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "3b8a4ed0",
     "month": "2020-08",
     "title": "No dividend this year",
     "what": "On 6 August Glencore said it would pay no distribution to shareholders in 2020 so as to cut its $19.7bn net debt. It reported a first-half net loss of $2.6bn after $3.2bn of write-downs, while its trading arm made a record $2.0bn of adjusted EBIT.",
     "why": "The trader's resilience in volatile markets versus the mines' write-downs: a recurring Glencore pattern.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-half-year-report/6172010 (read 2026-10-03)"
   },
   {
+    "id": "2321382a",
     "month": "2020-11",
     "title": "Vaccine rally",
     "what": "Pfizer and BioNTech reported in November that their Covid-19 vaccine was highly effective in late-stage trials, and stock markets rose about 11%, led by the shares hit hardest in the pandemic. Copper averaged $7,069 a tonne, above its pre-Covid level, and coal rose to $64.",
     "why": "Glencore +40%, its second-best month in the game.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 40 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 40
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine; World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (all read 2026-10-03)"
   },
   {
+    "id": "2c4dbf83",
     "month": "2020-12",
     "title": "Glasenberg to retire; Nagle, the coal boss, to succeed",
     "what": "On 4 December Glencore said Ivan Glasenberg, chief executive since 2002, will step down in the first half of 2021, to be succeeded by Gary Nagle, 45, who runs its coal business from Sydney. The same day it set a target to cut its total emissions 40% by 2035 from 2019 levels and an ambition of net zero by 2050, by running down its coal mines rather than selling them. China has stopped buying Australian coal.",
     "why": "The end of the founder-trader era. Nagle's coal background shaped the 2023-24 decisions to buy more coal and keep it.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-ceo-to-retire-succeeded-by-gary-nagle/6262546; https://www.investegate.co.uk/announcement/rns/glencore--glen/climate-report-2020-pathway-to-net-zero/6262335; https://en.wikipedia.org/wiki/2020s_energy_crisis (all read 2026-10-03)"
   },
   {
+    "id": "c1234808",
     "month": "2021-02",
     "title": "Payouts resume as copper soars",
     "what": "On 16 February Glencore reported flat 2020 adjusted EBITDA of $11.6bn, a net loss of $1.9bn after write-downs, and net debt down to $15.8bn, back in its target range. It will pay 12 US cents a share, about $1.6bn, resuming distributions. Copper averaged $8,471 a tonne in February, up from $5,183 last March.",
     "why": "Glencore +20%: the start of the 2021-22 commodity boom.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 20 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 20
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2020/6364685; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "308c332e",
     "month": "2022-02",
     "title": "Record profit, then war in Ukraine",
     "what": "On 15 February Glencore reported record 2021 adjusted EBITDA of $21.3bn, net debt cut to $6.0bn and $4bn of shareholder returns, and set aside $1.5bn to settle bribery investigations in the US, UK and Brazil. Russia invaded Ukraine on 24 February, threatening Europe's supplies of Russian gas and coal; Australian thermal coal already averaged $220 a tonne in February, up from $170 in December.",
     "why": "Glencore +15% in February and +11% in March: the coal it had refused to sell became its biggest earner.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 15 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 15
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2021/6847692; https://en.wikipedia.org/wiki/2020s_energy_crisis; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "e89c09b8",
     "month": "2022-05",
     "title": "Glencore pleads guilty to bribery",
     "what": "On 24 May Glencore settled US, UK and Brazilian investigations: it agreed to plead guilty in the US to bribery (about $700m) and market manipulation (about $486m), settled with the CFTC and paid Brazil about $40m, and will accept independent compliance monitors for three years. Its UK oil unit pleaded guilty to five counts of bribery and two of failing to prevent it, over more than $25m in bribes in Nigeria, Cameroon, Equatorial Guinea, Ivory Coast and South Sudan; the UK penalty will be set in June. Total costs should be close to the $1.5bn provision; Swiss and Dutch probes continue.",
     "why": "The reckoning for the Marc Rich-era trading culture. The share price barely reacted because the provision had been made in February and coal profits were soaring.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-reaches-coord-resolutions-w-authorities/6977131; https://en.wikipedia.org/wiki/Glencore (UK SFO charges, citing BBC 24 May 2022) (both read 2026-10-03)"
   },
   {
+    "id": "9317dd71",
     "month": "2023-02",
     "title": "Record $34bn profit on coal",
     "what": "On 15 February Glencore reported record 2022 adjusted EBITDA of $34.1bn, up 60%, and net income of $17.3bn; its energy business, mostly coal, made $18.6bn. Net debt is almost zero and it will return $7.1bn to shareholders. The UK court ordered its oil unit to pay £281m in November, and Glencore agreed to pay Congo $180m in December to settle all corruption claims there. Coal prices have halved since September.",
     "why": "The peak of the coal windfall; the shares had already turned down as coal fell back.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2022/7453666; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-energy-resolves-investigations-by-uk/7253298; https://www.investegate.co.uk/announcement/rns/glencore--glen/agreement-reached-with-drc-over-past-conduct/7317085; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "cf96945e",
     "month": "2023-04",
     "title": "Glencore bids for Teck, to split off coal",
     "what": "On 3 April Glencore disclosed an offer to merge with Canada's Teck Resources at 7.78 Glencore shares per Teck class B share, a 22% premium, and then split the combined group into a metals company and a coal company. Teck's board rejected the approach, worth about $23bn.",
     "why": "Nagle's opening move. It failed, but led to the purchase of Teck's coal mines in November.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/proposal-for-glencore-and-teck-merger-demerger/7426033; https://en.wikipedia.org/wiki/Teck_Resources (both read 2026-10-03)"
   },
   {
+    "id": "e4346349",
     "month": "2023-11",
     "title": "Glencore buys Teck's steelmaking coal",
     "what": "On 14 November Glencore agreed to pay $6.93bn in cash for 77% of Elk Valley Resources, Teck's steelmaking coal business in British Columbia, valuing it at about $9bn; Nippon Steel and POSCO take the rest. Glencore intends to spin off its combined coal business as a separately listed company in North America within 24 months of completion, expected in the third quarter of 2024.",
     "why": "Doubled down on coal while promising to separate it. Wikipedia and the RNS summary differ on the planned listing venue (New York or Toronto), so it is softened.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/acquisition-77-of-teck-steelmaking-coal-business-/7878896; https://en.wikipedia.org/wiki/Glencore (both read 2026-10-03)"
   },
   {
+    "id": "c5fb7749",
     "month": "2024-08",
     "title": "Glencore keeps its coal",
     "what": "On 7 August, a month after completing the Elk Valley purchase, Glencore dropped the planned coal spin-off: more than 95% of shareholders who expressed a view wanted to keep coal for its cash flow, which will fund copper growth and payouts. On 5 August it settled the last bribery probes, in Switzerland and the Netherlands, with a CHF2m fine and $150m compensation.",
     "why": "The defining choice on coal and the energy transition: Glencore stays the big coal miner, betting that investors value the cash more than they punish the carbon.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/retention-of-coal-carbon-steel-materials-business-/8352973; https://www.investegate.co.uk/announcement/rns/glencore--glen/swiss-and-dutch-investigations-resolved/8349702 (both read 2026-10-03)"
   },
   {
+    "id": "ddb2f66a",
     "month": "2025-09",
     "title": "Copper squeezed, rivals consolidate",
     "what": "Anglo American and Teck Resources agreed on 9 September to merge into a copper-focused group, and a fatal landslide at Indonesia's giant Grasberg mine has been blamed for a jump in copper prices. Copper averaged $9,984 a tonne in September and is rising. Glencore expects its own copper output to step up sharply in the second half after a weak first half.",
     "why": "Glencore +16%: the market started paying for copper again, and for Glencore's place in any consolidation. Wikipedia gives the year but not the month of the Grasberg accident; the copper jump in September-October fits, but the date is not confirmed, hence no date in the what.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 16 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 16
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Anglo_American_plc; https://en.wikipedia.org/wiki/Grasberg_mine; https://www.investegate.co.uk/announcement/rns/glencore--glen/2025-half-year-report/9030376; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
+    "id": "25491af4",
     "month": "2025-12",
     "title": "A copper plan: one million tonnes by 2028",
     "what": "At its capital markets day on 3 December Glencore said its copper production should exceed 1 million tonnes a year by the end of 2028 and reach about 1.6 million by 2035, including a restart of the Alumbrera mine in Argentina; it has paid out $25.3bn to shareholders over five years. Copper averaged a record $11,785 a tonne in December.",
     "why": "Glencore +14%: the pitch to be valued as a copper company rather than a coal company.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 14 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 14
+    },
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-capital-markets-day-2025-/9273460; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "20748f55",
     "month": "2026-01",
     "title": "Merger talks with Rio Tinto",
     "what": "Glencore confirmed on 9 January that it is in preliminary talks with Rio Tinto about combining some or all of their businesses, possibly an all-share merger in which Rio would acquire Glencore. Rio has until 5 February to make a firm offer or walk away. Copper averaged a record $13,012 a tonne in January.",
     "why": "Glencore +25%, its best month since 2020: the biggest mining deal ever was on the table, twelve years after Rio rebuffed Glasenberg.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 25 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 25
+    },
     "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/statement-regarding-rio-tinto/9342767; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "1d5a2d19",
     "month": "2026-02",
     "title": "Rio walks away; a US-backed buyer for Congo",
     "what": "On 5 February Rio Tinto said it would not make an offer; Glencore said Rio wanted both the chairman and chief executive roles and an ownership split that undervalued Glencore's copper business. On 3 February Glencore had agreed in principle to sell 40% of its Congo copper and cobalt mines, Kamoto and Mutanda, to the US-backed Orion Critical Mineral Consortium at an enterprise value of about $9bn. Its 2025 results showed adjusted EBITDA of $13.5bn and net debt of $11.2bn.",
     "why": "No deal, but the shares held most of January's gain because copper kept rising. The Congo sale ties Glencore's cobalt to US supply-chain policy.",
-    "assets": ["glencore"],
+    "assets": [
+      "glencore"
+    ],
     "importance": 2,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/response-to-rule-2-8-announcement-from-rio-tinto/9412281; https://www.investegate.co.uk/announcement/rns/glencore--glen/proposed-purchase-of-stake-in-glencore-drc-assets-/9405732; https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2025/9435223 (all read 2026-10-03)"
   },
   {
+    "id": "b4fe6249",
     "month": "2026-08",
     "title": "Profits nearly double; an Australian listing",
     "what": "On 5 August Glencore reported first-half adjusted EBITDA up 86% to $10.1bn and net income of $4.4bn, helped by higher copper and steelmaking coal prices and volatile markets that suited its traders, whose earnings rose 142%. It will return about $1.5bn extra to shareholders and plans a secondary listing in Sydney in October. Copper averaged a record $14,326 a tonne in August.",
     "why": "Glencore +10%, its highest month-end in dollars since June 2011, though still below the IPO price.",
-    "assets": ["glencore"],
-    "move": { "asset": "glencore", "pct": 10 },
+    "assets": [
+      "glencore"
+    ],
+    "move": {
+      "asset": "glencore",
+      "pct": 10
+    },
     "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2026-half-year-report/9704840; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   }

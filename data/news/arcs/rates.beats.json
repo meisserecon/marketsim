@@ -1,5 +1,6 @@
 [
   {
+    "id": "09d0e46d",
     "month": "1979-12",
     "title": "Gold doubles in a year as inflation passes 12 percent",
     "what": "Gold averaged 455 dollars an ounce in December, 16 percent more than in November and more than twice its price of a year ago. Consumer prices in November were 12.6 percent higher than a year earlier. Since the Federal Reserve under its new chairman Paul Volcker said on 6 October that it would control the supply of money rather than steer interest rates, the rate banks charge each other has run near 14 percent.",
@@ -14,6 +15,7 @@
     "lead": true
   },
   {
+    "id": "84d7f36a",
     "month": "1980-01",
     "title": "Gold hits a record above 840 dollars",
     "what": "On 21 January the London gold fixing reached a record 843 dollars an ounce, three days after silver touched 49.45 dollars. Gold averaged 675 dollars in January, almost half as much again as in December. Buyers want metal instead of money after the Soviet invasion of Afghanistan, with American hostages still held in Tehran and consumer prices 13.3 percent higher in December than a year earlier.",
@@ -28,6 +30,7 @@
     "lead": true
   },
   {
+    "id": "9cc82a5f",
     "month": "1980-06",
     "title": "Rates tumble in the recession and gold bounces back",
     "what": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. The Fed has cut its discount rate from 13 percent. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
@@ -42,6 +45,7 @@
     "note": "You should make a connection to how falling rates sends the price of bonds upwards. The article should mention the 2000 vintage bond price return ytd from the game."
   },
   {
+    "id": "67433d77",
     "month": "1980-12",
     "title": "The prime rate hits a record 21.5 percent",
     "what": "Major banks raised the prime rate to a record 21 percent on 16 December and to 21.5 percent on the 19th; in July it was 11 percent. The rate banks charge each other averaged nearly 19 percent in December, and the Fed has raised its discount rate back to about 13 percent. Consumer prices in November were 12.6 percent higher than a year earlier. Gold averaged 538 dollars, 14 percent less than in November.",
@@ -55,6 +59,7 @@
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "80da83c4",
     "month": "1981-07",
     "title": "The Fed holds rates near 20 percent and gold slides below 410",
     "what": "The prime rate went back up to 20.5 percent on 8 July, and the Federal Reserve has held the rate banks charge each other near 19 percent since May; it reached about 20 percent in June. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979.",
@@ -69,6 +74,7 @@
     "lead": true
   },
   {
+    "id": "21ff4855",
     "month": "1981-09",
     "title": "Ten-year Treasury yields reach a record 15 percent",
     "what": "The yield on 10-year US Treasury bonds averaged 15.3 percent in September, a record, against about 11.5 percent a year ago. A 30-year mortgage costs about 18.4 percent. Inflation is still near 11 percent (August), and the S&P 500 lost 5 percent in the month as the economy weakens.",
@@ -84,6 +90,7 @@
     "note": "Add comment about Apple, Sony, Schlumberger and others declining"
   },
   {
+    "id": "12320a20",
     "month": "1982-03",
     "title": "Gold falls to 330 dollars as inflation retreats",
     "what": "Gold averaged 330 dollars in March, 12 percent below February, the lowest since August 1979 and less than half its January 1980 average. Inflation has dropped to 7.6 percent (February) while the rate banks charge each other is near 15 percent, so money in the bank earns about 7 percent more than prices rise. The prime rate stands at 16.5 percent.",
@@ -97,6 +104,7 @@
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
   },
   {
+    "id": "2a7dc3b1",
     "month": "1982-09",
     "title": "Gold jumps 20 percent as rates fall and Mexico wobbles",
     "what": "Gold averaged 437 dollars in September, 20 percent more than in August and almost 40 percent above its June average. Falling interest rates make gold cheaper to hold, and Mexico's announcement in August that it cannot pay its foreign debts has raised fears for the banks that lent to it. Ten-year Treasury yields averaged 12.3 percent, down from 14.3 percent in June.",
@@ -110,6 +118,7 @@
     "source": "data/out/gold.json (read 2026-10-03); https://en.wikipedia.org/wiki/Latin_American_debt_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
+    "id": "0010fd15",
     "month": "1983-03",
     "title": "Gold slumps after OPEC cuts the oil price",
     "what": "Gold averaged 420 dollars in March, 14 percent below February's 491. On 14 March OPEC cut its base oil price from 34 to 29 dollars a barrel, the first cut in its history, after twelve days of talks. US inflation is down to 3.5 percent (February), and the rate banks charge each other is still near 8.75 percent.",
@@ -123,6 +132,7 @@
     "source": "data/out/gold.json (read 2026-10-03); https://www.upi.com/Archives/1983/03/14/OPEC-prices-down-consumer-optimism-up/3004416466000/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03)"
   },
   {
+    "id": "e5478fc8",
     "month": "1994-02",
     "title": "The Fed raises rates for the first time in five years",
     "what": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January).",
@@ -133,6 +143,7 @@
     "lead": true
   },
   {
+    "id": "a8281700",
     "month": "1994-11",
     "title": "Sixth hike of the year as bond losses mount",
     "what": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year.",
@@ -142,6 +153,7 @@
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03)"
   },
   {
+    "id": "7f98fea0",
     "month": "1999-05",
     "title": "Britain will sell half its gold",
     "what": "On 7 May the British government said it would sell about 395 tonnes of gold, roughly half its reserves, in auctions from July; gold stood at 282.40 dollars that day. Gold averaged 276 dollars in May, its lowest monthly average since 1979. With inflation around 2 percent (April) and shares booming, few investors want a metal that pays nothing.",
@@ -151,6 +163,7 @@
     "source": "https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
+    "id": "1b90ca05",
     "month": "1999-10",
     "title": "Europe's central banks agree to limit gold sales, and gold jumps",
     "what": "On 26 September fifteen European central banks agreed in Washington to sell no more than about 400 tonnes of gold a year, 2,000 tonnes over five years, and not to expand their gold lending. The price jumped: gold averaged 311 dollars in October, 17 percent above September and up from a 20-year low of 252.80 dollars on 20 July.",
@@ -164,6 +177,7 @@
     "source": "https://en.wikipedia.org/wiki/Washington_Agreement_on_Gold (read 2026-10-03); https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "371fa7de",
     "month": "2001-01",
     "title": "The Fed cuts by half a point, twice in one month",
     "what": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom.",
@@ -173,6 +187,7 @@
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
   },
   {
+    "id": "2e9363e8",
     "month": "2001-04",
     "title": "Another surprise half-point cut lifts shares",
     "what": "On 18 April, again between scheduled meetings, the Fed cut its rate target by half a point to 4.5 percent, its fourth cut this year, warning that weak investment and falling profits threatened to keep the economy 'unacceptably weak'. Banks cut the prime rate to 7.5 percent the next day. After a 6 percent fall in March, the S&P 500 gained 8 percent in April.",
@@ -186,6 +201,7 @@
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010418/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "7a8b5a59",
     "month": "2003-06",
     "title": "The Fed's rate falls to 1 percent",
     "what": "On 25 June the Fed cut its rate target by a quarter point to 1 percent, the lowest since the 1950s; since January 2001 it has cut thirteen times from 6.5 percent. Inflation is about 2.1 percent (May). The 10-year Treasury yield averaged 3.3 percent in June, the lowest since 1958, and a 30-year mortgage costs about 5.2 percent.",
@@ -195,6 +211,7 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
+    "id": "ad2cf020",
     "month": "2005-02",
     "title": "Greenspan's 'conundrum': long rates fall while the Fed raises",
     "what": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'.",
@@ -204,6 +221,7 @@
     "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
+    "id": "b0b300fd",
     "month": "2006-06",
     "title": "Seventeenth hike in a row; gold falls back from a 26-year high",
     "what": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May.",
@@ -217,6 +235,7 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
+    "id": "5cf5e19a",
     "month": "2008-01",
     "title": "Emergency cut of three quarters of a point; gold near 900",
     "what": "On 22 January, a week before its scheduled meeting, the Fed cut its rate target by three quarters of a point to 3.5 percent, and on 30 January by another half point to 3 percent. It had begun cutting in September from 5.25 percent. Inflation is 4.1 percent (December). Gold averaged 890 dollars in January, 11 percent more than in December and a record.",
@@ -230,6 +249,7 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "02686580",
     "month": "2008-12",
     "title": "Zero interest rates and the Fed starts buying bonds",
     "what": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December.",
@@ -243,6 +263,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03)"
   },
   {
+    "id": "bacf7bc4",
     "month": "2011-08",
     "title": "America loses its AAA rating and gold soars",
     "what": "On 5 August Standard & Poor's cut the US government's credit rating from AAA to AA+ for the first time ever, after a fight in Congress over the debt ceiling. On 9 August the Fed said its rate would likely stay exceptionally low 'at least through mid-2013'. Investors bought both Treasury bonds and gold: the 10-year yield averaged about 2.3 percent in August, down from 3 percent in July, and gold averaged 1,759 dollars, 12 percent more than in July and a record.",
@@ -256,6 +277,7 @@
     "source": "https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "e762e5d4",
     "month": "2012-09",
     "title": "QE3: open-ended bond buying",
     "what": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August.",
@@ -265,6 +287,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "76331f68",
     "month": "2013-04",
     "title": "Gold breaks down",
     "what": "Gold averaged 1,488 dollars in April, 7 percent below March and 16 percent below its peak month of September 2011. US inflation is only 1.5 percent (March), and shares are at records. The fear of inflation from the Fed's bond buying has not come true.",
@@ -278,6 +301,7 @@
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "4321ca9e",
     "month": "2013-06",
     "title": "The taper tantrum",
     "what": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May.",
@@ -287,6 +311,7 @@
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "3460c8de",
     "month": "2015-12",
     "title": "The first rate rise in nine years",
     "what": "On 16 December the Fed raised its rate target to a range of 0.25 to 0.5 percent, its first increase since 2006 and the end of seven years at zero. It said economic conditions would warrant 'only gradual increases'. Consumer prices were only 0.5 percent higher than a year earlier (November). Gold averaged 1,076 dollars in December, its lowest since 2009.",
@@ -296,6 +321,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "9a55fbf6",
     "month": "2016-07",
     "title": "Ten-year yields at a record low after the Brexit vote",
     "what": "After Britain voted on 23 June to leave the European Union, investors bought safe government bonds. The 10-year Treasury yield averaged 1.5 percent in July, the lowest monthly average on record. US inflation is about 1 percent (June), and the Fed has kept its rate at 0.25 to 0.5 percent since December. Gold averaged 1,337 dollars, 5 percent more than in June.",
@@ -305,6 +331,7 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "1fd93caf",
     "month": "2018-12",
     "title": "A fourth hike of the year and a December rout",
     "what": "On 19 December the Fed raised its rate target to 2.25 to 2.5 percent, its fourth increase this year, and said 'some further gradual increases' would be appropriate. The 10-year Treasury yield, which averaged 3.15 percent in October, the highest since 2011, has eased to about 2.8 percent. The S&P 500 lost 9 percent in December, its worst month since February 2009.",
@@ -318,6 +345,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "6462838a",
     "month": "2019-01",
     "title": "The Fed says it 'will be patient'",
     "what": "On 30 January the Fed kept its rate at 2.25 to 2.5 percent and said that 'in light of global economic and financial developments and muted inflation pressures' it 'will be patient' before any further change. Inflation is about 1.9 percent (December). Shares recovered much of December's loss: the S&P 500 gained 8 percent in January, its best January since 1987.",
@@ -331,6 +359,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "25006799",
     "month": "2020-03",
     "title": "Back to zero, and unlimited bond buying",
     "what": "As the coronavirus spread, the Fed cut its rate by half a point on 3 March and, on Sunday 15 March, to 0 to 0.25 percent, with at least 500 billion dollars of Treasury and 200 billion of mortgage-bond purchases. On 23 March it promised to buy bonds 'in the amounts needed' and, for the first time, to buy corporate bonds. The 10-year Treasury yield averaged 0.9 percent in March, a record low.",
@@ -340,6 +369,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
+    "id": "f391102a",
     "month": "2020-04",
     "title": "The Fed promises 2.3 trillion dollars of loans",
     "what": "On 9 April the Fed said it would provide up to 2.3 trillion dollars of loans: up to 600 billion for small and mid-sized businesses, up to 500 billion for states and cities, and a bigger programme to buy corporate bonds. Shares rebounded strongly: the S&P 500 gained 13 percent in April, its best month since January 1987, despite a collapsing economy.",
@@ -353,6 +383,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200409a.htm (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "d8ab1d2d",
     "month": "2020-08",
     "title": "Gold at a record as the Fed says it will let inflation run",
     "what": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below.",
@@ -366,6 +397,7 @@
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03)"
   },
   {
+    "id": "4bfdfd27",
     "month": "2021-11",
     "title": "Inflation at 6.2 percent; the Fed starts to slow its bond buying",
     "what": "Consumer prices in October were 6.2 percent higher than a year earlier, the fastest rise since 1990. On 3 November the Fed said it would begin reducing its monthly bond purchases by 15 billion dollars, while still describing inflation as 'largely reflecting factors that are expected to be transitory'. Its rate remains near zero.",
@@ -375,6 +407,7 @@
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03)"
   },
   {
+    "id": "c806db40",
     "month": "2022-03",
     "title": "The Fed raises rates as inflation nears 8 percent and war breaks out",
     "what": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record.",
@@ -384,6 +417,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "ddf9c27c",
     "month": "2022-04",
     "title": "Bond yields jump and shares slide",
     "what": "Consumer prices in March were 8.5 percent higher than a year earlier, the most since 1981. The 10-year Treasury yield averaged 2.75 percent in April, up from 1.76 percent in January, and long-dated bonds keep falling. The S&P 500 lost 9 percent in April, its worst month since March 2020.",
@@ -397,6 +431,7 @@
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)"
   },
   {
+    "id": "91dd355a",
     "month": "2022-06",
     "title": "Inflation at 8.6 percent; a three-quarter-point hike",
     "what": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June and is down a fifth since the start of the year.",
@@ -410,6 +445,7 @@
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "e459cd7f",
     "month": "2022-07",
     "title": "Another big hike, but markets bet on the peak",
     "what": "Consumer prices in June were 9.1 percent higher than a year earlier, the most since 1981. On 27 July the Fed raised its rate by another three quarters of a point to 2.25 to 2.5 percent. Yet long-term bond yields fell during July, as investors bet that inflation and rate rises were near their peak, and the S&P 500 gained 9 percent, its best month since November 2020.",
@@ -423,6 +459,7 @@
     "source": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "281974e4",
     "month": "2022-09",
     "title": "Third giant hike; the British bond market breaks",
     "what": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January peak.",
@@ -436,6 +473,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
+    "id": "cfcbe3df",
     "month": "2023-03",
     "title": "Silicon Valley Bank fails on its bond losses",
     "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent.",
@@ -445,6 +483,7 @@
     "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03)"
   },
   {
+    "id": "98d41543",
     "month": "2023-10",
     "title": "Ten-year yields near 5 percent, mortgages near 8",
     "what": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its last increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
@@ -454,6 +493,7 @@
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)"
   },
   {
+    "id": "a64a3fae",
     "month": "2023-11",
     "title": "Yields tumble and shares soar as hikes look finished",
     "what": "The Fed left its rate unchanged on 1 November, and consumer prices in October were only 3.2 percent higher than a year earlier, down from 3.7 percent. Bond yields fell sharply: a seven-year Treasury now yields about 4.4 percent, down from 4.9 percent at the end of October. The S&P 500 gained 9 percent in November, its best month since July 2022.",
@@ -467,6 +507,7 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20231213.htm (read 2026-10-03)"
   },
   {
+    "id": "7a7429cb",
     "month": "2024-09",
     "title": "The Fed's first cut in four years, half a point at once",
     "what": "On 18 September the Fed cut its rate by half a point to 4.75 to 5 percent, its first cut since 2020, saying it had 'greater confidence that inflation is moving sustainably toward 2 percent'; one member preferred a quarter point. Consumer prices in August were 2.5 percent higher than a year earlier, the lowest since early 2021. Gold averaged 2,571 dollars in September, a record, after central banks bought more than 1,000 tonnes in each of 2022 and 2023.",
@@ -476,6 +517,7 @@
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03)"
   },
   {
+    "id": "f25c06b6",
     "month": "2025-04",
     "title": "Tariff shock: Treasury bonds sold, gold bought",
     "what": "After the president announced sweeping tariffs on 2 April, the S&P 500 fell 10 percent in two days. Treasury bonds, the usual safe haven, were sold too: the 10-year yield rose from 3.86 percent on 4 April to 4.5 percent on 9 April, and the 30-year yield jumped 54 basis points to 4.92 percent, its biggest three-day rise since 1982, before a 90-day tariff pause on 9 April calmed markets. Gold averaged 3,218 dollars in April, 8 percent more than in March and a record.",
@@ -489,6 +531,7 @@
     "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
+    "id": "cb073ed8",
     "month": "2025-10",
     "title": "Gold passes 4,000 dollars",
     "what": "Gold rose above 4,000 dollars an ounce for the first time in October and averaged 4,058 dollars, 11 percent more than in September. The Fed resumed cutting on 17 September and cut again on 29 October, to 3.75 to 4 percent, though inflation is still about 3 percent.",
@@ -502,6 +545,7 @@
     "source": "https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
+    "id": "4b97a77d",
     "month": "2026-01",
     "title": "Gold passes 5,000, then crashes on the new Fed chair",
     "what": "Gold rose above 5,000 dollars an ounce on 26 January and reached a record of about 5,600 on the 29th, as tensions over Venezuela, Iran and Greenland and fears for the Fed's independence drove buyers in. On 30 January the president named Kevin Warsh, seen as a defender of a strong dollar, as the next Fed chairman, and gold fell around 10 percent in a day while silver lost about 30 percent. Gold still averaged 4,753 dollars in January, 10 percent more than in December. The Fed has held its rate at 3.5 to 3.75 percent since December.",
@@ -515,6 +559,7 @@
     "source": "https://euronews.com/business/2026/02/01/the-price-of-gold-and-silver-has-fallen-sharply-where-did-this-plunge-come-from (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03)"
   },
   {
+    "id": "815cf415",
     "month": "2026-06",
     "title": "Inflation back above 4 percent; Warsh takes over; gold slides",
     "what": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record.",
@@ -528,6 +573,7 @@
     "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03)"
   },
   {
+    "id": "282e2f5b",
     "month": "2026-09",
     "title": "The Fed raises rates again as oil passes 100 dollars",
     "what": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent.",

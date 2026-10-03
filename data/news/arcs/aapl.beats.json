@@ -1,5 +1,6 @@
 [
   {
+    "id": "c39ec28f",
     "month": "1980-12",
     "title": "Apple Computer, maker of the Apple II, goes public",
     "what": "Apple Computer went public on 12 December: 4.6 million shares at 22 dollars raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded at 29. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires.",
@@ -11,6 +12,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)"
   },
   {
+    "id": "c01495cc",
     "month": "1981-02",
     "title": "Apple lays off staff over the troubled Apple III; Jobs becomes chairman",
     "what": "The Apple III, the office computer launched in November at 4,340 dollars and more, has been plagued by faults: machines overheat and fail. President Mike Scott laid off employees in February to cut costs, a move co-founder Steve Jobs opposed. Mike Markkula takes over as president and Jobs becomes chairman. The shares, 22 dollars at the December float, have been falling since January.",
@@ -27,6 +29,7 @@
     "note": "Add a note on Boeing delivering its first 767 to United Airlines."
   },
   {
+    "id": "78f913f2",
     "month": "1981-06",
     "title": "Apple shares drop 21% from their May high",
     "what": "Apple shares fell 21% in June, giving back the rise of April and May, in a flat market. Investors have little to go on beyond the Apple III's reliability problems and talk that IBM, the giant of the computer industry, is preparing its own personal computer. Apple is still growing fast on the Apple II, but the stock market is no longer sure what a young computer company should be worth.",
@@ -43,6 +46,7 @@
     "lead": true
   },
   {
+    "id": "8861332f",
     "month": "1981-08",
     "title": "IBM enters the personal computer market; Apple falls 20%",
     "what": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in. Apple shares fell 20% in August and another 24% in September.",
@@ -59,6 +63,7 @@
     "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); price changes from data/out/aapl.json"
   },
   {
+    "id": "d97b27ca",
     "month": "1981-12",
     "title": "Apple replaces the first 14,000 Apple IIIs with a redesigned model",
     "what": "Apple is replacing the first 14,000 Apple III computers it sold with a redesigned version that fixes the overheating and faulty circuit boards of the original. The machine, launched a year ago as Apple's step into the office, has sold poorly against the Apple II that still carries the company.",
@@ -70,6 +75,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
   },
   {
+    "id": "6f5bf2f2",
     "month": "1982-08",
     "title": "Wall Street turns, and Apple leads the way up",
     "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
@@ -85,6 +91,7 @@
     "source": "data/reference/sp500.json and data/out/aapl.json (monthly prices); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
   },
   {
+    "id": "0db6cab2",
     "month": "1982-10",
     "title": "Falling interest rates power a second leap",
     "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks.",
@@ -101,6 +108,7 @@
     "lead": true
   },
   {
+    "id": "5e685bbb",
     "month": "1983-01",
     "title": "Apple unveils the Lisa",
     "what": "Apple introduced the Lisa computer on 19 January. It is controlled with a mouse and pictures on the screen instead of typed commands and costs 9,995 dollars with a hard disk. Apple spent heavily to develop it and is betting it will win over business users.",
@@ -116,6 +124,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Lisa (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "b5ae4948",
     "month": "1984-01",
     "title": "The Macintosh",
     "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars.",
@@ -128,6 +137,7 @@
     "lead": true
   },
   {
+    "id": "94a7ce09",
     "month": "1985-09",
     "title": "Steve Jobs leaves Apple",
     "what": "On 17 September Steve Jobs, Apple's co-founder and chairman, resigned. In the spring the board had backed chief executive John Sculley, hired from PepsiCo in 1983, when he took the Macintosh division away from Jobs. Five senior employees are leaving with Jobs to start a new company, and Jobs has sold nearly all of his Apple shares.",
@@ -140,6 +150,7 @@
     "lead": true
   },
   {
+    "id": "214c912b",
     "month": "1987-05",
     "title": "Apple pays its first dividend and splits its shares",
     "what": "On 11 May Apple declared its first dividend, and in June its shares split two for one for the first time. The Macintosh Plus and the new Macintosh II with colour are selling well to businesses, designers and schools, and the Mac with Apple's LaserWriter printer has become the tool for desktop publishing.",
@@ -151,6 +162,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Macintosh_II (read 2026-10-03, via data/news/1987.json)"
   },
   {
+    "id": "7293e9eb",
     "month": "1989-09",
     "title": "Apple's first portable Macintosh",
     "what": "Apple released the Macintosh Portable on 20 September, its first battery-powered computer, at 5,799 dollars. The Mac line is selling well: these are good years for Apple.",
@@ -162,6 +174,7 @@
     "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "6d417b3f",
     "month": "1990-05",
     "title": "Windows 3.0 gives PCs what made the Mac special",
     "what": "Microsoft launched Windows 3.0 on 22 May. It gives ordinary IBM-compatible PCs a screen with windows, icons and a mouse much like the Macintosh, at lower prices. Apple's Macs sell well for now, but the gap is closing.",
@@ -174,6 +187,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)"
   },
   {
+    "id": "454862cc",
     "month": "1990-10",
     "title": "Apple goes cheap: the Macintosh Classic for 999 dollars",
     "what": "On 15 October Apple presented the Macintosh Classic and the Macintosh LC, its first Macs priced for schools and homes: chairman John Sculley said prices would start at 1,000 dollars, less than half of what a Mac used to cost. Apple wants the Macintosh in many more hands. Investors are uneasy, because cheaper machines earn thinner profits on each sale.",
@@ -185,6 +199,7 @@
     "source": "https://en.wikipedia.org/wiki/Macintosh_Classic (read 2026-10-03)"
   },
   {
+    "id": "4a5f83f1",
     "month": "1991-05",
     "title": "Apple shares fall 15%: cheap Macs sell, but the profit on each is thin",
     "what": "Apple shares fell 15% in May after a 19% fall in April. The low-priced Macintosh Classic and LC are selling, but Apple earns far less on each one, and the company said it would offset the lower gross margins by cutting operating expenses. Reports in mid-May spoke of 600 to 2,000 of the 15,600 jobs going, mostly in administration; Apple would not confirm a figure.",
@@ -200,6 +215,7 @@
     "source": "https://archive.seattletimes.com/archive/19910518/1283813/apple-computer-to-issue-layoffs (read 2026-10-03); price changes from data/out/aapl.json"
   },
   {
+    "id": "db2b570e",
     "month": "1991-06",
     "title": "Apple cuts about 1,500 jobs; shares down 39% since March",
     "what": "Apple announced the cuts investors had been waiting for: about 1,500 jobs, a tenth of its staff, to bring costs in line with the thinner profits of its cheaper Macintosh models. The shares fell another 12% in June and have lost 39% since March, in a month when the whole market fell 5%. Apple remains profitable; the question is how much it can earn selling computers at 1,000 dollars instead of 2,500.",
@@ -216,6 +232,7 @@
     "lead": true
   },
   {
+    "id": "81111c16",
     "month": "1991-07",
     "title": "Apple and IBM, enemies for a decade, agree to work together",
     "what": "On 3 July Apple and IBM signed a letter of intent for an alliance that would have been unthinkable a few years ago: a new family of microprocessors with Motorola, derived from IBM's POWER chips, a joint company to build a next-generation operating system from Apple's \"Pink\" project, and another for multimedia software. The aim is a common platform that other makers can build on, a direct challenge to the Microsoft-and-Intel world of the PC. Apple shares rose 11% in July.",
@@ -232,6 +249,7 @@
     "source": "https://en.wikipedia.org/wiki/AIM_alliance (read 2026-10-03); price change from data/out/aapl.json"
   },
   {
+    "id": "20678866",
     "month": "1993-10",
     "title": "Sculley is out; Spindler takes over",
     "what": "John Sculley has left Apple after a bad start to 1993 and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
@@ -243,6 +261,7 @@
     "source": "https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)"
   },
   {
+    "id": "ab4b8282",
     "month": "1994-03",
     "title": "The Power Macintosh, and Mac clones",
     "what": "Apple has started its Power Macintosh line, built on PowerPC processors developed in an alliance with IBM and Motorola. Parts of the Mac's software were rewritten so that older programs still run.",
@@ -255,6 +274,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "e26d1477",
     "month": "1996-02",
     "title": "Gil Amelio replaces Spindler; Apple's survival in question",
     "what": "On 2 February Apple named Gil Amelio, head of National Semiconductor, as chief executive, replacing Michael Spindler. Apple could not build enough of its popular models and too many of the others, its finance chief left in 1995 after urging a sale of the company, and merger talks with IBM, Sun and Philips came to nothing. Fortune wrote this month that the company that invented the personal computer will likely disappear.",
@@ -268,6 +288,7 @@
     "lead": true
   },
   {
+    "id": "b8e111e6",
     "month": "1996-12",
     "title": "Apple buys NeXT, and Jobs is back",
     "what": "On 20 December Apple announced it will buy NeXT, Steve Jobs's company, for 429 million dollars and 1.5 million Apple shares. NeXT's operating system will become the basis of the next Mac system, which Apple failed to build itself, and the deal brings Jobs back into Apple's management.",
@@ -280,6 +301,7 @@
     "lead": true
   },
   {
+    "id": "41bff9c0",
     "month": "1997-08",
     "title": "Jobs makes peace with Microsoft",
     "what": "Gil Amelio was pushed out as chief executive on 9 July, and Steve Jobs is now interim chief executive. At the Macworld show on 6 August Jobs announced that Microsoft will invest 150 million dollars in Apple, keep making Office for the Mac for five years and settle the long patent dispute. Apple is worth only about 2.5 billion dollars.",
@@ -296,6 +318,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000320193-97-000012.txt (Apple 8-K with press release of 9 July 1997) (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)"
   },
   {
+    "id": "b0aedcf1",
     "month": "1998-01",
     "title": "Apple is profitable again",
     "what": "At the Macworld show on 6 January Apple announced that it expects a profit of more than 45 million dollars on sales of about 1.575 billion for the quarter to December, its first good news in years. Jobs has cut the product line, ended the licensing of the Mac to clone makers and opened an online store.",
@@ -312,6 +335,7 @@
     "lead": true
   },
   {
+    "id": "5d85e3ae",
     "month": "2000-09",
     "title": "Apple's sales warning halves the shares",
     "what": "At the end of September Apple warned that sales for the quarter to September will fall well short of its expectations. The new G4 Cube computer, launched in July, is selling far below plan, education sales are weak, and buyers chose cheaper Power Macs; dealers are sitting on unsold computers. Apple expects sales to fall sharply in the next quarter as well.",
@@ -327,6 +351,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/0000912057-00-053623.txt (Apple 10-K for fiscal 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Power_Mac_G4_Cube (read 2026-10-03)"
   },
   {
+    "id": "9b4bf5cc",
     "month": "2001-01",
     "title": "A surprise rate cut, and Apple rebounds",
     "what": "On 3 January the Federal Reserve cut its key interest rate by half a point to 6%, between meetings, and battered technology shares rebounded. Apple, worth less than a third of its value of last spring, expects sales of only about 1 billion dollars for the quarter to December as dealers clear out unsold computers, but investors think the worst is known.",
@@ -342,6 +367,7 @@
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000912057-00-053623.txt (Apple 10-K for fiscal 2000, outlook section, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000912057-01-004642.txt (Apple 10-Q for the quarter to December 2000, read 2026-10-03)"
   },
   {
+    "id": "681393a5",
     "month": "2001-10",
     "title": "The iPod: a thousand songs in your pocket",
     "what": "Apple introduced the iPod, a portable music player with a 5-gigabyte hard disk that holds about 1,000 songs and works with Apple's iTunes software on the Mac.",
@@ -353,6 +379,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "7589a5bf",
     "month": "2003-04",
     "title": "The iTunes Music Store opens",
     "what": "Apple opened the iTunes Music Store, where songs can be bought legally for download, and sold 2 million songs in the first 16 days. For now it works only with Macs and in the United States.",
@@ -364,6 +391,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "cbcca9a7",
     "month": "2004-10",
     "title": "Two million iPods in a quarter",
     "what": "On 13 October Apple reported a profit of 106 million dollars on sales of 2.35 billion for the quarter to September, sales up 37%. It shipped 2,016,000 iPods, five times as many as a year earlier, its retail stores' sales grew 95%, and it expects a much better December quarter.",
@@ -379,6 +407,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000110465904030400/a04-11506_1ex99d1.htm (Apple press release of 13 October 2004, read 2026-10-03)"
   },
   {
+    "id": "ef7b9109",
     "month": "2005-06",
     "title": "Apple switches the Mac to Intel",
     "what": "On 6 June Steve Jobs announced that Apple will put Intel processors into its Macintosh computers from 2006, replacing the PowerPC chips from IBM and Motorola. Apple has secretly kept a version of Mac OS X running on Intel chips for five years.",
@@ -392,6 +421,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "addfe470",
     "month": "2007-01",
     "title": "Apple unveils the iPhone and drops 'Computer' from its name",
     "what": "On 9 January Steve Jobs presented the iPhone, a mobile phone, music player and internet device operated with the fingers on a touch screen, and Apple Computer renamed itself Apple Inc. The iPhone goes on sale in the United States in June.",
@@ -403,6 +433,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "7bc4b4a7",
     "month": "2008-01",
     "title": "Record results, weak forecast, falling market",
     "what": "On 22 January Apple reported its best quarter ever: revenue of 9.6 billion dollars, up 35%, and a profit of 1.58 billion, with 2.3 million iPhones sold. But it forecast revenue of only about 6.8 billion dollars for the next quarter, and stock markets are falling.",
@@ -418,6 +449,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312508009715/dex991.htm (Apple press release of 22 January 2008, read 2026-10-03)"
   },
   {
+    "id": "b27247c0",
     "month": "2008-09",
     "title": "The financial crisis",
     "what": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
@@ -433,6 +465,7 @@
     "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); data/out/aapl.json (monthly prices)"
   },
   {
+    "id": "990a1f2f",
     "month": "2010-01",
     "title": "Apple announces the iPad",
     "what": "On 27 January Apple announced the iPad, a tablet computer with a screen twice the size of the iPhone's, without phone functions. It goes on sale in April.",
@@ -444,6 +477,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "1c970dd4",
     "month": "2011-08",
     "title": "Jobs resigns; Tim Cook is chief executive",
     "what": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
@@ -455,6 +489,7 @@
     "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "a7b12682",
     "month": "2011-10",
     "title": "Steve Jobs dies",
     "what": "Steve Jobs died at his home in Palo Alto on 5 October, aged 56, after a relapse of the pancreatic tumour first diagnosed in 2003.",
@@ -466,6 +501,7 @@
     "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)"
   },
   {
+    "id": "bfb0dea2",
     "month": "2012-08",
     "title": "A record stock market value",
     "what": "On 20 August Apple's rising shares made it worth a record 624 billion dollars, beating the record set by Microsoft in 1999 (without adjusting for inflation).",
@@ -478,6 +514,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "5844788c",
     "month": "2014-04",
     "title": "A seven-for-one split and 130 billion dollars for shareholders",
     "what": "On 23 April Apple said it will return more than 130 billion dollars to shareholders by the end of 2015, raise its share buyback to 90 billion dollars and its dividend by about 8%, and split its shares seven for one. Apple has paid a dividend again since 2012, its first since 1995.",
@@ -489,6 +526,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312514154883/d715379dex991.htm (Apple press release of 23 April 2014) (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "174ac70b",
     "month": "2016-04",
     "title": "Apple's first sales decline in years",
     "what": "On 26 April Apple reported revenue of 50.6 billion dollars for the quarter to March, down from 58 billion a year earlier, as iPhone sales fell; Tim Cook pointed to strong growth in services and more than a billion active Apple devices. Apple raised its capital return program to 250 billion dollars. In March 2015 Apple joined the Dow Jones index and in April 2015 its Watch went on sale.",
@@ -500,6 +538,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312516556520/d325078dex991.htm (Apple press release of 26 April 2016) (read 2026-10-03); https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "93404553",
     "month": "2017-09",
     "title": "The iPhone X",
     "what": "On 12 September Apple introduced the iPhone X, with facial recognition and wireless charging, alongside the iPhone 8, at the new Steve Jobs Theater.",
@@ -511,6 +550,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "b72d50ff",
     "month": "2018-08",
     "title": "The first trillion-dollar company",
     "what": "On 2 August Apple became the first US listed company to be worth one trillion dollars.",
@@ -522,6 +562,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "4f4c2a21",
     "month": "2019-01",
     "title": "Tim Cook warns: China and fewer iPhone upgrades",
     "what": "On 2 January Tim Cook cut Apple's revenue forecast for the December quarter to about 84 billion dollars, below its earlier guidance, in a letter to investors. He blamed a much sharper slowdown in China than expected and fewer iPhone upgrades; sales outside the iPhone grew almost 19%.",
@@ -533,6 +574,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)"
   },
   {
+    "id": "4b4f3282",
     "month": "2020-08",
     "title": "Two trillion dollars",
     "what": "On 19 August Apple's shares briefly topped 467 dollars, making it the first US company worth two trillion dollars, despite the pandemic. Apple has also started moving its Macs from Intel processors to chips of its own design.",
@@ -549,6 +591,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "dd3de77d",
     "month": "2022-07",
     "title": "Profits fall in a weaker market",
     "what": "Apple reported an 11% fall in profit for the quarter to June compared with a year earlier, as technology shares slid through 2022.",
@@ -560,6 +603,7 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "3ef30def",
     "month": "2023-06",
     "title": "The Vision Pro headset",
     "what": "At its developer conference Apple presented the Vision Pro, a headset that mixes the real world with digital images and is controlled by hand gestures, for 3,500 dollars.",
@@ -571,6 +615,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "a68414c4",
     "month": "2024-06",
     "title": "Apple Intelligence",
     "what": "At its developer conference Apple announced Apple Intelligence, artificial intelligence features for the iPhone, iPad and Mac, including the use of OpenAI's ChatGPT to improve Siri. Apple has been criticised for falling behind in AI. The shares rose and briefly made Apple the world's most valuable company again, ahead of Microsoft.",
@@ -583,6 +628,7 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "95abf609",
     "month": "2026-04",
     "title": "Tim Cook will hand over to John Ternus",
     "what": "On 20 April Apple announced that Tim Cook will become executive chair on 1 September and that John Ternus, 50, head of hardware engineering and at Apple since 2001, will succeed him as chief executive. On 30 April Apple reported record March-quarter revenue of 111.2 billion dollars, up 17%, with strong demand for the iPhone 17.",
@@ -594,6 +640,7 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm (Apple 8-K of 20 April 2026, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm (Apple press release of 30 April 2026, read 2026-10-03)"
   },
   {
+    "id": "4146ce96",
     "month": "2026-09",
     "title": "John Ternus takes over",
     "what": "On 1 September John Ternus became Apple's chief executive, and Tim Cook executive chair.",

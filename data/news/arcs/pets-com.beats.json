@@ -1,80 +1,127 @@
 [
   {
+    "id": "db3b3e68",
     "month": "2000-02",
     "title": "Pets.com, the sock puppet company, goes public",
     "what": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11 at $11 each, raising $82.5 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it.",
     "why": "The listing beat (importance 1). The case for buying was the brand, the Amazon connection and a huge pet-supplies market; the case against was in the prospectus: it sold heavy, low-margin goods below cost and spent heavily on advertising. The shares closed the month at 7, already below the issue price.",
-    "assets": ["pets-com", "amzn"],
+    "assets": [
+      "pets-com",
+      "amzn"
+    ],
     "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
   },
   {
+    "id": "86113a72",
     "month": "2000-03",
     "title": "Investors ask how long the dot-coms' cash will last",
     "what": "On March 20 the financial weekly Barron's published a cover story warning that many internet companies are running out of cash fast. The Nasdaq index, which peaked on March 10, has started to fall.",
     "why": "The question that killed Pets.com: -39% in March 2000, to well below the $11 issue price.",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": -39 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -39
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
   },
   {
+    "id": "65114786",
     "month": "2000-04",
     "title": "The Nasdaq's worst week",
     "what": "The Nasdaq composite index fell 25% in the week to April 14, including 9% on the Friday, as investors sold technology and internet shares ahead of the tax deadline.",
     "why": "The general crash takes Pets.com down another third (-33% in April).",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": -33 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -33
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
   },
   {
+    "id": "7ed8c6e0",
     "month": "2000-05",
     "title": "Pets.com sells at a loss",
     "what": "Pets.com reported sales of $7.7 million for the first quarter, against $12.5 million spent on the goods and shipping, and $28.9 million on marketing. The net loss was $39.1 million. The company said its gross margin improved from minus 124% to minus 64% after it opened a second warehouse in Indianapolis.",
     "why": "The numbers behind the legend: every sale lost money even before advertising. -27% in May 2000.",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": -27 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -27
+    },
     "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800002857/0000891618-00-002857.txt (10-Q for the quarter to March 31, 2000, filed May 15, 2000, read 2026-10-03)"
   },
   {
+    "id": "6161022c",
     "month": "2000-06",
     "title": "Pets.com takes over its rival Petstore.com",
     "what": "Pets.com agreed on June 12 to buy the main assets of its competitor Petstore.com in exchange for Pets.com shares, receiving $3 million in cash as part of the deal. It also gains a promotion agreement with Discovery Communications' television channels, including Animal Planet, and a marketing deal with the Safeway supermarket chain. A retail version of the sock puppet goes on sale.",
     "why": "A brief bounce (+7% in June, the only rising month) as Pets.com consolidates the online pet market; it did not change the economics.",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": 7 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": 7
+    },
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004116/e8-k.txt (8-K, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
   },
   {
+    "id": "2abd9f4f",
     "month": "2000-08",
     "title": "Pets.com says its cash will last only into early 2001",
     "what": "In its quarterly report filed on August 14 Pets.com said its cash should be enough only into the first quarter of 2001 and that it expects to have to raise more money then. It is still selling goods for less than they cost.",
     "why": "With investors no longer funding loss-making dot-coms, this was close to a death notice: -40% in August.",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": -40 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -40
+    },
     "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q for the quarter to June 30, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
   },
   {
+    "id": "2e982a43",
     "month": "2000-09",
     "title": "Pets.com cuts costs and looks for a buyer",
     "what": "Pets.com opened a customer service centre in Greenwood, Indiana, and moved most of its customer staff there to cut costs. It is trying to raise capital or sell the company.",
     "why": "The last attempts at rescue; -23% in September.",
-    "assets": ["pets-com"],
-    "move": { "asset": "pets-com", "pct": -23 },
+    "assets": [
+      "pets-com"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -23
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0001095811-00-004383.txt (8-K with press release, read 2026-10-03)"
   },
   {
+    "id": "cf42cc0f",
     "month": "2000-11",
     "title": "Pets.com shuts down",
     "what": "On November 7 Pets.com said it will stop taking orders on November 9, lay off 255 of its 320 employees and sell its inventory, warehouse equipment, web addresses and the sock-puppet brand. More than 50 possible buyers and investors were approached; none would fund or buy the company. The shares, issued at $11 in February, traded at about 19 cents, and the company warned that shareholders may receive little or nothing.",
     "why": "The exit (importance 1): liquidated nine months after its IPO, the symbol of dot-com folly. In December the company estimated shareholders might eventually receive up to about 25 cents a share; the game ends the position at the November price.",
-    "assets": ["pets-com", "amzn"],
-    "move": { "asset": "pets-com", "pct": -44 },
+    "assets": [
+      "pets-com",
+      "amzn"
+    ],
+    "move": {
+      "asset": "pets-com",
+      "pct": -44
+    },
     "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/0001095811-00-004383.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); liquidation estimate from https://www.sec.gov/Archives/edgar/data/1100683/000109581100005560/f67985dsdefs14a.txt (read 2026-10-03)"
   }

@@ -83,11 +83,18 @@ is edited. Pictures live in sidecar files, `<id>.images.json` next to the beats:
     "file": "news/aapl/1984-01-macintosh.jpg",
     "caption": "Steve Jobs presents the Macintosh, January 1984",
     "source": "https://commons.wikimedia.org/wiki/File:...",
+    "image_url": "https://upload.wikimedia.org/...jpg",
+    "credit": "Name / Agency, as printed where the picture was found",
     "licence": "CC BY-SA 3.0, photo: Name",
     "note": "optional: why this picture, or what could not be found"
   }
 ]
 ```
+
+`source` is the page on which the picture was found (the article, archive or Commons page), `image_url` the
+address of the image file itself, and `credit` the photographer and agency exactly as that page prints
+them, so that every picture can be attributed to its origin. `source`, `caption` and `licence` are
+required; `image_url` and `credit` are required for every picture added from October 2026 on.
 
 `file` is a path under `web/static/`, so the client loads it as `/news/aapl/1984-01-macintosh.jpg`.
 Files: JPEG, PNG or WebP, at most 1600 pixels on the long side, at most 400 KB, named

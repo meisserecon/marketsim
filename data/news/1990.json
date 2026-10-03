@@ -34,9 +34,9 @@
       "mcd"
     ],
     "source": "https://en.wikipedia.org/wiki/McDonald%27s_in_Russia (read 2026-10-03)",
-    "image": "/news/mcd/1990-01-moscow.jpg",
-    "imageCaption": "Plaque at the McDonald's on Pushkin Square, Moscow: 'Roubles only restaurant'",
-    "imageCredit": "Artem Svetlov from Moscow, Russia"
+    "image": "/news/mcd/1990-01-moscow-queue.jpg",
+    "imageCaption": "Muscovites queue outside the first McDonald's in the Soviet Union on its opening day, Pushkin Square, Moscow, 31 January 1990",
+    "imageCredit": "Alexander Zemlianichenko/AP"
   },
   {
     "month": "1990-02",
@@ -91,21 +91,22 @@
       "ibm"
     ],
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)",
-    "image": "/news/aapl/1990-05-windows.jpg",
-    "imageCaption": "The Windows 3.0 start-up screen, May 1990",
-    "imageCredit": "OS by Microsoft Corporation/Screenshot by PantheraLeo1359531"
+    "image": "/news/aapl/1990-05-gates-windows3-launch.jpg",
+    "imageCaption": "Bill Gates holds up the Windows 3.0 box at the launch event in New York's City Center, 22 May 1990",
+    "imageCredit": "Microsoft (still from the launch video, as printed by Steven Sinofsky, Hardcore Software)"
   },
   {
     "month": "1990-08",
     "kind": "world",
     "headline": "Iraq's invasion of Kuwait sends shares down 9 percent",
-    "text": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
+    "text": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56. German shares were hit harder still: Daimler-Benz lost 16%. Kuwait's state investment office is one of its biggest shareholders, with about 14% held since 1974, and nobody knows what becomes of Kuwait's holdings abroad.",
     "assets": [
+      "mercedes",
       "ust1995",
       "ust2000",
       "ust2010"
     ],
-    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json",
+    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json; Kuwait's Daimler-Benz stake: Mercedes-Benz Classic chronicle as cited in the mercedes arc; price change from data/out/mercedes.json",
     "image": "/news/markets/1990-08-bush-troops.jpg",
     "imageCaption": "American troops sent to Saudi Arabia after Iraq's invasion of Kuwait; President Bush addresses them at an air base",
     "imageCredit": " (Office of the Secretary of Defense)"
@@ -143,9 +144,9 @@
     "text": "At midnight on 3 October the German Democratic Republic joined the Federal Republic and Germany was reunited, eleven months after the Wall opened. The Two Plus Four treaty, signed in Moscow on 12 September by the two German states and the four wartime Allies, restores Germany's full sovereignty. On 20 September both German parliaments approved the unification treaty by large majorities.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/German_reunification (read 2026-10-03); https://en.wikipedia.org/wiki/Treaty_on_the_Final_Settlement_with_Respect_to_Germany (read 2026-10-03)",
-    "image": "/news/world/1990-10-german-unity.jpg",
-    "imageCaption": "State ceremony for German unity, Berlin, 3 October 1990",
-    "imageCredit": "Peer Grimm"
+    "image": "/news/world/1990-10-reichstag-flag.jpg",
+    "imageCaption": "The German flag goes up in front of the Reichstag at midnight as Germany becomes one country, Berlin, 3 October 1990",
+    "imageCredit": "Bundesarchiv, Bild 183-1990-1003-400 / Peer Grimm (ADN-ZB)"
   },
   {
     "month": "1990-10",

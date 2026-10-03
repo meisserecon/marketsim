@@ -2,16 +2,17 @@
   {
     "id": "27dc6551",
     "month": "1982-05",
-    "title": "Schweizerische Kreditanstalt joins the game",
-    "what": "The Schweizerische Kreditanstalt of Zurich, called Credit Suisse abroad, is the third of Switzerland's three big banks. It is still recovering its reputation from the Chiasso scandal uncovered in 1977, in which its branch near the Italian border ran a fraudulent banking and currency scheme that cost the bank about 1.4 billion francs. Since 1978 it has been partnered with the US investment bank First Boston.",
-    "why": "Listing beat. The Kreditanstalt is the most adventurous of the three; the First Boston link sets the course for an investment bank that it never fully controls and that eventually sinks it.",
+    "title": "The three big Swiss banks are now available to you",
+    "what": "From this month you can buy shares of Switzerland's three big banks. The Schweizerische Bankgesellschaft of Zurich is the largest: it manages the wealth of private clients from all over the world, lends to Swiss companies and households, and trades securities. The Schweizerischer Bankverein of Basel is strong in the international securities and currency markets. The Schweizerische Kreditanstalt of Zurich, called Credit Suisse abroad, is still recovering its reputation from the Chiasso scandal of 1977, in which a branch near the Italian border ran a fraudulent scheme that cost the bank about 1.4 billion francs; since 1978 it has been partnered with the US investment bank First Boston.",
+    "why": "Listing beat. The Kreditanstalt is the most adventurous of the three; the First Boston link sets the course for an investment bank that it never fully controls and that eventually sinks it. [Curator note applied 2026-10-04: \"Combine this story with Bankverein and Bankgesellschaft joining the game and delete the other two.\"]",
     "assets": [
-      "credit-suisse"
+      "credit-suisse",
+      "ubs",
+      "sbv"
     ],
     "importance": 1,
-    "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)",
-    "lead": true,
-    "note": "Combine this story with Bankverein and Bankgesellschaft joining the game and delete the other two."
+    "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); company profiles in data/src/profiles.ts for the Bankgesellschaft and the Bankverein",
+    "lead": true
   },
   {
     "id": "6e55c166",

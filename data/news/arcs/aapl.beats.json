@@ -47,24 +47,6 @@
     "lead": true
   },
   {
-    "id": "8861332f",
-    "month": "1981-08",
-    "title": "IBM enters the personal computer market; Apple falls 20%",
-    "what": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in.",
-    "why": "The arrival of the competitor that will define Apple's next fifteen years. The share reaction is from the data; the link is the timing. (Time check: cut the September fall from this August beat.)",
-    "assets": [
-      "aapl",
-      "ibm",
-      "intc"
-    ],
-    "move": {
-      "asset": "aapl",
-      "pct": -20
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); price changes from data/out/aapl.json"
-  },
-  {
     "id": "d97b27ca",
     "month": "1981-12",
     "title": "Apple replaces the first 14,000 Apple IIIs with a redesigned model",

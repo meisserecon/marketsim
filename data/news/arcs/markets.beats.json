@@ -248,19 +248,19 @@
     "id": "4a125a51",
     "month": "1990-08",
     "title": "Iraq's invasion of Kuwait sends shares down 9 percent",
-    "what": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
-    "why": "The market's reaction to the Gulf crisis (the cause is told in the Middle East and oil arcs). It tipped a weak economy into recession.",
+    "what": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56. German shares were hit harder still: Daimler-Benz lost 16%. Kuwait's state investment office is one of its biggest shareholders, with about 14% held since 1974, and nobody knows what becomes of Kuwait's holdings abroad.",
+    "why": "The market's reaction to the Gulf crisis (the cause is told in the Middle East and oil arcs). It tipped a weak economy into recession. The link between Daimler's fall and the Kuwaiti stake is the curator's point; the 16% is from the data, the worry about the holdings is stated as open, not sourced. [Curator note applied 2026-10-04: \"Add a note that Kuwait is one of Daimler's biggest shareholders.\"]",
     "assets": [
-      "bonds"
+      "bonds",
+      "mercedes"
     ],
     "move": {
       "asset": "sp500",
       "pct": -9
     },
     "importance": 1,
-    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json",
-    "lead": true,
-    "note": "Add a note that Kuwait is one of Daimler's biggest shareholders."
+    "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json; Kuwait's Daimler-Benz stake: Mercedes-Benz Classic chronicle as cited in the mercedes arc; price change from data/out/mercedes.json",
+    "lead": true
   },
   {
     "id": "6afbd331",

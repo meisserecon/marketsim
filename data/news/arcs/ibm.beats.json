@@ -3,28 +3,31 @@
     "id": "4dea7c07",
     "month": "1981-08",
     "title": "IBM launches the Personal Computer",
-    "what": "On 12 August IBM presented its Personal Computer, built in about a year by a small team in Boca Raton, Florida. Prices start at 1,565 dollars for a machine with 16 KB of memory. Unusually for IBM, it uses parts from outside suppliers, including the operating system and the processor chip.",
-    "why": "The defining product of the decade: the PC makes IBM the standard in offices, but outsourcing the chip and the software hands the profits of the PC era to Intel and Microsoft. The seed of both the 1980s boom and the 1990s crisis.",
+    "what": "On 12 August IBM presented its Personal Computer, built in about a year by a small team in Boca Raton, Florida. Prices start at 1,565 dollars for a machine with 16 KB of memory. Unusually for IBM, the key parts come from outside: the processor is the 8088 chip of Intel, a Californian chip maker, and the operating system, PC DOS, comes from Microsoft, a small software firm near Seattle that most people have never heard of. Dealers report more orders than they can fill.",
+    "why": "The defining product of the decade: the PC makes IBM the standard in offices, but outsourcing the chip and the software hands the profits of the PC era to Intel and Microsoft. The seed of both the 1980s boom and the 1990s crisis. [Curator note applied 2026-10-04: \"Add Intel and Mircosoft to the story\"]",
     "assets": [
-      "ibm"
+      "ibm",
+      "intc"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
-    "note": "Add Intel and Mircosoft to the story",
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-04)",
     "lead": true
   },
   {
     "id": "a73fbd56",
     "month": "1982-01",
-    "title": "Washington drops its 13-year antitrust case",
-    "what": "On 8 January the Justice Department dropped the antitrust suit against IBM that it filed in 1969, which sought to break the company up. The government had spent 13.6 million dollars on it; Assistant Attorney General William Baxter said continuing would cost far more than the chance of winning was worth.",
-    "why": "Frees IBM to attack every corner of the computer market in the 1980s; part of the 1982 rerating (+69% in the calendar year).",
+    "title": "Washington drops its 13-year antitrust case; IBM shares jump 12%",
+    "what": "On 8 January the Justice Department dropped the antitrust suit against IBM that it filed in 1969, which sought to break the company up. The government had spent 13.6 million dollars on it; Assistant Attorney General William Baxter said continuing would cost far more than the chance of winning was worth. Freed from the threat of being broken up, IBM shares rose 12% in January.",
+    "why": "Frees IBM to attack every corner of the computer market in the 1980s; part of the 1982 rerating (+69% in the calendar year). [Curator note applied 2026-10-04: \"Note that IBM shares rose on the news\"]",
     "assets": [
       "ibm"
     ],
     "importance": 2,
-    "source": "https://www.upi.com/Archives/1982/01/08/Government-settles-with-ATT-drops-IBM-case/6476379314000/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
-    "note": "Note that IBM shares rose on the news"
+    "source": "https://www.upi.com/Archives/1982/01/08/Government-settles-with-ATT-drops-IBM-case/6476379314000/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); price change from data/out/ibm.json",
+    "move": {
+      "asset": "ibm",
+      "pct": 12
+    }
   },
   {
     "id": "8fd42aae",

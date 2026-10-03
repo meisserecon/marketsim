@@ -43,19 +43,19 @@
   {
     "id": "d4f7bb04",
     "month": "1982-08",
-    "title": "Wall Street rallies on rate hopes; the first 767 is delivered",
-    "what": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. On 19 August Boeing delivered its first 767 to United Airlines.",
-    "why": "Explains the +48% month, Boeing's best: a deeply cyclical stock rebounding from the 1981 crash as rates fall (market +12%). Review 2026-10: title \"Wall Street's great rally starts\" named the bull market before it was one.",
+    "title": "Wall Street jumps on rate hopes; Boeing up 48%, Apple up 33%",
+    "what": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines.",
+    "why": "Explains the +48% month, Boeing's best: a deeply cyclical stock rebounding from the 1981 crash as rates fall (market +12%). Review 2026-10: title \"Wall Street's great rally starts\" named the bull market before it was one. [Curator note applied 2026-10-04: \"Add a note about Apple. Don't foreshadow the \"great rally\".\"]",
     "assets": [
-      "ba"
+      "ba",
+      "aapl"
     ],
     "move": {
       "asset": "ba",
       "pct": 48
     },
     "importance": 2,
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.",
-    "note": "Add a note about Apple. Don't foreshadow the \"great rally\"."
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json"
   },
   {
     "id": "10db7685",

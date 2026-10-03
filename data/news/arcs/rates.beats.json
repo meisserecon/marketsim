@@ -37,9 +37,9 @@
   {
     "id": "9cc82a5f",
     "month": "1980-06",
-    "title": "Rates tumble in the recession and gold bounces back",
-    "what": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. The Fed has cut its discount rate from 13 percent. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
-    "why": "Volcker's first squeeze ends in retreat: the Fed lets rates drop with the recession, and gold and long bond yields start rising again over the summer. Inflation was not yet beaten, which is why the second squeeze in the autumn had to be harder.",
+    "title": "Rates tumble in the recession: bonds and gold bounce back",
+    "what": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000 has gained 19 percent since the end of March. It is still 23 percent below where it started the year, after the collapse of the first quarter. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
+    "why": "Volcker's first squeeze ends in retreat: the Fed lets rates drop with the recession, and gold and long bond yields start rising again over the summer. Inflation was not yet beaten, which is why the second squeeze in the autumn had to be harder. The Treasury 2000 is down 23% since December 1979 (13.09 to 10.11), so the year-to-date figure the curator asked for is negative; the beat gives it together with the rebound since March. [Curator note applied 2026-10-04: \"You should make a connection to how falling rates sends the price of bonds upwards. The article should mention the 2000 vintage bond price return ytd from the game.\"]",
     "assets": [
       "gold",
       "bonds"
@@ -49,8 +49,7 @@
       "pct": 17
     },
     "importance": 1,
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "note": "You should make a connection to how falling rates sends the price of bonds upwards. The article should mention the 2000 vintage bond price return ytd from the game."
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json"
   },
   {
     "id": "67433d77",
@@ -91,19 +90,22 @@
     "id": "21ff4855",
     "month": "1981-09",
     "title": "Ten-year Treasury yields reach a record 15 percent",
-    "what": "The yield on 10-year US Treasury bonds averaged 15.3 percent in September, a record, against about 11.5 percent a year ago. A 30-year mortgage costs about 18.4 percent. Inflation is still near 11 percent (August), and the S&P 500 lost 5 percent in the month as the economy weakens.",
-    "why": "The all-time high in long-term US interest rates and the low point for bond prices. Anyone who locked in these yields made the trade of a lifetime: the great bond bull market starts from here, though nobody could know it this month.",
+    "what": "The yield on 10-year US Treasury bonds averaged 15.3 percent in September, a record, against about 11.5 percent a year ago. A 30-year mortgage costs about 18.4 percent. Inflation is still near 11 percent (August), and the S&P 500 lost 5 percent in the month as the economy weakens. Shares of companies whose profits lie far in the future, or that depend on borrowing, fell hardest: Apple Computer lost 24 percent, Sony 15, Schlumberger 14 and Intel 13, while steady earners such as McDonald's and Coca-Cola rose.",
+    "why": "The all-time high in long-term US interest rates and the low point for bond prices. Anyone who locked in these yields made the trade of a lifetime: the great bond bull market starts from here, though nobody could know it this month. [Curator note applied 2026-10-04: \"Add comment about Apple, Sony, Schlumberger and others declining\"]",
     "assets": [
-      "bonds"
+      "bonds",
+      "aapl",
+      "sony",
+      "slb",
+      "intc"
     ],
     "move": {
       "asset": "ust2000",
       "pct": -9
     },
     "importance": 1,
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03)",
-    "lead": true,
-    "note": "Add comment about Apple, Sony, Schlumberger and others declining"
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out",
+    "lead": true
   },
   {
     "id": "12320a20",

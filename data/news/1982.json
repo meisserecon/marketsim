@@ -2,12 +2,12 @@
   {
     "month": "1982-01",
     "kind": "company",
-    "headline": "Washington drops its 13-year antitrust case",
-    "text": "On 8 January the Justice Department dropped the antitrust suit against IBM that it filed in 1969, which sought to break the company up. The government had spent 13.6 million dollars on it; Assistant Attorney General William Baxter said continuing would cost far more than the chance of winning was worth.",
+    "headline": "Washington drops its 13-year antitrust case; IBM shares jump 12%",
+    "text": "On 8 January the Justice Department dropped the antitrust suit against IBM that it filed in 1969, which sought to break the company up. The government had spent 13.6 million dollars on it; Assistant Attorney General William Baxter said continuing would cost far more than the chance of winning was worth. Freed from the threat of being broken up, IBM shares rose 12% in January.",
     "assets": [
       "ibm"
     ],
-    "source": "https://www.upi.com/Archives/1982/01/08/Government-settles-with-ATT-drops-IBM-case/6476379314000/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
+    "source": "https://www.upi.com/Archives/1982/01/08/Government-settles-with-ATT-drops-IBM-case/6476379314000/ (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); price change from data/out/ibm.json",
     "image": "/news/ibm/1982-01-system-370.jpg",
     "imageCaption": "An IBM System/370 Model 168 mainframe installation",
     "imageCredit": "IBM (IBM Archives)"
@@ -56,35 +56,17 @@
   {
     "month": "1982-05",
     "kind": "listing",
-    "headline": "Schweizerische Kreditanstalt joins the game",
-    "text": "The Schweizerische Kreditanstalt of Zurich, called Credit Suisse abroad, is the third of Switzerland's three big banks. It is still recovering its reputation from the Chiasso scandal uncovered in 1977, in which its branch near the Italian border ran a fraudulent banking and currency scheme that cost the bank about 1.4 billion francs. Since 1978 it has been partnered with the US investment bank First Boston.",
+    "headline": "The three big Swiss banks are now available to you",
+    "text": "From this month you can buy shares of Switzerland's three big banks. The Schweizerische Bankgesellschaft of Zurich is the largest: it manages the wealth of private clients from all over the world, lends to Swiss companies and households, and trades securities. The Schweizerischer Bankverein of Basel is strong in the international securities and currency markets. The Schweizerische Kreditanstalt of Zurich, called Credit Suisse abroad, is still recovering its reputation from the Chiasso scandal of 1977, in which a branch near the Italian border ran a fraudulent scheme that cost the bank about 1.4 billion francs; since 1978 it has been partnered with the US investment bank First Boston.",
     "assets": [
-      "credit-suisse"
+      "credit-suisse",
+      "ubs",
+      "sbv"
     ],
-    "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)",
+    "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); company profiles in data/src/profiles.ts for the Bankgesellschaft and the Bankverein",
     "image": "/news/credit-suisse/1982-05-paradeplatz.jpg",
     "imageCaption": "The Schweizerische Kreditanstalt headquarters on the Paradeplatz, Zurich",
     "imageCredit": "Thomas Wolf"
-  },
-  {
-    "month": "1982-05",
-    "kind": "listing",
-    "headline": "Schweizerischer Bankverein is now available to you",
-    "text": "The Schweizerischer Bankverein, based in Basel, is one of the three big Swiss banks. It manages private wealth, lends to companies and is active in the international securities and currency markets. You can buy its shares from this month.",
-    "assets": [
-      "sbv"
-    ],
-    "source": "generated from the company profile"
-  },
-  {
-    "month": "1982-05",
-    "kind": "listing",
-    "headline": "Schweizerische Bankgesellschaft is now available to you",
-    "text": "The Schweizerische Bankgesellschaft, based in Zurich, is the largest of the three big Swiss banks. It manages the wealth of private clients from all over the world, lends to Swiss companies and households, and trades securities. You can buy its shares from this month.",
-    "assets": [
-      "ubs"
-    ],
-    "source": "generated from the company profile"
   },
   {
     "month": "1982-07",
@@ -95,19 +77,20 @@
       "ko"
     ],
     "source": "https://en.wikipedia.org/wiki/Diet_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Columbia Pictures section, read 2026-10-03)",
-    "image": "/news/ko/1982-07-goizueta.jpg",
-    "imageCaption": "Roberto Goizueta, chairman and chief executive of Coca-Cola",
-    "imageCredit": "The Coca-Cola Company (non-free image on English Wikipedia)"
+    "image": "/news/ko/1982-07-diet-coke-premiere.jpg",
+    "imageCaption": "The Rockettes at the 'world premiere' of Diet Coke, Radio City Music Hall, New York, July 1982",
+    "imageCredit": "The Coca-Cola Company (company picture)"
   },
   {
     "month": "1982-08",
     "kind": "company",
-    "headline": "Wall Street rallies on rate hopes; the first 767 is delivered",
-    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. On 19 August Boeing delivered its first 767 to United Airlines.",
+    "headline": "Wall Street jumps on rate hopes; Boeing up 48%, Apple up 33%",
+    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines.",
     "assets": [
-      "ba"
+      "ba",
+      "aapl"
     ],
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.",
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json",
     "image": "/news/ba/1982-08-767-rainier.jpg",
     "imageCaption": "A Boeing 767 over Mount Rainier, early 1980s",
     "imageCredit": "Seattle Municipal Archives"
@@ -150,9 +133,9 @@
       "wmt"
     ],
     "source": "https://www.upi.com/Archives/1982/12/31/Yearend-stocksStocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/9275410158800/ (read 2026-10-03)",
-    "image": "/news/wmt/1982-11-wal-mart-store.jpg",
-    "imageCaption": "A Wal-Mart store",
-    "imageCredit": "see Commons file page"
+    "image": "/news/wmt/1982-11-wal-mart-shoppers.jpg",
+    "imageCaption": "Shoppers in a Wal-Mart store, 1980s",
+    "imageCredit": "Walmart (company picture)"
   },
   {
     "month": "1982-11",
@@ -185,9 +168,9 @@
       "ibm"
     ],
     "source": "https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03, via data/news/1982.json); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03)",
-    "image": "/news/intc/1982-12-ibm-pc.jpg",
-    "imageCaption": "The IBM PC, which runs on an Intel 8088 chip",
-    "imageCredit": "Rama & Musée Bolo"
+    "image": "/news/intc/1982-12-ibm-pc-tramp-ad.jpg",
+    "imageCaption": "\"Keeping up with modern times\": IBM's advertisement for its Personal Computer, which runs on Intel's 8088 chip, with the Charlie Chaplin tramp, 1982",
+    "imageCredit": "IBM advertisement, from Personal Computing, May 1982 (scan: nosher.net)"
   },
   {
     "month": "1982-12",

@@ -89,6 +89,14 @@
   },
   {
     "month": "1981-05",
+    "kind": "world",
+    "headline": "Japan is now the world's biggest car maker",
+    "text": "Japan built more cars than the United States last year, for the first time. Its exports of passenger cars rose from 100,000 in 1965 to 1.8 million in 1975 and have kept climbing, as American drivers hit by two oil shocks turned to small Toyotas, Datsuns and Hondas that use less petrol and break down less. Detroit is losing money and laying off workers, and under pressure from Washington Japan has agreed to limit its car exports to the United States to 1.68 million a year from this month. Cars are only the most visible part: Japanese cameras, television sets and steel are winning markets everywhere.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Voluntary_export_restraint (read 2026-10-03); https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-04)"
+  },
+  {
+    "month": "1981-05",
     "kind": "company",
     "headline": "WHO adopts a code on baby milk; the Nestlé boycott goes on",
     "text": "The World Health Assembly adopted an International Code of Marketing of Breast-milk Substitutes by 118 votes to 1, with the United States voting against. Activist groups have boycotted Nestlé since July 1977, starting in Minneapolis, accusing it of pushing milk powder on mothers in poor countries where clean water is scarce.",
@@ -115,29 +123,15 @@
     "month": "1981-08",
     "kind": "company",
     "headline": "IBM launches the Personal Computer",
-    "text": "On 12 August IBM presented its Personal Computer, built in about a year by a small team in Boca Raton, Florida. Prices start at 1,565 dollars for a machine with 16 KB of memory. Unusually for IBM, it uses parts from outside suppliers, including the operating system and the processor chip.",
+    "text": "On 12 August IBM presented its Personal Computer, built in about a year by a small team in Boca Raton, Florida. Prices start at 1,565 dollars for a machine with 16 KB of memory. Unusually for IBM, the key parts come from outside: the processor is the 8088 chip of Intel, a Californian chip maker, and the operating system, PC DOS, comes from Microsoft, a small software firm near Seattle that most people have never heard of. Dealers report more orders than they can fill.",
     "assets": [
-      "ibm"
-    ],
-    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
-    "image": "/news/ibm/1981-08-ibm-pc.jpg",
-    "imageCaption": "The IBM Personal Computer, model 5150, at its launch, 1981",
-    "imageCredit": "IBM (IBM Archives)"
-  },
-  {
-    "month": "1981-08",
-    "kind": "company",
-    "headline": "IBM enters the personal computer market; Apple falls 20%",
-    "text": "On 12 August IBM announced its Personal Computer, model 5150, from 1,565 dollars, built on an Intel chip and running Microsoft's PC DOS. Dealers were swamped with orders within days, some customers paying in advance for machines with no delivery date. Until now the small-computer market belonged to Apple, Tandy and Commodore; the biggest name in computing has just walked in.",
-    "assets": [
-      "aapl",
       "ibm",
       "intc"
     ],
-    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); price changes from data/out/aapl.json",
-    "image": "/news/aapl/1981-08-ibm-pc.jpg",
-    "imageCaption": "The IBM Personal Computer, model 5150, launched August 1981",
-    "imageCredit": "Jordiferrer"
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-04)",
+    "image": "/news/ibm/1981-08-ibm-pc.jpg",
+    "imageCaption": "The IBM Personal Computer, model 5150, at its launch, 1981",
+    "imageCredit": "IBM (IBM Archives)"
   },
   {
     "month": "1981-08",
@@ -156,13 +150,17 @@
     "month": "1981-09",
     "kind": "world",
     "headline": "Ten-year Treasury yields reach a record 15 percent",
-    "text": "The yield on 10-year US Treasury bonds averaged 15.3 percent in September, a record, against about 11.5 percent a year ago. A 30-year mortgage costs about 18.4 percent. Inflation is still near 11 percent (August), and the S&P 500 lost 5 percent in the month as the economy weakens.",
+    "text": "The yield on 10-year US Treasury bonds averaged 15.3 percent in September, a record, against about 11.5 percent a year ago. A 30-year mortgage costs about 18.4 percent. Inflation is still near 11 percent (August), and the S&P 500 lost 5 percent in the month as the economy weakens. Shares of companies whose profits lie far in the future, or that depend on borrowing, fell hardest: Apple Computer lost 24 percent, Sony 15, Schlumberger 14 and Intel 13, while steady earners such as McDonald's and Coca-Cola rose.",
     "assets": [
+      "aapl",
+      "sony",
+      "slb",
+      "intc",
       "ust1985",
       "ust1990",
       "ust2000"
     ],
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out",
     "image": "/news/rates/1981-09-volcker-reagan.jpg",
     "imageCaption": "President Reagan meets Fed chairman Paul Volcker in the Oval Office to discuss monetary policy",
     "imageCredit": "White House Photographic Office, Reagan Library"

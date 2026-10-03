@@ -123,22 +123,22 @@
     "text": "On the night of 30 to 31 May several hundred young people clashed with police in front of the Zurich opera house, joined by a crowd coming from a Bob Marley concert. The city council had just approved 60 million francs to renovate the opera house while turning down the young people's demand for an autonomous youth centre. Students filmed the first night of rioting.",
     "assets": [],
     "source": "https://de.wikipedia.org/wiki/Opernhauskrawalle (read 2026-10-03)",
-    "image": "/news/life/1980-05-bob-marley-zurich.jpg",
-    "imageCaption": "Bob Marley in concert at the Hallenstadion, Zurich, 30 May 1980, the evening of the opera house riots",
-    "imageCredit": "Ueli Frey"
+    "image": "/news/life/1980-05-opernhauskrawall.jpg",
+    "imageCaption": "A young man throws a stone during the riot at Zurich's opera house, May 1980",
+    "imageCredit": "photopress-archiv / str"
   },
   {
     "month": "1980-06",
     "kind": "world",
-    "headline": "Rates tumble in the recession and gold bounces back",
-    "text": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. The Fed has cut its discount rate from 13 percent. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
+    "headline": "Rates tumble in the recession: bonds and gold bounce back",
+    "text": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000 has gained 19 percent since the end of March. It is still 23 percent below where it started the year, after the collapse of the first quarter. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
     "assets": [
       "gold",
       "ust1985",
       "ust1990",
       "ust2000"
     ],
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json",
     "image": "/news/rates/1980-06-eccles-1937.jpg",
     "imageCaption": "The Federal Reserve Board building, Washington",
     "imageCredit": "Federal Reserve"
@@ -213,9 +213,9 @@
       "aapl"
     ],
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)",
-    "image": "/news/aapl/1980-12-apple-ii.jpg",
-    "imageCaption": "The Apple II personal computer, introduced 1977",
-    "imageCredit": "Rama & Musée Bolo"
+    "image": "/news/aapl/1980-12-apple-ii-ad.jpg",
+    "imageCaption": "\"Introducing Apple II\": Apple's advertisement for the computer that made the company, with the machine on a kitchen table",
+    "imageCredit": "Apple Computer advertisement, from Byte, November 1977 (scan: nosher.net)"
   },
   {
     "month": "1980-12",

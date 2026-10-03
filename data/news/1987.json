@@ -101,7 +101,11 @@
     "kind": "world",
     "headline": "1987 in review: up 2 percent, after the wildest year in memory",
     "text": "The S&P 500 ended 1987 at 247.08, up 2% on the year, after rising 39% to its August record and then losing a third of its value in two months. The Dow closed at 1,938.83, up 2.3%. So far the crash has had little visible effect on business activity, and interest rates are lower than before it.",
-    "assets": [],
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)",
     "image": "/news/markets/1987-12-greenspan-nomination.jpg",
     "imageCaption": "President Reagan announces the nomination of Alan Greenspan (second from left) to succeed Paul Volcker as Federal Reserve chairman, 2 June 1987",

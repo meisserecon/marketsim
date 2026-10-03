@@ -43,7 +43,11 @@
     "kind": "world",
     "headline": "The Fed's emergency cut: three-quarters of a point between meetings",
     "text": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2008-01-bernanke.jpg",
     "imageCaption": "Federal Reserve Chairman Ben Bernanke",
@@ -93,7 +97,11 @@
     "kind": "world",
     "headline": "Bear Stearns is rescued by JPMorgan for 2 dollars a share",
     "text": "The investment bank Bear Stearns, heavy with 46 billion dollars of mortgage assets, faced collapse in mid-March. On 16-17 March JPMorgan Chase agreed to buy it for 2 dollars a share, with the Fed guaranteeing bad loans; the shares were at 60 dollars a week earlier and 178 a year ago. The Fed cut its key rate by another 0.75 point to 2.25 percent on 18 March.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2008-03-bear-stearns.jpg",
     "imageCaption": "The Bear Stearns headquarters, 383 Madison Avenue, New York",
@@ -519,7 +527,11 @@
     "kind": "world",
     "headline": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
     "text": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2008-10-nyse.jpg",
     "imageCaption": "The New York Stock Exchange on Wall Street, November 2008",
@@ -766,7 +778,11 @@
     "kind": "world",
     "headline": "2008 in review: shares lose 38 percent",
     "text": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)",
     "image": "/news/markets/2008-12-lehman-times-square.jpg",
     "imageCaption": "The Manhattan headquarters of Lehman Brothers, Seventh Avenue at Times Square",
@@ -777,7 +793,11 @@
     "kind": "world",
     "headline": "Zero interest rates and the Fed starts buying bonds",
     "text": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03)",
     "image": "/news/rates/2008-12-bernanke-bush.jpg",
     "imageCaption": "Ben Bernanke with President Bush and Treasury Secretary Paulson at the White House, 19 September 2008",

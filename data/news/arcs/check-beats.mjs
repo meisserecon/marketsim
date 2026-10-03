@@ -44,7 +44,7 @@ for (const name of files) {
     else imp[b.importance]++;
     if (!Array.isArray(b.assets)) bad("assets " + id);
     else for (const s of b.assets) {
-      if (s === "gold") continue; // gold is in the game throughout
+      if (s === "gold" || s === "bonds") continue; // gold is in the game throughout; "bonds" stands for the Treasuries on offer
       const sp = span[s];
       const next = (m) => { const [y, mm] = m.split("-").map(Number); return mm === 12 ? `${y + 1}-01` : `${y}-${String(mm + 1).padStart(2, "0")}`; };
       if (!sp) bad(`unknown asset ${s}: ${id}`);

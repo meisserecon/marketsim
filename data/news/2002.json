@@ -281,7 +281,11 @@
     "kind": "world",
     "headline": "Iraq tensions and weak data: shares fall 11 percent",
     "text": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2002-09-nyse-floor.jpg",
     "imageCaption": "The trading floor of the New York Stock Exchange",
@@ -398,7 +402,11 @@
     "kind": "world",
     "headline": "2002 in review: a third losing year in a row",
     "text": "The S&P 500 fell 23% in 2002 to 879.82, its third losing year in a row and its worst of the game so far; it is 40% below where it stood at the end of 1999. The Dow lost 16.8% to 8,341.63. Accounting scandals, the WorldCom and Enron bankruptcies, a weak economy and the threat of war with Iraq weighed on shares, and the Fed cut its key rate to 1.25 percent in November.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2002-12-nyse-floor.jpg",
     "imageCaption": "The trading floor of the New York Stock Exchange",

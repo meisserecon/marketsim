@@ -95,7 +95,11 @@
     "kind": "world",
     "headline": "A bond rally lifts shares 11 percent in August",
     "text": "Interest rates fell sharply over the summer, with yields on bonds down about 5/8 to 3/4 of a percentage point since mid-July, as the economy's expansion turned out slower than expected. Shares jumped with bonds: the S&P 500 rose 11% in August to 166.68. Earlier in the summer the Fed chairman, Paul Volcker, and the head of the SEC, John Shad, warned about the mountains of debt being piled up in takeovers.",
-    "assets": [],
+    "assets": [
+      "ust1985",
+      "ust1990",
+      "ust2000"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19840821.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Leveraged_buyout (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1984-08-reagan-dallas.jpg",
     "imageCaption": "President Reagan gives his acceptance speech at the Republican convention, Dallas, 23 August 1984",

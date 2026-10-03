@@ -30,7 +30,11 @@
     "kind": "world",
     "headline": "The euro is born",
     "text": "On 1 January eleven EU countries, among them Germany, France and Italy, fixed their exchange rates irrevocably and adopted the euro, which now trades on currency markets and is used by banks and bond markets; notes and coins follow in 2002. The European Central Bank in Frankfurt sets one interest rate for all of them. Britain, Sweden and Denmark stay out, and so, of course, does Switzerland.",
-    "assets": [],
+    "assets": [
+      "ust2000",
+      "ust2005",
+      "ust2010"
+    ],
     "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)",
     "image": "/news/world/1999-01-duisenberg-euro.jpg",
     "imageCaption": "Wim Duisenberg, president of the European Central Bank, at the launch of the euro, 31 December 1998",
@@ -42,7 +46,10 @@
     "headline": "Public money for Japan's big banks; interest rates at zero",
     "text": "Japan's government is putting trillions of yen of public money into its biggest banks this month to rebuild their capital, after a smaller injection in March 1998. In February the Bank of Japan began steering its overnight rate down to zero.",
     "assets": [
-      "ibj"
+      "ibj",
+      "ust2000",
+      "ust2005",
+      "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03)",
     "image": "/news/asia/1999-03-hayami.jpg",

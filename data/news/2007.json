@@ -202,7 +202,11 @@
     "kind": "world",
     "headline": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
     "text": "On 9 August the French bank BNP Paribas blocked withdrawals from three funds invested in American mortgage securities, citing 'a complete evaporation of liquidity'. Banks stopped trusting each other, and on 17 August the Federal Reserve cut its discount rate by half a point to 5.75 percent and offered banks loans of up to 30 days against mortgages and other collateral. Shares swung wildly but the S&P 500 ended August up 1%.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2007-08-bnp-paribas.jpg",
     "imageCaption": "A BNP Paribas office building in Paris",
@@ -213,7 +217,11 @@
     "kind": "world",
     "headline": "The S&P 500 sets a record after Fed rate cuts",
     "text": "After the Federal Reserve cut its key rate by half a point to 4.75 percent in September, shares rallied, and the S&P 500 closed at a record 1,565.15 on 9 October, just above its 2000 peak. The Dow reached about 14,164. The Fed cut again on 31 October, to 4.5 percent.",
-    "assets": [],
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2007-10-bernanke.jpg",
     "imageCaption": "Federal Reserve Chairman Ben Bernanke",

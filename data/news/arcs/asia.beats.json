@@ -38,7 +38,9 @@
     "title": "America imposes trade sanctions on Japan over chips",
     "what": "On 17 April President Reagan raised tariffs on $300 million of Japanese exports to the US, saying Japan had broken the semiconductor agreement of September 1986 by dumping chips in other countries and keeping its own market closed. It is the first US trade retaliation against Japan since the war. The dollar fell below 140 yen this month, although six countries agreed at the Louvre in Paris in February to stop its fall and the Bank of Japan then cut its rate to 2.5%, the lowest in its history.",
     "why": "The peak of Japan bashing. The 2.5% rate stayed until May 1989 and fed the bubble's last two years; the strong yen kept lifting the dollar value of Tokyo shares.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "https://www.reaganlibrary.gov/archives/speech/statement-tariff-increases-japanese-semiconductor-products (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1987/04/18/sanctions-imposed-on-japan/f0daac66-74fe-4f5c-96ce-3aa08898b4bd/ (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Louvre_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
   },
@@ -83,7 +85,8 @@
     "what": "The Bank of Japan raised its discount rate by a full point to 5.25% on 20 March to stop the yen's fall and the slide in shares. On 22 March the dollar reached a three-year high of 155 yen and the Nikkei fell below 29,000 for the first time since November 1988; it ended the month just under 30,000, down about a quarter from its December record. On 27 March the Finance Ministry told banks to limit their lending for property.",
     "why": "The bubble bursting: higher rates, a weaker yen and the cap on property lending hit Japanese bank shares hardest, in yen and even more in dollars.",
     "assets": [
-      "ibj"
+      "ibj",
+      "bonds"
     ],
     "move": {
       "asset": "ibj",
@@ -150,7 +153,8 @@
     "what": "The dollar reached 147 yen on 11 August, the yen's weakest in about eight years. Shares of the Long-Term Credit Bank of Japan have fallen by more than 70% this summer as its bad loans came out; a planned rescue merger with Sumitomo Trust is faltering. Japan's economy is shrinking. In June the US Treasury and Federal Reserve sold $833 million for yen to slow its fall, with little lasting effect.",
     "why": "The worst of the Japanese banking crisis. Bank shares, down in yen and in dollars, hit their lows.",
     "assets": [
-      "ibj"
+      "ibj",
+      "bonds"
     ],
     "move": {
       "asset": "ibj",
@@ -182,7 +186,8 @@
     "what": "Japan's government is putting trillions of yen of public money into its biggest banks this month to rebuild their capital, after a smaller injection in March 1998. In February the Bank of Japan began steering its overnight rate down to zero.",
     "why": "The two injections, 9.3 trillion yen in all, and zero rates ended the acute phase of the crisis and set off a rally in bank shares.",
     "assets": [
-      "ibj"
+      "ibj",
+      "bonds"
     ],
     "move": {
       "asset": "ibj",
@@ -249,7 +254,9 @@
     "title": "Shanghai's 9% fall shakes world markets",
     "what": "On 27 February the Shanghai Composite index fell 9%, its biggest drop in ten years, on rumours of higher interest rates and curbs on speculation. The same day the Dow fell 416 points, 3.3%, and the S&P 500 3.5%. The Shanghai market had more than doubled in 2006.",
     "why": "The first time a Chinese market move was felt on Wall Street. Shanghai recovered to a peak above 6,000 in October and then lost about two thirds by late 2008.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Chinese_stock_bubble_of_2007 (read 2026-10-03); https://en.wikipedia.org/wiki/SSE_Composite_Index (read 2026-10-03)"
   },

@@ -70,7 +70,10 @@
     "headline": "Tokyo shares crash as the yen falls",
     "text": "The Bank of Japan raised its discount rate by a full point to 5.25% on 20 March to stop the yen's fall and the slide in shares. On 22 March the dollar reached a three-year high of 155 yen and the Nikkei fell below 29,000 for the first time since November 1988; it ended the month just under 30,000, down about a quarter from its December record. On 27 March the Finance Ministry told banks to limit their lending for property.",
     "assets": [
-      "ibj"
+      "ibj",
+      "ust1995",
+      "ust2000",
+      "ust2010"
     ],
     "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)",
     "image": "/news/asia/1990-03-tse-floor.jpg",
@@ -97,7 +100,11 @@
     "kind": "world",
     "headline": "Iraq's invasion of Kuwait sends shares down 9 percent",
     "text": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
-    "assets": [],
+    "assets": [
+      "ust1995",
+      "ust2000",
+      "ust2010"
+    ],
     "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1990-08-bush-troops.jpg",
     "imageCaption": "American troops sent to Saudi Arabia after Iraq's invasion of Kuwait; President Bush addresses them at an air base",
@@ -171,7 +178,11 @@
     "kind": "world",
     "headline": "1990 in review: recession and the Gulf crisis cost 7 percent",
     "text": "The S&P 500 fell 7% in 1990 to 330.22; the Dow, down 18% from July to its low of 2,381.99 on 16 October, ended at 2,633.66, off 4.3%. Economists say the economy is in recession, and how deep it gets depends on war or peace in the Gulf. Banks are hurting from bad property loans: Citicorp, the biggest, plans to cut its dividend and 8,000 jobs, and the Fed cut its discount rate to 6.5 percent in December.",
-    "assets": [],
+    "assets": [
+      "ust1995",
+      "ust2000",
+      "ust2010"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.upi.com/Archives/1990/12/21/The-Week-in-Review/1864661755600/ (read 2026-10-03)",
     "image": "/news/markets/1990-12-bush-troops.jpg",
     "imageCaption": "President Bush has Thanksgiving dinner with US troops in Saudi Arabia, 22 November 1990",

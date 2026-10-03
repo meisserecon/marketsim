@@ -43,7 +43,11 @@
     "kind": "world",
     "headline": "Credit controls and the silver crash knock shares down 10 percent",
     "text": "On 14 March President Carter announced the first credit controls since the Second World War, with limits on lending, credit cards and instalment loans, as inflation and short-term interest rates both stood near 18 percent. On 27 March the silver market collapsed: silver fell to 10.80 dollars an ounce from over 50 in January after the Hunt brothers could no longer meet calls on their borrowed position, and trading in the shares of their broker Bache was suspended. The S&P 500 ended March at 102.09, down 10% in the month.",
-    "assets": [],
+    "assets": [
+      "ust1985",
+      "ust1990",
+      "ust2000"
+    ],
     "source": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_review/1990/pdf/er760603.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1980-03-carter.jpg",
     "imageCaption": "President Jimmy Carter",
@@ -129,7 +133,10 @@
     "headline": "Rates tumble in the recession and gold bounces back",
     "text": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. The Fed has cut its discount rate from 13 percent. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
     "assets": [
-      "gold"
+      "gold",
+      "ust1985",
+      "ust1990",
+      "ust2000"
     ],
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/1980-06-eccles-1937.jpg",
@@ -216,7 +223,10 @@
     "headline": "The prime rate hits a record 21.5 percent",
     "text": "Major banks raised the prime rate to a record 21 percent on 16 December and to 21.5 percent on the 19th; in July it was 11 percent. The rate banks charge each other averaged nearly 19 percent in December, and the Fed has raised its discount rate back to about 13 percent. Consumer prices in November were 12.6 percent higher than a year earlier. Gold averaged 538 dollars, 14 percent less than in November.",
     "assets": [
-      "gold"
+      "gold",
+      "ust1985",
+      "ust1990",
+      "ust2000"
     ],
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/1980-12-volcker.jpg",

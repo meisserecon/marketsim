@@ -105,7 +105,10 @@
     "headline": "Yen at an eight-year low, Japan's banks under siege",
     "text": "The dollar reached 147 yen on 11 August, the yen's weakest in about eight years. Shares of the Long-Term Credit Bank of Japan have fallen by more than 70% this summer as its bad loans came out; a planned rescue merger with Sumitomo Trust is faltering. Japan's economy is shrinking. In June the US Treasury and Federal Reserve sold $833 million for yen to slow its fall, with little lasting effect.",
     "assets": [
-      "ibj"
+      "ibj",
+      "ust2000",
+      "ust2005",
+      "ust2010"
     ],
     "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.newyorkfed.org/medialibrary/media/newsevents/news/markets/1998/fxq298.pdf (read 2026-10-03)",
     "image": "/news/asia/1998-08-boj.jpg",
@@ -168,7 +171,11 @@
     "kind": "world",
     "headline": "A surprise Fed cut on 15 October and shares bounce 8 percent",
     "text": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67.",
-    "assets": [],
+    "assets": [
+      "ust2000",
+      "ust2005",
+      "ust2010"
+    ],
     "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1998-10-clinton-greenspan.jpg",
     "imageCaption": "Federal Reserve Chairman Alan Greenspan meets President Clinton and Vice President Gore in the Oval Office, 1993",

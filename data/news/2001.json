@@ -23,7 +23,10 @@
       "ibm",
       "nvda",
       "ebay",
-      "worldcom"
+      "worldcom",
+      "ust2005",
+      "ust2010",
+      "ust2020"
     ],
     "source": "https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
     "image": "/news/tech/2001-01-greenspan.jpg",
@@ -73,7 +76,11 @@
     "kind": "world",
     "headline": "The Fed cuts by half a point, twice in one month",
     "text": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
     "image": "/news/rates/2001-01-greenspan.jpg",
     "imageCaption": "Alan Greenspan, chairman of the Federal Reserve, 2000",
@@ -140,7 +147,11 @@
     "kind": "world",
     "headline": "Earnings disappoint and shares fall 9 percent despite Fed cuts",
     "text": "A steady flow of disappointing company earnings reports sent shares sharply lower in February, with the technology-heavy Nasdaq falling hardest, and consumer confidence dropped. The Federal Reserve had already cut its key rate twice in January, including a surprise move on 3 January. The S&P 500 lost 9% in the month to 1,239.94.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2001-02-greenspan.jpg",
     "imageCaption": "Federal Reserve Chairman Alan Greenspan",
@@ -409,7 +420,11 @@
     "kind": "world",
     "headline": "After the attacks: markets closed four days, then the worst week in decades",
     "text": "The New York Stock Exchange stayed closed after the terrorist attacks of 11 September and reopened only on 17 September, its longest closure since the Great Depression. That day the Fed cut its key rate to 3 percent, and the Dow fell 684.81 points or 7.1%; shares kept falling in volatile trading as business and consumer confidence collapsed. The S&P 500 lost 8% in September to 1,040.94.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2001-09-manhattan-smoke.jpg",
     "imageCaption": "Smoke rises over Lower Manhattan after the attacks on the World Trade Center, 11 September 2001",
@@ -693,7 +708,11 @@
     "kind": "world",
     "headline": "2001 in review: eleven rate cuts cannot stop a second losing year",
     "text": "The S&P 500 fell 13% in 2001 to 1,148.08 and the Dow 7.1%, a second losing year in a row. The Federal Reserve cut its key rate eleven times during the year, from 6.5 to 1.75 percent, as the economy fell into recession and the September attacks shook confidence.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2001-12-greenspan-summers.jpg",
     "imageCaption": "Federal Reserve Chairman Alan Greenspan with Lawrence Summers, Prague, September 2000",

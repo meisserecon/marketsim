@@ -17,7 +17,11 @@
     "kind": "world",
     "headline": "Volatility returns: the Dow falls 1,175 points in a day",
     "text": "A bigger-than-expected rise in wages in the January jobs report raised fears of inflation and faster rate rises. On 5 February the Dow fell 1,175 points or 4.6%, its largest point drop ever, and the VIX volatility index jumped to its highest since 2015 as bets on calm markets unwound; on 8 February the Dow fell another 1,033 points. The S&P 500 lost 4% in February.",
-    "assets": [],
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20180321.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2018-02-powell-sworn-in.jpg",
     "imageCaption": "Jerome Powell is sworn in as Federal Reserve chairman, Washington, 5 February 2018",
@@ -238,7 +242,11 @@
     "kind": "world",
     "headline": "The Christmas fall: shares lose 9 percent in December",
     "text": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%.",
-    "assets": [],
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2018-12-powell-fomc.jpg",
     "imageCaption": "Federal Reserve Chairman Jerome Powell after the Fed raised rates, Washington, 19 December 2018",
@@ -273,7 +281,11 @@
     "kind": "world",
     "headline": "A fourth hike of the year and a December rout",
     "text": "On 19 December the Fed raised its rate target to 2.25 to 2.5 percent, its fourth increase this year, and said 'some further gradual increases' would be appropriate. The 10-year Treasury yield, which averaged 3.15 percent in October, the highest since 2011, has eased to about 2.8 percent. The S&P 500 lost 9 percent in December, its worst month since February 2009.",
-    "assets": [],
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
     "image": "/news/rates/2018-12-powell.jpg",
     "imageCaption": "Fed chairman Jerome Powell testifies to Congress, 2018",

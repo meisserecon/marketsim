@@ -163,7 +163,9 @@
     "title": "Maastricht: Europe agrees on a single currency",
     "what": "At Maastricht on 9 and 10 December the twelve European Community leaders agreed on a treaty for a European Union with common citizenship, foreign policy cooperation and an economic and monetary union with a single currency by 1999 at the latest. Countries must meet limits on inflation, deficits, debt and interest rates to join. The treaty still has to be ratified by all twelve, some by referendum.",
     "why": "The blueprint for the euro; its ratification troubles of 1992 and its convergence rules run through the decade.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)"
   },
@@ -194,7 +196,9 @@
     "title": "The euro is born",
     "what": "On 1 January eleven EU countries, among them Germany, France and Italy, fixed their exchange rates irrevocably and adopted the euro, which now trades on currency markets and is used by banks and bond markets; notes and coins follow in 2002. The European Central Bank in Frankfurt sets one interest rate for all of them. Britain, Sweden and Denmark stay out, and so, of course, does Switzerland.",
     "why": "The euro makes Switzerland's neighbours one currency bloc; the franc becomes the haven Europeans run to whenever the euro is in doubt, in 2010-2012 above all.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)"
   },
@@ -495,7 +499,9 @@
     "title": "Pandemic: the world shuts down",
     "what": "The WHO declared a pandemic on 11 March. Italy locked down on 9 March, the United States barred travellers from Europe, and on 16 March the Swiss government declared an 'extraordinary situation', closing schools, shops, restaurants and borders; on 20 March it announced a 42 billion franc aid package. Stock markets crashed: the Dow lost 7.8 percent on 9 March, 10 percent on 12 March and 12.9 percent on 16 March. The Fed cut rates to zero, and Congress passed a 2.2 trillion dollar relief law on 27 March.",
     "why": "The fastest crash in the game (S&P -13% in the month, Boeing -46%, Schlumberger -50%), a political and medical event; the bottom came on 23 March.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -13

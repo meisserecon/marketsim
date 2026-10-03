@@ -261,7 +261,11 @@
     "kind": "world",
     "headline": "1985 in review: shares up 26 percent in a year of takeovers",
     "text": "The S&P 500 rose 26% in 1985 to 211.28 and first closed above 200 on 21 November. The Dow ended at 1,546.67, up 27.7%, after 36 record closes. Falling interest rates and the September agreement of the five big economies at the Plaza Hotel to push the dollar down helped shares, and takeover bids financed with borrowed money, often with high-yield 'junk' bonds sold by Drexel Burnham Lambert, have made many shareholders rich.",
-    "assets": [],
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Drexel_Burnham_Lambert (read 2026-10-03)",
     "image": "/news/markets/1985-12-reagan-nyse.jpg",
     "imageCaption": "President Reagan addresses brokers and clerks at the New York Stock Exchange, 28 March 1985",

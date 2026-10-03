@@ -156,7 +156,11 @@
     "kind": "world",
     "headline": "The Fed cuts sharply and shares end 1991 with an 11 percent burst",
     "text": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets.",
-    "assets": [],
+    "assets": [
+      "ust1995",
+      "ust2000",
+      "ust2010"
+    ],
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1991-12-bush-greenspan.jpg",
     "imageCaption": "President Bush and Federal Reserve Chairman Alan Greenspan, 14 November 1990",
@@ -167,7 +171,11 @@
     "kind": "world",
     "headline": "Maastricht: Europe agrees on a single currency",
     "text": "At Maastricht on 9 and 10 December the twelve European Community leaders agreed on a treaty for a European Union with common citizenship, foreign policy cooperation and an economic and monetary union with a single currency by 1999 at the latest. Countries must meet limits on inflation, deficits, debt and interest rates to join. The treaty still has to be ratified by all twelve, some by referendum.",
-    "assets": [],
+    "assets": [
+      "ust1995",
+      "ust2000",
+      "ust2010"
+    ],
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)",
     "image": "/news/world/1991-12-maastricht-summit.jpg",
     "imageCaption": "Press conference at the European summit, Maastricht, 11 December 1991",

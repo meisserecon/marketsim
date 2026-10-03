@@ -43,7 +43,11 @@
     "kind": "world",
     "headline": "The Fed promises patience and shares jump 8 percent",
     "text": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
-    "assets": [],
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2019-01-powell.jpg",
     "imageCaption": "Federal Reserve Chairman Jerome Powell at the Fed's press conference, 30 January 2019",

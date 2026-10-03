@@ -92,7 +92,11 @@
     "kind": "world",
     "headline": "Shares climb back above their pre-crash record",
     "text": "The S&P 500 rose 9% in July to 346.08, and on 26 July it closed above its August 1987 record of 336.77 for the first time since the crash. Interest rates have fallen since the spring, and the Dow closed above 2,600 on 21 July.",
-    "assets": [],
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
     "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19890822.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/1989_in_the_United_States (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1989-07-bush-desk.jpg",
     "imageCaption": "President George H. W. Bush at his desk in the Oval Office",
@@ -117,7 +121,11 @@
     "kind": "world",
     "headline": "Friday the 13th: a failed buyout knocks the Dow down 7 percent",
     "text": "On Friday 13 October the Dow fell 190.58 points or 6.9% and the S&P 500 6.1%, after financing for a 6.75 billion dollar buyout of UAL, the parent of United Airlines, fell apart. The indexes had closed at records only four days earlier. The failure raises doubts about the junk-bond market that pays for such deals.",
-    "assets": [],
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
     "source": "https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)",
     "image": "/news/markets/1989-10-united-747.jpg",
     "imageCaption": "A United Airlines Boeing 747; the buyout of UAL parent company failed on 13 October 1989",

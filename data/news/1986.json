@@ -79,7 +79,11 @@
     "kind": "world",
     "headline": "Rising bond yields send shares down 9 percent",
     "text": "Shares fell sharply in September as long-term interest rates rose: yields on Treasury bonds climbed as much as 0.6 percentage point in a few weeks, although the Federal Reserve had cut its discount rate in August. Germany and Japan did not follow the American rate cut, raising worries about the dollar. The S&P 500 lost 9% in the month to 231.32, its worst month since March 1980.",
-    "assets": [],
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19860923.pdf (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/1986-09-reagan-cabinet.jpg",
     "imageCaption": "President Reagan leads a Cabinet meeting at the White House, 11 September 1986",

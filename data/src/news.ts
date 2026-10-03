@@ -60,7 +60,9 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     if (b.importance > MAX_IMPORTANCE && kind !== "listing" && kind !== "delisting") continue;
     const p = pictures.get(b.id);
     if (p) withPicture++;
-    const tagged = [...new Set([...(company && (kind === "listing" || kind === "delisting") ? [arc] : []), ...b.assets])].filter((id) => inGame(id, b.month));
+    // "bonds" becomes the Treasuries quoted that month.
+    const bonds = b.assets.includes("bonds") ? [...assets.values()].filter((s) => s.kind === "bond" && s.rows.some((r) => r.month === b.month)).map((s) => s.id).sort() : [];
+    const tagged = [...new Set([...(company && (kind === "listing" || kind === "delisting") ? [arc] : []), ...b.assets])].filter((id) => inGame(id, b.month)).concat(bonds);
     items.push({
       month: b.month, kind, headline: b.title, text: b.what, assets: tagged, source: b.source,
       ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),

@@ -144,7 +144,10 @@
     "headline": "Tariff shock: Treasury bonds sold, gold bought",
     "text": "After the president announced sweeping tariffs on 2 April, the S&P 500 fell 10 percent in two days. Treasury bonds, the usual safe haven, were sold too: the 10-year yield rose from 3.86 percent on 4 April to 4.5 percent on 9 April, and the 30-year yield jumped 54 basis points to 4.92 percent, its biggest three-day rise since 1982, before a 90-day tariff pause on 9 April calmed markets. Gold averaged 3,218 dollars in April, 8 percent more than in March and a record.",
     "assets": [
-      "gold"
+      "gold",
+      "ust2030",
+      "ust2035",
+      "ust2040"
     ],
     "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2025-04-tariff-chart.jpg",
@@ -465,7 +468,11 @@
     "kind": "world",
     "headline": "2025 in review: a third double-digit year in a row",
     "text": "The S&P 500 gained 16% in 2025 to 6,845.50, the Nasdaq 19% and the Dow 13%, a third year in a row of double-digit gains. The April tariff crash became an afterthought, and resilient earnings, three Federal Reserve rate cuts from September and enthusiasm for artificial intelligence carried shares to records despite a long government shutdown and worries about an AI bubble.",
-    "assets": [],
+    "assets": [
+      "ust2030",
+      "ust2035",
+      "ust2040"
+    ],
     "source": "data/reference/sp500.json; https://abcnews.com/Business/stock-market-ends-2025-double-digit-gains/story?id=128812306 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2025-12-nvidia.jpg",
     "imageCaption": "Nvidia's headquarters in Santa Clara, California",

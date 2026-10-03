@@ -18,7 +18,18 @@
   let { items, nameOf, openable, onselect, big = false, showMonth = false, monthLabel = (m) => m }: Props = $props();
 
   const KIND_LABEL: Record<string, string> = { listing: 'Now trading', delisting: 'Leaving the market' };
+
+  /** The item whose picture is shown large. */
+  let zoomed = $state<NewsItemView | undefined>(undefined);
+  function onKey(e: KeyboardEvent) {
+    if (zoomed && e.key === 'Escape') {
+      zoomed = undefined;
+      e.stopPropagation();
+    }
+  }
 </script>
+
+<svelte:window onkeydowncapture={onKey} />
 
 {#if items.length === 0}
   <p class="sub muted">No news this month.</p>
@@ -28,8 +39,10 @@
       <li class="item" class:listing={item.kind === 'listing' || item.kind === 'delisting'}>
         {#if item.image}
           <figure>
-            <img src={item.image} alt={item.imageCaption ?? ''} loading="lazy" />
-            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit} <span class="credit">Photo: {item.imageCredit}</span>{/if}</figcaption>{/if}
+            <button class="zoom" onclick={() => (zoomed = item)} aria-label="Show the picture larger">
+              <img src={item.image} alt={item.imageCaption ?? ''} loading="lazy" />
+            </button>
+            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit}{item.imageCaption ? ' · ' : ''}<span class="credit">Photo: {item.imageCredit}</span>{/if}</figcaption>{/if}
           </figure>
         {/if}
         <div class="body">
@@ -58,7 +71,77 @@
   </ul>
 {/if}
 
+{#if zoomed?.image}
+  <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Picture" tabindex="-1" onclick={() => (zoomed = undefined)}>
+    <figure>
+      <img src={zoomed.image} alt={zoomed.imageCaption ?? ''} />
+      <figcaption>
+        <strong>{zoomed.headline}</strong>
+        {#if zoomed.imageCaption}<span>{zoomed.imageCaption}</span>{/if}
+        {#if zoomed.imageCredit}<span class="credit">Photo: {zoomed.imageCredit}</span>{/if}
+      </figcaption>
+    </figure>
+    <button class="btn small close" onclick={() => (zoomed = undefined)}>Close ✕</button>
+  </div>
+{/if}
+
 <style>
+  .zoom {
+    all: unset;
+    display: block;
+    width: 100%;
+    cursor: zoom-in;
+    border-radius: 8px;
+  }
+  .zoom:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.86);
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    cursor: zoom-out;
+  }
+  .lightbox figure {
+    margin: 0;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    max-width: min(1400px, 100%);
+  }
+  .lightbox img {
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    width: auto;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    background: none;
+  }
+  .lightbox figcaption {
+    display: grid;
+    gap: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  .lightbox .credit {
+    color: #c3c2b7;
+    font-size: 0.8rem;
+  }
+  .lightbox .close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
   .news {
     list-style: none;
     margin: 0;

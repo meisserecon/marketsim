@@ -108,7 +108,10 @@
     "headline": "Gold breaks down",
     "text": "Gold averaged 1,488 dollars in April, 7 percent below March and 16 percent below its peak month of September 2011. US inflation is only 1.5 percent (March), and shares are at records. The fear of inflation from the Fed's bond buying has not come true.",
     "assets": [
-      "gold"
+      "gold",
+      "ust2015",
+      "ust2020",
+      "ust2030"
     ],
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
     "image": "/news/rates/2013-04-gold-oz.jpg",
@@ -174,7 +177,10 @@
     "headline": "Bernanke hints at slower bond buying and yields jump",
     "text": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May.",
     "assets": [
-      "gold"
+      "gold",
+      "ust2015",
+      "ust2020",
+      "ust2030"
     ],
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2013-06-bernanke.jpg",

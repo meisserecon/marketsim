@@ -188,7 +188,11 @@
     "kind": "world",
     "headline": "Inflation at 6.2 percent; the Fed starts to slow its bond buying",
     "text": "Consumer prices in October were 6.2 percent higher than a year earlier, the fastest rise since 1990. On 3 November the Fed said it would begin reducing its monthly bond purchases by 15 billion dollars, while still describing inflation as 'largely reflecting factors that are expected to be transitory'. Its rate remains near zero.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03)",
     "image": "/news/rates/2021-11-powell-biden.jpg",
     "imageCaption": "President Biden with Jerome Powell and Lael Brainard after announcing Powell would stay as Fed chair, Washington, 22 November 2021",

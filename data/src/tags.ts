@@ -33,6 +33,9 @@ const PATTERNS: Record<string, RegExp> = {
   enron: /\bEnron\b/, lehman: /\bLehman\b/, worldcom: /\bWorldCom\b|\bLDDS\b/, "pets-com": /\bPets\.com\b/,
 };
 
+/** Stories about interest rates and bond yields. */
+const RATES = /\binterest rates?\b|\b(bond|Treasury) yields?\b|\bTreasur(y|ies)\b(?! Secretary| Department| secretary)|\bprime rate\b|\bdiscount rate\b|\bfederal funds\b|\brate (cut|rise|increase|hike)s?\b|\b(cuts?|raises?|lowers?|holds?) (its |the )?(key |benchmark |policy )?(interest )?rates?\b|\byields? (on|of) |\bbond (market|prices?|buying)\b|\bquantitative easing\b/i;
+
 let added = 0, touched = 0;
 const perAsset: Record<string, number> = {};
 for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).sort()) {
@@ -46,9 +49,11 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     if (assets.has(arc)) want.add(arc);
     if (b.move && assets.has(b.move.asset) && assets.get(b.move.asset)!.kind !== "bond") want.add(b.move.asset);
     for (const [id, re] of Object.entries(PATTERNS)) if (re.test(text)) want.add(id);
+    // "bonds" stands for the Treasuries on offer that month; the news generator expands it.
+    if (!assets.has(arc) && arc !== "life" && RATES.test(text)) want.add("bonds");
     if (arc === "life" || assets.has(arc)) want.delete("gold"); // medals and records; in company arcs "Gold" is usually a surname
     for (const id of want) {
-      if (b.assets.includes(id) || !inGame(id, b.month)) continue;
+      if (b.assets.includes(id) || (id !== "bonds" && !inGame(id, b.month))) continue;
       b.assets.push(id); added++; changed = true; perAsset[id] = (perAsset[id] ?? 0) + 1;
     }
   }

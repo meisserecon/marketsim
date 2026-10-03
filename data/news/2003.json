@@ -223,7 +223,11 @@
     "kind": "world",
     "headline": "The Fed's rate falls to 1 percent",
     "text": "On 25 June the Fed cut its rate target by a quarter point to 1 percent, the lowest since the 1950s; since January 2001 it has cut thirteen times from 6.5 percent. Inflation is about 2.1 percent (May). The 10-year Treasury yield averaged 3.3 percent in June, the lowest since 1958, and a 30-year mortgage costs about 5.2 percent.",
-    "assets": [],
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
     "image": "/news/rates/2003-06-greenspan.jpg",
     "imageCaption": "Treasury Secretary John Snow, Fed chairman Alan Greenspan and SEC chairman William Donaldson, 2003",

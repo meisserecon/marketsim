@@ -5,7 +5,9 @@
     "title": "Credit controls and the silver crash knock shares down 10 percent",
     "what": "On 14 March President Carter announced the first credit controls since the Second World War, with limits on lending, credit cards and instalment loans, as inflation and short-term interest rates both stood near 18 percent. On 27 March the silver market collapsed: silver fell to 10.80 dollars an ounce from over 50 in January after the Hunt brothers could no longer meet calls on their borrowed position, and trading in the shares of their broker Bache was suspended. The S&P 500 ended March at 102.09, down 10% in the month.",
     "why": "The low point of the 1980 recession scare and the first big market month of the game. The Fed soon eased, and shares recovered all of it by the summer.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -10
@@ -35,7 +37,9 @@
     "title": "1980 in review: shares up 26 percent despite record interest rates",
     "what": "The S&P 500 ended 1980 at 135.76, up 26% on the year, after falling to about 102 in March. The Dow Jones average closed the year at 963.99, up 14.9%. The year closes with the Federal Reserve's key interest rate approaching 20 percent as it fights inflation, and on 19 December the banks' prime rate reached a record 21.5 percent, a heavy weight on shares going into 1981.",
     "why": "A strong year that hid the danger ahead: Volcker's second squeeze of 1981 pushed the economy into a deep recession and shares into a 20-month bear market.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
     "lead": true
@@ -46,7 +50,9 @@
     "title": "1981 in review: high interest rates push shares down 10 percent",
     "what": "The S&P 500 fell 10% in 1981 to 122.55, and the Dow closed the year at 875.00, down 9.2%. The Dow had reached 1,024 in April on hopes for Reagan's tax cuts, but the Federal Reserve kept credit tight: its discount rate hit a record 14 percent in May, and the economy slid into recession in the second half. The Fed began to cut the discount rate in November, to 12 percent.",
     "why": "The middle of the 1980-82 bear market. Volcker's 'we mean to stick with it' policy broke inflation at the cost of the worst recession since the war.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)",
     "lead": true
@@ -79,7 +85,9 @@
     "title": "A bond rally lifts shares 11 percent in August",
     "what": "Interest rates fell sharply over the summer, with yields on bonds down about 5/8 to 3/4 of a percentage point since mid-July, as the economy's expansion turned out slower than expected. Shares jumped with bonds: the S&P 500 rose 11% in August to 166.68. Earlier in the summer the Fed chairman, Paul Volcker, and the head of the SEC, John Shad, warned about the mountains of debt being piled up in takeovers.",
     "why": "One of the biggest months of the decade, driven by falling rates. The takeover warning is the first sign of the leveraged buyout boom that defines the late 1980s.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 11
@@ -94,7 +102,9 @@
     "title": "1984 in review: a flat year as rates rise and fall",
     "what": "The S&P 500 ended 1984 at 167.24, up only 1%, and the Dow fell 3.7% to 1,211.57. Interest rates rose in the first half, with the prime rate peaking at 13 percent in June, then fell back to 10.75 percent by 19 December. Shares are roughly where they were at the end of 1983.",
     "why": "The pause in the bull market. Falling rates in the second half set up the strong years 1985 and 1986.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
     "lead": true
@@ -105,7 +115,9 @@
     "title": "1985 in review: shares up 26 percent in a year of takeovers",
     "what": "The S&P 500 rose 26% in 1985 to 211.28 and first closed above 200 on 21 November. The Dow ended at 1,546.67, up 27.7%, after 36 record closes. Falling interest rates and the September agreement of the five big economies at the Plaza Hotel to push the dollar down helped shares, and takeover bids financed with borrowed money, often with high-yield 'junk' bonds sold by Drexel Burnham Lambert, have made many shareholders rich.",
     "why": "The heart of the 1980s bull market and of the takeover boom; the debt behind it is what made 1987 and 1989 fragile.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Drexel_Burnham_Lambert (read 2026-10-03)"
   },
@@ -115,7 +127,9 @@
     "title": "Rising bond yields send shares down 9 percent",
     "what": "Shares fell sharply in September as long-term interest rates rose: yields on Treasury bonds climbed as much as 0.6 percentage point in a few weeks, although the Federal Reserve had cut its discount rate in August. Germany and Japan did not follow the American rate cut, raising worries about the dollar. The S&P 500 lost 9% in the month to 231.32, its worst month since March 1980.",
     "why": "A warning shot a year before the 1987 crash: the same mix of rising bond yields and dollar worries returned in October 1987.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -129,7 +143,9 @@
     "title": "1986 in review: another strong year",
     "what": "The S&P 500 rose 15% in 1986 to 242.17, after first closing above 250 on 30 June; the Dow gained 22.6% to 1,895.95, after passing 1,750 in March. September showed how quickly shares can fall when bond yields rise.",
     "why": "The fourth year of the bull market; the speculative climax comes in 1987.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)",
     "lead": true
@@ -154,7 +170,9 @@
     "title": "Shares hit a record as Greenspan takes over the Fed",
     "what": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising.",
     "why": "The peak before the crash; the S&P 500 did not close above it again until July 1989.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03)",
     "lead": true
@@ -180,7 +198,9 @@
     "title": "1987 in review: up 2 percent, after the wildest year in memory",
     "what": "The S&P 500 ended 1987 at 247.08, up 2% on the year, after rising 39% to its August record and then losing a third of its value in two months. The Dow closed at 1,938.83, up 2.3%. So far the crash has had little visible effect on business activity, and interest rates are lower than before it.",
     "why": "The year's flat result hides the whole drama; a player who held on lost nothing over the year, one who sold in October locked in the loss.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)",
     "lead": true
@@ -191,7 +211,9 @@
     "title": "Shares climb back above their pre-crash record",
     "what": "The S&P 500 rose 9% in July to 346.08, and on 26 July it closed above its August 1987 record of 336.77 for the first time since the crash. Interest rates have fallen since the spring, and the Dow closed above 2,600 on 21 July.",
     "why": "The full recovery from Black Monday, less than two years later.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 9
@@ -206,7 +228,9 @@
     "title": "Friday the 13th: a failed buyout knocks the Dow down 7 percent",
     "what": "On Friday 13 October the Dow fell 190.58 points or 6.9% and the S&P 500 6.1%, after financing for a 6.75 billion dollar buyout of UAL, the parent of United Airlines, fell apart. The indexes had closed at records only four days earlier. The failure raises doubts about the junk-bond market that pays for such deals.",
     "why": "The end of the takeover boom; the junk-bond market collapsed and Drexel went bankrupt in February 1990.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
   },
@@ -226,7 +250,9 @@
     "title": "Iraq's invasion of Kuwait sends shares down 9 percent",
     "what": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
     "why": "The market's reaction to the Gulf crisis (the cause is told in the Middle East and oil arcs). It tipped a weak economy into recession.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -242,7 +268,9 @@
     "title": "1990 in review: recession and the Gulf crisis cost 7 percent",
     "what": "The S&P 500 fell 7% in 1990 to 330.22; the Dow, down 18% from July to its low of 2,381.99 on 16 October, ended at 2,633.66, off 4.3%. Economists say the economy is in recession, and how deep it gets depends on war or peace in the Gulf. Banks are hurting from bad property loans: Citicorp, the biggest, plans to cut its dividend and 8,000 jobs, and the Fed cut its discount rate to 6.5 percent in December.",
     "why": "The only down year between 1981 and 1994. The October low was the bottom: the 1990s boom started from here.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.upi.com/Archives/1990/12/21/The-Week-in-Review/1864661755600/ (read 2026-10-03)"
   },
@@ -252,7 +280,9 @@
     "title": "The Fed cuts sharply and shares end 1991 with an 11 percent burst",
     "what": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets.",
     "why": "A year-end burst and the start of the 1990s bull market proper; the year's big gain came despite a weak economy.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 11
@@ -266,7 +296,9 @@
     "title": "1993 in review: low interest rates, modest gains",
     "what": "The S&P 500 gained 7% in 1993 to 466.45. The Dow closed above 3,500 for the first time on 19 May and ended the year at 3,754.09, up 13.7%. The yield on 30-year Treasury bonds has fallen to about 6.2 percent, which helps shares and borrowers.",
     "why": "The calm before the 1994 bond shock.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03)"
   },
@@ -276,7 +308,9 @@
     "title": "1994 in review: the Fed's rate rises bring the bond market's worst year",
     "what": "The S&P 500 fell 2% in 1994 to 459.27, while the Dow edged up 2.1%. Starting on 4 February the Federal Reserve raised its key rate from 3 to 5.5 percent by November, and the yield on 30-year Treasury bonds rose from 6.2 to 8.2 percent; bond investors lost about 1.5 trillion dollars worldwide. At year's end Mexico's markets are in crisis.",
     "why": "A losing year for shares and a terrible one for bonds, but the Fed's early move kept inflation down and set up the boom of 1995-99.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
   },
@@ -286,7 +320,9 @@
     "title": "1995 in review: shares up 34 percent, the best year of the game so far",
     "what": "The S&P 500 rose 34% in 1995 to 615.93, after first closing above 500 on 24 March. The Dow passed 4,000 on 23 February and 5,000 on 21 November and ended the year at 5,117.12, up 33.5%. The economy has absorbed the Fed's rate rises of 1994, and investment in new technology picked up late in the year.",
     "why": "The start of the great late-1990s boom: five years in a row of gains above 19%.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/1990s_United_States_boom (read 2026-10-03)"
   },
@@ -316,7 +352,9 @@
     "title": "A surprise Fed cut on 15 October and shares bounce 8 percent",
     "what": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67.",
     "why": "The Fed's three cuts in autumn 1998 ended the panic and fuelled the final, wildest phase of the dot-com boom.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 8
@@ -330,7 +368,9 @@
     "title": "1998 in review: a panic in the middle, up 27 percent in the end",
     "what": "The S&P 500 rose 27% in 1998 to 1,229.23, after first closing above 1,000 on 2 February and falling 15% in August alone. The Dow passed 9,000 on 6 April and ended at 9,181.43, up 16.1%. The Fed's autumn rate cuts brought the buyers back.",
     "why": "The fourth year in a row above 20%; the summer showed how fast it could turn.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
   },
@@ -390,7 +430,9 @@
     "title": "Earnings disappoint and shares fall 9 percent despite Fed cuts",
     "what": "A steady flow of disappointing company earnings reports sent shares sharply lower in February, with the technology-heavy Nasdaq falling hardest, and consumer confidence dropped. The Federal Reserve had already cut its key rate twice in January, including a surprise move on 3 January. The S&P 500 lost 9% in the month to 1,239.94.",
     "why": "The bear market deepening as the economy slid toward the 2001 recession.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -404,7 +446,9 @@
     "title": "A surprise rate cut and better earnings bring an 8 percent bounce",
     "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46.",
     "why": "A bear-market rally; the low was still eighteen months away.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 8
@@ -418,7 +462,9 @@
     "title": "After the attacks: markets closed four days, then the worst week in decades",
     "what": "The New York Stock Exchange stayed closed after the terrorist attacks of 11 September and reopened only on 17 September, its longest closure since the Great Depression. That day the Fed cut its key rate to 3 percent, and the Dow fell 684.81 points or 7.1%; shares kept falling in volatile trading as business and consumer confidence collapsed. The S&P 500 lost 8% in September to 1,040.94.",
     "why": "The market's reaction to 9/11; part of the losses were recovered within weeks.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -8
@@ -432,7 +478,9 @@
     "title": "Good news from Afghanistan and the economy lifts shares 8 percent",
     "what": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September.",
     "why": "The post-9/11 recovery; it fizzled in 2002 as accounting scandals spread.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 8
@@ -446,7 +494,9 @@
     "title": "2001 in review: eleven rate cuts cannot stop a second losing year",
     "what": "The S&P 500 fell 13% in 2001 to 1,148.08 and the Dow 7.1%, a second losing year in a row. The Federal Reserve cut its key rate eleven times during the year, from 6.5 to 1.75 percent, as the economy fell into recession and the September attacks shook confidence.",
     "why": "Year two of the bust; the worst, the accounting scandals of 2002, was still to come.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -472,7 +522,9 @@
     "title": "Iraq tensions and weak data: shares fall 11 percent",
     "what": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28.",
     "why": "The final leg down of the 2000-02 bear market.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -11
@@ -500,7 +552,9 @@
     "title": "2002 in review: a third losing year in a row",
     "what": "The S&P 500 fell 23% in 2002 to 879.82, its third losing year in a row and its worst of the game so far; it is 40% below where it stood at the end of 1999. The Dow lost 16.8% to 8,341.63. Accounting scandals, the WorldCom and Enron bankruptcies, a weak economy and the threat of war with Iraq weighed on shares, and the Fed cut its key rate to 1.25 percent in November.",
     "why": "The end of the bust. A player who bought here doubled their money by 2007.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -524,7 +578,9 @@
     "title": "2003 in review: the bull returns, up 26 percent",
     "what": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back.",
     "why": "Cheap money lifted shares and, less visibly, house prices: the seed of 2008.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -564,7 +620,9 @@
     "title": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
     "what": "On 9 August the French bank BNP Paribas blocked withdrawals from three funds invested in American mortgage securities, citing 'a complete evaporation of liquidity'. Banks stopped trusting each other, and on 17 August the Federal Reserve cut its discount rate by half a point to 5.75 percent and offered banks loans of up to 30 days against mortgages and other collateral. Shares swung wildly but the S&P 500 ended August up 1%.",
     "why": "The start of the financial crisis, a year before Lehman. The market did not yet believe it. Review 2026-10: 'begins' presumed the later crisis.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -574,7 +632,9 @@
     "title": "The S&P 500 sets a record after Fed rate cuts",
     "what": "After the Federal Reserve cut its key rate by half a point to 4.75 percent in September, shares rallied, and the S&P 500 closed at a record 1,565.15 on 9 October, just above its 2000 peak. The Dow reached about 14,164. The Fed cut again on 31 October, to 4.5 percent.",
     "why": "The top of the 2003-07 bull market; seventeen months later the index had lost 57%.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -584,7 +644,9 @@
     "title": "2007 in review: up 4 percent, with the credit crisis spreading",
     "what": "The S&P 500 ended 2007 up 4% at 1,468.36 and the Dow up 6.4%, after the October record. The credit crisis that began in August is not over, and the Federal Reserve has cut its key rate three times since September, to 4.25 percent.",
     "why": "The last up year before the crash. The recession later dated as starting in December 2007 was not yet known.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -594,7 +656,9 @@
     "title": "The Fed's emergency cut: three-quarters of a point between meetings",
     "what": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
     "why": "The Fed fighting the crisis early; markets read it as a sign of how bad things were.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -6
@@ -608,7 +672,9 @@
     "title": "Bear Stearns is rescued by JPMorgan for 2 dollars a share",
     "what": "The investment bank Bear Stearns, heavy with 46 billion dollars of mortgage assets, faced collapse in mid-March. On 16-17 March JPMorgan Chase agreed to buy it for 2 dollars a share, with the Fed guaranteeing bad loans; the shares were at 60 dollars a week earlier and 178 a year ago. The Fed cut its key rate by another 0.75 point to 2.25 percent on 18 March.",
     "why": "The first big Wall Street casualty. Because Bear was saved, many assumed Lehman would be too.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -659,7 +725,9 @@
     "title": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
     "what": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
     "why": "The climax of the panic; the biggest monthly fall of the game after October 1987.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -17
@@ -689,7 +757,9 @@
     "title": "2008 in review: shares lose 38 percent",
     "what": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
     "why": "The worst year of the game. The final low came in March 2009, 57% below the 2007 peak.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)"
   },
@@ -714,7 +784,8 @@
     "what": "Congress approved a 787 billion dollar stimulus package on 13 February, but investors were uneasy about the Treasury's new plan to stabilize the banks and about what the government might do next. Bank and insurance shares were hit hardest; on 27 February the government agreed to take a 36% stake in Citigroup, and the Dow closed at its lowest level since 1997. The S&P 500 lost 11% in February to 735.09.",
     "why": "The capitulation before the bottom.",
     "assets": [
-      "c"
+      "c",
+      "bonds"
     ],
     "move": {
       "asset": "sp500",
@@ -730,7 +801,8 @@
     "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
     "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time. Review 2026-10: 'The bottom' was hindsight.",
     "assets": [
-      "c"
+      "c",
+      "bonds"
     ],
     "move": {
       "asset": "sp500",
@@ -797,7 +869,9 @@
     "title": "2010 in review: up 13 percent on the Fed's second round of bond buying",
     "what": "The S&P 500 gained 13% in 2010 to 1,257.64 and the Dow 11.0%, despite the May flash crash and Europe's debt troubles. On 3 November the Federal Reserve said it would buy another 600 billion dollars of Treasury bonds by mid-2011, about 75 billion a month.",
     "why": "The second year of the bull market, propped up by the Fed.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03)"
   },
@@ -855,7 +929,9 @@
     "title": "2013 in review: up 30 percent, the best year since 1997",
     "what": "The S&P 500 gained 30% in 2013 to 1,848.36, its best year since 1997, and the Dow 26.5%. The Dow set its first record since 2007 on 5 March and passed 16,000 on 21 November, while the Federal Reserve kept interest rates near zero and bought bonds every month.",
     "why": "The year the bull market finally erased the 2008 crash.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
   },
@@ -903,7 +979,9 @@
     "title": "2015 in review: a flat year and the first Fed rate rise since 2006",
     "what": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. On 16 December the Federal Reserve raised its key rate for the first time since June 2006, to between 0.25 and 0.5 percent.",
     "why": "The end of the zero-rate era; a pause in the bull market.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -933,7 +1011,9 @@
     "title": "Volatility returns: the Dow falls 1,175 points in a day",
     "what": "A bigger-than-expected rise in wages in the January jobs report raised fears of inflation and faster rate rises. On 5 February the Dow fell 1,175 points or 4.6%, its largest point drop ever, and the VIX volatility index jumped to its highest since 2015 as bets on calm markets unwound; on 8 February the Dow fell another 1,033 points. The S&P 500 lost 4% in February.",
     "why": "The end of the 2017 calm; a preview of the fall at year's end. Review 2026-10: 'then' implied a later, bigger drop.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -4
@@ -947,7 +1027,9 @@
     "title": "The Christmas fall: shares lose 9 percent in December",
     "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%.",
     "why": "The near-bear market of 2018, which reversed as soon as the Fed changed its tone in January.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -961,7 +1043,9 @@
     "title": "The Fed promises patience and shares jump 8 percent",
     "what": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
     "why": "The Fed's U-turn; it cut rates three times later in 2019.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 8
@@ -975,7 +1059,9 @@
     "title": "2019 in review: up 29 percent as the Fed cuts rates",
     "what": "The S&P 500 gained 29% in 2019 to 3,230.78, after first closing above 3,000 on 12 July, and the Dow 22.3%. The Federal Reserve cut its key rate three times, in July, September and October, to between 1.5 and 1.75 percent.",
     "why": "A big year that set records just before the pandemic.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -999,7 +1085,9 @@
     "title": "Pandemic crash: circuit breakers, zero rates and a 34 percent fall",
     "what": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 fell to 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
     "why": "The fastest crash in history, and the fastest turn: the low came on the day of the Fed's 'unlimited' promise. Review 2026-10: 'its low' was hindsight.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -13
@@ -1055,7 +1143,9 @@
     "title": "2020 in review: crash and recovery, up 16 percent",
     "what": "The S&P 500 ended 2020 at 3,756.07, up 16%, after falling 34% between February and March; the Dow gained 7.3%. Interest rates near zero, huge government spending and the vaccines carried shares to records despite the pandemic.",
     "why": "The year that showed how fast markets can fall and recover.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
   },
@@ -1085,7 +1175,9 @@
     "title": "Rising rates and weak earnings: the worst month since March 2020",
     "what": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020.",
     "why": "The 2022 bear market gathering pace; technology shares were hit hardest (told in the tech arc).",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -1099,7 +1191,9 @@
     "title": "Inflation at 8.6 percent, a 0.75 point rate rise and a bear market",
     "what": "Consumer prices rose 8.6% in the year to May, more than expected, and on 15 June the Federal Reserve raised its key rate by 0.75 percentage point. The S&P 500 fell into a bear market, more than 20% below its January record, and lost 8% in June to 3,785.38; it fell 21% in the first half of the year.",
     "why": "The heart of the 2022 bear market, driven by inflation and rates (the rates arc tells the Fed's side).",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -8
@@ -1113,7 +1207,9 @@
     "title": "A summer rally on falling yields: shares up 9 percent",
     "what": "Bond yields fell on fears of recession, and some better-than-feared earnings made investors less gloomy about companies' prospects. The S&P 500 rose 9% in July to 4,130.29, its best month since November 2020.",
     "why": "A bear-market rally; it ended at Jackson Hole in late August.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 9
@@ -1127,7 +1223,9 @@
     "title": "Powell's warning and sticky inflation: shares fall 9 percent",
     "what": "Fed chairman Jerome Powell's speech at Jackson Hole on 26 August and inflation data showing consumer prices still up 8.3% a year convinced investors that rates would rise further than expected. On 13 September the S&P 500 fell 4.3%, its worst day since 2020, and late in the month a British budget set off turmoil in the UK bond market. The S&P 500 lost 9% in September to 3,585.62.",
     "why": "The second leg of the 2022 bear market.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -9
@@ -1167,7 +1265,8 @@
     "why": "The banking scare of 2023: the price of the fast rate rises. The broad market shrugged it off.",
     "assets": [
       "credit-suisse",
-      "ubs"
+      "ubs",
+      "bonds"
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json"
@@ -1178,7 +1277,9 @@
     "title": "Inflation cools, yields drop, shares jump 9 percent",
     "what": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80.",
     "why": "The 'peak rates' rally that carried shares to records in early 2024.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 9
@@ -1236,7 +1337,9 @@
     "title": "2025 in review: a third double-digit year in a row",
     "what": "The S&P 500 gained 16% in 2025 to 6,845.50, the Nasdaq 19% and the Dow 13%, a third year in a row of double-digit gains. The April tariff crash became an afterthought, and resilient earnings, three Federal Reserve rate cuts from September and enthusiasm for artificial intelligence carried shares to records despite a long government shutdown and worries about an AI bubble.",
     "why": "The AI boom's third year; a rare streak that raised the stakes for 2026.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://abcnews.com/Business/stock-market-ends-2025-double-digit-gains/story?id=128812306 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
@@ -1274,7 +1377,9 @@
     "title": "Bond yields at multi-year highs and a Fed rate rise cool the rally",
     "what": "After a record close of 7,798.99 on 13 August, shares stalled in September as long-term interest rates climbed: the 10-year Treasury yield rose to about 5.25%, the highest since 2007, and the 30-year to about 5.6%, the highest since 2002. On 16 September the Federal Reserve raised its key rate by a quarter point to 3.75-4 percent, saying inflation remains elevated. The S&P 500 slipped 0.5% in September to 7,651.54, still up 12% for the year.",
     "why": "The latest month in the data: a market near its highs, with inflation from the oil shock pushing rates up again (told in the rates arc).",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://eurasiabusinessnews.com/2026/09/29/stock-market-today-treasury-yields-rise-despite-falling-oil-prices-as-dow-slips/ (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm (read 2026-10-03); data/reference/sp500.json"
   }

@@ -108,7 +108,10 @@
     "headline": "The Fed raises rates as inflation nears 8 percent and war breaks out",
     "text": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record.",
     "assets": [
-      "gold"
+      "gold",
+      "ust2025",
+      "ust2030",
+      "ust2040"
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2022-03-powell.jpg",
@@ -144,7 +147,11 @@
     "kind": "world",
     "headline": "Rising rates and weak earnings: the worst month since March 2020",
     "text": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2022-04-eccles.jpg",
     "imageCaption": "The Federal Reserve Board's Eccles Building, Washington",
@@ -194,7 +201,11 @@
     "kind": "world",
     "headline": "Inflation at 8.6 percent, a 0.75 point rate rise and a bear market",
     "text": "Consumer prices rose 8.6% in the year to May, more than expected, and on 15 June the Federal Reserve raised its key rate by 0.75 percentage point. The S&P 500 fell into a bear market, more than 20% below its January record, and lost 8% in June to 3,785.38; it fell 21% in the first half of the year.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2022-06-gas-prices.jpg",
     "imageCaption": "Gasoline prices at a US filling station, March 2022",
@@ -229,7 +240,11 @@
     "kind": "world",
     "headline": "A summer rally on falling yields: shares up 9 percent",
     "text": "Bond yields fell on fears of recession, and some better-than-feared earnings made investors less gloomy about companies' prospects. The S&P 500 rose 9% in July to 4,130.29, its best month since November 2020.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2022-07-fomc.jpg",
     "imageCaption": "Federal Reserve Chair Jerome Powell at the press conference after the Fed's July meeting, 27 July 2022",
@@ -264,7 +279,11 @@
     "kind": "world",
     "headline": "Third giant hike; the British bond market breaks",
     "text": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January record.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
     "image": "/news/rates/2022-09-kwarteng.jpg",
     "imageCaption": "Kwasi Kwarteng, Britain's Chancellor of the Exchequer, September 2022",
@@ -286,7 +305,11 @@
     "kind": "world",
     "headline": "Powell's warning and sticky inflation: shares fall 9 percent",
     "text": "Fed chairman Jerome Powell's speech at Jackson Hole on 26 August and inflation data showing consumer prices still up 8.3% a year convinced investors that rates would rise further than expected. On 13 September the S&P 500 fell 4.3%, its worst day since 2020, and late in the month a British budget set off turmoil in the UK bond market. The S&P 500 lost 9% in September to 3,585.62.",
-    "assets": [],
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2022-09-powell.jpg",
     "imageCaption": "Federal Reserve Chairman Jerome Powell",

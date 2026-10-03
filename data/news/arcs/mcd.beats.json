@@ -122,22 +122,6 @@
     "cut": true
   },
   {
-    "month": "2000-02",
-    "title": "Old-economy sell-off: McDonald's down 15%",
-    "what": "Investors are selling slow-growing blue chips to buy technology shares, and rising interest rates add to the pressure. On 25 February the Dow closed below 10,000 for the first time in nearly 11 months while the Nasdaq hit records. McDonald's shares lost about 15% in February.",
-    "why": "The low point of the dot-com rotation; it reversed in March.",
-    "assets": [
-      "mcd",
-      "ko"
-    ],
-    "move": {
-      "asset": "mcd",
-      "pct": -15
-    },
-    "importance": 2,
-    "source": "https://www.latimes.com/archives/la-xpm-2000-feb-26-mn-2800-story.html (read 2026-10-03); move from data/out/mcd.json"
-  },
-  {
     "month": "2000-03",
     "title": "Blue chips roar back: McDonald's up 18%",
     "what": "In mid-March the battered blue chips came back: on 16 March the Dow jumped 499 points, or 4.9%, its biggest one-day point gain ever, a day after another of its biggest gains, lifting it out of a 10% correction. McDonald's shares gained about 18% in March, more than making up February's loss.",

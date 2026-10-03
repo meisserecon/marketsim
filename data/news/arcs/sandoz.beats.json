@@ -8,7 +8,8 @@
       "sandoz"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); data/src/profiles.ts; data/manual/sandoz.csv header"
+    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); data/src/profiles.ts; data/manual/sandoz.csv header",
+    "cut": true
   },
   {
     "month": "1980-03",
@@ -20,38 +21,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
-  },
-  {
-    "month": "1980-03",
-    "title": "Silver crash month: Swiss shares and the franc fall together",
-    "what": "March was a hard month for markets: the silver price collapsed to $10.80 an ounce on 27 March, down from over $50 in January. American interest rates are very high and money flows into the dollar: a dollar bought 1.85 francs at the end of March against 1.70 a month earlier. Swiss shares fell, and in dollars they fell further.",
-    "why": "Sandoz lost about 14% in francs and 21% in the game's dollar prices; the franc's 8% slide did the rest.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": -21
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1980-04",
-    "title": "The franc bounces back",
-    "what": "The dollar gave back its March gains in April: it bought 1.67 francs at the end of the month, against 1.85 at the end of March, about 11% more for the franc. Swiss shares recovered part of their March losses.",
-    "why": "Of Sandoz's 17% rise in dollars, about 11% was the franc.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": 17
-    },
-    "importance": 3,
-    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
     "month": "1981-04",

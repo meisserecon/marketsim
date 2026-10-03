@@ -181,7 +181,7 @@ Biggest months:
 
 ### brk: Berkshire Hathaway
 
-In the game 1980-03 to 2026-09; price 260 to 747005 (+287210% over 46.6 years).
+In the game 1980-05 to 2026-09; price 320 to 747005 (+233339% over 46.4 years).
 Worst stretch: -44% from 2007-12 to 2009-02. Best twelve months: +125% from 1982-09 to 1983-09.
 
 Biggest months:

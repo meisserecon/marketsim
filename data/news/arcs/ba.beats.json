@@ -7,8 +7,24 @@
     "assets": [
       "ba"
     ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03); data/src/profiles.ts (Boeing profile from 1975-01)"
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03); data/src/profiles.ts (Boeing profile from 1975-01)",
+    "cut": true
+  },
+  {
+    "month": "1980-01",
+    "title": "Boeing soars 29% as the Afghanistan invasion sends money into defence stocks",
+    "what": "Boeing shares rose 29% in January, far ahead of a market up 6%. Soviet troops entered Afghanistan on 25 December, and with American diplomats still held hostage in Tehran, President Carter told Congress on 23 January that any attempt by an outside power to seize the Persian Gulf would be repelled by force, and asked for military spending to rise 5% a year above inflation for five years. Investors turned to the arms makers: Boeing builds the B-52 bombers and Minuteman missiles the Air Force relies on, and its air-launched cruise missile is in a fly-off against a rival design.",
+    "why": "The one unexplained big month of the Boeing arc, now hung on the Carter Doctrine and the defence rally. The context (invasion date, the 23 January speech, the 5% pledge, the cruise-missile competition decided in March 1980) is sourced; that Boeing rose because of it is inferred from the timing and the sector move, not stated by a source read. Curator asked for this story.",
+    "assets": [
+      "ba"
+    ],
+    "move": {
+      "asset": "ba",
+      "pct": 29
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Carter_Doctrine (read 2026-10-03); https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War (read 2026-10-03); https://en.wikipedia.org/wiki/AGM-86_ALCM (read 2026-10-03); monthly price change from data/out/ba.json"
   },
   {
     "month": "1981-09",

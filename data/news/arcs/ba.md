@@ -16,7 +16,7 @@ The recovery of 2023 (+37%, helped by a 90-plane Emirates 777X order in November
 
 ## Best and worst moments
 
-- 1980-01: +29% (unexplained, see below).
+- 1980-01: +29%: the defence rally after the Soviet invasion of Afghanistan and the Carter Doctrine (beat added by the curator; causal link inferred from timing).
 - 1981: -49%, the worst calendar year.
 - 1982-08: +48%, the best month; 1982-10: +32%; best twelve months +195% from 1982-06 to 1983-06.
 - 1987-10: -24%, Black Monday.

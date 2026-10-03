@@ -1,48 +1,5 @@
 [
   {
-    "month": "1979-12",
-    "title": "Nestlé, the world's biggest food company, from Vevey",
-    "what": "Nestlé of Vevey on Lake Geneva is the largest food company in the world. It sells Nescafé, milk powder, baby food, chocolate and Maggi soups in almost every country, owns a large stake in the French cosmetics group L'Oréal (since 1974) and bought the American eye-care company Alcon in 1977. Foreigners may only buy its bearer share; the cheaper registered share is reserved for Swiss holders.",
-    "why": "The listing beat: a steady, global consumer business whose foreign earnings make the franc matter for its share price. The two share classes set up the big price event of November 1988.",
-    "assets": [
-      "nestle"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); data/manual/raw/nzz-notes-1987.md and data/src/nzz.ts header on the registered share trading at about half the bearer price (read 2026-10-03); data/src/profiles.ts"
-  },
-  {
-    "month": "1980-03",
-    "title": "Silver crash month: Swiss shares and the franc fall together",
-    "what": "March was a hard month for markets: the silver price collapsed to $10.80 an ounce on 27 March, down from over $50 in January, and the Hunt brothers could not meet their margin calls. American interest rates are very high and money is flowing into the dollar: a dollar bought 1.85 francs at the end of March against 1.70 a month earlier. Swiss shares fell, and in dollars they fell further.",
-    "why": "A two-layer lesson for the Swiss family: Nestlé fell about 8% in francs and the franc's 8% slide against the dollar doubled the loss in the game's dollar prices.",
-    "assets": [
-      "nestle",
-      "sandoz"
-    ],
-    "move": {
-      "asset": "nestle",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1980-04",
-    "title": "The franc bounces back",
-    "what": "The dollar gave back its March gains in April: it bought 1.67 francs at the end of the month, against 1.85 at the end of March, a rise of about 11% for the franc. Swiss shares also recovered some of their losses.",
-    "why": "The mirror image of March: most of Nestlé's 19% rise in dollars was the franc (about 11%); in francs the share rose about 7%.",
-    "assets": [
-      "nestle",
-      "sandoz"
-    ],
-    "move": {
-      "asset": "nestle",
-      "pct": 19
-    },
-    "importance": 3,
-    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
     "month": "1981-05",
     "title": "WHO adopts a code on baby milk; the Nestlé boycott goes on",
     "what": "The World Health Assembly adopted an International Code of Marketing of Breast-milk Substitutes by 118 votes to 1, with the United States voting against. Activist groups have boycotted Nestlé since July 1977, starting in Minneapolis, accusing it of pushing milk powder on mothers in poor countries where clean water is scarce.",

@@ -4,17 +4,25 @@
     "title": "Schlumberger, the darling of the oil boom",
     "what": "Schlumberger lowers instruments into oil wells to tell oil companies what lies underground, and drills and services wells around the world. From its listing in New York in 1962 its revenue has grown by more than a quarter a year, and in the 1970s its profits grew by about a third a year. Investors pay about 25 times earnings for the shares. In 1979 it paid 425 million dollars for Fairchild Camera and Instrument, a leading US chipmaker.",
     "why": "The listing beat and the arc's warning: bought at the top of the oil boom, at a growth-stock price, Schlumberger took sixteen years to get back to its 1980 peak and fell below it again in 2020.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 1,
-    "source": "https://blog.gorozen.com/blog/the-40-year-odyssey-of-schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (Fairchild price) (read 2026-10-03)"
+    "source": "https://blog.gorozen.com/blog/the-40-year-odyssey-of-schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (Fairchild price) (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1980-11",
     "title": "Schlumberger peaks among the world's most valuable companies",
     "what": "After Reagan's election, buying on Wall Street concentrated on oil and defence shares, and Schlumberger rose 20 percent in the month. With a market value of about 25 billion dollars, the oilfield-services company ranks fourth by market value behind AT&T, IBM and Exxon, valued at about 25 times its earnings and nearly eight times its book value.",
     "why": "The all-time peak of the first act. From here the shares lost about 60% by mid-1982 as drilling collapsed with the oil price.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 20 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 20
+    },
     "importance": 1,
     "source": "https://blog.gorozen.com/blog/the-40-year-odyssey-of-schlumberger (read 2026-10-03); https://www.upi.com/Archives/1980/11/15/Reagan-Market-a-reaction-based-on-hope/7599343112400/ (read 2026-10-03)"
   },
@@ -23,7 +31,9 @@
     "title": "An oil glut, and the oil-service darlings slide",
     "what": "The world has too much oil. Demand in the free world fell to about 47 million barrels a day in 1981 from 49.5 million in 1980, and in October OPEC cut its base price by 2 dollars to 34 dollars a barrel, the first cut since it was founded in 1960. Analysts are divided on whether the glut will last. Schlumberger's shares are down more than a third from their peak of November 1980.",
     "why": "The start of the long slide: a services company lives on its clients' drilling budgets, which follow the oil price with a lag. The shares fell another 35% by September 1982.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1982/01/01/Focus-82-Global-oil-glut-cuts-prices/3355378709200/ (read 2026-10-03); data/out/slb.json (share price versus November 1980)"
   },
@@ -32,7 +42,9 @@
     "title": "Record profit of 1.3 billion, but the shares have halved",
     "what": "Schlumberger earned a record of about 1.35 billion dollars in 1982 on sales of 6.3 billion, a profit margin of 21 percent; no company among the world's 1,000 largest earned more. Yet its shares trade at about half their 1980 peak, while the oil price is falling.",
     "why": "The paradox of the early 1980s: record earnings and a collapsing share price, because the market looks ahead. Profits peaked in 1982 and the 1986 loss followed.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (read 2026-10-03); data/out/slb.json (share price versus November 1980)"
   },
@@ -41,7 +53,9 @@
     "title": "Schlumberger buys the offshore driller Sedco",
     "what": "Sedco, an offshore drilling company, agreed in September to merge with Schlumberger, a deal valued at about 1 billion dollars. It adds drilling rigs at sea to Schlumberger's business of measuring what lies underground, next to its own drilling arm, Forex Neptune.",
     "why": "Schlumberger's big bet on offshore drilling, made after North Sea rig rates had peaked in 1981; it led to the 1986 write-offs and was finally spun off to Transocean in 1999.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1984/12/31/A-month-by-month-chronology-of-the-1984-stock-market-using/9393473317200/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (price) (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (Sedco Forex formed from Forex Neptune and Sedco) (read 2026-10-03); Schlumberger 1986 annual report (North Sea rig rates peaked in 1981), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
   },
@@ -50,7 +64,9 @@
     "title": "Jean Riboud, Schlumberger's chief for 20 years, dies",
     "what": "Jean Riboud, who ran Schlumberger as chairman and chief executive for two decades and turned it into one of the world's most valuable companies, died on 20 October at 65 after a long illness. Michel Vaillaud had taken over as chairman in September. Schlumberger's profits are falling with oil drilling.",
     "why": "The end of the founding era; his successor lasted barely a year.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Jean_Riboud (read 2026-10-03); https://www.upi.com/Archives/1986/10/02/Schlumberger-ousts-chairman/2096528609600/ (read 2026-10-03)"
   },
@@ -59,7 +75,9 @@
     "title": "Schlumberger ousts its chairman as the oil slump bites",
     "what": "On 2 October Schlumberger's board removed chairman Michel Vaillaud after about a year and elected Euan Baird, 49, as chairman, president and chief executive, the first non-Frenchman to run the company. First-half profit fell to 203 million dollars from 516 million. Oilfield services bring 65 percent of revenue, and 86 percent of 1985 profit came from the US and Canadian oilfields, where drilling has collapsed.",
     "why": "Baird ran the company until 2003 and refocused it on oilfield services; the clean-up started with the giant write-off three months later.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1986/10/02/Schlumberger-ousts-chairman/2096528609600/ (read 2026-10-03); https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03)"
   },
@@ -68,7 +86,9 @@
     "title": "Schlumberger loses 2 billion dollars, its first loss ever",
     "what": "Schlumberger's accounts for 1986 show a loss of 2.02 billion dollars, the first loss since it listed in 1962, after fourth-quarter charges of 1.74 billion, mainly writing off goodwill at Sedco Forex and Dowell Schlumberger and writing down drilling rigs. Excluding the charges and Fairchild, it earned 84 million. Oil fell from 24 dollars in January 1986 to as low as 7 in July; the number of active North American drilling rigs halved, and North Sea rig rates fell from 90,000 dollars a day in 1981 to 12,000.",
     "why": "The bottom of the first act: the oil-boom acquisitions written off. The share price recovered by 50% during 1987 until the crash.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 1,
     "source": "Schlumberger 1986 annual report, chairman's letter and financial highlights (auditors' report dated 12 February 1987), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
   },
@@ -77,7 +97,9 @@
     "title": "Fairchild sold to National Semiconductor for 122 million",
     "what": "Schlumberger sold its Fairchild Semiconductor business to National Semiconductor, announced on 31 August, for about 122 million dollars in National stock and warrants; one analyst called it a bargain-basement price. A plan to merge Fairchild with Fujitsu's chip business was called off in March after mounting criticism from the US government. Schlumberger paid 425 million for Fairchild in 1979, and the sale is reported to cost it a loss of about 220 million.",
     "why": "Closes the diversification mistake of the boom years; from now on Schlumberger is an oilfield company.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "https://www.upi.com/Archives/1987/08/31/National-Semiconductor-Corp-Monday-said-it-has-bought-rival/5063557380800/ (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (1979 price, reported loss) (read 2026-10-03); Schlumberger 1986 annual report, chairman's letter (Fujitsu deal ended 16 March 1987), https://investorcenter.slb.com/static-files/e7c50ea0-e56c-47f8-8877-7b7e04938ad9 (read 2026-10-03)"
   },
@@ -86,8 +108,13 @@
     "title": "The crash takes a quarter off Schlumberger",
     "what": "On 19 October the Dow Jones fell 22.6 percent in a day, its largest one-day percentage drop ever. Schlumberger, whose shares had risen by half this year, fell about a quarter in the month.",
     "why": "A market beat (the crash) that hit high-hopes stocks like Schlumberger harder than the market; it wiped out all of 1987's recovery.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -25 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -25
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/slb.json (1987 share price path)"
   },
@@ -96,7 +123,9 @@
     "title": "Schlumberger's profit doubles",
     "what": "Schlumberger's operating results for 1988 rose to 419 million dollars from 211 million, excluding one-off items. Operating income in oilfield services tripled as North American wireline returned to profit, though oil price weakness hurt activity in the second half. It raised its stake in the Norwegian seismic company GECO from 50 to 75 percent.",
     "why": "The slow recovery of the late 1980s; profits were still a third of the 1982 peak.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger 1988 annual report, chairman's letter dated 7 February 1989, https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
   },
@@ -105,7 +134,9 @@
     "title": "The Gulf oil spike fades before it reaches the oilfields",
     "what": "After Iraq invaded Kuwait in August, oil jumped to 42 dollars a barrel in early October, but it has fallen back to about 25. Analysts expect it to average less than 25 dollars in 1991 even if war breaks out, and Saudi Arabia has largely replaced the lost Iraqi and Kuwaiti oil. Schlumberger's shares, up by a third in the spring and summer of 1990, have given back much of the gain.",
     "why": "The Gulf crisis from the oilfield side: a price spike is not a drilling boom. The early 1990s were flat years for Schlumberger.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "https://www.upi.com/Archives/1991/01/10/The-year-1990-may-be-remembered-as-the-time/7067663483600/ (read 2026-10-03); data/out/slb.json"
   },
@@ -114,7 +145,9 @@
     "title": "A company of 51,000 people from 103 nations",
     "what": "Schlumberger, run from New York and Paris and listed in New York, now employs more than 51,000 people of more than 103 nationalities. Under Euan Baird it has sold Fairchild and concentrates on oilfield services, where it offers wireline logging, well testing, drilling and pumping services, seismic surveys and offshore drilling rigs, alongside a business making meters and measuring equipment.",
     "why": "A portrait beat for the quiet early 1990s, when the shares moved sideways with a flat oil price.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03); Schlumberger 1988 annual report (business lines), https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
   },
@@ -123,7 +156,9 @@
     "title": "Schlumberger takes full control of Dowell",
     "what": "This year Schlumberger bought Dow Chemical's half of Dowell Schlumberger, their joint pumping and well-cementing business, for about 800 million dollars in cash and warrants. Schlumberger earned 335 million dollars in 1993 after a charge for retiree benefits.",
     "why": "Builds the oilfield-services core that drove the late-1990s boom. The month of the deal could not be confirmed; the beat sits at the year end.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data, https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03)"
   },
@@ -132,7 +167,9 @@
     "title": "Profits fall for a second year",
     "what": "Schlumberger's accounts for 1994 show net income of 536 million dollars on revenue of 6.7 billion, down 8 percent from the year before, after a 12 percent fall in 1993. US crude averaged less than 20 dollars a barrel in every month of 1994.",
     "why": "The bottom of the quiet years: from here profits rose for three years in a row and the shares more than tripled by 1997. The month is the usual date of the annual report, not confirmed.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (1994 revenue and net income) (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data (yearly changes), https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
   },
@@ -141,7 +178,9 @@
     "title": "Profit up 31 percent, and a bet on smart cards",
     "what": "Schlumberger's annual report for 1996 shows net income of 851 million dollars, up 31 percent, after 649 million in 1995. Besides its oilfield businesses it is growing in smart cards and meters: on 31 December it bought Solaic, a French maker of magnetic and smart cards, for 75 million dollars.",
     "why": "The deepwater and international upturn had begun; the shares rose about 45% in 1996, passing their 1980 peak for the first time.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger Form 10-K405 for 1996, filed 31 March 1997, https://www.sec.gov/Archives/edgar/data/87347/0000950130-97-001348.txt (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data, https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03)"
   },
@@ -150,8 +189,13 @@
     "title": "Oil at 13 dollars and a market panic: Schlumberger loses 28 percent",
     "what": "US crude closed August at about 13 dollars a barrel, down from 17 at the start of the year, and the S&P 500 fell about 15 percent in the month. Schlumberger's shares fell 28 percent in August and are down about half from their 1997 high. On 31 August it completed the purchase of Camco International, a maker of production equipment such as pumps, agreed in June for 1.18 Schlumberger shares per Camco share (a deal valued at about 2.2 billion dollars).",
     "why": "The 1998 oil crash from the services side: oilfield activity slowed in the third quarter and reversed in the fourth, and Schlumberger took a 444 million dollar charge. The shares doubled again in 1999-2000.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -28 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -28
+    },
     "importance": 1,
     "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); Schlumberger Form 8-K of 15 September 1998 (Camco closing), https://www.sec.gov/Archives/edgar/data/87347/0000899243-98-001962.txt (read 2026-10-03); Schlumberger Form 8-K of 26 June 1998 (Camco terms), https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-003333.txt (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (Camco value) (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md; Schlumberger Form 10-K for 1998 (activity and charge, for the why), https://www.sec.gov/Archives/edgar/data/87347/0000950130-99-001807.txt (read 2026-10-03)"
   },
@@ -160,7 +204,9 @@
     "title": "Schlumberger to hand its drilling rigs to Transocean",
     "what": "On 12 July Schlumberger agreed to spin off Sedco Forex, its offshore and land drilling business, to its shareholders and merge it with the offshore driller Transocean, a 3.2 billion dollar share deal. Shareholders will receive Sedco Forex shares that become shares of the combined company, Transocean Sedco Forex.",
     "why": "Schlumberger exits the capital-heavy rig business at the bottom of the cycle and keeps the technology services. Sedco Forex had earned 342 million of Schlumberger's 1.01 billion net income in 1998 (pro forma figures published January 2000). Transocean went on to own the Deepwater Horizon.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger Form 8-K of 10 January 2000 (merger agreement dated 12 July 1999; pro forma figures), https://www.sec.gov/Archives/edgar/data/87347/0000899243-00-000031.txt (read 2026-10-03); https://en.wikipedia.org/wiki/Transocean (read 2026-10-03)"
   },
@@ -169,7 +215,9 @@
     "title": "The Sedco Forex spin-off is done",
     "what": "Shareholders approved the spin-off on 10 December. On 30 December every Schlumberger shareholder received one Sedco Forex share for each Schlumberger share held on 20 December, and on 31 December Sedco Forex merged into Transocean, creating Transocean Sedco Forex, one of the largest offshore drillers. Schlumberger's own share price falls by the value of what was handed out.",
     "why": "Spin-off month (folded into the price history in the game). Schlumberger is now a pure oilfield services and technology company, plus its smart-card and IT businesses.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 1,
     "source": "Schlumberger Form 8-K of 10 January 2000, https://www.sec.gov/Archives/edgar/data/87347/0000899243-00-000031.txt (read 2026-10-03); https://en.wikipedia.org/wiki/Transocean (read 2026-10-03)"
   },
@@ -178,8 +226,13 @@
     "title": "Schlumberger bets 5 billion dollars on information technology",
     "what": "On 12 February Schlumberger offered 560 pence in cash a share, an 18 percent premium, for Sema plc, a British-French IT services company, valuing it at about 5.2 billion dollars. It dwarfs its earlier purchases, such as the 2.2 billion dollar Camco deal of 1998. Its shares fell 17 percent this month.",
     "why": "The second diversification mistake, made at the top of the tech bubble: written down by 2.9 billion within two years and sold for 1.5 billion.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -17 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -17
+    },
     "importance": 1,
     "source": "Schlumberger Form 8-K of 16 February 2001, https://www.sec.gov/Archives/edgar/data/87347/0000950109-01-000426.txt (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (5.2 billion) (read 2026-10-03)"
   },
@@ -188,7 +241,9 @@
     "title": "A 2.9 billion dollar write-off on SchlumbergerSema",
     "what": "On 10 December Schlumberger said it would take after-tax charges of 2.885 billion dollars, mostly writing off goodwill on the Sema purchase, and cut 1,600 jobs at SchlumbergerSema. Its seismic venture WesternGeco is cutting 1,700 jobs and closing its North American land crews. The IT unit will focus on the energy industry.",
     "why": "Admits the Sema mistake; 2002 ended with a net loss of 2.32 billion. The shares were at their lowest since 1998.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger press release of 10 December 2002 (Form 8-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/87347/000095013002008377/dex991.htm (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (2002 loss) (read 2026-10-03)"
   },
@@ -197,7 +252,9 @@
     "title": "Schlumberger sells most of Sema to Atos Origin",
     "what": "On 22 September Schlumberger agreed to sell most of SchlumbergerSema to the French IT company Atos Origin for about 1.5 billion dollars: 400 million euros in cash and 19.3 million Atos shares, about 29 percent of the company. The company, led since February by chief executive Andrew Gould, says the sale strengthens its focus on oilfield services.",
     "why": "The retreat completes the turn to pure oilfield services under Gould, in time for the 2004-08 oil boom.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger press release of 22 September 2003 (Form 8-K), https://www.sec.gov/Archives/edgar/data/87347/000119312503052106/ (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Gould_(businessman) (read 2026-10-03)"
   },
@@ -206,7 +263,9 @@
     "title": "Back to growth: profit up 45 percent",
     "what": "Schlumberger reported on 25 January that its 2004 revenue rose to 11.48 billion dollars from 10.02 billion, and that income from continuing operations before one-off items was 1.21 billion, 45 percent more than in 2003. It raised its dividend.",
     "why": "The oil boom reaches the service companies; the shares more than doubled between early 2003 and the end of 2005.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger press release of 25 January 2005, https://www.sec.gov/Archives/edgar/data/87347/000119312505010894/dex991.htm (read 2026-10-03)"
   },
@@ -215,8 +274,13 @@
     "title": "Record profit, a share split and a bigger dividend",
     "what": "On 19 January Schlumberger announced a two-for-one share split and raised its dividend by 19 percent. A day later it reported 2005 net income of 2.21 billion dollars, up 78 percent per share, and record oilfield revenue. Chief executive Andrew Gould expects exploration to 'show a large increase in 2006' and to continue for years, with shortages of people and equipment across the industry.",
     "why": "Schlumberger's best month of the game until 2020 (+31%): the market bought the super-cycle story. The shares kept rising until mid-2008.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 31 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 31
+    },
     "importance": 1,
     "source": "Schlumberger press release of 19 January 2006, https://www.sec.gov/Archives/edgar/data/87347/000119312506008573/dex991.htm (read 2026-10-03); Schlumberger press release of 20 January 2006, https://www.sec.gov/Archives/edgar/data/87347/000119312506008958/dex991.htm (read 2026-10-03)"
   },
@@ -225,8 +289,13 @@
     "title": "Margins disappoint and the shares drop 23 percent",
     "what": "Schlumberger reported on 18 January that its 2007 revenue rose 21 percent to 23.28 billion dollars, but called its fourth-quarter margins 'less than satisfactory' because of lower prices on US land and bad weather. Chief executive Andrew Gould says only a global recession that lowers demand could flatten the growth trend. Stock markets fell sharply in January.",
     "why": "A warning shot: the shares fell 23% and then rebounded to a new high by June, before the real crash in the autumn.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -23 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -23
+    },
     "importance": 3,
     "source": "Schlumberger press release of 18 January 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508008380/dex991.htm (read 2026-10-03); data/reference/sp500.json (S&P 500 month)"
   },
@@ -235,8 +304,13 @@
     "title": "Credit crisis and falling oil: Schlumberger loses a third",
     "what": "US crude fell from about 101 dollars at the end of September to 68 at the end of October, and stock markets crashed as the credit crisis spread. On 17 October Schlumberger reported record third-quarter profit of 1.53 billion dollars, but warned that the rapid deterioration in credit markets will hit activity, and that some North American gas customers are already cutting spending.",
     "why": "Schlumberger's worst month until 2020 (-34%); the shares fell about 60% from June to December 2008.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -34 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -34
+    },
     "importance": 1,
     "source": "Schlumberger press release of 17 October 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508211885/dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
@@ -245,7 +319,9 @@
     "title": "Schlumberger buys Smith International for 11 billion dollars",
     "what": "On 21 February Schlumberger agreed to buy Smith International, a maker of drill bits and drilling fluids, in an all-share deal: 0.6966 Schlumberger shares per Smith share, a 37.5 percent premium, valuing the deal at about 11.3 billion dollars.",
     "why": "The first of the 2010s mega-deals that made Schlumberger a one-stop shop for drilling; completed in August 2010.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger and Smith press release of 21 February 2010, https://www.sec.gov/Archives/edgar/data/87347/000119312510035707/dex991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value, completion) (read 2026-10-03)"
   },
@@ -254,7 +330,9 @@
     "title": "Andrew Gould retires; Paal Kibsgaard takes over",
     "what": "On 21 July Schlumberger said Andrew Gould would retire as chief executive on 1 August and stay chairman until April 2012. He will be succeeded by Paal Kibsgaard, the chief operating officer, who has worked for the company for more than 14 years in the Middle East, Europe and the United States.",
     "why": "Kibsgaard led the company through the 2014 peak and the bust that followed, and the Cameron deal.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger press release of 21 July 2011, https://www.sec.gov/Archives/edgar/data/87347/000095012311067035/ (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Gould_(businessman) (read 2026-10-03)"
   },
@@ -263,7 +341,9 @@
     "title": "Revenue passes 42 billion dollars",
     "what": "Schlumberger reported on 18 January that its 2012 revenue rose to 42.15 billion dollars from 36.96 billion, and that income from continuing operations, excluding one-off items, was 5.58 billion dollars, or 4.17 dollars a share against 3.61 in 2011. US crude averaged between 82 and 106 dollars a barrel in every month of 2012.",
     "why": "The plateau of the 2010s boom: the shares rose 13% this month and reached their all-time high in June 2014, a year before the bust.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger press release of 18 January 2013, https://www.sec.gov/Archives/edgar/data/87347/000119312513016649/d469041dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
   },
@@ -272,7 +352,9 @@
     "title": "Oil halves; Schlumberger cuts jobs but raises its dividend",
     "what": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.27 dollars a share for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
     "why": "The start of the worst stretch of the game: -89% from June 2014 to March 2020. Schlumberger cut more than 20,000 jobs in 2015.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 1,
     "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)"
   },
@@ -281,7 +363,9 @@
     "title": "Schlumberger buys Cameron for 14.8 billion dollars",
     "what": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, for 0.716 Schlumberger shares plus 14.44 dollars in cash per Cameron share, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
     "why": "Buying in the bust, at a low price, to sell complete drilling and production systems; much of the value was written off in 2019.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger and Cameron press release of 26 August 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515302267/d86257dex991.htm (read 2026-10-03)"
   },
@@ -290,7 +374,9 @@
     "title": "Cameron deal closes in the depth of the bust",
     "what": "On 1 April Schlumberger completed its purchase of Cameron, issuing about 138 million new shares plus 14.44 dollars in cash per Cameron share. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
     "why": "Just after the low of the 2014-16 bust for oil; the shares recovered in 2016 and then drifted down from 2017.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger press release of 1 April 2016, https://www.sec.gov/Archives/edgar/data/87347/000119312516528742/d172441dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)"
   },
@@ -299,7 +385,9 @@
     "title": "US fracking boom lifts revenue, write-offs hit profit",
     "what": "Schlumberger reported on 19 January that its 2017 revenue rose 9 percent to 30.4 billion dollars, with a full year of Cameron. Its North American land activity grew 82 percent, in line with the rig count. Fourth-quarter charges of 2.11 dollars a share turned the quarter into a loss. US crude averaged more than 60 dollars in January, the highest monthly average since 2014.",
     "why": "The last good month before the long slide: the shares rose 9% in January 2018 and then fell about 80% to the March 2020 low.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 3,
     "source": "Schlumberger press release of 19 January 2018, https://www.sec.gov/Archives/edgar/data/87347/000119312518013992/d504704dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
   },
@@ -308,7 +396,9 @@
     "title": "New boss, 11 billion dollar loss",
     "what": "Olivier Le Peuch, who became chief executive on 1 August in place of Paal Kibsgaard, reported on 18 October a third-quarter net loss of 11.38 billion dollars after charges of 8.65 dollars a share. Excluding charges, earnings per share rose 23 percent from the second quarter.",
     "why": "A reset under a new chief executive, five months before the pandemic.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "Schlumberger press release of 18 October 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/ (read 2026-10-03); Schlumberger press release of 19 July 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519197816/ (read 2026-10-03)"
   },
@@ -317,8 +407,13 @@
     "title": "Price war and pandemic: Schlumberger halves in a month",
     "what": "On 6 March Russia refused OPEC's proposal to cut output; Saudi Arabia answered on 8 March with discounts and more production, and Brent crude fell 30 percent. With the pandemic shutting down economies, US crude closed March at about 20 dollars, from 45 a month earlier.",
     "why": "Schlumberger's worst month in the game (-50%) and the bottom of an 89% fall from 2014: below its 1980 peak in nominal terms, forty years later.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": -50 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": -50
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
@@ -327,8 +422,13 @@
     "title": "Schlumberger cuts its dividend by 75 percent",
     "what": "On 9 April Saudi Arabia and Russia agreed to cut output by about 10 million barrels a day; on 20 April US crude briefly fell to minus 37 dollars. On 17 April Schlumberger cut its quarterly dividend by 75 percent to 12.5 cents and took an 8.5 billion dollar charge, mostly writing down goodwill after the collapse in market values in March. Stock markets rebounded strongly from their lows.",
     "why": "The rebound month (+25%) despite a 75 percent dividend cut: the market had priced in worse.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 25 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 25
+    },
     "importance": 1,
     "source": "Schlumberger press release of 17 April 2020, https://www.sec.gov/Archives/edgar/data/87347/000119312520109899/ (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)"
   },
@@ -337,8 +437,13 @@
     "title": "A vaccine sends oilfield shares soaring",
     "what": "On 9 November Pfizer and BioNTech said their Covid vaccine was more than 90 percent effective in its first analysis. Shares hit hardest by the pandemic jumped; US crude rose from about 36 to 45 dollars during the month. Schlumberger rose almost 40 percent from its lowest month-end price since the mid-1990s.",
     "why": "The turn of the 2020 cycle: +39% in a month, the start of a doubling within a year.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 39 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 39
+    },
     "importance": 2,
     "source": "Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/out/slb.json"
   },
@@ -347,8 +452,13 @@
     "title": "Oil above 60 dollars lifts the drillers' suppliers",
     "what": "US crude passed 60 dollars a barrel in February for the first time in more than a year, closing the month at about 62, up from 52.",
     "why": "+26% this month, the second leg of the recovery.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 26 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 26
+    },
     "importance": 2,
     "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
@@ -357,8 +467,13 @@
     "title": "Schlumberger sees a new 'supercycle'",
     "what": "On 21 January Schlumberger reported 2021 earnings per share up 88 percent excluding charges and 3.0 billion dollars of free cash flow. Chief executive Olivier Le Peuch said conditions are strikingly similar to the last industry supercycle and expects an exceptional multiyear growth cycle. US crude rose from about 75 to 89 dollars during January, while the S&P 500 fell about 5 percent.",
     "why": "+30% this month: the market believed the supercycle story. It was half right: the shares rose by half again by mid-2023, then faded.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 30 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 30
+    },
     "importance": 2,
     "source": "Schlumberger press release of 21 January 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522014338/d270822dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md"
   },
@@ -367,8 +482,13 @@
     "title": "Strong quarter, new name: Schlumberger becomes SLB",
     "what": "On 21 October Schlumberger reported third-quarter revenue up 28 percent and earnings per share up 75 percent excluding charges, with international revenue above its 2019 level although rig counts are still about 25 percent lower. By 1 November the company was presenting itself under a new short name, SLB. US crude rose from about 80 to 87 dollars in October.",
     "why": "+45%, Schlumberger's best month in the game: the international and offshore recovery it had bet on arrived. The game keeps the name Schlumberger.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 45 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 45
+    },
     "importance": 1,
     "source": "Schlumberger press release of 21 October 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522266331/d387926dex99.htm (read 2026-10-03); SLB press release of 1 November 2022 (signed 'SLB'), https://www.sec.gov/Archives/edgar/data/87347/000119312522275055/d404523dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
@@ -377,7 +497,9 @@
     "title": "SLB agrees to buy ChampionX",
     "what": "On 2 April SLB agreed to buy ChampionX, a maker of production chemicals and artificial-lift pumps that keep old wells flowing, in an all-share deal: 0.735 SLB shares per ChampionX share, about 7.75 billion dollars. ChampionX owners will hold about 9 percent of SLB. SLB also raised its target for returns to shareholders to 3 billion dollars this year and 4 billion in 2025.",
     "why": "The bet on producing more from existing wells rather than drilling new ones; closed in July 2025.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "SLB and ChampionX press release of 2 April 2024, https://www.sec.gov/Archives/edgar/data/87347/000119312524084191/ (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value) (read 2026-10-03); SLB Form 8-K of 16 July 2025 (closing), https://www.sec.gov/Archives/edgar/data/87347/000119312525159859/ (read 2026-10-03)"
   },
@@ -386,8 +508,13 @@
     "title": "SLB says the worst is over",
     "what": "On 23 January SLB reported fourth-quarter revenue up 9 percent from the third quarter and raised its dividend by 3.5 percent, with more than 4 billion dollars to be returned to shareholders in 2026. Chief executive Olivier Le Peuch said the headwinds of 2025 are behind it and expects more drilling in the Middle East. Oil rose from about 57 to 65 dollars during January, after the US capture of Venezuela's president on 3 January opened talk of rebuilding Venezuela's oil industry, and as unrest in Iran threatened supply.",
     "why": "+26% this month, the end of a two-year slide. SLB's growth case was the Middle East, which the Iran war would disrupt a month later.",
-    "assets": ["slb"],
-    "move": { "asset": "slb", "pct": 26 },
+    "assets": [
+      "slb"
+    ],
+    "move": {
+      "asset": "slb",
+      "pct": 26
+    },
     "importance": 2,
     "source": "SLB press release of 23 January 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526020133/d59412dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03)"
   },
@@ -396,7 +523,9 @@
     "title": "War in the Gulf: SLB pulls crews out of the Middle East",
     "what": "After US and Israeli strikes on Iran began on 28 February and Iran closed the Strait of Hormuz, SLB said on 11 March that it had suspended travel in the region and begun to demobilise operations in a few countries as customers protect staff and facilities. First-quarter revenue will be lower than expected, costing about 6 to 9 cents a share. Oil has passed 100 dollars.",
     "why": "The war cut both ways for SLB: lost work in its most important region now, but, as Le Peuch argued in April, more drilling elsewhere later. The shares were flat in March and rose 11% in April.",
-    "assets": ["slb"],
+    "assets": [
+      "slb"
+    ],
     "importance": 2,
     "source": "SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)"
   }

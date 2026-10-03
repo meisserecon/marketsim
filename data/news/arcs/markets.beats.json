@@ -1,22 +1,17 @@
 [
   {
-    "month": "1979-12",
-    "title": "Wall Street ends the 1970s fighting inflation",
-    "what": "The S&P 500 index of 500 big American companies closed 1979 at 107.94, up 12% on the year. Inflation reached 11 percent in June, and Paul Volcker, chairman of the Federal Reserve since August, has switched the central bank to restraining the growth of money even if interest rates must rise steeply. Shares compete with savings accounts and bonds that pay double-digit interest.",
-    "why": "The starting point of the game: a decade of flat shares and high inflation. The Volcker squeeze that follows sets up the 1980-82 bear market and the great bull market that starts in August 1982.",
-    "assets": [],
-    "importance": 2,
-    "source": "data/reference/sp500.json; https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
-  },
-  {
     "month": "1980-03",
     "title": "Credit controls and the silver crash knock shares down 10 percent",
     "what": "On 14 March President Carter announced the first credit controls since the Second World War, with limits on lending, credit cards and instalment loans, as inflation and short-term interest rates both stood near 18 percent. On 27 March the silver market collapsed: silver fell to 10.80 dollars an ounce from over 50 in January after the Hunt brothers could no longer meet calls on their borrowed position, and trading in the shares of their broker Bache was suspended. The S&P 500 ended March at 102.09, down 10% in the month.",
     "why": "The low point of the 1980 recession scare and the first big market month of the game. The Fed soon eased, and shares recovered all of it by the summer.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -10 },
+    "move": {
+      "asset": "sp500",
+      "pct": -10
+    },
     "importance": 1,
-    "source": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_review/1990/pdf/er760603.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_review/1990/pdf/er760603.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1980-11",
@@ -24,7 +19,10 @@
     "what": "Shares jumped after Ronald Reagan won the presidential election on 4 November. About two weeks after the vote the Dow Jones average closed above 1,000 for the first time since the end of 1976, and on 20 November the S&P 500 closed at a record 140.40. The S&P 500 gained 10% in November, to 140.52.",
     "why": "Investors bet on Reagan's tax cuts and a friendlier climate for business. The rally peaked within months, because the Fed was about to push interest rates to record highs.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 10 },
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
     "importance": 2,
     "source": "https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -52,7 +50,10 @@
     "what": "After the Dow hit a 27-month low of 776.92 on 12 August, the Federal Reserve cut its discount rate and the market turned. On 17 August Henry Kaufman of Salomon Brothers, long a pessimist, predicted that interest rates would fall to single digits within a year; the Dow jumped 39 points, its biggest one-day gain ever, and the next day more than 100 million shares traded for the first time. The prime rate fell to 14 percent, its lowest in 21 months, and the S&P 500 rose 12% in August to 119.51.",
     "why": "The bottom of the 1980-82 bear market and the start of an 18-year bull market, the defining turn of the 1980s. A player who buys here does very well.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 12 },
+    "move": {
+      "asset": "sp500",
+      "pct": 12
+    },
     "importance": 1,
     "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); data/reference/sp500.json"
   },
@@ -62,7 +63,10 @@
     "what": "The rally that began in August gathered pace in October. The Federal Reserve has let its key rate fall back to about 9 percent from close to 20 percent in 1981, and inflation is down to about 5 percent. The S&P 500 rose 11% in the month to 133.72, 25% above where it stood at the end of July, although unemployment has passed 10 percent for the first time since 1941.",
     "why": "Shows the rule that markets turn before the economy: the recession ended only in November 1982 and unemployment peaked in December.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 11 },
+    "move": {
+      "asset": "sp500",
+      "pct": 11
+    },
     "importance": 2,
     "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.upi.com/Archives/1982/12/31/Stocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/6401410158800/ (read 2026-10-03); data/reference/sp500.json"
   },
@@ -90,7 +94,10 @@
     "what": "Interest rates fell sharply over the summer, with yields on bonds down about 5/8 to 3/4 of a percentage point since mid-July, as the economy's expansion turned out slower than expected. Shares jumped with bonds: the S&P 500 rose 11% in August to 166.68. Earlier in the summer the Fed chairman, Paul Volcker, and the head of the SEC, John Shad, warned about the mountains of debt being piled up in takeovers.",
     "why": "One of the biggest months of the decade, driven by falling rates. The takeover warning is the first sign of the leveraged buyout boom that defines the late 1980s.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 11 },
+    "move": {
+      "asset": "sp500",
+      "pct": 11
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19840821.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Leveraged_buyout (read 2026-10-03); data/reference/sp500.json"
   },
@@ -118,7 +125,10 @@
     "what": "Shares fell sharply in September as long-term interest rates rose: yields on Treasury bonds climbed as much as 0.6 percentage point in a few weeks, although the Federal Reserve had cut its discount rate in August. Germany and Japan did not follow the American rate cut, raising worries about the dollar. The S&P 500 lost 9% in the month to 231.32, its worst month since March 1980.",
     "why": "A warning shot a year before the 1987 crash: the same mix of rising bond yields and dollar worries returned in October 1987.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19860923.pdf (read 2026-10-03); data/reference/sp500.json"
   },
@@ -146,7 +156,10 @@
     "what": "The Dow Jones average closed above 2,000 for the first time on 8 January, and shares kept climbing all month to new highs. The S&P 500 rose 13% in January to 274.08, its biggest monthly gain since at least 1975.",
     "why": "The start of the speculative run-up of 1987: by August the S&P 500 was up another 23%, and in October it all came down.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 13 },
+    "move": {
+      "asset": "sp500",
+      "pct": 13
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19870211.pdf (read 2026-10-03); data/reference/sp500.json"
   },
@@ -165,7 +178,10 @@
     "what": "After a bad trade deficit report on 14 October pushed interest rates up, shares fell 9% in a week; then on Monday 19 October the Dow plunged 508 points or 22.6% and the S&P 500 20.5%, the largest one-day falls in their history. Blamed are the dollar and the trade deficit, rising interest rates, a public row between Treasury Secretary Baker and Germany over the dollar, a bill to curb tax breaks for takeovers, and 'portfolio insurance' programs that sold automatically as prices fell. On 20 October the Fed said it stood ready to supply cash to the financial system; markets around the world crashed too, and the S&P 500 ended October down 22% at 251.79.",
     "why": "The defining crash of the game's early years. It is also the lesson that buying after a crash paid: the market was higher two years later.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -22 },
+    "move": {
+      "asset": "sp500",
+      "pct": -22
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json"
   },
@@ -175,7 +191,10 @@
     "what": "Markets stayed unsettled after the October crash, with wide price swings and flights to safety. The dollar fell about 5% against the other big currencies, and the S&P 500 lost another 9% in November to 230.30, about 32% below its August record.",
     "why": "The real low of the 1987 bear market; from here the recovery began, slowly.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/reference/sp500.json"
   },
@@ -203,7 +222,10 @@
     "what": "The S&P 500 rose 9% in July to 346.08, and on 26 July it closed above its August 1987 record of 336.77 for the first time since the crash. Interest rates have fallen since the spring, and the Dow closed above 2,600 on 21 July.",
     "why": "The full recovery from Black Monday, less than two years later.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19890822.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/1989_in_the_United_States (read 2026-10-03); data/reference/sp500.json"
   },
@@ -231,7 +253,10 @@
     "what": "Early in May the government reported weaker-than-expected employment for April, and interest rates dropped as investors expected the Fed to ease. Shares rallied strongly: the S&P 500 rose 9% in May to 361.23, close to a record.",
     "why": "The last high before the 1990 recession and the Gulf crisis.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 3,
     "source": "https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900703.pdf (read 2026-10-03); data/reference/sp500.json"
   },
@@ -241,7 +266,10 @@
     "what": "Iraq invaded Kuwait on 2 August; oil prices jumped and markets around the world fell. The rise in energy prices pushed long-term interest rates up, and share prices, which had set records in July, fell substantially. The S&P 500 lost 9% in August to 322.56.",
     "why": "The market's reaction to the Gulf crisis (the cause is told in the Middle East and oil arcs). It tipped a weak economy into recession.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 1,
     "source": "https://www.upi.com/Archives/1990/08/02/Invasion-of-Kuwait-churns-international-markets/2008649569600 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19900821.pdf (read 2026-10-03); data/reference/sp500.json"
   },
@@ -260,7 +288,10 @@
     "what": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets.",
     "why": "A year-end burst and the start of the 1990s bull market proper; the year's big gain came despite a weak economy.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 11 },
+    "move": {
+      "asset": "sp500",
+      "pct": 11
+    },
     "importance": 2,
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json"
   },
@@ -315,7 +346,10 @@
     "what": "The Dow Jones average closed above 8,000 for the first time on 16 July, only five months after passing 7,000. Investors judged that the outlook for inflation had improved and that the Federal Reserve was less likely to raise interest rates. The S&P 500 rose 8% in July to 954.31.",
     "why": "The boom at full speed, weeks after the Asian currency crisis began in Thailand.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/19970819.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -343,7 +377,10 @@
     "what": "On 17 August Russia devalued the rouble, defaulted on its domestic debt and stopped paying foreign creditors. The turmoil in world markets, already shaken by the Asian crisis, spilled into the United States: investors fled to Treasury bonds, and share prices, already weak before the default, fell much further. The S&P 500 lost 15% in August to 957.28, its worst month since the 1987 crash.",
     "why": "The second-biggest fall of the game's first two decades. The cause is told in the Asia and world arcs; the market story is the hedge fund that nearly went under next month.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -15 },
+    "move": {
+      "asset": "sp500",
+      "pct": -15
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/1998_Russian_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/19980929.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -353,7 +390,10 @@
     "what": "Long-Term Capital Management, a large hedge fund in Connecticut, lost 44 percent of its money in August and was near collapse with positions worth over 100 billion dollars. On 23 September fourteen banks and brokers, brought together by the New York Fed, put in 3.6 billion dollars and took 90 percent of the fund, fearing that a forced sale of its positions would disrupt markets worldwide. On 29 September the Fed cut its key interest rate. The S&P 500 recovered 6% in the month.",
     "why": "The near-miss that foreshadowed 2008: borrowed money, crowded trades, and a rescue organized by the Fed.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 6 },
+    "move": {
+      "asset": "sp500",
+      "pct": 6
+    },
     "importance": 1,
     "source": "https://www.federalreservehistory.org/essays/ltcm-near-failure (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://en.wikipedia.org/wiki/1998_in_the_United_States (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/19980929.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -363,7 +403,10 @@
     "what": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67.",
     "why": "The Fed's three cuts in autumn 1998 ended the panic and fuelled the final, wildest phase of the dot-com boom.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -400,7 +443,10 @@
     "what": "The Nasdaq index closed at a record 5,048.62 on 10 March, and the S&P 500 rose 10% in March, closing above 1,500 for the first time on 22 March and reaching its peak on 24 March. Fed officials worry that the high valuations of many technology shares could see a sizable correction, as the market grows more volatile.",
     "why": "The top of the dot-com bubble. The S&P 500 did not close above this level for seven years, the Nasdaq for fifteen.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 10 },
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20000321.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -410,7 +456,10 @@
     "what": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
     "why": "The bust taking hold: the Nasdaq's fall was spreading to the broad market.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -8 },
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); data/reference/sp500.json"
   },
@@ -429,7 +478,10 @@
     "what": "A steady flow of disappointing company earnings reports sent shares sharply lower in February, with the technology-heavy Nasdaq falling hardest, and consumer confidence dropped. The Federal Reserve had already cut its key rate twice in January, including a surprise move on 3 January. The S&P 500 lost 9% in the month to 1,239.94.",
     "why": "The bear market deepening as the economy slid toward the 2001 recession.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
   },
@@ -439,7 +491,10 @@
     "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46.",
     "why": "A bear-market rally; the low was still eighteen months away.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 3,
     "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
   },
@@ -449,7 +504,10 @@
     "what": "The New York Stock Exchange stayed closed after the terrorist attacks of 11 September and reopened only on 17 September, its longest closure since the Great Depression. That day the Fed cut its key rate to 3 percent, and the Dow fell 684.81 points or 7.1%; shares kept falling in volatile trading as business and consumer confidence collapsed. The S&P 500 lost 8% in September to 1,040.94.",
     "why": "The market's reaction to 9/11; part of the losses were recovered within weeks.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -8 },
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -459,7 +517,10 @@
     "what": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September.",
     "why": "The post-9/11 recovery; it fizzled in 2002 as accounting scandals spread.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 3,
     "source": "https://www.federalreserve.gov/fomc/minutes/20011211.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
   },
@@ -477,8 +538,13 @@
     "title": "WorldCom's collapse caps a month of accounting scandals",
     "what": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62.",
     "why": "The crisis of trust that turned the bust into a three-year bear market.",
-    "assets": ["worldcom"],
-    "move": { "asset": "sp500", "pct": -8 },
+    "assets": [
+      "worldcom"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -488,7 +554,10 @@
     "what": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28.",
     "why": "The final leg down of the 2000-02 bear market.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -11 },
+    "move": {
+      "asset": "sp500",
+      "pct": -11
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -498,7 +567,10 @@
     "what": "On 7 October the S&P 500 closed at 785.28, its lowest since 1997, and by 9 October the Dow was below 7,200 and the Nasdaq just above 1,100, down almost 80% from its 2000 peak; the S&P 500 had lost about half its value. Then better-than-expected profit reports from several big companies lifted shares, and the S&P 500 ended October up 9% at 885.76.",
     "why": "The bottom of the 2000-02 bear market (the March 2003 retest held above it). The start of the 2003-07 bull market.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -517,7 +589,10 @@
     "what": "American troops took Baghdad on 9 April, and the quick war reduced the uncertainty that had hung over markets for months; oil prices fell sharply. Better-than-expected company earnings added to the relief, and the S&P 500 rose 8% in April to 916.92.",
     "why": "The market's reaction to the Iraq war (told in the Middle East arc); the new bull market was underway.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -590,7 +665,10 @@
     "what": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
     "why": "The Fed fighting the crisis early; markets read it as a sign of how bad things were.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -6 },
+    "move": {
+      "asset": "sp500",
+      "pct": -6
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
   },
@@ -609,7 +687,10 @@
     "what": "Oil jumped nearly 11 dollars on 6 June to a record 138.54 dollars a barrel, raising fears of inflation and recession at once. Banks kept reporting mortgage losses: Wachovia, the fourth-largest American bank, ousted its chief executive on 2 June, and General Motors announced plant closures and 10,000 job cuts. The S&P 500 lost 9% in June to 1,280.00.",
     "why": "The squeeze between oil (told in the oil arc) and the banks; the worst was three months away.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Portal:Current_events/June_2008 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -618,8 +699,13 @@
     "title": "Lehman Brothers goes bankrupt; AIG is taken over",
     "what": "After the government took over the mortgage giants Fannie Mae and Freddie Mac on 7 September, Lehman Brothers filed for bankruptcy on 15 September, the largest bankruptcy in American history, and Merrill Lynch agreed to be bought by Bank of America; the Dow fell 504 points that day. On 16 September the Fed took control of the insurer AIG with an 85 billion dollar loan, and a money market fund holding Lehman debt 'broke the buck', setting off a run of 144 billion dollars on such funds. Goldman Sachs and Morgan Stanley became banks, Berkshire Hathaway invested 5 billion in Goldman, and Washington Mutual was seized on 26 September.",
     "why": "The heart of the 2008 crisis. Letting Lehman fail turned a credit crisis into a global panic.",
-    "assets": ["lehman"],
-    "move": { "asset": "sp500", "pct": -9 },
+    "assets": [
+      "lehman"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json"
   },
@@ -638,7 +724,10 @@
     "what": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
     "why": "The climax of the panic; the biggest monthly fall of the game after October 1987.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -17 },
+    "move": {
+      "asset": "sp500",
+      "pct": -17
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json"
   },
@@ -647,8 +736,13 @@
     "title": "The government rescues Citigroup",
     "what": "By 17 November Citigroup's shares had fallen so far that the whole bank was valued at 6 billion dollars, against 300 billion two years ago. On 23 November the government agreed to back about 306 billion dollars of its loans and securities and to invest another 20 billion dollars of capital. AIG got a second, 150 billion dollar rescue on 10 November, and the S&P 500 fell 7% in November to 896.24.",
     "why": "The low point for the big banks before the 2009 bottom; Citigroup was rescued, not allowed to fail.",
-    "assets": ["c"],
-    "move": { "asset": "sp500", "pct": -7 },
+    "assets": [
+      "c"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -7
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/November_2008 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -667,7 +761,10 @@
     "what": "Big banks reported large losses from trading, write-downs and bad loans, and on 16 January the government agreed to give Bank of America guarantees, cash and capital after its takeover of Merrill Lynch. Bank shares fell below their November lows, and the S&P 500 lost 9% in January to 825.88.",
     "why": "The second wave of the crisis: fear that the big banks would have to be nationalized.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20090128.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -677,7 +774,10 @@
     "what": "Congress approved a 787 billion dollar stimulus package on 13 February, but investors were uneasy about the Treasury's new plan to stabilize the banks and about what the government might do next. Bank and insurance shares were hit hardest; on 27 February the government agreed to take a 36% stake in Citigroup, and the Dow closed at its lowest level since 1997. The S&P 500 lost 11% in February to 735.09.",
     "why": "The capitulation before the bottom.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -11 },
+    "move": {
+      "asset": "sp500",
+      "pct": -11
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20090318.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03); data/reference/sp500.json"
   },
@@ -687,7 +787,10 @@
     "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
     "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -697,7 +800,10 @@
     "what": "Shares rose strongly again in April, helped by the government's measures to clean up bank balance sheets and by favourable first-quarter earnings from a few big banks; financial shares led. On 10 April Time magazine wrote that the banking crisis was ending 'more quickly than it began'. Investors are nervous about the results of the government's stress tests of the big banks, due in May. The S&P 500 rose 9% in April to 872.81.",
     "why": "The early bull market climbing a wall of worry.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20090429.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json"
   },
@@ -716,7 +822,10 @@
     "what": "After Standard and Poor's cut Greece's credit rating to junk on 27 April, fears about Europe's debt crisis gripped markets. On 6 May the Dow, already down more than 300 points, plunged almost 1,000 points within minutes in the afternoon, about 9%, before recovering most of it; roughly a trillion dollars of value vanished and reappeared within half an hour. The S&P 500 lost 8% in May to 1,089.41.",
     "why": "The euro crisis (told in the Europe arc) meets computer trading; the cause of the flash crash was found only in September.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -8 },
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -726,7 +835,10 @@
     "what": "Fed chairman Ben Bernanke's speech at Jackson Hole in late August was read as encouraging, better-than-expected figures on manufacturing and jobs followed in early September, and after the Fed's meeting on 21 September investors expected it to buy more bonds soon. The S&P 500 rose 9% in September to 1,141.20.",
     "why": "The 'Fed put' at work: the prospect of QE2 lifted shares.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 3,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20100921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20101103.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -745,7 +857,10 @@
     "what": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%.",
     "why": "The euro crisis summer; the cause is told in the Europe arc. The S&P 500 fell about 20% from May to early October.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -6 },
+    "move": {
+      "asset": "sp500",
+      "pct": -6
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json"
   },
@@ -755,7 +870,10 @@
     "what": "After a low on 4 October about 21% below its May peak, the S&P 500 surged as European leaders worked on, and late in the month announced, a new package to deal with Greece's debts and to shore up Europe's banks; company earnings also came in better than expected. Many details of the plan are still open, and on the last day of the month news of a possible Greek referendum sent shares down sharply. The S&P 500 still rose 11% in October to 1,253.30, its best month since 1991.",
     "why": "The end of the 2011 bear scare; the euro crisis dragged on until mid-2012.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 11 },
+    "move": {
+      "asset": "sp500",
+      "pct": 11
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json"
   },
@@ -801,7 +919,10 @@
     "what": "China devalued its currency on 11 August after a stock market crash at home, and fears about its economy spread. On Monday 24 August markets around the world plunged, the Dow opening about 1,000 points lower; an estimated 10 trillion dollars had been wiped off world markets since early June, and oil hit a six-year low. The S&P 500 lost 6% in August to 1,972.18.",
     "why": "The market's reaction to China (told in the Asia arc); the first correction in years.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -6 },
+    "move": {
+      "asset": "sp500",
+      "pct": -6
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json"
   },
@@ -811,7 +932,10 @@
     "what": "After falling in late September, shares more than recovered as worries about world growth eased, foreign central banks were expected to ease policy and figures from China were better than feared. The S&P 500 rose 8% in October to 2,079.36.",
     "why": "The rebound after the China scare; another dip followed in January 2016.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 3,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -848,7 +972,10 @@
     "what": "A bigger-than-expected rise in wages in the January jobs report raised fears of inflation and faster rate rises. On 5 February the Dow fell 1,175 points or 4.6%, then its largest point drop ever, and the VIX volatility index jumped to its highest since 2015 as bets on calm markets unwound; on 8 February the Dow fell another 1,033 points. The S&P 500 lost 4% in February.",
     "why": "The end of the 2017 calm; a preview of the fall at year's end.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -4 },
+    "move": {
+      "asset": "sp500",
+      "pct": -4
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20180321.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
   },
@@ -858,7 +985,10 @@
     "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%.",
     "why": "The near-bear market of 2018, which reversed as soon as the Fed changed its tone in January.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 1,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
   },
@@ -868,7 +998,10 @@
     "what": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
     "why": "The Fed's U-turn; it cut rates three times later in 2019.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -887,7 +1020,10 @@
     "what": "The S&P 500 closed at a record 3,386.15 on 19 February. Then the new coronavirus spread beyond China, and in the week of 24 to 28 February markets had their largest weekly falls since the 2008 crisis, the fastest slide from a record ever seen. The S&P 500 ended February down 8% at 2,954.22.",
     "why": "The start of the 2020 crash; the virus itself is told in the world arc.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -8 },
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json"
   },
@@ -897,7 +1033,10 @@
     "what": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 hit its low of 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
     "why": "The fastest crash in history, and the fastest turn: the low came on the day of the Fed's 'unlimited' promise.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -13 },
+    "move": {
+      "asset": "sp500",
+      "pct": -13
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -907,7 +1046,10 @@
     "what": "With the Fed's emergency lending programmes and the 2 trillion dollar CARES Act behind them, shares more than won back their late-March losses, led by energy, consumer and health-care companies. The S&P 500 rose 13% in April to 2,912.43, its best month since January 1987, though still well below February's record and with unemployment soaring.",
     "why": "The start of the fastest recovery ever: a record by August.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 13 },
+    "move": {
+      "asset": "sp500",
+      "pct": 13
+    },
     "importance": 1,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json"
   },
@@ -917,7 +1059,10 @@
     "what": "On 18 August the S&P 500 closed above its February record, less than five months after the March low. The S&P 500 rose 7% in August to 3,500.31, while the pandemic still kept much of the economy closed.",
     "why": "The fastest recovery from a bear market ever, a lesson in not selling at the bottom.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 7 },
+    "move": {
+      "asset": "sp500",
+      "pct": 7
+    },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json"
   },
@@ -927,7 +1072,10 @@
     "what": "After the presidential election of 3 November, uncertainty fell, and on 9 November Pfizer's announcement of a successful vaccine trial set off a rush into the companies hurt most by the pandemic, such as travel and energy. The Dow closed above 30,000 for the first time on 24 November, and the S&P 500 rose 11% in November to 3,621.63.",
     "why": "The reopening trade; one of the best months of the game.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 11 },
+    "move": {
+      "asset": "sp500",
+      "pct": 11
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
   },
@@ -964,7 +1112,10 @@
     "what": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020.",
     "why": "The 2022 bear market gathering pace; technology shares were hit hardest (told in the tech arc).",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -974,7 +1125,10 @@
     "what": "Consumer prices rose 8.6% in the year to May, more than expected, and on 15 June the Federal Reserve raised its key rate by 0.75 percentage point. The S&P 500 fell into a bear market, more than 20% below its January record, and lost 8% in June to 3,785.38; it fell 21% in the first half of the year.",
     "why": "The heart of the 2022 bear market, driven by inflation and rates (the rates arc tells the Fed's side).",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -8 },
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
     "importance": 1,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
   },
@@ -984,7 +1138,10 @@
     "what": "Bond yields fell on fears of recession, and some better-than-feared earnings made investors less gloomy about companies' prospects. The S&P 500 rose 9% in July to 4,130.29, its best month since November 2020.",
     "why": "A bear-market rally; it ended at Jackson Hole in late August.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -994,7 +1151,10 @@
     "what": "Fed chairman Jerome Powell's speech at Jackson Hole on 26 August and inflation data showing consumer prices still up 8.3% a year convinced investors that rates would rise further than expected. On 13 September the S&P 500 fell 4.3%, its worst day since 2020, and late in the month a British budget set off turmoil in the UK bond market. The S&P 500 lost 9% in September to 3,585.62.",
     "why": "The second leg of the 2022 bear market.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -9 },
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1004,7 +1164,10 @@
     "what": "Shares fell further early in October on inflation news and rate expectations, with the S&P 500 closing at 3,577.03 on 12 October, about 25% below its January record. Then they rebounded, and the index ended October up 8% at 3,871.98.",
     "why": "The bottom of the 2022 bear market, the start of the AI-led bull market.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 8 },
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
     "importance": 1,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1022,7 +1185,10 @@
     "title": "Bank runs: Silicon Valley Bank fails, UBS takes over Credit Suisse",
     "what": "Silicon Valley Bank collapsed on 10 March after a run by its depositors, caused by losses on bonds that had fallen as interest rates rose; Signature Bank failed two days later, and the Fed set up an emergency lending programme. On 19 March, in a deal arranged by the Swiss authorities, UBS agreed to take over Credit Suisse. Regional bank shares fell sharply, but the S&P 500 ended March up 4%.",
     "why": "The banking scare of 2023: the price of the fast rate rises. The broad market shrugged it off.",
-    "assets": ["credit-suisse", "ubs"],
+    "assets": [
+      "credit-suisse",
+      "ubs"
+    ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1032,7 +1198,10 @@
     "what": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80.",
     "why": "The 'peak rates' rally that carried shares to records in early 2024.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 9 },
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1069,7 +1238,10 @@
     "what": "On 2 April President Trump announced tariffs of at least 10% on nearly all imports. The S&P 500 fell 4.8% on 3 April and 6.0% on 4 April, the largest two-day loss of value in history at about 6.6 trillion dollars, and on 7 April it was briefly 23% below its February record. On 9 April Trump paused most of the tariffs and the index jumped 9.5%, its biggest daily gain since 2008; it ended April down only 1%.",
     "why": "A policy-made crash and recovery inside one month (the trade side is told in the world arc).",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -1 },
+    "move": {
+      "asset": "sp500",
+      "pct": -1
+    },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1088,7 +1260,10 @@
     "what": "The S&P 500 set a record of 7,002.28 on 28 January, but software companies fell on fears that artificial intelligence would disrupt their business. Then American and Israeli strikes on Iran began on 28 February, oil futures rose about 50% and the Strait of Hormuz was effectively closed, raising fears of inflation. The S&P 500 lost 5% in March to 6,528.52, its worst month in a year.",
     "why": "The market's side of the 2026 Iran war (told in the Middle East and oil arcs).",
     "assets": [],
-    "move": { "asset": "sp500", "pct": -5 },
+    "move": {
+      "asset": "sp500",
+      "pct": -5
+    },
     "importance": 2,
     "source": "https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json"
   },
@@ -1098,7 +1273,10 @@
     "what": "President Trump announced a two-week ceasefire with Iran late on 7 April; the next day oil fell about 15% and the Dow jumped 1,326 points. The S&P 500 closed at a record 7,022.95 on 15 April, though the Strait of Hormuz stayed effectively closed, as 84% of companies beat profit forecasts and technology shares led on optimism about AI. The S&P 500 rose 10% in April to a record 7,209.01, its best month since November 2020.",
     "why": "A war-time rally to records; shares looked past the oil shock to earnings and AI.",
     "assets": [],
-    "move": { "asset": "sp500", "pct": 10 },
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
     "importance": 1,
     "source": "https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://www.commbank.com.au/articles/newsroom/2026/05/us-stocks-finish-best-month-since-2020.html (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm (read 2026-10-03); data/reference/sp500.json"
   },

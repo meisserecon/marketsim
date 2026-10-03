@@ -43,8 +43,9 @@
     "what": "The S&P 500 fell 10% in 1981 to 122.55, and the Dow closed the year at 875.00, down 9.2%. The Dow had reached 1,024 in April on hopes for Reagan's tax cuts, but the Federal Reserve kept credit tight: its discount rate hit a record 14 percent in May, and the economy slid into recession in the second half. The Fed began to cut the discount rate in November, to 12 percent.",
     "why": "The middle of the 1980-82 bear market. Volcker's 'we mean to stick with it' policy broke inflation at the cost of the worst recession since the war.",
     "assets": [],
-    "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
+    "importance": 1,
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1982-08",

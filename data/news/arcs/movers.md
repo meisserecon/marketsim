@@ -221,7 +221,7 @@ Biggest months:
 
 ### credit-suisse: Schweizerische Kreditanstalt / CS Holding / Credit Suisse Group
 
-In the game 1982-03 to 2023-06 (merger: Taken over by UBS, 1 UBS share per 22.48 Credit Suisse shares); price 8.0115 to 0.8858 (-89% over 41.3 years).
+In the game 1982-05 to 2023-06 (merger: Taken over by UBS, 1 UBS share per 22.48 Credit Suisse shares); price 7.7971 to 0.8858 (-89% over 41.2 years).
 Worst stretch: -99% from 2007-04 to 2023-05. Best twelve months: +126% from 1985-02 to 1986-02.
 
 Biggest months:
@@ -698,7 +698,7 @@ Biggest months:
 
 ### sbv: Schweizerischer Bankverein
 
-In the game 1982-03 to 1998-05 (merger: Merged with Bankgesellschaft into UBS; holders received 1 1/13 UBS shares per Bankverein share); price 79.1849 to 360.9987 (+356% over 16.3 years).
+In the game 1982-05 to 1998-05 (merger: Merged with Bankgesellschaft into UBS; holders received 1 1/13 UBS shares per Bankverein share); price 74.5932 to 360.9987 (+384% over 16.1 years).
 Worst stretch: -51% from 1986-12 to 1989-05. Best twelve months: +120% from 1985-02 to 1986-02.
 
 Biggest months:
@@ -798,7 +798,7 @@ Biggest months:
 
 ### ubs: Schweizerische Bankgesellschaft / UBS
 
-In the game 1982-03 to 2026-09; price 5.1676 to 48.9375 (+847% over 44.6 years).
+In the game 1982-05 to 2026-09; price 4.8326 to 48.9375 (+913% over 44.4 years).
 Worst stretch: -86% from 2007-04 to 2009-03. Best twelve months: +112% from 1985-04 to 1986-04.
 
 Biggest months:
@@ -935,7 +935,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 
 - 1982-01: market -2%; Intel +16%, IBM +12%
 - 1982-02: market -6%; Sony -22%, Boeing -13%, Schlumberger -11%
-- 1982-03: market -1%; McDonald's +13%, Intel +13%, Schweizerische Kreditanstalt -11%
+- 1982-03: market -1%; McDonald's +13%, Intel +13%, Schlumberger -11%
 - 1982-04: market +4%; Wal-Mart +14%, Apple Computer -13%
 - 1982-05: market -4%; Boeing -11%
 - 1982-06: market -2%; Schlumberger -13%, Schweizerischer Bankverein -11%, Schweizerische Kreditanstalt -11%

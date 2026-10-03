@@ -1,0 +1,836 @@
+[
+  {
+    "month": "1981-08",
+    "title": "IBM brings out a personal computer",
+    "what": "On 12 August IBM presented its Personal Computer, from 1,565 dollars with 16 KB of memory. It uses Intel's 8088 processor and an operating system from a small firm, Microsoft. A team in Boca Raton built it in a year from standard parts that other makers can buy too. Apple greeted the newcomer with a full-page ad: Welcome, IBM. Seriously.",
+    "why": "The start of the first wave. IBM's blessing turned the hobby computer into an office machine, and its open design made Intel and Microsoft, not IBM, the long-run winners.",
+    "assets": [
+      "ibm",
+      "intc",
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1982-12",
+    "title": "The computer is Time's Machine of the Year",
+    "what": "Time magazine named the personal computer its Machine of the Year instead of a person. IBM's PC has sold far beyond IBM's plans, and on 22 December IBM agreed to pay 250 million dollars for 12% of Intel, the maker of its chips. The Nasdaq index of smaller and newer companies ended the year at 232.",
+    "why": "Peak public excitement of the first PC boom; the Nasdaq rose another 40% into June 1983 before the shakeout.",
+    "assets": [
+      "ibm",
+      "intc",
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "1983-06",
+    "title": "Technology shares at a record",
+    "what": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned.",
+    "why": "The top of the 1983 high-tech boom. By July 1984 the Nasdaq was 32% lower as home computers turned into a price war.",
+    "assets": [
+      "intc",
+      "aapl",
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)"
+  },
+  {
+    "month": "1983-10",
+    "title": "The home computer shakeout: Texas Instruments quits",
+    "what": "In October Texas Instruments said it will stop making its TI-99/4A home computer, after a price war with Commodore pushed both machines from about 400 dollars in early 1982 to 100 dollars by April. TI lost 100 million dollars in the second quarter and 111 million after tax in the third. In September Osborne, maker of the first popular portable computer, filed for bankruptcy.",
+    "why": "The first bust of the PC era: too many makers, falling prices. Apple fell 38% in September on its own troubles with the Lisa; the survivors were those with the IBM standard or a loyal niche.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A (read 2026-10-03); https://en.wikipedia.org/wiki/Osborne_Computer_Corporation (read 2026-10-03)"
+  },
+  {
+    "month": "1984-01",
+    "title": "Apple's Macintosh: a computer worked with a mouse",
+    "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar Super Bowl commercial. It is worked with a mouse and pictures on the screen rather than typed commands, has 128 KB of memory and costs 2,495 dollars.",
+    "why": "The graphical way of using a computer that Windows would copy and that won in the end, though the Mac itself stayed a niche against the IBM standard.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1985-12",
+    "title": "The chip bust: memory prices collapse, US rules Japan dumped",
+    "what": "Prices of the standard 64K memory chip have fallen from 3.50 dollars to as little as 35 cents within 18 months, and more than 60% of these chips come from Japanese makers. On 4 December the US Commerce Department ruled in favour of a complaint that Japanese firms sold below cost. Intel has withdrawn from making memory chips this year to concentrate on microprocessors.",
+    "why": "The 1985 semiconductor recession, the worst the industry had known, forced Intel's pivot to the PC processor, the decision that made it the biggest chip company of the 1990s.",
+    "assets": [
+      "intc",
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Dynamic_random-access_memory (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "1987-01",
+    "title": "Computer shares lead a January surge",
+    "what": "The Nasdaq index rose 12% in January to 392, and computer companies rose far more: Microsoft about 52%, Intel 49% and Apple 37%. Personal computers built on Intel's new 386 chip, the first from Compaq since September, are on sale, and investors are betting on a recovery after the chip slump of 1985 and 1986.",
+    "why": "The PC wave's second leg. The broad market's +13% month belongs to the general 1987 boom; this beat gives the tech side.",
+    "assets": [
+      "msft",
+      "intc",
+      "aapl",
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Compaq (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash hits technology shares hardest",
+    "what": "The Nasdaq fell 11% on Black Monday, 19 October, 9% the next day and 9% again on 26 October, and ended the month 27% lower, its worst month on record. Intel and Apple each lost about a third of their value in October.",
+    "why": "Not caused by technology, but the year's high-flyers fell furthest. The crash itself is explained in the market arc.",
+    "assets": [
+      "intc",
+      "aapl",
+      "msft",
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Windows 3.0 goes on sale",
+    "what": "Microsoft released Windows 3.0 on 22 May, at 149 dollars or 50 dollars as an upgrade. It gives IBM-style PCs a screen of windows and icons, like Apple's Macintosh, and in its first week it became the top-selling business software. Microsoft rose 26% in May and Intel 22%.",
+    "why": "The first Windows that worked, and the start of the Wintel decade: every new PC needed a faster Intel chip to run Microsoft's software.",
+    "assets": [
+      "msft",
+      "intc",
+      "ibm",
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Windows_3.0 (read 2026-10-03)"
+  },
+  {
+    "month": "1991-08",
+    "title": "The World Wide Web opens to the internet",
+    "what": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
+    "why": "Nobody on Wall Street noticed. Four years later it was the foundation of the biggest stock mania since the 1920s.",
+    "assets": [],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
+  },
+  {
+    "month": "1993-04",
+    "title": "Mosaic, a browser with pictures; the Web becomes free",
+    "what": "On 21 April the National Center for Supercomputing Applications in Illinois released version 1.0 of Mosaic, a program by Marc Andreessen and Eric Bina that shows web pages with pictures inside the text. On 30 April CERN made the Web's code available royalty-free to anyone.",
+    "why": "The browser turned the Web from a research tool into something ordinary people could use; Andreessen went on to found Netscape.",
+    "assets": [],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Mosaic_(web_browser) (read 2026-10-03); https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
+  },
+  {
+    "month": "1994-10",
+    "title": "Netscape's browser appears",
+    "what": "On 13 October Mosaic Communications, a start-up founded in April by Marc Andreessen and Jim Clark, released a test version of its browser, Mosaic Netscape 0.9, free to download.",
+    "why": "Within four months it had three quarters of the browser market; its success, and its IPO a year later, started the internet mania.",
+    "assets": [],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
+  },
+  {
+    "month": "1995-01",
+    "title": "Compaq passes IBM as the biggest PC maker",
+    "what": "Compaq, which began by copying the IBM PC, sold more personal computers than IBM or Apple in 1994; in the US it had 12.6% of the market against Apple's 11.6%. In 1991 a price war had brought Compaq its first loss and its first layoffs.",
+    "why": "The PC had become a commodity: the profits went to Intel's chips and Microsoft's software, not to the box makers. That is why IBM and Apple struggled in the 1990s while Intel and Microsoft soared.",
+    "assets": [
+      "ibm",
+      "aapl",
+      "intc",
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Compaq (read 2026-10-03)"
+  },
+  {
+    "month": "1995-07",
+    "title": "The Nasdaq passes 1,000",
+    "what": "On 17 July the Nasdaq index closed above 1,000 for the first time, at 1,005.89. It started at 100 in 1971 and stood at about 750 at the start of this year.",
+    "why": "The internet boom gets under way; the index would pass 2,000 in 1998 and 5,000 in 2000.",
+    "assets": [
+      "intc",
+      "msft",
+      "csco"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "1995-08",
+    "title": "Netscape's IPO: 2.9 billion dollars for a company without profits",
+    "what": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
+    "why": "The starting gun of the dot-com era: it showed that investors would pay billions for internet growth without profits.",
+    "assets": [],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
+  },
+  {
+    "month": "1995-08",
+    "title": "Windows 95 launches with a billion-dollar campaign",
+    "what": "Microsoft launched Windows 95 on 24 August, with the Rolling Stones' Start Me Up in its advertising and a marketing effort estimated at a billion dollars. One million copies shipped worldwide in the first four days. It has a Start button and a taskbar, and runs on Intel chips.",
+    "why": "The PC wave's peak cultural moment; Windows 95 brought millions of new users online and made Microsoft the most powerful company in technology.",
+    "assets": [
+      "msft",
+      "intc",
+      "ibm",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Windows_95 (read 2026-10-03)"
+  },
+  {
+    "month": "1996-12",
+    "title": "Greenspan asks about irrational exuberance",
+    "what": "On 5 December Federal Reserve chairman Alan Greenspan asked in a speech: how do we know when irrational exuberance has unduly escalated asset values? Tokyo fell 3% the next day and other markets followed. The Nasdaq has risen about 23% this year, to 1,291.",
+    "why": "The famous warning came more than three years and a quadrupling of the Nasdaq before the top: being early is the same as being wrong in a mania.",
+    "assets": [],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Irrational_exuberance (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "1998-11",
+    "title": "theglobe.com rises 606% on its first day",
+    "what": "theglobe.com, a website for online communities, went public on 13 November at 9 dollars a share; it touched 97 and closed at 63.50, a first-day gain of 606%. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
+    "why": "The moment the internet boom turned into a mania of first-day pops. theglobe.com was worth under 10 cents a share by 2001.",
+    "assets": [
+      "ebay",
+      "amzn"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "1999-12",
+    "title": "The Nasdaq ends 1999 up 86%, above 4,000",
+    "what": "The Nasdaq closed above 4,000 for the first time on 29 December, less than two months after first passing 3,000 on 3 November. It rose 22% in December alone and 85.6% in 1999, against 19.5% for the S&P 500. Telecom, phone and internet names led: Sony rose 55% in December, JDS Uniphase 45%, Nokia 36%.",
+    "why": "The best year in the index's history and the height of the mania; the next fifteen years would not see these levels again.",
+    "assets": [
+      "csco",
+      "msft",
+      "intc",
+      "nokia",
+      "jdsu",
+      "sony",
+      "amzn",
+      "ebay",
+      "nvda"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2000-01",
+    "title": "AOL to take over Time Warner",
+    "what": "AOL, the biggest online service, announced in January that it will merge with Time Warner, the owner of CNN, Warner Bros. and Time magazine; AOL's shareholders will own 55% of the combined company. In the same month Lucent, the biggest maker of telephone network equipment, warned of flat sales and a big drop in profit, and its shares fell 28% in a day.",
+    "why": "The internet's paper wealth buying the old economy outright, the classic sign of a top. Lucent's warning was the first crack in the telecom equipment boom.",
+    "assets": [
+      "csco",
+      "jdsu",
+      "nokia"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/AOL (read 2026-10-03); https://en.wikipedia.org/wiki/Lucent_Technologies (read 2026-10-03)"
+  },
+  {
+    "month": "2000-02",
+    "title": "New economy up, old economy down",
+    "what": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised.",
+    "why": "The last, steepest leg of the bubble, and the widest split between new and old economy shares.",
+    "assets": [
+      "nvda",
+      "siemens",
+      "jdsu",
+      "csco",
+      "pets-com"
+    ],
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2000-03",
+    "title": "The Nasdaq peaks at 5,048; Cisco the world's most valuable company",
+    "what": "The Nasdaq closed at a record 5,048.62 on 10 March, five times its level of 1995. On 20 March Barron's warned that internet companies are running out of cash, fast, and the index ended the month 2.6% down. Money moved into the biggest technology names instead: in late March Cisco, which makes the routers of the internet, became the world's most valuable company at more than 500 billion dollars, and the S&P 500 reached a record on 24 March.",
+    "why": "The top of the dot-com bubble. The S&P 500's +10% month was a last surge of large-cap tech and a rotation into big companies while the small dot-coms already slid.",
+    "assets": [
+      "csco",
+      "intc",
+      "msft",
+      "nokia",
+      "jdsu",
+      "pets-com",
+      "pcln"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2000-04",
+    "title": "The Nasdaq loses 25% in a week",
+    "what": "On 3 April a judge ruled that Microsoft broke antitrust law; Microsoft fell 15% and the Nasdaq 8% that day. On 14 April the Nasdaq fell 9.7%, ending a week in which it lost 25%. It ended April at 3,861, almost a quarter below its March record.",
+    "why": "The bubble bursts. There were sharp rallies to come, but the March peak was the high for fifteen years.",
+    "assets": [
+      "msft",
+      "csco",
+      "intc",
+      "pets-com",
+      "pcln",
+      "amzn"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2000-11",
+    "title": "The Nasdaq's worst month since 1987; Pets.com closes",
+    "what": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies.",
+    "why": "The second leg of the crash, when the internet sell-off spread to the big technology companies. The S&P 500's -8% month was driven by tech.",
+    "assets": [
+      "pets-com",
+      "pcln",
+      "amzn",
+      "jdsu",
+      "intc",
+      "aapl",
+      "csco"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -8
+    },
+    "importance": 1,
+    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2000-12",
+    "title": "The Nasdaq's worst year: down 39%",
+    "what": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last.",
+    "why": "The calendar-year turn of the bust. Most of the small internet companies of 1999 were gone or dying.",
+    "assets": [
+      "csco",
+      "intc",
+      "msft",
+      "amzn",
+      "pcln",
+      "jdsu"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2001-01",
+    "title": "A surprise rate cut: the Nasdaq jumps 14% in a day",
+    "what": "On 3 January the Federal Reserve cut interest rates by half a point, from 6.5% to 6%, without waiting for its next meeting. The Nasdaq rose 14.17% that day to 2,616.69, its biggest gain ever, and 12% over the month. Beaten-down technology shares rebounded hardest: Microsoft rose about 41% in January, Apple 45%, Priceline doubled.",
+    "why": "The first of the bear-market rallies that kept hope alive in 2001. It faded within weeks.",
+    "assets": [
+      "msft",
+      "aapl",
+      "ibm",
+      "pcln",
+      "nvda",
+      "ebay",
+      "worldcom"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 41
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2001-02",
+    "title": "The telecom bust: network gear makers crash",
+    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. JDS Uniphase halved in February, Cisco lost more than a third.",
+    "why": "The telecom bubble, financed by more than 500 billion dollars mostly of debt since 1996, began to burst; telecom companies lost about 700 billion dollars of market value over two years. The S&P's -9% month is this sell-off.",
+    "assets": [
+      "csco",
+      "jdsu",
+      "nokia",
+      "worldcom",
+      "siemens",
+      "amzn"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -9
+    },
+    "importance": 1,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03)"
+  },
+  {
+    "month": "2001-03",
+    "title": "The Nasdaq falls below 2,000",
+    "what": "On 12 March the Nasdaq fell 6.3% to 1,923.38, its first close below 2,000 since 1998 and 62% under the record of a year ago. It ended March at 1,840. Cisco lost another third this month.",
+    "why": "A year after the peak, most of the bubble's gains were gone; the low was still eighteen months away.",
+    "assets": [
+      "csco",
+      "jdsu",
+      "nokia",
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2001-04",
+    "title": "Another rate cut, another rally",
+    "what": "The Nasdaq rose 8.9% on 5 April and 8.1% on 18 April, when the Fed again cut rates between meetings, and gained 15% in the month to 2,116. Internet survivors led: Priceline nearly doubled, Amazon rose about half, Nokia 42%.",
+    "why": "A bear-market rally; by September the index was far lower.",
+    "assets": [
+      "pcln",
+      "amzn",
+      "nokia",
+      "ebay",
+      "csco"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2001-11",
+    "title": "Technology leads the rebound after September",
+    "what": "After falling 17% in September, the month of the attacks of 11 September, the Nasdaq rose 13% in October and 14% in November, to 1,931. Chipmakers led: Nvidia gained 56% in October, Intel 34% in November.",
+    "why": "The autumn 2001 rally; the bust had another year to run.",
+    "assets": [
+      "nvda",
+      "intc",
+      "csco",
+      "amzn"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 8
+    },
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2002-07",
+    "title": "WorldCom fails: the telecom bust's biggest bankruptcy",
+    "what": "WorldCom, the long-distance telephone company, filed for bankruptcy in July after an accounting scandal, following Global Crossing's bankruptcy in January. The head of the FCC told the Senate that the industry owes about a trillion dollars, much of which will never be repaid. The Nasdaq fell 9% in July to 1,328.",
+    "why": "The low point of the telecom bust and of trust in company accounts after Enron; the market's final leg down.",
+    "assets": [
+      "worldcom",
+      "jdsu",
+      "csco",
+      "nokia"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2002-09",
+    "title": "The Nasdaq at a six-year low",
+    "what": "The Nasdaq fell 11% in September to 1,172, its lowest month-end since 1996 and 77% below the record of March 2000. Accounting scandals from Enron to WorldCom have shaken trust in company figures.",
+    "why": "The capitulation month of the bust; technology and telecom fell furthest, but this one was broad, so the S&P's -11% belongs as much to the market arc.",
+    "assets": [
+      "jdsu",
+      "siemens",
+      "ibm",
+      "pcln",
+      "intc",
+      "csco"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -11
+    },
+    "importance": 2,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)"
+  },
+  {
+    "month": "2002-10",
+    "title": "The bottom: 78% below the peak",
+    "what": "On 9 October the Nasdaq closed at 1,114.11, 78% below its March 2000 record; about 5 trillion dollars of market value has been lost since the peak. From there it rose 13.5% by the end of October, led by technology shares.",
+    "why": "The low of the dot-com bust, though nobody could know it then. The S&P's +9% month is the start of the recovery.",
+    "assets": [
+      "csco",
+      "intc",
+      "ibm",
+      "siemens",
+      "nvda",
+      "pcln",
+      "jdsu"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 9
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2002-11",
+    "title": "The most battered shares bounce hardest",
+    "what": "The Nasdaq rose another 11% in November to 1,479. The shares that had fallen furthest rebounded most: JDS Uniphase rose about half, Nvidia 44%, Cisco a third.",
+    "why": "A classic bear-market bottom pattern: the junk rallies first. December gave back much of it.",
+    "assets": [
+      "jdsu",
+      "nvda",
+      "csco"
+    ],
+    "move": {
+      "asset": "jdsu",
+      "pct": 52
+    },
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2003-12",
+    "title": "The Nasdaq gains 50% in 2003",
+    "what": "The Nasdaq rose 50% in 2003 and closed the year just under 2,000, after briefly passing it on 29 December. The survivors of the bust, from Amazon to Priceline and Nvidia, have multiplied from their lows.",
+    "why": "The calendar-year turn of the recovery; the S&P's +24% year (shown as 2003 in the movers list) owes much to it.",
+    "assets": [
+      "amzn",
+      "pcln",
+      "nvda",
+      "intc",
+      "csco"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2004-08",
+    "title": "Google goes public at 85 dollars",
+    "what": "Google, the most used search engine, sold shares at 85 dollars on 19 August, raising 1.67 billion dollars and valuing the company at more than 23 billion.",
+    "why": "The first great internet IPO after the bust, and proof that the web could make huge profits from advertising.",
+    "assets": [],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Google (read 2026-10-03)"
+  },
+  {
+    "month": "2006-03",
+    "title": "Amazon starts renting out storage: the cloud begins",
+    "what": "On 14 March Amazon launched S3, a service that stores other companies' data on Amazon's computers for a fee, under the name Amazon Web Services.",
+    "why": "The quiet start of cloud computing, which by 2025 earned Amazon 129 billion dollars a year in sales and made Microsoft's comeback.",
+    "assets": [
+      "amzn"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
+  },
+  {
+    "month": "2007-01",
+    "title": "Apple announces the iPhone",
+    "what": "On 9 January Steve Jobs presented the iPhone, a phone with a touch screen instead of keys that also plays music and browses the web. It will go on sale in June in the US with AT&T, at 499 dollars for 4 GB and 599 for 8 GB with a two-year contract.",
+    "why": "The start of the mobile wave. Nokia then held about 40% of the world phone market; within five years it had lost the smartphone race, and Apple became the world's most valuable company.",
+    "assets": [
+      "aapl",
+      "nokia"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation) (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2008-07",
+    "title": "The App Store opens",
+    "what": "Apple opened the App Store on 10 July with 500 programs, 125 of them free, that anyone can download to an iPhone. There were 10 million downloads in the first weekend. Outside developers write the programs, and Apple takes a share of the sales.",
+    "why": "Apps turned the smartphone into a platform, the way Windows had made the PC one; Nokia's Symbian never caught up.",
+    "assets": [
+      "aapl",
+      "nokia"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/App_Store_(Apple) (read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "The first Android phone",
+    "what": "On 23 September T-Mobile announced the G1, made by HTC, the first phone using Android, Google's free operating system for phones. It will cost 179 dollars with a two-year contract from 20 October.",
+    "why": "Android gave every other phone maker an answer to the iPhone and left Nokia squeezed between Apple at the top and cheap Android phones below.",
+    "assets": [
+      "nokia",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/HTC_Dream (read 2026-10-03)"
+  },
+  {
+    "month": "2009-12",
+    "title": "Technology leads the recovery: Nasdaq up 44% in 2009",
+    "what": "The Nasdaq ended 2009 at 2,269, up 44% for the year and 79% above its low of 1,268.64 on 9 March.",
+    "why": "The financial crisis interrupted the mobile wave only briefly; technology led the next decade's bull market.",
+    "assets": [
+      "aapl",
+      "amzn",
+      "nvda",
+      "pcln",
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2010-04",
+    "title": "The iPad sells 300,000 on its first day",
+    "what": "Apple's iPad, a tablet computer announced on 27 January at 499 dollars, went on sale in the US on 3 April and sold 300,000 units the first day. Apple is selling a whole family of touch-screen devices running the same apps.",
+    "why": "The mobile wave reached the PC's territory; PC sales and Intel's business with them stagnated in the following years.",
+    "assets": [
+      "aapl",
+      "intc",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)"
+  },
+  {
+    "month": "2011-02",
+    "title": "Nokia bets on Microsoft's Windows Phone",
+    "what": "On 11 February Nokia announced that it will use Microsoft's Windows Phone as its main smartphone system, abandoning its own.",
+    "why": "The admission that the iPhone and Android had won; Nokia's share price and market share kept falling for two years.",
+    "assets": [
+      "nokia",
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2011-08",
+    "title": "Apple becomes the world's most valuable company",
+    "what": "In August Apple passed ExxonMobil as the most valuable listed company in the world. It had passed Microsoft in May 2010, for the first time since 1989.",
+    "why": "The changing of the guard: the mobile wave's winner overtook both the oil giant and the PC era's champion.",
+    "assets": [
+      "aapl",
+      "xom",
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2012-05",
+    "title": "Facebook's IPO disappoints",
+    "what": "Facebook, the social network, went public on 18 May at 38 dollars a share, raising 16 billion dollars and valuing it at 104 billion, the highest ever for a newly listed company. Technical problems at Nasdaq delayed trading, and the shares closed the first day at just 38.23. By the end of May they were below 28 dollars.",
+    "why": "Social media's coming of age on the stock market; the shares bottomed below 18 in September.",
+    "assets": [],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook (read 2026-10-03)"
+  },
+  {
+    "month": "2015-04",
+    "title": "The Nasdaq above its 2000 record, fifteen years on",
+    "what": "On 23 April the Nasdaq closed at 5,056.06, above its record of 10 March 2000 for the first time. It had first returned above 5,000 on 2 March. Unlike in 2000, today's largest technology companies earn large profits.",
+    "why": "The full round trip of the dot-com bust took fifteen years, a lesson in what buying at the top of a mania costs.",
+    "assets": [
+      "aapl",
+      "msft",
+      "amzn",
+      "intc",
+      "csco"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2015-04",
+    "title": "Amazon reveals that its cloud business is profitable",
+    "what": "On 23 April Amazon published figures for Amazon Web Services for the first time: 1.57 billion dollars of sales in the first quarter and 265 million of operating profit. Renting out computing power over the internet has become a big business.",
+    "why": "The moment investors saw the size of the cloud wave; AWS became Amazon's profit engine.",
+    "assets": [
+      "amzn",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
+  },
+  {
+    "month": "2016-03",
+    "title": "A Google computer beats the world's best Go player",
+    "what": "From 9 to 15 March AlphaGo, a program from Google's DeepMind, beat the Korean Go master Lee Sedol 4 to 1 in Seoul. Go was thought to be decades beyond computers. About 60 million people watched in China.",
+    "why": "An early sign of the artificial-intelligence wave; the learning methods behind it run on the graphics chips that made Nvidia the AI boom's winner.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)"
+  },
+  {
+    "month": "2020-06",
+    "title": "Stuck at home, the world goes online: Nasdaq above 10,000",
+    "what": "The Nasdaq closed above 10,000 for the first time on 10 June, less than three months after falling to 6,861 on 23 March in the pandemic crash. With offices, shops and schools closed, people work, shop and learn online, and the largest technology companies have gained most.",
+    "why": "The pandemic pulled forward years of digital adoption and began the 2020-21 tech boom.",
+    "assets": [
+      "amzn",
+      "aapl",
+      "msft",
+      "nvda",
+      "ebay",
+      "tsla"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2022-11",
+    "title": "OpenAI releases ChatGPT",
+    "what": "On 30 November OpenAI, a San Francisco research company in which Microsoft invested a billion dollars in 2019, released ChatGPT, a program that answers questions and writes texts in ordinary language. It is free to use.",
+    "why": "The start of the AI wave: it reached a million users in five days and 100 million within two months, the fastest-growing application then known, and set off the Nvidia-led boom.",
+    "assets": [
+      "msft",
+      "nvda"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)"
+  },
+  {
+    "month": "2022-12",
+    "title": "The Nasdaq loses a third in 2022",
+    "what": "The Nasdaq ended 2022 at 10,466, down 33% for the year, its worst since 2008, after the worst first half in its history.",
+    "why": "The calendar-year turn of the post-pandemic bust, just before the AI boom began.",
+    "assets": [
+      "nvda",
+      "amzn",
+      "tsla",
+      "msft",
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2023-01",
+    "title": "Microsoft's multibillion bet on OpenAI",
+    "what": "On 23 January Microsoft announced a new multi-year investment in OpenAI, reported at about 10 billion dollars, which values OpenAI at about 29 billion. ChatGPT already has many millions of users, and Microsoft plans to build its technology into its products.",
+    "why": "The AI wave becomes a big-company arms race, and the computing power it needs comes from Nvidia's chips.",
+    "assets": [
+      "msft",
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)"
+  },
+  {
+    "month": "2023-05",
+    "title": "Nvidia's forecast stuns Wall Street",
+    "what": "On 24 May Nvidia reported quarterly sales of 7.19 billion dollars and forecast about 11 billion for the next quarter, far above what analysts expected. Chief executive Jensen Huang said a trillion dollars of data-centre computers will switch to accelerated computing as companies race to apply generative AI.",
+    "why": "The moment the AI wave reached the profit statements; Nvidia became a trillion-dollar company and the AI trade began.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2023-12",
+    "title": "The Nasdaq gains 43% in 2023",
+    "what": "The Nasdaq rose 43% in 2023 to 15,011, close to its 2021 record. A handful of large companies tied to artificial intelligence did most of the work.",
+    "why": "The calendar-year turn of the AI boom's first year.",
+    "assets": [
+      "nvda",
+      "msft",
+      "aapl",
+      "amzn"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2024-06",
+    "title": "Nvidia becomes the world's most valuable company",
+    "what": "On 18 June Nvidia passed Microsoft and Apple as the world's most valuable company, at more than 3.3 trillion dollars. It closed above 2 trillion for the first time only on 1 March.",
+    "why": "A graphics-chip maker for gamers became the world's largest company in barely 18 months of AI demand.",
+    "assets": [
+      "nvda",
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-01",
+    "title": "Stargate and the DeepSeek shock",
+    "what": "On 21 January OpenAI, Oracle and SoftBank announced Stargate, a plan to spend up to 500 billion dollars on AI data centres in the US over four years. A week later DeepSeek, a Chinese AI model released on 20 January, topped the US App Store; on 27 January Nvidia fell 17%, losing about 600 billion dollars of value, the largest one-day loss for any US company.",
+    "why": "The first big scare of the AI boom: what if AI needs far fewer chips? The spending continued and Nvidia recovered within months.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2025-09",
+    "title": "Nvidia's money flows to Intel and OpenAI",
+    "what": "On 18 September Nvidia said it will invest 5 billion dollars in Intel, and on 22 September it announced a plan to invest up to 100 billion dollars in OpenAI, which will use the money to fill data centres with Nvidia chips. Nvidia passed 4 trillion dollars of market value in July. Intel rose 38% in September.",
+    "why": "The circular deals that made critics speak of an AI bubble, and the start of the AI wave lifting old technology names.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2025-10",
+    "title": "Nvidia at 5 trillion; a stake in Nokia",
+    "what": "On 29 October Nvidia became the first company valued at 5 trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company, whose shares rose 44% in October. JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
+    "why": "The AI boom at full stretch; it now lifted network equipment makers as well as chip companies.",
+    "assets": [
+      "nvda",
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 44
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "title": "The chip rally: technology's best month since 2000",
+    "what": "The Nasdaq rose 15.3% in April and the technology sector of the S&P 500 about 20%, as companies kept setting records for spending on AI chips; the S&P 500 had its best month since November 2020, helped by a ceasefire between the US and Iran. Intel more than doubled after deals with Google and Tesla and strong results on 23 April, and Nokia rose 61%; its sales to AI and cloud customers rose by nearly half in the first quarter.",
+    "why": "The AI wave's broadest surge, reaching the old names of the PC and telecom eras. The S&P's +10% month is shared with the end of the Iran war scare.",
+    "assets": [
+      "intc",
+      "nokia",
+      "jdsu",
+      "nvda",
+      "siemens"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 10
+    },
+    "importance": 1,
+    "source": "https://www.communityamerica.com/blog/2026/may-2026-market-insights (read 2026-10-03); https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "Korea's chip crash",
+    "what": "South Korea's stock market crashed in July, the KOSPI index losing more than 40% in about 40 days as investors sold Samsung Electronics and SK Hynix, the memory-chip makers that make up more than half of it. The fear is that big technology companies, which have not yet earned back their AI spending, will order fewer high-bandwidth memory chips.",
+    "why": "The first serious break in the AI chip trade; Intel fell 35% and Nokia 31% in July while the broad US market held steady.",
+    "assets": [
+      "intc",
+      "nokia",
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
+  }
+]

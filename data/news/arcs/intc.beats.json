@@ -1,0 +1,574 @@
+[
+  {
+    "month": "1980-03",
+    "title": "Intel, the maker of the microprocessor, enters the game",
+    "what": "Intel, a Californian company founded in 1968, built the first commercial microprocessor, a whole computer processor on one chip, in 1971, and its memory chips were the best-selling in the world in the early 1970s. In 1978 it brought out the 8086, a more powerful 16-bit processor. Memory chips are a tough, cyclical business with strong Japanese competition; processors are the newer bet.",
+    "why": "The listing beat. A buyer in 1980 is buying a memory-chip company with a promising sideline; the sideline becomes the whole company after 1985.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); data/news/1980.json item of 1980-03 (read 2026-10-03)"
+  },
+  {
+    "month": "1981-08",
+    "title": "IBM puts an Intel chip at the heart of its PC",
+    "what": "IBM's new Personal Computer runs on Intel's 8088 processor at 4.77 MHz. For Intel, which is under pressure from cheap memory chips, the world's biggest computer maker is now a customer for its microprocessors.",
+    "why": "The single design win that made the x86 the standard of the PC industry for four decades; every IBM-compatible PC afterwards needs an Intel-compatible chip.",
+    "assets": [
+      "intc",
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "1982-12",
+    "title": "IBM buys 12% of Intel for 250 million dollars",
+    "what": "IBM agreed on 22 December to buy 12% of Intel's shares for 250 million dollars, at 40 dollars a share, with the option to go up to 30%. Intel makes the chips in IBM's personal computers, and the cash helps it through the recession.",
+    "why": "Shows how important and how fragile Intel was in the early 1980s: its biggest customer propped it up. IBM sold most of the stake again in 1987 once Intel had recovered.",
+    "assets": [
+      "intc",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03, via data/news/1982.json); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03)"
+  },
+  {
+    "month": "1984-04",
+    "title": "Intel's first billion-dollar year",
+    "what": "Intel's annual report for 1983 shows sales up 25 percent to more than one billion dollars, the first time it has passed that mark, after two difficult years. Chairman Gordon Moore wrote: \"We closed 1983 with a bang.\" The economic recovery has brought strong demand for chips for personal computers and factory automation.",
+    "why": "The top of the 1983-84 chip boom; the stock had nearly doubled in 1983 and fell back in 1984 as the next memory-chip glut began.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)"
+  },
+  {
+    "month": "1985-10",
+    "title": "Intel gives up memory chips and launches the 386",
+    "what": "On 10 October Intel told its staff that it is leaving the market for DRAM memory chips, the product it pioneered in 1970, after falling prices, slumping demand and a glut of supply, much of it from Japan. A week later it introduced the 80386, its first 32-bit processor. Intel will concentrate on microprocessors; the chip industry is in its worst slump in years.",
+    "why": "The defining turn of the company: Grove later called it the best business decision Intel ever made. Plants were closed and about a third of the workforce went over 1985-86.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 1,
+    "source": "https://timeline.intel.com/1985/farewell-to-dram (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03); https://thechipletter.substack.com/p/intels-transformation-20 (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "1987-01",
+    "title": "Chip shares surge as Intel's 386 takes off",
+    "what": "Intel has come through what it calls the toughest year in its history, with a loss for 1986 after the long chip slump. But personal computers built around its 32-bit 386 processor, led by Compaq's Deskpro 386, are selling, and Intel has won trade disputes at home and abroad. Technology shares are leading a sharp rise on Wall Street in January.",
+    "why": "Explains the +49% month: the market rose 13% in January 1987, and Intel, the purest bet on the PC recovery, rose almost four times as much. Intel returned to profit in the first quarter of 1987 and earned a record 248 million dollars that year.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 49
+    },
+    "importance": 2,
+    "source": "https://timeline.intel.com/1986/financial-year-1986 (read 2026-10-03); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)"
+  },
+  {
+    "month": "1987-04",
+    "title": "Andy Grove becomes Intel's chief executive",
+    "what": "Intel named Andy Grove chief executive on 28 April, with co-founder Gordon Moore staying on as chairman. Grove, who drove the exit from memory chips, now runs a company built around the 386 processor, which Intel decided to make without licensing it to rival chipmakers.",
+    "why": "Grove's decade as CEO (1987-1998) took Intel's market value from about 4 billion to about 197 billion dollars.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://timeline.intel.com/1987/grove's-big-promotion (read 2026-10-03, via data/news/1987.json); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash hits technology shares hardest",
+    "what": "On 19 October the Dow Jones index fell 22.6% in a single day, the largest one-day drop in its history, and markets around the world crashed with it. Fast-rising technology shares such as Intel, which had nearly tripled since the start of the year, fell further than the market.",
+    "why": "The -32% month is the crash, not company news; Intel's business kept growing through it.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -32
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/intc.json (monthly prices)"
+  },
+  {
+    "month": "1989-04",
+    "title": "Intel announces the 486",
+    "what": "Intel announced the i486 processor on 10 April at the Comdex show. It is the first x86 chip with more than a million transistors and, Intel says, about twice as fast as the 386 at the same clock speed. Samples are due in the third quarter.",
+    "why": "The steady drumbeat of new generations that kept PC makers buying; each generation was sold only by Intel at first, at high margins.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Windows 3.0 makes PCs graphical",
+    "what": "Microsoft launched Windows 3.0 on 22 May, making it practical to run several programs side by side with a mouse and pictures on ordinary IBM-compatible PCs, nearly all of which use Intel's processors or copies of them. Intel is selling its 386 and new 486 chips.",
+    "why": "Graphical software needed ever faster processors; Windows and Intel's chips grew together through the 1990s. Intel rose 22% in a month in which the market rose 9%, but the sources read do not tie the move to Windows.",
+    "assets": [
+      "intc",
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "1991-12",
+    "title": "\"Intel Inside\": a chip with a brand",
+    "what": "This year Intel began advertising directly to computer buyers with its \"Intel Inside\" campaign, so that customers ask for its processors by name.",
+    "why": "The brand campaign turned a hidden component into a consumer brand and helped Intel hold off makers of compatible chips. The launch month of the campaign is not given in the sources read; the beat sits at the year-end.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "1992-12",
+    "title": "Intel becomes the world's largest chipmaker",
+    "what": "Intel has become the biggest seller of semiconductors in the world, seven years after it gave up memory chips to concentrate on microprocessors.",
+    "why": "The stock rose about 80% in 1992. The exact month of the ranking is not given in the source; the beat sits at the year-end.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "1993-03",
+    "title": "The Pentium arrives",
+    "what": "Intel launched the Pentium, the successor to the 486, with 3.1 million transistors. It is the first of Intel's processors to carry a name instead of a number.",
+    "why": "The Pentium years (1993-2000) were Intel's golden age: the stock rose about twentyfold from the launch to the peak of August 2000.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Pentium (read 2026-10-03, via History of Intel)"
+  },
+  {
+    "month": "1994-12",
+    "title": "The Pentium division flaw: Intel gives in",
+    "what": "A mathematics professor, Thomas Nicely, found that the Pentium gets some divisions slightly wrong; the story spread from November and CNN covered it on 22 November. After IBM stopped selling Pentium PCs in mid-December, Intel announced on 20 December that it will replace the chip for any customer who asks. Intel expects to take a charge for the replacements.",
+    "why": "A lesson in brand management: Intel first played the flaw down, then paid; on 17 January 1995 it announced a pretax charge of 475 million dollars. The stock barely moved; the episode cost money, not the franchise.",
+    "assets": [
+      "intc",
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug (read 2026-10-03)"
+  },
+  {
+    "month": "1995-11",
+    "title": "The Pentium Pro",
+    "what": "Intel introduced the Pentium Pro on 1 November, its sixth-generation processor at 150 to 200 MHz. It runs best with fully 32-bit software such as Windows NT and is aimed above all at servers and powerful workstations.",
+    "why": "Its strength in servers (it powered ASCI Red, the first computer to pass a teraflop, in 1996) pointed to Intel's future in data centres; the stock rose about 130% in 1996.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Pentium_Pro (read 2026-10-03)"
+  },
+  {
+    "month": "1997-05",
+    "title": "The Pentium II",
+    "what": "Intel introduced the Pentium II on 7 May, combining the design of its Pentium Pro with the MMX multimedia instructions, at 233 to 300 MHz. It comes on a cartridge that plugs into a slot rather than a socket.",
+    "why": "Another step in the yearly upgrade cycle of the golden age; Intel shares more than doubled in 1996.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Pentium_II (read 2026-10-03)"
+  },
+  {
+    "month": "1997-12",
+    "title": "Time names Andy Grove Man of the Year",
+    "what": "Time magazine chose Intel's chief executive Andy Grove as its Man of the Year, as the person most responsible for the growth of the microchip. Intel's sales reached about 21 billion dollars in 1997, and the company is worth close to 200 billion dollars on the stock market, against about 4 billion when Grove took over in 1987.",
+    "why": "Peak prestige of the Grove era; Grove stepped down as CEO five months later.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
+  },
+  {
+    "month": "1998-06",
+    "title": "Barrett takes over, and the FTC sues Intel",
+    "what": "Craig Barrett succeeded Andy Grove as chief executive on 20 May, with Grove staying on as chairman; Barrett wants Intel to grow beyond PCs into networking chips and internet services. On 8 June the Federal Trade Commission charged Intel with abusing its monopoly by cutting off three customers, Compaq, Intergraph and DEC, from technical information in patent disputes.",
+    "why": "The first antitrust case against Intel, settled in March 1999; the competition complaints from AMD that followed ran for two decades.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://timeline.intel.com/1998/barrett-succeeds-grove (read 2026-10-03); https://www.ftc.gov/news-events/news/press-releases/1998/06/ftc-intel-abuses-its-monopoly-power-violation-federal-law (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
+  },
+  {
+    "month": "1999-11",
+    "title": "Intel and Microsoft join the Dow",
+    "what": "On 1 November Intel and Microsoft joined the Dow Jones Industrial Average, the first companies traded on Nasdaq to be included, together with SBC Communications and Home Depot. They replace Goodyear, Sears, Union Carbide and Chevron.",
+    "why": "The old economy making room for the new one, near the top of the technology boom.",
+    "assets": [
+      "intc",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
+  },
+  {
+    "month": "2000-09",
+    "title": "Intel warns, and loses a fifth in a day",
+    "what": "On 21 September Intel said third-quarter revenue would grow only 3 to 5% from the second quarter, to 8.5 to 8.7 billion dollars, well short of what analysts expected, blaming weak sales in Europe. The shares fell 21% in after-hours trading, from 61.48 to 48.06 dollars, and kept falling; it was a record trading day for a US stock.",
+    "why": "The end of the PC boom and the start of an 83% fall to February 2009. Intel had peaked at about 75 dollars in August 2000 and did not see that price again until 2026.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -44
+    },
+    "importance": 1,
+    "source": "https://www.spokesman.com/stories/2000/sep/22/intel-warns-of-earnings-drop/ (read 2026-10-03); https://www.washingtonpost.com/archive/business/2000/09/23/markets-recover-from-intel-news/86f1f046-3970-447b-8152-2fa4c425ae46/ (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2002-06",
+    "title": "Intel cuts its forecast again",
+    "what": "On 6 June Intel lowered its outlook for the second quarter: revenue between 6.2 and 6.5 billion dollars instead of 6.4 to 7.0 billion, mainly because of softer than expected demand in Europe, and a gross margin of about 49% instead of 53%. Technology shares are falling with the whole market.",
+    "why": "The -34% month combines the forecast cut with the 2002 bear market (S&P 500 -7% in June). Intel fell further to a low in September 2002.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -34
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086302000054/q202updateexh99.htm (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2004-04",
+    "title": "Recovery in the numbers, trouble in the chips",
+    "what": "On 13 April Intel reported first-quarter revenue of 8.1 billion dollars, up 20% from a year earlier, and net income up 89%, as companies spend more on computers again. It is moving production to a 90-nanometre process, and it settled a patent case with Intergraph for 225 million dollars.",
+    "why": "The numbers recovered but the product line did not: the 90-nanometre Pentium 4 (\"Prescott\") of February 2004 ran so hot that Intel cancelled its successor and turned to multi-core designs, while AMD gained ground.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752304003176/a4614392ex99.txt (Intel press release of 13 April 2004) (read 2026-10-03); https://en.wikipedia.org/wiki/Pentium_4 (read 2026-10-03)"
+  },
+  {
+    "month": "2005-06",
+    "title": "Apple switches the Mac to Intel",
+    "what": "On 6 June Steve Jobs announced that Apple will use Intel's processors in its Macintosh computers from 2006, ending its use of IBM and Motorola's PowerPC chips. Paul Otellini, Intel's chief executive since 18 May, worked to win the deal.",
+    "why": "A prestige win; Apple left again for its own chips in 2020, and Intel's failure to win the iPhone was the bigger missed chance.",
+    "assets": [
+      "intc",
+      "aapl",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2006-09",
+    "title": "Intel cuts 10,500 jobs after losing ground to AMD",
+    "what": "Intel will eliminate 10,500 jobs, about a tenth of its workforce, through layoffs, attrition and the sale of business groups, and trim about 5 billion dollars of costs over two years. It has lost market share to AMD, whose Opteron and Athlon 64 chips have been ahead since 2003. Chief executive Paul Otellini compared the overhaul to the exit from memory chips in the 1980s.",
+    "why": "The low of the AMD challenge; the new Core 2 chips launched in July 2006 brought Intel back in front.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://www.cbsnews.com/news/intel-to-cut-10500-jobs/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2008-01",
+    "title": "Record 2007, then a slump in the shares",
+    "what": "On 15 January Intel reported record fourth-quarter revenue of 10.7 billion dollars and operating income up 45% for 2007, crediting its Core processors with restoring its lead. Otellini said Intel enters 2008 with its best combination of products and manufacturing ever. Stock markets are falling.",
+    "why": "The top of the Core comeback; Intel fell 21% in January 2008 with the market and halved by early 2009. The cause of the January fall beyond the market is not confirmed in the sources read.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752308000317/a5586061ex99_1.htm (Intel press release of 15 January 2008) (read 2026-10-03)"
+  },
+  {
+    "month": "2008-11",
+    "title": "The crisis reaches the chip business",
+    "what": "On 12 November Intel said fourth-quarter revenue will be about 9 billion dollars, down from its earlier forecast of 10.1 to 10.9 billion, because demand is much weaker than expected in all regions and PC makers are cutting their inventories. It also lowered its margin forecast.",
+    "why": "The financial crisis in Intel's numbers; the stock reached its low for the whole period in February 2009, 83% below the 2000 peak.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086308000316/exh991.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2009-05",
+    "title": "The EU fines Intel 1.06 billion euros",
+    "what": "On 13 May the European Commission fined Intel 1.06 billion euros, its largest fine ever, for abusing its dominant position from 2002 to 2007 with rebates and payments to computer makers and retailers that kept AMD's chips out. Intel is appealing.",
+    "why": "Confirms what AMD had complained about for years; the fine was later annulled on appeal and partly re-imposed, but the episode marked the end of Intel's unchallenged era.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_09_745 (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2011-01",
+    "title": "Intel settles with Nvidia for 1.5 billion dollars",
+    "what": "On 10 January Intel and Nvidia signed a patent cross-licence and ended their lawsuits over Nvidia's right to make chipsets for Intel processors. Intel will pay Nvidia 1.5 billion dollars in licence fees over six years.",
+    "why": "For Intel a cost of doing business; for Nvidia a cash stream and the end of the chipset business, which pushed it further into graphics and computing.",
+    "assets": [
+      "intc",
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2012-11",
+    "title": "Otellini will retire",
+    "what": "On 19 November Intel announced that chief executive Paul Otellini will retire in May 2013, after nearly 40 years at the company and eight as chief executive. Intel has failed to win much business in the chips for smartphones and tablets.",
+    "why": "Brian Krzanich, head of manufacturing, succeeded him in May 2013. The mobile era passed Intel by; the stock went nowhere from 2000 to 2013.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086312000132/exhibit99_1.htm (Intel press release of 19 November 2012) (read 2026-10-03); https://en.wikipedia.org/wiki/Brian_Krzanich (read 2026-10-03)"
+  },
+  {
+    "month": "2014-07",
+    "title": "Record processor shipments",
+    "what": "On 15 July Intel reported second-quarter revenue of 13.8 billion dollars and net income of 2.8 billion, up 40%, with record quarterly shipments of microprocessors, and said it will buy back 4 billion dollars of shares in the third quarter.",
+    "why": "Intel's shares rose about 40% in 2014.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086314000054/earningsreleaseq22014.htm (Intel press release of 15 July 2014) (read 2026-10-03)"
+  },
+  {
+    "month": "2016-04",
+    "title": "Intel cuts 12,000 jobs and gives up on smartphones",
+    "what": "Intel will cut 12,000 jobs, 11% of its workforce, by mid-2017 and make data centres and connected devices its main growth engines; Krzanich says Intel is evolving from a PC company into one that powers the cloud. It also cancelled its planned smartphone chips, effectively leaving that market.",
+    "why": "The formal end of the mobile ambition.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://www.cnbc.com/2016/04/19/intel-reports-q1-2016-earnings.html (read 2026-10-03, via search summary); https://www.sec.gov/Archives/edgar/data/0000050863/000005086316000122/pressreleaseq12016.htm (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2018-01",
+    "title": "Meltdown and Spectre: a security flaw in Intel's processors",
+    "what": "Researchers reported two security flaws, named Meltdown and Spectre, that affect almost all Intel processors made since 1995 and can let programs read data they should not see. Software fixes are being rolled out.",
+    "why": "Reputational rather than financial damage; the shares rose that month.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2018-06",
+    "title": "Krzanich resigns",
+    "what": "Chief executive Brian Krzanich resigned with immediate effect on 21 June after an investigation found a past consensual relationship with an employee, against company rules. Finance chief Bob Swan is interim chief executive. Intel is also struggling to start production of its 10-nanometre chips, which are years late.",
+    "why": "The manufacturing delays, not the scandal, were the real problem: Intel lost ground to TSMC and Samsung and market share to AMD in these years.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://www.cnbc.com/2018/06/21/intel-ceo-brian-krzanich-to-step-down-bob-swan-to-step-in-as-interim-ceo.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Brian_Krzanich (read 2026-10-03)"
+  },
+  {
+    "month": "2019-01",
+    "title": "Bob Swan becomes permanent chief executive",
+    "what": "On 31 January Intel named Bob Swan, its finance chief since 2016 and interim chief executive for seven months, as its seventh chief executive.",
+    "why": "A finance man to run an engineering company in trouble; under Swan the manufacturing delays came to a head in July 2020.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000119312519023301/d702987dex991.htm (Intel press release of 31 January 2019) (read 2026-10-03)"
+  },
+  {
+    "month": "2020-07",
+    "title": "Intel's 7-nanometre chips slip, and it may outsource",
+    "what": "On 23 July Intel said its first 7-nanometre chips are six months later than planned, now due in late 2022 or early 2023, with production yields about a year behind target. Chief executive Bob Swan said Intel might have other companies make some chips. The shares fell 16% the next day.",
+    "why": "The moment the market accepted that Intel had lost its manufacturing lead; Swan's talk of outsourcing would have been unthinkable a few years earlier.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -20
+    },
+    "importance": 1,
+    "source": "https://www.cnn.com/2020/07/24/investing/intel-earnings-stock-selloff (read 2026-10-03, via search summary); https://siliconangle.com/2020/07/23/intels-stock-falls-delays-first-7nm-computer-chips/ (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2021-03",
+    "title": "Gelsinger returns and launches IDM 2.0",
+    "what": "Pat Gelsinger, a former Intel engineer who ran VMware, became chief executive on 15 February after the board replaced Bob Swan; the shares rose nearly 8% when his appointment was announced on 13 January. On 23 March he announced a strategy called IDM 2.0: Intel will keep making its own chips, use outside factories where useful, and open a foundry business, Intel Foundry Services, to manufacture chips for other companies, with large new factories in the United States.",
+    "why": "The bet that defined the next five years: tens of billions in capital spending and heavy foundry losses before the first big outside customers arrived in 2026.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915dex991.htm (read 2026-10-03, via search summary); https://edition.cnn.com/2021/01/13/investing/intel-new-ceo-pat-gelsinger/index.html (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2023-03",
+    "title": "Chip shares rebound on hopes the slump is over",
+    "what": "Intel's shares rose 31% in March. Analysts at Raymond James and Susquehanna turned more positive, saying the slump in chips for PCs and phones has hit bottom, technology shares rallied after the government guaranteed all deposits of the failed Silicon Valley Bank, and Micron's results late in the month were read as the worst being over for chipmakers.",
+    "why": "A cyclical bounce, not a turnaround; it faded within a year.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 31
+    },
+    "importance": 3,
+    "source": "https://www.fool.com/investing/2023/04/05/why-intel-stock-soared-31-in-march/ (read 2026-10-03)"
+  },
+  {
+    "month": "2024-04",
+    "title": "Intel's factories lost 7 billion dollars",
+    "what": "On 2 April Intel published separate figures for its manufacturing business for the first time: Intel Foundry lost 7 billion dollars in 2023 on sales of 18.9 billion, and Gelsinger expects 2024 losses to be the worst, with break-even around 2027. The shares fell 8% the next day. On 25 April a weak forecast for the second quarter followed.",
+    "why": "The market saw the cost of IDM 2.0 in black and white; -31% for the month.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -31
+    },
+    "importance": 1,
+    "source": "https://www.cnbc.com/2024/04/02/intel-shares-fall-after-company-reveals-7-billion-operating-loss-in-foundry-business.html (read 2026-10-03, via search summary); https://www.datacenterdynamics.com/en/news/intel-foundry-unit-posts-25bn-operating-loss-for-q1-2024/ (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2024-08",
+    "title": "Intel suspends its dividend and cuts 15% of jobs",
+    "what": "On 1 August Intel reported a second-quarter loss of 1.6 billion dollars, said it will cut more than 15% of its workforce, about 15,000 jobs, and suspend its dividend from the fourth quarter. The shares fell 26% the next day to 21.48 dollars, their worst day in decades.",
+    "why": "The low point of the turnaround.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -28
+    },
+    "importance": 1,
+    "source": "https://www.rappler.com/technology/intel-job-cuts-suspend-dividend-august-2024/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2024-12",
+    "title": "Gelsinger is pushed out",
+    "what": "Intel announced on 2 December that Pat Gelsinger has retired as chief executive and left the board, effective 1 December. Finance chief David Zinsner and Michelle Johnston Holthaus are interim co-chief executives while the board searches for a successor. The shares are down about half this year.",
+    "why": "The board gave up on the turnaround's pace, not its direction.",
+    "assets": [
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/a12012024form8-kex991.htm (read 2026-10-03, via search summary); https://www.cnbc.com/2024/12/02/intel-ceo-pat-gelsinger-is-out.html (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2025-08",
+    "title": "The US government takes 10% of Intel",
+    "what": "Lip-Bu Tan, a veteran chip investor, has been chief executive since March. On 18 August SoftBank agreed to invest 2 billion dollars in Intel. On 22 August President Trump announced that the government will convert grants promised to Intel under the CHIPS Act into shares: it buys 433.3 million shares at 20.47 dollars, 8.9 billion dollars for about 10% of the company.",
+    "why": "State backing removed the fear that Intel could run out of money; +23% for the month.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 23
+    },
+    "importance": 1,
+    "source": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2025-09",
+    "title": "Nvidia invests 5 billion dollars in Intel",
+    "what": "On 18 September Nvidia agreed to buy 5 billion dollars of Intel shares at 23.28 dollars, about 4% of the company, and the two will develop chips together for PCs and data centres. Intel's shares closed 22.8% higher at 30.57 dollars, their best day since 1987.",
+    "why": "The market leader in AI chips backing its fallen rival; +38% for the month.",
+    "assets": [
+      "intc",
+      "nvda"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 38
+    },
+    "importance": 1,
+    "source": "https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "title": "Intel more than doubles in a month",
+    "what": "On 9 April Intel's foundry won Tesla as a long-term partner for a planned chip plant and Alphabet committed to Intel processors for Google Cloud. On 23 April Intel reported first-quarter revenue of 13.6 billion dollars, up 7%, and adjusted earnings of 29 cents a share against two cents expected; chief executive Lip-Bu Tan said demand for data-centre processors now exceeds supply. The shares rose 24% the next day and 114% for the month.",
+    "why": "Its best month in 55 years on Nasdaq: AI agents turned out to need ordinary processors as well as Nvidia's accelerators.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 114
+    },
+    "importance": 1,
+    "source": "https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2026-05",
+    "title": "Intel passes its 2000 peak on talk of an Apple deal",
+    "what": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded above 130 dollars, far above their August 2000 record of 74.88 dollars.",
+    "why": "Twenty-six years to regain the dot-com peak. Reports later in May spoke of a preliminary agreement; the details remain unconfirmed by the companies in the sources read.",
+    "assets": [
+      "intc",
+      "aapl"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 21
+    },
+    "importance": 2,
+    "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2026-07",
+    "title": "Intel falls a third from its June high",
+    "what": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
+    "why": "A valuation correction after a fivefold rise in a year; -35% for the month.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": -35
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2026-09",
+    "title": "AI agents lift Intel again",
+    "what": "Intel's shares rose more than 40% in September. On 21 September they jumped 12% when reports said the success of Meta's Muse AI agent app could raise demand for processors; AMD rose 10% the same day. Intel had said in July that data-centre revenue grew 59% and that server chip demand exceeds supply.",
+    "why": "The rally rests on demand for processors in AI data centres; commentators warned that the shares now trade at more than 80 times this year's expected earnings.",
+    "assets": [
+      "intc"
+    ],
+    "move": {
+      "asset": "intc",
+      "pct": 34
+    },
+    "importance": 2,
+    "source": "https://www.trefis.com/stock/intc/articles/616955/what-changed-for-intel-stock-and-what-did-not/2026-09-29 (read 2026-10-03); https://www.fool.com/investing/2026/09/27/intel-stock-surged-over-40-in-september-history-sh/ (read 2026-10-03); https://247wallst.com/investing/2026/09/30/intel-rises-3-as-chip-contender-caps-off-surprisingly-strong-september-nvidia-ticks-up-amd-slips/ (read 2026-10-03)"
+  }
+]

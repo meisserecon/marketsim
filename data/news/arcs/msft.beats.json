@@ -1,0 +1,515 @@
+[
+  {
+    "month": "1986-03",
+    "title": "Microsoft, maker of the software inside the PC, goes public",
+    "what": "Microsoft sold shares to the public for the first time on 13 March at 21 dollars, raising 61 million dollars; they closed the first day at about 28 dollars. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars.",
+    "why": "The listing beat. Every PC sold with MS-DOS paid Microsoft a fee; a buyer at the IPO is buying the toll on the whole PC industry. 21 dollars in 1986 became more than 5,000 times its value by 2026, before dividends.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03)"
+  },
+  {
+    "month": "1987-04",
+    "title": "Microsoft and IBM announce OS/2",
+    "what": "On 2 April Microsoft and IBM announced OS/2, a new operating system for IBM's new PS/2 computers, the first product of a joint development deal signed in 1985. Microsoft also writes DOS, the system on most PCs today, and sales for the year to June 1987 reach about 346 million dollars.",
+    "why": "In 1987 IBM was still Microsoft's most important partner. The stock rose almost fivefold in Microsoft's first eighteen months.",
+    "assets": [
+      "msft",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1987 (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash halves the year's gains",
+    "what": "On 19 October the Dow Jones index fell 22.6% in one day, the largest drop in its history, and markets fell around the world. Microsoft's shares, which had more than doubled since January, fell with them. Earlier in the month Microsoft announced Excel for Windows.",
+    "why": "A market event; Microsoft's business was unaffected. The year's rise had made Bill Gates, aged 31, the world's youngest billionaire.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": -25
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Bill_Gates (read 2026-10-03)"
+  },
+  {
+    "month": "1988-03",
+    "title": "Apple sues Microsoft over Windows",
+    "what": "Apple sued Microsoft and Hewlett-Packard in March, claiming that Windows 2.0 copies the look of the Macintosh screen and breaks Apple's copyright. The case will test how far a company can protect the look of its software.",
+    "why": "If Apple had won, Windows would have been crippled; Apple lost the key ruling in April 1992.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Windows_2.0 (read 2026-10-03, via data/news/1988.json); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03)"
+  },
+  {
+    "month": "1989-06",
+    "title": "Microsoft Office for the Macintosh",
+    "what": "Microsoft Office for the Macintosh went on sale on 19 June, bundling Word, Excel, PowerPoint and Mail in one package. Sales for the year to June 1989 are about 805 million dollars.",
+    "why": "The first Office: bundling the leading programs became Microsoft's second franchise next to the operating system.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1989 (read 2026-10-03, via data/news/1989.json)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Windows 3.0 launches",
+    "what": "On 22 May Microsoft launched Windows 3.0 at a big event in New York. Its better use of computer memory makes it practical to run several programs side by side with a mouse and pictures, and software makers are now writing programs for it.",
+    "why": "The version that made Windows the standard and Microsoft the dominant software company. The stock rose 26% in the month, helped by a market up 9%.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 26
+    },
+    "importance": 1,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "1992-04",
+    "title": "Windows 3.1 ships, and Microsoft wins against Apple",
+    "what": "On 6 April Microsoft shipped Windows 3.1, with more than a million advance orders worldwide. On 15 April a federal judge ruled that the screen displays Apple complained about in Windows 2.03, and many of those in Windows 3.0, are not protected by Apple's copyrights. Windows applications sales rose 157% in 1990.",
+    "why": "Removes the main legal threat to Windows; Microsoft's sales reached 2.76 billion dollars in the year to June 1992.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1991 (read 2026-10-03)"
+  },
+  {
+    "month": "1993-04",
+    "title": "25 million Windows users",
+    "what": "Microsoft says more than 25 million people now use licensed copies of Windows, making it the most popular graphical operating system in the world.",
+    "why": "Windows had won the desktop.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1993 (read 2026-10-03)"
+  },
+  {
+    "month": "1994-07",
+    "title": "Microsoft settles with the Justice Department",
+    "what": "On 15 July Microsoft agreed with the Justice Department to change how it licenses its operating systems to PC makers. It may not tie other products to Windows, but it may still add features to Windows itself.",
+    "why": "The first antitrust settlement; the line between a 'tied product' and an 'integrated feature' became the heart of the 1998 case.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03)"
+  },
+  {
+    "month": "1995-08",
+    "title": "Windows 95 goes on sale",
+    "what": "On 24 August Microsoft released Windows 95, with a new look and a Start button; more than a million copies were sold in the first four days. The same day it launched MSN, an online service to rival AOL. Sales for the year to June 1995 were 5.94 billion dollars.",
+    "why": "The peak of the PC era's excitement; Windows was soon on more than 90% of the world's PCs.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1995 (read 2026-10-03)"
+  },
+  {
+    "month": "1997-04",
+    "title": "Office 97 drives a 45% jump in sales",
+    "what": "Microsoft's revenue for the quarter to March was 3.21 billion dollars, 45% more than a year earlier, driven by the new Office 97. More than three quarters of new PCs now come with Windows 95, and sales of Windows NT for business servers are growing fastest. Earlier in April Microsoft agreed to buy WebTV Networks for about 425 million dollars.",
+    "why": "Explains the +33% month, assuming the quarterly figures were published in April as usual; the release date itself is not in the sources read (the figures are from the 10-Q filed on 15 May).",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 33
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/0000891020-97-000879.txt (Microsoft 10-Q for the quarter to 31 March 1997, read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1997 (read 2026-10-03)"
+  },
+  {
+    "month": "1997-08",
+    "title": "Microsoft invests 150 million dollars in Apple",
+    "what": "At the Macworld show on 6 August Steve Jobs announced a deal with Microsoft: Microsoft will invest 150 million dollars in Apple, keep making Office for the Mac for five years and settle the patent dispute, and Internet Explorer becomes the Mac's default browser. Bill Gates appeared on a giant screen behind Jobs.",
+    "why": "Cheap insurance for Microsoft, which needed a living competitor while antitrust pressure grew.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1997 (read 2026-10-03)"
+  },
+  {
+    "month": "1998-05",
+    "title": "The government sues Microsoft",
+    "what": "On 18 May the Justice Department and the attorneys general of 20 states sued Microsoft, charging it with abusing its market power to thwart competition, above all by tying its Internet Explorer browser to Windows to defeat Netscape. Judge Thomas Penfield Jackson will hear the case.",
+    "why": "The start of the case that hung over Microsoft until 2001; it did not stop the shares rising another 175% before the end of 1999.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1998 (read 2026-10-03)"
+  },
+  {
+    "month": "1999-01",
+    "title": "Year-2000 spending lifts Microsoft's sales by 38%",
+    "what": "Microsoft's revenue for the quarter to December was 4.94 billion dollars, 38% more than a year earlier. Companies and governments bought licences for Windows and Office at the end of their budget years, before freezing their computer systems ahead of the year 2000.",
+    "why": "Explains the +26% month, assuming the results were published in January as usual; the release date is not in the sources read (figures from the 10-Q filed on 12 February).",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 26
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/0001032210-99-000191.txt (Microsoft 10-Q for the quarter to 31 December 1998, read 2026-10-03)"
+  },
+  {
+    "month": "1999-11",
+    "title": "The judge finds Microsoft is a monopoly",
+    "what": "On 1 November Microsoft and Intel joined the Dow Jones Industrial Average, the first companies traded on Nasdaq to be included. Four days later, on 5 November, Judge Jackson issued his findings of fact: Microsoft's dominance of PC operating systems amounts to monopoly power, and it used that power to harm competitors and consumers. His ruling on whether it broke the law is still to come.",
+    "why": "The shares barely reacted; investors in the 1999 boom did not believe the case would hurt the business.",
+    "assets": [
+      "msft",
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
+  },
+  {
+    "month": "2000-01",
+    "title": "Ballmer replaces Gates as chief executive",
+    "what": "Bill Gates handed the job of chief executive to Steve Ballmer, who joined Microsoft in 1980 and has been president since 1998. Gates stays chairman and becomes chief software architect.",
+    "why": "December 1999 was the peak of the stock until October 2016; Ballmer's fourteen years as CEO were the lost decade for shareholders.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Bill_Gates (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2000-04",
+    "title": "Judge rules Microsoft broke the antitrust law",
+    "what": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and the Nasdaq index 8%, adding to the slide in technology shares that began in March.",
+    "why": "The -34% month: the legal blow and the bursting of the dot-com bubble arrived together.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": -34
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2000-06",
+    "title": "The court orders Microsoft split in two",
+    "what": "On 7 June the court ordered Microsoft to submit within four months a plan to split into two companies, one for operating systems and one for applications, which may not merge or share technology for ten years. Microsoft is appealing.",
+    "why": "The breakup was never carried out. Oddly, the shares rose 28% in the month; the sources read do not explain why (see Unexplained moves).",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/0001032210-00-001222.txt (Microsoft 8-K of 7 June 2000, read 2026-10-03); https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03)"
+  },
+  {
+    "month": "2001-01",
+    "title": "A surprise rate cut lifts beaten-down technology shares",
+    "what": "On 3 January the Federal Reserve cut its key interest rate by half a point to 6%, between its scheduled meetings. Technology shares, which fell hard in 2000, rebounded; Microsoft had lost almost two thirds of its value in 2000. Microsoft's revenue for the quarter to December grew 8% to 6.59 billion dollars, driven by Windows 2000 and server software.",
+    "why": "The +41% month is a rebound from deeply oversold levels, helped by the rate cut; it did not last.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 41
+    },
+    "importance": 3,
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/789019/0001032210-01-000273.txt (Microsoft 10-Q for the quarter to 31 December 2000, read 2026-10-03); data/out/msft.json (monthly prices)"
+  },
+  {
+    "month": "2001-06",
+    "title": "Appeals court throws out the breakup",
+    "what": "On 28 June the federal appeals court in Washington upheld part of the finding that Microsoft illegally maintained its monopoly, but overturned the order to break up the company and sent the case back to a new judge.",
+    "why": "Microsoft survived as one company; the case ended in a settlement in November.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03)"
+  },
+  {
+    "month": "2001-11",
+    "title": "Settlement with the government, and the Xbox launches",
+    "what": "On 1 November the Justice Department, which said in September it would no longer seek a breakup, reached a settlement with Microsoft: Microsoft must share its programming interfaces with other companies and accept a monitoring panel for five years. On 15 November Microsoft launched the Xbox, its first games console, in North America.",
+    "why": "The end of the antitrust threat to the company's structure; the Xbox was Microsoft's first big hardware bet.",
+    "assets": [
+      "msft",
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03)"
+  },
+  {
+    "month": "2003-01",
+    "title": "Microsoft pays its first dividend",
+    "what": "On 16 January Microsoft's board declared the company's first dividend, 16 cents a share for the year (8 cents after a two-for-one split also announced that day). For a company that has always kept its profits, it is a change of character.",
+    "why": "The growth company becomes a mature one; the shares were flat for the rest of the decade.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000103221003000121/d10q.htm (Microsoft 10-Q for the quarter to 31 December 2002, read 2026-10-03)"
+  },
+  {
+    "month": "2004-07",
+    "title": "A 3-dollar special dividend and a 30 billion dollar buyback",
+    "what": "Microsoft's board approved a one-time special dividend of 3 dollars a share, a quarterly dividend of 8 cents, and plans to buy back up to 30 billion dollars of its own shares over four years. The company had accumulated more cash than it could use.",
+    "why": "A very large cash return; it appears in the game as dividend income, not as a price rise.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312504122829/dex991.htm (Microsoft press release of 22 July 2004, read 2026-10-03)"
+  },
+  {
+    "month": "2006-06",
+    "title": "Gates will step back from Microsoft",
+    "what": "On 15 June Bill Gates announced that over two years he will leave his day-to-day role at Microsoft, by July 2008,. He remains chairman.",
+    "why": "The founder era ends while the shares are going nowhere.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); https://en.wikipedia.org/wiki/Bill_Gates (read 2026-10-03)"
+  },
+  {
+    "month": "2007-01",
+    "title": "Windows Vista, at last",
+    "what": "Windows Vista went on sale worldwide on 30 January. Microsoft had hoped to have it in shops for the 2006 holiday season but postponed it in March 2006.",
+    "why": "The long delay became a symbol of the Ballmer years.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Windows_Vista (read 2026-10-03)"
+  },
+  {
+    "month": "2008-02",
+    "title": "Microsoft bids 44.6 billion dollars for Yahoo",
+    "what": "On 1 February Microsoft offered to buy Yahoo for 31 dollars a share, half in cash and half in shares, about 44.6 billion dollars and a 62% premium. Microsoft wants to compete with Google in online advertising, which it expects to double from 40 billion dollars in 2007 to nearly 80 billion by 2010.",
+    "why": "The bid showed how far Microsoft had fallen behind Google on the internet.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000095012308001037/y47867exv99w1.htm (Microsoft press release of 1 February 2008, read 2026-10-03)"
+  },
+  {
+    "month": "2009-01",
+    "title": "Microsoft cuts up to 5,000 jobs",
+    "what": "On 22 January Steve Ballmer told employees that Microsoft will eliminate up to 5,000 jobs over 18 months, 1,400 of them immediately, as the recession hits demand for PCs.",
+    "why": "The stock reached its low for the period in February 2009, 72% below its 1999 peak.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312509009388/dex992.htm (Ballmer e-mail of 22 January 2009, read 2026-10-03)"
+  },
+  {
+    "month": "2010-05",
+    "title": "Apple is now worth more than Microsoft",
+    "what": "On 26 May Apple's stock market value overtook Microsoft's for the first time since 1989. Apple sells iPhones and iPods; Microsoft's sales still depend on Windows and Office for PCs.",
+    "why": "The symbol of the lost decade: the PC giant overtaken by the company it rescued in 1997.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2011-05",
+    "title": "Microsoft buys Skype",
+    "what": "On 10 May Microsoft agreed to buy Skype, the internet telephone service, for about 8.5 billion dollars.",
+    "why": "Another attempt to catch up with consumers on the internet.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2012-10",
+    "title": "Windows 8 and the Surface tablet",
+    "what": "On 26 October Microsoft launched Windows 8, redesigned for touch screens, and the Surface, its own tablet computer.",
+    "why": "Both disappointed; weak sales hit the shares in July 2013.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2013-08",
+    "title": "Ballmer will retire",
+    "what": "On 23 August Microsoft announced that Steve Ballmer will retire as chief executive within twelve months, once a successor is chosen. He has led Microsoft since 2000 and is steering it towards becoming a devices and services company.",
+    "why": "Investors welcomed the change (+5% in August): the shares had suffered their biggest one-day fall since 2000 on 19 July, after weak sales of Windows 8 and the Surface tablet. On 3 September Microsoft agreed to buy Nokia's phone business for about 7 billion dollars; it did not succeed under Microsoft.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312513345446/d588836dex991.htm (Microsoft press release of 23 August 2013, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2014-02",
+    "title": "Satya Nadella becomes chief executive",
+    "what": "On 4 February Microsoft named Satya Nadella, head of its cloud and enterprise division and at the company since 1992, as chief executive. Bill Gates leaves the chairmanship to become a technology adviser; John Thompson becomes chairman.",
+    "why": "The turning point of the second act: under Nadella the shares rose about fourteenfold by 2026 as Microsoft became a cloud company.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312514035080/d669538dex991.htm (Microsoft press release of 4 February 2014, read 2026-10-03); https://en.wikipedia.org/wiki/Satya_Nadella (read 2026-10-03)"
+  },
+  {
+    "month": "2015-04",
+    "title": "The cloud starts to show in the numbers",
+    "what": "On 23 April Microsoft reported revenue of 21.7 billion dollars for the quarter to March, up 6% (9% without currency effects), and Nadella pointed to incredible growth in cloud services such as Azure and Office 365. Investors welcomed the shift.",
+    "why": "The first of several results that convinced the market the cloud strategy was working; +20% in the month.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 20
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312515144132/d914667dex991.htm (Microsoft press release of 23 April 2015, read 2026-10-03)"
+  },
+  {
+    "month": "2016-06",
+    "title": "Microsoft buys LinkedIn for 26.2 billion dollars",
+    "what": "On 13 June Microsoft agreed to buy LinkedIn, the professional social network, for about 26.2 billion dollars in cash, its biggest acquisition so far.",
+    "why": "Part of Nadella's push into subscription services for business users.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312516619689/d116815dex991.htm (Microsoft investor presentation of 13 June 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Satya_Nadella (read 2026-10-03)"
+  },
+  {
+    "month": "2018-06",
+    "title": "Microsoft buys GitHub for 7.5 billion dollars",
+    "what": "On 4 June Microsoft agreed to buy GitHub, the platform where more than 28 million software developers share and work on code, for 7.5 billion dollars.",
+    "why": "A sign of the new, open Microsoft under Nadella.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312518182975/d600091dex991.htm (Microsoft press release of 4 June 2018) (read 2026-10-03)"
+  },
+  {
+    "month": "2019-04",
+    "title": "Microsoft is worth a trillion dollars",
+    "what": "In April Microsoft became the third US listed company to be valued at more than one trillion dollars, as its cloud business keeps growing.",
+    "why": "The comeback complete: the shares had finally passed their 1999 peak in October 2016.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2020-09",
+    "title": "An exclusive licence to OpenAI's GPT-3",
+    "what": "On 22 September Microsoft announced an exclusive licence to use GPT-3, the language-generating artificial intelligence model of OpenAI, in which it invested in 2019. The same week it agreed to buy ZeniMax Media, owner of Bethesda Softworks, for about 7.5 billion dollars.",
+    "why": "The quiet start of the AI chapter that defined Microsoft's story from 2023.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/ (read 2026-10-03)"
+  },
+  {
+    "month": "2022-01",
+    "title": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
+    "what": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
+    "why": "The biggest deal in Microsoft's history, held up by regulators until October 2023; announced as technology shares began the 2022 slide.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)"
+  },
+  {
+    "month": "2023-01",
+    "title": "A multibillion-dollar bet on OpenAI",
+    "what": "On 18 January Microsoft said it will cut 10,000 jobs, less than 5% of its staff, by the end of March. On 23 January it announced a multiyear, multibillion-dollar investment in OpenAI, the maker of ChatGPT, extending investments made in 2019 and 2021; Azure becomes OpenAI's exclusive cloud provider and OpenAI's models will be built into Microsoft's products.",
+    "why": "Made Microsoft the first big winner of the generative AI boom in the eyes of investors; the shares rose more than 50% in 2023.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690dex991.htm (Nadella e-mail of 18 January 2023, read 2026-10-03); https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/ (read 2026-10-03)"
+  },
+  {
+    "month": "2023-10",
+    "title": "The Activision deal closes",
+    "what": "On 13 October Microsoft completed its purchase of Activision Blizzard, almost two years after announcing it.",
+    "why": "Closes the biggest acquisition; gaming became a sizeable third leg next to cloud and Office.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "title": "Azure passes 75 billion dollars a year",
+    "what": "On 30 July Microsoft reported revenue of 76.4 billion dollars for the quarter to June, up 18%, and net income of 27.2 billion. Azure, its cloud business, passed 75 billion dollars in revenue for the year, up 34%, and Nadella called cloud and AI the driving force of business transformation.",
+    "why": "The peak of the AI-cloud enthusiasm for Microsoft; the shares peaked in October 2025.",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm (Microsoft press release of 30 July 2025, read 2026-10-03)"
+  },
+  {
+    "month": "2026-01",
+    "title": "Strong results, falling shares: fears about AI and spending",
+    "what": "On 28 January Microsoft reported revenue of 81.3 billion dollars for the quarter to December, up 17%, with Azure up 39% and cloud revenue above 50 billion dollars. But the shares are falling: investors worry that software written by AI could replace much of what existing business software does, and that Microsoft is spending hundreds of billions on AI data centres, pushing its free cash flow down.",
+    "why": "Start of a 35% slide from the October 2025 peak (-11%, -9%, -6% in January to March 2026).",
+    "assets": [
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm (Microsoft press release of 28 January 2026, read 2026-10-03); https://www.fool.com/investing/2026/09/30/microsoft-stock-grown-satya-nadella-ai-spend/ (read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "Azure passes 100 billion dollars, and the shares recover",
+    "what": "On 29 July Microsoft reported revenue of 90.0 billion dollars for the quarter to June, up 18%. Azure revenue passed 100 billion dollars for the year and Microsoft 365 Copilot has more than 30 million paid users; results included a 3.2 billion dollar gain on Microsoft's investment in Anthropic. The shares rose 25% in July.",
+    "why": "The market decided the AI-disruption fears were overdone; by September the shares were back near their 2025 peak.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": 25
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm (Microsoft press release of 29 July 2026, read 2026-10-03); https://www.fool.com/investing/2026/09/30/microsoft-stock-grown-satya-nadella-ai-spend/ (read 2026-10-03)"
+  }
+]

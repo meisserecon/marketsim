@@ -1,0 +1,545 @@
+[
+  {
+    "month": "1980-12",
+    "title": "Apple Computer, maker of the Apple II, goes public",
+    "what": "Apple Computer went public on 12 December: 4.6 million shares at 22 dollars raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded at 29. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires.",
+    "why": "The listing beat. Apple was the leader of the young personal computer market; nobody yet knew that IBM would enter it eight months later.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)"
+  },
+  {
+    "month": "1981-08",
+    "title": "IBM enters the personal computer market",
+    "what": "IBM launched its Personal Computer, and Apple bought a full page in the Wall Street Journal headlined \"Welcome, IBM. Seriously.\" Apple's sales in the first half of 1981 already beat all of 1980. Its business computer, the Apple III, has had to be recalled and redesigned after reliability problems.",
+    "why": "The competitor that would define Apple's next fifteen years; within two years the IBM PC outsold the Apple II.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
+  },
+  {
+    "month": "1982-08",
+    "title": "Wall Street turns, and Apple leads the way up",
+    "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
+    "why": "The start of the 1982-83 bull market and of Apple's best twelve months in the game (+312% to May 1983); Apple behaved as a high-risk growth stock.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 33
+    },
+    "importance": 3,
+    "source": "data/reference/sp500.json and data/out/aapl.json (monthly prices); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
+  },
+  {
+    "month": "1982-10",
+    "title": "Falling interest rates power a second leap",
+    "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks.",
+    "why": "Same rally as August, with Apple again rising three times as much as the market.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 39
+    },
+    "importance": 2,
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)"
+  },
+  {
+    "month": "1983-01",
+    "title": "Apple unveils the Lisa",
+    "what": "Apple introduced the Lisa computer on 19 January. It is controlled with a mouse and pictures on the screen instead of typed commands and costs 9,995 dollars with a hard disk. Apple spent heavily to develop it and is betting it will win over business users.",
+    "why": "The shares rose 37% in the month on the launch and the market boom. The Lisa itself flopped: perhaps 10,000 to 60,000 sold and a large loss; its ideas lived on in the Macintosh.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 37
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Apple_Lisa (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1984-01",
+    "title": "The Macintosh",
+    "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars.",
+    "why": "The product that defined Apple's identity for a generation, though early sales disappointed.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1985-09",
+    "title": "Steve Jobs leaves Apple",
+    "what": "On 17 September Steve Jobs, Apple's co-founder and chairman, resigned. In the spring the board had backed chief executive John Sculley, hired from PepsiCo in 1983, when he took the Macintosh division away from Jobs. Five senior employees are leaving with Jobs to start a new company, and Jobs has sold nearly all of his Apple shares.",
+    "why": "The end of the founder era. Jobs's new company, NeXT, would bring him back to Apple eleven years later.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03)"
+  },
+  {
+    "month": "1987-05",
+    "title": "Apple pays its first dividend and splits its shares",
+    "what": "On 11 May Apple declared its first dividend, and in June its shares split two for one for the first time. The Macintosh Plus and the new Macintosh II with colour are selling well to businesses, designers and schools, and the Mac with Apple's LaserWriter printer has become the tool for desktop publishing.",
+    "why": "Apple at the height of the Sculley years: profitable, growing, paying dividends. The shares nearly doubled in 1986 and doubled again in 1987.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Macintosh_II (read 2026-10-03, via data/news/1987.json)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The crash",
+    "what": "On 19 October the Dow Jones index fell 22.6% in one day, the largest drop in its history, and markets fell around the world. Apple's shares, which had more than doubled since January, fell further than the market.",
+    "why": "A market event; Apple ended 1987 still twice as high as a year earlier.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -32
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/aapl.json (monthly prices)"
+  },
+  {
+    "month": "1989-09",
+    "title": "Apple's first portable Macintosh",
+    "what": "Apple released the Macintosh Portable on 20 September, its first battery-powered computer, at 5,799 dollars. The Mac line is selling well: these are good years for Apple.",
+    "why": "1989 to 1991 were later called the first golden age of the Mac; the Portable itself failed, the PowerBook of 1991 succeeded.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1990-05",
+    "title": "Windows 3.0 gives PCs what made the Mac special",
+    "what": "Microsoft launched Windows 3.0 on 22 May. It gives ordinary IBM-compatible PCs a screen with windows, icons and a mouse much like the Macintosh, at lower prices. Apple's Macs sell well for now, but the gap is closing.",
+    "why": "The long squeeze on Apple's margins and market share begins; 1989-91 was the 'first golden age' of the Mac.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)"
+  },
+  {
+    "month": "1992-04",
+    "title": "Apple loses its copyright case against Windows",
+    "what": "On 15 April a federal judge ruled that the screen displays Apple complained about in Windows 2.03, and many of those in Windows 3.0, are not protected by Apple's copyrights. Microsoft has just shipped Windows 3.1 with more than a million advance orders.",
+    "why": "Removed Apple's last hope of stopping Windows by law.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992 (read 2026-10-03)"
+  },
+  {
+    "month": "1993-10",
+    "title": "Sculley is out; Spindler takes over",
+    "what": "John Sculley has left Apple after a bad start to 1993 and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
+    "why": "The start of the slide that brought Apple close to collapse by 1997. Sources differ on the date: Spindler is often said to have become CEO in June 1993; Wikipedia gives 15 October 1993, the date Sculley also left the board. The beat follows Wikipedia.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)"
+  },
+  {
+    "month": "1994-03",
+    "title": "The Power Macintosh, and Mac clones",
+    "what": "Apple has started its Power Macintosh line, built on PowerPC processors developed in an alliance with IBM and Motorola. Parts of the Mac's software were rewritten so that older programs still run.",
+    "why": "In 1995 Apple began licensing the Mac system to clone makers, whose machines took sales from Apple's own; Jobs ended the program in 1997. The exact launch month of the Power Mac is not in the sources read; the beat sits in spring 1994.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1996-02",
+    "title": "Gil Amelio replaces Spindler; Apple's survival in question",
+    "what": "On 2 February Apple named Gil Amelio, head of National Semiconductor, as chief executive, replacing Michael Spindler. Apple could not build enough of its popular models and too many of the others, its finance chief left in 1995 after urging a sale of the company, and merger talks with IBM, Sun and Philips came to nothing. Fortune wrote this month that the company that invented the personal computer will likely disappear.",
+    "why": "The near-death years: Amelio cut a third of the workforce, and the stock fell 81% from 1991 to December 1997.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)"
+  },
+  {
+    "month": "1996-12",
+    "title": "Apple buys NeXT, and Jobs is back",
+    "what": "On 20 December Apple announced it will buy NeXT, Steve Jobs's company, for 429 million dollars and 1.5 million Apple shares. NeXT's operating system will become the basis of the next Mac system, which Apple failed to build itself, and the deal brings Jobs back into Apple's management.",
+    "why": "The most important deal in Apple's history; NeXT's software became the foundation of Mac OS X.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)"
+  },
+  {
+    "month": "1997-08",
+    "title": "Jobs makes peace with Microsoft",
+    "what": "Gil Amelio was pushed out as chief executive on 9 July, and Steve Jobs is now interim chief executive. At the Macworld show on 6 August Jobs announced that Microsoft will invest 150 million dollars in Apple, keep making Office for the Mac for five years and settle the long patent dispute. Apple is worth only about 2.5 billion dollars.",
+    "why": "Mostly symbolic money (Apple had 1.2 billion in cash) but a vital signal that the Mac would survive; +24% in the month after +23% in July.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 24
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000320193-97-000012.txt (Apple 8-K with press release of 9 July 1997) (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)"
+  },
+  {
+    "month": "1998-01",
+    "title": "Apple is profitable again",
+    "what": "At the Macworld show on 6 January Apple announced that it expects a profit of more than 45 million dollars on sales of about 1.575 billion for the quarter to December, its first good news in years. Jobs has cut the product line, ended the licensing of the Mac to clone makers and opened an online store.",
+    "why": "The turning point of the comeback; +40% in the month after an 81% fall from 1991 to December 1997.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 40
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/0000320193-98-000001.txt (Apple 8-K with press release of 6 January 1998, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1998-08",
+    "title": "The iMac goes on sale",
+    "what": "Apple's new iMac, an all-in-one computer in translucent blue plastic for 1,299 dollars, has gone on sale. It has no floppy drive and connects to accessories by USB.",
+    "why": "The product that bought Apple time: about a million iMacs a year. The exact on-sale date (August 1998) is not given in the sources read.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2000-01",
+    "title": "Jobs drops the \"interim\"",
+    "what": "Steve Jobs, interim chief executive since 1997, has become Apple's permanent chief executive. Apple is profitable again, it added the iBook laptop to the iMac in 1999, and the shares are at a record.",
+    "why": "The high of the first comeback; nine months later the Cube warning halved the shares.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)"
+  },
+  {
+    "month": "2000-09",
+    "title": "Apple's sales warning halves the shares",
+    "what": "At the end of September Apple warned that sales for the quarter to September will fall well short of its expectations. The new G4 Cube computer, launched in July, is selling far below plan, education sales are weak, and buyers chose cheaper Power Macs; dealers are sitting on unsold computers. Apple expects sales to fall sharply in the next quarter as well.",
+    "why": "The -58% month ended the first comeback rally. The 10-K later put the shortfall at about 180 million dollars, half of it the Cube. The exact date of the warning is not in the sources read.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -58
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/0000912057-00-053623.txt (Apple 10-K for fiscal 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Power_Mac_G4_Cube (read 2026-10-03)"
+  },
+  {
+    "month": "2001-01",
+    "title": "A surprise rate cut, and Apple rebounds",
+    "what": "On 3 January the Federal Reserve cut its key interest rate by half a point to 6%, between meetings, and battered technology shares rebounded. Apple, worth less than a third of its value of last spring, expects sales of only about 1 billion dollars for the quarter to December as dealers clear out unsold computers, but investors think the worst is known.",
+    "why": "The +45% month is a rebound from oversold levels with the rate cut as trigger.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 45
+    },
+    "importance": 3,
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000912057-00-053623.txt (Apple 10-K for fiscal 2000, outlook section, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000912057-01-004642.txt (Apple 10-Q for the quarter to December 2000, read 2026-10-03)"
+  },
+  {
+    "month": "2001-10",
+    "title": "The iPod: a thousand songs in your pocket",
+    "what": "Apple introduced the iPod, a portable music player with a 5-gigabyte hard disk that holds about 1,000 songs and works with Apple's iTunes software on the Mac.",
+    "why": "The product that turned Apple from a computer maker into a consumer-electronics company; its effect on profits showed from 2004.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2003-04",
+    "title": "The iTunes Music Store opens",
+    "what": "Apple opened the iTunes Music Store, where songs can be bought legally for download, and sold 2 million songs in the first 16 days. For now it works only with Macs and in the United States.",
+    "why": "Made the iPod a system; a Windows version followed in October 2003 and opened the iPod to the whole PC market.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2004-10",
+    "title": "Two million iPods in a quarter",
+    "what": "On 13 October Apple reported a profit of 106 million dollars on sales of 2.35 billion for the quarter to September, sales up 37%. It shipped 2,016,000 iPods, five times as many as a year earlier, its retail stores' sales grew 95%, and it expects a much better December quarter.",
+    "why": "The moment investors understood the iPod effect; +35% in the month and the start of a tenfold rise to 2007.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 35
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000110465904030400/a04-11506_1ex99d1.htm (Apple press release of 13 October 2004, read 2026-10-03)"
+  },
+  {
+    "month": "2005-06",
+    "title": "Apple switches the Mac to Intel",
+    "what": "On 6 June Steve Jobs announced that Apple will put Intel processors into its Macintosh computers from 2006, replacing the PowerPC chips from IBM and Motorola. Apple has secretly kept a version of Mac OS X running on Intel chips for five years.",
+    "why": "The transition finished in 2006, a year ahead of the original plan.",
+    "assets": [
+      "aapl",
+      "intc",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2007-01",
+    "title": "Apple unveils the iPhone and drops 'Computer' from its name",
+    "what": "On 9 January Steve Jobs presented the iPhone, a mobile phone, music player and internet device operated with the fingers on a touch screen, and Apple Computer renamed itself Apple Inc. The iPhone goes on sale in the United States in June.",
+    "why": "The product that made Apple the most valuable company in the world.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2008-01",
+    "title": "Record results, weak forecast, falling market",
+    "what": "On 22 January Apple reported its best quarter ever: revenue of 9.6 billion dollars, up 35%, and a profit of 1.58 billion, with 2.3 million iPhones sold. But it forecast revenue of only about 6.8 billion dollars for the next quarter, and stock markets are falling.",
+    "why": "-32% in the month: a cautious forecast in a falling market after the shares had doubled in 2007.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -32
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312508009715/dex991.htm (Apple press release of 22 January 2008, read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "The financial crisis",
+    "what": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
+    "why": "-33% in the month for Apple; the market fell 9%.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -33
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); data/out/aapl.json (monthly prices)"
+  },
+  {
+    "month": "2010-01",
+    "title": "Apple announces the iPad",
+    "what": "On 27 January Apple announced the iPad, a tablet computer with a screen twice the size of the iPhone's, without phone functions. It goes on sale in April.",
+    "why": "A new product category; Apple's third hit in a decade.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2011-08",
+    "title": "Jobs resigns; Tim Cook is chief executive",
+    "what": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
+    "why": "The handover the market had feared went smoothly; the shares barely moved.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2011-10",
+    "title": "Steve Jobs dies",
+    "what": "Steve Jobs died at his home in Palo Alto on 5 October, aged 56, after a relapse of the pancreatic tumour first diagnosed in 2003.",
+    "why": "The end of an era; Apple's best years for shareholders were still to come.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)"
+  },
+  {
+    "month": "2012-08",
+    "title": "A record stock market value",
+    "what": "On 20 August Apple's rising shares made it worth a record 624 billion dollars, beating the record set by Microsoft in 1999 (without adjusting for inflation).",
+    "why": "The peak before a 40% fall to June 2013.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2014-04",
+    "title": "A seven-for-one split and 130 billion dollars for shareholders",
+    "what": "On 23 April Apple said it will return more than 130 billion dollars to shareholders by the end of 2015, raise its share buyback to 90 billion dollars and its dividend by about 8%, and split its shares seven for one. Apple has paid a dividend again since 2012, its first since 1995.",
+    "why": "Cook's Apple as a cash machine; the shares recovered from the 2013 slump.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312514154883/d715379dex991.htm (Apple press release of 23 April 2014) (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2016-04",
+    "title": "Apple's first sales decline in years",
+    "what": "On 26 April Apple reported revenue of 50.6 billion dollars for the quarter to March, down from 58 billion a year earlier, as iPhone sales fell; Tim Cook pointed to strong growth in services and more than a billion active Apple devices. Apple raised its capital return program to 250 billion dollars. In March 2015 Apple joined the Dow Jones index and in April 2015 its Watch went on sale.",
+    "why": "The worry that the iPhone had peaked; the answer was services sold to the installed base.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312516556520/d325078dex991.htm (Apple press release of 26 April 2016) (read 2026-10-03); https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2017-09",
+    "title": "The iPhone X",
+    "what": "On 12 September Apple introduced the iPhone X, with facial recognition and wireless charging, alongside the iPhone 8, at the new Steve Jobs Theater.",
+    "why": "The tenth-anniversary iPhone.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2018-08",
+    "title": "The first trillion-dollar company",
+    "what": "On 2 August Apple became the first US listed company to be worth one trillion dollars.",
+    "why": "+20% in the month; the milestone of the iPhone era.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2019-01",
+    "title": "Tim Cook warns: China and fewer iPhone upgrades",
+    "what": "On 2 January Tim Cook cut Apple's revenue forecast for the December quarter to about 84 billion dollars, below its earlier guidance, in a letter to investors. He blamed a much sharper slowdown in China than expected and fewer iPhone upgrades; sales outside the iPhone grew almost 19%.",
+    "why": "The shares had already fallen about 30% from their peak in the autumn of 2018; the shift to services became the investment story.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)"
+  },
+  {
+    "month": "2020-08",
+    "title": "Two trillion dollars",
+    "what": "On 19 August Apple's shares briefly topped 467 dollars, making it the first US company worth two trillion dollars, despite the pandemic. Apple has also started moving its Macs from Intel processors to chips of its own design.",
+    "why": "+21% in the month; Apple recovered quickly from the pandemic shock of early 2020.",
+    "assets": [
+      "aapl",
+      "intc"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 21
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2022-07",
+    "title": "Profits fall in a weaker market",
+    "what": "Apple reported an 11% fall in profit for the quarter to June compared with a year earlier, as technology shares slid through 2022.",
+    "why": "A pause after the pandemic boom; the shares fell about a quarter in 2022.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2023-06",
+    "title": "The Vision Pro headset",
+    "what": "At its developer conference Apple presented the Vision Pro, a headset that mixes the real world with digital images and is controlled by hand gestures, for 3,500 dollars.",
+    "why": "Apple's first new product category since the Watch; it was considered a financial failure at first.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2024-06",
+    "title": "Apple Intelligence",
+    "what": "At its developer conference Apple announced Apple Intelligence, artificial intelligence features for the iPhone, iPad and Mac, including the use of OpenAI's ChatGPT to improve Siri. Apple has been criticised for falling behind in AI. The shares rose and briefly made Apple the world's most valuable company again, ahead of Microsoft.",
+    "why": "Apple's answer to the AI boom.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "title": "Tim Cook will hand over to John Ternus",
+    "what": "On 20 April Apple announced that Tim Cook will become executive chair on 1 September and that John Ternus, 50, head of hardware engineering and at Apple since 2001, will succeed him as chief executive. On 30 April Apple reported record March-quarter revenue of 111.2 billion dollars, up 17%, with strong demand for the iPhone 17.",
+    "why": "A planned succession after fifteen years of Cook, during which Apple's value rose more than tenfold.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm (Apple 8-K of 20 April 2026, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm (Apple press release of 30 April 2026, read 2026-10-03)"
+  },
+  {
+    "month": "2026-09",
+    "title": "John Ternus takes over",
+    "what": "On 1 September John Ternus became Apple's chief executive, and Tim Cook executive chair.",
+    "why": "The start of the post-Cook era; the shares are at a record.",
+    "assets": [
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm (Apple 8-K/A of 1 September 2026, read 2026-10-03, via EDGAR search listing); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  }
+]

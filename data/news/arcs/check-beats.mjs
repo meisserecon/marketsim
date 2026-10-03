@@ -18,7 +18,7 @@ for (const f of fs.readdirSync(outDir)) {
   span[j.id] = { from: j.listed && j.listed > first ? j.listed : first, to: j.rows.at(-1).month };
 }
 // Bonds and gold are not in universe.ts but a beat may explain their moves too.
-const bondIds = fs.readdirSync(outDir).filter((f) => /^ustd{4}.json$/.test(f)).map((f) => f.slice(0, -5));
+const bondIds = fs.readdirSync(outDir).filter((f) => f.startsWith("ust") && f.endsWith(".json")).map((f) => f.slice(0, -5));
 const moveAssets = new Set([...Object.keys(span), ...bondIds, "sp500", "gold"]);
 
 const files = process.argv.slice(2).length

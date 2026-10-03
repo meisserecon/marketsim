@@ -36,6 +36,9 @@ const inGame = (id: string, month: string) => {
   return !!s && s.kind === "stock" && month >= listedMonth(s) && (!s.end || month <= nextMonth(s.end.month));
 };
 
+/** Who to name under a picture: the credit as printed at the source, else the author or holder named in the licence. */
+const credit = (p: Picture) => p.credit && !/^not credited/i.test(p.credit) ? p.credit : (/photo: (.+)$/.exec(p.licence)?.[1] ?? p.licence.replace(/^fair use: /, "").replace(/^(public domain|CC[^,]*),?s*/i, "")) || undefined;
+
 const items: (NewsItem & { rank: number })[] = [];
 let withPicture = 0;
 for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).sort()) {
@@ -60,7 +63,7 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     const tagged = [...new Set([...(company && (kind === "listing" || kind === "delisting") ? [arc] : []), ...b.assets])].filter((id) => inGame(id, b.month));
     items.push({
       month: b.month, kind, headline: b.title, text: b.what, assets: tagged, source: b.source,
-      ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: p.credit ?? p.licence.replace(/^fair use: /, "") } : {}),
+      ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),
       rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + b.importance,
     });
   }

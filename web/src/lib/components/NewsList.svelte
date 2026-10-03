@@ -29,7 +29,7 @@
         {#if item.image}
           <figure>
             <img src={item.image} alt={item.imageCaption ?? ''} loading="lazy" />
-            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit} <span class="credit">© {item.imageCredit}</span>{/if}</figcaption>{/if}
+            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit} <span class="credit">Photo: {item.imageCredit}</span>{/if}</figcaption>{/if}
           </figure>
         {/if}
         <div class="body">

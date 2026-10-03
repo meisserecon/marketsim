@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
   import { page } from '$app/state';
-  import { nextMonth } from '@marketsim/shared';
+  import { GAME_START_MONTH, nextMonth } from '@marketsim/shared';
   import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, NewsView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
@@ -10,6 +10,7 @@
   import AssetDetail from '$lib/components/AssetDetail.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
   import NewsList from '$lib/components/NewsList.svelte';
+  import Welcome from '$lib/components/Welcome.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
   import Statement from '$lib/components/Statement.svelte';
@@ -63,6 +64,15 @@
   const tradable = $derived(new Set(market?.assets.map((a) => a.id) ?? []));
   const finished = $derived(game?.status === 'finished');
   const solo = $derived(!!game?.solo);
+
+  // The welcome screen shows once per game on this browser, and again from "How to play".
+  const welcomeKey = `marketsim:welcome:${code}`;
+  const seenWelcome = () => { try { return localStorage.getItem(welcomeKey) === '1'; } catch { return false; } };
+  let showWelcome = $state(!seenWelcome());
+  function closeWelcome() {
+    showWelcome = false;
+    try { localStorage.setItem(welcomeKey, '1'); } catch { /* shown again next time, no harm */ }
+  }
   let advancing = $state(false);
   let advanceError = $state('');
   /** Single-player games: the player's own token moves the clock. */
@@ -241,7 +251,7 @@
 
 <svelte:window onhashchange={() => { const k = fragmentToken(); if (k && k !== token) location.reload(); }} />
 
-<svelte:head><title>{game ? `${game.name} · marketsim` : 'marketsim'}</title></svelte:head>
+<svelte:head><title>{game ? `${game.name} · Month by Month` : 'Month by Month'}</title></svelte:head>
 
 {#if phase === 'loading'}
   <p class="center muted">Loading…</p>
@@ -284,7 +294,7 @@
 {:else if game && market && portfolio}
   <header class="top">
     <div class="game">
-      <span class="sub">{game.name} · {game.code} · {portfolio.name}</span>
+      <span class="sub"><a class="brand" href="/">Month by Month</a> · {game.name} · {game.code} · {portfolio.name} · <button class="how" onclick={() => (showWelcome = true)}>How to play</button></span>
       <h1>{monthName(game.currentMonth)}</h1>
     </div>
     {#if solo && !finished}
@@ -416,6 +426,10 @@
     </div>
   </main>
 
+  {#if showWelcome && !finished}
+    <Welcome playerName={portfolio.name} startMonth={GAME_START_MONTH} finalMonth={game.finalMonth} {solo} onclose={closeWelcome} />
+  {/if}
+
   {#if showFinal && board}
     <div class="overlay" role="dialog" aria-modal="true" aria-label="Final standings">
       <div class="card final">
@@ -530,6 +544,21 @@
   .news-card .card-head h2 .sub {
     font-weight: 400;
     margin-left: 6px;
+  }
+  .brand {
+    font-weight: 700;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .how {
+    all: unset;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .how:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
   .advance-box {
     display: grid;

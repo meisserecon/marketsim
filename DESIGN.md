@@ -1,4 +1,8 @@
-# marketsim design decisions
+# Month by Month
+
+The game's name. The repository and the packages are still called marketsim.
+
+## marketsim design decisions
 
 Educational stock market simulator. Players live through the markets from January 1980 to
 today, one month at a time, all synchronized to a shared clock advanced by a game master.
@@ -10,6 +14,9 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
   from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
+- **Welcome screen.** On first entering a game a player sees what the game is, how a month works, and the three
+  lessons it wants to teach, stated openly: diversify, stay in the market, know your history. It can be reopened
+  from "How to play" in the header.
 - **Playing alone.** Anyone can start a single-player game from the start page (`POST /api/solo`): it is
   created and joined in one step, nobody else can join, and the player's own token advances the clock
   with a button in the player view.

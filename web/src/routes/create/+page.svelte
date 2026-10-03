@@ -30,7 +30,7 @@
   }
 </script>
 
-<svelte:head><title>Create a game · marketsim</title></svelte:head>
+<svelte:head><title>Create a game · Month by Month</title></svelte:head>
 
 <main>
   <form class="card panel" onsubmit={create}>

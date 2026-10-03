@@ -155,7 +155,7 @@
 </script>
 
 <svelte:window onkeydown={onKey} />
-<svelte:head><title>Review · marketsim</title></svelte:head>
+<svelte:head><title>Review · Month by Month</title></svelte:head>
 
 {#if !dev}
   <main class="center"><p class="notice warn">The review desk only works in development: run <code>npm run dev:web</code> and open this page on port 5173.</p></main>

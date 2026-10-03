@@ -154,7 +154,7 @@
   <main>
     <header>
       <div>
-        <p class="sub">Game master · {game.name}</p>
+        <p class="sub">Month by Month · game master · {game.name}</p>
         <h1 class="month">{monthName(game.currentMonth)}</h1>
         <p class="status">
           {#if finished}Final month. The game is over.

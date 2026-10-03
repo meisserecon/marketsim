@@ -83,11 +83,11 @@
   }
 </script>
 
-<svelte:head><title>marketsim</title></svelte:head>
+<svelte:head><title>Month by Month</title></svelte:head>
 
 <main>
   <header>
-    <h1>marketsim</h1>
+    <h1>Month by Month</h1>
     <p class="lead">Live through the markets from 1980 to today, one month at a time. Invest in bonds, gold and stocks, collect the income, and see who ends up ahead.</p>
   </header>
 

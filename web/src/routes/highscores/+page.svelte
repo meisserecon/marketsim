@@ -23,11 +23,11 @@
   const label = (m: string) => (m === 'final' ? 'Finished games' : `End of ${m.slice(0, 4)}`);
 </script>
 
-<svelte:head><title>Highscores · marketsim</title></svelte:head>
+<svelte:head><title>Highscores · Month by Month</title></svelte:head>
 
 <main>
   <header>
-    <p class="sub"><a href="/">marketsim</a></p>
+    <p class="sub"><a href="/">Month by Month</a></p>
     <h1>Highscores</h1>
     <p class="sub">
       The best portfolios of all games ever played, from {usd(STARTING_CASH)} at the start. To keep it fair, everyone is compared at the same month:

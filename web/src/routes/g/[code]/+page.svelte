@@ -224,6 +224,12 @@
     selectedId = id;
     await tick();
     rightColumn?.scrollTo({ top: 0 });
+    // Coming from a news tag or the portfolio, the company panel may be far below: bring it into view.
+    const panel = rightColumn?.querySelector('.detail-wrap');
+    if (panel) {
+      const r = panel.getBoundingClientRect();
+      if (r.top < 90 || r.top > window.innerHeight * 0.5) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   function onTraded(p: PortfolioView) {
@@ -534,6 +540,10 @@
   .advance-box .btn {
     font-size: 1.05rem;
     padding: 10px 20px;
+  }
+  .detail-wrap {
+    /* leave room for the sticky header when scrolled to */
+    scroll-margin-top: 96px;
   }
   .portfolio-wrap {
     display: grid;

@@ -154,26 +154,6 @@
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
   },
   {
-    "id": "79dbeef7",
-    "month": "2000-03",
-    "title": "The Nasdaq hits a record 5,048; Cisco the world's most valuable company",
-    "what": "The Nasdaq closed at a record 5,048.62 on 10 March, five times its level of 1995. On 20 March Barron's warned that internet companies are running out of cash, fast, and the index ended the month 2.6% down. Money moved into the biggest technology names instead: in late March Cisco, which makes the routers of the internet, became the world's most valuable company at more than 500 billion dollars, and the S&P 500 reached a record on 24 March.",
-    "why": "The top of the dot-com bubble. The S&P 500's +10% month was a last surge of large-cap tech and a rotation into big companies while the small dot-coms already slid. Review 2026-10: 'peaks' was hindsight.",
-    "assets": [
-      "csco",
-      "intc",
-      "msft",
-      "nokia",
-      "pets-com"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": 10
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
     "id": "9d262fe0",
     "month": "2000-04",
     "title": "The Nasdaq loses 25% in a week",

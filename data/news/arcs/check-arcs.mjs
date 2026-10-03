@@ -63,6 +63,10 @@ for (const id of ids) {
   }
   if (span[id] && beats.length) {
     if (beats[0].month !== span[id].from) bad(`${id}: first beat ${beats[0].month} is not the listing month ${span[id].from}`);
+    // coverage: a beat at least every two years (warning only)
+    const mi = (x) => +x.slice(0, 4) * 12 + +x.slice(5) - 1;
+    const months = beats.map((b) => b.month).concat(span[id].to);
+    for (let i = 1; i < months.length; i++) if (mi(months[i]) - mi(months[i - 1]) > 24) console.log(`WARN ${id}: ${mi(months[i]) - mi(months[i - 1])} months without a beat between ${months[i - 1]} and ${months[i]}`);
   }
   const missing = [];
   for (const m of biggest(id)) {

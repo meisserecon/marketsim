@@ -3,7 +3,7 @@
     "month": "1981-03",
     "title": "Daimler-Benz, the maker of Mercedes, is now available to you",
     "what": "Daimler-Benz of Stuttgart builds Mercedes-Benz cars and is one of the world's biggest makers of trucks and buses. Its new S-Class saloon went into production in December 1979. The Deutsche Bank, Kuwait and the Mercedes-Automobil-Holding are its big shareholders. Gerhard Prinz has been chairman of the board of management since January 1980.",
-    "why": "The listing beat. Daimler is Germany's blue chip and the most expensive share in Frankfurt; the arc runs from the solid car maker through Reuter's conglomerate, Chrysler and back to a pure luxury car maker.",
+    "why": "The listing beat. The arc runs from the solid car maker through Reuter's conglomerate, Chrysler and back to a pure luxury car maker.",
     "assets": [
       "mercedes"
     ],
@@ -13,7 +13,7 @@
   {
     "month": "1982-12",
     "title": "Mercedes launches the 190, its first compact car",
-    "what": "Daimler-Benz has put the Mercedes 190 and 190 E on the market, the first compact Mercedes, smaller than any car the brand has built since the war. It is meant to win younger buyers and to lower the average fuel consumption of the range, which matters for sales in the United States. German shares rose in December as interest rates fell.",
+    "what": "Daimler-Benz has put the Mercedes 190 and 190 E on the market, the first compact car of the brand. Daimler has spent eight years and a fortune developing it, with advanced suspension and lightweight high-strength steel.",
     "why": "The 190 (W201) broadened the range and fed the volume growth of the mid-1980s that made Daimler a stock-market darling. The month's +19% in dollars came partly from a firmer mark.",
     "assets": [
       "mercedes"
@@ -28,7 +28,7 @@
   {
     "month": "1983-12",
     "title": "Werner Breitschwerdt takes over after the death of Gerhard Prinz",
-    "what": "Gerhard Prinz, chairman of the Daimler-Benz board of management, died suddenly on 29 October. On 1 December the supervisory board appointed Werner Breitschwerdt, the engineer who led car development, as his successor. Daimler shares have risen strongly this year along with the whole German market.",
+    "what": "Gerhard Prinz, chairman of the Daimler-Benz board of management, died suddenly on 29 October. On 1 December the supervisory board appointed Werner Breitschwerdt, a member of the board, as his successor. Daimler shares have risen strongly this year along with the whole German market.",
     "why": "Breitschwerdt was the last pure car man at the top for a decade; his short reign ended in 1987 when Deutsche Bank backed the strategist Edzard Reuter.",
     "assets": [
       "mercedes"
@@ -37,21 +37,10 @@
     "source": "Mercedes-Benz Classic, Illustrated Chronicle 1983 ('Breitschwerdt takes the chair on the Board of Management', 1 December 1983), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1983.xhtml?oid=4910841 (read 2026-10-03); https://de.wikipedia.org/wiki/Werner_Breitschwerdt (read 2026-10-03); data/out/mercedes.json (December 1982 to December 1983 +45% in dollars) (read 2026-10-03)"
   },
   {
-    "month": "1985-02",
-    "title": "Daimler-Benz buys all of the engine maker MTU",
-    "what": "On 14 February Daimler-Benz bought the 50% of Motoren- und Turbinen-Union (MTU) held by MAN, for a reported 680 million marks. MTU makes engines for military aircraft and diesel engines for tanks and ships. It is Daimler's first big step outside cars and trucks.",
-    "why": "The first of the three purchases of 1985 (MTU, Dornier, AEG) that turned Daimler into a conglomerate; later judged the start of its decline.",
-    "assets": [
-      "mercedes"
-    ],
-    "importance": 3,
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1985 ('MTU becomes subsidiary', 14 February 1985), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko.xhtml?oid=4910873&viewType=list (read 2026-10-03); Der Spiegel 31/1995, 'Schock für die Aktionäre', https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03)"
-  },
-  {
     "month": "1985-06",
     "title": "Daimler takes control of Dornier as foreigners pile into German shares",
-    "what": "With help from the state government of Baden-Württemberg, Daimler-Benz signed contracts in April and May to buy a majority of the aerospace company Dornier, about 66% for around 500 million marks. Foreign investors are buying German blue chips on the back of a strong economy and rising profits, and Daimler is their favourite; its price rose by about a quarter between the end of April and the end of June.",
-    "why": "The game's series has no May 1985 price (the printed quote was doubtful), so the +27% of June is an April-to-June move. Dornier came with family quarrels and veto rights that cost Daimler another 570 million marks later.",
+    "what": "After buying all of the engine maker MTU from MAN in February, Daimler-Benz signed contracts in April and May, with help from the state government of Baden-Württemberg, to buy a majority of the aerospace company Dornier, about 66% for around 500 million marks. Foreign investors are buying German blue chips on the back of a strong economy and rising profits, and Daimler is their favourite; its price rose by about a quarter between the end of April and the end of June.",
+    "why": "The game's series has no May 1985 price (the printed quote was doubtful), so the +27% of June is an April-to-June move. MTU and Dornier were the first steps outside cars; Dornier came with family quarrels and veto rights that cost Daimler another 570 million marks later.",
     "assets": [
       "mercedes"
     ],
@@ -60,7 +49,7 @@
       "pct": 27
     },
     "importance": 2,
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1985 ('Daimler-Benz acquires Dornier shares', 23 April and 15 May 1985), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko.xhtml?oid=4910873&viewType=list (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03); Die Zeit, 'Börsen-Report: Daimler ist Spitze', 30 August 1985, https://www.zeit.de/1985/36/daimler-ist-spitze (read 2026-10-03); data/manual/mercedes.csv header (1985-05 left out) (read 2026-10-03)"
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1985 ('MTU becomes subsidiary', 14 February 1985; 'Daimler-Benz acquires Dornier shares', 23 April and 15 May 1985), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko.xhtml?oid=4910873&viewType=list (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03); Die Zeit, 'Börsen-Report: Daimler ist Spitze', 30 August 1985, https://www.zeit.de/1985/36/daimler-ist-spitze (read 2026-10-03); data/manual/mercedes.csv header (1985-05 left out) (read 2026-10-03)"
   },
   {
     "month": "1985-10",
@@ -122,7 +111,7 @@
     "month": "1988-02",
     "title": "Foreign buyers return and Daimler leads the rebound",
     "what": "German share indices rose about 10% in less than three weeks in February as foreign investors stopped selling and began to buy again, followed by German insurers. The dollar has stabilised and interest rates are falling. Reports say Daimler-Benz is close to taking over the aerospace and defence group MBB, as the federal government wants.",
-    "why": "Relief rally after the crash; Daimler, the most liquid blue chip, rebounded most (+27% in dollars, about +30% in marks).",
+    "why": "Relief rally after the crash; Daimler rebounded more than most (+27% in dollars, about +30% in marks; Siemens +17%).",
     "assets": [
       "mercedes"
     ],
@@ -134,21 +123,10 @@
     "source": "Die Zeit, 'Markt-Report: Aktien wieder hoffähig', 19 February 1988, https://www.zeit.de/1988/08/aktien-wieder-hoffaehig (read 2026-10-03); Die Zeit, 'Markt-Report: Ein Lichtblick', 12 February 1988, https://www.zeit.de/1988/07/ein-lichtblick (read 2026-10-03); Die Zeit, 'Daimler/MBB: Perversion', 12 February 1988, https://www.zeit.de/1988/07/perversion (read 2026-10-03)"
   },
   {
-    "month": "1989-06",
-    "title": "Daimler-Benz becomes a holding company",
-    "what": "Daimler-Benz has reorganised itself into a holding company over separate businesses. On 19 May Dornier, MTU and parts of AEG were merged into Deutsche Aerospace (DASA), and on 29 June the cars and trucks were placed in a new company, Mercedes-Benz AG. A services arm is to follow.",
-    "why": "The structure of Reuter's technology group; the car business, which earned the money, now sat beside loss-making aerospace and electrical units.",
-    "assets": [
-      "mercedes"
-    ],
-    "importance": 3,
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1989 ('Mercedes-Benz AG formed', 29 June 1989), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1989.xhtml?oid=4912361 (read 2026-10-03); https://de.wikipedia.org/wiki/Deutsche_Aerospace (read 2026-10-03)"
-  },
-  {
     "month": "1989-12",
     "title": "The 'Germany boom': Daimler soars after the Wall falls",
     "what": "Since the opening of the Berlin Wall in November, foreign investors have been buying German blue chips, seeing West German industry as the main winner of the new markets in the East. The DAX reached a new post-war high before Christmas. In November the government allowed Daimler-Benz to take over MBB from 1 January, making it Germany's largest technology and defence group; Daimler also raised 1.9 billion marks by issuing new shares at 460 marks.",
-    "why": "Reunification euphoria. Daimler's +34% in December (about +27% in marks, the rest a weaker dollar) partly recovered a November dip caused by the rights issue.",
+    "why": "Reunification euphoria. Daimler's +34% in December (about +27% in marks, the rest a weaker dollar) partly recovered a November dip caused by the rights issue. In May and June Daimler had reorganised into a holding company over Mercedes-Benz AG, Deutsche Aerospace (DASA) and AEG.",
     "assets": [
       "mercedes"
     ],
@@ -157,7 +135,7 @@
       "pct": 34
     },
     "importance": 1,
-    "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); Die Zeit, 'Daimler/MBB: Prinzip Hoffnung', 24 November 1989, https://www.zeit.de/1989/48/prinzip-hoffnung (read 2026-10-03); Daimler-Benz Annual Report 1989, 'Allocation of Earnings' (capital increase of November 1989), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1989.pdf (read 2026-10-03)"
+    "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); Die Zeit, 'Daimler/MBB: Prinzip Hoffnung', 24 November 1989, https://www.zeit.de/1989/48/prinzip-hoffnung (read 2026-10-03); Daimler-Benz Annual Report 1989, 'Allocation of Earnings' (capital increase of November 1989), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1989.pdf (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1989 ('Mercedes-Benz AG formed', 29 June 1989), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1989.xhtml?oid=4912361 (read 2026-10-03)"
   },
   {
     "month": "1990-08",
@@ -175,9 +153,35 @@
     "source": "Die Zeit, 'Aktien haben ihren Reiz verloren', 17 August 1990, https://www.zeit.de/1990/34/aktien-haben-ihren-reiz-verloren (read 2026-10-03); Die Zeit, 'Manager und Märkte' (Daimler-Benz: Druck vom Dollar), 24 August 1990, https://www.zeit.de/1990/35/manager-und-maerkte (read 2026-10-03); Daimler-Benz Annual Report 1985, 'Change in Shareholder Structure' (Kuwait about 14%), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1985.pdf (read 2026-10-03)"
   },
   {
+    "month": "1991-02",
+    "title": "Peace hopes in the Gulf lift Frankfurt",
+    "what": "Stock markets rose in February as the Gulf war neared its end, after Iraq said it was ready, under conditions, to leave Kuwait. Daimler-Benz, partly owned by Kuwait and hit hard by the oil shock and the weak dollar in the autumn, recovered with the market.",
+    "why": "+13%, a relief rally after the Gulf-crisis lows of autumn 1990.",
+    "assets": [
+      "mercedes"
+    ],
+    "move": {
+      "asset": "mercedes",
+      "pct": 13
+    },
+    "importance": 3,
+    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); data/out/mercedes.json (read 2026-10-03)"
+  },
+  {
+    "month": "1993-04",
+    "title": "DASA takes control of Fokker",
+    "what": "On 27 April Deutsche Aerospace, Daimler-Benz's aerospace arm, took a 51% stake in the Dutch aircraft maker Fokker, which builds regional airliners. DASA's chief Jürgen Schrempp wants to make it the leader in small passenger jets.",
+    "why": "The last big purchase of the conglomerate era, and the costliest: Fokker went bankrupt in 1996 after Daimler cut it off.",
+    "assets": [
+      "mercedes"
+    ],
+    "importance": 3,
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1993 ('Dasa acquires majority of Fokker', 27 April 1993), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1993.xhtml?oid=4912585 (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03)"
+  },
+  {
     "month": "1993-10",
     "title": "Daimler-Benz is the first German company on Wall Street",
-    "what": "On 5 October Daimler-Benz shares were listed on the New York Stock Exchange, the first German company there. To be admitted it agreed to publish accounts under American rules, which show more than the German ones. The listing comes in a deep recession: car sales fell sharply in the first half of the year and the group is cutting jobs.",
+    "what": "On 5 October Daimler-Benz shares were listed on the New York Stock Exchange, the first German company there. To be admitted it agreed to publish accounts under American rules, which show more than the German ones. The listing comes in a deep recession: revenues fell in the first half of the year and the group is spending heavily on restructuring.",
     "why": "The listing exposed Daimler's numbers: under US rules 1993 showed heavy losses, the first since the war, and the pressure from shareholders that followed helped end the Reuter era.",
     "assets": [
       "mercedes"
@@ -277,7 +281,7 @@
   {
     "month": "2001-09",
     "title": "The September 11 attacks hit DaimlerChrysler",
-    "what": "After the terrorist attacks of 11 September, the New York Stock Exchange stayed closed until 17 September; when it reopened the Dow fell 14% in a week. Car makers were among the hardest hit, as Americans are expected to stop buying cars. DaimlerChrysler earns much of its money in the United States, where Chrysler is already losing heavily.",
+    "what": "After the terrorist attacks of 11 September, the New York Stock Exchange stayed closed until 17 September; when it reopened the Dow fell 14% in a week. DaimlerChrysler earns much of its money in the United States, where Chrysler is already losing heavily.",
     "why": "The worst month of the Chrysler years (-32%), from a share already far below its 1998 peak.",
     "assets": [
       "mercedes"
@@ -288,6 +292,17 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/September_11_attacks (economic aftermath, read 2026-10-03); BBC News, 17 November 2000, http://news.bbc.co.uk/2/hi/business/1028230.stm (read 2026-10-03)"
+  },
+  {
+    "month": "2003-03",
+    "title": "DaimlerChrysler buys into Mitsubishi's truck business",
+    "what": "On 14 March DaimlerChrysler bought 43% of Mitsubishi Fuso Truck and Bus, the truck business split off from Mitsubishi Motors in January. It adds a big Asian maker to DaimlerChrysler's truck business, which already includes Mercedes-Benz and Freightliner.",
+    "why": "Of Schrempp's Asian adventures only the trucks lasted: Fuso became part of Daimler Truck.",
+    "assets": [
+      "mercedes"
+    ],
+    "importance": 3,
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 2003 ('Commercial vehicles: principal shareholder of Mitsubishi Fuso', 14 March 2003), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2003.xhtml?oid=4913233 (read 2026-10-03)"
   },
   {
     "month": "2004-04",
@@ -340,7 +355,7 @@
   {
     "month": "2008-10",
     "title": "The financial crisis crushes car shares",
-    "what": "After the collapse of Lehman Brothers in September, stock markets plunged worldwide in October and car sales are collapsing. Credit for car buyers and leasing has dried up. The euro fell from 1.41 to 1.27 dollars during the month, which made the fall worse in dollars.",
+    "what": "After the collapse of Lehman Brothers in September, stock markets plunged worldwide in October, credit markets are disrupted and the crisis is spreading to the wider economy. The euro fell from 1.41 to 1.27 dollars during the month, which made the fall worse in dollars.",
     "why": "Daimler fell 24% in euros and 32% in dollars; the DAX ended 2008 down about 40%. The bottom came in February-March 2009.",
     "assets": [
       "mercedes"
@@ -381,7 +396,7 @@
   {
     "month": "2010-09",
     "title": "German car shares race ahead",
-    "what": "German car makers are booming on demand from China and the United States; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month.",
+    "what": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month.",
     "why": "+30% in dollars: about 21% in euros plus the euro's rebound after the spring's Greek crisis. German auto shares rose 56% in 2010.",
     "assets": [
       "mercedes"
@@ -409,6 +424,29 @@
     "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); BMW Group Annual Report 2011, capital market section (DAX -30% July to September), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2011.pdf (read 2026-10-03)"
   },
   {
+    "month": "2013-05",
+    "title": "A new S-Class for Mercedes",
+    "what": "Mercedes-Benz presented the new S-Class, its flagship luxury saloon, at a lavish premiere on 15 May. Daimler is also renewing its compact cars.",
+    "why": "A new flagship in a good year for the share, which rose strongly in 2013.",
+    "assets": [
+      "mercedes"
+    ],
+    "importance": 3,
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 2013 ('New S-Class unlocks new dimensions in luxury, comfort and efficiency', 15 May 2013), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2013.xhtml?oid=188893673 (read 2026-10-03)"
+  },
+  {
+    "month": "2014-10",
+    "title": "Daimler sells its Tesla stake",
+    "what": "Daimler sold its remaining shares in the electric car maker Tesla for a reported 780 million dollars. It took almost 10% of Tesla in May 2009, when Tesla was a small private company, and sold part of the stake to its shareholder Aabar later that year. Tesla supplied batteries and motors for electric versions of the Smart and the Mercedes B-Class.",
+    "why": "A good trade at the time, and a missed opportunity in hindsight: the stake would have been worth many times more by 2020.",
+    "assets": [
+      "mercedes",
+      "tsla"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (Daimler stake, read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 2009 ('Daimler takes a stake in Tesla', 19 May 2009; Aabar, 13 July 2009), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2009.xhtml?oid=4913607 (read 2026-10-03); The Detroit News, 'Daimler sells 4% Tesla stake', 22 October 2014 (headline via Google News) (read 2026-10-03)"
+  },
+  {
     "month": "2015-09",
     "title": "Volkswagen's diesel cheating shakes German car makers",
     "what": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems.",
@@ -433,7 +471,7 @@
   {
     "month": "2018-02",
     "title": "Geely's founder becomes Daimler's biggest shareholder",
-    "what": "Li Shufu, founder of the Chinese car maker Geely, which owns Volvo, has bought 9.69% of Daimler, making him the largest single shareholder. China is Mercedes' biggest market.",
+    "what": "Li Shufu, founder of the Chinese car maker Geely, which owns Volvo, has bought 9.69% of Daimler, making him the largest single shareholder.",
     "why": "With BAIC's 5% (2019, later about 10%) Chinese owners held almost a fifth of the company, which became a political issue in Washington in 2026.",
     "assets": [
       "mercedes"
@@ -459,8 +497,8 @@
   {
     "month": "2020-03",
     "title": "The pandemic shuts the car factories",
-    "what": "As the coronavirus spread across Europe and America, stock markets crashed; on 12 March the DAX fell 12%, one of its worst days ever. Car makers including Daimler halted production in Europe and the United States, and showrooms closed.",
-    "why": "The COVID crash (-27%); the recovery began in April with central-bank support.",
+    "what": "As the coronavirus spread across Europe and America, stock markets crashed; on 12 March the DAX fell 12%, one of its worst days ever. Car makers including Daimler halted production in Europe and the United States.",
+    "why": "The COVID crash (-27%); the recovery began in April (+14%).",
     "assets": [
       "mercedes"
     ],
@@ -475,7 +513,7 @@
     "month": "2020-11",
     "title": "Vaccine news sends car shares soaring",
     "what": "On 9 November Pfizer and BioNTech reported that their coronavirus vaccine is 90% effective, and stock markets surged worldwide, led by shares that suffer most from lockdowns, such as car makers. Joe Biden's win in the US presidential election added to the optimism.",
-    "why": "+30% for Daimler (and +28% for BMW); together with the strong Chinese demand, the start of a two-year rally to record profits in 2021-2022.",
+    "why": "+30% for Daimler (and +28% for BMW); the start of a strong 2021 for car shares.",
     "assets": [
       "mercedes"
     ],
@@ -509,24 +547,9 @@
     "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_Group (read 2026-10-03)"
   },
   {
-    "month": "2023-10",
-    "title": "Electric-car price war squeezes Mercedes",
-    "what": "Mercedes-Benz reported falling third-quarter profits on 26 October, and its shares dropped almost 6% that day. The finance chief called the price competition for electric cars 'brutal'. Chinese makers and Tesla are cutting prices.",
-    "why": "The first sign that the luxury pricing power of 2021-2022 was fading.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -16
-    },
-    "importance": 3,
-    "source": "CNBC, 'Mercedes-Benz shares fall nearly 6% as profit falls; CFO bemoans brutal EV pricing', 26 October 2023 (headline via Google News) (read 2026-10-03)"
-  },
-  {
     "month": "2024-02",
     "title": "Mercedes promises a 3-billion-euro buyback",
-    "what": "Presenting its 2023 results on 22 February, Mercedes-Benz announced a share buyback of up to 3 billion euros and a high dividend, despite warning of 'exceptional' uncertainty ahead. The shares rose 5% that day. It also slowed its plan to sell only electric cars and will keep updating its petrol models.",
+    "what": "Presenting its 2023 results on 22 February, Mercedes-Benz announced a share buyback of up to 3 billion euros, despite warning of 'exceptional' uncertainty ahead. The shares rose 5% that day. It also slowed its plan to sell only electric cars and will keep updating its petrol models.",
     "why": "Cash returns kept the share up for a while (+17% month) before the China slump.",
     "assets": [
       "mercedes"
@@ -541,7 +564,7 @@
   {
     "month": "2024-09",
     "title": "China's slump forces a profit warning",
-    "what": "On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast as Chinese buyers turn to local electric brands. The shares slumped. Other European car makers also issued warnings this month.",
+    "what": "On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast. The shares slumped. Other European car makers also issued warnings this month.",
     "why": "The China problem that dominates the arc from 2024 to 2026.",
     "assets": [
       "mercedes"
@@ -552,7 +575,7 @@
   {
     "month": "2026-03",
     "title": "War with Iran hits European car makers",
-    "what": "The United States and Israel went to war with Iran on 28 February. Iran attacked shipping and blocked the Strait of Hormuz, oil and gas prices jumped and stock markets fell. The Middle East is a high-margin market for luxury cars, and higher energy prices weigh on Europe's economy.",
+    "what": "The United States and Israel went to war with Iran on 28 February. Iran attacked shipping and blocked the Strait of Hormuz, energy prices jumped and stock markets fell. The Middle East is a high-margin market for luxury cars, and higher energy prices weigh on Europe's economy.",
     "why": "The -13% month; the war's energy shock was later cited by BMW in its June profit warning.",
     "assets": [
       "mercedes"

@@ -20,7 +20,8 @@
       "novartis"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); NZZ of 3 Jan 1997 in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03); data/src/profiles.ts"
+    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); NZZ of 3 Jan 1997 in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03); data/src/profiles.ts",
+    "cut": true
   },
   {
     "month": "1997-06",
@@ -36,33 +37,6 @@
     },
     "importance": 3,
     "source": "Neue Zürcher Zeitung, 1 July 1997, p. 35 ('Abkühlung des Schweizer Aktienmarktes'), scan data/manual/scans/nzz/NZZ_1997-07-01.pdf (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv"
-  },
-  {
-    "month": "1998-10",
-    "title": "Markets recover after the LTCM scare",
-    "what": "After Russia's default in August and the $3.6 billion rescue of the hedge fund Long-Term Capital Management, arranged by the New York Federal Reserve on 23 September, stock markets recovered in October. The S&P 500 rose 8%.",
-    "why": "Novartis rose 12% (10% in francs), part of the general relief rally.",
-    "assets": [
-      "novartis"
-    ],
-    "move": {
-      "asset": "novartis",
-      "pct": 12
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "month": "1999-01",
-    "title": "Weak sales knock Novartis and Nestlé",
-    "what": "Novartis and Nestlé both reported sharp drops in sales in the week of 18 January, and their shares lost markedly, the NZZ wrote on 30 January. Investors wait nervously for full results with profits.",
-    "why": "A reminder that the merger's first years were not smooth; Novartis lost 5% in dollars in January while the S&P 500 rose.",
-    "assets": [
-      "novartis",
-      "nestle"
-    ],
-    "importance": 3,
-    "source": "Neue Zürcher Zeitung, 30 January 1999, p. 33 (weekly Swiss market report), scan data/manual/scans/nzz/NZZ_1999-01-30.pdf, text layer (read 2026-10-03)"
   },
   {
     "month": "1999-12",

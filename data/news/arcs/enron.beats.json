@@ -33,17 +33,6 @@
     "source": "https://en.wikipedia.org/wiki/Teesside_Power_Station (read 2026-10-03); https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
   },
   {
-    "month": "1995-08",
-    "title": "Indian state stops work on Enron's Dabhol plant",
-    "what": "The new government of the Indian state of Maharashtra halted construction of Enron's Dabhol power plant on 3 August. The Hindu nationalist BJP and Shiv Sena won the state election this year with a pledge to 'push Enron into the Arabian Sea', calling the contract too expensive and negotiated in secret.",
-    "why": "The first public sign that Enron's foreign projects carried political risk that its accounts did not show. The contract was renegotiated in 1996.",
-    "assets": [
-      "enron"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Dabhol_Power_Station (read 2026-10-03)"
-  },
-  {
     "month": "1996-07",
     "title": "Enron to buy Oregon utility Portland General",
     "what": "Enron has agreed to buy Portland General Corporation, an Oregon electric utility, for about 51 million new Enron shares worth about $2.1 billion, plus about $1.1 billion of Portland General's debt. Enron calls the combination the nation's largest integrated natural gas and electricity company, with 5,900 megawatts of generating capacity and 37,000 miles of pipeline.",
@@ -63,7 +52,8 @@
       "enron"
     ],
     "importance": 2,
-    "source": "https://enroncorp.com/corp/pressroom/releases/1996/press_chron1996 (Enron press releases of 2 and 10 December 1996; read 2026-10-03); https://en.wikipedia.org/wiki/Dabhol_Power_Station (read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/1996/press_chron1996 (Enron press releases of 2 and 10 December 1996; read 2026-10-03); https://en.wikipedia.org/wiki/Dabhol_Power_Station (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1997-06",
@@ -74,7 +64,8 @@
       "enron"
     ],
     "importance": 2,
-    "source": "https://enroncorp.com/corp/pressroom/releases/1997/73jblock (Enron press release, 2 June 1997; read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/1997/73jblock (Enron press release, 2 June 1997; read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1997-07",
@@ -101,21 +92,6 @@
     ],
     "importance": 2,
     "source": "https://enroncorp.com/corp/pressroom/releases/1998/press_chron1998 (Enron press release, 24 July 1998; read 2026-10-03); https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Enron falls with the market after Russia's default",
-    "what": "Enron's shares fell about a fifth in August as Russia's default on its debt on 17 August set off a flight from risk across world markets. The S&P 500 lost 15% in the month.",
-    "why": "A market move, not an Enron one: the stock recovered all of it in September.",
-    "assets": [
-      "enron"
-    ],
-    "move": {
-      "asset": "enron",
-      "pct": -20
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); data/news/arcs/movers.md"
   },
   {
     "month": "1999-04",

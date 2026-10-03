@@ -118,32 +118,6 @@
     "source": "https://de.wikipedia.org/wiki/Eberhard_von_Kuenheim (read 2026-10-03); https://en.wikipedia.org/wiki/Bernd_Pischetsrieder (read 2026-10-03)"
   },
   {
-    "month": "1996-03",
-    "title": "Rover and aero engines weigh on BMW",
-    "what": "BMW's profit is falling. Rover lost about 200 million marks in 1995 and the aero-engine venture BMW Rolls-Royce about 500 million; Pischetsrieder expects no profit contribution from Rover in this decade. The new plant in Spartanburg in the United States has start-up problems, and the supervisory board chairman, von Kuenheim, vetoed Pischetsrieder's plan to enter Formula One.",
-    "why": "The first public signs of the Rover problem; BMW still had not posted a loss in more than thirty years.",
-    "assets": [
-      "bmw"
-    ],
-    "importance": 2,
-    "source": "Der Spiegel 10/1996, 'Manager ohne Macht', 3 March 1996, https://www.spiegel.de/wirtschaft/manager-ohne-macht-a-af4db168-0002-0001-0000-000008891740 (read 2026-10-03)"
-  },
-  {
-    "month": "1997-10",
-    "title": "The Asian crisis reaches Frankfurt",
-    "what": "The financial crisis that began in Thailand in the summer spread to Hong Kong, whose stock market fell 23% in a few days. On 27 October the Dow Jones fell 7.2%, and stock markets around the world followed.",
-    "why": "-14% for BMW in October after +21% in September; volatile months before the 1998 boom.",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": -14
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
-  },
-  {
     "month": "1998-04",
     "title": "BMW wins the bid for Rolls-Royce, for now",
     "what": "Vickers has accepted BMW's offer for the British luxury car maker Rolls-Royce Motor Cars, which already uses BMW engines; the price is 340 million pounds. Pischetsrieder promised to invest 1 billion pounds, double the workforce and triple production. Volkswagen is preparing a higher offer.",
@@ -151,34 +125,8 @@
     "assets": [
       "bmw"
     ],
-    "importance": 3,
-    "source": "BBC News, 'BMW pledges £1bn Rolls-Royce investment', 7 April 1998, http://news.bbc.co.uk/2/hi/business/71404.stm (read 2026-10-03); https://en.wikipedia.org/wiki/Rolls-Royce_Motors (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Asian and Russian crises send markets tumbling",
-    "what": "The fall on world stock markets sped up in August as the financial crisis in Asia deepened and Russia's troubles grew. In Frankfurt foreign investors sold German shares. In July Rover announced 1,500 more job cuts.",
-    "why": "-26% for BMW (market -15%); the slide continued in September (-14%).",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": -26
-    },
     "importance": 2,
-    "source": "Die Zeit, 'Talfahrt der Kurse', 13 August 1998, https://www.zeit.de/1998/34/Talfahrt_der_Kurse (read 2026-10-03); BBC News, 'Rover - a car firm's troubles', 29 October 1999 (list of earlier reports incl. 'Rover confirms 1,500 jobs to go', 23 July 1998), http://news.bbc.co.uk/2/hi/business/353271.stm (read 2026-10-03)"
-  },
-  {
-    "month": "1999-02",
-    "title": "Rover crisis topples BMW's bosses",
-    "what": "After a turbulent supervisory board meeting on 5 February, BMW's chairman Bernd Pischetsrieder and his rival Wolfgang Reitzle both resigned over the losses at Rover. The production chief Joachim Milberg is the new chairman. Takeover talk followed at once: DaimlerChrysler's co-chairman Robert Eaton said he expected three or four companies to bid for BMW.",
-    "why": "BMW stayed independent; Milberg's job became ending the Rover adventure, which he did in March 2000.",
-    "assets": [
-      "bmw"
-    ],
-    "importance": 1,
-    "source": "Die Zeit, 'Wer schleppt BMW ab?', 11 February 1999, https://www.zeit.de/1999/07/Wer_schleppt_BMW_ab_ (read 2026-10-03); https://en.wikipedia.org/wiki/Joachim_Milberg (read 2026-10-03)"
+    "source": "BBC News, 'BMW pledges £1bn Rolls-Royce investment', 7 April 1998, http://news.bbc.co.uk/2/hi/business/71404.stm (read 2026-10-03); https://en.wikipedia.org/wiki/Rolls-Royce_Motors (read 2026-10-03)"
   },
   {
     "month": "2000-01",

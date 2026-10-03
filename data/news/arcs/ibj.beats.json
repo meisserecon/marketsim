@@ -116,28 +116,6 @@
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
   },
   {
-    "month": "1994-12",
-    "title": "Two Tokyo credit co-operatives fail",
-    "what": "On 9 December two Tokyo credit co-operatives, Tokyo Kyowa and Anzen, failed. The Bank of Japan and private banks set up a new bank to take over their business, the first time in nearly 30 years that the central bank has put in risk capital. In October the Bank of Japan's governor said it is not the central bank's job to save every institution from failure.",
-    "why": "The first failures of the crisis; larger ones follow in 1995 and 1997.",
-    "assets": [
-      "ibj"
-    ],
-    "importance": 3,
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
-  },
-  {
-    "month": "1995-08",
-    "title": "Hyogo Bank and Kizu Credit fail",
-    "what": "Kizu Credit Cooperative and Hyogo Bank in western Japan failed in August, after Tokyo's Cosmo Credit Cooperative in July. Private banks are again asked to contribute to cover the losses.",
-    "why": "The crisis reaches a listed bank; the big banks keep paying for rescues while carrying their own bad loans.",
-    "assets": [
-      "ibj"
-    ],
-    "importance": 3,
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
-  },
-  {
     "month": "1997-01",
     "title": "Bad-loan fears hit the major banks",
     "what": "By early 1997 it has become obvious that bad loans threaten the viability of some of Japan's major banks. Nippon Credit Bank, one of the three long-term credit banks alongside IBJ, has been struggling to raise funds since the start of the year. IBJ shares fell 27% in January.",
@@ -172,7 +150,8 @@
       "ibj"
     ],
     "importance": 2,
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03)"
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1998-03",
@@ -184,36 +163,6 @@
     ],
     "importance": 3,
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "The Long-Term Credit Bank crisis and the Russian default",
-    "what": "The Long-Term Credit Bank of Japan, IBJ's closest peer, is in crisis: its shares plunged over 70% this summer as details of its bad loans leaked, and the authorities are trying to arrange a rescue merger with Sumitomo Trust Bank. World markets fell sharply in August. IBJ shares fell 29%.",
-    "why": "IBJ's low point in the game, 92% below its 1989 peak.",
-    "assets": [
-      "ibj"
-    ],
-    "move": {
-      "asset": "ibj",
-      "pct": -29
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
-  },
-  {
-    "month": "1998-10",
-    "title": "LTCB nationalised under new bank laws; the yen leaps",
-    "what": "New laws passed this autumn allow troubled banks to be nationalised and make 25 trillion yen available to recapitalise sound banks, doubling the public funds for the banking system to 60 trillion yen. The Long-Term Credit Bank was nationalised on 23 October. The yen rose about 17% against the dollar in October. IBJ rose 31% in dollars.",
-    "why": "The system finally gets a safety net. About half of the dollar gain is the yen.",
-    "assets": [
-      "ibj"
-    ],
-    "move": {
-      "asset": "ibj",
-      "pct": 31
-    },
-    "importance": 2,
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
   },
   {
     "month": "1999-03",

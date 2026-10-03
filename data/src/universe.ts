@@ -92,7 +92,6 @@ export const UNIVERSE: StockDef[] = [
   { id: "bmw", name: "BMW", listed: "1981-04", source: "yahoo", ticker: "BMW.DE", currency: "EUR", note: "Yahoo data from 1996-11; 1980 to 1996 needs a manual prefix." },
 
   // --- dot-com boom and bust, survivors -------------------------------------
-  { id: "pcln", name: "Priceline", renames: [{ from: "2018-02", name: "Booking Holdings" }], source: "yahoo", ticker: "BKNG", currency: "USD" },
 
   // --- international --------------------------------------------------------
   { id: "sony", name: "Sony", source: "yahoo", ticker: "SONY", currency: "USD" },

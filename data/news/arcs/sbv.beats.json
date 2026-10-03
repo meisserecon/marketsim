@@ -123,53 +123,5 @@
     ],
     "importance": 2,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)"
-  },
-  {
-    "month": "1997-05",
-    "title": "Dillon Read joins SBC Warburg",
-    "what": "On 16 May the Bankverein agreed to buy the New York investment bank Dillon, Read & Co. for about $600 million in shares, creating SBC Warburg Dillon Read. After O'Connor, Brinson and Warburg it gives the Basel bank a foothold on Wall Street.",
-    "why": "Last piece of the Bankverein's investment-bank build-up; the Dillon Read name lives on in UBS until the disastrous Dillon Read Capital Management hedge fund is closed in 2007.",
-    "assets": [
-      "sbv"
-    ],
-    "move": {
-      "asset": "sbv",
-      "pct": 10
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
-  },
-  {
-    "month": "1997-12",
-    "title": "Bankverein and Bankgesellschaft to merge",
-    "what": "On 8 December the Bankverein and the Bankgesellschaft announced an all-stock 'merger of equals' under the name UBS. Bankgesellschaft shareholders get about 60% of the new bank, Bankverein shareholders 40%. 13,000 jobs are to go, more than half in Switzerland; the bank targets 10-11 billion francs of profit within four years and would be the world's largest manager of private wealth. The Bankverein's Marcel Ospel becomes chief executive, the Bankgesellschaft's Mathis Cabiallavetta chairman.",
-    "why": "The defining beat of the Bankverein's last year: the smaller, more modern bank effectively takes over the larger one, with its own management in charge.",
-    "assets": [
-      "sbv",
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "sbv",
-      "pct": 8
-    },
-    "importance": 1,
-    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)"
-  },
-  {
-    "month": "1998-05",
-    "title": "Last month of the Bankverein share",
-    "what": "The Bankverein's shareholders approved the merger with the Bankgesellschaft on 4 February, and its last ordinary general meeting was held in Basel on 15 April. The merger takes legal effect at the end of June; each Bankverein share will be exchanged for 1 1/13 shares of the new UBS. The last Bankverein quote in Zurich was on 29 May.",
-    "why": "Exit beat: from June 1998 Bankverein holders own UBS. They did well: the Bankverein share rose about 4.5-fold in dollars over its 16 years in the game.",
-    "assets": [
-      "sbv",
-      "ubs"
-    ],
-    "move": {
-      "asset": "sbv",
-      "pct": 4
-    },
-    "importance": 1,
-    "source": "https://de.wikipedia.org/wiki/Schweizerischer_Bankverein (read 2026-10-03); exchange ratio and last quote: data/src/universe.ts and data/manual/sbv.csv header (read 2026-10-03)"
   }
 ]

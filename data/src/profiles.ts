@@ -199,13 +199,6 @@ export const PROFILES: Record<string, CompanyProfile> = {
       { from: "2000-06", tagline: "Premium and nothing else.", about: "A Munich maker of sporty, expensive cars and of motorcycles. It has sold Rover and Land Rover and kept the Mini." },
     ],
   },
-  pcln: {
-    country: "United States", sector: "Online travel",
-    versions: [
-      { from: "1999-03", tagline: "Name your own price.", about: "Runs a website where customers say what they are willing to pay for a flight or a hotel room, and airlines and hotels with empty seats and rooms decide whether to accept." },
-      { from: "2005-07", tagline: "The whole world is starting to book its hotels online, and Europe is where we are growing fastest.", about: "An online travel agency for flights and hotels. It has bought Booking.com, a European hotel booking site." },
-    ],
-  },
   sony: {
     country: "Japan", sector: "Consumer electronics",
     versions: [

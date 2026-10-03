@@ -36,39 +36,6 @@
     "source": "https://en.wikipedia.org/wiki/Chronology_of_world_oil_market_events (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
-    "month": "1997-11",
-    "title": "OPEC raises output as Asia falters",
-    "what": "On 29 November OPEC raised its production ceiling by 10% to 27.5 million barrels a day from 1 January. At the same time Asia's financial crisis is hitting some of the fastest-growing oil users. US crude fell 9% in November to about $19.35.",
-    "why": "A famous misjudgement: more oil just as Asian demand fell, which set up the 1998 collapse.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Chronology_of_world_oil_market_events (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Oil near 12-year lows as Russia defaults",
-    "what": "US crude ended August at $13.29 a barrel and Brent at about $12, near the lowest since 1986, despite OPEC cuts agreed in March and June totalling about 2.6 million barrels a day. Russia, which depends heavily on oil and gas exports, devalued the rouble and stopped paying some of its debts.",
-    "why": "Cheap oil was part of the emerging-market crisis that drove the market's 15% fall; oilfield services were hit hardest, Schlumberger -28%.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -28
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/1990%E2%80%931999_world_oil_market_chronology (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "month": "1998-12",
-    "title": "Oil hits $11",
-    "what": "US crude fell to $10.82 a barrel on 10 December and Brent to $9.10, about the 1986 low. Prices have fallen back to 1986 levels after weak Asian demand and rising OPEC output.",
-    "why": "The low point of the whole period. From here oil rose more than tenfold over ten years.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
-  },
-  {
     "month": "1999-03",
     "title": "OPEC and its rivals cut together",
     "what": "On 23 March OPEC and non-OPEC producers including Mexico and Norway agreed to cut output by a combined 2.1 million barrels a day for one year. OPEC's revenues fell about 30% in 1998. US crude rose 23% in March to about $15.",
@@ -76,21 +43,6 @@
     "assets": [],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/1990%E2%80%931999_world_oil_market_chronology (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "month": "1999-04",
-    "title": "Oil up 50% since February",
-    "what": "US crude ended April at $18.69 a barrel, up another 23% in the month and about 50% since February, as the new cuts hold. Oil shares rallied.",
-    "why": "The cut worked faster than anyone expected; Exxon rose 18% in April.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 18
-    },
-    "importance": 3,
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/1990%E2%80%931999_world_oil_market_chronology (read 2026-10-03)"
   },
   {
     "month": "2000-12",

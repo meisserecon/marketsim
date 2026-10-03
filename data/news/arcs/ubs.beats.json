@@ -24,21 +24,6 @@
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
   },
   {
-    "month": "1995-03",
-    "title": "Ebner talks fail as the dollar collapses",
-    "what": "Talks between the Bankgesellschaft and Martin Ebner's BK Vision, its largest shareholder, on settling their dispute have broken down. Ebner, who built up a stake from 1991 and has fought the bank's plan, narrowly approved by shareholders late last year, to replace its two share classes with a single share, is challenging it in court. At the same time the dollar fell to about 1.17 francs, almost 13% below its level at the end of 1994.",
-    "why": "The Ebner fight is the first shareholder revolt against a Swiss big bank and pushes the Bankgesellschaft toward the 1997 merger. The +8% in dollars this month is the franc; in francs the share fell.",
-    "assets": [
-      "ubs"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 8
-    },
-    "importance": 2,
-    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
-  },
-  {
     "month": "1996-04",
     "title": "Bankgesellschaft rejects a merger with CS Holding",
     "what": "On the night of 11 April the Bankgesellschaft's board unanimously rejected a merger proposal from CS Holding, whose chairman Rainer Gut had telephoned Nikolaus Senn with the offer. The combined bank would have earned slightly more than 3 billion francs a year and, with a balance sheet of about $419 billion, would have ranked second in the world. A merger could have cost up to 10,000 jobs in Switzerland.",
@@ -86,7 +71,8 @@
       "pct": 14
     },
     "importance": 1,
-    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
+    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1998-06",
@@ -104,22 +90,6 @@
     "source": "https://de.wikipedia.org/wiki/Schweizerische_Bankgesellschaft (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); share terms: data/src/universe.ts and data/manual/ubs.csv header (read 2026-10-03)"
   },
   {
-    "month": "1998-08",
-    "title": "Russia defaults; the banks settle the Holocaust claims",
-    "what": "Russia defaulted on its domestic bonds on 17 August, setting off a rout in markets; the hedge fund Long-Term Capital Management, a big UBS client, lost $1.85 billion of capital by the end of the month. On 12 August UBS and Credit Suisse agreed to pay $1.25 billion to settle the US class actions over dormant accounts of Holocaust victims, after US states and cities had threatened sanctions against Swiss firms.",
-    "why": "Two strands meet: the settlement closes the Holocaust-assets affair, while the Russian default starts the LTCM losses that cost the merged bank its chairman within weeks.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.swissinfo.ch/eng/business/twenty-years-ago_when-swiss-banks-settled-with-holocaust-survivors/44315844 (read 2026-10-03); https://www.swissinfo.ch/eng/swiss-politics/looking-back-at-the-holocaust-assets-controversy/36756580 (read 2026-10-03)"
-  },
-  {
     "month": "1998-09",
     "title": "UBS caught in the LTCM collapse",
     "what": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks; on 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS among those putting in $300 million. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
@@ -132,7 +102,8 @@
       "pct": -40
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1998-10",
@@ -147,7 +118,8 @@
       "pct": 40
     },
     "importance": 2,
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)"
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "2000-11",

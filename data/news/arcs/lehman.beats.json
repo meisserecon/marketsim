@@ -8,7 +8,8 @@
       "lehman"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/American_Express (read 2026-10-03, citing New York Times, 1 June 1994); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/American_Express (read 2026-10-03, citing New York Times, 1 June 1994); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1994-12",
@@ -22,17 +23,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/806085/0000950112-96-000633.txt (Lehman 10-K for fiscal 1995; read 2026-10-03)"
   },
   {
-    "month": "1996-11",
-    "title": "Lehman's president leaves after a power struggle",
-    "what": "Christopher Pettit, president and chief operating officer of Lehman Brothers, left the firm on 26 November after losing a power struggle. Chief executive Richard Fuld is not filling the post.",
-    "why": "Fuld ran Lehman without a number two until 2002; his grip on the firm and its board mattered in 2008, when no one challenged him.",
-    "assets": [
-      "lehman"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03)"
-  },
-  {
     "month": "1998-01",
     "title": "Record year for Lehman",
     "what": "Lehman Brothers earned a record $647 million in the year to November 1997, or $4.72 a share, in a year of near-record underwriting volumes and mergers on Wall Street.",
@@ -42,51 +32,6 @@
     ],
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999, giving the 1997 figures; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (10-K fiscal 1998; read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Russia's default hits Wall Street; Lehman shares nearly halve",
-    "what": "Russia defaulted on its domestic debt on 17 August, and investors fled to the safest government bonds, punishing every firm that trades riskier bonds and emerging-market debt. The S&P 500 fell 15% in August; Lehman Brothers, a firm built on bond trading, lost 45%.",
-    "why": "The first time Lehman nearly went under: in a panic, a firm that borrows short-term to hold long-term securities is only as strong as its lenders' confidence.",
-    "assets": [
-      "lehman"
-    ],
-    "move": {
-      "asset": "lehman",
-      "pct": -45
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (Lehman 10-K fiscal 1998, market review; read 2026-10-03)"
-  },
-  {
-    "month": "1998-09",
-    "title": "Russia costs Lehman $60 million; it joins the rescue of LTCM",
-    "what": "Lehman said on 3 September that turmoil in Russia and other emerging markets cut its third-quarter profit by about $60 million, to $151 million from $197 million a year earlier, and announced a buyback of up to 7.5 million more shares. On 23 September fourteen banks and brokers, Lehman among them with $100 million, agreed under the eye of the New York Federal Reserve to put $3.6 billion into the collapsing hedge fund Long-Term Capital Management. Concerns about Wall Street firms' exposures kept the shares falling.",
-    "why": "LTCM showed how the big firms were tied to each other through lending and trading; the same web would sink Lehman in 2008, with no rescue.",
-    "assets": [
-      "lehman"
-    ],
-    "move": {
-      "asset": "lehman",
-      "pct": -28
-    },
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000134.txt (Lehman press release, 3 September 1998; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000144.txt (23 September 1998; read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03)"
-  },
-  {
-    "month": "1998-10",
-    "title": "Lehman opens its books; the Fed cuts rates again",
-    "what": "To answer 'recent concerns' about the industry, Lehman disclosed on 5 October that its exposure to hedge funds was $447 million, against $583 million of collateral, and its exposure to Long-Term Capital Management only $32 million; 91% of its credit exposure was to investment-grade borrowers. On 15 October the Federal Reserve cut interest rates for the second time in three weeks, citing unsettled financial markets. Lehman's shares rose by a third in October.",
-    "why": "Disclosure plus a central bank cut calmed the panic. A decade later Lehman tried the same, publishing its exposures and liquidity, and it did not work.",
-    "assets": [
-      "lehman"
-    ],
-    "move": {
-      "asset": "lehman",
-      "pct": 34
-    },
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-98-000151.txt (Lehman press release, 5 October 1998; read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/1998/19981015/ (read 2026-10-03)"
   },
   {
     "month": "1998-11",

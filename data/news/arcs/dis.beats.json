@@ -106,7 +106,8 @@
       "brk"
     ],
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/29082/000090287395000014/ (Disney 8-K of 31 July 1995, read 2026-10-03); https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03); https://www.berkshirehathaway.com/letters/1995.html (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/29082/000090287395000014/ (Disney 8-K of 31 July 1995, read 2026-10-03); https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03); https://www.berkshirehathaway.com/letters/1995.html (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1997-01",
@@ -117,18 +118,8 @@
       "dis"
     ],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03)"
-  },
-  {
-    "month": "1998-04",
-    "title": "Disney's Animal Kingdom opens",
-    "what": "Disney's Animal Kingdom, a fourth theme park at Walt Disney World in Florida, opened on 22 April. Disney now owns the ABC network and ESPN as well as its studios and parks.",
-    "why": "The parks kept growing, but Disney's earnings stalled in the late 1990s and the shares went nowhere from 1997 to 2000.",
-    "assets": [
-      "dis"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "2000-01",

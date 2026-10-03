@@ -116,48 +116,8 @@
       "pct": -17
     },
     "importance": 2,
-    "source": "https://www.nytimes.com/1997/08/30/business/asian-stock-damage-has-wider-effects.html (via web.archive.org, read 2026-10-03); move from data/out/ko.json"
-  },
-  {
-    "month": "1997-10",
-    "title": "Roberto Goizueta dies; Douglas Ivester takes over",
-    "what": "Roberto Goizueta, Coca-Cola's chairman and chief executive since 1980/81, died of lung cancer on 18 October, aged 65. On 23 October the board elected Douglas Ivester, his long-time finance chief and president, as chairman and chief executive. Under Goizueta, revenue grew from 4.8 billion dollars in 1981 to 18.5 billion in 1996 and the company's market value from 4.3 billion to about 147 billion.",
-    "why": "The end of the golden era. Ivester inherited a company priced for perfection just as the world economy turned against it.",
-    "assets": [
-      "ko"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Roberto_Goizueta (read 2026-10-03); https://en.wikipedia.org/wiki/Douglas_Ivester (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Russia's collapse drags Coca-Cola down",
-    "what": "Russia devalued the rouble and defaulted on its government bonds in mid-August, and world stock markets fell hard; the Dow lost 357 points on 27 August alone. About three quarters of Coca-Cola's profit comes from abroad, and the company has invested heavily in Russia and Asia, where currencies have collapsed. Coca-Cola shares, which hit a record of nearly 89 dollars in mid-July, lost about 19% in August.",
-    "why": "The start of Coca-Cola's long slide: the shares peaked in mid-1998 and did not regain that level for years (worst stretch -54% to November 2004). Russian sales fell about 60% from August 1998 to September 1999.",
-    "assets": [
-      "ko"
-    ],
-    "move": {
-      "asset": "ko",
-      "pct": -19
-    },
-    "importance": 1,
-    "source": "https://www.latimes.com/archives/la-xpm-1998-aug-28-mn-17458-story.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-1998-sep-25-fi-26437-story.html (read 2026-10-03); https://archive.org/download/cocacolacoannualreports/cocacola1998_djvu.txt (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
-  },
-  {
-    "month": "1998-10",
-    "title": "Coca-Cola shares rebound after results come in as warned",
-    "what": "Coca-Cola reported third-quarter profit of 888 million dollars, down 12% on a year earlier, with worldwide volume up only 3%. The result was in line with what executives told analysts at an unusual meeting in September, when they warned that the crises in Asia, Russia and Latin America were hurting the business. The Federal Reserve cut its key interest rate on 29 September and again, between meetings, on 15 October, to 5%, and stocks recovered. With the bad news known, Coca-Cola shares gained about 17% in October.",
-    "why": "A relief rally in a roller-coaster year: up 33% by July, down 40%, back up and down again, ending 1998 almost unchanged, as Ivester later wrote.",
-    "assets": [
-      "ko"
-    ],
-    "move": {
-      "asset": "ko",
-      "pct": 17
-    },
-    "importance": 2,
-    "source": "https://www.nytimes.com/1998/10/16/business/company-reports-coca-cola-s-earnings-down-by-12.2-in-third-quarter.html (via web.archive.org, read 2026-10-03); https://fred.stlouisfed.org/series/DFEDTAR (federal funds target, read 2026-10-03); https://archive.org/download/cocacolacoannualreports/cocacola1998_djvu.txt (read 2026-10-03)"
+    "source": "https://www.nytimes.com/1997/08/30/business/asian-stock-damage-has-wider-effects.html (via web.archive.org, read 2026-10-03); move from data/out/ko.json",
+    "lead": true
   },
   {
     "month": "1999-06",

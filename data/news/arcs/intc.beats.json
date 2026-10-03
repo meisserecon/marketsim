@@ -68,40 +68,6 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
-    "month": "1994-12",
-    "title": "The Pentium division flaw: Intel gives in",
-    "what": "A mathematics professor, Thomas Nicely, found that the Pentium gets some divisions slightly wrong; the story spread from November and CNN covered it on 22 November. After IBM stopped selling Pentium PCs in mid-December, Intel announced on 20 December that it will replace the chip for any customer who asks. Intel expects to take a charge for the replacements.",
-    "why": "A lesson in brand management: Intel first played the flaw down, then paid; on 17 January 1995 it announced a pretax charge of 475 million dollars. The stock barely moved; the episode cost money, not the franchise.",
-    "assets": [
-      "intc",
-      "ibm"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug (read 2026-10-03)"
-  },
-  {
-    "month": "1995-11",
-    "title": "The Pentium Pro",
-    "what": "Intel introduced the Pentium Pro on 1 November, its sixth-generation processor at 150 to 200 MHz. It runs best with fully 32-bit software such as Windows NT and is aimed above all at servers and powerful workstations.",
-    "why": "Its strength in servers (it powered ASCI Red, the first computer to pass a teraflop, in 1996) pointed to Intel's future in data centres; the stock rose about 130% in 1996.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Pentium_Pro (read 2026-10-03)"
-  },
-  {
-    "month": "1997-05",
-    "title": "The Pentium II",
-    "what": "Intel introduced the Pentium II on 7 May, combining the design of its Pentium Pro with the MMX multimedia instructions, at 233 to 300 MHz. It comes on a cartridge that plugs into a slot rather than a socket.",
-    "why": "Another step in the yearly upgrade cycle of the golden age; Intel shares more than doubled in 1996.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Pentium_II (read 2026-10-03)"
-  },
-  {
     "month": "1997-12",
     "title": "Time names Andy Grove Man of the Year",
     "what": "Time magazine chose Intel's chief executive Andy Grove as its Man of the Year, as the person most responsible for the growth of the microchip. Intel's sales reached about 21 billion dollars in 1997, and the company is worth close to 200 billion dollars on the stock market, against about 4 billion when Grove took over in 1987.",
@@ -110,18 +76,8 @@
       "intc"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
-  },
-  {
-    "month": "1998-06",
-    "title": "Barrett takes over, and the FTC sues Intel",
-    "what": "Craig Barrett succeeded Andy Grove as chief executive on 20 May, with Grove staying on as chairman; Barrett wants Intel to grow beyond PCs into networking chips and internet services. On 8 June the Federal Trade Commission charged Intel with abusing its monopoly by cutting off three customers, Compaq, Intergraph and DEC, from technical information in patent disputes.",
-    "why": "The first antitrust case against Intel, settled in March 1999; the competition complaints from AMD that followed ran for two decades.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://timeline.intel.com/1998/barrett-succeeds-grove (read 2026-10-03); https://www.ftc.gov/news-events/news/press-releases/1998/06/ftc-intel-abuses-its-monopoly-power-violation-federal-law (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1999-11",

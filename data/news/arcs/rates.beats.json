@@ -142,41 +142,6 @@
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03)"
   },
   {
-    "month": "1996-12",
-    "title": "Greenspan asks about 'irrational exuberance'",
-    "what": "In a speech in Washington on 5 December Fed chairman Alan Greenspan asked: 'how do we know when irrational exuberance has unduly escalated asset values', pointing to Japan's long slump after its boom. The S&P 500 slipped 2 percent in December after a 7 percent gain in November. The Fed's rate target is 5.25 percent and the 10-year Treasury yield about 6.3 percent.",
-    "why": "The most famous warning in market history, and a lesson in timing: the S&P 500 roughly doubled over the next three years before the bubble burst.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961205.htm (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Russia defaults and money flees into Treasury bonds",
-    "what": "In August Russia devalued its currency and stopped paying on its debt, and investors rushed into the safest and most liquid assets. The 10-year US Treasury yield averaged 5.3 percent in August and is falling fast, while riskier bonds and shares are sold. The S&P 500 lost 15 percent in the month, its worst since October 1987. Inflation is only 1.6 percent (July).",
-    "why": "A bond-market crisis that became a stock-market crisis: the flight to Treasuries wrecked hedge funds betting on the gap between safe and risky bonds, above all LTCM. Treasury holders gained while almost everything else fell.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -15
-    },
-    "importance": 2,
-    "source": "https://www.federalreservehistory.org/essays/ltcm-near-failure (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
-  },
-  {
-    "month": "1998-10",
-    "title": "Two Fed cuts in three weeks, one between meetings",
-    "what": "The Fed cut its rate target by a quarter point on 29 September and again on 15 October, between scheduled meetings, to about 5 percent, citing 'unsettled conditions in financial markets'. Banks cut the prime rate to 8 percent on 16 October. In September fourteen banks and brokers put 3.6 billion dollars into the hedge fund Long-Term Capital Management to prevent its collapse. The 10-year Treasury yield averaged about 4.5 percent in October, and the S&P 500 rose 8 percent.",
-    "why": "Greenspan's rescue of 1998: three cuts by November ended the panic and, with hindsight, poured fuel on the dot-com boom.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 8
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/1998/19981015/default.htm (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://www.federalreservehistory.org/essays/ltcm-near-failure (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
-  },
-  {
     "month": "1999-05",
     "title": "Britain will sell half its gold",
     "what": "On 7 May the British government said it would sell about 395 tonnes of gold, roughly half its reserves, in auctions from July; gold stood at 282.40 dollars that day. Gold averaged 276 dollars in May, its lowest monthly average since 1979. With inflation around 2 percent (April) and shares booming, few investors want a metal that pays nothing.",

@@ -110,17 +110,6 @@
     "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
   },
   {
-    "month": "1997-06",
-    "title": "McDonald's wins the 'McLibel' trial, but looks like a bully",
-    "what": "On 19 June a London judge ruled largely in McDonald's favour in its libel case against two environmental activists who had handed out leaflets attacking the company; he found the claims that McDonald's caused starvation and deforestation false. It was the longest trial in English history and made the activists famous. In the US, a 55-cent Big Mac promotion this spring confused customers and angered franchisees and was withdrawn.",
-    "why": "A low point for the brand: US sales were weak and the company was a target of anti-globalisation protests for years.",
-    "assets": [
-      "mcd"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/McLibel_case (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
-  },
-  {
     "month": "1998-03",
     "title": "McDonald's promises hotter, fresher food: 'Made for You'",
     "what": "In his letter of 15 March chairman Michael Quinlan admits that 1997 was disappointing and the stock lagged the market: McDonald's built too many US restaurants and neglected quality, service and value while competitors cut prices. The company is rolling out a new cook-to-order kitchen system, 'Made for You', in every US restaurant, paying about half of the 25,000 dollar cost per restaurant. It targets earnings per share growth of 10 to 15% a year for five years. In February it bought a minority stake in Chipotle, a small Mexican grill chain.",
@@ -129,22 +118,8 @@
       "mcd"
     ],
     "importance": 2,
-    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1997_djvu.txt (letter of 15 March 1998, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); yearly change from data/out/mcd.json"
-  },
-  {
-    "month": "1998-08",
-    "title": "Global sell-off hits McDonald's",
-    "what": "Russia devalued the rouble and defaulted on its bonds in mid-August, and stock markets worldwide fell; the Dow lost 357 points on 27 August. Multinationals with large foreign earnings were hit: about 60% of McDonald's operating income now comes from outside the United States, including Russia. McDonald's shares lost about 16% in August. In May Jack Greenberg, head of McDonald's USA, became chief executive, and in June McDonald's announced its first-ever job cuts, 525 headquarters jobs.",
-    "why": "A market move; the shares recovered within months and reached a record in late 1999.",
-    "assets": [
-      "mcd"
-    ],
-    "move": {
-      "asset": "mcd",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "https://www.latimes.com/archives/la-xpm-1998-aug-28-mn-17458-story.html (read 2026-10-03); https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1997_djvu.txt (international share of operating income, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (Greenberg, job cuts, read 2026-10-03); move from data/out/mcd.json"
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1997_djvu.txt (letter of 15 March 1998, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); yearly change from data/out/mcd.json",
+    "cut": true
   },
   {
     "month": "2000-02",

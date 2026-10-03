@@ -61,44 +61,6 @@
     "lead": true
   },
   {
-    "month": "1994-05",
-    "title": "Sandoz pays $3.7 billion for Gerber baby food",
-    "what": "Sandoz agreed in May to buy Gerber, America's biggest baby food maker, for $53 a share, about $3.7 billion, a premium of 53% and 30 times Gerber's annual profit. 'These are the highest acquisition multiples seen in the industry for ten years,' one analyst said. Gerber's management preferred a foreign buyer, expecting fewer job cuts.",
-    "why": "Sandoz's big bet on nutrition; Novartis sells Gerber to Nestlé for $5.5 billion in 2007.",
-    "assets": [
-      "sandoz"
-    ],
-    "importance": 2,
-    "source": "http://www.fundinguniverse.com/company-histories/gerber-products-company-history/ (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)"
-  },
-  {
-    "month": "1995-03",
-    "title": "The dollar falls to 1.13 francs",
-    "what": "The dollar has fallen hard against the franc since the start of the year: at the end of March it bought 1.13 francs, against 1.31 at the end of December. Swiss companies' foreign earnings are worth fewer francs, but for a dollar-based investor Swiss shares are worth more.",
-    "why": "Sandoz rose 12% in dollars in March, most of it (about 9%) the franc.",
-    "assets": [
-      "sandoz",
-      "nestle"
-    ],
-    "move": {
-      "asset": "sandoz",
-      "pct": 12
-    },
-    "importance": 3,
-    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1995-07",
-    "title": "Sandoz spins off its chemicals as Clariant",
-    "what": "Sandoz has separated its specialty chemicals and dyes business into an independent company, Clariant. What remains is a group of medicines, nutrition (Gerber, Ovomaltine) and seeds.",
-    "why": "The first step toward a pure life-sciences company, which makes the merger with Ciba-Geigy possible eight months later. Wikipedia gives only 1995; the month follows the game's profile data.",
-    "assets": [
-      "sandoz"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Clariant (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); data/src/profiles.ts"
-  },
-  {
     "month": "1996-03",
     "title": "Sandoz and Ciba-Geigy to merge as Novartis",
     "what": "On 7 March Sandoz and Ciba-Geigy, Basel's old rivals, announced that they will merge into a new company called Novartis, the largest corporate merger ever; the two had combined sales of nearly $30 billion last year. Ciba-Geigy's chairman Alex Krauer is to be chairman and Sandoz's pharma chief Daniel Vasella chief executive. Sandoz's bearer share jumped from 1,126 to 1,384 francs in March, Ciba-Geigy's from 1,067 to 1,475.",
@@ -112,17 +74,5 @@
     },
     "importance": 1,
     "source": "https://live.novartis.com/en/article/49 (read 2026-10-03); https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); search excerpt of https://pubs.acs.org/doi/10.1021/cen-v074n011.p007 (combined sales, read 2026-10-03); NZZ prices in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03)"
-  },
-  {
-    "month": "1996-11",
-    "title": "Last month of Sandoz: shares become Novartis",
-    "what": "Sandoz shares traded for the last time in Zurich at the end of November, the registered share at 1,516 francs on 29 November. Sandoz shares are being exchanged for shares of Novartis, the company formed with Ciba-Geigy, which is due to begin operations in December.",
-    "why": "The exit beat: in the game Sandoz positions convert into Novartis at the November prices. Over 17 years in the game Sandoz rose about elevenfold in dollars.",
-    "assets": [
-      "sandoz",
-      "novartis"
-    ],
-    "importance": 1,
-    "source": "data/manual/raw/nzz-notes-1995-1998.md (NZZ of 30 Nov 1996, read 2026-10-03); https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); data/src/universe.ts"
   }
 ]

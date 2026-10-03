@@ -264,7 +264,8 @@
       "ibm"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1996-12",
@@ -275,7 +276,8 @@
       "aapl"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1997-08",
@@ -306,18 +308,8 @@
       "pct": 40
     },
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/320193/0000320193-98-000001.txt (Apple 8-K with press release of 6 January 1998, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "The iMac goes on sale",
-    "what": "Apple's new iMac, an all-in-one computer in translucent blue plastic for 1,299 dollars, has gone on sale. It has no floppy drive and connects to accessories by USB.",
-    "why": "The product that bought Apple time: about a million iMacs a year. The exact on-sale date (August 1998) is not given in the sources read.",
-    "assets": [
-      "aapl"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/0000320193-98-000001.txt (Apple 8-K with press release of 6 January 1998, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "2000-01",

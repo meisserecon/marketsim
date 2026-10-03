@@ -619,26 +619,6 @@ Biggest months:
 - 2009-12: +43% (market +2%)
 - 2011-01: +55% (market +2%)
 
-### pcln: Priceline / Booking Holdings
-
-In the game 1999-03 to 2026-09; price 19.89 to 162.91 (+719% over 27.6 years).
-Worst stretch: -99% from 1999-04 to 2003-01. Best twelve months: +343% from 2000-12 to 2001-12.
-
-Biggest months:
-
-- 1999-04: +96% (market +4%)
-- 2000-03: +43% (market +10%)
-- 2000-09: -56% (market -5%)
-- 2000-10: -52% (market -0%)
-- 2000-11: -57% (market -8%)
-- 2000-12: -48% (market +0%)
-- 2001-01: +102% (market +3%)
-- 2001-04: +92% (market +8%)
-- 2001-06: +68% (market -3%)
-- 2002-10: +51% (market +9%)
-- 2003-05: +85% (market +5%)
-- 2003-07: +47% (market +2%)
-
 ### pets-com: Pets.com
 
 In the game 2000-02 to 2000-11 (bankruptcy: Liquidated in November 2000); price 7 to 0.2813 (-96% over 0.8 years).
@@ -1154,10 +1134,10 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 1999-01: market +4%; Microsoft +26%, Lehman Brothers +24%, Cisco +20%
 - 1999-02: market -3%; eBay +20%, Philip Morris -17%, Apple Computer -15%
 - 1999-03: market +4%; Industrial Bank of Japan +35%, Amazon +34%, Schlumberger +24%
-- 1999-04: market +4%; Priceline +96%, eBay +52%, Apple Computer +28%
-- 1999-05: market -2%; Priceline -31%, Amazon -31%, Industrial Bank of Japan -15%
+- 1999-04: market +4%; eBay +52%, Apple Computer +28%, Industrial Bank of Japan +23%
+- 1999-05: market -2%; Amazon -31%, Industrial Bank of Japan -15%, eBay -15%
 - 1999-06: market +5%; Nokia +29%, Cisco +18%, Sony +18%
-- 1999-07: market -3%; eBay -35%, Priceline -35%, Apple Computer +20%
+- 1999-07: market -3%; eBay -35%, Apple Computer +20%, Amazon -20%
 - 1999-08: market -1%; Nvidia +40%, eBay +29%, Industrial Bank of Japan +26%
 - 1999-09: market -3%; Nvidia -32%, Amazon +29%, Industrial Bank of Japan +20%
 - 1999-10: market +6%; Nokia +29%, Apple Computer +27%, Lehman Brothers +26%
@@ -1167,113 +1147,113 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 
 - 2000-01: market -5%; Enron +53%, BMW -26%, Disney +24%
 - 2000-02: market -2%; Nvidia +73%, Siemens +31%, Sony +24%
-- 2000-03: market +10%; Priceline +43%, Pets.com -39%, Lehman Brothers +34%
-- 2000-04: market -3%; Microsoft -34%, Pets.com -33%, Priceline -21%
-- 2000-05: market -2%; Priceline -40%, Apple Computer -32%, Nvidia +28%
+- 2000-03: market +10%; Pets.com -39%, Lehman Brothers +34%, Nvidia +32%
+- 2000-04: market -3%; Microsoft -34%, Pets.com -33%, Sony -19%
+- 2000-05: market -2%; Apple Computer -32%, Nvidia +28%, Pets.com -27%
 - 2000-06: market +2%; Microsoft +28%, Amazon -25%, Apple Computer +25%
-- 2000-07: market -2%; Priceline -38%, Pets.com -28%, Lehman Brothers +19%
+- 2000-07: market -2%; Pets.com -28%, Lehman Brothers +19%, Amazon -17%
 - 2000-08: market +6%; Pets.com -40%, Amazon +38%, Nvidia +32%
-- 2000-09: market -5%; Apple Computer -58%, Priceline -56%, Intel -44%
-- 2000-10: market -0%; Priceline -52%, Pets.com -33%, eBay -25%
-- 2000-11: market -8%; Priceline -57%, Pets.com -44%, WorldCom -37%
-- 2000-12: market +0%; Priceline -48%, Amazon -37%, Lehman Brothers +36%
+- 2000-09: market -5%; Apple Computer -58%, Intel -44%, Pets.com -23%
+- 2000-10: market -0%; Pets.com -33%, eBay -25%, Philip Morris +24%
+- 2000-11: market -8%; Pets.com -44%, WorldCom -37%, Nvidia -35%
+- 2000-12: market +0%; Amazon -37%, Lehman Brothers +36%, Schlumberger +29%
 ### 2001
 
-- 2001-01: market +3%; Priceline +102%, Nvidia +58%, WorldCom +53%
+- 2001-01: market +3%; Nvidia +58%, WorldCom +53%, eBay +50%
 - 2001-02: market -9%; Amazon -41%, Cisco -37%, Nokia -36%
 - 2001-03: market -6%; Nvidia +45%, Cisco -33%, Apple Computer +21%
-- 2001-04: market +8%; Priceline +92%, Amazon +54%, Nokia +42%
+- 2001-04: market +8%; Amazon +54%, Nokia +42%, eBay +39%
 - 2001-05: market +1%; Apple Computer -22%, eBay +20%, Enron -16%
-- 2001-06: market -3%; Priceline +68%, Nokia -24%, WorldCom -20%
+- 2001-06: market -3%; Nokia -24%, WorldCom -20%, Apple Computer +17%
 - 2001-07: market -1%; Sony -25%, Apple Computer -19%, Wal-Mart +15%
-- 2001-08: market -6%; Priceline -38%, Amazon -28%, Nokia -28%
+- 2001-08: market -6%; Amazon -28%, Nokia -28%, Enron -23%
 - 2001-09: market -8%; Nvidia -35%, Boeing -35%, Amazon -33%
 - 2001-10: market +2%; Nvidia +56%, Enron -49%, Cisco +39%
 - 2001-11: market +8%; Enron -98%, Amazon +62%, Intel +34%
-- 2001-12: market +1%; Enron +131%, Priceline +39%, Nvidia +22%
+- 2001-12: market +1%; Enron +131%, Nvidia +22%, Schlumberger +14%
 ### 2002
 
 - 2002-01: market -2%; Amazon +31%, WorldCom -29%, Apple Computer +13%
-- 2002-02: market -2%; Priceline -37%, Cisco -28%, WorldCom -25%
-- 2002-03: market +4%; Priceline +31%, Cisco +19%, Lehman Brothers +14%
+- 2002-02: market -2%; Cisco -28%, WorldCom -25%, Nvidia -22%
+- 2002-03: market +4%; Cisco +19%, Lehman Brothers +14%, DaimlerChrysler +13%
 - 2002-04: market -6%; WorldCom -63%, Nokia -22%, Nvidia -22%
-- 2002-05: market -1%; WorldCom -33%, Priceline -20%, Nokia -15%
+- 2002-05: market -1%; WorldCom -33%, Nokia -15%
 - 2002-06: market -7%; WorldCom -50%, Nvidia -49%, Intel -34%
-- 2002-07: market -8%; WorldCom -83%, Nvidia -36%, Priceline -34%
-- 2002-08: market +0%; Priceline +27%, Disney -12%, Intel -11%
-- 2002-09: market -11%; Priceline -38%, Siemens -29%, McDonald's -26%
-- 2002-10: market +9%; Priceline +51%, Siemens +41%, Nvidia +39%
+- 2002-07: market -8%; WorldCom -83%, Nvidia -36%, Xstrata -29%
+- 2002-08: market +0%; Disney -12%, Intel -11%, Boeing -11%
+- 2002-09: market -11%; Siemens -29%, McDonald's -26%, Cisco -24%
+- 2002-10: market +9%; Siemens +41%, Nvidia +39%, IBM +35%
 - 2002-11: market +6%; Nvidia +44%, Cisco +33%, Credit Suisse Group +23%
 - 2002-12: market -6%; Nvidia -33%, Intel -25%, Nokia -19%
 ### 2003
 
-- 2003-01: market -3%; Priceline -19%, Xstrata -18%, Amazon +16%
+- 2003-01: market -3%; Xstrata -18%, Amazon +16%, McDonald's -11%
 - 2003-02: market -2%; Nvidia +22%, Credit Suisse Group -15%, Boeing -13%
-- 2003-03: market +1%; Priceline +24%, Altria -22%, Amazon +18%
-- 2003-04: market +8%; Credit Suisse Group +38%, Priceline +35%, Sony -30%
-- 2003-05: market +5%; Priceline +85%, Nvidia +83%, Altria +34%
+- 2003-03: market +1%; Altria -22%, Amazon +18%, Xstrata -17%
+- 2003-04: market +8%; Credit Suisse Group +38%, Sony -30%, Siemens +21%
+- 2003-05: market +5%; Nvidia +83%, Altria +34%, Apple Computer +26%
 - 2003-06: market +1%; McDonald's +18%, Nvidia -12%, Boeing +12%
-- 2003-07: market +2%; Priceline +47%, Intel +20%, Credit Suisse Group +19%
-- 2003-08: market +2%; Priceline +20%, Intel +15%, Xstrata +13%
-- 2003-09: market -1%; Priceline -26%, Nvidia -12%
+- 2003-07: market +2%; Intel +20%, Credit Suisse Group +19%, Nvidia -17%
+- 2003-08: market +2%; Intel +15%, Xstrata +13%, Boeing +13%
+- 2003-09: market -1%; Nvidia -12%
 - 2003-10: market +5%; Xstrata +33%, Intel +20%, Siemens +13%
-- 2003-11: market +1%; Priceline -32%, Nvidia +20%, Altria +12%
+- 2003-11: market +1%; Nvidia +20%, Altria +12%, BMW +12%
 - 2003-12: market +5%; DaimlerChrysler +22%, Schlumberger +17%, eBay +16%
 ### 2004
 
 - 2004-01: market +2%; Nokia +22%, Sony +17%, Schlumberger +12%
-- 2004-02: market +1%; Priceline +20%, Amazon -15%, Wal-Mart +11%
-- 2004-03: market -2%; Nvidia +19%, Priceline +17%, Apple Computer +13%
+- 2004-02: market +1%; Amazon -15%, Wal-Mart +11%, Disney +11%
+- 2004-03: market -2%; Nvidia +19%, Apple Computer +13%
 - 2004-04: market -2%; Nokia -31%, Nvidia -22%, Xstrata -16%
 - 2004-05: market +1%; Nvidia +14%, Altria -13%, Xstrata +12%
 - 2004-06: market +2%; Apple Computer +16%, Nvidia -13%, Amazon +12%
 - 2004-07: market -3%; Amazon -28%, Nvidia -25%, Nokia -20%
-- 2004-08: market +0%; Nvidia -19%, Intel -13%, Priceline -12%
+- 2004-08: market +0%; Nvidia -19%, Intel -13%, eBay +10%
 - 2004-09: market +1%; Nvidia +17%, Nokia +16%, Xstrata +13%
 - 2004-10: market +1%; Apple Computer +35%, Amazon -16%, Nokia +12%
-- 2004-11: market +4%; Nvidia +32%, Apple Computer +28%, Priceline +20%
+- 2004-11: market +4%; Nvidia +32%, Apple Computer +28%, Altria +19%
 - 2004-12: market +3%; Nvidia +23%, Amazon +12%
 ### 2005
 
 - 2005-01: market -3%; eBay -30%, Apple Computer +19%
 - 2005-02: market +2%; Nvidia +26%, ExxonMobil +23%, Xstrata +21%
-- 2005-03: market -2%; Nvidia -18%, eBay -13%, Priceline +12%
+- 2005-03: market -2%; Nvidia -18%, eBay -13%
 - 2005-04: market -2%; IBM -16%, eBay -15%, Apple Computer -13%
 - 2005-05: market +3%; Nvidia +24%, eBay +20%, Intel +15%
 - 2005-06: market -0%; eBay -13%, Schlumberger +11%, McDonald's -10%
 - 2005-07: market +4%; Amazon +36%, eBay +27%, DaimlerChrysler +20%
-- 2005-08: market -1%; Priceline -13%, Nvidia +13%, Xstrata +10%
+- 2005-08: market -1%; Nvidia +13%, Xstrata +10%
 - 2005-09: market +1%; Apple Computer +14%, Nvidia +12%, Xstrata +11%
 - 2005-10: market -2%; Xstrata -12%, Amazon -12%, ExxonMobil -12%
-- 2005-11: market +4%; Priceline +27%, Amazon +22%, Apple Computer +18%
+- 2005-11: market +4%; Amazon +22%, Apple Computer +18%, Intel +14%
 - 2005-12: market -0%; Siemens +13%, Sony +10%
 ### 2006
 
 - 2006-01: market +3%; Schlumberger +31%, Nvidia +23%, Xstrata +20%
-- 2006-02: market +0%; Amazon -16%, Priceline +11%, Disney +11%
+- 2006-02: market +0%; Amazon -16%, Disney +11%
 - 2006-03: market +1%; Nvidia +22%, BMW +15%, Nokia +12%
 - 2006-04: market +1%; Apple Computer +12%, eBay -12%, Xstrata +12%
-- 2006-05: market -3%; Priceline +27%, Nvidia -21%, Apple Computer -15%
+- 2006-05: market -3%; Nvidia -21%, Apple Computer -15%, Lehman Brothers -12%
 - 2006-06: market +0%; Amazon +12%, eBay -11%
 - 2006-07: market +1%; Amazon -30%, Apple Computer +19%, eBay -18%
-- 2006-08: market +2%; Nvidia +31%, Priceline +24%, Cisco +23%
+- 2006-08: market +2%; Nvidia +31%, Cisco +23%, eBay +16%
 - 2006-09: market +2%; Lehman Brothers +16%, Apple Computer +13%, Wal-Mart +10%
 - 2006-10: market +3%; Amazon +19%, Nvidia +18%, Xstrata +16%
 - 2006-11: market +2%; Apple Computer +13%, Cisco +12%, Boeing +11%
-- 2006-12: market +1%; Citigroup +12%, Xstrata +11%, Priceline +10%
+- 2006-12: market +1%; Citigroup +12%, Xstrata +11%
 ### 2007
 
 - 2007-01: market +1%; Nvidia -17%, Siemens +11%
-- 2007-02: market -2%; Priceline +23%, Sony +12%, Lehman Brothers -11%
+- 2007-02: market -2%; Sony +12%, Lehman Brothers -11%
 - 2007-03: market +1%; DaimlerChrysler +21%, Schlumberger +10%
 - 2007-04: market +4%; Amazon +54%, Nvidia +14%, Siemens +14%
 - 2007-05: market +3%; Apple +21%, Amazon +13%, DaimlerChrysler +12%
-- 2007-06: market -2%; Nvidia +19%, Priceline +11%, Sony -11%
+- 2007-06: market -2%; Nvidia +19%, Sony -11%
 - 2007-07: market -3%; Lehman Brothers -17%, Amazon +15%, Schlumberger +12%
-- 2007-08: market +1%; Priceline +30%, Nokia +15%, Nestlé +13%
+- 2007-08: market +1%; Nokia +15%, Nestlé +13%, Nvidia +12%
 - 2007-09: market +4%; Amazon +17%, Nokia +15%, eBay +14%
 - 2007-10: market +1%; Microsoft +25%, Apple +24%, Berkshire Hathaway +12%
-- 2007-11: market -4%; Priceline +22%, Citigroup -21%, Cisco -15%
+- 2007-11: market -4%; Citigroup -21%, Cisco -15%, Siemens +12%
 - 2007-12: market -1%; Citigroup -12%
 ### 2008
 
@@ -1284,35 +1264,35 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2008-05: market +1%; UBS -28%, Nvidia +20%, Lehman Brothers -17%
 - 2008-06: market -9%; Lehman Brothers -46%, Nvidia -24%, Citigroup -23%
 - 2008-07: market -1%; Nvidia -39%, Sony -14%, Lehman Brothers -12%
-- 2008-08: market +1%; Xstrata -23%, Priceline -19%, UBS +13%
+- 2008-08: market +1%; Xstrata -23%, UBS +13%, Siemens -11%
 - 2008-09: market -9%; Lehman Brothers -99%, Xstrata -45%, Apple -33%
 - 2008-10: market -17%; Xstrata -44%, Siemens -36%, Schlumberger -34%
-- 2008-11: market -7%; Citigroup -39%, Priceline +31%, Amazon -25%
+- 2008-11: market -7%; Citigroup -39%, Amazon -25%, UBS -25%
 - 2008-12: market +1%; Xstrata -34%, Siemens +23%, BMW +20%
 ### 2009
 
 - 2009-01: market -9%; Citigroup -47%, General Electric -25%, Daimler -24%
-- 2009-02: market -11%; Citigroup -58%, General Electric -30%, Priceline +26%
+- 2009-02: market -11%; Citigroup -58%, General Electric -30%, Boeing -26%
 - 2009-03: market +9%; Citigroup +69%, Credit Suisse Group +26%, Nokia +25%
 - 2009-04: market +9%; UBS +49%, Daimler +42%, Xstrata +35%
 - 2009-05: market +5%; Xstrata +23%, Citigroup +22%, Credit Suisse Group +17%
 - 2009-06: market +0%; Citigroup -20%, UBS -18%, Microsoft +14%
 - 2009-07: market +7%; Daimler +28%, Xstrata +25%, eBay +24%
-- 2009-08: market +3%; Citigroup +58%, UBS +26%, Priceline +19%
+- 2009-08: market +3%; Citigroup +58%, UBS +26%, Boeing +16%
 - 2009-09: market +4%; General Electric +18%, Amazon +15%, Daimler +11%
 - 2009-10: market -2%; Amazon +27%, Nvidia -20%, Citigroup -15%
-- 2009-11: market +6%; Priceline +36%, Xstrata +21%, Amazon +14%
+- 2009-11: market +6%; Xstrata +21%, Amazon +14%, General Electric +12%
 - 2009-12: market +2%; Nvidia +43%, Citigroup -19%
 ### 2010
 
 - 2010-01: market -4%; Nvidia -18%, UBS -16%, Berkshire Hathaway +16%
-- 2010-02: market +3%; Priceline +16%, Daimler -10%
+- 2010-02: market +3%; Daimler -10%
 - 2010-03: market +6%; Xstrata +21%, Citigroup +19%, UBS +18%
 - 2010-04: market +1%; Nokia -22%, Schlumberger +13%, Xstrata -12%
-- 2010-05: market -8%; Priceline -27%, Schlumberger -21%, Nokia -17%
+- 2010-05: market -8%; Schlumberger -21%, Nokia -17%, Nvidia -16%
 - 2010-06: market -5%; Nvidia -22%, Nokia -19%, Sony -13%
-- 2010-07: market +7%; UBS +27%, Priceline +27%, Credit Suisse Group +21%
-- 2010-08: market -5%; Priceline +30%, Intel -14%, Cisco -13%
+- 2010-07: market +7%; UBS +27%, Credit Suisse Group +21%, Xstrata +20%
+- 2010-08: market -5%; Intel -14%, Cisco -13%, eBay +11%
 - 2010-09: market +9%; BMW +32%, Daimler +30%, Amazon +26%
 - 2010-10: market +4%; eBay +22%, Schlumberger +13%
 - 2010-11: market -0%; Tesla +62%, Cisco -16%, Nokia -14%
@@ -1334,8 +1314,8 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 ### 2012
 
 - 2012-01: market +4%; BMW +27%, Daimler +25%, Citigroup +17%
-- 2012-02: market +4%; Apple +19%, Priceline +18%, Sony +17%
-- 2012-03: market +3%; Priceline +14%, Amazon +13%, Tesla +11%
+- 2012-02: market +4%; Apple +19%, Sony +17%, Tesla +15%
+- 2012-03: market +3%; Amazon +13%, Tesla +11%, Xstrata -11%
 - 2012-04: market -1%; Nokia -34%, Sony -22%, Credit Suisse Group -18%
 - 2012-05: market -6%; Nokia -27%, Xstrata -26%, Glencore -24%
 - 2012-06: market +4%; Nokia -22%, Xstrata -12%, Glencore -12%
@@ -1357,15 +1337,15 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2013-08: market -3%; Tesla +26%, Glencore +12%
 - 2013-09: market +3%; Nokia +67%, Glencore +15%, Tesla +14%
 - 2013-10: market +4%; Sony -20%, Tesla -17%, Nokia +17%
-- 2013-11: market +3%; Tesla -20%, Priceline +13%
+- 2013-11: market +3%; Tesla -20%
 - 2013-12: market +2%; Tesla +18%
 ### 2014
 
 - 2014-01: market -4%; Tesla +21%, Nokia -15%, Apple -11%
-- 2014-02: market +4%; Tesla +35%, Priceline +18%, Nvidia +17%
-- 2014-03: market +1%; Tesla -15%, Priceline -12%
+- 2014-02: market +4%; Tesla +35%, Nvidia +17%, Sony +11%
+- 2014-03: market +1%; Tesla -15%
 - 2014-04: market +1%
-- 2014-05: market +2%; Priceline +10%
+- 2014-05: market +2%
 - 2014-06: market +2%; Tesla +16%, Schlumberger +13%, Intel +13%
 - 2014-07: market -2%; Daimler -12%
 - 2014-08: market +4%; Tesla +21%, Nvidia +11%
@@ -1376,7 +1356,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 ### 2015
 
 - 2015-01: market -3%; Glencore -20%, Credit Suisse Group -16%, Amazon +14%
-- 2015-02: market +5%; Glencore +24%, Priceline +23%, Sony +22%
+- 2015-02: market +5%; Glencore +24%, Sony +22%, Credit Suisse Group +16%
 - 2015-03: market -2%; Altria -11%, Credit Suisse Group +11%
 - 2015-04: market +1%; Tesla +20%, Microsoft +20%, Schlumberger +13%
 - 2015-05: market +1%; Tesla +11%, Nokia +11%
@@ -1385,12 +1365,12 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2015-08: market -6%; Glencore -30%, Disney -15%, Nvidia +13%
 - 2015-09: market -3%; Glencore -39%, UBS -11%, Schlumberger -11%
 - 2015-10: market +8%; Glencore +26%, Amazon +22%, Daimler +20%
-- 2015-11: market +0%; Glencore -16%, Priceline -14%, Nvidia +12%
+- 2015-11: market +0%; Glencore -16%, Nvidia +12%, Credit Suisse Group -12%
 - 2015-12: market -2%; Apple -11%
 ### 2016
 
 - 2016-01: market -5%; BMW -22%, Tesla -20%, Credit Suisse Group -18%
-- 2016-02: market -0%; Glencore +46%, Credit Suisse Group -25%, Priceline +19%
+- 2016-02: market -0%; Glencore +46%, Credit Suisse Group -25%, Nokia -16%
 - 2016-03: market +7%; Glencore +22%, Sony +22%, Tesla +20%
 - 2016-04: market +0%; Apple -14%, Amazon +11%, Citigroup +11%
 - 2016-05: market +2%; Nvidia +32%, Glencore -20%, Sony +16%
@@ -1459,7 +1439,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2020-12: market +4%; Tesla +24%, Disney +22%, Glencore +13%
 ### 2021
 
-- 2021-01: market -1%; Nokia +17%, Booking Holdings -13%, eBay +12%
+- 2021-01: market -1%; Nokia +17%, eBay +12%, Tesla +12%
 - 2021-02: market +3%; Schlumberger +26%, ExxonMobil +21%, Glencore +20%
 - 2021-03: market +4%; Credit Suisse Group -27%, BMW +20%, Boeing +20%
 - 2021-04: market +5%; Nokia +18%, Nvidia +12%, Amazon +12%
@@ -1469,12 +1449,12 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2021-08: market +3%; Nvidia +15%, eBay +13%
 - 2021-09: market -5%; Novartis -11%, ExxonMobil +8%
 - 2021-10: market +7%; Tesla +44%, Nvidia +23%, Microsoft +18%
-- 2021-11: market -1%; Nvidia +28%, Disney -14%, Booking Holdings -13%
-- 2021-12: market +4%; Cisco +16%, Booking Holdings +14%, IBM +14%
+- 2021-11: market -1%; Nvidia +28%, Disney -14%, eBay -12%
+- 2021-12: market +4%; Cisco +16%, IBM +14%, Coca-Cola +13%
 ### 2022
 
 - 2022-01: market -5%; Schlumberger +30%, ExxonMobil +24%, Nvidia -17%
-- 2022-02: market -3%; Glencore +15%, Credit Suisse Group -13%, Booking Holdings -12%
+- 2022-02: market -3%; Glencore +15%, Credit Suisse Group -13%
 - 2022-03: market +4%; Tesla +24%, Nvidia +12%, Berkshire Hathaway +11%
 - 2022-04: market -9%; Nvidia -32%, Amazon -24%, Boeing -22%
 - 2022-05: market +0%; Schlumberger +18%, Walmart -16%, Tesla -13%
@@ -1498,7 +1478,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2023-09: market -5%; Boeing -14%, Nvidia -12%, Glencore +8%
 - 2023-10: market -2%; Tesla -20%, Mercedes-Benz Group -16%, Nokia -11%
 - 2023-11: market +9%; Siemens +27%, Boeing +24%, Intel +22%
-- 2023-12: market +4%; Booking Holdings +13%, Boeing +13%, Intel +12%
+- 2023-12: market +4%; Boeing +13%, Intel +12%, Siemens +12%
 ### 2024
 
 - 2024-01: market +2%; Tesla -25%, Nvidia +24%, Boeing -19%
@@ -1510,7 +1490,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2024-07: market +1%; Tesla +17%, IBM +11%
 - 2024-08: market +2%; Intel -28%, Nokia +14%, Walmart +13%
 - 2024-09: market +2%; Tesla +22%, Boeing -12%, eBay +10%
-- 2024-10: market -1%; eBay -12%, BMW -11%, Booking Holdings +11%
+- 2024-10: market -1%; eBay -12%, BMW -11%
 - 2024-11: market +6%; Tesla +38%, Disney +22%, Sony +14%
 - 2024-12: market -2%; Tesla +17%, Intel -17%, Boeing +14%
 ### 2025
@@ -1530,11 +1510,11 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 ### 2026
 
 - 2026-01: market +1%; Schlumberger +26%, Intel +26%, Glencore +25%
-- 2026-02: market -1%; IBM -22%, Nokia +20%, Booking Holdings -15%
+- 2026-02: market -1%; IBM -22%, Nokia +20%, Nestlé +15%
 - 2026-03: market -5%; Siemens -19%, GE Aerospace -17%, BMW -15%
 - 2026-04: market +10%; Intel +114%, Nokia +61%, Amazon +27%
 - 2026-05: market +5%; Cisco +32%, IBM +29%, Intel +21%
 - 2026-06: market -1%; BMW -25%, Intel +22%, Mercedes-Benz Group -18%
 - 2026-07: market -0%; Intel -35%, Nokia -31%, Tesla -26%
 - 2026-08: market +3%; Schlumberger +21%, Tesla +18%, Disney +12%
-- 2026-09: market -0%; Intel +34%, Schlumberger -19%, Booking Holdings -18%
+- 2026-09: market -0%; Intel +34%, Schlumberger -19%, Mercedes-Benz Group -15%

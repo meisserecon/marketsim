@@ -123,29 +123,6 @@
     "source": "https://en.wikipedia.org/wiki/Perrier (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
-    "month": "1995-03",
-    "title": "The dollar falls to 1.13 francs",
-    "what": "The dollar has fallen hard against the franc since the start of the year: at the end of March it bought 1.13 francs, against 1.31 at the end of December. For Swiss companies that sell abroad, foreign profits are worth fewer francs; for a dollar-based investor, Swiss shares are worth more.",
-    "why": "A reminder that the franc keeps rising over the decades; in dollar terms it adds a few percent to Nestlé and Sandoz this quarter.",
-    "assets": [
-      "nestle",
-      "sandoz"
-    ],
-    "importance": 3,
-    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
-    "month": "1997-06",
-    "title": "Peter Brabeck takes over from Maucher",
-    "what": "Peter Brabeck-Letmathe, an Austrian who joined Nestlé as a salesman in 1968, became chief executive on 5 June. Helmut Maucher, chief executive since 1981, remains chairman. This year Nestlé also bought the Italian mineral water group Sanpellegrino.",
-    "why": "Brabeck runs Nestlé for eleven years and from 2000 steers it toward 'nutrition, health and wellness'.",
-    "assets": [
-      "nestle"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03); https://en.wikipedia.org/wiki/Helmut_Maucher (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
-  },
-  {
     "month": "1999-01",
     "title": "Weak sales knock Nestlé and Novartis",
     "what": "Nestlé and Novartis both reported sharp drops in sales in the week of 18 January, and their shares lost markedly, the NZZ reported on 30 January. Investors are waiting nervously for the full results with profits. Nestlé closed January at 2,595 francs, against 2,990 at the end of December.",
@@ -159,7 +136,8 @@
       "pct": -16
     },
     "importance": 2,
-    "source": "Neue Zürcher Zeitung, 30 January 1999, p. 33 (weekly Swiss market report, 'Gezügelter Risikoappetit'), scan data/manual/scans/nzz/NZZ_1999-01-30.pdf, text layer (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv"
+    "source": "Neue Zürcher Zeitung, 30 January 1999, p. 33 (weekly Swiss market report, 'Gezügelter Risikoappetit'), scan data/manual/scans/nzz/NZZ_1999-01-30.pdf, text layer (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv",
+    "cut": true
   },
   {
     "month": "2001-01",

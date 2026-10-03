@@ -116,21 +116,6 @@
     "source": "Schlumberger Form 10-K405 for 1996, filed 31 March 1997, https://www.sec.gov/Archives/edgar/data/87347/0000950130-97-001348.txt (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data, https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03)"
   },
   {
-    "month": "1998-08",
-    "title": "Oil at 13 dollars and a market panic: Schlumberger loses 28 percent",
-    "what": "US crude closed August at about 13 dollars a barrel, down from 17 at the start of the year, and the S&P 500 fell about 15 percent in the month. Schlumberger's shares fell 28 percent in August and are down about half from their 1997 high. On 31 August it completed the purchase of Camco International, a maker of production equipment such as pumps, agreed in June for 1.18 Schlumberger shares per Camco share (a deal valued at about 2.2 billion dollars).",
-    "why": "The 1998 oil crash from the services side: oilfield activity slowed in the third quarter and reversed in the fourth, and Schlumberger took a 444 million dollar charge. The shares doubled again in 1999-2000.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -28
-    },
-    "importance": 1,
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); Schlumberger Form 8-K of 15 September 1998 (Camco closing), https://www.sec.gov/Archives/edgar/data/87347/0000899243-98-001962.txt (read 2026-10-03); Schlumberger Form 8-K of 26 June 1998 (Camco terms), https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-003333.txt (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (Camco value) (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md; Schlumberger Form 10-K for 1998 (activity and charge, for the why), https://www.sec.gov/Archives/edgar/data/87347/0000950130-99-001807.txt (read 2026-10-03)"
-  },
-  {
     "month": "1999-07",
     "title": "Schlumberger to hand its drilling rigs to Transocean",
     "what": "On 12 July Schlumberger agreed to spin off Sedco Forex, its offshore and land drilling business, to its shareholders and merge it with the offshore driller Transocean, a 3.2 billion dollar share deal. Shareholders will receive Sedco Forex shares that become shares of the combined company, Transocean Sedco Forex.",

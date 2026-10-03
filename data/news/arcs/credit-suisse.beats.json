@@ -94,18 +94,6 @@
     "source": "https://www.swissinfo.ch/ger/ska-uebernahm-vor-25-jahren-die-angeschlagene-volksbank/43802724 (read 2026-10-03)"
   },
   {
-    "month": "1996-04",
-    "title": "Gut proposes a merger, the Bankgesellschaft says no",
-    "what": "CS Holding chairman Rainer Gut telephoned the Bankgesellschaft's Nikolaus Senn with a merger proposal; on the night of 11 April the Bankgesellschaft's board unanimously rejected it. The combined bank would have earned slightly more than 3 billion francs a year and would have ranked second in the world with a balance sheet of about $419 billion.",
-    "why": "Had the offer succeeded, Credit Suisse would have been the core of the Swiss megabank; instead the Bankverein wins the Bankgesellschaft 20 months later.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "importance": 2,
-    "source": "https://www.irishtimes.com/business/ubs-rejects-talk-of-cs-holdings-merger-1.39104 (read 2026-10-03)"
-  },
-  {
     "month": "1997-01",
     "title": "CS Holding becomes Credit Suisse Group",
     "what": "In January a far-reaching reorganisation took effect: CS Holding is renamed Credit Suisse Group and organised in four business units, and about 5,000 jobs, 15% of the workforce, are to go. Chief executive Lukas Mühlemann leads the restructuring.",
@@ -129,70 +117,8 @@
       "pct": -11
     },
     "importance": 2,
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
-  },
-  {
-    "month": "1997-12",
-    "title": "The two rivals merge without Credit Suisse",
-    "what": "On 8 December the Bankgesellschaft and the Bankverein announced their merger into UBS, which would be the world's largest manager of private wealth. Credit Suisse, whose own merger offer to the Bankgesellschaft was rejected last year, is left as the smaller of two Swiss big banks.",
-    "why": "From now on the arc is a duel between UBS and Credit Suisse, which ends in 2023.",
-    "assets": [
-      "credit-suisse",
-      "ubs",
-      "sbv"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": 6
-    },
-    "importance": 3,
-    "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03)"
-  },
-  {
-    "month": "1998-08",
-    "title": "Russia defaults; Holocaust claims settled",
-    "what": "Russia defaulted on its domestic bonds on 17 August, setting off a rout in markets. Credit Suisse First Boston has large exposure to Russia. On 12 August UBS and Credit Suisse agreed to pay $1.25 billion to settle US class actions over dormant accounts of Holocaust victims.",
-    "why": "CSFB lost about $1.3 billion on Russia in 1998. The month (-30%) is the start of the 1998 roller-coaster.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -30
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://www.swissinfo.ch/eng/business/twenty-years-ago_when-swiss-banks-settled-with-holocaust-survivors/44315844 (read 2026-10-03)"
-  },
-  {
-    "month": "1998-09",
-    "title": "LTCM rescue; bank shares in free fall",
-    "what": "The hedge fund Long-Term Capital Management lost most of its capital in September; on 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, with Credit Suisse First Boston among those putting in $300 million. Swiss bank shares kept falling: on 30 September the Swiss Market Index lost 4.3%, with investors doubting the leadership of the big financial institutions.",
-    "why": "The worst month of the 1998 crisis for Credit Suisse (-37%).",
-    "assets": [
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -37
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03)"
-  },
-  {
-    "month": "1998-10",
-    "title": "The market comes back",
-    "what": "Swiss shares recovered strongly in October: by the 30th the Swiss Market Index was 28% above its low of 5 October, as fears of recession faded. Credit Suisse Group shares rose 11% in the last week alone to 208.25 francs, against a 1998 low of 144 and a high of 385.",
-    "why": "The rebound month (+39%).",
-    "assets": [
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": 39
-    },
-    "importance": 3,
-    "source": "Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)"
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "2000-03",

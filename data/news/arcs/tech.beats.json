@@ -70,7 +70,8 @@
       "csco"
     ],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "cut": true
   },
   {
     "month": "1995-08",
@@ -94,15 +95,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Windows_95 (read 2026-10-03)"
-  },
-  {
-    "month": "1996-12",
-    "title": "Greenspan asks about irrational exuberance",
-    "what": "On 5 December Federal Reserve chairman Alan Greenspan asked in a speech: how do we know when irrational exuberance has unduly escalated asset values? Tokyo fell 3% the next day and other markets followed. The Nasdaq has risen about 23% this year, to 1,291.",
-    "why": "The famous warning came more than three years and a quadrupling of the Nasdaq before the top: being early is the same as being wrong in a mania.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Irrational_exuberance (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "month": "1998-11",
@@ -170,8 +162,7 @@
       "intc",
       "msft",
       "nokia",
-      "pets-com",
-      "pcln"
+      "pets-com"
     ],
     "move": {
       "asset": "sp500",
@@ -190,7 +181,6 @@
       "csco",
       "intc",
       "pets-com",
-      "pcln",
       "amzn"
     ],
     "importance": 1,
@@ -203,7 +193,6 @@
     "why": "The second leg of the crash, when the internet sell-off spread to the big technology companies. The S&P 500's -8% month was driven by tech.",
     "assets": [
       "pets-com",
-      "pcln",
       "amzn",
       "intc",
       "aapl",
@@ -225,8 +214,7 @@
       "csco",
       "intc",
       "msft",
-      "amzn",
-      "pcln"
+      "amzn"
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
@@ -234,13 +222,12 @@
   {
     "month": "2001-01",
     "title": "A surprise rate cut: the Nasdaq jumps 14% in a day",
-    "what": "On 3 January the Federal Reserve cut interest rates by half a point, from 6.5% to 6%, without waiting for its next meeting. The Nasdaq rose 14.17% that day to 2,616.69, its biggest gain ever, and 12% over the month. Beaten-down technology shares rebounded hardest: Microsoft rose about 41% in January, Apple 45%, Priceline doubled.",
+    "what": "On 3 January the Federal Reserve cut interest rates by half a point, from 6.5% to 6%, without waiting for its next meeting. The Nasdaq rose 14.17% that day to 2,616.69, its biggest gain ever, and 12% over the month. Beaten-down technology shares rebounded hardest: Microsoft rose about 41% in January, Apple 45%.",
     "why": "The first of the bear-market rallies that kept hope alive in 2001. It faded within weeks.",
     "assets": [
       "msft",
       "aapl",
       "ibm",
-      "pcln",
       "nvda",
       "ebay",
       "worldcom"
@@ -287,10 +274,9 @@
   {
     "month": "2001-04",
     "title": "Another rate cut, another rally",
-    "what": "The Nasdaq rose 8.9% on 5 April and 8.1% on 18 April, when the Fed again cut rates between meetings, and gained 15% in the month to 2,116. Internet survivors led: Priceline nearly doubled, Amazon rose about half, Nokia 42%.",
+    "what": "The Nasdaq rose 8.9% on 5 April and 8.1% on 18 April, when the Fed again cut rates between meetings, and gained 15% in the month to 2,116. Internet survivors led: Amazon rose about half, Nokia 42%.",
     "why": "A bear-market rally; by September the index was far lower.",
     "assets": [
-      "pcln",
       "amzn",
       "nokia",
       "ebay",
@@ -338,7 +324,6 @@
     "assets": [
       "siemens",
       "ibm",
-      "pcln",
       "intc",
       "csco"
     ],
@@ -359,8 +344,7 @@
       "intc",
       "ibm",
       "siemens",
-      "nvda",
-      "pcln"
+      "nvda"
     ],
     "move": {
       "asset": "sp500",
@@ -384,11 +368,10 @@
   {
     "month": "2003-12",
     "title": "The Nasdaq gains 50% in 2003",
-    "what": "The Nasdaq rose 50% in 2003 and closed the year just under 2,000, after briefly passing it on 29 December. The survivors of the bust, from Amazon to Priceline and Nvidia, have multiplied from their lows.",
+    "what": "The Nasdaq rose 50% in 2003 and closed the year just under 2,000, after briefly passing it on 29 December. The survivors of the bust, from Amazon to Nvidia, have multiplied from their lows.",
     "why": "The calendar-year turn of the recovery; the S&P's +24% year (shown as 2003 in the movers list) owes much to it.",
     "assets": [
       "amzn",
-      "pcln",
       "nvda",
       "intc",
       "csco"
@@ -461,7 +444,6 @@
       "aapl",
       "amzn",
       "nvda",
-      "pcln",
       "intc"
     ],
     "importance": 3,

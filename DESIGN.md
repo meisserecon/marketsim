@@ -61,8 +61,7 @@ on their corporate end event.
   eBay (1998), Citigroup (from its formation in October 1998), Nvidia (1999).
 - **Autos:** Tesla (2010), Mercedes-Benz and BMW (Yahoo from late 1996; earlier Daimler-Benz
   history to be curated, decision pending).
-- **Dot-com boom and bust:** Priceline as a survivor that lost over 90 percent; Pets.com,
-  WorldCom as failures.
+- **Dot-com boom and bust:** Pets.com and WorldCom as failures; eBay and Amazon as survivors.
 - **International:** Sony, Siemens (1996), Nokia (1994).
 - **Mining:** Glencore (from 2011), Xstrata before the 2013 merger.
 - **Swiss:** Nestlé, Novartis with Sandoz before 1996, UBS as the continuation of

@@ -1,0 +1,259 @@
+[
+  {
+    "month": "1979-12",
+    "title": "Sandoz: medicines, dyes and Ovomaltine from Basel",
+    "what": "Sandoz is one of the three big chemical and drug companies of Basel; its neighbour and rival is Ciba-Geigy. It makes medicines, dyes and chemicals, seeds and farm chemicals, and through Wander, merged in 1967, nutrition products such as Ovomaltine and Isostar.",
+    "why": "The listing beat: a diversified Basel group whose future lies in one drug still in trials, cyclosporin. It ends in the Novartis merger of 1996.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); data/src/profiles.ts; data/manual/sandoz.csv header"
+  },
+  {
+    "month": "1980-03",
+    "title": "Sandoz's cyclosporin used in a liver transplant",
+    "what": "On 9 March Thomas Starzl in the United States used Sandoz's experimental drug cyclosporin in a liver transplant. Sandoz scientists discovered on 31 January 1972 that the substance, isolated from a soil fungus, damps the immune system, and doctors in Cambridge led by Roy Calne have shown promise in kidney transplants. It is still in trials.",
+    "why": "The seed of Sandimmun, the drug that makes Sandoz's 1980s.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
+  },
+  {
+    "month": "1980-03",
+    "title": "Silver crash month: Swiss shares and the franc fall together",
+    "what": "March was a hard month for markets: the silver price collapsed to $10.80 an ounce on 27 March, down from over $50 in January. American interest rates are very high and money flows into the dollar: a dollar bought 1.85 francs at the end of March against 1.70 a month earlier. Swiss shares fell, and in dollars they fell further.",
+    "why": "Sandoz lost about 14% in francs and 21% in the game's dollar prices; the franc's 8% slide did the rest.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": -21
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1980-04",
+    "title": "The franc bounces back",
+    "what": "The dollar gave back its March gains in April: it bought 1.67 francs at the end of the month, against 1.85 at the end of March, about 11% more for the franc. Swiss shares recovered part of their March losses.",
+    "why": "Of Sandoz's 17% rise in dollars, about 11% was the franc.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": 17
+    },
+    "importance": 3,
+    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1981-04",
+    "title": "Sandoz profit up 17%, but the Basel parent stagnates",
+    "what": "On 30 April Sandoz reported 1980 sales up 10.3% to 4.9 billion francs and group profit up 16.8% to 202 million, which management called satisfactory. Dyes weakened in the second half as the economy cooled, while pharmaceuticals and seeds grew faster. The annual report welcomes the end of the franc's overvaluation, which had hurt Swiss exporters; the Basel parent company itself is stagnating.",
+    "why": "A snapshot of the pre-Sandimmun conglomerate: modest growth, dyes tied to the business cycle, and the strong franc as a constant worry for Swiss exporters.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 3,
+    "source": "Neue Zürcher Zeitung, 2 May 1981, p. 21 ('«Befriedigendes» Sandoz-Konzern-Ergebnis'), scan data/manual/scans/nzz/NZZ_1981-05-02.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "1982-12",
+    "title": "Sandoz buys Wasa crispbread",
+    "what": "This year Sandoz bought the Swedish crispbread maker Wasa, adding to the food business it built with Wander (Ovomaltine) and the purchase of Delmark and Wasabröd in 1972.",
+    "why": "Shows how far Sandoz spread beyond drugs; the food and chemicals are shed again in the 1990s. Month not confirmed, hence a year-end summary.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03)"
+  },
+  {
+    "month": "1983-11",
+    "title": "America approves Sandimmune",
+    "what": "The US Food and Drug Administration approved cyclosporin for clinical use on 14 November; Sandoz sells it as Sandimmune (Sandimmun in Switzerland). It damps the immune system so that the body does not reject a transplanted organ.",
+    "why": "The drug that turns Sandoz into a pharma growth story; the share more than doubles from here to 1987.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
+  },
+  {
+    "month": "1985-12",
+    "title": "Zurich ends a brilliant year; chemical shares lead",
+    "what": "The Zurich stock exchange closed the year 'in brilliant form', the Neue Zürcher Zeitung wrote on 31 December, with chemical shares strong and Nestlé at record prices. Since the Plaza agreement of September the dollar has kept falling: it buys 2.06 francs against 2.86 in February. This year Sandoz also bought Master Builders of the United States, a maker of chemicals for the building industry.",
+    "why": "Sandoz rose 20% in December alone (19% in francs) and 135% in the twelve months to April 1986, its best run in the game, carried by Sandimmun and the Swiss boom.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": 20
+    },
+    "importance": 2,
+    "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03)"
+  },
+  {
+    "month": "1986-11",
+    "title": "Schweizerhalle: fire at a Sandoz warehouse poisons the Rhine",
+    "what": "In the early hours of 1 November a fire destroyed a Sandoz warehouse at Schweizerhalle near Basel holding about 1,350 tonnes of pesticides and other farm chemicals. Firefighting water carried the chemicals into the Rhine, turning it red and killing fish and eels from Switzerland through West Germany to the Netherlands; acrid smoke drifted over Basel. The cause of the fire is not known.",
+    "why": "Sandoz's darkest moment and one of Europe's worst environmental disasters: the share fell 17% in francs (13% in dollars) in November. Sandoz later paid CHF 43 million in compensation plus CHF 10 million to a Rhine fund; the disaster led to Switzerland's ordinance on major accidents.",
+    "assets": [
+      "sandoz"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": -13
+    },
+    "importance": 1,
+    "source": "https://www.swissinfo.ch/eng/sci-tech/schweizerhalle-fire_chemical-disaster-still-burns-in-swiss-memory/42559954 (read 2026-10-03); https://en.wikipedia.org/wiki/Schweizerhalle_fire (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); https://www.bafu.admin.ch/en/schweizerhalle-en (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The October crash",
+    "what": "On Monday 19 October the Dow Jones fell 22.6% in one day, and every major stock market in the world fell sharply in October. Sandoz, which reported sales of over 8 billion francs and profits of over 500 million for 1986, lost more than a fifth of its value in francs. The franc rose about 7% against the dollar.",
+    "why": "Ends the great Sandimmun run; the share takes until 1992 to recover its September 1987 level in dollars.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": -17
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "1988-11",
+    "title": "Swiss bearer shares slide as Nestlé opens its register",
+    "what": "On 17 November Nestlé decided to let foreigners buy its registered shares, and its bearer share, until now the only class open to foreigners, fell 23% in November. Bearer shares of other Swiss companies fell too: Sandoz's from 12,300 to 10,575 francs, Ciba-Geigy's by 22%.",
+    "why": "Most likely a sympathy move: investors expected other companies to follow Nestlé, which would erase the premium that foreigners paid for bearer shares; the NZZ text on the cause was not read. Sandoz kept falling in December.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": -11
+    },
+    "importance": 2,
+    "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03)"
+  },
+  {
+    "month": "1990-08",
+    "title": "Iraq invades Kuwait",
+    "what": "Iraq invaded Kuwait on 2 August and an American-led build-up of troops in Saudi Arabia has begun. The S&P 500 fell 9% in August, and Swiss shares fell with it; Sandoz lost about 15% in francs. The franc rose about 3% against the dollar.",
+    "why": "A market month, no Sandoz news.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": -12
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)"
+  },
+  {
+    "month": "1991-01",
+    "title": "War in the Gulf; shares rally",
+    "what": "The American-led air campaign against Iraq began on 17 January. Stock markets rose in January, the S&P 500 by 4%. Sandoz shares rose about 14% in francs.",
+    "why": "Sandoz's 16% rise in dollars is far more than the market's; no company-specific cause was found, so the link to the war rally is plausible but not certain.",
+    "assets": [
+      "sandoz"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": 16
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); data/reference/sp500.json; data/out/sandoz.json"
+  },
+  {
+    "month": "1992-12",
+    "title": "A young doctor runs Sandoz Pharma",
+    "what": "Daniel Vasella, a doctor who joined Sandoz's pharmaceutical business in 1988, became chief executive of Sandoz Pharma this year.",
+    "why": "Vasella goes on to engineer the Novartis merger and run Novartis until 2010. Month not confirmed, hence a year-end summary.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Daniel_Vasella (read 2026-10-03)"
+  },
+  {
+    "month": "1994-05",
+    "title": "Sandoz pays $3.7 billion for Gerber baby food",
+    "what": "Sandoz agreed in May to buy Gerber, America's biggest baby food maker, for $53 a share, about $3.7 billion, a premium of 53% and 30 times Gerber's annual profit. 'These are the highest acquisition multiples seen in the industry for ten years,' one analyst said. Gerber's management preferred a foreign buyer, expecting fewer job cuts.",
+    "why": "Sandoz's big bet on nutrition; Novartis sells Gerber to Nestlé for $5.5 billion in 2007.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 2,
+    "source": "http://www.fundinguniverse.com/company-histories/gerber-products-company-history/ (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)"
+  },
+  {
+    "month": "1995-03",
+    "title": "The dollar falls to 1.13 francs",
+    "what": "The dollar has fallen hard against the franc since the start of the year: at the end of March it bought 1.13 francs, against 1.31 at the end of December. Swiss companies' foreign earnings are worth fewer francs, but for a dollar-based investor Swiss shares are worth more.",
+    "why": "Sandoz rose 12% in dollars in March, most of it (about 9%) the franc.",
+    "assets": [
+      "sandoz",
+      "nestle"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": 12
+    },
+    "importance": 3,
+    "source": "FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1995-07",
+    "title": "Sandoz spins off its chemicals as Clariant",
+    "what": "Sandoz has separated its specialty chemicals and dyes business into an independent company, Clariant. What remains is a group of medicines, nutrition (Gerber, Ovomaltine) and seeds.",
+    "why": "The first step toward a pure life-sciences company, which makes the merger with Ciba-Geigy possible eight months later. Wikipedia gives only 1995; the month follows the game's profile data.",
+    "assets": [
+      "sandoz"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Clariant (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); data/src/profiles.ts"
+  },
+  {
+    "month": "1996-03",
+    "title": "Sandoz and Ciba-Geigy to merge as Novartis",
+    "what": "On 7 March Sandoz and Ciba-Geigy, Basel's old rivals, announced that they will merge into a new company called Novartis, the largest corporate merger ever; the two had combined sales of nearly $30 billion last year. Ciba-Geigy's chairman Alex Krauer is to be chairman and Sandoz's pharma chief Daniel Vasella chief executive. Sandoz's bearer share jumped from 1,126 to 1,384 francs in March, Ciba-Geigy's from 1,067 to 1,475.",
+    "why": "The defining event of the Sandoz arc: +24% in a month (23% in francs) and the end of an independent Sandoz. The exchange terms were not confirmed in a source read.",
+    "assets": [
+      "sandoz"
+    ],
+    "move": {
+      "asset": "sandoz",
+      "pct": 24
+    },
+    "importance": 1,
+    "source": "https://live.novartis.com/en/article/49 (read 2026-10-03); https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); search excerpt of https://pubs.acs.org/doi/10.1021/cen-v074n011.p007 (combined sales, read 2026-10-03); NZZ prices in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03)"
+  },
+  {
+    "month": "1996-11",
+    "title": "Last month of Sandoz: shares become Novartis",
+    "what": "Sandoz shares traded for the last time in Zurich at the end of November, the registered share at 1,516 francs on 29 November. Sandoz shares are being exchanged for shares of Novartis, the company formed with Ciba-Geigy, which is due to begin operations in December.",
+    "why": "The exit beat: in the game Sandoz positions convert into Novartis at the November prices. Over 17 years in the game Sandoz rose about elevenfold in dollars.",
+    "assets": [
+      "sandoz",
+      "novartis"
+    ],
+    "importance": 1,
+    "source": "data/manual/raw/nzz-notes-1995-1998.md (NZZ of 30 Nov 1996, read 2026-10-03); https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); data/src/universe.ts"
+  }
+]

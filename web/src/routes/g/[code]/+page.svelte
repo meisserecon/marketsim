@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
   import { page } from '$app/state';
+  import { nextMonth } from '@marketsim/shared';
   import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, NewsView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
@@ -61,6 +62,23 @@
   const held = $derived(new Set(portfolio?.positions.map((p) => p.assetId) ?? []));
   const tradable = $derived(new Set(market?.assets.map((a) => a.id) ?? []));
   const finished = $derived(game?.status === 'finished');
+  const solo = $derived(!!game?.solo);
+  let advancing = $state(false);
+  let advanceError = $state('');
+  /** Single-player games: the player's own token moves the clock. */
+  async function advance() {
+    if (!token || advancing || finished) return;
+    advancing = true;
+    advanceError = '';
+    try {
+      await api.advance(code, token);
+      await refresh();
+    } catch (e) {
+      advanceError = errorMessage(e);
+    } finally {
+      advancing = false;
+    }
+  }
   const lobby = $derived(game?.status === 'lobby');
   const incomeThisMonth = $derived(
     portfolio ? portfolio.ledger.filter((e) => e.kind === 'income' && e.month === portfolio!.month).reduce((s, e) => s + e.cash, 0) : 0
@@ -263,6 +281,14 @@
       <span class="sub">{game.name} · {game.code} · {portfolio.name}</span>
       <h1>{monthName(game.currentMonth)}</h1>
     </div>
+    {#if solo && !finished}
+      <div class="advance-box">
+        <button class="btn primary" onclick={advance} disabled={advancing}>
+          {advancing ? 'Advancing…' : lobby ? `Start: go to ${monthName(nextMonth(game.currentMonth))}` : `Next month: ${monthName(nextMonth(game.currentMonth))}`}
+        </button>
+        {#if advanceError}<span class="sub down" role="alert">{advanceError}</span>{/if}
+      </div>
+    {/if}
     <dl class="figures">
       <div class="total">
         <dt>Portfolio value</dt>
@@ -285,7 +311,7 @@
     {#if refreshError}<p class="notice error" role="alert">Could not refresh: {refreshError}</p>{/if}
     {#if lobby}
       <p class="notice info">
-        <strong>The game has not started yet.</strong> Build your first portfolio now, at the prices of {monthName(game.currentMonth)}. You can hold up to {portfolio.maxPositions} positions besides cash. The game master will start the clock.
+        <strong>The game has not started yet.</strong> Build your first portfolio now, at the prices of {monthName(game.currentMonth)}. You can hold up to {portfolio.maxPositions} positions besides cash. {solo ? 'When you are ready, start the clock with the button at the top.' : 'The game master will start the clock.'}
       </p>
     {/if}
     {#if finished}
@@ -343,8 +369,8 @@
     {#if board}
       <section class="card">
         <div class="card-head">
-          <h2>Leaderboard</h2>
-          <span class="sub">{game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</span>
+          <h2>{solo ? 'Your progress' : 'Leaderboard'}</h2>
+          {#if solo}<a class="sub" href="/highscores">Highscores of all games</a>{:else}<span class="sub">{game.playerCount} {game.playerCount === 1 ? 'player' : 'players'}</span>{/if}
         </div>
         <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} limit={10} wide /></div>
       </section>
@@ -498,6 +524,16 @@
   .news-card .card-head h2 .sub {
     font-weight: 400;
     margin-left: 6px;
+  }
+  .advance-box {
+    display: grid;
+    gap: 4px;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .advance-box .btn {
+    font-size: 1.05rem;
+    padding: 10px 20px;
   }
   .portfolio-wrap {
     display: grid;

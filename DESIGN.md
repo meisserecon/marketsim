@@ -10,6 +10,13 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
   from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
+- **Playing alone.** Anyone can start a single-player game from the start page (`POST /api/solo`): it is
+  created and joined in one step, nobody else can join, and the player's own token advances the clock
+  with a button in the player view.
+- **Highscores.** `/highscores` ranks the portfolios of all games ever played. Values are compared at
+  one month, so that everybody had the same markets: the end of 1984, 1989, ... 2024 for every game that
+  has passed that month, and "finished" for games played to the last month. It reads the month-end
+  snapshots, so it needs a database that persists (`DATABASE_URL` or `PGLITE_DIR`).
 - **Seats and rejoining.** Joining returns a token that the browser keeps in localStorage, so
   reopening `/g/CODE` there returns to the same seat. There are no passwords. To come back from
   another device or after clearing site data, the address bar itself is the personal link: the

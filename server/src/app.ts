@@ -10,7 +10,7 @@ import fastifyStatic from "@fastify/static";
 import {
   MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
-  type HoldingsView, type JoinResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
+  type HoldingsView, type HighscoresView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
 } from "@marketsim/shared";
 import type { Db, Queryable } from "./db.js";
@@ -27,7 +27,7 @@ class HttpError extends Error {
 
 interface GameRow {
   id: string; code: string; name: string; status: GameStatus; current_month: string; final_month: string;
-  starting_cash: string; gm_token_hash: string;
+  starting_cash: string; gm_token_hash: string; solo: boolean;
 }
 interface PlayerRow { id: string; game_id: string; name: string; cash: string }
 
@@ -73,6 +73,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     return {
       code: g.code, name: g.name, status: g.status, currentMonth: g.current_month, finalMonth: g.final_month,
       startingCash: Number(g.starting_cash), playerCount: Number(rows[0].n),
+      ...(g.solo ? { solo: true } : {}),
     };
   }
 
@@ -196,6 +197,53 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     }
   });
 
+  /** A game for one: created and joined in one step, and the player's token also advances the clock. Open to anyone. */
+  app.post("/api/solo", async (req, reply): Promise<SoloResponse> => {
+    const body = (req.body ?? {}) as { name?: unknown };
+    const name = typeof body.name === "string" ? body.name.trim() : "";
+    if (!name || name.length > 30) throw new HttpError(400, "bad_request", "A player needs a name of at most 30 characters");
+    const token = newToken();
+    const result = await db.tx(async (q) => {
+      let code = newCode();
+      for (let attempt = 0; (await q.query("select 1 from games where code = $1", [code])).rows.length; attempt++) {
+        if (attempt > 20) throw new Error("could not allocate a game code");
+        code = newCode();
+      }
+      const { rows: games } = await q.query<GameRow>(
+        `insert into games (code, name, current_month, final_month, starting_cash, gm_token_hash, solo)
+         values ($1, $2, $3, $4, $5, $6, true) returning *`,
+        [code, `${name}'s game`, market.startMonth, market.finalMonth, STARTING_CASH, hash(token)],
+      );
+      const g = games[0];
+      const { rows } = await q.query<PlayerRow>(
+        "insert into players (game_id, name, token_hash, cash) values ($1, $2, $3, $4) returning *", [g.id, name, hash(token), g.starting_cash]);
+      await saveSnapshot(q, rows[0].id, g.current_month, { cash: Number(g.starting_cash), holdings: {}, cost: {} });
+      return { player: rows[0], game: await gameView(q, g) };
+    });
+    reply.code(201);
+    return { game: result.game, playerId: result.player.id, playerToken: token };
+  });
+
+  const MILESTONES = ["1984-12", "1989-12", "1994-12", "1999-12", "2004-12", "2009-12", "2014-12", "2019-12", "2024-12"];
+  app.get<{ Querystring: { at?: string } }>("/api/highscores", async (req): Promise<HighscoresView> => {
+    const milestones = [...MILESTONES.filter((m) => m < market.finalMonth), "final"];
+    const at = req.query.at && milestones.includes(req.query.at) ? req.query.at : "final";
+    // Values are compared at one month, so everybody had the same markets. "final": finished games at their last month.
+    const { rows } = at === "final"
+      ? await db.query<{ name: string; game: string; solo: boolean; total_value: string; played: Date }>(
+          `select p.name, g.name as game, g.solo, s.total_value, coalesce(g.advanced_at, g.created_at) as played
+           from games g join players p on p.game_id = g.id join snapshots s on s.player_id = p.id and s.month = g.current_month
+           where g.status = 'finished' order by s.total_value desc, p.name limit 50`)
+      : await db.query<{ name: string; game: string; solo: boolean; total_value: string; played: Date }>(
+          `select p.name, g.name as game, g.solo, s.total_value, coalesce(g.advanced_at, g.created_at) as played
+           from games g join players p on p.game_id = g.id join snapshots s on s.player_id = p.id and s.month = $1
+           where g.current_month > $1 or g.status = 'finished' order by s.total_value desc, p.name limit 50`, [at]);
+    return {
+      at, milestones,
+      entries: rows.map((r, i) => ({ rank: i + 1, name: r.name, game: r.game, solo: !!r.solo, totalValue: Number(r.total_value), playedAt: new Date(r.played).toISOString().slice(0, 10) })),
+    };
+  });
+
   app.get<{ Params: { code: string } }>("/api/games/:code", async (req): Promise<GameView> => {
     return gameView(db, await gameByCode(db, req.params.code));
   });
@@ -208,6 +256,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     const result = await db.tx(async (q) => {
       const g = await gameByCode(q, req.params.code, "for share");
       if (g.status === "finished") throw new HttpError(409, "game_finished", "This game is over");
+      if (g.solo) throw new HttpError(409, "bad_request", "This is a single-player game");
       const clash = await q.query("select 1 from players where game_id = $1 and lower(name) = lower($2)", [g.id, name]);
       if (clash.rows.length) throw new HttpError(409, "name_taken", "Someone in this game already uses that name");
       const { rows } = await q.query<PlayerRow>(

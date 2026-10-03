@@ -21,6 +21,8 @@ export function getApi(): Promise<Api> {
 /** Convenience wrapper so callers can write `api.market(code)` without awaiting the client first. */
 export const api: Api = {
   createGame: async (req) => (await getApi()).createGame(req),
+  solo: async (req) => (await getApi()).solo(req),
+  highscores: async (at) => (await getApi()).highscores(at),
   getGame: async (code) => (await getApi()).getGame(code),
   join: async (code, req) => (await getApi()).join(code, req),
   market: async (code, token) => (await getApi()).market(code, token),

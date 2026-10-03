@@ -13,6 +13,26 @@
 
   const cleanCode = $derived(code.trim().toUpperCase());
 
+  let soloName = $state('');
+  let startingSolo = $state(false);
+  let soloError = $state('');
+  async function playAlone(e: SubmitEvent) {
+    e.preventDefault();
+    if (startingSolo) return;
+    soloError = '';
+    if (!soloName.trim()) return void (soloError = 'Enter your name.');
+    startingSolo = true;
+    try {
+      const res = await api.solo({ name: soloName.trim() });
+      setToken('player', res.game.code, res.playerToken);
+      await goto(`/g/${res.game.code}`);
+    } catch (err) {
+      soloError = errorMessage(err);
+    } finally {
+      startingSolo = false;
+    }
+  }
+
   // Games this browser already has a token for.
   let mine = $state<{ game: GameView; roles: Role[] }[]>([]);
   $effect(() => {
@@ -87,6 +107,19 @@
     <p class="sub muted">Already joined on this browser? Enter the code and you will continue where you left off.</p>
   </form>
 
+  <form class="card panel" onsubmit={playAlone}>
+    <h2>Play alone</h2>
+    <p class="sub">Start a game of your own. You invest, and you decide when the next month begins.</p>
+    <label class="field">
+      <span>Your name</span>
+      <input class="input" bind:value={soloName} autocomplete="nickname" placeholder="Shown in the highscores" maxlength="30" />
+    </label>
+    {#if soloError}<p class="notice error" role="alert">{soloError}</p>{/if}
+    <button class="btn primary" type="submit" disabled={startingSolo}>{startingSolo ? 'Starting…' : 'Start my game'}</button>
+  </form>
+
+  <p class="hs"><a href="/highscores">Highscores of all games</a></p>
+
   {#if mine.length}
     <section class="card panel mine">
       <h2>Your games on this browser</h2>
@@ -109,6 +142,10 @@
 </main>
 
 <style>
+  .hs {
+    text-align: center;
+    margin: 0;
+  }
   main {
     max-width: 520px;
     margin: 0 auto;

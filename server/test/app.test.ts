@@ -1,7 +1,7 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import type { FastifyInstance } from "fastify";
-import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView } from "@marketsim/shared";
+import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView, type SoloResponse, type HighscoresView } from "@marketsim/shared";
 import { buildApp } from "../src/app.js";
 import { migrate, openEmbedded, type Db } from "../src/db.js";
 import { loadMarket } from "../src/market.js";
@@ -28,6 +28,30 @@ async function call<T = any>(a: FastifyInstance, method: "GET" | "POST", url: st
   const res = await a.inject({ method, url, payload: body as any, headers: token ? { authorization: `Bearer ${token}` } : {} });
   return { status: res.statusCode, body: (res.body ? res.json() : undefined) as T };
 }
+
+test("a solo game: one token plays and advances; highscores compare at a milestone", async () => {
+  const solo = await call<SoloResponse>(app, "POST", "/api/solo", { name: "Dana" });
+  assert.equal(solo.status, 201);
+  const { game, playerToken } = solo.body;
+  assert.equal(game.solo, true);
+  assert.equal(game.playerCount, 1);
+  // nobody else can join
+  assert.equal((await call(app, "POST", `/api/games/${game.code}/join`, { name: "Eve" })).status, 409);
+  // the player's own token trades and advances
+  assert.equal((await call(app, "POST", `/api/games/${game.code}/trades`, { assetId: "ibm", side: "buy", amount: { usd: 500 } }, playerToken)).status, 200);
+  for (let i = 0; i < 61; i++) assert.equal((await call(app, "POST", `/api/games/${game.code}/advance`, undefined, playerToken)).status, 200);
+  const me = (await call<PortfolioView>(app, "GET", `/api/games/${game.code}/me`, undefined, playerToken)).body;
+  assert.equal(me.month, "1985-01");
+  // past December 1984, so the 1984 milestone lists Dana with her value at that month
+  const hs = (await call<HighscoresView>(app, "GET", "/api/highscores?at=1984-12")).body;
+  assert.equal(hs.at, "1984-12");
+  assert.ok(hs.milestones.includes("final") && hs.milestones[0] === "1984-12");
+  const dana = hs.entries.find((e) => e.name === "Dana")!;
+  assert.ok(dana && dana.solo && dana.totalValue === me.history.find((h) => h.month === "1984-12")!.totalValue);
+  // not yet at 1989, and not finished
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores?at=1989-12")).body.entries.some((e) => e.name === "Dana"));
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores")).body.entries.some((e) => e.name === "Dana"));
+});
 
 test("a full round: create, join, trade, advance, income, leaderboard, no lookahead", async () => {
   // create

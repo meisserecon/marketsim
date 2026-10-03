@@ -11,6 +11,8 @@
  * the server resolves for the current month before sending.
  *
  *   POST /api/games                         CreateGameRequest  -> CreateGameResponse
+ *   POST /api/solo                          SoloRequest        -> SoloResponse (a game for one player who advances time himself)
+ *   GET  /api/highscores?at=YYYY-MM|final                      -> HighscoresView
  *   GET  /api/games/:code                                      -> GameView
  *   POST /api/games/:code/join              JoinRequest        -> JoinResponse
  *   GET  /api/games/:code/market                               -> MarketView
@@ -40,6 +42,24 @@ export interface GameView {
   finalMonth: string;
   startingCash: number;
   playerCount: number;
+  /** A single-player game: its one player also advances the clock, with the player token. */
+  solo?: boolean;
+}
+
+export interface SoloRequest { name: string }
+/** The one token is both the player's and the game master's. */
+export interface SoloResponse { game: GameView; playerId: string; playerToken: string }
+
+/**
+ * Portfolio values across all games ever played, compared at the same month so that the
+ * comparison is fair: everybody had the same markets up to then. `at` is a milestone month or
+ * "final" (finished games, at their last month).
+ */
+export interface HighscoresView {
+  at: string;
+  /** Milestones on offer, oldest first, ending with "final". */
+  milestones: string[];
+  entries: { rank: number; name: string; game: string; solo: boolean; totalValue: number; playedAt: string }[];
 }
 
 /** `password` is required when the server has a create password configured. Starting cash is fixed (STARTING_CASH). */

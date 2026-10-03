@@ -11,6 +11,7 @@ create table games (
   final_month     text not null,
   starting_cash   numeric(20, 6) not null,
   gm_token_hash   text not null,
+  solo            boolean not null default false,  -- single-player game: the player's token also advances the clock
   created_at      timestamptz not null default now(),
   advanced_at     timestamptz
 );

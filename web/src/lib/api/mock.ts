@@ -264,6 +264,10 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
         return { game: gameView(game), gameMasterToken: game.gameMasterToken };
       }),
 
+    // The mock keeps no record across games, so solo play and highscores are only offered by the real server.
+    solo: () => respond(() => fail(400, 'bad_request', 'Single-player games need the real server.')),
+    highscores: (at) => respond(() => ({ at: at ?? 'final', milestones: ['final'], entries: [] })),
+
     getGame: (code) => respond(() => gameView(findGame(load(), code))),
 
     join: (code, req) =>

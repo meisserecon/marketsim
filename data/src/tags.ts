@@ -46,7 +46,7 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     if (assets.has(arc)) want.add(arc);
     if (b.move && assets.has(b.move.asset) && assets.get(b.move.asset)!.kind !== "bond") want.add(b.move.asset);
     for (const [id, re] of Object.entries(PATTERNS)) if (re.test(text)) want.add(id);
-    if (arc === "life") want.delete("gold"); // medals, records
+    if (arc === "life" || assets.has(arc)) want.delete("gold"); // medals and records; in company arcs "Gold" is usually a surname
     for (const id of want) {
       if (b.assets.includes(id) || !inGame(id, b.month)) continue;
       b.assets.push(id); added++; changed = true; perAsset[id] = (perAsset[id] ?? 0) + 1;

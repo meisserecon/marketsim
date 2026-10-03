@@ -44,9 +44,12 @@ for (const name of files) {
     else imp[b.importance]++;
     if (!Array.isArray(b.assets)) bad("assets " + id);
     else for (const s of b.assets) {
+      if (s === "gold") continue; // gold is in the game throughout
       const sp = span[s];
+      const next = (m) => { const [y, mm] = m.split("-").map(Number); return mm === 12 ? `${y + 1}-01` : `${y}-${String(mm + 1).padStart(2, "0")}`; };
       if (!sp) bad(`unknown asset ${s}: ${id}`);
-      else if (b.month < sp.from || b.month > sp.to) bad(`asset ${s} not in game (${sp.from}..${sp.to}): ${id}`);
+      // the month after the last one is when the exit is told
+      else if (b.month < sp.from || b.month > next(sp.to)) bad(`asset ${s} not in game (${sp.from}..${sp.to}): ${id}`);
     }
     if (b.move !== undefined) {
       if (!b.move || !moveAssets.has(b.move.asset) || typeof b.move.pct !== "number" || !Number.isInteger(b.move.pct)) bad("move " + id);

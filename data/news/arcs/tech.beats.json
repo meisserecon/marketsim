@@ -146,7 +146,9 @@
       "nvda",
       "siemens",
       "csco",
-      "pets-com"
+      "pets-com",
+      "ko",
+      "mcd"
     ],
     "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
@@ -715,7 +717,8 @@
       "intc",
       "nokia",
       "nvda",
-      "siemens"
+      "siemens",
+      "tsla"
     ],
     "move": {
       "asset": "sp500",

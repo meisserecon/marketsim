@@ -143,7 +143,9 @@
     "kind": "world",
     "headline": "Tariff shock: Treasury bonds sold, gold bought",
     "text": "After the president announced sweeping tariffs on 2 April, the S&P 500 fell 10 percent in two days. Treasury bonds, the usual safe haven, were sold too: the 10-year yield rose from 3.86 percent on 4 April to 4.5 percent on 9 April, and the 30-year yield jumped 54 basis points to 4.92 percent, its biggest three-day rise since 1982, before a 90-day tariff pause on 9 April calmed markets. Gold averaged 3,218 dollars in April, 8 percent more than in March and a record.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2025-04-tariff-chart.jpg",
     "imageCaption": "The reciprocal tariff rates announced at the White House, 2 April 2025",
@@ -370,7 +372,9 @@
     "kind": "world",
     "headline": "Gold passes 4,000 dollars",
     "text": "Gold rose above 4,000 dollars an ounce for the first time in October and averaged 4,058 dollars, 11 percent more than in September. The Fed resumed cutting on 17 September and cut again on 29 October, to 3.75 to 4 percent, though inflation is still about 3 percent.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
     "image": "/news/rates/2025-10-gold-bars.jpg",
     "imageCaption": "400-ounce gold bars",
@@ -422,7 +426,8 @@
     "headline": "Cisco's share price passes its 2000 high",
     "text": "In December Cisco's shares closed above $80.06, the closing high of March 2000, for the first time in more than 25 years. Investors are buying it as a supplier of networking for AI data centres, including switches developed with Nvidia. Because Cisco has bought back many shares, its market value is still far below the 2000 peak.",
     "assets": [
-      "csco"
+      "csco",
+      "nvda"
     ],
     "source": "https://sherwood.news/markets/after-a-quarter-century-cisco-surpasses-dot-com-bubble-closing-high/ (read 2026-10-03)",
     "image": "/news/csco/2025-12-headquarters.jpg",

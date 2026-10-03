@@ -120,7 +120,8 @@
     "headline": "Glencore goes public in London's largest premium listing",
     "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO at 530p a share on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
     "assets": [
-      "glencore"
+      "glencore",
+      "xstrata"
     ],
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03)",
     "image": "/news/glencore/2011-05-baar.jpg",
@@ -196,7 +197,9 @@
     "kind": "world",
     "headline": "America loses its AAA rating and gold soars",
     "text": "On 5 August Standard & Poor's cut the US government's credit rating from AAA to AA+ for the first time ever, after a fight in Congress over the debt ceiling. On 9 August the Fed said its rate would likely stay exceptionally low 'at least through mid-2013'. Investors bought both Treasury bonds and gold: the 10-year yield averaged about 2.3 percent in August, down from 3 percent in July, and gold averaged 1,759 dollars, 12 percent more than in July and a record.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2011-08-obama-debt.jpg",
     "imageCaption": "President Obama speaks on the debt limit, White House, July 2011",

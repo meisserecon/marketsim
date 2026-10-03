@@ -277,7 +277,9 @@
     "kind": "colour",
     "headline": "Switzerland shuts down",
     "text": "On 16 March the Federal Council declared an 'extraordinary situation' under the epidemics law because of the coronavirus. Schools, shops other than food stores, restaurants and bars are closed, and from 20 March gatherings of more than five people are banned. Many parents work from home. Disney+ started in Switzerland on 24 March, just in time.",
-    "assets": [],
+    "assets": [
+      "dis"
+    ],
     "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03)",
     "image": "/news/life/2020-03-swiss-planes.jpg",
     "imageCaption": "Swiss aircraft grounded during the coronavirus shutdown, March 2020",
@@ -459,7 +461,9 @@
     "kind": "world",
     "headline": "Gold at a record as the Fed says it will let inflation run",
     "text": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03)",
     "image": "/news/rates/2020-08-ny-fed-vault.jpg",
     "imageCaption": "The gold vault of the Federal Reserve Bank of New York",

@@ -67,7 +67,8 @@
     "headline": "UBS is born",
     "text": "The merger of the Bankgesellschaft and the Bankverein took legal effect on 27-28 June. The new UBS has total assets of more than $590 billion, making it the second-largest bank in the world. Each Bankverein share becomes 1 1/13 UBS shares and each Bankgesellschaft bearer share five shares of the new bank.",
     "assets": [
-      "ubs"
+      "ubs",
+      "sbv"
     ],
     "source": "https://de.wikipedia.org/wiki/Schweizerische_Bankgesellschaft (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); share terms: data/src/universe.ts and data/manual/ubs.csv header (read 2026-10-03)",
     "image": "/news/ubs/1998-06-paradeplatz.jpg",
@@ -103,7 +104,9 @@
     "kind": "world",
     "headline": "Yen at an eight-year low, Japan's banks under siege",
     "text": "The dollar reached 147 yen on 11 August, the yen's weakest in about eight years. Shares of the Long-Term Credit Bank of Japan have fallen by more than 70% this summer as its bad loans came out; a planned rescue merger with Sumitomo Trust is faltering. Japan's economy is shrinking. In June the US Treasury and Federal Reserve sold $833 million for yen to slow its fall, with little lasting effect.",
-    "assets": [],
+    "assets": [
+      "ibj"
+    ],
     "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.newyorkfed.org/medialibrary/media/newsevents/news/markets/1998/fxq298.pdf (read 2026-10-03)",
     "image": "/news/asia/1998-08-boj.jpg",
     "imageCaption": "The Bank of Japan's head office, Tokyo"
@@ -152,7 +155,9 @@
     "kind": "world",
     "headline": "The yen leaps; Japan nationalises a failing bank",
     "text": "On 7 October the dollar fell from about 134 to 120 yen, the biggest daily move since the yen began to float in 1973, as hedge funds wound down bets financed with cheap yen. It fell to about 117 by the month's end. On 23 October the Diet nationalised the Long-Term Credit Bank under a new law that also offers public money to sound banks.",
-    "assets": [],
+    "assets": [
+      "ibj"
+    ],
     "source": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1999/the-yen-dollar-exchange-rate-in-1998-views-from-options-markets.pdf (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03)",
     "image": "/news/asia/1998-10-ltcb-hq.jpg",
     "imageCaption": "Head office of the Long-Term Credit Bank of Japan, Tokyo",

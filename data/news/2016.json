@@ -158,7 +158,9 @@
     "kind": "world",
     "headline": "Ten-year yields at a record low after the Brexit vote",
     "text": "After Britain voted on 23 June to leave the European Union, investors bought safe government bonds. The 10-year Treasury yield averaged 1.5 percent in July, the lowest monthly average on record. US inflation is about 1 percent (June), and the Fed has kept its rate at 0.25 to 0.5 percent since December. Gold averaged 1,337 dollars, 5 percent more than in June.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2016-07-cameron-resigns.jpg",
     "imageCaption": "David Cameron announces his resignation outside 10 Downing Street after the Brexit vote, 24 June 2016",

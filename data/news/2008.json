@@ -332,7 +332,8 @@
     "headline": "Lehman Brothers goes bankrupt; AIG is taken over",
     "text": "After the government took over the mortgage giants Fannie Mae and Freddie Mac on 7 September, Lehman Brothers filed for bankruptcy on 15 September, the largest bankruptcy in American history, and Merrill Lynch agreed to be bought by Bank of America; the Dow fell 504 points that day. On 16 September the Fed took control of the insurer AIG with an 85 billion dollar loan, and a money market fund holding Lehman debt 'broke the buck', setting off a run of 144 billion dollars on such funds. Goldman Sachs and Morgan Stanley became banks, Berkshire Hathaway invested 5 billion in Goldman, and Washington Mutual was seized on 26 September.",
     "assets": [
-      "lehman"
+      "lehman",
+      "brk"
     ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2008-09-lehman.jpg",
@@ -356,7 +357,8 @@
     "headline": "Credit crisis hits the miners",
     "text": "The failure of Lehman Brothers and the freezing of credit markets in September have hit mining shares hardest. Copper averaged $6,991 a tonne, down 17% from July, and iron ore and coal prices are falling as Chinese steel mills cut output. Investors are questioning the debt taken on by acquisitive miners; Xstrata has been spending heavily on a stake in Lonmin since August.",
     "assets": [
-      "xstrata"
+      "xstrata",
+      "lehman"
     ],
     "source": "Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
     "image": "/news/xstrata/2008-09-lehman.jpg",
@@ -369,7 +371,8 @@
     "headline": "The financial crisis",
     "text": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
     "assets": [
-      "aapl"
+      "aapl",
+      "lehman"
     ],
     "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); data/out/aapl.json (monthly prices)",
     "image": "/news/aapl/2008-09-lehman.jpg",
@@ -421,7 +424,8 @@
     "headline": "Nokia expects to lose market share",
     "text": "On 5 September Nokia said its share of the phone market in the third quarter will be lower than in the second, instead of stable as forecast in July, as weaker consumer confidence hits several markets. Its shares fell 10.5% in Helsinki. Later in the month Lehman Brothers' bankruptcy shook all markets.",
     "assets": [
-      "nokia"
+      "nokia",
+      "lehman"
     ],
     "source": "https://money.cnn.com/2008/09/05/news/international/nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)",
     "image": "/news/nokia/2008-09-n95.jpg",
@@ -447,7 +451,8 @@
     "headline": "Lehman fails; UBS shares slump",
     "text": "Stress in money markets and bond markets increased dramatically in the third quarter, culminating in the bankruptcy of Lehman Brothers in September. UBS, still holding large positions in illiquid mortgage securities, lost a quarter of its value in the month.",
     "assets": [
-      "ubs"
+      "ubs",
+      "lehman"
     ],
     "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
     "image": "/news/ubs/2008-09-lehman.jpg",
@@ -460,7 +465,8 @@
     "headline": "The financial crisis crushes BMW",
     "text": "After the collapse of Lehman Brothers, stock markets fell worldwide in October and the credit markets are severely disrupted, which makes refinancing BMW's large car-finance business harder. The euro fell from 1.41 to 1.27 dollars, which deepened the loss in dollars.",
     "assets": [
-      "bmw"
+      "bmw",
+      "lehman"
     ],
     "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, BMW common stock -49%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
     "image": "/news/bmw/2008-10-welt.jpg",
@@ -486,7 +492,8 @@
     "headline": "Credit Suisse raises 10 billion francs without the state",
     "text": "On 16 October, the day the Swiss state rescued UBS, Credit Suisse announced it had raised new capital from a small group of investors, about 10 billion francs from three existing shareholders; Qatar Holding reported holding 8.9% of the shares on 22 October. Credit Suisse said it would not use the National Bank's facility for illiquid assets. The bank cancelled its share buyback.",
     "assets": [
-      "credit-suisse"
+      "credit-suisse",
+      "ubs"
     ],
     "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)",
     "image": "/news/credit-suisse/2008-10-dougan.jpg",
@@ -524,7 +531,8 @@
     "headline": "The financial crisis crushes car shares",
     "text": "After the collapse of Lehman Brothers in September, stock markets plunged worldwide in October, credit markets are disrupted and the crisis is spreading to the wider economy. The euro fell from 1.41 to 1.27 dollars during the month, which made the fall worse in dollars.",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "lehman"
     ],
     "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, Prime Automobile index -35.3%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
     "image": "/news/mercedes/2008-10-frankfurt.jpg",
@@ -577,7 +585,8 @@
     "headline": "Bern and the National Bank rescue UBS",
     "text": "On 16 October the Swiss government and the Swiss National Bank announced a rescue for UBS: the Confederation will inject 6 billion francs of capital, and the National Bank will take over 54 billion dollars of illiquid securities into a special fund. A month after the collapse of Lehman Brothers, interbank lending has frozen; a failure of UBS would threaten the savings of a million Swiss customers and the accounts of 300,000 companies.",
     "assets": [
-      "ubs"
+      "ubs",
+      "lehman"
     ],
     "source": "https://www.swissinfo.ch/eng/business/2008-crisis_the-day-ubs-the-biggest-swiss-bank-was-saved/44474630 (read 2026-10-03)",
     "image": "/news/world/2008-10-merz.jpg",
@@ -602,7 +611,9 @@
     "kind": "world",
     "headline": "Nikkei sinks below 7,000 as the yen soars",
     "text": "The Nikkei fell to 6,994.90 on 28 October during the day, its lowest since the bubble. The yen jumped as investors unwound bets financed with cheap yen: the dollar fell from about 106 to about 98 yen during the month. Japan's exporters, from carmakers to electronics firms, face a world recession with a dearer currency.",
-    "assets": [],
+    "assets": [
+      "sony"
+    ],
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Endaka (read 2026-10-03)",
     "image": "/news/asia/2008-10-tse-b.jpg",
     "imageCaption": "The Tokyo Stock Exchange",
@@ -640,7 +651,8 @@
     "headline": "The financial crisis: even Coca-Cola falls 17%",
     "text": "Stock markets crashed worldwide in October as the financial crisis deepened after Lehman Brothers' failure in September. Coca-Cola shares lost about 17%, as much as the S&P 500. Muhtar Kent became chief executive on 1 July. In September Coca-Cola offered 2.4 billion dollars for China Huiyuan Juice, the leader in Chinese fruit juice.",
     "assets": [
-      "ko"
+      "ko",
+      "lehman"
     ],
     "source": "https://en.wikipedia.org/wiki/Global_financial_crisis_in_October_2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Muhtar_Kent (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Huiyuan section, read 2026-10-03)",
     "image": "/news/ko/2008-10-olympia-sign.jpg",
@@ -653,7 +665,8 @@
     "headline": "The financial crisis hits Siemens, and the euro falls",
     "text": "After Lehman Brothers filed for bankruptcy on 15 September, stock markets crashed in October. The euro fell about 10% against the dollar during the month as investors fled to the dollar. Siemens shares lost 36% in dollar terms, 29% in euros.",
     "assets": [
-      "siemens"
+      "siemens",
+      "lehman"
     ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03); data/out/siemens.json (read 2026-10-03)",
     "image": "/news/siemens/2008-10-frankfurt.jpg",
@@ -666,7 +679,8 @@
     "headline": "Crisis and a soaring yen hit Sony",
     "text": "After Lehman Brothers collapsed in September, stock markets crashed in October. The yen rose about 8% against the dollar during the month, which cuts the value of Sony's foreign sales, about 80% of its total. Sony's ADR fell 25%.",
     "assets": [
-      "sony"
+      "sony",
+      "lehman"
     ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); https://money.cnn.com/2008/12/09/news/international/sony_cuts.ap/index.htm via web.archive.org (read 2026-10-03)",
     "image": "/news/sony/2008-10-stringer.jpg",

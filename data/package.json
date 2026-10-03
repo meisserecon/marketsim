@@ -8,7 +8,8 @@
     "validate": "tsx src/validate.ts",
     "nzz": "tsx src/nzz.ts",
     "movers": "tsx src/movers.ts",
-    "news": "tsx src/news.ts"
+    "news": "tsx src/news.ts",
+    "tags": "tsx src/tags.ts"
   },
   "devDependencies": {
     "@types/node": "^22.7.0",

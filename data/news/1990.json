@@ -69,7 +69,9 @@
     "kind": "world",
     "headline": "Tokyo shares crash as the yen falls",
     "text": "The Bank of Japan raised its discount rate by a full point to 5.25% on 20 March to stop the yen's fall and the slide in shares. On 22 March the dollar reached a three-year high of 155 yen and the Nikkei fell below 29,000 for the first time since November 1988; it ended the month just under 30,000, down about a quarter from its December record. On 27 March the Finance Ministry told banks to limit their lending for property.",
-    "assets": [],
+    "assets": [
+      "ibj"
+    ],
     "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)",
     "image": "/news/asia/1990-03-tse-floor.jpg",
     "imageCaption": "The trading floor of the Tokyo Stock Exchange",
@@ -82,7 +84,8 @@
     "text": "Microsoft launched Windows 3.0 on 22 May. It gives ordinary IBM-compatible PCs a screen with windows, icons and a mouse much like the Macintosh, at lower prices. Apple's Macs still sell well, but the PCs are catching up.",
     "assets": [
       "aapl",
-      "msft"
+      "msft",
+      "ibm"
     ],
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)",
     "image": "/news/aapl/1990-05-windows.jpg",

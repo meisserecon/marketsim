@@ -43,7 +43,9 @@
     "kind": "world",
     "headline": "Gold falls to 330 dollars as inflation retreats",
     "text": "Gold averaged 330 dollars in March, 12 percent below February, the lowest since August 1979 and less than half its January 1980 average. Inflation has dropped to 7.6 percent (February) while the rate banks charge each other is near 15 percent, so money in the bank earns about 7 percent more than prices rise. The prime rate stands at 16.5 percent.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
     "image": "/news/rates/1982-03-gold-vault.jpg",
     "imageCaption": "A vault stacked with gold bars"
@@ -112,7 +114,9 @@
     "kind": "world",
     "headline": "Gold jumps 20 percent as rates fall and Mexico wobbles",
     "text": "Gold averaged 437 dollars in September, 20 percent more than in August and almost 40 percent above its June average. Falling interest rates make gold cheaper to hold, and Mexico's announcement in August that it cannot pay its foreign debts has raised fears for the banks that lent to it. Ten-year Treasury yields averaged 12.3 percent, down from 14.3 percent in June.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "data/out/gold.json (read 2026-10-03); https://en.wikipedia.org/wiki/Latin_American_debt_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)",
     "image": "/news/rates/1982-09-reagan-lopez-portillo.jpg",
     "imageCaption": "President Reagan hosts Mexico's President Jose Lopez Portillo at Camp David",

@@ -79,7 +79,9 @@
     "what": "Cisco reported on August 18 that sales for the fiscal year to July rose 92% to $1.24 billion and net income 83% to $315 million. Chief executive John Morgridge pointed to alliances with IBM, Microsoft and Alcatel and to the acquisitions of Crescendo and Newport Systems.",
     "why": "The shares recover from a spring slump (about -40% from January to July 1994) on proof that growth is intact.",
     "assets": [
-      "csco"
+      "csco",
+      "ibm",
+      "msft"
     ],
     "move": {
       "asset": "csco",
@@ -135,7 +137,8 @@
     "what": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
     "why": "The peak (77.3 in game terms at the end of March 2000). From here the shares fell 86% to September 2002, and it took until December 2025 to regain the March 2000 closing high. (Time check: dropped 'briefly', which knows the lead was lost.)",
     "assets": [
-      "csco"
+      "csco",
+      "msft"
     ],
     "move": {
       "asset": "csco",
@@ -515,7 +518,8 @@
     "what": "In December Cisco's shares closed above $80.06, the closing high of March 2000, for the first time in more than 25 years. Investors are buying it as a supplier of networking for AI data centres, including switches developed with Nvidia. Because Cisco has bought back many shares, its market value is still far below the 2000 peak.",
     "why": "A milestone for anyone who bought at the top in 2000: a quarter of a century to get even on price (dividends since 2011 aside).",
     "assets": [
-      "csco"
+      "csco",
+      "nvda"
     ],
     "importance": 2,
     "source": "https://sherwood.news/markets/after-a-quarter-century-cisco-surpasses-dot-com-bubble-closing-high/ (read 2026-10-03)"

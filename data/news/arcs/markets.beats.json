@@ -364,7 +364,9 @@
     "title": "Profit warnings and an undecided election send shares down 8 percent",
     "what": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
     "why": "The bust taking hold: the Nasdaq's fall was spreading to the broad market.",
-    "assets": [],
+    "assets": [
+      "pets-com"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -8
@@ -631,7 +633,8 @@
     "what": "After the government took over the mortgage giants Fannie Mae and Freddie Mac on 7 September, Lehman Brothers filed for bankruptcy on 15 September, the largest bankruptcy in American history, and Merrill Lynch agreed to be bought by Bank of America; the Dow fell 504 points that day. On 16 September the Fed took control of the insurer AIG with an 85 billion dollar loan, and a money market fund holding Lehman debt 'broke the buck', setting off a run of 144 billion dollars on such funds. Goldman Sachs and Morgan Stanley became banks, Berkshire Hathaway invested 5 billion in Goldman, and Washington Mutual was seized on 26 September.",
     "why": "The heart of the 2008 crisis. Letting Lehman fail turned a credit crisis into a global panic.",
     "assets": [
-      "lehman"
+      "lehman",
+      "brk"
     ],
     "move": {
       "asset": "sp500",
@@ -710,7 +713,9 @@
     "title": "Doubts about the bank rescue push shares to 12-year lows",
     "what": "Congress approved a 787 billion dollar stimulus package on 13 February, but investors were uneasy about the Treasury's new plan to stabilize the banks and about what the government might do next. Bank and insurance shares were hit hardest; on 27 February the government agreed to take a 36% stake in Citigroup, and the Dow closed at its lowest level since 1997. The S&P 500 lost 11% in February to 735.09.",
     "why": "The capitulation before the bottom.",
-    "assets": [],
+    "assets": [
+      "c"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -11
@@ -724,7 +729,9 @@
     "title": "The S&P 500 sinks to 676, then a sudden rally",
     "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
     "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time. Review 2026-10: 'The bottom' was hindsight.",
-    "assets": [],
+    "assets": [
+      "c"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 9

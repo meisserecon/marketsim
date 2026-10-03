@@ -145,7 +145,9 @@
     "kind": "world",
     "headline": "Seventeenth hike in a row; gold falls back from a 26-year high",
     "text": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
     "image": "/news/rates/2006-06-bernanke-sworn.jpg",
     "imageCaption": "Ben Bernanke is sworn in as Federal Reserve chairman, Washington, February 2006",

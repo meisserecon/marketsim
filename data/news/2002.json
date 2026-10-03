@@ -39,7 +39,8 @@
     "headline": "Global Crossing goes bankrupt; telecom shares slump",
     "text": "Global Crossing, which built undersea fibre-optic cables, filed for bankruptcy in January with debts of $12.4 billion, one of the largest bankruptcies ever. Coming weeks after Enron's collapse, it deepened fears about debt and accounting at telecom companies, and WorldCom's shares fell 29% in the month.",
     "assets": [
-      "worldcom"
+      "worldcom",
+      "enron"
     ],
     "source": "https://en.wikipedia.org/wiki/Global_Crossing (read 2026-10-03)",
     "image": "/news/worldcom/2002-01-global-crossing-logo.jpg",
@@ -216,7 +217,8 @@
     "headline": "Citigroup's star analyst questioned over WorldCom",
     "text": "WorldCom, whose shares and bonds Citigroup's Salomon Smith Barney helped sell and whose deals it advised on, has collapsed into bankruptcy after admitting a $3.8 billion fraud. Salomon's telecom analyst Jack Grubman, who recommended WorldCom shares until April, told Congress he saw no warning signs. New York's attorney general Eliot Spitzer is investigating conflicts of interest among Wall Street analysts, Salomon among them, and Citigroup faces lawsuits over its role in Enron's financing.",
     "assets": [
-      "c"
+      "c",
+      "worldcom"
     ],
     "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
     "image": "/news/c/2002-07-citigroup-center.jpg",
@@ -253,7 +255,8 @@
     "headline": "McDonald's cuts its profit forecast again",
     "text": "On 17 September McDonald's lowered its 2002 earnings forecast because sales in the US and Europe were weaker than expected in the third quarter, and it is cautious on the fourth. Chairman Jack Greenberg says the US market is 'extremely competitive' and promises better value, service and menu choice. Philip Morris, J.P. Morgan and Honeywell also cut forecasts this month. McDonald's shares lost about 26% in September.",
     "assets": [
-      "mcd"
+      "mcd",
+      "mo"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/63908/000095013102003563/dex992.txt (press release of 17 September 2002, read 2026-10-03); http://money.cnn.com/2002/09/26/news/companies/philip_morris/index.htm (via web.archive.org, read 2026-10-03); move from data/out/mcd.json",
     "image": "/news/mcd/2002-09-big-mac.jpg",

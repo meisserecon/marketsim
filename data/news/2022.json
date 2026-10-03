@@ -5,7 +5,8 @@
     "headline": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
     "text": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
     "assets": [
-      "msft"
+      "msft",
+      "sony"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)",
     "image": "/news/msft/2022-01-activision.jpg",
@@ -106,7 +107,9 @@
     "kind": "world",
     "headline": "The Fed raises rates as inflation nears 8 percent and war breaks out",
     "text": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2022-03-powell.jpg",
     "imageCaption": "Jerome Powell, chair of the Federal Reserve",

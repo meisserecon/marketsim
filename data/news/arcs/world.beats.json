@@ -334,7 +334,8 @@
     "what": "On 16 October the Swiss government and the Swiss National Bank announced a rescue for UBS: the Confederation will inject 6 billion francs of capital, and the National Bank will take over 54 billion dollars of illiquid securities into a special fund. A month after the collapse of Lehman Brothers, interbank lending has frozen; a failure of UBS would threaten the savings of a million Swiss customers and the accounts of 300,000 companies.",
     "why": "The second state rescue of a Swiss icon after Swissair; it worked (the state and the SNB earned billions from it) and led to the 'too big to fail' rules that were tested again by Credit Suisse in 2023.",
     "assets": [
-      "ubs"
+      "ubs",
+      "lehman"
     ],
     "importance": 1,
     "source": "https://www.swissinfo.ch/eng/business/2008-crisis_the-day-ubs-the-biggest-swiss-bank-was-saved/44474630 (read 2026-10-03)"
@@ -381,7 +382,9 @@
     "title": "America loses its AAA rating",
     "what": "After weeks of brinkmanship, Congress raised the US debt ceiling on 2 August, and on 5 August Standard and Poor's cut America's credit rating from AAA to AA+ for the first time, citing the weakened predictability of American policymaking. On 8 August all three major US indexes fell by 5 to 7 percent. In Europe, fear spread from Greece to Italy and Spain, and investors fled into the Swiss franc and gold.",
     "why": "A political rather than an economic downgrade; with the euro crisis it made August-September 2011 a bad stretch (S&P -6% and -7%, Credit Suisse -20%, Daimler -26%) and pushed the Swiss National Bank to cap the franc in September.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/United_States_federal_government_credit-rating_downgrades (read 2026-10-03)"
   },

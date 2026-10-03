@@ -41,7 +41,9 @@
     "kind": "world",
     "headline": "Public money for Japan's big banks; interest rates at zero",
     "text": "Japan's government is putting trillions of yen of public money into its biggest banks this month to rebuild their capital, after a smaller injection in March 1998. In February the Bank of Japan began steering its overnight rate down to zero.",
-    "assets": [],
+    "assets": [
+      "ibj"
+    ],
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03)",
     "image": "/news/asia/1999-03-hayami.jpg",
     "imageCaption": "Masaru Hayami, governor of the Bank of Japan (left)",
@@ -102,7 +104,9 @@
     "kind": "world",
     "headline": "Britain will sell half its gold",
     "text": "On 7 May the British government said it would sell about 395 tonnes of gold, roughly half its reserves, in auctions from July; gold stood at 282.40 dollars that day. Gold averaged 276 dollars in May, its lowest monthly average since 1979. With inflation around 2 percent (April) and shares booming, few investors want a metal that pays nothing.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
     "image": "/news/rates/1999-05-gordon-brown.jpg",
     "imageCaption": "Gordon Brown, Britain's Chancellor of the Exchequer",
@@ -241,7 +245,9 @@
     "kind": "world",
     "headline": "Europe's central banks agree to limit gold sales, and gold jumps",
     "text": "On 26 September fifteen European central banks agreed in Washington to sell no more than about 400 tonnes of gold a year, 2,000 tonnes over five years, and not to expand their gold lending. The price jumped: gold averaged 311 dollars in October, 17 percent above September and up from a 20-year low of 252.80 dollars on 20 July.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/Washington_Agreement_on_Gold (read 2026-10-03); https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/1999-10-george-greenspan.jpg",
     "imageCaption": "Bank of England Governor Eddie George with Fed chairman Alan Greenspan, 2000",

@@ -4,7 +4,9 @@
     "kind": "world",
     "headline": "Abenomics: the yen weakens and Tokyo shares soar",
     "text": "Shinzo Abe, whose party won December's election on a promise to end years of falling prices, announced a 10.3 trillion yen stimulus and pressed the Bank of Japan to target 2% inflation. The dollar rose from about 87 yen at the start of January to about 91 at the end. Exporters' shares are leading a rally in Tokyo.",
-    "assets": [],
+    "assets": [
+      "sony"
+    ],
     "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03)",
     "image": "/news/asia/2013-01-abe.jpg",
     "imageCaption": "Shinzo Abe, Prime Minister of Japan, 2013",
@@ -105,7 +107,9 @@
     "kind": "world",
     "headline": "Gold breaks down",
     "text": "Gold averaged 1,488 dollars in April, 7 percent below March and 16 percent below its peak month of September 2011. US inflation is only 1.5 percent (March), and shares are at records. The fear of inflation from the Fed's bond buying has not come true.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
     "image": "/news/rates/2013-04-gold-oz.jpg",
     "imageCaption": "A one-ounce gold bar",
@@ -130,7 +134,8 @@
     "headline": "Glencore Xstrata is born",
     "text": "The merger took effect on 2 May: Glencore issued 6.16 billion new shares, 3.05 for each Xstrata share, and Xstrata left the stock exchange on 3 May. China approved the deal in April on condition that the Las Bambas copper project in Peru is sold, and Ivan Glasenberg is chief executive of the renamed Glencore Xstrata plc; Mick Davis has left. The group is now one of the world's largest miners as well as its largest commodity trader.",
     "assets": [
-      "glencore"
+      "glencore",
+      "xstrata"
     ],
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541; https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://en.wikipedia.org/wiki/Glencore (rename 20 May 2014) (all read 2026-10-03)",
     "image": "/news/glencore/2013-05-davos.jpg",
@@ -168,7 +173,9 @@
     "kind": "world",
     "headline": "Bernanke hints at slower bond buying and yields jump",
     "text": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2013-06-bernanke.jpg",
     "imageCaption": "Fed chairman Ben Bernanke at a press briefing, 2013",

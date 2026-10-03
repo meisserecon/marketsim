@@ -43,7 +43,9 @@
     "kind": "world",
     "headline": "Gold slumps after OPEC cuts the oil price",
     "text": "Gold averaged 420 dollars in March, 14 percent below February's 491. On 14 March OPEC cut its base oil price from 34 to 29 dollars a barrel, the first cut in its history, after twelve days of talks. US inflation is down to 3.5 percent (February), and the rate banks charge each other is still near 8.75 percent.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "data/out/gold.json (read 2026-10-03); https://www.upi.com/Archives/1983/03/14/OPEC-prices-down-consumer-optimism-up/3004416466000/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03)",
     "image": "/news/rates/1983-03-opec-hq.jpg",
     "imageCaption": "OPEC's headquarters, Vienna",

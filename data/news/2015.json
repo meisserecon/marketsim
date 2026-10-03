@@ -365,7 +365,9 @@
     "kind": "world",
     "headline": "The first rate rise in nine years",
     "text": "On 16 December the Fed raised its rate target to a range of 0.25 to 0.5 percent, its first increase since 2006 and the end of seven years at zero. It said economic conditions would warrant 'only gradual increases'. Consumer prices were only 0.5 percent higher than a year earlier (November). Gold averaged 1,076 dollars in December, its lowest since 2009.",
-    "assets": [],
+    "assets": [
+      "gold"
+    ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/rates/2015-12-yellen.jpg",
     "imageCaption": "Janet Yellen, chair of the Federal Reserve",

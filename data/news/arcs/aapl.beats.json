@@ -35,7 +35,8 @@
     "what": "Apple shares fell 21% in June, giving back the rise of April and May, in a flat market. Investors have little to go on beyond the Apple III's reliability problems and talk that IBM, the giant of the computer industry, is preparing its own personal computer. Apple is still growing fast on the Apple II, but the stock market is no longer sure what a young computer company should be worth.",
     "why": "No specific June event found (searched UPI, Wikipedia, company histories); the fall follows a 36% rise in April-May and precedes the IBM PC of 12 August, so this reads as the end of the post-IPO enthusiasm against the Apple III background. The IBM rumour is contextual: the PC was announced two months later; the beat says \"talk\", not a sourced report. Curator asked about this month.",
     "assets": [
-      "aapl"
+      "aapl",
+      "ibm"
     ],
     "move": {
       "asset": "aapl",
@@ -53,7 +54,8 @@
     "why": "The arrival of the competitor that will define Apple's next fifteen years. The share reaction is from the data; the link is the timing. (Time check: cut the September fall from this August beat.)",
     "assets": [
       "aapl",
-      "ibm"
+      "ibm",
+      "intc"
     ],
     "move": {
       "asset": "aapl",
@@ -181,7 +183,8 @@
     "why": "The long squeeze on Apple's margins and market share begins; 1989-91 was the 'first golden age' of the Mac. (Time check: dropped the foreshadowing 'for now'.)",
     "assets": [
       "aapl",
-      "msft"
+      "msft",
+      "ibm"
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)"
@@ -239,7 +242,9 @@
     "why": "The strategic answer to the margin squeeze and to Windows. The formal contract followed on 2 October 1991. Whether the rise was caused by the alliance is inferred from timing.",
     "assets": [
       "aapl",
-      "ibm"
+      "ibm",
+      "intc",
+      "msft"
     ],
     "move": {
       "asset": "aapl",
@@ -455,7 +460,8 @@
     "what": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
     "why": "-33% in the month for Apple; the market fell 9%.",
     "assets": [
-      "aapl"
+      "aapl",
+      "lehman"
     ],
     "move": {
       "asset": "aapl",

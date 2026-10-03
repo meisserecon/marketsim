@@ -128,7 +128,9 @@
     "kind": "world",
     "headline": "Mitsubishi Estate buys Rockefeller Center",
     "text": "Mitsubishi Estate, the property company of the Mitsubishi group, is buying control of the Rockefeller Group, owner of Rockefeller Center in New York. It comes a month after Sony agreed to buy Columbia Pictures. Americans are uneasy about Japanese money buying up their landmarks.",
-    "assets": [],
+    "assets": [
+      "sony"
+    ],
     "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json",
     "image": "/news/asia/1989-10-rockefeller-plaza.jpg",
     "imageCaption": "30 Rockefeller Plaza, the centrepiece of Rockefeller Center, New York",

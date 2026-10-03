@@ -97,7 +97,8 @@
     "headline": "Cisco becomes the world's most valuable company",
     "text": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
     "assets": [
-      "csco"
+      "csco",
+      "msft"
     ],
     "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
     "image": "/news/csco/2000-03-campus-aerial.jpg",
@@ -509,7 +510,9 @@
     "kind": "world",
     "headline": "Profit warnings and an undecided election send shares down 8 percent",
     "text": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
-    "assets": [],
+    "assets": [
+      "pets-com"
+    ],
     "source": "https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/markets/2000-11-palm-beach-ballot.jpg",
     "imageCaption": "The Palm Beach County ballot of the 2000 presidential election, the centre of the Florida recount",

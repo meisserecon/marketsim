@@ -33,7 +33,7 @@ const nextMonth = (m: string) => {
 };
 const inGame = (id: string, month: string) => {
   const s = assets.get(id);
-  return !!s && s.kind === "stock" && month >= listedMonth(s) && (!s.end || month <= nextMonth(s.end.month));
+  return !!s && s.kind !== "cash" && s.kind !== "bond" && month >= listedMonth(s) && (!s.end || month <= nextMonth(s.end.month));
 };
 
 /** Who to name under a picture: the credit as printed at the source, else the author or holder named in the licence. */

@@ -134,7 +134,8 @@
     "what": "Shareholders approved the split, and from 8 June each WorldCom share became one share of WorldCom group stock plus 1/25 of a share of MCI group stock, which will pay a quarterly dividend of 60 cents. WorldCom group revenues grew 12% in the first quarter. In May it raised billions of dollars by selling bonds through a syndicate led by Citigroup's Salomon Smith Barney.",
     "why": "The game follows the WorldCom group share; the small MCI group distribution is not added back. The bonds sold in May 2001 and May 2002 came to about $17 billion, money the bondholders largely lost.",
     "assets": [
-      "worldcom"
+      "worldcom",
+      "c"
     ],
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000089375001500127/exh99_1.txt (WorldCom press release, 7 June 2001; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547701500032/ex99-1.txt (26 April 2001; read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
@@ -146,7 +147,8 @@
     "what": "Global Crossing, which built undersea fibre-optic cables, filed for bankruptcy in January with debts of $12.4 billion, one of the largest bankruptcies ever. Coming weeks after Enron's collapse, it deepened fears about debt and accounting at telecom companies, and WorldCom's shares fell 29% in the month.",
     "why": "Contagion from Enron and the telecom bust; investors started to ask how WorldCom's profits could hold up when its customers and rivals were failing.",
     "assets": [
-      "worldcom"
+      "worldcom",
+      "enron"
     ],
     "move": {
       "asset": "worldcom",

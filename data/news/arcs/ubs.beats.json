@@ -86,7 +86,8 @@
     "what": "The merger of the Bankgesellschaft and the Bankverein took legal effect on 27-28 June. The new UBS has total assets of more than $590 billion, making it the second-largest bank in the world. Each Bankverein share becomes 1 1/13 UBS shares and each Bankgesellschaft bearer share five shares of the new bank.",
     "why": "Merger beat from the Bankgesellschaft's side: the game's ubs series continues as the new UBS. Six weeks later Russia defaults and LTCM collapses.",
     "assets": [
-      "ubs"
+      "ubs",
+      "sbv"
     ],
     "move": {
       "asset": "ubs",
@@ -225,7 +226,8 @@
     "what": "Stress in money markets and bond markets increased dramatically in the third quarter, culminating in the bankruptcy of Lehman Brothers in September. UBS, still holding large positions in illiquid mortgage securities, lost a quarter of its value in the month.",
     "why": "Unlike Credit Suisse (+4% in September), UBS was seen as one of the most exposed European banks.",
     "assets": [
-      "ubs"
+      "ubs",
+      "lehman"
     ],
     "move": {
       "asset": "ubs",

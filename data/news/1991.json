@@ -1,0 +1,187 @@
+[
+  {
+    "month": "1991-01",
+    "kind": "world",
+    "headline": "Desert Storm begins; oil falls by a third and stocks leap",
+    "text": "After the UN's deadline of 15 January for Iraq to leave Kuwait passed, a US-led coalition of more than 40 countries began bombing Iraq and Iraqi forces in Kuwait on 17 January. Iraq has fired Scud missiles at Israel and Saudi Arabia. On the first day of the air war the oil price fell by about a third and the S&P 500 rose 3.7 percent.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); https://finance.yahoo.com/news/day-market-history-operation-desert-180823058.html (read 2026-10-03)",
+    "image": "/news/middle-east/1991-01-desert-storm.jpg",
+    "imageCaption": "US troops during Operation Desert Storm, 1991",
+    "imageCredit": "CC BY-SA 2.0, photo: Lietmotiv"
+  },
+  {
+    "month": "1991-03",
+    "kind": "company",
+    "headline": "Wal-Mart overtakes Sears as America's largest retailer",
+    "text": "Sears reported 1990 sales of 31.99 billion dollars for its stores business, knocking it off the top spot it had held since about 1900. Wal-Mart, with 1990 sales of 32.6 billion dollars, is now the country's largest retailer, and Kmart, at 32.07 billion, also passed Sears.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.upi.com/Archives/1991/03/08/Sears-no-longer-top-retailer-works-on-regaining-market-share/4206668408400/ (read 2026-10-03)",
+    "image": "/news/wmt/1991-03-headquarters.jpg",
+    "imageCaption": "A Wal-Mart sign",
+    "imageCredit": "CC BY 2.0, photo: I ♥ Food from United States"
+  },
+  {
+    "month": "1991-05",
+    "kind": "company",
+    "headline": "Apple shares fall 15%: cheap Macs sell, but the profit on each is thin",
+    "text": "Apple shares fell 15% in May after a 19% fall in April. The low-priced Macintosh Classic and LC are selling, but Apple earns far less on each one, and the company said it would offset the lower gross margins by cutting operating expenses. Reports in mid-May spoke of 600 to 2,000 of the 15,600 jobs going, mostly in administration; Apple would not confirm a figure.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://archive.seattletimes.com/archive/19910518/1283813/apple-computer-to-issue-layoffs (read 2026-10-03); price changes from data/out/aapl.json",
+    "image": "/news/aapl/1991-05-mac-lc.jpg",
+    "imageCaption": "The Macintosh LC, introduced in October 1990",
+    "imageCredit": "CC BY-SA 2.5, photo: Stephen Edmonds"
+  },
+  {
+    "month": "1991-06",
+    "kind": "company",
+    "headline": "Apple cuts about 1,500 jobs; shares down 39% since March",
+    "text": "Apple announced the cuts investors had been waiting for: about 1,500 jobs, a tenth of its staff, to bring costs in line with the thinner profits of its cheaper Macintosh models. The shares fell another 12% in June and have lost 39% since March, in a month when the whole market fell 5%. Apple remains profitable; the question is how much it can earn selling computers at 1,000 dollars instead of 2,500.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "SFGate \"Apple layoffs: Painful but necessary\" and Post-Bulletin, via search summaries (pages did not load) (read 2026-10-03); Seattle Times 1991-05-18 for the staff total; price changes from data/out/aapl.json",
+    "image": "/news/aapl/1991-06-sculley.jpg",
+    "imageCaption": "John Sculley, Apple's chief executive",
+    "imageCredit": "CC BY-SA 2.0, photo: Guilherme T. Santos (gtsantos on Flikr)"
+  },
+  {
+    "month": "1991-07",
+    "kind": "company",
+    "headline": "LDDS shares have quadrupled in eighteen months",
+    "text": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
+  },
+  {
+    "month": "1991-07",
+    "kind": "company",
+    "headline": "Apple and IBM, enemies for a decade, agree to work together",
+    "text": "On 3 July Apple and IBM signed a letter of intent for an alliance that would have been unthinkable a few years ago: a new family of microprocessors with Motorola, derived from IBM's POWER chips, a joint company to build a next-generation operating system from Apple's \"Pink\" project, and another for multimedia software. The aim is a common platform that other makers can build on, a direct challenge to the Microsoft-and-Intel world of the PC. Apple shares rose 11% in July.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/AIM_alliance (read 2026-10-03); price change from data/out/aapl.json",
+    "image": "/news/aapl/1991-07-ibm-ps2.jpg",
+    "imageCaption": "An IBM PS/2 personal computer, IBM's PC line of the time",
+    "imageCredit": "CC BY-SA 4.0, photo: David E Larsson"
+  },
+  {
+    "month": "1991-08",
+    "kind": "company",
+    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
+    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "image": "/news/ibj/1985-05-ibj-head-office.jpg",
+    "imageCaption": "The head office of the Industrial Bank of Japan, Tokyo",
+    "imageCredit": "CC BY-SA 3.0, photo: Yuukokusya"
+  },
+  {
+    "month": "1991-08",
+    "kind": "company",
+    "headline": "Cisco's sales more than double again",
+    "text": "Cisco closed its fiscal year at the end of July with sales of $183 million, up from $70 million the year before, and net income of $43 million. Demand for routers that tie together company networks of different makes keeps growing faster than the company can hire.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.company-histories.com/Cisco-Systems-Inc-Company-History.html (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/cisco-systems-inc (read 2026-10-03)",
+    "image": "/news/csco/1991-08-cisco-2500.jpg",
+    "imageCaption": "A Cisco 2500-series router, the company's compact router for branch offices",
+    "imageCredit": "CC BY 2.0, photo: Jemimus"
+  },
+  {
+    "month": "1991-08",
+    "kind": "world",
+    "headline": "The World Wide Web opens to the internet",
+    "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)",
+    "image": "/news/tech/1991-08-web-server.jpg",
+    "imageCaption": "The NeXT computer that served as the first web server at CERN, Geneva, where Tim Berners-Lee built the World Wide Web in 1990-91",
+    "imageCredit": "CC BY-SA 3.0, photo: Coolcaesar"
+  },
+  {
+    "month": "1991-10",
+    "kind": "company",
+    "headline": "A bank run in Thun",
+    "text": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989, and banks with large property loans are under strain.",
+    "assets": [
+      "ubs",
+      "sbv",
+      "credit-suisse"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)",
+    "image": "/news/credit-suisse/1991-10-thun-bank-run.jpg",
+    "imageCaption": "Savers queue outside the Spar + Leihkasse Thun to withdraw what they are allowed, October 1991",
+    "imageCredit": "Keystone"
+  },
+  {
+    "month": "1991-10",
+    "kind": "company",
+    "headline": "IBJ's chairman resigns over the Onoue loans",
+    "text": "On 22 October IBJ chairman Kaneo Nakamura resigned to take responsibility for 1.85 billion dollars of loans to Nui Onoue; two managing directors and a top adviser also quit and president Yo Kurosawa took a 50% pay cut for six months. 'We are the victims of the scandal but we can't evade our social responsibility,' Nakamura said.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://www.upi.com/Archives/1991/10/22/The-chairman-of-the-Industrial-Bank-of-Japan-resigned/7963688104000/ (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "image": "/news/ibj/1985-05-ibj-head-office.jpg",
+    "imageCaption": "The head office of the Industrial Bank of Japan, Tokyo",
+    "imageCredit": "CC BY-SA 3.0, photo: Yuukokusya"
+  },
+  {
+    "month": "1991-12",
+    "kind": "world",
+    "headline": "The Soviet Union ceases to exist",
+    "text": "The leaders of Russia, Ukraine and Belarus declared on 8 December that the Soviet Union no longer exists and founded a Commonwealth of Independent States, which eight more republics joined on 21 December. Mikhail Gorbachev resigned on 25 December and handed the nuclear codes to Boris Yeltsin; the red flag was lowered over the Kremlin, and the Soviet Union was formally dissolved the next day.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-03)",
+    "image": "/news/world/1991-12-cis-signing.jpg",
+    "imageCaption": "The heads of eleven former Soviet republics sign the protocol founding the Commonwealth of Independent States, Alma-Ata, December 1991",
+    "imageCredit": "CC BY-SA 3.0, photo: Yuriy Kuydin / Юрий Куйдин"
+  },
+  {
+    "month": "1991-12",
+    "kind": "world",
+    "headline": "The Fed cuts sharply and shares end 1991 with an 11 percent burst",
+    "text": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets.",
+    "assets": [],
+    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/1991-12-bush-greenspan.jpg",
+    "imageCaption": "President Bush and Federal Reserve Chairman Alan Greenspan, 14 November 1990",
+    "imageCredit": "public domain (George Bush Presidential Library)"
+  },
+  {
+    "month": "1991-12",
+    "kind": "world",
+    "headline": "Maastricht: Europe agrees on a single currency",
+    "text": "At Maastricht on 9 and 10 December the twelve European Community leaders agreed on a treaty for a European Union with common citizenship, foreign policy cooperation and an economic and monetary union with a single currency by 1999 at the latest. Countries must meet limits on inflation, deficits, debt and interest rates to join. The treaty still has to be ratified by all twelve, some by referendum.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)",
+    "image": "/news/world/1991-12-maastricht-summit.jpg",
+    "imageCaption": "Press conference at the European summit, Maastricht, 11 December 1991",
+    "imageCredit": "CC BY-SA 3.0, photo: Unknown photographer (Openbare Werken Gemeente Maastricht)"
+  },
+  {
+    "month": "1991-12",
+    "kind": "company",
+    "headline": "Wal-Mart goes abroad, starting in Mexico",
+    "text": "In 1991 Wal-Mart formed joint ventures with Cifra, Mexico's largest retailer. The first store, a Club Aurrera warehouse club in Mexico City, opened late this year. Wal-Mart also launched its own label, Sam's American Choice.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/cifra-sa-de-cv (search result summary read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)",
+    "image": "/news/wmt/1991-12-mexico.jpg",
+    "imageCaption": "A Wal-Mart store in Mexico",
+    "imageCredit": "public domain, photo: Inoyamanaka79"
+  }
+]

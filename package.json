@@ -16,6 +16,7 @@
     "dev": "npm run dev -w server",
     "dev:web": "npm run dev -w web",
     "start": "npm run start -w server",
-    "build": "npm run build -w web"
+    "build": "npm run build -w web",
+    "data:news": "npm run news -w data"
   }
 }

@@ -1,0 +1,306 @@
+[
+  {
+    "month": "2019-01",
+    "kind": "company",
+    "headline": "Tim Cook warns: China and fewer iPhone upgrades",
+    "text": "On 2 January Tim Cook cut Apple's revenue forecast for the December quarter to about 84 billion dollars, below its earlier guidance, in a letter to investors. He blamed a much sharper slowdown in China than expected and fewer iPhone upgrades; sales outside the iPhone grew almost 19%.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)",
+    "image": "/news/aapl/2019-01-cook.jpg",
+    "imageCaption": "Tim Cook, Apple's chief executive, at the White House",
+    "imageCredit": "public domain, photo: The White House from Washington, DC"
+  },
+  {
+    "month": "2019-01",
+    "kind": "company",
+    "headline": "eBay pays its first dividend",
+    "text": "On January 29 eBay announced its first-ever dividend, 14 cents a share each quarter from March, and $4 billion more for share buybacks, planning to return about $7 billion to shareholders over two years. It has 179 million active buyers.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-19-000003.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "image": "/news/ebay/2019-01-headquarters.jpg",
+    "imageCaption": "eBay's headquarters in San Jose, California",
+    "imageCredit": "CC BY-SA 4.0, photo: Coolcaesar"
+  },
+  {
+    "month": "2019-01",
+    "kind": "company",
+    "headline": "GE's cash flow beats fears",
+    "text": "On 31 January General Electric reported fourth-quarter revenue up 5% to 33.3 billion dollars and 5.5 billion dollars of industrial free cash flow in the quarter, more than investors had feared after a year of bad news.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000006/ge4q2018ex99.htm (GE fourth-quarter 2018 results tables, read 2026-10-03)",
+    "image": "/news/ge/2019-01-ge90.jpg",
+    "imageCaption": "A GE90 jet engine, built by GE Aviation, on display",
+    "imageCredit": "CC BY-SA 4.0, photo: Chris Light"
+  },
+  {
+    "month": "2019-01",
+    "kind": "world",
+    "headline": "The Fed promises patience and shares jump 8 percent",
+    "text": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2019-01-powell.jpg",
+    "imageCaption": "Federal Reserve Chairman Jerome Powell at the Fed's press conference, 30 January 2019",
+    "imageCredit": "public domain (Federal Reserve)"
+  },
+  {
+    "month": "2019-03",
+    "kind": "company",
+    "headline": "Second crash: the 737 MAX is grounded worldwide",
+    "text": "On 10 March an Ethiopian Airlines 737 MAX 8 crashed after take-off from Addis Ababa, killing all 157 on board, in circumstances similar to the Lion Air crash. China grounded the plane the next day, others followed, and on 13 March the US FAA became the last major regulator to ground it. Boeing's shares had their biggest fall since 2001.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NYT 2019-03-12/13 and Time 2019-03-11); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03)",
+    "image": "/news/ba/2019-03-et-avj.jpg",
+    "imageCaption": "Ethiopian Airlines 737 MAX 8 ET-AVJ, the aircraft lost on flight ET302, 10 March 2019",
+    "imageCredit": "CC BY-SA 2.0, photo: LLBG Spotter"
+  },
+  {
+    "month": "2019-04",
+    "kind": "company",
+    "headline": "Disney+ will launch in November at 6.99 dollars",
+    "text": "At an investor day on 11 April Disney announced that its streaming service Disney+ will launch in the United States on 12 November, for 6.99 dollars a month, with films and series from Disney, Pixar, Marvel, Star Wars and National Geographic. The Fox purchase was completed last month.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03; citing Variety, 11 April 2019, 'Disney+ to Launch in November, Priced at $6.99 Monthly')",
+    "image": "/news/dis/2019-04-disney-plus-bus.jpg",
+    "imageCaption": "Disney+ advertising",
+    "imageCredit": "CC0, photo: 玄 史生"
+  },
+  {
+    "month": "2019-04",
+    "kind": "company",
+    "headline": "Alcon spun off",
+    "text": "On 9 April Novartis completed the spin-off of its eye-care business Alcon: shareholders received Alcon shares, now listed on their own, and the new company is valued at about 28 billion francs. Novartis is now focused on medicines and generics.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03); https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); data/src/universe.ts note",
+    "image": "/news/novartis/2019-04-pavillon.jpg",
+    "imageCaption": "The Novartis campus in Basel",
+    "imageCredit": "CC BY-SA 4.0, photo: MBxd1"
+  },
+  {
+    "month": "2019-04",
+    "kind": "company",
+    "headline": "Microsoft is worth a trillion dollars",
+    "text": "In April Microsoft became the third US listed company to be valued at more than one trillion dollars, as its cloud business keeps growing.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Microsoft (read 2026-10-03)",
+    "image": "/news/msft/2019-04-nadella.jpg",
+    "imageCaption": "Satya Nadella, Microsoft's chief executive",
+    "imageCredit": "CC BY-SA 4.0, photo: Brian Smale and Microsoft"
+  },
+  {
+    "month": "2019-05",
+    "kind": "company",
+    "headline": "Ola Källenius takes over as trade war worries hit car shares",
+    "text": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03)",
+    "image": "/news/mercedes/2019-05-kallenius.jpg",
+    "imageCaption": "Ola Källenius, Daimler chief executive from May 2019, at the Geneva motor show, April 2019",
+    "imageCredit": "CC BY-SA 4.0, photo: Alexander Migl"
+  },
+  {
+    "month": "2019-05",
+    "kind": "company",
+    "headline": "Trade war fears push Tesla to a three-year low",
+    "text": "Tesla shares fell 22% in May to their lowest level in three years. The escalating US-China trade war hit Tesla harder than other car makers, because it is building a factory in Shanghai and counts on selling many cars in China.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)",
+    "image": "/news/tsla/2019-05-model3china.jpg",
+    "imageCaption": "A Tesla Model 3 in China, April 2019",
+    "imageCredit": "CC BY-SA 4.0, photo: Navigator84"
+  },
+  {
+    "month": "2019-06",
+    "kind": "colour",
+    "headline": "Women's strike again, 28 years later",
+    "text": "On 14 June an estimated 500,000 people joined a nationwide women's strike in Switzerland, the second after 1991, demanding equal pay, protection against harassment and more women in politics. Many wore purple and marched in Bern, Zurich, Basel, Geneva and Lausanne.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2019_Swiss_women%27s_strike (read 2026-10-03)",
+    "image": "/news/life/2019-06-womens-strike.jpg",
+    "imageCaption": "Women's strike march, Geneva, 14 June 2019",
+    "imageCredit": "CC BY-SA 2.0, photo: Gustave Deghilage"
+  },
+  {
+    "month": "2019-07",
+    "kind": "company",
+    "headline": "Oliver Zipse named chief executive",
+    "text": "On 5 July BMW said Harald Krüger will not seek a second term, and on 18 July the supervisory board named the production chief Oliver Zipse as the new chairman of the board of management from 16 August. Mercedes has overtaken BMW as the best-selling luxury brand.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03); https://en.wikipedia.org/wiki/Oliver_Zipse (read 2026-10-03)",
+    "image": "/news/bmw/2019-07-zipse.jpg",
+    "imageCaption": "Oliver Zipse, member of the BMW board, named chief executive in July 2019",
+    "imageCredit": "CC BY-SA 4.0, photo: Ha-chrishub"
+  },
+  {
+    "month": "2019-07",
+    "kind": "company",
+    "headline": "IBM closes the Red Hat deal",
+    "text": "IBM completed its 34 billion dollar purchase of Red Hat on 9 July, after the US Justice Department finished its review in May. Red Hat becomes part of IBM's hybrid cloud business.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Red_Hat (read 2026-10-03, citing Red Hat press release 2019-07-09); https://en.wikipedia.org/wiki/Arvind_Krishna (read 2026-10-03)",
+    "image": "/news/ibm/2019-07-red-hat-headquarters.jpg",
+    "imageCaption": "Red Hat's headquarters, Raleigh, North Carolina",
+    "imageCredit": "CC BY-SA 3.0, photo: Bz3rk"
+  },
+  {
+    "month": "2019-08",
+    "kind": "company",
+    "headline": "Madoff's whistleblower calls GE 'a bigger fraud than Enron'",
+    "text": "On 15 August Harry Markopolos, the investigator who exposed Bernard Madoff, accused General Electric of hiding 38 billion dollars of losses, mainly in long-term care insurance. GE denied any wrongdoing. The shares had their worst day in eleven years.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and CNN 2019-08-15)",
+    "image": "/news/ge/2019-08-markopolos.jpg",
+    "imageCaption": "Harry Markopolos, the fraud investigator who warned the SEC about Bernard Madoff",
+    "imageCredit": "public domain, Loyola College in Maryland"
+  },
+  {
+    "month": "2019-08",
+    "kind": "company",
+    "headline": "Cobalt slump shuts Mutanda",
+    "text": "Glencore's first-half adjusted EBITDA fell 32% to $5.6bn and net income to $226m. It will put its Mutanda copper and cobalt mine in Congo, which produced about a fifth of the world's cobalt in 2018, on care and maintenance by year-end because cobalt prices have collapsed, and booked a $350m cobalt loss in trading. Copper averaged $5,709 a tonne, its lowest in over two years.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2019-half-year-report/5702770; https://en.wikipedia.org/wiki/Glencore (Mutanda 2018 output); https://www.investegate.co.uk/announcement/rns/glencore--glen/announcement-commodity-futures-trading-commission/5945728; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "image": "/news/glencore/2019-08-mutanda.jpg",
+    "imageCaption": "The Mutanda copper and cobalt mine, Democratic Republic of the Congo",
+    "imageCredit": "CC BY-SA 2.0, photo: Coordenação-Geral de Observação da Terra/INPE"
+  },
+  {
+    "month": "2019-09",
+    "kind": "world",
+    "headline": "Drones knock out half of Saudi output",
+    "text": "Drone and missile attacks on 14 September hit Saudi Aramco's Abqaiq processing plant and the Khurais field, cutting 5.7 million barrels a day, about 5% of world supply. Brent futures jumped almost 20% on 16 September, the biggest jump since 1990, but Saudi Arabia moved quickly to restore output and prices gave back most of the gain.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
+    "image": "/news/oil/2019-09-abqaiq.jpg",
+    "imageCaption": "Satellite image of the Khurais oil field and Abqaiq, Saudi Arabia, September 2019",
+    "imageCredit": "public domain, photo: VOA"
+  },
+  {
+    "month": "2019-10",
+    "kind": "company",
+    "headline": "Altria writes down Juul by 4.5 billion dollars",
+    "text": "On 31 October Altria wrote down the value of its Juul stake by 4.5 billion dollars, about 35% of what it paid ten months ago. Juul has stopped advertising and replaced its chief executive with an Altria executive amid a crisis over teenage vaping, and the House of Representatives is investigating the Altria deal.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://en.wikipedia.org/wiki/Altria (read 2026-10-03)",
+    "image": "/news/mo/2019-10-juul-hand.jpg",
+    "imageCaption": "A Juul e-cigarette ;;",
+    "imageCredit": "CC BY-SA 4.0, photo: Mylesclark96"
+  },
+  {
+    "month": "2019-10",
+    "kind": "company",
+    "headline": "Nokia stops its dividend to invest in 5G",
+    "text": "On 24 October Nokia lowered its outlook for 2019 and 2020, citing pressure on margins from its first-generation 5G products, price competition in early 5G deals and problems in China, and decided not to pay the remaining dividend instalments for 2018 so it can invest more in 5G.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.nokia.com/about-us/news/releases/2019/10/24/nokia-corporation-financial-report-for-q3-and-january-september-2019/ (read 2026-10-03)",
+    "image": "/news/nokia/2019-10-suri.jpg",
+    "imageCaption": "Rajeev Suri, Nokia's chief executive",
+    "imageCredit": "CC BY 2.0, photo: ITU Pictures"
+  },
+  {
+    "month": "2019-10",
+    "kind": "company",
+    "headline": "New boss, 11 billion dollar loss",
+    "text": "Olivier Le Peuch, who became chief executive on 1 August in place of Paal Kibsgaard, reported on 18 October a third-quarter net loss of 11.38 billion dollars after charges of 8.65 dollars a share. Excluding charges, earnings per share rose 23 percent from the second quarter.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 18 October 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/ (read 2026-10-03); Schlumberger press release of 19 July 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519197816/ (read 2026-10-03)",
+    "image": "/news/slb/2019-10-baku.jpg",
+    "imageCaption": "An oil pumpjack at work in Baku",
+    "imageCredit": "CC BY-SA 3.0, photo: Gulustan"
+  },
+  {
+    "month": "2019-11",
+    "kind": "company",
+    "headline": "Ten million sign up for Disney+ on day one",
+    "text": "Disney+ launched on 12 November in the United States, Canada and the Netherlands. A day later Disney said more than 10 million people had already signed up, despite log-in problems on the first day.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03)",
+    "image": "/news/dis/2019-11-iger.jpg",
+    "imageCaption": "Bob Iger, Disney chief executive, 2019 ;;",
+    "imageCredit": "CC BY-SA 2.0, photo: nagi usano from Tokyo, Japan"
+  },
+  {
+    "month": "2019-11",
+    "kind": "company",
+    "headline": "McDonald's fires its CEO over a relationship with an employee",
+    "text": "On 3 November McDonald's board dismissed chief executive Steve Easterbrook for a consensual relationship with an employee, which breaks company policy. Chris Kempczinski, president of McDonald's USA and a former PepsiCo and Kraft executive, became chief executive.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000089882219000080/pressrelease1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03); https://en.wikipedia.org/wiki/Chris_Kempczinski (read 2026-10-03)",
+    "image": "/news/mcd/2019-11-easterbrook.jpg",
+    "imageCaption": "Steve Easterbrook, McDonald's chief executive from 2015 to 2019",
+    "imageCredit": "CC BY-SA 4.0, photo: Steve Easterbrook"
+  },
+  {
+    "month": "2019-11",
+    "kind": "world",
+    "headline": "Petrol price protests crushed behind an internet blackout",
+    "text": "After the government raised petrol prices by 50 to 200 percent overnight on 15 November, protests broke out across Iran. The authorities cut the internet almost entirely for about six days. Amnesty International said on 19 November that more than 100 protesters had been killed. Over 7,000 people have been arrested.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Iranian_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03)",
+    "image": "/news/middle-east/2019-11-fuel-protests.jpg",
+    "imageCaption": "Fuel price protests in Iran, November 2019",
+    "imageCredit": "CC BY 4.0, photo: Fars News Agency"
+  },
+  {
+    "month": "2019-11",
+    "kind": "company",
+    "headline": "Siemens confirms the plan to spin off its energy business",
+    "text": "On 7 November Siemens said it plans to carve out its Gas and Power division, add its 59% stake in Siemens Gamesa, and spin off and list the new Siemens Energy before the end of fiscal 2020. It expects earnings per share of 6.30 to 7.00 euros in fiscal 2020. Siemens shares rose 12% in November.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2019 (read 2026-10-03)",
+    "image": "/news/siemens/2019-11-kaeser.jpg",
+    "imageCaption": "Siemens chief executive Joe Kaeser (left) with Argentina's president Mauricio Macri, Davos, January 2018",
+    "imageCredit": "CC BY 2.5 ar, photo: Casa Rosada"
+  },
+  {
+    "month": "2019-12",
+    "kind": "company",
+    "headline": "Boeing halts MAX production and fires its CEO",
+    "text": "On 16 December Boeing said it will suspend 737 MAX production in January, as the plane's return to service drags on. On 23 December the board dismissed chief executive Dennis Muilenburg and named chairman Dave Calhoun to replace him.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://boeing.mediaroom.com/2019-12-16-Boeing-Statement-Regarding-737-MAX-Production (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing Reuters 2019-12-23); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, July 2019 charge)",
+    "image": "/news/ba/2019-12-muilenburg.jpg",
+    "imageCaption": "Boeing chief executive Dennis Muilenburg",
+    "imageCredit": "CC BY 2.0, photo: Hawaii Air National Guard"
+  }
+]

@@ -29,7 +29,7 @@
         {#if item.image}
           <figure>
             <img src={item.image} alt={item.imageCaption ?? ''} loading="lazy" />
-            {#if item.imageCaption}<figcaption class="sub">{item.imageCaption}</figcaption>{/if}
+            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit} <span class="credit">© {item.imageCredit}</span>{/if}</figcaption>{/if}
           </figure>
         {/if}
         <div class="body">
@@ -94,6 +94,10 @@
   figcaption {
     margin-top: 4px;
     font-size: 0.75rem;
+  }
+  .credit {
+    color: var(--muted);
+    white-space: nowrap;
   }
   .body {
     display: grid;

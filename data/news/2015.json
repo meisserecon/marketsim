@@ -1,0 +1,387 @@
+[
+  {
+    "month": "2015-01",
+    "kind": "company",
+    "headline": "Oil halves; Schlumberger cuts jobs but raises its dividend",
+    "text": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.27 dollars a share for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)",
+    "image": "/news/slb/2015-01-crew-transfer.jpg",
+    "imageCaption": "A supply vessel alongside an offshore oil platform",
+    "imageCredit": "CC0, photo: GuavaTrain"
+  },
+  {
+    "month": "2015-01",
+    "kind": "company",
+    "headline": "Oil and copper crash",
+    "text": "Brent oil averaged $48 a barrel in January, down from $112 last June, and copper fell 10% in a month to an average $5,831 a tonne, its lowest in more than five years. Glencore is exposed twice: as a producer of copper, coal and oil, and as a trader whose volumes and credit lines depend on prices.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "World Bank Pink Sheet monthly averages (read 2026-10-03)",
+    "image": "/news/glencore/2015-01-bingham.jpg",
+    "imageCaption": "A giant shovel at an open-pit copper mine, Bingham Canyon, Utah",
+    "imageCredit": "CC BY-SA 3.0, photo: Jet6581"
+  },
+  {
+    "month": "2015-01",
+    "kind": "company",
+    "headline": "The franc floor is scrapped",
+    "text": "On 15 January the Swiss National Bank abandoned its minimum rate of 1.20 francs per euro without warning. The franc closed 23% higher against the euro and 21% higher against the dollar that day. Swiss shares fell in francs, because exporters' foreign profits are now worth less.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/nestle/2015-01-jordan.jpg",
+    "imageCaption": "Thomas Jordan, chairman of the Swiss National Bank",
+    "imageCredit": "CC BY-SA 4.0, photo: SNB/Patricia von Ah"
+  },
+  {
+    "month": "2015-01",
+    "kind": "company",
+    "headline": "The franc floor is scrapped",
+    "text": "On 15 January the Swiss National Bank abandoned its minimum rate of 1.20 francs per euro without warning; the franc closed 23% higher against the euro and 21% higher against the dollar that day. Swiss shares fell in francs because exporters' foreign earnings are worth less.",
+    "assets": [
+      "novartis",
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/novartis/2015-01-jordan.jpg",
+    "imageCaption": "Thomas Jordan, chairman of the Swiss National Bank",
+    "imageCredit": "CC BY-SA 4.0, photo: SNB/Patricia von Ah"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "Amazon reveals its cloud is a $5 billion business",
+    "text": "For the first time Amazon reported Amazon Web Services, which rents computing power and storage to other companies, as a separate segment. Bezos called it 'a $5 billion business and still growing fast'. First-quarter sales rose 15% to $22.7 billion, with a small net loss.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/amzn/2015-04-jassy.jpg",
+    "imageCaption": "Andy Jassy, head of Amazon Web Services",
+    "imageCredit": "CC BY 2.0, photo: Steve Jurvetson"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "GE will sell most of GE Capital",
+    "text": "On 10 April chief executive Jeff Immelt announced that General Electric will sell most of GE Capital over the next two years and return up to 90 billion dollars to shareholders. It starts by selling 26.5 billion dollars of real estate to Wells Fargo and Blackstone. GE wants to be an industrial company again.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GE_Capital (read 2026-10-03, citing NYT 2015-04-10); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and Reuters April 2015)",
+    "image": "/news/ge/2015-04-immelt-modi.jpg",
+    "imageCaption": "General Electric chief executive Jeffrey Immelt (centre) meets Indian Prime Minister Narendra Modi, New Delhi",
+    "imageCredit": "GODL-India (Government Open Data License), photo: Prime Minister's Office, India"
+  },
+  {
+    "month": "2015-04",
+    "kind": "world",
+    "headline": "The Nasdaq above its 2000 record, fifteen years on",
+    "text": "On 23 April the Nasdaq closed at 5,056.06, above its record of 10 March 2000 for the first time. It had first returned above 5,000 on 2 March. Unlike in 2000, today's largest technology companies earn large profits.",
+    "assets": [
+      "aapl",
+      "msft",
+      "amzn",
+      "intc",
+      "csco"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "image": "/news/tech/2015-04-nasdaq.jpg",
+    "imageCaption": "The Nasdaq MarketSite broadcast studio in Times Square, New York",
+    "imageCredit": "CC BY 2.0, photo: Luca Marfe (Italia all'ONU)"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "The cloud starts to show in the numbers",
+    "text": "On 23 April Microsoft reported revenue of 21.7 billion dollars for the quarter to March, up 6% (9% without currency effects), and Nadella pointed to incredible growth in cloud services such as Azure and Office 365. Investors welcomed the shift.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312515144132/d914667dex991.htm (Microsoft press release of 23 April 2015, read 2026-10-03)",
+    "image": "/news/msft/2015-04-nadella-linux.jpg",
+    "imageCaption": "Satya Nadella, Microsoft's chief executive, at a cloud event, October 2014",
+    "imageCredit": "CC BY-SA 4.0, photo: Richard Morgenstein"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "Nokia agrees to buy Alcatel-Lucent",
+    "text": "On 15 April Nokia agreed to buy the French network equipment maker Alcatel-Lucent for 15.6 billion euros in shares; Nokia shareholders will own 66.5% of the combined company, which will include Bell Labs. Chief executive Rajeev Suri says it positions Nokia for 5G.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
+    "image": "/news/nokia/2015-04-alcatel.jpg",
+    "imageCaption": "Alcatel-Lucent's stand at a trade fair",
+    "imageCredit": "CC BY 3.0, photo: Bjoertvedt"
+  },
+  {
+    "month": "2015-04",
+    "kind": "world",
+    "headline": "Amazon reveals that its cloud business is profitable",
+    "text": "On 23 April Amazon published figures for Amazon Web Services for the first time: 1.57 billion dollars of sales in the first quarter and 265 million of operating profit. Renting out computing power over the internet has become a big business.",
+    "assets": [
+      "amzn",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)",
+    "image": "/news/tech/2015-04-jassy.jpg",
+    "imageCaption": "Andy Jassy, head of Amazon Web Services",
+    "imageCredit": "CC BY 2.0, photo: Steve Jurvetson"
+  },
+  {
+    "month": "2015-05",
+    "kind": "company",
+    "headline": "Chuck Robbins to succeed John Chambers",
+    "text": "Cisco named Chuck Robbins, its head of worldwide sales and a company veteran since 1997, as chief executive from July 26. John Chambers, chief executive since 1995, will remain chairman.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-15-169227.txt (8-K, read 2026-10-03)",
+    "image": "/news/csco/2015-05-robbins.jpg",
+    "imageCaption": "Chuck Robbins of Cisco (centre) on stage with General Paul Selva and Michael Leiter",
+    "imageCredit": "CC BY 2.0, photo: Chairman of the Joint Chiefs of Staff"
+  },
+  {
+    "month": "2015-07",
+    "kind": "company",
+    "headline": "PayPal becomes a separate company",
+    "text": "eBay completed the spin-off of PayPal on July 18: eBay shareholders received PayPal shares, and eBay is now a pure online marketplace again.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03); folding of the spin-off per data/src/universe.ts note",
+    "image": "/news/ebay/2015-07-paypal-headquarters.jpg",
+    "imageCaption": "PayPal's headquarters in San Jose, California",
+    "imageCredit": "CC BY-SA 3.0, photo: Sagar Savla"
+  },
+  {
+    "month": "2015-07",
+    "kind": "world",
+    "headline": "Nuclear deal in Vienna",
+    "text": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03)",
+    "image": "/news/middle-east/2015-07-vienna-deal.jpg",
+    "imageCaption": "Foreign ministers of the P5+1, the EU and Iran pose after reaching the nuclear agreement, Vienna, 14 July 2015",
+    "imageCredit": "public domain, photo: U.S. Department of State"
+  },
+  {
+    "month": "2015-07",
+    "kind": "company",
+    "headline": "Amazon surprises with a profit",
+    "text": "Amazon reported second-quarter net income of $92 million against a loss a year earlier, on sales up 20% to $23.2 billion. Operating income was $464 million.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000085.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/amzn/2015-07-amazon-tower.jpg",
+    "imageCaption": "Amazon Tower I, a new office tower in Seattle, June 2015",
+    "imageCredit": "CC BY-SA 2.0, photo: SounderBruce"
+  },
+  {
+    "month": "2015-07",
+    "kind": "company",
+    "headline": "Entresto approved for heart failure",
+    "text": "The US Food and Drug Administration approved Novartis's Entresto (sacubitril/valsartan) for heart failure on 7 July under priority review. In the PARADIGM-HF trial, stopped early because of its benefit, cardiovascular death or hospital stays for heart failure hit 21.8% of patients, against 26.5% on the standard drug enalapril.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sacubitril/valsartan (read 2026-10-03)",
+    "image": "/news/novartis/2015-07-jimenez.jpg",
+    "imageCaption": "Joseph Jimenez, chief executive of Novartis, at the World Economic Forum",
+    "imageCredit": "CC BY 3.0, photo: World Economic Forum"
+  },
+  {
+    "month": "2015-07",
+    "kind": "world",
+    "headline": "Iran nuclear deal promises more oil",
+    "text": "Iran and six world powers reached a deal in Vienna on 14 July to limit Iran's nuclear programme in return for lifting sanctions, which will let Iran sell more oil. US crude fell 21% in July to $47.11 a barrel.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2015-07-vienna-talks.jpg",
+    "imageCaption": "Foreign ministers of the six powers with Iran's Javad Zarif at the nuclear talks, Vienna, July 2015",
+    "imageCredit": "public domain, photo: U.S. Department of State from United States"
+  },
+  {
+    "month": "2015-08",
+    "kind": "world",
+    "headline": "China devalues the yuan; 'Black Monday' in Shanghai",
+    "text": "On 11 August China's central bank cut the yuan by 1.9% and lowered it again on 14 August. On 24 August the Shanghai index fell 8.5%, and the Dow opened 1,000 points lower before closing down 588. Investors fear China's growth is slowing more than Beijing admits.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03)",
+    "image": "/news/asia/2015-08-shanghai-exchange.jpg",
+    "imageCaption": "The Shanghai Stock Exchange building, Pudong",
+    "imageCredit": "CC BY-SA 4.0, photo: 钉钉"
+  },
+  {
+    "month": "2015-08",
+    "kind": "company",
+    "headline": "First-half loss and $30bn of debt",
+    "text": "On 19 August Glencore reported a first-half net loss of $676m, with adjusted EBITDA down 29% to $4.6bn, a $792m write-down on oil in Chad and its South African coal unit Optimum in business rescue. Net debt is $29.6bn. Copper averaged $5,127 a tonne in August, its lowest since mid-2009, and China's slowdown and a yuan devaluation shook markets.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2015-half-year-report/3961240; World Bank Pink Sheet monthly averages; https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (yuan devaluation 11 and 14 Aug); data/news/arcs/movers.md (all read 2026-10-03)",
+    "image": "/news/glencore/2015-08-glasenberg.jpg",
+    "imageCaption": "Ivan Glasenberg, Glencore's chief executive, speaking in London",
+    "imageCredit": "CC BY 2.0, photo: Financial Times photos c/o: Dianna Bonner"
+  },
+  {
+    "month": "2015-08",
+    "kind": "company",
+    "headline": "Berkshire's biggest industrial deal: Precision Castparts",
+    "text": "On 8 August Berkshire agreed to buy Precision Castparts, maker of metal parts for jet engines, for 235 dollars a share in cash, a deal of about 37 billion dollars including debt.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312515285104/d41723d8k.htm (Berkshire 8-K of 10 August 2015, read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)",
+    "image": "/news/brk/2015-08-castparts.jpg",
+    "imageCaption": "A turbine blade and its wax pattern, the investment casting process of Precision Castparts",
+    "imageCredit": "CC BY-SA 3.0, photo: Olivier Cleynen"
+  },
+  {
+    "month": "2015-08",
+    "kind": "world",
+    "headline": "China's devaluation sets off a global sell-off",
+    "text": "China devalued its currency on 11 August after a stock market crash at home, and fears about its economy spread. On Monday 24 August markets around the world plunged, the Dow opening about 1,000 points lower; an estimated 10 trillion dollars had been wiped off world markets since early June, and oil hit a six-year low. The S&P 500 lost 6% in August to 1,972.18.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2015-08-shanghai.jpg",
+    "imageCaption": "The Shanghai Stock Exchange building in Pudong",
+    "imageCredit": "CC BY-SA 2.5, photo: Baycrest"
+  },
+  {
+    "month": "2015-08",
+    "kind": "company",
+    "headline": "Schlumberger buys Cameron for 14.8 billion dollars",
+    "text": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, for 0.716 Schlumberger shares plus 14.44 dollars in cash per Cameron share, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger and Cameron press release of 26 August 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515302267/d86257dex991.htm (read 2026-10-03)",
+    "image": "/news/slb/2015-08-drill-rig.jpg",
+    "imageCaption": "A semi-submersible drilling rig in a Scottish firth",
+    "imageCredit": "CC BY-SA 4.0, photo: Hannes Grobe"
+  },
+  {
+    "month": "2015-09",
+    "kind": "company",
+    "headline": "Debt panic: dividend cut, emergency share sale",
+    "text": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed at 125p on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-glencore-s-plans-to-reduce-net-debt/4174987; https://www.investegate.co.uk/announcement/rns/glencore--glen/african-copper-operational-update/4175016; https://www.investegate.co.uk/announcement/rns/glencore--glen/results-of-placing-of-1-307-794-600-new-shares/4264833; https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement/4069843 (all read 2026-10-03)",
+    "image": "/news/glencore/2015-09-fontana.jpg",
+    "imageCaption": "Glencore's headquarters in Baar, Switzerland",
+    "imageCredit": "CC BY-SA 4.0, photo: Paradise Chronicle"
+  },
+  {
+    "month": "2015-09",
+    "kind": "company",
+    "headline": "The diesel scandal reaches BMW",
+    "text": "After Volkswagen admitted cheating on diesel emissions tests, the German magazine Auto Bild reported on 24 September that a diesel BMW X3 emitted 11 times the European limit for nitrogen oxides in a road test. BMW denied any manipulation, but its shares fell almost 10% that day. The new chief executive Harald Krüger, in office since May, collapsed on stage at a news conference in Frankfurt on 15 September; BMW said it was not serious.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "CBC News, 'BMW disputes report its diesel X3 also failed emissions test', 24 September 2015, https://www.cbc.ca/news/business/volkswagen-emissions-bmw-1.3241472 (read 2026-10-03); https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03)",
+    "image": "/news/bmw/2015-09-320d.jpg",
+    "imageCaption": "A BMW 320d, the diesel version of the 3 Series",
+    "imageCredit": "CC BY-SA 4.0, photo: Damian B Oh"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "All-day breakfast and a turnaround quarter",
+    "text": "Steve Easterbrook, the British chief brand officer, replaced Don Thompson as chief executive in March after customer visits fell 4.1% in 2014. McDonald's began serving part of its breakfast menu all day in US restaurants in October. On 22 October it reported that worldwide sales at existing restaurants rose 4.0% in the third quarter, with growth in every segment including the US, and earnings per share up 28% to 1.40 dollars. The shares gained about 14% in October as the market rallied.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390815000076/exhibit991-9302015.htm (release of 22 October 2015, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (all-day breakfast 2015, read 2026-10-03); move from data/out/mcd.json; https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03)",
+    "image": "/news/mcd/2015-10-all-day-breakfast.jpg",
+    "imageCaption": "McDonald's all-day breakfast menu ;;",
+    "imageCredit": "CC BY 2.0, photo: Mike Mozart"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "Wal-Mart warns profits will fall; shares drop 10% in a day",
+    "text": "On 14 October Wal-Mart said earnings per share will fall 6 to 12% next year, mainly because it is spending 1.5 billion dollars on higher pay, raising its minimum wage from 9 to 10 dollars an hour, and investing in online shopping and lower prices. The shares fell 10% to 60.03 dollars, their worst day in more than 17 years, wiping out almost 20 billion dollars of market value.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)",
+    "image": "/news/wmt/2015-10-mcmillon.jpg",
+    "imageCaption": "Doug McMillon, Wal-Mart chief executive ;;",
+    "imageCredit": "CC0, photo: Brandonrush"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "Thiam's new strategy and 6 billion francs of new capital",
+    "text": "On 21 October chief executive Tidjane Thiam, in office since July, announced a new strategy: Credit Suisse wants to be a leading private bank and wealth manager with investment banking capabilities, organised in regional divisions. He also announced a capital increase of about 6 billion francs through a private placement and a rights offering, and six new members of the executive board.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "Credit Suisse Form 20-F for 2015, https://www.sec.gov/Archives/edgar/data/1053092/000137036816000114/a160324ar20f.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)",
+    "image": "/news/credit-suisse/2015-10-thiam.jpg",
+    "imageCaption": "Tidjane Thiam, chief executive of Credit Suisse, London, June 2015",
+    "imageCredit": "CC BY 2.0, photo: Financial Times"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "Glencore cuts zinc output by a third",
+    "text": "On 9 October Glencore said it would cut 500,000 tonnes of zinc mine production, about a third of its output, in Australia, Peru and Kazakhstan, to preserve the value of its reserves while prices are low. Days later it put its Cobar and Lomas Bayas copper mines up for sale after unsolicited interest. Stock markets rose about 8% in October.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-to-reduce-mine-production-of-zinc/4167047; https://www.investegate.co.uk/announcement/rns/glencore--glen/proposed-sale-of-copper-mines/4204774 (both read 2026-10-03)",
+    "image": "/news/glencore/2015-10-mountisa.jpg",
+    "imageCaption": "The Mount Isa smelter complex, Queensland, Australia",
+    "imageCredit": "CC BY-SA 3.0, photo: ChrisFountain."
+  },
+  {
+    "month": "2015-12",
+    "kind": "world",
+    "headline": "Paris climate deal, OPEC drops its ceiling",
+    "text": "On 12 December nearly 200 countries adopted the Paris Agreement, pledging to hold global warming well below 2 degrees. Earlier in the month OPEC set aside its production ceiling altogether. US crude ended the year at $37.13 a barrel.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Paris_Agreement (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2015-12-cop21.jpg",
+    "imageCaption": "Delegates at the Paris climate conference, 30 November 2015",
+    "imageCredit": "CC BY 2.0, photo: Presidencia de la República Mexicana"
+  },
+  {
+    "month": "2015-12",
+    "kind": "world",
+    "headline": "The first rate rise in nine years",
+    "text": "On 16 December the Fed raised its rate target to a range of 0.25 to 0.5 percent, its first increase since 2006 and the end of seven years at zero. It said economic conditions would warrant 'only gradual increases'. Consumer prices were only 0.5 percent higher than a year earlier (November). Gold averaged 1,076 dollars in December, its lowest since 2009.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "image": "/news/rates/2015-12-yellen.jpg",
+    "imageCaption": "Janet Yellen, chair of the Federal Reserve",
+    "imageCredit": "public domain, photo: Federal Reserve"
+  },
+  {
+    "month": "2015-12",
+    "kind": "company",
+    "headline": "Sony buys Toshiba's image sensor business",
+    "text": "This year Sony bought Toshiba's image sensor business, strengthening its position as the leading maker of the camera chips used in smartphones.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)",
+    "image": "/news/sony/2015-12-alpha7.jpg",
+    "imageCaption": "The Sony Alpha 7 full-frame camera, which uses a Sony image sensor",
+    "imageCredit": "CC BY-SA 3.0, photo: Jürgen Matern"
+  }
+]

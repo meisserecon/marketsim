@@ -2,73 +2,34 @@
   {
     "month": "1979-12",
     "kind": "world",
-    "headline": "OPEC fails to agree on a price, every member sets its own",
-    "text": "OPEC oil ministers met in Caracas from 17 to 20 December and could not agree a common price. Each member may now charge what the market will bear: asking prices run from 24 to 30 dollars a barrel. In June OPEC had already raised prices by an average of 15 percent. Whoever fills a tank will feel it.",
+    "headline": "Gold doubles in a year as inflation passes 12 percent",
+    "text": "Gold averaged 455 dollars an ounce in December, 16 percent more than in November and more than twice its price of a year ago. Consumer prices in November were 12.6 percent higher than a year earlier. Since the Federal Reserve under its new chairman Paul Volcker said on 6 October that it would control the supply of money rather than steer interest rates, the rate banks charge each other has run near 14 percent.",
     "assets": [],
-    "source": "https://www.washingtonpost.com/archive/politics/1979/12/21/free-for-all-set-in-oil-prices-as-opec-talks-fail/1d99a96c-55b7-4e06-87cd-b03fb464abd6/ (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1979/12/29/4-opec-nations-reported-setting-record-oil-prices/bd67d07e-1f81-4f44-b4e0-f80e76ee6b80/ (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03); https://www.osti.gov/etdeweb/biblio/6682432 (read 2026-10-03); https://en.wikipedia.org/wiki/1970%E2%80%931979_world_oil_market_chronology (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
+    "source": "data/out/gold.json (LBMA monthly averages via datahub.io/core/gold-prices, read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.federalreservehistory.org/essays/anti-inflation-measures (read 2026-10-03)",
+    "image": "/news/rates/1979-12-gold-bars.jpg",
+    "imageCaption": "Gold bullion bars",
+    "imageCredit": "public domain, photo: Szaaman"
   },
   {
     "month": "1979-12",
     "kind": "world",
-    "headline": "Soviet troops storm into Kabul and kill Afghanistan's president",
-    "text": "Soviet forces began taking key points in Kabul on 25 December, and on the 27th they stormed the palace of President Hafizullah Amin, who was killed. Moscow has put Babrak Karmal in his place; some 30,000 Soviet troops were sent for the operation. How the West will answer is not yet clear.",
+    "headline": "Iran votes for an Islamic constitution while Americans stay hostage in Tehran",
+    "text": "On 2 and 3 December Iranians approved a new constitution that makes the country an Islamic republic led by a senior cleric; the official result was 99.5 percent yes, though leftists, secular nationalists, followers of Ayatollah Shariatmadari and the Mojahedin boycotted the vote. In Tehran, students who stormed the US embassy on 4 November still hold 53 Americans, after freeing 13 women and African Americans in November. Washington stopped buying Iranian oil on 12 November and froze about 8 billion dollars of Iranian assets on 14 November. Gold ended the month above 500 dollars an ounce.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03)",
+    "image": "/news/middle-east/1979-12-embassy-hostages.jpg",
+    "imageCaption": "American hostages at a Christmas meal inside the US Embassy, Tehran, 24 December 1979",
+    "imageCredit": "public domain, photo: Library of Congress, no known restrictions"
+  },
+  {
+    "month": "1979-12",
+    "kind": "world",
+    "headline": "Soviet troops storm Kabul",
+    "text": "Soviet forces took key points in Kabul from 25 December, and on the 27th they stormed the palace of Afghanistan's president Hafizullah Amin, who was killed. Moscow installed Babrak Karmal in his place; some 30,000 Soviet troops were sent. Washington calls it a grave threat to peace; how the West will answer is not yet clear.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Afghanistan (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
-  },
-  {
-    "month": "1979-12",
-    "kind": "world",
-    "headline": "Fifty-odd Americans still held in Tehran, the UN calls for their release",
-    "text": "Students seized the US embassy in Tehran on 4 November, and more than fifty Americans are still prisoners, six weeks later. The UN Security Council called for their release on 4 December. The students demand that the Shah, the exiled ruler, be handed back, and that frozen Iranian money be released.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_457 (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
-  },
-  {
-    "month": "1979-12",
-    "kind": "world",
-    "headline": "America's war on inflation: prices up more than 11 percent this year",
-    "text": "Prices are rising by more than 11 percent this year. The new head of the Federal Reserve, Paul Volcker, announced on 6 October that the central bank would stop steering interest rates directly and control the supply of money instead, which lets rates jump. The key rate was about 11 percent this year. Borrowing has become expensive for everyone.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Early_1980s_recession (read 2026-10-03); https://www.federalreservehistory.org/essays/anti-inflation-measures (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
-  },
-  {
-    "month": "1979-12",
-    "kind": "world",
-    "headline": "Gold passes 500 dollars as the world looks for safety",
-    "text": "Gold ended December above 500 dollars an ounce, more than twice what it cost a year ago. With oil prices jumping, inflation high, hostages in Tehran and troops in Afghanistan, buyers want something that holds its value. Silver ended the year at 34.45 dollars, up from under 10 in summer, as two Texas brothers, the Hunts, buy it by the million ounces.",
-    "assets": [],
-    "source": "https://sdbullion.com/gold-prices-1979 (read 2026-10-03); https://goldtickers.com/historical/1979 (read 2026-10-03); https://en.wikipedia.org/wiki/Silver_Thursday (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
-  },
-  {
-    "month": "1979-12",
-    "kind": "colour",
-    "headline": "Star Trek comes to the cinema",
-    "text": "Star Trek: The Motion Picture had its premiere on 6 December at the Smithsonian Institution in Washington and opened widely the next day. Based on the 1960s TV series, it was directed by Robert Wise and brought back the original cast. Critics gave it mixed reviews, saying it had lots of special effects but little action.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1979_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Star_Trek:_The_Motion_Picture (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
-  },
-  {
-    "month": "1979-12",
-    "kind": "company",
-    "headline": "Disney's The Black Hole is its costliest film and its first rated PG",
-    "text": "Disney's space adventure The Black Hole opened in America on 21 December with a Disney record of 4.7 million dollars in its first days. It cost 20 million dollars to make, the most Disney has ever spent on a film, and is its first with a PG rating, for some swearing and a violent death. Disney hopes for a hit on the scale of Star Wars.",
-    "assets": [
-      "dis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/1980_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/The_Black_Hole_(1979_film) (read 2026-10-03)",
-    "image": null,
-    "imageCaption": null
+    "image": "/news/world/1979-12-kabul-palace.jpg",
+    "imageCaption": "The Amin palace in Kabul, later headquarters of the Soviet 40th army",
+    "imageCredit": "CC BY-SA 3.0, photo: Mikhail Evstafiev"
   }
 ]

@@ -1,0 +1,128 @@
+[
+  {
+    "month": "1995-03",
+    "kind": "company",
+    "headline": "McDonald's: 26 billion dollars of sales in 79 countries",
+    "text": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home. The shares were split two-for-one in June 1994.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json",
+    "image": "/news/mcd/1995-03-tokyo.jpg",
+    "imageCaption": "McDonald's in Tokyo",
+    "imageCredit": "CC BY 2.0, photo: cpo57"
+  },
+  {
+    "month": "1995-03",
+    "kind": "company",
+    "headline": "The dollar collapses, the franc soars",
+    "text": "The dollar fell to new lows in March: on 31 March it was traded at about 1.17 francs in New York, almost 13% less than at the end of 1994. The swings drove the Zurich exchange; the Swiss National Bank and the Bundesbank lowered interest rates during the last week of March. Swiss shares are down for the year in francs, and bank shares were also weighed down by currency-trading worries.",
+    "assets": [
+      "sbv",
+      "ubs",
+      "credit-suisse"
+    ],
+    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Neuer schwerer Schwächeanfall des Dollars'; 'Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)",
+    "image": "/news/sbv/1995-03-snb-zurich.jpg",
+    "imageCaption": "The Swiss National Bank on Börsenstrasse in Zurich",
+    "imageCredit": "CC BY-SA 3.0, photo: Roland zh"
+  },
+  {
+    "month": "1995-04",
+    "kind": "world",
+    "headline": "The dollar falls below 80 yen",
+    "text": "In April the dollar fell below 80 yen for the first time, from about 99 at the end of January. The strong yen is crushing Japan's exporters in an economy that is barely growing.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Endaka (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1995 (read 2026-10-03)",
+    "image": "/news/asia/1995-04-tse-floor.jpg",
+    "imageCaption": "The Tokyo Stock Exchange trading floor",
+    "imageCredit": "CC BY-SA 4.0, photo: Kakidai"
+  },
+  {
+    "month": "1995-05",
+    "kind": "company",
+    "headline": "Bankverein buys S.G. Warburg",
+    "text": "The Bankverein is buying S.G. Warburg, the leading London merchant bank, for about £860 million ($1.34 billion), after earlier buying the Chicago options trader O'Connor & Associates and the Chicago asset manager Brinson Partners. Combined with its own investment bank, the business will be called SBC Warburg.",
+    "assets": [
+      "sbv"
+    ],
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)",
+    "image": "/news/sbv/1995-05-broadgate.jpg",
+    "imageCaption": "Finsbury Avenue Square in the Broadgate development, City of London, where S.G. Warburg has its offices",
+    "imageCredit": "CC BY-SA 4.0, photo: Bobulous"
+  },
+  {
+    "month": "1995-05",
+    "kind": "company",
+    "headline": "LDDS becomes WorldCom and buys WilTel's network",
+    "text": "At its annual meeting LDDS renamed itself WorldCom. It is buying WilTel Network Services of Tulsa, Oklahoma, a long-distance network operator, for $2.5 billion in cash. WorldCom lost nearly $150 million in 1994 because of the IDB merger, on revenue that doubled to $2.2 billion.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03)"
+  },
+  {
+    "month": "1995-06",
+    "kind": "company",
+    "headline": "The 777 enters service",
+    "text": "United Airlines put the Boeing 777 into passenger service in June. It is the first airliner designed entirely on computers and the first approved for long flights over water on two engines from the day it entered service.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing_777 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
+    "image": "/news/ba/1995-06-777-united.jpg",
+    "imageCaption": "A United Airlines Boeing 777, the type's first customer",
+    "imageCredit": "CC BY-SA 2.0, photo: skinnylawyer"
+  },
+  {
+    "month": "1995-08",
+    "kind": "world",
+    "headline": "Netscape's IPO: 2.9 billion dollars for a company without profits",
+    "text": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
+    "image": "/news/tech/1995-08-netscape-box.jpg",
+    "imageCaption": "A boxed copy of Netscape Navigator, the browser sold by Netscape Communications",
+    "imageCredit": "CC BY 2.0, photo: Marcin Wichary"
+  },
+  {
+    "month": "1995-08",
+    "kind": "world",
+    "headline": "Windows 95 launches with a billion-dollar campaign",
+    "text": "Microsoft launched Windows 95 on 24 August, with the Rolling Stones' Start Me Up in its advertising and a marketing effort estimated at a billion dollars. One million copies shipped worldwide in the first four days. It has a Start button and a taskbar, and runs on Intel chips.",
+    "assets": [
+      "msft",
+      "intc",
+      "ibm",
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Windows_95 (read 2026-10-03)",
+    "image": "/news/tech/1995-08-windows95.jpg",
+    "imageCaption": "The Windows 95 and Microsoft Plus! CD-ROM, August 1995",
+    "imageCredit": "CC BY 2.0, photo: Pedro Cambra"
+  },
+  {
+    "month": "1995-12",
+    "kind": "company",
+    "headline": "Nokia warns on profits; shares plunge",
+    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
+    "image": "/news/nokia/1995-12-2110i.jpg",
+    "imageCaption": "A Nokia 2110i handset, 1995",
+    "imageCredit": "CC BY 4.0, photo: Santeri Viinamäki"
+  },
+  {
+    "month": "1995-12",
+    "kind": "world",
+    "headline": "1995 in review: shares up 34 percent, the best year of the game so far",
+    "text": "The S&P 500 rose 34% in 1995 to 615.93, after first closing above 500 on 24 March. The Dow passed 4,000 on 23 February and 5,000 on 21 November and ended the year at 5,117.12, up 33.5%. The economy has absorbed the Fed's rate rises of 1994, and investment in new technology picked up late in the year.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/1990s_United_States_boom (read 2026-10-03)",
+    "image": "/news/markets/1995-12-clinton-budget.jpg",
+    "imageCaption": "President Clinton meets congressional leaders on the budget, White House, 19 December 1995",
+    "imageCredit": "public domain (White House Photograph Office)"
+  }
+]

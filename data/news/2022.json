@@ -1,0 +1,495 @@
+[
+  {
+    "month": "2022-01",
+    "kind": "company",
+    "headline": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
+    "text": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)",
+    "image": "/news/msft/2022-01-activision.jpg",
+    "imageCaption": "Activision's headquarters, Santa Monica, California",
+    "imageCredit": "CC BY-SA 3.0, photo: w:User:Coolcaesar"
+  },
+  {
+    "month": "2022-01",
+    "kind": "company",
+    "headline": "Schlumberger sees a new 'supercycle'",
+    "text": "On 21 January Schlumberger reported 2021 earnings per share up 88 percent excluding charges and 3.0 billion dollars of free cash flow. Chief executive Olivier Le Peuch said conditions are strikingly similar to the last industry supercycle and expects an exceptional multiyear growth cycle. US crude rose from about 75 to 89 dollars during January, while the S&P 500 fell about 5 percent.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 21 January 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522014338/d270822dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md",
+    "image": "/news/slb/2022-01-brunei-pumpjack.jpg",
+    "imageCaption": "An oil pumpjack at work",
+    "imageCredit": "CC BY-SA 4.0, photo: DeltaSquad833"
+  },
+  {
+    "month": "2022-01",
+    "kind": "company",
+    "headline": "Oil near 90 dollars and investors rush back to energy",
+    "text": "US crude rose from about 75 dollars at the end of December to 89 at the end of January, and the monthly average was the highest since 2014. While the S&P 500 fell about 5 percent in January, energy shares were the place to be.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md (S&P 500 month)",
+    "image": "/news/xom/2022-01-hiawassee.jpg",
+    "imageCaption": "An Exxon service station in Hiawassee, Georgia",
+    "imageCredit": "CC BY 4.0, photo: Harrison Keely"
+  },
+  {
+    "month": "2022-02",
+    "kind": "company",
+    "headline": "Daimler becomes Mercedes-Benz Group",
+    "text": "On 1 February Daimler AG officially changed its name to Mercedes-Benz Group AG. Chief executive Ola Källenius wants investors to value the company as a luxury brand, selling fewer cars at higher prices, as it shifts deeper into electric cars.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_Group (read 2026-10-03)",
+    "image": "/news/mercedes/2022-02-eqs.jpg",
+    "imageCaption": "The Mercedes-EQ EQS electric sedan, 2022",
+    "imageCredit": "CC BY-SA 4.0, photo: Tokumeigakarinoaoshima"
+  },
+  {
+    "month": "2022-02",
+    "kind": "world",
+    "headline": "Russia invades Ukraine, oil tops $100",
+    "text": "Russia invaded Ukraine on 24 February. Brent passed $100 a barrel for the first time since 2014 and ended the month at $103. Europe, which depends on Russian gas, faces the larger energy problem.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03)",
+    "image": "/news/oil/2022-02-kyiv.jpg",
+    "imageCaption": "Ukrainian soldiers at a checkpoint near Kyiv, early 2022",
+    "imageCredit": "CC BY 4.0, photo: Commander in Chief of the Armed Forces of Ukraine"
+  },
+  {
+    "month": "2022-02",
+    "kind": "world",
+    "headline": "Russia invades Ukraine; Switzerland adopts the EU sanctions",
+    "text": "On 24 February Russia launched a full-scale invasion of Ukraine from the north, east and south, with forces advancing on Kyiv; President Putin calls it a 'special military operation'. The West answered with sanctions, including cutting Russian banks off from the SWIFT payments system and freezing the central bank's reserves. On 28 February neutral Switzerland, after days of hesitation, adopted the EU sanctions in full and froze the assets of listed Russians, including Putin. Oil passed 100 dollars a barrel, and prices of metals, gas and grain jumped.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine (read 2026-10-03); https://www.swissinfo.ch/eng/politics/switzerland-imposes-full-eu-sanctions-against-russia/47388280 (read 2026-10-03); data/out/glencore.json (read 2026-10-03)",
+    "image": "/news/world/2022-02-kyiv-metro.jpg",
+    "imageCaption": "People shelter in a metro station in Kyiv, 26 February 2022",
+    "imageCredit": "CC BY 4.0, photo: Kyiv City Council"
+  },
+  {
+    "month": "2022-02",
+    "kind": "company",
+    "headline": "Record profit, then war in Ukraine",
+    "text": "On 15 February Glencore reported record 2021 adjusted EBITDA of $21.3bn, net debt cut to $6.0bn and $4bn of shareholder returns, and set aside $1.5bn to settle bribery investigations in the US, UK and Brazil. Russia invaded Ukraine on 24 February, threatening Europe's supplies of Russian gas and coal; Australian thermal coal already averaged $220 a tonne in February, up from $170 in December.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2021/6847692; https://en.wikipedia.org/wiki/2020s_energy_crisis; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "image": "/news/glencore/2022-02-timessquare.jpg",
+    "imageCaption": "Protest against the Russian invasion of Ukraine, Times Square, New York, 26 February 2022",
+    "imageCredit": "CC BY-SA 4.0, photo: Rhododendrites"
+  },
+  {
+    "month": "2022-02",
+    "kind": "company",
+    "headline": "Coca-Cola recovers from the pandemic and buys BodyArmor",
+    "text": "Coca-Cola reported on 10 February that unit case volume grew 8% in 2021 and revenue 17%, with comparable earnings per share up 19%, as restaurants and stadiums reopened. In November it bought the remaining 85% of the sports drink BodyArmor for 5.6 billion dollars.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134422000004/a2021q4earningsreleaseex-9.htm (release of 10 February 2022, read 2026-10-03)",
+    "image": "/news/ko/2022-02-bodyarmor.jpg",
+    "imageCaption": "A bottle of BodyArmor SuperDrink",
+    "imageCredit": "public domain, photo: BODYARMOR Nutrition, LLC"
+  },
+  {
+    "month": "2022-03",
+    "kind": "world",
+    "headline": "The Fed raises rates as inflation nears 8 percent and war breaks out",
+    "text": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "image": "/news/rates/2022-03-powell.jpg",
+    "imageCaption": "Jerome Powell, chair of the Federal Reserve",
+    "imageCredit": "public domain, photo: Federal Reserve"
+  },
+  {
+    "month": "2022-03",
+    "kind": "world",
+    "headline": "Brent hits $133, the US bans Russian oil",
+    "text": "Brent reached $133 a barrel on 8 March, the day the US banned imports of Russian oil. On 31 March the US announced it would release 1 million barrels a day from its strategic reserve for 180 days, the largest release ever. US gasoline averaged $4.22 a gallon in March.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)",
+    "image": "/news/oil/2022-03-biden-russian-oil.jpg",
+    "imageCaption": "President Biden announces the ban on Russian oil imports, White House, 8 March 2022",
+    "imageCredit": "public domain, photo: The White House"
+  },
+  {
+    "month": "2022-04",
+    "kind": "company",
+    "headline": "Amazon reports a loss as growth stalls",
+    "text": "On April 28 Amazon reported a first-quarter net loss of $3.8 billion, against a profit of $8.1 billion a year earlier, as sales grew only 7% to $116.4 billion and operating income fell to $3.7 billion. The pandemic surge in online shopping has faded and costs have risen.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000011.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
+    "image": "/news/amzn/2022-04-fulfilment-centre.jpg",
+    "imageCaption": "An Amazon fulfilment centre, Shakopee, Minnesota",
+    "imageCredit": "CC BY-SA 2.0, photo: Tony Webster"
+  },
+  {
+    "month": "2022-04",
+    "kind": "world",
+    "headline": "Rising rates and weak earnings: the worst month since March 2020",
+    "text": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2022-04-eccles.jpg",
+    "imageCaption": "The Federal Reserve Board's Eccles Building, Washington",
+    "imageCredit": "public domain (Federal Reserve)"
+  },
+  {
+    "month": "2022-04",
+    "kind": "company",
+    "headline": "Musk bids for Twitter and sells Tesla shares",
+    "text": "On 14 April Elon Musk offered to buy Twitter for about 43 billion dollars, and on 25 April Twitter accepted. Within three days of the agreement Musk sold 8.5 billion dollars of his Tesla shares to help pay for it.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk (read 2026-10-03)",
+    "image": "/news/tsla/2022-04-twitter.jpg",
+    "imageCaption": "Twitter headquarters, Market Street, San Francisco",
+    "imageCredit": "CC BY-SA 3.0, photo: Wgreaves"
+  },
+  {
+    "month": "2022-05",
+    "kind": "company",
+    "headline": "Glencore pleads guilty to bribery",
+    "text": "On 24 May Glencore settled US, UK and Brazilian investigations: it agreed to plead guilty in the US to bribery (about $700m) and market manipulation (about $486m), settled with the CFTC and paid Brazil about $40m, and will accept independent compliance monitors for three years. Its UK oil unit pleaded guilty to five counts of bribery and two of failing to prevent it, over more than $25m in bribes in Nigeria, Cameroon, Equatorial Guinea, Ivory Coast and South Sudan; the UK penalty will be set in June. Total costs should be close to the $1.5bn provision; Swiss and Dutch probes continue.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-reaches-coord-resolutions-w-authorities/6977131; https://en.wikipedia.org/wiki/Glencore (UK SFO charges, citing BBC 24 May 2022) (both read 2026-10-03)",
+    "image": "/news/glencore/2022-05-baar.jpg",
+    "imageCaption": "Glencore's headquarters in Baar, Switzerland",
+    "imageCredit": "CC BY-SA 4.0, photo: Paradise Chronicle"
+  },
+  {
+    "month": "2022-05",
+    "kind": "company",
+    "headline": "Inflation squeezes Walmart; worst day since 1987",
+    "text": "On 17 May Walmart reported quarterly earnings of 1.30 dollars a share against 1.48 expected, and said full-year profit would now fall about 1% instead of rising. Higher fuel and wage costs and swollen inventories ate into margins. The shares fell 11.4%, their worst day since 16 October 1987.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)",
+    "image": "/news/wmt/2022-05-store.jpg",
+    "imageCaption": "A Walmart store ;;",
+    "imageCredit": "CC BY-SA 4.0, photo: Computermusic1999 (Nicholas Osorio)"
+  },
+  {
+    "month": "2022-06",
+    "kind": "world",
+    "headline": "Inflation at 8.6 percent, a 0.75 point rate rise and a bear market",
+    "text": "Consumer prices rose 8.6% in the year to May, more than expected, and on 15 June the Federal Reserve raised its key rate by 0.75 percentage point. The S&P 500 fell into a bear market, more than 20% below its January record, and lost 8% in June to 3,785.38; it fell 21% in the first half of the year.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2022-06-gas-prices.jpg",
+    "imageCaption": "Gasoline prices at a US filling station, March 2022",
+    "imageCredit": "CC BY 2.0, photo: Michael Hicks"
+  },
+  {
+    "month": "2022-06",
+    "kind": "company",
+    "headline": "FDA orders Juul off the market and targets nicotine",
+    "text": "On 23 June the Food and Drug Administration ordered Juul to stop selling its e-cigarettes in the United States; an appeals court put the order on hold the next day. Days earlier the FDA said it plans a rule to cap the nicotine in cigarettes at levels that are not addictive, a direct threat to Altria's core business. Altria owns 35% of Juul and has already written much of its value off. Altria shares lost about 23% in June, in a falling market.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://www.npr.org/2022/06/22/1106742729/fda-nicotine-level-regulate-cigarettes-tobacco (read 2026-10-03); https://www.fool.com/investing/2022/06/27/juul-ban-heres-what-altria-investors-need-to-know (read 2026-10-03); move from data/out/mo.json",
+    "image": "/news/mo/2022-06-juul-device.jpg",
+    "imageCaption": "A Juul device ;;",
+    "imageCredit": "CC BY 2.0, photo: Vaping360"
+  },
+  {
+    "month": "2022-06",
+    "kind": "world",
+    "headline": "Inflation at 8.6 percent; a three-quarter-point hike",
+    "text": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June and is down a fifth since the start of the year.",
+    "assets": [],
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
+    "image": "/news/rates/2022-06-powell-fomc.jpg",
+    "imageCaption": "Jerome Powell takes the oath for a second term as Fed chair, 2022",
+    "imageCredit": "public domain, photo: Federal Reserve"
+  },
+  {
+    "month": "2022-07",
+    "kind": "world",
+    "headline": "A summer rally on falling yields: shares up 9 percent",
+    "text": "Bond yields fell on fears of recession, and some better-than-feared earnings made investors less gloomy about companies' prospects. The S&P 500 rose 9% in July to 4,130.29, its best month since November 2020.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2022-07-fomc.jpg",
+    "imageCaption": "Federal Reserve Chair Jerome Powell at the press conference after the Fed's July meeting, 27 July 2022",
+    "imageCredit": "public domain (Federal Reserve)"
+  },
+  {
+    "month": "2022-08",
+    "kind": "company",
+    "headline": "Sandoz to be spun off by the end of 2023",
+    "text": "Novartis said in August that it will complete the separation of its generics business Sandoz into an independent company by the end of 2023. It had announced in 2018 that Sandoz would become a stand-alone unit.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sandoz_Group (read 2026-10-03)",
+    "image": "/news/novartis/2022-08-kundl.jpg",
+    "imageCaption": "The Sandoz antibiotics plant at Kundl, Tyrol",
+    "imageCredit": "CC BY-SA 4.0, photo: Kolipanda"
+  },
+  {
+    "month": "2022-09",
+    "kind": "world",
+    "headline": "Mahsa Amini dies in custody: 'Woman, Life, Freedom'",
+    "text": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)",
+    "image": "/news/middle-east/2022-09-amini-protest.jpg",
+    "imageCaption": "Demonstrators carry Mahsa Amini's picture in a solidarity march, Cologne, 24 September 2022",
+    "imageCredit": "CC BY-SA 4.0, photo: Elke Wetzig (User:Elya)"
+  },
+  {
+    "month": "2022-09",
+    "kind": "world",
+    "headline": "Third giant hike; the British bond market breaks",
+    "text": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January record.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
+    "image": "/news/rates/2022-09-kwarteng.jpg",
+    "imageCaption": "Kwasi Kwarteng, Britain's Chancellor of the Exchequer, September 2022",
+    "imageCredit": "CC BY 2.0, photo: UK Government"
+  },
+  {
+    "month": "2022-09",
+    "kind": "colour",
+    "headline": "Roger Federer retires",
+    "text": "On 15 September Roger Federer, 41, announced that he will retire from professional tennis after the Laver Cup later this month, a team competition he helped create. He won 20 Grand Slam titles and was the first man to reach 20. He had played little since knee operations.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2022-09-federer-lavercup.jpg",
+    "imageCaption": "Roger Federer is introduced at the Laver Cup, Geneva, September 2019",
+    "imageCredit": "CC BY-SA 4.0, photo: Sportsfan77777"
+  },
+  {
+    "month": "2022-09",
+    "kind": "world",
+    "headline": "Powell's warning and sticky inflation: shares fall 9 percent",
+    "text": "Fed chairman Jerome Powell's speech at Jackson Hole on 26 August and inflation data showing consumer prices still up 8.3% a year convinced investors that rates would rise further than expected. On 13 September the S&P 500 fell 4.3%, its worst day since 2020, and late in the month a British budget set off turmoil in the UK bond market. The S&P 500 lost 9% in September to 3,585.62.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2022-09-powell.jpg",
+    "imageCaption": "Federal Reserve Chairman Jerome Powell",
+    "imageCredit": "public domain (Federal Reserve)"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "Körner's rescue plan: 4 billion francs and 9,000 jobs",
+    "text": "After rumours about its health spread on social media early in the month, Credit Suisse announced on 27 October a fourth consecutive quarterly loss and a new plan: a capital increase of 4 billion francs, with the Saudi National Bank investing up to 1.5 billion for a stake of up to 9.9%; about 9,000 jobs cut by 2025; and a separate investment bank, CS First Boston, to be built up under Michael Klein. The shares opened 14% lower at 4.10 francs.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "https://www.srf.ch/news/wirtschaft/nach-massivem-quartalsverlust-so-will-die-credit-suisse-aus-der-krise-finden (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)",
+    "image": "/news/credit-suisse/2022-10-koerner.jpg",
+    "imageCaption": "Ulrich Körner, chief executive of Credit Suisse",
+    "imageCredit": "CC BY 2.0, photo: UBS Group"
+  },
+  {
+    "month": "2022-10",
+    "kind": "world",
+    "headline": "A new low for the year, then an 8 percent rebound",
+    "text": "Shares fell further early in October on inflation news and rate expectations, with the S&P 500 closing at 3,577.03 on 12 October, about 25% below its January record. Then they rebounded, and the index ended October up 8% at 3,871.98.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2022-10-fed-chairs.jpg",
+    "imageCaption": "Former Fed chairs Ben Bernanke, Janet Yellen and Alan Greenspan with Chair Jerome Powell, 19 October 2022",
+    "imageCredit": "public domain (Federal Reserve)"
+  },
+  {
+    "month": "2022-10",
+    "kind": "world",
+    "headline": "OPEC+ cuts 2 million barrels a day",
+    "text": "On 5 October OPEC+ agreed to cut its output target by 2 million barrels a day, its first cut since 2020; the decision revived calls in the US Congress for an anti-cartel law (NOPEC). US crude rose from $84 to $93 in the first week of October. Russia stopped gas deliveries through Nord Stream in September, and the pipelines were damaged by sabotage on 26 September.",
+    "assets": [
+      "slb",
+      "xom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2022-10-abdulaziz.jpg",
+    "imageCaption": "Prince Abdulaziz bin Salman, Saudi Arabia's energy minister",
+    "imageCredit": "CC BY 2.0, photo: IAEA Imagebank"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "Strong quarter: international revenue passes its 2019 level",
+    "text": "On 21 October Schlumberger reported third-quarter revenue up 28 percent and earnings per share up 75 percent excluding charges, with international revenue above its 2019 level although rig counts are still about 25 percent lower. US crude rose from about 80 to 87 dollars in October.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 21 October 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522266331/d387926dex99.htm (read 2026-10-03); SLB press release of 1 November 2022 (signed 'SLB'), https://www.sec.gov/Archives/edgar/data/87347/000119312522275055/d404523dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
+    "image": "/news/slb/2022-10-wireline-rigging.jpg",
+    "imageCaption": "A wireline unit being rigged up over a well",
+    "imageCredit": "public domain, photo: Dexcel (English Wikipedia)"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "ExxonMobil earns almost 20 billion dollars in a quarter",
+    "text": "ExxonMobil reported on 28 October third-quarter earnings of 19.7 billion dollars, after 17.6 billion in the second quarter, and cash flow of 24.4 billion. Its refineries ran at the highest rates since 2008 and Permian production hit a record. US crude rose from about 80 to 87 dollars during the month. In June President Biden had complained that 'Exxon made more money than God this year'.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil press release of 28 October 2022, https://www.sec.gov/Archives/edgar/data/34088/000003408822000057/f8k3q22991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/ExxonMobil (Biden quote; Q2 2022 earnings) (read 2026-10-03)",
+    "image": "/news/xom/2022-10-fort-hunt.jpg",
+    "imageCaption": "An Exxon service station on Elkins Road in Fort Hunt, Virginia",
+    "imageCredit": "CC BY-SA 4.0, photo: Ser Amantio di Nicolao"
+  },
+  {
+    "month": "2022-10",
+    "kind": "world",
+    "headline": "America cuts China off from advanced chips",
+    "text": "On 7 October the US banned the export to China of advanced computing chips, of the kind used in AI such as Nvidia's A100 and H100, and of the equipment to make advanced chips.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03)",
+    "image": "/news/asia/2022-10-tsmc-fab.jpg",
+    "imageCaption": "A chip factory of TSMC, Hsinchu, Taiwan",
+    "imageCredit": "CC BY 2.0, photo: 曾 成訓"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "Strong sales despite inflation: McDonald's up 18%",
+    "text": "McDonald's reported on 27 October that worldwide sales at existing restaurants rose nearly 10% in the third quarter, with US sales up more than 6%, the ninth quarter of growth in a row. Customers squeezed by inflation are trading down to fast food. The shares gained about 18% in October, as the stock market rebounded too.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390822000052/exhibit991-93022.htm (release of 27 October 2022, read 2026-10-03); move from data/out/mcd.json",
+    "image": "/news/mcd/2022-10-kempczinski.jpg",
+    "imageCaption": "Chris Kempczinski, McDonald's chief executive ;;",
+    "imageCredit": "CC BY-SA 4.0, photo: Bob Coscarelli"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "The US bans exports of advanced AI chips to China",
+    "text": "New US export rules that took effect in October bar the sale of the most advanced AI chips to China, including Nvidia's data-centre processors. Nvidia's shares have fallen by more than half this year in the technology sell-off.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)",
+    "image": "/news/nvda/2022-10-h100.jpg",
+    "imageCaption": "The Nvidia H100 accelerator card",
+    "imageCredit": "CC BY 3.0, photo: 极客湾Geekerwan"
+  },
+  {
+    "month": "2022-11",
+    "kind": "company",
+    "headline": "Chapek ousted; Iger returns as chief executive",
+    "text": "On 8 November Disney reported weaker-than-expected results, with adjusted earnings of 30 cents a share against 37 a year earlier and large losses in streaming. On 20 November the board dismissed Bob Chapek and brought back Bob Iger as chief executive.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000192/dis-20221108.htm (Disney earnings release of 8 November 2022, read 2026-10-03); https://en.wikipedia.org/wiki/Bob_Chapek (read 2026-10-03)",
+    "image": "/news/dis/2022-11-iger.jpg",
+    "imageCaption": "Bob Iger ;;",
+    "imageCredit": "CC BY-SA 2.0, photo: Josh Hallett"
+  },
+  {
+    "month": "2022-11",
+    "kind": "company",
+    "headline": "OpenAI launches ChatGPT",
+    "text": "OpenAI released ChatGPT, a chatbot that answers questions in fluent language, on 30 November. It runs in Microsoft's Azure data centres on thousands of Nvidia graphics processors.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03)",
+    "image": "/news/nvda/2022-11-altman.jpg",
+    "imageCaption": "Sam Altman, OpenAI's chief executive, with Jack Altman and Wade Foster, November 2022",
+    "imageCredit": "CC BY 2.0, photo: Village Global"
+  },
+  {
+    "month": "2022-11",
+    "kind": "world",
+    "headline": "OpenAI releases ChatGPT",
+    "text": "On 30 November OpenAI, a San Francisco research company in which Microsoft invested a billion dollars in 2019, released ChatGPT, a program that answers questions and writes texts in ordinary language. It is free to use.",
+    "assets": [
+      "msft",
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)",
+    "image": "/news/tech/2022-11-altman.jpg",
+    "imageCaption": "Sam Altman, chief executive of OpenAI, November 2022",
+    "imageCredit": "CC BY 2.0, photo: Village Global"
+  },
+  {
+    "month": "2022-11",
+    "kind": "company",
+    "headline": "Record profit as Siemens closes fiscal 2022",
+    "text": "On 17 November Siemens reported an outstanding fiscal 2022 with record profit of more than 10 billion euros in its industrial businesses and free cash flow of 8.2 billion euros, and forecast earnings per share of 8.70 to 9.20 euros for 2023 on a high order backlog. The euro also rose against the dollar. Siemens shares gained 24% in November.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2022 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "image": "/news/siemens/2022-11-busch.jpg",
+    "imageCaption": "Roland Busch, Siemens chief executive since 2021",
+    "imageCredit": "CC BY-SA 4.0, photo: Mozamaniac"
+  },
+  {
+    "month": "2022-12",
+    "kind": "world",
+    "headline": "2022 in review: the worst year since 2008",
+    "text": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Nasdaq 33%; the Dow lost 8.8%. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "image": "/news/markets/2022-12-nyse.jpg",
+    "imageCaption": "The New York Stock Exchange, 2 December 2022",
+    "imageCredit": "CC BY-SA 4.0, photo: Kidfly182"
+  },
+  {
+    "month": "2022-12",
+    "kind": "company",
+    "headline": "Tesla's worst month as Musk is busy with Twitter",
+    "text": "Tesla shares fell to their lowest in more than two years in late December and have lost more than half their value since the start of October. Investors worry that Twitter, which Musk bought in October and now runs, takes too much of his time.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "The Guardian, 'Tesla stock marks lowest close in years as investors worry about Musk's focus', 27 December 2022, https://www.theguardian.com/technology/2022/dec/27/tesla-stock-drops-lowest-close-years-elon-musk (read 2026-10-03); WSJ, 'Tesla Shares Head for Worst Year Ever as Elon Musk Focuses on Twitter', 24 December 2022 (headline via Google News) (read 2026-10-03)",
+    "image": "/news/tsla/2022-12-musk.jpg",
+    "imageCaption": "Elon Musk, July 2022",
+    "imageCredit": "public domain, photo: U.S. Air Force / Trevor Cokley"
+  },
+  {
+    "month": "2022-12",
+    "kind": "world",
+    "headline": "China abandons zero-Covid",
+    "text": "After protests in late November, set off by a deadly fire in Urumqi, China on 7 December dropped compulsory testing and quarantine in camps, and on 12 December switched off its health-code tracking app. Nearly three years of lockdowns are ending.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)",
+    "image": "/news/asia/2022-12-covid-test.jpg",
+    "imageCaption": "A mass Covid testing site in China",
+    "imageCredit": "CC BY-SA 4.0, photo: 慕尼黑啤酒"
+  },
+  {
+    "month": "2022-12",
+    "kind": "colour",
+    "headline": "ChatGPT, and Messi's World Cup",
+    "text": "ChatGPT, a chatbot from the American company OpenAI that answers questions and writes texts in ordinary language, was released on 30 November and gained one million users in five days. On 18 December Argentina won the World Cup final in Qatar against France on penalties after a 3-3 draw, with two goals by Lionel Messi and a hat-trick by Kylian Mbappé.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final (read 2026-10-03)",
+    "image": "/news/life/2022-12-chatgpt-altman.jpg",
+    "imageCaption": "Sam Altman, chief executive of OpenAI, November 2022",
+    "imageCredit": "CC BY 2.0, photo: Village Global"
+  }
+]

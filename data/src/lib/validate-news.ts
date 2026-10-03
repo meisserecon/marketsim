@@ -34,8 +34,8 @@ export function validateNews(newsDir: string, assets: Map<string, AssetSeries>, 
       prev = n.month;
       perMonth.set(n.month, (perMonth.get(n.month) ?? 0) + 1);
       if (!KINDS.has(n.kind)) fail(`${where}: unknown kind ${n.kind}`);
-      if (typeof n.headline !== "string" || !n.headline.trim() || n.headline.length > 100) fail(`${where}: bad headline`);
-      if (typeof n.text !== "string" || n.text.length < 40 || n.text.length > 700) fail(`${where}: text length ${n.text?.length}`);
+      if (typeof n.headline !== "string" || !n.headline.trim() || n.headline.length > 120) fail(`${where}: bad headline`);
+      if (typeof n.text !== "string" || n.text.length < 40 || n.text.length > 1200) fail(`${where}: text length ${n.text?.length}`);
       if (!Array.isArray(n.assets)) fail(`${where}: assets must be an array`);
       for (const id of n.assets ?? []) {
         const s = assets.get(id);

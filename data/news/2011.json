@@ -1,0 +1,332 @@
+[
+  {
+    "month": "2011-01",
+    "kind": "company",
+    "headline": "Another strong year: 62 million customers a day",
+    "text": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11% to 4.58 dollars, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312511012490/dex991.htm (release of 24 January 2011, read 2026-10-03); yearly change from data/out/mcd.json",
+    "image": "/news/mcd/2011-01-big-mac.jpg",
+    "imageCaption": "The Big Mac",
+    "imageCredit": "CC BY-SA 4.0, photo: Anemonemma, 3df"
+  },
+  {
+    "month": "2011-01",
+    "kind": "company",
+    "headline": "Intel will pay Nvidia 1.5 billion dollars",
+    "text": "On 10 January Nvidia and Intel settled their legal fight with a patent cross-licence: Intel will pay Nvidia 1.5 billion dollars in licence fees over six years. Nvidia will not make chipsets for Intel's newer processors; it is building up its Tegra processors for mobile devices.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "image": "/news/nvda/2011-01-huang.jpg",
+    "imageCaption": "Jensen Huang, Nvidia's chief executive, at Computex, Taipei, May 2010",
+    "imageCredit": "CC BY 2.0, photo: Masaru Kamikura"
+  },
+  {
+    "month": "2011-02",
+    "kind": "world",
+    "headline": "China passes Japan as the world's second-largest economy",
+    "text": "China's economy was larger than Japan's in 2010, which makes China the world's second-largest economy behind the United States. Japan had held that place since before the 1980s. A year ago China also overtook Germany as the world's biggest exporter.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/2010_in_China (read 2026-10-03)",
+    "image": "/news/asia/2011-02-pudong.jpg",
+    "imageCaption": "The Pudong skyline, Shanghai",
+    "imageCredit": "CC BY-SA 4.0, photo: Nicholas Hartmann"
+  },
+  {
+    "month": "2011-02",
+    "kind": "world",
+    "headline": "Mubarak falls as protests sweep the Arab world",
+    "text": "Eighteen days after protests began in Cairo's Tahrir Square on 25 January, Egypt's President Hosni Mubarak stepped down on 11 February and handed power to the army, ending 30 years in office. Tunisia's ruler had fled on 14 January after weeks of protest set off by a street vendor's self-immolation. Demonstrations are now spreading to Libya, Bahrain, Yemen and beyond. Hundreds of Egyptians were killed in the uprising.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_2011 (read 2026-10-03)",
+    "image": "/news/middle-east/2011-02-tahrir.jpg",
+    "imageCaption": "Crowds in Tahrir Square, Cairo, 9 February 2011",
+    "imageCredit": "CC BY 2.0, photo: Jonathan Rashad"
+  },
+  {
+    "month": "2011-02",
+    "kind": "company",
+    "headline": "Nokia bets on Microsoft's Windows Phone",
+    "text": "Days after a memo from Elop warned staff that Nokia was on a 'burning platform', Nokia announced on 11 February that it will use Microsoft's Windows Phone as its main smartphone software, instead of its own Symbian or Google's Android, and warned of substantial job cuts. Its share of the smartphone market fell from 38% to 28% in 2010. Its shares fell 12% that day.",
+    "assets": [
+      "nokia",
+      "msft"
+    ],
+    "source": "https://www.bbc.com/news/business-12427680 (read 2026-10-03); https://money.cnn.com/2011/02/11/technology/nokia_microsoft/index.htm via web.archive.org (read 2026-10-03)",
+    "image": "/news/nokia/2011-02-e7.jpg",
+    "imageCaption": "Nokia's E7 smartphone (right) beside the 9000 Communicator of 1996",
+    "imageCredit": "CC BY-SA 3.0, photo: krystof.k (Twitter) & nmuseum"
+  },
+  {
+    "month": "2011-02",
+    "kind": "world",
+    "headline": "Nokia bets on Microsoft's Windows Phone",
+    "text": "On 11 February Nokia announced that it will use Microsoft's Windows Phone as its main smartphone system, abandoning its own.",
+    "assets": [
+      "nokia",
+      "msft",
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
+    "image": "/news/tech/2011-02-elop.jpg",
+    "imageCaption": "Stephen Elop, Nokia's chief executive since September 2010",
+    "imageCredit": "CC BY-SA 2.0, photo: Luca Sartoni"
+  },
+  {
+    "month": "2011-03",
+    "kind": "world",
+    "headline": "Earthquake, tsunami and Fukushima",
+    "text": "A magnitude 9 earthquake off north-east Japan on 11 March set off a tsunami that left tens of thousands dead or missing, and three reactors at the Fukushima Daiichi nuclear plant were crippled, raising fears of meltdowns. The Nikkei fell more than 10% on 15 March to 8,605. The yen jumped, to about 79 per dollar on 17 March, and the G7 countries sold yen together on 18 March to weaken it.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2011 (read 2026-10-03)",
+    "image": "/news/asia/2011-03-sendai.jpg",
+    "imageCaption": "A US Navy helicopter flies over Sendai after the earthquake and tsunami, March 2011",
+    "imageCredit": "public domain, photo: U.S. Navy photo"
+  },
+  {
+    "month": "2011-03",
+    "kind": "company",
+    "headline": "Cisco pays its first dividend",
+    "text": "Cisco announced on March 18 its first cash dividend, 6 cents a share each quarter, payable April 20 to holders of record on March 31. At the current share price that is a yield of about 1.4%. The finance chief called it 'an important part of our commitment to bring value to shareholders.'",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2011/m03/cisco-announces-first-ever-cash-dividend.html (read 2026-10-03); yield from https://www.fool.com/investing/2016/09/23/cisco-stock-history-what-investors-need-to-know.aspx (read 2026-10-03)",
+    "image": "/news/csco/2011-03-chambers-2010.jpg",
+    "imageCaption": "John Chambers, Cisco's chairman and chief executive, at the World Economic Forum, Davos, January 2010",
+    "imageCredit": "CC BY-SA 2.0, photo: Michael Wuertenberg / World Economic Forum"
+  },
+  {
+    "month": "2011-04",
+    "kind": "company",
+    "headline": "Hackers break into the PlayStation Network",
+    "text": "Sony learned on 19 April of an intrusion into its PlayStation Network and shut the service down. Personal details from about 77 million accounts were compromised, one of the largest data breaches so far.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage (read 2026-10-03)",
+    "image": "/news/sony/2011-04-psn.jpg",
+    "imageCaption": "Visitors try PlayStation Network games at the Sony booth, E3, Los Angeles, June 2011",
+    "imageCredit": "CC BY 2.0, photo: The Conmunity - Pop Culture Geek"
+  },
+  {
+    "month": "2011-05",
+    "kind": "listing",
+    "headline": "Glencore goes public in London's largest premium listing",
+    "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO at 530p a share on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03)",
+    "image": "/news/glencore/2011-05-baar.jpg",
+    "imageCaption": "Glencore's headquarters in Baar, Switzerland",
+    "imageCredit": "CC BY-SA 4.0, photo: Paradise Chronicle"
+  },
+  {
+    "month": "2011-05",
+    "kind": "company",
+    "headline": "Citigroup completes a 1-for-10 reverse split",
+    "text": "Citigroup combined every ten of its shares into one, effective after trading on 6 May; the shares trade on a split-adjusted basis from 9 May. A shareholder's stake is unchanged: ten times fewer shares, each worth ten times more. Citigroup plans to reinstate a quarterly dividend of 1 cent a share now that the split is done. It earned $10.6 billion in 2010.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000119312511131957/dex991.htm (Citigroup press release, 9 May 2011; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420411016019/v215370_ex99-1.htm (21 March 2011; read 2026-10-03)",
+    "image": "/news/c/2011-05-pandit.jpg",
+    "imageCaption": "Vikram Pandit, Citigroup's chief executive, April 2011",
+    "imageCredit": "CC BY-SA 2.0, photo: World Economic Forum"
+  },
+  {
+    "month": "2011-05",
+    "kind": "company",
+    "headline": "Glencore floats, valuing itself at $59bn",
+    "text": "Glencore, Xstrata's largest shareholder, priced its initial public offering at 530p a share on 19 May, raising about $10bn and valuing the trader at $59.2bn, the largest ever premium listing in London. Its shares started trading in London and Hong Kong in the last week of May. Glencore owns about a third of Xstrata and markets much of its output.",
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (read 2026-10-03)",
+    "image": "/news/xstrata/2011-05-baar.jpg",
+    "imageCaption": "Glencore's headquarters in Baar, Switzerland",
+    "imageCredit": "CC BY-SA 4.0, photo: Paradise Chronicle"
+  },
+  {
+    "month": "2011-07",
+    "kind": "company",
+    "headline": "Cisco cuts 6,500 jobs and closes Flip",
+    "text": "On July 18 Cisco said it will cut about 6,500 jobs, around 9% of its regular workforce, as part of $1 billion of annual cost savings after disappointing profits. With the sale of a set-top box plant in Mexico and the closure of the Flip video camera business, about 12,000 jobs go in all. Competitors such as Juniper, HP and Huawei are pressing Cisco in its core markets.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-11-190246.txt (8-K, read 2026-10-03); https://www.networkworld.com/article/695456/lan-wan-the-full-impact-of-cisco-s-job-cuts.html (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
+    "image": "/news/csco/2011-07-flip-camera.jpg",
+    "imageCaption": "A Flip Mino HD pocket video camera",
+    "imageCredit": "CC BY-SA 3.0, photo: Mosborne01"
+  },
+  {
+    "month": "2011-08",
+    "kind": "company",
+    "headline": "Jobs resigns; Tim Cook is chief executive",
+    "text": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "image": "/news/aapl/2011-08-cook.jpg",
+    "imageCaption": "Tim Cook, Apple's chief operating officer",
+    "imageCredit": "CC BY-SA 2.0, photo: Kindly granted by Valery Marchive (LeMagIT)"
+  },
+  {
+    "month": "2011-08",
+    "kind": "world",
+    "headline": "America loses its AAA rating and shares plunge",
+    "text": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2011-08-obama-biden-debt-deal.jpg",
+    "imageCaption": "President Obama and Vice President Biden shake hands after a call with Speaker Boehner secured a deal to raise the debt limit, 31 July 2011",
+    "imageCredit": "public domain (White House, Pete Souza)"
+  },
+  {
+    "month": "2011-08",
+    "kind": "world",
+    "headline": "America loses its AAA rating and gold soars",
+    "text": "On 5 August Standard & Poor's cut the US government's credit rating from AAA to AA+ for the first time ever, after a fight in Congress over the debt ceiling. On 9 August the Fed said its rate would likely stay exceptionally low 'at least through mid-2013'. Investors bought both Treasury bonds and gold: the 10-year yield averaged about 2.3 percent in August, down from 3 percent in July, and gold averaged 1,759 dollars, 12 percent more than in July and a record.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "image": "/news/rates/2011-08-obama-debt.jpg",
+    "imageCaption": "President Obama speaks on the debt limit, White House, July 2011",
+    "imageCredit": "public domain, photo: David Lienemann"
+  },
+  {
+    "month": "2011-08",
+    "kind": "company",
+    "headline": "Euro crisis and US downgrade send car shares tumbling",
+    "text": "Standard & Poor's downgraded the United States' credit rating on 6 August, and fears about indebted euro countries and their banks spread. The DAX fell from 7,376 at the end of June to around 5,250 in early September, with economy-sensitive shares such as car makers hit hardest.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); BMW Group Annual Report 2011, capital market section (DAX -30% July to September), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2011.pdf (read 2026-10-03)",
+    "image": "/news/mercedes/2011-08-frankfurt.jpg",
+    "imageCaption": "The trading hall of the Frankfurt Stock Exchange",
+    "imageCredit": "CC BY-SA 4.0, photo: Ank Kumar"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "The National Bank caps the franc at 1.20 per euro",
+    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs.",
+    "assets": [
+      "nestle",
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/nestle/2011-09-hildebrand.jpg",
+    "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank, at the St. Gallen Symposium",
+    "imageCredit": "CC BY-SA 3.0, photo: International Students' Committee"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "The franc is capped at 1.20 per euro",
+    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro and said it would buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September, while Novartis shares rose about 8% in francs.",
+    "assets": [
+      "novartis",
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/novartis/2011-09-hildebrand.jpg",
+    "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank until January 2012, with Christine Lagarde",
+    "imageCredit": "CC BY-SA 4.0, photo: Hannes Thalmann"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "A rogue trader costs UBS $2.3 billion; Grübel resigns",
+    "text": "On 15 September UBS said unauthorised trading by a trader in London, Kweku Adoboli, had caused a loss estimated at $2 billion, later put at $2.3 billion; the shares fell 10.8% that day. On 24 September chief executive Oswald Grübel resigned; Sergio Ermotti takes over on an interim basis. Earlier in the month, on 6 September, the Swiss National Bank set a minimum exchange rate of 1.20 francs per euro, and the franc fell about 11% against the dollar in September.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)",
+    "image": "/news/ubs/2011-09-gruebel.jpg",
+    "imageCaption": "Oswald Grübel, chief executive of UBS (second from left), at the St. Gallen Symposium, 2011",
+    "imageCredit": "CC BY-SA 4.0, photo: Hannes Thalmann"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "Euro crisis and slowing China crush miners",
+    "text": "Fears that the euro debt crisis will spread to Italy and Spain, after the United States lost its AAA rating in August, have driven investors out of cyclical shares. Copper averaged $8,300 a tonne in September, down from $9,650 in July, and fell further late in the month. Mining shares were among the worst performers.",
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "image": "/news/xstrata/2011-09-frankfurt.jpg",
+    "imageCaption": "The bull and bear statues outside the Frankfurt stock exchange",
+    "imageCredit": "CC BY-SA 2.5, photo: Eva K."
+  },
+  {
+    "month": "2011-10",
+    "kind": "company",
+    "headline": "Steve Jobs dies",
+    "text": "Steve Jobs died at his home in Palo Alto on 5 October, aged 56, after a relapse of the pancreatic tumour first diagnosed in 2003.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)",
+    "image": "/news/aapl/2011-10-jobs-tribute.jpg",
+    "imageCaption": "Tribute to Steve Jobs outside an Apple Store, Palo Alto, October 2011",
+    "imageCredit": "CC BY-SA 2.0, photo: Ed and Eddie"
+  },
+  {
+    "month": "2011-10",
+    "kind": "colour",
+    "headline": "Steve Jobs dies",
+    "text": "Steve Jobs, the co-founder of Apple, died on 5 October aged 56, six weeks after stepping down as chief executive. He was behind the Macintosh, the iPod, the iPhone and the iPad.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)",
+    "image": "/news/life/2011-10-jobs.jpg",
+    "imageCaption": "Steve Jobs presents the iPhone 4, June 2010",
+    "imageCredit": "CC BY-SA 3.0, photo: Matthew Yohe"
+  },
+  {
+    "month": "2011-10",
+    "kind": "world",
+    "headline": "Europe's rescue plan sparks an 11 percent rally",
+    "text": "After a low on 4 October about 21% below its May peak, the S&P 500 surged as European leaders worked on, and late in the month announced, a new package to deal with Greece's debts and to shore up Europe's banks; company earnings also came in better than expected. Many details of the plan are still open, and on the last day of the month news of a possible Greek referendum sent shares down sharply. The S&P 500 still rose 11% in October to 1,253.30, its best month since 1991.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2011-10-merkel-sarkozy.jpg",
+    "imageCaption": "Angela Merkel and Nicolas Sarkozy, February 2011",
+    "imageCredit": "GFDL 1.2 (Chancellery of the President of Poland)"
+  },
+  {
+    "month": "2011-10",
+    "kind": "world",
+    "headline": "Euro summit: banks to take half off Greek debt",
+    "text": "In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03)",
+    "image": "/news/world/2011-10-merkel-sarkozy.jpg",
+    "imageCaption": "Polish President Bronislaw Komorowski, Chancellor Angela Merkel and President Nicolas Sarkozy at the Weimar Triangle summit, Warsaw, 7 February 2011",
+    "imageCredit": "GFDL 1.2, photo: Chancellery of the President of the Republic of Poland"
+  },
+  {
+    "month": "2011-12",
+    "kind": "world",
+    "headline": "2011 in review: a year of turmoil ends exactly flat",
+    "text": "The S&P 500 ended 2011 at 1,257.60, almost exactly where it began (1,257.64), after falling about 21% between May and October. The Dow gained 5.5%. America's downgrade and Europe's debt crisis made it one of the most volatile years in memory.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03)",
+    "image": "/news/markets/2011-12-occupy-wall-street.jpg",
+    "imageCaption": "Occupy Wall Street protesters in Zuccotti Park, New York, 11 November 2011",
+    "imageCredit": "CC BY 3.0, photo: Debra M. Gaines"
+  }
+]

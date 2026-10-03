@@ -1,0 +1,406 @@
+[
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "Citigroup loses $8.3 billion and splits itself in two",
+    "text": "Citigroup agreed on 13 January to merge its Smith Barney brokerage into a joint venture controlled by Morgan Stanley. On 16 January it reported a fourth-quarter loss of $8.29 billion and said it would reorganise into Citicorp, its core bank, and Citi Holdings, a collection of businesses and troubled assets to be sold or run down. The shares fell 47% in January.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465909002657/a09-3138_1ex99d1.htm (Citigroup press release, 16 January 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095010309000096/dp12301_ex99-1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095010309000089/dp12289_ex9901.htm (read 2026-10-03)",
+    "image": "/news/c/2009-01-pandit.jpg",
+    "imageCaption": "388 Greenwich Street, Citigroup's building in Lower Manhattan",
+    "imageCredit": "CC BY-SA 4.0, photo: Beyond My Ken"
+  },
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "McDonald's thrives in the recession",
+    "text": "McDonald's reported on 26 January that 2008 was 'a strong year': worldwide sales at existing restaurants rose 6.9%, guest counts rose in every quarter, and earnings per share from continuing operations grew 16%. It returned 5.8 billion dollars to shareholders and raised the quarterly dividend 33% to 50 cents. McDonald's shares ended 2008 higher than they started, while the S&P 500 lost more than a third.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312509010789/dex991.htm (release of 26 January 2009, read 2026-10-03); yearly changes from data/out/mcd.json and data/reference/sp500.json",
+    "image": "/news/mcd/2009-01-restaurant.jpg",
+    "imageCaption": "A McDonald's restaurant",
+    "imageCredit": "CC BY 4.0, photo: Quintin Soloviev"
+  },
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "£4.1bn rescue rights issue, Glencore sells its Colombian coal",
+    "text": "On 29 January Xstrata announced a two-for-one rights issue to raise about £4.1bn ($5.9bn) at 210p a share, a 66% discount to the previous close of 623p, to repay debt. At the same time it will buy Glencore's Prodeco coal mines in Colombia for $2bn, with Glencore keeping an option to buy them back within a year for $2.25bn; Glencore, which owns 34.5%, will use the money to take up its new shares. There will be no final dividend for 2008, 2009 capital spending is cut 45% to $3.4bn, and 2008 EBITDA fell 11% to $9.7bn.",
+    "assets": [
+      "xstrata"
+    ],
+    "source": "Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (read 2026-10-03)",
+    "image": "/news/xstrata/2009-01-krs.jpg",
+    "imageCaption": "Xstrata's Nikkelverk nickel refinery, Kristiansand, Norway",
+    "imageCredit": "CC BY-SA 4.0, photo: Bjoertvedt"
+  },
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "GE's profit falls 19% and doubts about GE Capital grow",
+    "text": "On 23 January General Electric reported fourth-quarter earnings of 36 cents a share for common shareholders and full-year profit of 18.1 billion dollars, down 19%. It has built up 48 billion dollars of cash and says there is no change to its 1.24-dollar dividend or to running the company as a triple-A credit. The finance arm still earned 1 billion dollars in the quarter.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000002/ex99.htm (GE results release of 2009-01-23, read 2026-10-03)",
+    "image": "/news/ge/2009-01-ge-sign.jpg",
+    "imageCaption": "A General Electric appliance sign",
+    "imageCredit": "CC BY-SA 3.0, photo: Bubba73 (Jud McCranie)"
+  },
+  {
+    "month": "2009-01",
+    "kind": "world",
+    "headline": "Bank losses and a new rescue: the worst January for shares",
+    "text": "Big banks reported large losses from trading, write-downs and bad loans, and on 16 January the government agreed to give Bank of America guarantees, cash and capital after its takeover of Merrill Lynch. Bank shares fell below their November lows, and the S&P 500 lost 9% in January to 825.88.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20090128.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2009-01-obama-inauguration.jpg",
+    "imageCaption": "Crowds on the National Mall for Barack Obama's inauguration, Washington, 20 January 2009",
+    "imageCredit": "public domain (USAF, Thomas Meneguin)"
+  },
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "Microsoft cuts up to 5,000 jobs",
+    "text": "On 22 January Steve Ballmer told employees that Microsoft will eliminate up to 5,000 jobs over 18 months, 1,400 of them immediately, as the recession hits demand for PCs.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312509009388/dex992.htm (Ballmer e-mail of 22 January 2009, read 2026-10-03)",
+    "image": "/news/msft/2009-01-campus.jpg",
+    "imageCaption": "Microsoft's campus in Redmond in winter",
+    "imageCredit": "CC BY 2.0, photo: Jeff Wilcox from Seattle, WA, USA"
+  },
+  {
+    "month": "2009-01",
+    "kind": "company",
+    "headline": "Crisis winter: shares fall and the franc too",
+    "text": "Stock markets kept falling in January after the collapse of Lehman Brothers last September; the S&P 500 lost 9%. The dollar rose from 1.07 to 1.16 francs over the month.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/novartis/2009-01-vasella.jpg",
+    "imageCaption": "Daniel Vasella, chairman and chief executive of Novartis, at the World Economic Forum, Davos, January 2009",
+    "imageCredit": "CC BY-SA 2.0, photo: World Economic Forum"
+  },
+  {
+    "month": "2009-02",
+    "kind": "company",
+    "headline": "Government to take up to 36% of Citigroup",
+    "text": "Citigroup announced on 27 February that it will swap preferred shares held by the government and private investors for common shares, which could give the U.S. government a stake of up to 36% and raise tangible common equity to as much as $81 billion. Existing shareholders will be heavily diluted. It also took a further $9.6 billion goodwill write-down for 2008. The shares fell 58% in February.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095010309000421/dp12698_ex9901.htm (Citigroup press release, 27 February 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420409011311/v141465_ex99-1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "image": "/news/c/2009-02-geithner.jpg",
+    "imageCaption": "Timothy Geithner, US Treasury Secretary, speaking at the Treasury, February 2009",
+    "imageCredit": "public domain, photo: The White House"
+  },
+  {
+    "month": "2009-02",
+    "kind": "company",
+    "headline": "GE cuts its dividend by two thirds",
+    "text": "On 27 February General Electric's board decided to cut the quarterly dividend from 31 cents to 10 cents from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000079746309000010/exhibit99.htm (GE press release of 2009-02-27, read 2026-10-03)",
+    "image": "/news/ge/2009-02-schenectady.jpg",
+    "imageCaption": "General Electric's historic works in Schenectady, New York",
+    "imageCredit": "CC BY-SA 3.0, photo: UpstateNYer"
+  },
+  {
+    "month": "2009-02",
+    "kind": "company",
+    "headline": "UBS settles with the US and hands over client names",
+    "text": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell to about 11 francs.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03); prices: data/raw/yahoo/ubs.csv (read 2026-10-03)",
+    "image": "/news/ubs/2009-02-geschaeftsstelle.jpg",
+    "imageCaption": "A UBS branch, Zurich",
+    "imageCredit": "CC BY 2.0, photo: Fred Romero"
+  },
+  {
+    "month": "2009-02",
+    "kind": "company",
+    "headline": "Buffett: 2008 was our worst year, and I did dumb things",
+    "text": "In his letter of 27 February Buffett reports that book value per share fell 9.6% in 2008, the worst year in 44 years both for Berkshire and for the S&P 500. He admits he did 'some dumb things in investments', among them buying ConocoPhillips shares near the peak of oil prices. Berkshire's shares have fallen with the market.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/2008ltr.pdf (read 2026-10-03)",
+    "image": "/news/brk/2009-02-buffett.jpg",
+    "imageCaption": "Warren Buffett and Charlie Munger at the Berkshire Hathaway annual meeting, Omaha, 2007",
+    "imageCredit": "CC BY 2.0, photo: TEDizen"
+  },
+  {
+    "month": "2009-02",
+    "kind": "world",
+    "headline": "Doubts about the bank rescue push shares to 12-year lows",
+    "text": "Congress approved a 787 billion dollar stimulus package on 13 February, but investors were uneasy about the Treasury's new plan to stabilize the banks and about what the government might do next. Bank and insurance shares were hit hardest; on 27 February the government agreed to take a 36% stake in Citigroup, and the Dow closed at its lowest level since 1997. The S&P 500 lost 11% in February to 735.09.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20090318.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2009-02-obama-recovery-act.jpg",
+    "imageCaption": "President Obama signs the American Recovery and Reinvestment Act, Denver, 17 February 2009",
+    "imageCredit": "public domain (White House, Pete Souza)"
+  },
+  {
+    "month": "2009-03",
+    "kind": "company",
+    "headline": "Pandit: Citigroup is profitable again",
+    "text": "In a memo to employees released on 10 March, chief executive Vikram Pandit said Citigroup was profitable in January and February, with its best quarter-to-date performance since the third quarter of 2007 and revenues of $19 billion excluding write-downs. Bank shares rallied from their lows, and Citigroup's rose 69% in March.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012309004333/y75154exv99w1.htm (letter to employees, 9 March 2009, filed 10 March; read 2026-10-03)",
+    "image": "/news/c/2009-03-pandit.jpg",
+    "imageCaption": "Vikram Pandit, Citigroup's chief executive",
+    "imageCredit": "CC BY-SA 2.0, photo: World Economic Forum"
+  },
+  {
+    "month": "2009-03",
+    "kind": "world",
+    "headline": "The S&P 500 sinks to 676, then a sudden rally",
+    "text": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2009-03-wall-street-bull.jpg",
+    "imageCaption": "The Charging Bull near Wall Street, New York",
+    "imageCredit": "CC BY 2.0, photo: Bruno Sanchez-Andrade Nuno"
+  },
+  {
+    "month": "2009-03",
+    "kind": "company",
+    "headline": "GE loses its triple-A rating",
+    "text": "On 12 March Standard & Poor's cut General Electric's and GE Capital's long-term rating from AAA to AA+. GE said it expects no significant impact on its funding and has 48 billion dollars in cash. It is holding a detailed investor meeting on GE Capital on 19 March.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000017/ex99.htm (GE statement of 2009-03-12, read 2026-10-03)",
+    "image": "/news/ge/2009-03-immelt-portrait.jpg",
+    "imageCaption": "General Electric chief executive Jeffrey Immelt speaking",
+    "imageCredit": "CC BY 2.0, photo: WRI Staff"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "Credit Suisse earns 2 billion francs in the first quarter",
+    "text": "On 23 April Credit Suisse reported net income of 2,006 million francs for the first quarter of 2009, against a loss of 2,148 million a year earlier. Private Banking attracted 11.4 billion francs of new money. Chief executive Brady Dougan said the bank was reaping the rewards of its early action to cut risk.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "Credit Suisse Form 6-K of 23 April 2009, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000007/a090423_6k.htm (read 2026-10-03)",
+    "image": "/news/credit-suisse/2009-04-dougan.jpg",
+    "imageCaption": "Brady Dougan, chief executive of Credit Suisse, speaking at the St. Gallen Symposium, 2009",
+    "imageCredit": "CC BY-SA 4.0, photo: St. Gallen Symposium"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "GE Capital stays profitable and the shares bounce",
+    "text": "On 17 April General Electric reported first-quarter earnings of 26 cents a share, down 40%, but its finance arm earned 1.1 billion dollars and extended 69 billion dollars of new credit. Jeff Immelt said results matched the plan presented in March. Stock markets are rallying from their lows.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054509000023/ex99.htm (GE results release of 2009-04-17, read 2026-10-03)",
+    "image": "/news/ge/2009-04-immelt.jpg",
+    "imageCaption": "General Electric chief executive Jeffrey Immelt",
+    "imageCredit": "CC BY-SA 3.0, photo: SarekOfVulcan"
+  },
+  {
+    "month": "2009-04",
+    "kind": "world",
+    "headline": "Banks report profits and the rally runs on",
+    "text": "Shares rose strongly again in April, helped by the government's measures to clean up bank balance sheets and by favourable first-quarter earnings from a few big banks; financial shares led. On 10 April Time magazine wrote that the banking crisis was ending 'more quickly than it began'. Investors are nervous about the results of the government's stress tests of the big banks, due in May. The S&P 500 rose 9% in April to 872.81.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20090429.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2009-04-geithner.jpg",
+    "imageCaption": "Treasury Secretary Timothy Geithner",
+    "imageCredit": "public domain (US Treasury)"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "Daimler walks away from Chrysler as markets rebound",
+    "text": "On 27 April Daimler, Chrysler, Cerberus and the US pension guarantee agency agreed that Daimler gives up its remaining 19.9% of Chrysler and pays into Chrysler's pension funds, ending all ties. Chrysler is heading for bankruptcy. Stock markets rallied strongly in April on hopes that the worst of the crisis is over.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 2009 ('Daimler reaches agreement over split with Chrysler', 27 April 2009), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2009.xhtml?oid=4913607 (read 2026-10-03); BMW Group Annual Report 2009, 'Capital Market Activities' (markets recovered from March lows), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2009.pdf (read 2026-10-03)",
+    "image": "/news/mercedes/2009-04-chrysler300c.jpg",
+    "imageCaption": "A Chrysler 300C, the sedan Chrysler built in the 2000s",
+    "imageCredit": "public domain, photo: IFCAR"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "Stringer takes direct control and merges games with electronics",
+    "text": "On 1 April Howard Stringer added the job of president, replacing Ryoji Chubachi, and Sony merged its electronics and games businesses into two new groups. Stock markets kept rallying; Sony's ADR rose another 25% in April.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Howard_Stringer (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03)",
+    "image": "/news/sony/2009-04-stringer.jpg",
+    "imageCaption": "Howard Stringer, chairman and chief executive of Sony, with Arthur Sulzberger Jr",
+    "imageCredit": "CC BY 2.0, photo: Financial Times"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "Grübel cuts costs as markets rebound",
+    "text": "On 15 April UBS announced cost cuts and set a target of about 65,000 employees for 2010, against about 76,200 at the end of March, and centralised its finance, risk and legal functions. It also agreed to sell its Brazilian unit, UBS Pactual. Share markets kept recovering from their March lows; the S&P 500 gained about 9% in April.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)",
+    "image": "/news/ubs/2009-04-gruebel.jpg",
+    "imageCaption": "Oswald Grübel, chief executive of UBS",
+    "imageCredit": "CC BY-SA 4.0, photo: Hannes Thalmann"
+  },
+  {
+    "month": "2009-04",
+    "kind": "company",
+    "headline": "China's stimulus lifts copper",
+    "text": "Copper averaged $4,407 a tonne in April, up 33% from February, as China spends its 4 trillion yuan stimulus programme on infrastructure. Xstrata's shareholders approved the rights issue and the Prodeco purchase in early March, and stock markets are rebounding strongly.",
+    "assets": [
+      "xstrata"
+    ],
+    "source": "World Bank Pink Sheet monthly averages; https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program; Xstrata circular 2 Feb 2009 (all read 2026-10-03)",
+    "image": "/news/xstrata/2009-04-collahuasi.jpg",
+    "imageCaption": "The Collahuasi copper mine, Chile",
+    "imageCredit": "CC BY-SA 4.0, photo: Diego Delso"
+  },
+  {
+    "month": "2009-05",
+    "kind": "company",
+    "headline": "The EU fines Intel 1.06 billion euros",
+    "text": "On 13 May the European Commission fined Intel 1.06 billion euros, its largest fine ever, for abusing its dominant position from 2002 to 2007 with rebates and payments to computer makers and retailers that kept AMD's chips out. Intel is appealing.",
+    "assets": [
+      "intc"
+    ],
+    "source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_09_745 (read 2026-10-03, via search summary)",
+    "image": "/news/intc/2009-05-berlaymont.jpg",
+    "imageCaption": "The Berlaymont building in Brussels, headquarters of the European Commission",
+    "imageCredit": "CC BY-SA 2.5, photo: Nuno Nogueira"
+  },
+  {
+    "month": "2009-06",
+    "kind": "world",
+    "headline": "'Where is my vote?' Millions protest Ahmadinejad's re-election",
+    "text": "Official results gave President Ahmadinejad about 63 percent in the election of 12 June; his challengers Mir-Hossein Mousavi and Mehdi Karroubi rejected the count. Huge crowds marched in Tehran from 13 June, many wearing Mousavi's campaign green, in the biggest protests since the revolution. Supreme Leader Khamenei backed the result on 19 June; security forces and Basij militia have used batons and live fire. A young woman, Neda Agha-Soltan, was shot dead on 20 June and video of her death has gone around the world. State media report more than a dozen deaths; the opposition says many more.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2009_Iranian_presidential_election_protests (read 2026-10-03); https://www.globalsecurity.org/wmd/library/news/iran/2009/iran-090621-rianovosti01.htm (read 2026-10-03)",
+    "image": "/news/middle-east/2009-06-tehran-protest.jpg",
+    "imageCaption": "Protesters march in Tehran, 16 June 2009",
+    "imageCredit": "CC BY-SA 2.0, photo: Milad Avazbeigi"
+  },
+  {
+    "month": "2009-06",
+    "kind": "colour",
+    "headline": "Michael Jackson dies; Federer wins the French Open",
+    "text": "Michael Jackson died in Los Angeles on 25 June, aged 50, weeks before a series of comeback concerts in London; the news brought unprecedented surges of internet traffic. Earlier in June Roger Federer finally won the French Open, beating Robin Söderling in the final, which gives him all four Grand Slam titles and equals Pete Sampras's record of 14.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson (read 2026-10-03); https://en.wikipedia.org/wiki/2009_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
+    "image": "/news/life/2009-06-federer-fo.jpg",
+    "imageCaption": "Roger Federer at the French Open, Paris, June 2009",
+    "imageCredit": "CC BY-SA 2.0, photo: Yann Caradec"
+  },
+  {
+    "month": "2009-06",
+    "kind": "company",
+    "headline": "The FDA gets power over tobacco",
+    "text": "On 22 June President Obama signed the Family Smoking Prevention and Tobacco Control Act, which gives the Food and Drug Administration authority to regulate tobacco products, including their ingredients and marketing.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Family_Smoking_Prevention_and_Tobacco_Control_Act (read 2026-10-03)",
+    "image": "/news/mo/2009-06-obama-signs.jpg",
+    "imageCaption": "President Obama signs the Family Smoking Prevention and Tobacco Control Act, 22 June 2009 ;;",
+    "imageCredit": "public domain, photo: The U.S. Food and Drug Administration"
+  },
+  {
+    "month": "2009-08",
+    "kind": "company",
+    "headline": "Disney buys Marvel for 4 billion dollars",
+    "text": "On 31 August Disney agreed to buy Marvel Entertainment, owner of Spider-Man, Iron Man and the X-Men, for about 4 billion dollars in cash and Disney shares; Marvel shareholders get 30 dollars a share in cash plus Disney stock.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Marvel_Entertainment (read 2026-10-03)",
+    "image": "/news/dis/2009-08-avengers.jpg",
+    "imageCaption": "Marvel's Avengers at a fan convention",
+    "imageCredit": "CC BY 2.0, photo: Pat Loika"
+  },
+  {
+    "month": "2009-08",
+    "kind": "company",
+    "headline": "Tax deal with the US; the state cashes in",
+    "text": "On 19 August UBS settled the US 'John Doe' summons case, and the US and Switzerland signed an agreement under which the IRS asks the Swiss tax administration for information on about 4,450 accounts of American clients. The same day the Confederation announced the conversion of its 6 billion francs of convertible notes into UBS shares.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)",
+    "image": "/news/ubs/2009-08-merz.jpg",
+    "imageCaption": "Hans-Rudolf Merz, the Swiss finance minister, 2009",
+    "imageCredit": "Attribution, Swiss Federal Chancellery"
+  },
+  {
+    "month": "2009-11",
+    "kind": "company",
+    "headline": "Berkshire buys the BNSF railway: 'an all-in bet on America'",
+    "text": "On 3 November Berkshire offered 26 billion dollars in cash and shares for the 77% of Burlington Northern Santa Fe it does not already own, valuing the railway at about 44 billion dollars including debt. It is the largest acquisition in Berkshire's history. To let small BNSF holders take Berkshire stock, Berkshire will split its B shares 50 for 1; the A share is not split.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312509222271/d8k.htm (Berkshire press release of 3 November 2009, read 2026-10-03); https://en.wikipedia.org/wiki/BNSF_Railway (read 2026-10-03)",
+    "image": "/news/brk/2009-11-bnsf.jpg",
+    "imageCaption": "BNSF locomotives in Burlington Northern Santa Fe colours, 2009",
+    "imageCredit": "CC BY 2.0, photo: Doug Wertman"
+  },
+  {
+    "month": "2009-12",
+    "kind": "company",
+    "headline": "The 787 finally flies",
+    "text": "The Boeing 787 Dreamliner completed its first flight on 15 December, more than two years late. In June Boeing had postponed it again to reinforce a part of the wing-body joint, and in August it set a new schedule and took a charge.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://boeing.mediaroom.com/2009-12-15-Boeing-787-Dreamliner-Completes-First-Flight (read 2026-10-03); https://boeing.mediaroom.com/2009-06-23-Boeing-Postpones-787-First-Flight (read 2026-10-03)",
+    "image": "/news/ba/2009-12-787-first-flight.jpg",
+    "imageCaption": "The Boeing 787 Dreamliner takes off on its first flight, Everett, Washington, 15 December 2009",
+    "imageCredit": "CC BY 2.0, photo: Dave Sizer"
+  },
+  {
+    "month": "2009-12",
+    "kind": "company",
+    "headline": "Citigroup repays $20 billion of rescue money with a record share sale",
+    "text": "Citigroup agreed with the government to repay $20 billion of rescue money and end the loss-sharing guarantee, and sold $17 billion of new shares plus $3.5 billion of other equity to pay for it, the largest share offering in U.S. history. The sale cuts the Treasury's stake to about 27%; it agreed not to sell for 90 days. The shares fell 19% in December.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012309070361/y80976exv99w1.htm (Citigroup press release, 14 December 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012309071395/y81063exv99w1.htm (16 December 2009; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "image": "/news/c/2009-12-pandit.jpg",
+    "imageCaption": "Vikram Pandit, Citigroup's chief executive",
+    "imageCredit": "CC BY-SA 2.0, photo: World Economic Forum"
+  },
+  {
+    "month": "2009-12",
+    "kind": "company",
+    "headline": "ExxonMobil buys XTO for 41 billion dollars and bets on shale gas",
+    "text": "On 14 December ExxonMobil agreed to buy XTO Energy, a leading US producer of natural gas from shale and other 'unconventional' rock, in an all-stock deal valued at 41 billion dollars including 10 billion of XTO debt. XTO shareholders get 0.7098 ExxonMobil shares each, a 25 percent premium.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil and XTO press release of 14 December 2009, https://www.sec.gov/Archives/edgar/data/34088/000095010309003246/dp15865_ex9901.htm (read 2026-10-03)",
+    "image": "/news/xom/2009-12-marcellus-drilling.jpg",
+    "imageCaption": "A gas drilling rig in the Marcellus Shale, Pennsylvania",
+    "imageCredit": "CC BY-SA 4.0, photo: Ruhrfisch"
+  }
+]

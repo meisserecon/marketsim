@@ -18,6 +18,8 @@ export interface NewsItem {
   /** Optional picture, as a path the web client can load, and its caption. */
   image?: string | null;
   imageCaption?: string | null;
+  /** Photographer and agency, or the licence holder, shown small under the picture. */
+  imageCredit?: string | null;
 }
 
 /** What the client gets: the item without its maintainers' source. */

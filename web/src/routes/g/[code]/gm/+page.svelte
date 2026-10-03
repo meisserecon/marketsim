@@ -1,12 +1,13 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { page } from '$app/state';
-  import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView, type NewsView } from '@marketsim/shared';
+  import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView, type MarketView, type NewsView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
   import NewsList from '$lib/components/NewsList.svelte';
+  import MarketTable from '$lib/components/MarketTable.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
   // A personal link (#key=...) wins over a key the browser already holds.
@@ -26,6 +27,17 @@
   let board = $state<LeaderboardView | undefined>(undefined);
   let holdings = $state<HoldingsView | undefined>(undefined);
   let news = $state<NewsView | undefined>(undefined);
+  let market = $state<MarketView | undefined>(undefined);
+
+  const nameOf = (id: string) => market?.assets.find((a) => a.id === id)?.name ?? id;
+  /** The month's biggest rises and falls among everything quoted, for a one-line market summary. */
+  const movers = $derived.by(() => {
+    const rows = (market?.assets ?? [])
+      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
+      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
+      .sort((a, b) => b.change - a.change);
+    return { up: rows.slice(0, 3).filter((r) => r.change > 0), down: rows.slice(-3).reverse().filter((r) => r.change < 0) };
+  });
   let lastJoined = $state('');
 
   let advancing = $state(false);
@@ -42,10 +54,11 @@
 
   async function refresh() {
     try {
-      const [g, l, n] = await Promise.all([api.getGame(code), api.leaderboard(code, token), api.news(code, undefined, token)]);
+      const [g, l, n, m] = await Promise.all([api.getGame(code), api.leaderboard(code, token), api.news(code, undefined, token), api.market(code, token)]);
       game = g;
       board = l;
       news = n;
+      market = m;
       phase = 'ready';
       // Only the game master's browser may see who holds what.
       if (token) {
@@ -188,7 +201,7 @@
           <span class="sub">read it to the room before anyone trades</span>
         </div>
         <div class="card-body">
-          <NewsList items={news.items} nameOf={(id) => id} big />
+          <NewsList items={news.items} {nameOf} big />
         </div>
       </section>
     {/if}
@@ -205,6 +218,21 @@
         {#if board}<Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} big />{/if}
       </div>
     </section>
+
+    {#if market}
+      <section class="card">
+        <div class="card-head">
+          <h2>Market</h2>
+          <span class="sub movers">
+            {#each movers.up as r (r.name)}<span>{r.name} <b class="up">{pct(r.change, { sign: true, digits: 0 })}</b></span>{/each}
+            {#each movers.down as r (r.name)}<span>{r.name} <b class="down">{pct(r.change, { sign: true, digits: 0 })}</b></span>{/each}
+          </span>
+        </div>
+        <div class="card-body">
+          <MarketTable assets={market.assets} month={market.month} held={new Set()} markNew={!lobby} onselect={() => {}} />
+        </div>
+      </section>
+    {/if}
 
     {#if holdings && holdings.players.length}
       <section class="card">
@@ -336,6 +364,12 @@
   .pos b {
     font-weight: 650;
     font-variant-numeric: tabular-nums;
+  }
+  .movers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    justify-content: flex-end;
   }
   .board .card-head h2 {
     font-size: 1.4rem;

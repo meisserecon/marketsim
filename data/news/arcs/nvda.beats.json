@@ -1,0 +1,524 @@
+[
+  {
+    "month": "1999-01",
+    "title": "Nvidia, a maker of 3D graphics chips, goes public",
+    "what": "Nvidia sold 3.5 million shares to the public on 22 January at 12 dollars, raising 42 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss.",
+    "why": "The listing beat. One of about seventy graphics start-ups of the 1990s, and one of only two to survive; 12 dollars at the IPO became more than 5,000 times its value by 2026, before dividends.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "1999-08",
+    "title": "Nvidia announces the GeForce 256",
+    "what": "On 31 August Nvidia announced the GeForce 256, which it calls the world's first graphics processing unit, or GPU: a single chip that also does the geometry and lighting calculations that until now were left to the computer's main processor. It is due in October.",
+    "why": "The product that made Nvidia the leader in PC graphics. The +40% month cannot be tied to the announcement, which came on the last day of the month (see Unexplained moves).",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/GeForce_256 (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "1999-11",
+    "title": "The GeForce sells, and Nvidia's revenue nearly triples",
+    "what": "The GeForce 256 went on sale on 11 October and is in strong demand at higher prices than older chips. Nvidia's revenue for the first nine months of its financial year was 246.1 million dollars, 184% more than a year earlier, driven by its RIVA TNT2 chips and the new GeForce.",
+    "why": "Explains the +56% month, assuming the quarterly results were published in November as usual; the release date is not in the sources read (figures from the 10-Q filed on 10 December).",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 56
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-004592.txt (Nvidia 10-Q for the quarter to October 1999, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_256 (read 2026-10-03)"
+  },
+  {
+    "month": "2000-02",
+    "title": "A record year for Nvidia",
+    "what": "Nvidia's revenue for the year to January 2000 was about 375 million dollars, more than double the year before, as the GeForce 256 sold strongly; sales outside the United States rose more than sevenfold. Technology shares are soaring on the Nasdaq.",
+    "why": "Explains the +73% month together with the technology mania, assuming the annual results were published in February as usual; the release date is not in the sources read (figures from the 10-K filed on 13 March).",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 73
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-00-001346.txt (Nvidia 10-K for fiscal 2000, read 2026-10-03)"
+  },
+  {
+    "month": "2000-03",
+    "title": "Microsoft picks Nvidia for the Xbox",
+    "what": "On 5 March Nvidia agreed with Microsoft to develop and sell the graphics processors for Microsoft's planned games console, the Xbox, which Bill Gates presented on 10 March. Microsoft will pay Nvidia 200 million dollars in advance against future chip purchases.",
+    "why": "The contract that made Nvidia a major supplier; +32% in the month on top of February's gain. It also took many of its best engineers away from PC chips.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 32
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (Nvidia 8-K of 29 April 2002, read 2026-10-03); https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2000-12",
+    "title": "Nvidia buys the assets of its old rival 3dfx",
+    "what": "On 15 December Nvidia agreed to buy the technology and patents of 3dfx Interactive, the pioneer of 3D graphics cards for games in the mid-1990s, which has fallen behind.",
+    "why": "The end of the graphics-chip wars of the 1990s; from now on Nvidia's only serious rival was ATI.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-01-500581.txt (Nvidia 8-K on the 3dfx asset purchase, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2001-01",
+    "title": "A surprise rate cut lifts chip shares",
+    "what": "On 3 January the Federal Reserve cut its key interest rate by half a point to 6%, between meetings, and technology shares that fell hard in late 2000 rebounded. Nvidia, whose Xbox chips are due to go into production this year, rose more than most.",
+    "why": "The +58% month is the rebound plus Nvidia's growth story; the Xbox chips went to TSMC for prototypes on 14 February.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 58
+    },
+    "importance": 3,
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (Nvidia 8-K of 29 April 2002, read 2026-10-03)"
+  },
+  {
+    "month": "2001-11",
+    "title": "The Xbox goes on sale with Nvidia inside",
+    "what": "Microsoft launched the Xbox in North America on 15 November, with graphics and media processors from Nvidia; commercial shipments of the chips began in July. Nvidia's shares have more than doubled this year.",
+    "why": "Nvidia's shares quadrupled in 2001; Standard & Poor's chose it that year to replace the collapsing Enron in the S&P 500 index.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2002-04",
+    "title": "Nvidia restates its accounts, and fights Microsoft over Xbox prices",
+    "what": "On 29 April Nvidia announced that a review by its audit committee, begun at the request of the SEC in January, concluded that its accounts for 2000, 2001 and most of 2002 must be restated, mainly for the timing of costs. The same day it disclosed that Microsoft has taken a dispute over Xbox chip prices and volumes to binding arbitration.",
+    "why": "The start of Nvidia's 2002 collapse (-87% from December 2001 to September 2002), as the accounting cloud, the Xbox dispute and a strong rival chip from ATI came together.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": -22
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-02-002921.txt (Nvidia 10-Q/A for the quarter to April 2002, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2002-10",
+    "title": "The market bottoms, and chip shares bounce",
+    "what": "After ending September at their lowest level since 1997, US shares rose 9% in October. Nvidia, down about 87% from its peak of last December, is preparing its answer to ATI's Radeon 9700, a rival chip that came out several months before Nvidia's next generation.",
+    "why": "A market rebound from the 2002 low; Nvidia's new chip was announced the next month.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 39
+    },
+    "importance": 3,
+    "source": "data/reference/sp500.json and data/out/nvda.json (monthly prices); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)"
+  },
+  {
+    "month": "2002-11",
+    "title": "Nvidia unveils the GeForce FX",
+    "what": "At the Comdex show in November Nvidia announced the GeForce FX, its new generation of graphics processors, built to compete with ATI's Radeon 9700. The first cards are due early next year. The stock market rose again in November.",
+    "why": "+44% in the month on hopes for the new chip; in practice the FX arrived late and was less competitive than hoped.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 44
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03); data/reference/sp500.json (monthly prices)"
+  },
+  {
+    "month": "2003-05",
+    "title": "New chips in production, market share up",
+    "what": "On 8 May Nvidia reported revenue of 405 million dollars for the quarter to April, down from 583 million a year earlier, and a profit of 19.7 million. Chief executive Jen-Hsun Huang said its new GeForce FX family is in production across desktop, notebook and workstation chips and that its market share has risen; this month it also launched the faster FX 5900.",
+    "why": "The +83% month came from relief that the worst was over after the 2002 collapse, not from strong numbers.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 83
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000089109203001003/e14795ex99_1.txt (Nvidia press release of 8 May 2003, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)"
+  },
+  {
+    "month": "2004-12",
+    "title": "Nvidia will design the PlayStation 3's graphics",
+    "what": "Nvidia announced that it will help Sony design the graphics processor for the PlayStation 3 games console.",
+    "why": "A second console win after the Xbox, with Sony this time.",
+    "assets": [
+      "nvda",
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2005-12",
+    "title": "Nvidia buys ULi Electronics",
+    "what": "On 14 December Nvidia agreed to buy ULi Electronics of Taiwan, a developer of core-logic chips, to strengthen its nForce chipsets that sit next to the main processor on a PC's motherboard. Nvidia calls itself the worldwide leader in programmable graphics processors.",
+    "why": "Part of Nvidia's push into PC chipsets, which ended in the legal fight with Intel in 2009-2011.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581005000030/pressreleaseulielectronics.htm (Nvidia press release of 14 December 2005) (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2007-02",
+    "title": "CUDA: graphics chips for general computing",
+    "what": "Nvidia released the first version of CUDA, software that lets programmers use its graphics processors for general calculations that can be split into many parallel parts, not just for drawing images.",
+    "why": "The long bet that made the AI boom Nvidia's: by 2025 Nvidia had more than 80% of the market for AI chips, largely because researchers built on CUDA. Nobody valued it in 2007.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/CUDA (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2007-12",
+    "title": "Forbes names Nvidia company of the year",
+    "what": "Forbes named Nvidia its company of the year for 2007, citing its achievements this year and over the past five years. Its shares have risen more than tenfold since the autumn of 2002.",
+    "why": "The peak before the crisis; the shares fell more than 75% in 2008.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
+  },
+  {
+    "month": "2008-07",
+    "title": "Faulty notebook chips and a profit warning",
+    "what": "On 2 July Nvidia said it will take a charge of 150 to 200 million dollars to cover repairs and replacements of some older notebook graphics and chipset products that fail because of a weak packaging material. All products now shipping use a more robust material.",
+    "why": "-39% in the month, the start of a brutal 2008 for Nvidia.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": -39
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm (Nvidia 8-K of 2 July 2008, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2009-02",
+    "title": "Intel sues Nvidia over chipsets",
+    "what": "On 17 February Intel sued Nvidia in Delaware, asking the court to declare that their 2004 licence does not allow Nvidia to make chipsets for Intel's newer processors. Nvidia says it does and will fight.",
+    "why": "The dispute that ended Nvidia's chipset business and, in the settlement of January 2011, paid it 1.5 billion dollars.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03)"
+  },
+  {
+    "month": "2011-01",
+    "title": "Intel will pay Nvidia 1.5 billion dollars",
+    "what": "On 10 January Nvidia and Intel settled their legal fight with a patent cross-licence: Intel will pay Nvidia 1.5 billion dollars in licence fees over six years. Nvidia will not make chipsets for Intel's newer processors; it is building up its Tegra processors for mobile devices.",
+    "why": "+55% in the month: a large, steady cash stream and the end of a damaging legal fight.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 55
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2013-01",
+    "title": "Tegra 4 and a handheld console",
+    "what": "Nvidia unveiled its Tegra 4 processor for phones and tablets and the Nvidia Shield, a handheld games console running Android. Mobile chips are its bet on growth beyond PC graphics.",
+    "why": "The shares went sideways from 2011 to 2015, before data centres changed everything.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2015-01",
+    "title": "Nvidia Drive: chips for cars",
+    "what": "At the CES show Nvidia introduced Nvidia Drive, computing platforms for cars, including systems to help them drive themselves. Nvidia now concentrates on games, cars and mobile devices.",
+    "why": "One of several new markets Nvidia tried for its GPUs in these years.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2016-05",
+    "title": "Pascal GPUs and growing demand for deep learning",
+    "what": "On 6 May Nvidia unveiled its GeForce GTX 1080 and 1070 graphics cards on its new Pascal design. On 12 May it reported revenue of 1.30 billion dollars for the quarter, up 13%, with growth in games, professional graphics, data centres and cars; chief executive Jen-Hsun Huang said deep learning, a new computing model, is accelerating its growth.",
+    "why": "+32% in the month; the start of the AI chapter. The shares more than tripled in 2016.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 32
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/q117pr.htm (Nvidia press release of 12 May 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2016-08",
+    "title": "Nvidia gives OpenAI its first AI supercomputer",
+    "what": "Nvidia gave the first DGX-1, a computer with eight of its graphics processors and software for deep learning, to OpenAI, a young AI research lab, to train larger models faster.",
+    "why": "A small event at the time, symbolic in hindsight: OpenAI's ChatGPT set off the boom in Nvidia's data-centre chips six years later.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2016-11",
+    "title": "Record revenue, up 54%",
+    "what": "On 10 November Nvidia reported record revenue of 2.00 billion dollars for the quarter to October, 54% more than a year earlier, and record profit margins, with demand from data centres for AI growing.",
+    "why": "+30% in the month; the market began to price Nvidia as an AI company.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 30
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/q3fy17pr.htm (Nvidia press release of 10 November 2016, read 2026-10-03)"
+  },
+  {
+    "month": "2018-11",
+    "title": "The crypto hangover",
+    "what": "On 15 November Nvidia reported record data-centre revenue but said its near-term results reflect excess inventory of graphics cards left over after the cryptocurrency boom, when miners bought them in large numbers, and gave a weak forecast. Chief executive Jensen Huang said the problem will be corrected.",
+    "why": "-22% in November, part of a fall of more than half from the September 2018 peak.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": -22
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000148/q3fy19pr.htm (Nvidia press release of 15 November 2018, read 2026-10-03)"
+  },
+  {
+    "month": "2019-03",
+    "title": "Nvidia buys Mellanox for 6.9 billion dollars",
+    "what": "On 11 March Nvidia agreed to buy Mellanox Technologies, an Israeli maker of high-speed networking equipment for data centres and supercomputers, for 6.9 billion dollars.",
+    "why": "Gave Nvidia the networking that ties thousands of GPUs together into one AI computer, a key part of its later dominance.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2020-09",
+    "title": "Nvidia agrees to buy Arm for 40 billion dollars",
+    "what": "On 13 September Nvidia agreed to buy Arm, the British designer of the processors in almost all smartphones, from SoftBank for 40 billion dollars, subject to approval by regulators; SoftBank would keep about 10% of Nvidia.",
+    "why": "It would have been the largest chip deal in history; regulators blocked it.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2022-02",
+    "title": "The Arm deal is abandoned",
+    "what": "On 8 February Nvidia and SoftBank called off the purchase of Arm because of significant regulatory challenges. SoftBank keeps the 1.25 billion dollars Nvidia paid in advance, and Nvidia will take a charge of 1.36 billion dollars.",
+    "why": "A costly failure, soon forgotten.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000005/nvda-20220208.htm (Nvidia 8-K of 8 February 2022, read 2026-10-03)"
+  },
+  {
+    "month": "2022-10",
+    "title": "The US bans exports of advanced AI chips to China",
+    "what": "New US export rules that took effect in October bar the sale of the most advanced AI chips to China, including Nvidia's data-centre processors. Nvidia's shares have fallen by more than half this year in the technology sell-off.",
+    "why": "The first of the China restrictions that recurred through 2025; Nvidia answered with slower chips designed to meet the rules.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
+  },
+  {
+    "month": "2022-11",
+    "title": "OpenAI launches ChatGPT",
+    "what": "OpenAI released ChatGPT, a chatbot that answers questions in fluent language, on 30 November; a million people used it within five days. It runs in Microsoft's Azure data centres on thousands of Nvidia graphics processors.",
+    "why": "The starting gun of the AI boom that made Nvidia the most valuable company in the world.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03)"
+  },
+  {
+    "month": "2023-05",
+    "title": "Nvidia forecasts 11 billion dollars and stuns Wall Street",
+    "what": "On 24 May Nvidia reported record data-centre revenue of 4.28 billion dollars and forecast revenue of 11.0 billion dollars for the next quarter, about half more than in the quarter just ended. Jensen Huang said a trillion dollars of data-centre equipment will shift to accelerated computing as companies race to use generative AI, and that Nvidia is sharply increasing supply.",
+    "why": "+36% in the month; the moment the AI boom showed up in a forecast. Nvidia passed a trillion dollars in market value in 2023.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 36
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2024-03",
+    "title": "Two trillion dollars",
+    "what": "On 1 March Nvidia closed with a stock market value above two trillion dollars, only the third US company to do so, 180 days after passing one trillion. Technology companies are buying tens of thousands of its H100 chips, which sell for 25,000 to 30,000 dollars each.",
+    "why": "Apple and Microsoft each took more than 500 days to go from one to two trillion dollars.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2024-06",
+    "title": "The most valuable company in the world",
+    "what": "On 18 June Nvidia's market value passed 3.3 trillion dollars, making it the most valuable company in the world, ahead of Microsoft and Apple.",
+    "why": "Twenty-five years after the IPO at a value of a few hundred million dollars.",
+    "assets": [
+      "nvda",
+      "msft",
+      "aapl"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2024-11",
+    "title": "Nvidia joins the Dow, replacing Intel",
+    "what": "Nvidia was added to the Dow Jones Industrial Average in November, replacing Intel. Morgan Stanley reported that all of next year's production of its new Blackwell chips is already sold out.",
+    "why": "The changing of the guard in chips.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2025-01",
+    "title": "DeepSeek: 600 billion dollars lost in a day",
+    "what": "DeepSeek, a Chinese AI start-up, released an advanced AI model that it says it developed at a fraction of the usual cost and computing power, and its app overtook ChatGPT as the top free app in the US App Store. On 27 January Nvidia's shares fell so sharply that it lost about 600 billion dollars of market value, the largest one-day loss for any US company.",
+    "why": "The first serious doubt about how many chips AI really needs; -11% for the month, recovered within months.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": -11
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-04",
+    "title": "Export licence required for China chips: a 5.5 billion dollar charge",
+    "what": "On 9 April the US government told Nvidia that it needs a licence to export its H20 chips, designed for the Chinese market, to China, and on 14 April that this applies indefinitely. Nvidia expects charges of up to about 5.5 billion dollars for H20 inventory and purchase commitments.",
+    "why": "Showed the political risk to Nvidia's China business; in August Nvidia agreed to pay 15% of H20 revenue from China to obtain licences.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm (Nvidia 8-K of 15 April 2025, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "title": "The first four-trillion-dollar company",
+    "what": "On 10 July Nvidia became the first company ever to close with a market value above four trillion dollars, worth more than all listed companies in the United Kingdom together.",
+    "why": "+13% in the month as AI spending kept rising.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-09",
+    "title": "Nvidia invests in Intel and in OpenAI",
+    "what": "On 18 September Nvidia agreed to invest 5 billion dollars in Intel, about 4% of its old rival, and to develop chips with it. On 22 September Nvidia and OpenAI signed a memorandum under which Nvidia would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
+    "why": "Critics called the OpenAI deal circular, as OpenAI would pay the money back by buying Nvidia's chips.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary)"
+  },
+  {
+    "month": "2025-10",
+    "title": "Five trillion dollars",
+    "what": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars.",
+    "why": "The high point so far; the shares moved sideways for the next half year.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03)"
+  },
+  {
+    "month": "2026-02",
+    "title": "68 billion dollars in a quarter",
+    "what": "Nvidia reported record revenue of 68.1 billion dollars for the quarter to January, 73% more than a year earlier, and net income of about 43 billion dollars, with a gross margin of 75%. At the CES show in January it unveiled its next platform, Vera Rubin.",
+    "why": "Despite the numbers the shares fell 7% in February.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2026-08",
+    "title": "Revenue doubles again: 96 billion dollars a quarter",
+    "what": "On 26 August Nvidia reported revenue of 96.2 billion dollars for the quarter to July, up 106% from a year earlier, with data-centre revenue of 89.0 billion. Jensen Huang said AI has reached its inflection point and demand is accelerating; its Vera Rubin systems are in full production.",
+    "why": "The AI boom still accelerating in its fourth year; Nvidia's market value is above five trillion dollars.",
+    "assets": [
+      "nvda"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm (Nvidia press release of 26 August 2026, read 2026-10-03)"
+  }
+]

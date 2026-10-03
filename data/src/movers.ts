@@ -33,7 +33,8 @@ lines.push("# Price moves the news must explain", "",
 // --- the market ---
 const spMoves = moves(sp.rows);
 const years = new Map<string, number>();
-for (let i = 12; i < sp.rows.length; i += 12) years.set(sp.rows[i].month.slice(0, 4), sp.rows[i].price / sp.rows[i - 12].price - 1);
+const dec = new Map(sp.rows.filter((r) => r.month.endsWith("-12")).map((r) => [r.month.slice(0, 4), r.price]));
+for (const [y, p] of dec) { const prev = dec.get(String(Number(y) - 1)); if (prev) years.set(y, p / prev - 1); }
 lines.push("## The market: S&P 500", "", "Biggest months:", "");
 for (const m of [...spMoves].sort((a, b) => Math.abs(b.change) - Math.abs(a.change)).slice(0, 25).sort((a, b) => a.month.localeCompare(b.month))) lines.push(`- ${m.month}: ${pct(m.change)}`);
 lines.push("", "Calendar years (December to December):", "");

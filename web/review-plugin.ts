@@ -74,6 +74,28 @@ export function reviewPlugin(): Plugin {
           }
         });
       });
+      server.middlewares.use('/__review/delete', (req, res) => {
+        if (req.method !== 'POST') return void ((res.statusCode = 405), res.end());
+        let body = '';
+        req.on('data', (c) => (body += c));
+        req.on('end', () => {
+          try {
+            const { arc, index } = JSON.parse(body) as { arc: string; index: number };
+            if (!/^[a-z0-9-]+$/.test(arc)) throw new Error('bad arc id');
+            const file = path.join(ARCS, `${arc}.beats.json`);
+            const beats = readJson(file) as Record<string, unknown>[];
+            if (!beats[index]) throw new Error('no such beat');
+            // Gone for good from the file; git history keeps it.
+            beats.splice(index, 1);
+            fs.writeFileSync(file, JSON.stringify(beats, null, 2) + '\n');
+            res.setHeader('content-type', 'application/json');
+            res.end(JSON.stringify({ ok: true, beats }));
+          } catch (e) {
+            res.statusCode = 400;
+            res.end(JSON.stringify({ error: (e as Error).message }));
+          }
+        });
+      });
     }
   };
 }

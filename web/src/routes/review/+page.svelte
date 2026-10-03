@@ -115,6 +115,18 @@
     arcs = { ...arcs };
   }
 
+  async function remove(row: Row) {
+    const r = await fetch('/__review/delete', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index }) });
+    if (!r.ok) {
+      error = `Delete failed: ${(await r.json()).error}`;
+      return;
+    }
+    // Indices of the arc's later beats shift, so take the file's new list.
+    arcs[row.arc] = (await r.json()).beats as Beat[];
+    arcs = { ...arcs };
+    cursor = Math.min(cursor, Math.max(0, visible.length - 1));
+  }
+
   function stepMonth(d: number) {
     const i = months.findIndex(([m]) => m === month);
     const next = months[Math.min(months.length - 1, Math.max(0, i + d))];
@@ -132,6 +144,7 @@
     else if (row && ['1', '2', '3'].includes(e.key)) void patch(row, { importance: Number(e.key) });
     else if (row && e.key === 'x') void patch(row, { cut: !row.beat.cut });
     else if (row && e.key === 'l') void patch(row, { lead: !row.beat.lead });
+    else if (row && (e.key === 'd' || e.key === 'Delete')) void remove(row);
     else return;
     e.preventDefault();
   }
@@ -159,7 +172,7 @@
         <select bind:value={threshold}><option value={1}>1 must</option><option value={2}>2 should</option><option value={3}>3 all</option></select>
       </label>
       <label class="field inline"><input type="checkbox" bind:checked={showCut} /> <span>show cut beats</span></label>
-      <p class="sub keys">Keys: j/k move · 1 2 3 importance · x cut · l lead · n/p next/previous month</p>
+      <p class="sub keys">Keys: j/k move · 1 2 3 importance · x cut · l lead · d delete · n/p next/previous month</p>
       {#if error}<p class="notice error">{error}</p>{/if}
 
       {#if view === 'month'}
@@ -224,6 +237,7 @@
                 {#each [1, 2, 3] as n (n)}<button class="btn small" aria-pressed={b.importance === n} onclick={(e) => { e.stopPropagation(); void patch(row, { importance: n }); }}>{n}</button>{/each}
                 <button class="btn small" aria-pressed={!!b.cut} onclick={(e) => { e.stopPropagation(); void patch(row, { cut: !b.cut }); }}>{b.cut ? 'cut' : 'keep'}</button>
                 <button class="btn small" aria-pressed={!!b.lead} onclick={(e) => { e.stopPropagation(); void patch(row, { lead: !b.lead }); }}>lead</button>
+                <button class="btn small danger" title="Remove this beat from the file for good" onclick={(e) => { e.stopPropagation(); void remove(row); }}>delete</button>
                 <input class="input note" placeholder="note to the writer" value={b.note ?? ''} onchange={(e) => void patch(row, { note: (e.currentTarget as HTMLInputElement).value })} onclick={(e) => e.stopPropagation()} />
               </div>
             </div>
@@ -402,6 +416,13 @@
   .actions .btn[aria-pressed='true'] {
     background: var(--accent);
     color: var(--accent-ink);
+  }
+  .danger {
+    color: var(--danger-ink);
+    border-color: var(--danger-ink);
+  }
+  .danger:hover {
+    background: var(--danger-wash);
   }
   .note {
     flex: 1;

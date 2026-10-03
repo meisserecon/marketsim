@@ -23,8 +23,9 @@
       "asset": "sp500",
       "pct": 10
     },
-    "importance": 2,
-    "source": "https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json"
+    "importance": 1,
+    "source": "https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "month": "1980-12",
@@ -33,7 +34,8 @@
     "why": "A strong year that hid the danger ahead: Volcker's second squeeze of 1981 pushed the economy into a deep recession and shares into a 20-month bear market.",
     "assets": [],
     "importance": 3,
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
+    "lead": true
   },
   {
     "month": "1981-12",

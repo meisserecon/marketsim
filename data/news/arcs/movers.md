@@ -161,7 +161,7 @@ Biggest months:
 
 ### bmw: BMW
 
-In the game 1981-03 to 2026-09; price 1.8946 to 62.13 (+3179% over 45.6 years).
+In the game 1981-04 to 2026-09; price 2.0346 to 62.13 (+2954% over 45.5 years).
 Worst stretch: -64% from 2007-05 to 2009-01. Best twelve months: +115% from 1985-04 to 1986-04.
 
 Biggest months:
@@ -501,7 +501,7 @@ Biggest months:
 
 ### mercedes: Daimler-Benz / DaimlerChrysler / Daimler / Mercedes-Benz Group
 
-In the game 1981-03 to 2026-09; price 10.8225 to 46.3581 (+328% over 45.6 years).
+In the game 1981-04 to 2026-09; price 11.7778 to 46.3581 (+294% over 45.5 years).
 Worst stretch: -79% from 2007-10 to 2009-02. Best twelve months: +202% from 1985-04 to 1986-04.
 
 Biggest months:

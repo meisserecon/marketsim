@@ -37,8 +37,9 @@
       "asset": "gold",
       "pct": 17
     },
-    "importance": 2,
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+    "importance": 1,
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "note": "You should make a connection to how falling rates sends the price of bonds upwards. The article should mention the 2000 vintage bond price return ytd from the game."
   },
   {
     "month": "1980-12",

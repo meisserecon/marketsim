@@ -17,11 +17,13 @@
   },
   {
     "beat": "a64ffccc",
-    "file": "news/enron/1996-07-pge-boiler.jpg",
-    "caption": "A Portland General Electric plant, Portland, Oregon",
-    "source": "https://commons.wikimedia.org/wiki/File:Portland_General_Electric_boiler_16_west_side_-_Portland_Oregon.jpg",
-    "licence": "public domain (Historic American Engineering Record, photo: Richard H. Strode and Peter M. Eckert)",
-    "note": "Survey photograph of April 1988; no picture of the deal itself found"
+    "file": "news/enron/1996-07-lay-office.jpg",
+    "caption": "Kenneth Lay, Enron's chairman and chief executive, in his office at the company's Houston headquarters, February 1996",
+    "source": "https://www.cnbc.com/2021/12/02/twenty-years-after-epic-bankruptcy-enron-leaves-a-complex-legacy.html",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/106983179-1638392950153-gettyimages-660803-27008802lay_20020131_00093.jpeg",
+    "credit": "Paul S. Howell | Hulton Archive | Getty Images",
+    "licence": "fair use: Getty Images",
+    "note": "Lay in the year he bought Portland General. Replaces a 1988 survey photograph of a Portland General plant."
   },
   {
     "beat": "2ffd9e50",
@@ -30,14 +32,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Wessex_Water_HQ.JPG",
     "licence": "CC0, photo: Rodw",
     "note": "Photographed August 2011"
-  },
-  {
-    "beat": "64c025f7",
-    "file": "news/enron/2001-12-enron-complex.jpg",
-    "caption": "Enron's office complex in downtown Houston",
-    "source": "https://commons.wikimedia.org/wiki/File:Enron_Complex.jpg",
-    "licence": "CC BY 2.0, photo: Alex",
-    "note": "Photographed March 2008"
   },
   {
     "beat": "37c7c7d0",
@@ -118,5 +112,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Bank_Plaza,_Houston,_from_base.jpg",
     "licence": "CC BY-SA 3.0, photo: Gabor Eszes",
     "note": "Photographed December 2005"
+  },
+  {
+    "beat": "64c025f7",
+    "file": "news/enron/2001-12-enron-logo-nov-2001.jpg",
+    "caption": "The tilted E of Enron's logo glows in front of the company's new Houston headquarters on 29 November 2001, the day after the Dynegy rescue collapsed and three days before the bankruptcy filing",
+    "source": "https://www.cnbc.com/2021/12/02/twenty-years-after-epic-bankruptcy-enron-leaves-a-complex-legacy.html",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/106983167-1638392294790-enron.jpg",
+    "credit": "James Nielsen | Getty Images",
+    "licence": "fair use: Getty Images",
+    "note": "The logo that became the emblem of the collapse, photographed in the week of the bankruptcy. Replaces a 2008 photograph of the office towers."
   }
 ]

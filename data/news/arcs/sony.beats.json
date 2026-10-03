@@ -1,0 +1,538 @@
+[
+  {
+    "month": "1979-12",
+    "title": "Sony, maker of the Walkman, is in the game",
+    "what": "Sony of Tokyo makes Trinitron colour televisions, Betamax video recorders and audio equipment. On 1 July it launched the Walkman, a cassette player small enough to carry, at about 33,000 yen; Sony expected to sell 5,000 a month and sold more than 30,000 in the first two months.",
+    "why": "The listing beat for the game's archetypal Japanese growth company: inventive hardware, later music, films, games and finally image sensors and entertainment. Its dollar price also carries the yen.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Walkman (read 2026-10-03); data/src/profiles.ts (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Sony (read 2026-10-03)"
+  },
+  {
+    "month": "1980-06",
+    "title": "The Walkman reaches America",
+    "what": "Sony's pocket stereo cassette player, the TPS-L2, went on sale in the United States in June under the name Soundabout. Abroad it is also sold as the Stowaway in Britain and the Freestyle in Sweden and Australia.",
+    "why": "The Walkman turns Sony into a global consumer brand; Sony shares more than double in dollars during 1980.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Walkman (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "1981-08",
+    "title": "Sony shows a camera without film",
+    "what": "On 25 August Sony unveiled a prototype of the Mavica, an electronic still camera that records pictures as analog video signals instead of on film. Sony has not said when it might go on sale.",
+    "why": "An early glimpse of electronic imaging, the field in which Sony's image sensors later dominate.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony_Mavica (read 2026-10-03)"
+  },
+  {
+    "month": "1982-10",
+    "title": "Sony sells the first compact disc player",
+    "what": "Sony launched the CDP-101, the first compact disc player sold to consumers. The compact disc format was developed jointly by Sony and Philips.",
+    "why": "The CD becomes the music format of the next two decades and leads Sony into owning a record company. The launch date of 1 October is from data/news/1982.json; the source re-read here confirms only the year.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Compact_disc (read 2026-10-03); data/news/1982.json (read 2026-10-03)"
+  },
+  {
+    "month": "1984-01",
+    "title": "Supreme Court rules for Sony in the Betamax case",
+    "what": "On 17 January the US Supreme Court ruled 5-4 that makers of video recorders are not liable when owners copy television programmes, because recording a programme to watch later is fair use. Hollywood studios had sued Sony in 1976.",
+    "why": "The ruling secures the home video market, though Sony's own Betamax format goes on to lose the format war to VHS.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony_Corp._of_America_v._Universal_City_Studios,_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "1985-09",
+    "title": "The Plaza Accord pushes the yen up",
+    "what": "On 22 September the finance ministers and central bankers of the United States, Japan, West Germany, France and Britain agreed at the Plaza Hotel in New York to push the dollar down. The yen rose about 10% against the dollar in September. A stronger yen makes Japanese exports dearer abroad, but raises the dollar value of Japanese shares.",
+    "why": "The start of endaka, the strong yen, which squeezes Sony's export profits and pushes Japan into the cheap-money bubble. Sony's ADR rose 21% in October.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1986-12",
+    "title": "A strong yen squeezes Sony",
+    "what": "The yen kept rising through 1986, from about 200 to about 160 per dollar, making Sony's exports more expensive abroad. Sony's ADR ended the year almost exactly where it started, while Tokyo's market index rose to about 18,800 from about 13,000.",
+    "why": "Sony lags the bubble because the strong yen hurts exporters; banks such as IBJ are the winners. Its answer is to buy American content companies with its strong yen.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03, via data/news/1986.json for the index level)"
+  },
+  {
+    "month": "1987-11",
+    "title": "Sony agrees to buy CBS Records for $2 billion",
+    "what": "On 17 November Sony agreed to buy CBS Records, one of the world's biggest record companies, for 2 billion dollars. Sony would own the Columbia and Epic labels and a huge catalogue of recordings to play on its machines. Sony shares rose 19% in November even as markets kept falling after the October crash.",
+    "why": "The first of Norio Ohga's two big American media deals. The month's rise against a falling market (-9%) points to the deal; the link is our reading.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 19
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony_Music (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "1988-01",
+    "title": "Sony completes the CBS Records purchase",
+    "what": "The 2 billion dollar sale of CBS Records to Sony was completed on 5 January. CBS keeps the rights to the CBS name for music recordings and gives Sony a temporary licence to use it.",
+    "why": "Sony now owns hardware and content; the music business later becomes one of its steadiest earners.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony_Music (read 2026-10-03)"
+  },
+  {
+    "month": "1989-09",
+    "title": "Sony buys Columbia Pictures",
+    "what": "On 28 September Sony obtained an option to buy Coca-Cola's 49% stake in Columbia Pictures Entertainment for 27 dollars a share, as part of a takeover of the whole studio. The next day it agreed to buy Guber-Peters Entertainment for 200 million dollars and hired producers Peter Guber and Jon Peters to run Columbia.",
+    "why": "The Columbia deal: the biggest Japanese purchase of an American company at the time and a symbol of the bubble years. It ends in a 2.7 billion dollar write-off five years later.",
+    "assets": [
+      "sony",
+      "ko"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Sony_Pictures (read 2026-10-03)"
+  },
+  {
+    "month": "1990-09",
+    "title": "Tokyo's crash drags Sony down",
+    "what": "Japanese share prices have collapsed this year: by 30 August the market had fallen to half its December 1989 peak, as the Bank of Japan raised its discount rate step by step to 6%. Sony shares fell 22% in dollars in September.",
+    "why": "Sony is not a bank, but its shares fall with Tokyo. They rebound 23% in October.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": -22
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "1991-12",
+    "title": "Sony sells the first lithium-ion battery",
+    "what": "This year Sony, with Asahi Kasei, brought out the first commercial lithium-ion rechargeable battery. It stores more energy for its weight than older batteries and suits camcorders and portable electronics.",
+    "why": "A quiet invention that powers the phone and laptop era; Sony leads the battery industry until the 2006 recall. The month is not confirmed in the source.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/History_of_Sony (read 2026-10-03)"
+  },
+  {
+    "month": "1993-10",
+    "title": "Sony announces it will enter the games console market",
+    "what": "On 27 October Sony said it is entering the video game console market with a machine called PlayStation, built around 3D graphics. Sony and its Japanese music company have set up Sony Computer Entertainment, led by engineer Ken Kutaragi, to run the business.",
+    "why": "The PlayStation becomes Sony's most important business for the next three decades.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03); https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment (read 2026-10-03)"
+  },
+  {
+    "month": "1994-11",
+    "title": "Morita steps down; the Columbia write-off",
+    "what": "Co-founder Akio Morita, who suffered a cerebral haemorrhage last year, stepped down as chairman on 25 November and was succeeded by Norio Ohga. Sony has also taken a 2.7 billion dollar write-off on its American film studio.",
+    "why": "The reckoning for the Hollywood purchase. A 1998 report dates the write-off to more than three years before February 1998; the exact announcement month is not confirmed in the sources read.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Akio_Morita (read 2026-10-03); https://money.cnn.com/1998/02/27/companies/sony/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "1994-12",
+    "title": "The PlayStation goes on sale in Japan",
+    "what": "Sony released the PlayStation in Japan on 3 December, a week after Sega's Saturn. Launches in North America and Europe are planned for 1995.",
+    "why": "The PlayStation: the product that rescues Sony's profits in the late 1990s and builds its games business.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)"
+  },
+  {
+    "month": "1995-09",
+    "title": "PlayStation launches in America and Europe",
+    "what": "The PlayStation went on sale in North America on 9 September and in Europe on 29 September.",
+    "why": "The global launch; PlayStation outsells Nintendo and Sega in the generation.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)"
+  },
+  {
+    "month": "1997-06",
+    "title": "Sony's cinemas in merger talks with Cineplex Odeon",
+    "what": "On 20 June Cineplex Odeon of Toronto confirmed it was in talks with Sony's Loews Theatres about a merger. Cineplex runs nearly 1,600 screens in the US and Canada; analysts value it at about 700 million dollars.",
+    "why": "A sign of how far Sony has spread beyond electronics: films, cinemas, music, insurance. The breadth is later blamed for its loss of focus.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/1997/06/20/deals/sony/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Sony (read 2026-10-03)"
+  },
+  {
+    "month": "1998-02",
+    "title": "SEC questions Sony over its film write-off",
+    "what": "On 27 February Sony said it had been notified that the US Securities and Exchange Commission may investigate whether it failed to disclose information about the 2.7 billion dollar write-off at its film unit more than three years ago.",
+    "why": "A footnote that keeps the Hollywood adventure in the headlines; Nobuyuki Idei becomes co-chief executive this year.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/1998/02/27/companies/sony/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nobuyuki_Idei (read 2026-10-03)"
+  },
+  {
+    "month": "1999-12",
+    "title": "Sony soars with the technology boom and plans a split",
+    "what": "Sony shares have climbed steadily in Tokyo and New York as investors buy companies that could benefit from new technology; the Nasdaq rose 86% this year. On 27 December Sony announced a 2-for-1 stock split for May. Its ADR rose 55% in December.",
+    "why": "The peak of the arc in the internet bubble: Sony is valued as a digital-media company. From its February 2000 peak the ADR loses 94% by November 2012.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 55
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/1999/12/27/asia/sony/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2000-03",
+    "title": "PlayStation 2 goes on sale",
+    "what": "Sony released the PlayStation 2 in Japan on 4 March. It plays DVDs as well as games.",
+    "why": "PS2 becomes the best-selling console ever, but its costly launch dents profits in 2000 and 2001.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/PlayStation_2 (read 2026-10-03)"
+  },
+  {
+    "month": "2001-01",
+    "title": "Sony halves its profit forecast on PlayStation 2 losses",
+    "what": "On 25 January Sony halved its full-year net profit forecast to 50 billion yen, blaming losses at the games unit from the PlayStation 2 launch and the strong yen against the euro. Operating profit for the October-December quarter fell 11%.",
+    "why": "The first crack after the bubble peak.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/2001/01/25/asia/sony/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2001-09",
+    "title": "Markets slump after the September 11 attacks",
+    "what": "After the attacks of 11 September, US exchanges were closed until 17 September; on reopening the Dow fell 7.1%. Sony's ADR lost 26% in September.",
+    "why": "A market beat; Sony had already lost a quarter in July.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": -26
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "2001-11",
+    "title": "Technology shares recover from the September lows",
+    "what": "Stock markets recovered in October and November from their lows after the September attacks; the S&P 500 rose 8% in November. Sony's ADR rose 25%.",
+    "why": "The rebound; nothing Sony-specific has been found for the month.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 25
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "2003-10",
+    "title": "Sony to cut 20,000 jobs",
+    "what": "Sony announced it will cut 20,000 jobs, 13% of its workforce, over three years to save about 3 billion dollars a year by 2006, and cut its operating profit forecast by 23%. It leads in plasma televisions but has only about 5% of the fast-growing LCD TV market.",
+    "why": "The lost decade in one item: Sony is losing the flat-screen race to Samsung and Sharp.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 1,
+    "source": "https://money.cnn.com/2003/10/28/news/international/sony_outlook/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2005-03",
+    "title": "Howard Stringer becomes Sony's first foreign chief",
+    "what": "On 7 March Sony said Howard Stringer, the Welsh-born head of its American business and a former president of CBS, will succeed Nobuyuki Idei as chairman and chief executive in June. He is the first foreigner to run a major Japanese electronics company.",
+    "why": "Stringer revives films and music but cannot fix electronics.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nobuyuki_Idei (read 2026-10-03); https://en.wikipedia.org/wiki/Howard_Stringer (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2006-11",
+    "title": "PlayStation 3 launches",
+    "what": "Sony released the PlayStation 3 in Japan on 11 November and in North America on 17 November; the European launch slips to March. More than 81,000 units sold in Japan in the first 24 hours.",
+    "why": "An expensive console that loses money for years (about 3.3 billion dollars on hardware by mid-2008).",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "Crisis and a soaring yen hit Sony",
+    "what": "After Lehman Brothers collapsed in September, stock markets crashed in October. The yen rose about 8% against the dollar during the month, which cuts the value of Sony's foreign sales, about 80% of its total. Sony's ADR fell 25%.",
+    "why": "The strong yen is the exporters' curse of the crisis years. In yen terms Sony fell even more, about 30%.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": -25
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); https://money.cnn.com/2008/12/09/news/international/sony_cuts.ap/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2009-03",
+    "title": "Stocks rally after a year of falls",
+    "what": "After falling for most of a year, stocks rallied in March; the S&P 500 rose 9% in the month. Sony's ADR rose 25%.",
+    "why": "A market beat; the rally continued in April.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 25
+    },
+    "importance": 3,
+    "source": "data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
+  },
+  {
+    "month": "2009-04",
+    "title": "Stringer takes direct control and merges games with electronics",
+    "what": "On 1 April Howard Stringer added the job of president, replacing Ryoji Chubachi, and Sony merged its electronics and games businesses into two new groups. Stock markets kept rallying; Sony's ADR rose another 25% in April.",
+    "why": "The reorganization was read as a prelude to broader restructuring; together with the market rally it doubled the shares from their low.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 25
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Howard_Stringer (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03)"
+  },
+  {
+    "month": "2011-04",
+    "title": "Hackers break into the PlayStation Network",
+    "what": "Sony learned on 19 April of an intrusion into its PlayStation Network and shut the service down. Personal details from about 77 million accounts were compromised, one of the largest data breaches so far.",
+    "why": "A reputational low point in a year that also brings the Japanese earthquake and record losses.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage (read 2026-10-03)"
+  },
+  {
+    "month": "2012-02",
+    "title": "Kazuo Hirai named chief executive",
+    "what": "On 1 February Sony said Kazuo Hirai, who ran the PlayStation business, will become president and chief executive on 1 April, succeeding Howard Stringer.",
+    "why": "Hirai's 'One Sony' turnaround: sell PCs, shrink TVs, bet on games, sensors and entertainment.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2012-04",
+    "title": "Sony doubles its loss forecast to 520 billion yen",
+    "what": "On 10 April Sony said its loss for the year to March will be 520 billion yen, about 6.4 billion dollars, more than twice its February forecast, because of write-offs of deferred tax assets. Its US shares fell 10% that day.",
+    "why": "The bottom stretch of the lost decade: the ADR falls 22% in April and reaches its low in November 2012.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 1,
+    "source": "https://money.cnn.com/2012/04/10/markets/sony/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2013-01",
+    "title": "A weaker yen and a building sale lift Sony",
+    "what": "Japan's new government under Shinzo Abe is pushing for a weaker yen and aggressive monetary easing; the yen fell about 5% against the dollar in January. On 18 January Sony shares jumped after it sold its New York headquarters building. Sony's ADR rose 33% in January.",
+    "why": "The start of the comeback: Abenomics lifts exporters, and Sony is the most beaten-down of them. In yen terms the stock rose about 40%.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 33
+    },
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://money.cnn.com/2013/01/18/investing/sony-stock/ via web.archive.org (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2013-05",
+    "title": "Hedge fund Third Point pushes Sony to split off entertainment",
+    "what": "On 14 May Dan Loeb's Third Point, which holds more than 6% of Sony, wrote to chief executive Hirai proposing to separate the film and music business from the struggling electronics arm. Sony's shares have risen 96% this year. The ADR gained 23% in May.",
+    "why": "Activist pressure that Sony resists; it keeps entertainment, which later becomes its strength.",
+    "assets": [
+      "sony"
+    ],
+    "move": {
+      "asset": "sony",
+      "pct": 23
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/2013/05/14/news/companies/sony-third-point/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Daniel_S._Loeb (read 2026-10-03)"
+  },
+  {
+    "month": "2014-02",
+    "title": "Sony sells its Vaio PCs and spins off TVs",
+    "what": "Sony announced the sale of its Vaio PC division to the investment fund Japan Industrial Partners and will turn its television business into a separate company. The TV business has lost about 7.8 billion dollars over a decade.",
+    "why": "Hirai cuts the businesses that made Sony famous but no longer earn money.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2015-12",
+    "title": "Sony buys Toshiba's image sensor business",
+    "what": "This year Sony bought Toshiba's image sensor business, strengthening its position as the leading maker of the camera chips used in smartphones.",
+    "why": "Sensors become one of the pillars of the comeback. The month of the deal is not confirmed in the source.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2017-12",
+    "title": "Sony sells its battery business",
+    "what": "This year Sony sold its lithium-ion battery business, which it pioneered in 1991, to Murata Manufacturing, and closed its landmark Sony Building in Tokyo's Ginza for redevelopment. Sony's ADR rose about 60% during 2017.",
+    "why": "The comeback year: profits from games, sensors and entertainment, and an exit from commodity hardware.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "2018-04",
+    "title": "Kenichiro Yoshida succeeds Hirai",
+    "what": "Kazuo Hirai handed over as chief executive in April and became chairman; his successor is Kenichiro Yoshida, who had led Sony's internet provider So-net and taken it public in 2005.",
+    "why": "Yoshida continues the shift towards games, music, films and sensors.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03); https://en.wikipedia.org/wiki/Kenichiro_Yoshida (read 2026-10-03)"
+  },
+  {
+    "month": "2019-12",
+    "title": "Sony merges its phone, TV and camera businesses",
+    "what": "During 2019 Sony merged its mobile phone, television and camera businesses into one unit. Sony's ADR rose about 40% this year.",
+    "why": "Consolidating the shrinking hardware while games, sensors and music carry the company. The month of the merger is not confirmed in the source, hence a year-end beat.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "2020-05",
+    "title": "Sony to become Sony Group and buy out its finance arm",
+    "what": "On 19 May Sony said it will rename itself Sony Group Corporation from April 2021, with the electronics business taking the Sony Corporation name, and will make Sony Financial Holdings, of which it owns about 65%, a wholly owned subsidiary through a takeover bid.",
+    "why": "The new structure: a holding company over games, music, films, sensors, electronics and finance.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2021-04",
+    "title": "Sony becomes Sony Group",
+    "what": "On 1 April Sony Corporation was renamed Sony Group Corporation, and the electronics business took over the Sony Corporation name. Sony Financial Holdings, bought out last year, is now wholly owned.",
+    "why": "The holding structure of the comeback years.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03); https://en.wikipedia.org/wiki/Sony_Financial_Group (read 2026-10-03)"
+  },
+  {
+    "month": "2022-10",
+    "title": "The yen falls to its weakest in decades",
+    "what": "The yen fell to nearly 150 to the dollar in October, its weakest since 1990. A weak yen raises the value of Sony's foreign earnings in yen, but lowers its share price in dollars.",
+    "why": "Currency beat for a dollar-based player: Sony's ADR fell 19% in September and rose 23% in November as the yen swung.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+  },
+  {
+    "month": "2024-05",
+    "title": "Sony closes PlayStation studios",
+    "what": "As part of company-wide layoffs Sony shut down its PlayStation London Studio in May, and later in the year closed the mobile developer Neon Koi and Firewalk Studios.",
+    "why": "Cost discipline in games after the post-pandemic boom.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2026-03",
+    "title": "Sony hands its TV business to a venture led by TCL",
+    "what": "Sony and the Chinese electronics maker TCL agreed to form a joint venture for televisions, professional displays and home audio. TCL holds 51% and runs development, manufacturing and distribution; Sony keeps 49% and licenses the brand and core technology.",
+    "why": "The end of Sony as a television maker, the business of the Trinitron.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "Sony plans to phase out PlayStation game discs",
+    "what": "Sony announced plans to phase out physical disc production for PlayStation consoles from January 2028, provoking a backlash from players worried about game preservation and digital ownership.",
+    "why": "A strategic bet on digital sales; the shares rose 16% in July regardless, and no other cause for the rise was found.",
+    "assets": [
+      "sony"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  }
+]

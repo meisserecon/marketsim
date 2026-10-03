@@ -1,0 +1,545 @@
+[
+  {
+    "month": "1979-12",
+    "title": "Siemens, Germany's electrical giant, is in the game",
+    "what": "Siemens of Munich is Germany's largest electrical engineering company. It builds power stations, telephone exchanges, medical equipment, industrial controls and household appliances, and makes them in dozens of countries. It is moving its telephone business from mechanical to digital switching, with a first digital exchange due in 1980.",
+    "why": "The listing beat: a sprawling, conservative conglomerate whose shares move with the German economy, the mark and the dollar. Its story over four decades is about shedding most of what it makes in 1979.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "data/src/profiles.ts (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "1981-01",
+    "title": "Karlheinz Kaske takes charge at Siemens",
+    "what": "Karlheinz Kaske succeeded Bernhard Plettner as chief executive of Siemens at the start of 1981. Siemens made its first digital telephone exchange in 1980, and its EWSD system is meant to replace the old electromechanical switches of the Bundespost and of export customers.",
+    "why": "Kaske runs Siemens until 1992, the decade of big bets on chips, computers and telecoms. EWSD later becomes the world's best-selling landline switching system. English Wikipedia gives only the year; the date of 28 January in data/news/1981.json comes from German sources not re-read here.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Karlheinz_Kaske (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "1981-12",
+    "title": "A strong dollar hits Siemens in dollar terms",
+    "what": "Siemens shares lost about a third of their dollar value in 1981. Much of it is the currency: the dollar rose from about 2 marks in January to 2.5 marks in August.",
+    "why": "A reminder that for a dollar player a German stock is also a bet on the mark. Siemens' dollar price bottoms in mid-1982, the lowest of the game.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "data/out/siemens.json (read 2026-10-03); data/raw/fred/EXGEUS.csv (read 2026-10-03)"
+  },
+  {
+    "month": "1983-08",
+    "title": "Siemens installs its first commercial MRI scanner",
+    "what": "In August a Siemens MAGNETOM, the company's first commercial magnetic resonance scanner, went into operation at the Mallinckrodt Institute of Radiology in St. Louis after just under three months of installation. Siemens had tested a prototype at Hannover Medical School since February.",
+    "why": "Medical imaging becomes one of Siemens' most profitable businesses and, as Siemens Healthineers, one of the pieces it later lists separately.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/mri (read 2026-10-03)"
+  },
+  {
+    "month": "1984-12",
+    "title": "Siemens bets on memory chips with the MEGA project",
+    "what": "This year Siemens launched the MEGA project to develop memory chips that hold 1 and 4 million bits. US and Japanese firms dominate the semiconductor industry, and Siemens wants to catch up.",
+    "why": "The start of the semiconductor business that Siemens spins off as Infineon in 1999; with Toshiba it became the first Western maker to mass-produce 1-megabit chips in 1987.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "1985-12",
+    "title": "Siemens buys out Allis-Chalmers in the US",
+    "what": "This year Siemens bought Allis-Chalmers' interest in Siemens-Allis, the partnership formed in 1978 that supplies electrical control equipment in the United States. Siemens shares rose 21% in dollars in December, helped by a falling dollar after the Plaza Accord of September.",
+    "why": "An early step in building Siemens' American business. The 1985 rally (Siemens doubled in dollars during the year) is mostly the German market and the mark.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "The October crash hits Frankfurt: Siemens loses a quarter",
+    "what": "Stock markets crashed worldwide in October, starting in Asia and spreading to Europe and then New York, where the Dow fell 22.6% on 19 October. German blue chips fell with them. Siemens shares lost about a quarter of their value in dollars during the month.",
+    "why": "A market beat: nothing Siemens-specific, but its worst month of the 1980s. Frankfurt needed more than a year to recover.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -25
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "1988-12",
+    "title": "Siemens buys Rolm from IBM and bids for Plessey with GEC",
+    "what": "On 13 December IBM agreed to hand Rolm, a leading US maker of business telephone systems, to Siemens; the price was not disclosed, IBM had paid 1.26 billion dollars for it in 1984, and it has lost about 100 million a year since. Also this month Siemens and Britain's GEC teamed up in a hostile bid for the British electronics group Plessey worth about 3.1 billion dollars.",
+    "why": "Kaske spends the cash pile on telecoms and defence electronics abroad. Plessey is the first of the two big deals of this era; Nixdorf follows in 1990.",
+    "assets": [
+      "siemens",
+      "ibm"
+    ],
+    "importance": 2,
+    "source": "https://www.upi.com/Archives/1988/12/13/IBM-telecommunications-division-to-become-part-of-Siemens/4989597992400/ (read 2026-10-03); https://www.globalsecurity.org/military/world/europe/plessey.htm (read 2026-10-03); data/news/1988.json for the bid date of 23 December (not re-checked)"
+  },
+  {
+    "month": "1989-09",
+    "title": "Siemens and GEC complete the Plessey takeover",
+    "what": "Siemens and GEC completed their takeover of Plessey on 8 September after raising their offer to about 3.3 billion dollars. Outside North America GEC takes Plessey's naval systems, avionics and cryptography, Siemens takes radar and defence systems, and the telecoms venture GPT is split 60-40 between GEC and Siemens.",
+    "why": "The Plessey deal: Siemens' biggest foreign acquisition of the decade. It sells the defence part to British Aerospace and DaimlerChrysler Aerospace in 1997.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://www.globalsecurity.org/military/world/europe/plessey.htm (read 2026-10-03); https://en.wikipedia.org/wiki/GEC_Plessey_Telecommunications (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "1989-11",
+    "title": "The Berlin Wall falls and German shares soar",
+    "what": "On 9 November East Germany opened its border crossings and the Berlin Wall fell, after weeks of mass protests and refugee flights. Siemens, which builds power plants, telephone networks and trains, rose 21% in dollars in November.",
+    "why": "The reunification rally: Siemens gains another 21% in December, as investors price in the rebuilding of East Germany. The link to the Wall is our reading of the timing; no Siemens news drove the month.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 21
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "1990-10",
+    "title": "Siemens takes over Nixdorf",
+    "what": "On 1 October Siemens took over the shares of Nixdorf Computer, the troubled Paderborn computer maker, and merged it with its own data systems business as Siemens Nixdorf Informationssysteme (SNI). Nixdorf had swung from an operating profit of 331 million marks in 1987 to a loss in 1988. The combination makes Siemens the largest computer company in Europe.",
+    "why": "The Nixdorf deal: a national rescue as much as a strategy. SNI sells well but never grows profits, and Siemens folds it into Fujitsu Siemens Computers in 1999.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "1991-10",
+    "title": "Siemens buys Texas Instruments' industrial controls unit",
+    "what": "In October Siemens acquired the Industrial Systems Division of Texas Instruments, based in Johnson City, Tennessee. Siemens is still digesting Nixdorf, where thousands of jobs have been cut in Paderborn.",
+    "why": "Factory automation, bought piece by piece, becomes the core of the Siemens of the 2020s.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03)"
+  },
+  {
+    "month": "1992-12",
+    "title": "Heinrich von Pierer becomes chief executive",
+    "what": "During 1992 Heinrich von Pierer, a lawyer who ran the nuclear power unit KWU, succeeded Karlheinz Kaske as chief executive. Siemens Nixdorf became a wholly owned subsidiary this year, and Siemens also bought out IBM's half of the Rolm telephone business.",
+    "why": "Von Pierer runs Siemens until January 2005, exits many traditional businesses and later resigns as supervisory board chairman over the bribery scandal. The exact month of his start is not confirmed in the sources read, hence a year-end beat.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Heinrich_von_Pierer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "1994-12",
+    "title": "Siemens sells its first GSM mobile phone",
+    "what": "This year Siemens launched the S1, its first phone for the new digital GSM networks. Siemens has made mobile phones since the C1 of 1985 and is one of the main suppliers of GSM network equipment in Europe.",
+    "why": "The start of the handset business that peaks around 2000 and is sold, loss-making, to BenQ in 2005. The launch month is not confirmed in the source.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens_Mobile (read 2026-10-03)"
+  },
+  {
+    "month": "1996-12",
+    "title": "A weak year for Siemens shares",
+    "what": "Siemens shares ended 1996 about 15% lower in dollar terms than a year earlier. Its computer arm Siemens Nixdorf has become Europe's best-selling computer maker but is not a growth driver.",
+    "why": "Context for the Ten-Point Program of 1998: the market wanted a slimmer, more profitable Siemens long before management delivered one.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "data/out/siemens.json (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "1998-11",
+    "title": "Siemens plans to spin off its chip business",
+    "what": "On 4 November Siemens said it will spin off its semiconductor division and sell other units, as part of a plan to raise profits presented by chief executive von Pierer. The chip division lost 1.2 billion marks before tax in the year to September as chip prices collapsed; group sales rose 10% to 117.8 billion marks and Siemens takes a 4 billion mark restructuring charge.",
+    "why": "The Ten-Point Program: the turning point that, with the internet boom, nearly triples the share price within 15 months.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://money.cnn.com/1998/11/04/companies/siemens/ via web.archive.org (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "2000-02",
+    "title": "Siemens profits double and the Infineon offer opens",
+    "what": "On 24 January Siemens reported that first-quarter profit nearly doubled, raised its forecast and said all divisions were in the black; sales at Infineon rose more than 70%. From 21 February investors could subscribe for 25 to 30% of Infineon ahead of a listing in Frankfurt and New York on 13 March. Siemens shares rose 31% in February.",
+    "why": "The top of the arc: Siemens' best month in decades and close to its all-time high in dollars until 2007. The jump reflects the market pricing in the Infineon stake at internet-era valuations; that link is our reading.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 31
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/2000/01/24/europe/siemens/ via web.archive.org (read 2026-10-03); https://www.telecompaper.com/news/infineon-to-tender-25-30-of-shares--206140 (read 2026-10-03); https://www.eetimes.com/infineon-doubles-value-in-ipo-topping-5-billion/ (read 2026-10-03)"
+  },
+  {
+    "month": "2001-09",
+    "title": "Markets slump after the September 11 attacks",
+    "what": "After the attacks of 11 September, US stock exchanges stayed closed until 17 September; on reopening the Dow fell 7.1% in a day. European markets fell with them. Siemens shares lost a quarter of their value in September.",
+    "why": "A market beat on top of the telecom slump.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -25
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "2001-10",
+    "title": "Siemens cuts 7,000 more telecom jobs, and the shares rebound",
+    "what": "On 15 October Siemens said it will cut another 7,000 jobs at its loss-making fixed-line and mobile network unit, on top of 10,000 already announced, aiming at 2 billion euros of savings and profit improvements. Markets recovered from their September lows, and Siemens shares rose 27% in October.",
+    "why": "The rebound month; the cuts reassured investors that management was acting. The recovery continued in November (+22%) when Siemens' fourth-quarter loss came in smaller than the worst forecasts.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 27
+    },
+    "importance": 3,
+    "source": "https://money.cnn.com/2001/10/15/international/siemens/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/11/14/international/siemens/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2002-09",
+    "title": "Stock markets sink to five-year lows",
+    "what": "Stock markets slid through the summer, with sharp drops in July and September; the Dow hit a four-year low on 24 September. Technology and telecom stocks were hit hardest. Siemens, still exposed to telecom equipment, lost 29% in September.",
+    "why": "The bottom of the post-2000 bear market: Siemens is 72% below its February 2000 peak.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -29
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "2002-10",
+    "title": "Markets bounce from their October low",
+    "what": "Markets broke to new lows on 7 October and touched bottom on 9 October, then rallied for the rest of the month. Siemens shares rose 41%, their best month since at least 1979.",
+    "why": "The violent rebound off the bear-market low; it confirms how much of Siemens' price in these years was market beta rather than company news.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 41
+    },
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "2003-11",
+    "title": "Cost cuts bring Siemens back to profit",
+    "what": "On 13 November Siemens reported fourth-quarter net profit of 724 million euros, above expectations and up from 53 million a year earlier, as cost cutting paid off and the troubled telecom unit turned around. It forecast double-digit growth in net income for next year. The shares rose 2.8%.",
+    "why": "The recovery from the telecom bust; Siemens nearly doubles in dollars during 2003.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/2003/11/13/news/international/siemens.reut/index.htm via web.archive.org (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "2005-06",
+    "title": "Siemens gives away its mobile phone business to BenQ",
+    "what": "Siemens agreed to sell its loss-making mobile phone business to BenQ of Taiwan. Siemens will pay BenQ at least 250 million euros to get the new venture started, in return for a 2.5% stake in BenQ; BenQ intends to keep the German plants and the Munich headquarters.",
+    "why": "The exit from handsets. BenQ Mobile collapses the following year, a reputational blow in Germany.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/BenQ_Mobile (read 2026-10-03)"
+  },
+  {
+    "month": "2006-06",
+    "title": "Siemens and Nokia merge their network businesses",
+    "what": "On 19 June Siemens and Nokia agreed to combine most of their telecom equipment businesses in a 50-50 venture, Nokia Siemens Networks, with 20 billion dollars of sales last year. Up to 9,000 jobs are expected to go. Siemens shares jumped 8.3% on the day.",
+    "why": "Siemens' exit from telecom equipment, its historic core. It sells its half to Nokia in 2013.",
+    "assets": [
+      "siemens",
+      "nokia"
+    ],
+    "importance": 2,
+    "source": "https://money.cnn.com/2006/06/19/news/international/nokia_siemens.reut/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2006-11",
+    "title": "Police raid Siemens in a bribery investigation",
+    "what": "On 15 November more than 200 police officers searched Siemens offices across Germany, looking for evidence of bribery. Prosecutors in Italy, Liechtenstein and Switzerland are also investigating, and the telecom unit is at the centre of the inquiry.",
+    "why": "The bribery scandal: investigators later count about 1.4 billion dollars of illegal payments from 2001 to 2007, a quarter of them through the telecom unit. It costs two chiefs their jobs and ends with record fines.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2007-04",
+    "title": "Scandal takes down von Pierer and Kleinfeld",
+    "what": "On 19 April supervisory board chairman Heinrich von Pierer said he will resign, denying any guilt over events during his time as chief executive. On 25 April chief executive Klaus Kleinfeld said he will not seek to renew his contract, which ends in September, after board members disagreed publicly about extending it.",
+    "why": "The leadership vacuum at the height of the scandal; the shares still rose 14% in April in a strong market and on Kleinfeld's earnings record.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://money.cnn.com/2007/04/19/news/international/bc.siemens.chairman.resignation.reut/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2007/04/25/news/international/siemens_ceo_resigns.reut/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2008-10",
+    "title": "The financial crisis hits Siemens, and the euro falls",
+    "what": "After Lehman Brothers filed for bankruptcy on 15 September, stock markets crashed in October. The euro fell about 10% against the dollar during the month as investors fled to the dollar. Siemens shares lost 36% in dollar terms, 29% in euros.",
+    "why": "Siemens' worst month in the game. The currency explains about a quarter of the fall for a dollar-based player.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -36
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
+  },
+  {
+    "month": "2008-12",
+    "title": "Siemens settles the bribery case for about $1.4 billion",
+    "what": "On 15 December Siemens agreed to pay about 1.4 billion dollars to US and German authorities to settle the bribery charges, including a 350 million dollar payment to the SEC and 569 million to the Munich prosecutor. The SEC called it the largest settlement in the history of the Foreign Corrupt Practices Act. The euro also recovered strongly in December.",
+    "why": "The end of the legal uncertainty, together with a 10% euro rebound, lifts the shares 23% in December. Counting an earlier German fine, the total came to about 1.6 billion dollars.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 23
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/2008/12/15/news/companies/siemens_bribery/index.htm via web.archive.org (read 2026-10-03); https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2009-01",
+    "title": "Siemens leaves its nuclear venture with Areva as markets slide",
+    "what": "On 26 January Siemens said it will terminate its agreement with Areva and sell its 34% stake in the Franco-German nuclear company Areva NP, which it formed in 2001. Markets fell again in January and the euro lost about 8% against the dollar. Siemens shares fell 23% in dollars.",
+    "why": "Mostly market and currency; the Areva exit is a strategic footnote, and the first step out of nuclear power.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -23
+    },
+    "importance": 3,
+    "source": "https://press.siemens.com/global/en/pressrelease/siemens-divest-its-stake-areva-np-joint-venture-loscher-nuclear-power-essential-part (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2010-12",
+    "title": "Siemens sells its IT services arm to Atos",
+    "what": "In December Siemens agreed to sell its IT Solutions and Services subsidiary to the French company Atos for 850 million euros.",
+    "why": "Another exit from a low-margin business; what was left of Siemens' computer services leaves the group.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "title": "Siemens quits nuclear power",
+    "what": "Siemens, which built all 17 of Germany's nuclear power plants, said it will leave the nuclear business after the Fukushima disaster and Germany's decision to phase out nuclear power. Chief executive Löscher backs the country's switch to renewable energy.",
+    "why": "The end of a business that once defined Siemens; the energy unit pivots to gas turbines, grids and wind.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2013-07",
+    "title": "Löscher is ousted; finance chief Joe Kaeser takes over",
+    "what": "In July Siemens replaced Peter Löscher with its finance chief Joe Kaeser, four years before Löscher's contract was due to end, after late deliveries of ICE high-speed trains and delays at offshore wind projects. Kaeser has worked at Siemens since 1980.",
+    "why": "The start of the Kaeser era: Vision 2020, the spin-offs of Healthineers and Siemens Energy, and a share price that more than doubles with dividends by 2021.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03)"
+  },
+  {
+    "month": "2013-07",
+    "title": "Siemens spins off its lighting arm Osram",
+    "what": "Siemens spun off Osram, its light bulb maker since 1978, on 5 July; Osram shares began trading in Frankfurt on 8 July. Siemens shareholders received Osram shares directly, after more than 98% of them approved the plan in January.",
+    "why": "The first of the Kaeser-era separations, though planned under Löscher. The price series is adjusted for the spin-off.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)"
+  },
+  {
+    "month": "2014-11",
+    "title": "Kaeser starts Vision 2020",
+    "what": "On 6 November Siemens reported fourth-quarter net income up 40% at 1.5 billion euros and said it has begun carrying out 'Vision 2020', its plan to concentrate on electrification, automation and digitalization and to cut costs by a billion euros. Earlier this year it agreed to buy Rolls-Royce's gas turbine business for 1 billion pounds and, with Mitsubishi Heavy Industries, bid against General Electric for Alstom's energy business.",
+    "why": "Strategy beat: the blueprint for the slimmer Siemens of the 2020s.",
+    "assets": [
+      "siemens",
+      "ge"
+    ],
+    "importance": 3,
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2014-fiscal-year-guidance-achieved-execution-vision-2020-begun (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "2016-11",
+    "title": "Siemens buys Mentor Graphics; wind merger with Gamesa",
+    "what": "In November Siemens agreed to buy the US chip-design software company Mentor Graphics for 4.5 billion dollars. In June it agreed to merge its wind power business with Spain's Gamesa, holding 59% of the combined company and funding a cash payment of 3.75 euros a share to Gamesa's other shareholders.",
+    "why": "Vision 2020 in action: software for the digital factory, and wind power as a separate listed company that later becomes part of Siemens Energy.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-and-gamesa-merge-wind-businesses-create-leading-wind-power-player (read 2026-10-03)"
+  },
+  {
+    "month": "2018-03",
+    "title": "Siemens Healthineers goes public",
+    "what": "Siemens listed its medical technology business, Siemens Healthineers, on the Frankfurt stock exchange on 16 March, selling a 15% stake at 28 euros a share. The flotation was billed as Germany's largest since Deutsche Telekom's in 1996.",
+    "why": "The healthcare carve-out; Siemens keeps a large majority and later plans to hand the rest to its own shareholders.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Siemens_Healthineers (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "2019-11",
+    "title": "Siemens confirms the plan to spin off its energy business",
+    "what": "On 7 November Siemens said it plans to carve out its Gas and Power division, add its 59% stake in Siemens Gamesa, and spin off and list the new Siemens Energy before the end of fiscal 2020. It expects earnings per share of 6.30 to 7.00 euros in fiscal 2020. Siemens shares rose 12% in November.",
+    "why": "The final break-up step of the Kaeser era is now on a timetable.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2019 (read 2026-10-03)"
+  },
+  {
+    "month": "2020-09",
+    "title": "Siemens Energy is spun off",
+    "what": "Shares of Siemens Energy, the former gas and power division, began trading in Frankfurt on 28 September after Siemens shareholders approved the split in July. Siemens shareholders received Siemens Energy shares; Siemens keeps a minority stake.",
+    "why": "The biggest separation in Siemens' history: the power business that was its foundation leaves the group. Prices in the game are adjusted for the spin-off.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Siemens_Energy (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+  },
+  {
+    "month": "2021-02",
+    "title": "Roland Busch succeeds Joe Kaeser",
+    "what": "At its virtual annual meeting on 3 February Siemens said goodbye to Joe Kaeser, and Roland Busch became chief executive. Siemens says total shareholder return more than doubled since Kaeser took office in 2013.",
+    "why": "A smooth handover to the architect of the digital industries strategy.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 3,
+    "source": "https://press.siemens.com/global/en/pressrelease/leadership-succession-successfully-completed-roland-busch-succeed-joe-kaeser-president (read 2026-10-03)"
+  },
+  {
+    "month": "2022-11",
+    "title": "Record profit as Siemens closes fiscal 2022",
+    "what": "On 17 November Siemens reported an outstanding fiscal 2022 with record profit of more than 10 billion euros in its industrial businesses and free cash flow of 8.2 billion euros, and forecast earnings per share of 8.70 to 9.20 euros for 2023 on a high order backlog. The euro also rose against the dollar. Siemens shares gained 24% in November.",
+    "why": "The market rewards the slimmed-down industrial Siemens; about 4 points of the gain is the euro.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 24
+    },
+    "importance": 2,
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2022 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
+  },
+  {
+    "month": "2023-11",
+    "title": "Another record year and a higher dividend",
+    "what": "On 16 November Siemens reported a record fiscal 2023, with free cash flow above 10 billion euros for the first time, proposed raising the dividend to 4.70 euros and expanded its share buyback. Stock markets rallied strongly in November. Siemens shares rose 27%.",
+    "why": "Strong results meet a broad market rally (S&P 500 +9%).",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 27
+    },
+    "importance": 2,
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2023 (read 2026-10-03)"
+  },
+  {
+    "month": "2025-11",
+    "title": "Siemens outlines a spin-off of its Healthineers stake",
+    "what": "In November Siemens outlined a plan to hand its majority stake in Siemens Healthineers directly to its own shareholders. Siemens sold part of the stake in February, keeping 73%, and completed the purchase of the engineering software maker Altair for about 10 billion dollars, its largest deal, in March.",
+    "why": "The last big step of the conglomerate's break-up: Siemens becomes a pure industrial technology and software company.",
+    "assets": [
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://press.siemens.com/global/en/pressrelease/siemens-clarifies-timeline-spin-siemens-healthineers-shares (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-completes-todays-announced-sale-portion-its-shareholding-siemens-healthineers (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2026-03",
+    "title": "The Iran war hits Europe's industry",
+    "what": "After US and Israeli strikes on Iran on 28 February, Iran closed the Strait of Hormuz on 4 March. Brent crude passed 120 dollars, European gas prices nearly doubled, and the European Central Bank postponed rate cuts and warned of stagflation. Siemens shares fell 19% in March.",
+    "why": "An energy shock for European industry; Siemens' customers are the factories hit by gas prices.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": -19
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "title": "Ceasefire rally; Siemens sets the Healthineers vote",
+    "what": "A two-week ceasefire between the US and Iran began on 8 April and the Strait of Hormuz reopened for its duration; stocks rebounded from their 30 March low. On 17 April Siemens said shareholders will vote on the direct spin-off of its Healthineers shares at the annual meeting in February 2027. Siemens shares rose 25% in April.",
+    "why": "Mostly the relief rally (S&P 500 +10%), with the spin-off timeline as a company-specific boost.",
+    "assets": [
+      "siemens"
+    ],
+    "move": {
+      "asset": "siemens",
+      "pct": 25
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-clarifies-timeline-spin-siemens-healthineers-shares (read 2026-10-03)"
+  }
+]

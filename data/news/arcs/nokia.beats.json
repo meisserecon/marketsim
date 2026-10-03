@@ -1,0 +1,532 @@
+[
+  {
+    "month": "1994-07",
+    "title": "Nokia, the Finnish phone maker, joins the game",
+    "what": "Nokia of Finland has a secondary listing on the New York Stock Exchange this year. Founded as a pulp mill and long a maker of rubber goods, cables, tyres and televisions, it has sold or spun off many of those businesses and under chief executive Jorma Ollila, in charge since January 1992, is turning itself into a telecoms company. Its equipment carried the world's first GSM call in 1991, and it sold the first commercial GSM phone, the Nokia 1011, in 1992.",
+    "why": "The listing beat: the cheapest entry into the mobile phone boom. Nokia's operating profit, negative in 1991, reaches about 1 billion dollars in 1995. The exact NYSE listing date is not confirmed in the sources read; the game's data starts in July 1994.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); data/src/profiles.ts (read 2026-10-03); data/src/universe.ts (read 2026-10-03)"
+  },
+  {
+    "month": "1995-12",
+    "title": "Nokia warns on profits; shares plunge",
+    "what": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "why": "The first Nokia crash, caused by its own logistics as much as the market. It leads to a rebuilt supply chain that becomes a competitive weapon.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -28
+    },
+    "importance": 1,
+    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)"
+  },
+  {
+    "month": "1996-06",
+    "title": "Nokia sells its television business",
+    "what": "On 12 June Nokia announced the sale of its television business to Semi-Tech of Canada and Hong Kong, including a factory in Turku; its German TV plant will close in September.",
+    "why": "Ollila sheds the consumer electronics that nearly sank Nokia in the late 1980s, leaving phones and networks.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "1997-12",
+    "title": "Nokia sells its loudspeaker business",
+    "what": "On 23 December Nokia agreed to sell its audio electronics business, with 1,173 employees in Germany, Hungary and Sweden, to Harman. Nokia had net sales of 39.3 billion markka, about 8.5 billion dollars, in 1996 and employs more than 36,000 people.",
+    "why": "Another non-core exit; by now almost all of Nokia is phones and networks.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://www.nokia.com/en_int/news/releases/1997/12/23/nokia-announces-an-agreement-to-sell-its-audio-electronics-business via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "1998-10",
+    "title": "Nokia passes Motorola as the world's biggest phone maker",
+    "what": "On 23 October Nokia reported third-quarter pre-tax profit up 85% and sales up 62%, far better than expected, and said it is now the world's largest maker of mobile phones, ahead of Motorola. Sales rose in the US, Europe and China.",
+    "why": "The defining moment of Nokia's rise: it stays number one for a decade, helped by colourful, cheap phones such as the 5110 and 3210.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 1,
+    "source": "https://money.cnn.com/1998/10/23/companies/nokia/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "1999-01",
+    "title": "Record 1998 results and a stock split",
+    "what": "On 29 January Nokia reported record 1998 earnings, with sales up 51% to 79.2 billion markka, and announced a 2-for-1 stock split. The shares have more than quadrupled in a year.",
+    "why": "The momentum years: Nokia's ADR rises 279% in the twelve months to January 1999.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/1999/01/29/europe/nokia/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "1999-12",
+    "title": "Nokia rides the technology boom",
+    "what": "In October Nokia reported third-quarter profit up 36% and said revenue growth for the year will exceed 40%. Technology shares are in a frenzy: the Nasdaq rose 86% in 1999. Nokia's ADR rose 36% in December alone.",
+    "why": "The run-up to the peak; at the height of the bubble Nokia accounts for 70% of the Helsinki stock market's value.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 36
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/1999/10/21/europe/nokia/ via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2000-07",
+    "title": "Nokia warns, and the shares lose a quarter in a day",
+    "what": "On 27 July Nokia reported record second-quarter profit, up 62%, but said third-quarter earnings per share will fall below the 0.20 euros just reported, before new internet-enabled phones take hold. Its ADR fell 26.5% in a day in New York.",
+    "why": "The first crack in the bubble story; the shares had touched a lifetime high of 65 euros in Helsinki on 20 June.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 2,
+    "source": "https://money.cnn.com/2000/07/27/europe/nokia/ via web.archive.org (read 2026-10-03); https://news.bbc.co.uk/2/hi/business/1055805.stm (read 2026-10-03)"
+  },
+  {
+    "month": "2000-12",
+    "title": "'The best is yet to come'",
+    "what": "On 5 December Nokia said it expects to keep revenue growth at 25-35% through 2003, claimed more than 30% of the world phone market, nearly twice its nearest rival, and raised its forecast for subscribers to one billion by the first half of 2002. Its shares jumped almost 10% in Helsinki.",
+    "why": "Peak confidence. Rivals Ericsson and Motorola are struggling in handsets.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://news.bbc.co.uk/2/hi/business/1055805.stm (read 2026-10-03)"
+  },
+  {
+    "month": "2001-02",
+    "title": "Nokia slides as the phone market slows",
+    "what": "On 30 January Nokia cut its first-quarter sales growth forecast to 25-30% and its estimate for world phone sales this year to 500-550 million, citing economic uncertainty and slowing phone sales; earlier in January it had disclosed lower 2000 phone sales than analysts hoped. Wireless shares have been under pressure on signs of slowing growth and falling profitability. Nokia's ADR lost 36% in February.",
+    "why": "The bubble deflates; no single Nokia announcement in February has been found, so the move is the sector sell-off on top of the January forecast cut.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -36
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2001-06",
+    "title": "Nokia warns again as the slowdown spreads",
+    "what": "On 12 June Nokia warned that second-quarter earnings will be 0.15-0.17 euros a share, below expectations, that sales growth will be under 10%, and that it will take a restructuring charge, citing the spread of the US slowdown and less aggressive marketing by operators. Its ADR fell nearly 20% that day.",
+    "why": "The telecom bust reaches the market leader.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -24
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/2001/06/12/companies/nokia/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2001-10",
+    "title": "Nokia's results beat fears",
+    "what": "On 19 October Nokia said third-quarter profit before one-off items fell 18% to 760 million euros, better than the 25% fall analysts expected, and forecast fourth-quarter earnings of 0.18-0.20 euros a share. Its shares rose.",
+    "why": "Relief after the September collapse; the ADR rose 31% in October and kept rising into January.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 31
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/2001/10/19/international/nokia/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2002-10",
+    "title": "Nokia returns to growth",
+    "what": "On 17 October Nokia reported an unexpectedly large rise in third-quarter profit, to 610 million euros, as colour-screen and multimedia phones sold well, and said it is entering a new growth period. Its shares closed up 10.5% in Helsinki.",
+    "why": "A rebound off the 2002 market low (+25% in October).",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/2002/10/17/technology/nokia.ap/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2004-04",
+    "title": "Nokia loses market share and warns",
+    "what": "On 6 April Nokia said first-quarter sales fell 2% to 6.6 billion euros instead of rising 3-7%, as its handset volumes grew 19% in a market that grew more than 25%; its ADR fell more than 15% before trading opened. On 16 April it confirmed its market share had fallen to about 35% and warned of second-quarter earnings well below last year's.",
+    "why": "The first sign that Nokia could lose its grip on the market; its share dropped from 34.6% to 28.9% by some counts, and the ADR fell 31% in April.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -31
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/2004/04/06/news/international/nokia.reut/index.htm via web.archive.org (read 2026-10-03); https://www.theguardian.com/business/2004/apr/17/mobilephones (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2005-04",
+    "title": "Nokia launches the Nseries and teams up with Carl Zeiss",
+    "what": "In April Nokia introduced the Nseries, a range of multimedia phones, and a partnership with the German camera optics maker Carl Zeiss. Nokia's market share, which fell steeply in early 2004, is recovering.",
+    "why": "Nseries phones such as the N95 keep Nokia on top until the iPhone era.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2006-06",
+    "title": "New chief and a networks merger with Siemens",
+    "what": "On 1 June Olli-Pekka Kallasvuo succeeded Jorma Ollila as chief executive; Ollila stays as chairman. On 19 June Nokia and Siemens agreed to merge most of their network equipment businesses into a 50-50 venture, Nokia Siemens Networks, with 20 billion dollars of sales last year.",
+    "why": "The networks venture is the part of Nokia that survives the phone collapse.",
+    "assets": [
+      "nokia",
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://money.cnn.com/2006/06/19/news/international/nokia_siemens.reut/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2007-01",
+    "title": "Apple unveils the iPhone",
+    "what": "On 9 January Steve Jobs introduced the iPhone at Macworld in San Francisco, a phone controlled by touching its screen with a finger. It goes on sale in the US in June. Nokia, which makes more than a third of the phones sold worldwide, is also the largest smartphone maker, with Symbian software.",
+    "why": "The turning point of the arc, though nobody priced it in: Nokia's ADR nearly doubles during 2007 before the collapse.",
+    "assets": [
+      "nokia",
+      "aapl"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation) (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2007-10",
+    "title": "Nokia nearly doubles its profit",
+    "what": "On 18 October Nokia reported third-quarter net profit of 1.56 billion euros, almost double a year earlier, with a 39% share of the world handset market, close to its long-stated goal of 40%. Sales were strong in India and China. Its shares jumped 7%.",
+    "why": "The second peak: Nokia's market share hits 40.4% in the fourth quarter, its best ever.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 2,
+    "source": "https://money.cnn.com/2007/10/18/news/international/bc.apfn.eu.fin.earns.finland.nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2008-09",
+    "title": "Nokia expects to lose market share",
+    "what": "On 5 September Nokia said its share of the phone market in the third quarter will be lower than in the second, instead of stable as forecast in July, as weaker consumer confidence hits several markets. Its shares fell 10.5% in Helsinki. Later in the month Lehman Brothers' bankruptcy shook all markets.",
+    "why": "The start of the long decline, compounded by the financial crisis.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -26
+    },
+    "importance": 2,
+    "source": "https://money.cnn.com/2008/09/05/news/international/nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
+  },
+  {
+    "month": "2010-09",
+    "title": "Nokia fires its chief and hires Microsoft's Stephen Elop",
+    "what": "On 10 September Nokia replaced chief executive Olli-Pekka Kallasvuo with Stephen Elop, head of Microsoft's business division and the first non-Finn to run the company, as it struggles to compete with Apple's iPhone and phones running Google's Android. In June Nokia had warned that phone sales would come in at the low end of its forecast.",
+    "why": "Elop's tenure decides Nokia's fate in phones.",
+    "assets": [
+      "nokia",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://www.theguardian.com/business/2010/sep/10/nokia-replaces-kallasvuo-microsoft-stephen-elop (read 2026-10-03); https://money.cnn.com/2010/09/10/technology/nokia_ceo/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2010/06/16/technology/nokia_cuts_outlook/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2011-02",
+    "title": "Nokia bets on Microsoft's Windows Phone",
+    "what": "Days after a memo from Elop warned staff that Nokia was on a 'burning platform', Nokia announced on 11 February that it will use Microsoft's Windows Phone as its main smartphone software, instead of its own Symbian or Google's Android, and warned of substantial job cuts. Its share of the smartphone market fell from 38% to 28% in 2010. Its shares fell 12% that day.",
+    "why": "The decisive strategic choice: Symbian sales collapse before Windows phones are ready.",
+    "assets": [
+      "nokia",
+      "msft"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -19
+    },
+    "importance": 1,
+    "source": "https://www.bbc.com/news/business-12427680 (read 2026-10-03); https://money.cnn.com/2011/02/11/technology/nokia_microsoft/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2011-05",
+    "title": "Nokia scraps its forecasts",
+    "what": "On 31 May Nokia said second-quarter phone sales will be substantially below its forecast and its margin below the 6-9% range, withdrew its full-year guidance and said it is taking immediate action. Its shares fell 14%.",
+    "why": "The transition costs more than expected; the ADR loses 24% in May.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -24
+    },
+    "importance": 3,
+    "source": "https://money.cnn.com/2011/05/31/technology/nokia_stock/index.htm via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2012-04",
+    "title": "Another warning sends Nokia to a 14-year low",
+    "what": "On 11 April Nokia again said results will miss its forecasts. Its US shares fell 16% to 4.24 dollars, the lowest since February 1998. Nokia has sold about 2 million Lumia Windows phones; in the past quarter it burned about 700 million euros of cash.",
+    "why": "Bankruptcy talk begins; the ADR falls 34% in April and keeps falling into the summer.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -34
+    },
+    "importance": 1,
+    "source": "https://money.cnn.com/2012/04/11/technology/nokia/index.htm via web.archive.org (read 2026-10-03); http://www.businessinsider.com/nokia-bankrupt-2012-4 (read 2026-10-03)"
+  },
+  {
+    "month": "2012-06",
+    "title": "Nokia to cut 10,000 jobs",
+    "what": "On 14 June Nokia said it will cut 10,000 jobs worldwide and close plants, including the Salo factory in Finland, and warned that competition will widen its losses in the second and third quarters. Its shares had already fallen 42% this year. The Finnish government said it will not use an emergency fund to help.",
+    "why": "The bottom of the arc: the ADR falls below 2 dollars, 96% below its 2000 peak.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://money.cnn.com/2012/06/14/technology/nokia_job_cuts/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2013-07",
+    "title": "Nokia buys out Siemens from the networks venture",
+    "what": "Nokia agreed to buy Siemens' half of Nokia Siemens Networks for about 2.2 billion dollars, making the network equipment maker a wholly owned subsidiary. The networks business has provided much of Nokia's income while phones lose money.",
+    "why": "Sets up the new Nokia; Siemens leaves telecoms for good.",
+    "assets": [
+      "nokia",
+      "siemens"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2013-09",
+    "title": "Microsoft buys Nokia's phone business",
+    "what": "On 3 September Microsoft agreed to buy Nokia's devices and services business for 3.79 billion euros and to license its patents for 1.65 billion euros, 5.44 billion euros in all, about 7.2 billion dollars. About 32,000 Nokia staff will move to Microsoft. Nokia keeps its networks business, its maps and its patents.",
+    "why": "The exit from phones: Nokia's best month in the game (+67%), as investors value the cash and the networks business.",
+    "assets": [
+      "nokia",
+      "msft"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 67
+    },
+    "importance": 1,
+    "source": "https://www.theverge.com/2013/9/2/4688530/microsoft-buys-nokias-devices-and-services-unit-unites-windows-phone (read 2026-10-03); https://money.cnn.com/2013/09/03/technology/mobile/microsoft-nokia/ via web.archive.org (read 2026-10-03)"
+  },
+  {
+    "month": "2014-04",
+    "title": "The Microsoft sale closes; Nokia is a network company",
+    "what": "The sale of the phone business to Microsoft was completed in April. Nokia now consists mainly of its network equipment arm, its HERE maps and its patent licensing.",
+    "why": "The new profile from May 2014: a maker of network equipment.",
+    "assets": [
+      "nokia",
+      "msft"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); data/src/profiles.ts (read 2026-10-03)"
+  },
+  {
+    "month": "2015-04",
+    "title": "Nokia agrees to buy Alcatel-Lucent",
+    "what": "On 15 April Nokia agreed to buy the French network equipment maker Alcatel-Lucent for 15.6 billion euros in shares; Nokia shareholders will own 66.5% of the combined company, which will include Bell Labs. Chief executive Rajeev Suri says it positions Nokia for 5G.",
+    "why": "Nokia doubles down on networks against Ericsson and Huawei.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2016-01",
+    "title": "Nokia and Alcatel-Lucent combine",
+    "what": "Nokia began combined operations with Alcatel-Lucent on 14 January. On a 2014 basis the two had net sales of 24.7 billion euros. Last year Nokia also agreed to sell its HERE maps business to BMW, Daimler and Volkswagen for 2.8 billion euros.",
+    "why": "The integration years are hard; the shares drift lower to 2020.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://web.archive.org/web/20160116173207/http://company.nokia.com/en/news/press-releases/2016/01/14/nokia-celebrates-first-day-of-combined-operations-with-alcatel-lucent (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "title": "Patent deal with Xiaomi",
+    "what": "Nokia and the Chinese phone maker Xiaomi signed a business collaboration agreement and a multi-year patent cross-licence. Phones under the Nokia brand are back in shops this year, made by HMD Global under licence.",
+    "why": "Patent licensing becomes a steady profit source.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2018-03",
+    "title": "The Finnish state buys a stake in Nokia",
+    "what": "Solidium, the investment arm of the Finnish government, bought a 3.3% stake in Nokia worth 844 million euros. In January Nokia signed a deal to supply 5G base stations to Japan's NTT Docomo.",
+    "why": "The 5G cycle is the hope of the new Nokia.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2019-10",
+    "title": "Nokia stops its dividend to invest in 5G",
+    "what": "On 24 October Nokia lowered its outlook for 2019 and 2020, citing pressure on margins from its first-generation 5G products, price competition in early 5G deals and problems in China, and decided not to pay the remaining dividend instalments for 2018 so it can invest more in 5G.",
+    "why": "The 5G race goes badly at first; the ADR falls 28% in October.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -28
+    },
+    "importance": 2,
+    "source": "https://www.nokia.com/about-us/news/releases/2019/10/24/nokia-corporation-financial-report-for-q3-and-january-september-2019/ (read 2026-10-03)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Pekka Lundmark to replace Rajeev Suri",
+    "what": "On 2 March Nokia named Pekka Lundmark, chief executive of the Finnish energy company Fortum, as its next chief executive, as it struggles to keep pace with Huawei and Ericsson in 5G contracts. Markets then fell sharply with the spread of the coronavirus.",
+    "why": "Lundmark's turnaround restores margins by 2021.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://edition.cnn.com/2020/03/02/tech/nokia-ceo-pekka-lundmark/index.html (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+  },
+  {
+    "month": "2020-10",
+    "title": "Nokia to build a mobile network on the Moon",
+    "what": "In October NASA chose Nokia, through Bell Labs, to build a 4G mobile network for astronauts on the Moon, a 14.1 million dollar contract. In June Nokia won a 5G contract worth about 450 million dollars as sole supplier to Taiwan Mobile.",
+    "why": "Small contracts with symbolic value while Nokia rebuilds its 5G position under Lundmark.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2022-04",
+    "title": "Nokia leaves Russia",
+    "what": "Nokia said it will exit the Russian market after the invasion of Ukraine; Russia accounted for less than 2% of its net sales in 2021.",
+    "why": "A small direct hit.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2023-02",
+    "title": "Nokia drops its old logo",
+    "what": "Nokia introduced a new logo, its first change in nearly 60 years, because people still connected the old one with mobile phones.",
+    "why": "Branding the network company; the shares are near their lows again.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2024-06",
+    "title": "Nokia buys Infinera",
+    "what": "Nokia agreed to buy the American optical networking company Infinera for 2.3 billion dollars, to strengthen its optical business.",
+    "why": "The optical business becomes Nokia's link to the AI data-centre boom.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-02",
+    "title": "Justin Hotard to succeed Lundmark",
+    "what": "On 10 February Nokia said Pekka Lundmark will step down and Justin Hotard, who has more than 25 years of experience at global technology companies, will become chief executive.",
+    "why": "Hotard repositions Nokia towards AI and cloud customers.",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://www.nokia.com/about-us/news/releases/2025/02/10/inside-information-nokia-announces-a-leadership-transition-justin-hotard-appointed-as-successor-to-pekka-lundmark/ (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "title": "The weak dollar and tariffs force a profit warning",
+    "what": "On 22 July Nokia cut its 2025 operating profit outlook to 1.6-2.1 billion euros from 1.9-2.4 billion. Its second-quarter report on 24 July blamed currency effects, including the weaker dollar, and tariffs; Mobile Networks sales fell 13% while Network Infrastructure grew 8%.",
+    "why": "A setback before the AI rerating; the ADR fell 21% in July.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -21
+    },
+    "importance": 3,
+    "source": "https://www.nokia.com/system/files/2025-07/nokia_results_2025_q2.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2025-10",
+    "title": "Nvidia invests $1 billion in Nokia",
+    "what": "On 23 October Nokia reported third-quarter sales up 9% on a comparable basis, with optical networks up 19%. On 28 October Nvidia announced it will invest 1 billion dollars in Nokia at 6.01 dollars a share and work with it on AI-powered mobile networks for 5G-Advanced and 6G, with T-Mobile US trials from 2026.",
+    "why": "The AI rerating: the ADR jumps 44% in October, its best month since the Microsoft deal.",
+    "assets": [
+      "nokia",
+      "nvda"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 44
+    },
+    "importance": 1,
+    "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "title": "AI demand lifts Nokia as markets rebound",
+    "what": "On 23 April Nokia reported that sales to AI and cloud customers grew 49% in the first quarter and now make up 8% of the group, with 1 billion euros of new orders from them, and raised its estimate of that market's growth to 27% a year through 2028 from 16%. Markets rallied after the US-Iran ceasefire of 8 April. Nokia's ADR rose 61% in April.",
+    "why": "The second AI leg, amplified by the market rebound (S&P 500 +10%). Nokia reaches a 16-year high in May.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": 61
+    },
+    "importance": 2,
+    "source": "https://www.nokia.com/about-us/news/releases/2026/04/23/nokia-corporation-interim-report-for-q1-2026/ (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2026-07",
+    "title": "AI orders double, outlook only technically changed",
+    "what": "On 23 July Nokia reported second-quarter sales up 9% at constant currency, sales to AI and cloud customers up 105% and 2.8 billion euros of AI and cloud orders. It kept its outlook apart from a technical change to 2.1-2.6 billion euros of comparable operating profit and said supply, not demand, is the industry's main constraint.",
+    "why": "Despite the solid report the ADR fell 31% in July; no cause for the fall was found (see Unexplained moves).",
+    "assets": [
+      "nokia"
+    ],
+    "importance": 3,
+    "source": "https://www.nokia.com/system/files/2026-07/nokia_results_2026_q2.pdf (read 2026-10-03)"
+  }
+]

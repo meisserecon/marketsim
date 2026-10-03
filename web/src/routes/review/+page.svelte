@@ -221,13 +221,13 @@
       <ol class="beats">
         {#each visible as row, i (row.arc + row.index)}
           {@const b = row.beat}
+          {@const pic = b.id ? images[row.arc]?.[b.id] : undefined}
           <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
           <li class="beat" class:current={i === cursor} class:cut={b.cut} class:faded={b.importance > threshold} onclick={() => (cursor = i)}>
             <div class="rank">
               <span class="imp imp-{b.importance}">{b.importance}</span>
               {#if b.lead}<span class="badge new">lead</span>{/if}
             </div>
-            {@const pic = b.id ? images[row.arc]?.[b.id] : undefined}
             <div class="body">
               <p class="meta sub">
                 {#if view === 'arc'}{b.month} · {/if}<strong>{row.arc}</strong>

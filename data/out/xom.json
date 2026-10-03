@@ -33,7 +33,7 @@
  ],
  "kind": "stock",
  "currency": "USD",
- "source": "Yahoo Finance XOM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 1982-02 corrected to 0.09375",
+ "source": "Yahoo Finance XOM (daily, last close of month; dividends by ex-date; split- and spin-off-adjusted); dividend 2001-06 corrected to 0; dividend 1982-02 corrected to 0.09375",
  "rows": [
   {
    "month": "1975-01",
@@ -1623,7 +1623,7 @@
   {
    "month": "2001-06",
    "price": 43.675,
-   "income": 0.01
+   "income": 0
   },
   {
    "month": "2001-07",

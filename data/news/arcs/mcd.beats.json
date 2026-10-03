@@ -1,0 +1,501 @@
+[
+  {
+    "month": "1979-12",
+    "title": "McDonald's: the biggest hamburger chain, still growing fast",
+    "what": "McDonald's had 5,185 restaurants at the end of 1978, 4,465 in the United States and 720 in 24 other countries and territories, and added more than 500 in a year. Sales of all its restaurants together rose 22% in 1978 to 4.6 billion dollars, and its own net income rose 19% to 163 million, another record. Most restaurants are run by franchisees who pay rent and fees. Burger King and Wendy's are competing harder, and experts say the fast-food market may be saturated.",
+    "why": "The starting point: a growth company whose share price had drifted down by about a quarter since the end of 1975. It kept growing for two decades, increasingly abroad, before stalling around 2000.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1978q4_djvu.txt (fourth-quarter 1978 report to stockholders, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (competition in the late 1970s, read 2026-10-03); price change from data/out/mcd.json"
+  },
+  {
+    "month": "1981-10",
+    "title": "McDonald's prize game: two women claim the 300,000 dollar stamp",
+    "what": "McDonald's is running a 15 million dollar prize game whose top prize, a single 300,000 dollar stamp, has odds of one in 416,670,000. On 23 October it named Judy Heitkamp, 24, the winner. A woman in Berkeley says she got the winning stamp weeks earlier, lost it to a coworker and has gone to the police; McDonald's paid Heitkamp.",
+    "why": "Colour more than substance: the promotions machine that kept customers coming in the 'burger wars' of the early 1980s.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.upi.com/Archives/1981/10/23/Controversy-over-McDonalds-300000-winner/7616372657600/ (read 2026-10-03)"
+  },
+  {
+    "month": "1982-03",
+    "title": "McDonald's keeps growing through the recession; McNuggets in test",
+    "what": "McDonald's added 476 restaurants in 1981, bringing the total to 6,739, of which 5,554 are in the United States and 1,185 in 29 other countries and territories; it opened its first restaurants in Spain, Denmark and the Philippines. Its record growth continued despite the recession. Chicken McNuggets, bite-sized fried chicken created by its first executive chef René Arend, were introduced in selected markets in 1981.",
+    "why": "McNuggets went nationwide in 1983 and made McDonald's the second-largest chicken retailer in the world, a second leg next to the hamburger.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Chicken_McNuggets (read 2026-10-03); https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1981_djvu.txt (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "1984-01",
+    "title": "Ray Kroc dies",
+    "what": "Ray Kroc, who built McDonald's from a single restaurant he franchised in 1955, died of heart failure in San Diego on 14 January, aged 81. McDonald's now has about 7,500 restaurants in the United States and 31 other countries and territories. Fred Turner is chairman and Michael Quinlan president.",
+    "why": "The founder's death changed little: the management Kroc had installed kept the machine running, and the shares kept rising through the 1980s.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Ray_Kroc (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "1985-03",
+    "title": "McDonald's passes 8,000 restaurants and 10 billion dollars in sales",
+    "what": "Sales of all McDonald's restaurants together reached about 10 billion dollars in 1984, and the company's net income rose to 389 million. It had about 8,300 restaurants at the end of the year, some 1,700 of them outside the United States, in 36 countries.",
+    "why": "Another record year; the shares gained more than 50% in 1985 as the market rallied.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json"
+  },
+  {
+    "month": "1986-09",
+    "title": "The Economist invents the Big Mac Index",
+    "what": "In September The Economist introduced the Big Mac Index, a semi-humorous way to judge whether currencies are over- or undervalued by comparing the price of a McDonald's Big Mac around the world.",
+    "why": "A sign of how global and uniform the McDonald's product had become.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Big_Mac_Index (read 2026-10-03)"
+  },
+  {
+    "month": "1987-10",
+    "title": "McDonald's falls 16% in the crash",
+    "what": "McDonald's shares lost about 16% in October as stock markets crashed worldwide on 19 October. Michael Quinlan, who started in the company mailroom in 1963, became chief executive in March; McDonald's plans to open about 600 restaurants this year.",
+    "why": "A market move: the business was untouched and the shares were back above their pre-crash level within two years.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": -16
+    },
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_R._Quinlan (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "1988-04",
+    "title": "The 10,000th McDonald's",
+    "what": "McDonald's opened its 10,000th restaurant in April, 33 years after Ray Kroc's first. Outside the United States its strongest markets are Japan, Canada, Germany, Britain, Australia and France. On 29 April McDonald's Canada signed a joint-venture agreement with Moscow city officials to open 20 restaurants in the Soviet capital, the first one due in late 1989.",
+    "why": "The second 10,000 took only eight more years: the 1990s were the decade of international expansion.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); https://www.upi.com/Archives/1988/04/29/McDonalds-signs-deal-for-20-Moscow-restaurants/2155578289600/ (read 2026-10-03)"
+  },
+  {
+    "month": "1990-01",
+    "title": "McDonald's opens in Moscow",
+    "what": "The first McDonald's in the Soviet Union opened on Moscow's Pushkin Square on 31 January, after 14 years of negotiations led by McDonald's Canada's president George Cohon. About 38,000 customers queued for hours on the first day, a company record.",
+    "why": "A symbol of the end of the Cold War and of McDonald's global reach. Russia became a big market; McDonald's left it in 2022.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/McDonald%27s_in_Russia (read 2026-10-03)"
+  },
+  {
+    "month": "1991-03",
+    "title": "McDonald's tries a low-fat burger",
+    "what": "McDonald's is introducing the McLean Deluxe, a hamburger with a patty that is 91% fat-free, to win health-conscious customers. Abroad, McDonald's now runs more than 3,600 restaurants in 58 countries, and 37% of systemwide sales come from outside the United States.",
+    "why": "One of a string of US menu flops of the 1990s (McLean Deluxe, pizza, Arch Deluxe); growth came from abroad while the US business stagnated.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03; the month of launch is not given there, only the year 1991)"
+  },
+  {
+    "month": "1993-03",
+    "title": "McDonald's: 111 record quarters in a row",
+    "what": "McDonald's reported that 1992 was its 111th consecutive quarter of record systemwide sales, net income and earnings per share. Net income rose to 959 million dollars on systemwide sales of 21.9 billion. It had about 13,100 restaurants in 65 countries, more than 4,100 of them outside the United States.",
+    "why": "The steady compounding phase: about a third of sales and a growing share of profit came from abroad.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1992_djvu.txt (1992 annual report, read 2026-10-03); https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03)"
+  },
+  {
+    "month": "1995-03",
+    "title": "McDonald's: 26 billion dollars of sales in 79 countries",
+    "what": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home. The shares were split two-for-one in June 1994.",
+    "why": "The shares gained about 54% in 1995 as the expansion abroad accelerated.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json"
+  },
+  {
+    "month": "1996-02",
+    "title": "McDonald's opens a restaurant every few hours",
+    "what": "McDonald's opened 1,130 restaurants in the United States alone in 1995 and is expanding even faster abroad, approaching 20,000 restaurants in total. Franchisees complain that new restaurants are taking sales from existing ones, and sales at US restaurants open more than a year are flat.",
+    "why": "The peak of the expansion strategy: the 20,000th restaurant opened in mid-1996. The 'grown-up' Arch Deluxe sandwich line launched in 1996 with a 200 million dollar campaign flopped, and the US slowdown kept the shares flat in 1996 and 1997.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "1997-06",
+    "title": "McDonald's wins the 'McLibel' trial, but looks like a bully",
+    "what": "On 19 June a London judge ruled largely in McDonald's favour in its libel case against two environmental activists who had handed out leaflets attacking the company; he found the claims that McDonald's caused starvation and deforestation false. It was the longest trial in English history and made the activists famous. In the US, a 55-cent Big Mac promotion this spring confused customers and angered franchisees and was withdrawn.",
+    "why": "A low point for the brand: US sales were weak and the company was a target of anti-globalisation protests for years.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://en.wikipedia.org/wiki/McLibel_case (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "1998-03",
+    "title": "McDonald's promises hotter, fresher food: 'Made for You'",
+    "what": "In his letter of 15 March chairman Michael Quinlan admits that 1997 was disappointing and the stock lagged the market: McDonald's built too many US restaurants and neglected quality, service and value while competitors cut prices. The company is rolling out a new cook-to-order kitchen system, 'Made for You', in every US restaurant, paying about half of the 25,000 dollar cost per restaurant. It targets earnings per share growth of 10 to 15% a year for five years. In February it bought a minority stake in Chipotle, a small Mexican grill chain.",
+    "why": "Investors believed the turnaround in 1998 (the shares gained about 60% that year), but Made for You slowed service and failed to lift sales.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1997_djvu.txt (letter of 15 March 1998, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); yearly change from data/out/mcd.json"
+  },
+  {
+    "month": "1998-08",
+    "title": "Global sell-off hits McDonald's",
+    "what": "Russia devalued the rouble and defaulted on its bonds in mid-August, and stock markets worldwide fell; the Dow lost 357 points on 27 August. Multinationals with large foreign earnings were hit: about 60% of McDonald's operating income now comes from outside the United States, including Russia. McDonald's shares lost about 16% in August. In May Jack Greenberg, head of McDonald's USA, became chief executive, and in June McDonald's announced its first-ever job cuts, 525 headquarters jobs.",
+    "why": "A market move; the shares recovered within months and reached a record in late 1999.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": -16
+    },
+    "importance": 2,
+    "source": "https://www.latimes.com/archives/la-xpm-1998-aug-28-mn-17458-story.html (read 2026-10-03); https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1997_djvu.txt (international share of operating income, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (Greenberg, job cuts, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2000-02",
+    "title": "Old-economy sell-off: McDonald's down 15%",
+    "what": "Investors are selling slow-growing blue chips to buy technology shares, and rising interest rates add to the pressure. On 25 February the Dow closed below 10,000 for the first time in nearly 11 months while the Nasdaq hit records. McDonald's shares lost about 15% in February.",
+    "why": "The low point of the dot-com rotation; it reversed in March.",
+    "assets": [
+      "mcd",
+      "ko"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": -15
+    },
+    "importance": 2,
+    "source": "https://www.latimes.com/archives/la-xpm-2000-feb-26-mn-2800-story.html (read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2000-03",
+    "title": "Blue chips roar back: McDonald's up 18%",
+    "what": "In mid-March the battered blue chips came back: on 16 March the Dow jumped 499 points, or 4.9%, its biggest one-day point gain ever, a day after another of its biggest gains, lifting it out of a 10% correction. McDonald's shares gained about 18% in March, more than making up February's loss.",
+    "why": "The Nasdaq peaked on 10 March 2000; the end of the bubble briefly favoured steady earners like McDonald's, before its own business problems took over in 2001-2002.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": 18
+    },
+    "importance": 2,
+    "source": "https://www.chicagotribune.com/2000/03/17/dow-soars-to-record-gain/ (read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2001-03",
+    "title": "Mad cow fears in Europe, a weak euro and a disappointing stock",
+    "what": "McDonald's says systemwide sales passed 40 billion dollars in 2000 and earnings per share rose 10% in constant currencies, but its stock 'did not perform well' in 2000. The weak euro reduced the dollar value of European profits, and late in the year consumers in several European countries worried about BSE, or mad cow disease, in the beef supply. In the competitive US market sales rose 3%.",
+    "why": "The prelude to the 2001-2002 slump, when profits fell in seven of eight quarters.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds2000_djvu.txt (2000 annual report, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "2002-09",
+    "title": "McDonald's cuts its profit forecast again",
+    "what": "On 17 September McDonald's lowered its 2002 earnings forecast because sales in the US and Europe were weaker than expected in the third quarter, and it is cautious on the fourth. Chairman Jack Greenberg says the US market is 'extremely competitive' and promises better value, service and menu choice. Philip Morris, J.P. Morgan and Honeywell also cut forecasts this month. McDonald's shares lost about 26% in September.",
+    "why": "The low point of the Greenberg years: profits fell in seven of eight quarters, and the shares lost about 70% from their 1999 peak by early 2003.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": -26
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000095013102003563/dex992.txt (press release of 17 September 2002, read 2026-10-03); http://money.cnn.com/2002/09/26/news/companies/philip_morris/index.htm (via web.archive.org, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2002-12",
+    "title": "Greenberg out, Cantalupo back",
+    "what": "On 5 December McDonald's announced that chairman and chief executive Jack Greenberg will retire at the end of the year. Jim Cantalupo, the former head of McDonald's International who had planned to retire, will succeed him on 1 January, with Charlie Bell, head of McDonald's Europe, as president and Jim Skinner as vice chairman. In October McDonald's launched a US Dollar Menu.",
+    "why": "The start of the turnaround that made 2003 one of the best years in the stock's history.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746902006344/a2095860zex-99.htm (press release of 5 December 2002, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "2003-01",
+    "title": "McDonald's first quarterly loss",
+    "what": "McDonald's reported on 23 January charges of 810 million dollars in the fourth quarter of 2002 for restructuring, which led to its first quarterly loss since it went public in 1965. Jim Cantalupo is closing more than 700 restaurants, mostly in the US and Japan, and cutting 600 jobs.",
+    "why": "Clearing the decks; February-March 2003 was the bottom of the share price.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746903002818/a2101443zex-99.htm (release of 23 January 2003, read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "2003-04",
+    "title": "Cantalupo's plan: fewer new restaurants, better existing ones",
+    "what": "On 7 April Jim Cantalupo told investors that McDonald's will focus on selling more at existing restaurants instead of opening new ones. Capital spending in 2003 is cut to 1.2 billion dollars, 800 million less than in 2002, and the cash will go to paying down debt and to shareholders. From 2005 it targets systemwide sales growth of 3 to 5% and operating income growth of 6 to 7% a year. McDonald's shares gained about 18% in April, as the stock market rallied.",
+    "why": "Investors welcomed lower, credible targets and the end of empire-building; the plan, later called 'Plan to Win', guided McDonald's for a decade.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": 18
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746903012415/a2107907zex-99.htm (release of 7 April 2003, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2003-06",
+    "title": "US sales up 6.3% in May, the best in four years",
+    "what": "McDonald's reported on 6 June that sales at US restaurants open at least 13 months rose 6.3% in May, the highest increase in four years, thanks to new premium salads, Happy Meal offers and better service. Worldwide comparable sales rose 2.2%. The shares gained about 18% in June.",
+    "why": "The first hard evidence that the turnaround worked; the shares more than doubled from February 2003 to February 2004.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": 18
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746903020809/a2112576zex-99_2.htm (release of 6 June 2003, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2004-04",
+    "title": "Jim Cantalupo dies suddenly",
+    "what": "McDonald's chairman and chief executive Jim Cantalupo died of an apparent heart attack on 19 April in Orlando, at the company's worldwide franchisee convention, aged 60. President Charlie Bell, an Australian who started at a Sydney McDonald's at 15, was named chief executive. Sales have been rising since the 'I'm lovin' it' campaign of September 2003.",
+    "why": "A shock to a company in the middle of a turnaround; the strategy held, and the shares lost only about 5% over the month.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390804000021/press_release1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Jim_Cantalupo (read 2026-10-03); https://en.wikipedia.org/wiki/Charlie_Bell_(businessman) (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "2004-11",
+    "title": "Charlie Bell steps down; Jim Skinner takes over",
+    "what": "On 22 November Charlie Bell stepped down as chief executive to fight colon cancer, diagnosed soon after he took over in April. Vice chairman Jim Skinner, a 33-year McDonald's veteran, became chief executive, and Mike Roberts, head of McDonald's USA, president. The US business is heading for a second year of double-digit operating income growth.",
+    "why": "Skinner ran McDonald's until 2012, its most successful stretch since the 1980s.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390804000050/newsrelease.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Charlie_Bell_(businessman) (read 2026-10-03)"
+  },
+  {
+    "month": "2006-10",
+    "title": "McDonald's lets go of Chipotle and raises its dividend 50%",
+    "what": "McDonald's raised its annual dividend by nearly 50% to 1 dollar a share in late September, four times the level of 2002, and offered its shareholders Chipotle shares in exchange for McDonald's shares; in October it fully divested its majority stake in the Mexican grill chain. It is concentrating on the McDonald's brand and returning cash to shareholders.",
+    "why": "The template of the Skinner years: a focused, franchise-heavy, cash-returning business. Chipotle, in which McDonald's first invested in 1998, grew into a large company on its own.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000110465906064616/a06-19377_23ex99d1.htm (release of 27 September 2006, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (Chipotle divestment, read 2026-10-03)"
+  },
+  {
+    "month": "2008-01",
+    "title": "McDonald's sales up 6.8%: the Plan to Win keeps delivering",
+    "what": "McDonald's reported on 28 January that worldwide sales at existing restaurants rose 6.8% in 2007, one of the strongest increases since its turnaround began, with restaurant margins up for the eighth quarter in a row. It bought back more than 1.3 billion dollars of its own shares in the fourth quarter.",
+    "why": "Momentum going into the recession, in which McDonald's did better than almost any other large company.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312508012822/dex991.htm (release of 28 January 2008, read 2026-10-03)"
+  },
+  {
+    "month": "2009-01",
+    "title": "McDonald's thrives in the recession",
+    "what": "McDonald's reported on 26 January that 2008 was 'a strong year': worldwide sales at existing restaurants rose 6.9%, guest counts rose in every quarter, and earnings per share from continuing operations grew 16%. It returned 5.8 billion dollars to shareholders and raised the quarterly dividend 33% to 50 cents. McDonald's shares ended 2008 higher than they started, while the S&P 500 lost more than a third.",
+    "why": "Cheap food in a recession: McDonald's was one of very few large stocks to rise in 2008.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312509010789/dex991.htm (release of 26 January 2009, read 2026-10-03); yearly changes from data/out/mcd.json and data/reference/sp500.json"
+  },
+  {
+    "month": "2011-01",
+    "title": "Another strong year: 62 million customers a day",
+    "what": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11% to 4.58 dollars, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
+    "why": "The peak of the Skinner era; the shares gained about 30% in 2011.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312511012490/dex991.htm (release of 24 January 2011, read 2026-10-03); yearly change from data/out/mcd.json"
+  },
+  {
+    "month": "2012-07",
+    "title": "Don Thompson succeeds Jim Skinner",
+    "what": "Don Thompson, an engineer who joined McDonald's in 1990 and rose to chief operating officer, became president and chief executive on 1 July, succeeding Jim Skinner, who retired after 41 years. Under Skinner, McDonald's total sales grew from 50.1 billion dollars in 2004 to 70.1 billion in 2008.",
+    "why": "Thompson's tenure saw sales stall; customer traffic fell 4.1% in 2014 and he stepped down in early 2015.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/James_Skinner (read 2026-10-03)"
+  },
+  {
+    "month": "2014-01",
+    "title": "McDonald's stalls: fewer customers in 2013",
+    "what": "McDonald's reported on 23 January that worldwide sales at existing restaurants rose only 0.2% in 2013, with higher average checks but fewer customer visits; earnings per share rose 4%. Chief executive Don Thompson calls 2013 'a challenging year'.",
+    "why": "The beginning of the slump that cost Thompson his job a year later.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390814000008/exhibit991-12312013.htm (release of 23 January 2014, read 2026-10-03)"
+  },
+  {
+    "month": "2015-10",
+    "title": "All-day breakfast and a turnaround quarter",
+    "what": "Steve Easterbrook, the British chief brand officer, replaced Don Thompson as chief executive in March after customer visits fell 4.1% in 2014. McDonald's began serving part of its breakfast menu all day in US restaurants in October. On 22 October it reported that worldwide sales at existing restaurants rose 4.0% in the third quarter, with growth in every segment including the US, and earnings per share up 28% to 1.40 dollars. The shares gained about 14% in October as the market rallied.",
+    "why": "The quarter that convinced investors that Easterbrook's turnaround was real; the shares roughly doubled during his four and a half years in charge.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": 14
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390815000076/exhibit991-9302015.htm (release of 22 October 2015, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (all-day breakfast 2015, read 2026-10-03); move from data/out/mcd.json; https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03)"
+  },
+  {
+    "month": "2017-03",
+    "title": "McDonald's growth plan: digital, delivery and new restaurants",
+    "what": "At an investor day on 1 March Steve Easterbrook presented McDonald's global growth plan: mobile ordering and other digital tools, home delivery, modernised 'Experience of the Future' restaurants in the US, new financial targets and a new three-year target for returning cash to shareholders.",
+    "why": "The shares gained about 40% in 2017 as the plan and strong sales convinced investors.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390817000016/exhibit991.htm (release of 1 March 2017, read 2026-10-03); yearly change from data/out/mcd.json"
+  },
+  {
+    "month": "2018-01",
+    "title": "Best sales growth in six years",
+    "what": "McDonald's reported on 30 January that 2017 brought its best sales growth at existing restaurants in six years, with more customer visits in all segments; fourth-quarter comparable sales rose 5.5%. Revenue fell because McDonald's is selling company-run restaurants to franchisees, which leaves it with fees and rent instead.",
+    "why": "Refranchising made McDonald's an even more asset-light, high-margin business.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390818000004/exhibit991-12312017.htm (release of 30 January 2018, read 2026-10-03)"
+  },
+  {
+    "month": "2019-11",
+    "title": "McDonald's fires its CEO over a relationship with an employee",
+    "what": "On 3 November McDonald's board dismissed chief executive Steve Easterbrook for a consensual relationship with an employee, which breaks company policy. Chris Kempczinski, president of McDonald's USA and a former PepsiCo and Kraft executive, became chief executive.",
+    "why": "The business was in good shape and the shares dipped only briefly; McDonald's later sued Easterbrook and recovered 105 million dollars from him.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000089882219000080/pressrelease1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03); https://en.wikipedia.org/wiki/Chris_Kempczinski (read 2026-10-03)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Pandemic: dining rooms close, drive-thrus stay open",
+    "what": "As governments ordered shutdowns, McDonald's said on 16 March that substantially all US restaurants were serving only through drive-thru, delivery and takeaway, and that all restaurants in Italy and Spain, and later France and Britain, were closed. It is working with franchisees on rent deferrals. The shares lost about 15% in March.",
+    "why": "The drive-thru made McDonald's one of the winners of the pandemic; the shares regained the loss by the summer of 2020.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2020-11",
+    "title": "'Accelerating the Arches': digital, delivery and drive-thru",
+    "what": "On 9 November chief executive Chris Kempczinski announced a new growth strategy, 'Accelerating the Arches', focused on marketing, core menu items (burgers, chicken and coffee) and the 'three Ds': digital, delivery and drive-thru, which proved their worth during the pandemic.",
+    "why": "The strategy behind the record highs of 2021-2024.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390820000075/exhibit991-11092020.htm (release of 9 November 2020, read 2026-10-03); https://en.wikipedia.org/wiki/Chris_Kempczinski (read 2026-10-03)"
+  },
+  {
+    "month": "2022-05",
+    "title": "McDonald's leaves Russia",
+    "what": "On 16 May McDonald's announced it will sell its roughly 850 Russian restaurants to a local buyer and leave the country after more than 30 years, because of the war in Ukraine; it had closed them temporarily on 8 March. It expects a charge of about 1.2 to 1.4 billion dollars.",
+    "why": "Russia and Ukraine had brought about 9% of revenue but only about 3% of operating profit, so the exit cost little in earnings.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390822000020/exhibit991-05162022.htm (read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (Russia exit, read 2026-10-03)"
+  },
+  {
+    "month": "2022-10",
+    "title": "Strong sales despite inflation: McDonald's up 18%",
+    "what": "McDonald's reported on 27 October that worldwide sales at existing restaurants rose nearly 10% in the third quarter, with US sales up more than 6%, the ninth quarter of growth in a row. Customers squeezed by inflation are trading down to fast food. The shares gained about 18% in October, as the stock market rebounded too.",
+    "why": "The value positioning paid off in the inflation of 2022; the shares hit records in 2023.",
+    "assets": [
+      "mcd"
+    ],
+    "move": {
+      "asset": "mcd",
+      "pct": 18
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390822000052/exhibit991-93022.htm (release of 27 October 2022, read 2026-10-03); move from data/out/mcd.json"
+  },
+  {
+    "month": "2024-10",
+    "title": "E. coli outbreak linked to Quarter Pounders",
+    "what": "On 22 October US health authorities reported an E. coli outbreak linked to Quarter Pounders sold at McDonald's restaurants in several western states; one person died and dozens fell ill. McDonald's pulled the Quarter Pounder from restaurants in the affected states. By the end of the month investigators pointed to slivered onions from a supplier, Taylor Farms, which recalled them.",
+    "why": "A short scare: at least 104 people fell ill, the outbreak was declared over in December, and sales recovered.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/2024_McDonald%27s_E._coli_outbreak (read 2026-10-03)"
+  },
+  {
+    "month": "2026-09",
+    "title": "McDonald's 'NEXT' plan: billions in support for franchisees",
+    "what": "On 23 September McDonald's presented its 'NEXT' strategy to win back customers in a sluggish US market. It plans about 8.5 billion dollars of support for franchisees through 2036, about 5 billion of it by 2030, in rent relief and capital, to modernise restaurants, and targets an operating margin in the low-to-mid 50% range by 2030. McDonald's shares fell about 12% in September; they have lost about a third since February.",
+    "why": "Where the story stands today. The link between the plan and the September fall is plausible but not confirmed by a source read here.",
+    "assets": [
+      "mcd"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/exhibit991-investorupdate2.htm (release of 23 September 2026, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (US sales, read 2026-10-03); price changes from data/out/mcd.json"
+  }
+]

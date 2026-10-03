@@ -16,16 +16,19 @@
     move?: { asset: string; pct: number };
     importance: number;
     source: string;
+    id?: string;
     cut?: boolean;
     lead?: boolean;
     note?: string;
   }
   interface Asset { name: string; renames?: { from: string; name: string }[]; listed: string; end?: string; prices: Record<string, number> }
+  interface Picture { file: string; caption: string; source: string; licence: string; note?: string }
   interface Row { arc: string; index: number; beat: Beat }
 
   const dev = import.meta.env.DEV;
   let arcs = $state<Record<string, Beat[]>>({});
   let assets = $state<Record<string, Asset>>({});
+  let images = $state<Record<string, Record<string, Picture>>>({});
   let loaded = $state(false);
   let error = $state('');
   let view = $state<'month' | 'arc'>('month');
@@ -42,6 +45,7 @@
       const d = await r.json();
       arcs = d.arcs;
       assets = d.assets;
+      images = d.images ?? {};
       arc = Object.keys(arcs)[0] ?? '';
       loaded = true;
     } catch (e) {
@@ -223,6 +227,7 @@
               <span class="imp imp-{b.importance}">{b.importance}</span>
               {#if b.lead}<span class="badge new">lead</span>{/if}
             </div>
+            {@const pic = b.id ? images[row.arc]?.[b.id] : undefined}
             <div class="body">
               <p class="meta sub">
                 {#if view === 'arc'}{b.month} · {/if}<strong>{row.arc}</strong>
@@ -233,6 +238,12 @@
               <p class="what">{b.what}</p>
               <p class="why sub">{b.why}</p>
               <p class="src sub">{b.source}</p>
+              {#if pic}
+                <figure class="pic">
+                  <img src="/{pic.file}" alt={pic.caption} loading="lazy" />
+                  <figcaption class="sub">{pic.caption} <span class="muted">· {pic.licence}</span></figcaption>
+                </figure>
+              {/if}
               <div class="actions">
                 {#each [1, 2, 3] as n (n)}<button class="btn small" aria-pressed={b.importance === n} onclick={(e) => { e.stopPropagation(); void patch(row, { importance: n }); }}>{n}</button>{/each}
                 <button class="btn small" aria-pressed={!!b.cut} onclick={(e) => { e.stopPropagation(); void patch(row, { cut: !b.cut }); }}>{b.cut ? 'cut' : 'keep'}</button>
@@ -416,6 +427,23 @@
   .actions .btn[aria-pressed='true'] {
     background: var(--accent);
     color: var(--accent-ink);
+  }
+  .pic {
+    margin: 4px 0 0;
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+  }
+  .pic img {
+    width: 220px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    background: var(--surface-2);
+  }
+  .pic figcaption {
+    font-size: 0.78rem;
   }
   .danger {
     color: var(--danger-ink);

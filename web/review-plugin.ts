@@ -17,8 +17,15 @@ function readJson(file: string) {
 
 function data() {
   const arcs: Record<string, unknown[]> = {};
+  const images: Record<string, Record<string, unknown>> = {};
   if (fs.existsSync(ARCS)) {
     for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith('.beats.json')).sort()) arcs[f.replace('.beats.json', '')] = readJson(path.join(ARCS, f));
+    // Picture sidecars, keyed by beat id.
+    for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith('.images.json'))) {
+      const byBeat: Record<string, unknown> = {};
+      for (const it of readJson(path.join(ARCS, f)) as { beat: string }[]) byBeat[it.beat] = it;
+      images[f.replace('.images.json', '')] = byBeat;
+    }
   }
   const assets: Record<string, { name: string; renames?: { from: string; name: string }[]; listed: string; end?: string; prices: Record<string, number> }> = {};
   for (const f of fs.readdirSync(OUT).filter((f) => f.endsWith('.json'))) {
@@ -35,7 +42,7 @@ function data() {
     for (const r of sp.rows) prices[r.month] = r.price;
     assets.sp500 = { name: 'S&P 500', listed: sp.rows[0].month, prices };
   }
-  return { arcs, assets };
+  return { arcs, assets, images };
 }
 
 export function reviewPlugin(): Plugin {

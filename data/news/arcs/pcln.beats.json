@@ -1,0 +1,396 @@
+[
+  {
+    "month": "1999-03",
+    "title": "Priceline.com goes public",
+    "what": "Priceline.com of Stamford, Connecticut, sold 10 million shares at $16 each on March 30, raising $160 million. Its website lets travellers name the price they are willing to pay for a flight or hotel room, and airlines and hotels with empty seats and rooms decide whether to accept. Founder Jay Walker owns about 35% of the company, which is advertised by William Shatner and still loses money.",
+    "why": "The listing beat (importance 1). One of the hottest IPOs of the bubble; Walker became a multi-billionaire on paper overnight. The company that survived is today's Booking Holdings.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001047469-99-012711.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03); https://en.wikipedia.org/wiki/Priceline.com (read 2026-10-03)"
+  },
+  {
+    "month": "2000-01",
+    "title": "Priceline names its price for groceries too",
+    "what": "On January 27 Priceline reported fourth-quarter revenue of $169.2 million and a small loss before special items. It has 3.8 million customers. Priceline WebHouse Club, a licensee that sells groceries on the name-your-price model, has attracted more than 125,000 customers since November; Priceline also sells cars and mortgages this way.",
+    "why": "The overreach: Walker tried to apply the model to everything from groceries to petrol. These ventures collapsed within a year.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000950172-00-000146.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Priceline.com (read 2026-10-03)"
+  },
+  {
+    "month": "2000-09",
+    "title": "Priceline warns that sales will miss",
+    "what": "On September 27 Priceline said its revenue for the third quarter will not meet expectations. Shareholder lawsuits against the company and Jay Walker followed within days.",
+    "why": "The beginning of a four-month collapse: -56% in September, -52% in October, -57% in November, -48% in December 2000, together about -97%.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": -56
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/000100547701002385/0001.txt (10-K for 2000, read 2026-10-03)"
+  },
+  {
+    "month": "2000-10",
+    "title": "WebHouse Club shuts down",
+    "what": "Priceline WebHouse Club, which sold groceries and petrol on Priceline's name-your-price model under licence, ceased operations in October. Priceline is writing off its $189 million warrant to buy a majority of WebHouse.",
+    "why": "The end of Walker's 'name your price for everything' vision.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": -52
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/000100547700007886/0001.txt (10-Q for the quarter to September 30, 2000, read 2026-10-03)"
+  },
+  {
+    "month": "2000-11",
+    "title": "Priceline's revenue doubles, but the losses mount",
+    "what": "On November 2 Priceline reported third-quarter revenue of $341 million, up 124%, and a loss of only $2 million before special items, but a net loss of $199 million after writing off WebHouse. Walker Digital, Jay Walker's separate company, said it is cutting staff because it is short of capital.",
+    "why": "The travel business itself was improving; investors no longer cared. The shares fell another 57%.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": -57
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000950172-00-001827.txt (8-K with press release, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1075531/0000912057-00-051211.txt (8-K, read 2026-10-03)"
+  },
+  {
+    "month": "2000-12",
+    "title": "Priceline retreats to travel",
+    "what": "On December 8 Priceline said it is postponing new services such as long distance, cars and mortgages, cutting 48 jobs, 11% of its staff, and ending talks with Softbank on a Japanese venture. Chief executive Daniel Schulman said the company is 're-focusing all of our efforts on achieving profitability with our core businesses.'",
+    "why": "The bottom (price 0.315 at the end of December 2000, -99% from April 1999). Anyone who bought here multiplied their money several hundredfold over the next 25 years.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": -48
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000912057-00-052737.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2001-02",
+    "title": "Delta restructures its stake in Priceline",
+    "what": "Delta Air Lines agreed to restructure its investment in Priceline, which will reduce its outstanding preferred stock by $280 million and cut its dividend costs, while Delta can increase its stake.",
+    "why": "Clean-up of the balance sheet during the turnaround.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000912057-01-004261.txt (8-K, read 2026-10-03)"
+  },
+  {
+    "month": "2001-04",
+    "title": "Priceline expects its first operating profit",
+    "what": "In April Priceline gave preliminary first-quarter results and said it expects its first operating profit (before special items) in the second quarter. First-quarter revenue was about $270 million with a record gross margin of 16%, and the loss narrowed to 3 cents a share.",
+    "why": "The turnaround becomes visible; the shares almost doubled in April (+92%) from their lows. The detailed figures were confirmed in the May 1 release.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 92
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001005477-01-002938.txt (8-K with press release of May 1, 2001, read 2026-10-03)"
+  },
+  {
+    "month": "2001-06",
+    "title": "Li Ka-shing's companies buy into Priceline",
+    "what": "On June 5 Cheung Kong and Hutchison Whampoa, the Hong Kong groups of Li Ka-shing, agreed to buy about 25 million Priceline shares and gained the right to name two more directors.",
+    "why": "A vote of confidence from one of Asia's best-known investors; the shares rose 68% in June.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 68
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000912057-01-518788.txt (8-K, read 2026-10-03)"
+  },
+  {
+    "month": "2002-11",
+    "title": "Priceline grows in hotels",
+    "what": "On November 6 Priceline reported a third-quarter profit of $0.4 million before special items on revenue of $240 million, in line with its forecast. It sold more than 1 million hotel room nights, repeat customers made up a record 67% of business, and it holds $152.5 million in cash.",
+    "why": "Hotels, not flights, become the business that saves Priceline.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0000912057-02-041139.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2003-05",
+    "title": "Record hotel sales lift Priceline",
+    "what": "On May 1 Priceline reported first-quarter revenue of $200.5 million, up 37%, and a record 1.2 million hotel room nights sold. Excluding non-cash charges it roughly broke even, better than analysts expected. It will ask shareholders to approve a reverse share split.",
+    "why": "The market starts to price the hotel growth: +85% in May 2003.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 85
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001047469-03-016373.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2003-07",
+    "title": "Priceline earns $7.7 million",
+    "what": "On July 24 Priceline reported second-quarter net income of $7.7 million on revenue of $239.6 million, ahead of its own forecast, and a record 1.5 million hotel room nights, up 38%. It carried out a one-for-six reverse share split during the quarter and has no debt.",
+    "why": "Profitable growth confirmed; +47% in July 2003.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 47
+    },
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001047469-03-025101.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2004-09",
+    "title": "Priceline buys Active Hotels in Europe",
+    "what": "Priceline bought ActiveHotels.com, a British online hotel reservation company, for $161 million.",
+    "why": "The first step into European hotel booking, merged a year later with Booking.com.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03)"
+  },
+  {
+    "month": "2005-07",
+    "title": "Priceline buys Booking.com",
+    "what": "Priceline bought Booking.com, a Dutch online hotel booking site, for $133 million and is combining it with Active Hotels.",
+    "why": "One of the best acquisitions ever made: Booking.com became the core of the group and gave it its later name.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 1,
+    "source": "https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03); Dutch share purchase agreement in https://www.sec.gov/Archives/edgar/data/1075531/0001104659-05-033189.txt (read 2026-10-03)"
+  },
+  {
+    "month": "2006-08",
+    "title": "Priceline's bookings grow over 60%",
+    "what": "On August 7 Priceline reported that gross travel bookings rose 62.8% in the second quarter, or about 43% excluding acquisitions such as Booking.com; domestic merchant bookings grew only about 5%.",
+    "why": "The first clear sign that the European purchase was transforming the company; +24% in August 2006.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 24
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001104659-06-052353.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2007-08",
+    "title": "Priceline's international bookings nearly double",
+    "what": "On August 7 Priceline reported second-quarter gross travel bookings of $1.2 billion, up 33%, with international bookings up 93%, and net income of $34.6 million, against $12.5 million a year earlier.",
+    "why": "Booking.com drives the shares: +30% in August 2007.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 30
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001104659-07-059980.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2007-11",
+    "title": "Priceline drops booking fees on airfares",
+    "what": "Priceline eliminated all booking fees on published airfares in November, saying it will do so permanently.",
+    "why": "A small marketing move in a year when the shares more than doubled on Booking.com's growth.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Priceline.com (read 2026-10-03)"
+  },
+  {
+    "month": "2008-11",
+    "title": "Priceline grows through the crisis",
+    "what": "Priceline reported that third-quarter gross bookings grew 32.8% in the United States and 58.6% abroad, with Booking.com now offering about 57,000 hotels. It warned that hotel room rates are falling as travel demand slows.",
+    "why": "After falling about 60% from May to October 2008, the shares rebounded 31% in November and kept rising through the recession.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 31
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001104659-08-069020.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2010-08",
+    "title": "Priceline's bookings grow 43%",
+    "what": "Priceline reported second-quarter gross travel bookings of $3.4 billion, up 43% from a year earlier, with international bookings up 59%, and net income of $115 million, against $67 million a year earlier. Agoda, its Asian hotel site, grew bookings at triple-digit rates for the fourth quarter in a row.",
+    "why": "Booking.com and Agoda carry the group; the shares rose 30% in August 2010 and kept climbing for years.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 30
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001104659-10-041701.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2012-02",
+    "title": "Priceline's bookings up 52%",
+    "what": "Priceline reported fourth-quarter gross travel bookings of $4.96 billion, up 51.8%, with growth strong in all regions and fastest in Booking.com's newer markets in North America, Asia and South America. It expects bookings to grow 33% to 38% in the first quarter.",
+    "why": "The peak of the Booking.com growth story; +18% in February 2012.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 18
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-12-000008.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2013-05",
+    "title": "Priceline completes the Kayak deal",
+    "what": "Priceline completed its purchase of Kayak, the travel search site, on May 21, paying about $522 million in cash plus about 1.5 million Priceline shares. The deal had been agreed in November 2012.",
+    "why": "Priceline buys the metasearch site that steers travellers to booking sites.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-13-000030.txt (8-K, read 2026-10-03)"
+  },
+  {
+    "month": "2014-04",
+    "title": "priceline.com becomes The Priceline Group",
+    "what": "The company changed its name from priceline.com Incorporated to The Priceline Group, to separate the holding company from the Priceline brand, which is now one of several, alongside Booking.com, Agoda and Kayak.",
+    "why": "The name follows the business: most profit now comes from Booking.com in Europe.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03); https://en.wikipedia.org/wiki/Priceline.com (read 2026-10-03)"
+  },
+  {
+    "month": "2015-05",
+    "title": "Priceline invests more in Ctrip",
+    "what": "The Priceline Group said it will invest an additional $250 million in Ctrip, the Chinese online travel company, to share in the fast-growing Chinese travel market.",
+    "why": "Priceline's route into China, through a partner rather than its own brands.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/Priceline.com (read 2026-10-03)"
+  },
+  {
+    "month": "2016-11",
+    "title": "OpenTable write-off hits Priceline's profit",
+    "what": "The Priceline Group reported that room nights booked in the third quarter rose 29% to 150 million, but net income fell 58% to $506 million because of a $941 million write-off of the goodwill of OpenTable, its restaurant booking service.",
+    "why": "An expensive acquisition that did not work, in an otherwise strong business.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-16-000116.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2018-02",
+    "title": "The Priceline Group renames itself Booking Holdings",
+    "what": "On February 21 The Priceline Group announced it is changing its name to Booking Holdings, after its largest brand, Booking.com, and that its shares will trade as BKNG from February 27. Glenn Fogel has been chief executive since January 2017.",
+    "why": "The rename completes the transformation from the 1999 name-your-price site to a global hotel-booking group.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 1,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-18-000008.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03)"
+  },
+  {
+    "month": "2020-03",
+    "title": "Covid-19 stops travel",
+    "what": "On March 9 Booking Holdings withdrew its first-quarter forecast because of the worsening impact of the Covid-19 outbreak on travel demand. Chief executive Glenn Fogel said the company expects the disruption to be temporary.",
+    "why": "The worst month since 2008 (-21%); travel bookings collapsed, but the shares regained their old highs by early 2021.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": -21
+    },
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-20-000014.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2021-02",
+    "title": "Booking's room nights fall 60%",
+    "what": "Booking Holdings reported that room nights booked in the fourth quarter of 2020 fell 60% from a year earlier and that it made a net loss of $165 million, against net income of $1.2 billion a year earlier.",
+    "why": "The depth of the pandemic slump; the shares nonetheless rose 20% in February 2021.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 20
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-21-000016.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2022-11",
+    "title": "Travel is back",
+    "what": "On November 2 Booking Holdings reported that room nights booked in the third quarter rose 31% from a year earlier and revenue reached $6.1 billion, as travel recovered from the pandemic.",
+    "why": "The recovery from Covid; the shares rose 14% in October and 11% in November 2022 and went on to new highs in 2023.",
+    "assets": [
+      "pcln"
+    ],
+    "move": {
+      "asset": "pcln",
+      "pct": 11
+    },
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-22-000042.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2024-02",
+    "title": "Booking Holdings starts paying a dividend",
+    "what": "On February 22 Booking Holdings reported 2023 revenue of $21.4 billion, up 25%, net income of $4.3 billion and 1.235 billion room nights booked, and announced its first quarterly dividend.",
+    "why": "The former dot-com becomes a cash-return stock.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-24-000011.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Booking_Holdings (read 2026-10-03)"
+  },
+  {
+    "month": "2026-02",
+    "title": "Booking announces a 25-for-1 share split",
+    "what": "On February 18 Booking Holdings announced a twenty-five-for-one share split, effective April 2, with split-adjusted trading from April 6. Room nights grew 8% in 2025, and the company bought back $2.1 billion of its shares in the fourth quarter.",
+    "why": "A share price of several thousand dollars is cut to make the stock easier to buy; game prices are split-adjusted throughout.",
+    "assets": [
+      "pcln"
+    ],
+    "importance": 3,
+    "source": "https://www.sec.gov/Archives/edgar/data/1075531/0001075531-26-000008.txt (8-K, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1075531/0000950157-26-000465.txt (8-K, read 2026-10-03)"
+  }
+]

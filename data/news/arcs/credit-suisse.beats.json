@@ -337,40 +337,6 @@
     "source": "Credit Suisse Form 20-F for 2019, https://www.sec.gov/Archives/edgar/data/1053092/000137036820000046/cs-20191231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Thomas_Gottstein (read 2026-10-03); https://de.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)"
   },
   {
-    "id": "e130af4b",
-    "month": "2020-03",
-    "title": "Covid crash",
-    "what": "Markets crashed as the coronavirus spread: the S&P 500 fell 7.6% on 9 March, 9.5% on 12 March and about 12% on 16 March, after the Federal Reserve had cut its rate to zero. On 20 March the Swiss government announced an economic aid programme.",
-    "why": "Credit Suisse lost 28% in the month, twice as much as UBS.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -28
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
-  },
-  {
-    "id": "9f2f77dd",
-    "month": "2020-11",
-    "title": "Vaccine hopes lift the banks",
-    "what": "Pfizer and BioNTech reported in November that their coronavirus vaccine had met its efficacy goals in the final trial, with a potential efficacy of more than 90%. Share markets rallied; the S&P 500 gained about 11% in November.",
-    "why": "A market beat (+33% for Credit Suisse, its best month after 1998).",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": 33
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03)"
-  },
-  {
     "id": "ddd1d865",
     "month": "2021-03",
     "title": "Greensill and Archegos in one month",

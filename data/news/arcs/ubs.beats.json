@@ -337,23 +337,6 @@
     "source": "UBS Form 20-F for 2012, https://www.sec.gov/Archives/edgar/data/1114446/000119312513106100/d497201d20f.htm (read 2026-10-03)"
   },
   {
-    "id": "18fa3672",
-    "month": "2015-01",
-    "title": "The National Bank lets the franc go",
-    "what": "On 15 January the Swiss National Bank abandoned the minimum exchange rate of 1.20 francs per euro it had defended since September 2011. The franc jumped; it gained about 8% against the dollar in January.",
-    "why": "For dollar investors the franc's jump offsets the fall of the shares in francs; UBS ended the month -3% in dollars, Credit Suisse -16%.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -3
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
-  },
-  {
     "id": "f16a6e08",
     "month": "2017-01",
     "title": "The end of bank secrecy for foreign clients",
@@ -377,23 +360,6 @@
     ],
     "importance": 3,
     "source": "https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
-  },
-  {
-    "id": "ba8ea056",
-    "month": "2020-03",
-    "title": "Covid crash",
-    "what": "Markets crashed as the coronavirus spread: the S&P 500 fell 7.6% on 9 March, 9.5% on 12 March and about 12% on 16 March, the day after the Federal Reserve cut its rate to zero. On 20 March the Swiss government announced an economic aid programme. UBS lost 14% in the month, Credit Suisse 28%.",
-    "why": "A market beat; UBS's smaller investment bank made it less vulnerable than Credit Suisse.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -14
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
   },
   {
     "id": "435bf6c2",

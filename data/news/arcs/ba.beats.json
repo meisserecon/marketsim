@@ -185,22 +185,6 @@
     "source": "https://boeing.mediaroom.com/2007-07-08-Boeing-Celebrates-the-Premiere-of-the-787-Dreamliner (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
-    "id": "215f1805",
-    "month": "2009-02",
-    "title": "Markets sink to new lows",
-    "what": "Stocks fell to their lowest in more than a decade in February as the recession deepened and banks needed more rescues; the S&P 500 lost 11% in the month. Airlines are cutting capacity and Boeing's 787 has yet to fly.",
-    "why": "Explains the -26% month: no Boeing-specific shock found, a high-beta cyclical in the worst phase of the crisis. The stock bottomed here.",
-    "assets": [
-      "ba"
-    ],
-    "move": {
-      "asset": "ba",
-      "pct": -26
-    },
-    "importance": 3,
-    "source": "data/news/arcs/movers.md (S&P 500 -11% in 2009-02); https://boeing.mediaroom.com/2009-06-23-Boeing-Postpones-787-First-Flight (read 2026-10-03, the 787 had still not flown by June)"
-  },
-  {
     "id": "4ed995e9",
     "month": "2009-12",
     "title": "The 787 finally flies",
@@ -395,22 +379,6 @@
     },
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292722000019/a202203mar318kprex991.htm (Boeing results release of 2022-04-27, read 2026-10-03)"
-  },
-  {
-    "id": "45a07522",
-    "month": "2022-09",
-    "title": "Rate fears crush the market",
-    "what": "The Federal Reserve raised rates by another three quarters of a point on 21 September and signalled more to come. The S&P 500 fell 9% in the month. Boeing, still deep in debt from the MAX crisis and the pandemic, fell much further.",
-    "why": "Explains the -24% month: no Boeing-specific shock found; the 2022 low of the stock.",
-    "assets": [
-      "ba"
-    ],
-    "move": {
-      "asset": "ba",
-      "pct": -24
-    },
-    "importance": 3,
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03, 75 bp increase effective 2022-09-22); data/news/arcs/movers.md (S&P 500 -9% in 2022-09)"
   },
   {
     "id": "b0dfc592",

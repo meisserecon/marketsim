@@ -112,18 +112,19 @@
       .slice(0, 4);
 
   async function patch(row: Row, p: Partial<Beat>) {
-    const r = await fetch('/__review/beat', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index, patch: p }) });
+    const r = await fetch('/__review/beat', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index, id: row.beat.id, patch: p }) });
     if (!r.ok) {
       error = `Save failed: ${(await r.json()).error}`;
       return;
     }
     const saved = (await r.json()).beat as Beat;
-    arcs[row.arc][row.index] = saved;
+    const at = arcs[row.arc].findIndex((b) => b.id === saved.id);
+    arcs[row.arc][at >= 0 ? at : row.index] = saved;
     arcs = { ...arcs };
   }
 
   async function remove(row: Row) {
-    const r = await fetch('/__review/delete', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index }) });
+    const r = await fetch('/__review/delete', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index, id: row.beat.id }) });
     if (!r.ok) {
       error = `Delete failed: ${(await r.json()).error}`;
       return;

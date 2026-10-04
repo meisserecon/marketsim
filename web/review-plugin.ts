@@ -60,12 +60,13 @@ export function reviewPlugin(): Plugin {
         req.on('data', (c) => (body += c));
         req.on('end', () => {
           try {
-            const { arc, index, patch } = JSON.parse(body) as { arc: string; index: number; patch: Record<string, unknown> };
+            const { arc, index, id, patch } = JSON.parse(body) as { arc: string; index: number; id?: string; patch: Record<string, unknown> };
             if (!/^[a-z0-9-]+$/.test(arc)) throw new Error('bad arc id');
             const file = path.join(ARCS, `${arc}.beats.json`);
             const beats = readJson(file) as Record<string, unknown>[];
-            const b = beats[index];
-            if (!b) throw new Error('no such beat');
+            // By id: the file may have changed on disk since the page was loaded, and positions with it.
+            const b = id ? beats.find((x) => x.id === id) : beats[index];
+            if (!b) throw new Error('this beat is no longer in the file: reload the page');
             // Only the curator's fields; the beat's substance is edited in the file by hand.
             for (const k of ['importance', 'cut', 'note', 'lead'] as const) {
               if (!(k in patch)) continue;
@@ -87,13 +88,14 @@ export function reviewPlugin(): Plugin {
         req.on('data', (c) => (body += c));
         req.on('end', () => {
           try {
-            const { arc, index } = JSON.parse(body) as { arc: string; index: number };
+            const { arc, index, id } = JSON.parse(body) as { arc: string; index: number; id?: string };
             if (!/^[a-z0-9-]+$/.test(arc)) throw new Error('bad arc id');
             const file = path.join(ARCS, `${arc}.beats.json`);
             const beats = readJson(file) as Record<string, unknown>[];
-            if (!beats[index]) throw new Error('no such beat');
+            const at = id ? beats.findIndex((x) => x.id === id) : index;
+            if (!beats[at]) throw new Error('this beat is no longer in the file: reload the page');
             // Gone for good from the file; git history keeps it.
-            beats.splice(index, 1);
+            beats.splice(at, 1);
             fs.writeFileSync(file, JSON.stringify(beats, null, 2) + '\n');
             res.setHeader('content-type', 'application/json');
             res.end(JSON.stringify({ ok: true, beats }));

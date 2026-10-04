@@ -3,7 +3,7 @@
    * The month's news as the front page of "The News": a masthead, the lead story across the
    * page with its picture, and the other stories in columns below.
    */
-  import type { NewsItemView } from '@marketsim/shared';
+  import { THREADS, type NewsItemView } from '@marketsim/shared';
   import { monthName } from '$lib/format';
 
   interface Props {
@@ -27,6 +27,8 @@
   const fmt = (c: number) => `${c > 0 ? '+' : c < 0 ? '−' : ''}${Math.abs(c * 100).toFixed(0)}%`;
 
   const KIND_LABEL: Record<string, string> = { listing: 'Now trading', delisting: 'Leaving the market' };
+  /** The line above a headline: an entry or exit, or the storyline the item continues. */
+  const kicker = (item: NewsItemView) => KIND_LABEL[item.kind] ?? (item.thread ? THREADS[item.thread] : undefined);
   const lead = $derived(items[0]);
   const rest = $derived(items.slice(1));
   /** Papers count their years: volume 1 is the game's first year. */
@@ -103,7 +105,7 @@
   {:else}
     <section class="lead" class:with-picture={!!lead.image}>
       <div class="lead-head">
-        {#if KIND_LABEL[lead.kind]}<p class="kicker">{KIND_LABEL[lead.kind]}</p>{/if}
+        {#if kicker(lead)}<p class="kicker">{kicker(lead)}</p>{/if}
         <h3>{lead.headline}</h3>
       </div>
       {#if lead.image}<div class="lead-picture">{@render picture(lead)}</div>{/if}
@@ -122,7 +124,7 @@
           <div class="story" class:beside>
             {#if beside}{@render picture(item)}{/if}
             <div class="story-body">
-              {#if KIND_LABEL[item.kind]}<p class="kicker">{KIND_LABEL[item.kind]}</p>{/if}
+              {#if kicker(item)}<p class="kicker">{kicker(item)}</p>{/if}
               <h4>{item.headline}</h4>
               {#if !beside}{@render picture(item)}{/if}
               <p>{item.text}</p>

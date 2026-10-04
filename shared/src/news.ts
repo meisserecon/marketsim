@@ -3,6 +3,22 @@
  * JSON array of items in ascending month order. Players see a month's items when the clock
  * reaches that month; nothing after the current month is ever served.
  */
+/**
+ * The grand storylines that run through the game. A beat that belongs to one carries its id
+ * as `thread`, so that the build-up to a big event can be followed from item to item.
+ */
+export const THREADS: Record<string, string> = {
+  rates: "Inflation and interest rates",
+  soviet: "The Cold War",
+  japan: "Japan",
+  dotcom: "The New Economy",
+  "asia-ltcm": "The Asian crisis",
+  euro: "The euro",
+  "housing-crisis": "Housing and the banks",
+  china: "China's rise",
+  iran: "Iran",
+};
+
 export type NewsKind = "world" | "company" | "colour" | "listing" | "delisting";
 
 export interface NewsItem {
@@ -13,6 +29,8 @@ export interface NewsItem {
   text: string;
   /** Ids of the companies concerned; empty when none. */
   assets: string[];
+  /** The storyline this item continues, a key of THREADS. */
+  thread?: string;
   /** Where the facts come from. For maintainers; not sent to players. */
   source?: string;
   /** Optional picture, as a path the web client can load, and its caption. */

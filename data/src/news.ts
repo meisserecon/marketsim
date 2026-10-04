@@ -17,7 +17,7 @@ const MAX_IMPORTANCE = 2;
 
 interface Beat {
   id: string; month: string; title: string; what: string; assets: string[]; importance: number;
-  source: string; cut?: boolean; lead?: boolean;
+  source: string; cut?: boolean; lead?: boolean; thread?: string;
 }
 interface Picture { beat: string; file: string; caption: string; credit?: string; licence: string }
 
@@ -65,6 +65,7 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     const tagged = [...new Set([...(company && (kind === "listing" || kind === "delisting") ? [arc] : []), ...b.assets])].filter((id) => inGame(id, b.month)).concat(bonds);
     items.push({
       month: b.month, kind, headline: b.title, text: b.what, assets: tagged, source: b.source,
+      ...(b.thread ? { thread: b.thread } : {}),
       ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),
       rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + b.importance,
     });

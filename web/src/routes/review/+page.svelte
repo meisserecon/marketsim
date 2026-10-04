@@ -6,6 +6,7 @@
    */
   import { onMount } from 'svelte';
   import { monthName } from '$lib/format';
+  import { THREADS } from '@marketsim/shared';
 
   interface Beat {
     month: string;
@@ -20,6 +21,7 @@
     cut?: boolean;
     lead?: boolean;
     note?: string;
+    thread?: string;
   }
   interface Asset { name: string; renames?: { from: string; name: string }[]; listed: string; end?: string; prices: Record<string, number> }
   interface Picture { file: string; caption: string; source: string; licence: string; note?: string }
@@ -31,7 +33,8 @@
   let images = $state<Record<string, Record<string, Picture>>>({});
   let loaded = $state(false);
   let error = $state('');
-  let view = $state<'month' | 'arc'>('month');
+  let view = $state<'month' | 'arc' | 'thread'>('month');
+  let thread = $state(Object.keys(THREADS)[0]);
   let month = $state('1979-12');
   let arc = $state('');
   let cursor = $state(0);
@@ -69,7 +72,7 @@
     return [...m.entries()].sort();
   });
   const visible = $derived(
-    (view === 'month' ? all.filter((r) => r.beat.month === month) : all.filter((r) => r.arc === arc)).filter((r) => showCut || !r.beat.cut)
+    (view === 'month' ? all.filter((r) => r.beat.month === month) : view === 'arc' ? all.filter((r) => r.arc === arc) : all.filter((r) => r.beat.thread === thread)).filter((r) => showCut || !r.beat.cut)
   );
   const kept = $derived(all.filter((r) => !r.beat.cut && r.beat.importance <= threshold).length);
   const perArc = $derived.by(() => {
@@ -171,6 +174,7 @@
       <div class="segmented" role="group" aria-label="View">
         <button aria-pressed={view === 'month'} onclick={() => { view = 'month'; cursor = 0; }}>By month</button>
         <button aria-pressed={view === 'arc'} onclick={() => { view = 'arc'; cursor = 0; }}>By arc</button>
+        <button aria-pressed={view === 'thread'} onclick={() => { view = 'thread'; cursor = 0; }}>By storyline</button>
       </div>
       <label class="field inline"><span>Show up to</span>
         <select bind:value={threshold}><option value={1}>1 must</option><option value={2}>2 should</option><option value={3}>3 all</option></select>
@@ -185,6 +189,16 @@
             <li>
               <button class:on={m === month} onclick={() => { month = m; cursor = 0; }}>
                 <span>{m}</span><span class="count" class:thin={c.kept < 2} class:fat={c.kept > 5}>{c.kept}/{c.total}</span>
+              </button>
+            </li>
+          {/each}
+        </ul>
+      {:else if view === 'thread'}
+        <ul class="list">
+          {#each Object.entries(THREADS) as [t, title] (t)}
+            <li>
+              <button class:on={t === thread} onclick={() => { thread = t; cursor = 0; }}>
+                <span>{title}</span><span class="count">{all.filter((r) => r.beat.thread === t && !r.beat.cut).length}</span>
               </button>
             </li>
           {/each}
@@ -211,6 +225,8 @@
             {#each movers(month) as x (x.id)} · {nameAt(x.id, month)} <span class={x.c < 0 ? 'down' : 'up'}>{pct(x.c)}</span>{/each}
           </p>
         </header>
+      {:else if view === 'thread'}
+        <header class="month-head"><h2>{THREADS[thread]}</h2><p class="sub">{visible.length} beats, in the order in which players meet them</p></header>
       {:else}
         <header class="month-head"><h2>{arc}</h2><p class="sub">{visible.length} beats</p></header>
       {/if}

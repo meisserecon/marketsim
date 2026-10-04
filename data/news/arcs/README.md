@@ -60,6 +60,7 @@ A JSON array in ascending month order:
 - `move`: optional, the price move this beat explains, as in movers.md: the asset id (`sp500` and `gold` allowed) and the month's change in percent, rounded. Give it only when the connection is real; a beat may have none.
 - `importance`: 1 = must be in the game (defines the arc), 2 = should be, 3 = nice to have. Aim for roughly a third each.
 - `source`: where the facts come from, with the date read. Nothing from memory alone.
+- `thread`: optional, the grand storyline the beat belongs to (a key of `THREADS` in `shared/src/news.ts`, e.g. `euro`). Each storyline is described in `data/news/threads/<thread>.md` and must read as a continuous story: early signs, escalation, peak, aftermath.
 
 ## Coverage rules
 

@@ -4,6 +4,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+// The storylines a beat may belong to; the same keys as THREADS in shared/src/news.ts.
+const THREADS = ["rates", "soviet", "japan", "dotcom", "asia-ltcm", "euro", "housing-crisis", "china", "iran"];
+
 const dir = path.dirname(fileURLToPath(import.meta.url));
 const outDir = path.join(dir, "../../out");
 const uni = fs.readFileSync(path.join(dir, "../../src/universe.ts"), "utf8");
@@ -42,6 +45,7 @@ for (const name of files) {
     if (!/read \d{4}-\d{2}-\d{2}/.test(b.source ?? "")) bad("source without read date: " + id);
     if (![1, 2, 3].includes(b.importance)) bad("importance " + id);
     else imp[b.importance]++;
+    if (b.thread !== undefined && !THREADS.includes(b.thread)) bad(`unknown thread ${b.thread}: ${id}`);
     if (!Array.isArray(b.assets)) bad("assets " + id);
     else for (const s of b.assets) {
       if (s === "gold" || s === "bonds") continue; // gold is in the game throughout; "bonds" stands for the Treasuries on offer

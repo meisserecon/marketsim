@@ -68,7 +68,7 @@
     "month": "2000-02",
     "kind": "world",
     "headline": "New economy up, old economy down",
-    "text": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised.",
+    "text": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised. About 248 million people were online at the end of 1999, fifteen times as many as four years earlier.",
     "assets": [
       "nvda",
       "siemens",
@@ -77,7 +77,7 @@
       "ko",
       "mcd"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://www.stackscale.com/blog/internet-evolution-statistics/ (search result read 2026-10-04); https://www.allaboutmarketresearch.com/internet.htm (search result read 2026-10-04) (figures of Internet World Stats)",
     "thread": "dotcom",
     "image": "/news/tech/2000-02-georgia-dome.jpg",
     "imageCaption": "Georgia Dome, 1996",
@@ -669,14 +669,15 @@
     "month": "2000-12",
     "kind": "world",
     "headline": "The Nasdaq's worst year: down 39%",
-    "text": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last.",
+    "text": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last. The internet itself keeps growing: 361 million people are online at the end of 2000, against 248 million a year earlier. It was the share prices that were wrong, not the internet.",
     "assets": [
       "csco",
       "intc",
       "msft",
       "amzn"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.stackscale.com/blog/internet-evolution-statistics/ (search result read 2026-10-04); https://www.allaboutmarketresearch.com/internet.htm (search result read 2026-10-04) (figures of Internet World Stats)",
+    "thread": "dotcom",
     "image": "/news/tech/2000-12-nasdaq-screens.jpg",
     "imageCaption": "The wall of screens inside the Nasdaq MarketSite, Times Square",
     "imageCredit": "Luis Villa del Campo"

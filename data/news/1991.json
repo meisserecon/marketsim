@@ -112,10 +112,11 @@
   {
     "month": "1991-08",
     "kind": "world",
-    "headline": "The World Wide Web opens to the internet",
-    "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
+    "headline": "The World Wide Web opens to the internet: there is one website",
+    "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs. There is nothing to surf yet: no shops, no newspapers, no search engines, no pictures. The internet is a way for scientists to send each other messages and files, and almost nobody outside the universities has heard of it.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)",
+    "thread": "dotcom",
     "image": "/news/tech/1991-08-web-server.jpg",
     "imageCaption": "The NeXT computer that served as the first web server at CERN, Geneva, where Tim Berners-Lee built the World Wide Web in 1990-91",
     "imageCredit": "Coolcaesar"
@@ -221,7 +222,7 @@
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/markets/1991-12-rates-chart.png",
-    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to December 1991",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to December 1991",
     "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {

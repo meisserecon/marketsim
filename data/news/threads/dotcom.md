@@ -25,3 +25,12 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 
 Added on 4 October 2026 (build-up):
 - 1998-12 Analyst predicts $400 for Amazon (8ff246c2, amzn, new)
+
+Added on 4 October 2026 (the internet before Netscape, and its growth year by year with the forecasts of the day):
+- 1991-08 The World Wide Web opens to the internet: there is one website (7e589f4c, tech)
+- 1993-09 Mosaic: a program that makes the internet something to look at (37c7d4ba, tech)
+- 1996-01 16 million people are online. A fad, say the sceptics (44107702, tech)
+- 1997-02 The internet more than doubles in a year: 36 million users (86e19220, tech)
+- 1998-04 Faster than radio, faster than television: the internet reaches 70 million (a8821897, tech)
+- 1999-09 147 million online, and a book called 'Dow 36,000' (5f7998d3, tech)
+- 2000-12 The Nasdaq's worst year: down 39% (0d8709ae, tech)

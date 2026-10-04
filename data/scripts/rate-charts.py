@@ -1,4 +1,4 @@
-"""Charts for the interest-rate storyline: the Fed's rate, inflation and unemployment from 1975 up to
+"""Charts for the interest-rate storyline: the Fed's rate, inflation and unemployment from 1955 up to
 the month of the story (nothing later), on a time axis that always spans the whole game.
 charts.py <rateset.json> : writes web/static/news/<arc>/<month>-rates.png for each entry."""
 import sys, os, json, csv
@@ -31,7 +31,7 @@ infl = {m: (cpi[m] / cpi[mon(idx(m) - 12)] - 1) * 100 for m in cpi if mon(idx(m)
 
 W, H = 1400, 800
 L_, R_, T_, B_ = 90, 40, 110, 70
-X0, X1 = idx("1975-01"), idx("2026-12")
+X0, X1 = idx("1955-01"), idx("2026-12")
 YMAX = 20.0
 
 
@@ -58,12 +58,12 @@ def chart(month, path):
     last = idx(month)
     label = f"{MONTHS[int(month[5:7]) - 1]} {month[:4]}"
     d.text((L_, 28), "The Fed's interest rate, inflation and unemployment", font=font(34, True), fill="#1c1a16")
-    d.text((L_, 72), f"United States, percent, 1975 to {label}", font=font(22), fill="#5a564c")
+    d.text((L_, 72), f"United States, percent, 1955 to {label}", font=font(22), fill="#5a564c")
     for v in range(0, 21, 5):
         y = py(v)
         d.line((L_, y, W - R_, y), fill="#d8d2c2", width=1)
         d.text((L_ - 14, y), f"{v}%", font=font(20), fill="#5a564c", anchor="rm")
-    for year in range(1975, 2027, 5):
+    for year in range(1955, 2027, 10):
         x = px(idx(f"{year}-01"))
         d.line((x, H - B_, x, H - B_ + 8), fill="#5a564c", width=1)
         d.text((x, H - B_ + 14), str(year), font=font(20), fill="#5a564c", anchor="mt")

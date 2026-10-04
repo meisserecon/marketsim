@@ -34,6 +34,18 @@
   },
   {
     "month": "1998-04",
+    "kind": "world",
+    "headline": "Faster than radio, faster than television: the internet reaches 70 million",
+    "text": "It took radio 38 years to reach 50 million listeners and television 13 years to reach 50 million viewers. The internet did it in four, says a report the American government published on 15 April. At the end of 1997 about 70 million people were online, twice as many as a year before, and according to the report the traffic on the internet doubles every hundred days. Electronic commerce, it says, brings growth, well-paid jobs and lower inflation.",
+    "assets": [],
+    "source": "https://www.stackscale.com/blog/internet-evolution-statistics/ (search result read 2026-10-04); https://www.allaboutmarketresearch.com/internet.htm (search result read 2026-10-04) (figures of Internet World Stats); https://hannemyr.com/en/diff.html (search result read 2026-10-04); https://library.unt.edu/gpo/oca/mrapr98.htm (search result read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/1998-04-modem.jpg",
+    "imageCaption": "Modem, 2008",
+    "imageCredit": "secretlondon123"
+  },
+  {
+    "month": "1998-04",
     "kind": "company",
     "headline": "Amazon buys bookstores in Britain and Germany, splits its shares",
     "text": "On April 27 Amazon reported sales of $87.4 million for the first quarter, up 446% from a year earlier, and a net loss of $9.3 million. It has more than 2.26 million customer accounts. It announced a two-for-one share split and the purchase of online booksellers in the UK and Germany and of the Internet Movie Database.",
@@ -235,7 +247,7 @@
     "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/markets/1998-10-rates-chart.png",
-    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to October 1998",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to October 1998",
     "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {

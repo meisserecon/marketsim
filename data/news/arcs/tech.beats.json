@@ -47,6 +47,7 @@
     "why": "Within four months it had three quarters of the browser market; its success, and its IPO a year later, started the internet mania. Review 2026-10: the company was not yet called Netscape.",
     "assets": [],
     "importance": 3,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
   },
   {
@@ -87,6 +88,7 @@
     "why": "The starting gun of the dot-com era: it showed that investors would pay billions for internet growth without profits.",
     "assets": [],
     "importance": 1,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
   },
   {
@@ -115,7 +117,19 @@
       "amzn"
     ],
     "importance": 2,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "id": "35866db6",
+    "month": "1999-11",
+    "title": "Nearly ten million Americans now trade shares online",
+    "what": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
+    "why": "The gold-rush mood made visible: millions of amateurs crowded into technology and internet shares near the top, and many lost as fast as they had won once the Nasdaq turned in March 2000.",
+    "assets": [],
+    "importance": 2,
+    "thread": "dotcom",
+    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)"
   },
   {
     "id": "e7332310",
@@ -134,7 +148,30 @@
       "nvda"
     ],
     "importance": 1,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "id": "9a953413",
+    "month": "1999-12",
+    "title": "VA Linux jumps 698% on its first day; a web address sells for 7.5 million dollars",
+    "what": "On 9 December VA Linux, a company named after the free Linux operating system, went public at 30 dollars a share; the shares opened at 299 and closed at 239.25, up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
+    "why": "Peak froth: first-day jumps and domain-name prices measured how much money was chasing anything with 'internet' in its name, three months before the Nasdaq's top.",
+    "assets": [],
+    "importance": 2,
+    "thread": "dotcom",
+    "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)"
+  },
+  {
+    "id": "1f8b5752",
+    "month": "2000-01",
+    "title": "AOL, an internet company, agrees to buy Time Warner",
+    "what": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "why": "The new economy buying the old with inflated paper, two months before the Nasdaq's top; the deal became a byword for the excesses of the bubble.",
+    "assets": [],
+    "importance": 2,
+    "thread": "dotcom",
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)"
   },
   {
     "id": "2d403d86",
@@ -151,6 +188,7 @@
       "mcd"
     ],
     "importance": 3,
+    "thread": "dotcom",
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
   },
   {
@@ -167,6 +205,7 @@
       "amzn"
     ],
     "importance": 1,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -187,6 +226,7 @@
       "pct": -8
     },
     "importance": 1,
+    "thread": "dotcom",
     "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -346,6 +386,7 @@
       "pct": 9
     },
     "importance": 1,
+    "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {

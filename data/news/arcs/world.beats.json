@@ -232,6 +232,7 @@
       "bonds"
     ],
     "importance": 1,
+    "thread": "euro",
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)"
   },
   {
@@ -256,6 +257,19 @@
     "source": "https://en.wikipedia.org/wiki/1996_United_States_presidential_election (read 2026-10-03)"
   },
   {
+    "id": "302649e7",
+    "month": "1998-05",
+    "title": "Eleven countries qualify for the euro; Greece does not",
+    "what": "On 3 May, at a summit in Brussels, EU leaders chose the eleven countries that will adopt the euro on 1 January 1999: Germany, France, Italy, Spain, the Netherlands, Belgium, Austria, Portugal, Finland, Ireland and Luxembourg. Belgium and Italy were let in although their government debts, about 122 percent of their annual economic output in 1997, are twice the 60 percent limit. Greece failed the tests: its 1997 deficit of 4.0 percent was above the 3 percent limit, and its inflation of 5.4 percent was far too high.",
+    "why": "The euro's founding compromise: the rules were bent for big debtors, and Greece, kept out now, is let in two years later. Doubts about Greek figures surface in 2004 and explode in 2009.",
+    "assets": [
+      "bonds"
+    ],
+    "importance": 2,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_euro (read 2026-10-04); https://en.wikipedia.org/wiki/Euro_convergence_criteria (read 2026-10-04); https://en.wikipedia.org/wiki/Enlargement_of_the_eurozone (read 2026-10-04); European Monetary Institute, Convergence Report, March 1998, https://www.ecb.europa.eu/pub/pdf/conrep/cr1998en.pdf (read 2026-10-04)"
+  },
+  {
     "id": "b66b5cdc",
     "month": "1999-01",
     "title": "The euro is born",
@@ -265,6 +279,7 @@
       "bonds"
     ],
     "importance": 2,
+    "thread": "euro",
     "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)"
   },
   {
@@ -296,6 +311,17 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election (read 2026-10-03)"
+  },
+  {
+    "id": "32d3a029",
+    "month": "2001-01",
+    "title": "Greece becomes the twelfth euro country",
+    "what": "On 1 January Greece adopted the euro, two years after the first eleven countries. In 1998 it had failed the entry tests; in June 2000 the EU judged that it now meets them and fixed the rate at 340.75 drachmas per euro. Like Italy and Belgium, Greece owes more than its whole annual economic output, far above the 60 percent limit in the rules. Euro notes and coins are to follow in all twelve countries in January 2002.",
+    "why": "Greece's entry rested on a reported 1999 deficit of 1.8 percent; the 2004 audit put it at 3.4 percent, above the limit. Cheap borrowing in euros then fed the debts that broke out in 2009.",
+    "assets": [],
+    "importance": 2,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/Enlargement_of_the_eurozone (read 2026-10-04); https://en.wikipedia.org/wiki/Euro_convergence_criteria (read 2026-10-04); https://en.wikipedia.org/wiki/History_of_the_euro (read 2026-10-04); European Monetary Institute, Convergence Report, March 1998, https://www.ecb.europa.eu/pub/pdf/conrep/cr1998en.pdf (read 2026-10-04); Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04)"
   },
   {
     "id": "be8f0241",
@@ -334,6 +360,7 @@
     "why": "The euro becomes real for the family across the border; the currency that started weak in 1999 rises against the dollar over the following years.",
     "assets": [],
     "importance": 2,
+    "thread": "euro",
     "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)"
   },
   {
@@ -377,6 +404,17 @@
     "source": "https://en.wikipedia.org/wiki/2004_United_States_presidential_election (read 2026-10-03)"
   },
   {
+    "id": "8a6c5fc0",
+    "month": "2004-11",
+    "title": "Greece's deficits were bigger than reported",
+    "what": "On 22 November Eurostat, the EU's statistics office, published a report on Greece's budget figures, after an audit launched by the government elected in March. The deficit for 1999, the year on which Greece's entry into the euro was judged, was 3.4 percent of economic output, not 1.8 percent, and so above the 3 percent limit; for 2003 it was 4.6 percent instead of 1.7 percent. Military spending had been under-recorded and the surpluses of the social security funds overstated. Greece keeps the euro, but the reliability of its statistics is now openly questioned.",
+    "why": "The first public crack in the Greek story. It changed little at the time; the Greek figures went badly wrong again in 2009.",
+    "assets": [],
+    "importance": 2,
+    "thread": "euro",
+    "source": "Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04); https://en.wikipedia.org/wiki/2004_Greek_financial_audit (read 2026-10-04)"
+  },
+  {
     "id": "e5c52c62",
     "month": "2005-06",
     "title": "The Swiss join Schengen as France and the Netherlands reject the EU constitution",
@@ -408,10 +446,36 @@
     "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election (read 2026-10-03)"
   },
   {
+<<<<<<< HEAD
+=======
+    "id": "b5d8be0b",
+    "month": "2009-02",
+    "title": "UBS hands client names to the United States",
+    "what": "On 18 February UBS agreed to pay a 780 million dollar fine and entered a deferred prosecution agreement with the US Justice Department over helping Americans evade taxes, and to release information on American clients suspected of tax evasion, a breach in Swiss bank secrecy. The next day the US government sued to obtain the names of all 52,000 American clients with secret UBS accounts.",
+    "why": "The beginning of the end of Swiss bank secrecy for foreign clients: within months Switzerland accepts OECD standards on tax information, and the automatic exchange of information follows years later.",
+    "assets": [
+      "ubs"
+    ],
+    "importance": 3,
+    "source": "https://en.wikipedia.org/wiki/UBS_tax_evasion_controversies (read 2026-10-03); https://en.wikipedia.org/wiki/Bradley_Birkenfeld (read 2026-10-03)"
+  },
+  {
+    "id": "16aca12d",
+    "month": "2009-10",
+    "title": "Greece's new government finds a deficit of 12.7 percent",
+    "what": "George Papandreou's party PASOK won the Greek election with 43.9 percent of the vote, and he became prime minister on 6 October. His government revealed that this year's budget deficit will be about 12.7 percent of economic output, not the 6 to 8 percent forecast before, more than four times the euro's 3 percent limit. Greece's public debt is put at about 410 billion dollars. It is the second time in five years that Greek figures have turned out far worse than reported.",
+    "why": "The start of the euro crisis: markets begin to ask whether Greece can pay, and which euro country might be next. The final 2009 figure was 15.4 percent.",
+    "assets": [],
+    "importance": 1,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-04)"
+  },
+  {
+>>>>>>> worktree-agent-a4a2ea336cfae2978
     "id": "9a1c1481",
     "month": "2010-05",
     "title": "Europe bails out Greece and sets up a rescue fund",
-    "what": "On 2 May the eurozone countries and the IMF agreed a 110 billion euro loan for Greece, which can no longer borrow on the markets after admitting that its deficit was far larger than reported; Greeks protested in the streets against the spending cuts attached. A week later the EU created a European Financial Stability Facility with up to 750 billion euros to stop the crisis spreading to Portugal, Spain and others. On 6 May the Dow plunged 998 points, about 9 percent, mostly within minutes, before recovering much of the loss in a 'flash crash'.",
+    "what": "In late April the rating agencies cut Greek bonds to junk, half a year after Greece's new government had revealed a deficit of 12.7 percent of economic output. On 2 May the eurozone countries and the IMF agreed a 110 billion euro loan for Greece, which can no longer borrow on the markets after admitting that its deficit was far larger than reported; Greeks protested in the streets against the spending cuts attached. A week later the EU created a European Financial Stability Facility with up to 750 billion euros to stop the crisis spreading to Portugal, Spain and others. On 6 May the Dow plunged 998 points, about 9 percent, mostly within minutes, before recovering much of the loss in a 'flash crash'.",
     "why": "The euro crisis begins in earnest: the S&P 500 fell 8% in May, and the Swiss franc began its rise as Europeans fled into it.",
     "assets": [],
     "move": {
@@ -419,8 +483,24 @@
       "pct": -8
     },
     "importance": 1,
+<<<<<<< HEAD
     "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03)",
     "lead": true
+=======
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)"
+  },
+  {
+    "id": "864a99ca",
+    "month": "2010-11",
+    "title": "Ireland needs a rescue too; markets talk of the 'PIIGS'",
+    "what": "On 29 November the EU and the IMF agreed a rescue for Ireland worth 85 billion euros, 67.5 billion in loans and 17.5 billion from Ireland's own reserves; up to 34 billion is for its banks. Ireland is the second euro country to need help, after Greece in May. Investors lump the weakest euro countries, Portugal, Italy, Ireland, Greece and Spain, together under the unkind nickname 'PIIGS', which the Financial Times and Barclays Capital stopped using freely this year after complaints that it is offensive.",
+    "why": "The crisis spreads from one country's hidden deficits to another's bank bust; Portugal follows in spring 2011.",
+    "assets": [],
+    "importance": 2,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/PIGS_(economics) (read 2026-10-04)"
+>>>>>>> worktree-agent-a4a2ea336cfae2978
   },
   {
     "id": "e485afe7",
@@ -438,7 +518,7 @@
     "id": "2feb0d58",
     "month": "2011-10",
     "title": "Euro summit: banks to take half off Greek debt",
-    "what": "In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
+    "what": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
     "why": "Relief that the euro would hold produced the S&P 500's best month in years (+11%), with banks and miners leading; the referendum shock at month's end showed the crisis was not over.",
     "assets": [],
     "move": {
@@ -446,7 +526,32 @@
       "pct": 11
     },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03)"
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04)"
+  },
+  {
+    "id": "19b500ed",
+    "month": "2011-11",
+    "title": "Italy's borrowing costs pass 7 percent; Berlusconi and Papandreou go",
+    "what": "On 9 November the interest rate on Italy's ten-year bonds rose above 7 percent, to as much as 7.45 percent, a level many economists see as unbearable; Italy's debt equals 120 percent of its economic output, and it is seen as too big to rescue with the funds available. Silvio Berlusconi resigned as prime minister on 12 November, and the economist Mario Monti was sworn in on 16 November at the head of a government of unelected experts. In Greece, George Papandreou dropped his referendum plan and resigned on 10 November; Lucas Papademos now leads a national unity government.",
+    "why": "The crisis reaches one of the euro's big economies; Italian and Spanish borrowing costs stay at danger levels until Draghi's promise of July 2012.",
+    "assets": [
+      "bonds"
+    ],
+    "importance": 2,
+    "thread": "euro",
+    "source": "https://www.rte.ie/news/business/2011/1109/308452-italy-business/ (read 2026-10-04); https://en.wikipedia.org/wiki/Berlusconi_IV_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/Monti_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)"
+  },
+  {
+    "id": "a898025c",
+    "month": "2012-06",
+    "title": "Spain asks Europe to save its banks; half its young people are out of work",
+    "what": "On 9 June euro finance ministers agreed to lend Spain up to 100 billion euros to recapitalise its banks, which are weighed down by failed mortgages; Bankia, the country's biggest mortgage lender, was nationalised in May and asked for 23.5 billion euros. In June the interest rate on Spain's ten-year bonds reached 7 percent. Almost a quarter of Spaniards, 24.4 percent, were unemployed in March, and among those under 25 the rate is up to 50 percent.",
+    "why": "Youth unemployment becomes the human face of the crisis in Spain and Greece; a few weeks later Draghi's promise turns the tide on the markets, though not in the job centres.",
+    "assets": [],
+    "importance": 2,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/2008%E2%80%932014_Spanish_financial_crisis (read 2026-10-04)"
   },
   {
     "id": "f270f5b7",
@@ -456,6 +561,7 @@
     "why": "The turning point of the euro crisis: the bond-buying programme announced in September is never used, but the promise ends the panic.",
     "assets": [],
     "importance": 2,
+    "thread": "euro",
     "source": "https://en.wikipedia.org/wiki/Mario_Draghi (read 2026-10-03); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-03)"
   },
   {
@@ -488,6 +594,17 @@
     "assets": [],
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation (read 2026-10-03)"
+  },
+  {
+    "id": "ce67ee88",
+    "month": "2015-07",
+    "title": "Greeks vote No, then accept a third rescue",
+    "what": "Syriza won January's election promising an end to austerity, and talks with Greece's lenders went nowhere. On 27 June Prime Minister Alexis Tsipras called a referendum on their terms; Greek banks closed, cash machines paid out no more than 60 euros a day, and on 30 June Greece became the first developed country to miss a repayment to the IMF. On 5 July 61.3 percent voted No. Yet on 13 July, after 17 hours of talks, Tsipras agreed to a third rescue with even harsher conditions than those the voters had rejected.",
+    "why": "The last great scare of the euro crisis: Greece stays in the euro, and the crisis that began in October 2009 finally loses its grip on the markets.",
+    "assets": [],
+    "importance": 1,
+    "thread": "euro",
+    "source": "https://en.wikipedia.org/wiki/2015_Greek_bailout_referendum (read 2026-10-04); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-04)"
   },
   {
     "id": "e3810ba9",

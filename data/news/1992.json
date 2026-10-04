@@ -2,19 +2,6 @@
   {
     "month": "1992-01",
     "kind": "company",
-    "headline": "Enron may count future gas profits today",
-    "text": "The Securities and Exchange Commission has accepted Enron's use of mark-to-market accounting for its natural gas trading contracts. Instead of booking profit as gas is delivered over many years, Enron can now count its estimate of a long-term contract's value as income in the quarter the deal is signed.",
-    "assets": [
-      "enron"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
-    "image": "/news/enron/1992-01-pipeline.jpg",
-    "imageCaption": "Pipeline, 2013",
-    "imageCredit": "GordonJ86"
-  },
-  {
-    "month": "1992-01",
-    "kind": "company",
     "headline": "IBM posts the first annual loss in its history",
     "text": "IBM lost 2.8 billion dollars in 1991, its first full-year loss ever, and revenue fell to 64.8 billion dollars from 69 billion, the first decline since 1946. It cut about 29,000 jobs last year and expects 15,000 to 20,000 more to go in 1992. Chairman John Akers blamed the weak world economy, competition and product transitions.",
     "assets": [
@@ -24,6 +11,19 @@
     "image": "/news/ibm/1992-01-ibm-rs6000.jpg",
     "imageCaption": "IBM RS/6000, 1998",
     "imageCredit": "https://www.flickr.com/photos/epc"
+  },
+  {
+    "month": "1992-01",
+    "kind": "company",
+    "headline": "Enron may count future gas profits today",
+    "text": "The Securities and Exchange Commission has accepted Enron's use of mark-to-market accounting for its natural gas trading contracts. Instead of booking profit as gas is delivered over many years, Enron can now count its estimate of a long-term contract's value as income in the quarter the deal is signed.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
+    "image": "/news/enron/1992-01-pipeline.jpg",
+    "imageCaption": "Pipeline, 2013",
+    "imageCredit": "GordonJ86"
   },
   {
     "month": "1992-03",
@@ -36,6 +36,18 @@
     "image": "/news/asia/1992-03-deng-xiaopings-southern-tour.jpg",
     "imageCaption": "Deng Xiaoping's southern tour, 2008",
     "imageCredit": "山胖z"
+  },
+  {
+    "month": "1992-03",
+    "kind": "world",
+    "headline": "The Nikkei falls below 20,000: half of it is gone",
+    "text": "In March Tokyo's Nikkei index fell below 20,000 for the first time since it first climbed above that mark, on 30 January 1987. Everything that Japanese shares gained in the last three years of the boom is lost: the index stood at 38,916 at its peak in December 1989, at 23,849 at the end of 1990 and at 22,984 at the end of 1991. Interest rates that were raised to 6 percent to stop the boom, and falling land prices, weigh on the banks and on the companies that borrowed against their land.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-04); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-04); https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html (search result read 2026-10-04); https://www.aei.org/articles/two-decades-later-nikkei-and-lessons-from-the-fall/ (search result read 2026-10-04)",
+    "thread": "japan",
+    "image": "/news/asia/1992-03-tokyo-stock-exchange-building.jpg",
+    "imageCaption": "The Tokyo Stock Exchange building",
+    "imageCredit": "not credited on the page"
   },
   {
     "month": "1992-04",

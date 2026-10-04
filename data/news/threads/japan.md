@@ -22,3 +22,7 @@ In 1980 Japan was the world's admired export machine: it overtook the United Sta
 | 1999-03 | Public money for Japan's big banks; interest rates at zero | 04f8f320 | asia | existing |
 | 1999-08 | IBJ, Fuji and Dai-Ichi Kangyo to form the world's biggest bank | 00682066 | ibj | existing |
 | 2003-03 | Nikkei below 8,000, a fifth of its peak | b306e449 | asia | existing, enriched (quantitative easing since 2001) |
+
+Added on 4 October 2026 (the way down mirrors the way up):
+- 1990-03 The Nikkei falls back below 30,000 (b26d7473, asia, retitled)
+- 1992-03 The Nikkei falls below 20,000: half of it is gone (b9c4602c, asia, new)

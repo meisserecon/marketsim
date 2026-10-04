@@ -117,19 +117,6 @@
   },
   {
     "month": "1991-08",
-    "kind": "company",
-    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
-    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
-    "assets": [
-      "ibj"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
-    "image": "/news/ibj/1991-08-osaka.jpg",
-    "imageCaption": "Osaka, 2009",
-    "imageCredit": "663highland"
-  },
-  {
-    "month": "1991-08",
     "kind": "world",
     "headline": "The World Wide Web opens to the internet: there is one website",
     "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs. There is nothing to surf yet: no shops, no newspapers, no search engines, no pictures. The internet is a way for scientists to send each other messages and files, and almost nobody outside the universities has heard of it.",
@@ -166,19 +153,17 @@
     "imageCredit": "Mark Richards (photographer), Cisco Archive Collection"
   },
   {
-    "month": "1991-10",
+    "month": "1991-08",
     "kind": "company",
-    "headline": "A bank run in Thun",
-    "text": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989, and banks with large property loans are under strain.",
+    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
+    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
     "assets": [
-      "ubs",
-      "sbv",
-      "credit-suisse"
+      "ibj"
     ],
-    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)",
-    "image": "/news/credit-suisse/1991-10-thun-bank-run.jpg",
-    "imageCaption": "Savers queue outside the Spar + Leihkasse Thun to withdraw what they are allowed, October 1991",
-    "imageCredit": "Keystone"
+    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "image": "/news/ibj/1991-08-osaka.jpg",
+    "imageCaption": "Osaka, 2009",
+    "imageCredit": "663highland"
   },
   {
     "month": "1991-10",
@@ -192,6 +177,21 @@
     "image": "/news/ibj/1991-10-marunouchi.jpg",
     "imageCaption": "Marunouchi, 2016",
     "imageCredit": "Kakidai"
+  },
+  {
+    "month": "1991-10",
+    "kind": "company",
+    "headline": "A bank run in Thun",
+    "text": "After local media reported on its finances on 3 October, crowds of depositors rushed to the offices of the Spar- und Leihkasse Thun, a regional bank heavy in mortgages; it is the first notable bank run in Switzerland in decades. Property prices have been falling since 1989, and banks with large property loans are under strain.",
+    "assets": [
+      "ubs",
+      "sbv",
+      "credit-suisse"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)",
+    "image": "/news/credit-suisse/1991-10-thun-bank-run.jpg",
+    "imageCaption": "Savers queue outside the Spar + Leihkasse Thun to withdraw what they are allowed, October 1991",
+    "imageCredit": "Keystone"
   },
   {
     "month": "1991-10",

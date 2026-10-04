@@ -70,8 +70,8 @@
   {
     "id": "b26d7473",
     "month": "1990-03",
-    "title": "Tokyo shares crash as the yen falls",
-    "what": "The Bank of Japan raised its discount rate by a full point to 5.25% on 20 March to stop the yen's fall and the slide in shares. On 22 March the dollar reached a three-year high of 155 yen and the Nikkei fell below 29,000 for the first time since November 1988; it ended the month just under 30,000, down about a quarter from its December record. On 27 March the Finance Ministry told banks to limit their lending for property.",
+    "title": "The Nikkei falls back below 30,000",
+    "what": "Fifteen months after it first climbed above 30,000, Tokyo's Nikkei index has fallen back below that mark: it ended March just under 30,000, down about a quarter from its record of 38,916 in December. The Bank of Japan raised its discount rate by a full point to 5.25% on 20 March to stop the yen's fall, and on 22 March the dollar reached a three-year high of 155 yen. On 27 March the Finance Ministry told banks to limit their lending for property.",
     "why": "The bubble bursting: higher rates, a weaker yen and the cap on property lending hit Japanese bank shares hardest, in yen and even more in dollars.",
     "assets": [
       "ibj",
@@ -82,8 +82,9 @@
       "pct": -29
     },
     "thread": "japan",
-    "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)",
-    "lead": true
+    "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-04)",
+    "lead": true,
+    "changed": "Japan storyline: retitled and reordered to mirror \"Nikkei passes 30,000\" of December 1988"
   },
   {
     "id": "ae77dac8",
@@ -93,7 +94,19 @@
     "why": "The restart of China's opening after Tiananmen. Growth reached about 13% in 1992 and 1993, the party adopted the 'socialist market economy' in October 1992, and foreign investment poured in, reaching $25 billion by 1993.",
     "assets": [],
     "thread": "china",
-    "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour (read 2026-10-04); https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour (read 2026-10-04); https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-04)",
+    "lead": true
+  },
+  {
+    "id": "b9c4602c",
+    "month": "1992-03",
+    "title": "The Nikkei falls below 20,000: half of it is gone",
+    "what": "In March Tokyo's Nikkei index fell below 20,000 for the first time since it first climbed above that mark, on 30 January 1987. Everything that Japanese shares gained in the last three years of the boom is lost: the index stood at 38,916 at its peak in December 1989, at 23,849 at the end of 1990 and at 22,984 at the end of 1991. Interest rates that were raised to 6 percent to stop the boom, and falling land prices, weigh on the banks and on the companies that borrowed against their land.",
+    "why": "The mirror of January 1987, when the Nikkei first passed 20,000: the bubble years are wiped out. It falls further, to 14,309 in August 1992, and does not see its 1989 record again until 2024.",
+    "assets": [],
+    "thread": "japan",
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-04); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-04); https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html (search result read 2026-10-04); https://www.aei.org/articles/two-decades-later-nikkei-and-lessons-from-the-fall/ (search result read 2026-10-04)",
+    "changed": "Japan storyline: new beat mirroring \"Tokyo passes 20,000\" of January 1987"
   },
   {
     "id": "76cd3347",

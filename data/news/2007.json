@@ -75,7 +75,7 @@
     "source": "https://en.wikipedia.org/wiki/New_Century_Financial (read 2026-10-04)",
     "thread": "housing-crisis",
     "image": "/news/markets/2007-03-irvine-california.jpg",
-    "imageCaption": "Irvine, California, 2016",
+    "imageCaption": "Irvine, California (photograph from 2016)",
     "imageCredit": "Azusa Tarn"
   },
   {
@@ -88,7 +88,7 @@
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312507017014/dex991.htm (Altria press release of 31 January 2007, read 2026-10-03); https://en.wikipedia.org/wiki/Altria (read 2026-10-03)",
     "image": "/news/mo/2007-03-oreo.jpg",
-    "imageCaption": "Oreo, 2017",
+    "imageCaption": "Oreo (photograph from 2017)",
     "imageCredit": "Evan-Amos"
   },
   {
@@ -295,7 +295,7 @@
     ],
     "source": "https://en.wikipedia.org/wiki/Chuck_Prince (read 2026-10-03, citing New York Times DealBook, 10 July 2007)",
     "image": "/news/c/2007-07-bracken-house-london.jpg",
-    "imageCaption": "Bracken House, London, 2013",
+    "imageCaption": "Bracken House, London (photograph from 2013)",
     "imageCredit": "Katie Chan"
   },
   {
@@ -365,7 +365,7 @@
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465907072200/a07-24989_1ex99d1.htm (Citigroup press release, 1 October 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465907074791/a07-26588_1ex99d1.htm (15 October 2007; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
     "image": "/news/c/2007-10-399-park-avenue.jpg",
-    "imageCaption": "399 Park Avenue, 2026",
+    "imageCaption": "399 Park Avenue (photograph from 2026)",
     "imageCredit": "Ajay Suresh"
   },
   {
@@ -455,7 +455,10 @@
     "assets": [
       "lehman"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907088588/a07-30473_33ex99d1.htm (Lehman press release, 13 December 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907088588/a07-30473_33ex99d1.htm (Lehman press release, 13 December 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (read 2026-10-03)",
+    "image": "/news/lehman/2007-12-richard-fuld-lehman-brothers-chief-execu.jpg",
+    "imageCaption": "Richard Fuld, Lehman Brothers' chief executive, January 2007",
+    "imageCredit": "World Resources Institute Staff"
   },
   {
     "month": "2007-12",
@@ -465,6 +468,9 @@
     "assets": [
       "nvda"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)",
+    "image": "/news/nvda/2007-12-nvidias-sign-at-its-headquarters-on-scot.jpg",
+    "imageCaption": "Nvidia's sign at its headquarters on Scott Boulevard, Santa Clara",
+    "imageCredit": "Will Buckner"
   }
 ]

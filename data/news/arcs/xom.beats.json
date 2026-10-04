@@ -266,22 +266,6 @@
     "source": "ExxonMobil press release of 1 February 2013, https://www.sec.gov/Archives/edgar/data/34088/000003408813000003/f8k4q991.htm (read 2026-10-03); ExxonMobil press release of 30 January 2009 (2008 record), https://www.sec.gov/Archives/edgar/data/34088/000003408809000016/r8k4q991.htm (read 2026-10-03)"
   },
   {
-    "id": "d67407b8",
-    "month": "2014-11",
-    "title": "Oil slides below 70 dollars",
-    "what": "US crude, about 107 dollars a barrel in late June, closed November at about 66 dollars as a glut builds: US oil production has nearly doubled since 2008 thanks to shale fracking, and Saudi Arabia argues for lower prices to squeeze high-cost shale producers rather than for OPEC cuts. For ExxonMobil, which earned more than 32 billion dollars a year in 2013, every dollar off the oil price cuts profit.",
-    "why": "The start of ExxonMobil's worst stretch in the game: -68% from April 2014 to October 2020, which ended with it being dropped from the Dow.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": -6
-    },
-    "importance": 1,
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); ExxonMobil press release of 2 February 2015 (2013 and 2014 earnings), https://www.sec.gov/Archives/edgar/data/34088/000003408815000004/f8k4q991.htm (read 2026-10-03)"
-  },
-  {
     "id": "d7c1f126",
     "month": "2016-02",
     "title": "ExxonMobil's profit halves",
@@ -310,54 +294,6 @@
     "source": "ExxonMobil press release of 2 February 2018, https://www.sec.gov/Archives/edgar/data/34088/000003408818000006/f8k4q991.htm (read 2026-10-03); ExxonMobil Form 8-K of 16 December 2016 (Woods from 1 January 2017), https://www.sec.gov/Archives/edgar/data/34088/000003408816000103/0000034088-16-000103.txt (read 2026-10-03); https://en.wikipedia.org/wiki/Rex_Tillerson (read 2026-10-03)"
   },
   {
-    "id": "73b2f630",
-    "month": "2020-02",
-    "title": "The virus scare hits oil",
-    "what": "From 20 February stock markets fell sharply as the coronavirus spread beyond China to South Korea, Italy and Iran; in the last week of February Wall Street fell more than 10 percent. Oil fell with them: US crude closed February at about 45 dollars, from 61 at the end of December. ExxonMobil had already reported in January that its 2019 profit fell 31 percent to 14.3 billion dollars.",
-    "why": "The first leg of the 2020 crash; ExxonMobil fell 17% this month, to its lowest since 2004, before the real collapse in March.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": -17
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 31 January 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000011/f8k4q991.htm (read 2026-10-03)"
-  },
-  {
-    "id": "98d6988e",
-    "month": "2020-03",
-    "title": "Price war and pandemic: oil halves in a month",
-    "what": "On 6 March Russia refused OPEC's proposal to cut output; on 8 March Saudi Arabia announced discounts of 6 to 8 dollars a barrel and more production, and Brent crude fell 30 percent, the biggest drop since the Gulf War. With countries shutting down against the pandemic, US crude closed March at about 20 dollars, from 45 at the end of February.",
-    "why": "ExxonMobil's worst month in the game (-26%): demand and price collapsed at once, and investors began to doubt its dividend.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": -26
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
-  },
-  {
-    "id": "55549e07",
-    "month": "2020-04",
-    "title": "ExxonMobil cuts spending by 30 percent as oil goes negative",
-    "what": "On 7 April ExxonMobil cut its 2020 capital spending by 30 percent, from 33 to about 23 billion dollars, and cash operating costs by 15 percent, mostly in the Permian Basin. On 9 April Saudi Arabia and Russia agreed to cut output by about 10 million barrels a day. On 20 April the US crude price fell below zero, to minus 37 dollars, as storage ran out. Stocks rebounded strongly from their March lows.",
-    "why": "The rebound month (+22%): the market bet that the worst was priced in and that ExxonMobil could protect its dividend by cutting spending.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 22
-    },
-    "importance": 2,
-    "source": "ExxonMobil press release of 7 April 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000028/f8k1q991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)"
-  },
-  {
     "id": "db7c4002",
     "month": "2020-11",
     "title": "A vaccine lifts oil shares; ExxonMobil writes off up to 20 billion",
@@ -377,10 +313,11 @@
     "id": "03375e31",
     "month": "2021-02",
     "title": "A 20 billion dollar loss, and the shares jump anyway",
-    "what": "ExxonMobil reported on 2 February a fourth-quarter loss of 20.1 billion dollars, almost all of it write-downs; for 2020 as a whole it lost 22.4 billion dollars. But oil kept rising: US crude passed 60 dollars and closed February at about 62, up from 52 at the end of January. The company says it has cut costs faster than planned.",
+    "what": "ExxonMobil reported on 2 February a fourth-quarter loss of 20.1 billion dollars, almost all of it write-downs; for 2020 as a whole it lost 22.4 billion dollars. But oil kept rising: US crude passed 60 dollars and closed February at about 62, up from 52 at the end of January. The company says it has cut costs faster than planned. Schlumberger, which supplies the drillers, rose 26 percent.",
     "why": "+21% this month: the market looked through the write-offs to the oil recovery. An activist fund, Engine No. 1, was meanwhile campaigning for board seats.",
     "assets": [
-      "xom"
+      "xom",
+      "slb"
     ],
     "move": {
       "asset": "xom",
@@ -388,22 +325,6 @@
     },
     "importance": 2,
     "source": "ExxonMobil press release of 2 February 2021, https://www.sec.gov/Archives/edgar/data/34088/000003408821000004/f8k4q991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/ExxonMobil (2020 loss of 22.4 billion) (read 2026-10-03)"
-  },
-  {
-    "id": "d5bce966",
-    "month": "2022-01",
-    "title": "Oil near 90 dollars and investors rush back to energy",
-    "what": "US crude rose from about 75 dollars at the end of December to 89 at the end of January, and the monthly average was the highest since 2014. While the S&P 500 fell about 5 percent in January, energy shares were the place to be.",
-    "why": "ExxonMobil +24% in a month when the S&P 500 fell 5%: the start of the 2022 energy boom.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 24
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md (S&P 500 month)"
   },
   {
     "id": "67fc5084",
@@ -460,21 +381,5 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (January 2026 Iran supply worries) (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 30 January 2026, https://www.sec.gov/Archives/edgar/data/34088/000003408826000033/livef8k4q25991.htm (read 2026-10-03)"
-  },
-  {
-    "id": "d1f42f9f",
-    "month": "2026-03",
-    "title": "War with Iran closes Hormuz and oil passes 100 dollars",
-    "what": "US and Israeli strikes on Iran began on 28 February. Iran effectively closed the Strait of Hormuz, the route for much of the world's oil, and on 9 March Brent crude touched 119.50 dollars, up 29 percent in a day, before settling around 100. US crude averaged about 91 dollars in March, against 65 in February. ExxonMobil, with big production in the Americas, gains from the higher price, though some of its Middle East output is disrupted.",
-    "why": "ExxonMobil's share price reached its all-time high this month (+11%). The war is the theme writer's beat; this is how it looked from the biggest Western oil company.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 11
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); ExxonMobil press release of 1 May 2026 (Middle East volume impacts), https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/ (read 2026-10-03)"
   }
 ]

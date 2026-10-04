@@ -308,22 +308,6 @@
     "source": "Schlumberger press release of 18 October 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/ (read 2026-10-03); Schlumberger press release of 19 July 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519197816/ (read 2026-10-03)"
   },
   {
-    "id": "60d6bdf1",
-    "month": "2020-03",
-    "title": "Price war and pandemic: Schlumberger halves in a month",
-    "what": "On 6 March Russia refused OPEC's proposal to cut output; Saudi Arabia answered on 8 March with discounts and more production, and Brent crude fell 30 percent. With the pandemic shutting down economies, US crude closed March at about 20 dollars, from 45 a month earlier.",
-    "why": "Schlumberger's worst month in the game (-50%) and the bottom of an 89% fall from 2014: below its 1980 peak in nominal terms, forty years later.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -50
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
-  },
-  {
     "id": "89c89ea5",
     "month": "2020-04",
     "title": "Schlumberger cuts its dividend by 75 percent",
@@ -340,52 +324,21 @@
     "source": "Schlumberger press release of 17 April 2020, https://www.sec.gov/Archives/edgar/data/87347/000119312520109899/ (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)"
   },
   {
-    "id": "e26a1f41",
-    "month": "2020-11",
-    "title": "A vaccine sends oilfield shares soaring",
-    "what": "On 9 November Pfizer and BioNTech said their Covid vaccine was more than 90 percent effective in its first analysis. Shares hit hardest by the pandemic jumped; US crude rose from about 36 to 45 dollars during the month. Schlumberger rose almost 40 percent from its lowest month-end price since the mid-1990s.",
-    "why": "The turn of the 2020 cycle: +39% in a month, the start of a doubling within a year.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": 39
-    },
-    "importance": 2,
-    "source": "Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/out/slb.json"
-  },
-  {
-    "id": "030a7c3d",
-    "month": "2021-02",
-    "title": "Oil above 60 dollars lifts the drillers' suppliers",
-    "what": "US crude passed 60 dollars a barrel in February for the first time in more than a year, closing the month at about 62, up from 52.",
-    "why": "+26% this month, the second leg of the recovery.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": 26
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
-  },
-  {
     "id": "eda3818a",
     "month": "2022-01",
     "title": "Schlumberger sees a new 'supercycle'",
-    "what": "On 21 January Schlumberger reported 2021 earnings per share up 88 percent excluding charges and 3.0 billion dollars of free cash flow. Chief executive Olivier Le Peuch said conditions are strikingly similar to the last industry supercycle and expects an exceptional multiyear growth cycle. US crude rose from about 75 to 89 dollars during January, while the S&P 500 fell about 5 percent.",
+    "what": "On 21 January Schlumberger reported 2021 earnings per share up 88 percent excluding charges and 3.0 billion dollars of free cash flow. Chief executive Olivier Le Peuch said conditions are strikingly similar to the last industry supercycle and expects an exceptional multiyear growth cycle. US crude rose from about 75 to 89 dollars during January, while the S&P 500 fell about 5 percent. Energy shares were the place to be: ExxonMobil rose 24 percent, as the monthly average oil price was the highest since 2014.",
     "why": "+30% this month: the market believed the supercycle story. It was half right: the shares rose by half again by mid-2023, then faded.",
     "assets": [
-      "slb"
+      "slb",
+      "xom"
     ],
     "move": {
       "asset": "slb",
       "pct": 30
     },
     "importance": 2,
-    "source": "Schlumberger press release of 21 January 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522014338/d270822dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md"
+    "source": "Schlumberger press release of 21 January 2022, https://www.sec.gov/Archives/edgar/data/87347/000119312522014338/d270822dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md; https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); data/reference/sp500.json via data/news/arcs/movers.md (S&P 500 month)"
   },
   {
     "id": "478e75a5",
@@ -414,17 +367,5 @@
     ],
     "importance": 2,
     "source": "SLB and ChampionX press release of 2 April 2024, https://www.sec.gov/Archives/edgar/data/87347/000119312524084191/ (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value) (read 2026-10-03); SLB Form 8-K of 16 July 2025 (closing), https://www.sec.gov/Archives/edgar/data/87347/000119312525159859/ (read 2026-10-03)"
-  },
-  {
-    "id": "a9b4298c",
-    "month": "2026-03",
-    "title": "War in the Gulf: SLB pulls crews out of the Middle East",
-    "what": "After US and Israeli strikes on Iran began on 28 February and Iran closed the Strait of Hormuz, SLB said on 11 March that it had suspended travel in the region and begun to demobilise operations in a few countries as customers protect staff and facilities. First-quarter revenue will be lower than expected, costing about 6 to 9 cents a share. Oil has passed 100 dollars.",
-    "why": "The war cut both ways for SLB: lost work in its most important region now, but, as Le Peuch argued in April, more drilling elsewhere later. The shares were flat in March and rose 11% in April.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 2,
-    "source": "SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)"
   }
 ]

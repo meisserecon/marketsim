@@ -400,12 +400,12 @@
     "id": "da58066e",
     "month": "2015-07",
     "title": "Nuclear deal in Vienna",
-    "what": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'.",
+    "what": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'. Lifting the sanctions will let Iran sell more oil; US crude fell 21% in July to $47.11 a barrel.",
     "why": "The high point of hope in the Rouhani years and of the sanctions-relief trade. It lasted less than three years for the US side. The deal took effect on 'Implementation Day', 16 January 2016, the same month Saudi Arabia broke relations with Iran after its embassy in Tehran was stormed.",
     "assets": [],
     "importance": 1,
     "thread": "iran",
-    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
     "id": "c7daca18",
@@ -528,12 +528,12 @@
     "id": "d3b6cf90",
     "month": "2025-06",
     "title": "Twelve days of war: Israel and the US strike Iran",
-    "what": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel.",
+    "what": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel. Brent rose from about $68 to over $78, then fell back to about $68 once oil kept flowing through the Strait of Hormuz.",
     "why": "The first open war between Iran and Israel, and the end of the nuclear standoff as it had stood since 2002. Final counts were about 1,060 to 1,190 dead in Iran and 33 in Israel. France, Germany and Britain triggered the return of UN sanctions on 28 August 2025, and Iran declared itself out of the 2015 deal in October.",
     "assets": [],
     "importance": 1,
     "thread": "iran",
-    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
     "id": "bcffd723",
@@ -562,16 +562,21 @@
     "id": "3508acd3",
     "month": "2026-03",
     "title": "Hormuz closed, oil above 100 dollars, a new Supreme Leader",
-    "what": "Iran has fired missiles and drones at Israel, US bases and Gulf states, and traffic through the Strait of Hormuz fell by about 70 percent; some 2,000 ships are stranded in the Gulf. Brent crude passed 100 dollars a barrel on 8 March for the first time in four years. On 8 March the Assembly of Experts named Khamenei's son Mojtaba as Supreme Leader. Fighting between Israel and Hezbollah has resumed and Israeli troops have entered southern Lebanon. Stock markets fell, hardest in Asia, where South Korea's index lost up to 12 percent in a day.",
+    "what": "Iran has fired missiles and drones at Israel, US bases and Gulf states, and traffic through the Strait of Hormuz, the route for about a quarter of the world's seaborne oil, fell by about 70 percent; some 2,000 ships are stranded in the Gulf and Qatar halted gas exports. On 8 March the Assembly of Experts named Khamenei's son Mojtaba as Supreme Leader; fighting between Israel and Hezbollah has resumed and Israeli troops have entered southern Lebanon. Brent crude passed 100 dollars a barrel on 8 March for the first time in four years and ended March near 120 on futures markets, the largest monthly rise ever. Stock markets fell, hardest in Asia, where South Korea's index lost up to 12 percent in a day; the S&P 500 lost 5 percent in March, its worst month in a year. In Europe, where gas prices nearly doubled, Siemens fell 19 percent and Mercedes-Benz 13 percent, while ExxonMobil gained 11 percent and SLB pulled crews out of the region and warned of lower first-quarter revenue.",
     "why": "The largest oil supply disruption on record (oil arc); March 2026 saw the biggest monthly rise in oil prices ever. The S&P 500 bottomed on 30 March; European industrials in the game (Siemens, BMW) fell hardest.",
-    "assets": [],
+    "assets": [
+      "xom",
+      "mercedes",
+      "siemens",
+      "slb"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -5
     },
     "importance": 1,
     "thread": "iran",
-    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); ExxonMobil press release of 1 May 2026 (Middle East volume impacts), https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/ (read 2026-10-03); https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json; CNBC, 'Iran war poses challenges to high-margin Middle East car market', 18 March 2026 (headline via Google News) (read 2026-10-03); SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)"
   },
   {
     "id": "59d27fbd",

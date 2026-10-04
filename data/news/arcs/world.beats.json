@@ -634,34 +634,28 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election (read 2026-10-03); https://www.fool.com/investing/2016/12/01/why-bank-of-america-stock-climbed-28-in-november.aspx (read 2026-10-03); https://www.cnbc.com/2016/11/14/with-donald-trump-win-its-a-whole-new-day-for-banks-and-bank-stocks.html (read 2026-10-03)"
   },
   {
-    "id": "7d3e2fbd",
-    "month": "2020-02",
-    "title": "The virus reaches Europe and Switzerland",
-    "what": "The new coronavirus, which the World Health Organization declared an international emergency on 30 January, spread from China to northern Italy in late February, where towns were sealed off. Switzerland confirmed its first case on 25 February, a man in Ticino who had visited Milan, and on 28 February banned events with more than 1,000 people. Stock markets fell in the last week of the month.",
-    "why": "The pandemic becomes a European event; the S&P 500's -8% in February is the first leg of the crash.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -8
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
-  },
-  {
     "id": "28664d81",
     "month": "2020-03",
     "title": "Pandemic: the world shuts down",
-    "what": "The WHO declared a pandemic on 11 March. Italy locked down on 9 March, the United States barred travellers from Europe, and on 16 March the Swiss government declared an 'extraordinary situation', closing schools, shops, restaurants and borders; on 20 March it announced a 42 billion franc aid package. Stock markets crashed: the Dow lost 7.8 percent on 9 March, 10 percent on 12 March and 12.9 percent on 16 March. The Fed cut rates to zero, and Congress passed a 2.2 trillion dollar relief law on 27 March.",
+    "what": "The WHO declared a pandemic on 11 March. Italy locked down on 9 March, the United States barred travellers from Europe, and on 16 March the Swiss government declared an 'extraordinary situation', closing schools, shops, restaurants and borders; on 20 March it announced a 42 billion franc aid package. Stock markets crashed: the Dow lost 7.8 percent on 9 March, 10 percent on 12 March and 12.9 percent on 16 March, when trading was halted by circuit breakers for the third time that month and the VIX fear index closed at a record 82.69. The Fed cut rates to zero, and Congress passed a 2.2 trillion dollar relief law on 27 March; the S&P 500, 34 percent below its February record on 23 March, ended the month down 13 percent. Daimler (down 27 percent) and BMW (down 20 percent) shut their car factories, Glencore fell 38 percent, Citigroup 34 percent and General Electric 27 percent, while McDonald's served only through drive-thrus and Coca-Cola, which sells much of its drinks in restaurants and stadiums, lost 17 percent.",
     "why": "The fastest crash in the game (S&P -13% in the month, Boeing -46%, Schlumberger -50%), a political and medical event; the bottom came on 23 March.",
     "assets": [
-      "bonds"
+      "bonds",
+      "dis",
+      "bmw",
+      "c",
+      "ge",
+      "glencore",
+      "ko",
+      "mcd",
+      "mercedes"
     ],
     "move": {
       "asset": "sp500",
       "pct": -13
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md; https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30); https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json; WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)"
   },
   {
     "id": "2744a482",
@@ -681,15 +675,26 @@
     "id": "349288ab",
     "month": "2020-11",
     "title": "Biden wins, and a vaccine works",
-    "what": "Joe Biden won the US election of 3 November, with 306 electoral votes and about 51 percent of the vote, and was declared the winner by the media on 7 November; President Trump refuses to concede and claims fraud without evidence. On 9 November Pfizer and BioNTech announced that their vaccine was about 90 percent effective in trials.",
+    "what": "Joe Biden won the US election of 3 November, with 306 electoral votes and about 51 percent of the vote, and was declared the winner by the media on 7 November; President Trump refuses to concede and claims fraud without evidence. On 9 November Pfizer and BioNTech announced that their vaccine was about 90 percent effective in trials. Investors rushed into the shares hurt most by the pandemic: Schlumberger and Glencore rose about 40%, General Electric 37%, Citigroup 33%, Daimler 30%, BMW 28% and UBS 22%, and US crude rose 27% to $45.20. The Dow closed above 30,000 for the first time on 24 November, and the S&P 500 rose 11% in the month.",
     "why": "Two answers in one week: no contested-election chaos and a way out of the pandemic. The S&P 500 gained 11%, and the losers of the lockdown soared (Boeing +46%, Credit Suisse +33%).",
-    "assets": [],
+    "assets": [
+      "slb",
+      "xom",
+      "bmw",
+      "c",
+      "ge",
+      "glencore",
+      "mercedes",
+      "novartis",
+      "ubs",
+      "credit-suisse"
+    ],
     "move": {
       "asset": "sp500",
       "pct": 11
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); The Guardian, 'Global stock markets surge after Pfizer Covid vaccine news', 9 November 2020, https://www.theguardian.com/business/2020/nov/09/stock-markets-covid-vaccine-ftse-100-coronavirus (read 2026-10-03); data/news/arcs/movers.md; https://www.sec.gov/Archives/edgar/data/40545/000004054520000057/ge3q2020ex99.htm (GE third-quarter 2020 release, read 2026-10-03); World Bank Pink Sheet monthly averages; WSJ, 'Dow Surges to Highest Level Since February on Vaccine Results, Biden Win', 9 November 2020 (headline via Google News) (read 2026-10-03); Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/out/slb.json; https://fr.wikipedia.org/wiki/UBS (read 2026-10-03)"
   },
   {
     "id": "ed8ad970",
@@ -715,7 +720,7 @@
     "id": "dc324f47",
     "month": "2022-02",
     "title": "Russia invades Ukraine; Switzerland adopts the EU sanctions",
-    "what": "On 24 February Russia launched a full-scale invasion of Ukraine from the north, east and south, with forces advancing on Kyiv; President Putin calls it a 'special military operation'. The West answered with sanctions, including cutting Russian banks off from the SWIFT payments system and freezing the central bank's reserves. On 28 February neutral Switzerland, after days of hesitation, adopted the EU sanctions in full and froze the assets of listed Russians, including Putin. Oil passed 100 dollars a barrel, and prices of metals, gas and grain jumped.",
+    "what": "On 24 February Russia launched a full-scale invasion of Ukraine from the north, east and south, with forces advancing on Kyiv; President Putin calls it a 'special military operation'. The West answered with sanctions, including cutting Russian banks off from the SWIFT payments system and freezing the central bank's reserves. On 28 February neutral Switzerland, after days of hesitation, adopted the EU sanctions in full and froze the assets of listed Russians, including Putin. Brent oil passed 100 dollars a barrel for the first time since 2014 and ended the month at 103, and prices of metals, gas and grain jumped; Europe, which depends on Russian gas, faces the larger energy problem.",
     "why": "The largest war in Europe since 1945, and a turning point for Swiss neutrality. Commodity producers rose (Glencore +15% in the month) while the market fell; the energy shock feeds the inflation and rate rises of 2022.",
     "assets": [
       "glencore"
@@ -725,30 +730,13 @@
       "pct": 15
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine (read 2026-10-03); https://www.swissinfo.ch/eng/politics/switzerland-imposes-full-eu-sanctions-against-russia/47388280 (read 2026-10-03); data/out/glencore.json (read 2026-10-03)"
-  },
-  {
-    "id": "e39f0653",
-    "month": "2023-03",
-    "title": "Credit Suisse is forced into the arms of UBS",
-    "what": "After bank failures in the United States, customers pulled billions of francs a day from Credit Suisse. On Sunday 19 March, under pressure from the Federal Council, the National Bank and the regulator FINMA, UBS agreed to take over its rival for 3 billion francs in UBS shares, 0.76 francs per Credit Suisse share against 1.86 on the Friday. The National Bank provides 100 billion francs of liquidity and the Confederation guarantees up to 9 billion francs of losses; the government used emergency law to bypass a shareholder vote.",
-    "why": "The end of a 167-year-old Swiss bank and the third state rescue of a Swiss icon in the game; Credit Suisse shares fell 71% in the month. 'Too big to fail' has produced one even bigger bank.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -71
-    },
-    "importance": 1,
-    "source": "https://www.swissinfo.ch/eng/business/credit-suisse-agrees-to-takeover-by-rival-swiss-bank-ubs/48373120 (read 2026-10-03); https://www.swissinfo.ch/eng/business/how-the-swiss-trinity-forced-ubs-to-save-credit-suisse/48378088 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine (read 2026-10-03); https://www.swissinfo.ch/eng/politics/switzerland-imposes-full-eu-sanctions-against-russia/47388280 (read 2026-10-03); data/out/glencore.json (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03)"
   },
   {
     "id": "d0ae1798",
     "month": "2024-11",
     "title": "Trump wins a second term",
-    "what": "Donald Trump won the presidential election of 5 November against Vice President Kamala Harris, who replaced Joe Biden as candidate in July, with 312 electoral votes; Republicans also won the Senate. He promises tariffs, tax cuts and mass deportations. Tesla shares jumped on bets that its chief Elon Musk, who gave more than 130 million dollars to help Trump win, will benefit, and Tesla's market value passed one trillion dollars on 8 November.",
+    "what": "Donald Trump won the presidential election of 5 November against Vice President Kamala Harris, who replaced Joe Biden as candidate in July, with 312 electoral votes; Republicans also won the Senate. He promises tariffs, tax cuts and mass deportations. Tesla shares jumped on bets that its chief Elon Musk, who gave more than 130 million dollars to help Trump win, will benefit, and Tesla's market value passed one trillion dollars on 8 November. Tesla shares rose 38 percent in November.",
     "why": "Opens the tariff era of 2025; Tesla's +38% in November is the purest 'Trump trade' in the game, and it reversed in early 2025 when Musk's role in government hurt the brand.",
     "assets": [
       "tsla"
@@ -758,17 +746,26 @@
       "pct": 38
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election (read 2026-10-03); https://www.cnbc.com/2024/11/08/tesla-hits-1-trillion-market-cap-as-stock-rallies-after-trump-win.html (read 2026-10-03); https://abcnews.com/Business/trump-allies-company-stock-prices-soar-after-election/story?id=115963216 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election (read 2026-10-03); https://www.cnbc.com/2024/11/08/tesla-hits-1-trillion-market-cap-as-stock-rallies-after-trump-win.html (read 2026-10-03); https://abcnews.com/Business/trump-allies-company-stock-prices-soar-after-election/story?id=115963216 (read 2026-10-03); Reuters, 'Tesla stock extends rally as Musk-Trump alliance fuels gains', 11 November 2024 (headline via Google News) (read 2026-10-03); CNBC, 'Tesla shares close at record high, boosted by 69% pop since Trump election victory', 11 December 2024 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (market value, read 2026-10-03)"
   },
   {
     "id": "6d1f168a",
     "month": "2025-04",
     "title": "Liberation Day: tariffs on the whole world",
-    "what": "On 2 April President Trump announced tariffs on imports from almost every country: 10 percent for all from 5 April, and higher 'reciprocal' rates from 9 April, including 20 percent for the EU, 34 percent for China and 31 percent for Switzerland. Stock markets crashed for two days. On 9 April Trump paused the higher rates for 90 days, and the S&P 500 had its biggest one-day gain since 2008. The Swiss rate was met with incomprehension in Bern.",
+    "what": "On 2 April President Trump announced tariffs on imports from almost every country: 10 percent for all from 5 April, and higher 'reciprocal' rates from 9 April, including 20 percent for the EU, 34 percent for China and 31 percent for Switzerland. Stock markets crashed: the S&P 500 fell 4.8 percent on 3 April and 6.0 percent on 4 April, the largest two-day loss of value in history at about 6.6 trillion dollars, and even Treasury bonds, the usual safe haven, were sold, while gold rose to a record. On 9 April Trump paused the higher rates for 90 days, and the S&P 500 jumped 9.5 percent, its biggest one-day gain since 2008; it ended April down only 1 percent. Fears of a recession knocked US crude to about 60 dollars by 8 April, the lowest since 2021, and it ended the month 17 percent lower. The Swiss rate was met with incomprehension in Bern.",
     "why": "The largest US tariff rise in nearly a century; the market fell 10% in March on tariff fear and swung wildly in April, ending the month only 1% lower, as the pause turned into deals.",
-    "assets": [],
+    "assets": [
+      "slb",
+      "xom",
+      "gold",
+      "bonds"
+    ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs (read 2026-10-03); https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs (read 2026-10-03); https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "move": {
+      "asset": "sp500",
+      "pct": -1
+    }
   },
   {
     "id": "27b7296e",

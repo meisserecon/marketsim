@@ -923,20 +923,6 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03)"
   },
   {
-    "id": "1059dd5e",
-    "month": "2015-08",
-    "title": "China's devaluation sets off a global sell-off",
-    "what": "China devalued its currency on 11 August after a stock market crash at home, and fears about its economy spread. On Monday 24 August markets around the world plunged, the Dow opening about 1,000 points lower; an estimated 10 trillion dollars had been wiped off world markets since early June, and oil hit a six-year low. The S&P 500 lost 6% in August to 1,972.18.",
-    "why": "The market's reaction to China (told in the Asia arc); the first correction in years.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -6
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "id": "bd779ea2",
     "month": "2015-10",
     "title": "Shares win back the summer's losses in October",
@@ -1002,7 +988,7 @@
     "id": "393d6f65",
     "month": "2018-12",
     "title": "The Christmas fall: shares lose 9 percent in December",
-    "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%.",
+    "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%. It was the Fed's fourth rise of the year, to 2.25 to 2.5 percent, and December was the S&P 500's worst month since February 2009.",
     "why": "The near-bear market of 2018, which reversed as soon as the Fed changed its tone in January.",
     "assets": [
       "bonds"
@@ -1012,7 +998,7 @@
       "pct": -9
     },
     "importance": 1,
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
     "id": "be310846",
@@ -1046,31 +1032,17 @@
     "id": "64e39daf",
     "month": "2020-02",
     "title": "The coronavirus reaches the markets: the fastest fall from a record",
-    "what": "The S&P 500 closed at a record 3,386.15 on 19 February. Then the new coronavirus spread beyond China, and in the week of 24 to 28 February markets had their largest weekly falls since the 2008 crisis, the fastest slide from a record ever seen. The S&P 500 ended February down 8% at 2,954.22.",
+    "what": "The S&P 500 closed at a record 3,386.15 on 19 February. Then the new coronavirus spread beyond China, and in the week of 24 to 28 February markets had their largest weekly falls since the 2008 crisis, the fastest slide from a record ever seen. The S&P 500 ended February down 8% at 2,954.22. The virus reached northern Italy, where towns were sealed off, and Switzerland, which confirmed its first case on 25 February and on 28 February banned events with more than 1,000 people. Oil fell with shares: US crude closed February at about 45 dollars, from 61 at the end of December, and ExxonMobil lost 17%.",
     "why": "The start of the 2020 crash; the virus itself is told in the world arc.",
-    "assets": [],
+    "assets": [
+      "xom"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -8
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "c7685a83",
-    "month": "2020-03",
-    "title": "Pandemic crash: circuit breakers, zero rates and a 34 percent fall",
-    "what": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 fell to 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
-    "why": "The fastest crash in history, and the fastest turn: the low came on the day of the Fed's 'unlimited' promise. Review 2026-10: 'its low' was hindsight.",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -13
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 31 January 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000011/f8k4q991.htm (read 2026-10-03)"
   },
   {
     "id": "081be4b1",
@@ -1099,20 +1071,6 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "493b230c",
-    "month": "2020-11",
-    "title": "A vaccine and a decided election: shares up 11 percent",
-    "what": "After the presidential election of 3 November, uncertainty fell, and on 9 November Pfizer's announcement of a successful vaccine trial set off a rush into the companies hurt most by the pandemic, such as travel and energy. The Dow closed above 30,000 for the first time on 24 November, and the S&P 500 rose 11% in November to 3,621.63.",
-    "why": "The reopening trade; one of the best months of the game.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "b3a26a97",
@@ -1163,22 +1121,6 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
-    "id": "5230775d",
-    "month": "2022-06",
-    "title": "Inflation at 8.6 percent, a 0.75 point rate rise and a bear market",
-    "what": "Consumer prices rose 8.6% in the year to May, more than expected, and on 15 June the Federal Reserve raised its key rate by 0.75 percentage point. The S&P 500 fell into a bear market, more than 20% below its January record, and lost 8% in June to 3,785.38; it fell 21% in the first half of the year.",
-    "why": "The heart of the 2022 bear market, driven by inflation and rates (the rates arc tells the Fed's side).",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -8
-    },
-    "importance": 1,
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "id": "065d7d23",
     "month": "2022-07",
     "title": "A summer rally on falling yields: shares up 9 percent",
@@ -1193,22 +1135,6 @@
     },
     "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "a487e80b",
-    "month": "2022-09",
-    "title": "Powell's warning and sticky inflation: shares fall 9 percent",
-    "what": "Fed chairman Jerome Powell's speech at Jackson Hole on 26 August and inflation data showing consumer prices still up 8.3% a year convinced investors that rates would rise further than expected. On 13 September the S&P 500 fell 4.3%, its worst day since 2020, and late in the month a British budget set off turmoil in the UK bond market. The S&P 500 lost 9% in September to 3,585.62.",
-    "why": "The second leg of the 2022 bear market.",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -9
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "f7e4f160",
@@ -1233,20 +1159,6 @@
     "assets": [],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
-  },
-  {
-    "id": "245ba3a5",
-    "month": "2023-03",
-    "title": "Bank runs: Silicon Valley Bank fails, UBS takes over Credit Suisse",
-    "what": "Silicon Valley Bank collapsed on 10 March after a run by its depositors, caused by losses on bonds that had fallen as interest rates rose; Signature Bank failed two days later, and the Fed set up an emergency lending programme. On 19 March, in a deal arranged by the Swiss authorities, UBS agreed to take over Credit Suisse. Regional bank shares fell sharply, but the S&P 500 ended March up 4%.",
-    "why": "The banking scare of 2023: the price of the fast rate rises. The broad market shrugged it off.",
-    "assets": [
-      "credit-suisse",
-      "ubs",
-      "bonds"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "83717eb0",
@@ -1295,20 +1207,6 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
   },
   {
-    "id": "22680613",
-    "month": "2025-04",
-    "title": "Liberation Day: tariffs crash shares, a pause brings a record rebound",
-    "what": "On 2 April President Trump announced tariffs of at least 10% on nearly all imports. The S&P 500 fell 4.8% on 3 April and 6.0% on 4 April, the largest two-day loss of value in history at about 6.6 trillion dollars, and on 7 April it was briefly 23% below its February record. On 9 April Trump paused most of the tariffs and the index jumped 9.5%, its biggest daily gain since 2008; it ended April down only 1%.",
-    "why": "A policy-made crash and recovery inside one month (the trade side is told in the world arc).",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -1
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "id": "8077a5da",
     "month": "2025-12",
     "title": "2025 in review: a third double-digit year in a row",
@@ -1319,20 +1217,6 @@
     ],
     "importance": 2,
     "source": "data/reference/sp500.json; https://abcnews.com/Business/stock-market-ends-2025-double-digit-gains/story?id=128812306 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
-  },
-  {
-    "id": "403bcdcc",
-    "month": "2026-03",
-    "title": "War with Iran and AI fears: shares fall 5 percent",
-    "what": "The S&P 500 set a record of 7,002.28 on 28 January, but software companies fell on fears that artificial intelligence would disrupt their business. Then American and Israeli strikes on Iran began on 28 February, oil futures rose about 50% and the Strait of Hormuz was effectively closed, raising fears of inflation. The S&P 500 lost 5% in March to 6,528.52, its worst month in a year.",
-    "why": "The market's side of the 2026 Iran war (told in the Middle East and oil arcs).",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -5
-    },
-    "importance": 2,
-    "source": "https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "144e1b65",

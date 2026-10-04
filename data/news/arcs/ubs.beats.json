@@ -409,40 +409,6 @@
     "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
   },
   {
-    "id": "3c70a8d9",
-    "month": "2020-11",
-    "title": "Vaccine hopes lift the banks",
-    "what": "Pfizer and BioNTech reported in November that their coronavirus vaccine had met its efficacy goals in the final trial, with a potential efficacy of more than 90%. Share markets rallied; the S&P 500 gained about 11% in the month. At UBS, Ralph Hamers took over as chief executive from Sergio Ermotti on 1 November.",
-    "why": "A market-wide rotation into banks (S&P 500 +11%, UBS +22%, Credit Suisse +33%).",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 22
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://fr.wikipedia.org/wiki/UBS (read 2026-10-03)"
-  },
-  {
-    "id": "a937fd81",
-    "month": "2023-03",
-    "title": "UBS takes over Credit Suisse",
-    "what": "On Sunday 19 March, after a weekend of talks led by the Swiss government and National Bank, UBS agreed to take over Credit Suisse for 3 billion francs in UBS shares: one UBS share for 22.48 Credit Suisse shares. The government used emergency law so no shareholder vote is needed, provides a guarantee of up to 9 billion francs against losses on Credit Suisse assets, and the National Bank offers up to 100 billion francs of liquidity. Credit Suisse's AT1 bonds worth 16 billion francs are written off.",
-    "why": "The end of the second big Swiss bank; UBS becomes a single Swiss megabank with more than $5 trillion of invested assets, bought for about 1% of Credit Suisse's 2007 market value.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -3
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03)"
-  },
-  {
     "id": "435bf6c2",
     "month": "2023-06",
     "title": "Credit Suisse becomes part of UBS",

@@ -49,4 +49,5 @@ Related but not tagged (they stay in their arcs): the break and failed rescue of
 Bam earthquakes (6f0fb318, 06bb87a2), Ahmadinejad's election (26740841), Boeing and Iran Air
 (c7daca18), the petrol protests (195a9bb1), Soleimani and Flight 752 (27f19ba3), the executions
 (73068a15), the strikes on Israel (9e2761c3), Raisi's death (2c07a9d4), the ceasefire and its
-breakdown (bfdbd812, 59d27fbd), and the oil arc's Iran beats (5a98e1f8, dbc57cb2, 66bfe801).
+breakdown (bfdbd812, 59d27fbd). The oil arc's Iran beats of 2015-07, 2025-06 and 2026-03 have
+been folded into the thread beats of those months (da58066e, d3b6cf90, 3508acd3).

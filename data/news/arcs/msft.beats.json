@@ -42,6 +42,19 @@
     "lead": true
   },
   {
+    "id": "1c6b3e28",
+    "month": "1998-05",
+    "title": "The American government sues Microsoft",
+    "what": "On 18 May the Justice Department, twenty states and the District of Columbia took Microsoft to court. Almost every personal computer runs Microsoft's Windows, and the government says the company abuses that power to win the next market as well, the one for internet browsers: it builds its own Internet Explorer into Windows and stops computer makers from removing it or offering Netscape's Navigator instead. 'Microsoft follows the rules,' says Bill Gates, who denies that his company is a monopoly. Already in 1994 Microsoft had promised not to tie other products to Windows; it now argues that the browser is a feature of Windows, not a separate product.",
+    "why": "The beginning of the case that leads to the ruling of April 2000 and the order to split the company. It also explains why Netscape, the star of 1995, was losing ground.",
+    "assets": [
+      "msft"
+    ],
+    "thread": "dotcom",
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-04)",
+    "changed": "new beat from a note to the writer: the start of the Microsoft antitrust case"
+  },
+  {
     "id": "a1a478c3",
     "month": "1999-01",
     "title": "Year-2000 spending lifts Microsoft's sales by 38%",
@@ -81,7 +94,7 @@
       "pct": -34
     },
     "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "note": "there should be an earlier beat about the initiation of the lawsuit"
+    "changed": "note to the writer addressed: the start of the lawsuit has its own story in May 1998"
   },
   {
     "id": "8807c2c1",

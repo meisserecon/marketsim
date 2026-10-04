@@ -28,8 +28,8 @@
   {
     "month": "1998-03",
     "kind": "company",
-    "headline": "First public capital for the big banks",
-    "text": "On 30 March all major banks, including IBJ, received public capital totalling 1.8 trillion yen under a law passed in February that makes 30 trillion yen of public funds available. Critics say the amount is far too small.",
+    "headline": "Japan puts taxpayers' money into its big banks",
+    "text": "Since the bubble burst in 1990, Japan's banks sit on a mountain of loans that will never be repaid, and in November several big financial firms collapsed. Until now the government did not dare to help with public money, because voters were furious when it rescued the housing lenders in 1996. That has changed: a law passed in February sets aside 30 trillion yen, and on 30 March all major banks, including IBJ, received a first 1.8 trillion yen of new capital from the state. Critics say the amount is far too small for the size of the losses.",
     "assets": [
       "ibj"
     ],
@@ -104,6 +104,20 @@
     "image": "/news/mercedes/1998-05-auburn-hills-michigan.jpg",
     "imageCaption": "Auburn Hills, Michigan, 2021",
     "imageCredit": "ajay_suresh"
+  },
+  {
+    "month": "1998-05",
+    "kind": "company",
+    "headline": "The American government sues Microsoft",
+    "text": "On 18 May the Justice Department, twenty states and the District of Columbia took Microsoft to court. Almost every personal computer runs Microsoft's Windows, and the government says the company abuses that power to win the next market as well, the one for internet browsers: it builds its own Internet Explorer into Windows and stops computer makers from removing it or offering Netscape's Navigator instead. 'Microsoft follows the rules,' says Bill Gates, who denies that his company is a monopoly. Already in 1994 Microsoft had promised not to tie other products to Windows; it now argues that the browser is a feature of Windows, not a separate product.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/msft/1998-05-bill-gates.jpg",
+    "imageCaption": "Bill Gates, photographed many years later",
+    "imageCredit": "Bogdan Hoyaux / European Union"
   },
   {
     "month": "1998-06",

@@ -152,14 +152,14 @@
   {
     "id": "f46f55ae",
     "month": "1998-03",
-    "title": "First public capital for the big banks",
-    "what": "On 30 March all major banks, including IBJ, received public capital totalling 1.8 trillion yen under a law passed in February that makes 30 trillion yen of public funds available. Critics say the amount is far too small.",
+    "title": "Japan puts taxpayers' money into its big banks",
+    "what": "Since the bubble burst in 1990, Japan's banks sit on a mountain of loans that will never be repaid, and in November several big financial firms collapsed. Until now the government did not dare to help with public money, because voters were furious when it rescued the housing lenders in 1996. That has changed: a law passed in February sets aside 30 trillion yen, and on 30 March all major banks, including IBJ, received a first 1.8 trillion yen of new capital from the state. Critics say the amount is far too small for the size of the losses.",
     "why": "Too little: the calm lasts only until the summer. IBJ shares fell 17% in March.",
     "assets": [
       "ibj"
     ],
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)",
-    "note": "More context needed."
+    "changed": "note to the writer addressed: context added: why the banks need public money and why it took so long"
   },
   {
     "id": "00682066",
@@ -187,6 +187,7 @@
     "assets": [
       "ibj"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1335730/000119312506210651/d20fr12b.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03); data/src/universe.ts (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1335730/000119312506210651/d20fr12b.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03); data/src/universe.ts (read 2026-10-03)",
+    "lead": true
   }
 ]

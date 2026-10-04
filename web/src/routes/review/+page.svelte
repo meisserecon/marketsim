@@ -278,11 +278,14 @@
   }
   .desk {
     display: grid;
-    grid-template-columns: 240px minmax(0, 1fr);
+    grid-template-columns: 350px minmax(0, 1fr);
     gap: 20px;
     padding: 16px 20px 60px;
     max-width: 1500px;
     margin: 0 auto;
+  }
+  .side :global(.segmented button) {
+    white-space: nowrap;
   }
   .side {
     position: sticky;

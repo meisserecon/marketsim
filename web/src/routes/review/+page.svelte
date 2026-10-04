@@ -4,7 +4,7 @@
    * Works only under `npm run dev:web` (the review plugin reads and writes ../data); in a build
    * it shows a notice. Decisions go into the beats files as `lead` and `note`; an unwanted beat is deleted.
    */
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
   import { monthName } from '$lib/format';
   import { THREADS } from '@marketsim/shared';
 
@@ -48,10 +48,31 @@
       assets = d.assets;
       images = d.images ?? {};
       arc = Object.keys(arcs)[0] ?? '';
+      fromAddress();
       loaded = true;
+      await tick();
+      document.querySelector('.list button.on')?.scrollIntoView({ block: 'center' });
     } catch (e) {
       error = (e as Error).message;
     }
+  });
+
+  // What is being looked at lives in the address (/review#month=1984-04), so that a reload comes back to it.
+  function fromAddress() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    const v = p.get('view');
+    if (v === 'month' || v === 'arc' || v === 'thread' || v === 'changed') view = v;
+    if (/^\d{4}-\d{2}$/.test(p.get('month') ?? '')) month = p.get('month')!;
+    if (p.get('arc') && arcs[p.get('arc')!]) arc = p.get('arc')!;
+    if (p.get('thread') && THREADS[p.get('thread')!]) thread = p.get('thread')!;
+  }
+  $effect(() => {
+    if (!loaded) return;
+    const p = new URLSearchParams({ view });
+    if (view === 'month') p.set('month', month);
+    else if (view === 'arc') p.set('arc', arc);
+    else if (view === 'thread') p.set('thread', thread);
+    history.replaceState(history.state, '', `#${p}`);
   });
 
   const all = $derived.by((): Row[] => {

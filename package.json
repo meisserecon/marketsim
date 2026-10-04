@@ -18,5 +18,8 @@
     "start": "npm run start -w server",
     "build": "npm run build -w web",
     "data:news": "npm run news -w data"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

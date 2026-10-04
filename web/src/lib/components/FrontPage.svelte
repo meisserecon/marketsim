@@ -16,8 +16,11 @@
     onselect?: (id: string) => void;
     /** Larger type for the projector. */
     big?: boolean;
+    /** The month's market summary, shown as a strip under the masthead: the indices first, then the biggest movers. */
+    markets?: { indices: { name: string; change: number }[]; movers: { name: string; change: number }[] };
   }
-  let { month, items, nameOf, openable, onselect, big = false }: Props = $props();
+  let { month, items, nameOf, openable, onselect, big = false, markets }: Props = $props();
+  const fmt = (c: number) => `${c > 0 ? '+' : c < 0 ? '−' : ''}${Math.abs(c * 100).toFixed(0)}%`;
 
   const KIND_LABEL: Record<string, string> = { listing: 'Now trading', delisting: 'Leaving the market' };
   const lead = $derived(items[0]);
@@ -69,6 +72,15 @@
       <span>Monthly edition</span>
     </p>
     <div class="rule"></div>
+    {#if markets && (markets.indices.length || markets.movers.length)}
+      <p class="markets">
+        <span class="mk-label">Markets this month</span>
+        {#each markets.indices as m (m.name)}<span class="mk index">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
+        {#if markets.indices.length && markets.movers.length}<span class="mk-sep" aria-hidden="true"></span>{/if}
+        {#each markets.movers as m (m.name)}<span class="mk">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
+      </p>
+      <div class="rule"></div>
+    {/if}
   </header>
 
   {#if !lead}
@@ -168,6 +180,50 @@
   }
   .dateline .date {
     font-weight: 700;
+  }
+  .markets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 4px 18px;
+    margin: 4px 0 !important;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    hyphens: none !important;
+  }
+  .mk-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .mk {
+    white-space: nowrap;
+  }
+  .mk.index {
+    font-weight: 650;
+  }
+  .mk b {
+    font-variant-numeric: tabular-nums;
+  }
+  .mk b.up {
+    color: #0b5f0b;
+  }
+  .mk b.down {
+    color: #a32222;
+  }
+  .mk-sep {
+    width: 1px;
+    align-self: stretch;
+    background: rgba(42, 39, 34, 0.45);
+  }
+  .big .markets {
+    font-size: 1.2rem;
+    gap: 6px 26px;
+  }
+  .big .mk-label {
+    font-size: 0.85rem;
   }
   .quiet {
     text-align: center;

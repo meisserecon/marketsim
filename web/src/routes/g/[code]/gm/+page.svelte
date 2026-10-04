@@ -51,6 +51,16 @@
       .sort((a, b) => b.change - a.change);
     return { up: rows.slice(0, 3).filter((r) => r.change > 0), down: rows.slice(-3).reverse().filter((r) => r.change < 0) };
   });
+  /** The strip under the masthead: the stock market and gold, then the biggest movers up and down. */
+  const marketStrip = $derived.by(() => {
+    const indices: { name: string; change: number }[] = [];
+    const h = board?.benchmark?.history ?? [];
+    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) indices.push({ name: 'Stock market', change: h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1 });
+    const gold = market?.assets.find((a) => a.kind === 'gold');
+    if (gold?.pricePrev) indices.push({ name: 'Gold', change: gold.price / gold.pricePrev - 1 });
+    // Gold has its own place among the indices.
+    return { indices, movers: [...movers.up, ...movers.down].filter((m) => m.name !== gold?.name) };
+  });
   let lastJoined = $state('');
 
   let advancing = $state(false);
@@ -203,7 +213,7 @@
     </section>
 
     {#if news && news.month === game.currentMonth && news.items.length}
-      <FrontPage month={news.month} items={news.items} {nameOf} big />
+      <FrontPage month={news.month} items={news.items} {nameOf} big markets={marketStrip} />
     {/if}
 
     <section class="card board">
@@ -223,10 +233,6 @@
       <section class="card">
         <div class="card-head">
           <h2>Market</h2>
-          <span class="sub movers">
-            {#each movers.up as r (r.name)}<span>{r.name} <b class="up">{pct(r.change, { sign: true, digits: 0 })}</b></span>{/each}
-            {#each movers.down as r (r.name)}<span>{r.name} <b class="down">{pct(r.change, { sign: true, digits: 0 })}</b></span>{/each}
-          </span>
         </div>
         <div class="card-body">
           <MarketTable assets={market.assets} month={market.month} held={new Set()} markNew={!lobby} onselect={() => {}} />
@@ -383,12 +389,6 @@
   }
   .age:hover {
     text-decoration: underline;
-  }
-  .movers {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 14px;
-    justify-content: flex-end;
   }
   .board .card-head h2 {
     font-size: 1.4rem;

@@ -9,7 +9,8 @@
       "aapl"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "c01495cc",
@@ -26,7 +27,8 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json",
-    "note": "Add a note on Boeing delivering its first 767 to United Airlines."
+    "note": "Add a note on Boeing delivering its first 767 to United Airlines.",
+    "lead": true
   },
   {
     "id": "78f913f2",

@@ -10,7 +10,7 @@
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
-  import FrontPage from '$lib/components/FrontPage.svelte';
+  import NewsTicker from '$lib/components/NewsTicker.svelte';
   import Welcome from '$lib/components/Welcome.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
@@ -346,11 +346,6 @@
 
   <div class="banners">
     {#if refreshError}<p class="notice error" role="alert">Could not refresh: {refreshError}</p>{/if}
-    {#if lobby}
-      <p class="notice info">
-        <strong>The game has not started yet.</strong> Build your first portfolio now, at the prices of {monthName(game.currentMonth)}. You can hold up to {portfolio.maxPositions} positions besides cash. {solo ? 'When you are ready, start the clock with the button at the top.' : 'The game master will start the clock.'}
-      </p>
-    {/if}
     {#if finished}
       <p class="notice warn">
         <strong>The game is over.</strong> {monthName(game.currentMonth)} was the final month; trading is closed.
@@ -394,7 +389,7 @@
 
   <div class="portfolio-wrap">
     {#if news && news.month === game.currentMonth}
-      <div class="news-card"><FrontPage month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} /></div>
+      <div class="news-card"><NewsTicker month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} /></div>
     {/if}
     {#if board}
       <section class="card">

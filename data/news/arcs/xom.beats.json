@@ -198,8 +198,9 @@
       "asset": "xom",
       "pct": 23
     },
-    "importance": 2,
-    "source": "ExxonMobil press release of 31 January 2005, https://www.sec.gov/Archives/edgar/data/34088/000003408805000026/r013105ex991.htm (read 2026-10-03); ExxonMobil press release of 18 February 2005, https://www.sec.gov/Archives/edgar/data/34088/000003408805000045/r021805ex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
+    "importance": 1,
+    "source": "ExxonMobil press release of 31 January 2005, https://www.sec.gov/Archives/edgar/data/34088/000003408805000026/r013105ex991.htm (read 2026-10-03); ExxonMobil press release of 18 February 2005, https://www.sec.gov/Archives/edgar/data/34088/000003408805000045/r021805ex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "5cb98cf0",

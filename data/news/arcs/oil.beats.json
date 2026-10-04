@@ -82,24 +82,8 @@
     "what": "US crude reached a record $56.37 a barrel on 26 October, up from about $33 in January. China's oil use is growing about 8% a year, OPEC has little spare capacity, and attacks on Iraqi pipelines continue. Earlier in the year, when oil reached $40, European finance ministers cut their growth forecasts.",
     "why": "The boom of the 2000s in full swing, driven by demand rather than a single supply shock.",
     "assets": [],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
-  },
-  {
-    "id": "198212d9",
-    "month": "2005-02",
-    "title": "Oil back above $50, oil profits at records",
-    "what": "US crude ended February at $52.20 a barrel, up 8% in the month and close to its October record of about $56.",
-    "why": "The market began to believe high oil was permanent, and oil shares were re-rated: Exxon +23% in February.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": 23
-    },
-    "importance": 3,
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
   },
   {
     "id": "2cc56807",

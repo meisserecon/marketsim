@@ -413,7 +413,7 @@
     "what": "George W. Bush won a second term on 2 November with 286 electoral votes to John Kerry's 251 and 50.7% of the vote; Ohio decided it. Kerry argued that Bush had misled the country into the Iraq war, where no banned weapons had been found; Bush voters named terrorism and traditional values as what mattered most to them.",
     "why": "Every presidential election gets a beat (curator rule).",
     "assets": [],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2004_United_States_presidential_election (read 2026-10-03)"
   },
   {
@@ -425,7 +425,8 @@
     "assets": [],
     "importance": 2,
     "thread": "euro",
-    "source": "Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04); https://en.wikipedia.org/wiki/2004_Greek_financial_audit (read 2026-10-04)"
+    "source": "Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04); https://en.wikipedia.org/wiki/2004_Greek_financial_audit (read 2026-10-04)",
+    "lead": true
   },
   {
     "id": "e5c52c62",
@@ -587,7 +588,8 @@
     "why": "The first annexation of territory in Europe since 1945 and the start of the war in eastern Ukraine; the sanctions are mild, and the full invasion follows in 2022. Review 2026-10: city name as spelled in English at the time.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "ce67ee88",
@@ -710,22 +712,6 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)"
-  },
-  {
-    "id": "dc324f47",
-    "month": "2022-02",
-    "title": "Russia invades Ukraine; Switzerland adopts the EU sanctions",
-    "what": "On 24 February Russia launched a full-scale invasion of Ukraine from the north, east and south, with forces advancing on Kyiv; President Putin calls it a 'special military operation'. The West answered with sanctions, including cutting Russian banks off from the SWIFT payments system and freezing the central bank's reserves. On 28 February neutral Switzerland, after days of hesitation, adopted the EU sanctions in full and froze the assets of listed Russians, including Putin. Oil passed 100 dollars a barrel, and prices of metals, gas and grain jumped.",
-    "why": "The largest war in Europe since 1945, and a turning point for Swiss neutrality. Commodity producers rose (Glencore +15% in the month) while the market fell; the energy shock feeds the inflation and rate rises of 2022.",
-    "assets": [
-      "glencore"
-    ],
-    "move": {
-      "asset": "glencore",
-      "pct": 15
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine (read 2026-10-03); https://www.swissinfo.ch/eng/politics/switzerland-imposes-full-eu-sanctions-against-russia/47388280 (read 2026-10-03); data/out/glencore.json (read 2026-10-03)"
   },
   {
     "id": "e39f0653",

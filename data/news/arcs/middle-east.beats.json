@@ -12,7 +12,6 @@
       "asset": "gold",
       "pct": 16
     },
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat (read 2026-10-04); https://en.wikipedia.org/wiki/Iranian_revolution (read 2026-10-04)"
   },
@@ -23,7 +22,6 @@
     "what": "On 7 April the United States cut diplomatic relations with Iran and widened its sanctions. On 24 and 25 April a secret mission to free the hostages, Operation Eagle Claw, was called off in the Iranian desert; a helicopter then collided with a transport plane, killing eight American servicemen, and an Iranian civilian also died. Secretary of State Cyrus Vance resigned.",
     "why": "The low point of the crisis for Washington, and the moment the US-Iran break became permanent: there have been no diplomatic relations since.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Operation_Eagle_Claw (read 2026-10-03)"
   },
   {
@@ -33,7 +31,6 @@
     "what": "On 22 September Iraqi aircraft struck ten Iranian airfields, and the next day Iraqi troops crossed the border along a front of more than 600 kilometres, aiming above all at the oil province of Khuzestan and the Shatt al-Arab waterway. Saddam Hussein had torn up the 1975 border agreement with Iran days before. Iran, its army purged after the revolution, is fighting back with regular troops, Revolutionary Guards and volunteers. Oil output from both countries is disrupted. The revolution had already cut Iran's oil output and helped lift the price of crude from 15.85 dollars a barrel in April 1979 to 39.50 within a year.",
     "why": "Begins the eight-year war that Iranians call the 'imposed war' or the 'sacred defence', which killed hundreds of thousands and shaped a generation. The war took further oil off the market (about 7 percent of world output by one estimate), which belongs to the oil arc.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03, again 2026-10-04)",
     "lead": true
@@ -47,21 +44,9 @@
     "assets": [
       "gold"
     ],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Algiers_Accords_(1981) (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "23cc5b55",
-    "month": "1981-06",
-    "title": "Iran's president deposed, then a bomb kills Beheshti and dozens of leaders",
-    "what": "On 21 June parliament voted to remove President Abolhassan Banisadr, Iran's first elected president, and Khomeini signed his dismissal the next day; a rally for him on 20 June ended with about 50 dead and hundreds arrested. On 28 June a bomb at the Islamic Republican Party headquarters in Tehran killed Chief Justice Ayatollah Beheshti, four ministers, 27 members of parliament and many others, more than 70 people in all. The authorities blame the Mojahedin-e Khalq. Banisadr is in hiding.",
-    "why": "The revolution turns on its own: what follows is a wave of arrests and executions of the left opposition, and another bombing killed the new president and prime minister on 30 August. Banisadr fled to France on 29 June. Who planted the June bomb is still disputed (the MEK never confirmed it, and Iran later blamed others), so the beat says 'blame'.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr (read 2026-10-03); https://en.wikipedia.org/wiki/Hafte_Tir_bombing (read 2026-10-03); https://en.wikipedia.org/wiki/1981_Iranian_Prime_Minister%27s_office_bombing (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "9cead60a",
@@ -70,7 +55,6 @@
     "what": "Iranian forces recaptured Khorramshahr on 24 May after a month-long offensive and say they took 15,000 to 19,000 Iraqi prisoners. Most Iraqi troops have now been pushed out of southern Iran.",
     "why": "The high point of Iran's war and the moment it could have ended; instead Iran crossed into Iraq in July (Operation Ramadan) and six more years of war followed. Khorramshahr had fallen to Iraq in late October or November 1980 after weeks of street fighting; Iranians called it Khuninshahr, the 'city of blood'.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Operation_Beit_ol-Moqaddas (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/Battle_of_Khorramshahr_(1980) (read 2026-10-03)"
   },
   {
@@ -80,19 +64,7 @@
     "what": "Israeli forces invaded Lebanon on 6 June with about 60,000 troops and more than 800 tanks, saying they would push PLO fighters 40 kilometres back from the border. By the end of the month they stood at the edge of Beirut, surrounding PLO and Syrian forces in the west of the city.",
     "why": "Starts the Lebanon thread: the siege of Beirut, the massacre at Sabra and Shatila, the Western peacekeepers and the birth of Hezbollah with Iranian help, which leads to the 2006 war and the 2024 strikes.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War (read 2026-10-03)"
-  },
-  {
-    "id": "27526e13",
-    "month": "1984-03",
-    "title": "Battle of the marshes, and Iraq turns to poison gas",
-    "what": "On 14 February Iranian forces seized the oil-rich Majnoon Islands in the marshes north of Basra, and fighting there went on into March with very heavy losses. Iraq has used mustard gas and, Iran says, nerve gas against Iranian troops; thousands of Iranian soldiers were affected in the marshes. Iraqi aircraft and missiles have also hit Iranian cities in February.",
-    "why": "The war of attrition at its most brutal: human-wave offensives (Basij volunteers as young as 12 served) met with chemical weapons, the first verified battlefield use of nerve agent. The world largely looked away. Exact casualty figures from the marshes are estimates only (Iran about 50,000 casualties over the whole battle).",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Operation_Kheibar (read 2026-10-03); https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction (read 2026-10-03); https://en.wikipedia.org/wiki/Iraqi_chemical_attacks_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/War_of_the_Cities (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "f008940c",
@@ -101,7 +73,6 @@
     "what": "On 3 November a Lebanese magazine, Ash-Shiraa, revealed that the United States had secretly sold anti-tank and anti-aircraft missiles to Iran, the country Washington publicly treats as an enemy. President Reagan said on television on 13 November that Iran should use its influence to free the American hostages held in Lebanon. On 25 November Attorney General Edwin Meese said money from the sales had been passed on to the Contra rebels fighting Nicaragua's government; National Security Adviser John Poindexter resigned and his aide Oliver North was fired.",
     "why": "The Iran-Contra affair shows the enmity is not the whole story: behind the scenes both sides dealt when it suited them. It is the worst scandal of Reagan's presidency.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair (read 2026-10-04)"
   },
@@ -112,7 +83,6 @@
     "what": "The US Navy began escorting Kuwaiti tankers re-registered under the American flag through the Gulf, and on 24 July the first convoy's tanker Bridgeton struck a mine. On 20 July the UN Security Council unanimously passed Resolution 598 demanding an immediate ceasefire between Iran and Iraq; Iraq accepted, Iran has not. On 31 July a clash between Iranian pilgrims and Saudi police in Mecca left 402 dead, 275 of them Iranians, by Saudi count; Iran says the police opened fire.",
     "why": "The tanker war (some 450 attacks on merchant ships, two-thirds by Iraq) brings America into direct confrontation with Iran. Resolution 598 is the text Iran finally accepted a year later. Who started the Mecca violence is disputed; Saudi Arabia cut relations in 1988. Iran had taken Iraq's Faw peninsula in February 1986, alarming Kuwait; in April 1988 Iraq retook Faw and the US Navy sank Iranian ships after a mine hit the USS Samuel B. Roberts, the turn that pushed Iran to accept 598.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Tanker_war (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/1987_Mecca_incident (read 2026-10-03); https://en.wikipedia.org/wiki/First_Battle_of_al-Faw (read 2026-10-03)"
   },
   {
@@ -122,7 +92,6 @@
     "what": "Iraq has been firing long-range missiles at Tehran and other cities in a new 'war of the cities'. On 16 March Iraqi aircraft dropped chemical weapons on the Kurdish town of Halabja, which Iranian forces had just entered. Journalists brought in by Iran found streets of dead families; Iran says thousands of civilians were killed. Western reaction has been muted.",
     "why": "The war's cruellest month for civilians. Halabja's toll is usually given as 3,200 to 5,000; in the 1988 missile campaign Tehran was hit by 118 missiles over 52 days, killing about 420. Photographer Kaveh Golestan's pictures made Halabja known.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Halabja_massacre (read 2026-10-03); https://en.wikipedia.org/wiki/War_of_the_Cities (read 2026-10-03)"
   },
   {
@@ -132,7 +101,6 @@
     "what": "On 3 July the American cruiser USS Vincennes shot down Iran Air Flight 655 over the Gulf on its way from Bandar Abbas to Dubai, killing all 290 people aboard, 65 of them children; the US Navy says the crew took the airliner for an Iranian F-14 fighter, and Iran calls it a deliberate attack. Iran said in mid-July that it accepts Resolution 598 and a ceasefire with Iraq. Ayatollah Khomeini said that accepting it was 'more deadly than drinking from a poisoned chalice'. UN observers are to supervise the truce. The war has lasted almost eight years; the dead are counted in the hundreds of thousands.",
     "why": "The end of the war. The ceasefire took effect on 20 August; no peace treaty was ever signed. In the weeks after, thousands of political prisoners were executed in secret, which the outside world learned of only slowly (see the .md).",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_Air_Flight_655 (read 2026-10-04)"
   },
@@ -143,7 +111,6 @@
     "what": "Ayatollah Ruhollah Khomeini, leader of the revolution, died on 3 June aged 86. On 4 June the Assembly of Experts chose President Ali Khamenei as the new Supreme Leader. Millions of mourners filled Tehran for the funeral; in the crush people died and the body fell from its coffin, and a second ceremony had to be held.",
     "why": "The end of the founding era. Khamenei ruled for almost 37 years until he was killed in the 2026 war, which closes the arc. Rafsanjani, elected president in July with 94.5 percent (only two candidates approved), led the reconstruction years.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Ruhollah_Khomeini (read 2026-10-03); https://en.wikipedia.org/wiki/1989_Iranian_presidential_election (read 2026-10-03)"
   },
@@ -154,8 +121,16 @@
     "what": "A magnitude 7.4 earthquake struck northern Iran near the Caspian Sea in the early hours of 21 June, while most people slept in mud-brick houses. Tens of thousands are dead and hundreds of thousands homeless in the towns of Manjil and Rudbar and the villages around them. Iran has accepted aid from abroad, including from countries with which it has tense relations.",
     "why": "Iran's deadliest natural disaster of the era (final estimates 35,000 to 50,000 dead), two years after the war. The figure was still rising in late June, so 'what' says tens of thousands.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/1990_Manjil%E2%80%93Rudbar_earthquake (read 2026-10-03)"
+  },
+  {
+    "id": "5e94694d",
+    "month": "1990-11",
+    "title": "America masses 400,000 soldiers in the Gulf; the UN gives Iraq until 15 January",
+    "what": "Iraq's army has occupied Kuwait since August, and American soldiers have been arriving in Saudi Arabia ever since to protect it. On 8 November President Bush ordered another 200,000 to the Gulf, which will bring the American force to more than 400,000: enough, he said, for 'an adequate offensive military option'. On 29 November the UN Security Council voted 12 to 2, with China abstaining, to demand that Iraq pull out by 15 January 1991. If it does not, other countries may use 'all necessary means', which means war, to force it out.",
+    "why": "The countdown to Desert Storm; markets spent the winter watching this date.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_678 (read 2026-10-04); https://www.baltimoresun.com/1990/11/09/bush-orders-huge-troop-increase-in-gulf-allied-buildup-permits-potential-of-attack-on-iraq/ (search result read 2026-10-04); https://history.army.mil/portals/143/Images/Publications/catalog/70-117-1.pdf (search result read 2026-10-04)"
   },
   {
     "id": "74e8946d",
@@ -168,9 +143,17 @@
       "asset": "sp500",
       "pct": 4
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); https://finance.yahoo.com/news/day-market-history-operation-desert-180823058.html (read 2026-10-03)",
     "lead": true
+  },
+  {
+    "id": "3f496366",
+    "month": "1991-02",
+    "title": "Kuwait is free after a hundred hours of ground war",
+    "what": "The attack on the ground began on 24 February and ended after one hundred hours: on 28 February President Bush declared a ceasefire, with Kuwait freed and Iraq's army driven out. A coalition of 42 countries with more than 950,000 soldiers took part. Retreating Iraqi troops set fire to more than six hundred Kuwaiti oil wells.",
+    "why": "Closes the Gulf War story that began in July 1990. Saddam Hussein stays in power, which matters again in 2003.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-04)"
   },
   {
     "id": "5f4a83dd",
@@ -179,7 +162,6 @@
     "what": "Israeli Prime Minister Yitzhak Rabin was shot dead on 4 November in Tel Aviv as he left a rally for the peace process attended by more than 100,000 people. The killer, Yigal Amir, is a 25-year-old Israeli law student opposed to the Oslo Accords. Shimon Peres has taken over.",
     "why": "The peace process never recovered its momentum.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin (read 2026-10-03)"
   },
   {
@@ -189,7 +171,6 @@
     "what": "Mohammad Khatami, a reformist cleric, won Iran's presidential election on 23 May with 69 percent of the vote, against 25 percent for the conservative Ali Akbar Nateq-Nouri. Turnout was about 80 percent, up from 50 percent last time; women and young voters carried him, in a country where more than half the people are under 25 and the voting age is 15. He promises a more open society at home, with fewer restrictions on dress and on satellite television, and better relations abroad. The Guardian Council had barred 234 hopefuls, leaving four candidates.",
     "why": "The start of the reform era: hopes for change at home and a thaw with the West, checked by the unelected institutions (the student protests of 1999) and ended by Bush's 'axis of evil' and Ahmadinejad.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/1997_Iranian_presidential_election (read 2026-10-04)"
   },
@@ -200,7 +181,6 @@
     "what": "After students protested on 8 July against the closing of the reformist newspaper Salam, police and plainclothes militiamen raided a Tehran University dormitory before dawn on 9 July, beating students and setting rooms on fire; at least one student was killed. Protests spread over the following days, with tens of thousands of students in Tehran and other cities, before they were put down and many were arrested.",
     "why": "'18 Tir', the first mass uprising of the generation born under the Islamic Republic, and the moment the limits of Khatami's reforms showed.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/1999_Iranian_student_protests (read 2026-10-03); https://www.rferl.org/a/Iran_Student_Protests/1182717.html (read 2026-10-03)"
   },
@@ -211,9 +191,26 @@
     "what": "In August an Iranian exile opposition group made public the existence of two undeclared nuclear sites in Iran: a uranium enrichment plant at Natanz and a heavy-water facility at Arak. Iran says its programme is for electricity only. The International Atomic Energy Agency wants to inspect. In January President Bush had named Iran, with Iraq and North Korea, part of an 'axis of evil', saying that in Iran 'an unelected few repress the Iranian people's hope for freedom'.",
     "why": "Starts the nuclear dispute that dominates the next 24 years of the arc, through sanctions, the 2015 deal and the strikes of 2025 and 2026.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Natanz_Nuclear_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Nuclear_program_of_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/Axis_of_evil (read 2026-10-04)"
+  },
+  {
+    "id": "f5e8d884",
+    "month": "2003-01",
+    "title": "America masses troops around Iraq",
+    "what": "The United States is moving its largest fighting force since the Gulf War of 1991 towards Iraq. About 65,000 American soldiers were in the Gulf region in early January, and the Pentagon wants more than 120,000 there within weeks; ships, aircraft and tanks are on their way. President Bush says Iraq is hiding weapons of mass destruction and must give them up or be disarmed by force.",
+    "why": "The pattern before most big wars: the troops arrive first. Twelve years earlier the same build-up in the same desert ended in Desert Storm; the invasion follows on 20 March.",
+    "assets": [],
+    "source": "https://www.voanews.com/a/a-13-a-2003-01-08-41-u-s-66831507/257581.html (search result read 2026-10-04); https://www.globalsecurity.org/org/news/2003/030112-iraq02.htm (search result read 2026-10-04)"
+  },
+  {
+    "id": "77cc32ad",
+    "month": "2003-02",
+    "title": "Millions march against a war in Iraq",
+    "what": "The United States says Iraq is hiding weapons of mass destruction and must be disarmed by force. On 5 February Secretary of State Colin Powell laid out the American case before the UN Security Council, holding up a small vial to show how little anthrax it takes to kill. France, Russia, China and Germany were not convinced. On 15 February between 6 and 10 million people marched against a war in more than 600 cities; organisers counted about 3 million in Rome alone. Meanwhile the build-up goes on: by mid-February about 135,000 American soldiers are in the Gulf.",
+    "why": "The build-up to the invasion of March 2003. Powell later called the intelligence a great failure: no such weapons were found.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Colin_Powell%27s_presentation_to_the_United_Nations_Security_Council (read 2026-10-04); https://en.wikipedia.org/wiki/15_February_2003_anti-war_protests (read 2026-10-04); https://www.globalsecurity.org/org/news/2003/030214-buildup01.htm (search result read 2026-10-04)"
   },
   {
     "id": "6a2a4240",
@@ -222,7 +219,6 @@
     "what": "After President Bush's ultimatum to Saddam Hussein expired, US-led forces invaded Iraq on 20 March, with British, Australian and Polish troops. The stated aim is to disarm Iraq of weapons of mass destruction, which UN inspectors had not found, and remove Saddam. France, Germany and Canada opposed the war, which the UN Security Council did not authorise. US crude, which had reached $37.87 a barrel on 12 March as war approached, fell to $27.18 by the 21st once the invasion began.",
     "why": "The war that remade the region and, by removing Iran's worst enemy, greatly widened Iran's influence in Iraq. No weapons of mass destruction were found.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Venezuelan_general_strike_of_2002%E2%80%932003 (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
   },
   {
@@ -236,7 +232,6 @@
       "asset": "sp500",
       "pct": 8
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03); https://law.yale.edu/sites/default/files/documents/pdf/Using_Markets_to_Inform_Policy.pdf (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json"
   },
   {
@@ -246,7 +241,6 @@
     "what": "At dawn on 26 December an earthquake flattened the city of Bam in southeastern Iran, most of whose houses were built of mud brick. By the end of the month more than 25,000 bodies had been recovered and estimates of the dead ran as high as 40,000. The ancient citadel, Arg-e Bam, is largely destroyed. Rescue teams from dozens of countries arrived; the United States, which has no relations with Iran, sent aid and a rescue team.",
     "why": "One of the great tragedies of modern Iran, and a brief moment of human contact with America. The official toll was later set at about 26,000; 'what' gives the figures of late December.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2003_Bam_earthquake (read 2026-10-03); https://www.wsws.org/en/articles/2003/12/iran-d30.html (read 2026-10-03)"
   },
   {
@@ -258,7 +252,6 @@
     "assets": [
       "ubs"
     ],
-    "importance": 3,
     "source": "https://www.nbcnews.com/id/wbna4945257 (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/enforcement/2004/200405102/default.htm (read 2026-10-03)"
   },
   {
@@ -268,7 +261,6 @@
     "what": "Mahmoud Ahmadinejad, the little-known conservative mayor of Tehran, defeated former president Rafsanjani in a run-off on 24 June with about 63 percent of the vote. He campaigned as a man of the people against corruption and the old elite. The defeated candidates Karroubi and Rafsanjani complained that mosques, the Revolutionary Guards and the Basij militia had steered votes.",
     "why": "Ends the reform era and begins eight years of confrontation over the nuclear programme, with UN sanctions to follow.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2005_Iranian_presidential_election (read 2026-10-03)"
   },
   {
@@ -278,7 +270,6 @@
     "what": "On 23 December the UN Security Council voted 15 to 0 for Resolution 1737, which bans the supply of nuclear technology to Iran and freezes the assets of people and companies tied to its enrichment programme until Iran suspends enrichment. Iran's UN ambassador said 'a nation is being punished for exercising its inalienable rights'.",
     "why": "The first of four UN sanctions resolutions (2006-2010); with US and EU measures they squeezed Iran's economy for a decade. US sanctions go back to Clinton's ban on all trade with Iran in May 1995 and a 1996 law aimed at foreign investors in Iranian energy; the EU oil embargo (agreed January 2012, in force July 2012) and the cut-off from SWIFT in March 2012 followed.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1737 (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03)"
   },
@@ -289,7 +280,6 @@
     "what": "Official results gave President Ahmadinejad about 63 percent in the election of 12 June; his challengers Mir-Hossein Mousavi and Mehdi Karroubi rejected the count. Huge crowds marched in Tehran from 13 June, many wearing Mousavi's campaign green, in the biggest protests since the revolution. Supreme Leader Khamenei backed the result on 19 June; security forces and Basij militia have used batons and live fire. A young woman, Neda Agha-Soltan, was shot dead on 20 June and video of her death has gone around the world. State media report more than a dozen deaths; the opposition says many more.",
     "why": "The Green Movement: a defining moment for a generation of Iranians, at home and abroad. Final counts: 36 deaths acknowledged by the government, at least 72 by the opposition, about 4,000 arrests. Figures as of late June were lower, so 'what' stays general.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2009_Iranian_presidential_election_protests (read 2026-10-03); https://www.globalsecurity.org/wmd/library/news/iran/2009/iran-090621-rianovosti01.htm (read 2026-10-03)"
   },
@@ -303,7 +293,6 @@
       "nokia",
       "siemens"
     ],
-    "importance": 2,
     "source": "https://www.democracynow.org/2009/6/22/headlines/irans_web_spying_aided_by_european_firms_siemens_and_nokia (read 2026-10-03); https://observers.france24.com/en/20090624-siemens-nokia-helps-iran-bust-protesters-did-wall-street-journal-go-far-internet-mobile-phones-censorship (read 2026-10-03)"
   },
   {
@@ -315,8 +304,16 @@
     "assets": [
       "credit-suisse"
     ],
-    "importance": 2,
     "source": "https://www.nbcnews.com/id/wbna34447412 (read 2026-10-03); https://www.bloomberg.com/news/articles/2009-12-16/credit-suisse-to-pay-536-million-in-u-s-sanction-settlement (read 2026-10-03)"
+  },
+  {
+    "id": "afb11dbb",
+    "month": "2011-01",
+    "title": "Tunisians chase out their ruler",
+    "what": "On 17 December officials in the Tunisian town of Sidi Bouzid took away the cart of Mohamed Bouazizi, a 26-year-old street vendor, and refused to hear his complaint. His desperate protest, and his death on 4 January, set off demonstrations against poverty and corruption that spread across the country and reached the capital. On 14 January President Ben Ali, who had ruled for 23 years, fled to Saudi Arabia.",
+    "why": "The start of the Arab Spring: Egypt follows within weeks, then Libya and Syria.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Tunisian_revolution (read 2026-10-04)"
   },
   {
     "id": "22f1d58c",
@@ -325,7 +322,6 @@
     "what": "Eighteen days after protests began in Cairo's Tahrir Square on 25 January, Egypt's President Hosni Mubarak stepped down on 11 February and handed power to the army, ending 30 years in office. Tunisia's ruler had fled on 14 January after weeks of protest set off by a street vendor's self-immolation. Demonstrations are now spreading to Libya, Bahrain, Yemen and beyond. Hundreds of Egyptians were killed in the uprising.",
     "why": "The Arab Spring: the region's biggest upheaval in decades, leading to the wars in Libya and Syria.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_2011 (read 2026-10-03)"
   },
   {
@@ -335,7 +331,6 @@
     "what": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring. Since July the European Union has bought no Iranian oil, and in March Iranian banks under EU sanctions were cut off from the SWIFT payment network; the International Energy Agency puts Iran's oil exports in September at 860,000 barrels a day, down from 2.2 million at the end of 2011.",
     "why": "Sanctions reach every household: savings melt, medicine imports fell about 30 percent in 2012. A key reason Iranians voted for a negotiator in 2013.",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-04)"
   },
@@ -346,7 +341,6 @@
     "what": "Hassan Rouhani, a moderate cleric and former nuclear negotiator, won the presidential election on 14 June with 50.7 percent, just enough to avoid a run-off; turnout was about 73 percent. Supporters celebrated in the streets. He promises to ease the economy's pain and to talk with the world about the nuclear programme. The Tehran Stock Exchange rose to its highest since February.",
     "why": "The opening that led to the 2015 nuclear deal (an interim deal followed in November 2013).",
     "assets": [],
-    "importance": 2,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2013_Iranian_presidential_election (read 2026-10-03)"
   },
@@ -357,7 +351,6 @@
     "what": "Rockets carrying the nerve agent sarin hit rebel-held suburbs of Damascus in the Ghouta area on 21 August; hospitals treated some 3,600 people with symptoms, and death counts range from several hundred to well over a thousand. The opposition blames the army of President Assad, whom Iran and Russia back, and Western governments are debating military strikes; Damascus denies it.",
     "why": "The worst chemical attack since the Iran-Iraq war; strikes were averted in September by a US-Russian deal to remove Syria's chemical weapons. Syria's war, with Iranian forces and Hezbollah fighting for Assad, is the region's great catastrophe of the 2010s.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack (read 2026-10-03)"
   },
   {
@@ -367,7 +360,6 @@
     "what": "Fighters of the Islamic State of Iraq and the Levant captured Mosul, Iraq's second city, between 4 and 10 June as Iraqi soldiers fled, and swept towards Baghdad. About half a million people fled Mosul. On 29 June the group declared a caliphate across the parts of Iraq and Syria it controls.",
     "why": "ISIS becomes the region's new terror, and the fight against it briefly put Washington and Tehran on the same side. Mosul was retaken only in 2017; ISIS executed some 4,000 prisoners there.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Fall_of_Mosul (read 2026-10-03)"
   },
   {
@@ -379,7 +371,6 @@
     "assets": [
       "slb"
     ],
-    "importance": 3,
     "source": "https://fcpablog.com/2015/03/26/schlumberger-unit-pays-record-232-million-penalties-for-iran/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/0000087347/000156459015002749/slb-10q_20150331.htm (read 2026-10-03)"
   },
   {
@@ -389,7 +380,6 @@
     "what": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'. Lifting the sanctions will let Iran sell more oil; US crude fell 21% in July to $47.11 a barrel.",
     "why": "The high point of hope in the Rouhani years and of the sanctions-relief trade. It lasted less than three years for the US side. The deal took effect on 'Implementation Day', 16 January 2016, the same month Saudi Arabia broke relations with Iran after its embassy in Tehran was stormed.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
@@ -402,7 +392,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://money.cnn.com/2016/12/11/news/companies/boeing-iran/index.html (read 2026-10-03); https://aviationweek.com/air-transport/boeing-reaches-166-billion-deal-iran-737s-777s (read 2026-10-03)"
   },
   {
@@ -415,7 +404,6 @@
       "ba",
       "siemens"
     ],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://money.cnn.com/2018/05/14/investing/iran-sanctions-siemens-europe/index.html (read 2026-10-03); https://money.cnn.com/2018/08/07/investing/us-iran-sanctions-daimler/index.html (read 2026-10-03); https://en.wikipedia.org/wiki/2017%E2%80%932018_Iranian_protests (read 2026-10-03)"
   },
@@ -426,7 +414,6 @@
     "what": "After the government raised petrol prices by 50 to 200 percent overnight on 15 November, protests broke out across Iran. The authorities cut the internet almost entirely for about six days. Amnesty International said on 19 November that more than 100 protesters had been killed. Over 7,000 people have been arrested.",
     "why": "'Bloody Aban', the deadliest crackdown since the 1980s at that point. In December Reuters, citing interior ministry officials, reported about 1,500 dead; the government later admitted about 230. 'What' gives Amnesty's November figures. In September 2019 drones and missiles knocked out half of Saudi oil output at Abqaiq; the US blamed Iran, which denied it (oil arc). Review 2026-10: cut Amnesty's later count, published after November.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Iranian_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03)"
   },
   {
@@ -436,7 +423,6 @@
     "what": "A US drone strike killed General Qasem Soleimani, head of the Revolutionary Guards' Quds Force, at Baghdad airport on 3 January. Iran fired missiles at US bases in Iraq on 8 January; hours later the Revolutionary Guards shot down Ukraine International Airlines Flight 752 after take-off from Tehran, killing all 176 aboard, among them 82 Iranians and 63 Canadians, many of them Iranian-Canadian students and academics. After three days of denial, Iran admitted on 11 January that it had downed the plane by mistake, and protesters took to the streets.",
     "why": "The closest the US and Iran came to war before 2025, and a tragedy that struck the Iranian diaspora directly (many families in Canada lost relatives).",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani (read 2026-10-03); https://en.wikipedia.org/wiki/Ukraine_International_Airlines_Flight_752 (read 2026-10-03)"
   },
   {
@@ -446,7 +432,6 @@
     "what": "The Taliban entered Kabul on 15 August as President Ashraf Ghani fled. In the two weeks that followed, the US and its allies flew more than 120,000 people out of Kabul airport, amid chaos and a suicide bombing at the airport gate on 26 August. The last US troops left on 30 August, ending a 20-year war.",
     "why": "Closes the Afghan thread opened in 2001; Iran again borders a Taliban state.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021) (read 2026-10-03)"
   },
   {
@@ -456,7 +441,6 @@
     "what": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
     "why": "The largest challenge to the Islamic Republic since 1979 and the defining moment for a new generation. By late 2023 Iran Human Rights counted at least 551 protesters killed, 68 of them minors; 'what' stays with the figures of September. Raisi had won the presidency in June 2021 on a turnout of about 48 percent, the lowest since 1979, after mass disqualifications.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)"
   },
@@ -467,7 +451,6 @@
     "what": "On 8 December Iran executed 22-year-old Mohsen Shekari, convicted of 'waging war against God' for wounding a militiaman at a protest in Tehran, 74 days after his arrest. By then rights groups counted more than 450 protesters killed since September. Governments in Europe and America condemned the executions.",
     "why": "The state's answer to the uprising: execution as deterrence. The protests ebbed in 2023, but open defiance of the headscarf rules continued.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Execution_of_Mohsen_Shekari (read 2026-10-03); https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03)"
   },
   {
@@ -477,7 +460,6 @@
     "what": "On 7 October Hamas-led fighters broke out of Gaza into southern Israel, killing about 1,400 people by Israeli count, most of them civilians, among them hundreds at a music festival, and taking some 200 hostages. Israel has bombed Gaza ever since, ordered 1.1 million people in the north to move south, and on 27 October expanded ground operations. Gaza's health ministry reported more than 6,500 deaths by 25 October.",
     "why": "Begins the war that pulls in Hezbollah, the Houthis and finally Iran itself in direct strikes with Israel in 2024 and 2025. Israel later revised its toll to about 1,200 and the hostages to 251; 'what' gives the figures known in October.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2023_Hamas-led_attack_on_Israel (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war_(7_October_2023_%E2%80%93_27_October_2023) (read 2026-10-03)"
   },
   {
@@ -487,7 +469,6 @@
     "what": "On the night of 13 to 14 April Iran launched about 170 drones, 30 cruise missiles and 120 ballistic missiles at Israel, its first direct attack, in answer to an Israeli strike on its consulate in Damascus on 1 April that killed a senior Revolutionary Guards commander. Israel says 99 percent were shot down; a seven-year-old Bedouin girl was badly hurt and no one was killed. On 19 April Israel struck back with a limited strike near Isfahan.",
     "why": "The shadow war becomes open war between Iran and Israel, rehearsed here and fought in earnest in June 2025.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/April_2024_Iranian_strikes_against_Israel (read 2026-10-03)"
   },
   {
@@ -497,7 +478,6 @@
     "what": "President Ebrahim Raisi, Foreign Minister Hossein Amir-Abdollahian and six others died on 19 May when their helicopter crashed in fog in the mountains of East Azerbaijan province. First Vice President Mohammad Mokhber is acting president, and an election is set for 28 June.",
     "why": "Removes the man seen as a likely successor to Khamenei; the election brought the reformist Masoud Pezeshkian to power in July.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2024_Varzaqan_helicopter_crash (read 2026-10-03)"
   },
   {
@@ -507,7 +487,6 @@
     "what": "Rebels led by Hay'at Tahrir al-Sham, who began an offensive on 27 November, took Aleppo and then Damascus on 8 December. President Bashar al-Assad fled to Russia, ending more than half a century of his family's rule. Iran, which backed him through the civil war, has lost its main ally in the Arab world and its land route to Hezbollah.",
     "why": "The collapse of Iran's 'axis of resistance' in one year: Hamas crushed, Hezbollah weakened, Assad gone. Hezbollah had been gutted in September 2024 (exploding pagers, then Nasrallah killed on 27 September), and Iran fired some 200 missiles at Israel on 1 October, answered by Israeli strikes on its air defences.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime (read 2026-10-03); https://en.wikipedia.org/wiki/October_2024_Iranian_strikes_on_Israel (read 2026-10-03); https://en.wikipedia.org/wiki/Assassination_of_Hassan_Nasrallah (read 2026-10-03)"
   },
   {
@@ -517,7 +496,6 @@
     "what": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel. Brent rose from about $68 to over $78, then fell back to about $68 once oil kept flowing through the Strait of Hormuz.",
     "why": "The first open war between Iran and Israel, and the end of the nuclear standoff as it had stood since 2002. Final counts were about 1,060 to 1,190 dead in Iran and 33 in Israel. France, Germany and Britain triggered the return of UN sanctions on 28 August 2025, and Iran declared itself out of the 2015 deal in October.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
@@ -528,10 +506,19 @@
     "what": "Protests that began on 28 December as the rial fell to record lows, near 1.5 million to the dollar, and food prices soared, spread to hundreds of towns in every province. On 8 and 9 January, as huge crowds filled the streets, the authorities shut down the internet and security forces opened fire. Rights groups say thousands of people were killed in those two days, and tens of thousands arrested; the government gives lower figures, and with the internet cut the numbers cannot be checked.",
     "why": "The bloodiest crackdown in the Islamic Republic's history, and a direct cause of the war that followed. Death tolls are fiercely disputed: by early February HRANA had confirmed over 7,000 deaths, some media citing health officials gave 30,000 or more, the government 3,117. 'What' therefore says only 'thousands'.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)",
     "lead": true
+  },
+  {
+    "id": "82b82613",
+    "month": "2026-01",
+    "title": "America masses warships around Iran",
+    "what": "The aircraft carrier USS Abraham Lincoln, moved from the Pacific with about 5,700 sailors and airmen, arrived in the Arabian Sea in January. It is the start of what is becoming the largest American military build-up in the region since the invasion of Iraq in 2003. Tension between the United States and Iran over Iran's nuclear programme has grown sharply this month, while talks continue.",
+    "why": "The pattern again: ships and aircraft gather weeks before the strikes of 28 February. A second carrier, the Gerald R. Ford, more than a hundred tanker aircraft and F-22 fighters followed in February.",
+    "assets": [],
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_military_buildup_in_the_Middle_East (search result read 2026-10-04); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-04)"
   },
   {
     "id": "43b51230",
@@ -540,7 +527,6 @@
     "what": "On 28 February, after weeks of the biggest US military build-up in the region since 2003 and while nuclear talks were still under way, American missiles and drones and Israeli jets struck targets across Iran. Supreme Leader Ali Khamenei was killed in Tehran along with several senior officials. Hundreds of Iranians have been killed or injured, the Red Crescent reports damage in 24 provinces, and the internet is almost entirely cut. The Revolutionary Guards have warned ships that none may pass through the Strait of Hormuz.",
     "why": "The climax of the arc: the man who ruled Iran for 37 years is dead and the country is at war. For Iranian families abroad, days of silence from relatives behind the blackout.",
     "assets": [],
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03)"
   },
@@ -560,7 +546,6 @@
       "asset": "sp500",
       "pct": -5
     },
-    "importance": 1,
     "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); ExxonMobil press release of 1 May 2026 (Middle East volume impacts), https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/ (read 2026-10-03); https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json; CNBC, 'Iran war poses challenges to high-margin Middle East car market', 18 March 2026 (headline via Google News) (read 2026-10-03); SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)"
   },
@@ -571,7 +556,6 @@
     "what": "The truce collapsed on 8 July after Iran attacked commercial ships, insisting on its control of the Strait of Hormuz, and the US resumed strikes it says are meant to protect shipping. Iran accuses Washington of breaking 'nearly all parts' of the June agreement. From 3 to 9 July a state funeral for Ali Khamenei drew millions across Iran.",
     "why": "Where the arc stands as of the latest sources: no settled peace, a new leader, a broken economy and a society scarred by the January massacre and the war. Casualty totals for the war (several thousand Iranian dead) are still being compiled.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Islamabad_Talks (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://www.cnn.com/2026/07/15/world/live-news/iran-war-trump (read 2026-10-03)"
   }
 ]

@@ -26,6 +26,14 @@
     "imageCredit": "Sailko"
   },
   {
+    "month": "1981-02",
+    "kind": "colour",
+    "headline": "Saturday night TV: 'Wetten, dass..?' starts",
+    "text": "On 14 February the German channel ZDF broadcast the first 'Wetten, dass..?' (Want to bet?), a Saturday-evening show made together with Austria's ORF and Swiss television. Ordinary people bet that they can do something odd or remarkable, and celebrity guests guess whether they will manage. The host and inventor is Frank Elstner.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Wetten,_dass..%3F (read 2026-10-03)"
+  },
+  {
     "month": "1981-03",
     "kind": "company",
     "headline": "Buffett: book value up to 400.80 dollars, a third of GEICO",
@@ -95,7 +103,10 @@
     "text": "Japan built more cars than the United States last year, for the first time. Its exports of passenger cars rose from 100,000 in 1965 to 1.8 million in 1975 and have kept climbing, as American drivers hit by two oil shocks turned to small Toyotas, Datsuns and Hondas that use less petrol and break down less. Detroit is losing money and laying off workers, and under pressure from Washington Japan has agreed to limit its car exports to the United States to 1.68 million a year from this month. Cars are only the most visible part: Japanese cameras, television sets and steel are winning markets everywhere.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Voluntary_export_restraint (read 2026-10-03); https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-04)",
-    "thread": "japan"
+    "thread": "japan",
+    "image": "/news/asia/1981-05-toyota-corolla-e70.jpg",
+    "imageCaption": "Toyota Corolla, 2012",
+    "imageCredit": "Ypy31"
   },
   {
     "month": "1981-05",
@@ -109,6 +120,20 @@
     "image": "/news/nestle/1981-05-lactogen-clinic.jpg",
     "imageCaption": "Nestlé's Lactogen baby milk promoted to mothers at a health centre in Africa, around 1975",
     "imageCredit": "Schweizerisches Sozialarchiv"
+  },
+  {
+    "month": "1981-06",
+    "kind": "company",
+    "headline": "Apple shares drop 21% from their May high",
+    "text": "Apple shares fell 21% in June, giving back the rise of April and May, in a flat market. Investors have little to go on beyond the Apple III's reliability problems and talk that IBM, the giant of the computer industry, is preparing its own personal computer. Apple is still growing fast on the Apple II, but the stock market is no longer sure what a young computer company should be worth.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)",
+    "image": "/news/aapl/1981-06-apple-iii.jpg",
+    "imageCaption": "Apple III",
+    "imageCredit": "not credited on the page"
   },
   {
     "month": "1981-06",
@@ -127,7 +152,10 @@
     "headline": "Charles and Diana marry before a world audience",
     "text": "Prince Charles, heir to the British throne, married Lady Diana Spencer at St Paul's Cathedral in London on 29 July. Two million people lined the route, and the ceremony was watched on television by an estimated 750 million people around the world.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer (read 2026-10-03)",
+    "image": "/news/life/1981-07-wedding-of-prince-charles-and-lady-diana.jpg",
+    "imageCaption": "Wedding of Prince Charles and Lady Diana Spencer, 1981",
+    "imageCredit": "United Press International"
   },
   {
     "month": "1981-07",
@@ -140,7 +168,10 @@
       "ust1990",
       "ust2000"
     ],
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "image": "/news/rates/1981-07-gold-bar.jpg",
+    "imageCaption": "Gold bar, 2009",
+    "imageCredit": "Szaaman"
   },
   {
     "month": "1981-08",
@@ -203,6 +234,16 @@
     "imageCredit": "Aero Icarus"
   },
   {
+    "month": "1981-10",
+    "kind": "company",
+    "headline": "Doctors' association sells its tobacco shares",
+    "text": "The American Medical Association sold about 1.4 million dollars of shares in R.J. Reynolds and Philip Morris from its pension fund. Medical students and young doctors had called it contradictory for a medical group to profit from cigarette makers; a spokeswoman said the publicity had hurt.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.upi.com/Archives/1981/09/29/AMA-drops-tobacco-stocks/3951370584000/ (read 2026-10-03)"
+  },
+  {
     "month": "1981-11",
     "kind": "company",
     "headline": "Helmut Maucher becomes chief executive",
@@ -232,6 +273,28 @@
   },
   {
     "month": "1981-12",
+    "kind": "world",
+    "headline": "Martial law in Poland",
+    "text": "General Wojciech Jaruzelski, Poland's Communist Party leader and defence minister, declared martial law on 13 December. Thousands of activists of Solidarity, the free trade union born in the Gdansk shipyard strikes of August 1980, were locked up without trial, among them its leader Lech Walesa; telephone lines were cut, borders and airports closed, and a curfew runs from 7 in the evening to 6 in the morning. On 16 December security forces killed 9 striking miners at the Wujek coal mine. On 23 December the United States imposed economic sanctions on the Polish government.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Martial_law_in_Poland (read 2026-10-04)",
+    "thread": "soviet",
+    "image": "/news/world/1981-12-martial-law-in-poland.jpg",
+    "imageCaption": "Martial law in Poland, 1981",
+    "imageCredit": "Jacek Żołnierkiewicz"
+  },
+  {
+    "month": "1981-12",
+    "kind": "company",
+    "headline": "Apple replaces the first 14,000 Apple IIIs with a redesigned model",
+    "text": "Apple is replacing the first 14,000 Apple III computers it sold with a redesigned version that fixes the overheating and faulty circuit boards of the original. The machine, launched a year ago as Apple's step into the office, has sold poorly against the Apple II that still carries the company.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
+  },
+  {
+    "month": "1981-12",
     "kind": "company",
     "headline": "A strong dollar hits Siemens in dollar terms",
     "text": "Siemens shares lost about a third of their dollar value in 1981. Much of it is the currency: the dollar rose from about 2 marks in January to 2.5 marks in August.",
@@ -242,14 +305,5 @@
     "image": "/news/siemens/1981-12-cable.jpg",
     "imageCaption": "Siemens Nederland presents a cable system that carries 30 channels over a single cable, March 1981",
     "imageCredit": "Hans van Dijk for Anefo"
-  },
-  {
-    "month": "1981-12",
-    "kind": "world",
-    "headline": "Martial law in Poland",
-    "text": "General Wojciech Jaruzelski, Poland's Communist Party leader and defence minister, declared martial law on 13 December. Thousands of activists of Solidarity, the free trade union born in the Gdansk shipyard strikes of August 1980, were locked up without trial, among them its leader Lech Walesa; telephone lines were cut, borders and airports closed, and a curfew runs from 7 in the evening to 6 in the morning. On 16 December security forces killed 9 striking miners at the Wujek coal mine. On 23 December the United States imposed economic sanctions on the Polish government.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Martial_law_in_Poland (read 2026-10-04)",
-    "thread": "soviet"
   }
 ]

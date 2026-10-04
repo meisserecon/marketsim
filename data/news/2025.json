@@ -67,16 +67,45 @@
     "imageCredit": "World Economic Forum"
   },
   {
-    "month": "2025-04",
+    "month": "2025-02",
+    "kind": "company",
+    "headline": "Amazon earns $20 billion in a quarter",
+    "text": "Amazon reported fourth-quarter net income of $20.0 billion on sales of $187.8 billion, up 10%. AWS sales grew 19% to $28.8 billion. Sales for 2024 were $638.0 billion.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-25-000002.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2025-02",
+    "kind": "company",
+    "headline": "Justin Hotard to succeed Lundmark",
+    "text": "On 10 February Nokia said Pekka Lundmark will step down and Justin Hotard, who has more than 25 years of experience at global technology companies, will become chief executive.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.nokia.com/about-us/news/releases/2025/02/10/inside-information-nokia-announces-a-leadership-transition-justin-hotard-appointed-as-successor-to-pekka-lundmark/ (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2025-03",
     "kind": "world",
-    "headline": "Tariffs of 145% on China",
-    "text": "On 2 April President Trump announced tariffs on most of the world, 34% on China. After China retaliated, the US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
+    "headline": "Trump's tariffs start a trade war, and shares fall 6 percent",
+    "text": "Since returning to office President Trump has put taxes on imports, called tariffs: 10% on Chinese goods from 1 February, raised to 20% on 4 March; 25% on most goods from Mexico and Canada; and from 12 March 25% on all imported steel and aluminium. Tariffs make foreign goods dearer for American buyers, and investors fear that other countries will answer with tariffs of their own. The American stock market lost 6% in March.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)",
-    "thread": "china",
-    "image": "/news/asia/2025-04-yantai-port.jpg",
-    "imageCaption": "Shipping containers stacked at the port of Yantai, Shandong, as the tariff war escalates, 3 April 2025",
-    "imageCredit": "Photo by -/AFP via Getty Images"
+    "source": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration (read 2026-10-04)",
+    "image": "/news/world/2025-03-port-of-los-angeles.jpg",
+    "imageCaption": "Port of Los Angeles, 2008",
+    "imageCredit": "Rennett Stowe from USA"
+  },
+  {
+    "month": "2025-03",
+    "kind": "company",
+    "headline": "Boeing wins the next-generation fighter",
+    "text": "On 21 March the US Air Force awarded Boeing the contract to build its next-generation air dominance fighter, a programme worth more than 20 billion dollars.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing CNBC 2025-03-21)"
   },
   {
     "month": "2025-04",
@@ -98,6 +127,18 @@
   },
   {
     "month": "2025-04",
+    "kind": "world",
+    "headline": "Tariffs of 145% on China",
+    "text": "On 2 April President Trump announced tariffs on most of the world, 34% on China. After China retaliated, the US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)",
+    "thread": "china",
+    "image": "/news/asia/2025-04-yantai-port.jpg",
+    "imageCaption": "Shipping containers stacked at the port of Yantai, Shandong, as the tariff war escalates, 3 April 2025",
+    "imageCredit": "Photo by -/AFP via Getty Images"
+  },
+  {
+    "month": "2025-04",
     "kind": "company",
     "headline": "Export licence required for China chips: a 5.5 billion dollar charge",
     "text": "On 9 April the US government told Nvidia that it needs a licence to export its H20 chips, designed for the Chinese market, to China, and on 14 April that this applies indefinitely. Nvidia expects charges of up to about 5.5 billion dollars for H20 inventory and purchase commitments.",
@@ -111,16 +152,19 @@
   },
   {
     "month": "2025-05",
-    "kind": "company",
-    "headline": "Buffett, 94, announces he will step down as chief executive",
-    "text": "At Berkshire's annual meeting on 3 May Warren Buffett said he would ask the board to make Greg Abel, vice chairman for the non-insurance businesses, chief executive at the end of the year. On 4 May the board voted unanimously to appoint Abel president and chief executive from 1 January 2026; Buffett remains chairman.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525115695/d28310d8k.htm (Berkshire press release of 5 May 2025, read 2026-10-03)",
-    "image": "/news/brk/2025-05-buffett-screen-omaha.jpg",
-    "imageCaption": "Shareholders watch Warren Buffett, with his cans of Coca-Cola, on a screen at the Berkshire Hathaway annual meeting, Omaha, 3 May 2025",
-    "imageCredit": "Brendan McDermid/Reuters"
+    "kind": "world",
+    "headline": "Geneva truce cuts US-China tariffs",
+    "text": "On 12 May the US and China agreed in Geneva to cut their tariffs for 90 days, the US from 145% to 30% and China from 125% to 10%. Shares rallied around the world.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03); https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03)"
+  },
+  {
+    "month": "2025-05",
+    "kind": "colour",
+    "headline": "Eurovision in Basel",
+    "text": "The Eurovision Song Contest was held at the St. Jakobshalle in Basel, with the final on 17 May, presented by Hazel Brugger, Sandra Studer and Michelle Hunziker. It is the third time Switzerland has hosted it, after Lugano in 1956 and Lausanne in 1989. Austria's JJ won with 'Wasted Love'.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2025 (read 2026-10-03)"
   },
   {
     "month": "2025-05",
@@ -134,6 +178,19 @@
     "image": "/news/dis/2025-05-cinderella-castle.jpg",
     "imageCaption": "Cinderella Castle, Magic Kingdom, Walt Disney World ;;",
     "imageCredit": "Jedi94"
+  },
+  {
+    "month": "2025-05",
+    "kind": "company",
+    "headline": "Buffett, 94, announces he will step down as chief executive",
+    "text": "At Berkshire's annual meeting on 3 May Warren Buffett said he would ask the board to make Greg Abel, vice chairman for the non-insurance businesses, chief executive at the end of the year. On 4 May the board voted unanimously to appoint Abel president and chief executive from 1 January 2026; Buffett remains chairman.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525115695/d28310d8k.htm (Berkshire press release of 5 May 2025, read 2026-10-03)",
+    "image": "/news/brk/2025-05-buffett-screen-omaha.jpg",
+    "imageCaption": "Shareholders watch Warren Buffett, with his cans of Coca-Cola, on a screen at the Berkshire Hathaway annual meeting, Omaha, 3 May 2025",
+    "imageCredit": "Brendan McDermid/Reuters"
   },
   {
     "month": "2025-06",
@@ -159,6 +216,60 @@
     "image": "/news/ubs/2025-06-keller-sutter.jpg",
     "imageCaption": "Karin Keller-Sutter, the Swiss finance minister",
     "imageCredit": "Sina Guntern"
+  },
+  {
+    "month": "2025-06",
+    "kind": "company",
+    "headline": "A feud with Trump, then the first robotaxis",
+    "text": "On 5 June a public row broke out between Musk and President Trump, who suggested cutting government contracts with Musk's companies; Tesla lost about 150 billion dollars of market value in a day. Later in the month Tesla began a small robotaxi service in Austin, Texas, with safety supervisors on board.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "Reuters, 'Trump-Musk row slams Tesla shares, $150 billion in market value wiped out', 5 June 2025; BBC, 'Tesla shares tumble as Trump-Musk feud erupts', 5 June 2025, https://www.bbc.com/news/articles/cy902rv7q8do (read 2026-10-03); Finbold, '$1,000 invested in Tesla stock when Robotaxi launched a year ago is now worth', 23 June 2026 (headline via Google News) (read 2026-10-03); CNBC, 'Elon Musk says Tesla taking safety supervisors out of some Robotaxi vehicles in Austin', 22 January 2026 (headline via Google News) (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "kind": "colour",
+    "headline": "Women's Euro in Switzerland",
+    "text": "Switzerland hosted the women's European football championship from 2 to 27 July, with the opening match and the final in Basel. A record 657,291 spectators came to the games. England kept their title, beating Spain on penalties in the final.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2025 (read 2026-10-03)"
+  },
+  {
+    "month": "2025-07",
+    "kind": "company",
+    "headline": "eBay beats expectations",
+    "text": "On July 30 eBay reported second-quarter revenue of $2.7 billion, up 6%, and merchandise volume of $19.5 billion, up 6%, results the chief executive said exceeded expectations 'across the board'. It is testing an AI shopping agent.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-25-000075.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/ebay/2025-07-jamie-iannone.jpg",
+    "imageCaption": "Jamie Iannone, 2019",
+    "imageCredit": "Web Summit"
+  },
+  {
+    "month": "2025-07",
+    "kind": "company",
+    "headline": "The weak dollar and tariffs force a profit warning",
+    "text": "On 22 July Nokia cut its 2025 operating profit outlook to 1.6-2.1 billion euros from 1.9-2.4 billion. Its second-quarter report on 24 July blamed currency effects, including the weaker dollar, and tariffs; Mobile Networks sales fell 13% while Network Infrastructure grew 8%.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.nokia.com/system/files/2025-07/nokia_results_2025_q2.pdf (read 2026-10-03)",
+    "image": "/news/nokia/2025-07-nokia.jpg",
+    "imageCaption": "Nokia, 2011",
+    "imageCredit": "pikkuanna"
+  },
+  {
+    "month": "2025-07",
+    "kind": "company",
+    "headline": "Coffee and cocoa costs squeeze the margin",
+    "text": "Nestlé's half-year results on 24 July showed organic growth of 2.9%, but volume growth of only 0.2%, and the trading margin fell to 16.5% from 17.4%. Net profit dropped 10%. High coffee and cocoa prices were not fully passed on, and tariffs and the strong franc weigh on the outlook.",
+    "assets": [
+      "nestle"
+    ],
+    "source": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2025 (read 2026-10-03)"
   },
   {
     "month": "2025-07",
@@ -188,6 +299,17 @@
   },
   {
     "month": "2025-08",
+    "kind": "world",
+    "headline": "Trump hits Switzerland with a 39 percent tariff",
+    "text": "On Swiss National Day, 1 August, Washington announced a 39 percent tariff on Swiss goods from 7 August, the highest in Europe and far above the 15 percent agreed with the EU, saying Switzerland refused to make significant concessions. Federal President Karin Keller-Sutter said the Federal Council was disappointed and that the rate was far higher than the one negotiated; the machinery industry fears for tens of thousands of jobs. Pharmaceuticals remain exempt for now.",
+    "assets": [],
+    "source": "https://www.tagesschau.de/ausland/europa/schweiz-reaktionen-us-zoelle-100.html (read 2026-10-03); https://www.tagesschau.de/ausland/amerika/usa-schweiz-zoelle-100.html (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93United_States_relations (read 2026-10-03)",
+    "image": "/news/world/2025-08-keller-sutter.jpg",
+    "imageCaption": "Karin Keller-Sutter, President of the Swiss Confederation",
+    "imageCredit": "Swiss Federal Chancellery / Sina Guntern"
+  },
+  {
+    "month": "2025-08",
     "kind": "company",
     "headline": "The US government takes 10% of Intel",
     "text": "Lip-Bu Tan, a veteran chip investor, has been chief executive since March. On 18 August SoftBank agreed to invest 2 billion dollars in Intel. On 22 August President Trump announced that the government will convert grants promised to Intel under the CHIPS Act into shares: it buys 433.3 million shares at 20.47 dollars, 8.9 billion dollars for about 10% of the company.",
@@ -200,15 +322,15 @@
     "imageCredit": "United States Department of Commerce"
   },
   {
-    "month": "2025-08",
+    "month": "2025-09",
     "kind": "world",
-    "headline": "Trump hits Switzerland with a 39 percent tariff",
-    "text": "On Swiss National Day, 1 August, Washington announced a 39 percent tariff on Swiss goods from 7 August, the highest in Europe and far above the 15 percent agreed with the EU, saying Switzerland refused to make significant concessions. Federal President Karin Keller-Sutter said the Federal Council was disappointed and that the rate was far higher than the one negotiated; the machinery industry fears for tens of thousands of jobs. Pharmaceuticals remain exempt for now.",
-    "assets": [],
-    "source": "https://www.tagesschau.de/ausland/europa/schweiz-reaktionen-us-zoelle-100.html (read 2026-10-03); https://www.tagesschau.de/ausland/amerika/usa-schweiz-zoelle-100.html (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93United_States_relations (read 2026-10-03)",
-    "image": "/news/world/2025-08-keller-sutter.jpg",
-    "imageCaption": "Karin Keller-Sutter, President of the Swiss Confederation",
-    "imageCredit": "Swiss Federal Chancellery / Sina Guntern"
+    "headline": "Nvidia's money flows to Intel and OpenAI",
+    "text": "On 18 September Nvidia said it will invest 5 billion dollars in Intel, and on 22 September it announced a plan to invest up to 100 billion dollars in OpenAI, which will use the money to fill data centres with Nvidia chips. Nvidia passed 4 trillion dollars of market value in July. Intel rose 38% in September.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
     "month": "2025-09",
@@ -227,6 +349,29 @@
   {
     "month": "2025-09",
     "kind": "company",
+    "headline": "Musk buys a billion dollars of Tesla shares",
+    "text": "Elon Musk bought about 1 billion dollars of Tesla shares, adding to his roughly 13% stake, in what investors took as a vote of confidence; the shares jumped more than 6% on 15 September. Musk wants more control of Tesla as he pushes it into robotaxis, automation and artificial intelligence.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "BBC, 'Musk buys $1bn worth of Tesla shares', 15 September 2025, https://www.bbc.com/news/articles/cp982z3xrz7o (read 2026-10-03); CBS News, 'Tesla's stock surges after CEO Elon Musk buys $1 billion worth of shares', 15 September 2025 (headline via Google News) (read 2026-10-03)",
+    "image": "/news/tsla/2025-09-musk.jpg",
+    "imageCaption": "Elon Musk, chief executive of Tesla",
+    "imageCredit": "Gage Skidmore"
+  },
+  {
+    "month": "2025-09",
+    "kind": "company",
+    "headline": "Copper squeezed, rivals consolidate",
+    "text": "Anglo American and Teck Resources agreed on 9 September to merge into a copper-focused group, and a fatal landslide at Indonesia's giant Grasberg mine has been blamed for a jump in copper prices. Copper averaged $9,984 a tonne in September and is rising. Glencore expects its own copper output to step up sharply in the second half after a weak first half.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Anglo_American_plc; https://en.wikipedia.org/wiki/Grasberg_mine; https://www.investegate.co.uk/announcement/rns/glencore--glen/2025-half-year-report/9030376; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
+  },
+  {
+    "month": "2025-09",
+    "kind": "company",
     "headline": "Chief executive fired; chairman leaves early",
     "text": "On 1 September Nestlé dismissed chief executive Laurent Freixe with immediate effect and without severance, after an investigation found an undisclosed romantic relationship with an employee. Philipp Navratil, a Zurich-born Nestlé veteran who has run Nespresso since 2024, replaces him. Chairman Paul Bulcke said he would leave at the end of September, six months earlier than planned.",
     "assets": [
@@ -238,17 +383,28 @@
     "imageCredit": "Keystone / Jean-Christophe Bott"
   },
   {
-    "month": "2025-09",
-    "kind": "company",
-    "headline": "Musk buys a billion dollars of Tesla shares",
-    "text": "Elon Musk bought about 1 billion dollars of Tesla shares, adding to his roughly 13% stake, in what investors took as a vote of confidence; the shares jumped more than 6% on 15 September. Musk wants more control of Tesla as he pushes it into robotaxis, automation and artificial intelligence.",
+    "month": "2025-10",
+    "kind": "world",
+    "headline": "Gold passes 4,000 dollars",
+    "text": "Gold rose above 4,000 dollars an ounce for the first time in October and averaged 4,058 dollars, 11 percent more than in September. The Fed resumed cutting on 17 September and cut again on 29 October, to 3.75 to 4 percent, though inflation is still about 3 percent.",
     "assets": [
-      "tsla"
+      "gold"
     ],
-    "source": "BBC, 'Musk buys $1bn worth of Tesla shares', 15 September 2025, https://www.bbc.com/news/articles/cp982z3xrz7o (read 2026-10-03); CBS News, 'Tesla's stock surges after CEO Elon Musk buys $1 billion worth of shares', 15 September 2025 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/tsla/2025-09-musk.jpg",
-    "imageCaption": "Elon Musk, chief executive of Tesla",
-    "imageCredit": "Gage Skidmore"
+    "source": "https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
+    "image": "/news/rates/2025-10-gold-price-bangkok.jpg",
+    "imageCaption": "A jeweller writes the day's gold price on a shop window in Bangkok as gold passes 4,000 dollars an ounce, 8 October 2025",
+    "imageCredit": "Photo by Piti Anchaleesahakorn/NurPhoto via Getty Images"
+  },
+  {
+    "month": "2025-10",
+    "kind": "world",
+    "headline": "Takaichi takes over; Nikkei passes 50,000",
+    "text": "Sanae Takaichi won the leadership of the Liberal Democratic Party on 4 October and became Japan's first woman prime minister on 21 October. The Nikkei jumped 4.75% past 47,000 after her win and passed 50,000 on 27 October, on hopes of more government spending.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Sanae_Takaichi (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03)",
+    "image": "/news/asia/2025-10-takaichi.jpg",
+    "imageCaption": "Sanae Takaichi at a press conference after her election as prime minister, 21 October 2025",
+    "imageCredit": "Cabinet Secretariat"
   },
   {
     "month": "2025-10",
@@ -266,17 +422,6 @@
   },
   {
     "month": "2025-10",
-    "kind": "world",
-    "headline": "Takaichi takes over; Nikkei passes 50,000",
-    "text": "Sanae Takaichi won the leadership of the Liberal Democratic Party on 4 October and became Japan's first woman prime minister on 21 October. The Nikkei jumped 4.75% past 47,000 after her win and passed 50,000 on 27 October, on hopes of more government spending.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Sanae_Takaichi (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03)",
-    "image": "/news/asia/2025-10-takaichi.jpg",
-    "imageCaption": "Sanae Takaichi at a press conference after her election as prime minister, 21 October 2025",
-    "imageCredit": "Cabinet Secretariat"
-  },
-  {
-    "month": "2025-10",
     "kind": "company",
     "headline": "Citigroup agrees to sell a quarter of Banamex",
     "text": "Citigroup reported third-quarter net income of $3.8 billion, up from $3.2 billion, and said it has agreed to sell a 25% stake in its Mexican bank Banamex, a step toward selling it entirely; it took a $726 million goodwill charge on the deal. It returned $12 billion to shareholders in the first nine months. The shares are around $100, the highest since the autumn of 2008.",
@@ -291,6 +436,16 @@
   {
     "month": "2025-10",
     "kind": "company",
+    "headline": "Altria: the slow-shrinking cash machine",
+    "text": "Altria reported on 30 October that third-quarter revenue net of excise taxes fell 1.7%, but adjusted earnings per share rose 3.6%; it expects 3.5 to 5% earnings growth for 2025 and expanded its share buyback. In August it raised its dividend for the 60th time in 56 years. Net revenue fell 3% in the quarter as fewer cigarettes are sold.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000128/exhibit991erq32025.htm (read 2026-10-03); price changes from data/out/mo.json"
+  },
+  {
+    "month": "2025-10",
+    "kind": "company",
     "headline": "Five trillion dollars",
     "text": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company; JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
     "assets": [
@@ -301,19 +456,6 @@
     "image": "/news/nvda/2025-10-gtc.jpg",
     "imageCaption": "Nvidia's GTC conference entrance, 2025",
     "imageCredit": "Jack145945"
-  },
-  {
-    "month": "2025-10",
-    "kind": "world",
-    "headline": "Gold passes 4,000 dollars",
-    "text": "Gold rose above 4,000 dollars an ounce for the first time in October and averaged 4,058 dollars, 11 percent more than in September. The Fed resumed cutting on 17 September and cut again on 29 October, to 3.75 to 4 percent, though inflation is still about 3 percent.",
-    "assets": [
-      "gold"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
-    "image": "/news/rates/2025-10-gold-price-bangkok.jpg",
-    "imageCaption": "A jeweller writes the day's gold price on a shop window in Bangkok as gold passes 4,000 dollars an ounce, 8 October 2025",
-    "imageCredit": "Photo by Piti Anchaleesahakorn/NurPhoto via Getty Images"
   },
   {
     "month": "2025-11",
@@ -331,6 +473,16 @@
   {
     "month": "2025-11",
     "kind": "company",
+    "headline": "Shareholders approve a trillion-dollar pay plan for Musk",
+    "text": "On 6 November Tesla shareholders approved, with more than 75% of votes, a pay package worth up to 1 trillion dollars for Musk over ten years, if he meets specific goals set by the board.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03); CNBC, 'Tesla says shareholders approve Musk's $1 trillion pay plan with over 75% voting in favor', 6 November 2025 (headline via Google News) (read 2026-10-03)"
+  },
+  {
+    "month": "2025-11",
+    "kind": "company",
     "headline": "McMillon to retire; Walmart moves to Nasdaq",
     "text": "On 14 November Walmart said chief executive Doug McMillon will retire at the end of January and be succeeded on 1 February by John Furner, head of Walmart U.S., who joined as an hourly worker in 1993. On 20 November it announced it will move its share listing from the New York Stock Exchange to Nasdaq in December, the largest such switch on record.",
     "assets": [
@@ -340,6 +492,44 @@
     "image": "/news/wmt/2025-11-mcmillon-bentonville.jpg",
     "imageCaption": "Walmart chief executive Doug McMillon speaks in Bentonville, Arkansas, 2025",
     "imageCredit": "Charlie Riedel / AP Photo"
+  },
+  {
+    "month": "2025-12",
+    "kind": "world",
+    "headline": "2025 in review: a third double-digit year in a row",
+    "text": "The S&P 500 gained 16% in 2025 to 6,845.50, the Nasdaq 19% and the Dow 13%, a third year in a row of double-digit gains. The April tariff crash became an afterthought, and resilient earnings, three Federal Reserve rate cuts from September and enthusiasm for artificial intelligence carried shares to records despite a long government shutdown and worries about an AI bubble.",
+    "assets": [
+      "ust2030",
+      "ust2035",
+      "ust2040"
+    ],
+    "source": "data/reference/sp500.json; https://abcnews.com/Business/stock-market-ends-2025-double-digit-gains/story?id=128812306 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "image": "/news/markets/2025-12-nyse-christmas.jpg",
+    "imageCaption": "Traders on the floor of the New York Stock Exchange on the shortened trading day before Christmas, 24 December 2025",
+    "imageCredit": "Photo by Spencer Platt/Getty Images"
+  },
+  {
+    "month": "2025-12",
+    "kind": "company",
+    "headline": "A copper plan: one million tonnes by 2028",
+    "text": "At its capital markets day on 3 December Glencore said its copper production should exceed 1 million tonnes a year by the end of 2028 and reach about 1.6 million by 2035, including a restart of the Alumbrera mine in Argentina; it has paid out $25.3bn to shareholders over five years. Copper averaged a record $11,785 a tonne in December.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-capital-markets-day-2025-/9273460; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "image": "/news/glencore/2025-12-collahuasi.jpg",
+    "imageCaption": "The Collahuasi copper mine, Chile",
+    "imageCredit": "Diego Delso"
+  },
+  {
+    "month": "2025-12",
+    "kind": "company",
+    "headline": "Regulators clear the Spirit deal",
+    "text": "The US Federal Trade Commission asked Boeing to sell Spirit AeroSystems businesses that supply Airbus and Malaysia's Subang to clear the takeover, and EU regulators said the remedy addressed their concerns. Airbus is taking over Spirit's Airbus work.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing WSJ 2025-12-03); https://en.wikipedia.org/wiki/Spirit_AeroSystems (read 2026-10-03)"
   },
   {
     "month": "2025-12",
@@ -358,15 +548,12 @@
   {
     "month": "2025-12",
     "kind": "company",
-    "headline": "A copper plan: one million tonnes by 2028",
-    "text": "At its capital markets day on 3 December Glencore said its copper production should exceed 1 million tonnes a year by the end of 2028 and reach about 1.6 million by 2035, including a restart of the Alumbrera mine in Argentina; it has paid out $25.3bn to shareholders over five years. Copper averaged a record $11,785 a tonne in December.",
+    "headline": "IBM agrees to buy Confluent for 11 billion dollars",
+    "text": "On 8 December IBM announced a deal to buy Confluent, which makes software for streaming data in real time, for about 11 billion dollars. IBM says it will help companies feed data to their AI systems.",
     "assets": [
-      "glencore"
+      "ibm"
     ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-capital-markets-day-2025-/9273460; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
-    "image": "/news/glencore/2025-12-collahuasi.jpg",
-    "imageCaption": "The Collahuasi copper mine, Chile",
-    "imageCredit": "Diego Delso"
+    "source": "https://en.wikipedia.org/wiki/IBM (read 2026-10-03, citing Reuters and WSJ 2025-12-08)"
   },
   {
     "month": "2025-12",
@@ -380,21 +567,6 @@
     "image": "/news/ko/2025-12-braun.jpg",
     "imageCaption": "Henrique Braun, Coca-Cola's chief operating officer and chief executive designate, 2025",
     "imageCredit": "Courtesy: The Coca-Cola Company"
-  },
-  {
-    "month": "2025-12",
-    "kind": "world",
-    "headline": "2025 in review: a third double-digit year in a row",
-    "text": "The S&P 500 gained 16% in 2025 to 6,845.50, the Nasdaq 19% and the Dow 13%, a third year in a row of double-digit gains. The April tariff crash became an afterthought, and resilient earnings, three Federal Reserve rate cuts from September and enthusiasm for artificial intelligence carried shares to records despite a long government shutdown and worries about an AI bubble.",
-    "assets": [
-      "ust2030",
-      "ust2035",
-      "ust2040"
-    ],
-    "source": "data/reference/sp500.json; https://abcnews.com/Business/stock-market-ends-2025-double-digit-gains/story?id=128812306 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
-    "image": "/news/markets/2025-12-nyse-christmas.jpg",
-    "imageCaption": "Traders on the floor of the New York Stock Exchange on the shortened trading day before Christmas, 24 December 2025",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
   },
   {
     "month": "2025-12",

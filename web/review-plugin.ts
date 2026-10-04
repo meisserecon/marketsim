@@ -1,6 +1,6 @@
 /**
  * Dev-only Vite plugin behind the /review page: serves the story-arc beats and the price data,
- * and writes the curator's decisions (importance, cut, note) back into data/news/arcs/*.beats.json.
+ * and writes the curator's decisions (lead, note, deletions) back into data/news/arcs/*.beats.json.
  * Never part of a production build.
  */
 import fs from 'node:fs';
@@ -68,7 +68,7 @@ export function reviewPlugin(): Plugin {
             const b = id ? beats.find((x) => x.id === id) : beats[index];
             if (!b) throw new Error('this beat is no longer in the file: reload the page');
             // Only the curator's fields; the beat's substance is edited in the file by hand.
-            for (const k of ['importance', 'cut', 'note', 'lead'] as const) {
+            for (const k of ['note', 'lead', 'changed'] as const) {
               if (!(k in patch)) continue;
               if (patch[k] === null || patch[k] === undefined || patch[k] === false || patch[k] === '') delete b[k];
               else b[k] = patch[k];

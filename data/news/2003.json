@@ -1,6 +1,27 @@
 [
   {
     "month": "2003-01",
+    "kind": "world",
+    "headline": "America masses troops around Iraq",
+    "text": "The United States is moving its largest fighting force since the Gulf War of 1991 towards Iraq. About 65,000 American soldiers were in the Gulf region in early January, and the Pentagon wants more than 120,000 there within weeks; ships, aircraft and tanks are on their way. President Bush says Iraq is hiding weapons of mass destruction and must give them up or be disarmed by force.",
+    "assets": [],
+    "source": "https://www.voanews.com/a/a-13-a-2003-01-08-41-u-s-66831507/257581.html (search result read 2026-10-04); https://www.globalsecurity.org/org/news/2003/030112-iraq02.htm (search result read 2026-10-04)",
+    "image": "/news/middle-east/2003-01-m1-abrams.jpg",
+    "imageCaption": "M1 Abrams, 2024",
+    "imageCredit": "Spc. Kali Ecton"
+  },
+  {
+    "month": "2003-01",
+    "kind": "company",
+    "headline": "BMW builds its first Rolls-Royce",
+    "text": "From 1 January only BMW may call cars 'Rolls-Royce'. Its new subsidiary Rolls-Royce Motor Cars, with a new plant at Goodwood in the south of England, is launching the Phantom saloon. Volkswagen keeps the old Crewe factory and the Bentley brand.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Rolls-Royce_Motors (read 2026-10-03); https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars (read 2026-10-03)"
+  },
+  {
+    "month": "2003-01",
     "kind": "company",
     "headline": "McDonald's first quarterly loss",
     "text": "McDonald's reported on 23 January charges of 810 million dollars in the fourth quarter of 2002 for restructuring, which led to its first quarterly loss since it went public in 1965. Jim Cantalupo is closing more than 700 restaurants, mostly in the US and Japan, and cutting 600 jobs.",
@@ -39,6 +60,50 @@
     "imageCredit": "Jonathan Schilling"
   },
   {
+    "month": "2003-01",
+    "kind": "company",
+    "headline": "Profit falls to 11.5 billion in 2002",
+    "text": "ExxonMobil reported on 30 January that its 2002 net income fell to 11.46 billion dollars from 15.32 billion in 2001, on revenue of 205 billion. Fourth-quarter profit, however, rose 53 percent to 4.09 billion.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil press release of 30 January 2003 (Form 8-K), https://www.sec.gov/Archives/edgar/data/34088/000003408803000008/ (read 2026-10-03)"
+  },
+  {
+    "month": "2003-02",
+    "kind": "world",
+    "headline": "Millions march against a war in Iraq",
+    "text": "The United States says Iraq is hiding weapons of mass destruction and must be disarmed by force. On 5 February Secretary of State Colin Powell laid out the American case before the UN Security Council, holding up a small vial to show how little anthrax it takes to kill. France, Russia, China and Germany were not convinced. On 15 February between 6 and 10 million people marched against a war in more than 600 cities; organisers counted about 3 million in Rome alone. Meanwhile the build-up goes on: by mid-February about 135,000 American soldiers are in the Gulf.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Colin_Powell%27s_presentation_to_the_United_Nations_Security_Council (read 2026-10-04); https://en.wikipedia.org/wiki/15_February_2003_anti-war_protests (read 2026-10-04); https://www.globalsecurity.org/org/news/2003/030214-buildup01.htm (search result read 2026-10-04)",
+    "image": "/news/middle-east/2003-02-15-february-2003-iraq-war-protests.jpg",
+    "imageCaption": "15 February 2003 Iraq War protests, 2002",
+    "imageCredit": "Users AK7, William M. Connolley on en.wikipedia"
+  },
+  {
+    "month": "2003-03",
+    "kind": "world",
+    "headline": "Nikkei below 8,000, a fifth of its peak",
+    "text": "The Nikkei fell to 7,862 on 11 March, about a fifth of its 1989 record, as war in Iraq loomed and worries grew about Japan's banks. Japan's economy has hardly grown in more than ten years and prices are falling. Since March 2001 the Bank of Japan has kept short-term rates close to zero and flooded the banks with money, a policy called quantitative easing, to fight the fall in prices.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Lost_Decades (read 2026-10-03); https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04)",
+    "thread": "japan",
+    "image": "/news/asia/2003-03-tokyo-board.jpg",
+    "imageCaption": "A businessman in front of an electronic share board in Tokyo as the Nikkei opens lower, 11 March 2003",
+    "imageCredit": "Photo by YOSHIKAZU TSUNO/AFP via Getty Images"
+  },
+  {
+    "month": "2003-03",
+    "kind": "colour",
+    "headline": "Alinghi wins the America's Cup for landlocked Switzerland",
+    "text": "On 2 March the Geneva yacht Alinghi, owned by Ernesto Bertarelli and skippered by New Zealander Russell Coutts, won the America's Cup in Auckland, beating Team New Zealand five races to none. Switzerland, without a coastline, now holds sailing's oldest trophy.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2003_America%27s_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Alinghi (read 2026-10-03)",
+    "image": "/news/life/2003-03-alinghi.jpg",
+    "imageCaption": "The Swiss America's Cup yacht Alinghi under sail",
+    "imageCredit": "Sergio Calleja (SuperKeko)"
+  },
+  {
     "month": "2003-03",
     "kind": "world",
     "headline": "The US and Britain invade Iraq",
@@ -64,26 +129,43 @@
   },
   {
     "month": "2003-03",
-    "kind": "world",
-    "headline": "Nikkei below 8,000, a fifth of its peak",
-    "text": "The Nikkei fell to 7,862 on 11 March, about a fifth of its 1989 record, as war in Iraq loomed and worries grew about Japan's banks. Japan's economy has hardly grown in more than ten years and prices are falling. Since March 2001 the Bank of Japan has kept short-term rates close to zero and flooded the banks with money, a policy called quantitative easing, to fight the fall in prices.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Lost_Decades (read 2026-10-03); https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04)",
-    "thread": "japan",
-    "image": "/news/asia/2003-03-tokyo-board.jpg",
-    "imageCaption": "A businessman in front of an electronic share board in Tokyo as the Nikkei opens lower, 11 March 2003",
-    "imageCredit": "Photo by YOSHIKAZU TSUNO/AFP via Getty Images"
+    "kind": "company",
+    "headline": "Cisco buys Linksys and enters the home",
+    "text": "Cisco is buying Linksys, a maker of inexpensive routers for homes and small offices with about 300 employees and more than $500 million in annual sales. It is Cisco's first move into consumer products.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Linksys (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
   },
   {
     "month": "2003-03",
-    "kind": "colour",
-    "headline": "Alinghi wins the America's Cup for landlocked Switzerland",
-    "text": "On 2 March the Geneva yacht Alinghi, owned by Ernesto Bertarelli and skippered by New Zealander Russell Coutts, won the America's Cup in Auckland, beating Team New Zealand five races to none. Switzerland, without a coastline, now holds sailing's oldest trophy.",
+    "kind": "company",
+    "headline": "Coca-Cola cuts another 1,000 jobs",
+    "text": "Coca-Cola is cutting another 1,000 jobs, half of them at its Atlanta headquarters. Its carbonated drinks are growing slowly while juices, waters and teas grow fast, and Diet Coke with Lemon and Vanilla Coke, launched in 2001 and 2002, have been its main new products.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
+  },
+  {
+    "month": "2003-03",
+    "kind": "company",
+    "headline": "DaimlerChrysler buys into Mitsubishi's truck business",
+    "text": "On 14 March DaimlerChrysler bought 43% of Mitsubishi Fuso Truck and Bus, the truck business split off from Mitsubishi Motors in January. It adds a big Asian maker to DaimlerChrysler's truck business, which already includes Mercedes-Benz and Freightliner.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 2003 ('Commercial vehicles: principal shareholder of Mitsubishi Fuso', 14 March 2003), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2003.xhtml?oid=4913233 (read 2026-10-03)"
+  },
+  {
+    "month": "2003-04",
+    "kind": "world",
+    "headline": "Baghdad falls, and markets rally",
+    "text": "US troops took Baghdad on 9 April, three weeks into the war. Iraqi oil fields were secured largely intact and the regime collapsed faster than feared. Oil prices have dropped and share prices have risen sharply. Better-than-expected company earnings added to the relief, and the S&P 500 rose 8% in April to 916.92.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2003_America%27s_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Alinghi (read 2026-10-03)",
-    "image": "/news/life/2003-03-alinghi.jpg",
-    "imageCaption": "The Swiss America's Cup yacht Alinghi under sail",
-    "imageCredit": "Sergio Calleja (SuperKeko)"
+    "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03); https://law.yale.edu/sites/default/files/documents/pdf/Using_Markets_to_Inform_Policy.pdf (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/middle-east/2003-04-saddam-statue.jpg",
+    "imageCaption": "A statue of Saddam Hussein comes down in Firdos Square, Baghdad, 9 April 2003"
   },
   {
     "month": "2003-04",
@@ -125,14 +207,17 @@
     "imageCredit": "https://www.flickr.com/people/re-ality/"
   },
   {
-    "month": "2003-04",
-    "kind": "world",
-    "headline": "Baghdad falls, and markets rally",
-    "text": "US troops took Baghdad on 9 April, three weeks into the war. Iraqi oil fields were secured largely intact and the regime collapsed faster than feared. Oil prices have dropped and share prices have risen sharply. Better-than-expected company earnings added to the relief, and the S&P 500 rose 8% in April to 916.92.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03); https://law.yale.edu/sites/default/files/documents/pdf/Using_Markets_to_Inform_Policy.pdf (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/middle-east/2003-04-saddam-statue.jpg",
-    "imageCaption": "A statue of Saddam Hussein comes down in Firdos Square, Baghdad, 9 April 2003"
+    "month": "2003-05",
+    "kind": "company",
+    "headline": "New chips in production, market share up",
+    "text": "On 8 May Nvidia reported revenue of 405 million dollars for the quarter to April, down from 583 million a year earlier, and a profit of 19.7 million. Chief executive Jen-Hsun Huang said its new GeForce FX family is in production across desktop, notebook and workstation chips and that its market share has risen; this month it also launched the faster FX 5900.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000089109203001003/e14795ex99_1.txt (Nvidia press release of 8 May 2003, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)",
+    "image": "/news/nvda/2003-05-fx5900.jpg",
+    "imageCaption": "A GeForce FX 5900 graphics card, 2003",
+    "imageCredit": "Afrank99"
   },
   {
     "month": "2003-05",
@@ -150,19 +235,6 @@
   {
     "month": "2003-05",
     "kind": "company",
-    "headline": "New chips in production, market share up",
-    "text": "On 8 May Nvidia reported revenue of 405 million dollars for the quarter to April, down from 583 million a year earlier, and a profit of 19.7 million. Chief executive Jen-Hsun Huang said its new GeForce FX family is in production across desktop, notebook and workstation chips and that its market share has risen; this month it also launched the faster FX 5900.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000089109203001003/e14795ex99_1.txt (Nvidia press release of 8 May 2003, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)",
-    "image": "/news/nvda/2003-05-fx5900.jpg",
-    "imageCaption": "A GeForce FX 5900 graphics card, 2003",
-    "imageCredit": "Afrank99"
-  },
-  {
-    "month": "2003-05",
-    "kind": "company",
     "headline": "Canberra clears the MIM takeover",
     "text": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's A$1.72-a-share bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
     "assets": [
@@ -174,17 +246,15 @@
     "imageCredit": "scissorhands33 from Melbourne, Australia"
   },
   {
-    "month": "2003-06",
+    "month": "2003-05",
     "kind": "company",
-    "headline": "US sales up 6.3% in May, the best in four years",
-    "text": "McDonald's reported on 6 June that sales at US restaurants open at least 13 months rose 6.3% in May, the highest increase in four years, thanks to new premium salads, Happy Meal offers and better service. Worldwide comparable sales rose 2.2%. The shares gained about 18% in June.",
+    "headline": "Berkshire buys Wal-Mart's distribution arm McLane",
+    "text": "Berkshire agreed in May to buy McLane Company, the grocery distributor, from Wal-Mart. Berkshire keeps buying whole companies for cash: Shaw carpets, Johns Manville and Fruit of the Loom in the last two years.",
     "assets": [
-      "mcd"
+      "brk",
+      "wmt"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746903020809/a2112576zex-99_2.htm (release of 6 June 2003, read 2026-10-03); move from data/out/mcd.json",
-    "image": "/news/mcd/2003-06-drive-thru.jpg",
-    "imageCaption": "A McDonald's drive-thru",
-    "imageCredit": "Darrin Antrobus"
+    "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
     "month": "2003-06",
@@ -203,17 +273,17 @@
     "imageCredit": "US Department of the Treasury"
   },
   {
-    "month": "2003-07",
+    "month": "2003-06",
     "kind": "company",
-    "headline": "Lehman buys Neuberger Berman for $2.6 billion",
-    "text": "Lehman Brothers agreed to buy the fund manager Neuberger Berman for about $2.6 billion in cash and Lehman shares. The deal takes the assets Lehman manages for clients to more than $100 billion and makes it a leading firm for wealthy private investors.",
+    "headline": "US sales up 6.3% in May, the best in four years",
+    "text": "McDonald's reported on 6 June that sales at US restaurants open at least 13 months rose 6.3% in May, the highest increase in four years, thanks to new premium salads, Happy Meal offers and better service. Worldwide comparable sales rose 2.2%. The shares gained about 18% in June.",
     "assets": [
-      "lehman"
+      "mcd"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/000089375003000407/exh99_1.txt (Lehman press release, 22 July 2003; read 2026-10-03)",
-    "image": "/news/lehman/2003-07-neuberger-berman.jpg",
-    "imageCaption": "Neuberger Berman, New York",
-    "imageCredit": "David Shankbone"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000104746903020809/a2112576zex-99_2.htm (release of 6 June 2003, read 2026-10-03); move from data/out/mcd.json",
+    "image": "/news/mcd/2003-06-drive-thru.jpg",
+    "imageCaption": "A McDonald's drive-thru",
+    "imageCredit": "Darrin Antrobus"
   },
   {
     "month": "2003-07",
@@ -225,6 +295,29 @@
     "image": "/news/life/2003-07-federer-wimbledon-trophy.jpg",
     "imageCaption": "Roger Federer holds the Wimbledon trophy after beating Mark Philippoussis in the final, 6 July 2003",
     "imageCredit": "keystone-sda.ch (EPA)"
+  },
+  {
+    "month": "2003-07",
+    "kind": "company",
+    "headline": "Chuck Prince to succeed Sandy Weill",
+    "text": "Sanford Weill announced that Charles Prince, head of the corporate and investment bank, will become chief executive by 1 January 2004, with Robert Willumstad as chief operating officer; Weill stays chairman until the 2006 annual meeting. Citigroup also settled with the SEC, bank regulators and the Manhattan district attorney over its Enron dealings, paying $145 million.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012303008228/y88460exv99w1.txt (Citigroup press release, 16 July 2003; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+  },
+  {
+    "month": "2003-07",
+    "kind": "company",
+    "headline": "Lehman buys Neuberger Berman for $2.6 billion",
+    "text": "Lehman Brothers agreed to buy the fund manager Neuberger Berman for about $2.6 billion in cash and Lehman shares. The deal takes the assets Lehman manages for clients to more than $100 billion and makes it a leading firm for wealthy private investors.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000089375003000407/exh99_1.txt (Lehman press release, 22 July 2003; read 2026-10-03)",
+    "image": "/news/lehman/2003-07-neuberger-berman.jpg",
+    "imageCaption": "Neuberger Berman, New York",
+    "imageCredit": "David Shankbone"
   },
   {
     "month": "2003-08",
@@ -253,19 +346,6 @@
   {
     "month": "2003-10",
     "kind": "company",
-    "headline": "Sony to cut 20,000 jobs",
-    "text": "Sony announced it will cut 20,000 jobs, 13% of its workforce, over three years to save about 3 billion dollars a year by 2006, and cut its operating profit forecast by 23%. It leads in plasma televisions but has only about 5% of the fast-growing LCD TV market.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://money.cnn.com/2003/10/28/news/international/sony_outlook/index.htm via web.archive.org (read 2026-10-03)",
-    "image": "/news/sony/2003-10-trinitron.jpg",
-    "imageCaption": "A Sony Trinitron television",
-    "imageCredit": "Roboat06"
-  },
-  {
-    "month": "2003-10",
-    "kind": "company",
     "headline": "Metals take off on Chinese demand",
     "text": "Base metal prices jumped in October: copper averaged $1,921 a tonne, up 7% from September and 20% from April; nickel rose to $11,047 from under $10,000 and zinc to $898. Coal is firming too. Xstrata, which now owns MIM's copper and zinc mines, is one of the most direct ways to ride the rise.",
     "assets": [
@@ -277,26 +357,61 @@
     "imageCredit": "Raymond M. Coveney, …"
   },
   {
+    "month": "2003-10",
+    "kind": "company",
+    "headline": "Sony to cut 20,000 jobs",
+    "text": "Sony announced it will cut 20,000 jobs, 13% of its workforce, over three years to save about 3 billion dollars a year by 2006, and cut its operating profit forecast by 23%. It leads in plasma televisions but has only about 5% of the fast-growing LCD TV market.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://money.cnn.com/2003/10/28/news/international/sony_outlook/index.htm via web.archive.org (read 2026-10-03)",
+    "image": "/news/sony/2003-10-trinitron.jpg",
+    "imageCaption": "A Sony Trinitron television",
+    "imageCredit": "Roboat06"
+  },
+  {
     "month": "2003-11",
     "kind": "world",
     "headline": "China makes most of the world's DVD players",
     "text": "China produced about 30 million DVD players in 2002, nearly twice as many as the year before, and exported 20 million of them, up to 70% of the world market. A Chinese DVD player costs about 800 yuan, under $100. More than 100 Chinese companies make them, but they have paid 2.7 billion yuan, about $325 million, in royalties to the foreign owners of the patents, so China is now promoting its own disc format.",
     "assets": [],
     "source": "https://www.aljazeera.com/news/2003/11/19/china-wants-to-replace-dvds (read 2026-10-04); https://slashdot.org/story/04/08/14/1853245/dvd-player-makers-margins-just-1 (read 2026-10-04)",
-    "thread": "china"
+    "thread": "china",
+    "image": "/news/asia/2003-11-dvd-player.jpg",
+    "imageCaption": "DVD player, 2025",
+    "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "2003-11",
+    "kind": "company",
+    "headline": "Roy E. Disney quits and starts a campaign against Eisner",
+    "text": "Roy E. Disney, Walt Disney's nephew, resigned as chairman of Disney's animation division and from the board, and fellow director Stanley Gold resigned with him. The two set up a 'Save Disney' campaign to push out chief executive Michael Eisner.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
+  },
+  {
+    "month": "2003-11",
+    "kind": "company",
+    "headline": "Cost cuts bring Siemens back to profit",
+    "text": "On 13 November Siemens reported fourth-quarter net profit of 724 million euros, above expectations and up from 53 million a year earlier, as cost cutting paid off and the troubled telecom unit turned around. It forecast double-digit growth in net income for next year. The shares rose 2.8%.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://money.cnn.com/2003/11/13/news/international/siemens.reut/index.htm via web.archive.org (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
   },
   {
     "month": "2003-12",
-    "kind": "company",
-    "headline": "Chief executive Phil Condit resigns over the tanker scandal",
-    "text": "On 1 December Boeing said chief executive Phil Condit has resigned; Harry Stonecipher, the former McDonnell Douglas chief, takes over. Boeing had fired its finance chief over the hiring of an Air Force procurement official who had worked on a deal to lease Boeing tankers, and the Pentagon has frozen the deal. Airbus is overtaking Boeing as the leading airliner maker this year.",
+    "kind": "world",
+    "headline": "2003 in review: the bull returns, up 26 percent",
+    "text": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back.",
     "assets": [
-      "ba"
+      "ust2005",
+      "ust2010",
+      "ust2020"
     ],
-    "source": "https://boeing.mediaroom.com/2003-12-01-Boeing-Announces-Resignation-of-Phil-Condit-Lew-Platt-Named-Non-Executive-Chairman-Harry-Stonecipher-Named-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
-    "image": "/news/ba/2003-12-condit.jpg",
-    "imageCaption": "Boeing chief executive Phil Condit",
-    "imageCredit": " European Commission (Audiovisual Service)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
     "month": "2003-12",
@@ -324,5 +439,28 @@
     "image": "/news/tech/2003-12-nasdaq-marketsite.jpg",
     "imageCaption": "The Nasdaq MarketSite on Times Square, New York, June 2003",
     "imageCredit": "vobios"
+  },
+  {
+    "month": "2003-12",
+    "kind": "company",
+    "headline": "Chief executive Phil Condit resigns over the tanker scandal",
+    "text": "On 1 December Boeing said chief executive Phil Condit has resigned; Harry Stonecipher, the former McDonnell Douglas chief, takes over. Boeing had fired its finance chief over the hiring of an Air Force procurement official who had worked on a deal to lease Boeing tankers, and the Pentagon has frozen the deal. Airbus is overtaking Boeing as the leading airliner maker this year.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://boeing.mediaroom.com/2003-12-01-Boeing-Announces-Resignation-of-Phil-Condit-Lew-Platt-Named-Non-Executive-Chairman-Harry-Stonecipher-Named-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
+    "image": "/news/ba/2003-12-condit.jpg",
+    "imageCaption": "Boeing chief executive Phil Condit",
+    "imageCredit": " European Commission (Audiovisual Service)"
+  },
+  {
+    "month": "2003-12",
+    "kind": "company",
+    "headline": "Generics united under the Sandoz name",
+    "text": "This year Novartis organised all its generic drug businesses into one division under the old name Sandoz.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz_Group (read 2026-10-03)"
   }
 ]

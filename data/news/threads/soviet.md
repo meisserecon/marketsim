@@ -38,3 +38,6 @@ Kremlin. Players should feel the fear of the early 1980s before they see it diss
 Related but not tagged: Reagan's election (world 5353196a, 1980-11), Boeing's defence rally after
 Afghanistan (ba 3912c224, 1980-01), the Moscow Olympics (life 4218f02d, 1980-07), Mathias Rust on
 Red Square (life 2b3ae721, 1987-05), the cut Solidarity beat of 1980-08 (world dec235f2, left cut).
+
+Added on 4 October 2026 (build-up):
+- 1989-09 East Germans flee to the West through Hungary (e937e909, world, new)

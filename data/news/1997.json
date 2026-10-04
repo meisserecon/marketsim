@@ -2,6 +2,19 @@
   {
     "month": "1997-01",
     "kind": "company",
+    "headline": "Bad-loan fears hit the major banks",
+    "text": "By early 1997 it has become obvious that bad loans threaten the viability of some of Japan's major banks. Nippon Credit Bank, one of the three long-term credit banks alongside IBJ, has been struggling to raise funds since the start of the year. IBJ shares fell 27% in January.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)",
+    "image": "/news/ibj/1997-01-hokkaido-takushoku.jpg",
+    "imageCaption": "The head office of Hokkaido Takushoku Bank in Sapporo, one of Japan's big city banks",
+    "imageCredit": "Kuriki)"
+  },
+  {
+    "month": "1997-01",
+    "kind": "company",
     "headline": "A night guard saves wartime files from the shredder",
     "text": "On 8 January Christoph Meili, a security guard at the Bankgesellschaft in Zurich, found employees shredding old records, among them files of the Nazi era, and handed some to a Jewish organisation; the press reported it on 14 January. Shredding such records violates a law passed in December 1996 to protect evidence on wartime assets. Swiss banks are already under pressure from US politicians and Jewish groups over dormant accounts of Holocaust victims.",
     "assets": [
@@ -17,15 +30,32 @@
   {
     "month": "1997-01",
     "kind": "company",
-    "headline": "Bad-loan fears hit the major banks",
-    "text": "By early 1997 it has become obvious that bad loans threaten the viability of some of Japan's major banks. Nippon Credit Bank, one of the three long-term credit banks alongside IBJ, has been struggling to raise funds since the start of the year. IBJ shares fell 27% in January.",
+    "headline": "CS Holding becomes Credit Suisse Group",
+    "text": "In January a far-reaching reorganisation took effect: CS Holding is renamed Credit Suisse Group and organised in four business units, and about 5,000 jobs, 15% of the workforce, are to go. Chief executive Lukas Mühlemann leads the restructuring.",
     "assets": [
-      "ibj"
+      "credit-suisse"
     ],
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)",
-    "image": "/news/ibj/1997-01-hokkaido-takushoku.jpg",
-    "imageCaption": "The head office of Hokkaido Takushoku Bank in Sapporo, one of Japan's big city banks",
-    "imageCredit": "Kuriki)"
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
+  },
+  {
+    "month": "1997-02",
+    "kind": "company",
+    "headline": "Exxon splits its shares as profits climb",
+    "text": "Exxon's board approved a two-for-one stock split on 26 February. Exxon earned 7.51 billion dollars in 1996, up from 6.47 billion in 1995 and 5.10 billion in 1994, and raised its dividend again.",
+    "assets": [
+      "xom"
+    ],
+    "source": "Exxon Form 10-K405 for 1997, https://www.sec.gov/Archives/edgar/data/34088/0000930661-98-000526.txt (split date, selected financial data) (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)"
+  },
+  {
+    "month": "1997-03",
+    "kind": "company",
+    "headline": "Profit up 31 percent, and a bet on smart cards",
+    "text": "Schlumberger's annual report for 1996 shows net income of 851 million dollars, up 31 percent, after 649 million in 1995. Besides its oilfield businesses it is growing in smart cards and meters: on 31 December it bought Solaic, a French maker of magnetic and smart cards, for 75 million dollars.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger Form 10-K405 for 1996, filed 31 March 1997, https://www.sec.gov/Archives/edgar/data/87347/0000950130-97-001348.txt (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data, https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03)"
   },
   {
     "month": "1997-03",
@@ -54,6 +84,16 @@
     "imageCredit": "Pedro Cambra"
   },
   {
+    "month": "1997-04",
+    "kind": "company",
+    "headline": "IBJ joins the rescue of Nippon Credit Bank",
+    "text": "On 1 April Nippon Credit Bank announced a restructuring plan. A consortium of its large shareholders, mainly insurers, and the other two long-term credit banks, IBJ and the Long-Term Credit Bank of Japan, is to put in new capital together with the Bank of Japan.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
+  },
+  {
     "month": "1997-05",
     "kind": "listing",
     "headline": "Amazon.com, the online bookstore, goes public",
@@ -66,6 +106,30 @@
     "image": "/news/amzn/1997-05-bezos-books.jpg",
     "imageCaption": "Jeff Bezos among stacks of books in Amazon's Seattle warehouse, January 1997, four months before the listing",
     "imageCredit": "Paul Souders—Getty Images"
+  },
+  {
+    "month": "1997-05",
+    "kind": "world",
+    "headline": "Speculators attack the Thai baht",
+    "text": "Thailand's economy has grown by more than 9% a year on average since 1985, and its neighbours have boomed too: the 'tigers' South Korea, Taiwan, Singapore and Hong Kong, and the younger 'tiger cubs' Malaysia, Indonesia and the Philippines. Much of the boom was financed with foreign loans, often short-term and in dollars, and a good part went into property; the baht has been pegged at about 25 to the dollar, so borrowers felt safe. On 14 and 15 May the baht was hit by massive speculative attacks, as traders bet that Thailand, which spends far more abroad than it earns, cannot hold the peg.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); https://en.wikipedia.org/wiki/Tiger_Cub_Economies (read 2026-10-04)",
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1997-05-thai-baht.jpg",
+    "imageCaption": "Thai baht",
+    "imageCredit": "Photograph by fr:User:Siren Design of bank notes are copyrighted by the Bank of Thailand, used under non-free content policy"
+  },
+  {
+    "month": "1997-05",
+    "kind": "world",
+    "headline": "Iranians elect the reformer Khatami by a landslide",
+    "text": "Mohammad Khatami, a reformist cleric, won Iran's presidential election on 23 May with 69 percent of the vote, against 25 percent for the conservative Ali Akbar Nateq-Nouri. Turnout was about 80 percent, up from 50 percent last time; women and young voters carried him, in a country where more than half the people are under 25 and the voting age is 15. He promises a more open society at home, with fewer restrictions on dress and on satellite television, and better relations abroad. The Guardian Council had barred 234 hopefuls, leaving four candidates.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1997_Iranian_presidential_election (read 2026-10-04)",
+    "thread": "iran",
+    "image": "/news/middle-east/1997-05-mohammad-khatami.jpg",
+    "imageCaption": "Mohammad Khatami, 2026",
+    "imageCredit": "Mohammadreza Abbasi"
   },
   {
     "month": "1997-05",
@@ -82,21 +146,26 @@
   },
   {
     "month": "1997-05",
-    "kind": "world",
-    "headline": "Iranians elect the reformer Khatami by a landslide",
-    "text": "Mohammad Khatami, a reformist cleric, won Iran's presidential election on 23 May with 69 percent of the vote, against 25 percent for the conservative Ali Akbar Nateq-Nouri. Turnout was about 80 percent, up from 50 percent last time; women and young voters carried him, in a country where more than half the people are under 25 and the voting age is 15. He promises a more open society at home, with fewer restrictions on dress and on satellite television, and better relations abroad. The Guardian Council had barred 234 hopefuls, leaving four candidates.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1997_Iranian_presidential_election (read 2026-10-04)",
-    "thread": "iran"
+    "kind": "company",
+    "headline": "Deep Blue beats the world chess champion",
+    "text": "IBM's Deep Blue computer, built from its RS/6000 servers, defeated world chess champion Garry Kasparov 3.5 to 2.5 in a six-game match in New York. It is the first time a computer has beaten a reigning world champion under tournament conditions.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
+    "image": "/news/ibm/1997-05-kasparov-deep-blue.jpg",
+    "imageCaption": "Garry Kasparov, head in hand, at the board against IBM's Deep Blue during the 1997 rematch in New York; across the table sits the IBM engineer who moved the computer's pieces",
+    "imageCredit": "IBM (not credited on the page)"
   },
   {
-    "month": "1997-05",
-    "kind": "world",
-    "headline": "Speculators attack the Thai baht",
-    "text": "Thailand's economy has grown by more than 9% a year on average since 1985, and its neighbours have boomed too: the 'tigers' South Korea, Taiwan, Singapore and Hong Kong, and the younger 'tiger cubs' Malaysia, Indonesia and the Philippines. Much of the boom was financed with foreign loans, often short-term and in dollars, and a good part went into property; the baht has been pegged at about 25 to the dollar, so borrowers felt safe. On 14 and 15 May the baht was hit by massive speculative attacks, as traders bet that Thailand, which spends far more abroad than it earns, cannot hold the peg.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); https://en.wikipedia.org/wiki/Tiger_Cub_Economies (read 2026-10-04)",
-    "thread": "asia-ltcm"
+    "month": "1997-06",
+    "kind": "company",
+    "headline": "Swiss blue chips on a record run",
+    "text": "Swiss shares set records in June; on 30 June the NZZ reported that the record run of the previous week had paused, after speculative gains in blue chips. Novartis's registered share closed June at 2,334 francs, against 1,920 at the end of May.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "Neue Zürcher Zeitung, 1 July 1997, p. 35 ('Abkühlung des Schweizer Aktienmarktes'), scan data/manual/scans/nzz/NZZ_1997-07-01.pdf (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv"
   },
   {
     "month": "1997-06",
@@ -118,7 +187,10 @@
     "text": "Britain handed Hong Kong back to China at a ceremony in the new wing of the city's convention centre on the night of 30 June; Tung Chee-hwa took office on 1 July as head of the new Special Administrative Region. With about 6.5 million people, Hong Kong was Britain's last major colony. Under the agreement Margaret Thatcher and China's premier Zhao Ziyang signed in 1984, its capitalist system and way of life are to stay unchanged for 50 years: 'one country, two systems'.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Handover_of_Hong_Kong (read 2026-10-04)",
-    "thread": "china"
+    "thread": "china",
+    "image": "/news/asia/1997-07-handover-of-hong-kong.jpg",
+    "imageCaption": "Handover of Hong Kong, 2014",
+    "imageCredit": "Sergeant Paul Shaw LBIPP"
   },
   {
     "month": "1997-07",
@@ -127,7 +199,10 @@
     "text": "On 2 July Thailand gave up its peg of about 25 baht to the dollar and let the currency float, two days after Prime Minister Chavalit Yongchaiyudh had said he would not devalue; it lacked the foreign reserves needed to defend it. The dollar cost on average about 30 baht in July. Companies that borrowed in dollars now owe far more in baht. Within days speculators turned on Malaysia's ringgit.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); FRED series EXTHUS, monthly baht per dollar, https://fred.stlouisfed.org/data/EXTHUS.txt (read 2026-10-04)",
-    "thread": "asia-ltcm"
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1997-07-bangkok.jpg",
+    "imageCaption": "Bangkok, 2017",
+    "imageCredit": "Ninara from Helsinki, Finland"
   },
   {
     "month": "1997-07",
@@ -141,6 +216,16 @@
     "image": "/news/amzn/1997-07-bezos-books-portrait.jpg",
     "imageCaption": "Jeff Bezos, founder and chief executive of Amazon.com, in the company's Seattle warehouse, 1997",
     "imageCredit": "Photograph by Paul Souders — Getty Images"
+  },
+  {
+    "month": "1997-07",
+    "kind": "company",
+    "headline": "Enron lowers its earnings expectations",
+    "text": "Enron reported a second-quarter net loss of $420 million after the J-Block charge and a further $100 million charge for weak margins on the fuel additive MTBE. Excluding the charges, profit per share fell to 40 cents from 46 cents a year earlier, and the company lowered its earnings expectations and announced plans to buy back 10 million shares.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://enroncorp.com/corp/pressroom/releases/1997/ene2qt (Enron press release, 15 July 1997; read 2026-10-03)"
   },
   {
     "month": "1997-08",
@@ -157,6 +242,14 @@
     "image": "/news/ko/1997-08-okinawa-can.jpg",
     "imageCaption": "A Coca-Cola can from Japan",
     "imageCredit": "Jun"
+  },
+  {
+    "month": "1997-08",
+    "kind": "colour",
+    "headline": "Princess Diana dies in a Paris car crash",
+    "text": "Diana, Princess of Wales, died after a car crash in the Pont de l'Alma tunnel in Paris in the night of 30 to 31 August, aged 36. Her companion Dodi Fayed and the driver were killed too. The car had been followed by photographers. Flowers are piling up outside her London home, Kensington Palace.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales (read 2026-10-03)"
   },
   {
     "month": "1997-08",
@@ -246,6 +339,17 @@
     "text": "On 3 December South Korea agreed a three-year rescue with the International Monetary Fund, part of a package of $58.4 billion. Korean banks and companies owe an estimated $100 billion in short-term foreign debt, and foreign lenders pulled back after Hong Kong's crash in October. The won lost about 20% against the dollar by the end of November and shares fell by some 30% to a ten-year low. Big conglomerates have been failing since the Hanbo group went bankrupt early in the year, and Kia Motors needed emergency loans in July.",
     "assets": [],
     "source": "https://www.imf.org/external/np/loi/120397.HTM (Korea letter of intent, 3 December 1997, read 2026-10-04); https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/South_Korean_International_Monetary_Fund_Agreement,_1997 (read 2026-10-04)",
-    "thread": "asia-ltcm"
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1997-12-kim-dae-jung.jpg",
+    "imageCaption": "Kim Dae-jung, 1998",
+    "imageCredit": "대한민국 국가기록원"
+  },
+  {
+    "month": "1997-12",
+    "kind": "world",
+    "headline": "1997 in review: up 31 percent, despite Asia",
+    "text": "The S&P 500 gained 31% in 1997 to 970.43; it passed 800 on 12 February, and the Dow ended at 7,908.24, up 22.6%. The October scare from Asia was quickly made good.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
   }
 ]

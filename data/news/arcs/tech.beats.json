@@ -10,7 +10,6 @@
       "aapl",
       "ibm"
     ],
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)",
     "lead": true
   },
@@ -26,7 +25,6 @@
       "aapl",
       "ibm"
     ],
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Compaq (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)"
   },
   {
@@ -36,7 +34,6 @@
     "what": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
     "why": "Nobody on Wall Street noticed. Four years later it was the foundation of the biggest stock mania since the 1920s.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)"
   },
   {
@@ -46,7 +43,6 @@
     "what": "On 13 October Mosaic Communications, a start-up founded in April by Marc Andreessen and Jim Clark, released a test version of its browser, Mosaic Netscape 0.9, free to download.",
     "why": "Within four months it had three quarters of the browser market; its success, and its IPO a year later, started the internet mania. Review 2026-10: the company was not yet called Netscape.",
     "assets": [],
-    "importance": 2,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
   },
@@ -62,23 +58,7 @@
       "intc",
       "msft"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Compaq (read 2026-10-03)"
-  },
-  {
-    "id": "701cd1e2",
-    "month": "1995-07",
-    "title": "The Nasdaq passes 1,000",
-    "what": "On 17 July the Nasdaq index closed above 1,000 for the first time, at 1,005.89. It started at 100 in 1971 and stood at about 750 at the start of this year.",
-    "why": "The internet boom gets under way; the index would pass 2,000 in 1998 and 5,000 in 2000.",
-    "assets": [
-      "intc",
-      "msft",
-      "csco"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "35251842",
@@ -87,7 +67,6 @@
     "what": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
     "why": "The starting gun of the dot-com era: it showed that investors would pay billions for internet growth without profits.",
     "assets": [],
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
   },
@@ -103,7 +82,6 @@
       "ibm",
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Windows_95 (read 2026-10-03)"
   },
   {
@@ -116,7 +94,6 @@
       "ebay",
       "amzn"
     ],
-    "importance": 2,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
@@ -127,7 +104,6 @@
     "what": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
     "why": "The gold-rush mood made visible: millions of amateurs crowded into technology and internet shares near the top, and many lost as fast as they had won once the Nasdaq turned in March 2000.",
     "assets": [],
-    "importance": 2,
     "thread": "dotcom",
     "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)"
   },
@@ -147,7 +123,6 @@
       "ebay",
       "nvda"
     ],
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
@@ -158,7 +133,6 @@
     "what": "On 9 December VA Linux, a company named after the free Linux operating system, went public at 30 dollars a share; the shares opened at 299 and closed at 239.25, up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
     "why": "Peak froth: first-day jumps and domain-name prices measured how much money was chasing anything with 'internet' in its name, three months before the Nasdaq's top.",
     "assets": [],
-    "importance": 2,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)"
   },
@@ -169,7 +143,6 @@
     "what": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
     "why": "The new economy buying the old with inflated paper, two months before the Nasdaq's top; the deal became a byword for the excesses of the bubble.",
     "assets": [],
-    "importance": 2,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)"
   },
@@ -187,7 +160,6 @@
       "ko",
       "mcd"
     ],
-    "importance": 2,
     "thread": "dotcom",
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
   },
@@ -204,7 +176,6 @@
       "pets-com",
       "amzn"
     ],
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
@@ -225,9 +196,22 @@
       "asset": "sp500",
       "pct": -8
     },
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); data/reference/sp500.json"
+  },
+  {
+    "id": "0d8709ae",
+    "month": "2000-12",
+    "title": "The Nasdaq's worst year: down 39%",
+    "what": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last.",
+    "why": "The calendar-year turn of the bust. Most of the small internet companies of 1999 were gone or dying.",
+    "assets": [
+      "csco",
+      "intc",
+      "msft",
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "id": "d892ed14",
@@ -246,7 +230,6 @@
       "asset": "sp500",
       "pct": -9
     },
-    "importance": 1,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)"
   },
   {
@@ -260,7 +243,6 @@
       "nokia",
       "intc"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -276,7 +258,6 @@
       "csco",
       "bonds"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -295,7 +276,6 @@
       "asset": "sp500",
       "pct": 8
     },
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -315,7 +295,6 @@
       "asset": "sp500",
       "pct": 9
     },
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json"
   },
@@ -329,7 +308,6 @@
       "nvda",
       "csco"
     ],
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -344,7 +322,6 @@
       "intc",
       "csco"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -354,7 +331,6 @@
     "what": "Google, the most used search engine, sold shares at 85 dollars on 19 August, raising 1.67 billion dollars and valuing the company at more than 23 billion.",
     "why": "The first great internet IPO after the bust, and proof that the web could make huge profits from advertising.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Google (read 2026-10-03)",
     "lead": true
   },
@@ -367,7 +343,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
   },
   {
@@ -380,7 +355,6 @@
       "aapl",
       "nokia"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/App_Store_(Apple) (read 2026-10-03)",
     "lead": true
   },
@@ -394,7 +368,6 @@
       "nokia",
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/HTC_Dream (read 2026-10-03)"
   },
   {
@@ -409,7 +382,6 @@
       "nvda",
       "intc"
     ],
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
     "lead": true
   },
@@ -424,7 +396,6 @@
       "intc",
       "msft"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)",
     "lead": true
   },
@@ -439,7 +410,6 @@
       "xom",
       "msft"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -449,7 +419,6 @@
     "what": "Facebook, the social network, went public on 18 May at 38 dollars a share, raising 16 billion dollars and valuing it at 104 billion, the highest ever for a newly listed company. Technical problems at Nasdaq delayed trading, and the shares closed the first day at just 38.23. By the end of May they were below 28 dollars.",
     "why": "Social media's coming of age on the stock market; the shares bottomed below 18 in September.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook (read 2026-10-03)"
   },
   {
@@ -465,7 +434,6 @@
       "intc",
       "csco"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -477,8 +445,16 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)"
+  },
+  {
+    "id": "99338b76",
+    "month": "2016-03",
+    "title": "A computer beats one of the world's best Go players",
+    "what": "Go is an ancient board game from Asia and far harder for computers than chess: until last year the best programs played like amateurs. From 9 to 15 March in Seoul, AlphaGo, a program built by Google's DeepMind, beat Lee Sedol, one of the best players in the world, by 4 games to 1. In the second game it played a move that professionals called creative, one that most of them would never have considered. About 60 million people watched in China alone.",
+    "why": "An early sign of what artificial intelligence can do, six years before ChatGPT: the build-up to the Age of AI.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04)"
   },
   {
     "id": "d5b8ee47",
@@ -494,7 +470,6 @@
       "ebay",
       "tsla"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -507,7 +482,6 @@
       "msft",
       "nvda"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)"
   },
   {
@@ -523,7 +497,6 @@
       "msft",
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -538,7 +511,6 @@
       "aapl",
       "amzn"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
@@ -551,7 +523,6 @@
       "nvda",
       "intc"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
@@ -565,7 +536,6 @@
       "nokia",
       "nvda"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   }
 ]

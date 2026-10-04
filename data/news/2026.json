@@ -13,29 +13,17 @@
   },
   {
     "month": "2026-01",
-    "kind": "company",
-    "headline": "Greg Abel takes over Berkshire",
-    "text": "Greg Abel became Berkshire Hathaway's chief executive on 1 January, with Warren Buffett staying on as chairman. This month Berkshire completed the purchase of the chemicals maker OxyChem from Occidental Petroleum, announced last year.",
+    "kind": "world",
+    "headline": "Maduro captured, Iran in turmoil",
+    "text": "US forces captured Venezuela's president Nicolas Maduro on 3 January, after a US blockade of sanctioned Venezuelan tankers since December. In Iran, security forces violently suppressed mass protests, and the US is building up forces in the region. US crude rose 13% in January to $64.50, from about $56 early in the month.",
     "assets": [
-      "brk"
+      "slb",
+      "xom"
     ],
-    "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2025ltr.pdf (read 2026-10-03)",
-    "image": "/news/brk/2026-01-abel-buffett.jpg",
-    "imageCaption": "Greg Abel and Warren Buffett walk through the exhibition hall of the Berkshire Hathaway annual meeting, Omaha, 3 May 2025",
-    "imageCredit": "David A. Grogen | CNBC"
-  },
-  {
-    "month": "2026-01",
-    "kind": "company",
-    "headline": "Merger talks with Rio Tinto",
-    "text": "Glencore confirmed on 9 January that it is in preliminary talks with Rio Tinto about combining some or all of their businesses, possibly an all-share merger in which Rio would acquire Glencore. Rio has until 5 February to make a firm offer or walk away. Copper averaged a record $13,012 a tonne in January.",
-    "assets": [
-      "glencore"
-    ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/statement-regarding-rio-tinto/9342767; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
-    "image": "/news/glencore/2026-01-collahuasi.jpg",
-    "imageCaption": "The high Andes near the Collahuasi copper mine, Chile",
-    "imageCredit": "Diego Delso"
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2025%E2%80%932026_United_States_oil_blockade_of_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2026-01-maduro.jpg",
+    "imageCaption": "Nicolas Maduro aboard the USS Iwo Jima after his capture, January 2026",
+    "imageCredit": "US Military"
   },
   {
     "month": "2026-01",
@@ -52,6 +40,57 @@
   },
   {
     "month": "2026-01",
+    "kind": "world",
+    "headline": "America masses warships around Iran",
+    "text": "The aircraft carrier USS Abraham Lincoln, moved from the Pacific with about 5,700 sailors and airmen, arrived in the Arabian Sea in January. It is the start of what is becoming the largest American military build-up in the region since the invasion of Iraq in 2003. Tension between the United States and Iran over Iran's nuclear programme has grown sharply this month, while talks continue.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_military_buildup_in_the_Middle_East (search result read 2026-10-04); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-04)",
+    "thread": "iran",
+    "image": "/news/middle-east/2026-01-uss-abraham-lincoln-cvn-72.jpg",
+    "imageCaption": "USS Abraham Lincoln, 2019",
+    "imageCredit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Clint Davis"
+  },
+  {
+    "month": "2026-01",
+    "kind": "company",
+    "headline": "Merger talks with Rio Tinto",
+    "text": "Glencore confirmed on 9 January that it is in preliminary talks with Rio Tinto about combining some or all of their businesses, possibly an all-share merger in which Rio would acquire Glencore. Rio has until 5 February to make a firm offer or walk away. Copper averaged a record $13,012 a tonne in January.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/statement-regarding-rio-tinto/9342767; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "image": "/news/glencore/2026-01-collahuasi.jpg",
+    "imageCaption": "The high Andes near the Collahuasi copper mine, Chile",
+    "imageCredit": "Diego Delso"
+  },
+  {
+    "month": "2026-01",
+    "kind": "company",
+    "headline": "Venezuela, dearer oil and record output lift ExxonMobil",
+    "text": "After US forces captured Venezuela's president Maduro on 3 January, President Trump met oil executives on 9 January and said they would invest 100 billion dollars there; ExxonMobil's Darren Woods called Venezuela 'uninvestable' under current law, and Trump said he was inclined to keep ExxonMobil out. Oil rose anyway: US crude went from about 57 to 65 dollars during the month as unrest in Iran threatened supply. On 30 January ExxonMobil reported 2025 earnings of 28.8 billion dollars, its highest oil and gas output in more than 40 years and 37.2 billion returned to shareholders.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (January 2026 Iran supply worries) (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 30 January 2026, https://www.sec.gov/Archives/edgar/data/34088/000003408826000033/livef8k4q25991.htm (read 2026-10-03)",
+    "image": "/news/xom/2026-01-maracaibo-tanker.jpg",
+    "imageCaption": "An oil tanker crossing Lake Maracaibo, Venezuela",
+    "imageCredit": "Wilfredor"
+  },
+  {
+    "month": "2026-01",
+    "kind": "company",
+    "headline": "Greg Abel takes over Berkshire",
+    "text": "Greg Abel became Berkshire Hathaway's chief executive on 1 January, with Warren Buffett staying on as chairman. This month Berkshire completed the purchase of the chemicals maker OxyChem from Occidental Petroleum, announced last year.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2025ltr.pdf (read 2026-10-03)",
+    "image": "/news/brk/2026-01-abel-buffett.jpg",
+    "imageCaption": "Greg Abel and Warren Buffett walk through the exhibition hall of the Berkshire Hathaway annual meeting, Omaha, 3 May 2025",
+    "imageCredit": "David A. Grogen | CNBC"
+  },
+  {
+    "month": "2026-01",
     "kind": "company",
     "headline": "Strong results, falling shares: fears about AI and spending",
     "text": "On 28 January Microsoft reported revenue of 81.3 billion dollars for the quarter to December, up 17%, with Azure up 39% and cloud revenue above 50 billion dollars. But the shares are falling: investors worry that software written by AI could replace much of what existing business software does, and that Microsoft is spending hundreds of billions on AI data centres, pushing its free cash flow down.",
@@ -62,20 +101,6 @@
     "image": "/news/msft/2026-01-nadella.jpg",
     "imageCaption": "Satya Nadella at a White House dinner for technology leaders, September 2025",
     "imageCredit": "The White House"
-  },
-  {
-    "month": "2026-01",
-    "kind": "world",
-    "headline": "Maduro captured, Iran in turmoil",
-    "text": "US forces captured Venezuela's president Nicolas Maduro on 3 January, after a US blockade of sanctioned Venezuelan tankers since December. In Iran, security forces violently suppressed mass protests, and the US is building up forces in the region. US crude rose 13% in January to $64.50, from about $56 early in the month.",
-    "assets": [
-      "slb",
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2025%E2%80%932026_United_States_oil_blockade_of_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2026-01-maduro.jpg",
-    "imageCaption": "Nicolas Maduro aboard the USS Iwo Jima after his capture, January 2026",
-    "imageCredit": "US Military"
   },
   {
     "month": "2026-01",
@@ -92,30 +117,24 @@
     "imageCredit": "Alexander-93"
   },
   {
-    "month": "2026-01",
-    "kind": "company",
-    "headline": "Venezuela, dearer oil and record output lift ExxonMobil",
-    "text": "After US forces captured Venezuela's president Maduro on 3 January, President Trump met oil executives on 9 January and said they would invest 100 billion dollars there; ExxonMobil's Darren Woods called Venezuela 'uninvestable' under current law, and Trump said he was inclined to keep ExxonMobil out. Oil rose anyway: US crude went from about 57 to 65 dollars during the month as unrest in Iran threatened supply. On 30 January ExxonMobil reported 2025 earnings of 28.8 billion dollars, its highest oil and gas output in more than 40 years and 37.2 billion returned to shareholders.",
-    "assets": [
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (January 2026 Iran supply worries) (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 30 January 2026, https://www.sec.gov/Archives/edgar/data/34088/000003408826000033/livef8k4q25991.htm (read 2026-10-03)",
-    "image": "/news/xom/2026-01-maracaibo-tanker.jpg",
-    "imageCaption": "An oil tanker crossing Lake Maracaibo, Venezuela",
-    "imageCredit": "Wilfredor"
+    "month": "2026-02",
+    "kind": "colour",
+    "headline": "Franjo von Allmen's three golds at Milano Cortina",
+    "text": "At the Winter Olympics in Milan and Cortina d'Ampezzo, from 6 to 22 February, Franjo von Allmen won the downhill, the super-G and the team combined with Tanguy Nef, the first alpine skier with three golds at one Games since 2002. Loïc Meillard won the slalom, Mathilde Gremaud the freeski slopestyle and Marianne Fatton the first Olympic ski mountaineering sprint. Switzerland won six golds and 23 medals in all.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Franjo_von_Allmen (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_at_the_2026_Winter_Olympics (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Winter_Olympics (read 2026-10-03)"
   },
   {
     "month": "2026-02",
-    "kind": "company",
-    "headline": "Josh D'Amaro named Disney's next chief executive",
-    "text": "On 3 February Disney's board unanimously chose Josh D'Amaro, head of the parks and experiences business, to succeed Bob Iger as chief executive from 18 March. Dana Walden becomes president and chief creative officer.",
-    "assets": [
-      "dis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03)",
-    "image": "/news/dis/2026-02-damaro-d23.jpg",
-    "imageCaption": "Josh D'Amaro, chairman of Disney's parks, speaks at the D23 Brazil fan event, São Paulo, November 2024",
-    "imageCredit": "Ricardo Moreira | Getty Images"
+    "kind": "world",
+    "headline": "US and Israel go to war with Iran; Khamenei is killed",
+    "text": "On 28 February, after weeks of the biggest US military build-up in the region since 2003 and while nuclear talks were still under way, American missiles and drones and Israeli jets struck targets across Iran. Supreme Leader Ali Khamenei was killed in Tehran along with several senior officials. Hundreds of Iranians have been killed or injured, the Red Crescent reports damage in 24 provinces, and the internet is almost entirely cut. The Revolutionary Guards have warned ships that none may pass through the Strait of Hormuz.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03)",
+    "thread": "iran",
+    "image": "/news/middle-east/2026-02-roaring-lion.jpg",
+    "imageCaption": "An Israeli F-35 fighter jet during the 'Roaring Lion' operation against Iran",
+    "imageCredit": "IDF Spokesperson's Unit photographer"
   },
   {
     "month": "2026-02",
@@ -129,18 +148,6 @@
     "image": "/news/ibm/2026-02-krishna.jpg",
     "imageCaption": "Arvind Krishna, IBM's chief executive",
     "imageCredit": "Bea Phi"
-  },
-  {
-    "month": "2026-02",
-    "kind": "world",
-    "headline": "US and Israel go to war with Iran; Khamenei is killed",
-    "text": "On 28 February, after weeks of the biggest US military build-up in the region since 2003 and while nuclear talks were still under way, American missiles and drones and Israeli jets struck targets across Iran. Supreme Leader Ali Khamenei was killed in Tehran along with several senior officials. Hundreds of Iranians have been killed or injured, the Red Crescent reports damage in 24 provinces, and the internet is almost entirely cut. The Revolutionary Guards have warned ships that none may pass through the Strait of Hormuz.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03)",
-    "thread": "iran",
-    "image": "/news/middle-east/2026-02-roaring-lion.jpg",
-    "imageCaption": "An Israeli F-35 fighter jet during the 'Roaring Lion' operation against Iran",
-    "imageCredit": "IDF Spokesperson's Unit photographer"
   },
   {
     "month": "2026-02",
@@ -158,15 +165,15 @@
   {
     "month": "2026-02",
     "kind": "company",
-    "headline": "John Furner takes over a trillion-dollar Walmart",
-    "text": "John Furner became Walmart's president and chief executive on 1 February. In February Walmart became the first traditional retailer to be valued at more than one trillion dollars. It employs about 2.1 million people, more than any other private company.",
+    "headline": "Josh D'Amaro named Disney's next chief executive",
+    "text": "On 3 February Disney's board unanimously chose Josh D'Amaro, head of the parks and experiences business, to succeed Bob Iger as chief executive from 18 March. Dana Walden becomes president and chief creative officer.",
     "assets": [
-      "wmt"
+      "dis"
     ],
-    "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)",
-    "image": "/news/wmt/2026-02-furner-mcmillon.jpg",
-    "imageCaption": "John Furner (left), Walmart's incoming chief executive, with Doug McMillon",
-    "imageCredit": "Walmart (company picture, via PYMNTS)"
+    "source": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company (read 2026-10-03)",
+    "image": "/news/dis/2026-02-damaro-d23.jpg",
+    "imageCaption": "Josh D'Amaro, chairman of Disney's parks, speaks at the D23 Brazil fan event, São Paulo, November 2024",
+    "imageCredit": "Ricardo Moreira | Getty Images"
   },
   {
     "month": "2026-02",
@@ -193,6 +200,29 @@
     "image": "/news/novartis/2026-02-entrance.jpg",
     "imageCaption": "The entrance to the Novartis campus, Basel",
     "imageCredit": "Grubyak"
+  },
+  {
+    "month": "2026-02",
+    "kind": "company",
+    "headline": "68 billion dollars in a quarter",
+    "text": "Nvidia reported record revenue of 68.1 billion dollars for the quarter to January, 73% more than a year earlier, and net income of about 43 billion dollars, with a gross margin of 75%. At the CES show in January it unveiled its next platform, Vera Rubin.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2026-02",
+    "kind": "company",
+    "headline": "John Furner takes over a trillion-dollar Walmart",
+    "text": "John Furner became Walmart's president and chief executive on 1 February. In February Walmart became the first traditional retailer to be valued at more than one trillion dollars. It employs about 2.1 million people, more than any other private company.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)",
+    "image": "/news/wmt/2026-02-furner-mcmillon.jpg",
+    "imageCaption": "John Furner (left), Walmart's incoming chief executive, with Doug McMillon",
+    "imageCredit": "Walmart (company picture, via PYMNTS)"
   },
   {
     "month": "2026-03",
@@ -240,6 +270,61 @@
   },
   {
     "month": "2026-04",
+    "kind": "world",
+    "headline": "Ceasefire and strong earnings: the best month since 2020",
+    "text": "President Trump announced a two-week ceasefire with Iran late on 7 April; the next day oil fell about 15% and the Dow jumped 1,326 points. The S&P 500 closed at a record 7,022.95 on 15 April, though the Strait of Hormuz stayed effectively closed, as 84% of companies beat profit forecasts and technology shares led on optimism about AI. The S&P 500 rose 10% in April to a record 7,209.01, its best month since November 2020.",
+    "assets": [],
+    "source": "https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://www.commbank.com.au/articles/newsroom/2026/05/us-stocks-finish-best-month-since-2020.html (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2026-04-ceasefire-briefing.jpg",
+    "imageCaption": "Pentagon briefing on the ceasefire agreement between the United States and Iran, 8 April 2026",
+    "imageCredit": "Benjamin D. Applebaum)"
+  },
+  {
+    "month": "2026-04",
+    "kind": "world",
+    "headline": "Nikkei passes 60,000",
+    "text": "The Nikkei reached 60,000 for the first time on 23 April, two months after Takaichi's party won a two-thirds majority in the lower house on 8 February, the first party to do so since the war.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2026_in_Japan (read 2026-10-03)"
+  },
+  {
+    "month": "2026-04",
+    "kind": "company",
+    "headline": "AI demand lifts Nokia as markets rebound",
+    "text": "On 23 April Nokia reported that sales to AI and cloud customers grew 49% in the first quarter and now make up 8% of the group, with 1 billion euros of new orders from them, and raised its estimate of that market's growth to 27% a year through 2028 from 16%. Markets rallied after the US-Iran ceasefire of 8 April. Nokia's ADR rose 61% in April.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.nokia.com/about-us/news/releases/2026/04/23/nokia-corporation-interim-report-for-q1-2026/ (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
+    "image": "/news/nokia/2026-04-hq.jpg",
+    "imageCaption": "Nokia's headquarters in Espoo, Finland",
+    "imageCredit": "Villeke"
+  },
+  {
+    "month": "2026-04",
+    "kind": "company",
+    "headline": "Amazon's cloud accelerates",
+    "text": "On April 29 Amazon reported first-quarter sales of $181.5 billion, up 17%, with AWS sales up 28% to $37.6 billion and net income of $30.3 billion. Earlier in the month Amazon invested a further $5 billion in Anthropic.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-26-000012.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)",
+    "image": "/news/amzn/2026-04-aws-data-centres.jpg",
+    "imageCaption": "Three Amazon Web Services data centres in the us-west-2 region, Oregon",
+    "imageCredit": "Tedder"
+  },
+  {
+    "month": "2026-04",
+    "kind": "company",
+    "headline": "Citigroup's profit jumps 42%",
+    "text": "Citigroup reported first-quarter revenue up 14% and net income up 42%, with banking fees up 12% in a record first quarter for mergers and Markets revenue above $7 billion. Chair and chief executive Jane Fraser called it an exceptionally strong start to 2026. The shares rose 13% in April as the market climbed 10%.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926042942/c-20260414xex99d1.htm (Citigroup press release, 14 April 2026; read 2026-10-03); data/news/arcs/movers.md"
+  },
+  {
+    "month": "2026-04",
     "kind": "company",
     "headline": "Tim Cook will hand over to John Ternus",
     "text": "On 20 April Apple announced that Tim Cook will become executive chair on 1 September and that John Ternus, 50, head of hardware engineering and at Apple since 2001, will succeed him as chief executive. On 30 April Apple reported record March-quarter revenue of 111.2 billion dollars, up 17%, with strong demand for the iPhone 17.",
@@ -250,17 +335,6 @@
     "image": "/news/aapl/2026-04-ternus.jpg",
     "imageCaption": "John Ternus, Apple's head of hardware engineering, at Apple's 50th anniversary event, March 2026",
     "imageCredit": "Tessa Bury"
-  },
-  {
-    "month": "2026-04",
-    "kind": "world",
-    "headline": "Ceasefire and strong earnings: the best month since 2020",
-    "text": "President Trump announced a two-week ceasefire with Iran late on 7 April; the next day oil fell about 15% and the Dow jumped 1,326 points. The S&P 500 closed at a record 7,022.95 on 15 April, though the Strait of Hormuz stayed effectively closed, as 84% of companies beat profit forecasts and technology shares led on optimism about AI. The S&P 500 rose 10% in April to a record 7,209.01, its best month since November 2020.",
-    "assets": [],
-    "source": "https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://www.commbank.com.au/articles/newsroom/2026/05/us-stocks-finish-best-month-since-2020.html (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2026-04-ceasefire-briefing.jpg",
-    "imageCaption": "Pentagon briefing on the ceasefire agreement between the United States and Iran, 8 April 2026",
-    "imageCredit": "Benjamin D. Applebaum)"
   },
   {
     "month": "2026-05",
@@ -274,6 +348,30 @@
     "image": "/news/csco/2026-05-ai-orders.jpg",
     "imageCaption": "The Cisco sign over the company's pavilion at the World Economic Forum in Davos",
     "imageCredit": "Getty Images"
+  },
+  {
+    "month": "2026-05",
+    "kind": "company",
+    "headline": "Intel passes its 2000 peak on talk of an Apple deal",
+    "text": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded above 130 dollars, far above their August 2000 record of 74.88 dollars.",
+    "assets": [
+      "intc",
+      "aapl"
+    ],
+    "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)",
+    "image": "/news/intc/2026-05-hq.jpg",
+    "imageCaption": "Intel's headquarters in Santa Clara, California",
+    "imageCredit": "Sixflashphoto"
+  },
+  {
+    "month": "2026-05",
+    "kind": "company",
+    "headline": "China to buy 200 Boeing jets",
+    "text": "On 20 May China confirmed it will buy 200 Boeing aircraft after a summit between the Chinese and US presidents.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing BBC and CNBC 2026-05-20)"
   },
   {
     "month": "2026-05",
@@ -304,16 +402,33 @@
   {
     "month": "2026-05",
     "kind": "company",
-    "headline": "Intel passes its 2000 peak on talk of an Apple deal",
-    "text": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded above 130 dollars, far above their August 2000 record of 74.88 dollars.",
+    "headline": "IBM and Washington plan a quantum chip foundry",
+    "text": "IBM signed a letter of intent with the US Department of Commerce for Anderon, a quantum chip foundry backed by 1 billion dollars of government incentives under the CHIPS Act. At its Think conference in early May IBM laid out its plans for AI and quantum computing.",
     "assets": [
-      "intc",
-      "aapl"
+      "ibm"
     ],
-    "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)",
-    "image": "/news/intc/2026-05-hq.jpg",
-    "imageCaption": "Intel's headquarters in Santa Clara, California",
-    "imageCredit": "Sixflashphoto"
+    "source": "https://newsroom.ibm.com/2026-09-16-anderon,-an-ibm-company,-finalizes-agreement-with-the-u-s-department-of-commerce-for-a-1-billion-chips-award-to-accelerate-r-d-for-u-s-based-pure-play-quantum-foundry (read 2026-10-03; refers to the May 2026 letter of intent); https://newsroom.ibm.com/announcements (release list, read 2026-10-03)",
+    "image": "/news/ibm/2026-05-quantum-computing.jpg",
+    "imageCaption": "Quantum computing, 2024",
+    "imageCredit": "Dev Jadiya"
+  },
+  {
+    "month": "2026-06",
+    "kind": "world",
+    "headline": "Inflation back above 4 percent; Warsh takes over; gold slides",
+    "text": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record.",
+    "assets": [
+      "gold"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03)"
+  },
+  {
+    "month": "2026-06",
+    "kind": "world",
+    "headline": "A US-Iran memorandum, oil back to $70",
+    "text": "The US and Iranian presidents signed a memorandum on 17 June to end the war and the blockades. Brent fell from about $100 at the start of June to about $70 at the end, near its pre-war level, although Iran closed the strait again on 20 June citing Israeli violations.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
     "month": "2026-06",
@@ -329,17 +444,15 @@
     "imageCredit": "Flocci Nivis"
   },
   {
-    "month": "2026-07",
+    "month": "2026-06",
     "kind": "company",
-    "headline": "Intel falls a third from its June high",
-    "text": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
+    "headline": "BMW's warning drags Mercedes down",
+    "text": "On 16 June BMW cut its profit forecast for 2026 because of a faster downturn in China and the effects of the war with Iran. European car shares fell the next day on fears that others will follow; Mercedes, already weak, lost another 3%. Mercedes is preparing further cost cuts.",
     "assets": [
-      "intc"
+      "mercedes",
+      "bmw"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)",
-    "image": "/news/intc/2026-07-mission-college.jpg",
-    "imageCaption": "Intel's headquarters on Mission College Boulevard, Santa Clara",
-    "imageCredit": "Coolcaesar"
+    "source": "Investing.com, 'European car stocks fall on BMW profit warning contagion fears; Mercedes down 3%', 17 June 2026 (headline via Google News) (read 2026-10-03); https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); just-auto.com, 'Mercedes Cost-Cutting Faces Labour Scrutiny', 22 June 2026 (headline via Google News) (read 2026-10-03)"
   },
   {
     "month": "2026-07",
@@ -351,19 +464,6 @@
     "image": "/news/middle-east/2026-07-mosalla-mourners.jpg",
     "imageCaption": "Mourners fill the Mosalla in Tehran for the state funeral of Ayatollah Khamenei, 5 July 2026",
     "imageCredit": "Amin Faezi, Mehr News Agency"
-  },
-  {
-    "month": "2026-07",
-    "kind": "company",
-    "headline": "Azure passes 100 billion dollars, and the shares recover",
-    "text": "On 29 July Microsoft reported revenue of 90.0 billion dollars for the quarter to June, up 18%. Azure revenue passed 100 billion dollars for the year and Microsoft 365 Copilot has more than 30 million paid users; results included a 3.2 billion dollar gain on Microsoft's investment in Anthropic. The shares rose 25% in July.",
-    "assets": [
-      "msft"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm (Microsoft press release of 29 July 2026, read 2026-10-03); https://www.fool.com/investing/2026/09/30/microsoft-stock-grown-satya-nadella-ai-spend/ (read 2026-10-03)",
-    "image": "/news/msft/2026-07-west-campus.jpg",
-    "imageCaption": "Microsoft's campus in Redmond, Washington",
-    "imageCredit": "Jelson25"
   },
   {
     "month": "2026-07",
@@ -383,6 +483,19 @@
   {
     "month": "2026-07",
     "kind": "company",
+    "headline": "Intel falls a third from its June high",
+    "text": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
+    "assets": [
+      "intc"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)",
+    "image": "/news/intc/2026-07-mission-college.jpg",
+    "imageCaption": "Intel's headquarters on Mission College Boulevard, Santa Clara",
+    "imageCredit": "Coolcaesar"
+  },
+  {
+    "month": "2026-07",
+    "kind": "company",
     "headline": "Record deliveries, but profits disappoint",
     "text": "Tesla delivered a record 480,126 cars in the second quarter, but on 22 July it reported earnings of 33 cents a share against expected 53 cents; its operating margin fell to 1.4%, regulatory credit income collapsed and spending on factories and AI more than doubled, so it burned cash. The shares fell about 10% the next day. Musk's SpaceX listed its shares in June in the biggest stock market debut ever, competing for the same investors.",
     "assets": [
@@ -392,6 +505,70 @@
     "image": "/news/tsla/2026-07-modely.jpg",
     "imageCaption": "A Tesla Model Y in a Tesla showroom",
     "imageCredit": "dllu"
+  },
+  {
+    "month": "2026-07",
+    "kind": "company",
+    "headline": "Azure passes 100 billion dollars, and the shares recover",
+    "text": "On 29 July Microsoft reported revenue of 90.0 billion dollars for the quarter to June, up 18%. Azure revenue passed 100 billion dollars for the year and Microsoft 365 Copilot has more than 30 million paid users; results included a 3.2 billion dollar gain on Microsoft's investment in Anthropic. The shares rose 25% in July.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm (Microsoft press release of 29 July 2026, read 2026-10-03); https://www.fool.com/investing/2026/09/30/microsoft-stock-grown-satya-nadella-ai-spend/ (read 2026-10-03)",
+    "image": "/news/msft/2026-07-west-campus.jpg",
+    "imageCaption": "Microsoft's campus in Redmond, Washington",
+    "imageCredit": "Jelson25"
+  },
+  {
+    "month": "2026-07",
+    "kind": "company",
+    "headline": "IBM warns that big deals failed to close",
+    "text": "On 14 July IBM released early second-quarter figures: revenue of 17.2 billion dollars, up 1%, below forecasts of about 17.9 billion. Chief executive Arvind Krishna said 'numerous large deals failed to close' as clients diverted budgets to servers and storage for AI, and admitted 'we faltered'. The shares fell about 22% in early trading, close to their worst day since 1987.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://newsroom.ibm.com/2026-07-14-Arvind-Krishnas-Letter-to-IBM-Investors (read 2026-10-03); https://www.aol.com/articles/ibm-tumbles-22-toward-worst-130646000.html (read 2026-10-03)",
+    "image": "/news/ibm/2026-07-krishna-poughkeepsie.jpg",
+    "imageCaption": "IBM's chief executive Arvind Krishna greets President Biden at IBM Poughkeepsie",
+    "imageCredit": "IBM (IBM Archives)"
+  },
+  {
+    "month": "2026-07",
+    "kind": "company",
+    "headline": "AI orders double, outlook only technically changed",
+    "text": "On 23 July Nokia reported second-quarter sales up 9% at constant currency, sales to AI and cloud customers up 105% and 2.8 billion euros of AI and cloud orders. It kept its outlook apart from a technical change to 2.1-2.6 billion euros of comparable operating profit and said supply, not demand, is the industry's main constraint.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.nokia.com/system/files/2026-07/nokia_results_2026_q2.pdf (read 2026-10-03)"
+  },
+  {
+    "month": "2026-08",
+    "kind": "world",
+    "headline": "Japan spends a record sum defending the yen",
+    "text": "The dollar reached about 164 yen on 23 July, and Japan's Finance Ministry said it spent a record 15.4 trillion yen, about $96 billion, buying yen in its interventions, its largest monthly intervention ever. The Nikkei passed 70,000 in June.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03; cites France 24, 28 August 2026); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2026 (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03)"
+  },
+  {
+    "month": "2026-08",
+    "kind": "company",
+    "headline": "Las Vegas robotaxis and the AI power trade lift Tesla",
+    "text": "On 21 August Clark County, Nevada, allowed Tesla to run up to 5,000 driverless robotaxis in Las Vegas, the largest share of 8,000 permits granted to three companies. At the end of the month Musk said Tesla and SpaceX are each building solar panel factories as fast as possible to power AI data centres, and the shares rose again.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "The Motley Fool, 'Why Is Tesla Stock Up Today?', 21 August 2026, https://www.fool.com/investing/2026/08/21/why-is-tesla-stock-up-today/ (read 2026-10-03); The Motley Fool, 'Why Tesla Stock Stepped on the Gas Monday Morning', 31 August 2026, https://www.fool.com/investing/2026/08/31/why-tesla-stock-stepped-on-the-gas-monday-morning/ (read 2026-10-03)"
+  },
+  {
+    "month": "2026-08",
+    "kind": "company",
+    "headline": "Profits nearly double; an Australian listing",
+    "text": "On 5 August Glencore reported first-half adjusted EBITDA up 86% to $10.1bn and net income of $4.4bn, helped by higher copper and steelmaking coal prices and volatile markets that suited its traders, whose earnings rose 142%. It will return about $1.5bn extra to shareholders and plans a secondary listing in Sydney in October. Copper averaged a record $14,326 a tonne in August.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/2026-half-year-report/9704840; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
     "month": "2026-08",
@@ -408,19 +585,6 @@
   },
   {
     "month": "2026-09",
-    "kind": "company",
-    "headline": "McDonald's 'NEXT' plan: billions in support for franchisees",
-    "text": "On 23 September McDonald's presented its 'NEXT' strategy to win back customers in a sluggish US market. It plans about 8.5 billion dollars of support for franchisees through 2036, about 5 billion of it by 2030, in rent relief and capital, to modernise restaurants, and targets an operating margin in the low-to-mid 50% range by 2030. McDonald's shares fell about 12% in September; they have lost about a third since February.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/exhibit991-investorupdate2.htm (release of 23 September 2026, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (US sales, read 2026-10-03); price changes from data/out/mcd.json",
-    "image": "/news/mcd/2026-09-kempczinski.jpg",
-    "imageCaption": "Chris Kempczinski, McDonald's chief executive",
-    "imageCredit": "Ambassador of the United States of America to the People's R"
-  },
-  {
-    "month": "2026-09",
     "kind": "world",
     "headline": "The Fed raises rates again as oil passes 100 dollars",
     "text": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent.",
@@ -433,32 +597,6 @@
     "image": "/news/rates/2026-09-warsh-press.jpg",
     "imageCaption": "Fed Chair Kevin Warsh at the press conference after the Fed's rate rise, Washington, 16 September 2026",
     "imageCredit": "Photo by Andrew Harnik/Getty Images"
-  },
-  {
-    "month": "2026-09",
-    "kind": "company",
-    "headline": "John Ternus takes over",
-    "text": "On 1 September John Ternus became Apple's chief executive, and Tim Cook executive chair.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm (Apple 8-K/A of 1 September 2026, read 2026-10-03, via EDGAR search listing); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
-    "image": "/news/aapl/2026-09-ternus-cook.jpg",
-    "imageCaption": "Tim Cook and John Ternus with Roberta Metsola, President of the European Parliament, May 2026",
-    "imageCredit": "Amy Osborne / European Union"
-  },
-  {
-    "month": "2026-09",
-    "kind": "company",
-    "headline": "BMW at a six-year low before its strategy day",
-    "text": "BMW shares fell to their lowest since 2020 in September, down about 40% this year. At its capital markets day on 30 September the new chief executive Nedeljković promised a car margin of 3 to 5% by 2028 and 8 to 10% in the early 2030s, with a simpler model range, cheaper local parts and fewer dealers in China; about 8,000 jobs have already been cut. Some investors had hoped for more, but analysts called it the beginning of a healing process.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "MarketScreener, 'BMW Investors' Nervousness Over Capital Markets Day Statements Eases', 30 September 2026, https://www.marketscreener.com/news/bmw-investors-nervousness-over-capital-markets-day-statements-eases-ce785ad2dd8ef024 (read 2026-10-03); Yahoo Finance Singapore, 'BMW plans margin rebuild with simpler line-up and pricier cars', https://sg.finance.yahoo.com/news/bmw-plans-margin-rebuild-simpler-041200536.html (read 2026-10-03); Investing.com, 'BMW stock hits a fresh 6-year low ahead of next week's CMD', 24 September 2026 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/bmw/2026-09-ix3.jpg",
-    "imageCaption": "The BMW iX3 of the Neue Klasse at the IAA Summit, Munich, September 2025",
-    "imageCredit": "Matti Blume"
   },
   {
     "month": "2026-09",
@@ -485,5 +623,44 @@
     "image": "/news/mercedes/2026-09-untertuerkheim.jpg",
     "imageCaption": "Stuttgart with the Mercedes-Benz Untertürkheim plant",
     "imageCredit": "MSeses"
+  },
+  {
+    "month": "2026-09",
+    "kind": "company",
+    "headline": "BMW at a six-year low before its strategy day",
+    "text": "BMW shares fell to their lowest since 2020 in September, down about 40% this year. At its capital markets day on 30 September the new chief executive Nedeljković promised a car margin of 3 to 5% by 2028 and 8 to 10% in the early 2030s, with a simpler model range, cheaper local parts and fewer dealers in China; about 8,000 jobs have already been cut. Some investors had hoped for more, but analysts called it the beginning of a healing process.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "MarketScreener, 'BMW Investors' Nervousness Over Capital Markets Day Statements Eases', 30 September 2026, https://www.marketscreener.com/news/bmw-investors-nervousness-over-capital-markets-day-statements-eases-ce785ad2dd8ef024 (read 2026-10-03); Yahoo Finance Singapore, 'BMW plans margin rebuild with simpler line-up and pricier cars', https://sg.finance.yahoo.com/news/bmw-plans-margin-rebuild-simpler-041200536.html (read 2026-10-03); Investing.com, 'BMW stock hits a fresh 6-year low ahead of next week's CMD', 24 September 2026 (headline via Google News) (read 2026-10-03)",
+    "image": "/news/bmw/2026-09-ix3.jpg",
+    "imageCaption": "The BMW iX3 of the Neue Klasse at the IAA Summit, Munich, September 2025",
+    "imageCredit": "Matti Blume"
+  },
+  {
+    "month": "2026-09",
+    "kind": "company",
+    "headline": "John Ternus takes over",
+    "text": "On 1 September John Ternus became Apple's chief executive, and Tim Cook executive chair.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm (Apple 8-K/A of 1 September 2026, read 2026-10-03, via EDGAR search listing); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "image": "/news/aapl/2026-09-ternus-cook.jpg",
+    "imageCaption": "Tim Cook and John Ternus with Roberta Metsola, President of the European Parliament, May 2026",
+    "imageCredit": "Amy Osborne / European Union"
+  },
+  {
+    "month": "2026-09",
+    "kind": "company",
+    "headline": "McDonald's 'NEXT' plan: billions in support for franchisees",
+    "text": "On 23 September McDonald's presented its 'NEXT' strategy to win back customers in a sluggish US market. It plans about 8.5 billion dollars of support for franchisees through 2036, about 5 billion of it by 2030, in rent relief and capital, to modernise restaurants, and targets an operating margin in the low-to-mid 50% range by 2030. McDonald's shares fell about 12% in September; they have lost about a third since February.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/exhibit991-investorupdate2.htm (release of 23 September 2026, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (US sales, read 2026-10-03); price changes from data/out/mcd.json",
+    "image": "/news/mcd/2026-09-kempczinski.jpg",
+    "imageCaption": "Chris Kempczinski, McDonald's chief executive",
+    "imageCredit": "Ambassador of the United States of America to the People's R"
   }
 ]

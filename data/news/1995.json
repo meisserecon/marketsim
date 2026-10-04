@@ -1,16 +1,24 @@
 [
   {
-    "month": "1995-03",
-    "kind": "company",
-    "headline": "McDonald's: 26 billion dollars of sales in 79 countries",
-    "text": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home. The shares were split two-for-one in June 1994.",
+    "month": "1995-01",
+    "kind": "world",
+    "headline": "Compaq passes IBM as the biggest PC maker",
+    "text": "Compaq, which began by copying the IBM PC, sold more personal computers than IBM or Apple in 1994; in the US it had 12.6% of the market against Apple's 11.6%. In 1991 a price war had brought Compaq its first loss and its first layoffs.",
     "assets": [
-      "mcd"
+      "ibm",
+      "aapl",
+      "intc",
+      "msft"
     ],
-    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json",
-    "image": "/news/mcd/1995-03-tokyo.jpg",
-    "imageCaption": "McDonald's in Tokyo",
-    "imageCredit": "cpo57"
+    "source": "https://en.wikipedia.org/wiki/Compaq (read 2026-10-03)"
+  },
+  {
+    "month": "1995-02",
+    "kind": "world",
+    "headline": "Kobe earthquake, then Barings collapses on Nikkei bets",
+    "text": "An earthquake struck Kobe on 17 January, killing more than 5,000 people and wrecking the port; the Nikkei fell 1,025 points the next day. On 26 February Barings, Britain's oldest merchant bank, collapsed after its Singapore trader Nick Leeson lost hundreds of millions of pounds betting on Nikkei futures.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake (read 2026-10-03); https://en.wikipedia.org/wiki/Barings_Bank (read 2026-10-03)"
   },
   {
     "month": "1995-03",
@@ -26,6 +34,29 @@
     "image": "/news/sbv/1995-03-lusser.jpg",
     "imageCaption": "Markus Lusser, chairman of the Swiss National Bank",
     "imageCredit": "Regina Kühne (Universität St. Gallen, HSG Archiv)"
+  },
+  {
+    "month": "1995-03",
+    "kind": "company",
+    "headline": "McDonald's: 26 billion dollars of sales in 79 countries",
+    "text": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home. The shares were split two-for-one in June 1994.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json",
+    "image": "/news/mcd/1995-03-tokyo.jpg",
+    "imageCaption": "McDonald's in Tokyo",
+    "imageCredit": "cpo57"
+  },
+  {
+    "month": "1995-03",
+    "kind": "company",
+    "headline": "Profits fall for a second year",
+    "text": "Schlumberger's accounts for 1994 show net income of 536 million dollars on revenue of 6.7 billion, down 8 percent from the year before, after a 12 percent fall in 1993. US crude averaged less than 20 dollars a barrel in every month of 1994.",
+    "assets": [
+      "slb"
+    ],
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (1994 revenue and net income) (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data (yearly changes), https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
   },
   {
     "month": "1995-04",
@@ -59,7 +90,10 @@
     "assets": [
       "worldcom"
     ],
-    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03)"
+    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03)",
+    "image": "/news/worldcom/1995-05-clinton-mississippi.jpg",
+    "imageCaption": "Clinton, Mississippi, 2024",
+    "imageCredit": "Chillin662"
   },
   {
     "month": "1995-06",
@@ -109,20 +143,38 @@
     "text": "In July Cosmo Credit Cooperative in Tokyo failed, and in August Kizu Credit Cooperative, whose losses are expected to exceed 1 trillion yen, and Hyogo Bank in western Japan followed. In September Daiwa Bank, one of the big city banks, said a trader at its New York branch had lost about $1.1 billion through fraud. A Finance Ministry inspection this summer put the losses of the seven jusen, housing loan companies set up by banks that lent heavily to property developers in the 1980s, at 6.4 trillion yen. Five years after the crash, the bubble's bad loans are coming to the surface.",
     "assets": [],
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (BIS Papers No 6, sections 1.2.2 and 1.2.3, read 2026-10-04)",
-    "thread": "japan"
+    "thread": "japan",
+    "image": "/news/asia/1995-09-bank-of-japan.jpg",
+    "imageCaption": "Bank of Japan, 2010",
+    "imageCredit": "Wiiii"
   },
   {
-    "month": "1995-12",
+    "month": "1995-09",
     "kind": "company",
-    "headline": "Nokia warns on profits; shares plunge",
-    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "headline": "PlayStation launches in America and Europe",
+    "text": "The PlayStation went on sale in North America on 9 September and in Europe on 29 September.",
     "assets": [
-      "nokia"
+      "sony"
     ],
-    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
-    "image": "/news/nokia/1995-12-2110i.jpg",
-    "imageCaption": "A Nokia 2110i handset, 1995",
-    "imageCredit": "Santeri Viinamäki"
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)"
+  },
+  {
+    "month": "1995-11",
+    "kind": "colour",
+    "headline": "Toy Story, the first film made entirely by computer",
+    "text": "Toy Story, made by Steve Jobs's Pixar and released by Disney, opened in American cinemas on 22 November and set a record for its opening weekend. It is the first feature film made entirely by computer animation. Tom Hanks and Tim Allen voice a cowboy doll and a space ranger toy.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Toy_Story (read 2026-10-03)"
+  },
+  {
+    "month": "1995-11",
+    "kind": "world",
+    "headline": "Yitzhak Rabin assassinated at a peace rally",
+    "text": "Israeli Prime Minister Yitzhak Rabin was shot dead on 4 November in Tel Aviv as he left a rally for the peace process attended by more than 100,000 people. The killer, Yigal Amir, is a 25-year-old Israeli law student opposed to the Oslo Accords. Shimon Peres has taken over.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin (read 2026-10-03)"
   },
   {
     "month": "1995-12",
@@ -138,5 +190,18 @@
     "image": "/news/markets/1995-12-clinton-budget.jpg",
     "imageCaption": "President Clinton meets congressional leaders on the budget, White House, 19 December 1995",
     "imageCredit": " (White House Photograph Office)"
+  },
+  {
+    "month": "1995-12",
+    "kind": "company",
+    "headline": "Nokia warns on profits; shares plunge",
+    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
+    "image": "/news/nokia/1995-12-2110i.jpg",
+    "imageCaption": "A Nokia 2110i handset, 1995",
+    "imageCredit": "Santeri Viinamäki"
   }
 ]

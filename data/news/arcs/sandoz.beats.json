@@ -1,18 +1,5 @@
 [
   {
-    "id": "183f2e4c",
-    "month": "1979-12",
-    "title": "Sandoz: medicines, dyes and Ovomaltine from Basel",
-    "what": "Sandoz is one of the three big chemical and drug companies of Basel; its neighbour and rival is Ciba-Geigy. It makes medicines, dyes and chemicals, seeds and farm chemicals, and through Wander, merged in 1967, nutrition products such as Ovomaltine and Isostar.",
-    "why": "The listing beat: a diversified Basel group whose future lies in one drug still in trials, cyclosporin. It ends in the Novartis merger of 1996.",
-    "assets": [
-      "sandoz"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Sandoz (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); data/src/profiles.ts; data/manual/sandoz.csv header",
-    "cut": true
-  },
-  {
     "id": "bf5f4afd",
     "month": "1980-03",
     "title": "Sandoz's cyclosporin used in a liver transplant",
@@ -21,7 +8,6 @@
     "assets": [
       "sandoz"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
   },
   {
@@ -33,7 +19,6 @@
     "assets": [
       "sandoz"
     ],
-    "importance": 2,
     "source": "Neue Zürcher Zeitung, 2 May 1981, p. 21 ('«Befriedigendes» Sandoz-Konzern-Ergebnis'), scan data/manual/scans/nzz/NZZ_1981-05-02.pdf (read 2026-10-03)"
   },
   {
@@ -45,7 +30,6 @@
     "assets": [
       "sandoz"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Ciclosporin (read 2026-10-03)"
   },
   {
@@ -61,7 +45,6 @@
       "asset": "sandoz",
       "pct": -13
     },
-    "importance": 1,
     "source": "https://www.swissinfo.ch/eng/sci-tech/schweizerhalle-fire_chemical-disaster-still-burns-in-swiss-memory/42559954 (read 2026-10-03); https://en.wikipedia.org/wiki/Schweizerhalle_fire (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/sandoz-ltd (read 2026-10-03); https://www.bafu.admin.ch/en/schweizerhalle-en (read 2026-10-03)",
     "lead": true
   },
@@ -78,7 +61,6 @@
       "asset": "sandoz",
       "pct": 24
     },
-    "importance": 1,
     "source": "https://live.novartis.com/en/article/49 (read 2026-10-03); https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); search excerpt of https://pubs.acs.org/doi/10.1021/cen-v074n011.p007 (combined sales, read 2026-10-03); NZZ prices in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03)"
   }
 ]

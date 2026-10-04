@@ -1,6 +1,45 @@
 [
   {
     "month": "2017-01",
+    "kind": "colour",
+    "headline": "Federer's comeback: the Australian Open at 35",
+    "text": "Roger Federer beat Rafael Nadal in five sets in the Australian Open final, his 18th Grand Slam title and his first since 2012. He had missed half of 2016 after knee surgery. At 35 he is the oldest Grand Slam men's champion since 1972.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_Australian_Open_%E2%80%93_Men%27s_singles (read 2026-10-03); https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "kind": "company",
+    "headline": "Citigroup returned $10.7 billion to shareholders in 2016",
+    "text": "Citigroup reported fourth-quarter net income of $3.6 billion and said it returned $10.7 billion to shareholders in 2016 through dividends and share buybacks, buying back 196 million shares. In April 2016 it announced it would wind up Citi Holdings, its 'bad bank'.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465917002691/a17-2577_1ex99d1.htm (Citigroup press release, 18 January 2017; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "kind": "company",
+    "headline": "The end of bank secrecy for foreign clients",
+    "text": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
+    "assets": [
+      "credit-suisse",
+      "ubs"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
+    "kind": "company",
+    "headline": "Cisco buys AppDynamics on the eve of its IPO",
+    "text": "Cisco agreed to buy AppDynamics, which monitors how business software performs, for $3.7 billion, a day before the start-up was to list its shares. Cisco is buying software companies to make up for slow growth in network hardware.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
+  },
+  {
+    "month": "2017-01",
     "kind": "company",
     "headline": "Mark Schneider takes charge",
     "text": "Ulf Mark Schneider became chief executive of Nestlé in January, succeeding Paul Bulcke, who is to take over as chairman from Peter Brabeck-Letmathe.",
@@ -11,6 +50,17 @@
     "image": "/news/nestle/2017-01-schneider.jpg",
     "imageCaption": "Ulf Mark Schneider, the new chief executive of Nestlé",
     "imageCredit": "Nestlé"
+  },
+  {
+    "month": "2017-01",
+    "kind": "company",
+    "headline": "The end of bank secrecy for foreign clients",
+    "text": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
+    "assets": [
+      "ubs",
+      "credit-suisse"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
   },
   {
     "month": "2017-03",
@@ -24,6 +74,19 @@
     "image": "/news/mcd/2017-03-kiosk.jpg",
     "imageCaption": "Self-service ordering kiosks in a McDonald's, 2017 ;;",
     "imageCredit": "N509FZ"
+  },
+  {
+    "month": "2017-05",
+    "kind": "company",
+    "headline": "Artificial intelligence triples Nvidia's data-centre sales",
+    "text": "Nvidia's graphics chips were made for video games, but they turn out to be ideal for training artificial intelligence. On 9 May the company reported quarterly sales of 1.94 billion dollars, 48% more than a year earlier; sales to data centres almost tripled, from 143 to 409 million dollars. The shares rose 38% in May.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581017000068/q1fy18pr.htm (search result read 2026-10-04); https://www.fool.com/investing/2017/05/09/nvidia-corp-data-center-sales-tripled-in-q1.aspx (search result read 2026-10-04)",
+    "image": "/news/nvda/2017-05-jensen-huang.jpg",
+    "imageCaption": "Jensen Huang, 2025",
+    "imageCredit": "The White House"
   },
   {
     "month": "2017-06",
@@ -66,16 +129,11 @@
   },
   {
     "month": "2017-07",
-    "kind": "company",
-    "headline": "The first Model 3s are delivered",
-    "text": "Tesla delivered the first Model 3s to customers in July. The cheaper car is meant to turn Tesla from a niche luxury maker into a mass producer. Tesla Motors renamed itself Tesla, Inc. in February.",
-    "assets": [
-      "tsla"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla_Model_3 (read 2026-10-03)",
-    "image": "/news/tsla/2017-07-first-model3.jpg",
-    "imageCaption": "The first production Tesla Model 3 outside the Fremont factory, July 2017",
-    "imageCredit": "HANDOUT / Reuters (Tesla Motors handout)"
+    "kind": "colour",
+    "headline": "Federer's record eighth Wimbledon",
+    "text": "Roger Federer beat Marin Čilić in the Wimbledon final without losing a set all tournament, his record eighth Wimbledon title and 19th Grand Slam title.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_Wimbledon_Championships_%E2%80%93_Men%27s_singles (read 2026-10-03)"
   },
   {
     "month": "2017-07",
@@ -91,6 +149,79 @@
     "imageCredit": "North Charleston, SC"
   },
   {
+    "month": "2017-07",
+    "kind": "company",
+    "headline": "More coal: half of Hunter Valley Operations",
+    "text": "After losing the contest for Rio Tinto's Coal & Allied to Yancoal, Glencore agreed on 27 July to buy 49% of the Hunter Valley Operations coal mine from Yancoal for $1.14bn in cash plus royalties. Coal and copper prices are rising: thermal coal averaged $88 a tonne in July and copper about $6,000.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement-49-in-hunter-valley-operations/4723797; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "kind": "company",
+    "headline": "Cartel allegations against German car makers",
+    "text": "Reports in July said that German car makers, BMW among them, had coordinated technology, costs and suppliers in secret working groups for years, including on diesel exhaust cleaning. BMW denied colluding on emissions equipment.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "The New York Times, 'BMW Denies Colluding With Carmakers on Emissions Equipment', 23 July 2017 (headline via Google News) (read 2026-10-03); Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headline via Google News) (read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "kind": "company",
+    "headline": "Diesel recall and cartel allegations",
+    "text": "Daimler said on 18 July it will update the software of more than 3 million Mercedes diesel cars in Europe to cut emissions. Days later reports said German car makers including Daimler had for years coordinated technology in secret working groups, including on diesel exhaust cleaning.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "The Guardian, 'Mercedes recalls 3m diesel cars over emissions concerns', 19 July 2017; Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headlines via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (2020 Clean Air Act fine, read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "kind": "company",
+    "headline": "Patent deal with Xiaomi",
+    "text": "Nokia and the Chinese phone maker Xiaomi signed a business collaboration agreement and a multi-year patent cross-licence. Phones under the Nokia brand are back in shops this year, made by HMD Global under licence.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2017-07",
+    "kind": "company",
+    "headline": "The first Model 3s are delivered",
+    "text": "Tesla delivered the first Model 3s to customers in July. The cheaper car is meant to turn Tesla from a niche luxury maker into a mass producer. Tesla Motors renamed itself Tesla, Inc. in February.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla_Model_3 (read 2026-10-03)",
+    "image": "/news/tsla/2017-07-first-model3.jpg",
+    "imageCaption": "The first production Tesla Model 3 outside the Fremont factory, July 2017",
+    "imageCredit": "HANDOUT / Reuters (Tesla Motors handout)"
+  },
+  {
+    "month": "2017-09",
+    "kind": "company",
+    "headline": "The iPhone X",
+    "text": "On 12 September Apple introduced the iPhone X, with facial recognition and wireless charging, alongside the iPhone 8, at the new Steve Jobs Theater.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2017-09",
+    "kind": "company",
+    "headline": "Vas Narasimhan named next chief executive",
+    "text": "Novartis named Vasant Narasimhan, its head of drug development and chief medical officer, to succeed Joseph Jimenez as chief executive in February. He is a 41-year-old American doctor who joined Novartis in 2005.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Vasant_Narasimhan (read 2026-10-03)"
+  },
+  {
     "month": "2017-11",
     "kind": "company",
     "headline": "GE halves its dividend",
@@ -102,6 +233,25 @@
     "image": "/news/ge/2017-11-flannery.jpg",
     "imageCaption": "General Electric chief executive John Flannery presents his plan, including the halved dividend, to investors in New York, 13 November 2017",
     "imageCredit": "AP (press photograph, via CNBC)"
+  },
+  {
+    "month": "2017-12",
+    "kind": "colour",
+    "headline": "A used rocket carries a used capsule to the space station",
+    "text": "Rockets used to be thrown away after one flight. On 15 December SpaceX launched supplies for NASA from Cape Canaveral on a Falcon 9 rocket whose first stage had already flown in June, topped by a Dragon capsule that had been to space in 2015. It is the first time NASA has trusted a reused rocket. The first stage flew back and landed upright near the launch pad, and two days later the capsule reached the International Space Station with 2,205 kilograms of cargo.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/SpaceX_CRS-13 (read 2026-10-04)",
+    "image": "/news/life/2017-12-spacex-crs-13.jpg",
+    "imageCaption": "SpaceX CRS-13, 2017",
+    "imageCredit": "NASA"
+  },
+  {
+    "month": "2017-12",
+    "kind": "world",
+    "headline": "2017 in review: a calm climb and a big tax cut",
+    "text": "The S&P 500 gained 19% in 2017 to 2,673.61 and the Dow 25.1%, after passing 20,000 on 25 January. On 22 December President Trump signed a tax law that cuts the corporate tax rate to a flat 21%. The Federal Reserve raised rates three times during the year.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Tax_Cuts_and_Jobs_Act (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
     "month": "2017-12",

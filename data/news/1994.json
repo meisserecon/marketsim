@@ -1,5 +1,15 @@
 [
   {
+    "month": "1994-01",
+    "kind": "company",
+    "headline": "Wal-Mart enters Canada with 122 Woolco stores",
+    "text": "Wal-Mart is buying 122 Woolco stores in Canada from Woolworth, for about 335 million dollars, and will convert them to its own name. Last year it bought 91 Pace warehouse clubs from Kmart. Growth at home is slowing as Wal-Mart reaches most of the country.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Walmart_Canada (read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)"
+  },
+  {
     "month": "1994-02",
     "kind": "world",
     "headline": "The Fed raises rates for the first time in five years",
@@ -27,6 +37,17 @@
     "image": "/news/ko/1994-02-sixpack.jpg",
     "imageCaption": "A Coca-Cola six-pack",
     "imageCredit": "User:Surachit"
+  },
+  {
+    "month": "1994-03",
+    "kind": "company",
+    "headline": "The Power Macintosh",
+    "text": "Apple has started its Power Macintosh line, built on PowerPC processors developed in an alliance with IBM and Motorola. Parts of the Mac's software were rewritten so that older programs still run.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
     "month": "1994-04",
@@ -94,6 +115,18 @@
     "imageCredit": "Soulgangsters"
   },
   {
+    "month": "1994-08",
+    "kind": "company",
+    "headline": "Cisco passes $1 billion in sales",
+    "text": "Cisco reported on August 18 that sales for the fiscal year to July rose 92% to $1.24 billion and net income 83% to $315 million. Chief executive John Morgridge pointed to alliances with IBM, Microsoft and Alcatel and to the acquisitions of Crescendo and Newport Systems.",
+    "assets": [
+      "csco",
+      "ibm",
+      "msft"
+    ],
+    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1994/m08/cisco-systems-reports-fourth-quarter-earnings-1994-.html (read 2026-10-03)"
+  },
+  {
     "month": "1994-09",
     "kind": "company",
     "headline": "Anchorage jury orders Exxon to pay 5 billion for the Valdez spill",
@@ -113,7 +146,10 @@
     "text": "On 13 October Mosaic Communications, a start-up founded in April by Marc Andreessen and Jim Clark, released a test version of its browser, Mosaic Netscape 0.9, free to download.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
-    "thread": "dotcom"
+    "thread": "dotcom",
+    "image": "/news/tech/1994-10-mosaic-web-browser.jpg",
+    "imageCaption": "Mosaic, 2013",
+    "imageCredit": "Charles Severance"
   },
   {
     "month": "1994-11",
@@ -146,19 +182,6 @@
   },
   {
     "month": "1994-12",
-    "kind": "company",
-    "headline": "The PlayStation goes on sale in Japan",
-    "text": "Sony released the PlayStation in Japan on 3 December, a week after Sega's Saturn. Launches in North America and Europe are planned for 1995.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)",
-    "image": "/news/sony/1994-12-playstation.jpg",
-    "imageCaption": "The original Sony PlayStation (SCPH-1000) with controller",
-    "imageCredit": "Evan-Amos"
-  },
-  {
-    "month": "1994-12",
     "kind": "world",
     "headline": "1994 in review: the Fed's rate rises bring the bond market's worst year",
     "text": "The S&P 500 fell 2% in 1994 to 459.27, while the Dow edged up 2.1%. Starting on 4 February the Federal Reserve raised its key rate from 3 to 5.5 percent by November, and the yield on 30-year Treasury bonds rose from 6.2 to 8.2 percent; bond investors lost about 1.5 trillion dollars worldwide. At year's end Mexico's markets are in crisis.",
@@ -171,5 +194,38 @@
     "image": "/news/markets/1994-12-clinton-greenspan.jpg",
     "imageCaption": "President Clinton and Vice President Gore meet Federal Reserve Chairman Alan Greenspan in the Oval Office, 28 January 1993",
     "imageCredit": " (White House Photograph Office)"
+  },
+  {
+    "month": "1994-12",
+    "kind": "company",
+    "headline": "Lehman cuts costs after a hard first year",
+    "text": "Lehman Brothers announced a programme of cost cuts at the end of its first year as an independent firm; it employed about 8,500 people. It has also moved its financial year to end in November.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000950112-96-000633.txt (Lehman 10-K for fiscal 1995; read 2026-10-03)"
+  },
+  {
+    "month": "1994-12",
+    "kind": "company",
+    "headline": "Siemens sells its first GSM mobile phone",
+    "text": "This year Siemens launched the S1, its first phone for the new digital GSM networks. Siemens has made mobile phones since the C1 of 1985 and is one of the main suppliers of GSM network equipment in Europe.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Siemens_Mobile (read 2026-10-03)"
+  },
+  {
+    "month": "1994-12",
+    "kind": "company",
+    "headline": "The PlayStation goes on sale in Japan",
+    "text": "Sony released the PlayStation in Japan on 3 December, a week after Sega's Saturn. Launches in North America and Europe are planned for 1995.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)",
+    "image": "/news/sony/1994-12-playstation.jpg",
+    "imageCaption": "The original Sony PlayStation (SCPH-1000) with controller",
+    "imageCredit": "Evan-Amos"
   }
 ]

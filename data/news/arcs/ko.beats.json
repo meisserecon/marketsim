@@ -1,18 +1,5 @@
 [
   {
-    "id": "c5f120d5",
-    "month": "1981-03",
-    "title": "Roberto Goizueta becomes chairman of Coca-Cola",
-    "what": "Roberto Goizueta, a Cuban-born, Yale-trained chemical engineer who started with the Coca-Cola bottler in Cuba in 1954, became chairman of Coca-Cola in March, succeeding J. Paul Austin. He has already been president and chief executive since August 1980.",
-    "why": "Goizueta ran the company until his death in 1997 and made shareholder value its stated goal; a 1,000 dollar investment in 1981 grew to about 62,000 dollars with dividends by 1997.",
-    "assets": [
-      "ko"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Roberto_Goizueta (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)",
-    "cut": true
-  },
-  {
     "id": "514de74d",
     "month": "1982-07",
     "title": "Goizueta's two bets: Columbia Pictures and Diet Coke",
@@ -21,7 +8,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Diet_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Columbia Pictures section, read 2026-10-03)",
     "lead": true
   },
@@ -34,7 +20,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1983_djvu.txt (1983 annual report, read 2026-10-03)",
     "lead": true
   },
@@ -47,7 +32,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/New_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
   },
   {
@@ -59,7 +43,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/New_Coke (read 2026-10-03); https://www.statmuse.com/money/ask/cocacola-stock-1985 (1985 return, read 2026-10-03)",
     "lead": true
   },
@@ -72,7 +55,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1989_djvu.txt (letter dated February 1990, read 2026-10-03)"
   },
   {
@@ -84,7 +66,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1992_djvu.txt (1992 annual report, read 2026-10-03)"
   },
   {
@@ -96,7 +77,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1993_djvu.txt (letter dated February 1994, read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/Marlboro_Friday (read 2026-10-03)"
   },
   {
@@ -108,7 +88,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola1995_djvu.txt (1995 annual report, read 2026-10-03)"
   },
   {
@@ -126,7 +105,6 @@
       "asset": "ko",
       "pct": -17
     },
-    "importance": 2,
     "thread": "asia-ltcm",
     "source": "https://www.nytimes.com/1997/08/30/business/asian-stock-damage-has-wider-effects.html (via web.archive.org, read 2026-10-03); move from data/out/ko.json; https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04)",
     "lead": true
@@ -140,7 +118,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03; it misdates the scare to 1998); https://www.latimes.com/archives/la-xpm-1999-sep-04-fi-6777-story.html (June date, 250 consumers, read 2026-10-03)"
   },
   {
@@ -156,7 +133,6 @@
       "asset": "ko",
       "pct": -19
     },
-    "importance": 1,
     "source": "https://www.latimes.com/archives/la-xpm-1999-sep-04-fi-6777-story.html (read 2026-10-03); move from data/out/ko.json"
   },
   {
@@ -172,7 +148,6 @@
       "asset": "ko",
       "pct": 22
     },
-    "importance": 2,
     "source": "https://www.latimes.com/archives/la-xpm-1999-oct-22-fi-24964-story.html (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
   },
   {
@@ -184,7 +159,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/Douglas_Ivester (read 2026-10-03); month change from data/out/ko.json"
   },
   {
@@ -196,7 +170,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola2001_djvu.txt (2001 annual report, read 2026-10-03); yearly change from data/out/ko.json"
   },
   {
@@ -208,7 +181,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
   },
   {
@@ -220,7 +192,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134404000064/ko8k504x99-1.txt (press release of 4 May 2004, read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03)"
   },
   {
@@ -232,7 +203,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134404000183/ko8k1111x99-1.txt (press release of 11 November 2004, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134404000138/ko8k9150499-1.txt (warning of 15 September 2004, read 2026-10-03)"
   },
   {
@@ -244,7 +214,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Glaceau section, read 2026-10-03)"
   },
   {
@@ -256,7 +225,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Coca-Cola_Enterprises (read 2026-10-03); https://archive.org/download/cocacolacoannualreports/cocacola2010_djvu.txt (2010 annual review, read 2026-10-03)"
   },
   {
@@ -268,7 +236,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola2010_djvu.txt (2010 annual review, read 2026-10-03)"
   },
   {
@@ -280,7 +247,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://archive.org/download/cocacolacoannualreports/cocacola2012_djvu.txt (2012 annual review and 10-K, read 2026-10-03)"
   },
   {
@@ -292,7 +258,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Monster section, read 2026-10-03)"
   },
   {
@@ -304,7 +269,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Coca-Cola_Enterprises (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000090342315000480/cocacola8kexhibit.htm (merger presentation of 6 August 2015, read 2026-10-03)"
   },
   {
@@ -316,7 +280,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000112329216003050/pressrelease-12092016.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134417000029/a2017q3earningsreleaseex-9.htm (refranchising, read 2026-10-03)"
   },
   {
@@ -328,7 +291,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Costa Coffee section, read 2026-10-03)"
   },
   {
@@ -340,7 +302,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000005/a2022q4earningsreleaseex-9.htm (read 2026-10-03); yearly change from data/out/ko.json"
   },
   {
@@ -352,7 +313,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000004/a2023q4earningsreleaseex-9.htm (release of 13 February 2024, read 2026-10-03)"
   },
   {
@@ -364,7 +324,6 @@
     "assets": [
       "ko"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/21344/000155278125000454/e25454_ex99-1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Henrique_Braun (read 2026-10-03)"
   }
 ]

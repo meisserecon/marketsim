@@ -1,20 +1,5 @@
 [
   {
-    "id": "f18fa418",
-    "month": "1982-05",
-    "title": "Schweizerischer Bankverein joins the game",
-    "what": "The Schweizerischer Bankverein of Basel, called Swiss Bank Corporation abroad, is the second of Switzerland's three big banks by assets, behind the Bankgesellschaft. It runs a large Swiss branch network, lends to companies and has been building up business abroad, including a portfolio-management company it set up in New York this year. Like its rivals it lives from Switzerland's role as a safe place for the world's savings.",
-    "why": "Listing beat. The Bankverein is the bank that 'always looked beyond Switzerland' and ends up as the strategic core of today's UBS: its managers (Ospel) and its investment-banking purchases run the merged bank from 1998.",
-    "assets": [
-      "sbv",
-      "ubs"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/swiss-bank-corporation (read 2026-10-03)",
-    "lead": true,
-    "cut": true
-  },
-  {
     "id": "13355c1d",
     "month": "1985-06",
     "title": "Zurich's 'unbraked boom' is led by the banks",
@@ -29,7 +14,6 @@
       "asset": "sbv",
       "pct": 14
     },
-    "importance": 2,
     "source": "Neue Zürcher Zeitung, 29 June 1985, p. 23 ('Zürcher Börse vom 24. Juni bis zum 28. Juni: Ungebremste Hausse'), scan data/manual/scans/nzz/NZZ_1985-06-29.pdf (read 2026-10-03)",
     "lead": true
   },
@@ -48,7 +32,6 @@
       "asset": "sbv",
       "pct": 15
     },
-    "importance": 3,
     "source": "Neue Zürcher Zeitung, 30 August 1986, p. 23 ('Zürcher Börse vom 25. August bis zum 29. August: Verlangsamt nach oben'), scan data/manual/scans/nzz/NZZ_1986-08-30.pdf (read 2026-10-03)"
   },
   {
@@ -64,7 +47,6 @@
       "asset": "sbv",
       "pct": -10
     },
-    "importance": 3,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/swiss-bank-corporation (read 2026-10-03); https://en.wikipedia.org/wiki/Elisabeth_Kopp (read 2026-10-03)"
   },
   {
@@ -82,7 +64,6 @@
       "asset": "sbv",
       "pct": 17
     },
-    "importance": 3,
     "source": "Neue Zürcher Zeitung, 1 July 1989, p. 39 ('Zürcher Börse vom 26. Juni zum 30. Juni: Gegen Zinserhöhungen resistente Aktienkurse'), scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)"
   },
   {
@@ -100,7 +81,6 @@
       "asset": "sbv",
       "pct": 15
     },
-    "importance": 2,
     "source": "Neue Zürcher Zeitung, 31 July 1993, p. 29 ('Die Zürcher Börse vom 26. bis zum 30. Juli: Anhaltende Attraktivität des Schweizer Marktes'), scan data/manual/scans/nzz/NZZ_1993-07-31.pdf (read 2026-10-03)"
   },
   {
@@ -118,7 +98,6 @@
       "asset": "sbv",
       "pct": 14
     },
-    "importance": 2,
     "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Neuer schwerer Schwächeanfall des Dollars'; 'Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
@@ -130,7 +109,6 @@
     "assets": [
       "sbv"
     ],
-    "importance": 2,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)"
   }
 ]

@@ -47,7 +47,6 @@ A JSON array in ascending month order:
     "why": "For the curator: why this beat matters in the arc, hindsight allowed. One or two sentences.",
     "assets": ["brk"],
     "move": { "asset": "brk", "pct": -4 },
-    "importance": 2,
     "source": "https://... (read 2026-10-03)"
   }
 ]
@@ -58,13 +57,15 @@ A JSON array in ascending month order:
 - `why`: hindsight is fine here; it never reaches the players.
 - `assets`: company ids concerned (empty for a pure world beat). Only companies in the game by that month (see `listed` in universe.ts and the first month in `data/out/<id>.json`).
 - `move`: optional, the price move this beat explains, as in movers.md: the asset id (`sp500` and `gold` allowed) and the month's change in percent, rounded. Give it only when the connection is real; a beat may have none.
-- `importance`: 1 = must be in the game (defines the arc), 2 = should be, 3 = nice to have. Aim for roughly a third each.
+- `lead`: optional, set by the curator: this beat is the lead story of its month. Without one, entries and exits come first, then world news before company news, the bigger price move first.
+- There are no priorities and no hidden beats: every beat in a file is shown to the players. A beat that should not be shown is deleted (git keeps it).
 - `source`: where the facts come from, with the date read. Nothing from memory alone.
+- `changed`: optional, set by a writer on a beat it added, restored or rewrote after the curator's review: one line on what was done and why. The review desk lists these under "Changed"; the curator clears the mark when he accepts the beat.
 - `thread`: optional, the grand storyline the beat belongs to (a key of `THREADS` in `shared/src/news.ts`, e.g. `euro`). Each storyline is described in `data/news/threads/<thread>.md` and must read as a continuous story: early signs, escalation, peak, aftermath.
 
 ## Coverage rules
 
-- Every company arc covers the company's whole time in the game, from its listing month to its exit or today: a beat at least every two years, more where things happened, and the listing itself (why someone might buy it then) and the exit (takeover, merger, bankruptcy) as beats of importance 1.
+- Every company arc covers the company's whole time in the game, from its listing month to its exit or today: a beat at least every two years, more where things happened, and the listing itself (why someone might buy it then) and the exit (takeover, merger, bankruptcy).
 - Every month in the company's "Biggest months" list in movers.md either has a beat with a `move`, or is listed under "Unexplained moves" in the `.md` with what was checked.
 - Market arcs: a beat for every market month of ±8% or more within the theme's reach, and for the calendar-year turns that the theme explains.
 - Twenty to forty beats per company arc over a long life, fewer for a short one; thirty to sixty for a market arc.

@@ -26,6 +26,26 @@
     "imageCredit": "Associated Press"
   },
   {
+    "month": "1984-01",
+    "kind": "company",
+    "headline": "Nestlé agrees to follow the baby-milk code; US boycott suspended",
+    "text": "After talks with the boycott groups, Nestlé has agreed to implement the World Health Organization's code on selling breast-milk substitutes and to set up an independent audit commission. In return the boycott, which began in the United States in July 1977, is being called off.",
+    "assets": [
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott (read 2026-10-03); https://waba.org.my/theboycottbook/takingongoliath.pdf (cited in data/news/1984.json, not re-read)"
+  },
+  {
+    "month": "1984-02",
+    "kind": "company",
+    "headline": "Diet Coke takes off; Columbia earns more than expected",
+    "text": "Coca-Cola's net income rose 9% to 559 million dollars in 1983 on revenue of 6.8 billion. Diet Coke, launched only in July 1982, captured 17% of the fast-growing US diet soft drink market by the end of 1983 and became the fourth best-selling soft drink in North America; it has been introduced in 28 markets abroad. Columbia Pictures' profits in its first full year were well above expectations. Coca-Cola products make up more than 35% of the soft drinks drunk worldwide.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://archive.org/download/cocacolacoannualreports/cocacola1983_djvu.txt (1983 annual report, read 2026-10-03)"
+  },
+  {
     "month": "1984-03",
     "kind": "company",
     "headline": "Disney shares soar on takeover buying",
@@ -50,6 +70,16 @@
     "image": "/news/wmt/1984-03-walton-hula.jpg",
     "imageCaption": "Sam Walton dances the hula on Wall Street in a grass skirt and leis, New York, 15 March 1984",
     "imageCredit": "Walmart (company picture)"
+  },
+  {
+    "month": "1984-04",
+    "kind": "company",
+    "headline": "Intel's first billion-dollar year",
+    "text": "Intel's annual report for 1983 shows sales up 25 percent to more than one billion dollars, the first time it has passed that mark, after two difficult years. Chairman Gordon Moore wrote: \"We closed 1983 with a bang.\" The economic recovery has brought strong demand for chips for personal computers and factory automation.",
+    "assets": [
+      "intc"
+    ],
+    "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)"
   },
   {
     "month": "1984-05",
@@ -132,6 +162,17 @@
     "imageCredit": "Fiver, der Hellseher"
   },
   {
+    "month": "1984-10",
+    "kind": "world",
+    "headline": "Indira Gandhi is assassinated",
+    "text": "On 31 October India's prime minister Indira Gandhi was shot dead at her home in New Delhi by two of her own bodyguards. They were Sikhs taking revenge: in June she had sent the army into the Golden Temple in Amritsar, the holiest place of the Sikh religion, to drive out armed militants. Her son Rajiv Gandhi has been sworn in as prime minister.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi (read 2026-10-04); NZZ, 1 November 1984, front page (scan read 2026-10-04)",
+    "image": "/news/world/1984-10-indira-gandhi.jpg",
+    "imageCaption": "Indira Gandhi, 1983",
+    "imageCredit": "Prime Minister's Office"
+  },
+  {
     "month": "1984-11",
     "kind": "world",
     "headline": "Reagan re-elected in a 49-state landslide",
@@ -140,5 +181,27 @@
     "source": "https://en.wikipedia.org/wiki/1984_United_States_presidential_election (read 2026-10-03)",
     "image": "/news/world/1984-11-reagan-mondale-call.jpg",
     "imageCaption": "President Reagan and Nancy Reagan receive Walter Mondale's concession call, Los Angeles, 6 November 1984"
+  },
+  {
+    "month": "1984-12",
+    "kind": "world",
+    "headline": "1984 in review: a flat year as rates rise and fall",
+    "text": "The S&P 500 ended 1984 at 167.24, up only 1%, and the Dow fell 3.7% to 1,211.57. Interest rates rose in the first half, with the prime rate peaking at 13 percent in June, then fell back to 10.75 percent by 19 December. Shares are roughly where they were at the end of 1983.",
+    "assets": [
+      "ust1985",
+      "ust1990",
+      "ust2000"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
+  },
+  {
+    "month": "1984-12",
+    "kind": "company",
+    "headline": "Siemens bets on memory chips with the MEGA project",
+    "text": "This year Siemens launched the MEGA project to develop memory chips that hold 1 and 4 million bits. US and Japanese firms dominate the semiconductor industry, and Siemens wants to catch up.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   }
 ]

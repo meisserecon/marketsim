@@ -27,6 +27,26 @@
     "imageCredit": "IBM (IBM Archives)"
   },
   {
+    "month": "1993-02",
+    "kind": "company",
+    "headline": "Earnings up 20% in 1992, but the stock only kept pace",
+    "text": "Coca-Cola's earnings per share and operating income rose 20% in 1992 (excluding accounting changes), after 19% in 1991, and its share of world soft drink sales reached a record 43%. Volume growth slowed to 3% as recessions hit markets such as Brazil. The share price rose only 4.4%, in line with the market, for a total return of 5.8% after 75% in 1991; the company says it is 'downright unhappy'. The board raised the quarterly dividend 21%.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://archive.org/download/cocacolacoannualreports/cocacola1992_djvu.txt (1992 annual report, read 2026-10-03)"
+  },
+  {
+    "month": "1993-03",
+    "kind": "company",
+    "headline": "Berkshire's book value up 20% in 1992; Buffett back from Salomon",
+    "text": "Buffett's letter of 1 March reports that book value per share rose 20.3% in 1992, to 7,745 dollars, a compound 23.6% a year over 28 years. Last June Buffett stepped down as interim chairman of Salomon Inc after ten months; Salomon Brothers has since reported record pre-tax earnings.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/1992.html (read 2026-10-03); data/out/brk.json price series"
+  },
+  {
     "month": "1993-03",
     "kind": "company",
     "headline": "McDonald's: 111 record quarters in a row",
@@ -54,17 +74,14 @@
     "imageCredit": "Will Mcintyre/The LIFE Images Collection/Getty Images"
   },
   {
-    "month": "1993-05",
+    "month": "1993-04",
     "kind": "company",
-    "headline": "Bernd Pischetsrieder takes over from von Kuenheim",
-    "text": "Eberhard von Kuenheim handed over the chairmanship of BMW on 13 May after 23 years and moves to the supervisory board. In his time the company grew from 20,000 to 70,000 employees and to sales of 30 billion marks. His successor is Bernd Pischetsrieder rather than the development chief Wolfgang Reitzle.",
+    "headline": "Enron's giant power station in England starts up",
+    "text": "Enron's Teesside power station near Middlesbrough in north-east England has been commissioned after 29 months of construction. With 1,875 megawatts it is the largest gas-fired combined-cycle plant in Europe and can supply almost 3% of the electricity of England, Wales and Scotland.",
     "assets": [
-      "bmw"
+      "enron"
     ],
-    "source": "https://de.wikipedia.org/wiki/Eberhard_von_Kuenheim (read 2026-10-03); https://en.wikipedia.org/wiki/Bernd_Pischetsrieder (read 2026-10-03)",
-    "image": "/news/bmw/1993-05-pischetsrieder.jpg",
-    "imageCaption": "Bernd Pischetsrieder, who became BMW chairman in 1993",
-    "imageCredit": "International Students’ Committee"
+    "source": "https://en.wikipedia.org/wiki/Teesside_Power_Station (read 2026-10-03); https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
   },
   {
     "month": "1993-05",
@@ -80,17 +97,38 @@
     "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
-    "month": "1993-07",
+    "month": "1993-05",
     "kind": "company",
-    "headline": "Gerstner takes an 8.9 billion dollar charge and cuts 35,000 jobs",
-    "text": "IBM reported a second-quarter loss of 8.04 billion dollars after an 8.9 billion dollar restructuring charge, and will cut 35,000 more jobs, shrinking to about 225,000 employees by the end of 1994. The dividend was cut again, to 25 cents a quarter. 'The No. 1 priority is to restore the company to profitability,' Gerstner said.",
+    "headline": "Bernd Pischetsrieder takes over from von Kuenheim",
+    "text": "Eberhard von Kuenheim handed over the chairmanship of BMW on 13 May after 23 years and moves to the supervisory board. In his time the company grew from 20,000 to 70,000 employees and to sales of 30 billion marks. His successor is Bernd Pischetsrieder rather than the development chief Wolfgang Reitzle.",
     "assets": [
-      "ibm"
+      "bmw"
     ],
-    "source": "https://www.upi.com/Archives/1993/07/27/IBM-posts-loss-announces-job-cuts/1007743745600/ (read 2026-10-03)",
-    "image": "/news/ibm/1993-07-gerstner-1993.jpg",
-    "imageCaption": "Louis Gerstner, IBM's new chairman and chief executive, in his 1993 executive portrait",
-    "imageCredit": "IBM (executive biography files, 1993; no photographer named on the page)"
+    "source": "https://de.wikipedia.org/wiki/Eberhard_von_Kuenheim (read 2026-10-03); https://en.wikipedia.org/wiki/Bernd_Pischetsrieder (read 2026-10-03)",
+    "image": "/news/bmw/1993-05-pischetsrieder.jpg",
+    "imageCaption": "Bernd Pischetsrieder, who became BMW chairman in 1993",
+    "imageCredit": "International Students’ Committee"
+  },
+  {
+    "month": "1993-06",
+    "kind": "colour",
+    "headline": "Jurassic Park breaks the box-office record",
+    "text": "Steven Spielberg's Jurassic Park opened in American cinemas on 11 June and took 50.1 million dollars in its first weekend, a new record. Its dinosaurs were made with computer-generated images by Industrial Light & Magic and with life-sized animatronic models.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Jurassic_Park_(film) (read 2026-10-03)"
+  },
+  {
+    "month": "1993-06",
+    "kind": "company",
+    "headline": "Apple replaces its chief executive as a price war eats its profit",
+    "text": "On 18 June Apple's board replaced John Sculley as chief executive with Michael Spindler, until now the number two; Sculley stays on as chairman. A price war among PC makers is forcing Apple to sell its Macintosh computers ever more cheaply, and its profit is shrinking fast. The shares lost 30% in June.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "http://www.applematters.com/article/june-18-1993-spindler-replaces-sculley/ (search result read 2026-10-04); https://igotoffer.com/apple/history-apple-1993-1994 (search result read 2026-10-04)",
+    "image": "/news/aapl/1993-06-john-sculley.jpg",
+    "imageCaption": "John Sculley, 2014",
+    "imageCredit": "Judae1"
   },
   {
     "month": "1993-07",
@@ -108,10 +146,23 @@
     "imageCredit": "Zwantzig"
   },
   {
+    "month": "1993-07",
+    "kind": "company",
+    "headline": "Gerstner takes an 8.9 billion dollar charge and cuts 35,000 jobs",
+    "text": "IBM reported a second-quarter loss of 8.04 billion dollars after an 8.9 billion dollar restructuring charge, and will cut 35,000 more jobs, shrinking to about 225,000 employees by the end of 1994. The dividend was cut again, to 25 cents a quarter. 'The No. 1 priority is to restore the company to profitability,' Gerstner said.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://www.upi.com/Archives/1993/07/27/IBM-posts-loss-announces-job-cuts/1007743745600/ (read 2026-10-03)",
+    "image": "/news/ibm/1993-07-gerstner-1993.jpg",
+    "imageCaption": "Louis Gerstner, IBM's new chairman and chief executive, in his 1993 executive portrait",
+    "imageCredit": "IBM (executive biography files, 1993; no photographer named on the page)"
+  },
+  {
     "month": "1993-10",
     "kind": "company",
-    "headline": "Sculley is out; Spindler takes over",
-    "text": "John Sculley has left Apple after a bad start to 1993 and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
+    "headline": "Sculley leaves Apple for good; Spindler cuts jobs",
+    "text": "John Sculley, replaced as chief executive in June, has now left Apple altogether after a bad year and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
     "assets": [
       "aapl"
     ],
@@ -134,6 +185,46 @@
     "imageCredit": "Official GDC"
   },
   {
+    "month": "1993-11",
+    "kind": "world",
+    "headline": "Brent sinks toward $14",
+    "text": "North Sea Brent fell to about $14 a barrel by the end of November and US crude to about $15, the lowest in five years, as OPEC members overproduce and demand is weak.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Chronology_of_world_oil_market_events (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
+  },
+  {
+    "month": "1993-11",
+    "kind": "company",
+    "headline": "Boeing launches the 737 Next Generation",
+    "text": "On 17 November Boeing announced the 737 Next Generation, an updated family of its best-selling small jet, with new wings and engines, to compete with the Airbus A320.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation (read 2026-10-03)"
+  },
+  {
+    "month": "1993-12",
+    "kind": "world",
+    "headline": "1993 in review: low interest rates, modest gains",
+    "text": "The S&P 500 gained 7% in 1993 to 466.45. The Dow closed above 3,500 for the first time on 19 May and ended the year at 3,754.09, up 13.7%. The yield on 30-year Treasury bonds has fallen to about 6.2 percent, which helps shares and borrowers.",
+    "assets": [
+      "ust1995",
+      "ust2000",
+      "ust2010"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03)"
+  },
+  {
+    "month": "1993-12",
+    "kind": "company",
+    "headline": "No recovery in sight for Japan's banks",
+    "text": "Most of 1993 passed without a clear sign of economic recovery. The troubles of the housing loan companies, the jusen, which borrowed heavily from banks, first hit the headlines this year.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
+  },
+  {
     "month": "1993-12",
     "kind": "company",
     "headline": "LDDS merges with Metromedia's and Resurgens' phone businesses",
@@ -141,6 +232,9 @@
     "assets": [
       "worldcom"
     ],
-    "source": "https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)"
+    "source": "https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)",
+    "image": "/news/worldcom/1993-12-telephone-exchange.jpg",
+    "imageCaption": "Telephone exchange, 1975",
+    "imageCredit": "Joseph A. Carr"
   }
 ]

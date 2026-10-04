@@ -8,7 +8,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 1,
     "thread": "dotcom",
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
     "lead": true
@@ -26,21 +25,7 @@
       "asset": "amzn",
       "pct": 55
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-001148.txt (10-Q for the quarter to June 30, 1997, read 2026-10-03)"
-  },
-  {
-    "id": "6a4f8093",
-    "month": "1997-11",
-    "title": "Amazon borrows $75 million",
-    "what": "Amazon arranged a $75 million three-year secured loan with Deutsche Bank on November 7 to finance its growth, on top of the money raised in its May listing.",
-    "why": "Small in hindsight, but a sign of how much cash the build-out needed; Bezos cited the IPO and this loan as giving Amazon 'substantial strategic flexibility'.",
-    "assets": [
-      "amzn"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000950151-97-000357.txt (8-K, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1018724/0001032210-01-500339.txt (1997 shareholder letter, read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "2c61783f",
@@ -51,21 +36,38 @@
     "assets": [
       "amzn"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000662.txt (8-K with press releases, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)"
   },
   {
-    "id": "adc68302",
-    "month": "1999-01",
-    "title": "Amazon's holiday sales quadruple",
-    "what": "On January 26 Amazon reported fourth-quarter sales of $252.9 million, up 283%, and sales of $610 million for 1998, up 313%. It has more than 6.2 million customers and leads in books, music and video online. The net loss for the quarter was $46.4 million; the finance chief warned that low prices and fast growth keep margins thin.",
-    "why": "Growth at any price, rewarded by the market: the shares rose another 1,108% in the twelve months to March 1999.",
+    "id": "cc2ceb43",
+    "month": "1998-06",
+    "title": "Amazon opens a music store",
+    "what": "Amazon began selling music CDs in June, its first big step beyond books, and its two-for-one share split took effect. Investors are piling into internet shares.",
+    "why": "The 'everything store' begins; the shares more than doubled in the month (+126%), one of the wildest months of the bubble.",
     "assets": [
       "amzn"
     ],
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000103.txt (8-K with press release, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000011.txt (read 2026-10-03)",
-    "cut": true
+    "move": {
+      "asset": "amzn",
+      "pct": 126
+    },
+    "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000662.txt (read 2026-10-03)"
+  },
+  {
+    "id": "8ff246c2",
+    "month": "1998-12",
+    "title": "Analyst predicts $400 for Amazon",
+    "what": "Henry Blodget, an internet analyst, predicted that Amazon's shares, trading at about $240, would reach $400 within a year. Many investors thought the forecast absurd for a company that has never made a profit.",
+    "why": "The call became the emblem of the bubble: Amazon passed $400 within about three weeks (+67% in December). Wikipedia dates the call to October 1998, but the $240 price level only fits mid-December 1998; the month is placed here on that basis.",
+    "assets": [
+      "amzn"
+    ],
+    "move": {
+      "asset": "amzn",
+      "pct": 67
+    },
+    "source": "https://en.wikipedia.org/wiki/Henry_Blodget (read 2026-10-03)",
+    "thread": "dotcom"
   },
   {
     "id": "ae802193",
@@ -76,7 +78,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
   },
   {
@@ -88,7 +89,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-00-001354.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -104,7 +104,6 @@
       "asset": "amzn",
       "pct": 54
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/000095010901500823/d10q.htm (10-Q for the quarter to March 31, 2001, read 2026-10-03)"
   },
   {
@@ -120,7 +119,6 @@
       "asset": "amzn",
       "pct": 31
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/000103221002000059/d10k405.htm (10-K for 2001, filed January 24, 2002, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
   },
   {
@@ -132,7 +130,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-04-009751.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -148,7 +145,6 @@
       "asset": "amzn",
       "pct": 36
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-05-148972.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -164,7 +160,6 @@
       "asset": "amzn",
       "pct": -30
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-06-152620.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)"
   },
   {
@@ -180,7 +175,6 @@
       "asset": "amzn",
       "pct": 54
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-07-088806.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -196,7 +190,6 @@
       "asset": "amzn",
       "pct": 27
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-09-211972.txt (8-K with press release, read 2026-10-03)",
     "lead": true
   },
@@ -209,7 +202,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-11-280254.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -221,7 +213,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-13-409933.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -234,7 +225,6 @@
       "amzn",
       "msft"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
   },
   {
@@ -250,7 +240,6 @@
       "asset": "amzn",
       "pct": 24
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000085.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -262,7 +251,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-17-205287.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
   },
   {
@@ -274,7 +262,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-18-000002.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -286,7 +273,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
   },
   {
@@ -302,7 +288,6 @@
       "asset": "amzn",
       "pct": 27
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-20-000008.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
   },
   {
@@ -314,7 +299,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-21-000002.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -330,7 +314,6 @@
       "asset": "amzn",
       "pct": -24
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000011.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
   },
   {
@@ -346,7 +329,6 @@
       "asset": "amzn",
       "pct": 27
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000017.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -358,7 +340,6 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)"
   },
   {
@@ -374,7 +355,6 @@
       "asset": "amzn",
       "pct": 14
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-24-000006.txt (8-K with press release, read 2026-10-03)"
   },
   {
@@ -386,7 +366,21 @@
     "assets": [
       "amzn"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-25-000002.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "id": "4481fb53",
+    "month": "2026-04",
+    "title": "Amazon's cloud accelerates",
+    "what": "On April 29 Amazon reported first-quarter sales of $181.5 billion, up 17%, with AWS sales up 28% to $37.6 billion and net income of $30.3 billion. Earlier in the month Amazon invested a further $5 billion in Anthropic.",
+    "why": "AI demand for cloud computing lifts the shares 27% in April 2026, in a strong month for the market (+10%).",
+    "assets": [
+      "amzn"
+    ],
+    "move": {
+      "asset": "amzn",
+      "pct": 27
+    },
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-26-000012.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)"
   }
 ]

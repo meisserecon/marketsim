@@ -13,7 +13,6 @@
       "asset": "gold",
       "pct": 16
     },
-    "importance": 1,
     "thread": "rates",
     "source": "data/out/gold.json (LBMA monthly averages via datahub.io/core/gold-prices, read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.federalreservehistory.org/essays/anti-inflation-measures (read 2026-10-03)",
     "lead": true
@@ -31,7 +30,6 @@
       "asset": "gold",
       "pct": 48
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/1980 (read 2026-10-03); https://en.wikipedia.org/wiki/1980_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
     "lead": true
   },
@@ -49,7 +47,6 @@
       "asset": "gold",
       "pct": 17
     },
-    "importance": 1,
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json",
     "lead": true
   },
@@ -67,7 +64,6 @@
       "asset": "gold",
       "pct": -14
     },
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
@@ -85,7 +81,6 @@
       "asset": "gold",
       "pct": -11
     },
-    "importance": 2,
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -105,7 +100,6 @@
       "asset": "ust2000",
       "pct": -9
     },
-    "importance": 1,
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out",
     "lead": true
@@ -124,7 +118,6 @@
       "asset": "gold",
       "pct": -12
     },
-    "importance": 2,
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
   },
   {
@@ -141,7 +134,6 @@
       "asset": "gold",
       "pct": 20
     },
-    "importance": 2,
     "source": "data/out/gold.json (read 2026-10-03); https://en.wikipedia.org/wiki/Latin_American_debt_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
@@ -157,7 +149,6 @@
       "asset": "gold",
       "pct": -14
     },
-    "importance": 1,
     "source": "data/out/gold.json (read 2026-10-03); https://www.upi.com/Archives/1983/03/14/OPEC-prices-down-consumer-optimism-up/3004416466000/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03)"
   },
   {
@@ -169,7 +160,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 1,
     "thread": "rates",
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
     "lead": true
@@ -183,7 +173,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "thread": "rates",
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03)"
   },
@@ -196,7 +185,6 @@
     "assets": [
       "gold"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
@@ -212,7 +200,6 @@
       "asset": "gold",
       "pct": 17
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Washington_Agreement_on_Gold (read 2026-10-03); https://en.wikipedia.org/wiki/Brown%27s_bottom (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -230,7 +217,6 @@
       "ebay",
       "worldcom"
     ],
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
@@ -247,7 +233,6 @@
       "asset": "sp500",
       "pct": 8
     },
-    "importance": 3,
     "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010418/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
@@ -259,7 +244,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "thread": "housing-crisis",
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/MORTGAGE30US.txt (read 2026-10-04)"
   },
@@ -272,7 +256,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
   {
@@ -288,7 +271,6 @@
       "asset": "gold",
       "pct": -12
     },
-    "importance": 2,
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
@@ -305,7 +287,6 @@
       "asset": "gold",
       "pct": 11
     },
-    "importance": 3,
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -321,7 +302,6 @@
       "asset": "ust2020",
       "pct": 10
     },
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
     "lead": true
@@ -336,7 +316,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 3,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -353,7 +332,6 @@
       "asset": "gold",
       "pct": -7
     },
-    "importance": 2,
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
@@ -366,7 +344,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -378,7 +355,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)"
   },
@@ -392,7 +368,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 1,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -405,7 +380,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
@@ -419,7 +393,6 @@
       "asset": "sp500",
       "pct": 8
     },
-    "importance": 3,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
@@ -431,7 +404,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
   },
@@ -449,7 +421,6 @@
       "asset": "gold",
       "pct": 7
     },
-    "importance": 2,
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03)"
   },
   {
@@ -461,7 +432,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03)"
   },
@@ -475,7 +445,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 1,
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
@@ -492,7 +461,6 @@
       "asset": "sp500",
       "pct": -9
     },
-    "importance": 3,
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)"
   },
   {
@@ -508,7 +476,6 @@
       "asset": "sp500",
       "pct": -8
     },
-    "importance": 1,
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03)"
   },
@@ -525,7 +492,6 @@
       "asset": "sp500",
       "pct": 9
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
   },
   {
@@ -541,7 +507,6 @@
       "asset": "sp500",
       "pct": -9
     },
-    "importance": 1,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03)"
   },
   {
@@ -555,7 +520,6 @@
       "credit-suisse",
       "ubs"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json"
   },
   {
@@ -567,7 +531,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)"
   },
@@ -584,7 +547,6 @@
       "asset": "sp500",
       "pct": 9
     },
-    "importance": 3,
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20231213.htm (read 2026-10-03)"
   },
   {
@@ -597,7 +559,6 @@
       "gold",
       "bonds"
     ],
-    "importance": 1,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03)"
   },
   {
@@ -613,7 +574,6 @@
       "asset": "gold",
       "pct": 11
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)"
   },
   {
@@ -629,7 +589,6 @@
       "asset": "gold",
       "pct": 10
     },
-    "importance": 1,
     "source": "https://euronews.com/business/2026/02/01/the-price-of-gold-and-silver-has-fallen-sharply-where-did-this-plunge-come-from (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03)"
   },
   {
@@ -645,7 +604,6 @@
       "asset": "gold",
       "pct": -8
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03)"
   },
   {
@@ -657,7 +615,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 1,
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03)"
   }
 ]

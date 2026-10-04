@@ -19,7 +19,20 @@
     "text": "On 15 February the last Soviet military column left Afghanistan, crossing the Friendship Bridge at Termez into Soviet Uzbekistan; its commander, General Boris Gromov, crossed last. The withdrawal, agreed in the Geneva Accords of April 1988, began in May, and half the troops were gone by August. In more than nine years of war thousands of Soviet soldiers and hundreds of thousands of Afghans have died, and some five million Afghans have fled abroad, most of them to Pakistan and Iran. The Afghan government of Najibullah fights on with Soviet aid.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Soviet_withdrawal_from_Afghanistan (read 2026-10-04); https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War (read 2026-10-04)",
-    "thread": "soviet"
+    "thread": "soviet",
+    "image": "/news/world/1989-02-soviet-withdrawal-from-afghanistan.jpg",
+    "imageCaption": "Soviet withdrawal from Afghanistan, 1989",
+    "imageCredit": "A. Solomonov / А. Соломонов"
+  },
+  {
+    "month": "1989-02",
+    "kind": "company",
+    "headline": "Schlumberger's profit doubles",
+    "text": "Schlumberger's operating results for 1988 rose to 419 million dollars from 211 million, excluding one-off items. Operating income in oilfield services tripled as North American wireline returned to profit, though oil price weakness hurt activity in the second half. It raised its stake in the Norwegian seismic company GECO from 50 to 75 percent.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger 1988 annual report, chairman's letter dated 7 February 1989, https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
   },
   {
     "month": "1989-03",
@@ -50,6 +63,14 @@
   },
   {
     "month": "1989-04",
+    "kind": "colour",
+    "headline": "Nintendo's Game Boy goes on sale in Japan",
+    "text": "Nintendo released the Game Boy, a hand-held game machine, in Japan on 21 April for 12,500 yen. It has a black-and-white screen and runs for up to 30 hours on four AA batteries. It is due in America in the summer.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Game_Boy (read 2026-10-03); data/news/1989.json"
+  },
+  {
+    "month": "1989-04",
     "kind": "company",
     "headline": "Berkshire soars 27% after its annual meeting in Omaha",
     "text": "Berkshire Hathaway shares jumped 27% in April to 6,275 dollars, against a market up 5%, after shareholders gathered in Omaha on 24 April for the annual meeting, the first since the share joined the New York Stock Exchange. Chairman Warren Buffett runs the company like no other: he buys businesses and large blocks of shares of companies with, as he puts it, \"outstanding economics and outstanding managements\", and then keeps them. \"Our favourite holding period is forever,\" he wrote to shareholders in February, and he claims no opinion at all about where the stock market will be in a year. The method has lifted Berkshire's book value from 19.46 dollars a share in 1965 to 2,974 dollars at the end of 1988, 23% a year compounded. His latest purchase is a 593 million dollar stake in Coca-Cola.",
@@ -61,6 +82,16 @@
     "image": "/news/brk/1989-04-kiewit.jpg",
     "imageCaption": "Kiewit Plaza in Omaha, Nebraska, home of Berkshire Hathaway’s offices",
     "imageCredit": "JonClee86"
+  },
+  {
+    "month": "1989-04",
+    "kind": "company",
+    "headline": "Intel announces the 486",
+    "text": "Intel announced the i486 processor on 10 April at the Comdex show. It is the first x86 chip with more than a million transistors and, Intel says, about twice as fast as the 386 at the same clock speed. Samples are due in the third quarter.",
+    "assets": [
+      "intc"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)"
   },
   {
     "month": "1989-05",
@@ -100,6 +131,18 @@
     "imageCredit": "Khamenei.ir"
   },
   {
+    "month": "1989-06",
+    "kind": "company",
+    "headline": "Speculation about Japanese buyers lifts the bank shares",
+    "text": "Swiss shares rose strongly in June, carried by foreign investors buying blue chips and by a favourable currency situation; they held up even when interest rates firmed and New York fell late in the month. Bank shares jumped in the third week on speculation that Japanese investors wanted to buy into Swiss banks, then fell back at the end of the month on rumours that a Swiss bank was involved in insider dealing in Germany.",
+    "assets": [
+      "sbv",
+      "ubs",
+      "credit-suisse"
+    ],
+    "source": "Neue Zürcher Zeitung, 1 July 1989, p. 39 ('Zürcher Börse vom 26. Juni zum 30. Juni: Gegen Zinserhöhungen resistente Aktienkurse'), scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)"
+  },
+  {
     "month": "1989-07",
     "kind": "world",
     "headline": "Shares climb back above their pre-crash record",
@@ -113,6 +156,48 @@
     "image": "/news/markets/1989-07-bush-desk.jpg",
     "imageCaption": "President George H. W. Bush at his desk in the Oval Office",
     "imageCredit": "Michael Geissinger)"
+  },
+  {
+    "month": "1989-07",
+    "kind": "company",
+    "headline": "Berkshire invests 600 million dollars in Gillette",
+    "text": "On 21 July Berkshire agreed to invest 600 million dollars in Gillette through securities paying 8.75% that can be turned into about 11% of Gillette's shares after two years. Buffett called Gillette 'exactly the sort of business in which we like to invest for the long term'. Analysts see it as protection against hostile bidders.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.upi.com/Archives/1989/07/21/Gillette-stock-up-on-Berkshire-Hathaway-purchase-of-stake-in-company/8300616996800/ (read 2026-10-03)"
+  },
+  {
+    "month": "1989-08",
+    "kind": "company",
+    "headline": "Four-for-one split and a 22% higher dividend",
+    "text": "Philip Morris's board approved a four-for-one stock split and raised the quarterly dividend 22%, to 1.375 dollars a share before the split. The shares closed at 163.50 dollars. The company earned 1.34 billion dollars in the first half, on revenue of 22.4 billion against 15.4 billion a year earlier, thanks to Kraft.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.upi.com/Archives/1989/08/30/Philip-Morris-splits-stock-and-raises-dividend/4918620452800/ (read 2026-10-03); price change from data/out/mo.json"
+  },
+  {
+    "month": "1989-09",
+    "kind": "world",
+    "headline": "East Germans flee to the West through Hungary",
+    "text": "East Germany does not let its people travel to the West: a wall and a guarded border keep them in. But Hungary, another communist country, began taking down its border fence with Austria on 2 May, and on 19 August several hundred East Germans on holiday there rushed through a gate opened for a picnic at the border. Since 10 September Hungary lets all East Germans cross into Austria freely. At home, people in Leipzig have gathered every Monday since 4 September to demand change, despite arrests and beatings.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Peaceful_Revolution (read 2026-10-04)",
+    "thread": "soviet",
+    "image": "/news/world/1989-09-removal-of-hungarys-border-fence-with-au.jpg",
+    "imageCaption": "Removal of Hungary's border fence with Austria, 2009",
+    "imageCredit": "Cuchulainn 17:15, 20. Jun. 2009 (CEST)"
+  },
+  {
+    "month": "1989-09",
+    "kind": "company",
+    "headline": "Apple's first portable Macintosh",
+    "text": "Apple released the Macintosh Portable on 20 September, its first battery-powered computer, at 5,799 dollars. The Mac line is selling well.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
     "month": "1989-09",
@@ -131,6 +216,20 @@
   {
     "month": "1989-10",
     "kind": "world",
+    "headline": "Mitsubishi Estate buys Rockefeller Center",
+    "text": "Mitsubishi Estate, the property company of the Mitsubishi group, is buying control of the Rockefeller Group, owner of Rockefeller Center in New York. It comes a month after Sony agreed to buy Columbia Pictures. Americans are uneasy about Japanese money buying up their landmarks.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json",
+    "thread": "japan",
+    "image": "/news/asia/1989-10-mitsubishi-rockefeller.jpg",
+    "imageCaption": "Mitsubishi Estate's president (right) and a senior vice president of the Rockefeller Group at the Tokyo press conference announcing the purchase, 31 October 1989",
+    "imageCredit": "Photo by The Asahi Shimbun via Getty Images"
+  },
+  {
+    "month": "1989-10",
+    "kind": "world",
     "headline": "Friday the 13th: a failed buyout knocks the Dow down 7 percent",
     "text": "On Friday 13 October the Dow fell 190.58 points or 6.9% and the S&P 500 6.1%, after financing for a 6.75 billion dollar buyout of UAL, the parent of United Airlines, fell apart. The indexes had closed at records only four days earlier. The failure raises doubts about the junk-bond market that pays for such deals.",
     "assets": [
@@ -142,20 +241,6 @@
     "image": "/news/markets/1989-10-london-traders.jpg",
     "imageCaption": "An options trader reacts at the opening of the London Stock Exchange on the Monday after New York's Friday-the-13th fall, 16 October 1989",
     "imageCredit": "Photo by Johnny EGGITT / AFP via Getty Images"
-  },
-  {
-    "month": "1989-10",
-    "kind": "world",
-    "headline": "Mitsubishi Estate buys Rockefeller Center",
-    "text": "Mitsubishi Estate, the property company of the Mitsubishi group, is buying control of the Rockefeller Group, owner of Rockefeller Center in New York. It comes a month after Sony agreed to buy Columbia Pictures. Americans are uneasy about Japanese money buying up their landmarks.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json",
-    "thread": "japan",
-    "image": "/news/asia/1989-10-mitsubishi-rockefeller.jpg",
-    "imageCaption": "Mitsubishi Estate's president (right) and a senior vice president of the Rockefeller Group at the Tokyo press conference announcing the purchase, 31 October 1989",
-    "imageCredit": "Photo by The Asahi Shimbun via Getty Images"
   },
   {
     "month": "1989-10",
@@ -225,6 +310,26 @@
   },
   {
     "month": "1989-12",
+    "kind": "world",
+    "headline": "1989 in review: up 27 percent and above the 1987 peak",
+    "text": "The S&P 500 gained 27% in 1989 to 353.40, its best year since the bull market began, and the Dow rose 27.0% to 2,753.20. Both are now above their pre-crash records. The October scare raised doubts whether the takeover boom, which drove much of the rise, can keep finding borrowed money.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
+  },
+  {
+    "month": "1989-12",
+    "kind": "world",
+    "headline": "Revolutions sweep the rest of eastern Europe",
+    "text": "Presidents Bush and Gorbachev met off Malta on 2 and 3 December. In Prague the communists gave up power after weeks of peaceful protest, and the dissident playwright Vaclav Havel was elected president on 29 December. In Romania an uprising that began in Timisoara on 16 December reached Bucharest, and the dictator Nicolae Ceausescu was executed on 25 December.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03); https://en.wikipedia.org/wiki/Romanian_revolution (read 2026-10-03)",
+    "thread": "soviet",
+    "image": "/news/world/1989-12-bucharest-revolution.jpg",
+    "imageCaption": "Crowds face tanks and militia on Magheru Boulevard in Bucharest during the Romanian revolution, December 1989",
+    "imageCredit": "Attribution: Romanian National History Museum"
+  },
+  {
+    "month": "1989-12",
     "kind": "company",
     "headline": "The 'Germany boom': Daimler soars after the Wall falls",
     "text": "Since the opening of the Berlin Wall in November, foreign investors have been buying German blue chips, seeing West German industry as the main winner of the new markets in the East. The DAX reached a new post-war high before Christmas. In November the government allowed Daimler-Benz to take over MBB from 1 January, making it Germany's largest technology and defence group; Daimler also raised 1.9 billion marks by issuing new shares at 460 marks.",
@@ -248,17 +353,5 @@
     "image": "/news/ibm/1989-12-akers.jpg",
     "imageCaption": "John Akers, IBM's chairman and chief executive",
     "imageCredit": "IBM (IBM Archives)"
-  },
-  {
-    "month": "1989-12",
-    "kind": "world",
-    "headline": "Revolutions sweep the rest of eastern Europe",
-    "text": "Presidents Bush and Gorbachev met off Malta on 2 and 3 December. In Prague the communists gave up power after weeks of peaceful protest, and the dissident playwright Vaclav Havel was elected president on 29 December. In Romania an uprising that began in Timisoara on 16 December reached Bucharest, and the dictator Nicolae Ceausescu was executed on 25 December.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03); https://en.wikipedia.org/wiki/Romanian_revolution (read 2026-10-03)",
-    "thread": "soviet",
-    "image": "/news/world/1989-12-bucharest-revolution.jpg",
-    "imageCaption": "Crowds face tanks and militia on Magheru Boulevard in Bucharest during the Romanian revolution, December 1989",
-    "imageCredit": "Attribution: Romanian National History Museum"
   }
 ]

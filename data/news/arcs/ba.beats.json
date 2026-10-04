@@ -1,18 +1,5 @@
 [
   {
-    "id": "17485022",
-    "month": "1979-12",
-    "title": "Boeing, the world's airliner maker",
-    "what": "Boeing builds most of the world's passenger jets, from the 727 and 737 to the 747 jumbo, and military aircraft and space systems for the US government. It is developing two new fuel-saving jets at once: the 767 wide-body, launched in 1978 with an order from United Airlines, and the 757, ordered by Eastern Air Lines and British Airways. Europe's Airbus is a young competitor.",
-    "why": "The listing beat. Boeing is a cyclical stock: it lives on airline orders, fuel prices and defence budgets, and the arc swings from booms to near-death experiences (2001, 2009, 2019-20, 2024).",
-    "assets": [
-      "ba"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03); data/src/profiles.ts (Boeing profile from 1975-01)",
-    "cut": true
-  },
-  {
     "id": "3912c224",
     "month": "1980-01",
     "title": "Boeing soars 29% as the Afghanistan invasion sends money into defence stocks",
@@ -25,7 +12,6 @@
       "asset": "ba",
       "pct": 29
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Carter_Doctrine (read 2026-10-03); https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War (read 2026-10-03); https://en.wikipedia.org/wiki/AGM-86_ALCM (read 2026-10-03); monthly price change from data/out/ba.json"
   },
   {
@@ -37,7 +23,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03)"
   },
   {
@@ -54,7 +39,6 @@
       "asset": "ba",
       "pct": 48
     },
-    "importance": 2,
     "thread": "rates",
     "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json; https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/UNRATE.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)"
   },
@@ -67,7 +51,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
   },
   {
@@ -79,7 +62,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://www.americanactionforum.org/insight/the-economic-impact-of-strikes-an-historical-boeing-case-study/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_757 (read 2026-10-03, 1988-89 orders)"
   },
   {
@@ -91,7 +73,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation (read 2026-10-03)"
   },
   {
@@ -103,21 +84,7 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Boeing_777 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
-  },
-  {
-    "id": "19ec85fb",
-    "month": "1996-12",
-    "title": "Boeing to merge with McDonnell Douglas",
-    "what": "On 15 December Boeing announced a merger with McDonnell Douglas, its last American rival in airliners and a big military aircraft maker, in a stock swap worth about 13 billion dollars. Ten days earlier it agreed to buy Rockwell's aerospace and defence units.",
-    "why": "Creates the aerospace giant of the later arcs. Many later blamed the McDonnell Douglas culture of cost-cutting for the 737 MAX disaster.",
-    "assets": [
-      "ba"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing Boeing releases of 1996-12-05 and 1996-12-15); https://en.wikipedia.org/wiki/McDonnell_Douglas (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "559700aa",
@@ -132,7 +99,6 @@
       "asset": "ba",
       "pct": -20
     },
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/1998-12-01-Boeing-Announces-Production-Rate-Changes-Financial-Projections (read 2026-10-03)"
   },
   {
@@ -144,7 +110,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2003-12-01-Boeing-Announces-Resignation-of-Phil-Condit-Lew-Platt-Named-Non-Executive-Chairman-Harry-Stonecipher-Named-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
@@ -156,7 +121,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 1,
     "source": "https://boeing.mediaroom.com/2004-04-26-Boeing-Launches-7E7-Dreamliner (read 2026-10-03)"
   },
   {
@@ -169,7 +133,6 @@
       "ba",
       "ge"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2005-06-30-Boeing-Board-Elects-W.-James-McNerney-Jr.-Chairman-President-and-CEO (title seen in release list, 2026-10-03); https://boeing.mediaroom.com/2005-03-07-Boeing-CEO-Harry-Stonecipher-Resigns-Board-Appoints-James-Bell-Interim-President-and-CEO-Lew-Platt-to-Expand-Role (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
@@ -181,7 +144,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2007-07-08-Boeing-Celebrates-the-Premiere-of-the-787-Dreamliner (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
@@ -193,7 +155,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2009-12-15-Boeing-787-Dreamliner-Completes-First-Flight (read 2026-10-03); https://boeing.mediaroom.com/2009-06-23-Boeing-Postpones-787-First-Flight (read 2026-10-03)"
   },
   {
@@ -205,7 +166,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://boeing.mediaroom.com/2011-09-25-Boeing-ANA-Complete-Contractual-Delivery-of-First-787-Dreamliner (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
@@ -217,7 +177,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2013_Boeing_787_Dreamliner_grounding (read 2026-10-03, citing BBC 2013-01-17)"
   },
   {
@@ -229,7 +188,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing Boeing release 2015-06-23 and Business Insider 2015-06-23); https://en.wikipedia.org/wiki/Dennis_Muilenburg (read 2026-10-03)"
   },
   {
@@ -245,7 +203,6 @@
       "asset": "ba",
       "pct": -17
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/12927/000095012316013052/a201512dec318kpressrelease.htm (Boeing results release of 2016-01-27, read 2026-10-03)"
   },
   {
@@ -261,7 +218,6 @@
       "asset": "ba",
       "pct": 23
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/12927/000095012317006317/a201706jun308kpressrelease.htm (Boeing results release of 2017-07-26, read 2026-10-03)"
   },
   {
@@ -273,7 +229,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_MAX (read 2026-10-03)"
   },
   {
@@ -289,7 +244,6 @@
       "asset": "ba",
       "pct": -13
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NYT 2019-03-12/13 and Time 2019-03-11); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03)"
   },
   {
@@ -301,7 +255,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2019-12-16-Boeing-Statement-Regarding-737-MAX-Production (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing Reuters 2019-12-23); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, July 2019 charge)"
   },
   {
@@ -317,7 +270,6 @@
       "asset": "ba",
       "pct": -46
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292720000030/exhibit991.htm (Boeing release of 2020-03-20, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/12927/000001292720000033/exhibit991.htm (Boeing release of 2020-03-23, read 2026-10-03)"
   },
   {
@@ -333,7 +285,6 @@
       "asset": "ba",
       "pct": 26
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing FlightGlobal 2020-07-01); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing NPR 2020-05-27)"
   },
   {
@@ -349,7 +300,6 @@
       "asset": "ba",
       "pct": 46
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03, citing Seattle Times 2020-11-18); https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03)"
   },
   {
@@ -361,7 +311,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings (read 2026-10-03)"
   },
   {
@@ -377,7 +326,6 @@
       "asset": "ba",
       "pct": -22
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292722000019/a202203mar318kprex991.htm (Boeing results release of 2022-04-27, read 2026-10-03)"
   },
   {
@@ -393,7 +341,6 @@
       "asset": "ba",
       "pct": 24
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Boeing_777X (read 2026-10-03); data/news/arcs/movers.md (S&P 500 +9% in 2023-11)"
   },
   {
@@ -409,7 +356,6 @@
       "asset": "ba",
       "pct": -19
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_1282 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
   },
   {
@@ -421,7 +367,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2024-07-01-Boeing-to-Acquire-Spirit-AeroSystems (read 2026-10-03); https://boeing.mediaroom.com/2024-07-31-Boeing-Board-Names-Kelly-Ortberg-President-and-CEO (read 2026-10-03); https://en.wikipedia.org/wiki/Spirit_AeroSystems (read 2026-10-03); https://en.wikipedia.org/wiki/Dave_Calhoun (read 2026-10-03)"
   },
   {
@@ -437,7 +382,6 @@
       "asset": "ba",
       "pct": -12
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2024_Boeing_machinists%27_strike (read 2026-10-03)"
   },
   {
@@ -449,7 +393,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 2,
     "source": "https://boeing.mediaroom.com/2024-10-29-Boeing-Announces-Pricing-of-Upsized-Concurrent-Offerings-of-Common-Stock-and-Depositary-Shares (read 2026-10-03)"
   },
   {
@@ -461,7 +404,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing CNBC 2025-03-21)"
   },
   {
@@ -473,7 +415,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing WSJ 2025-12-03); https://en.wikipedia.org/wiki/Spirit_AeroSystems (read 2026-10-03)"
   },
   {
@@ -485,7 +426,6 @@
     "assets": [
       "ba"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Boeing (read 2026-10-03, citing BBC and CNBC 2026-05-20)"
   }
 ]

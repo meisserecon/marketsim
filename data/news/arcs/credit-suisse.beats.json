@@ -10,7 +10,6 @@
       "ubs",
       "sbv"
     ],
-    "importance": 1,
     "source": "https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); company profiles in data/src/profiles.ts for the Bankgesellschaft and the Bankverein",
     "lead": true
   },
@@ -25,7 +24,6 @@
       "sbv",
       "credit-suisse"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/1984_Swiss_referendums (read 2026-10-03)"
   },
   {
@@ -43,7 +41,6 @@
       "asset": "credit-suisse",
       "pct": 17
     },
-    "importance": 1,
     "source": "Neue Zürcher Zeitung, 30 November 1985, p. 23 ('Zürcher Börse vom 25. bis zum 29. November: Im Eiltempo zu neuen Gipfeln'), scan data/manual/scans/nzz/NZZ_1985-11-30.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
@@ -59,7 +56,6 @@
       "asset": "credit-suisse",
       "pct": -3
     },
-    "importance": 2,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://hls-dhs-dss.ch/de/articles/041821/ (read 2026-10-03); exchange offer: data/manual/credit-suisse.csv header (NZZ 17.4.1989) (read 2026-10-03)"
   },
   {
@@ -71,7 +67,6 @@
     "assets": [
       "credit-suisse"
     ],
-    "importance": 3,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
   },
   {
@@ -85,7 +80,6 @@
       "sbv",
       "credit-suisse"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Spar-_und_Leihkasse_Thun (read 2026-10-03)"
   },
   {
@@ -98,7 +92,6 @@
       "credit-suisse",
       "ubs"
     ],
-    "importance": 1,
     "source": "https://www.swissinfo.ch/ger/ska-uebernahm-vor-25-jahren-die-angeschlagene-volksbank/43802724 (read 2026-10-03)"
   },
   {
@@ -110,25 +103,7 @@
     "assets": [
       "credit-suisse"
     ],
-    "importance": 3,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
-  },
-  {
-    "id": "5fa37dd3",
-    "month": "1997-08",
-    "title": "Credit Suisse buys Winterthur",
-    "what": "In August Credit Suisse Group agreed to merge with the Winterthur insurance group for about $9.5 billion. The combined group will have total assets of about 700 billion francs and offer banking and insurance from one hand.",
-    "why": "The insurance arm drags Credit Suisse down in the bear market of 2001-2002 and is sold to AXA in 2006.",
-    "assets": [
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -11
-    },
-    "importance": 2,
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "939aeefd",
@@ -143,7 +118,6 @@
       "asset": "credit-suisse",
       "pct": 25
     },
-    "importance": 3,
     "source": "Neue Zürcher Zeitung, 1 April 2000, p. 33 ('Die überfällige Nasdaq-Korrektur'; 'Der Schweizer Aktienmarkt vom 27. bis zum 31. März: Kreuzfahrt im dichten Nebel', weekly price table), scan data/manual/scans/nzz/NZZ_2000-04-01.pdf (read 2026-10-03)"
   },
   {
@@ -159,7 +133,6 @@
       "asset": "credit-suisse",
       "pct": -7
     },
-    "importance": 2,
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)"
   },
   {
@@ -175,7 +148,6 @@
       "asset": "credit-suisse",
       "pct": -23
     },
-    "importance": 2,
     "source": "Credit Suisse Group Form 20-F for 2002, filed 27 March 2003, https://www.sec.gov/Archives/edgar/data/1159510/000104746903010549/a2104752z20-f.htm (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
   },
   {
@@ -191,7 +163,6 @@
       "asset": "credit-suisse",
       "pct": -10
     },
-    "importance": 2,
     "source": "Credit Suisse Group Form 20-F for 2004, filed 30 March 2005, https://www.sec.gov/Archives/edgar/data/1159510/000102123105000251/b78781x20-f.htm (read 2026-10-03)"
   },
   {
@@ -207,7 +178,6 @@
       "asset": "credit-suisse",
       "pct": -3
     },
-    "importance": 2,
     "source": "https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
   },
   {
@@ -223,7 +193,6 @@
       "asset": "credit-suisse",
       "pct": -14
     },
-    "importance": 2,
     "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03)"
   },
   {
@@ -240,7 +209,6 @@
       "asset": "credit-suisse",
       "pct": -23
     },
-    "importance": 1,
     "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)"
   },
   {
@@ -256,7 +224,6 @@
       "asset": "credit-suisse",
       "pct": 26
     },
-    "importance": 2,
     "source": "Credit Suisse Form 6-K of 23 April 2009, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000007/a090423_6k.htm (read 2026-10-03)"
   },
   {
@@ -272,7 +239,6 @@
       "asset": "credit-suisse",
       "pct": -6
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
   },
   {
@@ -288,7 +254,6 @@
       "asset": "credit-suisse",
       "pct": 4
     },
-    "importance": 2,
     "source": "Credit Suisse Form 20-F for 2015, https://www.sec.gov/Archives/edgar/data/1053092/000137036816000114/a160324ar20f.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)"
   },
   {
@@ -304,7 +269,6 @@
       "asset": "credit-suisse",
       "pct": -25
     },
-    "importance": 1,
     "source": "Credit Suisse Earnings Release 4Q15 (Form 6-K of 4 February 2016), https://www.sec.gov/Archives/edgar/data/1053092/000137036816000102/a160204g4q-ex99_1.htm (read 2026-10-03)"
   },
   {
@@ -317,7 +281,6 @@
       "credit-suisse",
       "ubs"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
   },
   {
@@ -333,7 +296,6 @@
       "asset": "credit-suisse",
       "pct": -11
     },
-    "importance": 2,
     "source": "Credit Suisse Form 20-F for 2019, https://www.sec.gov/Archives/edgar/data/1053092/000137036820000046/cs-20191231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Thomas_Gottstein (read 2026-10-03); https://de.wikipedia.org/wiki/Tidjane_Thiam (read 2026-10-03)"
   },
   {
@@ -349,7 +311,6 @@
       "asset": "credit-suisse",
       "pct": -27
     },
-    "importance": 1,
     "source": "Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Greensill_Capital (read 2026-10-03); https://en.wikipedia.org/wiki/Archegos_Capital_Management (read 2026-10-03)"
   },
   {
@@ -361,7 +322,6 @@
     "assets": [
       "credit-suisse"
     ],
-    "importance": 2,
     "source": "Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)"
   },
   {
@@ -377,7 +337,6 @@
       "asset": "credit-suisse",
       "pct": 5
     },
-    "importance": 1,
     "source": "https://www.srf.ch/news/wirtschaft/nach-massivem-quartalsverlust-so-will-die-credit-suisse-aus-der-krise-finden (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)",
     "lead": true
   },
@@ -394,7 +353,6 @@
       "asset": "credit-suisse",
       "pct": -13
     },
-    "importance": 2,
     "source": "https://www.srf.ch/news/wirtschaft/nur-2008-war-schlimmer-credit-suisse-schreibt-jahresverlust-von-7-3-milliarden (read 2026-10-03)"
   },
   {
@@ -411,7 +369,6 @@
       "asset": "credit-suisse",
       "pct": -71
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); https://www.swissinfo.ch/eng/business/credit-suisse-agrees-to-takeover-by-rival-swiss-bank-ubs/48373120 (read 2026-10-03); https://www.swissinfo.ch/eng/business/how-the-swiss-trinity-forced-ubs-to-save-credit-suisse/48378088 (read 2026-10-03)"
   },
   {
@@ -428,7 +385,6 @@
       "asset": "credit-suisse",
       "pct": 1
     },
-    "importance": 1,
     "source": "https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)"
   }
 ]

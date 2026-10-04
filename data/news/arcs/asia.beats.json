@@ -1,23 +1,11 @@
 [
   {
-    "id": "de5e821f",
-    "month": "1980-08",
-    "title": "China opens special economic zones next to Hong Kong",
-    "what": "China is setting up special economic zones in Guangdong and Fujian, with Shenzhen, on the border with Hong Kong, as the first. Foreign companies will get low taxes and freedom to build factories there. In April the People's Republic took over China's seat at the International Monetary Fund. The opening is part of the reforms Deng Xiaoping launched in December 1978.",
-    "why": "The starting gun of China's century. Shenzhen grew from a border town into a city of more than 17 million and the model for the export factory economy that later drove the commodity boom.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Shenzhen_Special_Economic_Zone (read 2026-10-03); https://en.wikipedia.org/wiki/Shenzhen (read 2026-10-03); https://en.wikipedia.org/wiki/China_and_the_International_Monetary_Fund (read 2026-10-03); https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03)",
-    "cut": true
-  },
-  {
     "id": "1169e022",
     "month": "1981-05",
     "title": "Japan is now the world's biggest car maker",
     "what": "Japan built more cars than the United States last year, for the first time. Its exports of passenger cars rose from 100,000 in 1965 to 1.8 million in 1975 and have kept climbing, as American drivers hit by two oil shocks turned to small Toyotas, Datsuns and Hondas that use less petrol and break down less. Detroit is losing money and laying off workers, and under pressure from Washington Japan has agreed to limit its car exports to the United States to 1.68 million a year from this month. Cars are only the most visible part: Japanese cameras, television sets and steel are winning markets everywhere.",
     "why": "The first big trade truce of the Japan-as-number-one era. The cap made Japanese cars dearer and pushed Toyota, Honda and Nissan to build plants in America; it set the pattern of US pressure on Japan that led to the Plaza Accord. Rewritten as a story of Japan's economic success. The sentences on fuel economy, Detroit's losses and other Japanese goods are general context of the time, not taken from the cited page. [Curator note applied 2026-10-04: \"Please rewrite this into a story about Japan's economic success. Maybe leading with Japan overtaking the US as biggest car manufacturer.\"]",
     "assets": [],
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Voluntary_export_restraint (read 2026-10-03); https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-04)",
     "lead": true
@@ -29,7 +17,6 @@
     "what": "On 22 September the finance ministers of the US, Japan, West Germany, France and Britain agreed at the Plaza Hotel in New York to push the dollar down, after it had gained about 50% against their currencies since 1980. The dollar bought about 242 yen on 20 September and about 217 yen at the end of the month. Japan's exporters, whose goods get dearer abroad, are the most exposed.",
     "why": "The turning point of the arc. The yen roughly doubled within three years; to fight the strong-yen recession Japan cut rates and spent, and the cheap money became the bubble.",
     "assets": [],
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1985 (Bank of England daily rates, read 2026-10-03)"
   },
@@ -42,7 +29,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 2,
     "thread": "japan",
     "source": "https://www.reaganlibrary.gov/archives/speech/statement-tariff-increases-japanese-semiconductor-products (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1987/04/18/sanctions-imposed-on-japan/f0daac66-74fe-4f5c-96ce-3aa08898b4bd/ (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Louvre_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)"
   },
@@ -53,7 +39,6 @@
     "what": "Tokyo's Nikkei 225 passed 30,000 in December and ended the year at 30,159, up from 21,564 a year earlier. The dollar buys about 124 yen, half of what it bought before the Plaza agreement. Japan's banks are now the biggest in the world by assets and stock market value.",
     "why": "The year Tokyo's mania became the world's largest stock market story; land in central Tokyo was by now priced in the stratosphere.",
     "assets": [],
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://www.capitalmind.in/insights/lost-decades-japan-1980s-asset-price-bubble (read 2026-10-03)",
     "lead": true
@@ -65,7 +50,6 @@
     "what": "Soldiers cleared Tiananmen Square in Beijing on 3 and 4 June in bloody clashes, ending seven weeks of protests that began on 15 April; martial law had been declared on 20 May. The number of dead is not known. Western nations have begun to impose arms embargoes on China. Prices had risen by about 30% in Beijing between 1987 and 1988, which fed the anger.",
     "why": "The great interruption of China's reforms: for almost three years conservatives held back the opening, until Deng's southern tour in 1992.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre (read 2026-10-03)",
     "lead": true
@@ -79,7 +63,6 @@
     "assets": [
       "sony"
     ],
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json"
   },
@@ -97,7 +80,6 @@
       "asset": "ibj",
       "pct": -29
     },
-    "importance": 1,
     "thread": "japan",
     "source": "https://www.upi.com/Archives/1990/03/20/Bank-of-Japan-increases-discount-rate-1-percent/5094637909200/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/21/Dollar-soars-Tokyo-stocks-nosedive/7995637995600/ (via search, 2026-10-03); https://www.upi.com/Archives/1990/03/30/Stocks-plunge-337-in-Tokyo/9971638773200/ (via search, 2026-10-03); https://ja.wikipedia.org/wiki/バブル崩壊 (read 2026-10-03)",
     "lead": true
@@ -109,7 +91,6 @@
     "what": "Deng Xiaoping, the leader behind the market reforms China began in December 1978, toured the south of the country from 18 January to 21 February, visiting Shenzhen, Zhuhai, Guangzhou and Shanghai, and urged officials to be bolder and dare to experiment. 'Development is of overriding importance,' he said; of the stock exchanges opened in Shanghai and Shenzhen at the end of 1990 he said China should first try them out. Hong Kong papers reported the trip first; on 26 March the Shenzhen Special Zone Daily carried the first report in mainland China. Since the crackdown of June 1989, reform had stalled.",
     "why": "The restart of China's opening after Tiananmen. Growth reached about 13% in 1992 and 1993, the party adopted the 'socialist market economy' in October 1992, and foreign investment poured in, reaching $25 billion by 1993.",
     "assets": [],
-    "importance": 2,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour (read 2026-10-04); https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-04)"
   },
@@ -120,7 +101,6 @@
     "what": "An earthquake struck Kobe on 17 January, killing more than 5,000 people and wrecking the port; the Nikkei fell 1,025 points the next day. On 26 February Barings, Britain's oldest merchant bank, collapsed after its Singapore trader Nick Leeson lost hundreds of millions of pounds betting on Nikkei futures.",
     "why": "Two shocks that showed how fragile the post-bubble market still was. Review 2026-10: the final £827 million loss was only established later.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake (read 2026-10-03); https://en.wikipedia.org/wiki/Barings_Bank (read 2026-10-03)"
   },
   {
@@ -130,7 +110,6 @@
     "what": "In April the dollar fell below 80 yen for the first time, from about 99 at the end of January. The strong yen is crushing Japan's exporters in an economy that is barely growing.",
     "why": "The high point of the yen. From here the dollar recovered, to almost 150 yen in 1998.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Endaka (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1995 (read 2026-10-03)"
   },
   {
@@ -140,7 +119,6 @@
     "what": "In July Cosmo Credit Cooperative in Tokyo failed, and in August Kizu Credit Cooperative, whose losses are expected to exceed 1 trillion yen, and Hyogo Bank in western Japan followed. In September Daiwa Bank, one of the big city banks, said a trader at its New York branch had lost about $1.1 billion through fraud. A Finance Ministry inspection this summer put the losses of the seven jusen, housing loan companies set up by banks that lent heavily to property developers in the 1980s, at 6.4 trillion yen. Five years after the crash, the bubble's bad loans are coming to the surface.",
     "why": "The bad-loan problem turns into a run of failures. The jusen were wound up in 1996 with 685 billion yen of taxpayers' money; the outcry made public money for banks taboo until the crisis of November 1997.",
     "assets": [],
-    "importance": 2,
     "thread": "japan",
     "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (BIS Papers No 6, sections 1.2.2 and 1.2.3, read 2026-10-04)"
   },
@@ -151,7 +129,6 @@
     "what": "Thailand's economy has grown by more than 9% a year on average since 1985, and its neighbours have boomed too: the 'tigers' South Korea, Taiwan, Singapore and Hong Kong, and the younger 'tiger cubs' Malaysia, Indonesia and the Philippines. Much of the boom was financed with foreign loans, often short-term and in dollars, and a good part went into property; the baht has been pegged at about 25 to the dollar, so borrowers felt safe. On 14 and 15 May the baht was hit by massive speculative attacks, as traders bet that Thailand, which spends far more abroad than it earns, cannot hold the peg.",
     "why": "The build-up of the Asian crisis: dollar debts that were only safe as long as the pegs held. Thailand spent its reserves defending the baht and had to give up seven weeks later.",
     "assets": [],
-    "importance": 2,
     "thread": "asia-ltcm",
     "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); https://en.wikipedia.org/wiki/Tiger_Cub_Economies (read 2026-10-04)"
   },
@@ -162,7 +139,6 @@
     "what": "Britain handed Hong Kong back to China at a ceremony in the new wing of the city's convention centre on the night of 30 June; Tung Chee-hwa took office on 1 July as head of the new Special Administrative Region. With about 6.5 million people, Hong Kong was Britain's last major colony. Under the agreement Margaret Thatcher and China's premier Zhao Ziyang signed in 1984, its capitalist system and way of life are to stay unchanged for 50 years: 'one country, two systems'.",
     "why": "China gains one of the world's great financial centres, which became the gateway for foreign money into China and the listing place for its big companies.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Handover_of_Hong_Kong (read 2026-10-04)"
   },
@@ -173,7 +149,6 @@
     "what": "On 2 July Thailand gave up its peg of about 25 baht to the dollar and let the currency float, two days after Prime Minister Chavalit Yongchaiyudh had said he would not devalue; it lacked the foreign reserves needed to defend it. The dollar cost on average about 30 baht in July. Companies that borrowed in dollars now owe far more in baht. Within days speculators turned on Malaysia's ringgit.",
     "why": "The spark of the Asian crisis. The baht lost more than half its value by January 1998, and the panic spread to Indonesia, Hong Kong and South Korea.",
     "assets": [],
-    "importance": 1,
     "thread": "asia-ltcm",
     "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); FRED series EXTHUS, monthly baht per dollar, https://fred.stlouisfed.org/data/EXTHUS.txt (read 2026-10-04)"
   },
@@ -188,7 +163,6 @@
       "asset": "sp500",
       "pct": -3
     },
-    "importance": 1,
     "thread": "asia-ltcm",
     "source": "https://en.wikipedia.org/wiki/October_27,_1997,_mini-crash (read 2026-10-03); https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-03)",
     "lead": true
@@ -200,7 +174,6 @@
     "what": "On 3 December South Korea agreed a three-year rescue with the International Monetary Fund, part of a package of $58.4 billion. Korean banks and companies owe an estimated $100 billion in short-term foreign debt, and foreign lenders pulled back after Hong Kong's crash in October. The won lost about 20% against the dollar by the end of November and shares fell by some 30% to a ten-year low. Big conglomerates have been failing since the Hanbo group went bankrupt early in the year, and Kia Motors needed emergency loans in July.",
     "why": "The crisis reaches a rich industrial economy. Korea recovered quickly, but the scare kept emerging-market lenders nervous into 1998, when Russia broke.",
     "assets": [],
-    "importance": 2,
     "thread": "asia-ltcm",
     "source": "https://www.imf.org/external/np/loi/120397.HTM (Korea letter of intent, 3 December 1997, read 2026-10-04); https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/South_Korean_International_Monetary_Fund_Agreement,_1997 (read 2026-10-04)"
   },
@@ -215,7 +188,6 @@
       "asset": "sp500",
       "pct": -15
     },
-    "importance": 1,
     "thread": "asia-ltcm",
     "source": "https://en.wikipedia.org/wiki/1998_Russian_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03)",
     "lead": true
@@ -234,7 +206,6 @@
       "asset": "ibj",
       "pct": -29
     },
-    "importance": 2,
     "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.newyorkfed.org/medialibrary/media/newsevents/news/markets/1998/fxq298.pdf (read 2026-10-03)"
   },
   {
@@ -250,7 +221,6 @@
       "asset": "ibj",
       "pct": 31
     },
-    "importance": 2,
     "thread": "japan",
     "source": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1999/the-yen-dollar-exchange-rate-in-1998-views-from-options-markets.pdf (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03)"
   },
@@ -268,7 +238,6 @@
       "asset": "ibj",
       "pct": 35
     },
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)"
   },
@@ -281,7 +250,6 @@
     "assets": [
       "ibj"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03)"
   },
   {
@@ -291,7 +259,6 @@
     "what": "China became a member of the World Trade Organization on 11 December, after approval at the meeting in Doha in November. China has cut tariffs and promised to open its markets, and it gets lasting access to the markets of the other members. US-China trade was under $100 billion in 1999.",
     "why": "The defining moment of China's rise. Trade with the US grew to $558 billion by 2019; China became the world's largest exporter in 2009, and American factory towns paid the price.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization (read 2026-10-03)"
   },
@@ -302,7 +269,6 @@
     "what": "The Nikkei fell to 7,862 on 11 March, about a fifth of its 1989 record, as war in Iraq loomed and worries grew about Japan's banks. Japan's economy has hardly grown in more than ten years and prices are falling. Since March 2001 the Bank of Japan has kept short-term rates close to zero and flooded the banks with money, a policy called quantitative easing, to fight the fall in prices.",
     "why": "The bottom of the long bust, at the lowest levels in about twenty years; a recovery led by exports to China followed.",
     "assets": [],
-    "importance": 2,
     "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Lost_Decades (read 2026-10-03); https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04)"
   },
@@ -313,7 +279,6 @@
     "what": "China produced about 30 million DVD players in 2002, nearly twice as many as the year before, and exported 20 million of them, up to 70% of the world market. A Chinese DVD player costs about 800 yuan, under $100. More than 100 Chinese companies make them, but they have paid 2.7 billion yuan, about $325 million, in royalties to the foreign owners of the patents, so China is now promoting its own disc format.",
     "why": "The 'factory of the world' in one product: cheap Chinese electronics flooding shops everywhere, with thin margins and the technology still owned abroad, the gap China later set out to close.",
     "assets": [],
-    "importance": 2,
     "thread": "china",
     "source": "https://www.aljazeera.com/news/2003/11/19/china-wants-to-replace-dvds (read 2026-10-04); https://slashdot.org/story/04/08/14/1853245/dvd-player-makers-margins-just-1 (read 2026-10-04)"
   },
@@ -324,7 +289,6 @@
     "what": "On 21 July China ended the yuan's peg to the dollar at about 8.28, revalued it to 8.11 and said it will now be managed against a basket of currencies. Washington has long complained that the cheap yuan gives Chinese exporters an unfair edge.",
     "why": "The start of a slow climb of the yuan over the following years, and a first answer to US pressure.",
     "assets": [],
-    "importance": 2,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Renminbi (read 2026-10-03)"
   },
@@ -335,7 +299,6 @@
     "what": "Copper reached about $9,000 a tonne in May, up from about $1,600 in 1999. China's factories and building sites are swallowing metals, oil and iron ore; oil passed $60 a barrel last August.",
     "why": "The commodity supercycle at full speed, the story behind the miners in the game (Xstrata, later Glencore) and Schlumberger. It peaked in 2011 and ended from 2014.",
     "assets": [],
-    "importance": 2,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/2000s_commodities_boom (read 2026-10-03)",
     "lead": true
@@ -349,7 +312,6 @@
     "assets": [
       "bonds"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Chinese_stock_bubble_of_2007 (read 2026-10-03); https://en.wikipedia.org/wiki/SSE_Composite_Index (read 2026-10-03)"
   },
   {
@@ -359,7 +321,6 @@
     "what": "On 9 November China's State Council announced a stimulus of 4 trillion yuan, about $586 billion, with 1.5 trillion for railways, roads and other infrastructure and money for earthquake rebuilding and cheap housing. Growth has fallen towards 6% from double digits.",
     "why": "The program pulled China back above 10% growth by mid-2009 and lifted metal prices and the miners, but left the debts that fed the later property bust.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program (read 2026-10-03)"
   },
@@ -370,7 +331,6 @@
     "what": "Figures released by Japan's government on 14 February put Japan's economy in 2010 at $5.47 trillion and China's at $5.88 trillion, measured in dollars at market exchange rates. That makes China the world's second-largest economy behind the United States, a place Japan had held for 42 years. Japan is still about ten times richer per person. A year ago China also overtook Germany as the world's biggest exporter.",
     "why": "The symbolic handover of the arc from Japan to China.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/2010_in_China (read 2026-10-03)",
     "lead": true
@@ -382,7 +342,6 @@
     "what": "A magnitude 9 earthquake off north-east Japan on 11 March set off a tsunami that left tens of thousands dead or missing, and three reactors at the Fukushima Daiichi nuclear plant were crippled, raising fears of meltdowns. The Nikkei fell more than 10% on 15 March to 8,605. The yen jumped, to about 79 per dollar on 17 March, and the G7 countries sold yen together on 18 March to weaken it.",
     "why": "The costliest natural disaster in history, over $300 billion. The yen's strength through 2011 helped bring on Abenomics. Review 2026-10: the meltdowns were confirmed only in May 2011.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2011 (read 2026-10-03)"
   },
   {
@@ -398,7 +357,6 @@
       "asset": "sony",
       "pct": 33
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03); https://money.cnn.com/2013/01/18/investing/sony-stock/ via web.archive.org (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
   },
   {
@@ -408,8 +366,17 @@
     "what": "On 4 April the Bank of Japan, under its new governor Haruhiko Kuroda, said it will double the monetary base in two years, buying 60 to 70 trillion yen of bonds a year, to reach 2% inflation. The dollar ended April at about 97 yen.",
     "why": "The biggest monetary experiment of its time; it was extended in 2014, joined by negative rates in 2016 and lasted until 2024.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://en.wikipedia.org/wiki/Haruhiko_Kuroda (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03)"
+  },
+  {
+    "id": "e56951c1",
+    "month": "2014-09",
+    "title": "Alibaba: the biggest stock market launch in history",
+    "what": "Alibaba, China's giant online marketplace, sold its shares on the New York Stock Exchange on 18 September at 68 dollars each and raised 25 billion dollars, more than any company before it and more than Google, Facebook and Twitter raised together. The company, founded in 1999 in Hangzhou by the former English teacher Jack Ma, is valued at 231 billion dollars.",
+    "why": "China's rise shown in one company: a private Chinese firm outdoes every American internet launch. Fits the month before China's economy is called the world's largest by one measure.",
+    "assets": [],
+    "thread": "china",
+    "source": "https://en.wikipedia.org/wiki/Alibaba_Group (read 2026-10-04)"
   },
   {
     "id": "b07f07a4",
@@ -418,7 +385,6 @@
     "what": "New figures from the International Monetary Fund show that, measured by purchasing power, China's economy will be the world's largest in 2014: $17.6 trillion against $17.4 trillion for the United States, about 16.5% and 16.3% of the world's output. Purchasing power takes into account that things cost less in China: a shirt is cheaper in Shanghai than in San Francisco. Measured in dollars at market exchange rates, the US economy is still more than $6.5 trillion larger.",
     "why": "The headline moment of China's rise, on the purchasing-power measure only; at market exchange rates the US stayed well ahead.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://www.csmonitor.com/Business/Latest-News-Wires/2014/1008/China-just-overtook-US-as-the-world-s-largest-economy-IMF-says (8 October 2014, read 2026-10-04)"
   },
@@ -429,7 +395,6 @@
     "what": "The Shanghai Composite index, which had risen more than 150% in a year on borrowed money, reached a high of about 5,166 on 12 June and lost 30% in three weeks. By 8 and 9 July about 1,400 companies, more than half of all those listed, had halted trading in their shares, and the government stepped in to support prices.",
     "why": "The second Chinese mania and its bust; it set up the August devaluation scare. Review 2026-10: 'peaked' was hindsight.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03)"
   },
   {
@@ -443,7 +408,6 @@
       "asset": "sp500",
       "pct": -6
     },
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json"
   },
@@ -458,7 +422,6 @@
       "asset": "sp500",
       "pct": -5
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03)"
   },
   {
@@ -468,7 +431,6 @@
     "what": "On 6 July the US put tariffs on $34 billion of Chinese imports, and China answered in kind. President Trump started the dispute in March, citing unfair trade practices and theft of intellectual property, and threatens tariffs on far more.",
     "why": "The start of a confrontation that outlasted Trump's first term and returned with force in 2025.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03)"
   },
@@ -483,7 +445,6 @@
       "asset": "sp500",
       "pct": -9
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/Arrest_of_Meng_Wanzhou (read 2026-10-03)"
   },
   {
@@ -497,7 +458,6 @@
       "asset": "sp500",
       "pct": -7
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03)"
   },
   {
@@ -507,7 +467,6 @@
     "what": "On 15 January the US and China signed a 'phase one' trade deal: China will buy $200 billion more of US goods and services over two years. On 23 January China sealed off the city of Wuhan to stop a new coronavirus, and lockdowns spread to other cities.",
     "why": "The deal was overtaken within days by the pandemic, which started China's three years of zero-Covid.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)",
     "lead": true
   },
@@ -520,7 +479,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
@@ -530,7 +488,6 @@
     "what": "Didi, China's ride-hailing giant, raised $4.4 billion in New York on 30 June at a value of nearly $70 billion. On 4 July China's internet regulator ordered app stores to remove Didi, citing its handling of personal data. Chinese shares listed abroad are falling. In November 2020 regulators had halted the $34.5 billion share sale of Jack Ma's Ant Group two days before listing.",
     "why": "The clearest sign that Beijing put control ahead of markets; Didi left the New York exchange in 2022.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Didi_(company) (read 2026-10-03); https://en.wikipedia.org/wiki/Ant_Group (read 2026-10-03)"
   },
   {
@@ -540,7 +497,6 @@
     "what": "China Evergrande, the country's most indebted property developer with about 2 trillion yuan ($310 billion) of liabilities, missed an interest payment of $83.5 million on foreign bonds on 24 September. Beijing's 2020 limits on developers' borrowing have cut off its credit.",
     "why": "The start of the property bust: Evergrande was declared in default in December and ordered to liquidate by a Hong Kong court in January 2024, Country Garden followed in 2023, and property, about a quarter of China's economy at its peak, has shrunk ever since.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_(2020%E2%80%93present) (read 2026-10-03)"
   },
@@ -551,7 +507,6 @@
     "what": "Shanghai, China's biggest city with about 25 million people, has been under lockdown since late March as China holds to its zero-Covid policy. Factories and the port are disrupted.",
     "why": "The peak of zero-Covid's economic cost; China grew only about 3% in 2022.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)"
   },
   {
@@ -563,7 +518,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
   },
@@ -574,7 +528,6 @@
     "what": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998.",
     "why": "The cost of Japan staying alone with ultra-low rates; it forced the first policy change in December.",
     "assets": [],
-    "importance": 3,
     "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03)"
   },
   {
@@ -584,7 +537,6 @@
     "what": "After protests in late November, set off by a deadly fire in Urumqi, China on 7 December dropped compulsory testing and quarantine in camps, and on 12 December switched off its health-code tracking app. Nearly three years of lockdowns are ending.",
     "why": "The reopening was expected to lift China's economy, but the property bust and weak confidence kept growth low.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)"
   },
   {
@@ -594,7 +546,6 @@
     "what": "On 22 February the Nikkei closed at 39,098.68, above its record of 38,915.87 set on 29 December 1989. Foreign investors are buying Japan as companies reform and prices rise again, and as money leaves China.",
     "why": "The end of the thirty-year round trip, the closing image of Japan's bust.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Lost_Decades (read 2026-10-03)"
   },
   {
@@ -604,7 +555,6 @@
     "what": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen, the dollar fell to about 143 yen and on 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458. The next day it gained more than 3,200 points, its biggest daily rise.",
     "why": "A two-day panic, not a turn: the Nikkei was back at records within months.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03)"
   },
   {
@@ -617,7 +567,6 @@
       "nvda",
       "msft"
     ],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
@@ -628,7 +577,6 @@
     "what": "On 2 April President Trump announced tariffs on most of the world, 34% on China. After China retaliated, the US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
     "why": "The trade war's climax; markets fell sharply early in the month and recovered much of the loss by its end.",
     "assets": [],
-    "importance": 1,
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)"
   },
@@ -643,7 +591,6 @@
       "asset": "sp500",
       "pct": 6
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03); https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03)"
   },
   {
@@ -653,7 +600,6 @@
     "what": "Sanae Takaichi won the leadership of the Liberal Democratic Party on 4 October and became Japan's first woman prime minister on 21 October. The Nikkei jumped 4.75% past 47,000 after her win and passed 50,000 on 27 October, on hopes of more government spending.",
     "why": "Japan's market at heights unimaginable in the lost decades, with a weak yen as the flip side.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Sanae_Takaichi (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03)"
   },
   {
@@ -663,7 +609,6 @@
     "what": "The Nikkei reached 60,000 for the first time on 23 April, two months after Takaichi's party won a two-thirds majority in the lower house on 8 February, the first party to do so since the war.",
     "why": "More than 50% above the 1989 peak in nominal terms.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2026_in_Japan (read 2026-10-03)"
   },
   {
@@ -673,7 +618,6 @@
     "what": "The dollar reached about 164 yen on 23 July, and Japan's Finance Ministry said it spent a record 15.4 trillion yen, about $96 billion, buying yen in its interventions, its largest monthly intervention ever. The Nikkei passed 70,000 in June.",
     "why": "The other side of Japan's boom: a currency at levels last seen in the 1980s, before the Plaza Accord's effects had run their course.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03; cites France 24, 28 August 2026); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2026 (read 2026-10-03); https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03)"
   }
 ]

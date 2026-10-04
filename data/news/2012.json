@@ -15,19 +15,6 @@
   {
     "month": "2012-02",
     "kind": "company",
-    "headline": "Kazuo Hirai named chief executive",
-    "text": "On 1 February Sony said Kazuo Hirai, who ran the PlayStation business, will become president and chief executive on 1 April, succeeding Howard Stringer.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)",
-    "image": "/news/sony/2012-02-stringer-hirai.jpg",
-    "imageCaption": "Howard Stringer (left) and Kazuo Hirai, the successor he named as Sony's chief executive",
-    "imageCredit": "Getty Images (press photograph, via CBS News)"
-  },
-  {
-    "month": "2012-02",
-    "kind": "company",
     "headline": "Glencore and Xstrata agree a 'merger of equals'",
     "text": "After confirming talks on 2 February, Glencore and Xstrata announced on 7 February a recommended all-share merger: Xstrata holders would get 2.8 new Glencore shares each, valuing Xstrata at 1,290p a share or £39.1bn, a 15% premium. Glencore already owns 34% of Xstrata. Mick Davis would run the combined Glencore Xstrata, with Ivan Glasenberg as deputy and president; the deal needs 75% of the votes of Xstrata's independent shareholders. Completion is expected in the third quarter.",
     "assets": [
@@ -54,6 +41,19 @@
     "imageCredit": "US International Trade Administration"
   },
   {
+    "month": "2012-02",
+    "kind": "company",
+    "headline": "Kazuo Hirai named chief executive",
+    "text": "On 1 February Sony said Kazuo Hirai, who ran the PlayStation business, will become president and chief executive on 1 April, succeeding Howard Stringer.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03); https://en.wikipedia.org/wiki/Sony (read 2026-10-03)",
+    "image": "/news/sony/2012-02-stringer-hirai.jpg",
+    "imageCaption": "Howard Stringer (left) and Kazuo Hirai, the successor he named as Sony's chief executive",
+    "imageCredit": "Getty Images (press photograph, via CBS News)"
+  },
+  {
     "month": "2012-03",
     "kind": "company",
     "headline": "Citigroup fails the Fed's stress test",
@@ -67,6 +67,16 @@
     "imageCredit": "Federal Reserve"
   },
   {
+    "month": "2012-03",
+    "kind": "company",
+    "headline": "Cisco to buy NDS for $5 billion",
+    "text": "Cisco announced on March 15 that it will acquire NDS Group, a maker of software for pay-television operators, for $5 billion.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
+  },
+  {
     "month": "2012-04",
     "kind": "company",
     "headline": "Another warning sends Nokia to a 14-year low",
@@ -78,6 +88,16 @@
     "image": "/news/nokia/2012-04-lumia.jpg",
     "imageCaption": "The Nokia Lumia 800, the Windows Phone launched in late 2011",
     "imageCredit": "Magnus Jonasson"
+  },
+  {
+    "month": "2012-04",
+    "kind": "company",
+    "headline": "Nestlé buys Pfizer's baby nutrition business",
+    "text": "On 23 April Nestlé agreed to buy Pfizer's infant nutrition business, formerly Wyeth Nutrition, for $11.9 billion. It makes Nestlé much bigger in baby formula.",
+    "assets": [
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
     "month": "2012-04",
@@ -131,6 +151,63 @@
     "imageCredit": "Eva K."
   },
   {
+    "month": "2012-05",
+    "kind": "company",
+    "headline": "Barrington succeeds Szymanczyk at Altria",
+    "text": "Martin Barrington became chairman and chief executive of Altria on 17 May, succeeding Michael Szymanczyk, who retired after 23 years with the company, including four as Altria CEO and 12 as head of Philip Morris USA. Altria pays a quarterly dividend of 41 cents a share.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312512238426/d353312dex991.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2012-06",
+    "kind": "world",
+    "headline": "Spain asks Europe to save its banks; half its young people are out of work",
+    "text": "On 9 June euro finance ministers agreed to lend Spain up to 100 billion euros to recapitalise its banks, which are weighed down by failed mortgages; Bankia, the country's biggest mortgage lender, was nationalised in May and asked for 23.5 billion euros. In June the interest rate on Spain's ten-year bonds reached 7 percent. Almost a quarter of Spaniards, 24.4 percent, were unemployed in March, and among those under 25 the rate is up to 50 percent.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2008%E2%80%932014_Spanish_financial_crisis (read 2026-10-04)",
+    "thread": "euro",
+    "image": "/news/world/2012-06-anti-austerity-movement-in-spain.jpg",
+    "imageCaption": "Anti-austerity movement in Spain, 2011",
+    "imageCredit": "Fotograccion"
+  },
+  {
+    "month": "2012-06",
+    "kind": "company",
+    "headline": "Qatar holds out for a better price",
+    "text": "Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said on 26 June it would only support the merger at 3.25 Glencore shares per Xstrata share rather than 2.8. Glencore received proposed changes to the contested retention payments for Xstrata managers and will postpone its 11 July shareholder meeting. Ivan Glasenberg says Glencore will not overpay.",
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
+    "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-merger-update/3328691 (all read 2026-10-03)"
+  },
+  {
+    "month": "2012-06",
+    "kind": "company",
+    "headline": "Qatar demands more for Xstrata",
+    "text": "On 26 June Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said it would only back the merger at 3.25 Glencore shares per Xstrata share instead of 2.8; with other dissenting investors it is close to the 16.5% needed to block the deal. Investors are also angry about retention payments of more than £170m for 73 Xstrata executives, and Xstrata's board has proposed changes. Glencore is postponing its shareholder meeting set for 11 July.",
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update/3327708; https://en.wikipedia.org/wiki/Xstrata (all read 2026-10-03)"
+  },
+  {
+    "month": "2012-06",
+    "kind": "company",
+    "headline": "Nokia to cut 10,000 jobs",
+    "text": "On 14 June Nokia said it will cut 10,000 jobs worldwide and close plants, including the Salo factory in Finland, and warned that competition will widen its losses in the second and third quarters. Its shares had already fallen 42% this year. The Finnish government said it will not use an emergency fund to help.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://money.cnn.com/2012/06/14/technology/nokia_job_cuts/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
+    "image": "/news/nokia/2012-06-nokia-lumia-900.jpg",
+    "imageCaption": "Nokia Lumia 900, 2012",
+    "imageCredit": "Vernon Chan"
+  },
+  {
     "month": "2012-06",
     "kind": "company",
     "headline": "The Model S goes into production",
@@ -144,13 +221,12 @@
     "imageCredit": "Steve Jurvetson"
   },
   {
-    "month": "2012-06",
-    "kind": "world",
-    "headline": "Spain asks Europe to save its banks; half its young people are out of work",
-    "text": "On 9 June euro finance ministers agreed to lend Spain up to 100 billion euros to recapitalise its banks, which are weighed down by failed mortgages; Bankia, the country's biggest mortgage lender, was nationalised in May and asked for 23.5 billion euros. In June the interest rate on Spain's ten-year bonds reached 7 percent. Almost a quarter of Spaniards, 24.4 percent, were unemployed in March, and among those under 25 the rate is up to 50 percent.",
+    "month": "2012-07",
+    "kind": "colour",
+    "headline": "Federer's seventh Wimbledon",
+    "text": "Roger Federer beat Andy Murray in the Wimbledon final, his seventh Wimbledon title and 17th Grand Slam title, equalling the records of Pete Sampras and William Renshaw. With the win he is world number one again, at almost 31.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2008%E2%80%932014_Spanish_financial_crisis (read 2026-10-04)",
-    "thread": "euro"
+    "source": "https://en.wikipedia.org/wiki/2012_Wimbledon_Championships_%E2%80%93_Men%27s_singles (read 2026-10-03)"
   },
   {
     "month": "2012-07",
@@ -165,6 +241,53 @@
     "imageCredit": "World Economic Forum"
   },
   {
+    "month": "2012-07",
+    "kind": "company",
+    "headline": "Don Thompson succeeds Jim Skinner",
+    "text": "Don Thompson, an engineer who joined McDonald's in 1990 and rose to chief operating officer, became president and chief executive on 1 July, succeeding Jim Skinner, who retired after 41 years. Under Skinner, McDonald's total sales grew from 50.1 billion dollars in 2004 to 70.1 billion in 2008.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/James_Skinner (read 2026-10-03)"
+  },
+  {
+    "month": "2012-08",
+    "kind": "company",
+    "headline": "Half-year profit dips, shares rebound",
+    "text": "Glencore's first-half adjusted EBITDA fell 17% to $3.2bn and net income 8% to $2.3bn, as its commodity prices averaged 15% to 28% lower than a year earlier; the trading arm held up better than the mines. Almost all approvals for the Viterra purchase are in, leaving only China. The shares have recovered strongly from their June low.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/interim-results-2012/2849073; https://www.investegate.co.uk/announcement/rns/glencore--glen/regulatory-update/2890981; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926 (all read 2026-10-03)",
+    "image": "/news/glencore/2012-08-ivan-glasenberg.jpg",
+    "imageCaption": "Ivan Glasenberg, 2013",
+    "imageCredit": "Financial Times photos c/o: Dianna Bonner"
+  },
+  {
+    "month": "2012-08",
+    "kind": "company",
+    "headline": "A record stock market value",
+    "text": "On 20 August Apple's rising shares made it worth a record 624 billion dollars, beating the record set by Microsoft in 1999 (without adjusting for inflation).",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2012-09",
+    "kind": "world",
+    "headline": "QE3: open-ended bond buying",
+    "text": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August.",
+    "assets": [
+      "gold",
+      "ust2015",
+      "ust2020",
+      "ust2030"
+    ],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+  },
+  {
     "month": "2012-09",
     "kind": "company",
     "headline": "Glencore raises to 3.05 and sidelines Davis",
@@ -177,6 +300,26 @@
     "image": "/news/xstrata/2012-09-glasenberg.jpg",
     "imageCaption": "Ivan Glasenberg, Glencore's chief executive, speaking at the FT Boldness in Business awards, London",
     "imageCredit": "Financial Times"
+  },
+  {
+    "month": "2012-10",
+    "kind": "colour",
+    "headline": "A skydiver breaks the sound barrier, live on YouTube",
+    "text": "On 14 October the Austrian Felix Baumgartner jumped from a capsule about 39 kilometres above New Mexico, carried up by a helium balloon, and became the first person to break the sound barrier without an engine, reaching about 1,358 kilometres per hour. More than 9.5 million people watched live on YouTube, a record. The project was paid for by Red Bull.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Red_Bull_Stratos (read 2026-10-03)"
+  },
+  {
+    "month": "2012-10",
+    "kind": "world",
+    "headline": "The rial collapses and Tehran's bazaar shuts",
+    "text": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring. Since July the European Union has bought no Iranian oil, and in March Iranian banks under EU sanctions were cut off from the SWIFT payment network; the International Energy Agency puts Iran's oil exports in September at 860,000 barrels a day, down from 2.2 million at the end of 2011.",
+    "assets": [],
+    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-04)",
+    "thread": "iran",
+    "image": "/news/middle-east/2012-10-tehran-bazaar.jpg",
+    "imageCaption": "Tehran's Grand Bazaar",
+    "imageCredit": "Babak Farrokhi"
   },
   {
     "month": "2012-10",
@@ -219,14 +362,78 @@
   },
   {
     "month": "2012-10",
+    "kind": "company",
+    "headline": "Windows 8 and the Surface tablet",
+    "text": "On 26 October Microsoft launched Windows 8, redesigned for touch screens, and the Surface, its own tablet computer.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2012-11",
     "kind": "world",
-    "headline": "The rial collapses and Tehran's bazaar shuts",
-    "text": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring. Since July the European Union has bought no Iranian oil, and in March Iranian banks under EU sanctions were cut off from the SWIFT payment network; the International Energy Agency puts Iran's oil exports in September at 860,000 barrels a day, down from 2.2 million at the end of 2011.",
+    "headline": "Obama wins a second term",
+    "text": "Barack Obama was re-elected on 6 November with 332 electoral votes and 51.1% of the vote against Mitt Romney, holding the swing states of Ohio, Florida, Virginia and Colorado. The campaign was fought over the slow recovery from the financial crisis and Obama's health insurance law, and was the most expensive ever, with new \"super PACs\" spending freely.",
     "assets": [],
-    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-04)",
-    "thread": "iran",
-    "image": "/news/middle-east/2012-10-tehran-bazaar.jpg",
-    "imageCaption": "Tehran's Grand Bazaar",
-    "imageCredit": "Babak Farrokhi"
+    "source": "https://en.wikipedia.org/wiki/2012_United_States_presidential_election (read 2026-10-03)"
+  },
+  {
+    "month": "2012-11",
+    "kind": "colour",
+    "headline": "'Gangnam Style' is the most-watched video ever",
+    "text": "A song from South Korea has the whole world dancing as if riding an invisible horse. On 24 November 'Gangnam Style' by the singer Psy, released in July, overtook Justin Bieber's 'Baby' as the most-viewed video on YouTube. The song has topped the charts in dozens of countries, and even the Secretary-General of the United Nations, Ban Ki-moon, and the British prime minister have tried the dance.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gangnam_Style (read 2026-10-04)",
+    "image": "/news/life/2012-11-psy.jpg",
+    "imageCaption": "Psy, 2012",
+    "imageCredit": "Korea.net / Korean Culture and Information Service (Jeon Han)"
+  },
+  {
+    "month": "2012-11",
+    "kind": "company",
+    "headline": "Otellini will retire",
+    "text": "On 19 November Intel announced that chief executive Paul Otellini will retire in May 2013, after nearly 40 years at the company and eight as chief executive. Intel has failed to win much business in the chips for smartphones and tablets.",
+    "assets": [
+      "intc"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086312000132/exhibit99_1.htm (Intel press release of 19 November 2012) (read 2026-10-03); https://en.wikipedia.org/wiki/Brian_Krzanich (read 2026-10-03)"
+  },
+  {
+    "month": "2012-11",
+    "kind": "company",
+    "headline": "Shareholders approve, with Qatar on board",
+    "text": "Qatar Holding said in mid-November that it would back the revised terms, and on 20 November Xstrata's shareholders approved the merger at 3.05 Glencore shares per Xstrata share. The European Commission cleared the deal on 22 November; antitrust approval from China and a court hearing remain.",
+    "assets": [
+      "xstrata",
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/xstrata-merger-shareholder-approval/3028319; https://en.wikipedia.org/wiki/Ivan_Glasenberg (cites Reuters 15 Nov 2012); Investegate GLEN listing 22 Nov 2012 'Merger Update - EU Merger Control Clearance' (all read 2026-10-03)"
+  },
+  {
+    "month": "2012-12",
+    "kind": "colour",
+    "headline": "Gangnam Style passes a billion views",
+    "text": "On 21 December the video of 'Gangnam Style' by the South Korean singer Psy became the first YouTube video to reach a billion views. Since its release in July its horse-riding dance has spawned parodies and reaction videos around the world.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gangnam_Style (read 2026-10-03)"
+  },
+  {
+    "month": "2012-12",
+    "kind": "world",
+    "headline": "2012 in review: up 13 percent, with the fiscal cliff looming",
+    "text": "The S&P 500 rose 13% in 2012 to 1,426.19 and the Dow 7.3%. As the year ends, Congress has not yet agreed how to avoid the 'fiscal cliff': tax rises and spending cuts that take effect on 1 January and that the Congressional Budget Office says would likely cause a mild recession.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Fiscal_cliff (read 2026-10-03)"
+  },
+  {
+    "month": "2012-12",
+    "kind": "company",
+    "headline": "1.4 billion francs for Libor manipulation",
+    "text": "On 19 December UBS agreed to pay about 1.4 billion francs in fines and disgorgement to US, UK and Swiss authorities over attempts to manipulate Libor and other benchmark interest rates; its Japanese securities unit pleaded guilty to one count of wire fraud. The settlements push UBS to a loss for 2012.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F for 2012, https://www.sec.gov/Archives/edgar/data/1114446/000119312513106100/d497201d20f.htm (read 2026-10-03)"
   }
 ]

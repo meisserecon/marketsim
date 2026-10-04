@@ -1,6 +1,33 @@
 [
   {
     "month": "1987-01",
+    "kind": "world",
+    "headline": "The Dow passes 2,000 as shares soar 13 percent in January",
+    "text": "The Dow Jones average closed above 2,000 for the first time on 8 January, and shares kept climbing all month to new highs. The S&P 500 rose 13% in January to 274.08, its biggest monthly gain since at least 1975.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19870211.pdf (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/1987-01-reagan-state-of-union.jpg",
+    "imageCaption": "President Reagan works on his State of the Union address in the Oval Office, 23 January 1987",
+    "imageCredit": " (White House Photographic Office)"
+  },
+  {
+    "month": "1987-01",
+    "kind": "world",
+    "headline": "Computer shares lead a January surge",
+    "text": "The Nasdaq index rose 12% in January to 392, and computer companies rose far more: Microsoft about 52%, Intel 49% and Apple 37%. Personal computers built on Intel's new 386 chip, the first from Compaq since September, are on sale, and investors are betting on a recovery after the chip slump of 1985 and 1986.",
+    "assets": [
+      "msft",
+      "intc",
+      "aapl",
+      "ibm"
+    ],
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Compaq (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03)",
+    "image": "/news/tech/1987-01-compaq-deskpro-386.jpg",
+    "imageCaption": "Compaq Deskpro 386, 2023",
+    "imageCredit": "Tecnoxarxa"
+  },
+  {
+    "month": "1987-01",
     "kind": "company",
     "headline": "Tokyo passes 20,000; IBJ soars",
     "text": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. The cuts are meant to cushion exporters from the soaring yen: the dollar, which bought about 240 yen just before the Plaza agreement of September 1985, now buys about 153. IBJ shares rose 69% in January.",
@@ -12,17 +39,6 @@
     "image": "/news/ibj/1987-01-tse-artefact.jpg",
     "imageCaption": "A control panel of the Tokyo Stock Exchange's computerised trading system, on display at the exchange",
     "imageCredit": "Syced"
-  },
-  {
-    "month": "1987-01",
-    "kind": "world",
-    "headline": "The Dow passes 2,000 as shares soar 13 percent in January",
-    "text": "The Dow Jones average closed above 2,000 for the first time on 8 January, and shares kept climbing all month to new highs. The S&P 500 rose 13% in January to 274.08, its biggest monthly gain since at least 1975.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19870211.pdf (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/1987-01-reagan-state-of-union.jpg",
-    "imageCaption": "President Reagan works on his State of the Union address in the Oval Office, 23 January 1987",
-    "imageCredit": " (White House Photographic Office)"
   },
   {
     "month": "1987-02",
@@ -48,7 +64,10 @@
       "ust2000"
     ],
     "source": "https://www.reaganlibrary.gov/archives/speech/statement-tariff-increases-japanese-semiconductor-products (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1987/04/18/sanctions-imposed-on-japan/f0daac66-74fe-4f5c-96ce-3aa08898b4bd/ (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Louvre_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)",
-    "thread": "japan"
+    "thread": "japan",
+    "image": "/news/asia/1987-04-dynamic-random-access-memory.jpg",
+    "imageCaption": "Dynamic random-access memory, 2012",
+    "imageCredit": "ZeptoBars"
   },
   {
     "month": "1987-05",
@@ -75,6 +94,14 @@
   },
   {
     "month": "1987-07",
+    "kind": "world",
+    "headline": "US warships escort Kuwaiti tankers; the UN demands a ceasefire",
+    "text": "The US Navy began escorting Kuwaiti tankers re-registered under the American flag through the Gulf, and on 24 July the first convoy's tanker Bridgeton struck a mine. On 20 July the UN Security Council unanimously passed Resolution 598 demanding an immediate ceasefire between Iran and Iraq; Iraq accepted, Iran has not. On 31 July a clash between Iranian pilgrims and Saudi police in Mecca left 402 dead, 275 of them Iranians, by Saudi count; Iran says the police opened fire.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Tanker_war (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/1987_Mecca_incident (read 2026-10-03); https://en.wikipedia.org/wiki/First_Battle_of_al-Faw (read 2026-10-03)"
+  },
+  {
+    "month": "1987-07",
     "kind": "company",
     "headline": "Edzard Reuter to lead Daimler-Benz",
     "text": "Werner Breitschwerdt is stepping down as chairman of Daimler-Benz; Edzard Reuter, the board member for planning who arranged the purchases of MTU, Dornier and AEG, will succeed him on 1 September. Deutsche Bank's chief Alfred Herrhausen backed the choice. Reuter wants to forge the car maker and its new subsidiaries into an integrated technology group. The company is worth about 47.6 billion marks on the stock market.",
@@ -97,7 +124,18 @@
       "ust2000"
     ],
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
-    "thread": "rates"
+    "thread": "rates",
+    "image": "/news/markets/1987-08-alan-greenspan.jpg",
+    "imageCaption": "Alan Greenspan",
+    "imageCredit": "While provided by the Bureau of Engraving and Printing, it is a Federal Reserve image."
+  },
+  {
+    "month": "1987-08",
+    "kind": "colour",
+    "headline": "Dirty Dancing opens",
+    "text": "The dance film Dirty Dancing, with Patrick Swayze and Jennifer Grey, opened in American cinemas on 21 August. The small studio Vestron made it on a low budget.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Dirty_Dancing (read 2026-10-03)"
   },
   {
     "month": "1987-10",
@@ -111,6 +149,17 @@
     "image": "/news/wmt/1987-10-black-monday-trader.jpg",
     "imageCaption": "A trader holds his head on the floor of the New York Stock Exchange as panic selling sweeps Wall Street, 19 October 1987",
     "imageCredit": "Maria Bastone / AFP - Getty Images file"
+  },
+  {
+    "month": "1987-10",
+    "kind": "world",
+    "headline": "Black Monday: the S&P 500 falls 20 percent in a day",
+    "text": "After a bad trade deficit report on 14 October pushed interest rates up, shares fell 9% in a week; then on Monday 19 October the Dow plunged 508 points or 22.6% and the S&P 500 20.5%, the largest one-day falls in their history. Blamed are the dollar and the trade deficit, rising interest rates, a public row between Treasury Secretary Baker and Germany over the dollar, a bill to curb tax breaks for takeovers, and 'portfolio insurance' programs that sold automatically as prices fell. On 20 October the Fed said it stood ready to supply cash to the financial system; markets around the world crashed too, and the S&P 500 ended October down 22% at 251.79.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/1987-10-black-monday-1987.jpg",
+    "imageCaption": "Black Monday, 2006",
+    "imageCredit": "Mark Carlson, US Federal Reserve Board of Governors"
   },
   {
     "month": "1987-11",
@@ -145,6 +194,9 @@
     "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)",
-    "thread": "soviet"
+    "thread": "soviet",
+    "image": "/news/world/1987-12-intermediate-range-nuclear-forces-treaty.jpg",
+    "imageCaption": "Intermediate-Range Nuclear Forces Treaty, 1987",
+    "imageCredit": "White House Photographic Office"
   }
 ]

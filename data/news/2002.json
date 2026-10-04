@@ -1,6 +1,18 @@
 [
   {
     "month": "2002-01",
+    "kind": "world",
+    "headline": "Euro notes and coins arrive",
+    "text": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000. Switzerland keeps its franc, but Swiss travellers and shoppers across the border now meet one currency on three sides.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03); https://en.wikipedia.org/wiki/Euro_banknotes (read 2026-10-03)",
+    "thread": "euro",
+    "image": "/news/world/2002-01-maastricht-atm.jpg",
+    "imageCaption": "In the first minutes of 2002, people in Maastricht look closely at the euro notes they have just drawn from a cash machine",
+    "imageCredit": "Claudio Hils / ECB (photo series commissioned by the European Central Bank, as stated by NZZ)"
+  },
+  {
+    "month": "2002-01",
     "kind": "company",
     "headline": "Amazon makes its first profit",
     "text": "Amazon reported a net profit of $5 million for the fourth quarter of 2001, its first, on sales of more than $1 billion. For the full year it still lost $567 million on sales of $3.12 billion. The company warned that the quarterly profit should not be taken as a trend.",
@@ -11,18 +23,6 @@
     "image": "/news/amzn/2002-01-bezos-robot-coop.jpg",
     "imageCaption": "Jeff Bezos (centre) visiting the Robot Co-op",
     "imageCredit": "Daniel Spils"
-  },
-  {
-    "month": "2002-01",
-    "kind": "world",
-    "headline": "Euro notes and coins arrive",
-    "text": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000. Switzerland keeps its franc, but Swiss travellers and shoppers across the border now meet one currency on three sides.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03); https://en.wikipedia.org/wiki/Euro_banknotes (read 2026-10-03)",
-    "thread": "euro",
-    "image": "/news/world/2002-01-maastricht-atm.jpg",
-    "imageCaption": "In the first minutes of 2002, people in Maastricht look closely at the euro notes they have just drawn from a cash machine",
-    "imageCredit": "Claudio Hils / ECB (photo series commissioned by the European Central Bank, as stated by NZZ)"
   },
   {
     "month": "2002-01",
@@ -40,6 +40,14 @@
   },
   {
     "month": "2002-02",
+    "kind": "colour",
+    "headline": "Simon Ammann's double gold in Salt Lake City",
+    "text": "At the Winter Olympics in Salt Lake City, the 20-year-old Swiss ski jumper Simon Ammann won both individual events, on the normal and the large hill, weeks after a crash in training. With his glasses and boyish face he is being compared to Harry Potter, and he appeared on David Letterman's American talk show.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Simon_Ammann (read 2026-10-03)"
+  },
+  {
+    "month": "2002-02",
     "kind": "company",
     "headline": "WorldCom paid $199 million to cover its chief's margin loans",
     "text": "WorldCom disclosed on 7 February that, after the fall in its shares, it had paid about $198.7 million to Bank of America under its guarantee of loans to chief executive Bernard Ebbers, and had lent him another $142 million, all secured by his WorldCom shares. Ebbers used the money to meet calls on loans backed by his stock, taken out for private businesses. The same day the company felt it had to reaffirm the MCI group's 60-cent dividend.",
@@ -50,6 +58,60 @@
     "image": "/news/worldcom/2002-02-ebbers.jpg",
     "imageCaption": "Bernard Ebbers, chief executive of WorldCom",
     "imageCredit": " (U.S. National Communications System)"
+  },
+  {
+    "month": "2002-02",
+    "kind": "company",
+    "headline": "Daft's recovery year: earnings per share up 82%",
+    "text": "Coca-Cola reported that worldwide volume rose 4% in 2001 and earnings per share grew 82%, recovering from the restructuring charges of 2000; return on equity rose from 23% to 38%. Chairman Douglas Daft says North America is growing solidly again. The shares nevertheless fell about a fifth during 2001.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://archive.org/download/cocacolacoannualreports/cocacola2001_djvu.txt (2001 annual report, read 2026-10-03); yearly change from data/out/ko.json"
+  },
+  {
+    "month": "2002-03",
+    "kind": "world",
+    "headline": "Switzerland votes to join the United Nations",
+    "text": "On 3 March Swiss voters approved joining the United Nations by 54.6 percent, with 11 full and 2 half cantons in favour, a narrow majority of the cantons. Switzerland hosts the UN's European headquarters in Geneva but has so far stayed outside the organisation.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2002_Swiss_referendums (read 2026-10-03)"
+  },
+  {
+    "month": "2002-03",
+    "kind": "company",
+    "headline": "Gerstner hands over to Sam Palmisano",
+    "text": "Samuel Palmisano, a career IBMer and its president, became chief executive in March, succeeding Lou Gerstner, who stays chairman until the end of the year. Since Gerstner arrived in 1993, IBM's stock market value has risen several times over.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Samuel_J._Palmisano (read 2026-10-03); https://en.wikipedia.org/wiki/Lou_Gerstner (read 2026-10-03)",
+    "image": "/news/ibm/2002-03-gerstner-palmisano.jpg",
+    "imageCaption": "Louis Gerstner (right) and his successor Sam Palmisano",
+    "imageCredit": "IBM (not credited on the page)"
+  },
+  {
+    "month": "2002-03",
+    "kind": "company",
+    "headline": "WorldCom adopts a takeover defence",
+    "text": "WorldCom's board adopted a shareholder rights plan on 8 March to discourage what it called opportunistic, undervalued takeover bids, saying it knew of no bid. Its annual report, filed on 13 March, put Ebbers' loans from the company at $144.3 million.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/723527/000100547702001225/ex99.txt (WorldCom press release, 8 March 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547702001226/d02-36461.txt (10-K for 2001; read 2026-10-03)"
+  },
+  {
+    "month": "2002-04",
+    "kind": "company",
+    "headline": "Ebbers resigns as WorldCom's shares collapse",
+    "text": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April, to below $3.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "image": "/news/worldcom/2002-04-ebbers-1999.jpg",
+    "imageCaption": "Bernard Ebbers, WorldCom's founder and chief executive, at the news conference on the Sprint merger, New York, October 1999",
+    "imageCredit": "Jon Gordon | Newsmakers | Getty Images"
   },
   {
     "month": "2002-04",
@@ -68,19 +130,6 @@
   {
     "month": "2002-04",
     "kind": "company",
-    "headline": "Ebbers resigns as WorldCom's shares collapse",
-    "text": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April, to below $3.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
-    "image": "/news/worldcom/2002-04-ebbers-1999.jpg",
-    "imageCaption": "Bernard Ebbers, WorldCom's founder and chief executive, at the news conference on the Sprint merger, New York, October 1999",
-    "imageCredit": "Jon Gordon | Newsmakers | Getty Images"
-  },
-  {
-    "month": "2002-04",
-    "kind": "company",
     "headline": "IBM warns, then reports a 31% profit drop",
     "text": "On 8 April IBM warned that first-quarter revenue would fall to about 18.5 billion dollars from 21 billion, as customers put off spending, and that its chip unit would lose money. The results confirmed it: earnings per share fell 31% to 68 cents. New chief executive Sam Palmisano said customers everywhere deferred technology purchases.",
     "assets": [
@@ -90,6 +139,17 @@
     "image": "/news/ibm/2002-04-palmisano.jpg",
     "imageCaption": "Sam Palmisano, IBM's chief executive",
     "imageCredit": "Gage Skidmore"
+  },
+  {
+    "month": "2002-05",
+    "kind": "colour",
+    "headline": "Expo.02, the Swiss national exhibition, opens on the lakes",
+    "text": "Switzerland's sixth national exhibition, Expo.02, opened on 15 May and runs until 20 October. It is spread over four 'Arteplages' built for the event on the lake shores at Biel, Murten, Neuchâtel and Yverdon-les-Bains, plus a converted gravel barge that travels between them. It was planned for 2001 and postponed by a year.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Expo.02 (read 2026-10-03)",
+    "image": "/news/life/2002-05-expo02.jpg",
+    "imageCaption": "Expo.02 at Biel/Bienne: the 'Empire of Silence' pavilion on the lakeshore",
+    "imageCredit": "Norbert Aepli"
   },
   {
     "month": "2002-05",
@@ -106,24 +166,36 @@
   },
   {
     "month": "2002-05",
-    "kind": "colour",
-    "headline": "Expo.02, the Swiss national exhibition, opens on the lakes",
-    "text": "Switzerland's sixth national exhibition, Expo.02, opened on 15 May and runs until 20 October. It is spread over four 'Arteplages' built for the event on the lake shores at Biel, Murten, Neuchâtel and Yverdon-les-Bains, plus a converted gravel barge that travels between them. It was planned for 2001 and postponed by a year.",
-    "assets": [],
-    "source": "https://de.wikipedia.org/wiki/Expo.02 (read 2026-10-03)",
-    "image": "/news/life/2002-05-expo02.jpg",
-    "imageCaption": "Expo.02 at Biel/Bienne: the 'Empire of Silence' pavilion on the lakeshore",
-    "imageCredit": "Norbert Aepli"
-  },
-  {
-    "month": "2002-05",
     "kind": "company",
     "headline": "WorldCom cut to junk; scraps the MCI dividend",
     "text": "The rating agencies have cut WorldCom's debt to junk (Moody's Ba2, Standard & Poor's BB), and the company plans to draw $2.65 billion from a bank credit line while it negotiates new, secured loans. It expects to write off $15-20 billion of goodwill from past acquisitions, has replaced Arthur Andersen as auditor with KPMG, has rolled Bernard Ebbers' debts to the company into a single $408 million note, and on 21 May said it would scrap the MCI tracking stock and its dividend to save $284 million a year.",
     "assets": [
       "worldcom"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702020812/a2079976z10-q.txt (WorldCom 10-Q, 15 May 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702021565/a2080825zex-99_1.txt (press release, 21 May 2002; read 2026-10-03); https://en.wikipedia.org/wiki/WorldCom_scandal (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702020812/a2079976z10-q.txt (WorldCom 10-Q, 15 May 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702021565/a2080825zex-99_1.txt (press release, 21 May 2002; read 2026-10-03); https://en.wikipedia.org/wiki/WorldCom_scandal (read 2026-10-03)",
+    "image": "/news/worldcom/2002-05-mci-center.jpg",
+    "imageCaption": "MCI Center, 2023",
+    "imageCredit": "APK"
+  },
+  {
+    "month": "2002-05",
+    "kind": "company",
+    "headline": "Helmut Panke succeeds Milberg",
+    "text": "Helmut Panke, who used to run BMW's American business, became chairman of BMW in May, succeeding Joachim Milberg, who stepped down for health reasons.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Helmut_Panke (read 2026-10-03); https://en.wikipedia.org/wiki/Joachim_Milberg (read 2026-10-03)"
+  },
+  {
+    "month": "2002-05",
+    "kind": "company",
+    "headline": "GE buys Enron's wind turbine business",
+    "text": "General Electric has bought the wind turbine manufacturing business of the bankrupt energy trader Enron and formed GE Wind Energy. It adds wind power to its gas and steam turbines.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing desertskywind.com news of 2002-05-02). Month inferred from the date of the cited page."
   },
   {
     "month": "2002-06",
@@ -165,6 +237,16 @@
     "imageCredit": "Philip Morris Company"
   },
   {
+    "month": "2002-06",
+    "kind": "company",
+    "headline": "Wal-Mart tops the Fortune 500",
+    "text": "Wal-Mart heads Fortune magazine's list of America's largest companies for the first time, with revenue of 219.8 billion dollars, the first service company ever to lead the list. Last year it also became the largest grocer in the country.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
+  },
+  {
     "month": "2002-07",
     "kind": "delisting",
     "headline": "WorldCom files for bankruptcy, the largest in U.S. history",
@@ -172,7 +254,10 @@
     "assets": [
       "worldcom"
     ],
-    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03)",
+    "image": "/news/worldcom/2002-07-bernard-ebbers.jpg",
+    "imageCaption": "Bernard Ebbers, 2001",
+    "imageCredit": "U.S. National Communications System"
   },
   {
     "month": "2002-07",
@@ -192,16 +277,15 @@
   {
     "month": "2002-07",
     "kind": "company",
-    "headline": "Citigroup's star analyst questioned over WorldCom",
-    "text": "WorldCom, whose shares and bonds Citigroup's Salomon Smith Barney helped sell and whose deals it advised on, has collapsed into bankruptcy after admitting a $3.8 billion fraud. Salomon's telecom analyst Jack Grubman, who recommended WorldCom shares until April, told Congress he saw no warning signs. New York's attorney general Eliot Spitzer is investigating conflicts of interest among Wall Street analysts, Salomon among them, and Citigroup faces lawsuits over its role in Enron's financing.",
+    "headline": "Coal prices slide as markets crash",
+    "text": "Export coal prices have been falling all year: Australian thermal coal averaged about $23 a tonne in July, down from $27 in May, as the world economy stalls. Stock markets fell hard in July amid accounting scandals in the United States, and a newly listed, thinly traded mining share like Xstrata offers little shelter.",
     "assets": [
-      "c",
-      "worldcom"
+      "xstrata"
     ],
-    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
-    "image": "/news/c/2002-07-citigroup-center.jpg",
-    "imageCaption": "Citigroup Center, Manhattan",
-    "imageCredit": "Trxr4kds"
+    "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02; data/news/arcs/movers.md (both read 2026-10-03)",
+    "image": "/news/xstrata/2002-07-coal-mining.jpg",
+    "imageCaption": "Coal mining, 2004",
+    "imageCredit": "Unknown authorUnknown author"
   },
   {
     "month": "2002-07",
@@ -217,6 +301,20 @@
     "imageCredit": "KEYSTONE/Martin Ruetschi"
   },
   {
+    "month": "2002-07",
+    "kind": "company",
+    "headline": "Citigroup's star analyst questioned over WorldCom",
+    "text": "WorldCom, whose shares and bonds Citigroup's Salomon Smith Barney helped sell and whose deals it advised on, has collapsed into bankruptcy after admitting a $3.8 billion fraud. Salomon's telecom analyst Jack Grubman, who recommended WorldCom shares until April, told Congress he saw no warning signs. New York's attorney general Eliot Spitzer is investigating conflicts of interest among Wall Street analysts, Salomon among them, and Citigroup faces lawsuits over its role in Enron's financing.",
+    "assets": [
+      "c",
+      "worldcom"
+    ],
+    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "image": "/news/c/2002-07-citigroup-center.jpg",
+    "imageCaption": "Citigroup Center, Manhattan",
+    "imageCredit": "Trxr4kds"
+  },
+  {
     "month": "2002-08",
     "kind": "world",
     "headline": "Exiles reveal secret nuclear sites at Natanz and Arak",
@@ -227,6 +325,25 @@
     "image": "/news/middle-east/2002-08-natanz.jpg",
     "imageCaption": "The Natanz nuclear site, Iran",
     "imageCredit": "Hamed Saber"
+  },
+  {
+    "month": "2002-09",
+    "kind": "world",
+    "headline": "Iraq tensions and weak data: shares fall 11 percent",
+    "text": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28. The Nasdaq ended the month at 1,172, 77% below its record of March 2000, as accounting scandals from Enron to WorldCom shook trust in company figures.",
+    "assets": [
+      "siemens",
+      "ibm",
+      "intc",
+      "csco",
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
+    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
+    "image": "/news/markets/2002-09-nyse-trader.jpg",
+    "imageCaption": "A trader on the floor of the New York Stock Exchange late in a day on which the Dow fell 296 points, 27 September 2002",
+    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
   },
   {
     "month": "2002-09",
@@ -256,38 +373,6 @@
     "imageCredit": "Taber Andrew Bain"
   },
   {
-    "month": "2002-09",
-    "kind": "world",
-    "headline": "Iraq tensions and weak data: shares fall 11 percent",
-    "text": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28. The Nasdaq ended the month at 1,172, 77% below its record of March 2000, as accounting scandals from Enron to WorldCom shook trust in company figures.",
-    "assets": [
-      "siemens",
-      "ibm",
-      "intc",
-      "csco",
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
-    "image": "/news/markets/2002-09-nyse-trader.jpg",
-    "imageCaption": "A trader on the floor of the New York Stock Exchange late in a day on which the Dow fell 296 points, 27 September 2002",
-    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
-  },
-  {
-    "month": "2002-10",
-    "kind": "company",
-    "headline": "eBay completes its purchase of PayPal",
-    "text": "eBay completed its acquisition of PayPal, an online payment service widely used by eBay buyers, for $1.4 billion on October 3. It will phase out its own payment service, Billpoint.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
-    "image": "/news/ebay/2002-10-paypal-headquarters.jpg",
-    "imageCaption": "PayPal's headquarters in San Jose, California",
-    "imageCredit": "Sagar Savla"
-  },
-  {
     "month": "2002-10",
     "kind": "world",
     "headline": "The Nasdaq falls 78% below its record, then rebounds",
@@ -308,6 +393,19 @@
   {
     "month": "2002-10",
     "kind": "company",
+    "headline": "IBM surprises with growing profits and buys PwC Consulting",
+    "text": "On 16 October IBM reported third-quarter earnings of 99 cents a share from continuing operations, up from 97 cents, on flat revenue of 19.8 billion dollars, in what it called one of the toughest spending environments it has faced. On 1 October it completed the purchase of PricewaterhouseCoopers' consulting arm for about 3.5 billion dollars. The stock market hit a new low on 9 October and then rallied.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205702038827/a2091373z8-k.txt (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
+    "image": "/news/ibm/2002-10-research-centre.jpg",
+    "imageCaption": "IBM's Thomas J. Watson Research Center, Yorktown Heights, New York",
+    "imageCredit": "Simon Greig"
+  },
+  {
+    "month": "2002-10",
+    "kind": "company",
     "headline": "Citigroup's profit holds up; bank shares rally",
     "text": "Citigroup reported on 15 October that core income rose 17% to $3.79 billion in the third quarter, with record results in its consumer business. Stocks rallied from the lows they hit early in the month, and Citigroup's shares rose a quarter in October.",
     "assets": [
@@ -321,28 +419,39 @@
   {
     "month": "2002-10",
     "kind": "company",
-    "headline": "IBM surprises with growing profits and buys PwC Consulting",
-    "text": "On 16 October IBM reported third-quarter earnings of 99 cents a share from continuing operations, up from 97 cents, on flat revenue of 19.8 billion dollars, in what it called one of the toughest spending environments it has faced. On 1 October it completed the purchase of PricewaterhouseCoopers' consulting arm for about 3.5 billion dollars. The stock market hit a new low on 9 October and then rallied.",
+    "headline": "eBay completes its purchase of PayPal",
+    "text": "eBay completed its acquisition of PayPal, an online payment service widely used by eBay buyers, for $1.4 billion on October 3. It will phase out its own payment service, Billpoint.",
     "assets": [
-      "ibm"
+      "ebay"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205702038827/a2091373z8-k.txt (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
-    "image": "/news/ibm/2002-10-research-centre.jpg",
-    "imageCaption": "IBM's Thomas J. Watson Research Center, Yorktown Heights, New York",
-    "imageCredit": "Simon Greig"
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "image": "/news/ebay/2002-10-paypal-headquarters.jpg",
+    "imageCaption": "PayPal's headquarters in San Jose, California",
+    "imageCredit": "Sagar Savla"
+  },
+  {
+    "month": "2002-10",
+    "kind": "company",
+    "headline": "Nokia returns to growth",
+    "text": "On 17 October Nokia reported an unexpectedly large rise in third-quarter profit, to 610 million euros, as colour-screen and multimedia phones sold well, and said it is entering a new growth period. Its shares closed up 10.5% in Helsinki.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://money.cnn.com/2002/10/17/technology/nokia.ap/index.htm via web.archive.org (read 2026-10-03)",
+    "image": "/news/nokia/2002-10-jorma-ollila.jpg",
+    "imageCaption": "Jorma Ollila, 2013",
+    "imageCredit": "Soppakanuuna"
   },
   {
     "month": "2002-11",
-    "kind": "company",
-    "headline": "Cisco grows again as tech stocks rebound",
-    "text": "Cisco reported on November 6 that sales for the quarter to October rose 9% from a year earlier to $4.8 billion, with a profit of $618 million. It holds $21.2 billion in cash and investments. Chambers said Cisco is 'well positioned for an upturn, regardless of when it occurs.' Technology shares have rebounded since early October.",
+    "kind": "world",
+    "headline": "The most battered shares bounce hardest",
+    "text": "The Nasdaq rose another 11% in November to 1,479. The shares that had fallen furthest rebounded most: Nvidia rose 44%, Cisco a third.",
     "assets": [
+      "nvda",
       "csco"
     ],
-    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2002/m11/cisco-systems-reports-first-quarter-earnings-2002-.html (read 2026-10-03); market low from https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "image": "/news/csco/2002-11-chambers-stage.jpg",
-    "imageCaption": "John Chambers on stage at a Cisco event, April 2002",
-    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "month": "2002-11",
@@ -356,6 +465,19 @@
     "image": "/news/nvda/2002-11-geforce-fx.jpg",
     "imageCaption": "The Nvidia GeForce FX 5800 Ultra graphics card",
     "imageCredit": "Hyins"
+  },
+  {
+    "month": "2002-11",
+    "kind": "company",
+    "headline": "Cisco grows again as tech stocks rebound",
+    "text": "Cisco reported on November 6 that sales for the quarter to October rose 9% from a year earlier to $4.8 billion, with a profit of $618 million. It holds $21.2 billion in cash and investments. Chambers said Cisco is 'well positioned for an upturn, regardless of when it occurs.' Technology shares have rebounded since early October.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2002/m11/cisco-systems-reports-first-quarter-earnings-2002-.html (read 2026-10-03); market low from https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "image": "/news/csco/2002-11-chambers-stage.jpg",
+    "imageCaption": "John Chambers on stage at a Cisco event, April 2002",
+    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
     "month": "2002-12",
@@ -375,6 +497,19 @@
   {
     "month": "2002-12",
     "kind": "company",
+    "headline": "Citigroup settles research probe, sets aside $1.3 billion",
+    "text": "Citigroup reached a settlement in principle with the SEC, the stock exchanges and New York's attorney general over its analysts' research, the allocation of shares in hot share offerings and related practices. It is taking a fourth-quarter charge of $1.5 billion after tax, most of it a $1.3 billion addition to reserves for the settlement and for lawsuits over Enron and research.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012302012169/y67237exv99w1.txt (Citigroup press release, 23 December 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012303004835/y85900exv99w1.txt (28 April 2003; read 2026-10-03)",
+    "image": "/news/c/2002-12-spitzer.jpg",
+    "imageCaption": "Eliot Spitzer, New York's attorney general, whose office led the research probe",
+    "imageCredit": "US Department of State"
+  },
+  {
+    "month": "2002-12",
+    "kind": "company",
     "headline": "Greenberg out, Cantalupo back",
     "text": "On 5 December McDonald's announced that chairman and chief executive Jack Greenberg will retire at the end of the year. Jim Cantalupo, the former head of McDonald's International who had planned to retire, will succeed him on 1 January, with Charlie Bell, head of McDonald's Europe, as president and Jim Skinner as vice chairman. In October McDonald's launched a US Dollar Menu.",
     "assets": [
@@ -388,15 +523,12 @@
   {
     "month": "2002-12",
     "kind": "company",
-    "headline": "Citigroup settles research probe, sets aside $1.3 billion",
-    "text": "Citigroup reached a settlement in principle with the SEC, the stock exchanges and New York's attorney general over its analysts' research, the allocation of shares in hot share offerings and related practices. It is taking a fourth-quarter charge of $1.5 billion after tax, most of it a $1.3 billion addition to reserves for the settlement and for lawsuits over Enron and research.",
+    "headline": "Alcon goes public",
+    "text": "This year Nestlé sold 25% of its eye-care company Alcon to the public in a stock market listing. Nestlé bought Alcon of Fort Worth, Texas, in 1977 and keeps a large majority.",
     "assets": [
-      "c"
+      "nestle"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012302012169/y67237exv99w1.txt (Citigroup press release, 23 December 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012303004835/y85900exv99w1.txt (28 April 2003; read 2026-10-03)",
-    "image": "/news/c/2002-12-spitzer.jpg",
-    "imageCaption": "Eliot Spitzer, New York's attorney general, whose office led the research probe",
-    "imageCredit": "US Department of State"
+    "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03)"
   },
   {
     "month": "2002-12",

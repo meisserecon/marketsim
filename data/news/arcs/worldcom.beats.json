@@ -8,7 +8,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
   },
   {
@@ -20,7 +19,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 1,
     "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
   },
   {
@@ -32,7 +30,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03, citing New York Times, 1 May 2002)"
   },
   {
@@ -44,7 +41,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 2,
     "source": "https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)"
   },
   {
@@ -56,7 +52,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 2,
     "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03)"
   },
   {
@@ -68,7 +63,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 1,
     "source": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)"
   },
   {
@@ -80,7 +74,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
   },
   {
@@ -96,7 +89,6 @@
       "asset": "worldcom",
       "pct": -37
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205701505916/a2043540z10-k405.txt (WorldCom 10-K for 2000, describing the 1 November announcement and the third-quarter charge; read 2026-10-03); http://usatoday30.usatoday.com/money/industries/telecom/2002-11-05-ebbers-loans-timeline_x.htm (read 2026-10-03)"
   },
   {
@@ -108,7 +100,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 3,
     "source": "https://www.foxnews.com/story/worldcom-timeline (Associated Press timeline, 8 August 2002; read 2026-10-03)"
   },
   {
@@ -121,7 +112,6 @@
       "worldcom",
       "c"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000089375001500127/exh99_1.txt (WorldCom press release, 7 June 2001; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547701500032/ex99-1.txt (26 April 2001; read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
   },
   {
@@ -138,7 +128,6 @@
       "asset": "worldcom",
       "pct": -29
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Global_Crossing (read 2026-10-03)"
   },
   {
@@ -154,7 +143,6 @@
       "asset": "worldcom",
       "pct": -25
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702004505/a2069923z8-k.txt (WorldCom 8-K, 7 February 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702004378/a2069923z8-k.txt (read 2026-10-03)"
   },
   {
@@ -166,7 +154,6 @@
     "assets": [
       "worldcom"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000100547702001225/ex99.txt (WorldCom press release, 8 March 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547702001226/d02-36461.txt (10-K for 2001; read 2026-10-03)"
   },
   {
@@ -182,7 +169,6 @@
       "asset": "worldcom",
       "pct": -63
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
   },
   {
@@ -198,7 +184,6 @@
       "asset": "worldcom",
       "pct": -33
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702020812/a2079976z10-q.txt (WorldCom 10-Q, 15 May 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702021565/a2080825zex-99_1.txt (press release, 21 May 2002; read 2026-10-03); https://en.wikipedia.org/wiki/WorldCom_scandal (read 2026-10-03)"
   },
   {
@@ -214,7 +199,6 @@
       "asset": "worldcom",
       "pct": -50
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/WorldCom_scandal (read 2026-10-03); https://www.foxnews.com/story/worldcom-timeline (read 2026-10-03)"
   },
   {
@@ -230,7 +214,6 @@
       "asset": "worldcom",
       "pct": -83
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03)"
   }
 ]

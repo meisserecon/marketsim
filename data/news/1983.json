@@ -53,19 +53,6 @@
   },
   {
     "month": "1983-03",
-    "kind": "company",
-    "headline": "Berkshire's net worth rose 40% in 1982",
-    "text": "Buffett's letter of 3 March reports that Berkshire's net worth rose 208 million dollars, or 40%, in 1982, to 737.43 dollars per share, a compound 22% a year over 18 years. He warns the percentage will diminish as Berkshire grows. The stock market has been rising since last August.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://www.berkshirehathaway.com/letters/1982.html (read 2026-10-03)",
-    "image": "/news/brk/1983-03-sees.jpg",
-    "imageCaption": "A See’s Candies shop, one of the businesses Berkshire Hathaway owns",
-    "imageCredit": "Coolcaesar"
-  },
-  {
-    "month": "1983-03",
     "kind": "colour",
     "headline": "The compact disc arrives in Europe",
     "text": "In March the compact disc and its players went on sale in Europe and America. Sony launched the format in Japan in October 1982 with its CDP-101 player at 168,000 yen; its partner Philips now brings its own player to Europe. A CD holds music as digital data read by a laser, without the hiss and scratches of tape and vinyl. Players and discs are still expensive.",
@@ -84,7 +71,80 @@
     "text": "On 8 March President Reagan told a meeting of evangelical Christians in Orlando that the Soviet Union is 'the focus of evil in the modern world'. On 23 March, in a televised address, he called on American scientists to give the country the means of rendering nuclear missiles 'impotent and obsolete' with a defence, partly based in space, that could destroy them in flight. Senator Edward Kennedy mocked it as 'reckless Star Wars schemes', and the name Star Wars has stuck.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Evil_Empire_speech (read 2026-10-04); https://en.wikipedia.org/wiki/Strategic_Defense_Initiative (read 2026-10-04)",
-    "thread": "soviet"
+    "thread": "soviet",
+    "image": "/news/world/1983-03-evil-empire-speech.jpg",
+    "imageCaption": "Evil Empire speech, 1983",
+    "imageCredit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989"
+  },
+  {
+    "month": "1983-03",
+    "kind": "company",
+    "headline": "Berkshire's net worth rose 40% in 1982",
+    "text": "Buffett's letter of 3 March reports that Berkshire's net worth rose 208 million dollars, or 40%, in 1982, to 737.43 dollars per share, a compound 22% a year over 18 years. He warns the percentage will diminish as Berkshire grows. The stock market has been rising since last August.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/1982.html (read 2026-10-03)",
+    "image": "/news/brk/1983-03-sees.jpg",
+    "imageCaption": "A See’s Candies shop, one of the businesses Berkshire Hathaway owns",
+    "imageCredit": "Coolcaesar"
+  },
+  {
+    "month": "1983-04",
+    "kind": "company",
+    "headline": "Tokyo Disneyland and the Disney Channel open",
+    "text": "Tokyo Disneyland, the first Disney park outside the United States, opened on 15 April. It opens in a country on the rise: the Nikkei index of Japanese shares ended April at 8,637, 17% higher than a year ago. On 23 April Disney launched the Disney Channel on American cable television.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); Nikkei 225 month-end levels: FRED series NIKKEI225, https://fred.stlouisfed.org/series/NIKKEI225 (read 2026-10-04)"
+  },
+  {
+    "month": "1983-06",
+    "kind": "world",
+    "headline": "Technology shares at a record",
+    "text": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned.",
+    "assets": [
+      "intc",
+      "aapl",
+      "ibm"
+    ],
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)",
+    "image": "/news/tech/1983-06-commodore-64.jpg",
+    "imageCaption": "Commodore 64, 2017",
+    "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "1983-08",
+    "kind": "company",
+    "headline": "Siemens installs its first commercial MRI scanner",
+    "text": "In August a Siemens MAGNETOM, the company's first commercial magnetic resonance scanner, went into operation at the Mallinckrodt Institute of Radiology in St. Louis after just under three months of installation. Siemens had tested a prototype at Hannover Medical School since February.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/mri (read 2026-10-03)"
+  },
+  {
+    "month": "1983-09",
+    "kind": "company",
+    "headline": "Apple shares lose more than a third in a month",
+    "text": "Apple's shares, which stood at 63 dollars in June, have collapsed: in September alone they lost 38%. Computer shares fell across the board after Osborne, a maker of portable computers, went bankrupt. Apple has troubles of its own: its new Lisa costs 10,000 dollars and sells poorly, it has cut the price of its best seller, the Apple IIe, and IBM, only two years after launching its PC, now sells more personal computers by value than Apple.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "source": "https://fortune.com/1984/02/20/apple-bites-back-fortune-1984 (read 2026-10-04)",
+    "image": "/news/aapl/1983-09-apple-lisa.jpg",
+    "imageCaption": "Apple Lisa, 2022",
+    "imageCredit": "Timothy Colegrove"
+  },
+  {
+    "month": "1983-10",
+    "kind": "colour",
+    "headline": "The first mobile phone network opens in Chicago",
+    "text": "The first call on a commercial cellular network was made in Chicago on 13 October, after the US regulator approved Motorola's handheld DynaTAC phone in September. Until now mobile phones have mostly been heavy sets built into cars; in Switzerland the PTT's portable Natel B phone weighs 12 kilograms and comes in a case.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Motorola_DynaTAC (read 2026-10-03); https://de.wikipedia.org/wiki/Natel (read 2026-10-03); data/news/1983.json"
   },
   {
     "month": "1983-10",
@@ -101,6 +161,18 @@
   },
   {
     "month": "1983-11",
+    "kind": "world",
+    "headline": "The new American missiles arrive in Europe",
+    "text": "The first US cruise missiles arrived at RAF Greenham Common in England on 13 November, and the first Pershing II launchers reached West Germany later in the month. NATO decided in 1979 to station the missiles unless the Soviet Union scrapped its SS-20s; after the first Pershings arrived, the Soviet Union broke off the Geneva talks on medium-range weapons. Peace protesters have camped outside Greenham Common since 1981, and in April some 70,000 people formed a human chain there.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Greenham_Common_Women%27s_Peace_Camp (read 2026-10-03); https://en.wikipedia.org/wiki/Pershing_II (read 2026-10-03); https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03)",
+    "thread": "soviet",
+    "image": "/news/world/1983-11-pershing-ii.jpg",
+    "imageCaption": "A Pershing II missile on a test launch, 1983",
+    "imageCredit": "DoD"
+  },
+  {
+    "month": "1983-11",
     "kind": "company",
     "headline": "America approves Sandimmune",
     "text": "The US Food and Drug Administration approved cyclosporin for clinical use on 14 November; Sandoz sells it as Sandimmune (Sandimmun in Switzerland). It damps the immune system so that the body does not reject a transplanted organ.",
@@ -112,16 +184,22 @@
     "imageCaption": "Structure of cyclosporin, the active substance of Sandoz's Sandimmune"
   },
   {
-    "month": "1983-11",
+    "month": "1983-12",
     "kind": "world",
-    "headline": "The new American missiles arrive in Europe",
-    "text": "The first US cruise missiles arrived at RAF Greenham Common in England on 13 November, and the first Pershing II launchers reached West Germany later in the month. NATO decided in 1979 to station the missiles unless the Soviet Union scrapped its SS-20s; after the first Pershings arrived, the Soviet Union broke off the Geneva talks on medium-range weapons. Peace protesters have camped outside Greenham Common since 1981, and in April some 70,000 people formed a human chain there.",
+    "headline": "1983 in review: the recovery year, shares up 17 percent",
+    "text": "The S&P 500 gained 17% in 1983 to 164.93; it first closed above 150 on 1 March. The Dow ended at 1,258.64, up 20.3%. Inflation, above 10 percent in 1981, is down to about 3 percent, and unemployment is falling from its peak of 10.8 percent a year ago.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Greenham_Common_Women%27s_Peace_Camp (read 2026-10-03); https://en.wikipedia.org/wiki/Pershing_II (read 2026-10-03); https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03)",
-    "thread": "soviet",
-    "image": "/news/world/1983-11-pershing-ii.jpg",
-    "imageCaption": "A Pershing II missile on a test launch, 1983",
-    "imageCredit": "DoD"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03)"
+  },
+  {
+    "month": "1983-12",
+    "kind": "company",
+    "headline": "Recovery year: the 1,000th 737",
+    "text": "The economy began to recover in 1983 and Boeing assembled its 1,000th 737. Its new 757 and 767 are in service, and airlines are again looking at new planes, though Airbus of Europe is a growing competitor.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
   },
   {
     "month": "1983-12",

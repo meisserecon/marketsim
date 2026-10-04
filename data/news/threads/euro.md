@@ -20,3 +20,6 @@ At Maastricht in December 1991 Europe agreed on a single currency with entry tes
 | 2012-06 | Spain asks Europe to save its banks; half its young people are out of work | a898025c | world | new |
 | 2012-07 | Draghi: whatever it takes | f270f5b7 | world | existing |
 | 2015-07 | Greeks vote No, then accept a third rescue | ce67ee88 | world | new |
+
+Added on 4 October 2026 (build-up):
+- 1992-09 Black Wednesday, and France's narrow yes (64340dd1, world, new)

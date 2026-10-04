@@ -2,19 +2,6 @@
   {
     "month": "2015-01",
     "kind": "company",
-    "headline": "Oil halves; Schlumberger cuts jobs but raises its dividend",
-    "text": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.27 dollars a share for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
-    "assets": [
-      "slb"
-    ],
-    "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)",
-    "image": "/news/slb/2015-01-crew-transfer.jpg",
-    "imageCaption": "A supply vessel alongside an offshore oil platform",
-    "imageCredit": "GuavaTrain"
-  },
-  {
-    "month": "2015-01",
-    "kind": "company",
     "headline": "Oil and copper crash",
     "text": "Brent oil averaged $48 a barrel in January, down from $112 last June, and copper fell 10% in a month to an average $5,831 a tonne, its lowest in more than five years. Glencore is exposed twice: as a producer of copper, coal and oil, and as a trader whose volumes and credit lines depend on prices.",
     "assets": [
@@ -24,6 +11,16 @@
     "image": "/news/glencore/2015-01-bingham.jpg",
     "imageCaption": "A giant shovel at an open-pit copper mine, Bingham Canyon, Utah",
     "imageCredit": "Jet6581"
+  },
+  {
+    "month": "2015-01",
+    "kind": "company",
+    "headline": "Altria shareholders made 34.5% in 2014",
+    "text": "Altria reported on 30 January that adjusted earnings per share grew 8.0% in 2014 and that shareholders earned a total return of 34.5%, well above the S&P 500. It raised its dividend for the 48th time in 45 years and launched its MarkTen e-cigarette nationally. Howard Willard becomes chief operating officer and Billy Gifford finance chief in March.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418015000006/exhibit991erq42014.htm (release of 30 January 2015, read 2026-10-03)"
   },
   {
     "month": "2015-01",
@@ -40,31 +37,60 @@
     "imageCredit": "Keystone"
   },
   {
-    "month": "2015-04",
+    "month": "2015-01",
     "kind": "company",
-    "headline": "Amazon reveals its cloud is a $5 billion business",
-    "text": "For the first time Amazon reported Amazon Web Services, which rents computing power and storage to other companies, as a separate segment. Bezos called it 'a $5 billion business and still growing fast'. First-quarter sales rose 15% to $22.7 billion, with a small net loss. AWS had 1.57 billion dollars of sales in the first quarter and 265 million dollars of operating profit.",
+    "headline": "Nvidia Drive: chips for cars",
+    "text": "At the CES show Nvidia introduced Nvidia Drive, computing platforms for cars, including systems to help them drive themselves. Nvidia now concentrates on games, cars and mobile devices.",
     "assets": [
-      "amzn",
-      "msft"
+      "nvda"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)",
-    "image": "/news/amzn/2015-04-jassy.jpg",
-    "imageCaption": "Andy Jassy, head of Amazon Web Services",
-    "imageCredit": "Steve Jurvetson"
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "month": "2015-04",
+    "month": "2015-01",
     "kind": "company",
-    "headline": "GE will sell most of GE Capital",
-    "text": "On 10 April chief executive Jeff Immelt announced that General Electric will sell most of GE Capital over the next two years and return up to 90 billion dollars to shareholders. It starts by selling 26.5 billion dollars of real estate to Wells Fargo and Blackstone. GE wants to be an industrial company again.",
+    "headline": "Oil halves; Schlumberger cuts jobs but raises its dividend",
+    "text": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.27 dollars a share for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
     "assets": [
-      "ge"
+      "slb"
     ],
-    "source": "https://en.wikipedia.org/wiki/GE_Capital (read 2026-10-03, citing NYT 2015-04-10); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and Reuters April 2015)",
-    "image": "/news/ge/2015-04-immelt-modi.jpg",
-    "imageCaption": "General Electric chief executive Jeffrey Immelt (centre) meets Indian Prime Minister Narendra Modi, New Delhi",
-    "imageCredit": "Prime Minister's Office, India"
+    "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)",
+    "image": "/news/slb/2015-01-crew-transfer.jpg",
+    "imageCaption": "A supply vessel alongside an offshore oil platform",
+    "imageCredit": "GuavaTrain"
+  },
+  {
+    "month": "2015-02",
+    "kind": "company",
+    "headline": "A bounce, and Lonmin handed to shareholders",
+    "text": "Oil rebounded to an average $58 a barrel in February and Australian coal to $69 a tonne from $61. On 11 February Glencore said it would hand its 23.9% stake in the platinum miner Lonmin, inherited from Xstrata, directly to its own shareholders, and published its 2014 production report.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-s-23-9-stake-in-lonmin-plc/3795257 (listing); https://en.wikipedia.org/wiki/Lonmin; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "image": "/news/glencore/2015-02-platinum.jpg",
+    "imageCaption": "Platinum, 2010",
+    "imageCredit": "Periodictableru"
+  },
+  {
+    "month": "2015-03",
+    "kind": "world",
+    "headline": "Schlumberger pays a record fine over Iran and Sudan",
+    "text": "On 25 March a Schlumberger subsidiary agreed to plead guilty and pay about 233 million dollars for having provided oilfield services to Iran and Sudan in violation of US sanctions between 2004 and 2010. The 155 million dollar criminal fine is the largest ever for such a violation.",
+    "assets": [
+      "slb"
+    ],
+    "source": "https://fcpablog.com/2015/03/26/schlumberger-unit-pays-record-232-million-penalties-for-iran/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/0000087347/000156459015002749/slb-10q_20150331.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2015-03",
+    "kind": "company",
+    "headline": "Citigroup passes the Fed's stress test",
+    "text": "The Federal Reserve did not object to Citigroup's capital plan this year, after rejecting it in 2012 and 2014, so the bank may raise its dividend and buy back shares. Two of the 31 banks tested had their plans rejected on qualitative grounds.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.federalreserve.gov/newsevents/press/bcreg/20150311a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
   },
   {
     "month": "2015-04",
@@ -99,6 +125,43 @@
   {
     "month": "2015-04",
     "kind": "company",
+    "headline": "Amazon reveals its cloud is a $5 billion business",
+    "text": "For the first time Amazon reported Amazon Web Services, which rents computing power and storage to other companies, as a separate segment. Bezos called it 'a $5 billion business and still growing fast'. First-quarter sales rose 15% to $22.7 billion, with a small net loss. AWS had 1.57 billion dollars of sales in the first quarter and 265 million dollars of operating profit.",
+    "assets": [
+      "amzn",
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)",
+    "image": "/news/amzn/2015-04-jassy.jpg",
+    "imageCaption": "Andy Jassy, head of Amazon Web Services",
+    "imageCredit": "Steve Jurvetson"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "GE will sell most of GE Capital",
+    "text": "On 10 April chief executive Jeff Immelt announced that General Electric will sell most of GE Capital over the next two years and return up to 90 billion dollars to shareholders. It starts by selling 26.5 billion dollars of real estate to Wells Fargo and Blackstone. GE wants to be an industrial company again.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GE_Capital (read 2026-10-03, citing NYT 2015-04-10); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and Reuters April 2015)",
+    "image": "/news/ge/2015-04-immelt-modi.jpg",
+    "imageCaption": "General Electric chief executive Jeffrey Immelt (centre) meets Indian Prime Minister Narendra Modi, New Delhi",
+    "imageCredit": "Prime Minister's Office, India"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
+    "headline": "IBM creates Watson Health",
+    "text": "IBM set up a new Watson Health unit, built largely through acquisitions, to apply its Watson artificial intelligence to medicine and health data.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing ACM 2021-04-21 'What Happened To Watson Health?')"
+  },
+  {
+    "month": "2015-04",
+    "kind": "company",
     "headline": "Nokia agrees to buy Alcatel-Lucent",
     "text": "On 15 April Nokia agreed to buy the French network equipment maker Alcatel-Lucent for 15.6 billion euros in shares; Nokia shareholders will own 66.5% of the combined company, which will include Bell Labs. Chief executive Rajeev Suri says it positions Nokia for 5G.",
     "assets": [
@@ -123,17 +186,30 @@
     "imageCredit": "Cisco Systems Inc., Paul Sakuma | AP"
   },
   {
-    "month": "2015-07",
+    "month": "2015-06",
+    "kind": "colour",
+    "headline": "Wawrinka wins the French Open",
+    "text": "Stan Wawrinka beat world number one Novak Djokovic in the French Open final, his second Grand Slam title. On the way he also beat Roger Federer.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)"
+  },
+  {
+    "month": "2015-06",
     "kind": "company",
-    "headline": "PayPal becomes a separate company",
-    "text": "eBay completed the spin-off of PayPal on July 18: eBay shareholders received PayPal shares, and eBay is now a pure online marketplace again.",
+    "headline": "Dennis Muilenburg to succeed McNerney",
+    "text": "On 23 June Boeing named its chief operating officer, Dennis Muilenburg, as chief executive from 1 July, succeeding Jim McNerney. Muilenburg, an engineer, joined Boeing as an intern.",
     "assets": [
-      "ebay"
+      "ba"
     ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03); folding of the spin-off per data/src/universe.ts note",
-    "image": "/news/ebay/2015-07-paypal-headquarters.jpg",
-    "imageCaption": "PayPal's headquarters in San Jose, California",
-    "imageCredit": "Sagar Savla"
+    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, citing Boeing release 2015-06-23 and Business Insider 2015-06-23); https://en.wikipedia.org/wiki/Dennis_Muilenburg (read 2026-10-03)"
+  },
+  {
+    "month": "2015-07",
+    "kind": "world",
+    "headline": "China's stock bubble bursts",
+    "text": "The Shanghai Composite index, which had risen more than 150% in a year on borrowed money, reached a high of about 5,166 on 12 June and lost 30% in three weeks. By 8 and 9 July about 1,400 companies, more than half of all those listed, had halted trading in their shares, and the government stepped in to support prices.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03)"
   },
   {
     "month": "2015-07",
@@ -154,7 +230,10 @@
     "text": "Syriza won January's election promising an end to austerity, and talks with Greece's lenders went nowhere. On 27 June Prime Minister Alexis Tsipras called a referendum on their terms; Greek banks closed, cash machines paid out no more than 60 euros a day, and on 30 June Greece became the first developed country to miss a repayment to the IMF. On 5 July 61.3 percent voted No. Yet on 13 July, after 17 hours of talks, Tsipras agreed to a third rescue with even harsher conditions than those the voters had rejected.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/2015_Greek_bailout_referendum (read 2026-10-04); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-04)",
-    "thread": "euro"
+    "thread": "euro",
+    "image": "/news/world/2015-07-alexis-tsipras.jpg",
+    "imageCaption": "Alexis Tsipras, 2017",
+    "imageCredit": "EU2017EE Estonian Presidency"
   },
   {
     "month": "2015-07",
@@ -168,6 +247,19 @@
     "image": "/news/amzn/2015-07-amazon-tower.jpg",
     "imageCaption": "Amazon Tower I, a new office tower in Seattle, June 2015",
     "imageCredit": "SounderBruce"
+  },
+  {
+    "month": "2015-07",
+    "kind": "company",
+    "headline": "PayPal becomes a separate company",
+    "text": "eBay completed the spin-off of PayPal on July 18: eBay shareholders received PayPal shares, and eBay is now a pure online marketplace again.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03); folding of the spin-off per data/src/universe.ts note",
+    "image": "/news/ebay/2015-07-paypal-headquarters.jpg",
+    "imageCaption": "PayPal's headquarters in San Jose, California",
+    "imageCredit": "Sagar Savla"
   },
   {
     "month": "2015-07",
@@ -210,6 +302,16 @@
   {
     "month": "2015-08",
     "kind": "company",
+    "headline": "Cable subscribers start to leave ESPN",
+    "text": "On 4 August Disney reported record quarterly profit, but said that subscriber numbers fell at some of its cable networks, offset at ESPN only by its new SEC Network. Investors fear that viewers cancelling cable packages will hurt ESPN, Disney's biggest profit earner. The whole market fell in August.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000100103915000204/fy2015_q3x8kxcover.htm (Disney earnings release of 4 August 2015, read 2026-10-03)"
+  },
+  {
+    "month": "2015-08",
+    "kind": "company",
     "headline": "Berkshire's biggest industrial deal: Precision Castparts",
     "text": "On 8 August Berkshire agreed to buy Precision Castparts, maker of metal parts for jet engines, for 235 dollars a share in cash, a deal of about 37 billion dollars including debt.",
     "assets": [
@@ -219,6 +321,16 @@
     "image": "/news/brk/2015-08-castparts.jpg",
     "imageCaption": "A turbine blade and its wax pattern, the investment casting process of Precision Castparts",
     "imageCredit": "Olivier Cleynen"
+  },
+  {
+    "month": "2015-08",
+    "kind": "company",
+    "headline": "Three European bottlers to merge into Coca-Cola European Partners",
+    "text": "On 6 August Coca-Cola Enterprises announced that it will merge with Coca-Cola Iberian Partners and Coca-Cola's own German bottler into a new company, Coca-Cola European Partners, which will be the world's largest independent Coca-Cola bottler. Coca-Cola is selling bottling operations around the world to concentrate on brands and concentrate.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Coca-Cola_Enterprises (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000090342315000480/cocacola8kexhibit.htm (merger presentation of 6 August 2015, read 2026-10-03)"
   },
   {
     "month": "2015-08",
@@ -260,6 +372,47 @@
     "imageCredit": "Damian B Oh"
   },
   {
+    "month": "2015-09",
+    "kind": "company",
+    "headline": "Volkswagen's diesel cheating shakes German car makers",
+    "text": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal (read 2026-10-03)"
+  },
+  {
+    "month": "2015-09",
+    "kind": "company",
+    "headline": "Tesla starts delivering the Model X",
+    "text": "Tesla began shipping its third car, the Model X sport utility vehicle with rear doors that open upwards like wings, in September. It had 25,000 pre-orders. Deliveries were first planned for early 2014.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla_Model_X (read 2026-10-03)"
+  },
+  {
+    "month": "2015-10",
+    "kind": "world",
+    "headline": "Shares win back the summer's losses in October",
+    "text": "After falling in late September, shares more than recovered as worries about world growth eased, foreign central banks were expected to ease policy and figures from China were better than feared. The S&P 500 rose 8% in October to 2,079.36.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm (read 2026-10-03); data/reference/sp500.json"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "Glencore cuts zinc output by a third",
+    "text": "On 9 October Glencore said it would cut 500,000 tonnes of zinc mine production, about a third of its output, in Australia, Peru and Kazakhstan, to preserve the value of its reserves while prices are low. Days later it put its Cobar and Lomas Bayas copper mines up for sale after unsolicited interest. Stock markets rose about 8% in October.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-to-reduce-mine-production-of-zinc/4167047; https://www.investegate.co.uk/announcement/rns/glencore--glen/proposed-sale-of-copper-mines/4204774 (both read 2026-10-03)",
+    "image": "/news/glencore/2015-10-mountisa.jpg",
+    "imageCaption": "The Mount Isa smelter complex, Queensland, Australia",
+    "imageCredit": "ChrisFountain."
+  },
+  {
     "month": "2015-10",
     "kind": "company",
     "headline": "All-day breakfast and a turnaround quarter",
@@ -271,19 +424,6 @@
     "image": "/news/mcd/2015-10-all-day-breakfast.jpg",
     "imageCaption": "McDonald's all-day breakfast menu ;;",
     "imageCredit": "Mike Mozart"
-  },
-  {
-    "month": "2015-10",
-    "kind": "company",
-    "headline": "Wal-Mart warns profits will fall; shares drop 10% in a day",
-    "text": "On 14 October Wal-Mart said earnings per share will fall 6 to 12% next year, mainly because it is spending 1.5 billion dollars on higher pay, raising its minimum wage from 9 to 10 dollars an hour, and investing in online shopping and lower prices. The shares fell 10% to 60.03 dollars, their worst day in more than 17 years, wiping out almost 20 billion dollars of market value.",
-    "assets": [
-      "wmt"
-    ],
-    "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)",
-    "image": "/news/wmt/2015-10-mcmillon.jpg",
-    "imageCaption": "Doug McMillon, Wal-Mart chief executive ;;",
-    "imageCredit": "Brandonrush"
   },
   {
     "month": "2015-10",
@@ -301,15 +441,57 @@
   {
     "month": "2015-10",
     "kind": "company",
-    "headline": "Glencore cuts zinc output by a third",
-    "text": "On 9 October Glencore said it would cut 500,000 tonnes of zinc mine production, about a third of its output, in Australia, Peru and Kazakhstan, to preserve the value of its reserves while prices are low. Days later it put its Cobar and Lomas Bayas copper mines up for sale after unsolicited interest. Stock markets rose about 8% in October.",
+    "headline": "Activist Nelson Peltz buys a 2.5 billion dollar stake",
+    "text": "Trian, the investment fund of activist investor Nelson Peltz, has bought a 2.5 billion dollar stake in General Electric, six months after GE announced it would sell most of GE Capital.",
     "assets": [
-      "glencore"
+      "ge"
     ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-to-reduce-mine-production-of-zinc/4167047; https://www.investegate.co.uk/announcement/rns/glencore--glen/proposed-sale-of-copper-mines/4204774 (both read 2026-10-03)",
-    "image": "/news/glencore/2015-10-mountisa.jpg",
-    "imageCaption": "The Mount Isa smelter complex, Queensland, Australia",
-    "imageCredit": "ChrisFountain."
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Reuters 2015-10-05)"
+  },
+  {
+    "month": "2015-10",
+    "kind": "company",
+    "headline": "Wal-Mart warns profits will fall; shares drop 10% in a day",
+    "text": "On 14 October Wal-Mart said earnings per share will fall 6 to 12% next year, mainly because it is spending 1.5 billion dollars on higher pay, raising its minimum wage from 9 to 10 dollars an hour, and investing in online shopping and lower prices. The shares fell 10% to 60.03 dollars, their worst day in more than 17 years, wiping out almost 20 billion dollars of market value.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)",
+    "image": "/news/wmt/2015-10-mcmillon.jpg",
+    "imageCaption": "Doug McMillon, Wal-Mart chief executive ;;",
+    "imageCredit": "Brandonrush"
+  },
+  {
+    "month": "2015-11",
+    "kind": "colour",
+    "headline": "Paying by phone: Twint starts across Switzerland",
+    "text": "Twint, an app from PostFinance for paying with a smartphone and sending money to friends, started its national rollout on 3 November after a trial in Bern and Zurich in August. A rival app, Paymit, comes from UBS, the Zürcher Kantonalbank and the stock exchange operator SIX.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://de.wikipedia.org/wiki/Twint (read 2026-10-03)"
+  },
+  {
+    "month": "2015-12",
+    "kind": "colour",
+    "headline": "Star Wars returns, now made by Disney",
+    "text": "Star Wars: The Force Awakens opened on 18 December, the first Star Wars film since Disney bought Lucasfilm from George Lucas in 2012, and broke box-office records in its first days. Harrison Ford, Carrie Fisher and Mark Hamill return.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens (read 2026-10-03)"
+  },
+  {
+    "month": "2015-12",
+    "kind": "world",
+    "headline": "2015 in review: a flat year and the first Fed rate rise since 2006",
+    "text": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. On 16 December the Federal Reserve raised its key rate for the first time since June 2006, to between 0.25 and 0.5 percent.",
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
     "month": "2015-12",

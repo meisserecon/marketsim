@@ -8,7 +8,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -20,7 +19,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/GeForce_256 (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -36,7 +34,6 @@
       "asset": "nvda",
       "pct": 56
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-004592.txt (Nvidia 10-Q for the quarter to October 1999, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_256 (read 2026-10-03)"
   },
   {
@@ -53,7 +50,6 @@
       "asset": "nvda",
       "pct": 32
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (Nvidia 8-K of 29 April 2002, read 2026-10-03); https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -65,7 +61,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-01-500581.txt (Nvidia 8-K on the 3dfx asset purchase, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -82,7 +77,6 @@
       "asset": "nvda",
       "pct": -22
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-02-002921.txt (Nvidia 10-Q/A for the quarter to April 2002, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03)"
   },
   {
@@ -98,7 +92,6 @@
       "asset": "nvda",
       "pct": 44
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03); data/reference/sp500.json (monthly prices)"
   },
   {
@@ -114,7 +107,6 @@
       "asset": "nvda",
       "pct": 83
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000089109203001003/e14795ex99_1.txt (Nvidia press release of 8 May 2003, read 2026-10-03); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)"
   },
   {
@@ -127,7 +119,6 @@
       "nvda",
       "sony"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -139,7 +130,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/CUDA (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -151,7 +141,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
   },
   {
@@ -167,7 +156,6 @@
       "asset": "nvda",
       "pct": -39
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm (Nvidia 8-K of 2 July 2008, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -184,7 +172,6 @@
       "asset": "nvda",
       "pct": 55
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
     "lead": true
   },
@@ -197,7 +184,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -209,7 +195,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -225,7 +210,6 @@
       "asset": "nvda",
       "pct": 32
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/q117pr.htm (Nvidia press release of 12 May 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -237,7 +221,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -253,8 +236,22 @@
       "asset": "nvda",
       "pct": 30
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/q3fy17pr.htm (Nvidia press release of 10 November 2016, read 2026-10-03)"
+  },
+  {
+    "id": "93bf2600",
+    "month": "2017-05",
+    "title": "Artificial intelligence triples Nvidia's data-centre sales",
+    "what": "Nvidia's graphics chips were made for video games, but they turn out to be ideal for training artificial intelligence. On 9 May the company reported quarterly sales of 1.94 billion dollars, 48% more than a year earlier; sales to data centres almost tripled, from 143 to 409 million dollars. The shares rose 38% in May.",
+    "why": "The first time AI shows up in Nvidia numbers on this scale; the pattern of 2023, when the forecast stunned Wall Street, in miniature.",
+    "assets": [
+      "nvda"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": 38
+    },
+    "source": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581017000068/q1fy18pr.htm (search result read 2026-10-04); https://www.fool.com/investing/2017/05/09/nvidia-corp-data-center-sales-tripled-in-q1.aspx (search result read 2026-10-04)"
   },
   {
     "id": "defd34a4",
@@ -269,7 +266,6 @@
       "asset": "nvda",
       "pct": -22
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000148/q3fy19pr.htm (Nvidia press release of 15 November 2018, read 2026-10-03)"
   },
   {
@@ -281,7 +277,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -293,7 +288,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -310,7 +304,6 @@
       "asset": "nvda",
       "pct": 36
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03)"
   },
   {
@@ -322,7 +315,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -336,7 +328,6 @@
       "msft",
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -349,7 +340,6 @@
       "nvda",
       "intc"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -361,7 +351,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm (Nvidia 8-K of 15 April 2025, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -373,7 +362,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -386,7 +374,6 @@
       "nvda",
       "nokia"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
@@ -398,7 +385,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -410,7 +396,6 @@
     "assets": [
       "nvda"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm (Nvidia press release of 26 August 2026, read 2026-10-03)"
   }
 ]

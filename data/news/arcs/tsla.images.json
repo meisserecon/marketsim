@@ -1,25 +1,227 @@
 [
-  {"beat": "484d7937", "file": "news/tsla/2010-06-musk-ipo-times-square.jpg", "caption": "Elon Musk beside a Tesla Roadster in Times Square, New York, on the day Tesla's shares began trading on Nasdaq, 29 June 2010", "source": "https://www.cnn.com/2020/08/18/success/elon-musk-tesla-ipo-vault-interview", "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/200730160501-elon-musk-2010-tesla-ipo-vault-by-cnn.jpg?q=x_2,y_0,h_1078,w_1915,c_crop/w_1600", "credit": "CNN (still from CNN's 2010 interview)", "licence": "fair use: CNN (broadcast still)", "note": "Musk and the Roadster on IPO day; replaces a photo of the Roadster alone"},
-  {"beat": "b5bd0ec9", "file": "news/tsla/2010-11-fremont.jpg", "caption": "A Model S body in the Tesla factory, Fremont, California", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Factory,_Fremont_(CA,_USA)_(8763130149).jpg", "licence": "CC BY 2.0, photo: Maurizio Pesce", "note": "Photograph from October 2011 of the former Toyota plant Tesla bought in 2010"},
-  {"beat": "0e752eec", "file": "news/tsla/2012-06-models.jpg", "caption": "The first Model S deliveries, Fremont, California, 22 June 2012", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_first_deliveries.jpg", "licence": "CC BY 2.0, photo: Steve Jurvetson"},
-  {"beat": "9e0f757a", "file": "news/tsla/2013-04-musk.jpg", "caption": "Elon Musk with a Model S at the Tesla factory, Fremont, California", "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk,_Tesla_Factory,_Fremont_(CA,_USA)_(8765031426).jpg", "licence": "CC BY 2.0, photo: Maurizio Pesce", "note": "Photograph from October 2011"},
-  {"beat": "a74f23d1", "file": "news/tsla/2013-05-models.jpg", "caption": "The Tesla Model S, the car behind Tesla’s first profit", "source": "https://commons.wikimedia.org/wiki/File:Tesla_MODEL_S_rear.jpg", "licence": "CC0, photo: Tokumeigakarinoaoshima", "note": "Photograph from September 2013"},
-  {"beat": "e9841a69", "file": "news/tsla/2014-02-models.jpg", "caption": "A Tesla Model S at the Geneva motor show", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S,_Geneva_2014.jpg", "licence": "CC BY-SA 4.0, photo: Ank Kumar", "note": "Taken a month after the beat; no free picture of the Gigafactory plans from that date"},
-  {"beat": "b78819b1", "file": "news/tsla/2016-04-model3-queue-frankfurt.jpg", "caption": "People queue outside the Tesla store in Frankfurt to reserve a Model 3 before it has even been shown, 31 March 2016", "source": "https://electrek.co/2016/03/31/tesla-model-3-in-store-reservations/", "image_url": "https://electrek.co/wp-content/uploads/sites/3/2016/03/franfurt-store-e1459421384423.jpg?quality=82&strip=all&w=1600", "credit": "olexs (reader photo printed by Electrek)", "licence": "fair use: olexs (photo published by Electrek)", "note": "The queues that produced the 325,000 reservations; replaces the unveiling stage"},
-  {"beat": "9ac250c8", "file": "news/tsla/2017-07-first-model3.jpg", "caption": "The first production Tesla Model 3 outside the Fremont factory, July 2017", "source": "https://www.nbcnews.com/tech/tech-news/tesla-hands-over-first-model-3-electric-cars-early-buyers-n787716", "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_jpg,q_auto:best/newscms/2017_31/2088441/2017-07-13t011046z_1946549674_rc1be3758c10_rtrmadp_3_usa-funds-tesla.jpg", "credit": "HANDOUT / Reuters (Tesla Motors handout)", "licence": "fair use: Tesla (handout photo, distributed by Reuters)", "note": "The production car of the month of the first deliveries; replaces a 2016 prototype picture"},
-  {"beat": "122c6ee1", "file": "news/tsla/2018-03-factory.jpg", "caption": "Tesla cars outside the Tesla factory, Fremont, California", "source": "https://commons.wikimedia.org/wiki/File:New_Teslas_at_the_factory.jpg", "licence": "CC BY 2.0, photo: Steve Jurvetson", "note": "Photograph from December 2012"},
-  {"beat": "16ae8678", "file": "news/tsla/2018-08-musk.jpg", "caption": "Elon Musk, chief executive of Tesla, July 2018", "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk,_2018_(cropped).jpg", "licence": "CC BY-SA 4.0, photo: Duncan Hull"},
-  {"beat": "86b374f4", "file": "news/tsla/2020-01-shanghai.jpg", "caption": "Aerial view of the Tesla Gigafactory in Shanghai", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Gigafactory_Shanghai_aerial_view_01.png", "licence": "CC BY 3.0, photo: China News Service", "note": "Photograph published in 2023 of the plant opened in 2019"},
-  {"beat": "0478d608", "file": "news/tsla/2020-04-model3.jpg", "caption": "A Tesla Model 3, Xiamen, China", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_Xiamen_02_2019-11-21.jpg", "licence": "CC BY-SA 2.0, photo: James Young", "note": "Photograph from November 2019"},
-  {"beat": "87aaa893", "file": "news/tsla/2020-08-nasdaq.jpg", "caption": "The Nasdaq trading studio in Times Square, New York, where Tesla shares trade", "source": "https://commons.wikimedia.org/wiki/File:NASDAQ_Market_Site_201506.jpg", "licence": "CC BY 2.0, photo: Luca Marfè at Italia all’ONU", "note": "Photograph from 2015"},
-  {"beat": "74b26c34", "file": "news/tsla/2020-11-nyse.jpg", "caption": "The New York Stock Exchange, Wall Street", "source": "https://commons.wikimedia.org/wiki/File:Stock_Exchange_(39229300932).jpg", "licence": "CC BY 2.0, photo: Felix Stahlberg", "note": "Photograph from 2017; the S&P 500 is listed across the US exchanges"},
-  {"beat": "3329bc8f", "file": "news/tsla/2021-10-hertz.jpg", "caption": "A Hertz car rental counter", "source": "https://commons.wikimedia.org/wiki/File:The_Hertz_Corporation_Airport_Car_Rental_Counter_Charleston_AutoRentals.jpg", "licence": "CC BY-SA 4.0, photo: AutoRentals", "note": "Photograph from 2019"},
-  {"beat": "0c4b6d16", "file": "news/tsla/2022-04-twitter.jpg", "caption": "Twitter headquarters, Market Street, San Francisco", "source": "https://commons.wikimedia.org/wiki/File:Twitter_headquarters,_San_Francisco.jpg", "licence": "CC BY-SA 3.0, photo: Wgreaves", "note": "Photograph from 2011"},
-  {"beat": "631d5101", "file": "news/tsla/2022-12-musk.jpg", "caption": "Elon Musk, July 2022", "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Colorado_2022_(cropped2).jpg", "licence": "public domain, photo: U.S. Air Force / Trevor Cokley"},
-  {"beat": "ba3f9d99", "file": "news/tsla/2023-01-modely.jpg", "caption": "A Tesla Model Y, December 2022", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_1X7A6211.jpg", "licence": "CC BY-SA 4.0, photo: Alexander Migl"},
-  {"beat": "8db62e9b", "file": "news/tsla/2024-01-cybertruck.jpg", "caption": "A Tesla Cybertruck, 2024", "source": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_Foundation_Series_IMG_0634.jpg", "licence": "CC BY-SA 4.0, photo: Alexander-93", "note": "Photograph from August 2024, after the beat"},
-  {"beat": "e7b042cf", "file": "news/tsla/2025-02-musk.jpg", "caption": "Elon Musk at the Conservative Political Action Conference, 21 February 2025", "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_by_Gage_Skidmore.jpg", "licence": "CC BY-SA 3.0, photo: Gage Skidmore"},
-  {"beat": "b5034b2b", "file": "news/tsla/2025-09-musk.jpg", "caption": "Elon Musk, chief executive of Tesla", "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54350004945)_(cropped).jpg", "licence": "CC BY-SA 2.0, photo: Gage Skidmore", "note": "Photograph from February 2025"},
-  {"beat": "c8afabc4", "file": "news/tsla/2026-01-byd.jpg", "caption": "The BYD Seal electric sedan", "source": "https://commons.wikimedia.org/wiki/File:BYD_Seal_IAA_2023_1X7A0371.jpg", "licence": "CC BY-SA 4.0, photo: Alexander-93", "note": "Photograph from 2023"},
-  {"beat": "38f48334", "file": "news/tsla/2026-07-modely.jpg", "caption": "A Tesla Model Y in a Tesla showroom", "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_2025_at_Santana_Row_dllu_01.jpg", "licence": "CC BY-SA 4.0, photo: dllu", "note": "Photograph from March 2025"}
+  {
+    "beat": "484d7937",
+    "file": "news/tsla/2010-06-musk-ipo-times-square.jpg",
+    "caption": "Elon Musk beside a Tesla Roadster in Times Square, New York, on the day Tesla's shares began trading on Nasdaq, 29 June 2010",
+    "source": "https://www.cnn.com/2020/08/18/success/elon-musk-tesla-ipo-vault-interview",
+    "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/200730160501-elon-musk-2010-tesla-ipo-vault-by-cnn.jpg?q=x_2,y_0,h_1078,w_1915,c_crop/w_1600",
+    "credit": "CNN (still from CNN's 2010 interview)",
+    "licence": "fair use: CNN (broadcast still)",
+    "note": "Musk and the Roadster on IPO day; replaces a photo of the Roadster alone"
+  },
+  {
+    "beat": "b5bd0ec9",
+    "file": "news/tsla/2010-11-fremont.jpg",
+    "caption": "A Model S body in the Tesla factory, Fremont, California",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Factory,_Fremont_(CA,_USA)_(8763130149).jpg",
+    "licence": "CC BY 2.0, photo: Maurizio Pesce",
+    "note": "Photograph from October 2011 of the former Toyota plant Tesla bought in 2010"
+  },
+  {
+    "beat": "0e752eec",
+    "file": "news/tsla/2012-06-models.jpg",
+    "caption": "The first Model S deliveries, Fremont, California, 22 June 2012",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_first_deliveries.jpg",
+    "licence": "CC BY 2.0, photo: Steve Jurvetson"
+  },
+  {
+    "beat": "9e0f757a",
+    "file": "news/tsla/2013-04-musk.jpg",
+    "caption": "Elon Musk with a Model S at the Tesla factory, Fremont, California",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk,_Tesla_Factory,_Fremont_(CA,_USA)_(8765031426).jpg",
+    "licence": "CC BY 2.0, photo: Maurizio Pesce",
+    "note": "Photograph from October 2011"
+  },
+  {
+    "beat": "a74f23d1",
+    "file": "news/tsla/2013-05-models.jpg",
+    "caption": "The Tesla Model S, the car behind Tesla’s first profit",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_MODEL_S_rear.jpg",
+    "licence": "CC0, photo: Tokumeigakarinoaoshima",
+    "note": "Photograph from September 2013"
+  },
+  {
+    "beat": "e9841a69",
+    "file": "news/tsla/2014-02-models.jpg",
+    "caption": "A Tesla Model S at the Geneva motor show",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S,_Geneva_2014.jpg",
+    "licence": "CC BY-SA 4.0, photo: Ank Kumar",
+    "note": "Taken a month after the beat; no free picture of the Gigafactory plans from that date"
+  },
+  {
+    "beat": "b78819b1",
+    "file": "news/tsla/2016-04-model3-queue-frankfurt.jpg",
+    "caption": "People queue outside the Tesla store in Frankfurt to reserve a Model 3 before it has even been shown, 31 March 2016",
+    "source": "https://electrek.co/2016/03/31/tesla-model-3-in-store-reservations/",
+    "image_url": "https://electrek.co/wp-content/uploads/sites/3/2016/03/franfurt-store-e1459421384423.jpg?quality=82&strip=all&w=1600",
+    "credit": "olexs (reader photo printed by Electrek)",
+    "licence": "fair use: olexs (photo published by Electrek)",
+    "note": "The queues that produced the 325,000 reservations; replaces the unveiling stage"
+  },
+  {
+    "beat": "9ac250c8",
+    "file": "news/tsla/2017-07-first-model3.jpg",
+    "caption": "The first production Tesla Model 3 outside the Fremont factory, July 2017",
+    "source": "https://www.nbcnews.com/tech/tech-news/tesla-hands-over-first-model-3-electric-cars-early-buyers-n787716",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_jpg,q_auto:best/newscms/2017_31/2088441/2017-07-13t011046z_1946549674_rc1be3758c10_rtrmadp_3_usa-funds-tesla.jpg",
+    "credit": "HANDOUT / Reuters (Tesla Motors handout)",
+    "licence": "fair use: Tesla (handout photo, distributed by Reuters)",
+    "note": "The production car of the month of the first deliveries; replaces a 2016 prototype picture"
+  },
+  {
+    "beat": "122c6ee1",
+    "file": "news/tsla/2018-03-factory.jpg",
+    "caption": "Tesla cars outside the Tesla factory, Fremont, California",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Teslas_at_the_factory.jpg",
+    "licence": "CC BY 2.0, photo: Steve Jurvetson",
+    "note": "Photograph from December 2012"
+  },
+  {
+    "beat": "16ae8678",
+    "file": "news/tsla/2018-08-musk.jpg",
+    "caption": "Elon Musk, chief executive of Tesla, July 2018",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk,_2018_(cropped).jpg",
+    "licence": "CC BY-SA 4.0, photo: Duncan Hull"
+  },
+  {
+    "beat": "86b374f4",
+    "file": "news/tsla/2020-01-shanghai.jpg",
+    "caption": "Aerial view of the Tesla Gigafactory in Shanghai",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Gigafactory_Shanghai_aerial_view_01.png",
+    "licence": "CC BY 3.0, photo: China News Service",
+    "note": "Photograph published in 2023 of the plant opened in 2019"
+  },
+  {
+    "beat": "0478d608",
+    "file": "news/tsla/2020-04-model3.jpg",
+    "caption": "A Tesla Model 3, Xiamen, China",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_Xiamen_02_2019-11-21.jpg",
+    "licence": "CC BY-SA 2.0, photo: James Young",
+    "note": "Photograph from November 2019"
+  },
+  {
+    "beat": "87aaa893",
+    "file": "news/tsla/2020-08-nasdaq.jpg",
+    "caption": "The Nasdaq trading studio in Times Square, New York, where Tesla shares trade",
+    "source": "https://commons.wikimedia.org/wiki/File:NASDAQ_Market_Site_201506.jpg",
+    "licence": "CC BY 2.0, photo: Luca Marfè at Italia all’ONU",
+    "note": "Photograph from 2015"
+  },
+  {
+    "beat": "74b26c34",
+    "file": "news/tsla/2020-11-nyse.jpg",
+    "caption": "The New York Stock Exchange, Wall Street",
+    "source": "https://commons.wikimedia.org/wiki/File:Stock_Exchange_(39229300932).jpg",
+    "licence": "CC BY 2.0, photo: Felix Stahlberg",
+    "note": "Photograph from 2017; the S&P 500 is listed across the US exchanges"
+  },
+  {
+    "beat": "3329bc8f",
+    "file": "news/tsla/2021-10-hertz.jpg",
+    "caption": "A Hertz car rental counter",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Hertz_Corporation_Airport_Car_Rental_Counter_Charleston_AutoRentals.jpg",
+    "licence": "CC BY-SA 4.0, photo: AutoRentals",
+    "note": "Photograph from 2019"
+  },
+  {
+    "beat": "0c4b6d16",
+    "file": "news/tsla/2022-04-twitter.jpg",
+    "caption": "Twitter headquarters, Market Street, San Francisco",
+    "source": "https://commons.wikimedia.org/wiki/File:Twitter_headquarters,_San_Francisco.jpg",
+    "licence": "CC BY-SA 3.0, photo: Wgreaves",
+    "note": "Photograph from 2011"
+  },
+  {
+    "beat": "631d5101",
+    "file": "news/tsla/2022-12-musk.jpg",
+    "caption": "Elon Musk, July 2022",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Colorado_2022_(cropped2).jpg",
+    "licence": "public domain, photo: U.S. Air Force / Trevor Cokley"
+  },
+  {
+    "beat": "ba3f9d99",
+    "file": "news/tsla/2023-01-modely.jpg",
+    "caption": "A Tesla Model Y, December 2022",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_1X7A6211.jpg",
+    "licence": "CC BY-SA 4.0, photo: Alexander Migl"
+  },
+  {
+    "beat": "8db62e9b",
+    "file": "news/tsla/2024-01-cybertruck.jpg",
+    "caption": "A Tesla Cybertruck, 2024",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_Foundation_Series_IMG_0634.jpg",
+    "licence": "CC BY-SA 4.0, photo: Alexander-93",
+    "note": "Photograph from August 2024, after the beat"
+  },
+  {
+    "beat": "e7b042cf",
+    "file": "news/tsla/2025-02-musk.jpg",
+    "caption": "Elon Musk at the Conservative Political Action Conference, 21 February 2025",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_by_Gage_Skidmore.jpg",
+    "licence": "CC BY-SA 3.0, photo: Gage Skidmore"
+  },
+  {
+    "beat": "b5034b2b",
+    "file": "news/tsla/2025-09-musk.jpg",
+    "caption": "Elon Musk, chief executive of Tesla",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54350004945)_(cropped).jpg",
+    "licence": "CC BY-SA 2.0, photo: Gage Skidmore",
+    "note": "Photograph from February 2025"
+  },
+  {
+    "beat": "c8afabc4",
+    "file": "news/tsla/2026-01-byd.jpg",
+    "caption": "The BYD Seal electric sedan",
+    "source": "https://commons.wikimedia.org/wiki/File:BYD_Seal_IAA_2023_1X7A0371.jpg",
+    "licence": "CC BY-SA 4.0, photo: Alexander-93",
+    "note": "Photograph from 2023"
+  },
+  {
+    "beat": "38f48334",
+    "file": "news/tsla/2026-07-modely.jpg",
+    "caption": "A Tesla Model Y in a Tesla showroom",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_2025_at_Santana_Row_dllu_01.jpg",
+    "licence": "CC BY-SA 4.0, photo: dllu",
+    "note": "Photograph from March 2025"
+  },
+  {
+    "beat": "3ea101b7",
+    "file": "news/tsla/2013-11-tesla-model-s.jpg",
+    "caption": "Tesla Model S, 2017",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_(Facelift_ab_04-2016)_(cropped).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Peteratkins",
+    "licence": "CC BY-SA 4.0, photo: Peteratkins",
+    "note": "Lead image of the Wikipedia article \"Tesla Model S\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "567befa9",
+    "file": "news/tsla/2018-10-tesla-model-3.jpg",
+    "caption": "Tesla Model 3, 2024",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9282.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Alexander-93",
+    "licence": "CC BY-SA 4.0, photo: Alexander-93",
+    "note": "Lead image of the Wikipedia article \"Tesla Model 3\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "26f26984",
+    "file": "news/tsla/2019-10-gigafactory-shanghai.jpg",
+    "caption": "Gigafactory Shanghai, 2024",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Gigafactory_Shanghai_aerial_view_03.png",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tesla_Gigafactory_Shanghai_aerial_view_03.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "China News Service",
+    "licence": "CC BY 3.0, photo: China News Service",
+    "note": "Lead image of the Wikipedia article \"Gigafactory Shanghai\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "3e2e8c42",
+    "file": "news/tsla/2020-07-tesla-model-y.jpg",
+    "caption": "Tesla Model Y, 2026",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_Premium_(Facelift)_%E2%80%93_f_05052026.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_05052026.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "© M 93",
+    "licence": "CC BY-SA 3.0 de, photo: © M 93",
+    "note": "Lead image of the Wikipedia article \"Tesla Model Y\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  }
 ]

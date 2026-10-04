@@ -8,7 +8,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)",
     "lead": true
   },
@@ -25,7 +24,6 @@
       "asset": "aapl",
       "pct": -6
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json",
     "note": "Add a note on Boeing delivering its first 767 to United Airlines.",
     "lead": true
@@ -44,7 +42,6 @@
       "asset": "aapl",
       "pct": -21
     },
-    "importance": 3,
     "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)",
     "lead": true
   },
@@ -57,7 +54,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
   },
   {
@@ -73,7 +69,6 @@
       "asset": "aapl",
       "pct": 33
     },
-    "importance": 3,
     "source": "data/reference/sp500.json and data/out/aapl.json (monthly prices); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
   },
   {
@@ -89,7 +84,6 @@
       "asset": "aapl",
       "pct": 39
     },
-    "importance": 2,
     "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)",
     "lead": true
   },
@@ -106,8 +100,23 @@
       "asset": "aapl",
       "pct": 37
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Apple_Lisa (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "id": "d1779f1c",
+    "month": "1983-09",
+    "title": "Apple shares lose more than a third in a month",
+    "what": "Apple's shares, which stood at 63 dollars in June, have collapsed: in September alone they lost 38%. Computer shares fell across the board after Osborne, a maker of portable computers, went bankrupt. Apple has troubles of its own: its new Lisa costs 10,000 dollars and sells poorly, it has cut the price of its best seller, the Apple IIe, and IBM, only two years after launching its PC, now sells more personal computers by value than Apple.",
+    "why": "The first Apple crash: the company that invented the market is being overtaken by IBM. It sets up the Macintosh of January 1984 as the answer.",
+    "assets": [
+      "aapl",
+      "ibm"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -38
+    },
+    "source": "https://fortune.com/1984/02/20/apple-bites-back-fortune-1984 (read 2026-10-04)"
   },
   {
     "id": "b5ae4948",
@@ -118,7 +127,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
     "lead": true
   },
@@ -131,7 +139,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03)",
     "lead": true
   },
@@ -144,7 +151,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Macintosh_II (read 2026-10-03, via data/news/1987.json)"
   },
   {
@@ -156,7 +162,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -170,7 +175,6 @@
       "msft",
       "ibm"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990 (read 2026-10-03)"
   },
   {
@@ -182,7 +186,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Macintosh_Classic (read 2026-10-03)"
   },
   {
@@ -198,7 +201,6 @@
       "asset": "aapl",
       "pct": -15
     },
-    "importance": 2,
     "source": "https://archive.seattletimes.com/archive/19910518/1283813/apple-computer-to-issue-layoffs (read 2026-10-03); price changes from data/out/aapl.json"
   },
   {
@@ -214,7 +216,6 @@
       "asset": "aapl",
       "pct": -12
     },
-    "importance": 2,
     "source": "SFGate \"Apple layoffs: Painful but necessary\" and Post-Bulletin, via search summaries (pages did not load) (read 2026-10-03); Seattle Times 1991-05-18 for the staff total; price changes from data/out/aapl.json",
     "lead": true
   },
@@ -234,19 +235,32 @@
       "asset": "aapl",
       "pct": 11
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/AIM_alliance (read 2026-10-03); price change from data/out/aapl.json"
+  },
+  {
+    "id": "833e4bbe",
+    "month": "1993-06",
+    "title": "Apple replaces its chief executive as a price war eats its profit",
+    "what": "On 18 June Apple's board replaced John Sculley as chief executive with Michael Spindler, until now the number two; Sculley stays on as chairman. A price war among PC makers is forcing Apple to sell its Macintosh computers ever more cheaply, and its profit is shrinking fast. The shares lost 30% in June.",
+    "why": "Explains the fall of June 1993 and prepares the story of October, when Sculley leaves altogether. Apple earned 86 million dollars in fiscal 1993 after 530 million the year before.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -30
+    },
+    "source": "http://www.applematters.com/article/june-18-1993-spindler-replaces-sculley/ (search result read 2026-10-04); https://igotoffer.com/apple/history-apple-1993-1994 (search result read 2026-10-04)"
   },
   {
     "id": "20678866",
     "month": "1993-10",
-    "title": "Sculley is out; Spindler takes over",
-    "what": "John Sculley has left Apple after a bad start to 1993 and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
+    "title": "Sculley leaves Apple for good; Spindler cuts jobs",
+    "what": "John Sculley, replaced as chief executive in June, has now left Apple altogether after a bad year and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
     "why": "The start of the slide that brought Apple close to collapse by 1997. Sources differ on the date: Spindler is often said to have become CEO in June 1993; Wikipedia gives 15 October 1993, the date Sculley also left the board. The beat follows Wikipedia.",
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)"
   },
   {
@@ -259,7 +273,6 @@
       "aapl",
       "ibm"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -272,7 +285,6 @@
       "aapl",
       "ibm"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)",
     "lead": true
   },
@@ -285,7 +297,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)",
     "lead": true
   },
@@ -303,7 +314,6 @@
       "asset": "aapl",
       "pct": 24
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/0000320193-97-000012.txt (Apple 8-K with press release of 9 July 1997) (read 2026-10-03); https://en.wikipedia.org/wiki/Gil_Amelio (read 2026-10-03)"
   },
   {
@@ -319,7 +329,6 @@
       "asset": "aapl",
       "pct": 40
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/0000320193-98-000001.txt (Apple 8-K with press release of 6 January 1998, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
     "lead": true
   },
@@ -336,7 +345,6 @@
       "asset": "aapl",
       "pct": -58
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/0000912057-00-053623.txt (Apple 10-K for fiscal 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Power_Mac_G4_Cube (read 2026-10-03)"
   },
   {
@@ -348,7 +356,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/IPod (read 2026-10-03); https://en.wikipedia.org/wiki/IPod_Classic (read 2026-10-03)"
   },
   {
@@ -360,7 +367,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -376,7 +382,6 @@
       "asset": "aapl",
       "pct": 35
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000110465904030400/a04-11506_1ex99d1.htm (Apple press release of 13 October 2004, read 2026-10-03)",
     "lead": true
   },
@@ -391,7 +396,6 @@
       "intc",
       "ibm"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03)"
   },
   {
@@ -403,7 +407,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
     "lead": true
   },
@@ -420,7 +423,6 @@
       "asset": "aapl",
       "pct": -32
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312508009715/dex991.htm (Apple press release of 22 January 2008, read 2026-10-03)"
   },
   {
@@ -432,7 +434,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
     "lead": true
   },
@@ -445,7 +446,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -457,7 +457,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)"
   },
   {
@@ -470,7 +469,6 @@
       "aapl",
       "msft"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -482,7 +480,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312514154883/d715379dex991.htm (Apple press release of 23 April 2014) (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -494,7 +491,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312516556520/d325078dex991.htm (Apple press release of 26 April 2016) (read 2026-10-03); https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -506,7 +502,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -518,7 +513,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -530,7 +524,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)"
   },
   {
@@ -547,7 +540,6 @@
       "asset": "aapl",
       "pct": 21
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -559,7 +551,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -571,7 +562,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -584,7 +574,6 @@
       "aapl",
       "msft"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   },
   {
@@ -596,7 +585,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm (Apple 8-K of 20 April 2026, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm (Apple press release of 30 April 2026, read 2026-10-03)"
   },
   {
@@ -608,7 +596,6 @@
     "assets": [
       "aapl"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035325/ef20081427_8ka.htm (Apple 8-K/A of 1 September 2026, read 2026-10-03, via EDGAR search listing); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
   }
 ]

@@ -14,19 +14,6 @@
   },
   {
     "month": "1999-01",
-    "kind": "company",
-    "headline": "Record 1998 for Lehman despite the autumn scare",
-    "text": "Lehman Brothers reported record net income of $736 million for the year to November 1998, up 14%, or $5.19 a share, although fourth-quarter profit fell to $74 million from $185 million. 'Lehman Brothers achieved higher revenues and earnings in 1998 than in any other year in the firm's history,' said chief executive Richard Fuld.",
-    "assets": [
-      "lehman"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999; read 2026-10-03)",
-    "image": "/news/lehman/1999-01-3-wfc.jpg",
-    "imageCaption": "3 World Financial Center, Lehman Brothers' headquarters in Lower Manhattan",
-    "imageCredit": "Aude"
-  },
-  {
-    "month": "1999-01",
     "kind": "world",
     "headline": "The euro is born",
     "text": "On 1 January eleven EU countries, among them Germany, France and Italy, fixed their exchange rates irrevocably and adopted the euro, which now trades on currency markets and is used by banks and bond markets; notes and coins follow in 2002. The European Central Bank in Frankfurt sets one interest rate for all of them. Britain, Sweden and Denmark stay out, and so, of course, does Switzerland.",
@@ -40,6 +27,42 @@
     "image": "/news/world/1999-01-duisenberg-euro.jpg",
     "imageCaption": "Wim Duisenberg, president of the European Central Bank, at the launch of the euro, 31 December 1998",
     "imageCredit": "Danny Gys /  European Communities, 1998 / EC - Audiovisual Service"
+  },
+  {
+    "month": "1999-01",
+    "kind": "company",
+    "headline": "Year-2000 spending lifts Microsoft's sales by 38%",
+    "text": "Microsoft's revenue for the quarter to December was 4.94 billion dollars, 38% more than a year earlier. Companies and governments bought licences for Windows and Office at the end of their budget years, before freezing their computer systems ahead of the year 2000.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/0001032210-99-000191.txt (Microsoft 10-Q for the quarter to 31 December 1998, read 2026-10-03)",
+    "image": "/news/msft/1999-01-year-2000-problem.jpg",
+    "imageCaption": "Year 2000 problem, 2000",
+    "imageCredit": "Bug de l'an 2000"
+  },
+  {
+    "month": "1999-01",
+    "kind": "company",
+    "headline": "Record 1998 for Lehman despite the autumn scare",
+    "text": "Lehman Brothers reported record net income of $736 million for the year to November 1998, up 14%, or $5.19 a share, although fourth-quarter profit fell to $74 million from $185 million. 'Lehman Brothers achieved higher revenues and earnings in 1998 than in any other year in the firm's history,' said chief executive Richard Fuld.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999; read 2026-10-03)",
+    "image": "/news/lehman/1999-01-3-wfc.jpg",
+    "imageCaption": "3 World Financial Center, Lehman Brothers' headquarters in Lower Manhattan",
+    "imageCredit": "Aude"
+  },
+  {
+    "month": "1999-01",
+    "kind": "company",
+    "headline": "Record 1998 results and a stock split",
+    "text": "On 29 January Nokia reported record 1998 earnings, with sales up 51% to 79.2 billion markka, and announced a 2-for-1 stock split. The shares have more than quadrupled in a year.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://money.cnn.com/1999/01/29/europe/nokia/ via web.archive.org (read 2026-10-03)"
   },
   {
     "month": "1999-03",
@@ -61,6 +84,14 @@
   {
     "month": "1999-03",
     "kind": "world",
+    "headline": "Dow 10,000",
+    "text": "The Dow Jones average closed above 10,000 for the first time on 29 March, celebrated on the floor of the New York Stock Exchange with party hats. It was below 4,000 at the start of 1995.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
+  },
+  {
+    "month": "1999-03",
+    "kind": "world",
     "headline": "OPEC and its rivals cut together",
     "text": "On 23 March OPEC and non-OPEC producers including Mexico and Norway agreed to cut output by a combined 2.1 million barrels a day for one year. OPEC's revenues fell about 30% in 1998. US crude rose 23% in March to about $15.",
     "assets": [],
@@ -68,6 +99,19 @@
     "image": "/news/oil/1999-03-naimi-abu-dhabi.jpg",
     "imageCaption": "Saudi oil minister Ali al-Naimi at the Gulf oil ministers' meeting in Abu Dhabi that prepared the joint output cut, 20 March 1999",
     "imageCredit": "Photo by -/WAM/AFP via Getty Images"
+  },
+  {
+    "month": "1999-03",
+    "kind": "company",
+    "headline": "Amazon backs Pets.com",
+    "text": "Amazon led a $10.5 million investment in Pets.com, a San Francisco start-up that sells pet food and supplies online, taking a majority stake. Amazon is investing in a string of young online shops.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
+    "image": "/news/amzn/1999-03-jeff-bezos.jpg",
+    "imageCaption": "Jeff Bezos, 2026",
+    "imageCredit": "SECWAR"
   },
   {
     "month": "1999-04",
@@ -96,6 +140,24 @@
     "imageCredit": "C. Stadler/Bwag"
   },
   {
+    "month": "1999-04",
+    "kind": "company",
+    "headline": "Enron's profit up 18% as trading booms",
+    "text": "Enron's first-quarter net income rose 18% to $253 million, or 68 cents a share, from $214 million a year earlier. Earnings from selling gas and power and managing the contracts rose 74% to $224 million, and chairman Kenneth Lay said he expects 1999 to be another excellent year for earnings and shareholder returns.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://enroncorp.com/corp/pressroom/releases/1999/ene/1q99ene (Enron press release, 13 April 1999; read 2026-10-03)"
+  },
+  {
+    "month": "1999-05",
+    "kind": "colour",
+    "headline": "A new Star Wars film, sixteen years on",
+    "text": "Star Wars: Episode I, The Phantom Menace opened in American cinemas on 19 May, almost 16 years after Return of the Jedi. Its premiere was covered by media around the world.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace (read 2026-10-03)"
+  },
+  {
     "month": "1999-05",
     "kind": "world",
     "headline": "Britain will sell half its gold",
@@ -107,6 +169,29 @@
     "image": "/news/rates/1999-05-gordon-brown.jpg",
     "imageCaption": "Gordon Brown, Britain's Chancellor of the Exchequer",
     "imageCredit": "HM Treasury"
+  },
+  {
+    "month": "1999-06",
+    "kind": "company",
+    "headline": "eBay's website goes down for nearly a day",
+    "text": "eBay's website suffered a major outage on June 10, halting auctions across the site. The company is crediting users $3.9 million in fees and has started a full review of its systems.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-002671.txt (10-Q for the quarter to June 30, 1999, read 2026-10-03)",
+    "image": "/news/ebay/1999-06-whitman.jpg",
+    "imageCaption": "Meg Whitman, eBay's chief executive",
+    "imageCredit": "Erik (HASH) Hersman"
+  },
+  {
+    "month": "1999-06",
+    "kind": "company",
+    "headline": "Enron floats its water business, Azurix",
+    "text": "Enron sold part of its water company Azurix, built around Britain's Wessex Water, to the public in a stock market listing in June.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
   },
   {
     "month": "1999-06",
@@ -135,19 +220,6 @@
     "imageCredit": "David Anstiss"
   },
   {
-    "month": "1999-06",
-    "kind": "company",
-    "headline": "eBay's website goes down for nearly a day",
-    "text": "eBay's website suffered a major outage on June 10, halting auctions across the site. The company is crediting users $3.9 million in fees and has started a full review of its systems.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-002671.txt (10-Q for the quarter to June 30, 1999, read 2026-10-03)",
-    "image": "/news/ebay/1999-06-whitman.jpg",
-    "imageCaption": "Meg Whitman, eBay's chief executive",
-    "imageCredit": "Erik (HASH) Hersman"
-  },
-  {
     "month": "1999-07",
     "kind": "world",
     "headline": "Police storm Tehran University dormitories; students protest for days",
@@ -158,6 +230,19 @@
     "image": "/news/middle-east/1999-07-tehran-street.jpg",
     "imageCaption": "A woman photographs and a masked student crosses an emptied Tehran street during the student protests of July 1999",
     "imageCredit": "Hassan Sarbakhshian (RFE/RL)"
+  },
+  {
+    "month": "1999-07",
+    "kind": "company",
+    "headline": "eBay's growth slows after the outage",
+    "text": "eBay's online revenue grew only 12% in the second quarter over the first, or 27% without the outage credits, after 74% the quarter before. Total revenue was $49.5 million, against $19.5 million a year earlier.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-002671.txt (10-Q for the quarter to June 30, 1999, read 2026-10-03)",
+    "image": "/news/ebay/1999-07-meg-whitman.jpg",
+    "imageCaption": "Meg Whitman, 2022",
+    "imageCredit": "United States Department of State"
   },
   {
     "month": "1999-07",
@@ -227,19 +312,6 @@
   },
   {
     "month": "1999-10",
-    "kind": "company",
-    "headline": "Florida court revives a giant smokers' class action: bankruptcy fears",
-    "text": "In July a Miami jury in the Engle class action found the tobacco companies liable to Florida's sick smokers, estimated at 500,000 to a million people. In October a panel of three appeals judges ruled that punitive damages must be decided in one lump sum for the whole class, and analysts say they could exceed 300 billion dollars. Philip Morris shares fell to about 21 dollars, down almost 40% since August; experts say bankruptcy of the tobacco companies is a real possibility. This year Philip Morris began saying on its website, for the first time, that smoking can cause lung cancer and other diseases.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1116948/ (BMJ, 30 October 1999, read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (website, read 2026-10-03)",
-    "image": "/news/mo/1999-10-dade-courthouse.jpg",
-    "imageCaption": "Dade County Courthouse, Miami, Florida",
-    "imageCredit": "Tamanoeconomico"
-  },
-  {
-    "month": "1999-10",
     "kind": "world",
     "headline": "Europe's central banks agree to limit gold sales, and gold jumps",
     "text": "On 26 September fifteen European central banks agreed in Washington to sell no more than about 400 tonnes of gold a year, 2,000 tonnes over five years, and not to expand their gold lending. The price jumped: gold averaged 311 dollars in October, 17 percent above September and up from a 20-year low of 252.80 dollars on 20 July.",
@@ -250,6 +322,32 @@
     "image": "/news/rates/1999-10-hatton-garden.jpg",
     "imageCaption": "Shoppers at a goldsmith's window in Hatton Garden, London, as gold jumps after the central banks' agreement to limit sales, 28 September 1999",
     "imageCredit": "Photo by ADRIAN DENNIS/AFP via Getty Images"
+  },
+  {
+    "month": "1999-10",
+    "kind": "company",
+    "headline": "Congress nears repeal of the wall between banks and Wall Street",
+    "text": "House and Senate negotiators are working out the final version of a law that would repeal the parts of the 1933 Glass-Steagall Act separating banks, securities firms and insurers. Democrats have agreed to support it after Republicans strengthened lending rules for poor neighbourhoods and added privacy protections. For Citigroup, which was formed in 1998 on a temporary waiver, the law would make its structure permanent. Its shares rose 23% in October.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act (read 2026-10-03)",
+    "image": "/news/c/1999-10-sanford-i-weill.jpg",
+    "imageCaption": "Sanford I. Weill, 2009",
+    "imageCredit": "David Shankbone"
+  },
+  {
+    "month": "1999-10",
+    "kind": "company",
+    "headline": "Florida court revives a giant smokers' class action: bankruptcy fears",
+    "text": "In July a Miami jury in the Engle class action found the tobacco companies liable to Florida's sick smokers, estimated at 500,000 to a million people. In October a panel of three appeals judges ruled that punitive damages must be decided in one lump sum for the whole class, and analysts say they could exceed 300 billion dollars. Philip Morris shares fell to about 21 dollars, down almost 40% since August; experts say bankruptcy of the tobacco companies is a real possibility. This year Philip Morris began saying on its website, for the first time, that smoking can cause lung cancer and other diseases.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1116948/ (BMJ, 30 October 1999, read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (website, read 2026-10-03)",
+    "image": "/news/mo/1999-10-dade-courthouse.jpg",
+    "imageCaption": "Dade County Courthouse, Miami, Florida",
+    "imageCredit": "Tamanoeconomico"
   },
   {
     "month": "1999-10",
@@ -265,17 +363,26 @@
     "imageCredit": "Marc Merlin"
   },
   {
-    "month": "1999-11",
+    "month": "1999-10",
     "kind": "company",
-    "headline": "ExxonMobil is born",
-    "text": "The Federal Trade Commission approved the merger on 30 November, after Exxon and Mobil agreed to sell 2,431 petrol stations and other assets, and the deal closed the same day. Shareholders had approved the 81.2 billion dollar merger in May. The new Exxon Mobil Corporation, based in Irving, Texas, is the world's largest oil company and keeps the Exxon, Mobil and Esso brands.",
+    "headline": "IBM pulls its PCs out of the shops",
+    "text": "IBM said it will stop selling personal computers in retail stores, where its market share has fallen far behind Compaq and Dell, and will fold its PC company into its Personal Systems Group. Business sales and services go on.",
     "assets": [
-      "xom"
+      "ibm"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_ExxonMobil (FTC approval, 2,431 stations) (read 2026-10-03); https://en.wikipedia.org/wiki/1999_world_oil_market_chronology (shareholder approval, 81.2 billion) (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
-    "image": "/news/xom/1999-11-downtown-houston.jpg",
-    "imageCaption": "ExxonMobil's downtown Houston office building, with the company flag",
-    "imageCredit": "WhisperToMe"
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1999-10-25 'The Strategy For I.B.M.: Loss-Leader PC Sales' and 1999-10-22 'Big Blue to combine PC division with PSG')"
+  },
+  {
+    "month": "1999-11",
+    "kind": "world",
+    "headline": "Nearly ten million Americans now trade shares online",
+    "text": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
+    "assets": [],
+    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/1999-11-day-trading.jpg",
+    "imageCaption": "Day trading, 2026",
+    "imageCredit": "London Stock Exchange"
   },
   {
     "month": "1999-11",
@@ -292,25 +399,16 @@
   },
   {
     "month": "1999-11",
-    "kind": "world",
-    "headline": "Nearly ten million Americans now trade shares online",
-    "text": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
-    "assets": [],
-    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)",
-    "thread": "dotcom"
-  },
-  {
-    "month": "1999-12",
     "kind": "company",
-    "headline": "Ivester to retire after two and a half years",
-    "text": "Coca-Cola surprised investors in December by announcing that chairman and chief executive Douglas Ivester will retire in early 2000, after only about two and a half years in charge and seven quarters of falling earnings. Douglas Daft, an Australian who has spent 30 years with the company and runs its Middle and Far East and Africa business, was named president and is to take over as chairman and chief executive. The shares lost about 13% in December.",
+    "headline": "ExxonMobil is born",
+    "text": "The Federal Trade Commission approved the merger on 30 November, after Exxon and Mobil agreed to sell 2,431 petrol stations and other assets, and the deal closed the same day. Shareholders had approved the 81.2 billion dollar merger in May. The new Exxon Mobil Corporation, based in Irving, Texas, is the world's largest oil company and keeps the Exxon, Mobil and Esso brands.",
     "assets": [
-      "ko"
+      "xom"
     ],
-    "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/Douglas_Ivester (read 2026-10-03); month change from data/out/ko.json",
-    "image": "/news/ko/1999-12-coca-cola-plaza.jpg",
-    "imageCaption": "One Coca-Cola Plaza, company headquarters, Atlanta",
-    "imageCredit": "JJonahJackalope"
+    "source": "https://en.wikipedia.org/wiki/History_of_ExxonMobil (FTC approval, 2,431 stations) (read 2026-10-03); https://en.wikipedia.org/wiki/1999_world_oil_market_chronology (shareholder approval, 81.2 billion) (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
+    "image": "/news/xom/1999-11-downtown-houston.jpg",
+    "imageCaption": "ExxonMobil's downtown Houston office building, with the company flag",
+    "imageCredit": "WhisperToMe"
   },
   {
     "month": "1999-12",
@@ -328,7 +426,10 @@
       "nvda"
     ],
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "thread": "dotcom"
+    "thread": "dotcom",
+    "image": "/news/tech/1999-12-nasdaq.jpg",
+    "imageCaption": "Nasdaq, 2026",
+    "imageCredit": "Nielsoncaetanosalmeron"
   },
   {
     "month": "1999-12",
@@ -337,7 +438,10 @@
     "text": "On 9 December VA Linux, a company named after the free Linux operating system, went public at 30 dollars a share; the shares opened at 299 and closed at 239.25, up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)",
-    "thread": "dotcom"
+    "thread": "dotcom",
+    "image": "/news/tech/1999-12-linus-torvalds.jpg",
+    "imageCaption": "Linus Torvalds, 2014",
+    "imageCredit": "Krd (photo)Von Sprat (crop/extraction)"
   },
   {
     "month": "1999-12",
@@ -349,5 +453,18 @@
     "image": "/news/world/1999-12-yeltsin-putin.jpg",
     "imageCaption": "Boris Yeltsin and Vladimir Putin, Moscow, 31 December 1999",
     "imageCredit": "Presidential Press and Information Office"
+  },
+  {
+    "month": "1999-12",
+    "kind": "company",
+    "headline": "Ivester to retire after two and a half years",
+    "text": "Coca-Cola surprised investors in December by announcing that chairman and chief executive Douglas Ivester will retire in early 2000, after only about two and a half years in charge and seven quarters of falling earnings. Douglas Daft, an Australian who has spent 30 years with the company and runs its Middle and Far East and Africa business, was named president and is to take over as chairman and chief executive. The shares lost about 13% in December.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/Douglas_Ivester (read 2026-10-03); month change from data/out/ko.json",
+    "image": "/news/ko/1999-12-coca-cola-plaza.jpg",
+    "imageCaption": "One Coca-Cola Plaza, company headquarters, Atlanta",
+    "imageCredit": "JJonahJackalope"
   }
 ]

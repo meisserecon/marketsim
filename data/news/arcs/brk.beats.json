@@ -8,7 +8,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://www.berkshirehathaway.com/letters/1979.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/1980.html (read 2026-10-03)",
     "lead": true
   },
@@ -21,7 +20,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://www.berkshirehathaway.com/letters/1980.html (read 2026-10-03)",
     "lead": true
   },
@@ -34,21 +32,7 @@
     "assets": [
       "brk"
     ],
-    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1982.html (read 2026-10-03)"
-  },
-  {
-    "id": "f80da667",
-    "month": "1983-10",
-    "title": "Berkshire buys Nebraska Furniture Mart",
-    "what": "Berkshire has bought most of Nebraska Furniture Mart in Omaha, the furniture store built by Rose Blumkin, for about 60 million dollars. Earlier this year Berkshire merged with Blue Chip Stamps, in which it held 60%, and now owns it entirely.",
-    "why": "A classic Buffett purchase of an owner-run business. The exact month of the deal is not confirmed by the sources read; Berkshire's letter counts its earnings from the fourth quarter.",
-    "assets": [
-      "brk"
-    ],
-    "importance": 2,
-    "source": "https://www.berkshirehathaway.com/letters/1983.html (read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "49a56f34",
@@ -63,7 +47,6 @@
       "asset": "brk",
       "pct": 22
     },
-    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1984.html (subsequent-event note, read 2026-10-03); https://www.berkshirehathaway.com/letters/1985.html (read 2026-10-03)"
   },
   {
@@ -75,21 +58,7 @@
     "assets": [
       "brk"
     ],
-    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1985.html (read 2026-10-03)"
-  },
-  {
-    "id": "7628f31d",
-    "month": "1987-09",
-    "title": "Buffett puts 700 million dollars into Salomon",
-    "what": "Berkshire agreed to buy 700 million dollars of Salomon Inc preferred stock paying 9% and convertible into common stock at 38 dollars a share. Salomon uses the money to buy back shares from its largest holder, Minorco, which the raider Ronald Perelman had sought to acquire. Berkshire gets two seats on Salomon's board.",
-    "why": "Berkshire's largest investment yet; it later pulled Buffett into running Salomon during its 1991 scandal.",
-    "assets": [
-      "brk"
-    ],
-    "importance": 2,
-    "source": "https://www.berkshirehathaway.com/letters/1987.html (read 2026-10-03); https://en.wikipedia.org/wiki/Salomon_Brothers (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "8295bd87",
@@ -101,7 +70,6 @@
       "brk",
       "ko"
     ],
-    "importance": 1,
     "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03)"
   },
   {
@@ -118,7 +86,6 @@
       "asset": "brk",
       "pct": 27
     },
-    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03); price changes from data/out/brk.json and data/reference/sp500.json"
   },
   {
@@ -130,7 +97,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://www.upi.com/Archives/1989/07/21/Gillette-stock-up-on-Berkshire-Hathaway-purchase-of-stake-in-company/8300616996800/ (read 2026-10-03)"
   },
   {
@@ -142,7 +108,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://www.berkshirehathaway.com/letters/1992.html (read 2026-10-03); data/out/brk.json price series"
   },
   {
@@ -158,7 +123,6 @@
       "asset": "brk",
       "pct": 30
     },
-    "importance": 1,
     "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/2001pdf.pdf (read 2026-10-03)"
   },
   {
@@ -171,7 +135,6 @@
       "brk",
       "wmt"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
@@ -183,7 +146,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Warren_Buffett (read 2026-10-03)"
   },
   {
@@ -195,7 +157,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312509222271/d8k.htm (Berkshire press release of 3 November 2009, read 2026-10-03); https://en.wikipedia.org/wiki/BNSF_Railway (read 2026-10-03)"
   },
   {
@@ -207,7 +168,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012311026351/l42195e8vk.htm (Lubrizol press release of 14 March 2011, read 2026-10-03)"
   },
   {
@@ -219,7 +179,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312513060036/d487537d8k.htm (Heinz press release of 14 February 2013, read 2026-10-03)"
   },
   {
@@ -231,7 +190,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312515285104/d41723d8k.htm (Berkshire 8-K of 10 August 2015, read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
@@ -244,7 +202,6 @@
       "brk",
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
@@ -256,7 +213,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312518221490/d548576d8k.htm (Berkshire press release of 17 July 2018, read 2026-10-03)"
   },
   {
@@ -268,7 +224,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312520235925/d947341d8k.htm (Berkshire press release of 31 August 2020, read 2026-10-03)"
   },
   {
@@ -280,7 +235,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2024ltr.pdf (read 2026-10-03); data/out/brk.json price series"
   },
   {
@@ -292,7 +246,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 2,
     "source": "https://www.berkshirehathaway.com/letters/2023ltr.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
   },
   {
@@ -305,7 +258,6 @@
       "brk",
       "aapl"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2024ltr.pdf (read 2026-10-03)"
   },
   {
@@ -317,7 +269,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525115695/d28310d8k.htm (Berkshire press release of 5 May 2025, read 2026-10-03)"
   },
   {
@@ -329,7 +280,6 @@
     "assets": [
       "brk"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2025ltr.pdf (read 2026-10-03)"
   }
 ]

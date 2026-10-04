@@ -35,7 +35,6 @@ for (const name of files) {
   try { a = JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { bad("parse: " + e.message); continue; }
   if (!Array.isArray(a)) { bad("not an array"); continue; }
   let prev = "";
-  const imp = { 1: 0, 2: 0, 3: 0 };
   for (const b of a) {
     const id = `${b.month} ${b.title}`;
     if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(b.month ?? "")) bad("month " + id);
@@ -43,8 +42,7 @@ for (const name of files) {
     prev = b.month;
     for (const k of ["title", "what", "why", "source"]) if (typeof b[k] !== "string" || !b[k].trim()) bad(`${k} missing: ${id}`);
     if (!/read \d{4}-\d{2}-\d{2}/.test(b.source ?? "")) bad("source without read date: " + id);
-    if (![1, 2, 3].includes(b.importance)) bad("importance " + id);
-    else imp[b.importance]++;
+    if ("importance" in b || "cut" in b) bad("importance and cut are no longer used: " + id);
     if (b.thread !== undefined && !THREADS.includes(b.thread)) bad(`unknown thread ${b.thread}: ${id}`);
     if (!Array.isArray(b.assets)) bad("assets " + id);
     else for (const s of b.assets) {
@@ -60,7 +58,7 @@ for (const name of files) {
       else if (span[b.move.asset] && (b.month < span[b.move.asset].from || b.month > span[b.move.asset].to)) bad("move asset not in game: " + id);
     }
   }
-  console.log(path.basename(f), a.length, "beats; importance 1/2/3:", imp[1], imp[2], imp[3], "; with move:", a.filter((b) => b.move).length);
+  console.log(path.basename(f), a.length, "beats; with move:", a.filter((b) => b.move).length);
 }
 console.log(errs ? errs + " errors" : "OK");
 process.exit(errs ? 1 : 0);

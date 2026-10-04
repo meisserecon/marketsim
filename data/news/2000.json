@@ -1,6 +1,18 @@
 [
   {
     "month": "2000-01",
+    "kind": "world",
+    "headline": "AOL, an internet company, agrees to buy Time Warner",
+    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/2000-01-steve-case.jpg",
+    "imageCaption": "Steve Case, 2024",
+    "imageCredit": "TechCrunch"
+  },
+  {
+    "month": "2000-01",
     "kind": "company",
     "headline": "Enron says it will trade internet bandwidth; shares soar",
     "text": "At its annual analyst meeting on 20 January, Enron presented Enron Broadband Services, a high-speed network it says is run by software intelligence, and plans to trade network capacity the way it trades gas and power. Chairman Kenneth Lay cited a 700% return to shareholders over the decade. The shares rose by more than half in the month, to a record.",
@@ -39,15 +51,6 @@
     "imageCredit": "Martin Olsson (username 'mnemo' on en/sv wikipedia and commo"
   },
   {
-    "month": "2000-01",
-    "kind": "world",
-    "headline": "AOL, an internet company, agrees to buy Time Warner",
-    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)",
-    "thread": "dotcom"
-  },
-  {
     "month": "2000-02",
     "kind": "listing",
     "headline": "Pets.com, the sock puppet company, goes public",
@@ -63,19 +66,6 @@
   },
   {
     "month": "2000-02",
-    "kind": "company",
-    "headline": "Siemens profits double and the Infineon offer opens",
-    "text": "On 24 January Siemens reported that first-quarter profit nearly doubled, raised its forecast and said all divisions were in the black; sales at Infineon rose more than 70%. From 21 February investors could subscribe for 25 to 30% of Infineon ahead of a listing in Frankfurt and New York on 13 March. Siemens shares rose 31% in February.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://money.cnn.com/2000/01/24/europe/siemens/ via web.archive.org (read 2026-10-03); https://www.telecompaper.com/news/infineon-to-tender-25-30-of-shares--206140 (read 2026-10-03); https://www.eetimes.com/infineon-doubles-value-in-ipo-topping-5-billion/ (read 2026-10-03)",
-    "image": "/news/siemens/2000-02-infineon.jpg",
-    "imageCaption": "Infineon, Siemens' chip arm, at a trade fair stand",
-    "imageCredit": "Bjoertvedt"
-  },
-  {
-    "month": "2000-02",
     "kind": "world",
     "headline": "New economy up, old economy down",
     "text": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised.",
@@ -88,48 +78,23 @@
       "mcd"
     ],
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "thread": "dotcom"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "BMW breaks up Rover and the shares jump",
-    "text": "On 16 March BMW announced that it is giving up Rover. Rover Cars and the Longbridge plant go to the British investor Alchemy Partners, with BMW paying to be rid of them; Land Rover is to be sold to Ford, reportedly for 1.8 billion pounds. BMW keeps the Cowley plant near Oxford to build the new Mini. A one-off charge of 3.15 billion euros produced a net loss of 2.49 billion euros for 1999.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "BBC News, 'BMW splits up Rover', 17 March 2000, http://news.bbc.co.uk/2/hi/business/679169.stm (read 2026-10-03); BMW Group Annual Report 1999, https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf (read 2026-10-03); https://de.wikipedia.org/wiki/BMW (16 March 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Rover_Group (read 2026-10-03)",
-    "image": "/news/bmw/2000-03-longbridge.jpg",
-    "imageCaption": "The Rover car plant at Longbridge, Birmingham, 1998",
-    "imageCredit": "Chris Allen"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "Buffett's worst year; Berkshire recovers as tech shares slide",
-    "text": "Buffett's letter of 1 March calls 1999 Berkshire's worst year under his management: book value rose just 0.5%, the worst result of his tenure both in absolute terms and compared with the S&P 500. Berkshire will buy back its shares only when they sell well below their value, he writes. On 10 March, the day the Nasdaq index reached a record 5,132, Berkshire's shares traded at 40,800 dollars, their lowest since mid-1997; since then technology shares have fallen and Berkshire's have risen sharply.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/2001pdf.pdf (read 2026-10-03)",
-    "image": "/news/brk/2000-03-buffett.jpg",
-    "imageCaption": "Warren Buffett (second from left) and Charlie Munger (right) with shareholders at a Berkshire Hathaway annual meeting, Omaha, 1998",
-    "imageCredit": "FrankTursetta"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "Cisco becomes the world's most valuable company",
-    "text": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
-    "assets": [
-      "csco",
-      "msft"
-    ],
-    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
     "thread": "dotcom",
-    "image": "/news/csco/2000-03-campus-aerial.jpg",
-    "imageCaption": "Aerial view of Cisco's San Jose campus under construction, May 1999",
-    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
+    "image": "/news/tech/2000-02-georgia-dome.jpg",
+    "imageCaption": "Georgia Dome, 1996",
+    "imageCredit": "MSGT Joseph Pittelli, U.S. Air Force"
+  },
+  {
+    "month": "2000-02",
+    "kind": "company",
+    "headline": "Siemens profits double and the Infineon offer opens",
+    "text": "On 24 January Siemens reported that first-quarter profit nearly doubled, raised its forecast and said all divisions were in the black; sales at Infineon rose more than 70%. From 21 February investors could subscribe for 25 to 30% of Infineon ahead of a listing in Frankfurt and New York on 13 March. Siemens shares rose 31% in February.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://money.cnn.com/2000/01/24/europe/siemens/ via web.archive.org (read 2026-10-03); https://www.telecompaper.com/news/infineon-to-tender-25-30-of-shares--206140 (read 2026-10-03); https://www.eetimes.com/infineon-doubles-value-in-ipo-topping-5-billion/ (read 2026-10-03)",
+    "image": "/news/siemens/2000-02-infineon.jpg",
+    "imageCaption": "Infineon, Siemens' chip arm, at a trade fair stand",
+    "imageCredit": "Bjoertvedt"
   },
   {
     "month": "2000-03",
@@ -142,6 +107,32 @@
     "image": "/news/markets/2000-03-nasdaq-5000.jpg",
     "imageCaption": "A woman walks past the Nasdaq sign in Times Square, New York, on 9 March 2000, the day the Nasdaq Composite first closed above 5,000",
     "imageCredit": "Photo by Chris Hondros"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
+    "headline": "Investors ask how long the dot-coms' cash will last",
+    "text": "On March 20 the financial weekly Barron's published a cover story warning that many internet companies are running out of cash fast. The Nasdaq index, which set a record on March 10, has fallen since.",
+    "assets": [
+      "pets-com"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "image": "/news/pets-com/2000-03-barrons-burning-up.jpg",
+    "imageCaption": "Barron's cover of 20 March 2000, 'Burning Fast': dozens of internet companies are likely to run through their cash this year",
+    "imageCredit": "Barron's cover (not credited on the page)"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
+    "headline": "Lehman's quarterly profit more than doubles",
+    "text": "Lehman Brothers earned a record $541 million in the quarter to February, up 156% from a year earlier, on record revenues of $2.2 billion, driven by share underwriting and merger advice in the technology boom. 'The firm is clearly hitting on all cylinders,' said Richard Fuld.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000912057-00-012357.txt (Lehman press release, 20 March 2000; read 2026-10-03)",
+    "image": "/news/lehman/2000-03-nyse-floor.jpg",
+    "imageCaption": "The trading floor of the New York Stock Exchange",
+    "imageCredit": "Carol M. Highsmith"
   },
   {
     "month": "2000-03",
@@ -160,28 +151,56 @@
   {
     "month": "2000-03",
     "kind": "company",
-    "headline": "Lehman's quarterly profit more than doubles",
-    "text": "Lehman Brothers earned a record $541 million in the quarter to February, up 156% from a year earlier, on record revenues of $2.2 billion, driven by share underwriting and merger advice in the technology boom. 'The firm is clearly hitting on all cylinders,' said Richard Fuld.",
+    "headline": "Buffett's worst year; Berkshire recovers as tech shares slide",
+    "text": "Buffett's letter of 1 March calls 1999 Berkshire's worst year under his management: book value rose just 0.5%, the worst result of his tenure both in absolute terms and compared with the S&P 500. Berkshire will buy back its shares only when they sell well below their value, he writes. On 10 March, the day the Nasdaq index reached a record 5,132, Berkshire's shares traded at 40,800 dollars, their lowest since mid-1997; since then technology shares have fallen and Berkshire's have risen sharply.",
     "assets": [
-      "lehman"
+      "brk"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000912057-00-012357.txt (Lehman press release, 20 March 2000; read 2026-10-03)",
-    "image": "/news/lehman/2000-03-nyse-floor.jpg",
-    "imageCaption": "The trading floor of the New York Stock Exchange",
-    "imageCredit": "Carol M. Highsmith"
+    "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/2001pdf.pdf (read 2026-10-03)",
+    "image": "/news/brk/2000-03-buffett.jpg",
+    "imageCaption": "Warren Buffett (second from left) and Charlie Munger (right) with shareholders at a Berkshire Hathaway annual meeting, Omaha, 1998",
+    "imageCredit": "FrankTursetta"
   },
   {
     "month": "2000-03",
     "kind": "company",
-    "headline": "Investors ask how long the dot-coms' cash will last",
-    "text": "On March 20 the financial weekly Barron's published a cover story warning that many internet companies are running out of cash fast. The Nasdaq index, which set a record on March 10, has fallen since.",
+    "headline": "Out of the 'new economy', back into banks",
+    "text": "In March investors began to sell technology, media and telecom shares and the Nasdaq fell from its 10 March high; the hedge fund manager Julian Robertson closed his value-oriented Tiger funds, saying he no longer understood the markets. In Zurich the broad SPI rose in March, and Credit Suisse Group shares ended the month at 331 francs, their highest in a year.",
     "assets": [
-      "pets-com"
+      "credit-suisse"
     ],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "image": "/news/pets-com/2000-03-barrons-burning-up.jpg",
-    "imageCaption": "Barron's cover of 20 March 2000, 'Burning Fast': dozens of internet companies are likely to run through their cash this year",
-    "imageCredit": "Barron's cover (not credited on the page)"
+    "source": "Neue Zürcher Zeitung, 1 April 2000, p. 33 ('Die überfällige Nasdaq-Korrektur'; 'Der Schweizer Aktienmarkt vom 27. bis zum 31. März: Kreuzfahrt im dichten Nebel', weekly price table), scan data/manual/scans/nzz/NZZ_2000-04-01.pdf (read 2026-10-03)",
+    "image": "/news/credit-suisse/2000-03-paradeplatz.jpg",
+    "imageCaption": "Paradeplatz, 2007",
+    "imageCredit": "Photo: Andreas Praefcke"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
+    "headline": "BMW breaks up Rover and the shares jump",
+    "text": "On 16 March BMW announced that it is giving up Rover. Rover Cars and the Longbridge plant go to the British investor Alchemy Partners, with BMW paying to be rid of them; Land Rover is to be sold to Ford, reportedly for 1.8 billion pounds. BMW keeps the Cowley plant near Oxford to build the new Mini. A one-off charge of 3.15 billion euros produced a net loss of 2.49 billion euros for 1999.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "BBC News, 'BMW splits up Rover', 17 March 2000, http://news.bbc.co.uk/2/hi/business/679169.stm (read 2026-10-03); BMW Group Annual Report 1999, https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_1999.pdf (read 2026-10-03); https://de.wikipedia.org/wiki/BMW (16 March 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Rover_Group (read 2026-10-03)",
+    "image": "/news/bmw/2000-03-longbridge.jpg",
+    "imageCaption": "The Rover car plant at Longbridge, Birmingham, 1998",
+    "imageCredit": "Chris Allen"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
+    "headline": "Cisco becomes the world's most valuable company",
+    "text": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
+    "assets": [
+      "csco",
+      "msft"
+    ],
+    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
+    "thread": "dotcom",
+    "image": "/news/csco/2000-03-campus-aerial.jpg",
+    "imageCaption": "Aerial view of Cisco's San Jose campus under construction, May 1999",
+    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
     "month": "2000-03",
@@ -195,19 +214,6 @@
     "image": "/news/sony/2000-03-ps2.jpg",
     "imageCaption": "The PlayStation 2 console",
     "imageCredit": "Evan-Amos"
-  },
-  {
-    "month": "2000-04",
-    "kind": "company",
-    "headline": "Judge rules Microsoft broke the antitrust law",
-    "text": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and the Nasdaq index 8%, adding to the slide in technology shares that began in March.",
-    "assets": [
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "image": "/news/msft/2000-04-gates-deposition.jpg",
-    "imageCaption": "Bill Gates during his videotaped deposition for the government's antitrust case against Microsoft, 27 August 1998",
-    "imageCredit": "United States Department of Justice"
   },
   {
     "month": "2000-04",
@@ -228,17 +234,46 @@
     "imageCredit": "Chris Hondros / Getty Images"
   },
   {
-    "month": "2000-05",
+    "month": "2000-04",
     "kind": "company",
-    "headline": "Florida caps the Engle bond; Philip Morris eyes Nabisco: tobacco shares rally",
-    "text": "In early May the Florida legislature passed a bill that spares cigarette makers most of the risk of having to post a bond worth billions of dollars to appeal a verdict in the Engle class action, which could have bankrupted them. Philip Morris is also reported to be the frontrunner in the bidding for Nabisco. Philip Morris shares gained about 19% in May; analysts say investors think the worst is behind the companies.",
+    "headline": "Judge rules Microsoft broke the antitrust law",
+    "text": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and the Nasdaq index 8%, adding to the slide in technology shares that began in March.",
     "assets": [
-      "mo"
+      "msft"
     ],
-    "source": "https://www.wired.com/2000/05/holy-smoke-tobacco-boosts-dow/ (Reuters report of 15 May 2000, read 2026-10-03); move from data/out/mo.json",
-    "image": "/news/mo/2000-05-dade-courthouse.jpg",
-    "imageCaption": "Dade County Courthouse, Miami, Florida",
-    "imageCredit": "Tamanoeconomico"
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "image": "/news/msft/2000-04-gates-deposition.jpg",
+    "imageCaption": "Bill Gates during his videotaped deposition for the government's antitrust case against Microsoft, 27 August 1998",
+    "imageCredit": "United States Department of Justice"
+  },
+  {
+    "month": "2000-04",
+    "kind": "company",
+    "headline": "The Nasdaq's worst week",
+    "text": "The Nasdaq composite index fell 25% in the week to April 14, including 9% on the Friday, as investors sold technology and internet shares ahead of the tax deadline.",
+    "assets": [
+      "pets-com"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+  },
+  {
+    "month": "2000-05",
+    "kind": "colour",
+    "headline": "The 'I love you' virus",
+    "text": "From 4 May an e-mail with the subject 'ILOVEYOU' spread around the world, first in Asia, then in Europe as people arrived at work, then in America. Its attachment, a computer worm, overwrites files and sends itself to everyone in the victim's address book. Companies shut down their e-mail systems. It was traced to the Philippines.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/ILOVEYOU (read 2026-10-03)"
+  },
+  {
+    "month": "2000-05",
+    "kind": "world",
+    "headline": "Swiss voters back the bilateral treaties with the EU",
+    "text": "On 21 May Swiss voters approved the seven sector agreements with the European Union, Bilaterals I, by 67.2 percent. They cover the free movement of people, land and air transport, trade barriers, farm goods, research and public procurement.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2000_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)",
+    "image": "/news/world/2000-05-deiss.jpg",
+    "imageCaption": "Joseph Deiss, Switzerland's foreign minister and negotiator of the bilateral treaties",
+    "imageCredit": "World Economic Forum"
   },
   {
     "month": "2000-05",
@@ -255,14 +290,36 @@
   },
   {
     "month": "2000-05",
-    "kind": "world",
-    "headline": "Swiss voters back the bilateral treaties with the EU",
-    "text": "On 21 May Swiss voters approved the seven sector agreements with the European Union, Bilaterals I, by 67.2 percent. They cover the free movement of people, land and air transport, trade barriers, farm goods, research and public procurement.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2000_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)",
-    "image": "/news/world/2000-05-deiss.jpg",
-    "imageCaption": "Joseph Deiss, Switzerland's foreign minister and negotiator of the bilateral treaties",
-    "imageCredit": "World Economic Forum"
+    "kind": "company",
+    "headline": "Florida caps the Engle bond; Philip Morris eyes Nabisco: tobacco shares rally",
+    "text": "In early May the Florida legislature passed a bill that spares cigarette makers most of the risk of having to post a bond worth billions of dollars to appeal a verdict in the Engle class action, which could have bankrupted them. Philip Morris is also reported to be the frontrunner in the bidding for Nabisco. Philip Morris shares gained about 19% in May; analysts say investors think the worst is behind the companies.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.wired.com/2000/05/holy-smoke-tobacco-boosts-dow/ (Reuters report of 15 May 2000, read 2026-10-03); move from data/out/mo.json",
+    "image": "/news/mo/2000-05-dade-courthouse.jpg",
+    "imageCaption": "Dade County Courthouse, Miami, Florida",
+    "imageCredit": "Tamanoeconomico"
+  },
+  {
+    "month": "2000-06",
+    "kind": "company",
+    "headline": "Pets.com takes over its rival Petstore.com",
+    "text": "Pets.com agreed on June 12 to buy the main assets of its competitor Petstore.com in exchange for Pets.com shares, receiving $3 million in cash as part of the deal. It also gains a promotion agreement with Discovery Communications' television channels, including Animal Planet, and a marketing deal with the Safeway supermarket chain. A retail version of the sock puppet goes on sale.",
+    "assets": [
+      "pets-com"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004116/e8-k.txt (8-K, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
+  },
+  {
+    "month": "2000-06",
+    "kind": "company",
+    "headline": "eBay buys Half.com",
+    "text": "eBay acquired Half.com, a site where people sell used books, music and films at fixed prices, for $312 million in eBay shares.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
   },
   {
     "month": "2000-06",
@@ -280,19 +337,6 @@
   {
     "month": "2000-07",
     "kind": "company",
-    "headline": "Engle jury: 145 billion dollars in punitive damages",
-    "text": "A Florida jury ordered Philip Morris and four other tobacco companies to pay 145 billion dollars in punitive damages to the class of sick Florida smokers, by far the largest award in US history. Philip Morris's share is nearly 74 billion dollars. The companies will appeal, and under the new Florida law the bond they must post is limited.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://www.latimes.com/archives/la-xpm-2001-feb-02-fi-20218-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/Howard_Engle (read 2026-10-03); https://en.wikipedia.org/wiki/Supreme_Court_of_Florida (largest punitive award, read 2026-10-03); month change from data/out/mo.json",
-    "image": "/news/mo/2000-07-engle-rosenblatt.jpg",
-    "imageCaption": "Stanley Rosenblatt (right), lawyer for the Engle class of Florida smokers, with plaintiffs Frank Amodeo, Ralph Della Vecchia and Mary Farnum, Miami",
-    "imageCredit": "Marta Lavandier / AP file"
-  },
-  {
-    "month": "2000-07",
-    "kind": "company",
     "headline": "Amazon grows 84% but keeps losing money",
     "text": "On July 26 Amazon reported second-quarter sales of $578 million, up 84%, a pro forma operating loss of $89 million and $908 million of cash. The day before, it announced the resignation of its president. Investors have turned against loss-making internet companies.",
     "assets": [
@@ -302,6 +346,29 @@
     "image": "/news/amzn/2000-07-time-person-of-the-year.jpg",
     "imageCaption": "Time's Person of the Year issue of 27 December 1999: Jeff Bezos in an Amazon shipping box, 'E-commerce is changing the way the world shops'",
     "imageCredit": "Gregory Heisler (cover photograph), TIME"
+  },
+  {
+    "month": "2000-07",
+    "kind": "company",
+    "headline": "Enron and Blockbuster plan movies on demand",
+    "text": "Enron and Blockbuster agreed a 20-year exclusive deal to stream films to homes over Enron's broadband network, with the service due to start in several U.S. cities by the end of the year.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)"
+  },
+  {
+    "month": "2000-07",
+    "kind": "company",
+    "headline": "Engle jury: 145 billion dollars in punitive damages",
+    "text": "A Florida jury ordered Philip Morris and four other tobacco companies to pay 145 billion dollars in punitive damages to the class of sick Florida smokers, by far the largest award in US history. Philip Morris's share is nearly 74 billion dollars. The companies will appeal, and under the new Florida law the bond they must post is limited.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.latimes.com/archives/la-xpm-2001-feb-02-fi-20218-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/Howard_Engle (read 2026-10-03); https://en.wikipedia.org/wiki/Supreme_Court_of_Florida (largest punitive award, read 2026-10-03); month change from data/out/mo.json",
+    "image": "/news/mo/2000-07-engle-rosenblatt.jpg",
+    "imageCaption": "Stanley Rosenblatt (right), lawyer for the Engle class of Florida smokers, with plaintiffs Frank Amodeo, Ralph Della Vecchia and Mary Farnum, Miami",
+    "imageCredit": "Marta Lavandier / AP file"
   },
   {
     "month": "2000-07",
@@ -331,6 +398,19 @@
   },
   {
     "month": "2000-08",
+    "kind": "world",
+    "headline": "Bank of Japan ends zero rates; IBJ becomes part of Mizuho",
+    "text": "The Bank of Japan has ended its zero-interest-rate policy over the objections of the government. The Industrial Bank of Japan, Fuji Bank and Dai-Ichi Kangyo Bank will combine in a holding company called Mizuho at the end of September, which will be the world's first banking group with more than a trillion dollars in assets.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03)",
+    "image": "/news/asia/2000-08-hayami.jpg",
+    "imageCaption": "Bank of Japan Governor Masaru Hayami announces the end of zero interest rates, Tokyo, 11 August 2000",
+    "imageCredit": "Photo by KAZUHIRO NOGI/AFP via Getty Images"
+  },
+  {
+    "month": "2000-08",
     "kind": "delisting",
     "headline": "IBJ's last month: Mizuho Holdings takes over",
     "text": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
@@ -341,6 +421,29 @@
     "image": "/news/ibj/2000-08-mizuho.jpg",
     "imageCaption": "Offices of the new Mizuho group in Tokyo",
     "imageCredit": "A.yatamoto"
+  },
+  {
+    "month": "2000-08",
+    "kind": "company",
+    "headline": "Pets.com says its cash will last only into early 2001",
+    "text": "In its quarterly report filed on August 14 Pets.com said its cash should be enough only into the first quarter of 2001 and that it expects to have to raise more money then. It is still selling goods for less than they cost.",
+    "assets": [
+      "pets-com"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q for the quarter to June 30, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
+    "image": "/news/pets-com/2000-02-sock-puppet.jpg",
+    "imageCaption": "The Pets.com sock puppet, the company's advertising mascot",
+    "imageCredit": "Atomic Taco"
+  },
+  {
+    "month": "2000-08",
+    "kind": "company",
+    "headline": "Enron shares hit a record near $90",
+    "text": "Enron's shares reached a record of about $90 on 23 August. Rebecca Mark, who built Enron's international power business and ran its water company Azurix, has left after a slump in Azurix's shares.",
+    "assets": [
+      "enron"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
   },
   {
     "month": "2000-08",
@@ -356,30 +459,12 @@
     "imageCredit": "Getty Images (press photograph, via Fortune)"
   },
   {
-    "month": "2000-08",
-    "kind": "world",
-    "headline": "Bank of Japan ends zero rates; IBJ becomes part of Mizuho",
-    "text": "The Bank of Japan has ended its zero-interest-rate policy over the objections of the government. The Industrial Bank of Japan, Fuji Bank and Dai-Ichi Kangyo Bank will combine in a holding company called Mizuho at the end of September, which will be the world's first banking group with more than a trillion dollars in assets.",
-    "assets": [
-      "ibj"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03)",
-    "image": "/news/asia/2000-08-hayami.jpg",
-    "imageCaption": "Bank of Japan Governor Masaru Hayami announces the end of zero interest rates, Tokyo, 11 August 2000",
-    "imageCredit": "Photo by KAZUHIRO NOGI/AFP via Getty Images"
-  },
-  {
-    "month": "2000-08",
-    "kind": "company",
-    "headline": "Pets.com says its cash will last only into early 2001",
-    "text": "In its quarterly report filed on August 14 Pets.com said its cash should be enough only into the first quarter of 2001 and that it expects to have to raise more money then. It is still selling goods for less than they cost.",
-    "assets": [
-      "pets-com"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q for the quarter to June 30, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
-    "image": "/news/pets-com/2000-02-sock-puppet.jpg",
-    "imageCaption": "The Pets.com sock puppet, the company's advertising mascot",
-    "imageCredit": "Atomic Taco"
+    "month": "2000-09",
+    "kind": "colour",
+    "headline": "Brigitte McMahon wins the first Olympic triathlon",
+    "text": "At the Olympics in Sydney, Brigitte McMahon of Baar won the first Olympic women's triathlon in 2 hours, 0 minutes and 40 seconds.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Brigitte_McMahon (read 2026-10-03)"
   },
   {
     "month": "2000-09",
@@ -406,6 +491,39 @@
     "image": "/news/intc/2000-09-pentium3.jpg",
     "imageCaption": "An Intel Pentium III processor",
     "imageCredit": "Mister rf"
+  },
+  {
+    "month": "2000-09",
+    "kind": "company",
+    "headline": "Pets.com cuts costs and looks for a buyer",
+    "text": "Pets.com opened a customer service centre in Greenwood, Indiana, and moved most of its customer staff there to cut costs. It is trying to raise capital or sell the company.",
+    "assets": [
+      "pets-com"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0001095811-00-004383.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/pets-com/2000-09-sock-puppet.jpg",
+    "imageCaption": "Sock puppet, 2008",
+    "imageCredit": "Brenna"
+  },
+  {
+    "month": "2000-09",
+    "kind": "company",
+    "headline": "Citigroup buys consumer lender Associates for $31 billion",
+    "text": "Citigroup agreed to buy Associates First Capital, a lender to consumers with weak credit, for $31.1 billion in stock. Associates was once owned by Gulf+Western and later by Ford.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03, citing New York Times, 7 September 2000)"
+  },
+  {
+    "month": "2000-10",
+    "kind": "company",
+    "headline": "GE agrees to buy Honeywell",
+    "text": "Honeywell, the aerospace and controls maker worth more than 21 billion dollars, accepted a takeover offer from General Electric's chairman Jack Welch. Combined with GE's jet engines, it would create a giant of aircraft equipment.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Honeywell (read 2026-10-03, citing The Economist 2001-07-05)"
   },
   {
     "month": "2000-11",
@@ -441,6 +559,17 @@
   },
   {
     "month": "2000-11",
+    "kind": "world",
+    "headline": "Bush or Gore? America votes and has no winner",
+    "text": "Americans voted on 7 November, and three weeks later they still do not know who their next president is. Everything hangs on Florida: on election night the television networks called the state for Al Gore, then for George W. Bush, then for nobody, and Gore phoned Bush to concede and took it back. Bush led by 1,784 votes on election night and by 327 after a machine recount; Gore asked for recounts by hand in four counties, where officials now study punch cards that voters did not punch through cleanly. On 26 November Florida declared Bush the winner by 537 votes, and Gore went to court the next day.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-04)",
+    "image": "/news/world/2000-11-2000-united-states-presidential-election.jpg",
+    "imageCaption": "2000 United States presidential election recount in Florida, 2000",
+    "imageCredit": "User:Anthony at en.wikipedia"
+  },
+  {
+    "month": "2000-11",
     "kind": "company",
     "headline": "WorldCom splits itself in two and writes off $685 million",
     "text": "On 1 November WorldCom announced it would split its business into two tracking stocks: WorldCom group for data, internet and business customers, and MCI group for the shrinking consumer long-distance business, which will pay a dividend. It has taken a $685 million third-quarter charge for customers that cannot pay, as many small telecom companies go bankrupt, and its growth is slowing. A filing on 14 November disclosed that WorldCom had lent chief executive Bernard Ebbers money and guaranteed his loans so he would not have to sell shares to meet margin calls.",
@@ -451,19 +580,6 @@
     "image": "/news/worldcom/2000-11-ebbers.jpg",
     "imageCaption": "Bernard Ebbers, chief executive of WorldCom, 2001",
     "imageCredit": " U.S. National Communications System"
-  },
-  {
-    "month": "2000-11",
-    "kind": "company",
-    "headline": "Credit Suisse buys Donaldson, Lufkin & Jenrette",
-    "text": "In November Credit Suisse completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette for about $12.4 billion, to be merged into Credit Suisse First Boston.",
-    "assets": [
-      "credit-suisse"
-    ],
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)",
-    "image": "/news/credit-suisse/2000-11-muehlemann.jpg",
-    "imageCaption": "Lukas Mühlemann, chief executive of Credit Suisse Group, speaking at the St. Gallen Management Symposium, 1996",
-    "imageCredit": "Regina Kühne"
   },
   {
     "month": "2000-11",
@@ -481,6 +597,29 @@
   {
     "month": "2000-11",
     "kind": "company",
+    "headline": "Credit Suisse buys Donaldson, Lufkin & Jenrette",
+    "text": "In November Credit Suisse completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette for about $12.4 billion, to be merged into Credit Suisse First Boston.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)",
+    "image": "/news/credit-suisse/2000-11-muehlemann.jpg",
+    "imageCaption": "Lukas Mühlemann, chief executive of Credit Suisse Group, speaking at the St. Gallen Management Symposium, 1996",
+    "imageCredit": "Regina Kühne"
+  },
+  {
+    "month": "2000-11",
+    "kind": "company",
+    "headline": "Cisco says it sees no slowdown",
+    "text": "Cisco's sales are still growing fast, and in November its chief strategy officer said: 'We haven't seen any sign of a slowdown.' Some component suppliers have begun to lower their forecasts. Cisco's shares are down by about 40% from their March high.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.cio.com/article/266552/it-organization-what-went-wrong-at-cisco-in-2001.html (read 2026-10-03); bookings figure from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html (read 2026-10-03)"
+  },
+  {
+    "month": "2000-11",
+    "kind": "company",
     "headline": "UBS takes over PaineWebber",
     "text": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets. It makes UBS a big player in American wealth management.",
     "assets": [
@@ -489,22 +628,6 @@
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)",
     "image": "/news/ubs/2000-11-painewebber.jpg",
     "imageCaption": "The Paine Webber office in the early twentieth century"
-  },
-  {
-    "month": "2000-11",
-    "kind": "world",
-    "headline": "Bush or Gore? America votes and has no winner",
-    "text": "Americans voted on 7 November, and three weeks later they still do not know who their next president is. Everything hangs on Florida: on election night the television networks called the state for Al Gore, then for George W. Bush, then for nobody, and Gore phoned Bush to concede and took it back. Bush led by 1,784 votes on election night and by 327 after a machine recount; Gore asked for recounts by hand in four counties, where officials now study punch cards that voters did not punch through cleanly. On 26 November Florida declared Bush the winner by 537 votes, and Gore went to court the next day.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-04)"
-  },
-  {
-    "month": "2000-12",
-    "kind": "world",
-    "headline": "The Supreme Court decides the election for Bush",
-    "text": "Five weeks after the vote of 7 November, the US Supreme Court stopped the Florida recount on 12 December in Bush v. Gore, and Al Gore conceded the next day. George W. Bush won Florida by 537 votes and the electoral college by 271 to 266, while Gore won more votes nationwide.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "2000-12",
@@ -516,6 +639,47 @@
     "image": "/news/markets/2000-12-greenspan-george.jpg",
     "imageCaption": "Federal Reserve Chairman Alan Greenspan with Bank of England Governor Eddie George, Prague, 24 September 2000",
     "imageCredit": " (IMF)"
+  },
+  {
+    "month": "2000-12",
+    "kind": "world",
+    "headline": "The Supreme Court decides the election for Bush",
+    "text": "Five weeks after the vote of 7 November, the US Supreme Court stopped the Florida recount on 12 December in Bush v. Gore, and Al Gore conceded the next day. George W. Bush won Florida by 537 votes and the electoral college by 271 to 266, while Gore won more votes nationwide.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election (read 2026-10-03)",
+    "image": "/news/world/2000-12-united-states-supreme-court-building.jpg",
+    "imageCaption": "United States Supreme Court Building",
+    "imageCredit": "not credited on the page"
+  },
+  {
+    "month": "2000-12",
+    "kind": "world",
+    "headline": "Natural gas soars, California runs short of power",
+    "text": "The US natural gas price at Henry Hub averaged $8.90 per million Btu in December, almost four times its level a year ago, while California's deregulated power market faces shortages and soaring prices. Crude meanwhile fell 20% in December to about $27 a barrel. Drillers and gas traders are the winners.",
+    "assets": [
+      "slb",
+      "enron"
+    ],
+    "source": "https://www.eia.gov/dnav/ng/hist/rngwhhdM.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000%E2%80%932001_California_electricity_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2000-12-caiso-control-room.jpg",
+    "imageCaption": "A dispatcher in the control room of California's grid operator takes the call for a stage two power emergency, Alhambra, 11 December 2000",
+    "imageCredit": "Photo by David McNew/Newsmakers"
+  },
+  {
+    "month": "2000-12",
+    "kind": "world",
+    "headline": "The Nasdaq's worst year: down 39%",
+    "text": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last.",
+    "assets": [
+      "csco",
+      "intc",
+      "msft",
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "image": "/news/tech/2000-12-nasdaq-screens.jpg",
+    "imageCaption": "The wall of screens inside the Nasdaq MarketSite, Times Square",
+    "imageCredit": "Luis Villa del Campo"
   },
   {
     "month": "2000-12",
@@ -542,19 +706,5 @@
     "image": "/news/nvda/2000-12-voodoo5.jpg",
     "imageCaption": "A 3dfx Voodoo5 5500 graphics card, 2000",
     "imageCredit": "Austriacus"
-  },
-  {
-    "month": "2000-12",
-    "kind": "world",
-    "headline": "Natural gas soars, California runs short of power",
-    "text": "The US natural gas price at Henry Hub averaged $8.90 per million Btu in December, almost four times its level a year ago, while California's deregulated power market faces shortages and soaring prices. Crude meanwhile fell 20% in December to about $27 a barrel. Drillers and gas traders are the winners.",
-    "assets": [
-      "slb",
-      "enron"
-    ],
-    "source": "https://www.eia.gov/dnav/ng/hist/rngwhhdM.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000%E2%80%932001_California_electricity_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2000-12-caiso-control-room.jpg",
-    "imageCaption": "A dispatcher in the control room of California's grid operator takes the call for a stage two power emergency, Alhambra, 11 December 2000",
-    "imageCredit": "Photo by David McNew/Newsmakers"
   }
 ]

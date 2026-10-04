@@ -1,17 +1,14 @@
 [
   {
     "month": "2022-01",
-    "kind": "company",
-    "headline": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
-    "text": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
+    "kind": "world",
+    "headline": "Tight supply and Russian troops push oil toward $90",
+    "text": "US crude rose 18% in January to $89.16 a barrel, the highest since 2014, as demand recovers while OPEC+ adds supply only gradually, and more than 100,000 Russian troops are massed around Ukraine. Europe has been in a gas crisis since the autumn.",
     "assets": [
-      "msft",
-      "sony"
+      "slb",
+      "xom"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)",
-    "image": "/news/msft/2022-01-activision.jpg",
-    "imageCaption": "Activision's headquarters, Santa Monica, California",
-    "imageCredit": "w:User:Coolcaesar"
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
     "month": "2022-01",
@@ -26,6 +23,41 @@
     "image": "/news/slb/2022-01-brunei-pumpjack.jpg",
     "imageCaption": "An oil pumpjack at work",
     "imageCredit": "DeltaSquad833"
+  },
+  {
+    "month": "2022-01",
+    "kind": "company",
+    "headline": "IBM sells Watson Health",
+    "text": "On 21 January IBM announced it will sell its Watson Health assets to the private equity firm Francisco Partners.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing ZDNet 2022-01-21)"
+  },
+  {
+    "month": "2022-01",
+    "kind": "company",
+    "headline": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
+    "text": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
+    "assets": [
+      "msft",
+      "sony"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)",
+    "image": "/news/msft/2022-01-activision.jpg",
+    "imageCaption": "Activision's headquarters, Santa Monica, California",
+    "imageCredit": "w:User:Coolcaesar"
+  },
+  {
+    "month": "2022-02",
+    "kind": "colour",
+    "headline": "Switzerland lifts almost all Covid rules",
+    "text": "On 17 February Switzerland lifted almost all its coronavirus measures. The certificate is no longer needed, and masks remain mandatory only on public transport and in healthcare institutions.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03)",
+    "image": "/news/life/2022-02-federal-palace-of-switzerland.jpg",
+    "imageCaption": "Federal Palace of Switzerland, 2010",
+    "imageCredit": "Mike Lehmann, Mike Switzerland (talk) 05:54, 14 July 2010 (UTC)"
   },
   {
     "month": "2022-02",
@@ -53,14 +85,6 @@
   },
   {
     "month": "2022-02",
-    "kind": "colour",
-    "headline": "Switzerland lifts almost all Covid rules",
-    "text": "On 17 February Switzerland lifted almost all its coronavirus measures. The certificate is no longer needed, and masks remain mandatory only on public transport and in healthcare institutions.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03)"
-  },
-  {
-    "month": "2022-02",
     "kind": "company",
     "headline": "Daimler becomes Mercedes-Benz Group",
     "text": "On 1 February Daimler AG officially changed its name to Mercedes-Benz Group AG. Chief executive Ola Källenius wants investors to value the company as a luxury brand, selling fewer cars at higher prices, as it shifts deeper into electric cars.",
@@ -71,6 +95,17 @@
     "image": "/news/mercedes/2022-02-eqs.jpg",
     "imageCaption": "The Mercedes-EQ EQS electric sedan, 2022",
     "imageCredit": "Tokumeigakarinoaoshima"
+  },
+  {
+    "month": "2022-03",
+    "kind": "world",
+    "headline": "Brent hits $133, the US bans Russian oil",
+    "text": "Brent reached $133 a barrel on 8 March, the day the US banned imports of Russian oil. On 31 March the US announced it would release 1 million barrels a day from its strategic reserve for 180 days, the largest release ever. US gasoline averaged $4.22 a gallon in March.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)",
+    "image": "/news/oil/2022-03-biden-russian-oil.jpg",
+    "imageCaption": "President Biden announces the ban on Russian oil imports, White House, 8 March 2022",
+    "imageCredit": "The White House"
   },
   {
     "month": "2022-03",
@@ -91,35 +126,23 @@
   },
   {
     "month": "2022-03",
-    "kind": "world",
-    "headline": "Brent hits $133, the US bans Russian oil",
-    "text": "Brent reached $133 a barrel on 8 March, the day the US banned imports of Russian oil. On 31 March the US announced it would release 1 million barrels a day from its strategic reserve for 180 days, the largest release ever. US gasoline averaged $4.22 a gallon in March.",
-    "assets": [],
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)",
-    "image": "/news/oil/2022-03-biden-russian-oil.jpg",
-    "imageCaption": "President Biden announces the ban on Russian oil imports, White House, 8 March 2022",
-    "imageCredit": "The White House"
-  },
-  {
-    "month": "2022-04",
     "kind": "company",
-    "headline": "Amazon reports a loss as growth stalls",
-    "text": "On April 28 Amazon reported a first-quarter net loss of $3.8 billion, against a profit of $8.1 billion a year earlier, as sales grew only 7% to $116.4 billion and operating income fell to $3.7 billion. The pandemic surge in online shopping has faded and costs have risen.",
+    "headline": "War in Ukraine and chip shortages cut BMW's forecast",
+    "text": "BMW doubled its pre-pandemic profit in 2021 thanks to record sales and high prices. On 16 March it cut its margin forecast for 2022 to 7-9% from 8-10%, because Russia's invasion of Ukraine has disrupted the supply of parts such as wire harnesses, on top of the shortage of chips.",
     "assets": [
-      "amzn"
+      "bmw"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000011.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
-    "image": "/news/amzn/2022-04-fulfilment-centre.jpg",
-    "imageCaption": "An Amazon fulfilment centre, Shakopee, Minnesota",
-    "imageCredit": "Tony Webster"
+    "source": "City A.M., 'BMW cuts 2022 profit margins as Ukraine war worsens supply chain issues', 16 March 2022, https://www.cityam.com/bmw-cuts-2022-profit-margins-ukraine-war-worsens-supply-chain-issues/ (read 2026-10-03)"
   },
   {
-    "month": "2022-04",
-    "kind": "world",
-    "headline": "Shanghai locked down",
-    "text": "Shanghai, China's biggest city with about 25 million people, has been under lockdown since late March as China holds to its zero-Covid policy. Factories and the port are disrupted.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)"
+    "month": "2022-03",
+    "kind": "company",
+    "headline": "Citigroup discloses its exposure to Russia",
+    "text": "After Russia invaded Ukraine and was cut off from the SWIFT payment system, Citigroup disclosed billions of dollars of exposure to Russia, where it owns a bank, AO Citibank. Its shares fell 10% in March, after 9% in February.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465926003604/c-20260114xex99d1.htm (read 2026-10-03)"
   },
   {
     "month": "2022-04",
@@ -138,6 +161,52 @@
   },
   {
     "month": "2022-04",
+    "kind": "world",
+    "headline": "Bond yields jump and shares slide",
+    "text": "Consumer prices in March were 8.5 percent higher than a year earlier, the most since 1981. The 10-year Treasury yield averaged 2.75 percent in April, up from 1.76 percent in January, and long-dated bonds keep falling. The S&P 500 lost 9 percent in April, its worst month since March 2020.",
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)"
+  },
+  {
+    "month": "2022-04",
+    "kind": "world",
+    "headline": "Shanghai locked down",
+    "text": "Shanghai, China's biggest city with about 25 million people, has been under lockdown since late March as China holds to its zero-Covid policy. Factories and the port are disrupted.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Zero-COVID (read 2026-10-03)",
+    "image": "/news/asia/2022-04-2022-shanghai-covid-19-outbreak.jpg",
+    "imageCaption": "2022 Shanghai COVID-19 outbreak, 2022",
+    "imageCredit": "中国新闻网"
+  },
+  {
+    "month": "2022-04",
+    "kind": "company",
+    "headline": "Amazon reports a loss as growth stalls",
+    "text": "On April 28 Amazon reported a first-quarter net loss of $3.8 billion, against a profit of $8.1 billion a year earlier, as sales grew only 7% to $116.4 billion and operating income fell to $3.7 billion. The pandemic surge in online shopping has faded and costs have risen.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000011.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
+    "image": "/news/amzn/2022-04-fulfilment-centre.jpg",
+    "imageCaption": "An Amazon fulfilment centre, Shakopee, Minnesota",
+    "imageCredit": "Tony Webster"
+  },
+  {
+    "month": "2022-04",
+    "kind": "company",
+    "headline": "Another quarterly loss and the 777X slips to 2025",
+    "text": "On 27 April Boeing reported a first-quarter loss with charges on fixed-price defence programmes and the war in Ukraine, negative operating cash flow of 3.2 billion dollars, and said the first 777-9 delivery is now expected in 2025.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000001292722000019/a202203mar318kprex991.htm (Boeing results release of 2022-04-27, read 2026-10-03)"
+  },
+  {
+    "month": "2022-04",
     "kind": "company",
     "headline": "Musk bids for Twitter and sells Tesla shares",
     "text": "On 14 April Elon Musk offered to buy Twitter for about 43 billion dollars, and on 25 April Twitter accepted. Within three days of the agreement Musk sold 8.5 billion dollars of his Tesla shares to help pay for it.",
@@ -148,6 +217,39 @@
     "image": "/news/tsla/2022-04-twitter.jpg",
     "imageCaption": "Twitter headquarters, Market Street, San Francisco",
     "imageCredit": "Wgreaves"
+  },
+  {
+    "month": "2022-04",
+    "kind": "company",
+    "headline": "Nokia leaves Russia",
+    "text": "Nokia said it will exit the Russian market after the invasion of Ukraine; Russia accounted for less than 2% of its net sales in 2021.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2022-05",
+    "kind": "company",
+    "headline": "Inflation squeezes Walmart; worst day since 1987",
+    "text": "On 17 May Walmart reported quarterly earnings of 1.30 dollars a share against 1.48 expected, and said full-year profit would now fall about 1% instead of rising. Higher fuel and wage costs and swollen inventories ate into margins. The shares fell 11.4%, their worst day since 16 October 1987.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)",
+    "image": "/news/wmt/2022-05-store.jpg",
+    "imageCaption": "A Walmart store ;;",
+    "imageCredit": "Computermusic1999 (Nicholas Osorio)"
+  },
+  {
+    "month": "2022-05",
+    "kind": "company",
+    "headline": "Lockdowns in China and the war hit Cisco",
+    "text": "Cisco reported flat sales of $12.8 billion for the quarter to April and forecast a decline of 1% to 5.5% in the next quarter. Robbins said Covid lockdowns in China and the war in Ukraine hurt revenue; Cisco has stopped selling in Russia.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-22-154039.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
   },
   {
     "month": "2022-05",
@@ -165,28 +267,12 @@
   {
     "month": "2022-05",
     "kind": "company",
-    "headline": "Inflation squeezes Walmart; worst day since 1987",
-    "text": "On 17 May Walmart reported quarterly earnings of 1.30 dollars a share against 1.48 expected, and said full-year profit would now fall about 1% instead of rising. Higher fuel and wage costs and swollen inventories ate into margins. The shares fell 11.4%, their worst day since 16 October 1987.",
+    "headline": "McDonald's leaves Russia",
+    "text": "On 16 May McDonald's announced it will sell its roughly 850 Russian restaurants to a local buyer and leave the country after more than 30 years, because of the war in Ukraine; it had closed them temporarily on 8 March. It expects a charge of about 1.2 to 1.4 billion dollars.",
     "assets": [
-      "wmt"
+      "mcd"
     ],
-    "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)",
-    "image": "/news/wmt/2022-05-store.jpg",
-    "imageCaption": "A Walmart store ;;",
-    "imageCredit": "Computermusic1999 (Nicholas Osorio)"
-  },
-  {
-    "month": "2022-06",
-    "kind": "company",
-    "headline": "FDA orders Juul off the market and targets nicotine",
-    "text": "On 23 June the Food and Drug Administration ordered Juul to stop selling its e-cigarettes in the United States; an appeals court put the order on hold the next day. Days earlier the FDA said it plans a rule to cap the nicotine in cigarettes at levels that are not addictive, a direct threat to Altria's core business. Altria owns 35% of Juul and has already written much of its value off. Altria shares lost about 23% in June, in a falling market.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://www.npr.org/2022/06/22/1106742729/fda-nicotine-level-regulate-cigarettes-tobacco (read 2026-10-03); https://www.fool.com/investing/2022/06/27/juul-ban-heres-what-altria-investors-need-to-know (read 2026-10-03); move from data/out/mo.json",
-    "image": "/news/mo/2022-06-juul-device.jpg",
-    "imageCaption": "A Juul device ;;",
-    "imageCredit": "Vaping360"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390822000020/exhibit991-05162022.htm (read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (Russia exit, read 2026-10-03)"
   },
   {
     "month": "2022-06",
@@ -205,6 +291,27 @@
     "imageCredit": "Photo by Drew Angerer/Getty Images"
   },
   {
+    "month": "2022-06",
+    "kind": "world",
+    "headline": "US gasoline at a record",
+    "text": "US regular gasoline averaged $4.93 a gallon in June, a record, and Brent was near $129 on 8 June. The EU has agreed to ban seaborne imports of Russian crude by December.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03)"
+  },
+  {
+    "month": "2022-06",
+    "kind": "company",
+    "headline": "FDA orders Juul off the market and targets nicotine",
+    "text": "On 23 June the Food and Drug Administration ordered Juul to stop selling its e-cigarettes in the United States; an appeals court put the order on hold the next day. Days earlier the FDA said it plans a rule to cap the nicotine in cigarettes at levels that are not addictive, a direct threat to Altria's core business. Altria owns 35% of Juul and has already written much of its value off. Altria shares lost about 23% in June, in a falling market.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://www.npr.org/2022/06/22/1106742729/fda-nicotine-level-regulate-cigarettes-tobacco (read 2026-10-03); https://www.fool.com/investing/2022/06/27/juul-ban-heres-what-altria-investors-need-to-know (read 2026-10-03); move from data/out/mo.json",
+    "image": "/news/mo/2022-06-juul-device.jpg",
+    "imageCaption": "A Juul device ;;",
+    "imageCredit": "Vaping360"
+  },
+  {
     "month": "2022-07",
     "kind": "world",
     "headline": "A summer rally on falling yields: shares up 9 percent",
@@ -220,6 +327,41 @@
     "imageCredit": " (Federal Reserve)"
   },
   {
+    "month": "2022-07",
+    "kind": "world",
+    "headline": "Another big hike, but markets bet on the peak",
+    "text": "Consumer prices in June were 9.1 percent higher than a year earlier, the most since 1981. On 27 July the Fed raised its rate by another three quarters of a point to 2.25 to 2.5 percent. Yet long-term bond yields fell during July, as investors bet that inflation and rate rises were near their peak, and the S&P 500 gained 9 percent, its best month since November 2020.",
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+  },
+  {
+    "month": "2022-07",
+    "kind": "company",
+    "headline": "Amazon's sales beat expectations despite a loss",
+    "text": "Amazon reported second-quarter sales of $121.2 billion, up 7%, and a net loss of $2.0 billion, against a profit of $7.8 billion a year earlier. Its shares were split twenty-for-one on May 27.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-22-000017.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/amzn/2022-07-andy-jassy.jpg",
+    "imageCaption": "Andy Jassy, 2021",
+    "imageCredit": "Lisi Mezistrano Wolf"
+  },
+  {
+    "month": "2022-07",
+    "kind": "company",
+    "headline": "Profits fall in a weaker market",
+    "text": "Apple reported an 11% fall in profit for the quarter to June compared with a year earlier, as technology shares have slid this year.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
     "month": "2022-08",
     "kind": "company",
     "headline": "Sandoz to be spun off by the end of 2023",
@@ -231,18 +373,6 @@
     "image": "/news/novartis/2022-08-kundl.jpg",
     "imageCaption": "The Sandoz antibiotics plant at Kundl, Tyrol",
     "imageCredit": "Kolipanda"
-  },
-  {
-    "month": "2022-09",
-    "kind": "world",
-    "headline": "Mahsa Amini dies in custody: 'Woman, Life, Freedom'",
-    "text": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)",
-    "thread": "iran",
-    "image": "/news/middle-east/2022-09-amir-kabir-students.jpg",
-    "imageCaption": "Students of Amirkabir University in Tehran protest after the death of Mahsa Amini, 20 September 2022",
-    "imageCredit": "Darafsh"
   },
   {
     "month": "2022-09",
@@ -271,6 +401,18 @@
     "imageCredit": "Ella Ling/Shutterstock"
   },
   {
+    "month": "2022-09",
+    "kind": "world",
+    "headline": "Mahsa Amini dies in custody: 'Woman, Life, Freedom'",
+    "text": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)",
+    "thread": "iran",
+    "image": "/news/middle-east/2022-09-amir-kabir-students.jpg",
+    "imageCaption": "Students of Amirkabir University in Tehran protest after the death of Mahsa Amini, 20 September 2022",
+    "imageCredit": "Darafsh"
+  },
+  {
     "month": "2022-10",
     "kind": "company",
     "headline": "Körner's rescue plan: 4 billion francs and 9,000 jobs",
@@ -286,6 +428,20 @@
   {
     "month": "2022-10",
     "kind": "world",
+    "headline": "OPEC+ cuts 2 million barrels a day",
+    "text": "On 5 October OPEC+ agreed to cut its output target by 2 million barrels a day, its first cut since 2020; the decision revived calls in the US Congress for an anti-cartel law (NOPEC). US crude rose from $84 to $93 in the first week of October. Russia stopped gas deliveries through Nord Stream in September, and the pipelines were damaged by sabotage on 26 September.",
+    "assets": [
+      "slb",
+      "xom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2022-10-abdulaziz-vienna.jpg",
+    "imageCaption": "Saudi energy minister Prince Abdulaziz bin Salman at the press conference after OPEC+ agreed to cut output by 2 million barrels a day, Vienna, 5 October 2022",
+    "imageCredit": "Photo by VLADIMIR SIMICEK/AFP via Getty Images"
+  },
+  {
+    "month": "2022-10",
+    "kind": "world",
     "headline": "A new low for the year, then an 8 percent rebound",
     "text": "Shares fell further early in October on inflation news and rate expectations, with the S&P 500 closing at 3,577.03 on 12 October, about 25% below its January record. Then they rebounded, and the index ended October up 8% at 3,871.98.",
     "assets": [],
@@ -297,16 +453,24 @@
   {
     "month": "2022-10",
     "kind": "world",
-    "headline": "OPEC+ cuts 2 million barrels a day",
-    "text": "On 5 October OPEC+ agreed to cut its output target by 2 million barrels a day, its first cut since 2020; the decision revived calls in the US Congress for an anti-cartel law (NOPEC). US crude rose from $84 to $93 in the first week of October. Russia stopped gas deliveries through Nord Stream in September, and the pipelines were damaged by sabotage on 26 September.",
+    "headline": "America cuts China off from advanced chips",
+    "text": "On 7 October the US banned the export to China of advanced computing chips, of the kind used in AI such as Nvidia's A100 and H100, and of the equipment to make advanced chips. Nvidia, whose data-centre processors are covered, has lost more than half its share value this year in the technology sell-off.",
     "assets": [
-      "slb",
-      "xom"
+      "nvda"
     ],
-    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2022-10-abdulaziz-vienna.jpg",
-    "imageCaption": "Saudi energy minister Prince Abdulaziz bin Salman at the press conference after OPEC+ agreed to cut output by 2 million barrels a day, Vienna, 5 October 2022",
-    "imageCredit": "Photo by VLADIMIR SIMICEK/AFP via Getty Images"
+    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)",
+    "thread": "china",
+    "image": "/news/asia/2022-10-tsmc-fab.jpg",
+    "imageCaption": "A chip factory of TSMC, Hsinchu, Taiwan",
+    "imageCredit": "曾 成訓"
+  },
+  {
+    "month": "2022-10",
+    "kind": "world",
+    "headline": "The yen falls past 150 per dollar",
+    "text": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998.",
+    "assets": [],
+    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03)"
   },
   {
     "month": "2022-10",
@@ -336,17 +500,16 @@
   },
   {
     "month": "2022-10",
-    "kind": "world",
-    "headline": "America cuts China off from advanced chips",
-    "text": "On 7 October the US banned the export to China of advanced computing chips, of the kind used in AI such as Nvidia's A100 and H100, and of the equipment to make advanced chips. Nvidia, whose data-centre processors are covered, has lost more than half its share value this year in the technology sell-off.",
+    "kind": "company",
+    "headline": "Jet engines carry GE's quarter",
+    "text": "On 25 October General Electric reported third-quarter revenue of 19.1 billion dollars, up 3%, with strong results in its aerospace business while the renewable energy unit lost money. It says the planned spin-offs are on track. Stock markets bounced strongly in October.",
     "assets": [
-      "nvda"
+      "ge"
     ],
-    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)",
-    "thread": "china",
-    "image": "/news/asia/2022-10-tsmc-fab.jpg",
-    "imageCaption": "A chip factory of TSMC, Hsinchu, Taiwan",
-    "imageCredit": "曾 成訓"
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054522000059/ge3q2022earningsrelease.htm (GE third-quarter 2022 results, read 2026-10-03)",
+    "image": "/news/ge/2022-10-cfm-international-leap.jpg",
+    "imageCaption": "CFM International LEAP, 2011",
+    "imageCredit": "KGG1951"
   },
   {
     "month": "2022-10",
@@ -362,17 +525,34 @@
     "imageCredit": "Bob Coscarelli"
   },
   {
-    "month": "2022-11",
+    "month": "2022-10",
     "kind": "company",
-    "headline": "Chapek ousted; Iger returns as chief executive",
-    "text": "On 8 November Disney reported weaker-than-expected results, with adjusted earnings of 30 cents a share against 37 a year earlier and large losses in streaming. On 20 November the board dismissed Bob Chapek and brought back Bob Iger as chief executive.",
+    "headline": "Berkshire completes the purchase of Alleghany",
+    "text": "Berkshire completed its purchase of the insurer Alleghany for about 11.6 billion dollars in October.",
     "assets": [
-      "dis"
+      "brk"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000192/dis-20221108.htm (Disney earnings release of 8 November 2022, read 2026-10-03); https://en.wikipedia.org/wiki/Bob_Chapek (read 2026-10-03)",
-    "image": "/news/dis/2022-11-chapek-iger.jpg",
-    "imageCaption": "Bob Chapek (left) and Bob Iger on stage at the 50th anniversary celebration of Walt Disney World, Orlando, 2021",
-    "imageCredit": "Gerardo Mora—Getty Images"
+    "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2024ltr.pdf (read 2026-10-03); data/out/brk.json price series"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "eBay buys TCGplayer",
+    "text": "eBay bought TCGplayer, a marketplace for collectible card games, for about $295 million.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+  },
+  {
+    "month": "2022-10",
+    "kind": "company",
+    "headline": "The yen falls to its weakest in decades",
+    "text": "The yen fell to nearly 150 to the dollar in October, its weakest since 1990. A weak yen raises the value of Sony's foreign earnings in yen, but lowers its share price in dollars.",
+    "assets": [
+      "sony"
+    ],
+    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
   },
   {
     "month": "2022-11",
@@ -402,28 +582,17 @@
     "imageCredit": "Mozamaniac"
   },
   {
-    "month": "2022-12",
-    "kind": "world",
-    "headline": "2022 in review: the worst year since 2008",
-    "text": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Nasdaq 33%; the Dow lost 8.8%. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
-    "image": "/news/markets/2022-12-nyse-closing.jpg",
-    "imageCaption": "A trader reacts at the closing bell of the New York Stock Exchange on the last trading day of 2022, 30 December 2022",
-    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
-  },
-  {
-    "month": "2022-12",
+    "month": "2022-11",
     "kind": "company",
-    "headline": "Tesla's worst month as Musk is busy with Twitter",
-    "text": "Tesla shares fell to their lowest in more than two years in late December and have lost more than half their value since the start of October. Investors worry that Twitter, which Musk bought in October and now runs, takes too much of his time.",
+    "headline": "Chapek ousted; Iger returns as chief executive",
+    "text": "On 8 November Disney reported weaker-than-expected results, with adjusted earnings of 30 cents a share against 37 a year earlier and large losses in streaming. On 20 November the board dismissed Bob Chapek and brought back Bob Iger as chief executive.",
     "assets": [
-      "tsla"
+      "dis"
     ],
-    "source": "The Guardian, 'Tesla stock marks lowest close in years as investors worry about Musk's focus', 27 December 2022, https://www.theguardian.com/technology/2022/dec/27/tesla-stock-drops-lowest-close-years-elon-musk (read 2026-10-03); WSJ, 'Tesla Shares Head for Worst Year Ever as Elon Musk Focuses on Twitter', 24 December 2022 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/tsla/2022-12-musk.jpg",
-    "imageCaption": "Elon Musk, July 2022",
-    "imageCredit": "U.S. Air Force / Trevor Cokley"
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000192/dis-20221108.htm (Disney earnings release of 8 November 2022, read 2026-10-03); https://en.wikipedia.org/wiki/Bob_Chapek (read 2026-10-03)",
+    "image": "/news/dis/2022-11-chapek-iger.jpg",
+    "imageCaption": "Bob Chapek (left) and Bob Iger on stage at the 50th anniversary celebration of Walt Disney World, Orlando, 2021",
+    "imageCredit": "Gerardo Mora—Getty Images"
   },
   {
     "month": "2022-12",
@@ -446,5 +615,51 @@
     "image": "/news/life/2022-12-chatgpt-altman.jpg",
     "imageCaption": "Sam Altman, chief executive of OpenAI, November 2022",
     "imageCredit": "Village Global"
+  },
+  {
+    "month": "2022-12",
+    "kind": "world",
+    "headline": "2022 in review: the worst year since 2008",
+    "text": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Nasdaq 33%; the Dow lost 8.8%. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "image": "/news/markets/2022-12-nyse-closing.jpg",
+    "imageCaption": "A trader reacts at the closing bell of the New York Stock Exchange on the last trading day of 2022, 30 December 2022",
+    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
+  },
+  {
+    "month": "2022-12",
+    "kind": "world",
+    "headline": "Iran hangs the first protesters",
+    "text": "On 8 December Iran executed 22-year-old Mohsen Shekari, convicted of 'waging war against God' for wounding a militiaman at a protest in Tehran, 74 days after his arrest. By then rights groups counted more than 450 protesters killed since September. Governments in Europe and America condemned the executions.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Execution_of_Mohsen_Shekari (read 2026-10-03); https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03)"
+  },
+  {
+    "month": "2022-12",
+    "kind": "world",
+    "headline": "The Nasdaq loses a third in 2022",
+    "text": "The Nasdaq ended 2022 at 10,466, down 33% for the year, its worst since 2008, after the worst first half in its history.",
+    "assets": [
+      "nvda",
+      "amzn",
+      "tsla",
+      "msft",
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+  },
+  {
+    "month": "2022-12",
+    "kind": "company",
+    "headline": "Tesla's worst month as Musk is busy with Twitter",
+    "text": "Tesla shares fell to their lowest in more than two years in late December and have lost more than half their value since the start of October. Investors worry that Twitter, which Musk bought in October and now runs, takes too much of his time.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "The Guardian, 'Tesla stock marks lowest close in years as investors worry about Musk's focus', 27 December 2022, https://www.theguardian.com/technology/2022/dec/27/tesla-stock-drops-lowest-close-years-elon-musk (read 2026-10-03); WSJ, 'Tesla Shares Head for Worst Year Ever as Elon Musk Focuses on Twitter', 24 December 2022 (headline via Google News) (read 2026-10-03)",
+    "image": "/news/tsla/2022-12-musk.jpg",
+    "imageCaption": "Elon Musk, July 2022",
+    "imageCredit": "U.S. Air Force / Trevor Cokley"
   }
 ]

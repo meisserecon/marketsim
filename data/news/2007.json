@@ -13,6 +13,28 @@
     "imageCredit": "Blake Patterson"
   },
   {
+    "month": "2007-01",
+    "kind": "company",
+    "headline": "Windows Vista, at last",
+    "text": "Windows Vista went on sale worldwide on 30 January. Microsoft had hoped to have it in shops for the 2006 holiday season but postponed it in March 2006.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Windows_Vista (read 2026-10-03)"
+  },
+  {
+    "month": "2007-02",
+    "kind": "world",
+    "headline": "Shanghai's 9% fall shakes world markets",
+    "text": "On 27 February the Shanghai Composite index fell 9%, its biggest drop in ten years, on rumours of higher interest rates and curbs on speculation. The same day the Dow fell 416 points, 3.3%, and the S&P 500 3.5%. The Shanghai market had more than doubled in 2006.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Chinese_stock_bubble_of_2007 (read 2026-10-03); https://en.wikipedia.org/wiki/SSE_Composite_Index (read 2026-10-03)"
+  },
+  {
     "month": "2007-02",
     "kind": "company",
     "headline": "CUDA: graphics chips for general computing",
@@ -26,6 +48,28 @@
     "imageCredit": "Hyins"
   },
   {
+    "month": "2007-02",
+    "kind": "company",
+    "headline": "39.5 billion dollars, another record",
+    "text": "ExxonMobil reported on 1 February record 2006 net income of 39.5 billion dollars, up from 36.13 billion in 2005, although fourth-quarter profit slipped 4 percent to 10.25 billion as oil prices eased late in the year.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil press release of 1 February 2007, https://www.sec.gov/Archives/edgar/data/34088/000003408807000021/r8k4q07991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
+  },
+  {
+    "month": "2007-03",
+    "kind": "world",
+    "headline": "Subprime lender New Century stops lending",
+    "text": "New Century Financial, the biggest independent lender to home buyers with weak credit, so-called subprime borrowers, said on 8 March that it would stop accepting loan applications. Its shares lost 89 percent in March before the New York Stock Exchange halted trading on the 12th and removed them a day later. Last year New Century made 51.6 billion dollars of subprime loans, more than any lender except HSBC Finance.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/New_Century_Financial (read 2026-10-04)",
+    "thread": "housing-crisis",
+    "image": "/news/markets/2007-03-irvine-california.jpg",
+    "imageCaption": "Irvine, California, 2016",
+    "imageCredit": "Azusa Tarn"
+  },
+  {
     "month": "2007-03",
     "kind": "company",
     "headline": "Altria spins off Kraft",
@@ -37,28 +81,6 @@
     "image": "/news/mo/2007-03-kraft-hq.jpg",
     "imageCaption": "Kraft Foods headquarters, Northfield, Illinois",
     "imageCredit": "Kraft Foods Incorporated"
-  },
-  {
-    "month": "2007-03",
-    "kind": "world",
-    "headline": "Subprime lender New Century stops lending",
-    "text": "New Century Financial, the biggest independent lender to home buyers with weak credit, so-called subprime borrowers, said on 8 March that it would stop accepting loan applications. Its shares lost 89 percent in March before the New York Stock Exchange halted trading on the 12th and removed them a day later. Last year New Century made 51.6 billion dollars of subprime loans, more than any lender except HSBC Finance.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/New_Century_Financial (read 2026-10-04)",
-    "thread": "housing-crisis"
-  },
-  {
-    "month": "2007-04",
-    "kind": "company",
-    "headline": "Scandal takes down von Pierer and Kleinfeld",
-    "text": "On 19 April supervisory board chairman Heinrich von Pierer said he will resign, denying any guilt over events during his time as chief executive. On 25 April chief executive Klaus Kleinfeld said he will not seek to renew his contract, which ends in September, after board members disagreed publicly about extending it.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://money.cnn.com/2007/04/19/news/international/bc.siemens.chairman.resignation.reut/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2007/04/25/news/international/siemens_ceo_resigns.reut/index.htm via web.archive.org (read 2026-10-03)",
-    "image": "/news/siemens/2007-04-pierer.jpg",
-    "imageCaption": "Heinrich von Pierer, then Siemens' chief executive, 1994",
-    "imageCredit": "Andreas Bohnenstengel"
   },
   {
     "month": "2007-04",
@@ -76,6 +98,16 @@
   {
     "month": "2007-04",
     "kind": "company",
+    "headline": "Citigroup to cut 17,000 jobs",
+    "text": "Citigroup announced on 11 April that it will eliminate about 17,000 jobs, some 5% of its workforce, in a restructuring meant to cut costs and lift its long-lagging share price.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+  },
+  {
+    "month": "2007-04",
+    "kind": "company",
     "headline": "Nestlé buys Gerber baby food from Novartis",
     "text": "Nestlé agreed in April to buy the American baby food maker Gerber from Novartis for $5.5 billion. Gerber has most of the American baby food market. Nestlé is also buying Novartis's medical nutrition business for $2.5 billion.",
     "assets": [
@@ -86,6 +118,73 @@
     "image": "/news/nestle/2007-04-gerber.jpg",
     "imageCaption": "Gerber baby food",
     "imageCredit": "ParentingPatch"
+  },
+  {
+    "month": "2007-04",
+    "kind": "company",
+    "headline": "Novartis sells Gerber to Nestlé",
+    "text": "Novartis agreed in April to sell the American baby food maker Gerber to Nestlé for $5.5 billion. Nestlé is also buying Novartis's medical nutrition business for $2.5 billion.",
+    "assets": [
+      "novartis",
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)"
+  },
+  {
+    "month": "2007-04",
+    "kind": "company",
+    "headline": "Scandal takes down von Pierer and Kleinfeld",
+    "text": "On 19 April supervisory board chairman Heinrich von Pierer said he will resign, denying any guilt over events during his time as chief executive. On 25 April chief executive Klaus Kleinfeld said he will not seek to renew his contract, which ends in September, after board members disagreed publicly about extending it.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://money.cnn.com/2007/04/19/news/international/bc.siemens.chairman.resignation.reut/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2007/04/25/news/international/siemens_ceo_resigns.reut/index.htm via web.archive.org (read 2026-10-03)",
+    "image": "/news/siemens/2007-04-pierer.jpg",
+    "imageCaption": "Heinrich von Pierer, then Siemens' chief executive, 1994",
+    "imageCredit": "Andreas Bohnenstengel"
+  },
+  {
+    "month": "2007-05",
+    "kind": "company",
+    "headline": "Cisco buys WebEx",
+    "text": "Cisco has acquired WebEx, a company that runs online meetings and web conferences, for $3.2 billion. Cisco wants to sell collaboration software and video alongside its network equipment.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Webex (read 2026-10-03)"
+  },
+  {
+    "month": "2007-05",
+    "kind": "company",
+    "headline": "GE sells its plastics business for 11.6 billion dollars",
+    "text": "On 21 May General Electric agreed to sell GE Plastics, built up under Jack Welch, to the Saudi petrochemicals company SABIC for net proceeds of 11.6 billion dollars.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing NYT 2007-05-22)"
+  },
+  {
+    "month": "2007-05",
+    "kind": "company",
+    "headline": "Coca-Cola buys vitaminwater maker Glaceau",
+    "text": "On 25 May Coca-Cola announced it will buy Glaceau, the maker of vitaminwater, flavoured waters and Burn energy drinks, for 4.1 billion dollars in cash, its biggest purchase in years.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Glaceau section, read 2026-10-03)"
+  },
+  {
+    "month": "2007-05",
+    "kind": "company",
+    "headline": "Lehman joins a $22 billion apartment buyout",
+    "text": "Lehman Brothers and the property firm Tishman Speyer agreed to buy Archstone-Smith, an owner of about 87,700 apartments in 359 communities, in a $22.2 billion deal.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Archstone-Smith (read 2026-10-03, citing CNBC, 29 May 2007); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)",
+    "image": "/news/lehman/2007-05-stuytown.jpg",
+    "imageCaption": "Stuyvesant Town and Peter Cooper Village, New York",
+    "imageCredit": "Alec Jordan"
   },
   {
     "month": "2007-05",
@@ -101,17 +200,47 @@
     "imageCredit": "Johannes Fasolt"
   },
   {
-    "month": "2007-05",
+    "month": "2007-06",
     "kind": "company",
-    "headline": "Lehman joins a $22 billion apartment buyout",
-    "text": "Lehman Brothers and the property firm Tishman Speyer agreed to buy Archstone-Smith, an owner of about 87,700 apartments in 359 communities, in a $22.2 billion deal.",
+    "headline": "Another record quarter for Lehman",
+    "text": "Lehman Brothers reported record net income of $1.3 billion for the quarter to May, up 27%, or $2.21 a share, and a record $2.4 billion for the half-year.",
     "assets": [
       "lehman"
     ],
-    "source": "https://en.wikipedia.org/wiki/Archstone-Smith (read 2026-10-03, citing CNBC, 29 May 2007); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)",
-    "image": "/news/lehman/2007-05-stuytown.jpg",
-    "imageCaption": "Stuyvesant Town and Peter Cooper Village, New York",
-    "imageCredit": "Alec Jordan"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907047005/a07-15674_32ex99d1.htm (Lehman press release, 12 June 2007; read 2026-10-03)"
+  },
+  {
+    "month": "2007-07",
+    "kind": "colour",
+    "headline": "The last Harry Potter book, and Alinghi keeps the America's Cup",
+    "text": "On 21 July the seventh and final Harry Potter book, Harry Potter and the Deathly Hallows, went on sale and set sales records in its first 24 hours. On 3 July in Valencia the Swiss yacht Alinghi defended the America's Cup against Team New Zealand, winning 5-2, the last race by one second.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows (read 2026-10-03); https://en.wikipedia.org/wiki/2007_America%27s_Cup (read 2026-10-03)"
+  },
+  {
+    "month": "2007-07",
+    "kind": "world",
+    "headline": "Two Bear Stearns funds lose nearly everything on subprime bets",
+    "text": "In the week of 16 July the Wall Street investment bank Bear Stearns disclosed that two of its hedge funds, invested in securities built from subprime mortgages, had lost nearly all their value. In June Bear Stearns had pledged loans of up to 3.2 billion dollars to rescue one of them. The S&P 500 fell 3 percent in July.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-04); data/reference/sp500.json",
+    "thread": "housing-crisis",
+    "image": "/news/markets/2007-07-bear-stearns.jpg",
+    "imageCaption": "Bear Stearns",
+    "imageCredit": "not credited on the page"
+  },
+  {
+    "month": "2007-07",
+    "kind": "company",
+    "headline": "Chief executive Peter Wuffli steps down",
+    "text": "On 6 July Peter Wuffli unexpectedly stepped down as chief executive of UBS; Marcel Rohner succeeds him. In May UBS had closed Dillon Read Capital Management, its in-house hedge fund, after losses on US mortgage securities. Markets for such securities are now in turmoil.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03)",
+    "image": "/news/ubs/2007-07-rohner.jpg",
+    "imageCaption": "Marcel Rohner, who succeeds Peter Wuffli as chief executive of UBS, July 2007",
+    "imageCredit": "Steffen Schmidt / Keystone"
   },
   {
     "month": "2007-07",
@@ -140,26 +269,20 @@
     "imageCredit": "Ricardo Stuckert / Presidency of Brazil (Agência Brasil)"
   },
   {
-    "month": "2007-07",
+    "month": "2007-08",
     "kind": "world",
-    "headline": "Two Bear Stearns funds lose nearly everything on subprime bets",
-    "text": "In the week of 16 July the Wall Street investment bank Bear Stearns disclosed that two of its hedge funds, invested in securities built from subprime mortgages, had lost nearly all their value. In June Bear Stearns had pledged loans of up to 3.2 billion dollars to rescue one of them. The S&P 500 fell 3 percent in July.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-04); data/reference/sp500.json",
-    "thread": "housing-crisis"
-  },
-  {
-    "month": "2007-07",
-    "kind": "company",
-    "headline": "Chief executive Peter Wuffli steps down",
-    "text": "On 6 July Peter Wuffli unexpectedly stepped down as chief executive of UBS; Marcel Rohner succeeds him. In May UBS had closed Dillon Read Capital Management, its in-house hedge fund, after losses on US mortgage securities. Markets for such securities are now in turmoil.",
+    "headline": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
+    "text": "On 9 August the French bank BNP Paribas blocked withdrawals from three funds invested in American mortgage securities, citing 'a complete evaporation of liquidity'. Banks stopped trusting each other, and on 17 August the Federal Reserve cut its discount rate by half a point to 5.75 percent and offered banks loans of up to 30 days against mortgages and other collateral. Shares swung wildly but the S&P 500 ended August up 1%.",
     "assets": [
-      "ubs"
+      "ust2010",
+      "ust2015",
+      "ust2020"
     ],
-    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03)",
-    "image": "/news/ubs/2007-07-rohner.jpg",
-    "imageCaption": "Marcel Rohner, who succeeds Peter Wuffli as chief executive of UBS, July 2007",
-    "imageCredit": "Steffen Schmidt / Keystone"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json",
+    "thread": "housing-crisis",
+    "image": "/news/markets/2007-08-nyse-traders.jpg",
+    "imageCaption": "Traders on the floor of the New York Stock Exchange in the credit-crunch week, 16 August 2007",
+    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
   },
   {
     "month": "2007-08",
@@ -175,20 +298,14 @@
     "imageCredit": "David Shankbone"
   },
   {
-    "month": "2007-08",
-    "kind": "world",
-    "headline": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
-    "text": "On 9 August the French bank BNP Paribas blocked withdrawals from three funds invested in American mortgage securities, citing 'a complete evaporation of liquidity'. Banks stopped trusting each other, and on 17 August the Federal Reserve cut its discount rate by half a point to 5.75 percent and offered banks loans of up to 30 days against mortgages and other collateral. Shares swung wildly but the S&P 500 ended August up 1%.",
+    "month": "2007-09",
+    "kind": "company",
+    "headline": "Reithofer's 'Number ONE' strategy",
+    "text": "At the end of September BMW announced a new strategy called Number ONE: it wants to sell more than two million cars a year by 2020, remain the leading premium car maker, invest in new technologies and drive systems, and raise profitability.",
     "assets": [
-      "ust2010",
-      "ust2015",
-      "ust2020"
+      "bmw"
     ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json",
-    "thread": "housing-crisis",
-    "image": "/news/markets/2007-08-nyse-traders.jpg",
-    "imageCaption": "Traders on the floor of the New York Stock Exchange in the credit-crunch week, 16 August 2007",
-    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
+    "source": "BMW Group Annual Report 2007 ('Strategic realignment of the BMW Group announced'), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2007.pdf (read 2026-10-03)"
   },
   {
     "month": "2007-10",
@@ -246,6 +363,14 @@
   },
   {
     "month": "2007-11",
+    "kind": "world",
+    "headline": "Oil nears $100",
+    "text": "US crude reached $99.16 a barrel on 20 November, up from about $50 in January. The dollar is weak, Chinese and Indian demand keeps growing, and money is pouring into commodities.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
+  },
+  {
+    "month": "2007-11",
     "kind": "company",
     "headline": "Prince quits as Citigroup warns of up to $11 billion in write-downs",
     "text": "On 4 November Citigroup said the value of its $55 billion of subprime mortgage exposure, most of it in the top-rated slices of complex securities called CDOs, had fallen by $8-11 billion since September; Charles Prince resigned, with Robert Rubin as chairman and Sir Win Bischoff as acting chief executive. Citigroup said it had no plans to cut its dividend. On 26 November it sold $7.5 billion of securities convertible into shares to the Abu Dhabi Investment Authority. The shares fell 21% in the month.",
@@ -260,6 +385,18 @@
   },
   {
     "month": "2007-12",
+    "kind": "world",
+    "headline": "2007 in review: up 4 percent, with the credit crisis spreading",
+    "text": "The S&P 500 ended 2007 up 4% at 1,468.36 and the Dow up 6.4%, after the October record. The credit crisis that began in August is not over, and the Federal Reserve has cut its key rate three times since September, to 4.25 percent.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+  },
+  {
+    "month": "2007-12",
     "kind": "company",
     "headline": "$10 billion more in write-downs; Singapore steps in",
     "text": "On 10 December UBS announced further write-downs of about $10 billion on US subprime mortgage positions and new capital of 13 billion francs: mandatory convertible notes sold to the Government of Singapore Investment Corporation (11 billion) and an investor from the Middle East (2 billion). Shareholders get a stock dividend instead of a cash dividend for 2007. UBS expects a loss for the year.",
@@ -270,5 +407,25 @@
     "image": "/news/ubs/2007-12-ospel.jpg",
     "imageCaption": "Marcel Ospel, chairman of UBS, at the St. Gallen Symposium, 2003",
     "imageCredit": "Regina Kühne"
+  },
+  {
+    "month": "2007-12",
+    "kind": "company",
+    "headline": "Lehman reports a fourth record year as rivals write off billions",
+    "text": "Lehman Brothers earned a record $4.2 billion in the year to November 2007, despite about $830 million of negative valuation adjustments in its bond business in the fourth quarter. Erin Callan has become chief financial officer.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465907088588/a07-30473_33ex99d1.htm (Lehman press release, 13 December 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2007-12",
+    "kind": "company",
+    "headline": "Forbes names Nvidia company of the year",
+    "text": "Forbes named Nvidia its company of the year for 2007, citing its achievements this year and over the past five years. Its shares have risen more than tenfold since the autumn of 2002.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
   }
 ]

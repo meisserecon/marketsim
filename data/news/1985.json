@@ -142,6 +142,25 @@
     "imageCredit": "Squelle"
   },
   {
+    "month": "1985-07",
+    "kind": "colour",
+    "headline": "Back to the Future opens in cinemas",
+    "text": "Back to the Future opened in American cinemas on 3 July and took 11.3 million dollars in its first weekend, the most of any film. Michael J. Fox plays a teenager who travels back to 1955 in a time machine built from a DeLorean car.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Back_to_the_Future (read 2026-10-03); data/news/1985.json"
+  },
+  {
+    "month": "1985-07",
+    "kind": "company",
+    "headline": "The dollar slides against the franc",
+    "text": "The dollar, at record highs in March, is falling fast: at the end of July it bought 2.29 francs, against 2.54 a month earlier and 2.86 at the end of February. Since 1980 it had risen by about half against the main European currencies. Swiss shares are worth more in dollars as a result.",
+    "assets": [
+      "nestle",
+      "sandoz"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+  },
+  {
     "month": "1985-08",
     "kind": "company",
     "headline": "Foreign buyers send BMW shares soaring",
@@ -223,6 +242,17 @@
   },
   {
     "month": "1985-11",
+    "kind": "world",
+    "headline": "Reagan and Gorbachev meet in Geneva",
+    "text": "US President Ronald Reagan and Soviet leader Mikhail Gorbachev met in Geneva from 19 to 21 November, the first US-Soviet summit since 1979. They agreed on no arms cuts, but their joint statement says a nuclear war cannot be won and must never be fought, and they agreed to meet again.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Geneva_Summit_(1985) (read 2026-10-03)",
+    "thread": "soviet",
+    "image": "/news/world/1985-11-geneva-summit.jpg",
+    "imageCaption": "President Reagan and General Secretary Gorbachev at their first meeting, Geneva, 19 November 1985"
+  },
+  {
+    "month": "1985-11",
     "kind": "company",
     "headline": "Philip Morris completes the 5.75 billion dollar purchase of General Foods",
     "text": "Philip Morris completed its takeover of General Foods, the maker of Maxwell House coffee, Jell-O and Kool-Aid, which it agreed in late September at 120 dollars a share, 5.75 billion dollars in all. It is the biggest takeover outside the oil industry so far and creates the largest consumer products company in the United States. This year Philip Morris is also passing Reynolds as the biggest US cigarette maker.",
@@ -233,17 +263,6 @@
     "image": "/news/mo/1985-11-maxwell-plant.jpg",
     "imageCaption": "Maxwell House coffee plant, Jacksonville, Florida (a General Foods brand)",
     "imageCredit": "PicoOrdinalo"
-  },
-  {
-    "month": "1985-11",
-    "kind": "world",
-    "headline": "Reagan and Gorbachev meet in Geneva",
-    "text": "US President Ronald Reagan and Soviet leader Mikhail Gorbachev met in Geneva from 19 to 21 November, the first US-Soviet summit since 1979. They agreed on no arms cuts, but their joint statement says a nuclear war cannot be won and must never be fought, and they agreed to meet again.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Geneva_Summit_(1985) (read 2026-10-03)",
-    "thread": "soviet",
-    "image": "/news/world/1985-11-geneva-summit.jpg",
-    "imageCaption": "President Reagan and General Secretary Gorbachev at their first meeting, Geneva, 19 November 1985"
   },
   {
     "month": "1985-12",

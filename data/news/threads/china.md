@@ -25,3 +25,6 @@ China opened in December 1978 under Deng Xiaoping, with special economic zones s
 | 2025-01 | China's DeepSeek shakes the AI trade | a9a1ef18 | asia | existing |
 | 2025-04 | Tariffs of 145% on China | 25b38c66 | asia | existing |
 | 2026-01 | BYD overtakes Tesla, and the Model S and X are dropped | c8afabc4 | tsla | existing |
+
+Added on 4 October 2026 (build-up):
+- 2014-09 Alibaba: the biggest stock market launch in history (e56951c1, asia, new)

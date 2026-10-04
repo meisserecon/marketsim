@@ -1,16 +1,31 @@
 [
   {
     "month": "2008-01",
-    "kind": "company",
-    "headline": "Citigroup loses $9.8 billion and cuts its dividend",
-    "text": "Citigroup, led since December by new chief executive Vikram Pandit, reported a fourth-quarter net loss of $9.83 billion after $18.1 billion of write-downs and credit costs on subprime exposures, cut its dividend, and raised $12.5 billion in a private sale of convertible preferred shares to long-term investors, plus about $2 billion more in the market. With the Abu Dhabi deal it has raised almost $30 billion in two months.",
+    "kind": "world",
+    "headline": "Emergency cut of three quarters of a point; gold near 900",
+    "text": "On 22 January, a week before its scheduled meeting, the Fed cut its rate target by three quarters of a point to 3.5 percent, and on 30 January by another half point to 3 percent. It had begun cutting in September from 5.25 percent. Inflation is 4.1 percent (December). Gold averaged 890 dollars in January, 11 percent more than in December and a record.",
     "assets": [
-      "c"
+      "gold",
+      "ust2010",
+      "ust2015",
+      "ust2020"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465908002661/a08-1961_1ex99d1.htm (Citigroup press release, 15 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465908002663/a08-1948_1ex99d1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420408003260/v100398_ex99-1.htm (22 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420407066977/v096976_ex99-1.htm (read 2026-10-03)",
-    "image": "/news/c/2008-01-388-greenwich.jpg",
-    "imageCaption": "388 Greenwich Street, Citigroup's building in Lower Manhattan",
-    "imageCredit": "Beyond My Ken"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+  },
+  {
+    "month": "2008-01",
+    "kind": "world",
+    "headline": "The Fed's emergency cut: three-quarters of a point between meetings",
+    "text": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2008-01-bernanke.jpg",
+    "imageCaption": "Fed Chairman Ben Bernanke pauses during a hearing of the House Budget Committee, Washington, 17 January 2008",
+    "imageCredit": "Photo by Alex Wong/Getty Images"
   },
   {
     "month": "2008-01",
@@ -28,6 +43,32 @@
   {
     "month": "2008-01",
     "kind": "company",
+    "headline": "Margins disappoint and the shares drop 23 percent",
+    "text": "Schlumberger reported on 18 January that its 2007 revenue rose 21 percent to 23.28 billion dollars, but called its fourth-quarter margins 'less than satisfactory' because of lower prices on US land and bad weather. Chief executive Andrew Gould says only a global recession that lowers demand could flatten the growth trend. Stock markets fell sharply in January.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 18 January 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508008380/dex991.htm (read 2026-10-03); data/reference/sp500.json (S&P 500 month)",
+    "image": "/news/slb/2008-01-drilling-rig.jpg",
+    "imageCaption": "Drilling rig, 2006",
+    "imageCredit": "Olga Ernst"
+  },
+  {
+    "month": "2008-01",
+    "kind": "company",
+    "headline": "Citigroup loses $9.8 billion and cuts its dividend",
+    "text": "Citigroup, led since December by new chief executive Vikram Pandit, reported a fourth-quarter net loss of $9.83 billion after $18.1 billion of write-downs and credit costs on subprime exposures, cut its dividend, and raised $12.5 billion in a private sale of convertible preferred shares to long-term investors, plus about $2 billion more in the market. With the Abu Dhabi deal it has raised almost $30 billion in two months.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465908002661/a08-1961_1ex99d1.htm (Citigroup press release, 15 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465908002663/a08-1948_1ex99d1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420408003260/v100398_ex99-1.htm (22 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420407066977/v096976_ex99-1.htm (read 2026-10-03)",
+    "image": "/news/c/2008-01-388-greenwich.jpg",
+    "imageCaption": "388 Greenwich Street, Citigroup's building in Lower Manhattan",
+    "imageCredit": "Beyond My Ken"
+  },
+  {
+    "month": "2008-01",
+    "kind": "company",
     "headline": "Meg Whitman steps down at eBay",
     "text": "Meg Whitman, who has run eBay since 1998 when it had 30 employees, resigned as chief executive and was replaced by John Donahoe. Whitman remains on the board.",
     "assets": [
@@ -40,18 +81,23 @@
   },
   {
     "month": "2008-01",
-    "kind": "world",
-    "headline": "The Fed's emergency cut: three-quarters of a point between meetings",
-    "text": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
+    "kind": "company",
+    "headline": "Record 2007, then a slump in the shares",
+    "text": "On 15 January Intel reported record fourth-quarter revenue of 10.7 billion dollars and operating income up 45% for 2007, crediting its Core processors with restoring its lead. Otellini said Intel enters 2008 with its best combination of products and manufacturing ever. Stock markets are falling.",
     "assets": [
-      "ust2010",
-      "ust2015",
-      "ust2020"
+      "intc"
     ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2008-01-bernanke.jpg",
-    "imageCaption": "Fed Chairman Ben Bernanke pauses during a hearing of the House Budget Committee, Washington, 17 January 2008",
-    "imageCredit": "Photo by Alex Wong/Getty Images"
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752308000317/a5586061ex99_1.htm (Intel press release of 15 January 2008) (read 2026-10-03)"
+  },
+  {
+    "month": "2008-01",
+    "kind": "company",
+    "headline": "McDonald's sales up 6.8%: the Plan to Win keeps delivering",
+    "text": "McDonald's reported on 28 January that worldwide sales at existing restaurants rose 6.8% in 2007, one of the strongest increases since its turnaround began, with restaurant margins up for the eighth quarter in a row. It bought back more than 1.3 billion dollars of its own shares in the fourth quarter.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312508012822/dex991.htm (release of 28 January 2008, read 2026-10-03)"
   },
   {
     "month": "2008-02",
@@ -80,17 +126,14 @@
     "imageCredit": "user Coolcaesar. User Coolcaesar on en.wikipedia"
   },
   {
-    "month": "2008-03",
+    "month": "2008-02",
     "kind": "company",
-    "headline": "Bear Stearns falls, and fears turn to Lehman",
-    "text": "Bear Stearns, the smallest of the big Wall Street firms, ran out of cash and was sold to JPMorgan Chase for $2 a share with Federal Reserve support on 16 March; analysts named Lehman as the next firm at risk. Lehman answered on 18 March with a first-quarter profit of $489 million and a cash reserve of $34 billion at the parent company, and its shares jumped 46% that day. They still ended the month down by a quarter.",
+    "headline": "Coal soars and Vale comes calling",
+    "text": "Australian thermal coal averaged $132 a tonne in February, up from $92 in January, after torrential rains flooded Queensland mines and left dozens of ships queuing at ports; Japanese and Korean steelmakers accepted coking coal price rises of about 65%. Reports say Brazil's Vale has approached Xstrata about a takeover that analysts value at up to $90bn, and that Xstrata turned down a first approach.",
     "assets": [
-      "lehman"
+      "xstrata"
     ],
-    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908018182/a08-8353_1ex99d1.htm (Lehman press release, 18 March 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)",
-    "image": "/news/lehman/2008-03-lehman-building.jpg",
-    "imageCaption": "Lehman Brothers headquarters, New York, 31 March 2008",
-    "imageCredit": "Arnoldius"
+    "source": "https://www.nbcnews.com/id/wbna23719312; World Bank Pink Sheet monthly averages; https://www.cnbc.com/2008/02/12/xstrata-rejects-76-billion-bid-approach-from-vale-ft.html (search summary only, page not fetchable) (all read 2026-10-03)"
   },
   {
     "month": "2008-03",
@@ -111,15 +154,15 @@
   {
     "month": "2008-03",
     "kind": "company",
-    "headline": "Altria spins off Philip Morris International",
-    "text": "On 28 March Altria completed the spin-off of Philip Morris International, giving one PMI share for each Altria share. PMI, which sells Marlboro and other brands outside the United States, trades separately from 31 March. Altria keeps Philip Morris USA and is moving its headquarters to Richmond, Virginia.",
+    "headline": "Bear Stearns falls, and fears turn to Lehman",
+    "text": "Bear Stearns, the smallest of the big Wall Street firms, ran out of cash and was sold to JPMorgan Chase for $2 a share with Federal Reserve support on 16 March; analysts named Lehman as the next firm at risk. Lehman answered on 18 March with a first-quarter profit of $489 million and a cash reserve of $34 billion at the parent company, and its shares jumped 46% that day. They still ended the month down by a quarter.",
     "assets": [
-      "mo"
+      "lehman"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312508069389/dex991.htm (Altria press release of 28 March 2008, read 2026-10-03)",
-    "image": "/news/mo/2008-03-marlboro-pack.jpg",
-    "imageCaption": "A pack of Marlboro, the brand Philip Morris International takes with it into the world, August 2007",
-    "imageCredit": "Mel Evans / ASSOCIATED PRESS"
+    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908018182/a08-8353_1ex99d1.htm (Lehman press release, 18 March 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)",
+    "image": "/news/lehman/2008-03-lehman-building.jpg",
+    "imageCaption": "Lehman Brothers headquarters, New York, 31 March 2008",
+    "imageCredit": "Arnoldius"
   },
   {
     "month": "2008-03",
@@ -133,6 +176,19 @@
     "image": "/news/xstrata/2008-03-vale.jpg",
     "imageCaption": "A monument at Vale's railway and port at Vitoria, Brazil",
     "imageCredit": "Oleg Yunakov"
+  },
+  {
+    "month": "2008-03",
+    "kind": "company",
+    "headline": "Altria spins off Philip Morris International",
+    "text": "On 28 March Altria completed the spin-off of Philip Morris International, giving one PMI share for each Altria share. PMI, which sells Marlboro and other brands outside the United States, trades separately from 31 March. Altria keeps Philip Morris USA and is moving its headquarters to Richmond, Virginia.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312508069389/dex991.htm (Altria press release of 28 March 2008, read 2026-10-03)",
+    "image": "/news/mo/2008-03-marlboro-pack.jpg",
+    "imageCaption": "A pack of Marlboro, the brand Philip Morris International takes with it into the world, August 2007",
+    "imageCredit": "Mel Evans / ASSOCIATED PRESS"
   },
   {
     "month": "2008-04",
@@ -150,6 +206,19 @@
   {
     "month": "2008-04",
     "kind": "company",
+    "headline": "Lehman raises $4 billion",
+    "text": "Lehman Brothers raised $4 billion of new capital by selling convertible preferred shares. Its shares recovered part of their March losses.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008, reporting the April issue; read 2026-10-03)",
+    "image": "/news/lehman/2008-04-lehman-brothers.jpg",
+    "imageCaption": "Lehman Brothers, 2007",
+    "imageCredit": "David Shankbone"
+  },
+  {
+    "month": "2008-04",
+    "kind": "company",
     "headline": "GE misses its numbers for the first time in years",
     "text": "On 11 April General Electric reported first-quarter earnings per share of 44 cents, down 8%, and cut its full-year forecast to 2.20 to 2.30 dollars. Chairman Jeff Immelt said the financial services businesses were hit by a slowing US economy and difficult capital markets, and that he was disappointed.",
     "assets": [
@@ -159,16 +228,6 @@
     "image": "/news/ge/2008-04-immelt.jpg",
     "imageCaption": "General Electric chief executive Jeffrey Immelt (left) in Warsaw",
     "imageCredit": "Katarzyna Czerwinska, Senate of Poland"
-  },
-  {
-    "month": "2008-04",
-    "kind": "company",
-    "headline": "Lehman raises $4 billion",
-    "text": "Lehman Brothers raised $4 billion of new capital by selling convertible preferred shares. Its shares recovered part of their March losses.",
-    "assets": [
-      "lehman"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008, reporting the April issue; read 2026-10-03)"
   },
   {
     "month": "2008-05",
@@ -191,7 +250,10 @@
     "assets": [
       "ubs"
     ],
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
+    "image": "/news/ubs/2008-05-marcel-ospel.jpg",
+    "imageCaption": "Marcel Ospel",
+    "imageCredit": "not credited on the page"
   },
   {
     "month": "2008-06",
@@ -234,6 +296,19 @@
   {
     "month": "2008-07",
     "kind": "company",
+    "headline": "Faulty notebook chips and a profit warning",
+    "text": "On 2 July Nvidia said it will take a charge of 150 to 200 million dollars to cover repairs and replacements of some older notebook graphics and chipset products that fail because of a weak packaging material. All products now shipping use a more robust material.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm (Nvidia 8-K of 2 July 2008, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "image": "/news/nvda/2008-07-hq.jpg",
+    "imageCaption": "Nvidia's headquarters in Santa Clara, California",
+    "imageCredit": "Coolcaesar at English Wikipedia"
+  },
+  {
+    "month": "2008-07",
+    "kind": "company",
     "headline": "Oil hits 145 dollars, then falls back",
     "text": "US crude closed at a record of about 145 dollars a barrel in early July, then fell back to about 124 by month's end. On 31 July ExxonMobil reported second-quarter profit of 11.68 billion dollars, up 14 percent on a year earlier, but the shares fell as investors worried the oil spike would not last.",
     "assets": [
@@ -259,25 +334,12 @@
     "imageCredit": "Andreas Schwarzkopf"
   },
   {
-    "month": "2008-07",
-    "kind": "company",
-    "headline": "Faulty notebook chips and a profit warning",
-    "text": "On 2 July Nvidia said it will take a charge of 150 to 200 million dollars to cover repairs and replacements of some older notebook graphics and chipset products that fail because of a weak packaging material. All products now shipping use a more robust material.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm (Nvidia 8-K of 2 July 2008, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2008-07-hq.jpg",
-    "imageCaption": "Nvidia's headquarters in Santa Clara, California",
-    "imageCredit": "Coolcaesar at English Wikipedia"
-  },
-  {
     "month": "2008-08",
     "kind": "world",
     "headline": "Russia goes to war with Georgia",
-    "text": "After Georgian forces moved into the breakaway region of South Ossetia on 7 August, Russia sent in troops and aircraft, drove them out and advanced into Georgia proper. A ceasefire brokered by French President Nicolas Sarkozy was agreed on 12 August. On 26 August Russia recognised South Ossetia and Abkhazia as independent states.",
+    "text": "After Georgian forces moved into the breakaway region of South Ossetia on 7 August, Russia sent in troops and aircraft, drove them out and advanced into Georgia proper. A ceasefire brokered by French President Nicolas Sarkozy was agreed on 12 August. On 26 August Russia recognised South Ossetia and Abkhazia as independent states. The signs were there: Russia had held a large army exercise near the border from 15 July to 2 August, and the troops stayed there when it ended.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Russo-Georgian_War (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Russo-Georgian_War (read 2026-10-03); https://en.wikipedia.org/wiki/Russo-Georgian_War (read 2026-10-04)",
     "image": "/news/world/2008-08-georgia-gori.jpg",
     "imageCaption": "Georgian troops near Gori, 9 August 2008",
     "imageCredit": "Giorgi Abdaladze"
@@ -289,7 +351,10 @@
     "text": "The Olympic Games in Beijing, from 8 to 24 August with 10,942 athletes from 204 nations, were China's showcase to the world, and China topped the gold medal table for the first time. For Switzerland, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)",
-    "thread": "china"
+    "thread": "china",
+    "image": "/news/life/2008-08-stan-wawrinka.jpg",
+    "imageCaption": "Stan Wawrinka, 2019",
+    "imageCredit": "si.robi"
   },
   {
     "month": "2008-08",
@@ -317,18 +382,6 @@
     "image": "/news/lehman/2008-09-employee-box.jpg",
     "imageCaption": "Photographers surround a man carrying a box out of Lehman Brothers' headquarters on the morning of the bankruptcy filing, New York, 15 September 2008",
     "imageCredit": "Mary Altaffer | AP"
-  },
-  {
-    "month": "2008-09",
-    "kind": "company",
-    "headline": "In the panic, Buffett invests in Goldman Sachs",
-    "text": "On 23 September, in the middle of the financial panic, Berkshire bought perpetual preferred stock in Goldman Sachs paying a 10% dividend. Buffett's money is read as a vote of confidence in the battered investment bank.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Warren_Buffett (read 2026-10-03)",
-    "image": "/news/brk/2008-09-goldman.jpg",
-    "imageCaption": "The Goldman Sachs headquarters, West Street, New York"
   },
   {
     "month": "2008-09",
@@ -360,6 +413,18 @@
     "imageCredit": "Michael Oryl"
   },
   {
+    "month": "2008-09",
+    "kind": "company",
+    "headline": "In the panic, Buffett invests in Goldman Sachs",
+    "text": "On 23 September, in the middle of the financial panic, Berkshire bought perpetual preferred stock in Goldman Sachs paying a 10% dividend. Buffett's money is read as a vote of confidence in the battered investment bank.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Warren_Buffett (read 2026-10-03)",
+    "image": "/news/brk/2008-09-goldman.jpg",
+    "imageCaption": "The Goldman Sachs headquarters, West Street, New York"
+  },
+  {
     "month": "2008-10",
     "kind": "company",
     "headline": "The Swiss state rescues UBS",
@@ -373,6 +438,34 @@
     "image": "/news/ubs/2008-10-rescue-press-conference.jpg",
     "imageCaption": "Jean-Pierre Roth of the National Bank (second from left) and federal councillor Eveline Widmer-Schlumpf (fourth from left) present the rescue package for UBS, Bern, 16 October 2008",
     "imageCredit": "Lukas Lehmann / Keystone"
+  },
+  {
+    "month": "2008-10",
+    "kind": "world",
+    "headline": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
+    "text": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2008-10-nyse-trader.jpg",
+    "imageCaption": "A trader rubs his face on the floor of the New York Stock Exchange as the Dow closes more than 500 points down, 7 October 2008",
+    "imageCredit": "Photo by Mario Tama/Getty Images"
+  },
+  {
+    "month": "2008-10",
+    "kind": "company",
+    "headline": "Xstrata drops Lonmin and secures its banks",
+    "text": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
+    "assets": [
+      "xstrata"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "image": "/news/xstrata/2008-10-wallstreet.jpg",
+    "imageCaption": "The New York Stock Exchange on Wall Street, October 2008",
+    "imageCredit": "Faizul Latif Chowdhury"
   },
   {
     "month": "2008-10",
@@ -401,21 +494,6 @@
     "image": "/news/ge/2008-10-buffett.jpg",
     "imageCaption": "Warren Buffett, whose Berkshire Hathaway agreed to invest in General Electric",
     "imageCredit": " White House"
-  },
-  {
-    "month": "2008-10",
-    "kind": "world",
-    "headline": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
-    "text": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
-    "assets": [
-      "ust2010",
-      "ust2015",
-      "ust2020"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2008-10-nyse-trader.jpg",
-    "imageCaption": "A trader rubs his face on the floor of the New York Stock Exchange as the Dow closes more than 500 points down, 7 October 2008",
-    "imageCredit": "Photo by Mario Tama/Getty Images"
   },
   {
     "month": "2008-11",

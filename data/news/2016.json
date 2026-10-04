@@ -1,16 +1,44 @@
 [
   {
-    "month": "2016-02",
+    "month": "2016-01",
+    "kind": "world",
+    "headline": "China's circuit breakers trip; Japan goes negative",
+    "text": "Chinese shares fell about 7% on 4 and 7 January, setting off new circuit breakers that closed the market; on 7 January trading lasted less than 30 minutes. World markets fell with them. At the end of the month the Bank of Japan cut a key rate below zero, to -0.1%.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03)"
+  },
+  {
+    "month": "2016-01",
     "kind": "company",
-    "headline": "A 5.8-billion-franc quarterly loss",
-    "text": "On 4 February Credit Suisse reported a net loss of 5,828 million francs for the fourth quarter of 2015, including a goodwill write-off of 3,797 million, mostly in its trading business; the full-year 2015 loss was 2,944 million francs.",
+    "headline": "Boeing guides to fewer deliveries",
+    "text": "On 27 January Boeing reported record 2015 revenue of 96.1 billion dollars and 762 deliveries, but forecast 740 to 745 deliveries in 2016 and lower fourth-quarter airliner profits after a charge on the 747.",
     "assets": [
-      "credit-suisse"
+      "ba"
     ],
-    "source": "Credit Suisse Earnings Release 4Q15 (Form 6-K of 4 February 2016), https://www.sec.gov/Archives/edgar/data/1053092/000137036816000102/a160204g4q-ex99_1.htm (read 2026-10-03)",
-    "image": "/news/credit-suisse/2016-02-thiam.jpg",
-    "imageCaption": "Tidjane Thiam, chief executive of Credit Suisse, at the World Economic Forum in Davos",
-    "imageCredit": "Keystone"
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000095012316013052/a201512dec318kpressrelease.htm (Boeing results release of 2016-01-27, read 2026-10-03)"
+  },
+  {
+    "month": "2016-01",
+    "kind": "company",
+    "headline": "Nokia and Alcatel-Lucent combine",
+    "text": "Nokia began combined operations with Alcatel-Lucent on 14 January. On a 2014 basis the two had net sales of 24.7 billion euros. Last year Nokia also agreed to sell its HERE maps business to BMW, Daimler and Volkswagen for 2.8 billion euros.",
+    "assets": [
+      "nokia",
+      "mercedes",
+      "bmw"
+    ],
+    "source": "https://web.archive.org/web/20160116173207/http://company.nokia.com/en/news/press-releases/2016/01/14/nokia-celebrates-first-day-of-combined-operations-with-alcatel-lucent (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "month": "2016-02",
+    "kind": "world",
+    "headline": "Oil sinks to $26",
+    "text": "US crude fell to $26.19 a barrel on 11 February, the lowest since 2003 and a quarter of its 2014 level. Sanctions on Iran were lifted in January. The OPEC basket price was $22.48 on 20 January. US output has started to fall.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03)",
+    "image": "/news/oil/2016-02-oklahoma-gas.jpg",
+    "imageCaption": "Cars line up for petrol at 1.16 dollars a gallon at a station in front of a pumping rig, Oklahoma City, 12 February 2016",
+    "imageCredit": "Photo by J Pat Carter/Getty Images"
   },
   {
     "month": "2016-02",
@@ -27,14 +55,16 @@
   },
   {
     "month": "2016-02",
-    "kind": "world",
-    "headline": "Oil sinks to $26",
-    "text": "US crude fell to $26.19 a barrel on 11 February, the lowest since 2003 and a quarter of its 2014 level. Sanctions on Iran were lifted in January. The OPEC basket price was $22.48 on 20 January. US output has started to fall.",
-    "assets": [],
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03)",
-    "image": "/news/oil/2016-02-oklahoma-gas.jpg",
-    "imageCaption": "Cars line up for petrol at 1.16 dollars a gallon at a station in front of a pumping rig, Oklahoma City, 12 February 2016",
-    "imageCredit": "Photo by J Pat Carter/Getty Images"
+    "kind": "company",
+    "headline": "A 5.8-billion-franc quarterly loss",
+    "text": "On 4 February Credit Suisse reported a net loss of 5,828 million francs for the fourth quarter of 2015, including a goodwill write-off of 3,797 million, mostly in its trading business; the full-year 2015 loss was 2,944 million francs.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "Credit Suisse Earnings Release 4Q15 (Form 6-K of 4 February 2016), https://www.sec.gov/Archives/edgar/data/1053092/000137036816000102/a160204g4q-ex99_1.htm (read 2026-10-03)",
+    "image": "/news/credit-suisse/2016-02-thiam.jpg",
+    "imageCaption": "Tidjane Thiam, chief executive of Credit Suisse, at the World Economic Forum in Davos",
+    "imageCredit": "Keystone"
   },
   {
     "month": "2016-02",
@@ -48,6 +78,27 @@
     "image": "/news/xom/2016-02-tillerson-sechin.jpg",
     "imageCaption": "Exxon chief executive Rex Tillerson (left) with Vladimir Putin and Rosneft chief Igor Sechin, June 2012",
     "imageCredit": "Press Service of the President of Russia (kremlin.ru)"
+  },
+  {
+    "month": "2016-03",
+    "kind": "world",
+    "headline": "A Google computer beats the world's best Go player",
+    "text": "From 9 to 15 March AlphaGo, a program from Google's DeepMind, beat the Korean Go master Lee Sedol 4 to 1 in Seoul. Go was thought to be decades beyond computers. About 60 million people watched in China.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)"
+  },
+  {
+    "month": "2016-03",
+    "kind": "world",
+    "headline": "A computer beats one of the world's best Go players",
+    "text": "Go is an ancient board game from Asia and far harder for computers than chess: until last year the best programs played like amateurs. From 9 to 15 March in Seoul, AlphaGo, a program built by Google's DeepMind, beat Lee Sedol, one of the best players in the world, by 4 games to 1. In the second game it played a move that professionals called creative, one that most of them would never have considered. About 60 million people watched in China alone.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04)",
+    "image": "/news/tech/2016-03-lee-sedol.jpg",
+    "imageCaption": "Lee Sedol, 2016",
+    "imageCredit": "LG Electronics"
   },
   {
     "month": "2016-03",
@@ -91,6 +142,16 @@
   {
     "month": "2016-04",
     "kind": "company",
+    "headline": "Cameron deal closes in the oil bust",
+    "text": "On 1 April Schlumberger completed its purchase of Cameron, issuing about 138 million new shares plus 14.44 dollars in cash per Cameron share. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 1 April 2016, https://www.sec.gov/Archives/edgar/data/87347/000119312516528742/d172441dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)"
+  },
+  {
+    "month": "2016-04",
+    "kind": "company",
     "headline": "325,000 people reserve the Model 3",
     "text": "Tesla has unveiled the Model 3, its first car for the mass market, cheaper than its earlier models. Within a week more than 325,000 people paid to reserve one.",
     "assets": [
@@ -100,6 +161,19 @@
     "image": "/news/tsla/2016-04-model3-queue-frankfurt.jpg",
     "imageCaption": "People queue outside the Tesla store in Frankfurt to reserve a Model 3 before it has even been shown, 31 March 2016",
     "imageCredit": "olexs (reader photo printed by Electrek)"
+  },
+  {
+    "month": "2016-05",
+    "kind": "company",
+    "headline": "Pascal GPUs and growing demand for deep learning",
+    "text": "On 6 May Nvidia unveiled its GeForce GTX 1080 and 1070 graphics cards on its new Pascal design. On 12 May it reported revenue of 1.30 billion dollars for the quarter, up 13%, with growth in games, professional graphics, data centres and cars; chief executive Jen-Hsun Huang said deep learning, a new computing model, is accelerating its growth.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/q117pr.htm (Nvidia press release of 12 May 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "image": "/news/nvda/2016-05-huang-computex.jpg",
+    "imageCaption": "Jensen Huang presents Nvidia's Pascal GPUs at Computex, Taipei, 31 May 2016",
+    "imageCredit": "NVIDIA Taiwan"
   },
   {
     "month": "2016-05",
@@ -114,19 +188,6 @@
     "image": "/news/brk/2016-05-apple.jpg",
     "imageCaption": "Apple headquarters, Infinite Loop, Cupertino, California",
     "imageCredit": "Joe Ravi"
-  },
-  {
-    "month": "2016-05",
-    "kind": "company",
-    "headline": "Pascal GPUs and growing demand for deep learning",
-    "text": "On 6 May Nvidia unveiled its GeForce GTX 1080 and 1070 graphics cards on its new Pascal design. On 12 May it reported revenue of 1.30 billion dollars for the quarter, up 13%, with growth in games, professional graphics, data centres and cars; chief executive Jen-Hsun Huang said deep learning, a new computing model, is accelerating its growth.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/q117pr.htm (Nvidia press release of 12 May 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2016-05-huang-computex.jpg",
-    "imageCaption": "Jensen Huang presents Nvidia's Pascal GPUs at Computex, Taipei, 31 May 2016",
-    "imageCredit": "NVIDIA Taiwan"
   },
   {
     "month": "2016-06",
@@ -154,6 +215,34 @@
     "imageCredit": "Rama"
   },
   {
+    "month": "2016-06",
+    "kind": "company",
+    "headline": "Britain votes to leave the EU",
+    "text": "In the referendum of 23 June, 51.9% of British voters chose to leave the European Union. BMW builds the Mini in Oxford and Rolls-Royce at Goodwood.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Brexit (read 2026-10-03); https://en.wikipedia.org/wiki/Mini_(marque) (read 2026-10-03)"
+  },
+  {
+    "month": "2016-06",
+    "kind": "company",
+    "headline": "Microsoft buys LinkedIn for 26.2 billion dollars",
+    "text": "On 13 June Microsoft agreed to buy LinkedIn, the professional social network, for about 26.2 billion dollars in cash, its biggest acquisition so far.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312516619689/d116815dex991.htm (Microsoft investor presentation of 13 June 2016, read 2026-10-03); https://en.wikipedia.org/wiki/Satya_Nadella (read 2026-10-03)"
+  },
+  {
+    "month": "2016-07",
+    "kind": "colour",
+    "headline": "Solar Impulse flies round the world; Pokémon Go sends players into the streets",
+    "text": "On 26 July the Swiss solar-powered plane Solar Impulse 2, flown by Bertrand Piccard and André Borschberg, landed in Abu Dhabi, completing the first flight around the world on solar power alone after 16 months. Since 6 July the smartphone game Pokémon Go has had millions of people walking through towns to catch virtual creatures on their screens; it was downloaded more than 10 million times in its first week.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Solar_Impulse (read 2026-10-03); https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go (read 2026-10-03)"
+  },
+  {
     "month": "2016-07",
     "kind": "world",
     "headline": "Ten-year yields at a record low after the Brexit vote",
@@ -170,6 +259,42 @@
     "imageCredit": "Tom Evans"
   },
   {
+    "month": "2016-07",
+    "kind": "company",
+    "headline": "eBay's growth speeds up",
+    "text": "On July 20 eBay reported second-quarter revenue of $2.2 billion and merchandise volume of $20.9 billion, raised its forecast for the year and added $2.5 billion to its share buyback. Chief executive Devin Wenig said growth was accelerating; StubHub's sales rose 40%.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-16-000314.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/ebay/2016-07-devin-wenig.jpg",
+    "imageCaption": "Devin Wenig",
+    "imageCredit": "not credited on the page"
+  },
+  {
+    "month": "2016-07",
+    "kind": "company",
+    "headline": "Coal, nickel and zinc rally",
+    "text": "Australian thermal coal averaged $61 a tonne in July, up 15% from June, nickel rose 15% and zinc 8%. In April Glencore sold 40% of its agricultural business to Canada's CPPIB for $2.5bn, and in June a further 9.99% to British Columbia's pension manager bcIMC.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "World Bank Pink Sheet monthly averages; https://www.investegate.co.uk/announcement/rns/glencore--glen/sale-of-40-stake-in-glencore-agri-to-cppib/4464101; Investegate GLEN listing 9 Jun 2016 (all read 2026-10-03)",
+    "image": "/news/glencore/2016-07-zinc.jpg",
+    "imageCaption": "Zinc, 2010",
+    "imageCredit": "Alchemist-hp (talk) (www.pse-mendelejew.de)"
+  },
+  {
+    "month": "2016-08",
+    "kind": "company",
+    "headline": "Nvidia gives OpenAI its first AI supercomputer",
+    "text": "Nvidia gave the first DGX-1, a computer with eight of its graphics processors and software for deep learning, to OpenAI, a young AI research lab, to train larger models faster.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
     "month": "2016-08",
     "kind": "company",
     "headline": "Wal-Mart buys Jet.com to fight Amazon",
@@ -184,15 +309,14 @@
     "imageCredit": "Monkeyvan"
   },
   {
-    "month": "2016-11",
-    "kind": "world",
-    "headline": "OPEC and Russia agree to cut",
-    "text": "At its 30 November conference OPEC agreed to cut about 1 million barrels a day for the first half of 2017, its first cut since 2008, with Russia and other non-members promising further reductions. Oil prices jumped and US crude ended the month near $49.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC%2B (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2016-11-opec-press-conference.jpg",
-    "imageCaption": "OPEC's ministerial press conference after the agreement to cut output, Vienna, 30 November 2016",
-    "imageCredit": "Photo by Askin Kiyagan/Anadolu Agency/Getty Images"
+    "month": "2016-10",
+    "kind": "company",
+    "headline": "Altria becomes a big shareholder of AB InBev",
+    "text": "When Anheuser-Busch InBev completed its takeover of SABMiller on 10 October, Altria received 9.6% of AB InBev and about 5.3 billion dollars in cash for its old Miller stake. Altria expanded its share buyback to 3 billion dollars.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418016000196/exhibit991abinbevsabmiller.htm (read 2026-10-03)"
   },
   {
     "month": "2016-11",
@@ -209,6 +333,17 @@
   },
   {
     "month": "2016-11",
+    "kind": "world",
+    "headline": "OPEC and Russia agree to cut",
+    "text": "At its 30 November conference OPEC agreed to cut about 1 million barrels a day for the first half of 2017, its first cut since 2008, with Russia and other non-members promising further reductions. Oil prices jumped and US crude ended the month near $49.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC%2B (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2016-11-opec-press-conference.jpg",
+    "imageCaption": "OPEC's ministerial press conference after the agreement to cut output, Vienna, 30 November 2016",
+    "imageCredit": "Photo by Askin Kiyagan/Anadolu Agency/Getty Images"
+  },
+  {
+    "month": "2016-11",
     "kind": "company",
     "headline": "Record revenue, up 54%",
     "text": "On 10 November Nvidia reported record revenue of 2.00 billion dollars for the quarter to October, 54% more than a year earlier, and record profit margins, with demand from data centres for AI growing.",
@@ -221,17 +356,32 @@
     "imageCredit": "NVIDIA Taiwan"
   },
   {
-    "month": "2016-12",
+    "month": "2016-11",
     "kind": "company",
-    "headline": "James Quincey to succeed Muhtar Kent as chief executive",
-    "text": "On 9 December Coca-Cola announced that president and chief operating officer James Quincey, a 20-year company veteran, will succeed Muhtar Kent as chief executive on 1 May 2017; Kent stays chairman. Coca-Cola is in the middle of refranchising its North American bottling territories to independent bottlers, which shrinks its revenue but raises its margins.",
+    "headline": "Siemens buys Mentor Graphics; wind merger with Gamesa",
+    "text": "In November Siemens agreed to buy the US chip-design software company Mentor Graphics for 4.5 billion dollars. In June it agreed to merge its wind power business with Spain's Gamesa, holding 59% of the combined company and funding a cash payment of 3.75 euros a share to Gamesa's other shareholders.",
     "assets": [
-      "ko"
+      "siemens"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/21344/000112329216003050/pressrelease-12092016.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134417000029/a2017q3earningsreleaseex-9.htm (refranchising, read 2026-10-03)",
-    "image": "/news/ko/2016-12-quincey.jpg",
-    "imageCaption": "James Quincey",
-    "imageCredit": "Casa Rosada"
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-and-gamesa-merge-wind-businesses-create-leading-wind-power-player (read 2026-10-03)"
+  },
+  {
+    "month": "2016-11",
+    "kind": "company",
+    "headline": "Tesla buys SolarCity",
+    "text": "Tesla completed its purchase of the solar installer SolarCity in an all-stock deal worth about 2.6 billion dollars, merging it with its battery storage business into Tesla Energy. The deal is controversial among Tesla shareholders.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/SolarCity (read 2026-10-03)"
+  },
+  {
+    "month": "2016-12",
+    "kind": "world",
+    "headline": "2016 in review: Brexit, Trump and a 10 percent gain",
+    "text": "The S&P 500 rose 10% in 2016 to 2,238.83 and the Dow 13.4%. Britain's vote to leave the European Union on 23 June wiped about 2 trillion dollars off world markets the next day, but American shares were at records by July. After Donald Trump won the presidential election in November shares rallied, and the Dow passed 19,000 on 22 November; the Fed raised rates for the second time on 14 December.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
     "month": "2016-12",
@@ -245,5 +395,28 @@
     "image": "/news/middle-east/2016-12-iran-air.jpg",
     "imageCaption": "An Iran Air aircraft at Tehran's Imam Khomeini airport, 2016",
     "imageCredit": "Iranairlover"
+  },
+  {
+    "month": "2016-12",
+    "kind": "company",
+    "headline": "Dividend back, and a stake in Rosneft",
+    "text": "On 1 December Glencore said it would pay $1bn to shareholders in 2017 and expected net debt of $16.5-17.5bn at year-end, after $6.3bn of disposals. On 12 December it and the Qatar Investment Authority agreed to buy 19.5% of Russia's Rosneft for €10.2bn; Glencore puts in only €300m of equity but gets a five-year contract to market an extra 220,000 barrels of oil a day. Coal prices have doubled during 2016.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-plc-investor-update/4883667; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-and-qia-partnership-with-rosneft/4995897; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
+  },
+  {
+    "month": "2016-12",
+    "kind": "company",
+    "headline": "James Quincey to succeed Muhtar Kent as chief executive",
+    "text": "On 9 December Coca-Cola announced that president and chief operating officer James Quincey, a 20-year company veteran, will succeed Muhtar Kent as chief executive on 1 May 2017; Kent stays chairman. Coca-Cola is in the middle of refranchising its North American bottling territories to independent bottlers, which shrinks its revenue but raises its margins.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/21344/000112329216003050/pressrelease-12092016.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134417000029/a2017q3earningsreleaseex-9.htm (refranchising, read 2026-10-03)",
+    "image": "/news/ko/2016-12-quincey.jpg",
+    "imageCaption": "James Quincey",
+    "imageCredit": "Casa Rosada"
   }
 ]

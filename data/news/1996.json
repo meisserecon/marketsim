@@ -66,17 +66,14 @@
     "imageCredit": "drexel.edu"
   },
   {
-    "month": "1996-04",
+    "month": "1996-03",
     "kind": "company",
-    "headline": "Cisco buys StrataCom for about $4 billion",
-    "text": "Cisco agreed on April 22 to acquire StrataCom, a maker of high-speed switches used by telephone carriers, in exchange for Cisco shares. Each StrataCom share is to be exchanged for one Cisco share or $50 of Cisco stock, putting the deal at around $4 billion, one of the largest in the industry. Chambers said Cisco will be the only vendor to offer connections across public and private networks.",
+    "headline": "Exxon's profit rises 27 percent",
+    "text": "Exxon's accounts for 1995 show net income of 6.47 billion dollars, up from 5.10 billion in 1994, and a higher dividend. Chemicals earned twice as much as in 1994.",
     "assets": [
-      "csco"
+      "xom"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/858877/0000891618-96-000253.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/StrataCom (read 2026-10-03)",
-    "image": "/news/csco/1996-04-stratacom.jpg",
-    "imageCaption": "StrataCom's switching systems, c. 1996",
-    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
+    "source": "Exxon Form 10-K405 for 1997, selected financial data (1993-1997, post-split basis), https://www.sec.gov/Archives/edgar/data/34088/0000930661-98-000526.txt (read 2026-10-03)"
   },
   {
     "month": "1996-04",
@@ -93,6 +90,19 @@
     "imageCredit": "Ank Kumar"
   },
   {
+    "month": "1996-04",
+    "kind": "company",
+    "headline": "Cisco buys StrataCom for about $4 billion",
+    "text": "Cisco agreed on April 22 to acquire StrataCom, a maker of high-speed switches used by telephone carriers, in exchange for Cisco shares. Each StrataCom share is to be exchanged for one Cisco share or $50 of Cisco stock, putting the deal at around $4 billion, one of the largest in the industry. Chambers said Cisco will be the only vendor to offer connections across public and private networks.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0000891618-96-000253.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/StrataCom (read 2026-10-03)",
+    "image": "/news/csco/1996-04-stratacom.jpg",
+    "imageCaption": "StrataCom's switching systems, c. 1996",
+    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
+  },
+  {
     "month": "1996-07",
     "kind": "company",
     "headline": "Enron to buy Oregon utility Portland General",
@@ -104,6 +114,26 @@
     "image": "/news/enron/1996-07-lay-office.jpg",
     "imageCaption": "Kenneth Lay, Enron's chairman and chief executive, in his office at the company's Houston headquarters, February 1996",
     "imageCredit": "Paul S. Howell | Hulton Archive | Getty Images"
+  },
+  {
+    "month": "1996-08",
+    "kind": "colour",
+    "headline": "The summer of the Macarena, and a phone that sends e-mail",
+    "text": "The Macarena, a Spanish song with a dance that everyone can do, reached number one in the American charts in August and its dance has become a craze. On 15 August Nokia put on sale the 9000 Communicator, a mobile phone that opens like a small laptop with a keyboard and can send faxes and e-mail; in Britain it costs about 1,000 pounds.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Macarena_(song) (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia_9000_Communicator (read 2026-10-03)"
+  },
+  {
+    "month": "1996-08",
+    "kind": "company",
+    "headline": "Wal-Mart opens in China",
+    "text": "In August Wal-Mart opened a Supercenter and a Sam's Club in Shenzhen, China; about 80,000 people came on the first day. Wal-Mart already trades in Mexico and Canada and is looking for growth abroad as growth at home slows.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03)"
   },
   {
     "month": "1996-11",
@@ -118,6 +148,14 @@
     "image": "/news/novartis/1996-11-ciba-sandoz.jpg",
     "imageCaption": "The Ciba logo with the Sandoz building behind it, Basel",
     "imageCredit": "Keystone"
+  },
+  {
+    "month": "1996-11",
+    "kind": "world",
+    "headline": "Clinton re-elected; Perot takes 8%",
+    "text": "Bill Clinton won a second term on 5 November with 379 electoral votes and 49.2% of the vote against Bob Dole's 40.7%; Ross Perot, running again as an independent, took 8.4%. The economy is growing, inflation is low and the stock market has doubled since Clinton took office, which left Dole little to run on.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1996_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "1996-11",
@@ -140,7 +178,10 @@
     "assets": [
       "sandoz"
     ],
-    "source": "generated from the end note"
+    "source": "generated from the end note",
+    "image": "/news/novartis/1996-11-ciba-sandoz.jpg",
+    "imageCaption": "The Ciba logo with the Sandoz building behind it, Basel",
+    "imageCredit": "Keystone"
   },
   {
     "month": "1996-12",
@@ -166,5 +207,15 @@
     "image": "/news/markets/1996-12-greenspan-clinton.jpg",
     "imageCaption": "President Bill Clinton walks with Alan Greenspan at the White House after nominating him for a third term as Fed chairman, 22 February 1996",
     "imageCredit": "Jim Colburn / AFP via Getty Images (credit from the Getty record of the picture, GettyImages-51975024)"
+  },
+  {
+    "month": "1996-12",
+    "kind": "company",
+    "headline": "A weak year for Siemens shares",
+    "text": "Siemens shares ended 1996 about 15% lower in dollar terms than a year earlier. Its computer arm Siemens Nixdorf has become Europe's best-selling computer maker but is not a growth driver.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "data/out/siemens.json (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   }
 ]

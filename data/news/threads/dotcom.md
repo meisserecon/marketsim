@@ -22,3 +22,6 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 | 2000-11 | The Nasdaq's worst month since 1987; Pets.com closes | dcb51390 | tech | existing |
 | 2001-03 | Cisco announces the first layoffs in its history | 10132a8c | csco | existing, enriched (look-back to March 2000) |
 | 2002-10 | The Nasdaq falls 78% below its record, then rebounds | 4b102c67 | tech | existing |
+
+Added on 4 October 2026 (build-up):
+- 1998-12 Analyst predicts $400 for Amazon (8ff246c2, amzn, new)

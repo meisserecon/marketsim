@@ -1,32 +1,18 @@
 [
   {
-    "id": "4b80309f",
-    "month": "1980-11",
-    "title": "Reagan wins, oil shares surge",
-    "what": "Ronald Reagan won the presidential election on 4 November. He campaigned against the windfall profit tax on oil and for ending price controls on US crude, which still hold much domestic oil below the world price of over $30. Oil and oilfield shares led a strong month on Wall Street; energy companies make up roughly a third of the stock market's value.",
-    "why": "The peak of the oil-stock era: six of the ten largest US companies were oil stocks. The market's +10% month is in good part this theme, with Schlumberger +20% and Exxon +15%.",
+    "id": "9276f0c5",
+    "month": "1990-07",
+    "title": "Iraq masses troops on the Kuwaiti border and accuses it of stealing oil",
+    "what": "Saddam Hussein has turned on his neighbour. Iraq accuses Kuwait of pumping far more oil than its OPEC quota allows, pushing prices down and costing Iraq billions it needs after eight years of war with Iran, and of drilling into the Rumaila field across the border. OPEC ministers met in late July and agreed to cut output; US crude rose from about 16.50 dollars early in the month to 20.57 at the end. Iraqi troops are reported to be gathering near the Kuwaiti frontier, which most observers read as pressure rather than a prelude to war. Oilfield shares such as Schlumberger rose 14%.",
+    "why": "The prelude to the invasion of 2 August, restored after an accidental deletion on the review desk and strengthened at the curator's request: it should foreshadow next month without knowing it. The troop build-up and the Rumaila accusation are in the Gulf War article; the oil prices from EIA; the \"pressure rather than war\" reading was the common view at the time (sourced only as context in the Gulf War article).",
     "assets": [
-      "xom",
       "slb"
     ],
     "move": {
-      "asset": "xom",
-      "pct": 15
+      "asset": "slb",
+      "pct": 14
     },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Crude_Oil_Windfall_Profit_Tax_Act_of_1980 (read 2026-10-03); https://www.upi.com/Archives/1981/01/20/Stocks-plunge-in-disappointment-over-Reagans-inaugural-speech/9340348814800/ (read 2026-10-03); https://blog.gorozen.com/blog/the-40-year-odyssey-of-schlumberger (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03)",
-    "cut": true
-  },
-  {
-    "id": "02b60d40",
-    "month": "1981-01",
-    "title": "Reagan ends US oil price controls",
-    "what": "On 28 January President Reagan lifted the remaining controls on US crude and petroleum product prices and allocation, ahead of the schedule set by his predecessor. US oil will now sell at world prices. Refiners paid about $35 a barrel on average in January. OPEC still has no common price: Saudi Arabia charges $32, others around $36.",
-    "why": "Decontrol drew a burst of US drilling and, together with conservation, helped create the glut that broke prices five years later.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/1980%E2%80%931989_world_oil_market_chronology (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=R0000____3&f=M (read 2026-10-03)",
-    "cut": true
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
     "id": "05492bd7",
@@ -35,7 +21,6 @@
     "what": "North Sea Brent fell to about $14 a barrel by the end of November and US crude to about $15, the lowest in five years, as OPEC members overproduce and demand is weak.",
     "why": "The quiet middle of the 1990s: cheap, plentiful oil and OPEC unable to enforce its quotas.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Chronology_of_world_oil_market_events (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
@@ -45,7 +30,6 @@
     "what": "On 23 March OPEC and non-OPEC producers including Mexico and Norway agreed to cut output by a combined 2.1 million barrels a day for one year. OPEC's revenues fell about 30% in 1998. US crude rose 23% in March to about $15.",
     "why": "The first effective joint cut with outsiders, the template for OPEC+ in 2016. It began the long climb.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/1990%E2%80%931999_world_oil_market_chronology (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -62,7 +46,6 @@
       "asset": "slb",
       "pct": 29
     },
-    "importance": 2,
     "source": "https://www.eia.gov/dnav/ng/hist/rngwhhdM.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000%E2%80%932001_California_electricity_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -72,7 +55,6 @@
     "what": "US crude reached a record $56.37 a barrel on 26 October, up from about $33 in January. China's oil use is growing about 8% a year, OPEC has little spare capacity, and attacks on Iraqi pipelines continue. Earlier in the year, when oil reached $40, European finance ministers cut their growth forecasts.",
     "why": "The boom of the 2000s in full swing, driven by demand rather than a single supply shock.",
     "assets": [],
-    "importance": 2,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -82,7 +64,6 @@
     "what": "Hurricane Katrina struck the Gulf coast on 29 August. The region supplies about a tenth of US crude and refines almost half its gasoline; on 31 August eight Gulf refineries were still shut. US crude futures topped $70 a barrel, a record, and the government is releasing oil from the strategic reserve.",
     "why": "The hurricane showed how little slack was left in the system. US crude output fell by about a fifth from August to September.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Economic_effects_of_Hurricane_Katrina (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03)"
   },
   {
@@ -98,7 +79,6 @@
       "asset": "slb",
       "pct": 31
     },
-    "importance": 3,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -108,7 +88,6 @@
     "what": "US crude reached $99.16 a barrel on 20 November, up from about $50 in January. The dollar is weak, Chinese and Indian demand keeps growing, and money is pouring into commodities.",
     "why": "The run-up into the 2008 peak, while the US housing crisis was already under way.",
     "assets": [],
-    "importance": 3,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
   },
   {
@@ -124,7 +103,6 @@
       "asset": "slb",
       "pct": -21
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -134,7 +112,6 @@
     "what": "Revolt against Muammar Gaddafi has shut much of Libya's oil output, after uprisings in Tunisia and Egypt. Brent ended February at $112 a barrel. US crude, priced at Cushing, Oklahoma, is about $15 cheaper, an unusually wide gap.",
     "why": "Unrest in the Arab world helped keep Brent above $100 for most of the next three years. The Brent-WTI gap reflected growing inland US supply.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/World_oil_market_chronology_from_2003 (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -144,7 +121,6 @@
     "what": "US crude output is near 8 million barrels a day, up from about 5.5 million in 2010, as horizontal drilling and hydraulic fracturing (fracking) open up shale formations. US oil imports are falling. Brent still costs about $110 a barrel.",
     "why": "The supply revolution that broke prices a year later and made the US the world's biggest producer.",
     "assets": [],
-    "importance": 2,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -161,7 +137,6 @@
       "asset": "slb",
       "pct": -13
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); ExxonMobil press release of 2 February 2015 (2013 and 2014 earnings), https://www.sec.gov/Archives/edgar/data/34088/000003408815000004/f8k4q991.htm (read 2026-10-03)"
   },
   {
@@ -171,7 +146,6 @@
     "what": "On 12 December nearly 200 countries adopted the Paris Agreement, pledging to hold global warming well below 2 degrees. Earlier in the month OPEC set aside its production ceiling altogether. US crude ended the year at $37.13 a barrel.",
     "why": "The energy transition becomes official policy, and OPEC admits it cannot defend the price. Two ideas, peak demand and a free-for-all in supply, frame the next decade.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Paris_Agreement (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -181,7 +155,6 @@
     "what": "US crude fell to $26.19 a barrel on 11 February, the lowest since 2003 and a quarter of its 2014 level. Sanctions on Iran were lifted in January. The OPEC basket price was $22.48 on 20 January. US output has started to fall.",
     "why": "The bottom of the shale bust; OPEC changed course within the year. Review 2026-10: 'bottoms' was hindsight.",
     "assets": [],
-    "importance": 2,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03)"
   },
   {
@@ -191,7 +164,6 @@
     "what": "At its 30 November conference OPEC agreed to cut about 1 million barrels a day for the first half of 2017, its first cut since 2008, with Russia and other non-members promising further reductions. Oil prices jumped and US crude ended the month near $49.",
     "why": "The birth of OPEC+, the Saudi-Russian alliance that has managed supply ever since.",
     "assets": [],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC%2B (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -207,7 +179,6 @@
       "asset": "slb",
       "pct": -20
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03)"
   },
   {
@@ -217,7 +188,6 @@
     "what": "Drone and missile attacks on 14 September hit Saudi Aramco's Abqaiq processing plant and the Khurais field, cutting 5.7 million barrels a day, about 5% of world supply. Brent futures jumped almost 20% on 16 September, the biggest jump since 1990, but Saudi Arabia moved quickly to restore output and prices gave back most of the gain.",
     "why": "The biggest supply outage in history at the time, and the market shrugged: with shale and spare capacity, supply shocks no longer lasted. Review 2026-10: 'restored within weeks' reached past the month.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
@@ -234,7 +204,6 @@
       "asset": "slb",
       "pct": -50
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
   {
@@ -250,7 +219,6 @@
       "asset": "xom",
       "pct": 22
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); ExxonMobil press release of 7 April 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000028/f8k1q991.htm (read 2026-10-03)"
   },
   {
@@ -267,7 +235,6 @@
       "asset": "xom",
       "pct": 21
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2021_Texas_power_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -277,7 +244,6 @@
     "what": "On 18 May the International Energy Agency published a roadmap to net-zero emissions by 2050. In its pathway no new oil and gas fields are approved beyond those already committed, and world oil demand falls to about 24 million barrels a day by 2050, from about 90 million in 2020.",
     "why": "The energy transition's sharpest statement from a mainstream body; it shaped investor and boardroom pressure on oil companies, and critics later blamed underinvestment for the 2022 squeeze.",
     "assets": [],
-    "importance": 1,
     "source": "https://www.iea.org/reports/net-zero-by-2050 (read 2026-10-03)"
   },
   {
@@ -294,7 +260,6 @@
       "asset": "slb",
       "pct": 30
     },
-    "importance": 3,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
   },
   {
@@ -304,7 +269,6 @@
     "what": "Russia invaded Ukraine on 24 February. Brent passed $100 a barrel for the first time since 2014 and ended the month at $103. Europe, which depends on Russian gas, faces the larger energy problem.",
     "why": "The start of the 2022 energy shock that drove inflation to 40-year highs.",
     "assets": [],
-    "importance": 1,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03)"
   },
   {
@@ -314,7 +278,6 @@
     "what": "Brent reached $133 a barrel on 8 March, the day the US banned imports of Russian oil. On 31 March the US announced it would release 1 million barrels a day from its strategic reserve for 180 days, the largest release ever. US gasoline averaged $4.22 a gallon in March.",
     "why": "The peak of the war spike; the record reserve release and recession fears pulled prices back over the following months.",
     "assets": [],
-    "importance": 2,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)"
   },
   {
@@ -324,7 +287,6 @@
     "what": "US regular gasoline averaged $4.93 a gallon in June, a record, and Brent was near $129 on 8 June. The EU has agreed to ban seaborne imports of Russian crude by December.",
     "why": "Peak pain at the pump; prices fell from here as central banks raised rates hard.",
     "assets": [],
-    "importance": 3,
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Russian_oil_price_cap (read 2026-10-03)"
   },
   {
@@ -341,7 +303,6 @@
       "asset": "slb",
       "pct": 45
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -351,7 +312,6 @@
     "what": "The UN climate conference in Dubai ended on 13 December with the first agreement that names all fossil fuels, calling for a move away from them in a just, orderly and equitable manner, and a tripling of renewable capacity by 2030. Brent is about $78 a barrel; OPEC+ members, Saudi Arabia above all, are holding back output to support the price.",
     "why": "A milestone in the transition, hosted by an oil producer. Demand kept growing all the same.",
     "assets": [],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
@@ -368,7 +328,6 @@
       "asset": "slb",
       "pct": 26
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2025%E2%80%932026_United_States_oil_blockade_of_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -378,7 +337,6 @@
     "what": "The US and Iranian presidents signed a memorandum on 17 June to end the war and the blockades. Brent fell from about $100 at the start of June to about $70 at the end, near its pre-war level, although Iran closed the strait again on 20 June citing Israeli violations.",
     "why": "The market bet that the crisis was over; it was premature.",
     "assets": [],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   }
 ]

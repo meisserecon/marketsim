@@ -8,7 +8,6 @@
     "assets": [
       "xstrata"
     ],
-    "importance": 1,
     "source": "Xstrata plc circular of 2 February 2009, part I, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; https://en.wikipedia.org/wiki/Xstrata; https://en.wikipedia.org/wiki/Mick_Davis; https://www.encyclopedia.com/books/politics-and-business-magazines/xstrata-plc (all read 2026-10-03)"
   },
   {
@@ -24,7 +23,6 @@
       "asset": "xstrata",
       "pct": -29
     },
-    "importance": 3,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
@@ -40,7 +38,6 @@
       "asset": "xstrata",
       "pct": 18
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/MIM_Holdings; https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054 (both read 2026-10-03)"
   },
   {
@@ -56,7 +53,6 @@
       "asset": "xstrata",
       "pct": 24
     },
-    "importance": 2,
     "source": "https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054; https://en.wikipedia.org/wiki/MIM_Holdings (both read 2026-10-03)"
   },
   {
@@ -72,7 +68,6 @@
       "asset": "xstrata",
       "pct": 33
     },
-    "importance": 2,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02 (read 2026-10-03)"
   },
   {
@@ -84,7 +79,6 @@
     "assets": [
       "xstrata"
     ],
-    "importance": 2,
     "source": "World Bank Commodity Price Data (Pink Sheet), monthly averages, CMO-Historical-Data-Monthly.xlsx updated 2026-10-02; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
   },
   {
@@ -100,7 +94,6 @@
       "asset": "xstrata",
       "pct": -9
     },
-    "importance": 2,
     "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)"
   },
   {
@@ -116,7 +109,6 @@
       "asset": "xstrata",
       "pct": 10
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://en.wikipedia.org/wiki/Xstrata; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
@@ -132,7 +124,6 @@
       "asset": "xstrata",
       "pct": 10
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
@@ -144,7 +135,6 @@
     "assets": [
       "xstrata"
     ],
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; https://en.wikipedia.org/wiki/Falconbridge_Ltd. (both read 2026-10-03)"
   },
   {
@@ -156,7 +146,6 @@
     "assets": [
       "xstrata"
     ],
-    "importance": 3,
     "source": "https://www.nbcnews.com/id/wbna23719312; World Bank Pink Sheet monthly averages; https://www.cnbc.com/2008/02/12/xstrata-rejects-76-billion-bid-approach-from-vale-ft.html (search summary only, page not fetchable) (all read 2026-10-03)"
   },
   {
@@ -172,7 +161,6 @@
       "asset": "xstrata",
       "pct": -11
     },
-    "importance": 2,
     "source": "https://www.cnbc.com/2008/03/26/xstrata-shares-slide-after-vale-talks-collapse.html (search-result summary; page returned 403) (read 2026-10-03)"
   },
   {
@@ -188,8 +176,22 @@
       "asset": "xstrata",
       "pct": -23
     },
-    "importance": 2,
     "source": "https://www.rnz.co.nz/news/business/26135/lonmin-snubs-takeover-offer-by-xstrata; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
+  },
+  {
+    "id": "456650ed",
+    "month": "2008-10",
+    "title": "Xstrata drops Lonmin and secures its banks",
+    "what": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
+    "why": "Another 44% gone. Debt, not operations, became the issue, setting up the emergency rights issue three months later.",
+    "assets": [
+      "xstrata"
+    ],
+    "move": {
+      "asset": "xstrata",
+      "pct": -44
+    },
+    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
     "id": "e225ba0d",
@@ -204,7 +206,6 @@
       "asset": "xstrata",
       "pct": -34
     },
-    "importance": 1,
     "source": "World Bank Pink Sheet monthly averages; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
   },
   {
@@ -220,7 +221,6 @@
       "asset": "xstrata",
       "pct": 35
     },
-    "importance": 2,
     "source": "World Bank Pink Sheet monthly averages; https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program; Xstrata circular 2 Feb 2009 (all read 2026-10-03)"
   },
   {
@@ -236,7 +236,6 @@
       "asset": "xstrata",
       "pct": 23
     },
-    "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)",
     "lead": true
   },
@@ -253,7 +252,6 @@
       "asset": "xstrata",
       "pct": 25
     },
-    "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
@@ -270,7 +268,6 @@
       "asset": "xstrata",
       "pct": -27
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
@@ -287,7 +284,6 @@
       "asset": "xstrata",
       "pct": 13
     },
-    "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/recommended-merger-of-glencore-and-xstrata/2979372; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-rule-2-10-announcement/2939813 (both read 2026-10-03)"
   },
   {
@@ -304,7 +300,6 @@
       "asset": "xstrata",
       "pct": -12
     },
-    "importance": 3,
     "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update/3327708; https://en.wikipedia.org/wiki/Xstrata (all read 2026-10-03)"
   },
   {
@@ -317,7 +312,6 @@
       "xstrata",
       "glencore"
     ],
-    "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-glencore-s-proposal-to-xstrata/2989255; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-adjournment-of-general-meeting/2988032 (both read 2026-10-03)"
   },
   {
@@ -330,7 +324,6 @@
       "xstrata",
       "glencore"
     ],
-    "importance": 3,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/xstrata-merger-shareholder-approval/3028319; https://en.wikipedia.org/wiki/Ivan_Glasenberg (cites Reuters 15 Nov 2012); Investegate GLEN listing 22 Nov 2012 'Merger Update - EU Merger Control Clearance' (all read 2026-10-03)"
   },
   {
@@ -347,7 +340,6 @@
       "asset": "xstrata",
       "pct": -8
     },
-    "importance": 1,
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541 (both read 2026-10-03)"
   }
 ]

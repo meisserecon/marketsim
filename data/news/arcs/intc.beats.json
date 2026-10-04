@@ -8,7 +8,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); data/news/1980.json item of 1980-03 (read 2026-10-03)"
   },
   {
@@ -21,7 +20,6 @@
       "intc",
       "ibm"
     ],
-    "importance": 2,
     "source": "https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03, via data/news/1982.json); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03)"
   },
   {
@@ -33,7 +31,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)",
     "lead": true
   },
@@ -46,7 +43,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://timeline.intel.com/1985/farewell-to-dram (read 2026-10-03); https://en.wikipedia.org/wiki/Intel_80386 (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03); https://thechipletter.substack.com/p/intels-transformation-20 (read 2026-10-03, via search summary)"
   },
   {
@@ -58,7 +54,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)"
   },
   {
@@ -70,21 +65,7 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
-  },
-  {
-    "id": "047e130c",
-    "month": "1997-12",
-    "title": "Time names Andy Grove Man of the Year",
-    "what": "Time magazine chose Intel's chief executive Andy Grove as its Man of the Year, as the person most responsible for the growth of the microchip. Intel's sales are on course for about 21 billion dollars in 1997, and the company is worth close to 200 billion dollars on the stock market, against about 4 billion when Grove took over in 1987.",
-    "why": "Peak prestige of the Grove era; Grove stepped down as CEO five months later. (Time check: 1997 sales were only published in January 1998, so stated as a projection.)",
-    "assets": [
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Andrew_Grove (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "3b929e85",
@@ -99,7 +80,6 @@
       "asset": "intc",
       "pct": -44
     },
-    "importance": 1,
     "source": "https://www.spokesman.com/stories/2000/sep/22/intel-warns-of-earnings-drop/ (read 2026-10-03); https://www.washingtonpost.com/archive/business/2000/09/23/markets-recover-from-intel-news/86f1f046-3970-447b-8152-2fa4c425ae46/ (read 2026-10-03, via search summary)"
   },
   {
@@ -115,7 +95,6 @@
       "asset": "intc",
       "pct": -34
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086302000054/q202updateexh99.htm (read 2026-10-03, via search summary)"
   },
   {
@@ -127,7 +106,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752304003176/a4614392ex99.txt (Intel press release of 13 April 2004) (read 2026-10-03); https://en.wikipedia.org/wiki/Pentium_4 (read 2026-10-03)"
   },
   {
@@ -139,7 +117,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://www.cbsnews.com/news/intel-to-cut-10500-jobs/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -151,7 +128,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752308000317/a5586061ex99_1.htm (Intel press release of 15 January 2008) (read 2026-10-03)"
   },
   {
@@ -163,7 +139,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_09_745 (read 2026-10-03, via search summary)"
   },
   {
@@ -175,7 +150,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086312000132/exhibit99_1.htm (Intel press release of 19 November 2012) (read 2026-10-03); https://en.wikipedia.org/wiki/Brian_Krzanich (read 2026-10-03)"
   },
   {
@@ -187,7 +161,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086314000054/earningsreleaseq22014.htm (Intel press release of 15 July 2014) (read 2026-10-03)"
   },
   {
@@ -199,7 +172,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://www.cnbc.com/2016/04/19/intel-reports-q1-2016-earnings.html (read 2026-10-03, via search summary); https://www.sec.gov/Archives/edgar/data/0000050863/000005086316000122/pressreleaseq12016.htm (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -211,7 +183,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -223,7 +194,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://www.cnbc.com/2018/06/21/intel-ceo-brian-krzanich-to-step-down-bob-swan-to-step-in-as-interim-ceo.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Brian_Krzanich (read 2026-10-03)"
   },
   {
@@ -235,7 +205,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000119312519023301/d702987dex991.htm (Intel press release of 31 January 2019) (read 2026-10-03)"
   },
   {
@@ -251,7 +220,6 @@
       "asset": "intc",
       "pct": -20
     },
-    "importance": 1,
     "source": "https://www.cnn.com/2020/07/24/investing/intel-earnings-stock-selloff (read 2026-10-03, via search summary); https://siliconangle.com/2020/07/23/intels-stock-falls-delays-first-7nm-computer-chips/ (read 2026-10-03, via search summary)"
   },
   {
@@ -263,7 +231,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/50863/000119312521009142/d82915dex991.htm (read 2026-10-03, via search summary); https://edition.cnn.com/2021/01/13/investing/intel-new-ceo-pat-gelsinger/index.html (read 2026-10-03, via search summary)"
   },
   {
@@ -279,7 +246,6 @@
       "asset": "intc",
       "pct": 31
     },
-    "importance": 3,
     "source": "https://www.fool.com/investing/2023/04/05/why-intel-stock-soared-31-in-march/ (read 2026-10-03)"
   },
   {
@@ -295,7 +261,6 @@
       "asset": "intc",
       "pct": -31
     },
-    "importance": 1,
     "source": "https://www.cnbc.com/2024/04/02/intel-shares-fall-after-company-reveals-7-billion-operating-loss-in-foundry-business.html (read 2026-10-03, via search summary); https://www.datacenterdynamics.com/en/news/intel-foundry-unit-posts-25bn-operating-loss-for-q1-2024/ (read 2026-10-03, via search summary)"
   },
   {
@@ -311,7 +276,6 @@
       "asset": "intc",
       "pct": -28
     },
-    "importance": 1,
     "source": "https://www.rappler.com/technology/intel-job-cuts-suspend-dividend-august-2024/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -323,7 +287,6 @@
     "assets": [
       "intc"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000173/a12012024form8-kex991.htm (read 2026-10-03, via search summary); https://www.cnbc.com/2024/12/02/intel-ceo-pat-gelsinger-is-out.html (read 2026-10-03, via search summary)"
   },
   {
@@ -339,7 +302,6 @@
       "asset": "intc",
       "pct": 23
     },
-    "importance": 1,
     "source": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
   },
   {
@@ -356,7 +318,6 @@
       "asset": "intc",
       "pct": 38
     },
-    "importance": 1,
     "source": "https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
@@ -373,7 +334,6 @@
       "asset": "intc",
       "pct": 114
     },
-    "importance": 1,
     "source": "https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html (read 2026-10-03, via search summary)",
     "lead": true
   },
@@ -391,7 +351,6 @@
       "asset": "intc",
       "pct": 21
     },
-    "importance": 2,
     "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)"
   },
   {
@@ -407,7 +366,6 @@
       "asset": "intc",
       "pct": -35
     },
-    "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)"
   },
   {
@@ -423,7 +381,6 @@
       "asset": "intc",
       "pct": 34
     },
-    "importance": 2,
     "source": "https://www.trefis.com/stock/intc/articles/616955/what-changed-for-intel-stock-and-what-did-not/2026-09-29 (read 2026-10-03); https://www.fool.com/investing/2026/09/27/intel-stock-surged-over-40-in-september-history-sh/ (read 2026-10-03); https://247wallst.com/investing/2026/09/30/intel-rises-3-as-chip-contender-caps-off-surprisingly-strong-september-nvidia-ticks-up-amd-slips/ (read 2026-10-03)"
   }
 ]

@@ -13,6 +13,26 @@
     "imageCredit": "David Abián"
   },
   {
+    "month": "1998-01",
+    "kind": "company",
+    "headline": "Record year for Lehman",
+    "text": "Lehman Brothers earned a record $647 million in the year to November 1997, or $4.72 a share, in a year of near-record underwriting volumes and mergers on Wall Street.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999, giving the 1997 figures; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (10-K fiscal 1998; read 2026-10-03)"
+  },
+  {
+    "month": "1998-03",
+    "kind": "company",
+    "headline": "First public capital for the big banks",
+    "text": "On 30 March all major banks, including IBJ, received public capital totalling 1.8 trillion yen under a law passed in February that makes 30 trillion yen of public funds available. Critics say the amount is far too small.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
+  },
+  {
     "month": "1998-04",
     "kind": "company",
     "headline": "Amazon buys bookstores in Britain and Germany, splits its shares",
@@ -62,7 +82,10 @@
       "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/History_of_the_euro (read 2026-10-04); https://en.wikipedia.org/wiki/Euro_convergence_criteria (read 2026-10-04); https://en.wikipedia.org/wiki/Enlargement_of_the_eurozone (read 2026-10-04); European Monetary Institute, Convergence Report, March 1998, https://www.ecb.europa.eu/pub/pdf/conrep/cr1998en.pdf (read 2026-10-04)",
-    "thread": "euro"
+    "thread": "euro",
+    "image": "/news/world/1998-05-eurotower-frankfurt-am-main.jpg",
+    "imageCaption": "Eurotower, 2013",
+    "imageCredit": "Epizentrum"
   },
   {
     "month": "1998-06",
@@ -72,7 +95,23 @@
     "assets": [
       "sbv"
     ],
-    "source": "generated from the end note"
+    "source": "generated from the end note",
+    "image": "/news/ubs/1998-06-ubs-sign.jpg",
+    "imageCaption": "Workers carry the new UBS lettering to the St. Gallen branch, summer 1998",
+    "imageCredit": "Regina Kuehne / Keystone"
+  },
+  {
+    "month": "1998-06",
+    "kind": "company",
+    "headline": "Amazon opens a music store",
+    "text": "Amazon began selling music CDs in June, its first big step beyond books, and its two-for-one share split took effect. Investors are piling into internet shares.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000662.txt (read 2026-10-03)",
+    "image": "/news/amzn/1998-06-cd-player.jpg",
+    "imageCaption": "CD player, 2011",
+    "imageCredit": "Mk2010"
   },
   {
     "month": "1998-06",
@@ -132,9 +171,10 @@
     "month": "1998-09",
     "kind": "company",
     "headline": "UBS caught in the LTCM collapse",
-    "text": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks. The hedge fund in Greenwich, Connecticut, founded in 1994 by the bond trader John Meriwether, with the Nobel prize winners Myron Scholes and Robert Merton on its board, had borrowed more than $124 billion on top of $4.7 billion of its own money to bet that small price gaps between bonds would close. Russia's default in August set off its losses. On 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS among those putting in $300 million. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
+    "text": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks. The hedge fund in Greenwich, Connecticut, founded in 1994 by the bond trader John Meriwether, with the Nobel prize winners Myron Scholes and Robert Merton on its board, had borrowed more than $124 billion on top of $4.7 billion of its own money to bet that small price gaps between bonds would close. Russia's default in August set off its losses. On 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS and Credit Suisse among those putting in $300 million each. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
     "assets": [
-      "ubs"
+      "ubs",
+      "credit-suisse"
     ],
     "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (re-read 2026-10-04)",
     "thread": "asia-ltcm",
@@ -212,6 +252,34 @@
   },
   {
     "month": "1998-11",
+    "kind": "world",
+    "headline": "theglobe.com rises 606% on its first day",
+    "text": "theglobe.com, a website for online communities, went public on 13 November at 9 dollars a share; it touched 97 and closed at 63.50, a first-day gain of 606%. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
+    "assets": [
+      "ebay",
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "dotcom",
+    "image": "/news/tech/1998-11-theglobecom.jpg",
+    "imageCaption": "TheGlobe.com",
+    "imageCredit": "not credited on the page"
+  },
+  {
+    "month": "1998-11",
+    "kind": "company",
+    "headline": "Third rate cut; Wall Street recovers",
+    "text": "The Federal Reserve has now cut interest rates three times since the end of September, and central banks in Europe have followed. Stocks have recovered most of the summer's losses, and the market for new share issues has reopened. Lehman's shares rose another third in November.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (Lehman 10-K fiscal 1998: three Fed cuts, S&P 500 up 22% from 31 August to 30 November; read 2026-10-03)",
+    "image": "/news/lehman/1998-11-new-york-stock-exchange.jpg",
+    "imageCaption": "New York Stock Exchange, 2015",
+    "imageCredit": "Jeffrey Zeldman from Manhattan, USA"
+  },
+  {
+    "month": "1998-11",
     "kind": "company",
     "headline": "DaimlerChrysler shares start trading",
     "text": "The merger was completed on 17 November and the new DaimlerChrysler share began trading in Frankfurt and New York. Daimler-Benz shareholders had approved the deal with 99.9% in September. Stock markets have recovered from the summer's Russian crisis.",
@@ -250,29 +318,30 @@
     "imageCredit": "Mucber"
   },
   {
-    "month": "1998-11",
+    "month": "1998-12",
     "kind": "world",
-    "headline": "theglobe.com rises 606% on its first day",
-    "text": "theglobe.com, a website for online communities, went public on 13 November at 9 dollars a share; it touched 97 and closed at 63.50, a first-day gain of 606%. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
+    "headline": "1998 in review: a panic in the middle, up 27 percent in the end",
+    "text": "The S&P 500 rose 27% in 1998 to 1,229.23, after first closing above 1,000 on 2 February and falling 15% in August alone. The Dow passed 9,000 on 6 April and ended at 9,181.43, up 16.1%. The Fed's autumn rate cuts brought the buyers back.",
     "assets": [
-      "ebay",
-      "amzn"
+      "ust2000",
+      "ust2005",
+      "ust2010"
     ],
-    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "thread": "dotcom"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
   },
   {
     "month": "1998-12",
     "kind": "company",
-    "headline": "Exxon and Mobil agree to merge",
-    "text": "On 1 December Exxon agreed to buy Mobil in a share deal valued at about 76 to 79 billion dollars, the biggest US corporate combination ever: each Mobil share becomes 1.32015 Exxon shares, and Exxon's owners will hold about 70 percent. The deal reunites two pieces of Rockefeller's Standard Oil and needs regulators' approval. With crude below 11 dollars a barrel, the companies plan to cut 9,000 jobs and save 2.8 billion dollars a year. Lee Raymond will run the combined company.",
+    "headline": "Analyst predicts $400 for Amazon",
+    "text": "Henry Blodget, an internet analyst, predicted that Amazon's shares, trading at about $240, would reach $400 within a year. Many investors thought the forecast absurd for a company that has never made a profit.",
     "assets": [
-      "xom"
+      "amzn"
     ],
-    "source": "https://dieselnet.com/news/1998/12exxon.php (read 2026-10-03); https://www.baltimoresun.com/news/bs-xpm-1998-12-02-1998336042-story.html (read 2026-10-03); Exxon Form 8-K of 1 December 1998, https://www.sec.gov/Archives/edgar/data/34088/0000950103-98-001038.txt (read 2026-10-03)",
-    "image": "/news/xom/1998-12-exxon-mobil-building.jpg",
-    "imageCaption": "The Exxon Mobil office tower in Houston, Texas",
-    "imageCredit": "Michael Martin (pinemikey)"
+    "source": "https://en.wikipedia.org/wiki/Henry_Blodget (read 2026-10-03)",
+    "thread": "dotcom",
+    "image": "/news/amzn/1998-12-henry-blodget.jpg",
+    "imageCaption": "Henry Blodget, 2012",
+    "imageCredit": "Financial Times photos"
   },
   {
     "month": "1998-12",
@@ -298,5 +367,18 @@
     "image": "/news/wmt/1998-12-supercenter.jpg",
     "imageCaption": "A Wal-Mart Supercenter",
     "imageCredit": "UpstateNYer"
+  },
+  {
+    "month": "1998-12",
+    "kind": "company",
+    "headline": "Exxon and Mobil agree to merge",
+    "text": "On 1 December Exxon agreed to buy Mobil in a share deal valued at about 76 to 79 billion dollars, the biggest US corporate combination ever: each Mobil share becomes 1.32015 Exxon shares, and Exxon's owners will hold about 70 percent. The deal reunites two pieces of Rockefeller's Standard Oil and needs regulators' approval. With crude below 11 dollars a barrel, the companies plan to cut 9,000 jobs and save 2.8 billion dollars a year. Lee Raymond will run the combined company.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://dieselnet.com/news/1998/12exxon.php (read 2026-10-03); https://www.baltimoresun.com/news/bs-xpm-1998-12-02-1998336042-story.html (read 2026-10-03); Exxon Form 8-K of 1 December 1998, https://www.sec.gov/Archives/edgar/data/34088/0000950103-98-001038.txt (read 2026-10-03)",
+    "image": "/news/xom/1998-12-exxon-mobil-building.jpg",
+    "imageCaption": "The Exxon Mobil office tower in Houston, Texas",
+    "imageCredit": "Michael Martin (pinemikey)"
   }
 ]

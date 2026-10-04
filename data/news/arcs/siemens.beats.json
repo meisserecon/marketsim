@@ -1,31 +1,5 @@
 [
   {
-    "id": "8d3805d9",
-    "month": "1979-12",
-    "title": "Siemens, Germany's electrical giant, is in the game",
-    "what": "Siemens of Munich is Germany's largest electrical engineering company. It builds power stations, telephone exchanges, medical equipment, industrial controls and household appliances, and makes them in dozens of countries. It is moving its telephone business from mechanical to digital switching, with a first digital exchange due in 1980.",
-    "why": "The listing beat: a sprawling, conservative conglomerate whose shares move with the German economy, the mark and the dollar. Its story over four decades is about shedding most of what it makes in 1979.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 1,
-    "source": "data/src/profiles.ts (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)",
-    "cut": true
-  },
-  {
-    "id": "383da7ab",
-    "month": "1981-01",
-    "title": "Karlheinz Kaske takes charge at Siemens",
-    "what": "Karlheinz Kaske succeeded Bernhard Plettner as chief executive of Siemens at the start of 1981. Siemens made its first digital telephone exchange in 1980, and its EWSD system is meant to replace the old electromechanical switches of the Bundespost and of export customers.",
-    "why": "Kaske runs Siemens until 1992, the decade of big bets on chips, computers and telecoms. EWSD later becomes the world's best-selling landline switching system. English Wikipedia gives only the year; the date of 28 January in data/news/1981.json comes from German sources not re-read here.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Karlheinz_Kaske (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)",
-    "cut": true
-  },
-  {
     "id": "001d79d5",
     "month": "1981-12",
     "title": "A strong dollar hits Siemens in dollar terms",
@@ -34,7 +8,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "data/out/siemens.json (read 2026-10-03); data/raw/fred/EXGEUS.csv (read 2026-10-03)"
   },
   {
@@ -46,7 +19,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/mri (read 2026-10-03)"
   },
   {
@@ -58,21 +30,7 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
-  },
-  {
-    "id": "8ecc848b",
-    "month": "1990-10",
-    "title": "Siemens takes over Nixdorf",
-    "what": "On 1 October Siemens took over the shares of Nixdorf Computer, the troubled Paderborn computer maker, and merged it with its own data systems business as Siemens Nixdorf Informationssysteme (SNI). Nixdorf had swung from an operating profit of 331 million marks in 1987 to a loss in 1988. The combination makes Siemens the largest computer company in Europe.",
-    "why": "The Nixdorf deal: a national rescue as much as a strategy. SNI sells well but never grows profits, and Siemens folds it into Fujitsu Siemens Computers in 1999.",
-    "assets": [
-      "siemens"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nixdorf_Computer (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "8feab122",
@@ -83,7 +41,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Siemens_Mobile (read 2026-10-03)"
   },
   {
@@ -95,7 +52,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "data/out/siemens.json (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
@@ -107,7 +63,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 1,
     "source": "https://money.cnn.com/1998/11/04/companies/siemens/ via web.archive.org (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
@@ -123,7 +78,6 @@
       "asset": "siemens",
       "pct": 31
     },
-    "importance": 1,
     "source": "https://money.cnn.com/2000/01/24/europe/siemens/ via web.archive.org (read 2026-10-03); https://www.telecompaper.com/news/infineon-to-tender-25-30-of-shares--206140 (read 2026-10-03); https://www.eetimes.com/infineon-doubles-value-in-ipo-topping-5-billion/ (read 2026-10-03)"
   },
   {
@@ -139,7 +93,6 @@
       "asset": "siemens",
       "pct": 27
     },
-    "importance": 3,
     "source": "https://money.cnn.com/2001/10/15/international/siemens/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/11/14/international/siemens/ via web.archive.org (read 2026-10-03)"
   },
   {
@@ -151,7 +104,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://money.cnn.com/2003/11/13/news/international/siemens.reut/index.htm via web.archive.org (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
   },
   {
@@ -163,7 +115,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/BenQ_Mobile (read 2026-10-03)"
   },
   {
@@ -175,7 +126,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   },
   {
@@ -187,7 +137,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 1,
     "source": "https://money.cnn.com/2007/04/19/news/international/bc.siemens.chairman.resignation.reut/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2007/04/25/news/international/siemens_ceo_resigns.reut/index.htm via web.archive.org (read 2026-10-03)"
   },
   {
@@ -203,7 +152,6 @@
       "asset": "siemens",
       "pct": 23
     },
-    "importance": 2,
     "source": "https://money.cnn.com/2008/12/15/news/companies/siemens_bribery/index.htm via web.archive.org (read 2026-10-03); https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
   },
   {
@@ -215,7 +163,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   },
   {
@@ -227,7 +174,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   },
   {
@@ -239,7 +185,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03)"
   },
   {
@@ -251,7 +196,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)"
   },
   {
@@ -264,7 +208,6 @@
       "siemens",
       "ge"
     ],
-    "importance": 3,
     "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2014-fiscal-year-guidance-achieved-execution-vision-2020-begun (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
@@ -276,7 +219,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-and-gamesa-merge-wind-businesses-create-leading-wind-power-player (read 2026-10-03)"
   },
   {
@@ -288,7 +230,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Siemens_Healthineers (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
@@ -300,7 +241,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2019 (read 2026-10-03)"
   },
   {
@@ -312,7 +252,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Siemens_Energy (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   },
   {
@@ -324,7 +263,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
     "source": "https://press.siemens.com/global/en/pressrelease/leadership-succession-successfully-completed-roland-busch-succeed-joe-kaeser-president (read 2026-10-03)"
   },
   {
@@ -340,7 +278,6 @@
       "asset": "siemens",
       "pct": 24
     },
-    "importance": 2,
     "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2022 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
   },
   {
@@ -356,7 +293,6 @@
       "asset": "siemens",
       "pct": 27
     },
-    "importance": 2,
     "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2023 (read 2026-10-03)"
   },
   {
@@ -368,7 +304,6 @@
     "assets": [
       "siemens"
     ],
-    "importance": 2,
     "source": "https://press.siemens.com/global/en/pressrelease/siemens-clarifies-timeline-spin-siemens-healthineers-shares (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-completes-todays-announced-sale-portion-its-shareholding-siemens-healthineers (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   }
 ]

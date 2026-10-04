@@ -32,7 +32,10 @@
     "text": "Deng Xiaoping, the leader behind the market reforms China began in December 1978, toured the south of the country from 18 January to 21 February, visiting Shenzhen, Zhuhai, Guangzhou and Shanghai, and urged officials to be bolder and dare to experiment. 'Development is of overriding importance,' he said; of the stock exchanges opened in Shanghai and Shenzhen at the end of 1990 he said China should first try them out. Hong Kong papers reported the trip first; on 26 March the Shenzhen Special Zone Daily carried the first report in mainland China. Since the crackdown of June 1989, reform had stalled.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour (read 2026-10-04); https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-04)",
-    "thread": "china"
+    "thread": "china",
+    "image": "/news/asia/1992-03-deng-xiaopings-southern-tour.jpg",
+    "imageCaption": "Deng Xiaoping's southern tour, 2008",
+    "imageCredit": "山胖z"
   },
   {
     "month": "1992-04",
@@ -63,12 +66,27 @@
     "imageCredit": "ehnmark"
   },
   {
+    "month": "1992-09",
+    "kind": "world",
+    "headline": "Black Wednesday, and France's narrow yes",
+    "text": "On 16 September Britain spent billions defending the pound and raised its base rate from 10 to 12 percent, then promised 15, before pulling sterling out of the European exchange-rate mechanism that evening; Italy's lira also left. On 20 September French voters approved the Maastricht treaty by only 51 percent, after Danish voters rejected it in June by 50.7 percent.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Black_Wednesday (read 2026-10-03); https://en.wikipedia.org/wiki/1992_French_Maastricht_Treaty_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/1992_Danish_Maastricht_Treaty_referendum (read 2026-10-03)",
+    "thread": "euro",
+    "image": "/news/world/1992-09-black-wednesday.jpg",
+    "imageCaption": "Black Wednesday, 2009",
+    "imageCredit": "Klip game"
+  },
+  {
     "month": "1992-11",
     "kind": "world",
     "headline": "Clinton wins the White House",
     "text": "Bill Clinton, the 46-year-old governor of Arkansas, won the US presidency on 3 November with 370 electoral votes and 43 percent of the vote, against 37.5 percent for President George Bush and 18.9 percent for the independent Ross Perot. The recession has ended, but unemployment remains above 7 percent.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)",
+    "image": "/news/world/1992-11-bill-clinton.jpg",
+    "imageCaption": "Bill Clinton, 1993",
+    "imageCredit": "Bob McNeely, The White House[1]"
   },
   {
     "month": "1992-11",
@@ -98,6 +116,17 @@
   },
   {
     "month": "1992-12",
+    "kind": "world",
+    "headline": "Swiss voters say no to the European Economic Area",
+    "text": "On 6 December Swiss voters rejected membership of the European Economic Area by 50.3 to 49.7 percent, a margin of about 24,000 votes, on a turnout of 78.7 percent, and a clear majority of the cantons voted no. French-speaking cantons voted strongly yes, German-speaking rural ones strongly no. The government's application to join the European Community, sent in May, is now frozen.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1992_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)",
+    "image": "/news/world/1992-12-christoph-blocher.jpg",
+    "imageCaption": "Christoph Blocher, 2011",
+    "imageCredit": "Bundeskanzlei"
+  },
+  {
+    "month": "1992-12",
     "kind": "company",
     "headline": "IBM to cut 25,000 more jobs and warns on its dividend",
     "text": "On 15 December IBM announced it will shed about 25,000 more employees in 1993, which may mean the first layoffs in its history, and take a charge of about 6 billion dollars. For the first time it said it might cut its dividend. The shares fell to a ten-year low of 56 dollars and dragged the whole market down.",
@@ -121,5 +150,15 @@
     "image": "/news/intc/1992-12-grove.jpg",
     "imageCaption": "Andy Grove at his desk at Intel",
     "imageCredit": "Intel Free Press"
+  },
+  {
+    "month": "1992-12",
+    "kind": "company",
+    "headline": "LDDS outbids AT&T and Sprint for a rival",
+    "text": "LDDS has bought Advanced Telecommunications Corporation for about $720 million, outbidding the much larger Sprint and AT&T. The deal makes LDDS a substantially bigger player in long distance.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03, citing New York Times, 1 May 2002)"
   }
 ]

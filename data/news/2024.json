@@ -2,6 +2,19 @@
   {
     "month": "2024-01",
     "kind": "company",
+    "headline": "Tesla warns growth will slow",
+    "text": "Tesla said on 24 January that its vehicle volume growth in 2024 'may be notably lower' than in 2023, as it is 'between two major growth waves' and works on a cheaper next-generation car.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "Tesla Q4 and FY 2023 Update, 24 January 2024, https://www.sec.gov/Archives/edgar/data/1318605/000095017024007073/tsla-ex99_1.htm (read 2026-10-03); WSJ, 'Tesla Projects Slower Growth in 2024 as EV Demand Softens', 24 January 2024 (headline via Google News) (read 2026-10-03)",
+    "image": "/news/tsla/2024-01-cybertruck.jpg",
+    "imageCaption": "A Tesla Cybertruck, 2024",
+    "imageCredit": "Alexander-93"
+  },
+  {
+    "month": "2024-01",
+    "kind": "company",
     "headline": "A door plug blows out of a new 737 MAX 9",
     "text": "On 5 January a door plug blew out of an Alaska Airlines 737 MAX 9 shortly after take-off from Portland; all 177 people on board survived. The FAA grounded similar planes, and inspections found loose parts on others. Chief executive Dave Calhoun admitted a 'quality escape', and the FAA opened an investigation into Boeing's production.",
     "assets": [
@@ -15,15 +28,32 @@
   {
     "month": "2024-01",
     "kind": "company",
-    "headline": "Tesla warns growth will slow",
-    "text": "Tesla said on 24 January that its vehicle volume growth in 2024 'may be notably lower' than in 2023, as it is 'between two major growth waves' and works on a cheaper next-generation car.",
+    "headline": "Citigroup loses $1.8 billion and plans 20,000 job cuts",
+    "text": "Citigroup reported a fourth-quarter net loss of $1.8 billion, after a $1.7 billion payment to the deposit insurance fund, $1.3 billion of reserves for Russia and Argentina, Argentina's devaluation and a $780 million restructuring charge; it earned $9.2 billion for 2023. It plans to cut about 20,000 jobs.",
     "assets": [
-      "tsla"
+      "c"
     ],
-    "source": "Tesla Q4 and FY 2023 Update, 24 January 2024, https://www.sec.gov/Archives/edgar/data/1318605/000095017024007073/tsla-ex99_1.htm (read 2026-10-03); WSJ, 'Tesla Projects Slower Growth in 2024 as EV Demand Softens', 24 January 2024 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/tsla/2024-01-cybertruck.jpg",
-    "imageCaption": "A Tesla Cybertruck, 2024",
-    "imageCredit": "Alexander-93"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465924003564/c-20240112xex99d1.htm (Citigroup press release, 12 January 2024; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+  },
+  {
+    "month": "2024-01",
+    "kind": "company",
+    "headline": "eBay cuts 9% of its staff",
+    "text": "eBay announced it will lay off about 9% of its workforce after hiring outpaced the growth of the business.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+  },
+  {
+    "month": "2024-01",
+    "kind": "company",
+    "headline": "Walmart announces a three-for-one stock split",
+    "text": "On 30 January Walmart announced a three-for-one split of its shares, its first in 25 years, so that employees can more easily buy them. Shares will trade on the new basis from 26 February.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000004/pressrelease1302024.htm (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
     "month": "2024-02",
@@ -39,6 +69,26 @@
   {
     "month": "2024-02",
     "kind": "company",
+    "headline": "Mercedes promises a 3-billion-euro buyback",
+    "text": "Presenting its 2023 results on 22 February, Mercedes-Benz announced a share buyback of up to 3 billion euros, despite warning of 'exceptional' uncertainty ahead. The shares rose 5% that day. It also slowed its plan to sell only electric cars and will keep updating its petrol models.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "CNBC, 'Mercedes shares climb 5% on share buyback, despite exceptional uncertainty ahead', 22 February 2024; Reuters, 'Mercedes-Benz delays electrification goal, beefs up combustion engine line-up', 22 February 2024 (headlines via Google News) (read 2026-10-03)"
+  },
+  {
+    "month": "2024-02",
+    "kind": "company",
+    "headline": "Amazon's profit soars",
+    "text": "Amazon reported fourth-quarter net income of $10.6 billion, against $0.3 billion a year earlier, on sales of $170.0 billion, up 14%. AWS sales grew 13% to $24.2 billion. Sales for 2023 were $574.8 billion.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-24-000006.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2024-02",
+    "kind": "company",
     "headline": "Prices up 7.5%, volumes down",
     "text": "Nestlé reported 2023 organic growth of 7.2% on 22 February, but almost all of it came from higher prices (7.5%); the volume of goods sold fell 0.3%. For 2024 it expects organic growth of about 4%. Chief executive Mark Schneider spoke of unprecedented inflation and soft consumer demand.",
     "assets": [
@@ -48,6 +98,36 @@
     "image": "/news/nestle/2024-02-shopping-basket.jpg",
     "imageCaption": "Nestlé products in a supermarket shopping basket",
     "imageCredit": "Reuters"
+  },
+  {
+    "month": "2024-02",
+    "kind": "company",
+    "headline": "Cisco cuts 5% of its staff as sales fall",
+    "text": "Cisco reported on February 14 that sales fell 6% to $12.8 billion in the quarter to January, lowered its forecast for the year and announced a restructuring affecting about 5% of its workforce, more than 4,000 people. Telecom and cable customers have cut orders.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-24-036201.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
+  },
+  {
+    "month": "2024-02",
+    "kind": "company",
+    "headline": "Higher prices keep Coca-Cola growing",
+    "text": "Coca-Cola reported on 13 February that organic revenue grew 12% in 2023, mostly from higher prices, while unit case volume rose 2%; comparable earnings per share grew 8% to 2.69 dollars. Chairman James Quincey speaks of an 'all-weather strategy'.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000004/a2023q4earningsreleaseex-9.htm (release of 13 February 2024, read 2026-10-03)"
+  },
+  {
+    "month": "2024-03",
+    "kind": "company",
+    "headline": "Altria sells part of its AB InBev stake to buy back its own shares",
+    "text": "On 14 March Altria agreed to sell 35 million AB InBev shares in a public offering and to AB InBev for about 2.4 billion dollars, and raised its own share buyback by 2.4 billion dollars. Chief executive Billy Gifford says Altria's shares offer 'significant value' at today's price.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312524067555/d666855dex991.htm (read 2026-10-03)"
   },
   {
     "month": "2024-03",
@@ -64,16 +144,11 @@
   },
   {
     "month": "2024-04",
-    "kind": "company",
-    "headline": "GE Vernova spun off: what remains is GE Aerospace",
-    "text": "On 2 April General Electric completed the spin-off of its energy businesses as GE Vernova. The remaining company, which makes and services jet engines, now trades as GE Aerospace.",
-    "assets": [
-      "ge"
-    ],
-    "source": "https://en.wikipedia.org/wiki/GE_Vernova (read 2026-10-03, citing GE Vernova press release 2024-04-02); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)",
-    "image": "/news/ge/2024-04-nyse-bell.jpg",
-    "imageCaption": "GE Aerospace and GE Vernova ring the opening bell together at the New York Stock Exchange on their first day as separate companies, 2 April 2024",
-    "imageCredit": "GE Vernova (company picture)"
+    "kind": "world",
+    "headline": "Iran strikes Israel directly for the first time",
+    "text": "On the night of 13 to 14 April Iran launched about 170 drones, 30 cruise missiles and 120 ballistic missiles at Israel, its first direct attack, in answer to an Israeli strike on its consulate in Damascus on 1 April that killed a senior Revolutionary Guards commander. Israel says 99 percent were shot down; a seven-year-old Bedouin girl was badly hurt and no one was killed. On 19 April Israel struck back with a limited strike near Isfahan.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/April_2024_Iranian_strikes_against_Israel (read 2026-10-03)"
   },
   {
     "month": "2024-04",
@@ -87,6 +162,19 @@
     "image": "/news/intc/2024-04-fab42.jpg",
     "imageCaption": "President Obama speaks at Intel's Fab 42, Chandler, Arizona, January 2012",
     "imageCredit": "Nick Knupffer"
+  },
+  {
+    "month": "2024-04",
+    "kind": "company",
+    "headline": "GE Vernova spun off: what remains is GE Aerospace",
+    "text": "On 2 April General Electric completed the spin-off of its energy businesses as GE Vernova. The remaining company, which makes and services jet engines, now trades as GE Aerospace.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GE_Vernova (read 2026-10-03, citing GE Vernova press release 2024-04-02); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)",
+    "image": "/news/ge/2024-04-nyse-bell.jpg",
+    "imageCaption": "GE Aerospace and GE Vernova ring the opening bell together at the New York Stock Exchange on their first day as separate companies, 2 April 2024",
+    "imageCredit": "GE Vernova (company picture)"
   },
   {
     "month": "2024-04",
@@ -113,6 +201,42 @@
     "imageCredit": "VDanDesign"
   },
   {
+    "month": "2024-05",
+    "kind": "world",
+    "headline": "President Raisi killed in a helicopter crash",
+    "text": "President Ebrahim Raisi, Foreign Minister Hossein Amir-Abdollahian and six others died on 19 May when their helicopter crashed in fog in the mountains of East Azerbaijan province. First Vice President Mohammad Mokhber is acting president, and an election is set for 28 June.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2024_Varzaqan_helicopter_crash (read 2026-10-03)"
+  },
+  {
+    "month": "2024-05",
+    "kind": "company",
+    "headline": "Sony closes PlayStation studios",
+    "text": "As part of company-wide layoffs Sony shut down its PlayStation London Studio in May.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
+  },
+  {
+    "month": "2024-05",
+    "kind": "company",
+    "headline": "Pioneer deal closes; ExxonMobil doubles in the Permian",
+    "text": "On 3 May ExxonMobil completed its purchase of Pioneer Natural Resources. Its production in the Permian Basin more than doubles to 1.3 million barrels of oil equivalent a day, and it expects about 2 million by 2027, from more than 1.4 million net acres holding an estimated 16 billion barrels.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil press release of 3 May 2024, https://www.sec.gov/Archives/edgar/data/34088/000095010324006322/dp210867_ex9901.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2024-06",
+    "kind": "colour",
+    "headline": "Switzerland knock out holders Italy at Euro 2024",
+    "text": "At the European Championship in Germany, Switzerland beat the defending champions Italy in the round of 16 and reached the quarter-finals for the second tournament in a row.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)"
+  },
+  {
     "month": "2024-06",
     "kind": "company",
     "headline": "Apple Intelligence",
@@ -125,6 +249,16 @@
     "image": "/news/aapl/2024-06-wwdc-cook.jpg",
     "imageCaption": "Tim Cook greets the audience at Apple Park on the opening day of WWDC, where Apple Intelligence was presented, 10 June 2024",
     "imageCredit": "Apple"
+  },
+  {
+    "month": "2024-06",
+    "kind": "company",
+    "headline": "Nokia buys Infinera",
+    "text": "Nokia agreed to buy the American optical networking company Infinera for 2.3 billion dollars, to strengthen its optical business.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
     "month": "2024-06",
@@ -156,16 +290,22 @@
   },
   {
     "month": "2024-08",
-    "kind": "company",
-    "headline": "Glencore keeps its coal",
-    "text": "On 7 August, a month after completing the Elk Valley purchase, Glencore dropped the planned coal spin-off: more than 95% of shareholders who expressed a view wanted to keep coal for its cash flow, which will fund copper growth and payouts. On 5 August it settled the last bribery probes, in Switzerland and the Netherlands, with a CHF2m fine and $150m compensation.",
-    "assets": [
-      "glencore"
-    ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/retention-of-coal-carbon-steel-materials-business-/8352973; https://www.investegate.co.uk/announcement/rns/glencore--glen/swiss-and-dutch-investigations-resolved/8349702 (both read 2026-10-03)",
-    "image": "/news/glencore/2024-08-mountowen.jpg",
-    "imageCaption": "Aerial view of the Mount Owen coal mine complex, New South Wales, Australia",
-    "imageCredit": "Bidgee"
+    "kind": "world",
+    "headline": "Tokyo's worst day since 1987 as the yen snaps back",
+    "text": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen, the dollar fell to about 143 yen and on 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458. The next day it gained more than 3,200 points, its biggest daily rise.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03)",
+    "image": "/news/asia/2024-08-nikkei-rebound.jpg",
+    "imageCaption": "A board in Tokyo shows the Nikkei up 3,286 points the day after its worst fall since 1987, 6 August 2024",
+    "imageCredit": "Photo by KAZUHIRO NOGI/AFP via Getty Images"
+  },
+  {
+    "month": "2024-08",
+    "kind": "world",
+    "headline": "A yen shock and weak jobs data: a one-day global scare",
+    "text": "Weaker-than-expected American jobs figures and the unwinding of trades financed with cheap yen set off a global sell-off on Monday 5 August: Tokyo's Nikkei fell 12.4%, its worst day since 1987, and the Dow fell 1,034 points. The panic passed within days, and the S&P 500 ended August up 2%.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "month": "2024-08",
@@ -182,17 +322,6 @@
   },
   {
     "month": "2024-08",
-    "kind": "world",
-    "headline": "Tokyo's worst day since 1987 as the yen snaps back",
-    "text": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen, the dollar fell to about 143 yen and on 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458. The next day it gained more than 3,200 points, its biggest daily rise.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03)",
-    "image": "/news/asia/2024-08-nikkei-rebound.jpg",
-    "imageCaption": "A board in Tokyo shows the Nikkei up 3,286 points the day after its worst fall since 1987, 6 August 2024",
-    "imageCredit": "Photo by KAZUHIRO NOGI/AFP via Getty Images"
-  },
-  {
-    "month": "2024-08",
     "kind": "company",
     "headline": "Berkshire becomes a trillion-dollar company",
     "text": "In August Berkshire Hathaway became the first company outside the technology industry in the United States to be valued at more than one trillion dollars. A single Class A share reached 700,000 dollars. Berkshire has substantially increased its holdings of short-term Treasury bills.",
@@ -204,6 +333,19 @@
     "image": "/news/brk/2024-08-buffett.jpg",
     "imageCaption": "Warren Buffett at lunch in Omaha, February 2024",
     "imageCredit": "Berkshirehathaway1948"
+  },
+  {
+    "month": "2024-08",
+    "kind": "company",
+    "headline": "Glencore keeps its coal",
+    "text": "On 7 August, a month after completing the Elk Valley purchase, Glencore dropped the planned coal spin-off: more than 95% of shareholders who expressed a view wanted to keep coal for its cash flow, which will fund copper growth and payouts. On 5 August it settled the last bribery probes, in Switzerland and the Netherlands, with a CHF2m fine and $150m compensation.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/retention-of-coal-carbon-steel-materials-business-/8352973; https://www.investegate.co.uk/announcement/rns/glencore--glen/swiss-and-dutch-investigations-resolved/8349702 (both read 2026-10-03)",
+    "image": "/news/glencore/2024-08-mountowen.jpg",
+    "imageCaption": "Aerial view of the Mount Owen coal mine complex, New South Wales, Australia",
+    "imageCredit": "Bidgee"
   },
   {
     "month": "2024-08",
@@ -287,6 +429,16 @@
     "imageCredit": "mr_t_77"
   },
   {
+    "month": "2024-10",
+    "kind": "company",
+    "headline": "E. coli outbreak linked to Quarter Pounders",
+    "text": "On 22 October US health authorities reported an E. coli outbreak linked to Quarter Pounders sold at McDonald's restaurants in several western states; one person died and dozens fell ill. McDonald's pulled the Quarter Pounder from restaurants in the affected states. By the end of the month investigators pointed to slivered onions from a supplier, Taylor Farms, which recalled them.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2024_McDonald%27s_E._coli_outbreak (read 2026-10-03)"
+  },
+  {
     "month": "2024-11",
     "kind": "world",
     "headline": "Trump wins a second term",
@@ -300,6 +452,48 @@
     "imageCredit": "The White House"
   },
   {
+    "month": "2024-11",
+    "kind": "company",
+    "headline": "Disney's streaming turns a profit",
+    "text": "On 14 November Disney reported adjusted earnings up 39% for the quarter and 32% for the year. Its combined streaming businesses made an operating profit of 321 million dollars, Disney+ gained 4.4 million subscribers, and Pixar's Inside Out 2 and Marvel's Deadpool & Wolverine broke box-office records. Its parks had record revenue and profit for the year.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000275/dis-20241114.htm (Disney earnings release of 14 November 2024, read 2026-10-03)",
+    "image": "/news/dis/2024-11-walt-disney-studios-burbank.jpg",
+    "imageCaption": "Walt Disney Studios, 2016",
+    "imageCredit": "Coolcaesar"
+  },
+  {
+    "month": "2024-11",
+    "kind": "company",
+    "headline": "Nvidia joins the Dow, replacing Intel",
+    "text": "Nvidia was added to the Dow Jones Industrial Average in November, replacing Intel. Morgan Stanley reported that all of next year's production of its new Blackwell chips is already sold out.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+  },
+  {
+    "month": "2024-12",
+    "kind": "world",
+    "headline": "2024 in review: up 23 percent, past 5,000 and 6,000",
+    "text": "The S&P 500 rose 23% in 2024 to 5,881.63, after first closing above 5,000 on 9 February and above 6,000 on 11 November; the Dow gained 12.9%. The Federal Reserve began cutting rates in September, and after the November election the Dow jumped 1,508 points on 6 November.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
+  },
+  {
+    "month": "2024-12",
+    "kind": "world",
+    "headline": "Assad's rule collapses in Syria",
+    "text": "Rebels led by Hay'at Tahrir al-Sham, who began an offensive on 27 November, took Aleppo and then Damascus on 8 December. President Bashar al-Assad fled to Russia, ending more than half a century of his family's rule. Iran, which backed him through the civil war, has lost its main ally in the Arab world and its land route to Hezbollah.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime (read 2026-10-03); https://en.wikipedia.org/wiki/October_2024_Iranian_strikes_on_Israel (read 2026-10-03); https://en.wikipedia.org/wiki/Assassination_of_Hassan_Nasrallah (read 2026-10-03)",
+    "image": "/news/middle-east/2024-12-damascus-celebration.jpg",
+    "imageCaption": "Syrians celebrate in Damascus after the fall of Assad's government, 11 December 2024"
+  },
+  {
     "month": "2024-12",
     "kind": "company",
     "headline": "Gelsinger is pushed out",
@@ -311,16 +505,6 @@
     "image": "/news/intc/2024-12-gelsinger.jpg",
     "imageCaption": "Pat Gelsinger, Intel's chief executive",
     "imageCredit": "Web Summit"
-  },
-  {
-    "month": "2024-12",
-    "kind": "world",
-    "headline": "Assad's rule collapses in Syria",
-    "text": "Rebels led by Hay'at Tahrir al-Sham, who began an offensive on 27 November, took Aleppo and then Damascus on 8 December. President Bashar al-Assad fled to Russia, ending more than half a century of his family's rule. Iran, which backed him through the civil war, has lost its main ally in the Arab world and its land route to Hezbollah.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime (read 2026-10-03); https://en.wikipedia.org/wiki/October_2024_Iranian_strikes_on_Israel (read 2026-10-03); https://en.wikipedia.org/wiki/Assassination_of_Hassan_Nasrallah (read 2026-10-03)",
-    "image": "/news/middle-east/2024-12-damascus-celebration.jpg",
-    "imageCaption": "Syrians celebrate in Damascus after the fall of Assad's government, 11 December 2024"
   },
   {
     "month": "2024-12",

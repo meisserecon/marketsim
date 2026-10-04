@@ -1,16 +1,60 @@
 [
   {
     "month": "2019-01",
-    "kind": "company",
-    "headline": "Tim Cook warns: China and fewer iPhone upgrades",
-    "text": "On 2 January Tim Cook cut Apple's revenue forecast for the December quarter to about 84 billion dollars, below its earlier guidance, in a letter to investors. He blamed a much sharper slowdown in China than expected and fewer iPhone upgrades; sales outside the iPhone grew almost 19%.",
+    "kind": "world",
+    "headline": "The Fed promises patience and shares jump 8 percent",
+    "text": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
     "assets": [
-      "aapl"
+      "ust2020",
+      "ust2025",
+      "ust2030"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)",
-    "image": "/news/aapl/2019-01-cook.jpg",
-    "imageCaption": "Tim Cook, Apple's chief executive, at the White House",
-    "imageCredit": "The White House from Washington, DC"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2019-01-powell.jpg",
+    "imageCaption": "Federal Reserve Chairman Jerome Powell at the Fed's press conference, 30 January 2019",
+    "imageCredit": " (Federal Reserve)"
+  },
+  {
+    "month": "2019-01",
+    "kind": "world",
+    "headline": "The Fed says it 'will be patient'",
+    "text": "On 30 January the Fed kept its rate at 2.25 to 2.5 percent and said that 'in light of global economic and financial developments and muted inflation pressures' it 'will be patient' before any further change. Inflation is about 1.9 percent (December). Shares recovered much of December's loss: the S&P 500 gained 8 percent in January, its best January since 1987.",
+    "assets": [],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+  },
+  {
+    "month": "2019-01",
+    "kind": "colour",
+    "headline": "Swiss pupils strike for the climate",
+    "text": "On 17 and 18 January at least 45,000 students in Switzerland and Germany skipped school to protest against weak climate policies, following the Swedish schoolgirl Greta Thunberg, who began the school strikes outside her country's parliament. More strikes are planned.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/School_Strike_for_Climate (read 2026-10-03)"
+  },
+  {
+    "month": "2019-01",
+    "kind": "company",
+    "headline": "GE's cash flow beats fears",
+    "text": "On 31 January General Electric reported fourth-quarter revenue up 5% to 33.3 billion dollars and 5.5 billion dollars of industrial free cash flow in the quarter, more than investors had feared after a year of bad news.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000006/ge4q2018ex99.htm (GE fourth-quarter 2018 results tables, read 2026-10-03)",
+    "image": "/news/ge/2019-01-ge90.jpg",
+    "imageCaption": "A GE90 jet engine, built by GE Aviation, on display",
+    "imageCredit": "Chris Light"
+  },
+  {
+    "month": "2019-01",
+    "kind": "company",
+    "headline": "Citigroup's profit beats the gloom",
+    "text": "Citigroup reported fourth-quarter 2018 net income of $4.3 billion excluding a tax item and said it returned $18.4 billion to shareholders in 2018. After a 9% fall in the S&P 500 in December, stocks rebounded, and Citigroup's shares rose 24% in January.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465919001687/a19-2779_1ex99d1.htm (Citigroup press release, 14 January 2019; read 2026-10-03); data/news/arcs/movers.md",
+    "image": "/news/c/2019-01-388-greenwich-street.jpg",
+    "imageCaption": "388 Greenwich Street, 2019",
+    "imageCredit": "Tdorante10"
   },
   {
     "month": "2019-01",
@@ -28,30 +72,55 @@
   {
     "month": "2019-01",
     "kind": "company",
-    "headline": "GE's cash flow beats fears",
-    "text": "On 31 January General Electric reported fourth-quarter revenue up 5% to 33.3 billion dollars and 5.5 billion dollars of industrial free cash flow in the quarter, more than investors had feared after a year of bad news.",
+    "headline": "Tim Cook warns: China and fewer iPhone upgrades",
+    "text": "On 2 January Tim Cook cut Apple's revenue forecast for the December quarter to about 84 billion dollars, below its earlier guidance, in a letter to investors. He blamed a much sharper slowdown in China than expected and fewer iPhone upgrades; sales outside the iPhone grew almost 19%.",
     "assets": [
-      "ge"
+      "aapl"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000006/ge4q2018ex99.htm (GE fourth-quarter 2018 results tables, read 2026-10-03)",
-    "image": "/news/ge/2019-01-ge90.jpg",
-    "imageCaption": "A GE90 jet engine, built by GE Aviation, on display",
-    "imageCredit": "Chris Light"
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000002/a8-kexhibit991122019.htm (Letter from Tim Cook to Apple investors, 2 January 2019, read 2026-10-03)",
+    "image": "/news/aapl/2019-01-cook.jpg",
+    "imageCaption": "Tim Cook, Apple's chief executive, at the White House",
+    "imageCredit": "The White House from Washington, DC"
   },
   {
     "month": "2019-01",
-    "kind": "world",
-    "headline": "The Fed promises patience and shares jump 8 percent",
-    "text": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss.",
+    "kind": "company",
+    "headline": "Bob Swan becomes permanent chief executive",
+    "text": "On 31 January Intel named Bob Swan, its finance chief since 2016 and interim chief executive for seven months, as its seventh chief executive.",
     "assets": [
-      "ust2020",
-      "ust2025",
-      "ust2030"
+      "intc"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2019-01-powell.jpg",
-    "imageCaption": "Federal Reserve Chairman Jerome Powell at the Fed's press conference, 30 January 2019",
-    "imageCredit": " (Federal Reserve)"
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000119312519023301/d702987dex991.htm (Intel press release of 31 January 2019) (read 2026-10-03)"
+  },
+  {
+    "month": "2019-02",
+    "kind": "company",
+    "headline": "Amazon drops its New York headquarters plan",
+    "text": "On February 14 Amazon said it will not build its planned second headquarters in Queens, New York, after local opposition, and will concentrate on Arlington, Virginia, where it plans at least 25,000 jobs.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)"
+  },
+  {
+    "month": "2019-02",
+    "kind": "company",
+    "headline": "Glencore caps its coal output",
+    "text": "With its 2018 results on 20 February, Glencore committed to limit its coal production capacity broadly to current levels and to put its investment into commodities needed for the energy and transport transition, such as copper, cobalt and nickel.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/commitment-to-transition-to-a-low-carbon-economy/5435344 (read 2026-10-03)"
+  },
+  {
+    "month": "2019-02",
+    "kind": "company",
+    "headline": "Paris court fines UBS 3.7 billion euros",
+    "text": "On 20 February a Paris court convicted UBS of illegally soliciting clients in France and laundering the proceeds of tax fraud, and ordered it to pay a record of about 3.7 billion euros, including damages. UBS is appealing.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
   },
   {
     "month": "2019-03",
@@ -65,6 +134,16 @@
     "image": "/news/ba/2019-03-max-grounded.jpg",
     "imageCaption": "Grounded Boeing 737 MAX jets parked near Boeing Field, Seattle, April 2019",
     "imageCredit": "SounderBruce"
+  },
+  {
+    "month": "2019-03",
+    "kind": "company",
+    "headline": "Nvidia buys Mellanox for 6.9 billion dollars",
+    "text": "On 11 March Nvidia agreed to buy Mellanox Technologies, an Israeli maker of high-speed networking equipment for data centres and supercomputers, for 6.9 billion dollars.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
     "month": "2019-04",
@@ -82,6 +161,19 @@
   {
     "month": "2019-04",
     "kind": "company",
+    "headline": "Microsoft is worth a trillion dollars",
+    "text": "In April Microsoft became the third US listed company to be valued at more than one trillion dollars, as its cloud business keeps growing.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Microsoft (read 2026-10-03)",
+    "image": "/news/msft/2019-04-nadella.jpg",
+    "imageCaption": "Satya Nadella, Microsoft's chief executive",
+    "imageCredit": "Brian Smale and Microsoft"
+  },
+  {
+    "month": "2019-04",
+    "kind": "company",
     "headline": "Alcon spun off",
     "text": "On 9 April Novartis completed the spin-off of its eye-care business Alcon: shareholders received Alcon shares, now listed on their own, and the new company is valued at about 28 billion francs. Novartis is now focused on medicines and generics.",
     "assets": [
@@ -93,17 +185,12 @@
     "imageCredit": "SIX Group"
   },
   {
-    "month": "2019-04",
-    "kind": "company",
-    "headline": "Microsoft is worth a trillion dollars",
-    "text": "In April Microsoft became the third US listed company to be valued at more than one trillion dollars, as its cloud business keeps growing.",
-    "assets": [
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Microsoft (read 2026-10-03)",
-    "image": "/news/msft/2019-04-nadella.jpg",
-    "imageCaption": "Satya Nadella, Microsoft's chief executive",
-    "imageCredit": "Brian Smale and Microsoft"
+    "month": "2019-05",
+    "kind": "world",
+    "headline": "Tariffs raised to 25%; Huawei blacklisted",
+    "text": "Talks broke down and on 10 May the US raised tariffs on $200 billion of Chinese goods from 10% to 25%. Later in the month Washington restricted Huawei's access to American technology.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03)"
   },
   {
     "month": "2019-05",
@@ -173,6 +260,16 @@
   {
     "month": "2019-08",
     "kind": "company",
+    "headline": "Cisco warns of flat sales",
+    "text": "Cisco reported fiscal-year sales of $51.7 billion, up 7%, but forecast growth of only 0% to 2% for the coming quarter. Chief executive Chuck Robbins pointed to the long-term opportunity.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-19-221195.txt (8-K, read 2026-10-03)"
+  },
+  {
+    "month": "2019-08",
+    "kind": "company",
     "headline": "Cobalt slump shuts Mutanda",
     "text": "Glencore's first-half adjusted EBITDA fell 32% to $5.6bn and net income to $226m. It will put its Mutanda copper and cobalt mine in Congo, which produced about a fifth of the world's cobalt in 2018, on care and maintenance by year-end because cobalt prices have collapsed, and booked a $350m cobalt loss in trading. Copper averaged $5,709 a tonne, its lowest in over two years.",
     "assets": [
@@ -197,15 +294,15 @@
   {
     "month": "2019-10",
     "kind": "company",
-    "headline": "Altria writes down Juul by 4.5 billion dollars",
-    "text": "On 31 October Altria wrote down the value of its Juul stake by 4.5 billion dollars, about 35% of what it paid ten months ago. Juul has stopped advertising and replaced its chief executive with an Altria executive amid a crisis over teenage vaping, and the House of Representatives is investigating the Altria deal.",
+    "headline": "A surprise profit, and a factory in Shanghai ahead of schedule",
+    "text": "Wall Street expected Tesla to lose money again. Instead the company reported on 23 October a profit of 342 million dollars for the third quarter, on sales of 6.3 billion. It also said that its new factory near Shanghai, which it only began building early this year, has already started trial production, and that its next car, the Model Y, is ahead of schedule. The shares jumped about 20% the next day and gained 31% in October.",
     "assets": [
-      "mo"
+      "tsla"
     ],
-    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://en.wikipedia.org/wiki/Altria (read 2026-10-03)",
-    "image": "/news/mo/2019-10-juul-hand.jpg",
-    "imageCaption": "A Juul e-cigarette ;;",
-    "imageCredit": "Mylesclark96"
+    "source": "https://www.cnbc.com/2019/10/23/tesla-tsla-earnings-q3-2019.html (search result read 2026-10-04); https://www.aljazeera.com/economy/2019/10/23/tesla-shares-soar-ceo-elon-musk-announces-surprise-profits/ (search result read 2026-10-04)",
+    "image": "/news/tsla/2019-10-gigafactory-shanghai.jpg",
+    "imageCaption": "Gigafactory Shanghai, 2024",
+    "imageCredit": "China News Service"
   },
   {
     "month": "2019-10",
@@ -223,6 +320,19 @@
   {
     "month": "2019-10",
     "kind": "company",
+    "headline": "Altria writes down Juul by 4.5 billion dollars",
+    "text": "On 31 October Altria wrote down the value of its Juul stake by 4.5 billion dollars, about 35% of what it paid ten months ago. Juul has stopped advertising and replaced its chief executive with an Altria executive amid a crisis over teenage vaping, and the House of Representatives is investigating the Altria deal.",
+    "assets": [
+      "mo"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Juul (read 2026-10-03); https://en.wikipedia.org/wiki/Altria (read 2026-10-03)",
+    "image": "/news/mo/2019-10-juul-hand.jpg",
+    "imageCaption": "A Juul e-cigarette ;;",
+    "imageCredit": "Mylesclark96"
+  },
+  {
+    "month": "2019-10",
+    "kind": "company",
     "headline": "New boss, 11 billion dollar loss",
     "text": "Olivier Le Peuch, who became chief executive on 1 August in place of Paal Kibsgaard, reported on 18 October a third-quarter net loss of 11.38 billion dollars after charges of 8.65 dollars a share. Excluding charges, earnings per share rose 23 percent from the second quarter.",
     "assets": [
@@ -232,6 +342,27 @@
     "image": "/news/slb/2019-10-baku.jpg",
     "imageCaption": "An oil pumpjack at work in Baku",
     "imageCredit": "Gulustan"
+  },
+  {
+    "month": "2019-11",
+    "kind": "colour",
+    "headline": "Disney+ starts streaming",
+    "text": "Disney launched its streaming service Disney+ on 12 November in the United States, Canada and the Netherlands, with films and series from Disney, Pixar, Marvel and Star Wars. It plans to roll it out worldwide over the next two years.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03)"
+  },
+  {
+    "month": "2019-11",
+    "kind": "world",
+    "headline": "Petrol price protests crushed behind an internet blackout",
+    "text": "After the government raised petrol prices by 50 to 200 percent overnight on 15 November, protests broke out across Iran. The authorities cut the internet almost entirely for about six days. Amnesty International said on 19 November that more than 100 protesters had been killed. Over 7,000 people have been arrested.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Iranian_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03)",
+    "image": "/news/middle-east/2019-11-fuel-protests.jpg",
+    "imageCaption": "Fuel price protests in Iran, November 2019",
+    "imageCredit": "Fars News Agency"
   },
   {
     "month": "2019-11",
@@ -249,6 +380,16 @@
   {
     "month": "2019-11",
     "kind": "company",
+    "headline": "eBay sells StubHub for $4 billion",
+    "text": "eBay agreed to sell StubHub, its ticket resale marketplace, to Viagogo for $4.05 billion in cash. Chief executive Devin Wenig left in September under pressure from the activist fund Elliott.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+  },
+  {
+    "month": "2019-11",
+    "kind": "company",
     "headline": "McDonald's fires its CEO over a relationship with an employee",
     "text": "On 3 November McDonald's board dismissed chief executive Steve Easterbrook for a consensual relationship with an employee, which breaks company policy. Chris Kempczinski, president of McDonald's USA and a former PepsiCo and Kraft executive, became chief executive.",
     "assets": [
@@ -261,14 +402,13 @@
   },
   {
     "month": "2019-11",
-    "kind": "world",
-    "headline": "Petrol price protests crushed behind an internet blackout",
-    "text": "After the government raised petrol prices by 50 to 200 percent overnight on 15 November, protests broke out across Iran. The authorities cut the internet almost entirely for about six days. Amnesty International said on 19 November that more than 100 protesters had been killed. Over 7,000 people have been arrested.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Iranian_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack (read 2026-10-03)",
-    "image": "/news/middle-east/2019-11-fuel-protests.jpg",
-    "imageCaption": "Fuel price protests in Iran, November 2019",
-    "imageCredit": "Fars News Agency"
+    "kind": "company",
+    "headline": "Novartis buys The Medicines Company",
+    "text": "In late November Novartis agreed to buy The Medicines Company for $9.7 billion, $85 a share. It is Novartis's second big purchase under Narasimhan after AveXis.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
   },
   {
     "month": "2019-11",
@@ -285,6 +425,18 @@
   },
   {
     "month": "2019-12",
+    "kind": "world",
+    "headline": "2019 in review: up 29 percent as the Fed cuts rates",
+    "text": "The S&P 500 gained 29% in 2019 to 3,230.78, after first closing above 3,000 on 12 July, and the Dow 22.3%. The Federal Reserve cut its key rate three times, in July, September and October, to between 1.5 and 1.75 percent.",
+    "assets": [
+      "ust2020",
+      "ust2025",
+      "ust2030"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+  },
+  {
+    "month": "2019-12",
     "kind": "company",
     "headline": "Boeing halts MAX production and fires its CEO",
     "text": "On 16 December Boeing said it will suspend 737 MAX production in January, as the plane's return to service drags on. On 23 December the board dismissed chief executive Dennis Muilenburg and named chairman Dave Calhoun to replace him.",
@@ -295,5 +447,15 @@
     "image": "/news/ba/2019-12-muilenburg-senate.jpg",
     "imageCaption": "Boeing chief executive Dennis Muilenburg testifying before the Senate Commerce Committee on the 737 MAX crashes, Washington, 29 October 2019",
     "imageCredit": "AP"
+  },
+  {
+    "month": "2019-12",
+    "kind": "company",
+    "headline": "Sony merges its phone, TV and camera businesses",
+    "text": "During 2019 Sony merged its mobile phone, television and camera businesses into one unit. Sony's ADR rose about 40% this year.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
   }
 ]

@@ -1,18 +1,5 @@
 [
   {
-    "id": "11368006",
-    "month": "1979-12",
-    "title": "Wal-Mart, the discount chain from small-town Arkansas",
-    "what": "Wal-Mart Stores, run by its founder Sam Walton from Bentonville, Arkansas, sells everyday goods at low prices in small towns of the American South. It has grown from 38 stores and 44 million dollars of sales when it went public in October 1970 to 276 stores and about 21,000 employees in 1979, and its yearly sales are about to pass one billion dollars. The Walton family owned 61% of the shares at the listing.",
-    "why": "The starting point of one of the great compounding stories of the game: at the start a player can buy a fast-growing regional chain that will become the largest retailer in the world. Game-start beat (the stock was listed long before the game begins).",
-    "assets": [
-      "wmt"
-    ],
-    "importance": 1,
-    "source": "https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03); https://www.fool.com/investing/2017/01/01/wal-mart-stock-history-how-the-worlds-biggest-reta.aspx (read 2026-10-03)",
-    "cut": true
-  },
-  {
     "id": "cc76af4f",
     "month": "1980-04",
     "title": "Wal-Mart passes a billion dollars in yearly sales",
@@ -21,22 +8,8 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "d3e75f7f",
-    "month": "1981-06",
-    "title": "Wal-Mart agrees to take over the Kuhn's Big K chain",
-    "what": "Wal-Mart agreed in June to buy Kuhn's Big K, a struggling discount chain, in a deal valued at about 13 million dollars. The purchase brings 92 stores and pushes Wal-Mart into the Southeast. A first attempt to merge the two in 1980 had failed over store leases.",
-    "why": "The first sizeable acquisition, and the start of the expansion out of the home region that fed the 1982-83 rerating.",
-    "assets": [
-      "wmt"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Kuhn%27s-Big_K (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "996693e3",
@@ -51,7 +24,6 @@
       "asset": "wmt",
       "pct": 21
     },
-    "importance": 2,
     "source": "https://www.upi.com/Archives/1982/12/31/Yearend-stocksStocks-score-best-gain-in-7-years-on-record-volume-in-historic-1982/9275410158800/ (read 2026-10-03)",
     "lead": true
   },
@@ -64,7 +36,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.upi.com/Archives/1984/03/15/WALL-STREET-HULA/9443448174800/ (read 2026-10-03)"
   },
   {
@@ -76,7 +47,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 1,
     "source": "https://www.upi.com/Archives/1985/11/10/Americas-richest-man-is-one-of-the-boys/8990500446800 (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03)",
     "lead": true
   },
@@ -93,7 +63,6 @@
       "asset": "wmt",
       "pct": -27
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03)",
     "lead": true
   },
@@ -106,7 +75,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)"
   },
   {
@@ -118,7 +86,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03); data/out/wmt.json price series"
   },
   {
@@ -130,7 +97,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 1,
     "source": "https://www.upi.com/Archives/1991/03/08/Sears-no-longer-top-retailer-works-on-regaining-market-share/4206668408400/ (read 2026-10-03)",
     "lead": true
   },
@@ -143,7 +109,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/cifra-sa-de-cv (search result summary read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)"
   },
   {
@@ -155,7 +120,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Walmart_Canada (read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)"
   },
   {
@@ -167,7 +131,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03)"
   },
   {
@@ -179,7 +142,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.benzinga.com/general/education/22/03/20213759/this-day-in-market-history-walmart-johnson-johnson-join-dow-jones-1 (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)"
   },
   {
@@ -191,7 +153,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "Wal-Mart Stores 1999 Annual Report, letter and Q&A with David Glass, https://stock.walmart.com/_assets/_46796feebc5ddf6d2adbeabac9558ae9/walmart/db/950/9626/annual_report/1999-annual-report-for-walmart-stores-inc_130199459840185623.pdf (read 2026-10-03); https://corporate.walmart.com/news/2008/11/06/wal-mart-reports-october-1998-sales (search result summary read 2026-10-03)"
   },
   {
@@ -203,7 +164,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 1,
     "source": "https://money.cnn.com/1999/06/14/worldbiz/asda/ (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Asda (read 2026-10-03)"
   },
   {
@@ -215,7 +175,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
@@ -227,7 +186,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Wal-Mart_Stores,_Inc._v._Dukes (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/walmart/transform/cron.html (read 2026-10-03)"
   },
   {
@@ -239,7 +197,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.forbes.com/2006/07/28/walmart-germany-metro-cx_po_0728walmart.html (search result summary read 2026-10-03); https://www.cbsnews.com/news/wal-marts-german-flop/ (search result summary read 2026-10-03)",
     "lead": true
   },
@@ -252,7 +209,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Wal-Mart_Stores,_Inc._v._Dukes (read 2026-10-03)"
   },
   {
@@ -264,7 +220,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://abcnews.go.com/blogs/business/2012/04/wal-mart-de-mexico-engaged-in-widespread-bribery-nytimes-reports (search result summary read 2026-10-03); https://money.cnn.com/2012/04/22/news/companies/walmart-mexico-bribery/index.htm (search result summary read 2026-10-03)"
   },
   {
@@ -276,7 +231,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
@@ -288,7 +242,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 1,
     "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)"
   },
   {
@@ -301,7 +254,6 @@
       "wmt",
       "amzn"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); https://en.wikipedia.org/wiki/Jet.com (read 2026-10-03)"
   },
   {
@@ -317,7 +269,6 @@
       "asset": "wmt",
       "pct": -16
     },
-    "importance": 2,
     "source": "https://www.fool.com/investing/2018/02/20/why-walmart-stock-plunged-today.aspx (read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
@@ -330,7 +281,6 @@
       "wmt",
       "amzn"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Flipkart (read 2026-10-03)"
   },
   {
@@ -342,7 +292,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
@@ -358,7 +307,6 @@
       "asset": "wmt",
       "pct": -16
     },
-    "importance": 1,
     "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)"
   },
   {
@@ -370,7 +318,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000004/pressrelease1302024.htm (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
   },
   {
@@ -382,7 +329,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); data/out/wmt.json price series"
   },
   {
@@ -394,7 +340,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 2,
     "source": "https://www.cnn.com/2025/11/14/business/walmart-ceo-doug-mcmillon-retire (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)"
   },
   {
@@ -406,7 +351,6 @@
     "assets": [
       "wmt"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Walmart (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03)"
   }
 ]

@@ -1,31 +1,5 @@
 [
   {
-    "id": "7da1f8d9",
-    "month": "1981-04",
-    "title": "Jack Welch, 45, takes charge of GE",
-    "what": "Jack Welch, 45, a vice chairman since 1979 and a chemical engineer who joined GE in 1960, has succeeded Reginald Jones as chairman and chief executive. He is the youngest chairman in GE's history and only its eighth. Jones chose him after a long contest between internal candidates.",
-    "why": "The man who defines the next twenty years of the stock. GE confirms 1981; the month follows data/src/profiles.ts and data/news/1981.json (exact date not re-confirmed). The choice itself was announced in late 1980.",
-    "assets": [
-      "ge"
-    ],
-    "importance": 1,
-    "source": "https://www.ge.com/news/reports/jack-welch-the-ultimate-manager-who-oversaw-ges-rise-to-the-most-valuable-company-dies-at-84 (read 2026-10-03); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03); https://en.wikipedia.org/wiki/Reginald_H._Jones (read 2026-10-03)",
-    "cut": true
-  },
-  {
-    "id": "bccf3f05",
-    "month": "1981-12",
-    "title": "Welch: number one or number two, or get out",
-    "what": "On 8 December Jack Welch told Wall Street analysts at the Pierre hotel in New York that GE will keep only businesses that are number one or number two in their markets. The rest are to be fixed, sold or closed. For a company that makes everything from toasters to turbines, it means deep cuts.",
-    "why": "The strategy speech of the era. Between 1980 and 1985 GE's payroll fell from 411,000 to 299,000, earning Welch the nickname 'Neutron Jack'.",
-    "assets": [
-      "ge"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/December_1981 (read 2026-10-03); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03)",
-    "cut": true
-  },
-  {
     "id": "a4d05a97",
     "month": "1984-07",
     "title": "GE buys a big reinsurer and builds a finance arm",
@@ -34,7 +8,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://www.upi.com/Archives/1984/07/02/General-Electric-Corp-expanded-its-interests-into-fast-growth-financial/8730457588800/ (read 2026-10-03)"
   },
   {
@@ -46,7 +19,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://www.upi.com/Archives/1988/06/16/General-Electric-Co-said-Thursday-it-has-acquired-through/7418582436800/ (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 2007 sale to SABIC)"
   },
   {
@@ -58,7 +30,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Joseph_Jett (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, on the 1994 sale to PaineWebber). The exact month of disclosure (April 1994) is not confirmed in the sources read; Jett's 'profits' are dated to the first quarter of 1994."
   },
   {
@@ -70,7 +41,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Boston Business Journal 2018-10-30: market value of $601 billion in August 2000); https://en.wikipedia.org/wiki/Jack_Welch (read 2026-10-03, financial services share)"
   },
   {
@@ -82,7 +52,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Honeywell (read 2026-10-03, citing The Economist 2001-07-05)"
   },
   {
@@ -94,7 +63,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Honeywell (read 2026-10-03, citing Time 2001-07-08)"
   },
   {
@@ -106,7 +74,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000095013002001437/ddef14a.txt (GE proxy 2002, read 2026-10-03); https://www.ge.com/news/reports/jack-welch-the-ultimate-manager-who-oversaw-ges-rise-to-the-most-valuable-company-dies-at-84 (read 2026-10-03, $14 billion to $410 billion)"
   },
   {
@@ -118,7 +85,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing desertskywind.com news of 2002-05-02). Month inferred from the date of the cited page."
   },
   {
@@ -130,7 +96,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Forbes 2004-05-25)"
   },
   {
@@ -142,7 +107,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing NYT 2007-05-22)"
   },
   {
@@ -154,7 +118,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054508000014/ex99.htm (GE results release of 2008-04-11, read 2026-10-03)"
   },
   {
@@ -171,8 +134,22 @@
       "asset": "ge",
       "pct": -23
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/40545/000090951808000745/mm10-0108_8ke991.htm (GE press release of 2008-10-01, read 2026-10-03)"
+  },
+  {
+    "id": "cc033edc",
+    "month": "2009-02",
+    "title": "GE cuts its dividend by two thirds",
+    "what": "On 27 February General Electric's board decided to cut the quarterly dividend from 31 cents to 10 cents from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
+    "why": "Explains the -30% month, GE's worst in the game: the dividend had been the reason many families owned GE. The stock bottomed in early March 2009.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -30
+    },
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000079746309000010/exhibit99.htm (GE press release of 2009-02-27, read 2026-10-03)"
   },
   {
     "id": "49972bfd",
@@ -183,7 +160,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Deadline 2013-03-19)"
   },
   {
@@ -195,7 +171,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/GE_Capital (read 2026-10-03, citing NYT 2015-04-10); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and Reuters April 2015)"
   },
   {
@@ -207,7 +182,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Reuters 2015-10-05)"
   },
   {
@@ -219,7 +193,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03, citing NYT 2017-06-12 and Fortune 2017-06-12)"
   },
   {
@@ -231,7 +204,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Dividends' section); https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03)"
   },
   {
@@ -243,7 +215,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, $14.5 billion required by the Kansas regulator over seven years). The charge was announced in January 2018 with fourth-quarter results; exact date not re-confirmed."
   },
   {
@@ -255,7 +226,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Stock' section, citing Nasdaq 2018-06-20 and Yahoo 2018-06-20)"
   },
   {
@@ -267,7 +237,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Larry_Culp (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054518000079/ge3q2018ex99.htm (GE third-quarter 2018 results, read 2026-10-03)"
   },
   {
@@ -283,7 +252,6 @@
       "asset": "ge",
       "pct": 34
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000006/ge4q2018ex99.htm (GE fourth-quarter 2018 results tables, read 2026-10-03)"
   },
   {
@@ -299,7 +267,6 @@
       "asset": "ge",
       "pct": -21
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing BBC and CNN 2019-08-15)"
   },
   {
@@ -311,7 +278,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing CNBC and Reuters 2021-11-09)"
   },
   {
@@ -327,7 +293,6 @@
       "asset": "ge",
       "pct": 26
     },
-    "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054522000059/ge3q2022earningsrelease.htm (GE third-quarter 2022 results, read 2026-10-03)"
   },
   {
@@ -343,7 +308,6 @@
       "asset": "ge",
       "pct": 23
     },
-    "importance": 1,
     "source": "https://www.ge.com/news/press-releases/ge-completes-separation-of-ge-healthcare (page found, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054523000019/ge4q2022earningsrelease.htm (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)"
   },
   {
@@ -355,7 +319,6 @@
     "assets": [
       "ge"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/GE_Vernova (read 2026-10-03, citing GE Vernova press release 2024-04-02); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03)"
   },
   {
@@ -371,7 +334,6 @@
       "asset": "ge",
       "pct": 22
     },
-    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000009/ge4q2024earningsrelease.htm (read 2026-10-03)"
   }
 ]

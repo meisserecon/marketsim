@@ -1,6 +1,16 @@
 [
   {
     "month": "2006-01",
+    "kind": "world",
+    "headline": "Iran fears push oil toward $70",
+    "text": "US crude rose 13% in January to $67.86 a barrel as the dispute over Iran's nuclear programme sharpened and attacks hit Nigeria's oil industry.",
+    "assets": [
+      "slb"
+    ],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
+  },
+  {
+    "month": "2006-01",
     "kind": "company",
     "headline": "Record profit, a share split and a bigger dividend",
     "text": "On 19 January Schlumberger announced a two-for-one share split and raised its dividend by 19 percent. A day later it reported 2005 net income of 2.21 billion dollars, up 78 percent per share, and record oilfield revenue. Chief executive Andrew Gould expects exploration to 'show a large increase in 2006' and to continue for years, with shortages of people and equipment across the industry.",
@@ -15,19 +25,6 @@
   {
     "month": "2006-01",
     "kind": "company",
-    "headline": "A record 36 billion dollars, and a new boss",
-    "text": "ExxonMobil reported on 30 January a 2005 profit of 36.13 billion dollars, by far the largest in its history (2004: 25.33 billion), including 10.71 billion in the fourth quarter alone. US crude rose to nearly 70 dollars a barrel last year. Rex Tillerson took over as chief executive on 1 January from Lee Raymond, who retired.",
-    "assets": [
-      "xom"
-    ],
-    "source": "ExxonMobil 4Q05 investor relations data summary (Form 8-K of 30 January 2006, exhibit 99.2), https://www.sec.gov/Archives/edgar/data/34088/000003408806000025/r4q05ex992.htm (read 2026-10-03); ExxonMobil press release of 31 January 2005 (2004 profit), https://www.sec.gov/Archives/edgar/data/34088/000003408805000026/r013105ex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Rex_Tillerson (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
-    "image": "/news/xom/2006-01-tillerson-cheney.jpg",
-    "imageCaption": "Rex Tillerson of Exxon Mobil talking with Vice President Dick Cheney in the White House, June 2007",
-    "imageCredit": " White House (Office of Management and Administration), via DPLA"
-  },
-  {
-    "month": "2006-01",
-    "kind": "company",
     "headline": "Disney buys Pixar for 7.4 billion dollars",
     "text": "On 24 January Disney agreed to buy Pixar, the computer animation studio behind Toy Story and Finding Nemo, for about 7.4 billion dollars in Disney shares. Pixar's chief executive Steve Jobs will join Disney's board.",
     "assets": [
@@ -38,6 +35,19 @@
     "image": "/news/dis/2006-01-jobs-iger-pixar.jpg",
     "imageCaption": "Ed Catmull, Steve Jobs, Bob Iger and John Lasseter at Pixar's headquarters in Emeryville after Disney announced it is buying Pixar, January 2006",
     "imageCredit": "Paul Sakuma/Associated Press"
+  },
+  {
+    "month": "2006-01",
+    "kind": "company",
+    "headline": "A record 36 billion dollars, and a new boss",
+    "text": "ExxonMobil reported on 30 January a 2005 profit of 36.13 billion dollars, by far the largest in its history (2004: 25.33 billion), including 10.71 billion in the fourth quarter alone. US crude rose to nearly 70 dollars a barrel last year. Rex Tillerson took over as chief executive on 1 January from Lee Raymond, who retired.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil 4Q05 investor relations data summary (Form 8-K of 30 January 2006, exhibit 99.2), https://www.sec.gov/Archives/edgar/data/34088/000003408806000025/r4q05ex992.htm (read 2026-10-03); ExxonMobil press release of 31 January 2005 (2004 profit), https://www.sec.gov/Archives/edgar/data/34088/000003408805000026/r013105ex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Rex_Tillerson (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
+    "image": "/news/xom/2006-01-tillerson-cheney.jpg",
+    "imageCaption": "Rex Tillerson of Exxon Mobil talking with Vice President Dick Cheney in the White House, June 2007",
+    "imageCredit": " White House (Office of Management and Administration), via DPLA"
   },
   {
     "month": "2006-03",
@@ -79,6 +89,19 @@
   },
   {
     "month": "2006-06",
+    "kind": "world",
+    "headline": "Seventeenth hike in a row; gold falls back from a 26-year high",
+    "text": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May.",
+    "assets": [
+      "gold"
+    ],
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
+    "image": "/news/rates/2006-06-bernanke-chicago.jpg",
+    "imageCaption": "Fed Chairman Ben Bernanke speaks to the Economic Club of Chicago, 15 June 2006",
+    "imageCredit": "Photo by Peter Thompson/Getty Images"
+  },
+  {
+    "month": "2006-06",
     "kind": "company",
     "headline": "Winterthur sold to AXA",
     "text": "On 14 June Credit Suisse agreed to sell the Winterthur insurance group to the French insurer AXA. The bank wants to concentrate on private banking, investment banking and asset management as one integrated bank.",
@@ -104,19 +127,6 @@
     "imageCredit": "Filipe Fortes from New York, United States"
   },
   {
-    "month": "2006-06",
-    "kind": "world",
-    "headline": "Seventeenth hike in a row; gold falls back from a 26-year high",
-    "text": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May.",
-    "assets": [
-      "gold"
-    ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
-    "image": "/news/rates/2006-06-bernanke-chicago.jpg",
-    "imageCaption": "Fed Chairman Ben Bernanke speaks to the Economic Club of Chicago, 15 June 2006",
-    "imageCredit": "Photo by Peter Thompson/Getty Images"
-  },
-  {
     "month": "2006-07",
     "kind": "company",
     "headline": "Wal-Mart gives up on Germany",
@@ -128,6 +138,29 @@
     "image": "/news/wmt/2006-07-wertkauf.jpg",
     "imageCaption": "Wertkauf logo, the German chain Wal-Mart bought in 1997",
     "imageCredit": "Wertkauf"
+  },
+  {
+    "month": "2006-07",
+    "kind": "company",
+    "headline": "Amazon's profit falls as it spends on technology",
+    "text": "Amazon reported second-quarter sales of $2.14 billion, up 22%, but net income fell to $22 million from $52 million a year earlier. The company keeps spending on technology, and new businesses such as web services for other companies.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-06-152620.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)",
+    "image": "/news/amzn/2006-07-werner-vogels.jpg",
+    "imageCaption": "Werner Vogels, 2013",
+    "imageCredit": "Raysonho @ Open Grid Scheduler / Grid Engine"
+  },
+  {
+    "month": "2006-07",
+    "kind": "company",
+    "headline": "eBay's revenue grows 30% but the stock slumps",
+    "text": "eBay reported record second-quarter revenue of $1.41 billion, up 30%, with growth from the marketplaces, PayPal and Skype, and announced a $2 billion share buyback. About 35% of the goods sold on eBay now sell at fixed prices.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0000950134-06-013452.txt (8-K with press release, read 2026-10-03)"
   },
   {
     "month": "2006-08",
@@ -158,6 +191,16 @@
   {
     "month": "2006-09",
     "kind": "company",
+    "headline": "Norbert Reithofer takes the wheel",
+    "text": "Norbert Reithofer succeeded Helmut Panke as chairman of BMW on 1 September.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Norbert_Reithofer (read 2026-10-03)"
+  },
+  {
+    "month": "2006-09",
+    "kind": "company",
     "headline": "Intel cuts 10,500 jobs after losing ground to AMD",
     "text": "Intel will eliminate 10,500 jobs, about a tenth of its workforce, through layoffs, attrition and the sale of business groups, and trim about 5 billion dollars of costs over two years. It has lost market share to AMD, whose Opteron and Athlon 64 chips have been ahead since 2003. Chief executive Paul Otellini compared the overhaul to the exit from memory chips in the 1980s.",
     "assets": [
@@ -170,12 +213,25 @@
   },
   {
     "month": "2006-10",
+    "kind": "company",
+    "headline": "IBM's profits keep growing without PCs",
+    "text": "On 17 October IBM reported third-quarter earnings of 1.45 dollars a share, up 15% excluding a one-time tax charge a year ago, on revenue of 22.6 billion dollars, up 5%. Mainframe revenue rose 25%. Chief executive Sam Palmisano credited the repositioning of IBM's business model toward the growth and profit areas of the industry.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465906067047/a06-19062_48k.htm (IBM 8-K with the results release of 2006-10-17, read 2026-10-03)"
+  },
+  {
+    "month": "2006-10",
     "kind": "world",
     "headline": "House prices are falling",
     "text": "The median price of an existing single-family home fell to 219,800 dollars in September, 2.5 percent less than a year earlier and the biggest drop in records going back nearly four decades; prices had also fallen in August. Sales slowed to an annual rate of 6.18 million, the lowest since January 2004, and 3.75 million unsold homes are on the market, enough for 7.3 months. Between June 2004 and June 2006 the Fed raised its rate seventeen times, from 1 to 5.25 percent, and the era of cheap mortgages is over. The realtors' chief economist says 'the worst is behind us'.",
     "assets": [],
     "source": "https://www.nbcnews.com/news/amp/wbna15412842 (AP, 25 October 2006; read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-04); https://en.wikipedia.org/wiki/United_States_housing_bubble (read 2026-10-04)",
-    "thread": "housing-crisis"
+    "thread": "housing-crisis",
+    "image": "/news/markets/2006-10-foreclosure.jpg",
+    "imageCaption": "Foreclosure, 2008",
+    "imageCredit": "User:Brendel at en.wikipedia.org"
   },
   {
     "month": "2006-10",
@@ -196,7 +252,10 @@
     "headline": "Google buys YouTube",
     "text": "Google completed its purchase of YouTube on 13 November for 1.65 billion dollars. The video-sharing site was registered in February 2005, and its first video, 'Me at the zoo', went online in April 2005; now people upload huge numbers of home-made clips every day.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/YouTube (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/YouTube (read 2026-10-03)",
+    "image": "/news/life/2006-11-chad-hurley.jpg",
+    "imageCaption": "Chad Hurley, 2010",
+    "imageCredit": "The Bui Brothers"
   },
   {
     "month": "2006-11",
@@ -219,7 +278,10 @@
     "assets": [
       "sony"
     ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)",
+    "image": "/news/sony/2006-11-ken-kutaragi.jpg",
+    "imageCaption": "Ken Kutaragi, 2014",
+    "imageCredit": "Official GDC"
   },
   {
     "month": "2006-12",
@@ -240,7 +302,10 @@
     "headline": "Nintendo's Wii: games you play by moving",
     "text": "Nintendo's Wii console reached Europe in December, after North America in November. Its wireless controller senses movement, so players swing their arms to play tennis or bowling.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Wii (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Wii (read 2026-10-03)",
+    "image": "/news/life/2006-12-wii.jpg",
+    "imageCaption": "Wii, 2010",
+    "imageCredit": "Evan-Amos"
   },
   {
     "month": "2006-12",
@@ -248,7 +313,10 @@
     "headline": "2006 in review: the Dow at a record, for the first time since 2000",
     "text": "The S&P 500 rose 14% in 2006 to 1,418.30, and the Dow gained 16.3% to 12,463.15 after closing above 12,000 for the first time on 19 October, beating its record of January 2000. The Federal Reserve stopped raising rates in June, at 5.25 percent.",
     "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "image": "/news/markets/2006-12-wall-street.jpg",
+    "imageCaption": "Wall Street, 2026",
+    "imageCredit": "Ajay Suresh"
   },
   {
     "month": "2006-12",

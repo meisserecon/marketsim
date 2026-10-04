@@ -11,6 +11,27 @@
     "imageCredit": "Lietmotiv"
   },
   {
+    "month": "1991-02",
+    "kind": "company",
+    "headline": "Hopes of peace in the Gulf lift shares",
+    "text": "Stock markets rose in February as the Gulf war neared its end, after Iraq said it was ready, under conditions, to leave Kuwait.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); Die Zeit, 'Markt-Report: Jubel-Hausse blieb aus', 1 March 1991, https://www.zeit.de/1991/10/jubel-hausse-blieb-aus (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
+  },
+  {
+    "month": "1991-02",
+    "kind": "world",
+    "headline": "Kuwait is free after a hundred hours of ground war",
+    "text": "The attack on the ground began on 24 February and ended after one hundred hours: on 28 February President Bush declared a ceasefire, with Kuwait freed and Iraq's army driven out. A coalition of 42 countries with more than 950,000 soldiers took part. Retreating Iraqi troops set fire to more than six hundred Kuwaiti oil wells.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gulf_War (read 2026-10-04)",
+    "image": "/news/middle-east/1991-02-kuwaiti-oil-fires.jpg",
+    "imageCaption": "Kuwaiti oil fires, 1991",
+    "imageCredit": "Habib Hassan Kuwait"
+  },
+  {
     "month": "1991-03",
     "kind": "company",
     "headline": "Wal-Mart overtakes Sears as America's largest retailer",
@@ -22,6 +43,16 @@
     "image": "/news/wmt/1991-03-walton-store-visit.jpg",
     "imageCaption": "Sam Walton, in his Wal-Mart cap and name badge, talks with an associate on a store visit",
     "imageCredit": "Walmart (company picture)"
+  },
+  {
+    "month": "1991-03",
+    "kind": "company",
+    "headline": "McDonald's tries a low-fat burger",
+    "text": "McDonald's is introducing the McLean Deluxe, a hamburger with a patty that is 91% fat-free, to win health-conscious customers. Abroad, McDonald's now runs more than 3,600 restaurants in 58 countries, and 37% of systemwide sales come from outside the United States.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03; the month of launch is not given there, only the year 1991)"
   },
   {
     "month": "1991-05",
@@ -52,16 +83,6 @@
   {
     "month": "1991-07",
     "kind": "company",
-    "headline": "LDDS shares have quadrupled in eighteen months",
-    "text": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
-  },
-  {
-    "month": "1991-07",
-    "kind": "company",
     "headline": "Apple and IBM, enemies for a decade, agree to work together",
     "text": "On 3 July Apple and IBM signed a letter of intent for an alliance that would have been unthinkable a few years ago: a new family of microprocessors with Motorola, derived from IBM's POWER chips, a joint company to build a next-generation operating system from Apple's \"Pink\" project, and another for multimedia software. The aim is a common platform that other makers can build on, a direct challenge to the Microsoft-and-Intel world of the PC. Apple shares rose 11% in July.",
     "assets": [
@@ -76,17 +97,28 @@
     "imageCredit": "David E Larsson"
   },
   {
-    "month": "1991-08",
+    "month": "1991-07",
     "kind": "company",
-    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
-    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
+    "headline": "LDDS shares have quadrupled in eighteen months",
+    "text": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
     "assets": [
-      "ibj"
+      "worldcom"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
-    "image": "/news/ibj/1985-05-ibj-head-office.jpg",
-    "imageCaption": "The head office of the Industrial Bank of Japan, Tokyo",
-    "imageCredit": "Yuukokusya"
+    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "image": "/news/worldcom/1991-07-bernard-ebbers.jpg",
+    "imageCaption": "Bernard Ebbers, 2001",
+    "imageCredit": "U.S. National Communications System"
+  },
+  {
+    "month": "1991-08",
+    "kind": "world",
+    "headline": "The World Wide Web opens to the internet",
+    "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)",
+    "image": "/news/tech/1991-08-web-server.jpg",
+    "imageCaption": "The NeXT computer that served as the first web server at CERN, Geneva, where Tim Berners-Lee built the World Wide Web in 1990-91",
+    "imageCredit": "Coolcaesar"
   },
   {
     "month": "1991-08",
@@ -95,7 +127,10 @@
     "text": "On 19 August eight hardliners, among them Vice President Gennady Yanayev, KGB chief Vladimir Kryuchkov and Defence Minister Dmitry Yazov, announced that they had taken power, saying Mikhail Gorbachev was unable to govern; he was held at his holiday home in Crimea, a day before he was to sign a new union treaty giving the republics more power. Tanks came into Moscow, but Russia's president Boris Yeltsin climbed onto one outside the Russian parliament and called for resistance; three civilians were killed on 21 August, and the coup collapsed. Gorbachev gave up the leadership of the Communist Party on 24 August, the day Ukraine declared independence; Estonia and Latvia had declared theirs during the coup.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt (read 2026-10-04); https://en.wikipedia.org/wiki/State_Committee_on_the_State_of_Emergency (read 2026-10-04); https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-04)",
-    "thread": "soviet"
+    "thread": "soviet",
+    "image": "/news/world/1991-08-1991-soviet-coup-attempt.jpg",
+    "imageCaption": "1991 Soviet coup attempt, 1991",
+    "imageCredit": "ITAR-TASS"
   },
   {
     "month": "1991-08",
@@ -112,14 +147,16 @@
   },
   {
     "month": "1991-08",
-    "kind": "world",
-    "headline": "The World Wide Web opens to the internet",
-    "text": "On 23 August Tim Berners-Lee's World Wide Web, a system of linked pages developed at the CERN physics laboratory in Geneva, was made available to the whole internet. The internet itself still links mainly universities and research labs.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/World_Wide_Web (read 2026-10-03)",
-    "image": "/news/tech/1991-08-web-server.jpg",
-    "imageCaption": "The NeXT computer that served as the first web server at CERN, Geneva, where Tim Berners-Lee built the World Wide Web in 1990-91",
-    "imageCredit": "Coolcaesar"
+    "kind": "company",
+    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
+    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "image": "/news/ibj/1985-05-ibj-head-office.jpg",
+    "imageCaption": "The head office of the Industrial Bank of Japan, Tokyo",
+    "imageCredit": "Yuukokusya"
   },
   {
     "month": "1991-10",
@@ -148,6 +185,16 @@
     "image": "/news/ibj/1985-05-ibj-head-office.jpg",
     "imageCaption": "The head office of the Industrial Bank of Japan, Tokyo",
     "imageCredit": "Yuukokusya"
+  },
+  {
+    "month": "1991-10",
+    "kind": "company",
+    "headline": "Exxon pleads guilty and settles Valdez claims for 1 billion",
+    "text": "On 8 and 9 October a federal judge in Alaska accepted Exxon's guilty plea and a 1.025 billion dollar settlement with the United States and the state of Alaska. Exxon pays 25 million in criminal fines, 100 million in restitution and 900 million over ten years into a fund to restore Prince William Sound. Lawsuits by fishermen and other Alaskans are not covered and continue.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://www.upi.com/Archives/1991/10/08/Exxon-pleads-guilty-judge-accepts-1-billion-settlement/7997686894400/ (read 2026-10-03); https://evostc.state.ak.us/oil-spill-facts/settlement/ (read 2026-10-03)"
   },
   {
     "month": "1991-12",

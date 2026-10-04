@@ -8,7 +8,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott (read 2026-10-03)"
   },
   {
@@ -20,7 +19,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Helmut_Maucher (read 2026-10-03)",
     "note": "Add some information about revenues, profits and market cap, if available"
   },
@@ -33,7 +31,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott (read 2026-10-03); https://waba.org.my/theboycottbook/takingongoliath.pdf (cited in data/news/1984.json, not re-read)"
   },
   {
@@ -45,7 +42,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://www.upi.com/Archives/1984/09/04/Nestle-to-acquire-Carnation-Co/2482463118400/ (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
@@ -62,7 +58,6 @@
       "asset": "nestle",
       "pct": 16
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS daily CHF per USD, data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
@@ -75,7 +70,6 @@
       "nestle",
       "sandoz"
     ],
-    "importance": 1,
     "source": "Neue Zürcher Zeitung, 31 December 1985, p. 17 ('Viel Glanz über dem Aktienmarkt'), scan data/manual/scans/nzz/NZZ_1985-12-31.pdf (read 2026-10-03); https://en.wikipedia.org/wiki/Plaza_Accord (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
     "lead": true
   },
@@ -88,7 +82,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nespresso (read 2026-10-03)"
   },
   {
@@ -100,7 +93,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Rowntree%27s (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
@@ -117,7 +109,6 @@
       "asset": "nestle",
       "pct": -20
     },
-    "importance": 1,
     "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03); Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 37(3), 1995, abstract via search result summary (read 2026-10-03)"
   },
   {
@@ -129,27 +120,8 @@
     "assets": [
       "nestle"
     ],
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Perrier (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "26d30234",
-    "month": "1999-01",
-    "title": "Weak sales knock Nestlé and Novartis",
-    "what": "Nestlé and Novartis both reported sharp drops in sales in the week of 18 January, and their shares lost markedly, the NZZ reported on 30 January. Investors are waiting nervously for the full results with profits. Nestlé closed January at 2,595 francs, against 2,990 at the end of December.",
-    "why": "Explains the 16% fall of January 1999 (13% in francs); a rare bad month in Nestlé's long rise. Emerging-market currency troubles of the time are a likely factor but were not confirmed in a source.",
-    "assets": [
-      "nestle",
-      "novartis"
-    ],
-    "move": {
-      "asset": "nestle",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "Neue Zürcher Zeitung, 30 January 1999, p. 33 (weekly Swiss market report, 'Gezügelter Risikoappetit'), scan data/manual/scans/nzz/NZZ_1999-01-30.pdf, text layer (read 2026-10-03); data/manual/raw/nzz-readings-1995-1998.csv",
-    "cut": true
   },
   {
     "id": "e201eb52",
@@ -160,7 +132,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03)"
   },
   {
@@ -172,7 +143,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03)"
   },
   {
@@ -185,7 +155,6 @@
       "nestle",
       "novartis"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)"
   },
   {
@@ -202,7 +171,6 @@
       "asset": "nestle",
       "pct": -11
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
   },
   {
@@ -214,7 +182,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
@@ -227,7 +194,6 @@
       "nestle",
       "novartis"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
   },
   {
@@ -239,7 +205,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Paul_Bulcke (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
   },
   {
@@ -251,7 +216,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03)"
   },
   {
@@ -263,7 +227,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03)"
   },
   {
@@ -275,7 +238,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2020 (read 2026-10-03)"
   },
   {
@@ -287,7 +249,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2022 (read 2026-10-03)"
   },
   {
@@ -303,7 +264,6 @@
       "asset": "nestle",
       "pct": -9
     },
-    "importance": 1,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2023 (read 2026-10-03)"
   },
   {
@@ -315,7 +275,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Laurent_Freixe (read 2026-10-03)"
   },
   {
@@ -331,7 +290,6 @@
       "asset": "nestle",
       "pct": 13
     },
-    "importance": 2,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2024 (read 2026-10-03)"
   },
   {
@@ -347,7 +305,6 @@
       "asset": "nestle",
       "pct": -12
     },
-    "importance": 3,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2025 (read 2026-10-03)"
   },
   {
@@ -359,7 +316,6 @@
     "assets": [
       "nestle"
     ],
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Laurent_Freixe (read 2026-10-03); https://en.wikipedia.org/wiki/Philipp_Navratil (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Bulcke (read 2026-10-03)"
   },
   {
@@ -375,7 +331,6 @@
       "asset": "nestle",
       "pct": 15
     },
-    "importance": 1,
     "source": "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2025 (read 2026-10-03)"
   }
 ]

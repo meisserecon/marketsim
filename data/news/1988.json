@@ -1,5 +1,15 @@
 [
   {
+    "month": "1988-01",
+    "kind": "company",
+    "headline": "Sony completes the CBS Records purchase",
+    "text": "The 2 billion dollar sale of CBS Records to Sony was completed on 5 January. CBS keeps the rights to the CBS name for music recordings and gives Sony a temporary licence to use it.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sony_Music (read 2026-10-03)"
+  },
+  {
     "month": "1988-02",
     "kind": "company",
     "headline": "Foreign buyers return and Daimler leads the rebound",
@@ -11,6 +21,16 @@
     "image": "/news/mercedes/1988-02-300e.jpg",
     "imageCaption": "A Mercedes-Benz 300 E (W124), the Daimler-Benz model of 1985-1995",
     "imageCredit": "Riley from Christchurch, New Zealand"
+  },
+  {
+    "month": "1988-02",
+    "kind": "company",
+    "headline": "Phillips & Drew costs the Bankgesellschaft £115 million",
+    "text": "Phillips & Drew, the London broker the Bankgesellschaft bought in 1986, lost £48 million in the October crash. Together with the cost of a settlement system that broke down under the boom's volumes, the Swiss parent has spent as much as £115 million since April 1987 to shore it up.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
   },
   {
     "month": "1988-03",
@@ -34,6 +54,16 @@
     "image": "/news/mcd/1988-04-pylon-sign.jpg",
     "imageCaption": "McDonald's roadside sign with the golden arches",
     "imageCredit": "Quintin Soloviev"
+  },
+  {
+    "month": "1988-06",
+    "kind": "company",
+    "headline": "GE Plastics buys Borg-Warner's chemicals for 2.3 billion dollars",
+    "text": "General Electric's plastics division bought the chemicals business of Borg-Warner, which makes ABS plastic for computer cabinets, car parts and football helmets, for 2.3 billion dollars, 1 billion in cash and 1.3 billion borrowed. The unit had sales of 1.25 billion dollars last year; GE Plastics expects its own sales to grow from about 3 billion to 5 billion dollars a year.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.upi.com/Archives/1988/06/16/General-Electric-Co-said-Thursday-it-has-acquired-through/7418582436800/ (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 2007 sale to SABIC)"
   },
   {
     "month": "1988-06",
@@ -62,6 +92,16 @@
   {
     "month": "1988-10",
     "kind": "company",
+    "headline": "BMW starts building the Z1 roadster",
+    "text": "BMW began production of the Z1 in October, a two-seat roadster with plastic body panels and doors that slide down into the body. It was unveiled at the Frankfurt motor show in 1987; by the start of production the price had risen above the original target of 80,000 marks.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "https://en.wikipedia.org/wiki/BMW_Z1 (read 2026-10-03)"
+  },
+  {
+    "month": "1988-10",
+    "kind": "company",
     "headline": "Philip Morris buys Kraft for 13.1 billion dollars",
     "text": "On 30 October Kraft agreed to be bought by Philip Morris for 106 dollars a share, about 13.1 billion dollars, after Philip Morris raised its hostile offer from 90 dollars. It is the second-largest takeover in US history and makes Philip Morris the world's largest consumer goods company, with Kraft cheese, Philadelphia cream cheese and Velveeta next to General Foods' brands.",
     "assets": [
@@ -71,6 +111,17 @@
     "image": "/news/mo/1988-10-kraft-hq.jpg",
     "imageCaption": "Kraft headquarters, Northfield, Illinois",
     "imageCredit": "Kraft Foods Incorporated"
+  },
+  {
+    "month": "1988-11",
+    "kind": "world",
+    "headline": "George Bush wins the White House: \"Read my lips, no new taxes\"",
+    "text": "Vice President George Bush won the presidency on 8 November with 426 electoral votes and 53.4% of the vote against Michael Dukakis, the governor of Massachusetts. The campaign was marked by Bush's convention pledge, \"Read my lips: no new taxes\", and for Dukakis's ride in a tank, which the Bush campaign turned into an attack advertisement. Bush takes over from Reagan in January with the economy in its sixth year of growth.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1988_United_States_presidential_election (read 2026-10-03)",
+    "image": "/news/world/1988-11-bush-election-night.jpg",
+    "imageCaption": "George Bush watches the election returns in Houston, 8 November 1988",
+    "imageCredit": "George Bush Presidential Library and Museum"
   },
   {
     "month": "1988-11",
@@ -87,17 +138,6 @@
     "imageCredit": "Sputniktilt"
   },
   {
-    "month": "1988-11",
-    "kind": "world",
-    "headline": "George Bush wins the White House: \"Read my lips, no new taxes\"",
-    "text": "Vice President George Bush won the presidency on 8 November with 426 electoral votes and 53.4% of the vote against Michael Dukakis, the governor of Massachusetts. The campaign was marked by Bush's convention pledge, \"Read my lips: no new taxes\", and for Dukakis's ride in a tank, which the Bush campaign turned into an attack advertisement. Bush takes over from Reagan in January with the economy in its sixth year of growth.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1988_United_States_presidential_election (read 2026-10-03)",
-    "image": "/news/world/1988-11-bush-election-night.jpg",
-    "imageCaption": "George Bush watches the election returns in Houston, 8 November 1988",
-    "imageCredit": "George Bush Presidential Library and Museum"
-  },
-  {
     "month": "1988-12",
     "kind": "world",
     "headline": "Nikkei passes 30,000",
@@ -108,5 +148,25 @@
     "image": "/news/asia/1988-12-tse-30000.jpg",
     "imageCaption": "The floor of the Tokyo Stock Exchange on 7 December 1988, the day the Nikkei first closed above 30,000",
     "imageCredit": "Photo by Kyodo News Stills via Getty Images"
+  },
+  {
+    "month": "1988-12",
+    "kind": "company",
+    "headline": "Drug money in Swiss bank accounts",
+    "text": "The Bankverein has emerged as one of the banks that held accounts for people involved in a money-laundering scheme of about $1 billion run by a Lebanese-Turkish drug ring. The bank denies having broken Swiss banking law. On 12 December Justice Minister Elisabeth Kopp said she would resign, after admitting she had phoned her husband, a board member of Shakarchi Trading, about a money-laundering investigation.",
+    "assets": [
+      "sbv"
+    ],
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/swiss-bank-corporation (read 2026-10-03); https://en.wikipedia.org/wiki/Elisabeth_Kopp (read 2026-10-03)"
+  },
+  {
+    "month": "1988-12",
+    "kind": "company",
+    "headline": "The first Wal-Mart Supercenter",
+    "text": "This year Wal-Mart opened its first Supercenter, in Washington, Missouri: a discount store and a full supermarket under one roof. It follows the Hypermart USA experiment, a giant store opened near Dallas in 1987. Wal-Mart is now the most profitable retailer in the United States.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Walmart (read 2026-10-03); https://www.company-histories.com/WalMart-Stores-Inc-Company-History.html (read 2026-10-03)"
   }
 ]

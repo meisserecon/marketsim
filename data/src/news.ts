@@ -2,7 +2,7 @@
  * Turns the curated story-arc beats (data/news/arcs/*.beats.json) and their picture sidecars
  * into the news the game serves: data/news/<year>.json. Run after `npm run build -w data`.
  *
- * A beat becomes an item when it is not cut and has importance 1 or 2; listings and exits are
+ * Every beat becomes an item (a beat the curator does not want is deleted); listings and exits are
  * always included. The beat's title and text are used as they are.
  */
 import fs from "node:fs";
@@ -13,11 +13,10 @@ import type { NewsItem, NewsKind } from "@marketsim/shared";
 
 const ARCS = path.join(DATA_DIR, "news", "arcs");
 const NEWS = path.join(DATA_DIR, "news");
-const MAX_IMPORTANCE = 2;
 
 interface Beat {
-  id: string; month: string; title: string; what: string; assets: string[]; importance: number;
-  source: string; cut?: boolean; lead?: boolean; thread?: string;
+  id: string; month: string; title: string; what: string; assets: string[]; move?: { asset: string; pct: number };
+  source: string; lead?: boolean; thread?: string;
 }
 interface Picture { beat: string; file: string; caption: string; credit?: string; licence: string }
 
@@ -47,17 +46,16 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
   const sidecar = path.join(ARCS, `${arc}.images.json`);
   const pictures = new Map<string, Picture>(fs.existsSync(sidecar) ? (JSON.parse(fs.readFileSync(sidecar, "utf8")) as Picture[]).map((p) => [p.beat, p]) : []);
   const company = assets.get(arc);
-  const live = beats.filter((b) => !b.cut);
+  const live = beats;
 
   // The listing beat: the arc's first beat in the listing month. The exit beat: its most important beat in the last month or the one after.
   const listing = company && listedMonth(company) > "1979-12" ? live.find((b) => b.month === listedMonth(company)) : undefined;
   const exit = company?.end
-    ? live.filter((b) => b.month === company.end!.month || b.month === nextMonth(company.end!.month)).sort((a, b) => a.importance - b.importance || b.month.localeCompare(a.month))[0]
+    ? live.filter((b) => b.month === company.end!.month || b.month === nextMonth(company.end!.month)).sort((a, b) => Number(!!b.lead) - Number(!!a.lead) || b.month.localeCompare(a.month))[0]
     : undefined;
 
   for (const b of live) {
     const kind: NewsKind = b === listing ? "listing" : b === exit ? "delisting" : arc === "life" ? "colour" : company ? "company" : "world";
-    if (b.importance > MAX_IMPORTANCE && kind !== "listing" && kind !== "delisting") continue;
     const p = pictures.get(b.id);
     if (p) withPicture++;
     // "bonds" becomes the Treasuries quoted that month.
@@ -67,7 +65,8 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
       month: b.month, kind, headline: b.title, text: b.what, assets: tagged, source: b.source,
       ...(b.thread ? { thread: b.thread } : {}),
       ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),
-      rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + b.importance,
+      // The lead first, then entries and exits, then world news before company news, the bigger price move first.
+      rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + (company ? 2 : 1) - Math.min(0.9, Math.abs(b.move?.pct ?? 0) / 100),
     });
   }
 }
@@ -84,7 +83,9 @@ for (const s of assets.values()) {
   if (s.end) {
     const em = nextMonth(s.end.month);
     if (!items.some((i) => i.kind === "delisting" && (i.month === em || i.month === s.end!.month) && i.assets.includes(s.id))) {
-      items.push({ month: em, kind: "delisting", headline: `${nameIn(s, s.end.month)} leaves the market`, text: `${s.end.note}. The shares are no longer traded.`, assets: [s.id], source: "generated from the end note", rank: 1 });
+      // It borrows the picture of the story that tells the merger from the other side, if there is one.
+      const told = items.find((i) => (i.month === em || i.month === s.end!.month) && i.assets.includes(s.id) && i.image);
+      items.push({ month: em, kind: "delisting", headline: `${nameIn(s, s.end.month)} leaves the market`, text: `${s.end.note}. The shares are no longer traded.`, assets: [s.id], source: "generated from the end note", ...(told ? { image: told.image, imageCaption: told.imageCaption, imageCredit: told.imageCredit } : {}), rank: 1 });
     }
   }
 }

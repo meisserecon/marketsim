@@ -60,7 +60,10 @@
     "headline": "Volcanic ash from Iceland grounds Europe's planes",
     "text": "After the Eyjafjallajökull volcano in Iceland erupted on 14 April, its ash cloud drifted over Europe, and much of European airspace was closed from 15 April for nearly a week, for fear the ash would damage jet engines. Over 95,000 flights were cancelled and millions of passengers were stranded.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption (read 2026-10-03)",
+    "image": "/news/life/2010-04-2010-eruptions-of-eyjafjallajokull.jpg",
+    "imageCaption": "2010 eruptions of Eyjafjallajökull, 2010",
+    "imageCredit": "Árni Friðriksson"
   },
   {
     "month": "2010-05",
@@ -114,6 +117,19 @@
     "imageCredit": "CNN (still from CNN's 2010 interview)"
   },
   {
+    "month": "2010-07",
+    "kind": "company",
+    "headline": "UBS earns 2 billion francs in a quarter",
+    "text": "On 27 July UBS reported a net profit of 2,005 million francs for the second quarter of 2010, and outflows of client money from its wealth management continued to ease. The S&P 500 gained about 7% in July.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 6-K of 27 July 2010 (second-quarter report), https://www.sec.gov/Archives/edgar/data/1114446/000095012310068336/y85737e6vk.htm (read 2026-10-03)",
+    "image": "/news/ubs/2010-07-bahnhofstrasse.jpg",
+    "imageCaption": "Bahnhofstrasse, 2019",
+    "imageCredit": "KeanoManu"
+  },
+  {
     "month": "2010-09",
     "kind": "company",
     "headline": "German car shares race ahead",
@@ -125,6 +141,19 @@
     "image": "/news/mercedes/2010-09-sls.jpg",
     "imageCaption": "The Mercedes-Benz SLS AMG, 2010",
     "imageCredit": "AngMoKio"
+  },
+  {
+    "month": "2010-09",
+    "kind": "company",
+    "headline": "BMW joins Europe's blue-chip index as car shares boom",
+    "text": "German car makers are profiting from robust economic growth, and their shares are leading the DAX. In September BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "image": "/news/bmw/2010-09-f10.jpg",
+    "imageCaption": "The BMW 5 Series (F10), 2010",
+    "imageCredit": "nakhon100"
   },
   {
     "month": "2010-09",
@@ -161,7 +190,10 @@
     "text": "On 29 November the EU and the IMF agreed a rescue for Ireland worth 85 billion euros, 67.5 billion in loans and 17.5 billion from Ireland's own reserves; up to 34 billion is for its banks. Ireland is the second euro country to need help, after Greece in May. Investors lump the weakest euro countries, Portugal, Italy, Ireland, Greece and Spain, together under the unkind nickname 'PIIGS', which the Financial Times and Barclays Capital stopped using freely this year after complaints that it is offensive.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/PIGS_(economics) (read 2026-10-04)",
-    "thread": "euro"
+    "thread": "euro",
+    "image": "/news/world/2010-11-brian-cowen.jpg",
+    "imageCaption": "Brian Cowen, 2010",
+    "imageCredit": "MerrionStreet.ie"
   },
   {
     "month": "2010-12",
@@ -184,6 +216,9 @@
     "assets": [
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)",
+    "image": "/news/siemens/2010-12-atos.jpg",
+    "imageCaption": "Atos, 2015",
+    "imageCredit": "Unicocorn"
   }
 ]

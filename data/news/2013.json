@@ -26,17 +26,34 @@
     "imageCredit": "TUFKAAP"
   },
   {
-    "month": "2013-02",
+    "month": "2013-01",
     "kind": "company",
-    "headline": "Vasella leaves with a golden handshake",
-    "text": "Daniel Vasella retired as chairman of Novartis in February after 17 years at the top. His departure package, reported at about $78 million including a payment for not working for competitors, caused an uproar in Switzerland weeks before a national vote on executive pay.",
+    "headline": "eBay's revenue tops $14 billion",
+    "text": "eBay reported 2012 revenue of $14.1 billion, up 21%. Chief executive John Donahoe said the company had a great finish to the year; fixed-price sales on the marketplace grew 21%.",
     "assets": [
-      "novartis"
+      "ebay"
     ],
-    "source": "https://en.wikipedia.org/wiki/Daniel_Vasella (read 2026-10-03)",
-    "image": "/news/novartis/2013-02-vasella.jpg",
-    "imageCaption": "Daniel Vasella of Novartis at the World Economic Forum, Davos, January 2013",
-    "imageCredit": "World Economic Forum"
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-13-000002.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2013-01",
+    "kind": "company",
+    "headline": "Tegra 4 and a handheld console",
+    "text": "Nvidia unveiled its Tegra 4 processor for phones and tablets and the Nvidia Shield, a handheld games console running Android. Mobile chips are its bet on growth beyond PC graphics.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+  },
+  {
+    "month": "2013-01",
+    "kind": "company",
+    "headline": "Revenue passes 42 billion dollars",
+    "text": "Schlumberger reported on 18 January that its 2012 revenue rose to 42.15 billion dollars from 36.96 billion, and that income from continuing operations, excluding one-off items, was 5.58 billion dollars, or 4.17 dollars a share against 3.61 in 2011. US crude averaged between 82 and 106 dollars a barrel in every month of 2012.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 18 January 2013, https://www.sec.gov/Archives/edgar/data/87347/000119312513016649/d469041dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
   },
   {
     "month": "2013-02",
@@ -65,6 +82,49 @@
     "imageCredit": "World Economic Forum from Cologny, Switzerland"
   },
   {
+    "month": "2013-02",
+    "kind": "company",
+    "headline": "Vasella leaves with a golden handshake",
+    "text": "Daniel Vasella retired as chairman of Novartis in February after 17 years at the top. His departure package, reported at about $78 million including a payment for not working for competitors, caused an uproar in Switzerland weeks before a national vote on executive pay.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Daniel_Vasella (read 2026-10-03)",
+    "image": "/news/novartis/2013-02-vasella.jpg",
+    "imageCaption": "Daniel Vasella of Novartis at the World Economic Forum, Davos, January 2013",
+    "imageCredit": "World Economic Forum"
+  },
+  {
+    "month": "2013-02",
+    "kind": "company",
+    "headline": "ExxonMobil earned 44.9 billion dollars in 2012",
+    "text": "ExxonMobil reported on 1 February that it earned 44.88 billion dollars in 2012, up 9 percent from 41.06 billion in 2011 and close to its 2008 record. It spent 39.8 billion dollars on capital projects and exploration.",
+    "assets": [
+      "xom"
+    ],
+    "source": "ExxonMobil press release of 1 February 2013, https://www.sec.gov/Archives/edgar/data/34088/000003408813000003/f8k4q991.htm (read 2026-10-03); ExxonMobil press release of 30 January 2009 (2008 record), https://www.sec.gov/Archives/edgar/data/34088/000003408809000016/r8k4q991.htm (read 2026-10-03)"
+  },
+  {
+    "month": "2013-03",
+    "kind": "company",
+    "headline": "GE sells the rest of NBC Universal to Comcast",
+    "text": "On 19 March Comcast completed the purchase of General Electric's 49% stake in NBC Universal for 16.7 billion dollars. GE's 27 years as owner of the NBC network are over.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, citing Deadline 2013-03-19)"
+  },
+  {
+    "month": "2013-03",
+    "kind": "company",
+    "headline": "Swiss voters back the initiative against 'rip-off salaries'",
+    "text": "On 3 March Swiss voters approved Thomas Minder's initiative against excessive executive pay with 67.9% of the vote. The campaign drew particular attention to payouts at Novartis and the big banks.",
+    "assets": [
+      "novartis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2013_Swiss_executive_pay_referendum (read 2026-10-03)"
+  },
+  {
     "month": "2013-04",
     "kind": "delisting",
     "headline": "China clears the deal; Davis leaves",
@@ -77,17 +137,6 @@
     "image": "/news/xstrata/2013-04-davos.jpg",
     "imageCaption": "Ivan Glasenberg (second from left) with Lionel Barber, Boris Johnson and Lakshmi Mittal at the FT Boldness in Business awards, London, March 2013",
     "imageCredit": "Financial Times"
-  },
-  {
-    "month": "2013-04",
-    "kind": "world",
-    "headline": "Kuroda's 'bazooka': the Bank of Japan doubles the money supply",
-    "text": "On 4 April the Bank of Japan, under its new governor Haruhiko Kuroda, said it will double the monetary base in two years, buying 60 to 70 trillion yen of bonds a year, to reach 2% inflation. The dollar ended April at about 97 yen.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://en.wikipedia.org/wiki/Haruhiko_Kuroda (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03)",
-    "image": "/news/asia/2013-04-kuroda.jpg",
-    "imageCaption": "Bank of Japan Governor Haruhiko Kuroda explains his plan to double the money supply at his first regular press conference, Tokyo, 4 April 2013",
-    "imageCredit": "Photo by TOSHIFUMI KITAMURA/AFP via Getty Images"
   },
   {
     "month": "2013-04",
@@ -107,6 +156,17 @@
   },
   {
     "month": "2013-04",
+    "kind": "world",
+    "headline": "Kuroda's 'bazooka': the Bank of Japan doubles the money supply",
+    "text": "On 4 April the Bank of Japan, under its new governor Haruhiko Kuroda, said it will double the monetary base in two years, buying 60 to 70 trillion yen of bonds a year, to reach 2% inflation. The dollar ended April at about 97 yen.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://en.wikipedia.org/wiki/Haruhiko_Kuroda (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03)",
+    "image": "/news/asia/2013-04-kuroda.jpg",
+    "imageCaption": "Bank of Japan Governor Haruhiko Kuroda explains his plan to double the money supply at his first regular press conference, Tokyo, 4 April 2013",
+    "imageCredit": "Photo by TOSHIFUMI KITAMURA/AFP via Getty Images"
+  },
+  {
+    "month": "2013-04",
     "kind": "company",
     "headline": "Tesla says it will make its first profit",
     "text": "On 31 March Tesla announced that it delivered more than 4,750 Model S cars in the first quarter, beating its target of 4,500, and that it now expects to be profitable for the quarter for the first time. 'Profitability is what makes a company real. Tesla is here to stay,' said Elon Musk.",
@@ -117,20 +177,6 @@
     "image": "/news/tsla/2013-04-musk.jpg",
     "imageCaption": "Elon Musk with a Model S at the Tesla factory, Fremont, California",
     "imageCredit": "Maurizio Pesce"
-  },
-  {
-    "month": "2013-05",
-    "kind": "company",
-    "headline": "Glencore Xstrata is born",
-    "text": "The merger took effect on 2 May: Glencore issued 6.16 billion new shares, 3.05 for each Xstrata share, and Xstrata left the stock exchange on 3 May. China approved the deal in April on condition that the Las Bambas copper project in Peru is sold, and Ivan Glasenberg is chief executive of the renamed Glencore Xstrata plc; Mick Davis has left. The group is now one of the world's largest miners as well as its largest commodity trader.",
-    "assets": [
-      "glencore",
-      "xstrata"
-    ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541; https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://en.wikipedia.org/wiki/Glencore (rename 20 May 2014) (all read 2026-10-03)",
-    "image": "/news/glencore/2013-05-davos.jpg",
-    "imageCaption": "Ivan Glasenberg (second from left) with Lionel Barber, Boris Johnson and Lakshmi Mittal at the FT Boldness in Business awards, London, March 2013",
-    "imageCredit": "Financial Times"
   },
   {
     "month": "2013-05",
@@ -159,6 +205,42 @@
     "imageCredit": "Hedge Funds"
   },
   {
+    "month": "2013-05",
+    "kind": "company",
+    "headline": "Glencore Xstrata is born",
+    "text": "The merger took effect on 2 May: Glencore issued 6.16 billion new shares, 3.05 for each Xstrata share, and Xstrata left the stock exchange on 3 May. China approved the deal in April on condition that the Las Bambas copper project in Peru is sold, and Ivan Glasenberg is chief executive of the renamed Glencore Xstrata plc; Mick Davis has left. The group is now one of the world's largest miners as well as its largest commodity trader.",
+    "assets": [
+      "glencore",
+      "xstrata"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update-merger-completed/2918541; https://www.investegate.co.uk/announcement/rns/glencore--glen/mofcom-approval-and-management-update/3583042; https://en.wikipedia.org/wiki/Glencore (rename 20 May 2014) (all read 2026-10-03)",
+    "image": "/news/glencore/2013-05-davos.jpg",
+    "imageCaption": "Ivan Glasenberg (second from left) with Lionel Barber, Boris Johnson and Lakshmi Mittal at the FT Boldness in Business awards, London, March 2013",
+    "imageCredit": "Financial Times"
+  },
+  {
+    "month": "2013-05",
+    "kind": "company",
+    "headline": "A new S-Class for Mercedes",
+    "text": "Mercedes-Benz presented the new S-Class, its flagship luxury saloon, at a lavish premiere on 15 May. Daimler is also renewing its compact cars.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 2013 ('New S-Class unlocks new dimensions in luxury, comfort and efficiency', 15 May 2013), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2013.xhtml?oid=188893673 (read 2026-10-03)"
+  },
+  {
+    "month": "2013-06",
+    "kind": "world",
+    "headline": "Rouhani wins on a promise of 'prudence and hope'",
+    "text": "Hassan Rouhani, a moderate cleric and former nuclear negotiator, won the presidential election on 14 June with 50.7 percent, just enough to avoid a run-off; turnout was about 73 percent. Supporters celebrated in the streets. He promises to ease the economy's pain and to talk with the world about the nuclear programme. The Tehran Stock Exchange rose to its highest since February.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2013_Iranian_presidential_election (read 2026-10-03)",
+    "thread": "iran",
+    "image": "/news/middle-east/2013-06-rouhani.jpg",
+    "imageCaption": "Hassan Rouhani campaigning in Sari, June 2013",
+    "imageCredit": "Farhad Babaei"
+  },
+  {
     "month": "2013-06",
     "kind": "world",
     "headline": "Bernanke hints at slower bond buying and yields jump",
@@ -175,16 +257,18 @@
     "imageCredit": "Photo by Alex Wong/Getty Images"
   },
   {
-    "month": "2013-06",
-    "kind": "world",
-    "headline": "Rouhani wins on a promise of 'prudence and hope'",
-    "text": "Hassan Rouhani, a moderate cleric and former nuclear negotiator, won the presidential election on 14 June with 50.7 percent, just enough to avoid a run-off; turnout was about 73 percent. Supporters celebrated in the streets. He promises to ease the economy's pain and to talk with the world about the nuclear programme. The Tehran Stock Exchange rose to its highest since February.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2013_Iranian_presidential_election (read 2026-10-03)",
-    "thread": "iran",
-    "image": "/news/middle-east/2013-06-rouhani.jpg",
-    "imageCaption": "Hassan Rouhani campaigning in Sari, June 2013",
-    "imageCredit": "Farhad Babaei"
+    "month": "2013-07",
+    "kind": "company",
+    "headline": "Nokia buys out Siemens from the networks venture",
+    "text": "Nokia agreed to buy Siemens' half of Nokia Siemens Networks for about 2.2 billion dollars, making the network equipment maker a wholly owned subsidiary. The networks business has provided much of Nokia's income while phones lose money.",
+    "assets": [
+      "nokia",
+      "siemens"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)",
+    "image": "/news/nokia/2013-07-karaportti.jpg",
+    "imageCaption": "Nokia's Karaportti campus in Espoo, Finland",
+    "imageCredit": "pikkuanna"
   },
   {
     "month": "2013-07",
@@ -202,16 +286,40 @@
   {
     "month": "2013-07",
     "kind": "company",
-    "headline": "Nokia buys out Siemens from the networks venture",
-    "text": "Nokia agreed to buy Siemens' half of Nokia Siemens Networks for about 2.2 billion dollars, making the network equipment maker a wholly owned subsidiary. The networks business has provided much of Nokia's income while phones lose money.",
+    "headline": "Siemens spins off its lighting arm Osram",
+    "text": "Siemens spun off Osram, its light bulb maker since 1978, on 5 July; Osram shares began trading in Frankfurt on 8 July. Siemens shareholders received Osram shares directly, after more than 98% of them approved the plan in January.",
     "assets": [
-      "nokia",
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)",
-    "image": "/news/nokia/2013-07-karaportti.jpg",
-    "imageCaption": "Nokia's Karaportti campus in Espoo, Finland",
-    "imageCredit": "pikkuanna"
+    "source": "https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)"
+  },
+  {
+    "month": "2013-08",
+    "kind": "world",
+    "headline": "Nerve gas kills hundreds near Damascus",
+    "text": "Rockets carrying the nerve agent sarin hit rebel-held suburbs of Damascus in the Ghouta area on 21 August; hospitals treated some 3,600 people with symptoms, and death counts range from several hundred to well over a thousand. The opposition blames the army of President Assad, whom Iran and Russia back, and Western governments are debating military strikes; Damascus denies it.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack (read 2026-10-03)"
+  },
+  {
+    "month": "2013-08",
+    "kind": "company",
+    "headline": "Cisco grows 6% and cuts 4,000 jobs",
+    "text": "Cisco reported fiscal-year sales of $48.6 billion, up 6%, and said it will cut 4,000 jobs, about 6% of its workforce. In July it agreed to buy the security company Sourcefire for $2.7 billion.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-13-334648.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)"
+  },
+  {
+    "month": "2013-08",
+    "kind": "company",
+    "headline": "$7.7bn write-down on Xstrata",
+    "text": "Glencore Xstrata reported a first-half net loss of $8.9bn after write-downs of $7.7bn, mostly goodwill on the Xstrata purchase, with metal prices about 15% lower. Ivan Glasenberg said savings from the merger would be much larger than the $500m a year first promised.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.industryweek.com/the-economy/article/21961027/glencore-xstrata-plunges-to-loss-on-merger-write-downs (read 2026-10-03)"
   },
   {
     "month": "2013-08",
@@ -228,6 +336,14 @@
   },
   {
     "month": "2013-09",
+    "kind": "colour",
+    "headline": "Breaking Bad ends; series are binged on Netflix",
+    "text": "The American series Breaking Bad, about a chemistry teacher who becomes a drug maker, ended on 29 September after five seasons. Its audience grew as viewers caught up on earlier seasons on Netflix, and the finale was one of the most-watched cable episodes of recent years.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Breaking_Bad (read 2026-10-03)"
+  },
+  {
+    "month": "2013-09",
     "kind": "company",
     "headline": "Microsoft buys Nokia's phone business",
     "text": "On 3 September Microsoft agreed to buy Nokia's devices and services business for 3.79 billion euros and to license its patents for 1.65 billion euros, 5.44 billion euros in all, about 7.2 billion dollars. About 32,000 Nokia staff will move to Microsoft. Nokia keeps its networks business, its maps and its patents.",
@@ -239,6 +355,40 @@
     "image": "/news/nokia/2013-09-lumia.jpg",
     "imageCaption": "The Nokia Lumia 1020, July 2013",
     "imageCredit": "Petar Milošević"
+  },
+  {
+    "month": "2013-10",
+    "kind": "company",
+    "headline": "Amazon grows 24% while barely breaking even",
+    "text": "On October 24 Amazon reported third-quarter sales of $17.09 billion, up 24%, and a net loss of $41 million. It is hiring 70,000 seasonal warehouse workers for the holidays and making its own television pilots.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-13-409933.txt (8-K with press release, read 2026-10-03)"
+  },
+  {
+    "month": "2013-11",
+    "kind": "colour",
+    "headline": "Sony's PlayStation 4",
+    "text": "Sony launched the PlayStation 4 in North America on 15 November and in Europe on 29 November, at 399 euros. Sony wants to avoid the mistakes of the PlayStation 3, which came a year after Microsoft's Xbox 360.",
+    "assets": [
+      "sony",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/PlayStation_4 (read 2026-10-03)"
+  },
+  {
+    "month": "2013-11",
+    "kind": "company",
+    "headline": "Model S fires hit the shares",
+    "text": "A third Model S caught fire after hitting road debris at high speed, and Tesla's shares fell more than 20% in November. In each case the car had warned the occupants to stop. Tesla is extending its warranty to cover fire damage.",
+    "assets": [
+      "tsla"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (read 2026-10-03)",
+    "image": "/news/tsla/2013-11-tesla-model-s.jpg",
+    "imageCaption": "Tesla Model S, 2017",
+    "imageCredit": "Peteratkins"
   },
   {
     "month": "2013-11",
@@ -256,6 +406,18 @@
   {
     "month": "2013-12",
     "kind": "world",
+    "headline": "2013 in review: up 30 percent, the best year since 1997",
+    "text": "The S&P 500 gained 30% in 2013 to 1,848.36, its best year since 1997, and the Dow 26.5%. The Dow set its first record since 2007 on 5 March and passed 16,000 on 21 November, while the Federal Reserve kept interest rates near zero and bought bonds every month.",
+    "assets": [
+      "ust2015",
+      "ust2020",
+      "ust2030"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
+  },
+  {
+    "month": "2013-12",
+    "kind": "world",
     "headline": "The shale boom",
     "text": "US crude output is near 8 million barrels a day, up from about 5.5 million in 2010, as horizontal drilling and hydraulic fracturing (fracking) open up shale formations. US oil imports are falling. Brent still costs about $110 a barrel.",
     "assets": [],
@@ -263,5 +425,15 @@
     "image": "/news/oil/2013-12-williston-pumpjack.jpg",
     "imageCaption": "A pumpjack and gas flares in the Bakken shale field near Williston, North Dakota, 10 July 2013",
     "imageCredit": "Photo by Gilles Mingasson/Archive Photos via Getty Images"
+  },
+  {
+    "month": "2013-12",
+    "kind": "company",
+    "headline": "BMW's first electric car, the i3, is on the road",
+    "text": "BMW has launched the i3 this year, its first series-built battery electric car and the first model of its new 'i' brand for electric cars, which chief executive Norbert Reithofer has pushed.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "AutoBuzz.my, 'BMW just delivered its 2 millionth EV after 13 years', 7 September 2026, https://autobuzz.my/2026/09/07/bmw-just-delivered-its-2-millionth-ev-after-13-years/ (read 2026-10-03); https://en.wikipedia.org/wiki/Norbert_Reithofer (read 2026-10-03)"
   }
 ]

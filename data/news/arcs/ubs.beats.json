@@ -1,19 +1,5 @@
 [
   {
-    "id": "520b0b6b",
-    "month": "1982-05",
-    "title": "Schweizerische Bankgesellschaft joins the game",
-    "what": "The Schweizerische Bankgesellschaft of Zurich, called Union Bank of Switzerland abroad, is the largest of Switzerland's three big banks. Led since 1980 by chairman Robert Holzach and president Nikolaus Senn, it manages wealth for clients from all over the world, lends to Swiss companies and households, and has become a leading underwriter of Eurobonds, the bonds sold across borders.",
-    "why": "Listing beat. The Bankgesellschaft is the conservative giant of the cartel years; it is the legal shell of today's UBS, but after 1998 the Bankverein's people run it.",
-    "assets": [
-      "ubs"
-    ],
-    "importance": 1,
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)",
-    "lead": true,
-    "cut": true
-  },
-  {
     "id": "1c58837f",
     "month": "1988-02",
     "title": "Phillips & Drew costs the Bankgesellschaft £115 million",
@@ -22,7 +8,6 @@
     "assets": [
       "ubs"
     ],
-    "importance": 3,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)"
   },
   {
@@ -39,7 +24,6 @@
       "asset": "ubs",
       "pct": -10
     },
-    "importance": 2,
     "source": "https://www.irishtimes.com/business/ubs-rejects-talk-of-cs-holdings-merger-1.39104 (read 2026-10-03); https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03)"
   },
   {
@@ -57,7 +41,6 @@
       "asset": "ubs",
       "pct": -5
     },
-    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Christoph_Meili (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03)"
   },
   {
@@ -75,7 +58,6 @@
       "asset": "ubs",
       "pct": 14
     },
-    "importance": 1,
     "source": "https://www.finews.com/news/english-news/29894-ubs-swiss-bank-corporation-merger-1998-robert-vogler (read 2026-10-03); https://en.wikipedia.org/wiki/Union_Bank_of_Switzerland (read 2026-10-03)",
     "lead": true
   },
@@ -93,43 +75,25 @@
       "asset": "ubs",
       "pct": 11
     },
-    "importance": 1,
     "source": "https://de.wikipedia.org/wiki/Schweizerische_Bankgesellschaft (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); share terms: data/src/universe.ts and data/manual/ubs.csv header (read 2026-10-03)"
   },
   {
     "id": "0d3a9de1",
     "month": "1998-09",
     "title": "UBS caught in the LTCM collapse",
-    "what": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks. The hedge fund in Greenwich, Connecticut, founded in 1994 by the bond trader John Meriwether, with the Nobel prize winners Myron Scholes and Robert Merton on its board, had borrowed more than $124 billion on top of $4.7 billion of its own money to bet that small price gaps between bonds would close. Russia's default in August set off its losses. On 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS among those putting in $300 million. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
+    "what": "Long-Term Capital Management's equity fell from $2.3 billion to about $400 million in three weeks. The hedge fund in Greenwich, Connecticut, founded in 1994 by the bond trader John Meriwether, with the Nobel prize winners Myron Scholes and Robert Merton on its board, had borrowed more than $124 billion on top of $4.7 billion of its own money to bet that small price gaps between bonds would close. Russia's default in August set off its losses. On 23 September the New York Fed organised a $3.625 billion rescue by 14 banks, UBS and Credit Suisse among those putting in $300 million each. UBS has its own large exposure through an option deal on LTCM shares struck in 1997. On 30 September UBS shares fell 14% in a day as investors lost confidence in the leadership; an internal investigation is due to report on Friday.",
     "why": "The worst month in the ubs series (-40%). UBS was the largest single loser on LTCM (about 950 million francs).",
     "assets": [
-      "ubs"
+      "ubs",
+      "credit-suisse"
     ],
     "move": {
       "asset": "ubs",
       "pct": -40
     },
-    "importance": 1,
     "thread": "asia-ltcm",
     "source": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management (read 2026-10-03); Neue Zürcher Zeitung, 1 October 1998, p. 35 ('Weitere Verluste der UBS-Valoren'), scan data/manual/scans/nzz/NZZ_1998-10-01.pdf (read 2026-10-03); https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Capital_Management (re-read 2026-10-04)",
     "lead": true
-  },
-  {
-    "id": "31a63474",
-    "month": "1998-10",
-    "title": "Cabiallavetta goes, the market recovers",
-    "what": "After a 950-million-franc charge for its exposure to LTCM, UBS chairman Mathis Cabiallavetta resigned together with three other executives; Alex Krauer becomes chairman. Markets recovered fast: by 30 October the Swiss Market Index was 28% above its low of 5 October. UBS shares closed the month at 371.50 francs, against a low for the year so far of 267.50 and a high of 657.",
-    "why": "The rebound month (+40%). The LTCM losses leave the former Bankverein team around Ospel firmly in charge of UBS. [Lookahead review: '1998 low' read as the final low of the year.]",
-    "assets": [
-      "ubs"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 40
-    },
-    "importance": 2,
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); Neue Zürcher Zeitung, 31 October 1998, p. 33 ('Die Schweizer Börse vom 26. bis zum 30. Oktober: Keimende Zuversicht der Marktteilnehmer'), scan data/manual/scans/nzz/NZZ_1998-10-31.pdf (read 2026-10-03)",
-    "cut": true
   },
   {
     "id": "95b48d88",
@@ -140,7 +104,6 @@
     "assets": [
       "ubs"
     ],
-    "importance": 2,
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)"
   },
   {
@@ -156,7 +119,6 @@
       "asset": "ubs",
       "pct": -7
     },
-    "importance": 2,
     "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03)"
   },
   {
@@ -172,7 +134,6 @@
       "asset": "ubs",
       "pct": -9
     },
-    "importance": 2,
     "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
   },
   {
@@ -188,7 +149,6 @@
       "asset": "ubs",
       "pct": 15
     },
-    "importance": 2,
     "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
     "lead": true
   },
@@ -205,7 +165,6 @@
       "asset": "ubs",
       "pct": -28
     },
-    "importance": 2,
     "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
   },
   {
@@ -222,7 +181,6 @@
       "asset": "ubs",
       "pct": 1
     },
-    "importance": 1,
     "thread": "housing-crisis",
     "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
     "lead": true
@@ -240,7 +198,6 @@
       "asset": "ubs",
       "pct": -25
     },
-    "importance": 1,
     "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03); prices: data/raw/yahoo/ubs.csv (read 2026-10-03)"
   },
   {
@@ -256,7 +213,6 @@
       "asset": "ubs",
       "pct": 49
     },
-    "importance": 2,
     "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)"
   },
   {
@@ -272,7 +228,6 @@
       "asset": "ubs",
       "pct": 26
     },
-    "importance": 2,
     "source": "UBS Form 20-F for 2009, https://www.sec.gov/Archives/edgar/data/1114446/000095012310024462/y83129e20vf.htm (read 2026-10-03)"
   },
   {
@@ -288,7 +243,6 @@
       "asset": "ubs",
       "pct": 27
     },
-    "importance": 3,
     "source": "UBS Form 6-K of 27 July 2010 (second-quarter report), https://www.sec.gov/Archives/edgar/data/1114446/000095012310068336/y85737e6vk.htm (read 2026-10-03)",
     "lead": true
   },
@@ -305,7 +259,6 @@
       "asset": "ubs",
       "pct": -20
     },
-    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
@@ -321,7 +274,6 @@
       "asset": "ubs",
       "pct": 23
     },
-    "importance": 1,
     "source": "UBS news release of 30 October 2012 (Form 6-K), https://www.sec.gov/Archives/edgar/data/1114446/000119312512440755/d430996d6k.htm (read 2026-10-03)"
   },
   {
@@ -333,7 +285,6 @@
     "assets": [
       "ubs"
     ],
-    "importance": 3,
     "source": "UBS Form 20-F for 2012, https://www.sec.gov/Archives/edgar/data/1114446/000119312513106100/d497201d20f.htm (read 2026-10-03)"
   },
   {
@@ -346,7 +297,6 @@
       "ubs",
       "credit-suisse"
     ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
   },
   {
@@ -358,7 +308,6 @@
     "assets": [
       "ubs"
     ],
-    "importance": 3,
     "source": "https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
   },
   {
@@ -375,7 +324,6 @@
       "asset": "ubs",
       "pct": 7
     },
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
   },
   {
@@ -391,7 +339,6 @@
       "asset": "ubs",
       "pct": 20
     },
-    "importance": 2,
     "source": "UBS Form 20-F for 2023, https://www.sec.gov/Archives/edgar/data/1610520/000161052024000041/ubs-20231231.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03)"
   },
   {
@@ -407,7 +354,6 @@
       "asset": "ubs",
       "pct": 6
     },
-    "importance": 2,
     "source": "UBS Form 20-F for 2025, filed 9 March 2026, https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm (read 2026-10-03)"
   }
 ]

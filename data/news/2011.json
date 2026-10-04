@@ -15,6 +15,17 @@
   },
   {
     "month": "2011-01",
+    "kind": "world",
+    "headline": "Tunisians chase out their ruler",
+    "text": "On 17 December officials in the Tunisian town of Sidi Bouzid took away the cart of Mohamed Bouazizi, a 26-year-old street vendor, and refused to hear his complaint. His desperate protest, and his death on 4 January, set off demonstrations against poverty and corruption that spread across the country and reached the capital. On 14 January President Ben Ali, who had ruled for 23 years, fled to Saudi Arabia.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Tunisian_revolution (read 2026-10-04)",
+    "image": "/news/middle-east/2011-01-tunisian-revolution.jpg",
+    "imageCaption": "Tunisian revolution, 2011",
+    "imageCredit": "Skotch 79"
+  },
+  {
+    "month": "2011-01",
     "kind": "company",
     "headline": "Another strong year: 62 million customers a day",
     "text": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11% to 4.58 dollars, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
@@ -34,7 +45,10 @@
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312511015372/dex991.htm (release of 27 January 2011, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312511015372/dex991.htm (release of 27 January 2011, read 2026-10-03)",
+    "image": "/news/mo/2011-01-richmond-virginia.jpg",
+    "imageCaption": "Richmond, Virginia, 2021",
+    "imageCredit": "Bruce Emmerling"
   },
   {
     "month": "2011-02",
@@ -61,6 +75,14 @@
   },
   {
     "month": "2011-02",
+    "kind": "world",
+    "headline": "Libya's war pushes Brent above $110",
+    "text": "Revolt against Muammar Gaddafi has shut much of Libya's oil output, after uprisings in Tunisia and Egypt. Brent ended February at $112 a barrel. US crude, priced at Cushing, Oklahoma, is about $15 cheaper, an unusually wide gap.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/World_oil_market_chronology_from_2003 (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
+  },
+  {
+    "month": "2011-02",
     "kind": "company",
     "headline": "Nokia bets on Microsoft's Windows Phone",
     "text": "Days after a memo from Elop warned staff that Nokia was on a 'burning platform', Nokia announced on 11 February that it will use Microsoft's Windows Phone as its main smartphone software, instead of its own Symbian or Google's Android, and warned of substantial job cuts. Its share of the smartphone market fell from 38% to 28% in 2010. Its shares fell 12% that day.",
@@ -73,6 +95,29 @@
     "image": "/news/nokia/2011-02-elop-ballmer-london.jpg",
     "imageCaption": "Nokia chief executive Stephen Elop (left) and Microsoft's Steve Ballmer on stage in London as they announce that Nokia will switch to Windows Phone, 11 February 2011",
     "imageCredit": "Leon Neal"
+  },
+  {
+    "month": "2011-02",
+    "kind": "company",
+    "headline": "IBM's Watson wins at Jeopardy!",
+    "text": "IBM's question-answering computer Watson beat the two most successful champions of the American quiz show Jeopardy!, Ken Jennings and Brad Rutter, and won the one-million-dollar first prize. IBM celebrates its 100th anniversary this year.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://en.wikipedia.org/wiki/IBM_Watson (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03)",
+    "image": "/news/ibm/2011-02-watson-jeopardy.jpg",
+    "imageCaption": "Watson's on-screen avatar and the IBM Power7 servers behind it, as staged for the Jeopardy! matches of February 2011",
+    "imageCredit": "IBM (not credited on the page)"
+  },
+  {
+    "month": "2011-02",
+    "kind": "company",
+    "headline": "Coca-Cola at 125: a billion more cases in a year",
+    "text": "Coca-Cola, which celebrates 125 years in 2011, reported that its unit case volume grew 5% in 2010, adding more than a billion cases, and that it beat its long-term targets for volume and operating income. It now has more than 500 brands and closed the purchase of Coca-Cola Enterprises' North American business in October. Its '2020 Vision' plan, unveiled in 2009, sets the goals for the decade.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://archive.org/download/cocacolacoannualreports/cocacola2010_djvu.txt (2010 annual review, read 2026-10-03)"
   },
   {
     "month": "2011-03",
@@ -88,6 +133,16 @@
   {
     "month": "2011-03",
     "kind": "company",
+    "headline": "Berkshire to buy Lubrizol for 9.7 billion dollars",
+    "text": "On 14 March Berkshire agreed to buy the chemicals company Lubrizol for 135 dollars a share in cash, a 28% premium, in a deal valued at about 9.7 billion dollars including debt, one of the largest in Berkshire's history.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012311026351/l42195e8vk.htm (Lubrizol press release of 14 March 2011, read 2026-10-03)"
+  },
+  {
+    "month": "2011-03",
+    "kind": "company",
     "headline": "Cisco pays its first dividend",
     "text": "Cisco announced on March 18 its first cash dividend, 6 cents a share each quarter, payable April 20 to holders of record on March 31. At the current share price that is a yield of about 1.4%. The finance chief called it 'an important part of our commitment to bring value to shareholders.'",
     "assets": [
@@ -97,6 +152,14 @@
     "image": "/news/csco/2011-03-chambers-2010.jpg",
     "imageCaption": "John Chambers, Cisco's chairman and chief executive, at the World Economic Forum, Davos, January 2010",
     "imageCredit": "Michael Wuertenberg / World Economic Forum"
+  },
+  {
+    "month": "2011-04",
+    "kind": "colour",
+    "headline": "Prince William marries Catherine Middleton",
+    "text": "Prince William married Catherine Middleton at Westminster Abbey on 29 April. About a million people lined the route in London, and tens of millions watched around the world, 72 million of them on live streams on YouTube.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_William_and_Catherine_Middleton (read 2026-10-03)"
   },
   {
     "month": "2011-04",
@@ -128,6 +191,19 @@
   {
     "month": "2011-05",
     "kind": "company",
+    "headline": "Nokia scraps its forecasts",
+    "text": "On 31 May Nokia said second-quarter phone sales will be substantially below its forecast and its margin below the 6-9% range, withdrew its full-year guidance and said it is taking immediate action. Its shares fell 14%.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://money.cnn.com/2011/05/31/technology/nokia_stock/index.htm via web.archive.org (read 2026-10-03)",
+    "image": "/news/nokia/2011-05-stephen-elop.jpg",
+    "imageCaption": "Stephen Elop, 2008",
+    "imageCredit": "luca.sartoni"
+  },
+  {
+    "month": "2011-05",
+    "kind": "company",
     "headline": "Citigroup completes a 1-for-10 reverse split",
     "text": "Citigroup combined every ten of its shares into one, effective after trading on 6 May; the shares trade on a split-adjusted basis from 9 May. A shareholder's stake is unchanged: ten times fewer shares, each worth ten times more. Citigroup plans to reinstate a quarterly dividend of 1 cent a share now that the split is done. It earned $10.6 billion in 2010.",
     "assets": [
@@ -137,6 +213,36 @@
     "image": "/news/c/2011-05-pandit.jpg",
     "imageCaption": "Vikram Pandit, Citigroup's chief executive, April 2011",
     "imageCredit": "World Economic Forum"
+  },
+  {
+    "month": "2011-05",
+    "kind": "company",
+    "headline": "Microsoft buys Skype",
+    "text": "On 10 May Microsoft agreed to buy Skype, the internet telephone service, for about 8.5 billion dollars.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03)"
+  },
+  {
+    "month": "2011-06",
+    "kind": "company",
+    "headline": "eBay buys GSI Commerce",
+    "text": "eBay acquired GSI Commerce, which runs online shops for large retailers, for $2.4 billion.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+  },
+  {
+    "month": "2011-06",
+    "kind": "company",
+    "headline": "Supreme Court throws out the giant discrimination suit",
+    "text": "On 20 June the US Supreme Court ruled that the women suing Wal-Mart for sex discrimination cannot proceed as a single class of about 1.5 million, because their claims do not share a common question. All nine justices agreed the class was improper.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Wal-Mart_Stores,_Inc._v._Dukes (read 2026-10-03)"
   },
   {
     "month": "2011-07",
@@ -152,17 +258,14 @@
     "imageCredit": "Mosborne01"
   },
   {
-    "month": "2011-08",
+    "month": "2011-07",
     "kind": "company",
-    "headline": "Jobs resigns; Tim Cook is chief executive",
-    "text": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
+    "headline": "Andrew Gould retires; Paal Kibsgaard takes over",
+    "text": "On 21 July Schlumberger said Andrew Gould would retire as chief executive on 1 August and stay chairman until April 2012. He will be succeeded by Paal Kibsgaard, the chief operating officer, who has worked for the company for more than 14 years in the Middle East, Europe and the United States.",
     "assets": [
-      "aapl"
+      "slb"
     ],
-    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
-    "image": "/news/aapl/2011-08-jobs-2011.jpg",
-    "imageCaption": "Steve Jobs on stage in 2011, his last year as Apple's chief executive",
-    "imageCredit": "press photograph"
+    "source": "Schlumberger press release of 21 July 2011, https://www.sec.gov/Archives/edgar/data/87347/000095012311067035/ (read 2026-10-03); https://en.wikipedia.org/wiki/Andrew_Gould_(businessman) (read 2026-10-03)"
   },
   {
     "month": "2011-08",
@@ -182,18 +285,71 @@
     "imageCredit": "Photo by STAN HONDA/AFP via Getty Images"
   },
   {
+    "month": "2011-08",
+    "kind": "colour",
+    "headline": "The strong franc makes shopping across the border cheap",
+    "text": "From May 2010 to early August 2011 the Swiss franc rose by more than 30 per cent against the euro, as investors fled the euro debt crisis. For Swiss families, holidays abroad and the shops in Germany, France and Italy have become much cheaper, while the export industry at home suffers. Shoppers can also reclaim German VAT.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Schweizer_Franken (read 2026-10-03); https://de.wikipedia.org/wiki/Einkaufstourismus (read 2026-10-03)"
+  },
+  {
+    "month": "2011-08",
+    "kind": "world",
+    "headline": "Apple becomes the world's most valuable company",
+    "text": "In August Apple passed ExxonMobil as the most valuable listed company in the world. It had passed Microsoft in May 2010, for the first time since 1989.",
+    "assets": [
+      "aapl",
+      "xom",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
+  },
+  {
+    "month": "2011-08",
+    "kind": "company",
+    "headline": "Strong first results, falling markets",
+    "text": "In its first results as a listed company on 25 August, Glencore reported first-half adjusted EBITDA of $3.85bn, up 47%, declared a maiden dividend of 5 US cents and said its credit ratings had been upgraded. It warned of 'renewed sovereign debt concerns' after a month in which the United States lost its AAA rating and stock markets slumped. The day before it offered to buy out the minority in its Australian nickel miner Minara.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/interim-results/2513601; https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (both read 2026-10-03)"
+  },
+  {
+    "month": "2011-08",
+    "kind": "company",
+    "headline": "Jobs resigns; Tim Cook is chief executive",
+    "text": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "image": "/news/aapl/2011-08-jobs-2011.jpg",
+    "imageCaption": "Steve Jobs on stage in 2011, his last year as Apple's chief executive",
+    "imageCredit": "press photograph"
+  },
+  {
+    "month": "2011-08",
+    "kind": "company",
+    "headline": "Tillerson and Putin's oil chief sign an Arctic deal",
+    "text": "In August, with Vladimir Putin attending in Sochi, Rex Tillerson and Rosneft's Igor Sechin signed an agreement for ExxonMobil and Russia's state oil company to drill the East-Prinovozemelsky field in the Arctic Ocean, a partnership talked of as worth up to 300 billion dollars.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Rex_Tillerson (read 2026-10-03); ExxonMobil press release of 29 April 2022 (Sakhalin-1 charge), https://www.sec.gov/Archives/edgar/data/34088/000003408822000023/ (read 2026-10-03)"
+  },
+  {
     "month": "2011-09",
     "kind": "company",
-    "headline": "The National Bank caps the franc at 1.20 per euro",
-    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs. Novartis shares rose about 8% in francs.",
+    "headline": "Euro crisis and slowing China crush miners",
+    "text": "Fears that the euro debt crisis will spread to Italy and Spain, after the United States lost its AAA rating in August, have driven investors out of cyclical shares. Copper averaged $8,300 a tonne in September, down from $9,650 in July, and fell further late in the month. Mining shares were among the worst performers.",
     "assets": [
-      "nestle",
-      "novartis"
+      "xstrata",
+      "glencore"
     ],
-    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
-    "image": "/news/nestle/2011-09-hildebrand.jpg",
-    "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank, at the St. Gallen Symposium",
-    "imageCredit": "International Students' Committee"
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "image": "/news/xstrata/2011-09-frankfurt.jpg",
+    "imageCaption": "The bull and bear statues outside the Frankfurt stock exchange",
+    "imageCredit": "Eva K."
   },
   {
     "month": "2011-09",
@@ -211,16 +367,58 @@
   {
     "month": "2011-09",
     "kind": "company",
-    "headline": "Euro crisis and slowing China crush miners",
-    "text": "Fears that the euro debt crisis will spread to Italy and Spain, after the United States lost its AAA rating in August, have driven investors out of cyclical shares. Copper averaged $8,300 a tonne in September, down from $9,650 in July, and fell further late in the month. Mining shares were among the worst performers.",
+    "headline": "The National Bank caps the franc at 1.20 per euro",
+    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs. Novartis shares rose about 8% in francs.",
     "assets": [
-      "xstrata",
-      "glencore"
+      "nestle",
+      "novartis"
     ],
-    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
-    "image": "/news/xstrata/2011-09-frankfurt.jpg",
-    "imageCaption": "The bull and bear statues outside the Frankfurt stock exchange",
-    "imageCredit": "Eva K."
+    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
+    "image": "/news/nestle/2011-09-hildebrand.jpg",
+    "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank, at the St. Gallen Symposium",
+    "imageCredit": "International Students' Committee"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "First 787 delivered to ANA",
+    "text": "Boeing handed over the first 787 Dreamliner to All Nippon Airways on 25-26 September, three years later than the 2008 date planned at launch.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://boeing.mediaroom.com/2011-09-25-Boeing-ANA-Complete-Contractual-Delivery-of-First-787-Dreamliner (title seen in release list, 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)"
+  },
+  {
+    "month": "2011-09",
+    "kind": "company",
+    "headline": "Siemens quits nuclear power",
+    "text": "Siemens, which built all 17 of Germany's nuclear power plants, said it will leave the nuclear business after the Fukushima disaster and Germany's decision to phase out nuclear power. Chief executive Löscher backs the country's switch to renewable energy.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
+  },
+  {
+    "month": "2011-10",
+    "kind": "world",
+    "headline": "Euro summit: banks to take half off Greek debt",
+    "text": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal. The S&P 500, which on 4 October stood about 21% below its May peak, rose 11% in October to 1,253.30, its best month since 1991.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
+    "thread": "euro",
+    "image": "/news/world/2011-10-euro-summit.jpg",
+    "imageCaption": "Angela Merkel and Nicolas Sarkozy at the euro summit in Brussels that agreed a 50 percent cut in Greek debt, October 2011",
+    "imageCredit": "press photograph (via Al Jazeera)"
+  },
+  {
+    "month": "2011-10",
+    "kind": "company",
+    "headline": "Citigroup's profit rises to $3.8 billion",
+    "text": "Citigroup reported third-quarter net income of $3.8 billion, up from $2.2 billion a year earlier, although $1.9 billion of it came from an accounting gain on the fall in the value of its own debt. Credit losses fell 41%. After two months of steep losses, bank shares recovered, and Citigroup's rose 23% in October.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465911056259/a11-28078_1ex99d1.htm (Citigroup press release, 17 October 2011; read 2026-10-03); data/news/arcs/movers.md"
   },
   {
     "month": "2011-10",
@@ -237,15 +435,13 @@
   },
   {
     "month": "2011-10",
-    "kind": "world",
-    "headline": "Euro summit: banks to take half off Greek debt",
-    "text": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal. The S&P 500, which on 4 October stood about 21% below its May peak, rose 11% in October to 1,253.30, its best month since 1991.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
-    "thread": "euro",
-    "image": "/news/world/2011-10-euro-summit.jpg",
-    "imageCaption": "Angela Merkel and Nicolas Sarkozy at the euro summit in Brussels that agreed a 50 percent cut in Greek debt, October 2011",
-    "imageCredit": "press photograph (via Al Jazeera)"
+    "kind": "company",
+    "headline": "Amazon sells the Kindle Fire at $199 and profits drop",
+    "text": "On October 25 Amazon reported third-quarter sales of $10.88 billion, up 44%, but net income fell 73% to $63 million. It is launching the Kindle Fire tablet at $199 and other Kindles from $79.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-11-280254.txt (8-K with press release, read 2026-10-03)"
   },
   {
     "month": "2011-11",
@@ -258,7 +454,20 @@
       "ust2030"
     ],
     "source": "https://www.rte.ie/news/business/2011/1109/308452-italy-business/ (read 2026-10-04); https://en.wikipedia.org/wiki/Berlusconi_IV_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/Monti_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)",
-    "thread": "euro"
+    "thread": "euro",
+    "image": "/news/world/2011-11-silvio-berlusconi.jpg",
+    "imageCaption": "Silvio Berlusconi, 2010",
+    "imageCredit": "Silvio_Berlusconi_(2010).jpg: www.la-moncloa.es derivative work: Off2riorob (talk)"
+  },
+  {
+    "month": "2011-11",
+    "kind": "company",
+    "headline": "Record year for Disney",
+    "text": "On 10 November Disney reported record revenue and profit for its business year to October: earnings per share rose 24% to 2.52 dollars and net income 21% to 4.8 billion dollars. Chief executive Bob Iger called it a great year financially and strategically.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312511307001/d253675d8k.htm (Disney earnings release of 10 November 2011, read 2026-10-03)"
   },
   {
     "month": "2011-12",

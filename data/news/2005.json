@@ -13,6 +13,16 @@
     "imageCredit": "Erik (HASH) Hersman"
   },
   {
+    "month": "2005-01",
+    "kind": "company",
+    "headline": "Back to growth: profit up 45 percent",
+    "text": "Schlumberger reported on 25 January that its 2004 revenue rose to 11.48 billion dollars from 10.02 billion, and that income from continuing operations before one-off items was 1.21 billion, 45 percent more than in 2003. It raised its dividend.",
+    "assets": [
+      "slb"
+    ],
+    "source": "Schlumberger press release of 25 January 2005, https://www.sec.gov/Archives/edgar/data/87347/000119312505010894/dex991.htm (read 2026-10-03)"
+  },
+  {
     "month": "2005-02",
     "kind": "company",
     "headline": "Record profit, full reserves and oil above 50 dollars",
@@ -35,7 +45,23 @@
       "ust2015",
       "ust2020"
     ],
-    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)",
+    "image": "/news/rates/2005-02-united-states-treasury-security.jpg",
+    "imageCaption": "United States Treasury security, 2022",
+    "imageCredit": "FRED"
+  },
+  {
+    "month": "2005-03",
+    "kind": "company",
+    "headline": "BHP outbids Xstrata for WMC",
+    "text": "On 8 March BHP Billiton offered US$6.22 a share in cash, about US$7.3bn, for Australia's WMC Resources, owner of the giant Olympic Dam copper and uranium mine, topping Xstrata's hostile offer by 85 US cents a share. Xstrata had launched its bid in November at A$6.35 a share, valuing WMC at A$7.4bn, and WMC had rejected it as inadequate. WMC's board now recommends BHP's offer.",
+    "assets": [
+      "xstrata"
+    ],
+    "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)",
+    "image": "/news/xstrata/2005-03-bhp.jpg",
+    "imageCaption": "A BHP locomotive, Australia",
+    "imageCredit": "Shed Rat"
   },
   {
     "month": "2005-03",
@@ -64,19 +90,6 @@
     "imageCredit": "David Shankbone"
   },
   {
-    "month": "2005-03",
-    "kind": "company",
-    "headline": "BHP outbids Xstrata for WMC",
-    "text": "On 8 March BHP Billiton offered US$6.22 a share in cash, about US$7.3bn, for Australia's WMC Resources, owner of the giant Olympic Dam copper and uranium mine, topping Xstrata's hostile offer by 85 US cents a share. Xstrata had launched its bid in November at A$6.35 a share, valuing WMC at A$7.4bn, and WMC had rejected it as inadequate. WMC's board now recommends BHP's offer.",
-    "assets": [
-      "xstrata"
-    ],
-    "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)",
-    "image": "/news/xstrata/2005-03-bhp.jpg",
-    "imageCaption": "A BHP locomotive, Australia",
-    "imageCredit": "Shed Rat"
-  },
-  {
     "month": "2005-04",
     "kind": "company",
     "headline": "Brabeck becomes chairman as well as chief executive",
@@ -84,7 +97,29 @@
     "assets": [
       "nestle"
     ],
-    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03)",
+    "image": "/news/nestle/2005-04-peter-brabeck-letmathe.jpg",
+    "imageCaption": "Peter Brabeck-Letmathe, 2008",
+    "imageCredit": "MEDEF"
+  },
+  {
+    "month": "2005-06",
+    "kind": "world",
+    "headline": "Ahmadinejad, Tehran's mayor, wins Iran's presidency",
+    "text": "Mahmoud Ahmadinejad, the little-known conservative mayor of Tehran, defeated former president Rafsanjani in a run-off on 24 June with about 63 percent of the vote. He campaigned as a man of the people against corruption and the old elite. The defeated candidates Karroubi and Rafsanjani complained that mosques, the Revolutionary Guards and the Basij militia had steered votes.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2005_Iranian_presidential_election (read 2026-10-03)",
+    "image": "/news/middle-east/2005-06-ahmadinejad.jpg",
+    "imageCaption": "Mahmoud Ahmadinejad, elected president of Iran, June 2005",
+    "imageCredit": "Farzad Khorasani"
+  },
+  {
+    "month": "2005-06",
+    "kind": "world",
+    "headline": "The Swiss join Schengen as France and the Netherlands reject the EU constitution",
+    "text": "On 5 June Swiss voters approved joining the Schengen area of passport-free travel and the Dublin asylum system by 54.6 percent. Days earlier, French voters on 29 May (55 percent) and Dutch voters on 1 June (61.5 percent) rejected the proposed European constitution, throwing the EU into a crisis about its direction.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2005_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/2005_French_European_Constitution_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/2005_Dutch_European_Constitution_referendum (read 2026-10-03)"
   },
   {
     "month": "2005-06",
@@ -117,14 +152,13 @@
   },
   {
     "month": "2005-06",
-    "kind": "world",
-    "headline": "Ahmadinejad, Tehran's mayor, wins Iran's presidency",
-    "text": "Mahmoud Ahmadinejad, the little-known conservative mayor of Tehran, defeated former president Rafsanjani in a run-off on 24 June with about 63 percent of the vote. He campaigned as a man of the people against corruption and the old elite. The defeated candidates Karroubi and Rafsanjani complained that mosques, the Revolutionary Guards and the Basij militia had steered votes.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2005_Iranian_presidential_election (read 2026-10-03)",
-    "image": "/news/middle-east/2005-06-ahmadinejad.jpg",
-    "imageCaption": "Mahmoud Ahmadinejad, elected president of Iran, June 2005",
-    "imageCredit": "Farzad Khorasani"
+    "kind": "company",
+    "headline": "Citigroup pays $2 billion to settle Enron suit",
+    "text": "Citigroup agreed to pay $2.0 billion to settle the class action by Enron investors, who accused the banks of helping Enron hide its debts. Earlier this year it settled claims over Global Crossing for $75 million.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012305007233/y09884exv99w1.txt (Citigroup press release, 10 June 2005; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012305002524/y06392exv99w1.txt (2 March 2005; read 2026-10-03)"
   },
   {
     "month": "2005-06",
@@ -138,19 +172,6 @@
     "image": "/news/siemens/2005-06-benq.jpg",
     "imageCaption": "A BenQ-Siemens mobile phone, model S68",
     "imageCredit": "Stefano Palazzo"
-  },
-  {
-    "month": "2005-07",
-    "kind": "company",
-    "headline": "Schrempp quits and the shares jump",
-    "text": "On 28 July DaimlerChrysler said Jürgen Schrempp will step down at the end of the year. Dieter Zetsche, who has turned Chrysler around with models such as the 300C, will take over. Investors had criticised the lagging share price and weak profits at Mercedes; the shares rose almost 10% on the day.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "NBC News, 'DaimlerChrysler CEO Schrempp to step down', 28 July 2005, https://www.nbcnews.com/id/wbna8737805 (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 2005 ('Board of Management chairman: Zetsche follows Schrempp', 28 July 2005), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2005.xhtml?oid=4913367 (read 2026-10-03)",
-    "image": "/news/mercedes/2005-07-schrempp.jpg",
-    "imageCaption": "Jürgen Schrempp, chairman of DaimlerChrysler, in an earlier picture from 1993",
-    "imageCredit": "Regina Kühne"
   },
   {
     "month": "2005-07",
@@ -171,7 +192,44 @@
     "text": "Americans bought existing homes at a record annual rate of 7.33 million in June, and the median price reached a record 219,000 dollars, 14.7 percent more than a year earlier, the biggest jump since 1980. On 9 June Fed chairman Alan Greenspan told Congress that exceptionally low interest rates on home mortgages were a major factor in the steep climb in home prices, and that there were 'at a minimum, signs of froth in some local markets'. He called the rapid spread of interest-only loans and other exotic adjustable-rate mortgages a particular concern. A 30-year mortgage costs about 5.7 percent.",
     "assets": [],
     "source": "https://www.nbcnews.com/news/amp/wbna8700218 (AP, 25 July 2005; read 2026-10-04); https://www.federalreserve.gov/boarddocs/testimony/2005/200506092/default.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Subprime_mortgage_crisis (read 2026-10-04)",
-    "thread": "housing-crisis"
+    "thread": "housing-crisis",
+    "image": "/news/markets/2005-07-mcmansion.jpg",
+    "imageCaption": "McMansion, 2005",
+    "imageCredit": "IDuke (this edited version: Sting)"
+  },
+  {
+    "month": "2005-07",
+    "kind": "company",
+    "headline": "Amazon's sales grow 26%",
+    "text": "On July 26 Amazon reported second-quarter sales of $1.75 billion, up 26%, and net income of $52 million, down from $76 million a year earlier. Operating income excluding currency effects grew 27%.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-05-148972.txt (8-K with press release, read 2026-10-03)",
+    "image": "/news/amzn/2005-07-amazon-company.jpg",
+    "imageCaption": "Amazon, 2015",
+    "imageCredit": "SounderBruce"
+  },
+  {
+    "month": "2005-07",
+    "kind": "company",
+    "headline": "Schrempp quits and the shares jump",
+    "text": "On 28 July DaimlerChrysler said Jürgen Schrempp will step down at the end of the year. Dieter Zetsche, who has turned Chrysler around with models such as the 300C, will take over. Investors had criticised the lagging share price and weak profits at Mercedes; the shares rose almost 10% on the day.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "NBC News, 'DaimlerChrysler CEO Schrempp to step down', 28 July 2005, https://www.nbcnews.com/id/wbna8737805 (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 2005 ('Board of Management chairman: Zetsche follows Schrempp', 28 July 2005), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2005.xhtml?oid=4913367 (read 2026-10-03)",
+    "image": "/news/mercedes/2005-07-schrempp.jpg",
+    "imageCaption": "Jürgen Schrempp, chairman of DaimlerChrysler, in an earlier picture from 1993",
+    "imageCredit": "Regina Kühne"
+  },
+  {
+    "month": "2005-08",
+    "kind": "colour",
+    "headline": "Floods in central Switzerland",
+    "text": "After days of heavy rain, floods and landslides hit central Switzerland and the Bernese Oberland around 22 August. Engelberg, with 4,000 inhabitants and 1,000 tourists, was cut off and could only be reached by helicopter, and two firemen were killed in the Entlebuch by a landslide. Six to ten people died in Switzerland, and damage runs into billions of francs.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Alpenhochwasser_2005 (read 2026-10-03)"
   },
   {
     "month": "2005-08",
@@ -183,6 +241,16 @@
     "image": "/news/oil/2005-08-katrina.jpg",
     "imageCaption": "Hurricane Katrina over the Gulf of Mexico, satellite view, 28 August 2005",
     "imageCredit": "NASA"
+  },
+  {
+    "month": "2005-08",
+    "kind": "company",
+    "headline": "Xstrata buys a fifth of Falconbridge",
+    "text": "Xstrata has bought a 20% stake in Falconbridge, the Canadian nickel, copper and zinc miner, from Brascan. The purchase makes Xstrata Falconbridge's largest shareholder and sets it up for a possible full takeover. Copper is averaging about $3,800 a tonne, double its level of two years ago.",
+    "assets": [
+      "xstrata"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://en.wikipedia.org/wiki/Xstrata; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
     "month": "2005-10",
@@ -208,6 +276,14 @@
     "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-05-229535.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Scientific_Atlanta (read 2026-10-03); sales from https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/cisco-systems-inc (read 2026-10-03)",
     "image": "/news/csco/2005-11-explorer-8300hd.jpg",
     "imageCaption": "A Scientific-Atlanta Explorer 8300HD cable set-top box with digital video recorder, the kind of product Cisco was buying"
+  },
+  {
+    "month": "2005-12",
+    "kind": "world",
+    "headline": "2005 in review: a flat year under rising rates",
+    "text": "The S&P 500 rose only 3% in 2005 to 1,248.29, and the Dow slipped 0.6%. The Federal Reserve raised its key rate at every meeting of the year, eight times, to 4.25 percent.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
     "month": "2005-12",

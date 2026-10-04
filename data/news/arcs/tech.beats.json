@@ -212,7 +212,7 @@
     "id": "dcb51390",
     "month": "2000-11",
     "title": "The Nasdaq's worst month since 1987; Pets.com closes",
-    "what": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies.",
+    "what": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
     "why": "The second leg of the crash, when the internet sell-off spread to the big technology companies. The S&P 500's -8% month was driven by tech.",
     "assets": [
       "pets-com",
@@ -227,35 +227,13 @@
     },
     "importance": 1,
     "thread": "dotcom",
-    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "f9e0df2b",
-    "month": "2001-01",
-    "title": "A surprise rate cut: the Nasdaq jumps 14% in a day",
-    "what": "On 3 January the Federal Reserve cut interest rates by half a point, from 6.5% to 6%, without waiting for its next meeting. The Nasdaq rose 14.17% that day to 2,616.69, its biggest gain ever, and 12% over the month. Beaten-down technology shares rebounded hardest: Microsoft rose about 41% in January, Apple 45%.",
-    "why": "The first of the bear-market rallies that kept hope alive in 2001. It faded within weeks.",
-    "assets": [
-      "msft",
-      "aapl",
-      "ibm",
-      "nvda",
-      "ebay",
-      "worldcom",
-      "bonds"
-    ],
-    "move": {
-      "asset": "msft",
-      "pct": 41
-    },
-    "importance": 1,
-    "source": "https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "d892ed14",
     "month": "2001-02",
     "title": "The telecom bust: network gear makers crash",
-    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse.",
+    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
     "why": "The telecom bubble, financed by more than 500 billion dollars mostly of debt since 1996, began to burst; telecom companies lost about 700 billion dollars of market value over two years. The S&P's -9% month is this sell-off.",
     "assets": [
       "csco",
@@ -269,7 +247,7 @@
       "pct": -9
     },
     "importance": 1,
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)"
   },
   {
     "id": "05b10b61",
@@ -321,43 +299,10 @@
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
-    "id": "bf6e3c0c",
-    "month": "2002-07",
-    "title": "WorldCom fails: the telecom bust's biggest bankruptcy",
-    "what": "WorldCom, the long-distance telephone company, filed for bankruptcy in July after an accounting scandal, following Global Crossing's bankruptcy in January. The head of the FCC told the Senate that the industry owes about a trillion dollars, much of which will never be repaid. The Nasdaq fell 9% in July to 1,328.",
-    "why": "The low point of the telecom bust and of trust in company accounts after Enron; the market's final leg down.",
-    "assets": [
-      "worldcom",
-      "csco",
-      "nokia"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "1159d9d5",
-    "month": "2002-09",
-    "title": "The Nasdaq at a six-year low",
-    "what": "The Nasdaq fell 11% in September to 1,172, its lowest month-end since 1996 and 77% below the record of March 2000. Accounting scandals from Enron to WorldCom have shaken trust in company figures.",
-    "why": "The capitulation month of the bust; technology and telecom fell furthest, but this one was broad, so the S&P's -11% belongs as much to the market arc.",
-    "assets": [
-      "siemens",
-      "ibm",
-      "intc",
-      "csco"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -11
-    },
-    "importance": 2,
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)"
-  },
-  {
     "id": "4b102c67",
     "month": "2002-10",
     "title": "The Nasdaq falls 78% below its record, then rebounds",
-    "what": "On 9 October the Nasdaq closed at 1,114.11, 78% below its March 2000 record; about 5 trillion dollars of market value has been lost since the record. From there it rose 13.5% by the end of October, led by technology shares.",
+    "what": "On 9 October the Nasdaq closed at 1,114.11, 78% below its March 2000 record; about 5 trillion dollars of market value has been lost since the record. From there it rose 13.5% by the end of October, led by technology shares. The S&P 500, which had closed at 785.28 on 7 October, its lowest since 1997, ended the month up 9% at 885.76 as better-than-expected profit reports from several big companies lifted shares.",
     "why": "The low of the dot-com bust, though nobody could know it then. The S&P's +9% month is the start of the recovery. Review 2026-10: 'The bottom' was hindsight.",
     "assets": [
       "csco",
@@ -372,7 +317,7 @@
     },
     "importance": 1,
     "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "8c661509",
@@ -482,20 +427,6 @@
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "1926d44c",
-    "month": "2011-02",
-    "title": "Nokia bets on Microsoft's Windows Phone",
-    "what": "On 11 February Nokia announced that it will use Microsoft's Windows Phone as its main smartphone system, abandoning its own.",
-    "why": "The admission that the iPhone and Android had won; Nokia's share price and market share kept falling for two years.",
-    "assets": [
-      "nokia",
-      "msft",
-      "aapl"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
     "id": "8a51bd95",

@@ -65,22 +65,6 @@
     "source": "https://money.cnn.com/2000/07/27/europe/nokia/ via web.archive.org (read 2026-10-03); https://news.bbc.co.uk/2/hi/business/1055805.stm (read 2026-10-03)"
   },
   {
-    "id": "3b21a1a4",
-    "month": "2001-02",
-    "title": "Nokia slides as the phone market slows",
-    "what": "On 30 January Nokia cut its first-quarter sales growth forecast to 25-30% and its estimate for world phone sales this year to 500-550 million, citing economic uncertainty and slowing phone sales; earlier in January it had disclosed lower 2000 phone sales than analysts hoped. Wireless shares have been under pressure on signs of slowing growth and falling profitability. Nokia's ADR lost 36% in February.",
-    "why": "The bubble deflates; no single Nokia announcement in February has been found, so the move is the sector sell-off on top of the January forecast cut.",
-    "assets": [
-      "nokia"
-    ],
-    "move": {
-      "asset": "nokia",
-      "pct": -36
-    },
-    "importance": 2,
-    "source": "https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)"
-  },
-  {
     "id": "a908d942",
     "month": "2001-06",
     "title": "Nokia warns again as the slowdown spreads",
@@ -174,7 +158,8 @@
     "why": "The decisive strategic choice: Symbian sales collapse before Windows phones are ready.",
     "assets": [
       "nokia",
-      "msft"
+      "msft",
+      "aapl"
     ],
     "move": {
       "asset": "nokia",

@@ -219,14 +219,20 @@
     "id": "371fa7de",
     "month": "2001-01",
     "title": "The Fed cuts by half a point, twice in one month",
-    "what": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom.",
+    "what": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%.",
     "why": "The start of the 2001 easing: eleven cuts in one year took the rate to 1.75 percent, but could not stop the dot-com bust or the recession.",
     "assets": [
-      "bonds"
+      "bonds",
+      "msft",
+      "aapl",
+      "ibm",
+      "nvda",
+      "ebay",
+      "worldcom"
     ],
-    "importance": 2,
+    "importance": 1,
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "id": "2e9363e8",
@@ -319,23 +325,6 @@
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
     "lead": true
-  },
-  {
-    "id": "bacf7bc4",
-    "month": "2011-08",
-    "title": "America loses its AAA rating and gold soars",
-    "what": "On 5 August Standard & Poor's cut the US government's credit rating from AAA to AA+ for the first time ever, after a fight in Congress over the debt ceiling. On 9 August the Fed said its rate would likely stay exceptionally low 'at least through mid-2013'. Investors bought both Treasury bonds and gold: the 10-year yield averaged about 2.3 percent in August, down from 3 percent in July, and gold averaged 1,759 dollars, 12 percent more than in July and a record.",
-    "why": "The peak of gold's 2000s bull market, fed by zero rates and the Fed's second round of bond buying (600 billion dollars from November 2010): the monthly average topped in September and then fell for four years. Oddly, the downgraded Treasuries were the big winners of the month.",
-    "assets": [
-      "gold",
-      "bonds"
-    ],
-    "move": {
-      "asset": "gold",
-      "pct": 12
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
     "id": "e762e5d4",

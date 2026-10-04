@@ -69,19 +69,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-01-500581.txt (Nvidia 8-K on the 3dfx asset purchase, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "id": "07113259",
-    "month": "2001-11",
-    "title": "The Xbox goes on sale with Nvidia inside",
-    "what": "Microsoft launched the Xbox in North America on 15 November, with graphics and media processors from Nvidia; commercial shipments of the chips began in July. Nvidia's shares have more than doubled this year.",
-    "why": "Nvidia's shares quadrupled in 2001; Standard & Poor's chose it that year to replace the collapsing Enron in the S&P 500 index.",
-    "assets": [
-      "nvda",
-      "msft"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
-  },
-  {
     "id": "41db8ca1",
     "month": "2002-04",
     "title": "Nvidia restates its accounts, and fights Microsoft over Xbox prices",
@@ -97,22 +84,6 @@
     },
     "importance": 1,
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-02-002921.txt (Nvidia 10-Q/A for the quarter to April 2002, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03)"
-  },
-  {
-    "id": "7d42d9cc",
-    "month": "2002-10",
-    "title": "Shares rebound from five-year lows, and chip shares bounce",
-    "what": "After ending September at their lowest level since 1997, US shares rose 9% in October. Nvidia, down about 87% from its high of last December, is preparing its answer to ATI's Radeon 9700, a rival chip that came out several months before Nvidia's next generation.",
-    "why": "A market rebound from the 2002 low; Nvidia's new chip was announced the next month. (Time check: title said 'the market bottoms', known only later; 'peak' became 'high'.)",
-    "assets": [
-      "nvda"
-    ],
-    "move": {
-      "asset": "nvda",
-      "pct": 39
-    },
-    "importance": 3,
-    "source": "data/reference/sp500.json and data/out/nvda.json (monthly prices); https://en.wikipedia.org/wiki/GeForce_FX_series (read 2026-10-03)"
   },
   {
     "id": "756036de",

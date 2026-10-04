@@ -17,21 +17,6 @@
     "lead": true
   },
   {
-    "id": "23d369c0",
-    "month": "1980-11",
-    "title": "Reagan's victory sets off a rally; the Dow is back above 1,000",
-    "what": "Shares jumped after Ronald Reagan won the presidential election on 4 November. About two weeks after the vote the Dow Jones average closed above 1,000 for the first time since the end of 1976, and on 20 November the S&P 500 closed at a record 140.40. The S&P 500 gained 10% in November, to 140.52.",
-    "why": "Investors bet on Reagan's tax cuts and a friendlier climate for business. The rally peaked within months, because the Fed was about to push interest rates to record highs.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 10
-    },
-    "importance": 1,
-    "source": "https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json",
-    "lead": true
-  },
-  {
     "id": "33d4e387",
     "month": "1980-12",
     "title": "1980 in review: shares up 26 percent despite record interest rates",
@@ -403,22 +388,6 @@
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20000321.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
-    "id": "eba7dcc6",
-    "month": "2000-11",
-    "title": "Profit warnings and an undecided election send shares down 8 percent",
-    "what": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
-    "why": "The bust taking hold: the Nasdaq's fall was spreading to the broad market.",
-    "assets": [
-      "pets-com"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -8
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "id": "b13b4ea1",
     "month": "2000-12",
     "title": "2000 in review: the first losing year in a decade",
@@ -428,22 +397,6 @@
     "importance": 2,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "1af072aa",
-    "month": "2001-02",
-    "title": "Earnings disappoint and shares fall 9 percent despite Fed cuts",
-    "what": "A steady flow of disappointing company earnings reports sent shares sharply lower in February, with the technology-heavy Nasdaq falling hardest, and consumer confidence dropped. The Federal Reserve had already cut its key rate twice in January, including a surprise move on 3 January. The S&P 500 lost 9% in the month to 1,239.94.",
-    "why": "The bear market deepening as the economy slid toward the 2001 recession.",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -9
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "203cc7b8",
@@ -460,22 +413,6 @@
     },
     "importance": 3,
     "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "26a68509",
-    "month": "2001-09",
-    "title": "After the attacks: markets closed four days, then the worst week in decades",
-    "what": "The New York Stock Exchange stayed closed after the terrorist attacks of 11 September and reopened only on 17 September, its longest closure since the Great Depression. That day the Fed cut its key rate to 3 percent, and the Dow fell 684.81 points or 7.1%; shares kept falling in volatile trading as business and consumer confidence collapsed. The S&P 500 lost 8% in September to 1,040.94.",
-    "why": "The market's reaction to 9/11; part of the losses were recovered within weeks.",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -8
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "542b57c2",
@@ -509,47 +446,39 @@
     "id": "5dc79940",
     "month": "2002-07",
     "title": "WorldCom's collapse caps a month of accounting scandals",
-    "what": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62.",
+    "what": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
     "why": "The crisis of trust that turned the bust into a three-year bear market.",
     "assets": [
-      "worldcom"
+      "worldcom",
+      "csco",
+      "nokia"
     ],
     "move": {
       "asset": "sp500",
       "pct": -8
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "id": "c36951fa",
     "month": "2002-09",
     "title": "Iraq tensions and weak data: shares fall 11 percent",
-    "what": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28.",
+    "what": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28. The Nasdaq ended the month at 1,172, 77% below its record of March 2000, as accounting scandals from Enron to WorldCom shook trust in company figures.",
     "why": "The final leg down of the 2000-02 bear market.",
     "assets": [
-      "bonds"
+      "bonds",
+      "siemens",
+      "ibm",
+      "intc",
+      "csco"
     ],
     "move": {
       "asset": "sp500",
       "pct": -11
     },
     "importance": 2,
-    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "e5f56627",
-    "month": "2002-10",
-    "title": "Shares hit five-year lows, then jump 9 percent",
-    "what": "On 7 October the S&P 500 closed at 785.28, its lowest since 1997, and by 9 October the Dow was below 7,200 and the Nasdaq just above 1,100, down almost 80% from its 2000 peak; the S&P 500 had lost about half its value. Then better-than-expected profit reports from several big companies lifted shares, and the S&P 500 ended October up 9% at 885.76.",
-    "why": "The bottom of the 2000-02 bear market (the March 2003 retest held above it). The start of the 2003-07 bull market. Review 2026-10: 'The bottom' was hindsight.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 9
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)"
   },
   {
     "id": "c113952b",
@@ -562,20 +491,6 @@
     ],
     "importance": 1,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
-  },
-  {
-    "id": "9c7c870e",
-    "month": "2003-04",
-    "title": "Baghdad falls, oil drops and shares jump 8 percent",
-    "what": "American troops took Baghdad on 9 April, and the quick war reduced the uncertainty that had hung over markets for months; oil prices fell sharply. Better-than-expected company earnings added to the relief, and the S&P 500 rose 8% in April to 916.92.",
-    "why": "The market's reaction to the Iraq war (told in the Middle East arc); the new bull market was underway.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 8
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "7166afad",
@@ -747,12 +662,15 @@
     "id": "098294a8",
     "month": "2008-09",
     "title": "The House votes down the bailout and the Dow falls 778 points",
-    "what": "On 7 September the government took over the two big mortgage companies Fannie Mae and Freddie Mac, which had more than 5 trillion dollars of mortgage securities and debt outstanding. On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
+    "what": "On 7 September the government took over the two big mortgage companies Fannie Mae and Freddie Mac, which had more than 5 trillion dollars of mortgage securities and debt outstanding. On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36. Mining shares were hit hard as credit froze: copper averaged $6,991 a tonne in September, 17% below July, and Xstrata lost 45% in the month.",
     "why": "Politics meets panic; the vote was reversed days later, but October was worse.",
-    "assets": [],
+    "assets": [
+      "xstrata",
+      "lehman"
+    ],
     "importance": 1,
     "thread": "housing-crisis",
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac (read 2026-10-04); Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
     "id": "84b43038",
@@ -839,46 +757,22 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
   },
   {
-    "id": "12e34d22",
-    "month": "2010-05",
-    "title": "Greece and the flash crash: shares fall 8 percent",
-    "what": "After Standard and Poor's cut Greece's credit rating to junk on 27 April, fears about Europe's debt crisis gripped markets. On 6 May the Dow, already down more than 300 points, plunged almost 1,000 points within minutes in the afternoon, about 9%, before recovering most of it; roughly a trillion dollars of value vanished and reappeared within half an hour. The S&P 500 lost 8% in May to 1,089.41.",
-    "why": "The euro crisis (told in the Europe arc) meets computer trading; the cause of the flash crash was found only in September.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": -8
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
     "id": "16e9203c",
     "month": "2011-08",
     "title": "America loses its AAA rating and shares plunge",
-    "what": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%.",
+    "what": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%. Investors fled into Treasury bonds and gold, which averaged a record 1,759 dollars in August, 12 percent more than in July. In Germany the DAX fell from 7,376 at the end of June to around 5,250 in early September, with car makers hit hardest; Daimler's shares lost 26% in August.",
     "why": "The euro crisis summer; the cause is told in the Europe arc. The S&P 500 fell about 20% from May to early October.",
-    "assets": [],
+    "assets": [
+      "mercedes",
+      "gold",
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -6
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json"
-  },
-  {
-    "id": "1d7b6529",
-    "month": "2011-10",
-    "title": "Europe's rescue plan sparks an 11 percent rally",
-    "what": "After a low on 4 October about 21% below its May peak, the S&P 500 surged as European leaders worked on, and late in the month announced, a new package to deal with Greece's debts and to shore up Europe's banks; company earnings also came in better than expected. Many details of the plan are still open, and on the last day of the month news of a possible Greek referendum sent shares down sharply. The S&P 500 still rose 11% in October to 1,253.30, its best month since 1991.",
-    "why": "The end of the 2011 bear scare; the euro crisis dragged on until mid-2012.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 11
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); BMW Group Annual Report 2011, capital market section (DAX -30% July to September), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2011.pdf (read 2026-10-03)"
   },
   {
     "id": "200b9b23",

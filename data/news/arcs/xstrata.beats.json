@@ -192,23 +192,6 @@
     "source": "https://www.rnz.co.nz/news/business/26135/lonmin-snubs-takeover-offer-by-xstrata; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
-    "id": "9d43e676",
-    "month": "2008-09",
-    "title": "Credit crisis hits the miners",
-    "what": "The failure of Lehman Brothers and the freezing of credit markets in September have hit mining shares hardest. Copper averaged $6,991 a tonne, down 17% from July, and iron ore and coal prices are falling as Chinese steel mills cut output. Investors are questioning the debt taken on by acquisitive miners; Xstrata has been spending heavily on a stake in Lonmin since August.",
-    "why": "Xstrata lost 45% in a month: a geared, debt-financed bet on Chinese growth met the financial crisis.",
-    "assets": [
-      "xstrata",
-      "lehman"
-    ],
-    "move": {
-      "asset": "xstrata",
-      "pct": -45
-    },
-    "importance": 1,
-    "source": "Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
-  },
-  {
     "id": "e225ba0d",
     "month": "2008-12",
     "title": "Copper at a four-year low, mines shut",
@@ -274,19 +257,6 @@
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
-    "id": "00e80439",
-    "month": "2011-05",
-    "title": "Glencore floats, valuing itself at $59bn",
-    "what": "Glencore, Xstrata's largest shareholder, priced its initial public offering at 530p a share on 19 May, raising about $10bn and valuing the trader at $59.2bn, the largest ever premium listing in London. Its shares started trading in London and Hong Kong in the last week of May. Glencore owns about a third of Xstrata and markets much of its output.",
-    "why": "The IPO gave Glencore paper to buy the rest of Xstrata with; within nine months it proposed exactly that.",
-    "assets": [
-      "xstrata",
-      "glencore"
-    ],
-    "importance": 2,
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (read 2026-10-03)"
-  },
-  {
     "id": "9ba91bb6",
     "month": "2011-09",
     "title": "Euro crisis and slowing China crush miners",
@@ -302,23 +272,6 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
-  },
-  {
-    "id": "d799f32e",
-    "month": "2011-10",
-    "title": "Relief rally after the Brussels summit",
-    "what": "On 26 October euro-area leaders agreed a 50% write-off of Greek debt held by banks and a fourfold increase in the rescue fund to about €1 trillion. Stock markets rose about 11% in October, and the most beaten-down mining shares rebounded hardest.",
-    "why": "Xstrata +32% in the month, a mirror image of September.",
-    "assets": [
-      "xstrata",
-      "glencore"
-    ],
-    "move": {
-      "asset": "xstrata",
-      "pct": 32
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Euro_area_crisis; data/news/arcs/movers.md (both read 2026-10-03)"
   },
   {
     "id": "7f54f483",

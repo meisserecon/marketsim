@@ -99,22 +99,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/789019/0001032210-00-001222.txt (Microsoft 8-K of 7 June 2000, read 2026-10-03); https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03)"
   },
   {
-    "id": "dc158d35",
-    "month": "2001-01",
-    "title": "A surprise rate cut lifts beaten-down technology shares",
-    "what": "On 3 January the Federal Reserve cut its key interest rate by half a point to 6%, between its scheduled meetings. Technology shares, which fell hard in 2000, rebounded; Microsoft had lost almost two thirds of its value in 2000. Microsoft's revenue for the quarter to December grew 8% to 6.59 billion dollars, driven by Windows 2000 and server software.",
-    "why": "The +41% month is a rebound from deeply oversold levels, helped by the rate cut; it did not last.",
-    "assets": [
-      "msft"
-    ],
-    "move": {
-      "asset": "msft",
-      "pct": 41
-    },
-    "importance": 3,
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/789019/0001032210-01-000273.txt (Microsoft 10-Q for the quarter to 31 December 2000, read 2026-10-03); data/out/msft.json (monthly prices)"
-  },
-  {
     "id": "6b0e9723",
     "month": "2001-06",
     "title": "Appeals court throws out the breakup",

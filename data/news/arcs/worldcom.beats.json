@@ -100,22 +100,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205701505916/a2043540z10-k405.txt (WorldCom 10-K for 2000, describing the 1 November announcement and the third-quarter charge; read 2026-10-03); http://usatoday30.usatoday.com/money/industries/telecom/2002-11-05-ebbers-loans-timeline_x.htm (read 2026-10-03)"
   },
   {
-    "id": "13dcc79c",
-    "month": "2001-01",
-    "title": "Surprise rate cut lifts beaten-down telecom shares",
-    "what": "The Federal Reserve cut interest rates by half a percentage point on 3 January, saying the economy was weakening. Shares that had fallen hardest in 2000, telecoms among them, rebounded; WorldCom's rose by half in January after losing more than half in the autumn.",
-    "why": "A bear-market rally: the rebound was gone by the summer.",
-    "assets": [
-      "worldcom"
-    ],
-    "move": {
-      "asset": "worldcom",
-      "pct": 53
-    },
-    "importance": 3,
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); data/out/worldcom.json"
-  },
-  {
     "id": "7674e542",
     "month": "2001-02",
     "title": "WorldCom cuts 6,000 jobs",

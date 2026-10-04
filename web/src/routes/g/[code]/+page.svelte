@@ -464,11 +464,6 @@
             {portfolio}
             isNew={!lobby && selected.listedSince === market.month}
             onclose={() => (selectedId = undefined)}
-            canBuy={canBuy(selected.id)}
-            canSell={canSell(selected.id)}
-            buyHint={buyHint(selected.id)}
-            onbuy={() => quickTrade(selected.id, 'buy')}
-            onsell={() => quickTrade(selected.id, 'sell')}
           />
         </div>
       {/if}

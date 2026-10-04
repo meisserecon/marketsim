@@ -13,15 +13,8 @@
     portfolio: PortfolioView;
     isNew: boolean;
     onclose: () => void;
-    canBuy: boolean;
-    canSell: boolean;
-    buyHint: string;
-    onbuy: () => void;
-    onsell: () => void;
   }
-  let { code, token, asset, month, portfolio, isNew, onclose, canBuy, canSell, buyHint, onbuy, onsell }: Props = $props();
-  /** One step of trading: 5% of the portfolio. */
-  const step = $derived(portfolio.totalValue * 0.05);
+  let { code, token, asset, month, portfolio, isNew, onclose }: Props = $props();
 
   let history = $state<AssetHistory | undefined>(undefined);
   let loadError = $state('');
@@ -126,19 +119,9 @@
     {/if}
   </section>
 
-  <section class="trade-box">
-    <div class="trade-row">
-      <button class="btn primary" disabled={!canBuy} title={buyHint} onclick={onbuy}>Buy</button>
-      {#if position}
-        <button class="btn" disabled={!canSell} title={position.value <= step * 1.001 ? 'Sell the whole position' : `Sell for ${usd(step)}`} onclick={onsell}>Sell</button>
-      {/if}
-      <span class="sub">
-        {#if position}You hold <strong>{usd(position.value)}</strong> ({pct(portfolio.totalValue > 0 ? position.value / portfolio.totalValue : 0)} of your portfolio).{:else}Not in your portfolio.{/if}
-        Each click moves {usd(step)}, 5% of your portfolio.
-      </span>
-    </div>
-    {#if !canBuy && buyHint}<p class="sub muted why">{buyHint}.</p>{/if}
-  </section>
+  {#if position}
+    <p class="sub holding">You hold <strong>{usd(position.value)}</strong> of it, {pct(portfolio.totalValue > 0 ? position.value / portfolio.totalValue : 0)} of your portfolio.</p>
+  {/if}
 
   <section>
     <div class="section-head">
@@ -240,25 +223,8 @@
     display: grid;
     place-items: center;
   }
-  .trade-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .trade-row .btn {
-    min-width: 84px;
-    justify-content: center;
-    text-align: center;
-  }
-  .why {
-    margin: 8px 0 0;
-  }
-  .trade-box {
-    padding: 14px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface);
+  .holding {
+    margin: 0;
   }
   .profile {
     display: grid;

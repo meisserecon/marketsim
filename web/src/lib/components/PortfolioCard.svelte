@@ -9,8 +9,15 @@
     tradable: Set<string>;
     selectedId?: string;
     onselect: (id: string) => void;
+    canBuy: (id: string) => boolean;
+    canSell: (id: string) => boolean;
+    buyHint: (id: string) => string;
+    onbuy: (id: string) => void;
+    onsell: (id: string) => void;
   }
-  let { portfolio, startingCash, tradable, selectedId, onselect }: Props = $props();
+  let { portfolio, startingCash, tradable, selectedId, onselect, canBuy, canSell, buyHint, onbuy, onsell }: Props = $props();
+  /** One step of trading: 5% of the portfolio. */
+  const step = $derived(portfolio.totalValue * 0.05);
 
   const total = $derived(portfolio.totalValue);
   const weight = (v: number) => (total > 0 ? v / total : 0);
@@ -31,6 +38,7 @@
           <th class="num" title="Price change since last month">1 month</th>
           <th class="num" title="Price now against your average purchase price">Since bought</th>
           <th class="num weight-col">Weight</th>
+          <th class="act"></th>
         </tr>
       </thead>
       <tbody>
@@ -51,6 +59,10 @@
             <td class="num weight-col">
               <span class="bar" aria-hidden="true"><i style:width="{Math.min(100, weight(p.value) * 100)}%"></i></span>{pct(weight(p.value))}
             </td>
+            <td class="act">
+              <button class="btn small" disabled={!canBuy(p.assetId)} title={buyHint(p.assetId)} onclick={() => onbuy(p.assetId)}>Buy</button>
+              <button class="btn small" disabled={!canSell(p.assetId)} title={p.value <= step * 1.001 ? 'Sell the whole position' : `Sell for ${usd(step)}`} onclick={() => onsell(p.assetId)}>Sell</button>
+            </td>
           </tr>
         {/each}
         <tr>
@@ -61,6 +73,7 @@
           <td class="num weight-col">
             <span class="bar cash" aria-hidden="true"><i style:width="{Math.min(100, weight(portfolio.cash) * 100)}%"></i></span>{pct(weight(portfolio.cash))}
           </td>
+          <td></td>
         </tr>
       </tbody>
       <tfoot>
@@ -72,6 +85,7 @@
           <td class="num weight-col since {sinceStart !== undefined && sinceStart < 0 ? 'down' : 'up'}" title="Change since the start of the game">
             {pct(sinceStart, { sign: true })} since start
           </td>
+          <td class="act step" title="Every Buy or Sell moves 5% of your portfolio">one step = {usd(step)}</td>
         </tr>
       </tfoot>
     </table>
@@ -98,6 +112,20 @@
   }
   tr.selected td {
     background: var(--accent-wash);
+  }
+  .act {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+    padding-left: 14px;
+  }
+  .act .btn {
+    padding: 2px 12px;
+  }
+  tfoot td.step {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--muted);
   }
   .weight-col {
     width: 32%;

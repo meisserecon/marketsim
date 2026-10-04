@@ -42,6 +42,11 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   can act as that player, so the address should not be shared or shown on a projector.
 - **Portfolio.** At most five positions plus cash. Players may freely rebalance at the current
   month's price at any time during a month. No order queue, no spread or commission for now.
+- **Trading in steps.** Players do not type amounts. Every Buy or Sell moves one step, 5% of the portfolio's
+  current value: Buy invests a step or all remaining cash, whichever is less; Sell sells a step or the whole
+  position, whichever is less. The buttons sit on every market row, every holding and in the company panel,
+  and are disabled when a trade is not possible (no cash, or five investments already). The API still
+  accepts exact amounts.
 - **Assets.** Cash (USD, interest-free), three US Treasury bonds, gold, and a curated list of
   stocks, all quoted in USD.
 - **Bonds.** Zero-coupon Treasuries named by the year they are repaid: "US Treasury 2000" pays

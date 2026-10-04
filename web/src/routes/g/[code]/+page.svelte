@@ -14,7 +14,6 @@
   import Welcome from '$lib/components/Welcome.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
-  import Statement from '$lib/components/Statement.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
 
@@ -262,10 +261,49 @@
     }
   }
 
-  function onTraded(p: PortfolioView) {
-    portfolio = p;
-    remember(market, p);
-    if (token) api.leaderboard(code, token).then((l) => (board = l)).catch(() => {});
+  /** Every trade moves one step: this share of the portfolio's total value. */
+  const STEP = 0.05;
+  const step = $derived((portfolio?.totalValue ?? 0) * STEP);
+  let trading = $state(false);
+  let tradeNote = $state<{ text: string; error: boolean } | undefined>(undefined);
+  let noteTimer: ReturnType<typeof setTimeout> | undefined;
+
+  /** A buy needs cash, and a free slot unless the asset is already held. */
+  function canBuy(id: string): boolean {
+    if (!portfolio || finished || trading || !tradable.has(id)) return false;
+    return portfolio.cash >= 0.01 && (held.has(id) || portfolio.positions.length < portfolio.maxPositions);
+  }
+  function canSell(id: string): boolean {
+    return !!portfolio && !finished && !trading && held.has(id) && tradable.has(id);
+  }
+  /** Why the buy button is off, for its tooltip. */
+  function buyHint(id: string): string {
+    if (!portfolio) return '';
+    if (finished) return 'The game is over';
+    if (portfolio.cash < 0.01) return 'You have no cash: sell something first';
+    if (!held.has(id) && portfolio.positions.length >= portfolio.maxPositions) return `You already hold ${portfolio.maxPositions} investments: sell one completely first`;
+    return `Buy for ${usd(Math.min(step, portfolio.cash))}`;
+  }
+
+  /** Buys one step (or with all cash, if that is less); sells one step (or the whole position, if that is less). */
+  async function quickTrade(id: string, side: 'buy' | 'sell') {
+    if (!token || !portfolio || trading) return;
+    const position = portfolio.positions.find((p) => p.assetId === id);
+    const all = side === 'buy' ? portfolio.cash <= step : !position || position.value <= step * 1.001;
+    trading = true;
+    try {
+      const res = await api.trade(code, token, { assetId: id, side, amount: all ? { all: true } : { usd: step } });
+      portfolio = res.portfolio;
+      remember(market, res.portfolio);
+      tradeNote = { text: `${side === 'buy' ? 'Bought' : 'Sold'} ${usd(Math.abs(res.entry.cash))} of ${nameOf(id)}`, error: false };
+      api.leaderboard(code, token).then((l) => (board = l)).catch(() => {});
+    } catch (e) {
+      tradeNote = { text: errorMessage(e), error: true };
+    } finally {
+      trading = false;
+      clearTimeout(noteTimer);
+      noteTimer = setTimeout(() => (tradeNote = undefined), 3500);
+    }
   }
 </script>
 
@@ -400,7 +438,7 @@
         <div class="card-body"><Leaderboard view={board} startingCash={game.startingCash} finalMonth={game.finalMonth} meId={portfolio.playerId} limit={10} wide /></div>
       </section>
     {/if}
-    <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} />
+    <PortfolioCard {portfolio} startingCash={game.startingCash} {tradable} {selectedId} onselect={select} {canBuy} {canSell} {buyHint} onbuy={(id) => quickTrade(id, 'buy')} onsell={(id) => quickTrade(id, 'sell')} />
   </div>
 
   <main class="layout" class:has-detail={!!selected}>
@@ -410,10 +448,9 @@
           <h2>Market</h2>
         </div>
         <div class="card-body">
-          <MarketTable assets={market.assets} month={market.month} {held} {selectedId} markNew={!lobby} onselect={select} />
+          <MarketTable assets={market.assets} month={market.month} {held} {selectedId} markNew={!lobby} onselect={select} {canBuy} {buyHint} onbuy={(id) => quickTrade(id, 'buy')} />
         </div>
       </section>
-      <Statement ledger={portfolio.ledger} {nameOf} />
     </div>
 
     <div class="right" bind:this={rightColumn}>
@@ -425,10 +462,13 @@
             asset={selected}
             month={market.month}
             {portfolio}
-            closed={finished ? 'The game is over; trading is closed.' : undefined}
             isNew={!lobby && selected.listedSince === market.month}
             onclose={() => (selectedId = undefined)}
-            ontraded={onTraded}
+            canBuy={canBuy(selected.id)}
+            canSell={canSell(selected.id)}
+            buyHint={buyHint(selected.id)}
+            onbuy={() => quickTrade(selected.id, 'buy')}
+            onsell={() => quickTrade(selected.id, 'sell')}
           />
         </div>
       {/if}
@@ -442,6 +482,10 @@
   {#if ageOpen && !showWelcome}
     {@const ended = previousAge(age)}
     <AgeScreen {age} {ended} review={ages?.ended.find((r) => r.id === ended?.id)} board={board} meId={portfolio.playerId} onclose={closeAge} />
+  {/if}
+
+  {#if tradeNote}
+    <p class="toast" class:error={tradeNote.error} role="status">{tradeNote.text}</p>
   {/if}
 
   {#if showFinal && board}
@@ -575,6 +619,24 @@
   .age:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
+  }
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 22px;
+    transform: translateX(-50%);
+    z-index: 30;
+    margin: 0;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--surface);
+    font-weight: 600;
+    box-shadow: var(--shadow);
+  }
+  .toast.error {
+    background: var(--danger-ink);
+    color: #fff;
   }
   .advance-box {
     display: grid;

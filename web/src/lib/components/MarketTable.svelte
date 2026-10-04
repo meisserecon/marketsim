@@ -11,8 +11,12 @@
     /** Off in the base month, where every asset would count as new. */
     markNew: boolean;
     onselect: (id: string) => void;
+    /** One-click buying; without `onbuy` the table is read-only (game master). */
+    canBuy?: (id: string) => boolean;
+    buyHint?: (id: string) => string;
+    onbuy?: (id: string) => void;
   }
-  let { assets, month, held, selectedId, markNew, onselect }: Props = $props();
+  let { assets, month, held, selectedId, markNew, onselect, canBuy, buyHint, onbuy }: Props = $props();
 
   type SortKey = 'name' | 'price' | 'm1' | 'm12' | 'yield';
   let sortKey = $state<SortKey>('name');
@@ -106,12 +110,13 @@
             <button onclick={() => sortBy(c.key)}><span class="arrow">{arrow(c.key)}</span> {c.label}</button>
           </th>
         {/each}
+        {#if onbuy}<th class="act"></th>{/if}
       </tr>
     </thead>
     {#each groups as g (g.kind)}
       <tbody>
         <tr class="group">
-          <th colspan="5" scope="rowgroup">{g.title} {#if g.hint}<span class="hint">{g.hint}</span>{/if}</th>
+          <th colspan={onbuy ? 6 : 5} scope="rowgroup">{g.title} {#if g.hint}<span class="hint">{g.hint}</span>{/if}</th>
         </tr>
         {#each g.rows as r (r.asset.id)}
           <tr class="asset" class:selected={r.asset.id === selectedId} class:new={r.isNew} onclick={() => onselect(r.asset.id)}>
@@ -124,6 +129,11 @@
             <td class="num {direction(r.m1)}">{pct(r.m1, { sign: true })}</td>
             <td class="num {direction(r.m12)}">{pct(r.m12, { sign: true })}</td>
             <td class="num" class:zero={r.yield === 0}>{pct(r.yield)}</td>
+            {#if onbuy}
+              <td class="act">
+                <button class="btn small buy" disabled={!canBuy?.(r.asset.id)} title={buyHint?.(r.asset.id)} onclick={(e) => { e.stopPropagation(); onbuy(r.asset.id); }}>Buy</button>
+              </td>
+            {/if}
           </tr>
         {/each}
       </tbody>
@@ -205,6 +215,15 @@
   }
   td.name {
     font-weight: 550;
+  }
+  .act {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+    padding-left: 10px;
+  }
+  .buy {
+    padding: 2px 12px;
   }
   td.name .badge {
     margin-left: 6px;

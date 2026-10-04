@@ -10,7 +10,7 @@
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
-  import NewsList from '$lib/components/NewsList.svelte';
+  import FrontPage from '$lib/components/FrontPage.svelte';
   import Welcome from '$lib/components/Welcome.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
   import PortfolioCard from '$lib/components/PortfolioCard.svelte';
@@ -394,14 +394,7 @@
 
   <div class="portfolio-wrap">
     {#if news && news.month === game.currentMonth}
-      <section class="card news-card">
-        <div class="card-head">
-          <h2>News <span class="sub">{monthName(news.month)}</span></h2>
-        </div>
-        <div class="card-body">
-          <NewsList items={news.items} {nameOf} openable={tradable} onselect={select} />
-        </div>
-      </section>
+      <div class="news-card"><FrontPage month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} /></div>
     {/if}
     {#if board}
       <section class="card">
@@ -567,10 +560,6 @@
     display: block;
   }
 
-  .news-card .card-head h2 .sub {
-    font-weight: 400;
-    margin-left: 6px;
-  }
   .brand {
     font-weight: 700;
     color: var(--ink);

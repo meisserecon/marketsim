@@ -8,7 +8,7 @@
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
-  import NewsList from '$lib/components/NewsList.svelte';
+  import FrontPage from '$lib/components/FrontPage.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
 
   const code = (page.params.code ?? '').toUpperCase();
@@ -210,15 +210,7 @@
     </section>
 
     {#if news && news.month === game.currentMonth && news.items.length}
-      <section class="card board">
-        <div class="card-head">
-          <h2>News of {monthName(news.month)}</h2>
-          <span class="sub">read it to the room before anyone trades</span>
-        </div>
-        <div class="card-body">
-          <NewsList items={news.items} {nameOf} big />
-        </div>
-      </section>
+      <FrontPage month={news.month} items={news.items} {nameOf} big />
     {/if}
 
     <section class="card board">

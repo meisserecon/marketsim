@@ -107,8 +107,6 @@ export function errorMessage(e: unknown): string {
       return 'Not enough cash for this purchase. Lower the amount or sell something first.';
     case 'insufficient_units':
       return 'You do not hold that much of this asset. Lower the amount or sell the whole position.';
-    case 'too_many_positions':
-      return 'You already hold five positions, the maximum. Sell one completely before buying a new asset.';
     case 'invalid_amount':
       return 'Enter an amount greater than zero.';
     case 'not_tradable':

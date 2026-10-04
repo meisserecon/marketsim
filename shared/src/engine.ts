@@ -9,7 +9,6 @@ export const STARTING_CASH = 1000;
 /** The month a game starts in: players build their first portfolio at these prices. Data may reach further back, as chart history. */
 export const GAME_START_MONTH = "1979-12";
 /** Positions a player may hold besides cash. */
-export const MAX_POSITIONS = 5;
 /** Holdings worth less than this after a sale are dropped, so float dust never occupies a position slot. */
 const DUST_USD = 0.005;
 
@@ -152,7 +151,7 @@ export type TradeErrorCode =
   | "invalid_amount"
   | "insufficient_cash"
   | "insufficient_units"
-  | "too_many_positions";
+;
 
 export class TradeError extends Error {
   constructor(public readonly code: TradeErrorCode, message: string) {
@@ -185,9 +184,6 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
     // Spend exactly the amount asked for; units * price can be off by a rounding error.
     const cost = "usd" in amount ? amount.usd : "all" in amount ? p.cash : units * price;
     if (cost > cash * (1 + tolerance) + tolerance) throw new TradeError("insufficient_cash", `Costs ${cost.toFixed(2)}, cash is ${cash.toFixed(2)}`);
-    if (held === 0 && Object.keys(holdings).length >= MAX_POSITIONS) {
-      throw new TradeError("too_many_positions", `At most ${MAX_POSITIONS} positions besides cash`);
-    }
     cash = Math.max(0, cash - cost);
     holdings[trade.assetId] = held + units;
     costs[trade.assetId] = (costs[trade.assetId] ?? 0) + cost;

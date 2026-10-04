@@ -135,7 +135,6 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.deepEqual(me.history.map((h) => h.month), ["1979-12", "1980-01"]);
   assert.equal(me.history[0].totalValue, 1_000);
   assert.ok(Math.abs(me.history[1].totalValue - me.totalValue) < 0.01);
-  assert.equal(me.maxPositions, 5);
 
   // history grew by exactly one month
   const ibm1 = (await call<AssetHistory>(app, "GET", `/api/games/${code}/assets/ibm`)).body;

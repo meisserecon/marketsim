@@ -133,7 +133,6 @@ export interface PortfolioView {
   cash: number;
   positions: PositionView[];
   totalValue: number;
-  maxPositions: number;
   /** Total value at each month end so far, for the equity curve. */
   history: { month: string; totalValue: number; cash: number }[];
   /** Most recent first. */

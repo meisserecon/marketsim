@@ -8,7 +8,7 @@ import path from "node:path";
 import Fastify, { type FastifyInstance, type FastifyRequest } from "fastify";
 import fastifyStatic from "@fastify/static";
 import {
-  AGES, MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
+  AGES, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
   type AgeReview, type AgesView, type HoldingsView, type HighscoresView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
@@ -182,7 +182,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       "select month, kind, asset_id, units, price, cash, note from ledger where player_id = $1 order by id desc limit $2", [player.id, LEDGER_LIMIT]);
     return {
       playerId: player.id, name: player.name, month, cash: p.cash, positions,
-      totalValue: portfolioValue(p, market, month), maxPositions: MAX_POSITIONS,
+      totalValue: portfolioValue(p, market, month),
       history: history.rows.map((r) => ({ month: r.month, totalValue: Number(r.total_value), cash: Number(r.cash) })),
       ledger: ledger.rows.map((r): LedgerEntry => ({
         month: r.month, kind: r.kind, assetId: r.asset_id, assetName: ledgerName(r.asset_id, r.month), units: Number(r.units), price: Number(r.price), cash: Number(r.cash),

@@ -40,12 +40,12 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   over a token already held; a token the server rejects is dropped (falling back to the seat
   the browser had before, if any) and the visitor sees the join form. Anyone holding the link
   can act as that player, so the address should not be shared or shown on a projector.
-- **Portfolio.** At most five positions plus cash. Players may freely rebalance at the current
+- **Portfolio.** Any number of positions plus cash (an earlier limit of five was dropped). Players may freely rebalance at the current
   month's price at any time during a month. No order queue, no spread or commission for now.
 - **Trading in steps.** Players do not type amounts. Every Buy or Sell moves one step, 5% of the portfolio's
   current value: Buy invests a step or all remaining cash, whichever is less; Sell sells a step or the whole
   position, whichever is less. The buttons sit on every market row, every holding and in the company panel,
-  and are disabled when a trade is not possible (no cash, or five investments already). The API still
+  and are disabled when a trade is not possible (no cash). The API still
   accepts exact amounts.
 - **Assets.** Cash (USD, interest-free), three US Treasury bonds, gold, and a curated list of
   stocks, all quoted in USD.
@@ -136,7 +136,6 @@ memory; Postgres only holds games, players, holdings, the ledger and month-end s
 
 Rules the engine fixes that were previously open:
 
-- Cash is not one of the five positions. It is the sixth, always present.
 - Fractional units are allowed, so players can invest a USD amount.
 - A merger converts the position into the successor at both assets' final-month prices, which
   preserves value and avoids share ratios. Sandoz becomes Novartis, Bankverein

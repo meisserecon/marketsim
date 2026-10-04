@@ -268,10 +268,10 @@
   let tradeNote = $state<{ text: string; error: boolean } | undefined>(undefined);
   let noteTimer: ReturnType<typeof setTimeout> | undefined;
 
-  /** A buy needs cash, and a free slot unless the asset is already held. */
+  /** A buy needs cash. */
   function canBuy(id: string): boolean {
     if (!portfolio || finished || trading || !tradable.has(id)) return false;
-    return portfolio.cash >= 0.01 && (held.has(id) || portfolio.positions.length < portfolio.maxPositions);
+    return portfolio.cash >= 0.01;
   }
   function canSell(id: string): boolean {
     return !!portfolio && !finished && !trading && held.has(id) && tradable.has(id);
@@ -281,7 +281,6 @@
     if (!portfolio) return '';
     if (finished) return 'The game is over';
     if (portfolio.cash < 0.01) return 'You have no cash: sell something first';
-    if (!held.has(id) && portfolio.positions.length >= portfolio.maxPositions) return `You already hold ${portfolio.maxPositions} investments: sell one completely first`;
     return `Buy for ${usd(Math.min(step, portfolio.cash))}`;
   }
 

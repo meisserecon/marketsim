@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  Market, MAX_POSITIONS, TradeError, advanceMonth, applyTrade, emptyPortfolio, nameAt, nextMonth, portfolioValue,
+  Market, TradeError, advanceMonth, applyTrade, emptyPortfolio, nameAt, nextMonth, portfolioValue,
   type AssetSeries, type Portfolio, type TradeErrorCode,
 } from "../src/index.js";
 
@@ -99,18 +99,13 @@ test("assets cannot be traded before listing, after their end, and cash is not a
   expectTradeError(() => applyTrade(p, m, "1979-12", { assetId: "cash", side: "buy", amount: { usd: 10 } }), "not_tradable");
 });
 
-test("at most five positions besides cash, but topping up an existing one is fine", () => {
-  const extras = ["p1", "p2", "p3", "p4", "p5", "p6"].map((id) => series(id, [1, 1, 1, 1]));
+test("any number of positions can be held", () => {
+  const extras = ["p1", "p2", "p3", "p4", "p5", "p6", "p7"].map((id) => series(id, [1, 1, 1, 1]));
   const m = market(extras);
   let p = emptyPortfolio(1000);
-  for (const id of ["p1", "p2", "p3", "p4", "p5"]) p = applyTrade(p, m, "1979-12", { assetId: id, side: "buy", amount: { usd: 100 } }).portfolio;
-  assert.equal(Object.keys(p.holdings).length, MAX_POSITIONS);
-  expectTradeError(() => applyTrade(p, m, "1979-12", { assetId: "p6", side: "buy", amount: { usd: 100 } }), "too_many_positions");
-  p = applyTrade(p, m, "1979-12", { assetId: "p1", side: "buy", amount: { usd: 100 } }).portfolio;
-  assert.equal(p.holdings.p1, 200);
-  p = applyTrade(p, m, "1979-12", { assetId: "p2", side: "sell", amount: { all: true } }).portfolio;
-  p = applyTrade(p, m, "1979-12", { assetId: "p6", side: "buy", amount: { usd: 100 } }).portfolio;
-  assert.equal(Object.keys(p.holdings).length, MAX_POSITIONS);
+  for (const id of ["p1", "p2", "p3", "p4", "p5", "p6", "p7"]) p = applyTrade(p, m, "1979-12", { assetId: id, side: "buy", amount: { usd: 100 } }).portfolio;
+  assert.equal(Object.keys(p.holdings).length, 7);
+  assert.equal(p.cash, 300);
 });
 
 test("selling down to float dust closes the position", () => {

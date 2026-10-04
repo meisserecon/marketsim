@@ -14,7 +14,6 @@
  */
 import {
   Market,
-  MAX_POSITIONS,
   TradeError,
   advanceMonth,
   applyTrade,
@@ -203,7 +202,6 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
       cash: p.portfolio.cash,
       positions,
       totalValue: portfolioValue(p.portfolio, market, month),
-      maxPositions: MAX_POSITIONS,
       history: p.history,
       ledger: [...p.ledger].reverse()
     };

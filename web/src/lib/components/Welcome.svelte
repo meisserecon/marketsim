@@ -3,7 +3,7 @@
    * The welcome screen: what the game is, how a month works, and the three things it wants to
    * teach. Shown once when a player enters a game.
    */
-  import { MAX_POSITIONS, STARTING_CASH } from '@marketsim/shared';
+  import { STARTING_CASH } from '@marketsim/shared';
   import { monthName, usd } from '$lib/format';
 
   interface Props {
@@ -40,7 +40,7 @@
       <h2>How a month works</h2>
       <ol class="steps">
         <li><strong>Read the news.</strong> Every month brings a few stories: what happened in the world, and what happened to the companies you can buy.</li>
-        <li><strong>Decide.</strong> Buy or sell at this month's prices, as often as you like. You can hold up to {MAX_POSITIONS} investments at a time, plus cash. Click a company to learn what it does.</li>
+        <li><strong>Decide.</strong> Buy or sell at this month's prices, as often as you like. Each click moves 5% of your portfolio, and you can hold as many investments as you like. Click a company to learn what it does.</li>
         <li><strong>Time moves on.</strong> {solo ? 'When you are ready, press the button at the top to go to the next month.' : 'The game master moves everybody to the next month at the same time.'} Prices change, and dividends are paid into your cash.</li>
       </ol>
     </section>

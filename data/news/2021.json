@@ -63,23 +63,11 @@
   {
     "month": "2021-02",
     "kind": "company",
-    "headline": "Oil above 60 dollars lifts the drillers' suppliers",
-    "text": "US crude passed 60 dollars a barrel in February for the first time in more than a year, closing the month at about 62, up from 52.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
-    "image": "/news/slb/2021-02-drillships.jpg",
-    "imageCaption": "Drillships laid up at Las Palmas, Gran Canaria",
-    "imageCredit": "Niels Johannes"
-  },
-  {
-    "month": "2021-02",
-    "kind": "company",
     "headline": "A 20 billion dollar loss, and the shares jump anyway",
-    "text": "ExxonMobil reported on 2 February a fourth-quarter loss of 20.1 billion dollars, almost all of it write-downs; for 2020 as a whole it lost 22.4 billion dollars. But oil kept rising: US crude passed 60 dollars and closed February at about 62, up from 52 at the end of January. The company says it has cut costs faster than planned.",
+    "text": "ExxonMobil reported on 2 February a fourth-quarter loss of 20.1 billion dollars, almost all of it write-downs; for 2020 as a whole it lost 22.4 billion dollars. But oil kept rising: US crude passed 60 dollars and closed February at about 62, up from 52 at the end of January. The company says it has cut costs faster than planned. Schlumberger, which supplies the drillers, rose 26 percent.",
     "assets": [
-      "xom"
+      "xom",
+      "slb"
     ],
     "source": "ExxonMobil press release of 2 February 2021, https://www.sec.gov/Archives/edgar/data/34088/000003408821000004/f8k4q991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/ExxonMobil (2020 loss of 22.4 billion) (read 2026-10-03)",
     "image": "/news/xom/2021-02-baytown.jpg",

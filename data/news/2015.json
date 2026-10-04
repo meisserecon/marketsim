@@ -40,28 +40,15 @@
     "imageCredit": "Keystone"
   },
   {
-    "month": "2015-01",
-    "kind": "company",
-    "headline": "The franc floor is scrapped",
-    "text": "On 15 January the Swiss National Bank abandoned its minimum rate of 1.20 francs per euro without warning; the franc closed 23% higher against the euro and 21% higher against the dollar that day. Swiss shares fell in francs because exporters' foreign earnings are worth less.",
-    "assets": [
-      "novartis",
-      "nestle"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
-    "image": "/news/novartis/2015-01-jordan.jpg",
-    "imageCaption": "Thomas Jordan, chairman of the Swiss National Bank, faces the press after the end of the minimum exchange rate, January 2015",
-    "imageCredit": "Keystone"
-  },
-  {
     "month": "2015-04",
     "kind": "company",
     "headline": "Amazon reveals its cloud is a $5 billion business",
-    "text": "For the first time Amazon reported Amazon Web Services, which rents computing power and storage to other companies, as a separate segment. Bezos called it 'a $5 billion business and still growing fast'. First-quarter sales rose 15% to $22.7 billion, with a small net loss.",
+    "text": "For the first time Amazon reported Amazon Web Services, which rents computing power and storage to other companies, as a separate segment. Bezos called it 'a $5 billion business and still growing fast'. First-quarter sales rose 15% to $22.7 billion, with a small net loss. AWS had 1.57 billion dollars of sales in the first quarter and 265 million dollars of operating profit.",
     "assets": [
-      "amzn"
+      "amzn",
+      "msft"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-15-000036.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)",
     "image": "/news/amzn/2015-04-jassy.jpg",
     "imageCaption": "Andy Jassy, head of Amazon Web Services",
     "imageCredit": "Steve Jurvetson"
@@ -123,20 +110,6 @@
     "imageCredit": "Bjoertvedt"
   },
   {
-    "month": "2015-04",
-    "kind": "world",
-    "headline": "Amazon reveals that its cloud business is profitable",
-    "text": "On 23 April Amazon published figures for Amazon Web Services for the first time: 1.57 billion dollars of sales in the first quarter and 265 million of operating profit. Renting out computing power over the internet has become a big business.",
-    "assets": [
-      "amzn",
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)",
-    "image": "/news/tech/2015-04-jassy.jpg",
-    "imageCaption": "Andy Jassy, head of Amazon Web Services",
-    "imageCredit": "Steve Jurvetson"
-  },
-  {
     "month": "2015-05",
     "kind": "company",
     "headline": "Chuck Robbins to succeed John Chambers",
@@ -166,9 +139,9 @@
     "month": "2015-07",
     "kind": "world",
     "headline": "Nuclear deal in Vienna",
-    "text": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'.",
+    "text": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'. Lifting the sanctions will let Iran sell more oil; US crude fell 21% in July to $47.11 a barrel.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
     "thread": "iran",
     "image": "/news/middle-east/2015-07-vienna-deal.jpg",
     "imageCaption": "Foreign ministers of the P5+1, the EU and Iran pose after reaching the nuclear agreement, Vienna, 14 July 2015",
@@ -210,23 +183,12 @@
     "imageCredit": "World Economic Forum"
   },
   {
-    "month": "2015-07",
-    "kind": "world",
-    "headline": "Iran nuclear deal promises more oil",
-    "text": "Iran and six world powers reached a deal in Vienna on 14 July to limit Iran's nuclear programme in return for lifting sanctions, which will let Iran sell more oil. US crude fell 21% in July to $47.11 a barrel.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2015-07-vienna-talks.jpg",
-    "imageCaption": "Foreign ministers of the six powers with Iran's Javad Zarif at the nuclear talks, Vienna, July 2015",
-    "imageCredit": "U.S. Department of State from United States"
-  },
-  {
     "month": "2015-08",
     "kind": "world",
     "headline": "China devalues the yuan; 'Black Monday' in Shanghai",
-    "text": "On 11 August China's central bank cut the yuan by 1.9% and lowered it again on 14 August. On 24 August the Shanghai index fell 8.5%, and the Dow opened 1,000 points lower before closing down 588. Investors fear China's growth is slowing more than Beijing admits.",
+    "text": "On 11 August China's central bank cut the yuan by 1.9% and lowered it again on 14 August. On 24 August the Shanghai index fell 8.5%, and the Dow opened 1,000 points lower before closing down 588. Investors fear China's growth is slowing more than Beijing admits. An estimated 10 trillion dollars had been wiped off world markets since early June, oil hit a six-year low, and the S&P 500 lost 6% in August to 1,972.18.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json",
     "thread": "china",
     "image": "/news/asia/2015-08-hangzhou-investor.jpg",
     "imageCaption": "An investor in front of screens showing share prices at a securities firm in Hangzhou on China's 'Black Monday', 24 August 2015",
@@ -257,17 +219,6 @@
     "image": "/news/brk/2015-08-castparts.jpg",
     "imageCaption": "A turbine blade and its wax pattern, the investment casting process of Precision Castparts",
     "imageCredit": "Olivier Cleynen"
-  },
-  {
-    "month": "2015-08",
-    "kind": "world",
-    "headline": "China's devaluation sets off a global sell-off",
-    "text": "China devalued its currency on 11 August after a stock market crash at home, and fears about its economy spread. On Monday 24 August markets around the world plunged, the Dow opening about 1,000 points lower; an estimated 10 trillion dollars had been wiped off world markets since early June, and oil hit a six-year low. The S&P 500 lost 6% in August to 1,972.18.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2015-08-nyse-trader.jpg",
-    "imageCaption": "A trader on the floor of the New York Stock Exchange as markets react to the turmoil in China, 24 August 2015",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
   },
   {
     "month": "2015-08",

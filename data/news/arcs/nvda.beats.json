@@ -297,45 +297,21 @@
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "id": "aaaa94be",
-    "month": "2022-10",
-    "title": "The US bans exports of advanced AI chips to China",
-    "what": "New US export rules that took effect in October bar the sale of the most advanced AI chips to China, including Nvidia's data-centre processors. Nvidia's shares have fallen by more than half this year in the technology sell-off.",
-    "why": "The first of the China restrictions that recurred through 2025; Nvidia answered with slower chips designed to meet the rules.",
-    "assets": [
-      "nvda"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
-  },
-  {
-    "id": "72d6b0d6",
-    "month": "2022-11",
-    "title": "OpenAI launches ChatGPT",
-    "what": "OpenAI released ChatGPT, a chatbot that answers questions in fluent language, on 30 November. It runs in Microsoft's Azure data centres on thousands of Nvidia graphics processors.",
-    "why": "The starting gun of the AI boom that made Nvidia the most valuable company in the world. (Time check: cut the million-users-in-five-days figure, which fell in December.)",
-    "assets": [
-      "nvda",
-      "msft"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03)"
-  },
-  {
     "id": "5b8babf3",
     "month": "2023-05",
     "title": "Nvidia forecasts 11 billion dollars and stuns Wall Street",
-    "what": "On 24 May Nvidia reported record data-centre revenue of 4.28 billion dollars and forecast revenue of 11.0 billion dollars for the next quarter, about half more than in the quarter just ended. Jensen Huang said a trillion dollars of data-centre equipment will shift to accelerated computing as companies race to use generative AI, and that Nvidia is sharply increasing supply.",
+    "what": "On 24 May Nvidia reported record data-centre revenue of 4.28 billion dollars and forecast revenue of 11.0 billion dollars for the next quarter, about half more than in the quarter just ended. Jensen Huang said a trillion dollars of data-centre equipment will shift to accelerated computing as companies race to use generative AI, and that Nvidia is sharply increasing supply. Quarterly sales were 7.19 billion dollars, and the forecast was far above what analysts expected.",
     "why": "+36% in the month; the moment the AI boom showed up in a forecast. Nvidia passed a trillion dollars in market value in 2023.",
     "assets": [
-      "nvda"
+      "nvda",
+      "msft"
     ],
     "move": {
       "asset": "nvda",
       "pct": 36
     },
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03)"
   },
   {
     "id": "3e3523e6",
@@ -353,7 +329,7 @@
     "id": "fb4f6fe3",
     "month": "2024-06",
     "title": "The most valuable company in the world",
-    "what": "On 18 June Nvidia's market value passed 3.3 trillion dollars, making it the most valuable company in the world, ahead of Microsoft and Apple.",
+    "what": "On 18 June Nvidia's market value passed 3.3 trillion dollars, making it the most valuable company in the world, ahead of Microsoft and Apple. It had closed above 2 trillion dollars for the first time only on 1 March.",
     "why": "Twenty-five years after the IPO at a value of a few hundred million dollars.",
     "assets": [
       "nvda",
@@ -375,22 +351,6 @@
     ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
-  },
-  {
-    "id": "08ab0d20",
-    "month": "2025-01",
-    "title": "DeepSeek: 600 billion dollars lost in a day",
-    "what": "DeepSeek, a Chinese AI start-up, released an advanced AI model that it says it developed at a fraction of the usual cost and computing power, and its app overtook ChatGPT as the top free app in the US App Store. On 27 January Nvidia's shares fell so sharply that it lost about 600 billion dollars of market value, the largest one-day loss for any US company.",
-    "why": "The first serious doubt about how many chips AI really needs; -11% for the month, recovered within months.",
-    "assets": [
-      "nvda"
-    ],
-    "move": {
-      "asset": "nvda",
-      "pct": -11
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
     "id": "f464513f",
@@ -417,29 +377,17 @@
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "id": "08f1c4a0",
-    "month": "2025-09",
-    "title": "Nvidia invests in Intel and in OpenAI",
-    "what": "On 18 September Nvidia agreed to invest 5 billion dollars in Intel, about 4% of its old rival, and to develop chips with it. On 22 September Nvidia and OpenAI signed a memorandum under which Nvidia would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
-    "why": "Critics called the OpenAI deal circular, as OpenAI would pay the money back by buying Nvidia's chips.",
-    "assets": [
-      "nvda",
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary)"
-  },
-  {
     "id": "2b1b635b",
     "month": "2025-10",
     "title": "Five trillion dollars",
-    "what": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars.",
+    "what": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company; JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
     "why": "The high point so far; the shares moved sideways for the next half year.",
     "assets": [
-      "nvda"
+      "nvda",
+      "nokia"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
     "id": "4517415c",

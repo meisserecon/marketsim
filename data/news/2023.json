@@ -16,11 +16,12 @@
     "month": "2023-01",
     "kind": "company",
     "headline": "A multibillion-dollar bet on OpenAI",
-    "text": "On 18 January Microsoft said it will cut 10,000 jobs, less than 5% of its staff, by the end of March. On 23 January it announced a multiyear, multibillion-dollar investment in OpenAI, the maker of ChatGPT, extending investments made in 2019 and 2021; Azure becomes OpenAI's exclusive cloud provider and OpenAI's models will be built into Microsoft's products.",
+    "text": "On 18 January Microsoft said it will cut 10,000 jobs, less than 5% of its staff, by the end of March. On 23 January it announced a multiyear, multibillion-dollar investment in OpenAI, the maker of ChatGPT, extending investments made in 2019 and 2021; Azure becomes OpenAI's exclusive cloud provider and OpenAI's models will be built into Microsoft's products. The investment is reported at about 10 billion dollars, valuing OpenAI at about 29 billion; ChatGPT already has many millions of users.",
     "assets": [
-      "msft"
+      "msft",
+      "nvda"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690dex991.htm (Nadella e-mail of 18 January 2023, read 2026-10-03); https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/ (read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690dex991.htm (Nadella e-mail of 18 January 2023, read 2026-10-03); https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/ (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)",
     "image": "/news/msft/2023-01-altman-nadella.jpg",
     "imageCaption": "Technology chiefs including Microsoft's Satya Nadella and OpenAI's Sam Altman meet at the White House",
     "imageCredit": "The White House"
@@ -37,20 +38,6 @@
     "image": "/news/dis/2023-01-studios-center.jpg",
     "imageCaption": "Walt Disney Studios, Burbank",
     "imageCredit": "Myrna Litt"
-  },
-  {
-    "month": "2023-01",
-    "kind": "world",
-    "headline": "Microsoft's multibillion bet on OpenAI",
-    "text": "On 23 January Microsoft announced a new multi-year investment in OpenAI, reported at about 10 billion dollars, which values OpenAI at about 29 billion. ChatGPT already has many millions of users, and Microsoft plans to build its technology into its products.",
-    "assets": [
-      "msft",
-      "nvda"
-    ],
-    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)",
-    "image": "/news/tech/2023-01-nadella.jpg",
-    "imageCaption": "Satya Nadella, chief executive of Microsoft",
-    "imageCredit": "Brian Smale/Microsoft"
   },
   {
     "month": "2023-01",
@@ -108,60 +95,15 @@
     "month": "2023-03",
     "kind": "company",
     "headline": "Forced into the arms of UBS",
-    "text": "On 14 March Credit Suisse published its 2022 annual report, saying it had found material weaknesses in its financial-reporting controls. On 15 March the chairman of its largest shareholder, the Saudi National Bank, said it would 'absolutely not' invest more; the shares fell about a quarter that day. The Swiss National Bank lent 50 billion francs on 16 March. On Sunday 19 March the government announced that UBS takes over Credit Suisse for 3 billion francs, one UBS share for 22.48 Credit Suisse shares, under emergency law without a shareholder vote; 16 billion francs of AT1 bonds are written off.",
+    "text": "On 14 March Credit Suisse published its 2022 annual report, saying it had found material weaknesses in its financial-reporting controls. On 15 March the chairman of its largest shareholder, the Saudi National Bank, said it would 'absolutely not' invest more; the shares fell about a quarter that day. The Swiss National Bank lent 50 billion francs on 16 March. On Sunday 19 March the government announced that UBS takes over Credit Suisse for 3 billion francs, one UBS share for 22.48 Credit Suisse shares, under emergency law without a shareholder vote; 16 billion francs of AT1 bonds are written off. The Confederation guarantees UBS up to 9 billion francs against losses and the National Bank provides up to 100 billion francs of liquidity; Credit Suisse holders get 0.76 francs a share, against 1.86 on the Friday.",
     "assets": [
       "credit-suisse",
       "ubs"
     ],
-    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); https://www.swissinfo.ch/eng/business/credit-suisse-agrees-to-takeover-by-rival-swiss-bank-ubs/48373120 (read 2026-10-03); https://www.swissinfo.ch/eng/business/how-the-swiss-trinity-forced-ubs-to-save-credit-suisse/48378088 (read 2026-10-03)",
     "image": "/news/credit-suisse/2023-03-keller-sutter-lehmann.jpg",
     "imageCaption": "Finance minister Karin Keller-Sutter shakes hands with Credit Suisse chairman Axel Lehmann at the press conference in Bern announcing the takeover by UBS, 19 March 2023",
     "imageCredit": "Keystone / Peter Klaunzer"
-  },
-  {
-    "month": "2023-03",
-    "kind": "company",
-    "headline": "UBS takes over Credit Suisse",
-    "text": "On Sunday 19 March, after a weekend of talks led by the Swiss government and National Bank, UBS agreed to take over Credit Suisse for 3 billion francs in UBS shares: one UBS share for 22.48 Credit Suisse shares. The government used emergency law so no shareholder vote is needed, provides a guarantee of up to 9 billion francs against losses on Credit Suisse assets, and the National Bank offers up to 100 billion francs of liquidity. Credit Suisse's AT1 bonds worth 16 billion francs are written off.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03)",
-    "image": "/news/ubs/2023-03-press-conference.jpg",
-    "imageCaption": "Axel Lehmann of Credit Suisse, Colm Kelleher of UBS, finance minister Karin Keller-Sutter, President Alain Berset and Thomas Jordan of the National Bank announce the takeover in Bern, 19 March 2023",
-    "imageCredit": "Keystone/Peter Klaunzer"
-  },
-  {
-    "month": "2023-03",
-    "kind": "world",
-    "headline": "Credit Suisse is forced into the arms of UBS",
-    "text": "After bank failures in the United States, customers pulled billions of francs a day from Credit Suisse. On Sunday 19 March, under pressure from the Federal Council, the National Bank and the regulator FINMA, UBS agreed to take over its rival for 3 billion francs in UBS shares, 0.76 francs per Credit Suisse share against 1.86 on the Friday. The National Bank provides 100 billion francs of liquidity and the Confederation guarantees up to 9 billion francs of losses; the government used emergency law to bypass a shareholder vote.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "source": "https://www.swissinfo.ch/eng/business/credit-suisse-agrees-to-takeover-by-rival-swiss-bank-ubs/48373120 (read 2026-10-03); https://www.swissinfo.ch/eng/business/how-the-swiss-trinity-forced-ubs-to-save-credit-suisse/48378088 (read 2026-10-03)",
-    "image": "/news/world/2023-03-kelleher-lehmann.jpg",
-    "imageCaption": "UBS chairman Colm Kelleher (right) shakes hands with Credit Suisse chairman Axel Lehmann after the press conference announcing the takeover, Bern, 19 March 2023",
-    "imageCredit": "Fabrice Coffrini | Afp | Getty Images"
-  },
-  {
-    "month": "2023-03",
-    "kind": "world",
-    "headline": "Bank runs: Silicon Valley Bank fails, UBS takes over Credit Suisse",
-    "text": "Silicon Valley Bank collapsed on 10 March after a run by its depositors, caused by losses on bonds that had fallen as interest rates rose; Signature Bank failed two days later, and the Fed set up an emergency lending programme. On 19 March, in a deal arranged by the Swiss authorities, UBS agreed to take over Credit Suisse. Regional bank shares fell sharply, but the S&P 500 ended March up 4%.",
-    "assets": [
-      "credit-suisse",
-      "ubs",
-      "ust2025",
-      "ust2030",
-      "ust2040"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2023-03-svb-queue.jpg",
-    "imageCaption": "Customers queue outside the headquarters of Silicon Valley Bank to withdraw their money, Santa Clara, California, 13 March 2023",
-    "imageCredit": "Photo by Liu Guanguan/China News Service/VCG via Getty Images"
   },
   {
     "month": "2023-03",
@@ -180,13 +122,15 @@
     "month": "2023-03",
     "kind": "world",
     "headline": "Silicon Valley Bank fails on its bond losses",
-    "text": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent.",
+    "text": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent.",
     "assets": [
+      "credit-suisse",
+      "ubs",
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/rates/2023-03-svb-queue.jpg",
     "imageCaption": "Customers queue outside Silicon Valley Bank's headquarters to withdraw their money, Santa Clara, California, 13 March 2023",
     "imageCredit": "Photo by Liu Guanguan/China News Service/VCG via Getty Images"
@@ -208,28 +152,15 @@
     "month": "2023-05",
     "kind": "company",
     "headline": "Nvidia forecasts 11 billion dollars and stuns Wall Street",
-    "text": "On 24 May Nvidia reported record data-centre revenue of 4.28 billion dollars and forecast revenue of 11.0 billion dollars for the next quarter, about half more than in the quarter just ended. Jensen Huang said a trillion dollars of data-centre equipment will shift to accelerated computing as companies race to use generative AI, and that Nvidia is sharply increasing supply.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2023-05-huang.jpg",
-    "imageCaption": "Jensen Huang, Nvidia's chief executive",
-    "imageCredit": "總統府"
-  },
-  {
-    "month": "2023-05",
-    "kind": "world",
-    "headline": "Nvidia's forecast stuns Wall Street",
-    "text": "On 24 May Nvidia reported quarterly sales of 7.19 billion dollars and forecast about 11 billion for the next quarter, far above what analysts expected. Chief executive Jensen Huang said a trillion dollars of data-centre computers will switch to accelerated computing as companies race to apply generative AI.",
+    "text": "On 24 May Nvidia reported record data-centre revenue of 4.28 billion dollars and forecast revenue of 11.0 billion dollars for the next quarter, about half more than in the quarter just ended. Jensen Huang said a trillion dollars of data-centre equipment will shift to accelerated computing as companies race to use generative AI, and that Nvidia is sharply increasing supply. Quarterly sales were 7.19 billion dollars, and the forecast was far above what analysts expected.",
     "assets": [
       "nvda",
       "msft"
     ],
-    "source": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/tech/2023-05-h100.jpg",
-    "imageCaption": "An Nvidia H100 accelerator card, the data-centre chip behind the AI boom",
-    "imageCredit": "Geekerwan"
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm (Nvidia press release of 24 May 2023, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03)",
+    "image": "/news/nvda/2023-05-huang.jpg",
+    "imageCaption": "Jensen Huang, Nvidia's chief executive",
+    "imageCredit": "總統府"
   },
   {
     "month": "2023-06",

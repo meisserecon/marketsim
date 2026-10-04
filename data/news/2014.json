@@ -2,15 +2,25 @@
   {
     "month": "2014-02",
     "kind": "company",
-    "headline": "Satya Nadella becomes chief executive",
-    "text": "On 4 February Microsoft named Satya Nadella, head of its cloud and enterprise division and at the company since 1992, as chief executive. Bill Gates leaves the chairmanship to become a technology adviser; John Thompson becomes chairman.",
+    "headline": "Record deliveries and a plan for a giant battery factory",
+    "text": "Tesla delivered a record 6,892 Model S in the fourth quarter, had positive free cash flow and expects deliveries to grow by more than 55% in 2014. On 26 February it announced 1.6 billion dollars of convertible bonds to help pay for a huge battery factory, the 'Gigafactory', to make cheaper batteries for a mass-market car.",
     "assets": [
-      "msft"
+      "tsla"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312514035080/d669538dex991.htm (Microsoft press release of 4 February 2014, read 2026-10-03); https://en.wikipedia.org/wiki/Satya_Nadella (read 2026-10-03)",
-    "image": "/news/msft/2014-02-nadella.jpg",
-    "imageCaption": "Satya Nadella with Bill Gates and Steve Ballmer, Redmond, 4 February 2014",
-    "imageCredit": "Briansmale"
+    "source": "Tesla Fourth Quarter and Full Year 2013 Shareholder Letter, 19 February 2014, https://www.sec.gov/Archives/edgar/data/1318605/000119312514058778/d676319dex991.htm (read 2026-10-03); Tesla 8-K exhibit of 26 February 2014 (convertible notes), https://www.sec.gov/Archives/edgar/data/1318605/000119312514069704/d685452dex991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (bonds for the Gigafactory, read 2026-10-03)",
+    "image": "/news/tsla/2014-02-models.jpg",
+    "imageCaption": "A Tesla Model S at the Geneva motor show",
+    "imageCredit": "Ank Kumar"
+  },
+  {
+    "month": "2014-02",
+    "kind": "company",
+    "headline": "Disney earnings jump 34%",
+    "text": "On 5 February Disney reported record quarterly earnings, up 34% to 1.03 dollars a share, with double-digit growth in operating income in every business. Revenue rose 9% to 12.3 billion dollars.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000100103914000081/fy2014_q1x8kxcover.htm (Disney earnings release of 5 February 2014, read 2026-10-03)"
   },
   {
     "month": "2014-02",
@@ -24,19 +34,6 @@
     "image": "/news/sony/2014-02-vaio.jpg",
     "imageCaption": "A Sony Vaio laptop",
     "imageCredit": "Viva Iquique"
-  },
-  {
-    "month": "2014-02",
-    "kind": "company",
-    "headline": "Record deliveries and a plan for a giant battery factory",
-    "text": "Tesla delivered a record 6,892 Model S in the fourth quarter, had positive free cash flow and expects deliveries to grow by more than 55% in 2014. On 26 February it announced 1.6 billion dollars of convertible bonds to help pay for a huge battery factory, the 'Gigafactory', to make cheaper batteries for a mass-market car.",
-    "assets": [
-      "tsla"
-    ],
-    "source": "Tesla Fourth Quarter and Full Year 2013 Shareholder Letter, 19 February 2014, https://www.sec.gov/Archives/edgar/data/1318605/000119312514058778/d676319dex991.htm (read 2026-10-03); Tesla 8-K exhibit of 26 February 2014 (convertible notes), https://www.sec.gov/Archives/edgar/data/1318605/000119312514069704/d685452dex991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (bonds for the Gigafactory, read 2026-10-03)",
-    "image": "/news/tsla/2014-02-models.jpg",
-    "imageCaption": "A Tesla Model S at the Geneva motor show",
-    "imageCredit": "Ank Kumar"
   },
   {
     "month": "2014-02",
@@ -187,27 +184,15 @@
     "month": "2014-11",
     "kind": "world",
     "headline": "OPEC refuses to cut",
-    "text": "On 27 November in Vienna, Saudi oil minister Ali al-Naimi blocked calls from poorer OPEC members to cut output, saying the market should find its own level. US crude fell about 10% by 28 November to $65.94, down from $107 in June. US crude output is about 9.3 million barrels a day, up by two thirds in four years.",
+    "text": "On 27 November in Vienna, Saudi oil minister Ali al-Naimi blocked calls from poorer OPEC members to cut output, saying the market should find its own level. US crude fell about 10% by 28 November to $65.94, down from $107 in June. US crude output is about 9.3 million barrels a day, up by two thirds in four years. ExxonMobil, which earned more than 32 billion dollars in 2013, fell 6%: every dollar off the oil price cuts its profit.",
     "assets": [
-      "slb"
+      "slb",
+      "xom"
     ],
-    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); ExxonMobil press release of 2 February 2015 (2013 and 2014 earnings), https://www.sec.gov/Archives/edgar/data/34088/000003408815000004/f8k4q991.htm (read 2026-10-03)",
     "image": "/news/oil/2014-11-naimi-vienna.jpg",
     "imageCaption": "Saudi oil minister Ali al-Naimi speaks to journalists before the OPEC meeting in Vienna that refused to cut output, 27 November 2014",
     "imageCredit": "Photo by SAMUEL KUBANI/AFP via Getty Images"
-  },
-  {
-    "month": "2014-11",
-    "kind": "company",
-    "headline": "Oil slides below 70 dollars",
-    "text": "US crude, about 107 dollars a barrel in late June, closed November at about 66 dollars as a glut builds: US oil production has nearly doubled since 2008 thanks to shale fracking, and Saudi Arabia argues for lower prices to squeeze high-cost shale producers rather than for OPEC cuts. For ExxonMobil, which earned more than 32 billion dollars a year in 2013, every dollar off the oil price cuts profit.",
-    "assets": [
-      "xom"
-    ],
-    "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); ExxonMobil press release of 2 February 2015 (2013 and 2014 earnings), https://www.sec.gov/Archives/edgar/data/34088/000003408815000004/f8k4q991.htm (read 2026-10-03)",
-    "image": "/news/xom/2014-11-tanker.jpg",
-    "imageCaption": "A petroleum tanker at sea",
-    "imageCredit": "Sarvesh Lutchmun"
   },
   {
     "month": "2014-12",

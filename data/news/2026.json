@@ -198,87 +198,18 @@
     "month": "2026-03",
     "kind": "world",
     "headline": "Hormuz closed, oil above 100 dollars, a new Supreme Leader",
-    "text": "Iran has fired missiles and drones at Israel, US bases and Gulf states, and traffic through the Strait of Hormuz fell by about 70 percent; some 2,000 ships are stranded in the Gulf. Brent crude passed 100 dollars a barrel on 8 March for the first time in four years. On 8 March the Assembly of Experts named Khamenei's son Mojtaba as Supreme Leader. Fighting between Israel and Hezbollah has resumed and Israeli troops have entered southern Lebanon. Stock markets fell, hardest in Asia, where South Korea's index lost up to 12 percent in a day.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)",
+    "text": "Iran has fired missiles and drones at Israel, US bases and Gulf states, and traffic through the Strait of Hormuz, the route for about a quarter of the world's seaborne oil, fell by about 70 percent; some 2,000 ships are stranded in the Gulf and Qatar halted gas exports. On 8 March the Assembly of Experts named Khamenei's son Mojtaba as Supreme Leader; fighting between Israel and Hezbollah has resumed and Israeli troops have entered southern Lebanon. Brent crude passed 100 dollars a barrel on 8 March for the first time in four years and ended March near 120 on futures markets, the largest monthly rise ever. Stock markets fell, hardest in Asia, where South Korea's index lost up to 12 percent in a day; the S&P 500 lost 5 percent in March, its worst month in a year. In Europe, where gas prices nearly doubled, Siemens fell 19 percent and Mercedes-Benz 13 percent, while ExxonMobil gained 11 percent and SLB pulled crews out of the region and warned of lower first-quarter revenue.",
+    "assets": [
+      "xom",
+      "mercedes",
+      "siemens",
+      "slb"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); ExxonMobil press release of 1 May 2026 (Middle East volume impacts), https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/ (read 2026-10-03); https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json; CNBC, 'Iran war poses challenges to high-margin Middle East car market', 18 March 2026 (headline via Google News) (read 2026-10-03); SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)",
     "thread": "iran",
     "image": "/news/middle-east/2026-03-oil-prices.jpg",
     "imageCaption": "Petrol prices jump at a filling station during the Iran war, March 2026",
     "imageCredit": "Chris Olszewski"
-  },
-  {
-    "month": "2026-03",
-    "kind": "world",
-    "headline": "War with Iran closes the Strait of Hormuz",
-    "text": "The US and Israel struck Iran on 28 February, killing Supreme Leader Ali Khamenei. Iran declared the Strait of Hormuz closed, through which about a quarter of the world's seaborne oil passes; Gulf output fell by at least 10 million barrels a day and Qatar halted gas exports. Brent passed $100 on 8 March and ended March near $120 on futures markets, the largest monthly rise ever. The US is releasing 172 million barrels from its reserve.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
-    "image": "/news/oil/2026-03-hormuz-stranded.jpg",
-    "imageCaption": "Smoke on the shore seen from a vessel stranded in the Strait of Hormuz as ship traffic all but stops, 5 March 2026",
-    "imageCredit": "Photo by Stringer/Anadolu via Getty Images"
-  },
-  {
-    "month": "2026-03",
-    "kind": "company",
-    "headline": "War with Iran closes Hormuz and oil passes 100 dollars",
-    "text": "US and Israeli strikes on Iran began on 28 February. Iran effectively closed the Strait of Hormuz, the route for much of the world's oil, and on 9 March Brent crude touched 119.50 dollars, up 29 percent in a day, before settling around 100. US crude averaged about 91 dollars in March, against 65 in February. ExxonMobil, with big production in the Americas, gains from the higher price, though some of its Middle East output is disrupted.",
-    "assets": [
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03); ExxonMobil press release of 1 May 2026 (Middle East volume impacts), https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/ (read 2026-10-03)",
-    "image": "/news/xom/2026-03-hormuz-esa.jpg",
-    "imageCaption": "The Strait of Hormuz seen from space",
-    "imageCredit": "European Space Agency"
-  },
-  {
-    "month": "2026-03",
-    "kind": "world",
-    "headline": "War with Iran and AI fears: shares fall 5 percent",
-    "text": "The S&P 500 set a record of 7,002.28 on 28 January, but software companies fell on fears that artificial intelligence would disrupt their business. Then American and Israeli strikes on Iran began on 28 February, oil futures rose about 50% and the Strait of Hormuz was effectively closed, raising fears of inflation. The S&P 500 lost 5% in March to 6,528.52, its worst month in a year.",
-    "assets": [],
-    "source": "https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503 (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (read 2026-10-03); https://www.staradvertiser.com/2026/04/08/breaking-news/dow-jumps-1326-points-as-stocks-surge-on-iran-ceasefire/ (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2026-03-iran-protest.jpg",
-    "imageCaption": "Protest against the war with Iran, Bristol, 21 March 2026",
-    "imageCredit": "Tadeusz Hare"
-  },
-  {
-    "month": "2026-03",
-    "kind": "company",
-    "headline": "War with Iran hits European car makers",
-    "text": "The United States and Israel went to war with Iran on 28 February. Iran attacked shipping and blocked the Strait of Hormuz, energy prices jumped and stock markets fell. The Middle East is a high-margin market for luxury cars, and higher energy prices weigh on Europe's economy.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); CNBC, 'Iran war poses challenges to high-margin Middle East car market', 18 March 2026 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/mercedes/2026-03-hormuz.jpg",
-    "imageCaption": "The Strait of Hormuz seen from space",
-    "imageCredit": "NASA"
-  },
-  {
-    "month": "2026-03",
-    "kind": "company",
-    "headline": "The Iran war hits Europe's industry",
-    "text": "After US and Israeli strikes on Iran on 28 February, Iran closed the Strait of Hormuz on 4 March. Brent crude passed 120 dollars, European gas prices nearly doubled, and the European Central Bank postponed rate cuts and warned of stagflation. Siemens shares fell 19% in March.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)",
-    "image": "/news/siemens/2026-03-iranmap.jpg",
-    "imageCaption": "Countries struck by the United States, Israel or Iran, as of 14 March 2026",
-    "imageCredit": "Ganesha811"
-  },
-  {
-    "month": "2026-03",
-    "kind": "company",
-    "headline": "War in the Gulf: SLB pulls crews out of the Middle East",
-    "text": "After US and Israeli strikes on Iran began on 28 February and Iran closed the Strait of Hormuz, SLB said on 11 March that it had suspended travel in the region and begun to demobilise operations in a few countries as customers protect staff and facilities. First-quarter revenue will be lower than expected, costing about 6 to 9 cents a share. Oil has passed 100 dollars.",
-    "assets": [
-      "slb"
-    ],
-    "source": "SLB press release of 11 March 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526101131/d17166dex99.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03); SLB press release of 24 April 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm (read 2026-10-03)",
-    "image": "/news/slb/2026-03-hormuz.jpg",
-    "imageCaption": "The Strait of Hormuz seen from space",
-    "imageCredit": "NASA"
   },
   {
     "month": "2026-03",

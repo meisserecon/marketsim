@@ -154,6 +154,16 @@
     "imageCredit": "Kees de Vos from The Hague, The Netherlands"
   },
   {
+    "month": "2004-07",
+    "kind": "company",
+    "headline": "Mack leaves; Grübel runs Credit Suisse alone",
+    "text": "John Mack left Credit Suisse at the end of his three-year contract in early July; Oswald Grübel, with the bank for more than 30 years, is now sole chief executive of the group. Brady Dougan becomes head of Credit Suisse First Boston and Walter Berchtold head of the Swiss bank.",
+    "assets": [
+      "credit-suisse"
+    ],
+    "source": "Credit Suisse Group Form 20-F for 2004, filed 30 March 2005, https://www.sec.gov/Archives/edgar/data/1159510/000102123105000251/b78781x20-f.htm (read 2026-10-03)"
+  },
+  {
     "month": "2004-08",
     "kind": "world",
     "headline": "Google goes public at 85 dollars",
@@ -163,6 +173,16 @@
     "image": "/news/tech/2004-08-google-ipo-nasdaq.jpg",
     "imageCaption": "Larry Page, with Eric Schmidt behind him, at the Nasdaq MarketSite as Google's shares start trading, New York, 19 August 2004",
     "imageCredit": "NASDAQ / Getty Images"
+  },
+  {
+    "month": "2004-08",
+    "kind": "company",
+    "headline": "Cisco grows again, with sales of $22 billion",
+    "text": "Cisco reported fiscal-year sales of $22.0 billion, up 16.8%, and net income of $4.4 billion. Sales in the quarter to July rose 26% from a year earlier to $5.9 billion.",
+    "assets": [
+      "csco"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-04-136865.txt (8-K with press release, read 2026-10-03)"
   },
   {
     "month": "2004-10",
@@ -176,6 +196,23 @@
     "image": "/news/aapl/2004-10-newsweek-ipod.jpg",
     "imageCaption": "\"iPod, Therefore I Am\": Steve Jobs with an iPod on the cover of Newsweek, 26 July 2004",
     "imageCredit": "Newsweek cover (as printed by Cult of Mac)"
+  },
+  {
+    "month": "2004-10",
+    "kind": "world",
+    "headline": "Oil passes $55 on Chinese demand",
+    "text": "US crude reached a record $56.37 a barrel on 26 October, up from about $33 in January. China's oil use is growing about 8% a year, OPEC has little spare capacity, and attacks on Iraqi pipelines continue. Earlier in the year, when oil reached $40, European finance ministers cut their growth forecasts.",
+    "assets": [],
+    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03)"
+  },
+  {
+    "month": "2004-11",
+    "kind": "world",
+    "headline": "Greece's deficits were bigger than reported",
+    "text": "On 22 November Eurostat, the EU's statistics office, published a report on Greece's budget figures, after an audit launched by the government elected in March. The deficit for 1999, the year on which Greece's entry into the euro was judged, was 3.4 percent of economic output, not 1.8 percent, and so above the 3 percent limit; for 2003 it was 4.6 percent instead of 1.7 percent. Military spending had been under-recorded and the surpluses of the social security funds overstated. Greece keeps the euro, but the reliability of its statistics is now openly questioned.",
+    "assets": [],
+    "source": "Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04); https://en.wikipedia.org/wiki/2004_Greek_financial_audit (read 2026-10-04)",
+    "thread": "euro"
   },
   {
     "month": "2004-11",
@@ -193,19 +230,6 @@
   {
     "month": "2004-11",
     "kind": "company",
-    "headline": "Charlie Bell steps down; Jim Skinner takes over",
-    "text": "On 22 November Charlie Bell stepped down as chief executive to fight colon cancer, diagnosed soon after he took over in April. Vice chairman Jim Skinner, a 33-year McDonald's veteran, became chief executive, and Mike Roberts, head of McDonald's USA, president. The US business is heading for a second year of double-digit operating income growth.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390804000050/newsrelease.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Charlie_Bell_(businessman) (read 2026-10-03)",
-    "image": "/news/mcd/2004-11-hq.jpg",
-    "imageCaption": "McDonald's headquarters, Oak Brook, Illinois",
-    "imageCredit": "Rob LaRosa from Las Vegas, NV, USA"
-  },
-  {
-    "month": "2004-11",
-    "kind": "company",
     "headline": "Altria considers breaking itself up",
     "text": "On 4 November chairman Louis Camilleri told investors that Altria's tobacco businesses are significantly undervalued compared with other tobacco companies, and that Altria is looking at separating into two or three independent companies, preparing to act 'when the litigation environment permits'. He expects 2004 earnings at the top of the guided range of 4.55 to 4.60 dollars a share. Altria shares gained about 19% in November.",
     "assets": [
@@ -218,12 +242,24 @@
   },
   {
     "month": "2004-11",
+    "kind": "company",
+    "headline": "Charlie Bell steps down; Jim Skinner takes over",
+    "text": "On 22 November Charlie Bell stepped down as chief executive to fight colon cancer, diagnosed soon after he took over in April. Vice chairman Jim Skinner, a 33-year McDonald's veteran, became chief executive, and Mike Roberts, head of McDonald's USA, president. The US business is heading for a second year of double-digit operating income growth.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390804000050/newsrelease.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Charlie_Bell_(businessman) (read 2026-10-03)",
+    "image": "/news/mcd/2004-11-hq.jpg",
+    "imageCaption": "McDonald's headquarters, Oak Brook, Illinois",
+    "imageCredit": "Rob LaRosa from Las Vegas, NV, USA"
+  },
+  {
+    "month": "2004-11",
     "kind": "world",
-    "headline": "Greece's deficits were bigger than reported",
-    "text": "On 22 November Eurostat, the EU's statistics office, published a report on Greece's budget figures, after an audit launched by the government elected in March. The deficit for 1999, the year on which Greece's entry into the euro was judged, was 3.4 percent of economic output, not 1.8 percent, and so above the 3 percent limit; for 2003 it was 4.6 percent instead of 1.7 percent. Military spending had been under-recorded and the surpluses of the social security funds overstated. Greece keeps the euro, but the reliability of its statistics is now openly questioned.",
+    "headline": "Bush re-elected after a campaign fought over Iraq",
+    "text": "George W. Bush won a second term on 2 November with 286 electoral votes to John Kerry's 251 and 50.7% of the vote; Ohio decided it. Kerry argued that Bush had misled the country into the Iraq war, where no banned weapons had been found; Bush voters named terrorism and traditional values as what mattered most to them.",
     "assets": [],
-    "source": "Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04); https://en.wikipedia.org/wiki/2004_Greek_financial_audit (read 2026-10-04)",
-    "thread": "euro"
+    "source": "https://en.wikipedia.org/wiki/2004_United_States_presidential_election (read 2026-10-03)"
   },
   {
     "month": "2004-12",
@@ -238,5 +274,26 @@
     "image": "/news/ibm/2004-12-thinkpad.jpg",
     "imageCaption": "A ThinkPad notebook, the line IBM sold to Lenovo",
     "imageCredit": "Enrico Guazzini"
+  },
+  {
+    "month": "2004-12",
+    "kind": "company",
+    "headline": "Lehman's profit jumps 39% to a record",
+    "text": "Lehman Brothers' net income rose 39% to a record $2.4 billion in the year to November 2004, with a sixth consecutive year of record revenues from bond trading.",
+    "assets": [
+      "lehman"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000080608504000232/f04-12_158kexhibits.txt (Lehman press release, December 2004; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+  },
+  {
+    "month": "2004-12",
+    "kind": "company",
+    "headline": "Nvidia will design the PlayStation 3's graphics",
+    "text": "Nvidia announced that it will help Sony design the graphics processor for the PlayStation 3 games console.",
+    "assets": [
+      "nvda",
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   }
 ]

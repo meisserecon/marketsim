@@ -26,6 +26,18 @@
     "imageCredit": "WClarke"
   },
   {
+    "month": "2005-02",
+    "kind": "world",
+    "headline": "Greenspan's 'conundrum': long rates fall while the Fed raises",
+    "text": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)"
+  },
+  {
     "month": "2005-03",
     "kind": "company",
     "headline": "Bob Iger chosen to succeed Eisner",
@@ -65,16 +77,26 @@
     "imageCredit": "Shed Rat"
   },
   {
+    "month": "2005-04",
+    "kind": "company",
+    "headline": "Brabeck becomes chairman as well as chief executive",
+    "text": "Peter Brabeck-Letmathe became chairman of Nestlé in April while staying chief executive. Combining both jobs is controversial among shareholders who want a separate check on management.",
+    "assets": [
+      "nestle"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Peter_Brabeck-Letmathe (read 2026-10-03)"
+  },
+  {
     "month": "2005-06",
     "kind": "company",
     "headline": "Apple switches the Mac to Intel",
-    "text": "On 6 June Steve Jobs announced that Apple will put Intel processors into its Macintosh computers from 2006, replacing the PowerPC chips from IBM and Motorola. Apple has secretly kept a version of Mac OS X running on Intel chips for five years.",
+    "text": "On 6 June Steve Jobs announced that Apple will put Intel processors into its Macintosh computers from 2006, replacing the PowerPC chips from IBM and Motorola. Apple has secretly kept a version of Mac OS X running on Intel chips for five years. Paul Otellini, Intel's chief executive since 18 May, worked to win the deal.",
     "assets": [
       "aapl",
       "intc",
       "ibm"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03)",
     "image": "/news/aapl/2005-06-intel-kit.jpg",
     "imageCaption": "Inside Apple's Developer Transition Kit, a Mac with an Intel processor, June 2005",
     "imageCredit": "Hyper neo"
@@ -92,21 +114,6 @@
     "image": "/news/ba/2005-06-mcnerney.jpg",
     "imageCaption": "Boeing chairman and chief executive Jim McNerney (right) with US Secretary of State Hillary Clinton",
     "imageCredit": "US Department of State"
-  },
-  {
-    "month": "2005-06",
-    "kind": "company",
-    "headline": "Apple switches the Mac to Intel",
-    "text": "On 6 June Steve Jobs announced that Apple will use Intel's processors in its Macintosh computers from 2006, ending its use of IBM and Motorola's PowerPC chips. Paul Otellini, Intel's chief executive since 18 May, worked to win the deal.",
-    "assets": [
-      "intc",
-      "aapl",
-      "ibm"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Intel (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Otellini (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
-    "image": "/news/intc/2005-06-jobs-otellini.jpg",
-    "imageCaption": "Steve Jobs and Intel chief executive Paul Otellini on stage at an Apple developer conference",
-    "imageCredit": "Ben Stanfield from Rockville, MD, USA"
   },
   {
     "month": "2005-06",

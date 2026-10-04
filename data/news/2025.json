@@ -1,41 +1,18 @@
 [
   {
     "month": "2025-01",
-    "kind": "company",
-    "headline": "DeepSeek: 600 billion dollars lost in a day",
-    "text": "DeepSeek, a Chinese AI start-up, released an advanced AI model that it says it developed at a fraction of the usual cost and computing power, and its app overtook ChatGPT as the top free app in the US App Store. On 27 January Nvidia's shares fell so sharply that it lost about 600 billion dollars of market value, the largest one-day loss for any US company.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2025-01-ces.jpg",
-    "imageCaption": "Jensen Huang at the CES keynote, Las Vegas, 6 January 2025",
-    "imageCredit": "Pronoia"
-  },
-  {
-    "month": "2025-01",
     "kind": "world",
-    "headline": "Stargate and the DeepSeek shock",
-    "text": "On 21 January OpenAI, Oracle and SoftBank announced Stargate, a plan to spend up to 500 billion dollars on AI data centres in the US over four years. A week later DeepSeek, a Chinese AI model released on 20 January, topped the US App Store; on 27 January Nvidia fell 17%, losing about 600 billion dollars of value, the largest one-day loss for any US company.",
+    "headline": "China's DeepSeek shakes the AI trade",
+    "text": "The Chinese start-up DeepSeek released its R1 AI model on 20 January, saying it matches US rivals at a fraction of the cost and on older chips. By 27 January its chatbot had overtaken ChatGPT as the most downloaded free app in the US, and Nvidia's shares fell about 18%. That day Nvidia lost about 600 billion dollars of market value, the largest one-day loss for any US company. Only a week earlier OpenAI, Oracle and SoftBank had announced Stargate, a plan to spend up to 500 billion dollars on AI data centres in the US over four years.",
     "assets": [
       "nvda",
       "msft"
     ],
-    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
-    "image": "/news/tech/2025-01-stargate-white-house.jpg",
-    "imageCaption": "President Trump with SoftBank's Masayoshi Son, Oracle's Larry Ellison and OpenAI's Sam Altman announcing the Stargate investment, White House, 21 January 2025",
-    "imageCredit": "Reuters"
-  },
-  {
-    "month": "2025-01",
-    "kind": "world",
-    "headline": "China's DeepSeek shakes the AI trade",
-    "text": "The Chinese start-up DeepSeek released its R1 AI model on 20 January, saying it matches US rivals at a fraction of the cost and on older chips. By 27 January its chatbot was the most downloaded free app in the US, and Nvidia's shares fell about 18%.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03)",
-    "thread": "china"
+    "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
+    "thread": "china",
+    "image": "/news/asia/2025-01-ces.jpg",
+    "imageCaption": "Jensen Huang at the CES keynote, Las Vegas, 6 January 2025",
+    "imageCredit": "Pronoia"
   },
   {
     "month": "2025-01",
@@ -104,21 +81,17 @@
   {
     "month": "2025-04",
     "kind": "world",
-    "headline": "Liberation Day: tariffs crash shares, a pause brings a record rebound",
-    "text": "On 2 April President Trump announced tariffs of at least 10% on nearly all imports. The S&P 500 fell 4.8% on 3 April and 6.0% on 4 April, the largest two-day loss of value in history at about 6.6 trillion dollars, and on 7 April it was briefly 23% below its February record. On 9 April Trump paused most of the tariffs and the index jumped 9.5%, its biggest daily gain since 2008; it ended April down only 1%.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2025-04-liberation-day.jpg",
-    "imageCaption": "President Trump announces reciprocal tariffs in the White House Rose Garden, 2 April 2025",
-    "imageCredit": " (The White House)"
-  },
-  {
-    "month": "2025-04",
-    "kind": "world",
     "headline": "Liberation Day: tariffs on the whole world",
-    "text": "On 2 April President Trump announced tariffs on imports from almost every country: 10 percent for all from 5 April, and higher 'reciprocal' rates from 9 April, including 20 percent for the EU, 34 percent for China and 31 percent for Switzerland. Stock markets crashed for two days. On 9 April Trump paused the higher rates for 90 days, and the S&P 500 had its biggest one-day gain since 2008. The Swiss rate was met with incomprehension in Bern.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs (read 2026-10-03); https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03)",
+    "text": "On 2 April President Trump announced tariffs on imports from almost every country: 10 percent for all from 5 April, and higher 'reciprocal' rates from 9 April, including 20 percent for the EU, 34 percent for China and 31 percent for Switzerland. Stock markets crashed: the S&P 500 fell 4.8 percent on 3 April and 6.0 percent on 4 April, the largest two-day loss of value in history at about 6.6 trillion dollars, and even Treasury bonds, the usual safe haven, were sold, while gold rose to a record. On 9 April Trump paused the higher rates for 90 days, and the S&P 500 jumped 9.5 percent, its biggest one-day gain since 2008; it ended April down only 1 percent. Fears of a recession knocked US crude to about 60 dollars by 8 April, the lowest since 2021, and it ended the month 17 percent lower. The Swiss rate was met with incomprehension in Bern.",
+    "assets": [
+      "slb",
+      "xom",
+      "gold",
+      "ust2030",
+      "ust2035",
+      "ust2040"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs (read 2026-10-03); https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "image": "/news/world/2025-04-liberation-day.jpg",
     "imageCaption": "President Trump shows his chart of 'reciprocal' tariffs in the White House Rose Garden, 2 April 2025",
     "imageCredit": "The White House"
@@ -135,36 +108,6 @@
     "image": "/news/nvda/2025-04-hq.jpg",
     "imageCaption": "Nvidia's headquarters in Santa Clara, California",
     "imageCredit": "Coolcaesar"
-  },
-  {
-    "month": "2025-04",
-    "kind": "world",
-    "headline": "Tariffs knock oil below $60",
-    "text": "After the US announced sweeping tariffs on 2 April, fears of a recession hit oil: US crude fell from $72 to about $60 by 8 April, the lowest since 2021, and ended the month 17% lower at $59.55. OPEC+ is in the process of unwinding its output cuts.",
-    "assets": [
-      "slb",
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2025-04-texas-pumpjack.jpg",
-    "imageCaption": "An oil pumpjack in a field at Gillett, Texas, as US oil prices fall 15 percent in a week after the tariff announcement, 7 April 2025",
-    "imageCredit": "Photo by Brandon Bell/Getty Images"
-  },
-  {
-    "month": "2025-04",
-    "kind": "world",
-    "headline": "Tariff shock: Treasury bonds sold, gold bought",
-    "text": "After the president announced sweeping tariffs on 2 April, the S&P 500 fell 10 percent in two days. Treasury bonds, the usual safe haven, were sold too: the 10-year yield rose from 3.86 percent on 4 April to 4.5 percent on 9 April, and the 30-year yield jumped 54 basis points to 4.92 percent, its biggest three-day rise since 1982, before a 90-day tariff pause on 9 April calmed markets. Gold averaged 3,218 dollars in April, 8 percent more than in March and a record.",
-    "assets": [
-      "gold",
-      "ust2030",
-      "ust2035",
-      "ust2040"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "image": "/news/rates/2025-04-tariff-chart.jpg",
-    "imageCaption": "The reciprocal tariff rates announced at the White House, 2 April 2025",
-    "imageCredit": "US government"
   },
   {
     "month": "2025-05",
@@ -196,24 +139,13 @@
     "month": "2025-06",
     "kind": "world",
     "headline": "Twelve days of war: Israel and the US strike Iran",
-    "text": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel.",
+    "text": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel. Brent rose from about $68 to over $78, then fell back to about $68 once oil kept flowing through the Strait of Hormuz.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
     "thread": "iran",
     "image": "/news/middle-east/2025-06-tehran-attack.jpg",
     "imageCaption": "Smoke over Tehran after the Israeli attack of 13 June 2025",
     "imageCredit": "Mohammadjavad Alikhani"
-  },
-  {
-    "month": "2025-06",
-    "kind": "world",
-    "headline": "Israel and Iran at war for twelve days",
-    "text": "Israel struck Iran's nuclear and military sites on 13 June; the US bombed three nuclear sites on 22 June, and a ceasefire took hold on 24 June. Brent rose from about $68 to over $78, then fell back to about $68 once oil kept flowing through the Strait of Hormuz.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
-    "image": "/news/oil/2025-06-israeli-jets.jpg",
-    "imageCaption": "Israeli Air Force fighter jets on their way to Iran, June 2025",
-    "imageCredit": "IDF Spokesperson's Unit photographer"
   },
   {
     "month": "2025-06",
@@ -282,7 +214,7 @@
     "month": "2025-09",
     "kind": "company",
     "headline": "Nvidia invests 5 billion dollars in Intel",
-    "text": "On 18 September Nvidia agreed to buy 5 billion dollars of Intel shares at 23.28 dollars, about 4% of the company, and the two will develop chips together for PCs and data centres. Intel's shares closed 22.8% higher at 30.57 dollars, their best day since 1987.",
+    "text": "On 18 September Nvidia agreed to buy 5 billion dollars of Intel shares at 23.28 dollars, about 4% of the company, and the two will develop chips together for PCs and data centres. Intel's shares closed 22.8% higher at 30.57 dollars, their best day since 1987. Four days later Nvidia also signed a memorandum under which it would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
     "assets": [
       "intc",
       "nvda"
@@ -308,20 +240,6 @@
   {
     "month": "2025-09",
     "kind": "company",
-    "headline": "Nvidia invests in Intel and in OpenAI",
-    "text": "On 18 September Nvidia agreed to invest 5 billion dollars in Intel, about 4% of its old rival, and to develop chips with it. On 22 September Nvidia and OpenAI signed a memorandum under which Nvidia would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
-    "assets": [
-      "nvda",
-      "intc"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary)",
-    "image": "/news/nvda/2025-09-starmer.jpg",
-    "imageCaption": "UK prime minister Keir Starmer and Jensen Huang on stage at an Nvidia event, 2025",
-    "imageCredit": "Number 10 on Flickr"
-  },
-  {
-    "month": "2025-09",
-    "kind": "company",
     "headline": "Musk buys a billion dollars of Tesla shares",
     "text": "Elon Musk bought about 1 billion dollars of Tesla shares, adding to his roughly 13% stake, in what investors took as a vote of confidence; the shares jumped more than 6% on 15 September. Musk wants more control of Tesla as he pushes it into robotaxis, automation and artificial intelligence.",
     "assets": [
@@ -336,12 +254,12 @@
     "month": "2025-10",
     "kind": "company",
     "headline": "Nvidia invests $1 billion in Nokia",
-    "text": "On 23 October Nokia reported third-quarter sales up 9% on a comparable basis, with optical networks up 19%. On 28 October Nvidia announced it will invest 1 billion dollars in Nokia at 6.01 dollars a share and work with it on AI-powered mobile networks for 5G-Advanced and 6G, with T-Mobile US trials from 2026.",
+    "text": "On 23 October Nokia reported third-quarter sales up 9% on a comparable basis, with optical networks up 19%. On 28 October Nvidia announced it will invest 1 billion dollars in Nokia at 6.01 dollars a share and work with it on AI-powered mobile networks for 5G-Advanced and 6G, with T-Mobile US trials from 2026. Nokia's shares rose 44% in October.",
     "assets": [
       "nokia",
       "nvda"
     ],
-    "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03)",
+    "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
     "image": "/news/nokia/2025-10-huang-gtc-washington.jpg",
     "imageCaption": "Nvidia chief executive Jensen Huang at his company's GTC conference in Washington, where he announced the billion-dollar investment in Nokia, 28 October 2025",
     "imageCredit": "AFP/Getty Images (press photograph, via CNBC)"
@@ -374,11 +292,12 @@
     "month": "2025-10",
     "kind": "company",
     "headline": "Five trillion dollars",
-    "text": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars.",
+    "text": "On 29 October Nvidia became the first company to reach a market value of five trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company; JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
     "assets": [
-      "nvda"
+      "nvda",
+      "nokia"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Jensen_Huang (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
     "image": "/news/nvda/2025-10-gtc.jpg",
     "imageCaption": "Nvidia's GTC conference entrance, 2025",
     "imageCredit": "Jack145945"
@@ -395,20 +314,6 @@
     "image": "/news/rates/2025-10-gold-price-bangkok.jpg",
     "imageCaption": "A jeweller writes the day's gold price on a shop window in Bangkok as gold passes 4,000 dollars an ounce, 8 October 2025",
     "imageCredit": "Photo by Piti Anchaleesahakorn/NurPhoto via Getty Images"
-  },
-  {
-    "month": "2025-10",
-    "kind": "world",
-    "headline": "Nvidia at 5 trillion; a stake in Nokia",
-    "text": "On 29 October Nvidia became the first company valued at 5 trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company, whose shares rose 44% in October. JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
-    "assets": [
-      "nvda",
-      "nokia"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
-    "image": "/news/tech/2025-10-huang.jpg",
-    "imageCaption": "Nvidia chief executive Jensen Huang delivers the keynote at CES, Las Vegas, January 2025",
-    "imageCredit": "Joseph Zadeh"
   },
   {
     "month": "2025-11",

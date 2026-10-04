@@ -14,22 +14,11 @@
   },
   {
     "month": "2002-01",
-    "kind": "colour",
-    "headline": "Euro notes and coins in the neighbouring countries",
-    "text": "On 1 January euro notes and coins went into circulation in twelve EU countries, among them Germany, France, Italy and Austria. The mark, the French franc, the lira and the schilling can be exchanged until the end of February. The euro has existed since 1999, but only for accounts and electronic payments. Switzerland keeps its franc, but Swiss travellers and shoppers across the border now meet one currency on three sides.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Euro_banknotes (read 2026-10-03); https://en.wikipedia.org/wiki/Euro (read 2026-10-03)",
-    "image": "/news/life/2002-01-euro.jpg",
-    "imageCaption": "Euro banknotes and coins, which replaced national currencies on 1 January 2002",
-    "imageCredit": " Rijksmuseum"
-  },
-  {
-    "month": "2002-01",
     "kind": "world",
     "headline": "Euro notes and coins arrive",
-    "text": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000.",
+    "text": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000. Switzerland keeps its franc, but Swiss travellers and shoppers across the border now meet one currency on three sides.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03); https://en.wikipedia.org/wiki/Euro_banknotes (read 2026-10-03)",
     "thread": "euro",
     "image": "/news/world/2002-01-maastricht-atm.jpg",
     "imageCaption": "In the first minutes of 2002, people in Maastricht look closely at the euro notes they have just drawn from a cash machine",
@@ -189,29 +178,16 @@
     "month": "2002-07",
     "kind": "world",
     "headline": "WorldCom's collapse caps a month of accounting scandals",
-    "text": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2002-07-ebbers-hearing.jpg",
-    "imageCaption": "Former WorldCom chief executive Bernard Ebbers arrives at the House Financial Services Committee hearing, Washington, 8 July 2002",
-    "imageCredit": "Photo by Mark Wilson/Getty Images"
-  },
-  {
-    "month": "2002-07",
-    "kind": "world",
-    "headline": "WorldCom fails: the telecom bust's biggest bankruptcy",
-    "text": "WorldCom, the long-distance telephone company, filed for bankruptcy in July after an accounting scandal, following Global Crossing's bankruptcy in January. The head of the FCC told the Senate that the industry owes about a trillion dollars, much of which will never be repaid. The Nasdaq fell 9% in July to 1,328.",
+    "text": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
     "assets": [
       "worldcom",
       "csco",
       "nokia"
     ],
-    "source": "https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2002-07-worldcom-hearing.jpg",
-    "imageCaption": "Former WorldCom chief Bernard Ebbers at the House hearing on WorldCom's accounts, with Andersen's Melvin Dick, CFO Scott Sullivan and analyst Jack Grubman, Washington, 8 July 2002",
-    "imageCredit": "Chuck Kennedy / KRT / ABACA"
+    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "image": "/news/markets/2002-07-ebbers-hearing.jpg",
+    "imageCaption": "Former WorldCom chief executive Bernard Ebbers arrives at the House Financial Services Committee hearing, Washington, 8 July 2002",
+    "imageCredit": "Photo by Mark Wilson/Getty Images"
   },
   {
     "month": "2002-07",
@@ -283,32 +259,20 @@
     "month": "2002-09",
     "kind": "world",
     "headline": "Iraq tensions and weak data: shares fall 11 percent",
-    "text": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2002-09-nyse-trader.jpg",
-    "imageCaption": "A trader on the floor of the New York Stock Exchange late in a day on which the Dow fell 296 points, 27 September 2002",
-    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
-  },
-  {
-    "month": "2002-09",
-    "kind": "world",
-    "headline": "The Nasdaq at a six-year low",
-    "text": "The Nasdaq fell 11% in September to 1,172, its lowest month-end since 1996 and 77% below the record of March 2000. Accounting scandals from Enron to WorldCom have shaken trust in company figures.",
+    "text": "Weak figures on production and jobs, a gloomier outlook for profits and rising tension over Iraq sent shares down again in September. On 23 September the Nasdaq hit a six-year low and the yield on 10-year Treasury bonds sank to 3.70 percent, a 40-year low, as investors fled to safety. The S&P 500 lost 11% in the month to 815.28. The Nasdaq ended the month at 1,172, 77% below its record of March 2000, as accounting scandals from Enron to WorldCom shook trust in company figures.",
     "assets": [
       "siemens",
       "ibm",
       "intc",
-      "csco"
+      "csco",
+      "ust2005",
+      "ust2010",
+      "ust2020"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
-    "image": "/news/tech/2002-09-cnbc-marketsite.jpg",
-    "imageCaption": "CNBC's morning programme broadcasting from the Nasdaq MarketSite, Times Square",
-    "imageCredit": "ed100"
+    "source": "https://www.federalreserve.gov/fomc/minutes/20020924.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/September_2002 (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
+    "image": "/news/markets/2002-09-nyse-trader.jpg",
+    "imageCaption": "A trader on the floor of the New York Stock Exchange late in a day on which the Dow fell 296 points, 27 September 2002",
+    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
   },
   {
     "month": "2002-10",
@@ -326,19 +290,8 @@
   {
     "month": "2002-10",
     "kind": "world",
-    "headline": "Shares hit five-year lows, then jump 9 percent",
-    "text": "On 7 October the S&P 500 closed at 785.28, its lowest since 1997, and by 9 October the Dow was below 7,200 and the Nasdaq just above 1,100, down almost 80% from its 2000 peak; the S&P 500 had lost about half its value. Then better-than-expected profit reports from several big companies lifted shares, and the S&P 500 ended October up 9% at 885.76.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2002-10-nyse-traders.jpg",
-    "imageCaption": "Traders on the floor of the New York Stock Exchange watch a monitor on the fourth straight day of gains, 15 October 2002",
-    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
-  },
-  {
-    "month": "2002-10",
-    "kind": "world",
     "headline": "The Nasdaq falls 78% below its record, then rebounds",
-    "text": "On 9 October the Nasdaq closed at 1,114.11, 78% below its March 2000 record; about 5 trillion dollars of market value has been lost since the record. From there it rose 13.5% by the end of October, led by technology shares.",
+    "text": "On 9 October the Nasdaq closed at 1,114.11, 78% below its March 2000 record; about 5 trillion dollars of market value has been lost since the record. From there it rose 13.5% by the end of October, led by technology shares. The S&P 500, which had closed at 785.28 on 7 October, its lowest since 1997, ended the month up 9% at 885.76 as better-than-expected profit reports from several big companies lifted shares.",
     "assets": [
       "csco",
       "intc",
@@ -346,8 +299,11 @@
       "siemens",
       "nvda"
     ],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "thread": "dotcom"
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/October_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20021106.htm (read 2026-10-03); data/reference/sp500.json",
+    "thread": "dotcom",
+    "image": "/news/tech/2002-10-nyse-traders.jpg",
+    "imageCaption": "Traders on the floor of the New York Stock Exchange watch a monitor on the fourth straight day of gains, 15 October 2002",
+    "imageCredit": "Photo by HENNY RAY ABRAMS/AFP via Getty Images"
   },
   {
     "month": "2002-10",

@@ -2,8 +2,17 @@
   {
     "month": "2001-01",
     "kind": "world",
-    "headline": "A surprise rate cut: the Nasdaq jumps 14% in a day",
-    "text": "On 3 January the Federal Reserve cut interest rates by half a point, from 6.5% to 6%, without waiting for its next meeting. The Nasdaq rose 14.17% that day to 2,616.69, its biggest gain ever, and 12% over the month. Beaten-down technology shares rebounded hardest: Microsoft rose about 41% in January, Apple 45%.",
+    "headline": "Greece becomes the twelfth euro country",
+    "text": "On 1 January Greece adopted the euro, two years after the first eleven countries. In 1998 it had failed the entry tests; in June 2000 the EU judged that it now meets them and fixed the rate at 340.75 drachmas per euro. Like Italy and Belgium, Greece owes more than its whole annual economic output, far above the 60 percent limit in the rules. Euro notes and coins are to follow in all twelve countries in January 2002.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Enlargement_of_the_eurozone (read 2026-10-04); https://en.wikipedia.org/wiki/Euro_convergence_criteria (read 2026-10-04); https://en.wikipedia.org/wiki/History_of_the_euro (read 2026-10-04); European Monetary Institute, Convergence Report, March 1998, https://www.ecb.europa.eu/pub/pdf/conrep/cr1998en.pdf (read 2026-10-04); Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04)",
+    "thread": "euro"
+  },
+  {
+    "month": "2001-01",
+    "kind": "world",
+    "headline": "The Fed cuts by half a point, twice in one month",
+    "text": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%.",
     "assets": [
       "msft",
       "aapl",
@@ -15,10 +24,11 @@
       "ust2010",
       "ust2020"
     ],
-    "source": "https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2001-01-greenspan.jpg",
-    "imageCaption": "Alan Greenspan, chairman of the Federal Reserve, at the IMF meetings in Prague, September 2000",
-    "imageCredit": " (International Monetary Fund)"
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "rates",
+    "image": "/news/rates/2001-01-greenspan-senate.jpg",
+    "imageCaption": "Fed Chairman Alan Greenspan testifies to the Senate Budget Committee, Washington, 25 January 2001",
+    "imageCredit": "Photo by Ron Sachs/CNP/Getty Images"
   },
   {
     "month": "2001-01",
@@ -32,31 +42,6 @@
     "image": "/news/ebay/2001-01-whitman.jpg",
     "imageCaption": "Meg Whitman, eBay's chief executive",
     "imageCredit": "Erik (HASH) Hersman"
-  },
-  {
-    "month": "2001-01",
-    "kind": "world",
-    "headline": "The Fed cuts by half a point, twice in one month",
-    "text": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
-    "thread": "rates",
-    "image": "/news/rates/2001-01-greenspan-senate.jpg",
-    "imageCaption": "Fed Chairman Alan Greenspan testifies to the Senate Budget Committee, Washington, 25 January 2001",
-    "imageCredit": "Photo by Ron Sachs/CNP/Getty Images"
-  },
-  {
-    "month": "2001-01",
-    "kind": "world",
-    "headline": "Greece becomes the twelfth euro country",
-    "text": "On 1 January Greece adopted the euro, two years after the first eleven countries. In 1998 it had failed the entry tests; in June 2000 the EU judged that it now meets them and fixed the rate at 340.75 drachmas per euro. Like Italy and Belgium, Greece owes more than its whole annual economic output, far above the 60 percent limit in the rules. Euro notes and coins are to follow in all twelve countries in January 2002.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Enlargement_of_the_eurozone (read 2026-10-04); https://en.wikipedia.org/wiki/Euro_convergence_criteria (read 2026-10-04); https://en.wikipedia.org/wiki/History_of_the_euro (read 2026-10-04); European Monetary Institute, Convergence Report, March 1998, https://www.ecb.europa.eu/pub/pdf/conrep/cr1998en.pdf (read 2026-10-04); Eurostat, Report on the revision of the Greek government deficit and debt figures, 22 November 2004, https://ec.europa.eu/eurostat/documents/4187653/5765001/GREECE-EN.PDF (read 2026-10-04)",
-    "thread": "euro"
   },
   {
     "month": "2001-02",
@@ -88,7 +73,7 @@
     "month": "2001-02",
     "kind": "world",
     "headline": "The telecom bust: network gear makers crash",
-    "text": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse.",
+    "text": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
     "assets": [
       "csco",
       "nokia",
@@ -96,7 +81,7 @@
       "siemens",
       "amzn"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)",
     "image": "/news/tech/2001-02-lucent-hq.jpg",
     "imageCaption": "Lucent Technologies' headquarters at Murray Hill, New Jersey",
     "imageCredit": "Blaxthos"
@@ -116,21 +101,6 @@
   },
   {
     "month": "2001-02",
-    "kind": "world",
-    "headline": "Earnings disappoint and shares fall 9 percent despite Fed cuts",
-    "text": "A steady flow of disappointing company earnings reports sent shares sharply lower in February, with the technology-heavy Nasdaq falling hardest, and consumer confidence dropped. The Federal Reserve had already cut its key rate twice in January, including a surprise move on 3 January. The S&P 500 lost 9% in the month to 1,239.94.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2001-02-greenspan-senate.jpg",
-    "imageCaption": "Fed Chairman Alan Greenspan testifies to the Senate Banking Committee, Washington, 13 February 2001",
-    "imageCredit": "Photo by MARIO TAMA/AFP via Getty Images"
-  },
-  {
-    "month": "2001-02",
     "kind": "company",
     "headline": "Philip Morris was the best Dow stock of 2000",
     "text": "Philip Morris shares gained 90% in 2000, the best performance among the 30 Dow Jones stocks in a year when most indexes fell; at about 46 dollars they are more than twice their level of January 2000. The company earned 8.5 billion dollars in 2000. Investors expect the Engle verdict to be overturned, think the new Bush administration will be gentler on tobacco, and like a business that sells in any economy as technology stocks crash.",
@@ -141,19 +111,6 @@
     "image": "/news/mo/2001-02-nyse-floor.jpg",
     "imageCaption": "The trading floor of the New York Stock Exchange",
     "imageCredit": "en:User:Taak"
-  },
-  {
-    "month": "2001-02",
-    "kind": "company",
-    "headline": "Nokia slides as the phone market slows",
-    "text": "On 30 January Nokia cut its first-quarter sales growth forecast to 25-30% and its estimate for world phone sales this year to 500-550 million, citing economic uncertainty and slowing phone sales; earlier in January it had disclosed lower 2000 phone sales than analysts hoped. Wireless shares have been under pressure on signs of slowing growth and falling profitability. Nokia's ADR lost 36% in February.",
-    "assets": [
-      "nokia"
-    ],
-    "source": "https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)",
-    "image": "/news/nokia/2001-02-models.jpg",
-    "imageCaption": "Nokia 9210, 7650, 6250 and 6310 handsets",
-    "imageCredit": "Solomon203"
   },
   {
     "month": "2001-03",
@@ -351,29 +308,18 @@
   },
   {
     "month": "2001-09",
-    "kind": "company",
-    "headline": "Terror with Boeing jets; up to 30,000 jobs to go",
-    "text": "On 11 September hijackers flew four Boeing jets, two 767s and two 757s, into the World Trade Center, the Pentagon and a field in Pennsylvania. With airlines cutting flights, Boeing said on 18 September it will reduce its airliner workforce by 20,000 to 30,000 by the end of 2002.",
+    "kind": "world",
+    "headline": "Terror attacks on New York and Washington",
+    "text": "On 11 September nineteen hijackers seized four airliners; two destroyed the twin towers of the World Trade Center in New York, one hit the Pentagon and one crashed in Pennsylvania, and thousands are dead. Al-Qaeda, led by Osama bin Laden, is blamed; Congress voted 15 billion dollars of aid for the airlines, and NATO invoked its mutual-defence clause for the first time. The New York Stock Exchange stayed closed until 17 September, its longest closure since the Great Depression, and when it reopened the Dow fell 684 points, or 7.1 percent, its largest point fall ever; airline, insurance and travel shares fell hardest, and the S&P 500 lost 8% in September. Boeing, whose jets were used in the attacks, lost 35% and will cut 20,000 to 30,000 airliner jobs as airlines cut flights. Disney, whose parks emptied as air travel stopped, lost 27%, and Siemens lost a quarter of its value.",
     "assets": [
-      "ba"
-    ],
-    "source": "https://boeing.mediaroom.com/2001-09-18-Boeing-Responds-to-Current-Business-Environment (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
-    "image": "/news/ba/2001-09-wtc-smoke.jpg",
-    "imageCaption": "Smoke rising from the World Trade Center, seen from across the river, New York, 11 September 2001",
-    "imageCredit": "Michael Foran"
-  },
-  {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "The September attacks empty Disney's parks; the Bass family sells",
-    "text": "After the attacks of 11 September air travel stopped and stock exchanges closed until 17 September. Tourism-dependent companies such as Disney were hit hard. On 20 September Disney said it had bought 50 million of its own shares from 'certain significant stockholders' at a discount, and Goldman Sachs bought another 85 million to resell; the Texas billionaire Sid Bass, a large Disney shareholder since 1984, was forced to sell his holdings to meet a margin call.",
-    "assets": [
+      "ba",
+      "siemens",
       "dis"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000091205701532952/a2059716z8-k.txt (Disney 8-K of 20 September 2001, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03)",
-    "image": "/news/dis/2001-09-castle.jpg",
-    "imageCaption": "Sleeping Beauty Castle, Disneyland, Anaheim",
-    "imageCredit": "Tuxyso"
+    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://www.plansponsor.com/dow-closes-down-684-points/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json; data/out/siemens.json (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1001039/000091205701532952/a2059716z8-k.txt (Disney 8-K of 20 September 2001, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://boeing.mediaroom.com/2001-09-18-Boeing-Responds-to-Current-Business-Environment (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
+    "image": "/news/world/2001-09-wtc-smoke.jpg",
+    "imageCaption": "Smoke pours from the twin towers of the World Trade Center after the attacks, New York, 11 September 2001",
+    "imageCredit": "Michael Foran (Flickr)"
   },
   {
     "month": "2001-09",
@@ -390,71 +336,6 @@
   },
   {
     "month": "2001-09",
-    "kind": "world",
-    "headline": "After the attacks: markets closed four days, then the worst week in decades",
-    "text": "The New York Stock Exchange stayed closed after the terrorist attacks of 11 September and reopened only on 17 September, its longest closure since the Great Depression. That day the Fed cut its key rate to 3 percent, and the Dow fell 684.81 points or 7.1%; shares kept falling in volatile trading as business and consumer confidence collapsed. The S&P 500 lost 8% in September to 1,040.94.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2001-09-nyse-reopens.jpg",
-    "imageCaption": "A trader looks up grimly at a screen as the New York Stock Exchange reopens, 17 September 2001",
-    "imageCredit": "Photo by Chris Hondros/Getty Images"
-  },
-  {
-    "month": "2001-09",
-    "kind": "world",
-    "headline": "Attacks on New York and Washington; Wall Street's worst week since the 1930s",
-    "text": "On 11 September hijackers flew airliners into the World Trade Center and the Pentagon, and a fourth plane crashed in Pennsylvania; thousands are dead or missing. US stock markets stayed shut until 17 September, when the Dow fell 684 points, 7.1 percent, its biggest one-day point loss, and ended the week down more than 14 percent; airline and insurance shares were hit hardest. In Tehran, people held candlelight vigils for the victims, and President Khatami sent his sympathy.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://thedailyrecord.com/2001/09/17/dow-suffers-largest-singleday-point-loss-in-history-tumbling-684/ (read 2026-10-03); https://en.wikipedia.org/wiki/Axis_of_evil (read 2026-10-03)",
-    "image": "/news/middle-east/2001-09-nyse-silence.jpg",
-    "imageCaption": "On the floor of the New York Stock Exchange, a trader comforts another during the moment of silence before trading resumes, 17 September 2001",
-    "imageCredit": "David L Ryan | Boston Globe | Getty Images"
-  },
-  {
-    "month": "2001-09",
-    "kind": "world",
-    "headline": "Terror attacks on New York and Washington",
-    "text": "On 11 September nineteen hijackers seized four airliners; two destroyed the twin towers of the World Trade Center in New York, one hit the Pentagon and one crashed in Pennsylvania. Thousands are dead. Al-Qaeda, led by Osama bin Laden, is blamed. The New York Stock Exchange stayed closed until 17 September, when the Dow fell 684 points, or 7.1 percent, its largest point fall ever; airline, insurance and travel shares fell hardest. Congress voted 15 billion dollars of aid for the airlines, and NATO invoked its mutual-defence clause for the first time.",
-    "assets": [
-      "ba"
-    ],
-    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://www.plansponsor.com/dow-closes-down-684-points/ (read 2026-10-03)",
-    "image": "/news/world/2001-09-wtc-smoke.jpg",
-    "imageCaption": "Smoke pours from the twin towers of the World Trade Center after the attacks, New York, 11 September 2001",
-    "imageCredit": "Michael Foran (Flickr)"
-  },
-  {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "September 11 brings the biggest insurance loss ever",
-    "text": "The attacks of 11 September have caused the largest insured loss in history, estimated at around 40 billion dollars for the industry. Berkshire, through General Re and its other reinsurers, is expected to be among the largest payers, with losses of more than 2 billion dollars. Stock exchanges were closed until 17 September.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://www.berkshirehathaway.com/letters/2001pdf.pdf (read 2026-10-03)",
-    "image": "/news/brk/2001-09-smoke.jpg",
-    "imageCaption": "Smoke over Lower Manhattan seen from the International Space Station, 11 September 2001",
-    "imageCredit": "NASA (Expedition 3 crew)"
-  },
-  {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "Terror attacks hit insurers and banks",
-    "text": "After the attacks of 11 September in the US, European share markets plunged; insurance shares were among the hardest hit, falling about 15% on the day in Frankfurt. Credit Suisse owns the insurer Winterthur. By 28 September the Swiss Market Index had recovered from about 5,000 to 6,000 in five days, but the broad SPI is still almost 28% below its level at the end of 2000.",
-    "assets": [
-      "credit-suisse"
-    ],
-    "source": "Neue Zürcher Zeitung, 29 September 2001, p. 33 ('Der DAX schöpft neuen Mut'; 'Der schweizerische Aktienmarkt: In fünf Tagen von 5000 auf 6000'), scan data/manual/scans/nzz/NZZ_2001-09-29.pdf (read 2026-10-03)",
-    "image": "/news/credit-suisse/2001-09-wtc.jpg",
-    "imageCaption": "Smoke over lower Manhattan after the attacks on the World Trade Center, New York, 11 September 2001",
-    "imageCredit": " (Library of Congress)"
-  },
-  {
-    "month": "2001-09",
     "kind": "company",
     "headline": "Enron 'trading under a cloud'",
     "text": "Investors are struggling to understand Enron's accounts; one prominent hedge fund manager said the stock was trading under a cloud. The company admits to deals with 'related parties', some of them partnerships run by its finance chief Andrew Fastow. After the 11 September attacks the stock market fell sharply, and Enron's shares lost more than a fifth in the month.",
@@ -467,52 +348,28 @@
     "imageCredit": "Chanilim714"
   },
   {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "Terror attack drives Lehman from its headquarters",
-    "text": "The 11 September attacks severely damaged Lehman's headquarters at Three World Financial Center, across the street from the World Trade Center, and displaced more than 6,500 employees; one Lehman employee was killed. The firm moved its trading to Jersey City and was trading again when markets reopened on 17 September. Its third-quarter profit fell to $309 million from $457 million.",
+    "month": "2001-10",
+    "kind": "world",
+    "headline": "Swissair grounded",
+    "text": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles. On 7 October the United States began bombing Afghanistan.",
     "assets": [
-      "lehman"
+      "ubs",
+      "credit-suisse"
     ],
-    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000089375001500382/exh99_1.txt (Lehman press release, 25 September 2001; read 2026-10-03)",
-    "image": "/news/lehman/2001-09-world-financial-center.jpg",
-    "imageCaption": "The World Financial Center towers and the Marriott at the World Trade Center, 2 September 2001",
-    "imageCredit": "Julien Menichini from Paris, France"
-  },
-  {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "The September 11 attacks hit DaimlerChrysler",
-    "text": "After the terrorist attacks of 11 September, the New York Stock Exchange stayed closed until 17 September; when it reopened the Dow fell 14% in a week. DaimlerChrysler earns much of its money in the United States, where Chrysler is already losing heavily.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://en.wikipedia.org/wiki/September_11_attacks (economic aftermath, read 2026-10-03); BBC News, 17 November 2000, http://news.bbc.co.uk/2/hi/business/1028230.stm (read 2026-10-03)",
-    "image": "/news/mercedes/2001-09-wtc.jpg",
-    "imageCaption": "Smoke over Lower Manhattan after the attacks, seen from the International Space Station, 11 September 2001",
-    "imageCredit": "NASA"
-  },
-  {
-    "month": "2001-09",
-    "kind": "company",
-    "headline": "Markets slump after the September 11 attacks",
-    "text": "After the attacks of 11 September, US stock exchanges stayed closed until 17 September; on reopening the Dow fell 7.1% in a day. European markets fell with them. Siemens shares lost a quarter of their value in September.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); data/out/siemens.json (read 2026-10-03)",
-    "image": "/news/siemens/2001-09-wtc.jpg",
-    "imageCaption": "The ruins of the World Trade Center, New York, 14 September 2001"
+    "source": "https://www.swissinfo.ch/eng/banking-fintech/swissair-debacle-still-leaves-a-bitter-taste/2952088 (read 2026-10-03); https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)",
+    "image": "/news/world/2001-10-swissair-grounded.jpg",
+    "imageCaption": "Swissair's fleet stands grounded at Zurich-Kloten airport, 2 October 2001",
+    "imageCredit": "KEYSTONE"
   },
   {
     "month": "2001-10",
     "kind": "company",
     "headline": "The iPod: a thousand songs in your pocket",
-    "text": "Apple introduced the iPod, a portable music player with a 5-gigabyte hard disk that holds about 1,000 songs and works with Apple's iTunes software on the Mac.",
+    "text": "Apple introduced the iPod, a portable music player with a 5-gigabyte hard disk that holds about 1,000 songs and works with Apple's iTunes software on the Mac. It is controlled with a scroll wheel and goes on sale on 10 November for 399 dollars, a lot for a music player.",
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/IPod (read 2026-10-03); https://en.wikipedia.org/wiki/IPod_Classic (read 2026-10-03)",
     "image": "/news/aapl/2001-10-ipod-apple-press.jpg",
     "imageCaption": "The first iPod, with its earphones and charger, as Apple presented it on 23 October 2001",
     "imageCredit": "Apple via Getty Images"
@@ -532,47 +389,6 @@
   },
   {
     "month": "2001-10",
-    "kind": "world",
-    "headline": "Swissair grounded",
-    "text": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair. On 7 October the United States began bombing Afghanistan.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "https://www.swissinfo.ch/eng/banking-fintech/swissair-debacle-still-leaves-a-bitter-taste/2952088 (read 2026-10-03); https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan (read 2026-10-03)",
-    "image": "/news/world/2001-10-swissair-grounded.jpg",
-    "imageCaption": "Swissair's fleet stands grounded at Zurich-Kloten airport, 2 October 2001",
-    "imageCredit": "KEYSTONE"
-  },
-  {
-    "month": "2001-10",
-    "kind": "company",
-    "headline": "Swissair grounded",
-    "text": "On 2 October the entire Swissair fleet was grounded after UBS refused to extend its credit line. UBS and Credit Suisse bought SAirGroup's stake in Crossair, which is to take over Swissair's European flights, and federal bridge loans let flights resume on 5 October. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)",
-    "image": "/news/credit-suisse/2001-10-grounding.jpg",
-    "imageCaption": "Grounded Swissair aircraft at Zurich airport, 2 October 2001",
-    "imageCredit": "Steffen Schmidt / Keystone"
-  },
-  {
-    "month": "2001-10",
-    "kind": "colour",
-    "headline": "Apple's iPod: '1,000 songs in your pocket'",
-    "text": "On 23 October Apple presented the iPod, a music player with a 5 GB hard drive that holds about 1,000 songs, works with Apple's iTunes software on the Mac, and is controlled with a scroll wheel. It goes on sale on 10 November for 399 dollars, a lot for a music player.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/IPod (read 2026-10-03); https://en.wikipedia.org/wiki/IPod_Classic (read 2026-10-03)",
-    "image": "/news/life/2001-10-ipod.jpg",
-    "imageCaption": "The first-generation iPod, presented on 23 October 2001: '1,000 songs in your pocket'",
-    "imageCredit": "Tokumeigakarinoaoshima"
-  },
-  {
-    "month": "2001-10",
     "kind": "company",
     "headline": "Nokia's results beat fears",
     "text": "On 19 October Nokia said third-quarter profit before one-off items fell 18% to 760 million euros, better than the 25% fall analysts expected, and forecast fourth-quarter earnings of 0.18-0.20 euros a share. Its shares rose.",
@@ -583,20 +399,6 @@
     "image": "/news/nokia/2001-10-7650.jpg",
     "imageCaption": "The Nokia 7650, the company's first camera phone",
     "imageCredit": "Florian K."
-  },
-  {
-    "month": "2001-10",
-    "kind": "company",
-    "headline": "Swissair grounded; the banks are blamed",
-    "text": "On 2 October the entire Swissair fleet was grounded after UBS refused to extend its credit line to the indebted airline. Many Swiss blamed UBS; demonstrators carried signs calling chairman Marcel Ospel 'Bin Ospel'. UBS and Credit Suisse bought SAirGroup's stake in Crossair, which is to take over Swissair's European flights, and the federal government lent money so that flights could resume on 5 October.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Swissair (read 2026-10-03)",
-    "image": "/news/ubs/2001-10-protest-paradeplatz.jpg",
-    "imageCaption": "About 400 Swissair employees protest outside the UBS head office on the Paradeplatz, Zurich, 3 October 2001",
-    "imageCredit": "KEYSTONE"
   },
   {
     "month": "2001-11",
@@ -628,28 +430,14 @@
     "month": "2001-11",
     "kind": "company",
     "headline": "Settlement with the government, and the Xbox launches",
-    "text": "On 1 November the Justice Department, which said in September it would no longer seek a breakup, reached a settlement with Microsoft: Microsoft must share its programming interfaces with other companies and accept a monitoring panel for five years. On 15 November Microsoft launched the Xbox, its first games console, in North America.",
+    "text": "On 1 November the Justice Department, which said in September it would no longer seek a breakup, reached a settlement with Microsoft: Microsoft must share its programming interfaces with other companies and accept a monitoring panel for five years. On 15 November Microsoft launched the Xbox, its first games console, in North America. Its graphics and media processors come from Nvidia, whose shares have more than doubled this year.",
     "assets": [
       "msft",
       "nvda"
     ],
-    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
     "image": "/news/msft/2001-11-xbox.jpg",
     "imageCaption": "The original Xbox console, launched 15 November 2001",
-    "imageCredit": "Evan-Amos"
-  },
-  {
-    "month": "2001-11",
-    "kind": "company",
-    "headline": "The Xbox goes on sale with Nvidia inside",
-    "text": "Microsoft launched the Xbox in North America on 15 November, with graphics and media processors from Nvidia; commercial shipments of the chips began in July. Nvidia's shares have more than doubled this year.",
-    "assets": [
-      "nvda",
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Xbox_(console) (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2001-11-xbox.jpg",
-    "imageCaption": "The original Xbox console and controllers, 2001",
     "imageCredit": "Evan-Amos"
   },
   {

@@ -151,27 +151,18 @@
     "id": "cedf5a84",
     "month": "2014-11",
     "title": "OPEC refuses to cut",
-    "what": "On 27 November in Vienna, Saudi oil minister Ali al-Naimi blocked calls from poorer OPEC members to cut output, saying the market should find its own level. US crude fell about 10% by 28 November to $65.94, down from $107 in June. US crude output is about 9.3 million barrels a day, up by two thirds in four years.",
+    "what": "On 27 November in Vienna, Saudi oil minister Ali al-Naimi blocked calls from poorer OPEC members to cut output, saying the market should find its own level. US crude fell about 10% by 28 November to $65.94, down from $107 in June. US crude output is about 9.3 million barrels a day, up by two thirds in four years. ExxonMobil, which earned more than 32 billion dollars in 2013, fell 6%: every dollar off the oil price cuts its profit.",
     "why": "The decision that started the 2014-16 collapse: Saudi Arabia chose to squeeze high-cost shale. Schlumberger fell 13% in November.",
     "assets": [
-      "slb"
+      "slb",
+      "xom"
     ],
     "move": {
       "asset": "slb",
       "pct": -13
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03)"
-  },
-  {
-    "id": "5a98e1f8",
-    "month": "2015-07",
-    "title": "Iran nuclear deal promises more oil",
-    "what": "Iran and six world powers reached a deal in Vienna on 14 July to limit Iran's nuclear programme in return for lifting sanctions, which will let Iran sell more oil. US crude fell 21% in July to $47.11 a barrel.",
-    "why": "More supply on the way into an already glutted market; the second leg down of the collapse.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS2&f=M (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2010s_oil_glut (read 2026-10-03); ExxonMobil press release of 2 February 2015 (2013 and 2014 earnings), https://www.sec.gov/Archives/edgar/data/34088/000003408815000004/f8k4q991.htm (read 2026-10-03)"
   },
   {
     "id": "6379acef",
@@ -249,7 +240,7 @@
     "id": "e1fba8d8",
     "month": "2020-03",
     "title": "Saudi-Russian price war as the world locks down",
-    "what": "Russia rejected OPEC's call for deeper cuts on 6 March. Saudi Arabia answered by cutting its prices and announcing it would raise output from 9.7 to 12.3 million barrels a day. On 9 March oil fell about a quarter and stock markets crashed. As lockdowns spread, US crude fell to $20.48 on 18 March and ended the month down 54%.",
+    "what": "Russia rejected OPEC's call for deeper cuts on 6 March. Saudi Arabia answered by cutting its prices and announcing it would raise output from 9.7 to 12.3 million barrels a day. On 9 March oil fell about a quarter and stock markets crashed. As lockdowns spread, US crude fell to $20.48 on 18 March and ended the month down 54%. Schlumberger lost half its value in March and ExxonMobil 26 percent.",
     "why": "A supply war in the middle of the largest demand collapse ever. Part of the market's -13% month; oilfield services halved, Schlumberger -50%.",
     "assets": [
       "slb",
@@ -260,13 +251,13 @@
       "pct": -50
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
   },
   {
     "id": "22c6b897",
     "month": "2020-04",
     "title": "Oil goes negative",
-    "what": "OPEC, Russia and others agreed on 9 to 12 April to cut output by 9.7 million barrels a day, about 10% of world supply. It was not enough: on 20 April the expiring May contract for US crude fell to minus $37 a barrel, as storage at Cushing, Oklahoma filled up and holders paid to get rid of oil. Brent fell to about $9 the next day.",
+    "what": "OPEC, Russia and others agreed on 9 to 12 April to cut output by 9.7 million barrels a day, about 10% of world supply. It was not enough: on 20 April the expiring May contract for US crude fell to minus $37 a barrel, as storage at Cushing, Oklahoma filled up and holders paid to get rid of oil. Brent fell to about $9 the next day. ExxonMobil had cut its 2020 capital spending by 30 percent, to about 23 billion dollars, on 7 April; its shares rose 22% as stocks rebounded.",
     "why": "The most extreme moment in oil-market history. Yet oil shares rebounded with the market (+13%) on the OPEC+ deal and hopes of reopening: Exxon +22%.",
     "assets": [
       "xom"
@@ -276,24 +267,7 @@
       "pct": 22
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "id": "2d9f6d7e",
-    "month": "2020-11",
-    "title": "Vaccine news lifts oil",
-    "what": "Pfizer and BioNTech reported in November that their coronavirus vaccine met its efficacy goals in trials. Investors bet on a return to travel, and US crude rose 27% in the month to $45.20.",
-    "why": "The reopening trade: the most beaten-down sectors led the market's +11% month, oilfield services most of all (Schlumberger +39%).",
-    "assets": [
-      "slb",
-      "xom"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": 39
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); ExxonMobil press release of 7 April 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000028/f8k1q991.htm (read 2026-10-03)"
   },
   {
     "id": "de76b7ee",
@@ -397,33 +371,6 @@
     "source": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
-    "id": "4dd68d48",
-    "month": "2025-04",
-    "title": "Tariffs knock oil below $60",
-    "what": "After the US announced sweeping tariffs on 2 April, fears of a recession hit oil: US crude fell from $72 to about $60 by 8 April, the lowest since 2021, and ended the month 17% lower at $59.55. OPEC+ is in the process of unwinding its output cuts.",
-    "why": "Cheap oil and a trade war: oilfield services fell 20% (Schlumberger).",
-    "assets": [
-      "slb",
-      "xom"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -20
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "id": "dbc57cb2",
-    "month": "2025-06",
-    "title": "Israel and Iran at war for twelve days",
-    "what": "Israel struck Iran's nuclear and military sites on 13 June; the US bombed three nuclear sites on 22 June, and a ceasefire took hold on 24 June. Brent rose from about $68 to over $78, then fell back to about $68 once oil kept flowing through the Strait of Hormuz.",
-    "why": "A rehearsal for 2026: the market priced the risk to Hormuz but saw no barrels lost.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
-  },
-  {
     "id": "def91807",
     "month": "2026-01",
     "title": "Maduro captured, Iran in turmoil",
@@ -439,16 +386,6 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2025%E2%80%932026_United_States_oil_blockade_of_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
-  },
-  {
-    "id": "66bfe801",
-    "month": "2026-03",
-    "title": "War with Iran closes the Strait of Hormuz",
-    "what": "The US and Israel struck Iran on 28 February, killing Supreme Leader Ali Khamenei. Iran declared the Strait of Hormuz closed, through which about a quarter of the world's seaborne oil passes; Gulf output fell by at least 10 million barrels a day and Qatar halted gas exports. Brent passed $100 on 8 March and ended March near $120 on futures markets, the largest monthly rise ever. The US is releasing 172 million barrels from its reserve.",
-    "why": "Called the largest supply disruption in the history of the oil market by the IEA. The 2026 shock dominates the rest of the game.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
     "id": "910d2eef",

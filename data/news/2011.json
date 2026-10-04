@@ -66,26 +66,12 @@
     "text": "Days after a memo from Elop warned staff that Nokia was on a 'burning platform', Nokia announced on 11 February that it will use Microsoft's Windows Phone as its main smartphone software, instead of its own Symbian or Google's Android, and warned of substantial job cuts. Its share of the smartphone market fell from 38% to 28% in 2010. Its shares fell 12% that day.",
     "assets": [
       "nokia",
-      "msft"
+      "msft",
+      "aapl"
     ],
     "source": "https://www.bbc.com/news/business-12427680 (read 2026-10-03); https://money.cnn.com/2011/02/11/technology/nokia_microsoft/index.htm via web.archive.org (read 2026-10-03)",
     "image": "/news/nokia/2011-02-elop-ballmer-london.jpg",
     "imageCaption": "Nokia chief executive Stephen Elop (left) and Microsoft's Steve Ballmer on stage in London as they announce that Nokia will switch to Windows Phone, 11 February 2011",
-    "imageCredit": "Leon Neal"
-  },
-  {
-    "month": "2011-02",
-    "kind": "world",
-    "headline": "Nokia bets on Microsoft's Windows Phone",
-    "text": "On 11 February Nokia announced that it will use Microsoft's Windows Phone as its main smartphone system, abandoning its own.",
-    "assets": [
-      "nokia",
-      "msft",
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
-    "image": "/news/tech/2011-02-elop-ballmer.jpg",
-    "imageCaption": "Nokia's Stephen Elop and Microsoft's Steve Ballmer on stage in London as they announce that Nokia will build its smartphones on Windows Phone, 11 February 2011",
     "imageCredit": "Leon Neal"
   },
   {
@@ -129,7 +115,7 @@
     "month": "2011-05",
     "kind": "listing",
     "headline": "Glencore goes public in London's largest premium listing",
-    "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO at 530p a share on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
+    "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO at 530p a share on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata, much of whose output it markets. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
     "assets": [
       "glencore",
       "xstrata"
@@ -151,20 +137,6 @@
     "image": "/news/c/2011-05-pandit.jpg",
     "imageCaption": "Vikram Pandit, Citigroup's chief executive, April 2011",
     "imageCredit": "World Economic Forum"
-  },
-  {
-    "month": "2011-05",
-    "kind": "company",
-    "headline": "Glencore floats, valuing itself at $59bn",
-    "text": "Glencore, Xstrata's largest shareholder, priced its initial public offering at 530p a share on 19 May, raising about $10bn and valuing the trader at $59.2bn, the largest ever premium listing in London. Its shares started trading in London and Hong Kong in the last week of May. Glencore owns about a third of Xstrata and markets much of its output.",
-    "assets": [
-      "xstrata",
-      "glencore"
-    ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (read 2026-10-03)",
-    "image": "/news/xstrata/2011-05-baar.jpg",
-    "imageCaption": "Glencore's headquarters in Baar, Switzerland",
-    "imageCredit": "Paradise Chronicle"
   },
   {
     "month": "2011-07",
@@ -196,47 +168,24 @@
     "month": "2011-08",
     "kind": "world",
     "headline": "America loses its AAA rating and shares plunge",
-    "text": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2011-08-nyse-downgrade.jpg",
-    "imageCaption": "Jason Blatt of Knight Capital reacts on the floor of the New York Stock Exchange on the first trading day after America lost its AAA rating, 8 August 2011",
-    "imageCredit": "Photo by STAN HONDA/AFP via Getty Images"
-  },
-  {
-    "month": "2011-08",
-    "kind": "world",
-    "headline": "America loses its AAA rating and gold soars",
-    "text": "On 5 August Standard & Poor's cut the US government's credit rating from AAA to AA+ for the first time ever, after a fight in Congress over the debt ceiling. On 9 August the Fed said its rate would likely stay exceptionally low 'at least through mid-2013'. Investors bought both Treasury bonds and gold: the 10-year yield averaged about 2.3 percent in August, down from 3 percent in July, and gold averaged 1,759 dollars, 12 percent more than in July and a record.",
+    "text": "Late on 5 August Standard and Poor's cut the United States' credit rating from AAA to AA+, the first time the country has lost the agency's top rating, after a bitter fight in Congress over the debt ceiling. On Monday 8 August the S&P 500 fell 6.7% to 1,119.46, as fears grew that Europe's debt crisis would spread to Italy and Spain and that America would fall back into recession. European regulators banned short selling of bank shares from 11 August, and the S&P 500 ended August down 6%. Investors fled into Treasury bonds and gold, which averaged a record 1,759 dollars in August, 12 percent more than in July. In Germany the DAX fell from 7,376 at the end of June to around 5,250 in early September, with car makers hit hardest; Daimler's shares lost 26% in August.",
     "assets": [
+      "mercedes",
       "gold",
       "ust2015",
       "ust2020",
       "ust2030"
     ],
-    "source": "https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "image": "/news/rates/2011-08-gold-bars-tokyo.jpg",
-    "imageCaption": "One-kilogram gold bars at the Tanaka Kikinzoku shop in Tokyo as gold passes 1,800 dollars an ounce, 11 August 2011",
-    "imageCredit": "Photo by YOSHIKAZU TSUNO/AFP via Getty Images"
-  },
-  {
-    "month": "2011-08",
-    "kind": "company",
-    "headline": "Euro crisis and US downgrade send car shares tumbling",
-    "text": "Standard & Poor's downgraded the United States' credit rating on 6 August, and fears about indebted euro countries and their banks spread. The DAX fell from 7,376 at the end of June to around 5,250 in early September, with economy-sensitive shares such as car makers hit hardest.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); BMW Group Annual Report 2011, capital market section (DAX -30% July to September), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2011.pdf (read 2026-10-03)",
-    "image": "/news/mercedes/2011-08-frankfurt.jpg",
-    "imageCaption": "The trading hall of the Frankfurt Stock Exchange",
-    "imageCredit": "Ank Kumar"
+    "source": "https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/2011_United_States_debt-ceiling_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20101103a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); BMW Group Annual Report 2011, capital market section (DAX -30% July to September), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2011.pdf (read 2026-10-03)",
+    "image": "/news/markets/2011-08-nyse-downgrade.jpg",
+    "imageCaption": "Jason Blatt of Knight Capital reacts on the floor of the New York Stock Exchange on the first trading day after America lost its AAA rating, 8 August 2011",
+    "imageCredit": "Photo by STAN HONDA/AFP via Getty Images"
   },
   {
     "month": "2011-09",
     "kind": "company",
     "headline": "The National Bank caps the franc at 1.20 per euro",
-    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs.",
+    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro, saying the strong franc threatens the economy and that it will buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September. Nestlé's share was almost unchanged in francs. Novartis shares rose about 8% in francs.",
     "assets": [
       "nestle",
       "novartis"
@@ -245,20 +194,6 @@
     "image": "/news/nestle/2011-09-hildebrand.jpg",
     "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank, at the St. Gallen Symposium",
     "imageCredit": "International Students' Committee"
-  },
-  {
-    "month": "2011-09",
-    "kind": "company",
-    "headline": "The franc is capped at 1.20 per euro",
-    "text": "On 6 September the Swiss National Bank set a minimum rate of 1.20 francs per euro and said it would buy foreign currency in unlimited quantities. The franc fell about 11% against the dollar in September, while Novartis shares rose about 8% in francs.",
-    "assets": [
-      "novartis",
-      "nestle"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)",
-    "image": "/news/novartis/2011-09-hildebrand.jpg",
-    "imageCaption": "Philipp Hildebrand, chairman of the Swiss National Bank until January 2012, with Christine Lagarde",
-    "imageCredit": "Hannes Thalmann"
   },
   {
     "month": "2011-09",
@@ -291,7 +226,7 @@
     "month": "2011-10",
     "kind": "company",
     "headline": "Steve Jobs dies",
-    "text": "Steve Jobs died at his home in Palo Alto on 5 October, aged 56, after a relapse of the pancreatic tumour first diagnosed in 2003.",
+    "text": "Steve Jobs died at his home in Palo Alto on 5 October, aged 56, after a relapse of the pancreatic tumour first diagnosed in 2003. He co-founded Apple, had stepped down as chief executive six weeks earlier, and was behind the Macintosh, the iPod, the iPhone and the iPad.",
     "assets": [
       "aapl"
     ],
@@ -302,35 +237,11 @@
   },
   {
     "month": "2011-10",
-    "kind": "colour",
-    "headline": "Steve Jobs dies",
-    "text": "Steve Jobs, the co-founder of Apple, died on 5 October aged 56, six weeks after stepping down as chief executive. He was behind the Macintosh, the iPod, the iPhone and the iPad.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03)",
-    "image": "/news/life/2011-10-jobs.jpg",
-    "imageCaption": "Steve Jobs presents the iPhone 4, June 2010",
-    "imageCredit": "Matthew Yohe"
-  },
-  {
-    "month": "2011-10",
-    "kind": "world",
-    "headline": "Europe's rescue plan sparks an 11 percent rally",
-    "text": "After a low on 4 October about 21% below its May peak, the S&P 500 surged as European leaders worked on, and late in the month announced, a new package to deal with Greece's debts and to shore up Europe's banks; company earnings also came in better than expected. Many details of the plan are still open, and on the last day of the month news of a possible Greek referendum sent shares down sharply. The S&P 500 still rose 11% in October to 1,253.30, its best month since 1991.",
-    "assets": [],
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2011-10-merkel-sarkozy.jpg",
-    "imageCaption": "French President Nicolas Sarkozy and German Chancellor Angela Merkel arrive to speak to the press after their talks on the euro crisis, Berlin, 9 October 2011",
-    "imageCredit": "Photo by Sean Gallup/Getty Images"
-  },
-  {
-    "month": "2011-10",
     "kind": "world",
     "headline": "Euro summit: banks to take half off Greek debt",
-    "text": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
+    "text": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal. The S&P 500, which on 4 October stood about 21% below its May peak, rose 11% in October to 1,253.30, its best month since 1991.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json",
     "thread": "euro",
     "image": "/news/world/2011-10-euro-summit.jpg",
     "imageCaption": "Angela Merkel and Nicolas Sarkozy at the euro summit in Brussels that agreed a 50 percent cut in Greek debt, October 2011",

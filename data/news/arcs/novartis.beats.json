@@ -186,19 +186,6 @@
     "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
   },
   {
-    "id": "2307ac00",
-    "month": "2015-01",
-    "title": "The franc floor is scrapped",
-    "what": "On 15 January the Swiss National Bank abandoned its minimum rate of 1.20 francs per euro without warning; the franc closed 23% higher against the euro and 21% higher against the dollar that day. Swiss shares fell in francs because exporters' foreign earnings are worth less.",
-    "why": "Novartis lost about 2% in francs but gained 5% in dollars: the franc did the work.",
-    "assets": [
-      "novartis",
-      "nestle"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Swiss_franc (read 2026-10-03); FRED DEXSZUS (read 2026-10-03)"
-  },
-  {
     "id": "47479eb1",
     "month": "2015-07",
     "title": "Entresto approved for heart failure",
@@ -269,22 +256,6 @@
     ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
-  },
-  {
-    "id": "e0c99c3a",
-    "month": "2020-11",
-    "title": "Vaccine news lifts the market",
-    "what": "On 9 November Pfizer and BioNTech reported that their COVID-19 vaccine prevented about 91% of symptomatic infections in a trial with over 40,000 people. Stock markets jumped: the S&P 500 rose 11% in November.",
-    "why": "Novartis rose 16% in a month (15% in francs), riding the vaccine rally after a weak October; Novartis had no vaccine of its own.",
-    "assets": [
-      "novartis"
-    ],
-    "move": {
-      "asset": "novartis",
-      "pct": 16
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "e6eef2a8",

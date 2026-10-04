@@ -425,7 +425,7 @@
     "month": "2000-11",
     "kind": "world",
     "headline": "The Nasdaq's worst month since 1987; Pets.com closes",
-    "text": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies.",
+    "text": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
     "assets": [
       "pets-com",
       "amzn",
@@ -433,7 +433,7 @@
       "aapl",
       "csco"
     ],
-    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); data/reference/sp500.json",
     "thread": "dotcom",
     "image": "/news/tech/2000-11-petscom-puppet.jpg",
     "imageCaption": "The Pets.com sock puppet, the most famous mascot of the dot-com boom, during the filming of a commercial, Los Angeles, January 2000",
@@ -477,19 +477,6 @@
     "image": "/news/enron/2000-11-lay.jpg",
     "imageCaption": "Kenneth Lay, chairman of Enron, 1999",
     "imageCredit": "Enron Corp. (1999 annual report)"
-  },
-  {
-    "month": "2000-11",
-    "kind": "world",
-    "headline": "Profit warnings and an undecided election send shares down 8 percent",
-    "text": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
-    "assets": [
-      "pets-com"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2000-11-dimpled-chad.jpg",
-    "imageCaption": "Judge Robert Rosenberg of the Broward County canvassing board examines a dimpled chad with a magnifying glass during the Florida recount, Fort Lauderdale, 24 November 2000",
-    "imageCredit": "Photo by Robert King/Newsmakers"
   },
   {
     "month": "2000-11",

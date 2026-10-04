@@ -389,7 +389,7 @@
     "id": "48dbf53f",
     "month": "2013-01",
     "title": "Abenomics: the yen weakens and Tokyo shares soar",
-    "what": "Shinzo Abe, whose party won December's election on a promise to end years of falling prices, announced a 10.3 trillion yen stimulus and pressed the Bank of Japan to target 2% inflation. The dollar rose from about 87 yen at the start of January to about 91 at the end. Exporters' shares are leading a rally in Tokyo.",
+    "what": "Shinzo Abe, whose party won December's election on a promise to end years of falling prices, announced a 10.3 trillion yen stimulus and pressed the Bank of Japan to target 2% inflation. The dollar rose from about 87 yen at the start of January to about 91 at the end. Exporters' shares are leading a rally in Tokyo. Sony's ADR rose 33% in January, helped also by the sale of its New York headquarters building on 18 January.",
     "why": "Abenomics in action. By May the Tokyo market was up 55%, and exporters such as Sony gained most.",
     "assets": [
       "sony"
@@ -399,7 +399,7 @@
       "pct": 33
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Abenomics (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2013 (read 2026-10-03); https://money.cnn.com/2013/01/18/investing/sony-stock/ via web.archive.org (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03)"
   },
   {
     "id": "bb78f7b5",
@@ -436,7 +436,7 @@
     "id": "06d9bd5f",
     "month": "2015-08",
     "title": "China devalues the yuan; 'Black Monday' in Shanghai",
-    "what": "On 11 August China's central bank cut the yuan by 1.9% and lowered it again on 14 August. On 24 August the Shanghai index fell 8.5%, and the Dow opened 1,000 points lower before closing down 588. Investors fear China's growth is slowing more than Beijing admits.",
+    "what": "On 11 August China's central bank cut the yuan by 1.9% and lowered it again on 14 August. On 24 August the Shanghai index fell 8.5%, and the Dow opened 1,000 points lower before closing down 588. Investors fear China's growth is slowing more than Beijing admits. An estimated 10 trillion dollars had been wiped off world markets since early June, oil hit a six-year low, and the S&P 500 lost 6% in August to 1,972.18.",
     "why": "The China scare that gave Wall Street its first sharp fall in years and hit commodity stocks such as Glencore hard.",
     "assets": [],
     "move": {
@@ -445,7 +445,7 @@
     },
     "importance": 1,
     "thread": "china",
-    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2015%E2%80%932016_Chinese_stock_market_turbulence (read 2026-10-03); https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "46e7a312",
@@ -557,14 +557,14 @@
     "id": "d23413b4",
     "month": "2022-10",
     "title": "America cuts China off from advanced chips",
-    "what": "On 7 October the US banned the export to China of advanced computing chips, of the kind used in AI such as Nvidia's A100 and H100, and of the equipment to make advanced chips.",
+    "what": "On 7 October the US banned the export to China of advanced computing chips, of the kind used in AI such as Nvidia's A100 and H100, and of the equipment to make advanced chips. Nvidia, whose data-centre processors are covered, has lost more than half its share value this year in the technology sell-off.",
     "why": "The technology front of the US-China contest, tightened several times since; it shaped Nvidia's China business and spurred China's own AI efforts.",
     "assets": [
       "nvda"
     ],
     "importance": 2,
     "thread": "china",
-    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); data/out/nvda.json (monthly prices)"
   },
   {
     "id": "4392e55f",
@@ -610,14 +610,15 @@
     "id": "a9a1ef18",
     "month": "2025-01",
     "title": "China's DeepSeek shakes the AI trade",
-    "what": "The Chinese start-up DeepSeek released its R1 AI model on 20 January, saying it matches US rivals at a fraction of the cost and on older chips. By 27 January its chatbot was the most downloaded free app in the US, and Nvidia's shares fell about 18%.",
+    "what": "The Chinese start-up DeepSeek released its R1 AI model on 20 January, saying it matches US rivals at a fraction of the cost and on older chips. By 27 January its chatbot had overtaken ChatGPT as the most downloaded free app in the US, and Nvidia's shares fell about 18%. That day Nvidia lost about 600 billion dollars of market value, the largest one-day loss for any US company. Only a week earlier OpenAI, Oracle and SoftBank had announced Stargate, a plan to spend up to 500 billion dollars on AI data centres in the US over four years.",
     "why": "Showed that US chip controls had not stopped Chinese AI; a sharp but short scare for Nvidia.",
     "assets": [
-      "nvda"
+      "nvda",
+      "msft"
     ],
-    "importance": 2,
+    "importance": 1,
     "thread": "china",
-    "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
     "id": "25b38c66",

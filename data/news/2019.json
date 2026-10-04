@@ -109,27 +109,15 @@
     "month": "2019-05",
     "kind": "company",
     "headline": "Ola Källenius takes over as trade war worries hit car shares",
-    "text": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May.",
+    "text": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May. Tesla fell 22% to a three-year low, hit harder than other car makers because it is building a factory in Shanghai and counts on selling many cars in China.",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "tsla"
     ],
-    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03); The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)",
     "image": "/news/mercedes/2019-05-kallenius.jpg",
     "imageCaption": "Ola Källenius, Daimler chief executive from May 2019, at the Geneva motor show, April 2019",
     "imageCredit": "Alexander Migl"
-  },
-  {
-    "month": "2019-05",
-    "kind": "company",
-    "headline": "Trade war fears push Tesla to a three-year low",
-    "text": "Tesla shares fell 22% in May to their lowest level in three years. The escalating US-China trade war hit Tesla harder than other car makers, because it is building a factory in Shanghai and counts on selling many cars in China.",
-    "assets": [
-      "tsla"
-    ],
-    "source": "The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)",
-    "image": "/news/tsla/2019-05-model3china.jpg",
-    "imageCaption": "A Tesla Model 3 in China, April 2019",
-    "imageCredit": "Navigator84"
   },
   {
     "month": "2019-06",

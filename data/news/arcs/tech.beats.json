@@ -469,19 +469,6 @@
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
-    "id": "bdfe43d0",
-    "month": "2015-04",
-    "title": "Amazon reveals that its cloud business is profitable",
-    "what": "On 23 April Amazon published figures for Amazon Web Services for the first time: 1.57 billion dollars of sales in the first quarter and 265 million of operating profit. Renting out computing power over the internet has become a big business.",
-    "why": "The moment investors saw the size of the cloud wave; AWS became Amazon's profit engine.",
-    "assets": [
-      "amzn",
-      "msft"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
-  },
-  {
     "id": "44a0d949",
     "month": "2016-03",
     "title": "A Google computer beats the world's best Go player",
@@ -514,7 +501,7 @@
     "id": "5f357abd",
     "month": "2022-11",
     "title": "OpenAI releases ChatGPT",
-    "what": "On 30 November OpenAI, a San Francisco research company in which Microsoft invested a billion dollars in 2019, released ChatGPT, a program that answers questions and writes texts in ordinary language. It is free to use.",
+    "what": "On 30 November OpenAI, a San Francisco research company in which Microsoft invested a billion dollars in 2019, released ChatGPT, a program that answers questions and writes texts in ordinary language. It is free to use. It runs in Microsoft's Azure data centres on thousands of Nvidia graphics processors.",
     "why": "The start of the AI wave: it reached a million users in five days and 100 million within two months, the fastest-growing application then known, and set off the Nvidia-led boom.",
     "assets": [
       "msft",
@@ -540,32 +527,6 @@
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
-    "id": "85b06df6",
-    "month": "2023-01",
-    "title": "Microsoft's multibillion bet on OpenAI",
-    "what": "On 23 January Microsoft announced a new multi-year investment in OpenAI, reported at about 10 billion dollars, which values OpenAI at about 29 billion. ChatGPT already has many millions of users, and Microsoft plans to build its technology into its products.",
-    "why": "The AI wave becomes a big-company arms race, and the computing power it needs comes from Nvidia's chips.",
-    "assets": [
-      "msft",
-      "nvda"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)"
-  },
-  {
-    "id": "9b4186ba",
-    "month": "2023-05",
-    "title": "Nvidia's forecast stuns Wall Street",
-    "what": "On 24 May Nvidia reported quarterly sales of 7.19 billion dollars and forecast about 11 billion for the next quarter, far above what analysts expected. Chief executive Jensen Huang said a trillion dollars of data-centre computers will switch to accelerated computing as companies race to apply generative AI.",
-    "why": "The moment the AI wave reached the profit statements; Nvidia became a trillion-dollar company and the AI trade began.",
-    "assets": [
-      "nvda",
-      "msft"
-    ],
-    "importance": 1,
-    "source": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
-  },
-  {
     "id": "4290e3c4",
     "month": "2023-12",
     "title": "The Nasdaq gains 43% in 2023",
@@ -581,33 +542,6 @@
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
-    "id": "c1070618",
-    "month": "2024-06",
-    "title": "Nvidia becomes the world's most valuable company",
-    "what": "On 18 June Nvidia passed Microsoft and Apple as the world's most valuable company, at more than 3.3 trillion dollars. It closed above 2 trillion for the first time only on 1 March.",
-    "why": "A graphics-chip maker for gamers became the world's largest company in barely 18 months of AI demand.",
-    "assets": [
-      "nvda",
-      "msft",
-      "aapl"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
-  },
-  {
-    "id": "bbe0973f",
-    "month": "2025-01",
-    "title": "Stargate and the DeepSeek shock",
-    "what": "On 21 January OpenAI, Oracle and SoftBank announced Stargate, a plan to spend up to 500 billion dollars on AI data centres in the US over four years. A week later DeepSeek, a Chinese AI model released on 20 January, topped the US App Store; on 27 January Nvidia fell 17%, losing about 600 billion dollars of value, the largest one-day loss for any US company.",
-    "why": "The first big scare of the AI boom: what if AI needs far fewer chips? The spending continued and Nvidia recovered within months.",
-    "assets": [
-      "nvda",
-      "msft"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03); https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
-  },
-  {
     "id": "8baab321",
     "month": "2025-09",
     "title": "Nvidia's money flows to Intel and OpenAI",
@@ -619,23 +553,6 @@
     ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
-  },
-  {
-    "id": "9dc47e81",
-    "month": "2025-10",
-    "title": "Nvidia at 5 trillion; a stake in Nokia",
-    "what": "On 29 October Nvidia became the first company valued at 5 trillion dollars. In October it agreed a partnership with Nokia on AI in mobile networks and took a stake in the Finnish company, whose shares rose 44% in October. JPMorgan's chief Jamie Dimon warned of a higher chance of a meaningful drop in stocks.",
-    "why": "The AI boom at full stretch; it now lifted network equipment makers as well as chip companies.",
-    "assets": [
-      "nvda",
-      "nokia"
-    ],
-    "move": {
-      "asset": "nokia",
-      "pct": 44
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
     "id": "7c384c2e",

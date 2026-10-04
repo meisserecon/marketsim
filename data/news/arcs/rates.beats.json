@@ -409,22 +409,6 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
-    "id": "1fd93caf",
-    "month": "2018-12",
-    "title": "A fourth hike of the year and a December rout",
-    "what": "On 19 December the Fed raised its rate target to 2.25 to 2.5 percent, its fourth increase this year, and said 'some further gradual increases' would be appropriate. The 10-year Treasury yield, which averaged 3.15 percent in October, the highest since 2011, has eased to about 2.8 percent. The S&P 500 lost 9 percent in December, its worst month since February 2009.",
-    "why": "The market's verdict that the Fed had gone too far; within six weeks Powell reversed course, and the Fed cut three times in 2019.",
-    "assets": [
-      "bonds"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": -9
-    },
-    "importance": 2,
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
-  },
-  {
     "id": "6462838a",
     "month": "2019-01",
     "title": "The Fed says it 'will be patient'",
@@ -529,16 +513,18 @@
     "id": "91dd355a",
     "month": "2022-06",
     "title": "Inflation at 8.6 percent; a three-quarter-point hike",
-    "what": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June and is down a fifth since the start of the year.",
+    "what": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June to 3,785.38 and entered a bear market, down a fifth from its January record.",
     "why": "The moment the Fed accepted it might cause a recession to stop inflation. Shares and bonds fell together, so a mixed portfolio offered no shelter.",
-    "assets": [],
+    "assets": [
+      "bonds"
+    ],
     "move": {
       "asset": "sp500",
       "pct": -8
     },
     "importance": 1,
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03)"
   },
   {
     "id": "e459cd7f",
@@ -560,7 +546,7 @@
     "id": "281974e4",
     "month": "2022-09",
     "title": "Third giant hike; the British bond market breaks",
-    "what": "On 21 September the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 lost 9 percent and is a quarter below its January record.",
+    "what": "On 21 September, with consumer prices still up 8.3 percent a year, the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 had its worst day since 2020 on 13 September, lost 9 percent in the month and is a quarter below its January record.",
     "why": "The climax of the 2022 rate shock: bonds and shares fell together, and the gilt crisis showed how years of near-zero rates had left leverage hidden in 'safe' places. Review 2026-10: 'peak' was hindsight.",
     "assets": [
       "bonds"
@@ -570,19 +556,21 @@
       "pct": -9
     },
     "importance": 1,
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03)"
   },
   {
     "id": "cfcbe3df",
     "month": "2023-03",
     "title": "Silicon Valley Bank fails on its bond losses",
-    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent.",
+    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent.",
     "why": "The bill for the fastest hikes in forty years: bonds bought at near-zero yields sank, and a bank run followed. It marked the beginning of the end of the hiking cycle.",
     "assets": [
-      "bonds"
+      "bonds",
+      "credit-suisse",
+      "ubs"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "98d41543",
@@ -625,23 +613,6 @@
     ],
     "importance": 1,
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03)"
-  },
-  {
-    "id": "f25c06b6",
-    "month": "2025-04",
-    "title": "Tariff shock: Treasury bonds sold, gold bought",
-    "what": "After the president announced sweeping tariffs on 2 April, the S&P 500 fell 10 percent in two days. Treasury bonds, the usual safe haven, were sold too: the 10-year yield rose from 3.86 percent on 4 April to 4.5 percent on 9 April, and the 30-year yield jumped 54 basis points to 4.92 percent, its biggest three-day rise since 1982, before a 90-day tariff pause on 9 April calmed markets. Gold averaged 3,218 dollars in April, 8 percent more than in March and a record.",
-    "why": "A rare month when US government bonds behaved like a risky asset; gold, not Treasuries, was the safe haven, which fed its run toward 4,000.",
-    "assets": [
-      "gold",
-      "bonds"
-    ],
-    "move": {
-      "asset": "gold",
-      "pct": 8
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2025_stock_market_crash (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
     "id": "cb073ed8",

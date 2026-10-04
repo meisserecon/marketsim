@@ -38,9 +38,11 @@
     "month": "2020-02",
     "kind": "world",
     "headline": "The coronavirus reaches the markets: the fastest fall from a record",
-    "text": "The S&P 500 closed at a record 3,386.15 on 19 February. Then the new coronavirus spread beyond China, and in the week of 24 to 28 February markets had their largest weekly falls since the 2008 crisis, the fastest slide from a record ever seen. The S&P 500 ended February down 8% at 2,954.22.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json",
+    "text": "The S&P 500 closed at a record 3,386.15 on 19 February. Then the new coronavirus spread beyond China, and in the week of 24 to 28 February markets had their largest weekly falls since the 2008 crisis, the fastest slide from a record ever seen. The S&P 500 ended February down 8% at 2,954.22. The virus reached northern Italy, where towns were sealed off, and Switzerland, which confirmed its first case on 25 February and on 28 February banned events with more than 1,000 people. Oil fell with shares: US crude closed February at about 45 dollars, from 61 at the end of December, and ExxonMobil lost 17%.",
+    "assets": [
+      "xom"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 31 January 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000011/f8k4q991.htm (read 2026-10-03)",
     "image": "/news/markets/2020-02-nyse-trader-eyes.jpg",
     "imageCaption": "A screen is reflected in a trader's eyes at the opening bell of the New York Stock Exchange as the coronavirus sell-off deepens, 27 February 2020",
     "imageCredit": "Photo by JOHANNES EISELE/AFP via Getty Images"
@@ -57,30 +59,6 @@
     "image": "/news/credit-suisse/2020-02-thiam.jpg",
     "imageCaption": "Tidjane Thiam presents his last annual results as chief executive of Credit Suisse, Zurich, February 2020",
     "imageCredit": "Keystone / Ennio Leanza"
-  },
-  {
-    "month": "2020-02",
-    "kind": "world",
-    "headline": "The virus reaches Europe and Switzerland",
-    "text": "The new coronavirus, which the World Health Organization declared an international emergency on 30 January, spread from China to northern Italy in late February, where towns were sealed off. Switzerland confirmed its first case on 25 February, a man in Ticino who had visited Milan, and on 28 February banned events with more than 1,000 people. Stock markets fell in the last week of the month.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)",
-    "image": "/news/world/2020-02-bergamo-supermarket.jpg",
-    "imageCaption": "Shoppers at a supermarket in Bergamo, Lombardy, 26 February 2020",
-    "imageCredit": "Nick.mon"
-  },
-  {
-    "month": "2020-02",
-    "kind": "company",
-    "headline": "The virus scare hits oil",
-    "text": "From 20 February stock markets fell sharply as the coronavirus spread beyond China to South Korea, Italy and Iran; in the last week of February Wall Street fell more than 10 percent. Oil fell with them: US crude closed February at about 45 dollars, from 61 at the end of December. ExxonMobil had already reported in January that its 2019 profit fell 31 percent to 14.3 billion dollars.",
-    "assets": [
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 31 January 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000011/f8k4q991.htm (read 2026-10-03)",
-    "image": "/news/xom/2020-02-exxon-station.jpg",
-    "imageCaption": "An Exxon service station",
-    "imageCredit": "Ben P L"
   },
   {
     "month": "2020-03",
@@ -110,81 +88,14 @@
   },
   {
     "month": "2020-03",
-    "kind": "company",
-    "headline": "Covid crash",
-    "text": "Global stock markets crashed in March as the coronavirus spread, with the worst day on 16 March. Brent oil averaged $33 a barrel, against $64 in January, and copper $5,183 a tonne. Glencore says its mines have not been materially disrupted and it has $10bn of undrawn credit and cash; on 31 March it postponed its planned $2.6bn shareholder distribution and refinanced $14.6bn of credit lines.",
-    "assets": [
-      "glencore"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash; https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
-    "image": "/news/glencore/2020-03-masks.jpg",
-    "imageCaption": "Empty mask shelves in a drugstore, 16 March 2020",
-    "imageCredit": "Syced"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "Pandemic closes restaurants, stadiums and cinemas: Coca-Cola falls 17%",
-    "text": "As the coronavirus spread, governments ordered people to stay at home and closed restaurants, bars, cinemas and stadiums, and stock markets crashed. Coca-Cola sells a large part of its drinks through such places. Its shares lost about 17% in March, more than the S&P 500.",
-    "assets": [
-      "ko"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03)",
-    "image": "/news/ko/2020-03-scoreboard.jpg",
-    "imageCaption": "Coca-Cola scoreboard at a baseball stadium",
-    "imageCredit": "Andrew nyr"
-  },
-  {
-    "month": "2020-03",
-    "kind": "world",
-    "headline": "Pandemic crash: circuit breakers, zero rates and a 34 percent fall",
-    "text": "As lockdowns spread and Saudi Arabia started an oil price war, trading was halted by circuit breakers on 9, 12 and 16 March; on 16 March the S&P 500 fell 12% and the VIX fear index closed at a record 82.69. The Fed cut rates to zero on 15 March and on 23 March promised unlimited bond buying; that day the S&P 500 fell to 2,237, 34% below the February record, and Congress passed a 2 trillion dollar rescue on 27 March. The S&P 500 ended March down 13% at 2,584.59.",
-    "assets": [
-      "ust2025",
-      "ust2030",
-      "ust2040"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2020-03-nyse-trader.jpg",
-    "imageCaption": "A trader on the floor of the New York Stock Exchange as shares fall sharply again despite a cut in interest rates to zero, 16 March 2020",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "Pandemic: dining rooms close, drive-thrus stay open",
-    "text": "As governments ordered shutdowns, McDonald's said on 16 March that substantially all US restaurants were serving only through drive-thru, delivery and takeaway, and that all restaurants in Italy and Spain, and later France and Britain, were closed. It is working with franchisees on rent deferrals. The shares lost about 15% in March.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json",
-    "image": "/news/mcd/2020-03-drive-thru.jpg",
-    "imageCaption": "A McDonald's drive-thru",
-    "imageCredit": "Jaggery"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "The pandemic shuts the car factories",
-    "text": "As the coronavirus spread across Europe and America, stock markets crashed; on 12 March the DAX fell 12%, one of its worst days ever. Car makers including Daimler halted production in Europe and the United States.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/mercedes/2020-03-sindelfingen.jpg",
-    "imageCaption": "The Mercedes-Benz plant in Sindelfingen, Germany",
-    "imageCredit": "Alexander Migl"
-  },
-  {
-    "month": "2020-03",
     "kind": "world",
     "headline": "Saudi-Russian price war as the world locks down",
-    "text": "Russia rejected OPEC's call for deeper cuts on 6 March. Saudi Arabia answered by cutting its prices and announcing it would raise output from 9.7 to 12.3 million barrels a day. On 9 March oil fell about a quarter and stock markets crashed. As lockdowns spread, US crude fell to $20.48 on 18 March and ended the month down 54%.",
+    "text": "Russia rejected OPEC's call for deeper cuts on 6 March. Saudi Arabia answered by cutting its prices and announcing it would raise output from 9.7 to 12.3 million barrels a day. On 9 March oil fell about a quarter and stock markets crashed. As lockdowns spread, US crude fell to $20.48 on 18 March and ended the month down 54%. Schlumberger lost half its value in March and ExxonMobil 26 percent.",
     "assets": [
       "slb",
       "xom"
     ],
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
     "image": "/news/oil/2020-03-novak-vienna.jpg",
     "imageCaption": "Russian energy minister Alexander Novak arrives at the OPEC meeting in Vienna at which Russia refused deeper cuts, 6 March 2020",
     "imageCredit": "Photo by ALEX HALADA/AFP via Getty Images"
@@ -207,96 +118,26 @@
   },
   {
     "month": "2020-03",
-    "kind": "company",
-    "headline": "Price war and pandemic: Schlumberger halves in a month",
-    "text": "On 6 March Russia refused OPEC's proposal to cut output; Saudi Arabia answered on 8 March with discounts and more production, and Brent crude fell 30 percent. With the pandemic shutting down economies, US crude closed March at about 20 dollars, from 45 a month earlier.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
-    "image": "/news/slb/2020-03-drill-rig.jpg",
-    "imageCaption": "A semi-submersible drilling rig laid up in a Scottish firth",
-    "imageCredit": "Hannes Grobe"
-  },
-  {
-    "month": "2020-03",
     "kind": "world",
     "headline": "Pandemic: the world shuts down",
-    "text": "The WHO declared a pandemic on 11 March. Italy locked down on 9 March, the United States barred travellers from Europe, and on 16 March the Swiss government declared an 'extraordinary situation', closing schools, shops, restaurants and borders; on 20 March it announced a 42 billion franc aid package. Stock markets crashed: the Dow lost 7.8 percent on 9 March, 10 percent on 12 March and 12.9 percent on 16 March. The Fed cut rates to zero, and Congress passed a 2.2 trillion dollar relief law on 27 March.",
+    "text": "The WHO declared a pandemic on 11 March. Italy locked down on 9 March, the United States barred travellers from Europe, and on 16 March the Swiss government declared an 'extraordinary situation', closing schools, shops, restaurants and borders; on 20 March it announced a 42 billion franc aid package. Stock markets crashed: the Dow lost 7.8 percent on 9 March, 10 percent on 12 March and 12.9 percent on 16 March, when trading was halted by circuit breakers for the third time that month and the VIX fear index closed at a record 82.69. The Fed cut rates to zero, and Congress passed a 2.2 trillion dollar relief law on 27 March; the S&P 500, 34 percent below its February record on 23 March, ended the month down 13 percent. Daimler (down 27 percent) and BMW (down 20 percent) shut their car factories, Glencore fell 38 percent, Citigroup 34 percent and General Electric 27 percent, while McDonald's served only through drive-thrus and Coca-Cola, which sells much of its drinks in restaurants and stadiums, lost 17 percent.",
     "assets": [
+      "dis",
+      "bmw",
+      "c",
+      "ge",
+      "glencore",
+      "ko",
+      "mcd",
+      "mercedes",
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md; https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30); https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json; WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)",
     "image": "/news/world/2020-03-pope-empty-square.jpg",
     "imageCaption": "Pope Francis prays alone in a rain-soaked, empty St Peter's Square during the lockdown, Rome, 27 March 2020",
     "imageCredit": "Vatican Media (via Vatican News)"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "Price war and pandemic: oil halves in a month",
-    "text": "On 6 March Russia refused OPEC's proposal to cut output; on 8 March Saudi Arabia announced discounts of 6 to 8 dollars a barrel and more production, and Brent crude fell 30 percent, the biggest drop since the Gulf War. With countries shutting down against the pandemic, US crude closed March at about 20 dollars, from 45 at the end of February.",
-    "assets": [
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
-    "image": "/news/xom/2020-03-smokestacks.jpg",
-    "imageCaption": "Refinery smokestacks on the Texas coast",
-    "imageCredit": "Roy Luck"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "The pandemic halts BMW's factories",
-    "text": "The coronavirus crashed stock markets worldwide in March; on 12 March the DAX fell 12%. Car makers stopped their factories; BMW's British plants are shut from 23 March.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03)",
-    "image": "/news/bmw/2020-03-dingolfing.jpg",
-    "imageCaption": "Aerial view of the BMW plant at Dingolfing, Germany",
-    "imageCredit": "BMW Werk Dingolfing Öffentlichkeitsarbeit"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "Pandemic crash hits bank shares",
-    "text": "As the coronavirus spread, the Federal Reserve cut its policy rate to near zero on 15 March, saying the outbreak had disrupted economic activity in many countries. Banks face a wave of loan losses and near-zero interest rates for as long as the downturn lasts; Citigroup's shares fell 34% in March.",
-    "assets": [
-      "c"
-    ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md",
-    "image": "/news/c/2020-03-fidi-empty.jpg",
-    "imageCaption": "The empty streets of New York's Financial District, 29 March 2020",
-    "imageCredit": "Billie Grace Ward"
-  },
-  {
-    "month": "2020-03",
-    "kind": "company",
-    "headline": "The pandemic grounds GE's engine business",
-    "text": "As Covid-19 spread, air travel collapsed and stock markets had their worst days since 1987. General Electric's biggest profit maker is jet engines and their servicing, paid by the hours airlines fly. Factory workers protested to demand that jet engine plants make ventilators.",
-    "assets": [
-      "ge"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30)",
-    "image": "/news/ge/2020-03-ge90-773er.jpg",
-    "imageCaption": "A GE90 engine on a Boeing 777-300ER",
-    "imageCredit": "Bernd K"
-  },
-  {
-    "month": "2020-03",
-    "kind": "colour",
-    "headline": "Switzerland shuts down",
-    "text": "On 16 March the Federal Council declared an 'extraordinary situation' under the epidemics law because of the coronavirus. Schools, shops other than food stores, restaurants and bars are closed, and from 20 March gatherings of more than five people are banned. Many parents work from home. Disney+ started in Switzerland on 24 March, just in time.",
-    "assets": [
-      "dis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03)",
-    "image": "/news/life/2020-03-swiss-planes.jpg",
-    "imageCaption": "Swiss aircraft grounded during the coronavirus shutdown, March 2020",
-    "imageCredit": "Jérémy Toma"
   },
   {
     "month": "2020-04",
@@ -326,11 +167,11 @@
     "month": "2020-04",
     "kind": "world",
     "headline": "Oil goes negative",
-    "text": "OPEC, Russia and others agreed on 9 to 12 April to cut output by 9.7 million barrels a day, about 10% of world supply. It was not enough: on 20 April the expiring May contract for US crude fell to minus $37 a barrel, as storage at Cushing, Oklahoma filled up and holders paid to get rid of oil. Brent fell to about $9 the next day.",
+    "text": "OPEC, Russia and others agreed on 9 to 12 April to cut output by 9.7 million barrels a day, about 10% of world supply. It was not enough: on 20 April the expiring May contract for US crude fell to minus $37 a barrel, as storage at Cushing, Oklahoma filled up and holders paid to get rid of oil. Brent fell to about $9 the next day. ExxonMobil had cut its 2020 capital spending by 30 percent, to about 23 billion dollars, on 7 April; its shares rose 22% as stocks rebounded.",
     "assets": [
       "xom"
     ],
-    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); ExxonMobil press release of 7 April 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000028/f8k1q991.htm (read 2026-10-03)",
     "image": "/news/oil/2020-04-cushing-storage.jpg",
     "imageCaption": "Crude oil storage tanks at Cushing, Oklahoma, the delivery point for US crude, in the week the price went below zero, 23 April 2020",
     "imageCredit": "Photo by Tom Pennington/Getty Images"
@@ -373,19 +214,6 @@
     "image": "/news/tsla/2020-04-model3.jpg",
     "imageCaption": "A Tesla Model 3, Xiamen, China",
     "imageCredit": "James Young"
-  },
-  {
-    "month": "2020-04",
-    "kind": "company",
-    "headline": "ExxonMobil cuts spending by 30 percent as oil goes negative",
-    "text": "On 7 April ExxonMobil cut its 2020 capital spending by 30 percent, from 33 to about 23 billion dollars, and cash operating costs by 15 percent, mostly in the Permian Basin. On 9 April Saudi Arabia and Russia agreed to cut output by about 10 million barrels a day. On 20 April the US crude price fell below zero, to minus 37 dollars, as storage ran out. Stocks rebounded strongly from their March lows.",
-    "assets": [
-      "xom"
-    ],
-    "source": "ExxonMobil press release of 7 April 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000028/f8k1q991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)",
-    "image": "/news/xom/2020-04-baytown-exxon.jpg",
-    "imageCaption": "The ExxonMobil Baytown complex seen across Goose Creek, Texas",
-    "imageCredit": "Baytownbert"
   },
   {
     "month": "2020-05",
@@ -580,9 +408,20 @@
     "month": "2020-11",
     "kind": "world",
     "headline": "Biden wins, and a vaccine works",
-    "text": "Joe Biden won the US election of 3 November, with 306 electoral votes and about 51 percent of the vote, and was declared the winner by the media on 7 November; President Trump refuses to concede and claims fraud without evidence. On 9 November Pfizer and BioNTech announced that their vaccine was about 90 percent effective in trials.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03)",
+    "text": "Joe Biden won the US election of 3 November, with 306 electoral votes and about 51 percent of the vote, and was declared the winner by the media on 7 November; President Trump refuses to concede and claims fraud without evidence. On 9 November Pfizer and BioNTech announced that their vaccine was about 90 percent effective in trials. Investors rushed into the shares hurt most by the pandemic: Schlumberger and Glencore rose about 40%, General Electric 37%, Citigroup 33%, Daimler 30%, BMW 28% and UBS 22%, and US crude rose 27% to $45.20. The Dow closed above 30,000 for the first time on 24 November, and the S&P 500 rose 11% in the month.",
+    "assets": [
+      "slb",
+      "xom",
+      "bmw",
+      "c",
+      "ge",
+      "glencore",
+      "mercedes",
+      "novartis",
+      "ubs",
+      "credit-suisse"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/COVID-19_pandemic (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); The Guardian, 'Global stock markets surge after Pfizer Covid vaccine news', 9 November 2020, https://www.theguardian.com/business/2020/nov/09/stock-markets-covid-vaccine-ftse-100-coronavirus (read 2026-10-03); data/news/arcs/movers.md; https://www.sec.gov/Archives/edgar/data/40545/000004054520000057/ge3q2020ex99.htm (GE third-quarter 2020 release, read 2026-10-03); World Bank Pink Sheet monthly averages; WSJ, 'Dow Surges to Highest Level Since February on Vaccine Results, Biden Win', 9 November 2020 (headline via Google News) (read 2026-10-03); Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/out/slb.json; https://fr.wikipedia.org/wiki/UBS (read 2026-10-03)",
     "image": "/news/world/2020-11-biden-celebration.jpg",
     "imageCaption": "Crowds celebrate Joe Biden's election victory, Washington, 7 November 2020",
     "imageCredit": "Sdkb"
@@ -603,32 +442,6 @@
   {
     "month": "2020-11",
     "kind": "company",
-    "headline": "Vaccine hopes send BMW up 28%",
-    "text": "On 9 November Pfizer and BioNTech reported that their coronavirus vaccine is 90% effective, and stock markets surged, led by the shares that had suffered most in the lockdowns, such as car makers.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "The Guardian, 'Global stock markets surge after Pfizer Covid vaccine news', 9 November 2020, https://www.theguardian.com/business/2020/nov/09/stock-markets-covid-vaccine-ftse-100-coronavirus (read 2026-10-03)",
-    "image": "/news/bmw/2020-11-vaccine.jpg",
-    "imageCaption": "A vial of the Pfizer-BioNTech COVID-19 vaccine, December 2020",
-    "imageCredit": "U.S. Department of Defense"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "Vaccine news sends bank shares soaring",
-    "text": "Pfizer said on 9 November that its experimental COVID-19 vaccine, developed with BioNTech, was more than 90% effective in a large trial. Investors bought the shares hurt most by the pandemic, banks among them, and Citigroup's rose 33% in November.",
-    "assets": [
-      "c"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03, citing NPR, 9 November 2020); data/news/arcs/movers.md",
-    "image": "/news/c/2020-11-vaccine.jpg",
-    "imageCaption": "Moderna's coronavirus vaccine being inspected, December 2020",
-    "imageCredit": "US Navy Medicine"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
     "headline": "Disney+ passes 73 million subscribers in its first year",
     "text": "On 12 November Disney reported a loss for its business year because of the pandemic, but said Disney+ had more than 73 million paying subscribers after one year, 'far surpassing our expectations'.",
     "assets": [
@@ -642,42 +455,6 @@
   {
     "month": "2020-11",
     "kind": "company",
-    "headline": "A vaccine sends travel stocks soaring",
-    "text": "On 9 November Pfizer and BioNTech said their Covid-19 vaccine was more than 90% effective in trials. Shares of companies tied to travel jumped. General Electric had already promised at least 2.5 billion dollars of industrial free cash flow in the fourth quarter.",
-    "assets": [
-      "ge"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03, citing NPR and STAT 2020-11-09); https://www.sec.gov/Archives/edgar/data/40545/000004054520000057/ge3q2020ex99.htm (GE third-quarter 2020 release, read 2026-10-03)",
-    "image": "/news/ge/2020-11-ge90.jpg",
-    "imageCaption": "A GE90 engine at sunset on a Boeing 777",
-    "imageCredit": "Maxime C-M"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "Vaccine rally",
-    "text": "Pfizer and BioNTech reported in November that their Covid-19 vaccine was highly effective in late-stage trials, and stock markets rose about 11%, led by the shares hit hardest in the pandemic. Copper averaged $7,069 a tonne, above its pre-Covid level, and coal rose to $64.",
-    "assets": [
-      "glencore"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine; World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (all read 2026-10-03)",
-    "image": "/news/glencore/2020-11-vaccine.jpg",
-    "imageCaption": "The Pfizer-BioNTech Covid-19 vaccine, December 2020"
-  },
-  {
-    "month": "2020-11",
-    "kind": "world",
-    "headline": "A vaccine and a decided election: shares up 11 percent",
-    "text": "After the presidential election of 3 November, uncertainty fell, and on 9 November Pfizer's announcement of a successful vaccine trial set off a rush into the companies hurt most by the pandemic, such as travel and energy. The Dow closed above 30,000 for the first time on 24 November, and the S&P 500 rose 11% in November to 3,621.63.",
-    "assets": [],
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2020-11-biden-celebration.jpg",
-    "imageCaption": "Crowds celebrate in Farragut Square, Washington, after the election is called for Joe Biden, 7 November 2020",
-    "imageCredit": "Elvert Barnes"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
     "headline": "'Accelerating the Arches': digital, delivery and drive-thru",
     "text": "On 9 November chief executive Chris Kempczinski announced a new growth strategy, 'Accelerating the Arches', focused on marketing, core menu items (burgers, chicken and coffee) and the 'three Ds': digital, delivery and drive-thru, which proved their worth during the pandemic.",
     "assets": [
@@ -687,73 +464,6 @@
     "image": "/news/mcd/2020-11-delivery.jpg",
     "imageCaption": "A McDonald's delivery bicycle ;;",
     "imageCredit": "Syced"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "Vaccine news sends car shares soaring",
-    "text": "On 9 November Pfizer and BioNTech reported that their coronavirus vaccine is 90% effective, and stock markets surged worldwide, led by shares that suffer most from lockdowns, such as car makers. Joe Biden's win in the US presidential election added to the optimism.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "The Guardian, 'Global stock markets surge after Pfizer Covid vaccine news', 9 November 2020, https://www.theguardian.com/business/2020/nov/09/stock-markets-covid-vaccine-ftse-100-coronavirus (read 2026-10-03); WSJ, 'Dow Surges to Highest Level Since February on Vaccine Results, Biden Win', 9 November 2020 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/mercedes/2020-11-vaccine.jpg",
-    "imageCaption": "A vial of the Pfizer-BioNTech COVID-19 vaccine, December 2020",
-    "imageCredit": "U.S. Department of Defense"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "Vaccine news lifts the market",
-    "text": "On 9 November Pfizer and BioNTech reported that their COVID-19 vaccine prevented about 91% of symptomatic infections in a trial with over 40,000 people. Stock markets jumped: the S&P 500 rose 11% in November.",
-    "assets": [
-      "novartis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/novartis/2020-11-vaccine.jpg",
-    "imageCaption": "Vials of the Pfizer-BioNTech COVID-19 vaccine",
-    "imageCredit": "US Department of Defense"
-  },
-  {
-    "month": "2020-11",
-    "kind": "world",
-    "headline": "Vaccine news lifts oil",
-    "text": "Pfizer and BioNTech reported in November that their coronavirus vaccine met its efficacy goals in trials. Investors bet on a return to travel, and US crude rose 27% in the month to $45.20.",
-    "assets": [
-      "slb",
-      "xom"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2020-11-vaccine.jpg",
-    "imageCaption": "Vials of the Pfizer-BioNTech Covid-19 vaccine, 2020",
-    "imageCredit": "U.S. Secretary of Defense"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "A vaccine sends oilfield shares soaring",
-    "text": "On 9 November Pfizer and BioNTech said their Covid vaccine was more than 90 percent effective in its first analysis. Shares hit hardest by the pandemic jumped; US crude rose from about 36 to 45 dollars during the month. Schlumberger rose almost 40 percent from its lowest month-end price since the mid-1990s.",
-    "assets": [
-      "slb"
-    ],
-    "source": "Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); data/out/slb.json",
-    "image": "/news/slb/2020-11-drillship.jpg",
-    "imageCaption": "A drillship seen across Brunei Bay",
-    "imageCredit": "Calistemon"
-  },
-  {
-    "month": "2020-11",
-    "kind": "company",
-    "headline": "Vaccine hopes lift the banks",
-    "text": "Pfizer and BioNTech reported in November that their coronavirus vaccine had met its efficacy goals in the final trial, with a potential efficacy of more than 90%. Share markets rallied; the S&P 500 gained about 11% in the month. At UBS, Ralph Hamers took over as chief executive from Sergio Ermotti on 1 November.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine (read 2026-10-03); https://fr.wikipedia.org/wiki/UBS (read 2026-10-03)",
-    "image": "/news/ubs/2020-11-vaccine.jpg",
-    "imageCaption": "Vials of the Pfizer-BioNTech COVID-19 vaccine",
-    "imageCredit": "US Department of Defense"
   },
   {
     "month": "2020-12",

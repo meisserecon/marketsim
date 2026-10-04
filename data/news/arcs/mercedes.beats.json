@@ -309,49 +309,18 @@
     "id": "0434b8c0",
     "month": "2019-05",
     "title": "Ola Källenius takes over as trade war worries hit car shares",
-    "what": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May.",
+    "what": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May. Tesla fell 22% to a three-year low, hit harder than other car makers because it is building a factory in Shanghai and counts on selling many cars in China.",
     "why": "About 7 points of the -21% are the dividend (prices exclude dividends); the rest is trade-war fear and a run of profit warnings over diesel costs.",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "tsla"
     ],
     "move": {
       "asset": "mercedes",
       "pct": -21
     },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03)"
-  },
-  {
-    "id": "4fe04256",
-    "month": "2020-03",
-    "title": "The pandemic shuts the car factories",
-    "what": "As the coronavirus spread across Europe and America, stock markets crashed; on 12 March the DAX fell 12%, one of its worst days ever. Car makers including Daimler halted production in Europe and the United States.",
-    "why": "The COVID crash (-27%); the recovery began in April (+14%).",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -27
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)"
-  },
-  {
-    "id": "fa732dab",
-    "month": "2020-11",
-    "title": "Vaccine news sends car shares soaring",
-    "what": "On 9 November Pfizer and BioNTech reported that their coronavirus vaccine is 90% effective, and stock markets surged worldwide, led by shares that suffer most from lockdowns, such as car makers. Joe Biden's win in the US presidential election added to the optimism.",
-    "why": "+30% for Daimler (and +28% for BMW); the start of a strong 2021 for car shares.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": 30
-    },
-    "importance": 2,
-    "source": "The Guardian, 'Global stock markets surge after Pfizer Covid vaccine news', 9 November 2020, https://www.theguardian.com/business/2020/nov/09/stock-markets-covid-vaccine-ftse-100-coronavirus (read 2026-10-03); WSJ, 'Dow Surges to Highest Level Since February on Vaccine Results, Biden Win', 9 November 2020 (headline via Google News) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03); The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)"
   },
   {
     "id": "58a36d4f",
@@ -404,22 +373,6 @@
     ],
     "importance": 2,
     "source": "Reuters, 'Mercedes-Benz cuts margin outlook on weak Chinese market, shares fall', 20 September 2024; Bloomberg, 'Mercedes Slumps After Warning China Rout Is Hurting Profits', 19 September 2024 (headlines via Google News) (read 2026-10-03)"
-  },
-  {
-    "id": "e9e66c84",
-    "month": "2026-03",
-    "title": "War with Iran hits European car makers",
-    "what": "The United States and Israel went to war with Iran on 28 February. Iran attacked shipping and blocked the Strait of Hormuz, energy prices jumped and stock markets fell. The Middle East is a high-margin market for luxury cars, and higher energy prices weigh on Europe's economy.",
-    "why": "The -13% month; the war's energy shock was later cited by BMW in its June profit warning.",
-    "assets": [
-      "mercedes"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -13
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); CNBC, 'Iran war poses challenges to high-margin Middle East car market', 18 March 2026 (headline via Google News) (read 2026-10-03)"
   },
   {
     "id": "3c4cb3ef",

@@ -129,7 +129,7 @@
     "month": "1982-08",
     "kind": "company",
     "headline": "Wall Street jumps on rate hopes; Boeing up 48%, Apple up 33%",
-    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The Federal Reserve has let interest rates come down: the rate banks charge each other averaged about 10 percent in August, against 14 percent in June, as unemployment reached 9.8 percent and inflation slowed to 6.4 percent (July). The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines. The numbers: the Fed's rate 10.1 percent. Inflation 6.6 percent. Unemployment 9.8 percent.",
+    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The Federal Reserve has let interest rates come down: the rate banks charge each other averaged about 10 percent in August, against 14 percent in June, as unemployment reached 9.8 percent and inflation slowed to 6.4 percent (July). The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines. The numbers: the Fed's rate 10.1 percent. Inflation 6.4 percent. Unemployment 9.8 percent.",
     "assets": [
       "ba",
       "aapl"
@@ -173,11 +173,11 @@
     "month": "1982-10",
     "kind": "company",
     "headline": "Falling interest rates power a second leap",
-    "text": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.7 percent. Inflation 4.9 percent. Unemployment 10.1 percent.",
+    "text": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.5 percent. Inflation 5.0 percent. Unemployment 10.1 percent.",
     "assets": [
       "aapl"
     ],
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/aapl/1982-10-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to October 1982",

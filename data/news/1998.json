@@ -259,13 +259,13 @@
     "month": "1998-10",
     "kind": "world",
     "headline": "A surprise Fed cut on 15 October and shares bounce 8 percent",
-    "text": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67. The numbers: the Fed's rate 5.1 percent. Inflation 1.4 percent. Unemployment 4.6 percent.",
+    "text": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67. The numbers: the Fed's rate 5 percent. Inflation 1.5 percent. Unemployment 4.6 percent.",
     "assets": [
       "ust2000",
       "ust2005",
       "ust2010"
     ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/markets/1998-10-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to October 1998",

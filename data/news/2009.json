@@ -137,13 +137,13 @@
     "month": "2009-03",
     "kind": "world",
     "headline": "Money is free: the Fed creates a trillion dollars to buy bonds",
-    "text": "The Fed's interest rate has been at zero since December: banks can borrow almost for free. Because a rate cannot go much lower than zero, the Fed now uses another tool. On 18 March it said it would buy another 750 billion dollars of mortgage bonds and, for the first time, 300 billion dollars of government bonds, with money it creates itself. The numbers: the Fed's rate 0.2 percent. Inflation 0.0 percent. Unemployment 8.3 percent.",
+    "text": "The Fed's interest rate has been at zero since December: banks can borrow almost for free. Because a rate cannot go much lower than zero, the Fed now uses another tool. On 18 March it said it would buy another 750 billion dollars of mortgage bonds and, for the first time, 300 billion dollars of government bonds, with money it creates itself. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 0.2 percent. Unemployment 8.3 percent.",
     "assets": [
       "ust2010",
       "ust2015",
       "ust2020"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2009-03-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to March 2009",

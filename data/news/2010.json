@@ -188,13 +188,13 @@
     "month": "2010-11",
     "kind": "world",
     "headline": "Two years at zero, and the Fed buys another 600 billion dollars of bonds",
-    "text": "Money has been free for two years now, and the economy is still weak. On 3 November the Fed announced that it will buy another 600 billion dollars of government bonds, 75 billion a month, with newly created money. Its interest rate stays at zero. The numbers: the Fed's rate 0.2 percent. Inflation 1.2 percent. Unemployment 9.4 percent.",
+    "text": "Money has been free for two years now, and the economy is still weak. On 3 November the Fed announced that it will buy another 600 billion dollars of government bonds, 75 billion a month, with newly created money. Its interest rate stays at zero. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.2 percent. Unemployment 9.4 percent.",
     "assets": [
       "ust2015",
       "ust2020",
       "ust2030"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2010-11-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to November 2010",

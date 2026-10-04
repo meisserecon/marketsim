@@ -270,14 +270,14 @@
     "month": "2016-07",
     "kind": "world",
     "headline": "Money stays almost free: the Fed holds its rate below half a percent",
-    "text": "The Fed has kept its interest rate at 0.25 to 0.5 percent since December, after seven years at zero, and after Britain voted on 23 June to leave the European Union nobody expects it to raise the rate soon. Investors bought safe government bonds: lending to the American government for ten years now pays only 1.5 percent a year, less than ever before. Gold averaged 1,337 dollars, 5 percent more than in June. The numbers: the Fed's rate 0.4 percent. Inflation 1.1 percent. Unemployment 4.9 percent.",
+    "text": "The Fed has kept its interest rate at 0.25 to 0.5 percent since December, after seven years at zero, and after Britain voted on 23 June to leave the European Union nobody expects it to raise the rate soon. Investors bought safe government bonds: lending to the American government for ten years now pays only 1.5 percent a year, less than ever before. Gold averaged 1,337 dollars, 5 percent more than in June. The numbers: the Fed's rate 0.25 to 0.5 percent. Inflation 1.0 percent. Unemployment 4.9 percent.",
     "assets": [
       "gold",
       "ust2020",
       "ust2025",
       "ust2030"
     ],
-    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2016-07-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to July 2016",
@@ -440,13 +440,13 @@
     "month": "2016-12",
     "kind": "world",
     "headline": "A second small step: the Fed raises its rate to 0.5 to 0.75 percent",
-    "text": "On 14 December the Fed raised its interest rate by a quarter of a point, to a range of 0.5 to 0.75 percent. It is only the second increase in ten years; the first was a year ago. Money is no longer free, but it is still cheaper than at any time before 2008. The numbers: the Fed's rate 0.5 percent. Inflation 1.7 percent. Unemployment 4.7 percent.",
+    "text": "On 14 December the Fed raised its interest rate by a quarter of a point, to a range of 0.5 to 0.75 percent. It is only the second increase in ten years; the first was a year ago. Money is no longer free, but it is still cheaper than at any time before 2008. The numbers: the Fed's rate 0.5 to 0.75 percent. Inflation 1.7 percent. Unemployment 4.7 percent.",
     "assets": [
       "ust2020",
       "ust2025",
       "ust2030"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2016-12-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to December 2016",

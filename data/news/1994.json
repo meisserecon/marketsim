@@ -16,13 +16,13 @@
     "month": "1994-02",
     "kind": "world",
     "headline": "The Fed raises rates for the first time in five years",
-    "text": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Long-term rates had come a long way down: the 10-year Treasury yield averaged 5.3 percent last October, against 15.3 percent in September 1981. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January). The numbers: the Fed's rate 3.3 percent. Inflation 2.5 percent. Unemployment 6.6 percent.",
+    "text": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Long-term rates had come a long way down: the 10-year Treasury yield averaged 5.3 percent last October, against 15.3 percent in September 1981. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January). The numbers: the Fed's rate 3.25 percent. Inflation 2.5 percent. Unemployment 6.6 percent.",
     "assets": [
       "ust1995",
       "ust2000",
       "ust2010"
     ],
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/1994-02-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to February 1994",
@@ -125,13 +125,13 @@
     "month": "1994-11",
     "kind": "world",
     "headline": "Sixth hike of the year as bond losses mount",
-    "text": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. The numbers: the Fed's rate 5.3 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
+    "text": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. The numbers: the Fed's rate 5.5 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
     "assets": [
       "ust1995",
       "ust2000",
       "ust2010"
     ],
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/1994-11-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to November 1994",

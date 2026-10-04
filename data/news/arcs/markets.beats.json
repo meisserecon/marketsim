@@ -140,14 +140,15 @@
     "id": "9603bcbc",
     "month": "1987-08",
     "title": "Shares hit a record as Greenspan takes over the Fed",
-    "what": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August. The numbers: the Fed's rate 6.7 percent. Inflation 3.9 percent. Unemployment 6.1 percent.",
+    "what": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August. The numbers: the Fed's rate 6.75 percent. Inflation 3.9 percent. Unemployment 6.1 percent.",
     "why": "The peak before the crash; the S&P 500 did not close above it again until July 1989.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "lead": true,
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "8218e651",
@@ -257,7 +258,7 @@
     "id": "0610238d",
     "month": "1991-12",
     "title": "The Fed cuts sharply and shares end 1991 with an 11 percent burst",
-    "what": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets. The numbers: the Fed's rate 4.4 percent. Inflation 3.1 percent. Unemployment 7.0 percent.",
+    "what": "On 20 December the Federal Reserve cut its interest rate to 4 percent, and the rate at which it lends to banks directly by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets. The numbers: the Fed's rate 4 percent. Inflation 3.0 percent. Unemployment 7.0 percent.",
     "why": "A year-end burst and the start of the 1990s bull market proper; the year's big gain came despite a weak economy.",
     "assets": [
       "bonds"
@@ -267,7 +268,8 @@
       "pct": 11
     },
     "thread": "rates",
-    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text; the text named only the discount rate, a different rate"
   },
   {
     "id": "f40c0d37",
@@ -326,7 +328,7 @@
     "id": "5901c0c0",
     "month": "1998-10",
     "title": "A surprise Fed cut on 15 October and shares bounce 8 percent",
-    "what": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67. The numbers: the Fed's rate 5.1 percent. Inflation 1.4 percent. Unemployment 4.6 percent.",
+    "what": "Shares fell further in early October, then on 15 October the Federal Reserve cut its key rate again, to about 5 percent, without waiting for a meeting. The market rallied strongly after mid-October as fears of a financial breakdown eased. The S&P 500 rose 8% in October to 1,098.67. The numbers: the Fed's rate 5 percent. Inflation 1.5 percent. Unemployment 4.6 percent.",
     "why": "The Fed's three cuts in autumn 1998 ended the panic and fuelled the final, wildest phase of the dot-com boom.",
     "assets": [
       "bonds"
@@ -335,8 +337,9 @@
       "asset": "sp500",
       "pct": 8
     },
-    "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "14b0fbef",
@@ -386,7 +389,7 @@
     "id": "203cc7b8",
     "month": "2001-04",
     "title": "A surprise rate cut and better earnings bring an 8 percent bounce",
-    "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.8 percent. Inflation 3.0 percent. Unemployment 4.3 percent.",
+    "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
     "why": "A bear-market rally; the low was still eighteen months away.",
     "assets": [
       "bonds"
@@ -395,8 +398,9 @@
       "asset": "sp500",
       "pct": 8
     },
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "542b57c2",
@@ -597,7 +601,7 @@
     "id": "1d20f458",
     "month": "2008-01",
     "title": "The Fed's emergency cut: three-quarters of a point between meetings",
-    "what": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55. The numbers: the Fed's rate 3.9 percent. Inflation 4.1 percent. Unemployment 5.0 percent.",
+    "what": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55. The numbers: the Fed's rate 3 percent. Inflation 4.1 percent. Unemployment 5.0 percent.",
     "why": "The Fed fighting the crisis early; markets read it as a sign of how bad things were.",
     "assets": [
       "bonds"
@@ -606,8 +610,9 @@
       "asset": "sp500",
       "pct": -6
     },
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "ea5fb498",
@@ -857,7 +862,7 @@
     "id": "393d6f65",
     "month": "2018-12",
     "title": "The Christmas fall: shares lose 9 percent in December",
-    "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%. It was the Fed's fourth rise of the year, to 2.25 to 2.5 percent, and December was the S&P 500's worst month since February 2009. The numbers: the Fed's rate 2.3 percent. Inflation 2.1 percent. Unemployment 3.8 percent.",
+    "what": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%. It was the Fed's fourth rise of the year, to 2.25 to 2.5 percent, and December was the S&P 500's worst month since February 2009. The numbers: the Fed's rate 2.25 to 2.5 percent. Inflation 2.2 percent. Unemployment 3.8 percent.",
     "why": "The near-bear market of 2018, which reversed as soon as the Fed changed its tone in January.",
     "assets": [
       "bonds"
@@ -866,14 +871,15 @@
       "asset": "sp500",
       "pct": -9
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "be310846",
     "month": "2019-01",
     "title": "The Fed promises patience and shares jump 8 percent",
-    "what": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss. The numbers: the Fed's rate 2.4 percent. Inflation 2.0 percent. Unemployment 3.9 percent.",
+    "what": "Early in January Federal Reserve officials said the central bank could be 'patient' about further rate rises, and positive signals on trade with China followed. The S&P 500 rose 8% in January to 2,704.10, winning back most of December's loss. The numbers: the Fed's rate 2.25 to 2.5 percent. Inflation 1.9 percent. Unemployment 3.9 percent.",
     "why": "The Fed's U-turn; it cut rates three times later in 2019.",
     "assets": [
       "bonds"
@@ -882,8 +888,9 @@
       "asset": "sp500",
       "pct": 8
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "14752fd9",
@@ -970,7 +977,7 @@
     "id": "7016a204",
     "month": "2022-04",
     "title": "Rising rates and weak earnings: the worst month since March 2020",
-    "what": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020. The numbers: the Fed's rate 0.3 percent. Inflation 8.6 percent. Unemployment 3.7 percent.",
+    "what": "Long-term interest rates rose sharply as the Federal Reserve prepared bigger rate rises against inflation, some big companies reported disappointing earnings at the end of the month, and lockdowns in China clouded the world economy. The S&P 500 lost 9% in April to 4,131.93, its worst month since March 2020. The numbers: the Fed's rate 0.25 to 0.5 percent. Inflation 8.5 percent. Unemployment 3.7 percent.",
     "why": "The 2022 bear market gathering pace; technology shares were hit hardest (told in the tech arc).",
     "assets": [
       "bonds"
@@ -979,8 +986,9 @@
       "asset": "sp500",
       "pct": -9
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "065d7d23",
@@ -1023,7 +1031,7 @@
     "id": "83717eb0",
     "month": "2023-11",
     "title": "Inflation cools, yields drop, shares jump 9 percent",
-    "what": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80. The numbers: the Fed's rate 5.3 percent. Inflation 3.3 percent. Unemployment 3.9 percent.",
+    "what": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80. The numbers: the Fed's rate 5.25 to 5.5 percent. Inflation 3.2 percent. Unemployment 3.9 percent.",
     "why": "The 'peak rates' rally that carried shares to records in early 2024.",
     "assets": [
       "bonds"
@@ -1032,8 +1040,9 @@
       "asset": "sp500",
       "pct": 9
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "65517be9",

@@ -222,13 +222,13 @@
     "month": "1991-12",
     "kind": "world",
     "headline": "The Fed cuts sharply and shares end 1991 with an 11 percent burst",
-    "text": "On 20 December the Federal Reserve cut its discount rate by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets. The numbers: the Fed's rate 4.4 percent. Inflation 3.1 percent. Unemployment 7.0 percent.",
+    "text": "On 20 December the Federal Reserve cut its interest rate to 4 percent, and the rate at which it lends to banks directly by a full point to 3.5 percent, the lowest in 27 years, to revive a sluggish economy. Shares soared: the Dow set four record closes in a row to end the year at 3,168.83, up 20.3% in 1991, and the S&P 500 rose 11% in December alone to 417.09, up 26% for the year. The recession never quite lifted this year, but falling interest rates lifted the markets. The numbers: the Fed's rate 4 percent. Inflation 3.0 percent. Unemployment 7.0 percent.",
     "assets": [
       "ust1995",
       "ust2000",
       "ust2010"
     ],
-    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/markets/1991-12-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to December 1991",

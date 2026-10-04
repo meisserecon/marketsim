@@ -72,7 +72,7 @@
     "id": "80da83c4",
     "month": "1981-07",
     "title": "The Fed holds its rate at 19 percent and gold slides below 410",
-    "what": "The Federal Reserve has held its interest rate near 19 percent since May, as high as it has ever been. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation takes away, and saving pays better than owning gold. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979. The numbers: the Fed's rate 19.0 percent. Inflation 9.7 percent. Unemployment 7.5 percent.",
+    "what": "The Federal Reserve has held its interest rate near 19 percent since May, as high as it has ever been. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation takes away, and saving pays better than owning gold. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979. The numbers: the Fed's rate 19.0 percent. Inflation 9.6 percent. Unemployment 7.5 percent.",
     "why": "This is what 'real rates' mean in practice: a 10-point gap between interest and inflation. Gold has lost almost 40 percent from its January 1980 average and keeps falling.",
     "assets": [
       "gold",
@@ -83,7 +83,8 @@
       "pct": -11
     },
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "thread": "rates"
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "21ff4855",
@@ -103,7 +104,7 @@
       "pct": -9
     },
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "lead": true
   },
   {
@@ -158,27 +159,29 @@
     "id": "e5478fc8",
     "month": "1994-02",
     "title": "The Fed raises rates for the first time in five years",
-    "what": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Long-term rates had come a long way down: the 10-year Treasury yield averaged 5.3 percent last October, against 15.3 percent in September 1981. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January). The numbers: the Fed's rate 3.3 percent. Inflation 2.5 percent. Unemployment 6.6 percent.",
+    "what": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Long-term rates had come a long way down: the 10-year Treasury yield averaged 5.3 percent last October, against 15.3 percent in September 1981. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January). The numbers: the Fed's rate 3.25 percent. Inflation 2.5 percent. Unemployment 6.6 percent.",
     "why": "The first shot of the 1994 bond massacre. Greenspan moved before inflation showed up, a pre-emptive strike that hurt bondholders badly in 1994 but set up the long boom of the late 1990s.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "lead": true,
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "a8281700",
     "month": "1994-11",
     "title": "Sixth hike of the year as bond losses mount",
-    "what": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. The numbers: the Fed's rate 5.3 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
+    "what": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. The numbers: the Fed's rate 5.5 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
     "why": "The worst year for bonds in decades, with global losses later put at about 1.5 trillion dollars, and the backdrop to the Mexican peso crisis. Rates peaked in early 1995 and the bond rally that followed was enormous.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "lead": true,
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "7f98fea0",
@@ -211,7 +214,7 @@
     "id": "371fa7de",
     "month": "2001-01",
     "title": "The Fed cuts by half a point, twice in one month",
-    "what": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%. The numbers: the Fed's rate 6.0 percent. Inflation 3.4 percent. Unemployment 3.9 percent.",
+    "what": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%. The numbers: the Fed's rate 5.5 percent. Inflation 3.4 percent. Unemployment 3.9 percent.",
     "why": "The start of the 2001 easing: eleven cuts in one year took the rate to 1.75 percent, but could not stop the dot-com bust or the recession.",
     "assets": [
       "bonds",
@@ -223,37 +226,40 @@
       "worldcom"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "7a8b5a59",
     "month": "2003-06",
     "title": "The Fed's rate falls to 1 percent",
-    "what": "On 25 June the Fed cut its rate target by a quarter point to 1 percent, the lowest since the 1950s; since January 2001 it has cut thirteen times from 6.5 percent. Inflation is about 2.1 percent (May). The 10-year Treasury yield averaged 3.3 percent in June, the lowest since 1958, and a 30-year mortgage costs about 5.2 percent, the lowest since the mortgage company Freddie Mac began its weekly survey in 1971. The numbers: the Fed's rate 1.2 percent. Inflation 1.9 percent. Unemployment 6.1 percent.",
+    "what": "On 25 June the Fed cut its rate target by a quarter point to 1 percent, the lowest since the 1950s; since January 2001 it has cut thirteen times from 6.5 percent. Inflation is about 2.1 percent (May). The 10-year Treasury yield averaged 3.3 percent in June, the lowest since 1958, and a 30-year mortgage costs about 5.2 percent, the lowest since the mortgage company Freddie Mac began its weekly survey in 1971. The numbers: the Fed's rate 1 percent. Inflation 2.1 percent. Unemployment 6.1 percent.",
     "why": "Rock-bottom rates fuelled the housing boom that ended in 2008. Long bond yields bottomed in June 2003 and jumped by more than a point within weeks, a sharp loss for latecomers to the bond rally.",
     "assets": [
       "bonds"
     ],
     "thread": "housing-crisis",
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/MORTGAGE30US.txt (read 2026-10-04)"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/MORTGAGE30US.txt (read 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "ad2cf020",
     "month": "2005-02",
     "title": "Greenspan's 'conundrum': long rates fall while the Fed raises",
-    "what": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'. The numbers: the Fed's rate 2.5 percent. Inflation 2.8 percent. Unemployment 5.3 percent.",
+    "what": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'. The numbers: the Fed's rate 2.5 percent. Inflation 3.0 percent. Unemployment 5.3 percent.",
     "why": "Cheap long-term money, partly from Asian savings flowing into Treasuries, kept mortgage rates low and the housing bubble inflating even as the Fed tightened.",
     "assets": [
       "bonds"
     ],
-    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "b0b300fd",
     "month": "2006-06",
     "title": "Seventeenth hike in a row; gold falls back from a 26-year high",
-    "what": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May. The numbers: the Fed's rate 5.0 percent. Inflation 4.0 percent. Unemployment 4.6 percent.",
+    "what": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May. The numbers: the Fed's rate 5.25 percent. Inflation 4.2 percent. Unemployment 4.6 percent.",
     "why": "The end of the Greenspan-Bernanke tightening and a first test of gold's new bull market, which shrugged off the drop and passed 800 dollars within eighteen months.",
     "assets": [
       "gold"
@@ -262,14 +268,15 @@
       "asset": "gold",
       "pct": -12
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "02686580",
     "month": "2008-12",
     "title": "Zero interest rates and the Fed starts buying bonds",
-    "what": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. In January 1981 the same rate had averaged 19 percent. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December. The numbers: the Fed's rate 0.2 percent. Inflation 1.1 percent. Unemployment 6.8 percent.",
+    "what": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. In January 1981 the same rate had averaged 19 percent. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.1 percent. Unemployment 6.8 percent.",
     "why": "The beginning of zero rates and quantitative easing, which lasted seven years and shaped every asset price until 2022. Long bonds gained while almost everything else fell.",
     "assets": [
       "bonds"
@@ -280,56 +287,61 @@
     },
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
-    "lead": true
+    "lead": true,
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "ca8586b6",
     "month": "2009-03",
     "title": "Money is free: the Fed creates a trillion dollars to buy bonds",
-    "what": "The Fed's interest rate has been at zero since December: banks can borrow almost for free. Because a rate cannot go much lower than zero, the Fed now uses another tool. On 18 March it said it would buy another 750 billion dollars of mortgage bonds and, for the first time, 300 billion dollars of government bonds, with money it creates itself. The numbers: the Fed's rate 0.2 percent. Inflation 0.0 percent. Unemployment 8.3 percent.",
+    "what": "The Fed's interest rate has been at zero since December: banks can borrow almost for free. Because a rate cannot go much lower than zero, the Fed now uses another tool. On 18 March it said it would buy another 750 billion dollars of mortgage bonds and, for the first time, 300 billion dollars of government bonds, with money it creates itself. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 0.2 percent. Unemployment 8.3 percent.",
     "why": "The start of the age of free money. Buying bonds pushes long-term rates down too; the practice is called quantitative easing.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "76a44a32",
     "month": "2010-11",
     "title": "Two years at zero, and the Fed buys another 600 billion dollars of bonds",
-    "what": "Money has been free for two years now, and the economy is still weak. On 3 November the Fed announced that it will buy another 600 billion dollars of government bonds, 75 billion a month, with newly created money. Its interest rate stays at zero. The numbers: the Fed's rate 0.2 percent. Inflation 1.2 percent. Unemployment 9.4 percent.",
+    "what": "Money has been free for two years now, and the economy is still weak. On 3 November the Fed announced that it will buy another 600 billion dollars of government bonds, 75 billion a month, with newly created money. Its interest rate stays at zero. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.2 percent. Unemployment 9.4 percent.",
     "why": "The second round of bond buying ('QE2'). Critics warn of inflation; it does not come for another ten years.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "a4f7a932",
     "month": "2011-08",
     "title": "The Fed promises: money stays free for two more years",
-    "what": "Central banks rarely say what they will do far ahead. On 9 August the Fed did: it expects to keep its interest rate at 'exceptionally low levels', between 0 and 0.25 percent, 'at least through mid-2013'. Money has now been free for almost three years. The numbers: the Fed's rate 0.1 percent. Inflation 3.6 percent. Unemployment 9.0 percent.",
+    "what": "Central banks rarely say what they will do far ahead. On 9 August the Fed did: it expects to keep its interest rate at 'exceptionally low levels', between 0 and 0.25 percent, 'at least through mid-2013'. Money has now been free for almost three years. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 3.6 percent. Unemployment 9.0 percent.",
     "why": "The promise is itself a tool: if everybody knows that rates stay at zero, long-term rates fall as well.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "e762e5d4",
     "month": "2012-09",
     "title": "QE3: open-ended bond buying",
-    "what": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August. The numbers: the Fed's rate 0.1 percent. Inflation 1.7 percent. Unemployment 8.1 percent.",
+    "what": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.7 percent. Unemployment 8.1 percent.",
     "why": "'QE infinity' marked the extreme of easy money; within a year the talk of ending it caused the taper tantrum.",
     "assets": [
       "gold",
       "bonds"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "76331f68",
@@ -351,118 +363,127 @@
     "id": "4321ca9e",
     "month": "2013-06",
     "title": "Bernanke hints at slower bond buying and yields jump",
-    "what": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May. The numbers: the Fed's rate 0.1 percent. Inflation 1.4 percent. Unemployment 7.5 percent.",
+    "what": "On 19 June Fed chairman Ben Bernanke said the Fed could begin slowing its bond purchases, now 85 billion dollars a month, later this year. Shares fell about 4 percent in the next three trading days. Bond yields jumped: the 10-year Treasury averaged 2.3 percent in June, against 1.8 percent in April. Gold averaged 1,343 dollars, 5 percent less than in May. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.4 percent. Unemployment 7.5 percent.",
     "why": "Just the hint of less support sent long rates up by a full point within months and hit emerging markets; it taught central banks to signal every step far in advance. Review 2026-10: 'taper tantrum' is the later label.",
     "assets": [
       "gold",
       "bonds"
     ],
-    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "eed0a3a0",
     "month": "2014-10",
     "title": "The Fed stops buying bonds, but money stays free",
-    "what": "On 29 October the Fed ended its bond purchases. Since 2008 it has bought bonds worth about 4.5 trillion dollars with money it created. Its interest rate, however, stays where it has been for six years: at zero. The numbers: the Fed's rate 0.1 percent. Inflation 1.7 percent. Unemployment 5.9 percent.",
+    "what": "On 29 October the Fed ended its bond purchases. Since 2008 it has bought bonds worth about 4.5 trillion dollars with money it created. Its interest rate, however, stays where it has been for six years: at zero. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.7 percent. Unemployment 5.9 percent.",
     "why": "The end of quantitative easing in America; the first rate rise follows more than a year later.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "914a10c0",
     "month": "2014-12",
     "title": "Switzerland introduces negative interest rates",
-    "what": "On 18 December the Swiss National Bank announced that from 22 January banks will pay 0.25 percent a year on large deposits held with it: a negative interest rate, meant to stop the franc from rising further. The European Central Bank began charging banks 0.1 percent on their deposits in June. In America the Fed's rate has stayed near zero since December 2008, and the 10-year Treasury yield averaged 2.2 percent in December, with inflation at 1.3 percent (November). The numbers: the Fed's rate 0.1 percent. Inflation 1.2 percent. Unemployment 5.8 percent.",
+    "what": "On 18 December the Swiss National Bank announced that from 22 January banks will pay 0.25 percent a year on large deposits held with it: a negative interest rate, meant to stop the franc from rising further. The European Central Bank began charging banks 0.1 percent on their deposits in June. In America the Fed's rate has stayed near zero since December 2008, and the 10-year Treasury yield averaged 2.2 percent in December, with inflation at 1.3 percent (November). The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.3 percent. Unemployment 5.8 percent.",
     "why": "The long fall in interest rates that began in 1981 goes below zero: savers pay to keep money at the bank, and safe government bonds are priced as if inflation were gone for good. The rates thread's low point in Europe; the US followed the same direction without going negative.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)"
+    "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "3460c8de",
     "month": "2015-12",
     "title": "The first rate rise in nine years",
-    "what": "On 16 December the Fed raised its rate target to a range of 0.25 to 0.5 percent, its first increase since 2006 and the end of seven years at zero. It said economic conditions would warrant 'only gradual increases'. Consumer prices were only 0.5 percent higher than a year earlier (November). Gold averaged 1,076 dollars in December, its lowest since 2009. The numbers: the Fed's rate 0.2 percent. Inflation 0.4 percent. Unemployment 5.1 percent.",
+    "what": "On 16 December the Fed raised its rate target to a range of 0.25 to 0.5 percent, its first increase since 2006 and the end of seven years at zero. It said economic conditions would warrant 'only gradual increases'. Consumer prices were only 0.5 percent higher than a year earlier (November). Gold averaged 1,076 dollars in December, its lowest since 2009. The numbers: the Fed's rate 0.25 to 0.5 percent. Inflation 0.5 percent. Unemployment 5.1 percent.",
     "why": "Lift-off ended the zero-rate era, and gold made its bottom the same month: the turn that started gold's next great rise.",
     "assets": [
       "gold",
       "bonds"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "9a55fbf6",
     "month": "2016-07",
     "title": "Money stays almost free: the Fed holds its rate below half a percent",
-    "what": "The Fed has kept its interest rate at 0.25 to 0.5 percent since December, after seven years at zero, and after Britain voted on 23 June to leave the European Union nobody expects it to raise the rate soon. Investors bought safe government bonds: lending to the American government for ten years now pays only 1.5 percent a year, less than ever before. Gold averaged 1,337 dollars, 5 percent more than in June. The numbers: the Fed's rate 0.4 percent. Inflation 1.1 percent. Unemployment 4.9 percent.",
+    "what": "The Fed has kept its interest rate at 0.25 to 0.5 percent since December, after seven years at zero, and after Britain voted on 23 June to leave the European Union nobody expects it to raise the rate soon. Investors bought safe government bonds: lending to the American government for ten years now pays only 1.5 percent a year, less than ever before. Gold averaged 1,337 dollars, 5 percent more than in June. The numbers: the Fed's rate 0.25 to 0.5 percent. Inflation 1.0 percent. Unemployment 4.9 percent.",
     "why": "The bottom of the 35-year bond bull market in its first form; yields only went lower in the 2020 pandemic panic, and the big reversal came in 2022.",
     "assets": [
       "gold",
       "bonds"
     ],
-    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "4a4e5aa4",
     "month": "2016-12",
     "title": "A second small step: the Fed raises its rate to 0.5 to 0.75 percent",
-    "what": "On 14 December the Fed raised its interest rate by a quarter of a point, to a range of 0.5 to 0.75 percent. It is only the second increase in ten years; the first was a year ago. Money is no longer free, but it is still cheaper than at any time before 2008. The numbers: the Fed's rate 0.5 percent. Inflation 1.7 percent. Unemployment 4.7 percent.",
+    "what": "On 14 December the Fed raised its interest rate by a quarter of a point, to a range of 0.5 to 0.75 percent. It is only the second increase in ten years; the first was a year ago. Money is no longer free, but it is still cheaper than at any time before 2008. The numbers: the Fed's rate 0.5 to 0.75 percent. Inflation 1.7 percent. Unemployment 4.7 percent.",
     "why": "The slow way out of zero: it takes three years to get back to 2.5 percent.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "33f590f3",
     "month": "2017-12",
     "title": "Three rises in one year: the Fed's rate reaches 1.25 to 1.5 percent",
-    "what": "The Fed raised its interest rate three times this year, on 15 March, 14 June and 13 December, each time by a quarter of a point, to a range of 1.25 to 1.5 percent. Nine years after the financial crisis the economy no longer needs free money, it says. By the standards of the past, borrowing is still very cheap. The numbers: the Fed's rate 1.3 percent. Inflation 2.2 percent. Unemployment 4.2 percent.",
+    "what": "The Fed raised its interest rate three times this year, on 15 March, 14 June and 13 December, each time by a quarter of a point, to a range of 1.25 to 1.5 percent. Nine years after the financial crisis the economy no longer needs free money, it says. By the standards of the past, borrowing is still very cheap. The numbers: the Fed's rate 1.25 to 1.5 percent. Inflation 2.2 percent. Unemployment 4.2 percent.",
     "why": "Normalisation: unemployment is at a 17-year low, inflation near the 2 percent target.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "559196a1",
     "month": "2019-07",
     "title": "The Fed cuts its rate for the first time since 2008",
-    "what": "On 31 July the Fed lowered its interest rate by a quarter of a point, to a range of 2 to 2.25 percent. It is the first cut since December 2008, when the rate went to zero, and it comes after nine increases since 2015. The Fed speaks of insurance against a slowdown caused by trade disputes. The numbers: the Fed's rate 2.4 percent. Inflation 1.7 percent. Unemployment 3.6 percent.",
+    "what": "On 31 July the Fed lowered its interest rate by a quarter of a point, to a range of 2 to 2.25 percent. It is the first cut since December 2008, when the rate went to zero, and it comes after nine increases since 2015. The Fed speaks of insurance against a slowdown caused by trade disputes. The numbers: the Fed's rate 2 to 2.25 percent. Inflation 1.6 percent. Unemployment 3.6 percent.",
     "why": "The way back to normal ends at 2.5 percent, half the level of 2007: the age of free money is not over.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text; the cut of 31 July counts for July"
   },
   {
     "id": "25006799",
     "month": "2020-03",
     "title": "Back to zero, and unlimited bond buying",
-    "what": "As the coronavirus spread, the Fed cut its rate by half a point on 3 March and, on Sunday 15 March, to 0 to 0.25 percent, with at least 500 billion dollars of Treasury and 200 billion of mortgage-bond purchases. On 23 March it promised to buy bonds 'in the amounts needed' and, for the first time, to buy corporate bonds. The 10-year Treasury yield averaged 0.9 percent in March, a record low. The numbers: the Fed's rate 0.7 percent. Inflation 2.3 percent. Unemployment 3.5 percent.",
+    "what": "As the coronavirus spread, the Fed cut its rate by half a point on 3 March and, on Sunday 15 March, to 0 to 0.25 percent, with at least 500 billion dollars of Treasury and 200 billion of mortgage-bond purchases. On 23 March it promised to buy bonds 'in the amounts needed' and, for the first time, to buy corporate bonds. The 10-year Treasury yield averaged 0.9 percent in March, a record low. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 2.3 percent. Unemployment 3.5 percent.",
     "why": "The biggest monetary rescue ever. The crash itself belongs to the pandemic arc; this beat explains why the recovery that followed was so fast and why inflation came back in 2021.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "d8ab1d2d",
     "month": "2020-08",
     "title": "Gold at a record as the Fed says it will let inflation run",
-    "what": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below. The numbers: the Fed's rate 0.1 percent. Inflation 1.0 percent. Unemployment 10.2 percent.",
+    "what": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.0 percent. Unemployment 10.2 percent.",
     "why": "Negative real yields and a Fed openly tolerating inflation: the textbook case for gold. The new framework helps explain why the Fed was slow to react in 2021.",
     "assets": [
       "gold",
@@ -472,39 +493,42 @@
       "asset": "gold",
       "pct": 7
     },
-    "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "4bfdfd27",
     "month": "2021-11",
     "title": "Inflation at 6.2 percent; the Fed starts to slow its bond buying",
-    "what": "Consumer prices in October were 6.2 percent higher than a year earlier, the fastest rise since 1990. On 3 November the Fed said it would begin reducing its monthly bond purchases by 15 billion dollars, while still describing inflation as 'largely reflecting factors that are expected to be transitory'. Its rate remains near zero. The numbers: the Fed's rate 0.1 percent. Inflation 6.2 percent. Unemployment 4.5 percent.",
+    "what": "Consumer prices in October were 6.2 percent higher than a year earlier, the fastest rise since 1990. On 3 November the Fed said it would begin reducing its monthly bond purchases by 15 billion dollars, while still describing inflation as 'largely reflecting factors that are expected to be transitory'. Its rate remains near zero. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 6.2 percent. Unemployment 4.5 percent.",
     "why": "The Fed was behind the curve: inflation reached 9.1 percent by June 2022, and the word 'transitory' became a byword for the error.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "c806db40",
     "month": "2022-03",
     "title": "The Fed raises rates as inflation nears 8 percent and war breaks out",
-    "what": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record. The numbers: the Fed's rate 0.2 percent. Inflation 7.9 percent. Unemployment 3.9 percent.",
+    "what": "On 16 March the Fed raised its rate from near zero to 0.25 to 0.5 percent, its first increase since 2018, and signalled more to come; one member wanted a half-point move. Consumer prices in February were 7.9 percent higher than a year earlier, the most since January 1982. The Fed said Russia's invasion of Ukraine was likely to add to inflation. Gold averaged 1,948 dollars, close to its record. The numbers: the Fed's rate 0.25 to 0.5 percent. Inflation 7.9 percent. Unemployment 3.9 percent.",
     "why": "The start of the fastest rate rises in forty years: the target reached 5.25 to 5.5 percent sixteen months later, and the 2040 Treasury lost about 30 percent in 2022, the worst calendar year for a bond in the game.",
     "assets": [
       "gold",
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "91dd355a",
     "month": "2022-06",
     "title": "Inflation at 8.6 percent; a three-quarter-point hike",
-    "what": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June to 3,785.38 and entered a bear market, down a fifth from its January record. The numbers: the Fed's rate 1.2 percent. Inflation 8.5 percent. Unemployment 3.6 percent.",
+    "what": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June to 3,785.38 and entered a bear market, down a fifth from its January record. The numbers: the Fed's rate 1.5 to 1.75 percent. Inflation 8.6 percent. Unemployment 3.6 percent.",
     "why": "The moment the Fed accepted it might cause a recession to stop inflation. Shares and bonds fell together, so a mixed portfolio offered no shelter.",
     "assets": [
       "bonds"
@@ -514,13 +538,14 @@
       "pct": -8
     },
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "281974e4",
     "month": "2022-09",
     "title": "Third giant hike; the British bond market breaks",
-    "what": "On 21 September, with consumer prices still up 8.3 percent a year, the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 had its worst day since 2020 on 13 September, lost 9 percent in the month and is a quarter below its January record. The numbers: the Fed's rate 2.6 percent. Inflation 8.2 percent. Unemployment 3.6 percent.",
+    "what": "On 21 September, with consumer prices still up 8.3 percent a year, the Fed raised its rate by three quarters of a point to 3 to 3.25 percent and said 'ongoing increases' would be appropriate. Britain's tax-cutting budget of 23 September sent British bond yields and the pound into a spiral, and on 28 September the Bank of England stepped in to buy bonds after pension funds came close to collapse. US 10-year yields neared 4 percent by month-end, the highest since 2008, and a 30-year mortgage costs about 6.7 percent. The S&P 500 had its worst day since 2020 on 13 September, lost 9 percent in the month and is a quarter below its January record. The numbers: the Fed's rate 3 to 3.25 percent. Inflation 8.3 percent. Unemployment 3.6 percent.",
     "why": "The climax of the 2022 rate shock: bonds and shares fell together, and the gilt crisis showed how years of near-zero rates had left leverage hidden in 'safe' places. Review 2026-10: 'peak' was hindsight.",
     "assets": [
       "bonds"
@@ -529,47 +554,51 @@
       "asset": "sp500",
       "pct": -9
     },
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "cfcbe3df",
     "month": "2023-03",
     "title": "Silicon Valley Bank fails on its bond losses",
-    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent. The numbers: the Fed's rate 4.7 percent. Inflation 6.0 percent. Unemployment 3.6 percent.",
+    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent. The numbers: the Fed's rate 4.75 to 5 percent. Inflation 6.0 percent. Unemployment 3.6 percent.",
     "why": "The bill for the fastest hikes in forty years: bonds bought at near-zero yields sank, and a bank run followed. It marked the beginning of the end of the hiking cycle.",
     "assets": [
       "bonds",
       "credit-suisse",
       "ubs"
     ],
-    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "98d41543",
     "month": "2023-10",
     "title": "The Fed holds its rate at 5.3 percent, the highest in 22 years; mortgages near 8",
-    "what": "The Fed has held its interest rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July; in early 2022 it was still zero. Long-term rates have followed: lending to the government for ten years pays 4.8 percent, the most since 2007 (in July 2020 it was just 0.6 percent), and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling. The numbers: the Fed's rate 5.3 percent. Inflation 3.7 percent. Unemployment 3.7 percent.",
+    "what": "The Fed has held its interest rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July; in early 2022 it was still zero. Long-term rates have followed: lending to the government for ten years pays 4.8 percent, the most since 2007 (in July 2020 it was just 0.6 percent), and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling. The numbers: the Fed's rate 5.25 to 5.5 percent. Inflation 3.7 percent. Unemployment 3.7 percent.",
     "why": "The low point for bonds in the post-2020 cycle: from here yields fell sharply into December, and anyone who bought long bonds this month made double-digit gains within weeks. Review 2026-10: 'last' increase was hindsight.",
     "assets": [
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)"
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "7a7429cb",
     "month": "2024-09",
     "title": "The Fed's first cut in four years, half a point at once",
-    "what": "On 18 September the Fed cut its rate by half a point to 4.75 to 5 percent, its first cut since 2020, saying it had 'greater confidence that inflation is moving sustainably toward 2 percent'; one member preferred a quarter point. Consumer prices in August were 2.5 percent higher than a year earlier, the lowest since early 2021. Gold averaged 2,571 dollars in September, a record, after central banks bought more than 1,000 tonnes in each of 2022 and 2023. The numbers: the Fed's rate 5.1 percent. Inflation 2.6 percent. Unemployment 4.2 percent.",
+    "what": "On 18 September the Fed cut its rate by half a point to 4.75 to 5 percent, its first cut since 2020, saying it had 'greater confidence that inflation is moving sustainably toward 2 percent'; one member preferred a quarter point. Consumer prices in August were 2.5 percent higher than a year earlier, the lowest since early 2021. Gold averaged 2,571 dollars in September, a record, after central banks bought more than 1,000 tonnes in each of 2022 and 2023. The numbers: the Fed's rate 4.75 to 5 percent. Inflation 2.5 percent. Unemployment 4.2 percent.",
     "why": "The end of the hiking cycle. Gold's new bull market, driven less by US interest rates than by central banks diversifying away from the dollar, had already begun.",
     "assets": [
       "gold",
       "bonds"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "cb073ed8",
@@ -605,7 +634,7 @@
     "id": "815cf415",
     "month": "2026-06",
     "title": "Inflation back above 4 percent; Warsh takes over; gold slides",
-    "what": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record. The numbers: the Fed's rate 3.6 percent. Inflation 4.2 percent. Unemployment 4.3 percent.",
+    "what": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record. The numbers: the Fed's rate 3.5 to 3.75 percent. Inflation 4.2 percent. Unemployment 4.3 percent.",
     "why": "The oil shock turns the Fed from cutting to hiking. Gold, which had priced in easy money under a new chair, gave back much of its January surge as rate expectations rose; the causal link for the June slide is an interpretation, not a reported fact.",
     "assets": [
       "gold"
@@ -614,19 +643,21 @@
       "asset": "gold",
       "pct": -8
     },
-    "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "282e2f5b",
     "month": "2026-09",
     "title": "The Fed raises rates again as oil passes 100 dollars",
-    "what": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent. The numbers: the Fed's rate 3.8 percent. Inflation 3.4 percent. Unemployment 4.1 percent.",
+    "what": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent. The numbers: the Fed's rate 3.75 to 4 percent. Inflation 3.4 percent. Unemployment 4.1 percent.",
     "why": "Where the game stands today: a second inflation wave in five years, and long bond yields back at levels last seen before the financial crisis.",
     "assets": [
       "bonds"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   }
 ]

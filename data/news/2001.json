@@ -15,7 +15,7 @@
     "month": "2001-01",
     "kind": "world",
     "headline": "The Fed cuts by half a point, twice in one month",
-    "text": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%. The numbers: the Fed's rate 6.0 percent. Inflation 3.4 percent. Unemployment 3.9 percent.",
+    "text": "On 3 January, in an unscheduled move, the Fed cut its rate target by half a point to 6 percent, citing weakening sales and production, falling consumer confidence and high energy prices. At its meeting at the end of the month it cut by another half point, to 5.5 percent. As recently as May 2000 it had raised the rate to 6.5 percent to cool the boom. The surprise cut sent the Nasdaq up 14.17% that day, its biggest gain ever, and 12% over the month; beaten-down technology shares rebounded hardest, with Microsoft up about 41% in January and Apple 45%. The numbers: the Fed's rate 5.5 percent. Inflation 3.4 percent. Unemployment 3.9 percent.",
     "assets": [
       "msft",
       "aapl",
@@ -27,7 +27,7 @@
       "ust2010",
       "ust2020"
     ],
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2001-01-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to January 2001",
@@ -197,13 +197,13 @@
     "month": "2001-04",
     "kind": "world",
     "headline": "A surprise rate cut and better earnings bring an 8 percent bounce",
-    "text": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.8 percent. Inflation 3.0 percent. Unemployment 4.3 percent.",
+    "text": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
     "assets": [
       "ust2005",
       "ust2010",
       "ust2020"
     ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/markets/2001-04-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to April 2001",

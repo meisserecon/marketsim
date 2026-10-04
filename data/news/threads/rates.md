@@ -29,7 +29,7 @@ The 2003 cut to 1 percent (7a8b5a59) belongs to the housing-crisis thread, where
 
 ## One metric (4 October 2026)
 
-Every story of this storyline is told with the Fed's interest rate (federal funds rate, monthly average, FRED series FEDFUNDS) and closes with the same three numbers: the Fed's rate, inflation (CPIAUCSL against a year before) and unemployment (UNRATE), the last two as last reported, i.e. for the month before. Other rates (the prime rate, bond yields, mortgages) appear only inside the text and are named for what they are. The picture of each story is a chart of the three numbers from 1955 up to its month, drawn by `data/scripts/rate-charts.py`. The years of free money (2009 to 2019) have at least one beat each.
+Every story of this storyline is told with the Fed's interest rate (the federal funds rate) and closes with the same three numbers: the Fed's rate as it stands at the end of the month (its target, FRED series DFEDTAR, and the target range DFEDTARL to DFEDTARU since December 2008; before October 1982, when no target was published, the month's average, FEDFUNDS), inflation (the headline index CPIAUCNS against a year before) and unemployment (UNRATE), the last two as last reported, i.e. for the month before. Other rates (the prime rate, bond yields, mortgages) appear only inside the text and are named for what they are. The picture of each story is a chart of the three numbers from 1955 up to its month, drawn by `data/scripts/rate-charts.py`. The years of free money (2009 to 2019) have at least one beat each.
 
 The storyline now:
 - 1979-12 Gold doubles in a year as inflation passes 12 percent (09d0e46d, rates)

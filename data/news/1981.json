@@ -164,7 +164,7 @@
     "month": "1981-07",
     "kind": "world",
     "headline": "The Fed holds its rate at 19 percent and gold slides below 410",
-    "text": "The Federal Reserve has held its interest rate near 19 percent since May, as high as it has ever been. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation takes away, and saving pays better than owning gold. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979. The numbers: the Fed's rate 19.0 percent. Inflation 9.7 percent. Unemployment 7.5 percent.",
+    "text": "The Federal Reserve has held its interest rate near 19 percent since May, as high as it has ever been. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation takes away, and saving pays better than owning gold. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979. The numbers: the Fed's rate 19.0 percent. Inflation 9.6 percent. Unemployment 7.5 percent.",
     "assets": [
       "gold",
       "ust1985",
@@ -218,7 +218,7 @@
       "ust1990",
       "ust2000"
     ],
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/1981-09-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to September 1981",

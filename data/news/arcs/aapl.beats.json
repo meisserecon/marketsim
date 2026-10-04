@@ -60,7 +60,7 @@
     "id": "0db6cab2",
     "month": "1982-10",
     "title": "Falling interest rates power a second leap",
-    "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.7 percent. Inflation 4.9 percent. Unemployment 10.1 percent.",
+    "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.5 percent. Inflation 5.0 percent. Unemployment 10.1 percent.",
     "why": "Same rally as August, with Apple again rising three times as much as the market.",
     "assets": [
       "aapl"
@@ -69,10 +69,10 @@
       "asset": "aapl",
       "pct": 39
     },
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "lead": true,
     "thread": "rates",
-    "changed": "note to the writer addressed: joined the interest-rate storyline, with the three numbers and the chart"
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
   },
   {
     "id": "5e685bbb",

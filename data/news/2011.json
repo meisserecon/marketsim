@@ -323,13 +323,13 @@
     "month": "2011-08",
     "kind": "world",
     "headline": "The Fed promises: money stays free for two more years",
-    "text": "Central banks rarely say what they will do far ahead. On 9 August the Fed did: it expects to keep its interest rate at 'exceptionally low levels', between 0 and 0.25 percent, 'at least through mid-2013'. Money has now been free for almost three years. The numbers: the Fed's rate 0.1 percent. Inflation 3.6 percent. Unemployment 9.0 percent.",
+    "text": "Central banks rarely say what they will do far ahead. On 9 August the Fed did: it expects to keep its interest rate at 'exceptionally low levels', between 0 and 0.25 percent, 'at least through mid-2013'. Money has now been free for almost three years. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 3.6 percent. Unemployment 9.0 percent.",
     "assets": [
       "ust2015",
       "ust2020",
       "ust2030"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "image": "/news/rates/2011-08-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to August 2011",

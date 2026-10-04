@@ -91,14 +91,15 @@
     "month": "2006-06",
     "kind": "world",
     "headline": "Seventeenth hike in a row; gold falls back from a 26-year high",
-    "text": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May.",
+    "text": "On 29 June the Fed raised its rate target to 5.25 percent, its seventeenth quarter-point increase since June 2004, under Ben Bernanke, chairman since 1 February. Gold, which averaged 675 dollars in May, its highest since January 1980, fell back to an average of 596 dollars in June, 12 percent less. Inflation was 4.2 percent in May. The numbers: the Fed's rate 5.0 percent. Inflation 4.0 percent. Unemployment 4.6 percent.",
     "assets": [
       "gold"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
-    "image": "/news/rates/2006-06-bernanke-chicago.jpg",
-    "imageCaption": "Fed Chairman Ben Bernanke speaks to the Economic Club of Chicago, 15 June 2006",
-    "imageCredit": "Photo by Peter Thompson/Getty Images"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2006-06-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to June 2006",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2006-06",

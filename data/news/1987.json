@@ -117,17 +117,17 @@
     "month": "1987-08",
     "kind": "world",
     "headline": "Shares hit a record as Greenspan takes over the Fed",
-    "text": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August.",
+    "text": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August. The numbers: the Fed's rate 6.7 percent. Inflation 3.9 percent. Unemployment 6.1 percent.",
     "assets": [
       "ust1990",
       "ust1995",
       "ust2000"
     ],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
-    "image": "/news/markets/1987-08-alan-greenspan.jpg",
-    "imageCaption": "Alan Greenspan",
-    "imageCredit": "While provided by the Bureau of Engraving and Printing, it is a Federal Reserve image."
+    "image": "/news/markets/1987-08-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to August 1987",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "1987-08",
@@ -191,7 +191,7 @@
     "month": "1987-12",
     "kind": "world",
     "headline": "Reagan and Gorbachev sign the INF treaty",
-    "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield.",
+    "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield. It is the first treaty that makes the arsenals smaller: until now, agreements only slowed their growth to the 70,000 warheads reached last year.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)",
     "thread": "soviet",

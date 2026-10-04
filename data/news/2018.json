@@ -463,16 +463,17 @@
     "month": "2018-12",
     "kind": "world",
     "headline": "The Christmas fall: shares lose 9 percent in December",
-    "text": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%. It was the Fed's fourth rise of the year, to 2.25 to 2.5 percent, and December was the S&P 500's worst month since February 2009.",
+    "text": "Worries about the trade war with China and slowing world growth, a Fed rate rise on 19 December that investors felt ignored the tightening in markets, and a partial government shutdown sent shares down hard. By Christmas Eve the S&P 500 stood at 2,351, nearly 20% below its September record, before the Dow jumped 1,086 points on 26 December. The S&P 500 lost 9% in December to 2,506.85 and 6% in 2018, its worst year since 2008; the Dow fell 5.6%. It was the Fed's fourth rise of the year, to 2.25 to 2.5 percent, and December was the S&P 500's worst month since February 2009. The numbers: the Fed's rate 2.3 percent. Inflation 2.1 percent. Unemployment 3.8 percent.",
     "assets": [
       "ust2020",
       "ust2025",
       "ust2030"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)",
-    "image": "/news/markets/2018-12-nyse-trader.jpg",
-    "imageCaption": "A trader at the opening bell of the New York Stock Exchange as Wall Street opens sharply lower, 6 December 2018",
-    "imageCredit": "Photo by BRYAN R. SMITH/AFP via Getty Images"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/markets/2018-12-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to December 2018",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2018-12",

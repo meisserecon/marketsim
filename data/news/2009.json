@@ -132,6 +132,22 @@
   },
   {
     "month": "2009-03",
+    "kind": "world",
+    "headline": "Money is free: the Fed creates a trillion dollars to buy bonds",
+    "text": "The Fed's interest rate has been at zero since December: banks can borrow almost for free. Because a rate cannot go much lower than zero, the Fed now uses another tool. On 18 March it said it would buy another 750 billion dollars of mortgage bonds and, for the first time, 300 billion dollars of government bonds, with money it creates itself. The numbers: the Fed's rate 0.2 percent. Inflation 0.0 percent. Unemployment 8.3 percent.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2009-03-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to March 2009",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
+  },
+  {
+    "month": "2009-03",
     "kind": "company",
     "headline": "Pandit: Citigroup is profitable again",
     "text": "In a memo to employees released on 10 March, chief executive Vikram Pandit said Citigroup was profitable in January and February, with its best quarter-to-date performance since the third quarter of 2007 and revenues of $19 billion excluding write-downs. Bank shares rallied from their lows, and Citigroup's rose 69% in March.",

@@ -130,8 +130,8 @@
   {
     "month": "1980-06",
     "kind": "world",
-    "headline": "Rates tumble in the recession: bonds and gold bounce back",
-    "text": "Interest rates are falling as fast as they rose. Banks cut the prime rate to 12 percent on 17 June, from 20 percent in early April, and the rate banks charge each other averaged under 9.5 percent in June against 17.6 percent in April. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000 has gained 19 percent since the end of March. It is still 23 percent below where it started the year, after the collapse of the first quarter. Gold rebounded and averaged 601 dollars, 17 percent more than in May.",
+    "headline": "The Fed's rate tumbles from 17.6 to 9.5 percent; bonds and gold bounce back",
+    "text": "Interest rates are falling as fast as they rose. The Fed's interest rate, the rate at which banks lend to each other, averaged under 9.5 percent in June against 17.6 percent in April, because the economy is in recession. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000 has gained 19 percent since the end of March. It is still 23 percent below where it started the year, after the collapse of the first quarter. Gold rebounded and averaged 601 dollars, 17 percent more than in May. The numbers: the Fed's rate 9.5 percent. Inflation 14.4 percent. Unemployment 7.5 percent.",
     "assets": [
       "gold",
       "ust1985",
@@ -139,9 +139,10 @@
       "ust2000"
     ],
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json",
-    "image": "/news/rates/1980-06-eccles-1937.jpg",
-    "imageCaption": "The Federal Reserve Board building, Washington",
-    "imageCredit": "Federal Reserve"
+    "thread": "rates",
+    "image": "/news/rates/1980-06-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to June 1980",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "1980-06",
@@ -236,8 +237,8 @@
   {
     "month": "1980-12",
     "kind": "world",
-    "headline": "The prime rate hits a record 21.5 percent",
-    "text": "Major banks raised the prime rate to a record 21 percent on 16 December and to 21.5 percent on the 19th; in July it was 11 percent. The rate banks charge each other averaged nearly 19 percent in December, and the Fed has raised its discount rate back to about 13 percent. Consumer prices in November were 12.6 percent higher than a year earlier. Gold averaged 538 dollars, 14 percent less than in November.",
+    "headline": "The Fed drives its interest rate to 19 percent",
+    "text": "The Federal Reserve under Paul Volcker fights inflation by making money expensive. Its interest rate, the rate at which banks lend to each other, averaged nearly 19 percent in December; in July it was 9.0 percent. Banks pass this on to their customers: even the best ones now pay 21.5 percent for a loan. Gold averaged 538 dollars, 14 percent less than in November. The numbers: the Fed's rate 18.9 percent. Inflation 12.6 percent. Unemployment 7.5 percent.",
     "assets": [
       "gold",
       "ust1985",
@@ -246,9 +247,9 @@
     ],
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
     "thread": "rates",
-    "image": "/news/rates/1980-12-volcker-reading.jpg",
-    "imageCaption": "Fed Chairman Paul Volcker reads the financial page while waiting for a hearing in Washington, 5 August 1980",
-    "imageCredit": "Photo by James K. W. Atherton/The Washington Post via Getty Images"
+    "image": "/news/rates/1980-12-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to December 1980",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "1980-12",

@@ -364,17 +364,18 @@
     "month": "2024-09",
     "kind": "world",
     "headline": "The Fed's first cut in four years, half a point at once",
-    "text": "On 18 September the Fed cut its rate by half a point to 4.75 to 5 percent, its first cut since 2020, saying it had 'greater confidence that inflation is moving sustainably toward 2 percent'; one member preferred a quarter point. Consumer prices in August were 2.5 percent higher than a year earlier, the lowest since early 2021. Gold averaged 2,571 dollars in September, a record, after central banks bought more than 1,000 tonnes in each of 2022 and 2023.",
+    "text": "On 18 September the Fed cut its rate by half a point to 4.75 to 5 percent, its first cut since 2020, saying it had 'greater confidence that inflation is moving sustainably toward 2 percent'; one member preferred a quarter point. Consumer prices in August were 2.5 percent higher than a year earlier, the lowest since early 2021. Gold averaged 2,571 dollars in September, a record, after central banks bought more than 1,000 tonnes in each of 2022 and 2023. The numbers: the Fed's rate 5.1 percent. Inflation 2.6 percent. Unemployment 4.2 percent.",
     "assets": [
       "gold",
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03)",
-    "image": "/news/rates/2024-09-powell-cut.jpg",
-    "imageCaption": "Fed Chair Jerome Powell at the press conference after the half-point cut, Washington, 18 September 2024",
-    "imageCredit": "Photo by Anna Moneymaker/Getty Images"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2024-09-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to September 2024",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2024-09",

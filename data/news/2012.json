@@ -278,14 +278,18 @@
     "month": "2012-09",
     "kind": "world",
     "headline": "QE3: open-ended bond buying",
-    "text": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August.",
+    "text": "On 13 September the Fed said it would buy 40 billion dollars of mortgage bonds a month, with no end date, until the job market improves, and that its rate would likely stay exceptionally low at least through mid-2015. The 10-year Treasury yield averaged 1.5 percent in July, the lowest on record. Gold averaged 1,745 dollars in September, 7 percent more than in August. The numbers: the Fed's rate 0.1 percent. Inflation 1.7 percent. Unemployment 8.1 percent.",
     "assets": [
       "gold",
       "ust2015",
       "ust2020",
       "ust2030"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2012-09-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to September 2012",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2012-09",

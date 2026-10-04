@@ -41,3 +41,9 @@ Red Square (life 2b3ae721, 1987-05), the cut Solidarity beat of 1980-08 (world d
 
 Added on 4 October 2026 (build-up):
 - 1989-09 East Germans flee to the West through Hungary (e937e909, world, new)
+
+Added on 4 October 2026 (the nuclear threat):
+- 1982-06 A million people march against the bomb (a33ff641, world, new): MAD, overkill, the size of the arsenals
+- 1983-12 'Nuclear winter' (60049afa, world, new)
+- 1990-01 McDonald's opens in Moscow (80eb5038, mcd, existing)
+- 1986-10 Reykjavik and 1987-12 INF now state the peak of about 70,000 warheads

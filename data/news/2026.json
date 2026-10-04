@@ -416,11 +416,15 @@
     "month": "2026-06",
     "kind": "world",
     "headline": "Inflation back above 4 percent; Warsh takes over; gold slides",
-    "text": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record.",
+    "text": "Kevin Warsh, confirmed by the Senate 54 to 45 on 13 May and sworn in on 22 May, chaired his first Fed meeting in June, which kept the rate at 3.5 to 3.75 percent. Consumer prices in May were 4.2 percent higher than a year earlier, the most since 2023, after the war with Iran and the closing of the Strait of Hormuz drove up oil prices this spring. Gold averaged 4,228 dollars in June, 8 percent less than in May and about a quarter below its January record. The numbers: the Fed's rate 3.6 percent. Inflation 4.2 percent. Unemployment 4.3 percent.",
     "assets": [
       "gold"
     ],
-    "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2026-06-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to June 2026",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2026-06",
@@ -587,16 +591,17 @@
     "month": "2026-09",
     "kind": "world",
     "headline": "The Fed raises rates again as oil passes 100 dollars",
-    "text": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent.",
+    "text": "On 16 September the Fed raised its rate by a quarter point to 3.75 to 4 percent, unanimously, its first increase since July 2023; the Committee pointed to persistent pressure in energy and consumer prices, and most members expect another increase this year. Consumer prices in August were 3.4 percent higher than a year earlier, and oil passed 100 dollars a barrel in early September as the conflict with Iran escalated. The 10-year Treasury yield averaged about 5 percent in September, the highest since 2007, and a 30-year mortgage costs about 7 percent. The numbers: the Fed's rate 3.8 percent. Inflation 3.4 percent. Unemployment 4.1 percent.",
     "assets": [
       "ust2030",
       "ust2035",
       "ust2040"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03)",
-    "image": "/news/rates/2026-09-warsh-press.jpg",
-    "imageCaption": "Fed Chair Kevin Warsh at the press conference after the Fed's rate rise, Washington, 16 September 2026",
-    "imageCredit": "Photo by Andrew Harnik/Getty Images"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2026-09-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to September 2026",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2026-09",

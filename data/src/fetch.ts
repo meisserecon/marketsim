@@ -16,6 +16,7 @@ const FRED_SERIES = [
   "DEXUSUK", // USD per GBP, daily
   "DEXUSEU", // USD per EUR, daily, from 1999
   "EXGEUS", // DEM per USD, monthly average, 1971-2001; used for EUR before 1999 via the fixed 1.95583 DEM/EUR rate
+  "FEDFUNDS", "CPIAUCSL", "UNRATE", // the Fed's interest rate, consumer prices and unemployment, monthly: the three numbers of every interest-rate story
 ];
 const GOLD_URL = "https://datahub.io/core/gold-prices/r/monthly.csv"; // LBMA monthly average, USD/oz
 // Fitted US Treasury zero-coupon yield curve (Gürkaynak, Sack and Wright), daily, Svensson parameters. A Federal Reserve staff research product.

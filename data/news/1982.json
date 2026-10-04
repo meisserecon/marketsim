@@ -97,6 +97,18 @@
     "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War (read 2026-10-03)"
   },
   {
+    "month": "1982-06",
+    "kind": "world",
+    "headline": "A million people march against the bomb",
+    "text": "On 12 June about one million people filled the streets of New York to demand an end to the arms race, the largest peace rally in American history. The United States and the Soviet Union each keep enough nuclear missiles to destroy the other even after being attacked first, so neither could win a war: the idea is called 'mutual assured destruction', MAD for short. At the last count the Soviet Union had about 30,000 nuclear warheads and the United States 23,000. Together they have the force of more than a million Hiroshima bombs, far more than it would take to destroy every city on Earth: people call it 'overkill'. The marchers want a 'freeze': both sides should stop building, testing and deploying new weapons.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Nuclear_Freeze_campaign (read 2026-10-04); https://en.wikipedia.org/wiki/Mutual_assured_destruction (read 2026-10-04); https://en.wikipedia.org/wiki/Historical_nuclear_weapons_stockpiles_and_nuclear_tests_by_country (read 2026-10-04); https://ourworldindata.org/nuclear-weapons (search result read 2026-10-04)",
+    "thread": "soviet",
+    "image": "/news/world/1982-06-lgm-30-minuteman.jpg",
+    "imageCaption": "LGM-30 Minuteman",
+    "imageCredit": "US Air Force"
+  },
+  {
     "month": "1982-07",
     "kind": "company",
     "headline": "Goizueta's two bets: Columbia Pictures and Diet Coke",
@@ -132,16 +144,16 @@
     "month": "1982-08",
     "kind": "company",
     "headline": "Wall Street jumps on rate hopes; Boeing up 48%, Apple up 33%",
-    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The Federal Reserve has let interest rates come down: the rate banks charge each other averaged about 10 percent in August, against 14 percent in June, as unemployment reached 9.8 percent and inflation slowed to 6.4 percent (July). The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines.",
+    "text": "After the Dow hit a low of 777 on 12 August, it jumped a record 39 points on the 17th, when an influential Salomon Brothers economist said interest rates would fall, and trading topped 100 million shares a day for the first time. The Federal Reserve has let interest rates come down: the rate banks charge each other averaged about 10 percent in August, against 14 percent in June, as unemployment reached 9.8 percent and inflation slowed to 6.4 percent (July). The shares that had fallen furthest rose most: Boeing gained 48% in August and Apple Computer 33%. On 19 August Boeing delivered its first 767 to United Airlines. The numbers: the Fed's rate 10.1 percent. Inflation 6.6 percent. Unemployment 9.8 percent.",
     "assets": [
       "ba",
       "aapl"
     ],
     "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json; https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/UNRATE.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
     "thread": "rates",
-    "image": "/news/ba/1982-08-767-rainier.jpg",
-    "imageCaption": "A Boeing 767 over Mount Rainier, early 1980s",
-    "imageCredit": "Seattle Municipal Archives"
+    "image": "/news/ba/1982-08-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to August 1982",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "1982-08",

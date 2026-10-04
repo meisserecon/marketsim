@@ -39,16 +39,17 @@
     "month": "2005-02",
     "kind": "world",
     "headline": "Greenspan's 'conundrum': long rates fall while the Fed raises",
-    "text": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'.",
+    "text": "Since June 2004 the Fed has raised its rate target in quarter-point steps from 1 to 2.5 percent, yet long-term rates have fallen: the 10-year Treasury yield averaged about 4.2 percent in February against 4.7 percent last June. On 16 February Alan Greenspan told Congress that the behaviour of world bond markets 'remains a conundrum'. The numbers: the Fed's rate 2.5 percent. Inflation 2.8 percent. Unemployment 5.3 percent.",
     "assets": [
       "ust2010",
       "ust2015",
       "ust2020"
     ],
-    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)",
-    "image": "/news/rates/2005-02-united-states-treasury-security.jpg",
-    "imageCaption": "United States Treasury security, 2022",
-    "imageCredit": "FRED"
+    "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2005-02-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to February 2005",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2005-03",

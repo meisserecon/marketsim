@@ -115,7 +115,7 @@
     "month": "2023-03",
     "kind": "world",
     "headline": "Silicon Valley Bank fails on its bond losses",
-    "text": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent.",
+    "text": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent. The numbers: the Fed's rate 4.7 percent. Inflation 6.0 percent. Unemployment 3.6 percent.",
     "assets": [
       "credit-suisse",
       "ubs",
@@ -123,10 +123,11 @@
       "ust2030",
       "ust2040"
     ],
-    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/rates/2023-03-svb-queue.jpg",
-    "imageCaption": "Customers queue outside Silicon Valley Bank's headquarters to withdraw their money, Santa Clara, California, 13 March 2023",
-    "imageCredit": "Photo by Liu Guanguan/China News Service/VCG via Getty Images"
+    "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2023-03-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to March 2023",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2023-03",
@@ -331,8 +332,8 @@
   {
     "month": "2023-10",
     "kind": "world",
-    "headline": "Ten-year yields near 5 percent, mortgages near 8",
-    "text": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. As recently as July 2020 the 10-year yield averaged just 0.6 percent. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
+    "headline": "The Fed holds its rate at 5.3 percent, the highest in 22 years; mortgages near 8",
+    "text": "The Fed has held its interest rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July; in early 2022 it was still zero. Long-term rates have followed: lending to the government for ten years pays 4.8 percent, the most since 2007 (in July 2020 it was just 0.6 percent), and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling. The numbers: the Fed's rate 5.3 percent. Inflation 3.7 percent. Unemployment 3.7 percent.",
     "assets": [
       "ust2025",
       "ust2030",
@@ -340,9 +341,9 @@
     ],
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
     "thread": "rates",
-    "image": "/news/rates/2023-10-home-for-sale.jpg",
-    "imageCaption": "A house for sale in Austin, Texas, as mortgage rates near 8 percent slow home sales, 16 October 2023",
-    "imageCredit": "Photo by Brandon Bell/Getty Images"
+    "image": "/news/rates/2023-10-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to October 2023",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2023-10",
@@ -384,28 +385,17 @@
     "month": "2023-11",
     "kind": "world",
     "headline": "Inflation cools, yields drop, shares jump 9 percent",
-    "text": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80.",
+    "text": "Softer-than-expected inflation and other data convinced investors that the Federal Reserve had probably finished raising rates, and Treasury yields fell sharply from their October highs. The S&P 500 rose 9% in November to 4,567.80. The numbers: the Fed's rate 5.3 percent. Inflation 3.3 percent. Unemployment 3.9 percent.",
     "assets": [
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2023-11-fomc.jpg",
-    "imageCaption": "Federal Reserve Chair Jerome Powell at the press conference after the Fed's meeting, 1 November 2023",
-    "imageCredit": " (Federal Reserve)"
-  },
-  {
-    "month": "2023-11",
-    "kind": "world",
-    "headline": "Yields tumble and shares soar as hikes look finished",
-    "text": "The Fed left its rate unchanged on 1 November, and consumer prices in October were only 3.2 percent higher than a year earlier, down from 3.7 percent. Bond yields fell sharply: a seven-year Treasury now yields about 4.4 percent, down from 4.9 percent at the end of October. The S&P 500 gained 9 percent in November, its best month since July 2022.",
-    "assets": [
-      "ust2025",
-      "ust2030",
-      "ust2040"
-    ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20231213.htm (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/markets/2023-11-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to November 2023",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2023-11",

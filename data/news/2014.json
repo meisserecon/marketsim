@@ -280,6 +280,22 @@
   },
   {
     "month": "2014-10",
+    "kind": "world",
+    "headline": "The Fed stops buying bonds, but money stays free",
+    "text": "On 29 October the Fed ended its bond purchases. Since 2008 it has bought bonds worth about 4.5 trillion dollars with money it created. Its interest rate, however, stays where it has been for six years: at zero. The numbers: the Fed's rate 0.1 percent. Inflation 1.7 percent. Unemployment 5.9 percent.",
+    "assets": [
+      "ust2015",
+      "ust2020",
+      "ust2030"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2014-10-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to October 2014",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
+  },
+  {
+    "month": "2014-10",
     "kind": "company",
     "headline": "IBM pays to get rid of its chip factories and drops its 2015 target",
     "text": "On 20 October IBM agreed to hand its chip manufacturing business to GlobalFoundries and to pay it 1.5 billion dollars over three years, taking a 4.7 billion dollar charge. It also said it no longer expects to earn at least 20 dollars a share in 2015, a target it had promised for years. Chief executive Ginni Rometty said the results were not what IBM expected.",
@@ -357,7 +373,7 @@
     "month": "2014-12",
     "kind": "world",
     "headline": "Switzerland introduces negative interest rates",
-    "text": "On 18 December the Swiss National Bank announced that from 22 January banks will pay 0.25 percent a year on large deposits held with it: a negative interest rate, meant to stop the franc from rising further. The European Central Bank began charging banks 0.1 percent on their deposits in June. In America the Fed's rate has stayed near zero since December 2008, and the 10-year Treasury yield averaged 2.2 percent in December, with inflation at 1.3 percent (November).",
+    "text": "On 18 December the Swiss National Bank announced that from 22 January banks will pay 0.25 percent a year on large deposits held with it: a negative interest rate, meant to stop the franc from rising further. The European Central Bank began charging banks 0.1 percent on their deposits in June. In America the Fed's rate has stayed near zero since December 2008, and the 10-year Treasury yield averaged 2.2 percent in December, with inflation at 1.3 percent (November). The numbers: the Fed's rate 0.1 percent. Inflation 1.2 percent. Unemployment 5.8 percent.",
     "assets": [
       "ust2015",
       "ust2020",
@@ -365,9 +381,9 @@
     ],
     "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
     "thread": "rates",
-    "image": "/news/rates/2014-12-swiss-national-bank.jpg",
-    "imageCaption": "Swiss National Bank, 2024",
-    "imageCredit": "Conceptuel"
+    "image": "/news/rates/2014-12-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to December 2014",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2014-12",

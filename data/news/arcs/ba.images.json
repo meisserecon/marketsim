@@ -16,14 +16,6 @@
     "note": "Photographed in September 1981"
   },
   {
-    "beat": "d4f7bb04",
-    "file": "news/ba/1982-08-767-rainier.jpg",
-    "caption": "A Boeing 767 over Mount Rainier, early 1980s",
-    "source": "https://commons.wikimedia.org/wiki/File:Boeing_767_over_Mount_Rainier,_circa_1980s.jpg",
-    "licence": "CC BY 2.0, photo: Seattle Municipal Archives",
-    "note": "Period-correct company-era photo of the 767 in Boeing livery"
-  },
-  {
     "beat": "5f74b5d8",
     "file": "news/ba/1989-10-747-everett.jpg",
     "caption": "A Boeing 747 under assembly in the Everett plant, Washington",
@@ -209,5 +201,15 @@
     "credit": "KirkXWB",
     "licence": "CC BY-SA 4.0, photo: KirkXWB",
     "note": "Lead image of the Wikipedia article \"Boeing 737 MAX\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "d4f7bb04",
+    "file": "news/ba/1982-08-rates-chart.png",
+    "caption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to August 1982",
+    "source": "https://fred.stlouisfed.org/series/FEDFUNDS",
+    "image_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
+    "credit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)",
+    "licence": "own chart; data in the public domain (FRED series FEDFUNDS, CPIAUCSL, UNRATE)",
+    "note": "Drawn by data/scripts/rate-charts.py: nothing after the month of the story is shown."
   }
 ]

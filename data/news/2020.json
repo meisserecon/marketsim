@@ -101,17 +101,17 @@
     "month": "2020-03",
     "kind": "world",
     "headline": "Back to zero, and unlimited bond buying",
-    "text": "As the coronavirus spread, the Fed cut its rate by half a point on 3 March and, on Sunday 15 March, to 0 to 0.25 percent, with at least 500 billion dollars of Treasury and 200 billion of mortgage-bond purchases. On 23 March it promised to buy bonds 'in the amounts needed' and, for the first time, to buy corporate bonds. The 10-year Treasury yield averaged 0.9 percent in March, a record low.",
+    "text": "As the coronavirus spread, the Fed cut its rate by half a point on 3 March and, on Sunday 15 March, to 0 to 0.25 percent, with at least 500 billion dollars of Treasury and 200 billion of mortgage-bond purchases. On 23 March it promised to buy bonds 'in the amounts needed' and, for the first time, to buy corporate bonds. The 10-year Treasury yield averaged 0.9 percent in March, a record low. The numbers: the Fed's rate 0.7 percent. Inflation 2.3 percent. Unemployment 3.5 percent.",
     "assets": [
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03)",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
-    "image": "/news/rates/2020-03-powell-cut.jpg",
-    "imageCaption": "Fed Chair Jerome Powell announces an emergency half-point rate cut, Washington, 3 March 2020",
-    "imageCredit": "Photo by Mark Makela/Getty Images"
+    "image": "/news/rates/2020-03-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to March 2020",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2020-03",
@@ -341,17 +341,18 @@
     "month": "2020-08",
     "kind": "world",
     "headline": "Gold at a record as the Fed says it will let inflation run",
-    "text": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below.",
+    "text": "Gold averaged 1,969 dollars in August, beating its 2011 record. With the Fed's rate at zero, the 10-year Treasury yield averaged only 0.65 percent, below inflation of about 1 percent (July). On 27 August the Fed said it would now aim for inflation that 'averages 2 percent over time', allowing it to run 'moderately above 2 percent for some time' after periods below. The numbers: the Fed's rate 0.1 percent. Inflation 1.0 percent. Unemployment 10.2 percent.",
     "assets": [
       "gold",
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03)",
-    "image": "/news/rates/2020-08-ny-fed-vault.jpg",
-    "imageCaption": "The gold vault of the Federal Reserve Bank of New York",
-    "imageCredit": "Sarah Estes"
+    "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/rates/2020-08-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to August 2020",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2020-08",

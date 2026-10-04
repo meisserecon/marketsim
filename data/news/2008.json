@@ -2,30 +2,18 @@
   {
     "month": "2008-01",
     "kind": "world",
-    "headline": "Emergency cut of three quarters of a point; gold near 900",
-    "text": "On 22 January, a week before its scheduled meeting, the Fed cut its rate target by three quarters of a point to 3.5 percent, and on 30 January by another half point to 3 percent. It had begun cutting in September from 5.25 percent. Inflation is 4.1 percent (December). Gold averaged 890 dollars in January, 11 percent more than in December and a record.",
-    "assets": [
-      "gold",
-      "ust2010",
-      "ust2015",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
-  },
-  {
-    "month": "2008-01",
-    "kind": "world",
     "headline": "The Fed's emergency cut: three-quarters of a point between meetings",
-    "text": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55.",
+    "text": "As shares fell around the world, the Federal Reserve cut its key rate by 0.75 percentage point to 3.5 percent on 22 January without waiting for its meeting, its largest cut in 25 years, and by another half point on 30 January. The S&P 500 still lost 6% in January to 1,378.55. The numbers: the Fed's rate 3.9 percent. Inflation 4.1 percent. Unemployment 5.0 percent.",
     "assets": [
       "ust2010",
       "ust2015",
       "ust2020"
     ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2008-01-bernanke.jpg",
-    "imageCaption": "Fed Chairman Ben Bernanke pauses during a hearing of the House Budget Committee, Washington, 17 January 2008",
-    "imageCredit": "Photo by Alex Wong/Getty Images"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/markets/2008-01-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to January 2008",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2008-01",
@@ -536,7 +524,7 @@
     "month": "2008-12",
     "kind": "world",
     "headline": "Zero interest rates and the Fed starts buying bonds",
-    "text": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. In January 1981 the same rate had averaged 19 percent. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December.",
+    "text": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. In January 1981 the same rate had averaged 19 percent. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December. The numbers: the Fed's rate 0.2 percent. Inflation 1.1 percent. Unemployment 6.8 percent.",
     "assets": [
       "ust2010",
       "ust2015",
@@ -544,9 +532,9 @@
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
     "thread": "rates",
-    "image": "/news/rates/2008-12-bernanke.jpg",
-    "imageCaption": "Fed Chairman Ben Bernanke speaks at a conference on housing and mortgage markets, Washington, 4 December 2008",
-    "imageCredit": "Photo by Alex Wong/Getty Images"
+    "image": "/news/rates/2008-12-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1975 to December 2008",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2008-12",

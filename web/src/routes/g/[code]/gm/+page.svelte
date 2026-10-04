@@ -61,8 +61,6 @@
   const finished = $derived(game?.status === 'finished');
   const lobby = $derived(game?.status === 'lobby');
   const next = $derived(game ? nextMonth(game.currentMonth) : '');
-  const monthIndex = (m: string) => Number(m.slice(0, 4)) * 12 + Number(m.slice(5, 7));
-  const monthsLeft = $derived(game ? Math.max(0, monthIndex(game.finalMonth) - monthIndex(game.currentMonth)) : 0);
   const host = typeof location !== 'undefined' ? location.host : '';
 
   async function refresh() {
@@ -171,11 +169,9 @@
         <p class="sub">Month by Month · game master · {game.name}</p>
         <h1 class="month">{monthName(game.currentMonth)}</h1>
         <button class="age" onclick={() => (ageOpen = true)}>{age.name}</button>
-        <p class="status">
-          {#if finished}Final month. The game is over.
-          {:else if lobby}Not started: players are building their first portfolios.
-          {:else}{monthsLeft} {monthsLeft === 1 ? 'month' : 'months'} to go until {monthName(game.finalMonth)}{/if}
-        </p>
+        {#if finished || lobby}
+          <p class="status">{finished ? 'Final month. The game is over.' : 'Not started: players are building their first portfolios.'}</p>
+        {/if}
       </div>
       <div class="join card">
         <span class="sub">Join at <strong>{host}</strong> with code</span>
@@ -202,9 +198,6 @@
         <button class="btn primary advance" onclick={advance} disabled={advancing || cooling}>
           {#if advancing}Advancing…{:else if lobby}Start the game: advance to {monthName(next)}{:else}Advance to {monthName(next)}{/if}
         </button>
-        <p class="sub muted">
-          Everybody moves to the next month at once. Income is paid into cash and new prices apply. This cannot be undone.
-        </p>
       {/if}
       {#if advanceError}<p class="notice error" role="alert">{advanceError}</p>{/if}
     </section>

@@ -21,3 +21,6 @@ After the dot-com bust the Fed cut its rate to 1 percent in June 2003, and mortg
 | 2008-10 | The Swiss state rescues UBS | 50914c59 | ubs.beats.json | existing |
 | 2008-11 | Government rescues Citigroup | fe39e62b | c.beats.json | existing |
 | 2009-12 | 2009 in review: up 23 percent, and 65 percent from the March low | ac1cc7ba | markets.beats.json | existing |
+
+Added on 4 October 2026 (build-up):
+- 2005-05 Flipping houses: how ordinary Americans get rich on borrowed money (e0a23882, markets, new)

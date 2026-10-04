@@ -163,23 +163,6 @@
     "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)"
   },
   {
-    "id": "280e37f3",
-    "month": "2001-10",
-    "title": "Swissair grounded",
-    "what": "On 2 October the entire Swissair fleet was grounded after UBS refused to extend its credit line. UBS and Credit Suisse bought SAirGroup's stake in Crossair, which is to take over Swissair's European flights, and federal bridge loans let flights resume on 5 October. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles.",
-    "why": "The banks' role in the Swissair collapse damages their standing in Switzerland; Mühlemann's double role costs him credibility.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": 5
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)"
-  },
-  {
     "id": "79de8980",
     "month": "2002-07",
     "title": "Rating agencies turn negative on Credit Suisse",
@@ -275,23 +258,6 @@
     },
     "importance": 2,
     "source": "Credit Suisse Form 6-K of 23 April 2009, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000007/a090423_6k.htm (read 2026-10-03)"
-  },
-  {
-    "id": "fe784cb7",
-    "month": "2011-09",
-    "title": "The National Bank caps the franc",
-    "what": "On 6 September the Swiss National Bank set a minimum exchange rate of 1.20 francs per euro and promised to buy foreign currency in unlimited amounts to defend it. The franc, which had soared during the euro crisis, fell about 11% against the dollar in September.",
-    "why": "For dollar investors the weaker franc adds to the fall in Swiss bank shares (Credit Suisse -9%).",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "move": {
-      "asset": "credit-suisse",
-      "pct": -9
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
   },
   {
     "id": "37b7fbce",

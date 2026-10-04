@@ -127,22 +127,6 @@
     "source": "https://money.cnn.com/2000/01/24/europe/siemens/ via web.archive.org (read 2026-10-03); https://www.telecompaper.com/news/infineon-to-tender-25-30-of-shares--206140 (read 2026-10-03); https://www.eetimes.com/infineon-doubles-value-in-ipo-topping-5-billion/ (read 2026-10-03)"
   },
   {
-    "id": "66a61dca",
-    "month": "2001-09",
-    "title": "Markets slump after the September 11 attacks",
-    "what": "After the attacks of 11 September, US stock exchanges stayed closed until 17 September; on reopening the Dow fell 7.1% in a day. European markets fell with them. Siemens shares lost a quarter of their value in September.",
-    "why": "A market beat on top of the telecom slump.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": -25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
     "id": "8bcebcb6",
     "month": "2001-10",
     "title": "Siemens cuts 7,000 more telecom jobs, and the shares rebound",
@@ -157,38 +141,6 @@
     },
     "importance": 3,
     "source": "https://money.cnn.com/2001/10/15/international/siemens/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/11/14/international/siemens/ via web.archive.org (read 2026-10-03)"
-  },
-  {
-    "id": "f657c30b",
-    "month": "2002-09",
-    "title": "Stock markets sink to five-year lows",
-    "what": "Stock markets slid through the summer, with sharp drops in July and September; the Dow hit a four-year low on 24 September. Technology and telecom stocks were hit hardest. Siemens, still exposed to telecom equipment, lost 29% in September.",
-    "why": "The bottom of the post-2000 bear market: Siemens is 72% below its February 2000 peak.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": -29
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
-    "id": "f20a062d",
-    "month": "2002-10",
-    "title": "Markets bounce from new lows",
-    "what": "Markets broke to new lows on 7 October and fell further until 9 October, then rallied for the rest of the month. Siemens shares rose 41%, their best month since at least 1979.",
-    "why": "The violent rebound off the bear-market low; it confirms how much of Siemens' price in these years was market beta rather than company news. [Lookahead review: the bottom was not known at the time.] [Lookahead review: 'touched bottom' was hindsight.]",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": 41
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
   },
   {
     "id": "2207960f",

@@ -25,7 +25,7 @@
     "id": "5353196a",
     "month": "1980-11",
     "title": "Reagan beats Carter in a landslide",
-    "what": "Ronald Reagan won the US presidency on 4 November with 489 electoral votes to 49 and about 51 percent of the vote to Carter's 41, carrying 44 states. He promises tax cuts, less regulation and a harder line with Moscow. Shares jumped: the day after the vote the New York Stock Exchange traded a record 84 million shares, and the Dow climbed back above 1,000 for the first time since 1976.",
+    "what": "Ronald Reagan won the US presidency on 4 November with 489 electoral votes to 49 and about 51 percent of the vote to Carter's 41, carrying 44 states. He promises tax cuts, less regulation and a harder line with Moscow. Shares jumped: the day after the vote the New York Stock Exchange traded a record 84 million shares, and the Dow climbed back above 1,000 for the first time since 1976. On 20 November the S&P 500 closed at a record 140.40, and it gained 10% in the month.",
     "why": "Wall Street's verdict on the new president was a +10% month, one of the best of the decade; Reagan's tax cuts, deregulation and arms build-up frame the 1980s market, though the first two years bring recession under Volcker's high rates.",
     "assets": [],
     "move": {
@@ -33,7 +33,8 @@
       "pct": 10
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/1980_United_States_presidential_election (read 2026-10-03); https://www.washingtonpost.com/archive/business/1980/11/06/stocks-trade-hits-record-84-million-share-volume/2f1af161-3e5e-4454-adb5-a09bdc9f34b2/ (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1980_United_States_presidential_election (read 2026-10-03); https://www.washingtonpost.com/archive/business/1980/11/06/stocks-trade-hits-record-84-million-share-volume/2f1af161-3e5e-4454-adb5-a09bdc9f34b2/ (read 2026-10-03); https://www.fiendbear.com/bear1981.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "id": "499ffbf0",
@@ -339,42 +340,44 @@
     "id": "be8f0241",
     "month": "2001-09",
     "title": "Terror attacks on New York and Washington",
-    "what": "On 11 September nineteen hijackers seized four airliners; two destroyed the twin towers of the World Trade Center in New York, one hit the Pentagon and one crashed in Pennsylvania. Thousands are dead. Al-Qaeda, led by Osama bin Laden, is blamed. The New York Stock Exchange stayed closed until 17 September, when the Dow fell 684 points, or 7.1 percent, its largest point fall ever; airline, insurance and travel shares fell hardest. Congress voted 15 billion dollars of aid for the airlines, and NATO invoked its mutual-defence clause for the first time.",
+    "what": "On 11 September nineteen hijackers seized four airliners; two destroyed the twin towers of the World Trade Center in New York, one hit the Pentagon and one crashed in Pennsylvania, and thousands are dead. Al-Qaeda, led by Osama bin Laden, is blamed; Congress voted 15 billion dollars of aid for the airlines, and NATO invoked its mutual-defence clause for the first time. The New York Stock Exchange stayed closed until 17 September, its longest closure since the Great Depression, and when it reopened the Dow fell 684 points, or 7.1 percent, its largest point fall ever; airline, insurance and travel shares fell hardest, and the S&P 500 lost 8% in September. Boeing, whose jets were used in the attacks, lost 35% and will cut 20,000 to 30,000 airliner jobs as airlines cut flights. Disney, whose parks emptied as air travel stopped, lost 27%, and Siemens lost a quarter of its value.",
     "why": "The defining event of the decade's politics; it deepened the recession of 2001, hit Boeing (-35% in the month) and the airlines, and leads to the wars in Afghanistan and Iraq. The final death toll was 2,977 victims.",
     "assets": [
-      "ba"
+      "ba",
+      "siemens",
+      "dis"
     ],
     "move": {
       "asset": "sp500",
       "pct": -8
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://www.plansponsor.com/dow-closes-down-684-points/ (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/September_11_attacks (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks (read 2026-10-03); https://www.plansponsor.com/dow-closes-down-684-points/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20011002.htm (read 2026-10-03); data/reference/sp500.json; data/out/siemens.json (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1001039/000091205701532952/a2059716z8-k.txt (Disney 8-K of 20 September 2001, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://boeing.mediaroom.com/2001-09-18-Boeing-Responds-to-Current-Business-Environment (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03)",
     "lead": true
   },
   {
     "id": "48ae8c38",
     "month": "2001-10",
     "title": "Swissair grounded",
-    "what": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair. On 7 October the United States began bombing Afghanistan.",
+    "what": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles. On 7 October the United States began bombing Afghanistan.",
     "why": "A national trauma: the flag carrier, a symbol of Swiss reliability, failed, and the big banks were blamed. It is the first of three moments (with UBS in 2008 and Credit Suisse in 2023) when the state had to step in for a Swiss icon.",
     "assets": [
       "ubs",
       "credit-suisse"
     ],
     "importance": 1,
-    "source": "https://www.swissinfo.ch/eng/banking-fintech/swissair-debacle-still-leaves-a-bitter-taste/2952088 (read 2026-10-03); https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan (read 2026-10-03)"
+    "source": "https://www.swissinfo.ch/eng/banking-fintech/swissair-debacle-still-leaves-a-bitter-taste/2952088 (read 2026-10-03); https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)"
   },
   {
     "id": "abc92f7a",
     "month": "2002-01",
     "title": "Euro notes and coins arrive",
-    "what": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000.",
+    "what": "On 1 January euro banknotes and coins went into circulation in twelve countries, replacing the mark, the franc, the lira and nine other currencies, which will cease to be legal tender by the end of February. The euro has been used on currency and bond markets since January 1999 and fell against the dollar until late 2000. Switzerland keeps its franc, but Swiss travellers and shoppers across the border now meet one currency on three sides.",
     "why": "The euro becomes real for the family across the border; the currency that started weak in 1999 rises against the dollar over the following years.",
     "assets": [],
     "importance": 2,
     "thread": "euro",
-    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03); https://en.wikipedia.org/wiki/Euro_banknotes (read 2026-10-03)"
   },
   {
     "id": "8b0f008e",
@@ -385,16 +388,6 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2002_Swiss_referendums (read 2026-10-03)"
-  },
-  {
-    "id": "f0fb053d",
-    "month": "2003-03",
-    "title": "The United States invades Iraq",
-    "what": "American, British, Australian and Polish forces invaded Iraq on 20 March to remove Saddam Hussein, whom Washington and London accuse of hiding weapons of mass destruction. UN inspectors had found no evidence of such weapons, the Security Council did not authorise the war, and France and Germany opposed it; millions marched against it in European cities in February.",
-    "why": "Splits the West and costs America's standing; the quick fall of Baghdad on 9 April lifted markets (+8% in April), but the occupation turned into a long war. The Middle East arc tells the war.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03)"
   },
   {
     "id": "64e13f8a",
@@ -473,7 +466,7 @@
     "id": "9a1c1481",
     "month": "2010-05",
     "title": "Europe bails out Greece and sets up a rescue fund",
-    "what": "In late April the rating agencies cut Greek bonds to junk, half a year after Greece's new government had revealed a deficit of 12.7 percent of economic output. On 2 May the eurozone countries and the IMF agreed a 110 billion euro loan for Greece, which can no longer borrow on the markets after admitting that its deficit was far larger than reported; Greeks protested in the streets against the spending cuts attached. A week later the EU created a European Financial Stability Facility with up to 750 billion euros to stop the crisis spreading to Portugal, Spain and others. On 6 May the Dow plunged 998 points, about 9 percent, mostly within minutes, before recovering much of the loss in a 'flash crash'.",
+    "what": "In late April the rating agencies cut Greek bonds to junk, half a year after Greece's new government had revealed a deficit of 12.7 percent of economic output. On 2 May the eurozone countries and the IMF agreed a 110 billion euro loan for Greece, which can no longer borrow on the markets after admitting that its deficit was far larger than reported; Greeks protested in the streets against the spending cuts attached. A week later the EU created a European Financial Stability Facility with up to 750 billion euros to stop the crisis spreading to Portugal, Spain and others. On 6 May the Dow plunged 998 points, about 9 percent, mostly within minutes, before recovering much of the loss in a 'flash crash'; the S&P 500 lost 8% in May.",
     "why": "The euro crisis begins in earnest: the S&P 500 fell 8% in May, and the Swiss franc began its rise as Europeans fled into it.",
     "assets": [],
     "move": {
@@ -482,7 +475,7 @@
     },
     "importance": 1,
     "thread": "euro",
-    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (read 2026-10-03); data/reference/sp500.json",
     "lead": true
   },
   {
@@ -497,22 +490,10 @@
     "source": "https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/PIGS_(economics) (read 2026-10-04)"
   },
   {
-    "id": "e485afe7",
-    "month": "2011-08",
-    "title": "America loses its AAA rating",
-    "what": "After weeks of brinkmanship, Congress raised the US debt ceiling on 2 August, and on 5 August Standard and Poor's cut America's credit rating from AAA to AA+ for the first time, citing the weakened predictability of American policymaking. On 8 August all three major US indexes fell by 5 to 7 percent. In Europe, fear spread from Greece to Italy and Spain, and investors fled into the Swiss franc and gold.",
-    "why": "A political rather than an economic downgrade; with the euro crisis it made August-September 2011 a bad stretch (S&P -6% and -7%, Credit Suisse -20%, Daimler -26%) and pushed the Swiss National Bank to cap the franc in September.",
-    "assets": [
-      "gold"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/United_States_federal_government_credit-rating_downgrades (read 2026-10-03)"
-  },
-  {
     "id": "2feb0d58",
     "month": "2011-10",
     "title": "Euro summit: banks to take half off Greek debt",
-    "what": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
+    "what": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal. The S&P 500, which on 4 October stood about 21% below its May peak, rose 11% in October to 1,253.30, its best month since 1991.",
     "why": "Relief that the euro would hold produced the S&P 500's best month in years (+11%), with banks and miners leading; the referendum shock at month's end showed the crisis was not over.",
     "assets": [],
     "move": {
@@ -521,7 +502,7 @@
     },
     "importance": 2,
     "thread": "euro",
-    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/August_2011_stock_markets_fall (read 2026-10-03); data/reference/sp500.json"
   },
   {
     "id": "19b500ed",

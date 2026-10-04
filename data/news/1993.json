@@ -29,19 +29,6 @@
   {
     "month": "1993-03",
     "kind": "company",
-    "headline": "Berkshire's book value up 20% in 1992; Buffett back from Salomon",
-    "text": "Buffett's letter of 1 March reports that book value per share rose 20.3% in 1992, to 7,745 dollars, a compound 23.6% a year over 28 years. Last June Buffett stepped down as interim chairman of Salomon Inc after ten months; Salomon Brothers has since reported record pre-tax earnings.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://www.berkshirehathaway.com/letters/1992.html (read 2026-10-03); data/out/brk.json price series",
-    "image": "/news/brk/1993-03-one-new-york-plaza-long-the-head-office.jpg",
-    "imageCaption": "One New York Plaza, long the head office of Salomon Brothers",
-    "imageCredit": "Jim.henderson"
-  },
-  {
-    "month": "1993-03",
-    "kind": "company",
     "headline": "McDonald's: 111 record quarters in a row",
     "text": "McDonald's reported that 1992 was its 111th consecutive quarter of record systemwide sales, net income and earnings per share. Net income rose to 959 million dollars on systemwide sales of 21.9 billion. It had about 13,100 restaurants in 65 countries, more than 4,100 of them outside the United States.",
     "assets": [
@@ -51,6 +38,19 @@
     "image": "/news/mcd/1993-03-big-mac.jpg",
     "imageCaption": "The Big Mac",
     "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "1993-03",
+    "kind": "company",
+    "headline": "Berkshire's book value up 20% in 1992; Buffett back from Salomon",
+    "text": "Buffett's letter of 1 March reports that book value per share rose 20.3% in 1992, to 7,745 dollars, a compound 23.6% a year over 28 years. Last June Buffett stepped down as interim chairman of Salomon Inc after ten months; Salomon Brothers has since reported record pre-tax earnings.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/1992.html (read 2026-10-03); data/out/brk.json price series",
+    "image": "/news/brk/1993-03-one-new-york-plaza-long-the-head-office.jpg",
+    "imageCaption": "One New York Plaza, long the head office of Salomon Brothers",
+    "imageCredit": "Jim.henderson"
   },
   {
     "month": "1993-04",
@@ -107,17 +107,6 @@
   },
   {
     "month": "1993-06",
-    "kind": "colour",
-    "headline": "Jurassic Park breaks the box-office record",
-    "text": "Steven Spielberg's Jurassic Park opened in American cinemas on 11 June and took 50.1 million dollars in its first weekend, a new record. Its dinosaurs were made with computer-generated images by Industrial Light & Magic and with life-sized animatronic models.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Jurassic_Park_(film) (read 2026-10-03)",
-    "image": "/news/life/1993-06-poster-for-jurassic-park-1993.jpg",
-    "imageCaption": "Poster for Jurassic Park, 1993",
-    "imageCredit": "Universal Pictures"
-  },
-  {
-    "month": "1993-06",
     "kind": "company",
     "headline": "Apple replaces its chief executive as a price war eats its profit",
     "text": "On 18 June Apple's board replaced John Sculley as chief executive with Michael Spindler, until now the number two; Sculley stays on as chairman. A price war among PC makers is forcing Apple to sell its Macintosh computers ever more cheaply, and its profit is shrinking fast. The shares lost 30% in June.",
@@ -128,6 +117,17 @@
     "image": "/news/aapl/1993-06-john-sculley.jpg",
     "imageCaption": "John Sculley, 2014",
     "imageCredit": "Judae1"
+  },
+  {
+    "month": "1993-06",
+    "kind": "colour",
+    "headline": "Jurassic Park breaks the box-office record",
+    "text": "Steven Spielberg's Jurassic Park opened in American cinemas on 11 June and took 50.1 million dollars in its first weekend, a new record. Its dinosaurs were made with computer-generated images by Industrial Light & Magic and with life-sized animatronic models.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Jurassic_Park_(film) (read 2026-10-03)",
+    "image": "/news/life/1993-06-poster-for-jurassic-park-1993.jpg",
+    "imageCaption": "Poster for Jurassic Park, 1993",
+    "imageCredit": "Universal Pictures"
   },
   {
     "month": "1993-07",
@@ -172,19 +172,6 @@
   {
     "month": "1993-10",
     "kind": "company",
-    "headline": "Sculley leaves Apple for good; Spindler cuts jobs",
-    "text": "John Sculley, replaced as chief executive in June, has now left Apple altogether after a bad year and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)",
-    "image": "/news/aapl/1993-10-newton.jpg",
-    "imageCaption": "The Apple Newton MessagePad, launched August 1993",
-    "imageCredit": "National Museum of American History"
-  },
-  {
-    "month": "1993-10",
-    "kind": "company",
     "headline": "Sony announces it will enter the games console market",
     "text": "On 27 October Sony said it is entering the video game console market with a machine called PlayStation, built around 3D graphics. Sony and its Japanese music company have set up Sony Computer Entertainment, led by engineer Ken Kutaragi, to run the business.",
     "assets": [
@@ -196,28 +183,30 @@
     "imageCredit": "Official GDC"
   },
   {
-    "month": "1993-11",
-    "kind": "world",
-    "headline": "Brent sinks toward $14",
-    "text": "North Sea Brent fell to about $14 a barrel by the end of November and US crude to about $15, the lowest in five years, as OPEC members overproduce and demand is weak.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Chronology_of_world_oil_market_events (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
-    "image": "/news/oil/1993-11-the-brent-a-and-brent-b-oil-platforms-in.jpg",
-    "imageCaption": "The Brent A and Brent B oil platforms in the North Sea",
-    "imageCredit": "Arne List"
+    "month": "1993-10",
+    "kind": "company",
+    "headline": "Sculley leaves Apple for good; Spindler cuts jobs",
+    "text": "John Sculley, replaced as chief executive in June, has now left Apple altogether after a bad year and a price war in personal computers; Michael Spindler runs the company and is cutting jobs, projects and research. Under Sculley sales grew from about 800 million to 7.9 billion dollars a year.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/John_Sculley (read 2026-10-03); https://en.wikipedia.org/wiki/Michael_Spindler (read 2026-10-03)",
+    "image": "/news/aapl/1993-10-newton.jpg",
+    "imageCaption": "The Apple Newton MessagePad, launched August 1993",
+    "imageCredit": "National Museum of American History"
   },
   {
-    "month": "1993-11",
+    "month": "1993-12",
     "kind": "company",
-    "headline": "Boeing launches the 737 Next Generation",
-    "text": "On 17 November Boeing announced the 737 Next Generation, an updated family of its best-selling small jet, with new wings and engines, to compete with the Airbus A320.",
+    "headline": "LDDS merges with Metromedia's and Resurgens' phone businesses",
+    "text": "LDDS has combined with Metromedia Communications and Resurgens Communications Group, making it a national long-distance carrier with Bernard Ebbers as chief executive. Billionaire John Kluge, owner of Metromedia, becomes a major shareholder. Sales are on course for about $1.1 billion this year.",
     "assets": [
-      "ba"
+      "worldcom"
     ],
-    "source": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation (read 2026-10-03)",
-    "image": "/news/ba/1993-11-a-boeing-737-800-a-member-of-the-next-ge.jpg",
-    "imageCaption": "A Boeing 737-800, a member of the Next Generation family, takes off",
-    "imageCredit": "4300streetcar"
+    "source": "https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)",
+    "image": "/news/worldcom/1993-12-telephone-exchange.jpg",
+    "imageCaption": "Telephone exchange, 1975",
+    "imageCredit": "Joseph A. Carr"
   },
   {
     "month": "1993-12",
@@ -246,18 +235,5 @@
     "image": "/news/ibj/1993-12-shibuya-crossing-in-tokyo-at-night-octob.jpg",
     "imageCaption": "Shibuya crossing in Tokyo at night, October 1992",
     "imageCredit": "sodai gomi"
-  },
-  {
-    "month": "1993-12",
-    "kind": "company",
-    "headline": "LDDS merges with Metromedia's and Resurgens' phone businesses",
-    "text": "LDDS has combined with Metromedia Communications and Resurgens Communications Group, making it a national long-distance carrier with Bernard Ebbers as chief executive. Billionaire John Kluge, owner of Metromedia, becomes a major shareholder. Sales are on course for about $1.1 billion this year.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "https://www.latimes.com/archives/la-xpm-1995-08-15-fi-35305-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03)",
-    "image": "/news/worldcom/1993-12-telephone-exchange.jpg",
-    "imageCaption": "Telephone exchange, 1975",
-    "imageCredit": "Joseph A. Carr"
   }
 ]

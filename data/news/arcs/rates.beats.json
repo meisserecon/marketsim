@@ -177,7 +177,8 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "lead": true
   },
   {
     "id": "7f98fea0",

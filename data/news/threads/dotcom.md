@@ -35,3 +35,4 @@ Added on 4 October 2026 (the internet before Netscape, and its growth year by ye
 - 1999-09 147 million online, and a book called 'Dow 36,000' (5f7998d3, tech)
 - 2000-12 The Nasdaq's worst year: down 39% (0d8709ae, tech)
 - 1995-12 Switzerland's first internet café opens in Zurich (0f7cbe77, life, new)
+- 1994-10 Mosaic Netscape (0a3255e7) removed on 4 October 2026: folded into the Netscape IPO story of August 1995

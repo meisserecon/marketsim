@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { page } from '$app/state';
+  import { AGES, ageAt, previousAge, type AgesView } from '@marketsim/shared';
+  import AgeScreen from '$lib/components/AgeScreen.svelte';
   import { nextMonth, type GameEvent, type GameView, type HoldingsView, type LeaderboardView, type MarketView, type NewsView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
@@ -28,6 +30,17 @@
   let holdings = $state<HoldingsView | undefined>(undefined);
   let news = $state<NewsView | undefined>(undefined);
   let market = $state<MarketView | undefined>(undefined);
+  let ages = $state<AgesView | undefined>(undefined);
+  const age = $derived(game ? ageAt(game.currentMonth) : AGES[0]);
+  /** The age screen opens by itself when the clock enters a new age, for the room to read together. */
+  let ageOpen = $state(false);
+  let ageShownFor = '';
+  $effect(() => {
+    if (game && game.currentMonth === age.from && ageShownFor !== age.id) {
+      ageShownFor = age.id;
+      ageOpen = true;
+    }
+  });
 
   const nameOf = (id: string) => market?.assets.find((a) => a.id === id)?.name ?? id;
   /** The month's biggest rises and falls among everything quoted, for a one-line market summary. */
@@ -59,6 +72,7 @@
       board = l;
       news = n;
       market = m;
+      api.ages(code, token).then((a) => (ages = a)).catch(() => {});
       phase = 'ready';
       // Only the game master's browser may see who holds what.
       if (token) {
@@ -156,6 +170,7 @@
       <div>
         <p class="sub">Month by Month · game master · {game.name}</p>
         <h1 class="month">{monthName(game.currentMonth)}</h1>
+        <button class="age" onclick={() => (ageOpen = true)}>{age.name}</button>
         <p class="status">
           {#if finished}Final month. The game is over.
           {:else if lobby}Not started: players are building their first portfolios.
@@ -266,6 +281,10 @@
       </section>
     {/if}
   </main>
+  {#if ageOpen}
+    {@const ended = previousAge(age)}
+    <AgeScreen {age} {ended} review={ages?.ended.find((r) => r.id === ended?.id)} {board} big onclose={() => (ageOpen = false)} />
+  {/if}
 {/if}
 
 <style>
@@ -364,6 +383,18 @@
   .pos b {
     font-weight: 650;
     font-variant-numeric: tabular-nums;
+  }
+  .age {
+    all: unset;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .age:hover {
+    text-decoration: underline;
   }
   .movers {
     display: flex;

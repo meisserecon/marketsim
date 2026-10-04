@@ -14,6 +14,14 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
   from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
+- **Ages.** The game is told in six ages (`shared/src/ages.ts`): The Cold War (to January 1990), The Peace
+  Dividend (to July 1995), The New Economy (to December 2002), Safe as Houses (to March 2009), Free Money (to
+  October 2022) and The Age of AI. When the clock enters a new age, players and the game master see a screen
+  that looks back at the age that ended (its story, the stock market index and every player on one chart, all
+  rebased to the start of the age, and the best and worst assets) and then sets the scene for the new one. The
+  intro of an age knows nothing of what is coming; the look back is only shown once the age is over. The age's
+  name stays in the header and reopens the screen. The index (S&P 500, a reference series, not an asset) is also
+  the dashed benchmark line on the leaderboard chart.
 - **Welcome screen.** On first entering a game a player sees what the game is, how a month works, and the three
   lessons it wants to teach, stated openly: diversify, stay in the market, know your history. It can be reopened
   from "How to play" in the header.

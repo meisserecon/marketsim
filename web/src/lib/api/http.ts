@@ -51,6 +51,7 @@ export const httpApi: Api = {
   me: (code, token) => request('GET', `${game(code)}/me`, { token }),
   trade: (code, token, trade) => request('POST', `${game(code)}/trades`, { token, body: trade }),
   leaderboard: (code, token) => request('GET', `${game(code)}/leaderboard`, { token }),
+  ages: (code, token) => request('GET', `${game(code)}/ages`, { token }),
   news: (code, month, token) => request('GET', `${game(code)}/news${month ? `?month=${month}` : ''}`, { token }),
   holdings: (code, token) => request('GET', `${game(code)}/holdings`, { token }),
   advance: (code, token) => request('POST', `${game(code)}/advance`, { token }),

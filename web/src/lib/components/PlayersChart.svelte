@@ -10,6 +10,8 @@
     name: string;
     color: string;
     points: { month: string; value: number }[];
+    /** Drawn dashed: a reference line such as the market, not a player. */
+    dashed?: boolean;
   }
 
   interface Props {
@@ -18,8 +20,12 @@
     /** Drawn thicker and on top. */
     highlightId?: string;
     height?: number;
+    /** Default: US dollars. */
+    formatValue?: (v: number) => string;
+    formatTick?: (v: number) => string;
+    label?: string;
   }
-  let { series, span, highlightId, height = 220 }: Props = $props();
+  let { series, span, highlightId, height = 220, formatValue = (v) => usd(v), formatTick = usdCompact, label = 'Portfolio value of each player over time' }: Props = $props();
 
   let width = $state(600);
   let hover = $state<number | undefined>(undefined);
@@ -104,7 +110,7 @@
     {width}
     {height}
     role="img"
-    aria-label="Portfolio value of each player over time"
+    aria-label={label}
     tabindex="0"
     onpointermove={onMove}
     onpointerleave={() => (hover = undefined)}
@@ -115,7 +121,7 @@
     <g transform="translate({M.left},{M.top})">
       {#each scale.ticks as t (t)}
         <line class="grid" x1="0" x2={plotW} y1={scale.y(t)} y2={scale.y(t)} />
-        <text class="tick" x="-8" y={scale.y(t)} dy="0.32em" text-anchor="end">{usdCompact(t)}</text>
+        <text class="tick" x="-8" y={scale.y(t)} dy="0.32em" text-anchor="end">{formatTick(t)}</text>
       {/each}
       <line class="axis" x1="0" x2={plotW} y1={plotH} y2={plotH} />
       {#each xTicks as t (t.text)}
@@ -124,7 +130,7 @@
 
       {#each lines as l (l.id)}
         {#if l.points.length > 1}
-          <path d={l.d} fill="none" stroke={l.color} stroke-width={l.id === highlightId ? 3 : 1.75} stroke-linejoin="round" stroke-linecap="round" />
+          <path d={l.d} fill="none" stroke={l.color} stroke-width={l.id === highlightId ? 3 : 1.75} stroke-dasharray={l.dashed ? '5 4' : undefined} stroke-linejoin="round" stroke-linecap="round" />
         {/if}
         {#if l.end && !hovered}
           <circle class="dot" cx={x(monthIndex(l.end.month))} cy={scale.y(l.end.value)} r={l.id === highlightId ? 4.5 : 3.5} fill={l.color} />
@@ -144,7 +150,7 @@
     <div class="tip" class:right={hovered.px > plotW * 0.6} style:left="{M.left + hovered.px}px" style:top="{M.top + 4}px">
       <strong>{monthName(hovered.month)}</strong>
       {#each hovered.rows.slice(0, TIP_ROWS) as r (r.id)}
-        <span class="row"><i class="key" style:background={r.color}></i><span class="who">{r.name}</span><b>{usd(r.value)}</b></span>
+        <span class="row"><i class="key" style:background={r.color}></i><span class="who">{r.name}</span><b>{formatValue(r.value)}</b></span>
       {/each}
       {#if hovered.rows.length > TIP_ROWS}<span class="muted">and {hovered.rows.length - TIP_ROWS} more</span>{/if}
     </div>

@@ -1,7 +1,8 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
   import { page } from '$app/state';
-  import { GAME_START_MONTH, nextMonth } from '@marketsim/shared';
+  import { AGES, GAME_START_MONTH, ageAt, nextMonth, previousAge, type AgesView } from '@marketsim/shared';
+  import AgeScreen from '$lib/components/AgeScreen.svelte';
   import type { GameEvent, GameView, LeaderboardView, LedgerEntry, MarketView, NewsView, PortfolioView } from '@marketsim/shared';
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
@@ -64,6 +65,25 @@
   const tradable = $derived(new Set(market?.assets.map((a) => a.id) ?? []));
   const finished = $derived(game?.status === 'finished');
   const solo = $derived(!!game?.solo);
+
+  // The age screen: shown once when the clock enters a new age, and again from the age's name in the header.
+  let ages = $state<AgesView | undefined>(undefined);
+  const age = $derived(game ? ageAt(game.currentMonth) : AGES[0]);
+  const ageKey = (id: string) => `marketsim:age:${code}:${id}`;
+  const seenAge = (id: string) => { try { return localStorage.getItem(ageKey(id)) === '1'; } catch { return false; } };
+  let ageOpen = $state(false);
+  $effect(() => {
+    if (game && game.currentMonth === age.from && !seenAge(age.id)) ageOpen = true;
+  });
+  function closeAge() {
+    ageOpen = false;
+    try { localStorage.setItem(ageKey(age.id), '1'); } catch { /* shown again, no harm */ }
+  }
+  $effect(() => {
+    // The figures of the ages that are over; refetched when the month changes.
+    void game?.currentMonth;
+    if (token) api.ages(code, token).then((a) => (ages = a)).catch(() => {});
+  });
 
   // The welcome screen shows once per game on this browser, and again from "How to play".
   const welcomeKey = `marketsim:welcome:${code}`;
@@ -296,6 +316,7 @@
     <div class="game">
       <span class="sub"><a class="brand" href="/">Month by Month</a> · {game.name} · {game.code} · {portfolio.name} · <button class="how" onclick={() => (showWelcome = true)}>How to play</button></span>
       <h1>{monthName(game.currentMonth)}</h1>
+      <button class="age" onclick={() => (ageOpen = true)} title="About this age">{age.name}</button>
     </div>
     {#if solo && !finished}
       <div class="advance-box">
@@ -430,6 +451,11 @@
     <Welcome playerName={portfolio.name} startMonth={GAME_START_MONTH} finalMonth={game.finalMonth} {solo} onclose={closeWelcome} />
   {/if}
 
+  {#if ageOpen && !showWelcome}
+    {@const ended = previousAge(age)}
+    <AgeScreen {age} {ended} review={ages?.ended.find((r) => r.id === ended?.id)} board={board} meId={portfolio.playerId} onclose={closeAge} />
+  {/if}
+
   {#if showFinal && board}
     <div class="overlay" role="dialog" aria-modal="true" aria-label="Final standings">
       <div class="card final">
@@ -549,6 +575,22 @@
     font-weight: 700;
     color: var(--ink);
     text-decoration: none;
+  }
+  .age {
+    all: unset;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .age:hover {
+    text-decoration: underline;
+  }
+  .age:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
   .how {
     all: unset;

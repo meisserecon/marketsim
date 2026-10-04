@@ -8,9 +8,9 @@ import path from "node:path";
 import Fastify, { type FastifyInstance, type FastifyRequest } from "fastify";
 import fastifyStatic from "@fastify/static";
 import {
-  MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
+  AGES, MAX_POSITIONS, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
-  type HoldingsView, type HighscoresView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
+  type AgeReview, type AgesView, type HoldingsView, type HighscoresView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
 } from "@marketsim/shared";
 import type { Db, Queryable } from "./db.js";
@@ -49,12 +49,59 @@ export interface AppOptions {
   createPassword?: string;
   /** News items, sorted by month. Default: none. */
   news?: NewsItem[];
+  /** The stock market index, for the benchmark line and the age reviews. Default: none. */
+  index?: { name: string; rows: { month: string; price: number }[] };
 }
 
 export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): Promise<FastifyInstance> {
   const app = Fastify({ logger: opts.logger ?? false });
   const subscribers = new Map<string, Set<(e: GameEvent) => void>>();
   const news = opts.news ?? [];
+  const indexAt = new Map((opts.index?.rows ?? []).map((r) => [r.month, r.price]));
+
+  /** The starting cash following the index from the game's first month, never past `month`. */
+  function benchmark(startingCash: number, month: string) {
+    const base = indexAt.get(market.startMonth);
+    if (!opts.index || !base) return undefined;
+    const history: { month: string; totalValue: number }[] = [];
+    for (let m = market.startMonth; m <= month; m = addMonths(m, 1)) {
+      const p = indexAt.get(m);
+      if (p !== undefined) history.push({ month: m, totalValue: (startingCash * p) / base });
+    }
+    return history.length ? { name: opts.index.name, totalValue: history[history.length - 1].totalValue, history } : undefined;
+  }
+
+  /** The market's change and the best and worst assets of an age that is over. */
+  function ageReview(age: { id: string; from: string; to?: string }): AgeReview {
+    const to = age.to!;
+    const before = addMonths(age.from, -1);
+    const i0 = indexAt.get(before) ?? indexAt.get(age.from);
+    const i1 = indexAt.get(to);
+    const moves: { name: string; change: number }[] = [];
+    for (const id of market.ids()) {
+      const a = market.asset(id)!;
+      if (a.kind !== "stock" && a.kind !== "gold") continue;
+      const listed = market.listedMonth(id);
+      const last = market.lastMonth(id);
+      if (listed > to || last < age.from) continue;
+      // A company that arrived in the last months of the age has no story in it yet.
+      if (listed > addMonths(to, -12)) continue;
+      // From the price players could first buy at in this age to the last one they could sell at.
+      const start = listed > before ? market.row(id, listed)?.price : market.row(id, before)?.price ?? market.row(id, age.from)?.price;
+      const endMonth = last < to ? last : to;
+      const wipedOut = a.end?.type === "bankruptcy" && a.end.month <= to;
+      const end = wipedOut ? 0 : market.row(id, endMonth)?.price;
+      if (!start || end === undefined) continue;
+      moves.push({ name: nameAt(a, endMonth), change: end / start - 1 });
+    }
+    moves.sort((x, y) => y.change - x.change);
+    return {
+      id: age.id,
+      ...(i0 && i1 ? { market: i1 / i0 - 1 } : {}),
+      best: moves.slice(0, 3),
+      worst: moves.slice(-3).reverse(),
+    };
+  }
 
   function broadcast(code: string, event: GameEvent) {
     for (const send of subscribers.get(code) ?? []) send(event);
@@ -340,7 +387,14 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       if (v.totalValue !== last) { rank = i + 1; last = v.totalValue; }
       return { ...v, rank };
     });
-    return { month: g.current_month, players: ranked };
+    const bench = benchmark(Number(g.starting_cash), g.current_month);
+    return { month: g.current_month, players: ranked, ...(bench ? { benchmark: bench } : {}) };
+  });
+
+  app.get<{ Params: { code: string } }>("/api/games/:code/ages", async (req): Promise<AgesView> => {
+    const g = await gameByCode(db, req.params.code);
+    // Only ages that are over: the current one is still a secret.
+    return { ended: AGES.filter((a) => a.to && a.to < g.current_month).map(ageReview) };
   });
 
   app.get<{ Params: { code: string }; Querystring: { month?: string } }>("/api/games/:code/news", async (req): Promise<NewsView> => {

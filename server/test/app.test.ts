@@ -1,10 +1,10 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import type { FastifyInstance } from "fastify";
-import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView, type SoloResponse, type HighscoresView } from "@marketsim/shared";
+import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView, type SoloResponse, type HighscoresView, type AgesView } from "@marketsim/shared";
 import { buildApp } from "../src/app.js";
 import { migrate, openEmbedded, type Db } from "../src/db.js";
-import { loadMarket } from "../src/market.js";
+import { loadIndex, loadMarket } from "../src/market.js";
 
 let db: Db;
 let app: FastifyInstance;
@@ -13,7 +13,7 @@ before(async () => {
   db = await openEmbedded();
   await migrate(db);
   await migrate(db); // second run must be a no-op
-  app = await buildApp(db, loadMarket(), { news: [
+  app = await buildApp(db, loadMarket(), { index: loadIndex(), news: [
     { month: "1979-12", kind: "world", headline: "Oil at 30 dollars", text: "Test item.", assets: [], source: "test" },
     { month: "1980-01", kind: "company", headline: "IBM in January", text: "Test item.", assets: ["ibm"], source: "test" },
     { month: "1980-02", kind: "company", headline: "IBM in February", text: "Future item.", assets: ["ibm"], source: "test" },
@@ -42,6 +42,13 @@ test("a solo game: one token plays and advances; highscores compare at a milesto
   for (let i = 0; i < 61; i++) assert.equal((await call(app, "POST", `/api/games/${game.code}/advance`, undefined, playerToken)).status, 200);
   const me = (await call<PortfolioView>(app, "GET", `/api/games/${game.code}/me`, undefined, playerToken)).body;
   assert.equal(me.month, "1985-01");
+  // the benchmark follows the index from the first month and never runs ahead of the game
+  const lbSolo = (await call<LeaderboardView>(app, "GET", `/api/games/${game.code}/leaderboard`)).body;
+  assert.equal(lbSolo.benchmark!.history[0].month, "1979-12");
+  assert.equal(lbSolo.benchmark!.history[0].totalValue, 1_000);
+  assert.equal(lbSolo.benchmark!.history.at(-1)!.month, "1985-01");
+  // no age has ended by January 1985, so none is reviewed
+  assert.deepEqual((await call<AgesView>(app, "GET", `/api/games/${game.code}/ages`)).body.ended, []);
   // past December 1984, so the 1984 milestone lists Dana with her value at that month
   const hs = (await call<HighscoresView>(app, "GET", "/api/highscores?at=1984-12")).body;
   assert.equal(hs.at, "1984-12");

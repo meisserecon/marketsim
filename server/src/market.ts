@@ -25,6 +25,13 @@ export function loadNews(dir = process.env.NEWS_DIR ?? DEFAULT_NEWS_DIR): NewsIt
   return items.sort((a, b) => a.month.localeCompare(b.month));
 }
 
+/** The stock market index (S&P 500 month-end closes), a reference series and not an asset. Absent file: no benchmark. */
+export function loadIndex(file = process.env.INDEX_FILE ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "data", "reference", "sp500.json")): { name: string; rows: { month: string; price: number }[] } | undefined {
+  if (!fs.existsSync(file)) return undefined;
+  const j = JSON.parse(fs.readFileSync(file, "utf8"));
+  return { name: j.name ?? "Stock market", rows: j.rows };
+}
+
 export function addMonths(month: string, n: number): string {
   const [y, m] = month.split("-").map(Number);
   const total = y * 12 + (m - 1) + n;

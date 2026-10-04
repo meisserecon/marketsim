@@ -1,4 +1,5 @@
 import type {
+  AgesView,
   ApiError,
   AssetHistory,
   CreateGameRequest,
@@ -35,6 +36,7 @@ export interface Api {
   me(code: string, playerToken: string): Promise<PortfolioView>;
   trade(code: string, playerToken: string, trade: TradeRequest): Promise<TradeResponse>;
   leaderboard(code: string, token?: string): Promise<LeaderboardView>;
+  ages(code: string, token?: string): Promise<AgesView>;
   news(code: string, month?: string, token?: string): Promise<NewsView>;
   holdings(code: string, gameMasterToken: string): Promise<HoldingsView>;
   advance(code: string, gameMasterToken: string): Promise<GameView>;

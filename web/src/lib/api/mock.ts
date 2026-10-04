@@ -377,6 +377,8 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
         return { month: g.currentMonth, players };
       }),
 
+    ages: () => respond(() => ({ ended: [] })),
+
     news: (code, month) =>
       respond((): NewsView => {
         const g = findGame(load(), code);

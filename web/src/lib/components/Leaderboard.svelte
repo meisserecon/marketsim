@@ -36,6 +36,12 @@
       points: (p.history ?? []).map((h) => ({ month: h.month, value: h.totalValue }))
     }))
   );
+  /** The stock market index from the same starting cash, as a dashed reference line. */
+  const withMarket = $derived(
+    view.benchmark?.history?.length
+      ? [{ id: 'market', name: view.benchmark.name, color: 'var(--ink-2)', dashed: true, points: view.benchmark.history.map((h) => ({ month: h.month, value: h.totalValue })) }, ...series]
+      : series
+  );
   const firstMonth = $derived(series.flatMap((s) => s.points.map((p) => p.month)).sort()[0] ?? view.month);
 </script>
 
@@ -45,7 +51,7 @@
   <div class="wrap" class:wide>
   {#if finalMonth}
     <div class="race">
-      <PlayersChart {series} span={{ from: firstMonth, to: finalMonth }} highlightId={meId} height={big ? 300 : wide ? 240 : 200} />
+      <PlayersChart series={withMarket} span={{ from: firstMonth, to: finalMonth }} highlightId={meId} height={big ? 300 : wide ? 240 : 200} />
     </div>
   {/if}
   <div class="list">

@@ -2,7 +2,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildApp } from "./app.js";
 import { migrate, openEmbedded, openPostgres } from "./db.js";
-import { loadMarket, loadNews } from "./market.js";
+import { loadIndex, loadMarket, loadNews } from "./market.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const market = loadMarket();
@@ -18,6 +18,7 @@ const app = await buildApp(db, market, {
   logger: process.env.LOG === "1",
   createPassword: process.env.CREATE_PASSWORD || undefined,
   news,
+  index: loadIndex(),
 });
 if (!process.env.CREATE_PASSWORD) console.warn("CREATE_PASSWORD is not set: anyone who finds /create can start a game");
 const port = Number(process.env.PORT ?? 3000);

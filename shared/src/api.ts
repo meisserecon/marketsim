@@ -20,6 +20,7 @@
  *   GET  /api/games/:code/me                (player)           -> PortfolioView
  *   POST /api/games/:code/trades            (player) TradeRequest -> TradeResponse
  *   GET  /api/games/:code/leaderboard                          -> LeaderboardView
+ *   GET  /api/games/:code/ages                                 -> AgesView (figures of the ages that have ended)
  *   GET  /api/games/:code/news?month=YYYY-MM                   -> NewsView (month defaults to the current one; later months are refused)
  *   GET  /api/games/:code/holdings          (game master)      -> HoldingsView
  *   POST /api/games/:code/advance           (game master)      -> GameView
@@ -152,8 +153,8 @@ export interface LeaderboardView {
     /** Total value at each month end since the player joined, up to and including the current month. */
     history: { month: string; totalValue: number }[];
   }[];
-  /** Value of the starting cash had it tracked the benchmark, once a benchmark series exists. */
-  benchmark?: { name: string; totalValue: number };
+  /** The starting cash had it followed the stock market index from the game's first month: now, and at each month end so far. */
+  benchmark?: { name: string; totalValue: number; history: { month: string; totalValue: number }[] };
 }
 
 /** What every player holds this month. For the game master only; players see each other's values, not positions. */
@@ -162,6 +163,16 @@ export interface HoldingsView {
   /** In leaderboard order. */
   players: { playerId: string; name: string; cash: number; totalValue: number; positions: PositionView[] }[];
 }
+
+/** How an age went, once it is over: the market's change and the best and worst assets quoted during it. */
+export interface AgeReview {
+  id: string;
+  /** Change of the stock market index over the age. */
+  market?: number;
+  best: { name: string; change: number }[];
+  worst: { name: string; change: number }[];
+}
+export interface AgesView { ended: AgeReview[] }
 
 export type GameEvent =
   | { type: "month-advanced"; game: GameView }

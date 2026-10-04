@@ -241,7 +241,7 @@
             </div>
             <div class="body">
               <p class="meta sub">
-                {#if view !== 'month'}<strong class="when">{monthName(b.month)}</strong> · {/if}<strong>{row.arc}</strong>
+                {#if view !== 'month'}<strong class="when">{monthName(b.month)}</strong> · {/if}<strong>{row.arc}</strong>{#if b.thread} · <span class="storyline" title="Storyline">{THREADS[b.thread] ?? b.thread}</span>{/if}
                 {#each b.assets as id (id)} · {nameAt(id, b.month)} <span class={(change(id, b.month) ?? 0) < 0 ? 'down' : 'up'}>{pct(change(id, b.month))}</span>{/each}
                 {#if b.move} · explains {b.move.asset} {b.move.pct > 0 ? '+' : ''}{b.move.pct}%{/if}
               </p>
@@ -390,6 +390,13 @@
   .why {
     margin: 0;
     font-style: italic;
+  }
+  .storyline {
+    padding: 0 8px;
+    border-radius: 999px;
+    background: var(--accent-wash);
+    color: var(--accent);
+    font-weight: 600;
   }
   .changed {
     margin: 4px 0 0;

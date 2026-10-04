@@ -25,34 +25,6 @@
     "licence": "fair use: IBM (IBM Archives)"
   },
   {
-    "beat": "5d4ccba3",
-    "file": "news/ibm/1985-01-pc-at.jpg",
-    "caption": "The IBM PC AT, introduced in 1984",
-    "source": "https://www.ibm.com/history/personal-computer",
-    "licence": "fair use: IBM (IBM Archives)"
-  },
-  {
-    "beat": "31d728cc",
-    "file": "news/ibm/1989-12-akers.jpg",
-    "caption": "John Akers, IBM's chairman and chief executive",
-    "source": "https://www.ibm.com/history/john-akers",
-    "licence": "fair use: IBM (IBM Archives)"
-  },
-  {
-    "beat": "f023eaee",
-    "file": "news/ibm/1992-01-akers.jpg",
-    "caption": "John Akers, IBM's chairman and chief executive",
-    "source": "https://www.ibm.com/history/john-akers",
-    "licence": "fair use: IBM (IBM Archives)"
-  },
-  {
-    "beat": "ea9d975f",
-    "file": "news/ibm/1992-12-akers.jpg",
-    "caption": "John Akers, IBM's chairman and chief executive",
-    "source": "https://www.ibm.com/history/john-akers",
-    "licence": "fair use: IBM (IBM Archives)"
-  },
-  {
     "beat": "74d5b2c3",
     "file": "news/ibm/1993-01-akers.jpg",
     "caption": "John Akers, IBM's chairman and chief executive",
@@ -177,14 +149,6 @@
     "note": "Photograph of March 2025."
   },
   {
-    "beat": "6addc520",
-    "file": "news/ibm/2026-02-krishna.jpg",
-    "caption": "Arvind Krishna, IBM's chief executive",
-    "source": "https://commons.wikimedia.org/wiki/File:Arvind_Krishna_at_SXSW_2025.jpg",
-    "licence": "CC BY-SA 4.0, photo: Bea Phi",
-    "note": "Photograph from 2025."
-  },
-  {
     "beat": "f4b08536",
     "file": "news/ibm/2026-07-krishna-poughkeepsie.jpg",
     "caption": "IBM's chief executive Arvind Krishna greets President Biden at IBM Poughkeepsie",
@@ -201,5 +165,55 @@
     "credit": "Dev Jadiya",
     "licence": "CC BY-SA 4.0, photo: Dev Jadiya",
     "note": "Lead image of the Wikipedia article \"Quantum computing\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "ea9d975f",
+    "file": "news/ibm/1992-12-armonk-new-york.jpg",
+    "caption": "Armonk, New York, 2026",
+    "source": "https://commons.wikimedia.org/wiki/File:Armonk,_NY_(55153969492).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Armonk%2C_NY_%2855153969492%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "ajay_suresh",
+    "licence": "CC BY 4.0, photo: ajay_suresh",
+    "note": "Replaces a picture that another story also used. Lead image of the Wikipedia article \"Armonk, New York\"; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "6addc520",
+    "file": "news/ibm/2026-02-ibm-z.jpg",
+    "caption": "IBM Z, 2019",
+    "source": "https://commons.wikimedia.org/wiki/File:IBM_Z15_mainframe.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/IBM_Z15_mainframe.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Agiorgio",
+    "licence": "CC BY-SA 4.0, photo: Agiorgio",
+    "note": "Replaces a picture that another story also used. Lead image of the Wikipedia article \"IBM Z\"; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "5d4ccba3",
+    "file": "news/ibm/1985-01-model-m-keyboard.jpg",
+    "caption": "Model M keyboard, 2024",
+    "source": "https://commons.wikimedia.org/wiki/File:IBM_Model_M_Spanish_Keyboard.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/IBM_Model_M_Spanish_Keyboard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Wilfredor",
+    "licence": "CC0, photo: Wilfredor",
+    "note": "Replaces a picture that another story also used. Lead image of the Wikipedia article \"Model M keyboard\"; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "31d728cc",
+    "file": "news/ibm/1989-12-ibm-system370.jpg",
+    "caption": "IBM System/370, 1972",
+    "source": "https://commons.wikimedia.org/wiki/File:Ordinateurs_centraux_348-3-001-2_(edit).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ordinateurs_centraux_348-3-001-2_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Yves Tessier",
+    "licence": "CC BY-SA 4.0, photo: Yves Tessier",
+    "note": "Replaces a picture that another story also used. Lead image of the Wikipedia article \"IBM System/370\"; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "f023eaee",
+    "file": "news/ibm/1992-01-ibm-rs6000.jpg",
+    "caption": "IBM RS/6000, 1998",
+    "source": "https://commons.wikimedia.org/wiki/File:IBM_RS6000_AIX_File_Servers_IBM.COM_1998.jpeg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/IBM_RS6000_AIX_File_Servers_IBM.COM_1998.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "https://www.flickr.com/photos/epc",
+    "licence": "CC BY-SA 2.0, photo: https://www.flickr.com/photos/epc",
+    "note": "Replaces a picture that another story also used. Lead image of the Wikipedia article \"IBM RS/6000\"; a stand-in where it does not show the event itself."
   }
 ]

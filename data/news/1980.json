@@ -34,9 +34,9 @@
       "sony"
     ],
     "source": "https://en.wikipedia.org/wiki/Walkman (read 2026-10-03)",
-    "image": "/news/life/1980-02-walkman.jpg",
-    "imageCaption": "The Sony Walkman TPS-L2, the original model, first sold in 1979",
-    "imageCredit": "Anna Gerden"
+    "image": "/news/life/1980-02-honkballer-eric-de-bruin-met-een-walkman.jpg",
+    "imageCaption": "A Dutch athlete listens to his Walkman through its light headphones, July 1983",
+    "imageCredit": "Rob Bogaerts for Anefo"
   },
   {
     "month": "1980-03",
@@ -222,21 +222,6 @@
   {
     "month": "1980-12",
     "kind": "world",
-    "headline": "1980 in review: shares up 26 percent despite record interest rates",
-    "text": "The S&P 500 ended 1980 at 135.76, up 26% on the year, after falling to about 102 in March. The Dow Jones average closed the year at 963.99, up 14.9%. The year closes with the Federal Reserve's key interest rate approaching 20 percent as it fights inflation, and on 19 December the banks' prime rate reached a record 21.5 percent, a heavy weight on shares going into 1981.",
-    "assets": [
-      "ust1985",
-      "ust1990",
-      "ust2000"
-    ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
-    "image": "/news/markets/1980-12-paul-volcker.jpg",
-    "imageCaption": "Paul Volcker, 1989",
-    "imageCredit": "Universitätsarchiv St.Gallen (HSG)"
-  },
-  {
-    "month": "1980-12",
-    "kind": "world",
     "headline": "The Fed drives its interest rate to 19 percent",
     "text": "The Federal Reserve under Paul Volcker fights inflation by making money expensive. Its interest rate, the rate at which banks lend to each other, averaged nearly 19 percent in December; in July it was 9.0 percent. Banks pass this on to their customers: even the best ones now pay 21.5 percent for a loan. Gold averaged 538 dollars, 14 percent less than in November. The numbers: the Fed's rate 18.9 percent. Inflation 12.6 percent. Unemployment 7.5 percent.",
     "assets": [
@@ -253,12 +238,17 @@
   },
   {
     "month": "1980-12",
-    "kind": "company",
-    "headline": "Card Walker becomes Disney's chairman",
-    "text": "This year Card Walker replaced Donn Tatum as chairman of Walt Disney Productions. Disney's films are struggling at the box office; its parks earn most of the money.",
+    "kind": "world",
+    "headline": "1980 in review: shares up 26 percent despite record interest rates",
+    "text": "The S&P 500 ended 1980 at 135.76, up 26% on the year, after falling to about 102 in March. The Dow Jones average closed the year at 963.99, up 14.9%. The year closes with the Federal Reserve's key interest rate approaching 20 percent as it fights inflation, and on 19 December the banks' prime rate reached a record 21.5 percent, a heavy weight on shares going into 1981.",
     "assets": [
-      "dis"
+      "ust1985",
+      "ust1990",
+      "ust2000"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)",
+    "image": "/news/markets/1980-12-paul-volcker.jpg",
+    "imageCaption": "Paul Volcker, 1989",
+    "imageCredit": "Universitätsarchiv St.Gallen (HSG)"
   }
 ]

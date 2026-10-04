@@ -50,7 +50,8 @@
     if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) indices.push({ name: 'Market', change: h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1 });
     const movers = (market?.assets ?? [])
       .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
-      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
+      // Short names keep the strip on one line: "Bankverein" for "Schweizerischer Bankverein".
+      .map((a) => ({ name: a.name.replace(/^Schweizerische[rs]? /, ''), change: a.price / a.pricePrev! - 1 }))
       .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
       .slice(0, 5);
     return { indices, movers };

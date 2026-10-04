@@ -25,8 +25,8 @@
       "pct": -6
     },
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03); https://www.fundinguniverse.com/company-histories/apple-computer-inc-history/ (read 2026-10-03); price change from data/out/aapl.json",
-    "note": "Add a note on Boeing delivering its first 767 to United Airlines.",
-    "lead": true
+    "lead": true,
+    "changed": "note to the writer addressed: the Boeing 767 has a story of its own in September 1982, when it entered service with United"
   },
   {
     "id": "78f913f2",
@@ -57,25 +57,10 @@
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
   },
   {
-    "id": "6f5bf2f2",
-    "month": "1982-08",
-    "title": "Wall Street rallies, and Apple leads the way up",
-    "what": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
-    "why": "The start of the 1982-83 bull market and of Apple's best twelve months in the game (+312% to May 1983); Apple behaved as a high-risk growth stock. (Time check: title said Wall Street 'turns', which assumes the bull market that followed.)",
-    "assets": [
-      "aapl"
-    ],
-    "move": {
-      "asset": "aapl",
-      "pct": 33
-    },
-    "source": "data/reference/sp500.json and data/out/aapl.json (monthly prices); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
-  },
-  {
     "id": "0db6cab2",
     "month": "1982-10",
     "title": "Falling interest rates power a second leap",
-    "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks.",
+    "what": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.7 percent. Inflation 4.9 percent. Unemployment 10.1 percent.",
     "why": "Same rally as August, with Apple again rising three times as much as the market.",
     "assets": [
       "aapl"
@@ -84,8 +69,10 @@
       "asset": "aapl",
       "pct": 39
     },
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)",
-    "lead": true
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "lead": true,
+    "thread": "rates",
+    "changed": "note to the writer addressed: joined the interest-rate storyline, with the three numbers and the chart"
   },
   {
     "id": "5e685bbb",
@@ -116,19 +103,39 @@
       "asset": "aapl",
       "pct": -38
     },
-    "source": "https://fortune.com/1984/02/20/apple-bites-back-fortune-1984 (read 2026-10-04)"
+    "source": "https://fortune.com/1984/02/20/apple-bites-back-fortune-1984 (read 2026-10-04)",
+    "lead": true
   },
   {
     "id": "b5ae4948",
     "month": "1984-01",
     "title": "The Macintosh",
-    "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars.",
+    "what": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars. The commercial, seen by some 43 million Americans, shows a young woman smashing the screen of a 'Big Brother' who stands for IBM.",
     "why": "The product that defined Apple's identity for a generation, though early sales disappointed.",
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/1984_(advertisement) (search result read 2026-10-04)",
+    "lead": true,
+    "link": "https://www.youtube.com/watch?v=ErwS24cBZPc",
+    "linkLabel": "Watch the '1984' advert",
+    "changed": "note to the writer addressed: link to the Super Bowl advert added (a new link field, shown under the story)"
+  },
+  {
+    "id": "49ad4dcb",
+    "month": "1984-04",
+    "title": "'Apple II Forever': a portable Apple, and the shares jump 27 percent",
+    "what": "Three months after the Macintosh, Apple showed on 24 April that it is not giving up the computer that made it big. At an event called 'Apple II Forever' it presented the Apple IIc, a small Apple II that weighs 3.4 kilograms, has the disk drive built in and can be carried from room to room. It costs 1,295 dollars, about half as much as a Macintosh, and Apple wants to sell 400,000 of them this year. The shares gained 27 percent in April.",
+    "why": "The Apple II family still earned most of Apple's money in 1984; the Macintosh needed years to take over. The link between the launch and the jump in the shares is the likely one, not a documented one.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": 27
+    },
+    "source": "https://en.wikipedia.org/wiki/Apple_IIc (read 2026-10-04)",
+    "changed": "new beat requested by the curator: explains Apple +27% in April 1984"
   },
   {
     "id": "94a7ce09",

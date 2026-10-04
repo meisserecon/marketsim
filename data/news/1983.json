@@ -26,17 +26,16 @@
     "imageCredit": "Apple Computer advertisement, from Practical Computing, March 1983 (scan: nosher.net)"
   },
   {
-    "month": "1983-01",
-    "kind": "company",
-    "headline": "Philip Morris opens a giant cigarette plant in North Carolina",
-    "text": "Philip Morris began production on 3 January at a new 260 million dollar plant in Concord, North Carolina, with 1.8 million square feet. It starts with 350 workers on one shift and is to employ 2,500 and make about 60 billion cigarettes a year by 1986. More than 32,000 people have shown interest in the jobs, which pay about 9 dollars an hour.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://www.upi.com/Archives/1983/01/03/A-new-Philip-Morris-cigarette-manufacturing-plant-that-eventually/8161410418000/ (read 2026-10-03)",
-    "image": "/news/mo/1983-01-pm-plant.jpg",
-    "imageCaption": "Philip Morris blended leaf complex, Richmond, Virginia",
-    "imageCredit": "Nyttend"
+    "month": "1983-03",
+    "kind": "world",
+    "headline": "Reagan's 'evil empire' and a shield in space",
+    "text": "On 8 March President Reagan told a meeting of evangelical Christians in Orlando that the Soviet Union is 'the focus of evil in the modern world'. On 23 March, in a televised address, he called on American scientists to give the country the means of rendering nuclear missiles 'impotent and obsolete' with a defence, partly based in space, that could destroy them in flight. Senator Edward Kennedy mocked it as 'reckless Star Wars schemes', and the name Star Wars has stuck.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Evil_Empire_speech (read 2026-10-04); https://en.wikipedia.org/wiki/Strategic_Defense_Initiative (read 2026-10-04)",
+    "thread": "soviet",
+    "image": "/news/world/1983-03-evil-empire-speech.jpg",
+    "imageCaption": "Evil Empire speech, 1983",
+    "imageCredit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989"
   },
   {
     "month": "1983-03",
@@ -66,18 +65,6 @@
   },
   {
     "month": "1983-03",
-    "kind": "world",
-    "headline": "Reagan's 'evil empire' and a shield in space",
-    "text": "On 8 March President Reagan told a meeting of evangelical Christians in Orlando that the Soviet Union is 'the focus of evil in the modern world'. On 23 March, in a televised address, he called on American scientists to give the country the means of rendering nuclear missiles 'impotent and obsolete' with a defence, partly based in space, that could destroy them in flight. Senator Edward Kennedy mocked it as 'reckless Star Wars schemes', and the name Star Wars has stuck.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Evil_Empire_speech (read 2026-10-04); https://en.wikipedia.org/wiki/Strategic_Defense_Initiative (read 2026-10-04)",
-    "thread": "soviet",
-    "image": "/news/world/1983-03-evil-empire-speech.jpg",
-    "imageCaption": "Evil Empire speech, 1983",
-    "imageCredit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989"
-  },
-  {
-    "month": "1983-03",
     "kind": "company",
     "headline": "Berkshire's net worth rose 40% in 1982",
     "text": "Buffett's letter of 3 March reports that Berkshire's net worth rose 208 million dollars, or 40%, in 1982, to 737.43 dollars per share, a compound 22% a year over 18 years. He warns the percentage will diminish as Berkshire grows. The stock market has been rising since last August.",
@@ -103,13 +90,13 @@
     "month": "1983-06",
     "kind": "world",
     "headline": "Technology shares at a record",
-    "text": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned.",
+    "text": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned. The business behind the shares is growing fast: last year more than a hundred companies sold 2.8 million personal computers for 4.9 billion dollars. Apple's sales rose 74 percent to 583 million dollars, and Intel's reached a record 900 million.",
     "assets": [
       "intc",
       "aapl",
       "ibm"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://www.islandnet.com/~kpolsson/comphist/comp1982.htm (search result read 2026-10-04); https://timeline.intel.com/1982/financial-year-1982 (search result read 2026-10-04); https://wallstreetnumbers.com/stocks/aapl/revenue (search result read 2026-10-04)",
     "image": "/news/tech/1983-06-commodore-64.jpg",
     "imageCaption": "Commodore 64, 2017",
     "imageCredit": "Evan-Amos"
@@ -163,7 +150,7 @@
     "month": "1983-11",
     "kind": "world",
     "headline": "The new American missiles arrive in Europe",
-    "text": "The first US cruise missiles arrived at RAF Greenham Common in England on 13 November, and the first Pershing II launchers reached West Germany later in the month. NATO decided in 1979 to station the missiles unless the Soviet Union scrapped its SS-20s; after the first Pershings arrived, the Soviet Union broke off the Geneva talks on medium-range weapons. Peace protesters have camped outside Greenham Common since 1981, and in April some 70,000 people formed a human chain there.",
+    "text": "The first US cruise missiles arrived at RAF Greenham Common in England on 13 November, and the first Pershing II launchers reached West Germany later in the month. The missiles are there so that NATO could hit the Soviet Union from western Europe in a war, just as the Soviet SS-20 missiles can hit western Europe. NATO decided in 1979 to station the missiles unless the Soviet Union scrapped its SS-20s; after the first Pershings arrived, the Soviet Union broke off the Geneva talks on medium-range weapons. Peace protesters have camped outside Greenham Common since 1981, and in April some 70,000 people formed a human chain there.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Greenham_Common_Women%27s_Peace_Camp (read 2026-10-03); https://en.wikipedia.org/wiki/Pershing_II (read 2026-10-03); https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03)",
     "thread": "soviet",
@@ -186,14 +173,6 @@
   {
     "month": "1983-12",
     "kind": "world",
-    "headline": "1983 in review: the recovery year, shares up 17 percent",
-    "text": "The S&P 500 gained 17% in 1983 to 164.93; it first closed above 150 on 1 March. The Dow ended at 1,258.64, up 20.3%. Inflation, above 10 percent in 1981, is down to about 3 percent, and unemployment is falling from its peak of 10.8 percent a year ago.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03)"
-  },
-  {
-    "month": "1983-12",
-    "kind": "world",
     "headline": "'Nuclear winter': a nuclear war would darken and freeze the Earth",
     "text": "A group of scientists that includes the astronomer Carl Sagan published a study in the journal Science in late December: after a nuclear war, smoke and soot from burning cities would stay in the sky for years, block the sunlight and cool the whole planet. They call it 'nuclear winter'. Harvests would fail everywhere, also in countries that no bomb had hit. A month earlier, on 20 November, about 100 million Americans watched the television film 'The Day After', which shows a town in Kansas after a nuclear attack. In the debate that followed, Sagan compared the two superpowers to enemies standing in a room awash in gasoline, one holding nine thousand matches, the other seven thousand.",
     "assets": [],
@@ -205,13 +184,11 @@
   },
   {
     "month": "1983-12",
-    "kind": "company",
-    "headline": "Recovery year: the 1,000th 737",
-    "text": "The economy began to recover in 1983 and Boeing assembled its 1,000th 737. Its new 757 and 767 are in service, and airlines are again looking at new planes, though Airbus of Europe is a growing competitor.",
-    "assets": [
-      "ba"
-    ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
+    "kind": "world",
+    "headline": "1983 in review: the recovery year, shares up 17 percent",
+    "text": "The S&P 500 gained 17% in 1983 to 164.93; it first closed above 150 on 1 March. The Dow ended at 1,258.64, up 20.3%. Inflation, above 10 percent in 1981, is down to about 3 percent, and unemployment is falling from its peak of 10.8 percent a year ago.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1980s_recession_in_the_United_States (read 2026-10-03)"
   },
   {
     "month": "1983-12",

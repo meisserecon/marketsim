@@ -18,14 +18,6 @@
     "note": "Museum specimen photographed later."
   },
   {
-    "beat": "0db6cab2",
-    "file": "news/aapl/1982-10-volcker.jpg",
-    "caption": "Paul Volcker, chairman of the Federal Reserve, with President Reagan at the White House",
-    "source": "https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_with_James_Baker_Alan_Greenspan_and_Paul_Volcker_in_The_Press_Room_As_He_Makes_a_Statement_to_The_Press_Announcing_The_Nomination_of_Alan_Greenspan_As_Chairm_-_DPLA_-_e2e164d67b3d366926ffeea2788ad8b7.jpg",
-    "licence": "public domain, photo: President (1981-1989 : Reagan). White House Photographic Off",
-    "note": "Period approximate: White House photograph from 1987; Volcker was Fed chairman 1979-1987 and no 1982 picture was found on Commons."
-  },
-  {
     "beat": "5e685bbb",
     "file": "news/aapl/1983-01-lisa-ad.jpg",
     "caption": "\"Evolution. Revolution.\": Apple's advertisement for the Lisa, with the Apple II and Apple III above it, early 1983",
@@ -321,5 +313,24 @@
     "credit": "Judae1",
     "licence": "CC BY-SA 3.0, photo: Judae1",
     "note": "Lead image of the Wikipedia article \"John Sculley\", added overnight on 4 October 2026 so that every story has a picture; a stand-in where it does not show the event itself."
+  },
+  {
+    "beat": "49ad4dcb",
+    "file": "news/aapl/1984-04-apple-iic.jpg",
+    "caption": "The Apple IIc with its small monitor, 1984",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_IIc_with_monitor.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Apple_IIc_with_monitor.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Bilby",
+    "licence": "CC BY 3.0, photo: Bilby"
+  },
+  {
+    "beat": "0db6cab2",
+    "file": "news/aapl/1982-10-rates-chart.png",
+    "caption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to October 1982",
+    "source": "https://fred.stlouisfed.org/series/FEDFUNDS",
+    "image_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
+    "credit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)",
+    "licence": "own chart; data in the public domain (FRED series FEDFUNDS, CPIAUCSL, UNRATE)",
+    "note": "Drawn by data/scripts/rate-charts.py: nothing after the month of the story is shown."
   }
 ]

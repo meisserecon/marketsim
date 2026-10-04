@@ -46,6 +46,10 @@
 
 <svelte:window onkeydowncapture={onKey} />
 
+{#snippet more(item: NewsItemView)}
+  {#if item.link}<p class="more-link"><a href={item.link} target="_blank" rel="noopener noreferrer">{item.linkLabel ?? 'More'} ↗</a></p>{/if}
+{/snippet}
+
 {#snippet tags(item: NewsItemView)}
   {#if item.assets.length}
     <p class="tags">
@@ -111,6 +115,7 @@
       {#if lead.image}<div class="lead-picture">{@render picture(lead)}</div>{/if}
       <div class="lead-text">
         <p>{lead.text}</p>
+        {@render more(lead)}
         {@render tags(lead)}
       </div>
     </section>
@@ -128,6 +133,7 @@
               <h4>{item.headline}</h4>
               {#if !beside}{@render picture(item)}{/if}
               <p>{item.text}</p>
+              {@render more(item)}
               {@render tags(item)}
             </div>
           </div>
@@ -390,6 +396,15 @@
   .story img {
     aspect-ratio: 16 / 10;
     margin-bottom: 8px;
+  }
+  .more-link {
+    margin: 6px 0 0 !important;
+    font-family: var(--font);
+    font-size: 0.85rem;
+  }
+  .more-link a {
+    color: #8a1c1c;
+    font-weight: 600;
   }
   .tags {
     margin: 8px 0 0 !important;

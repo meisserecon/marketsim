@@ -13,19 +13,6 @@
     "imageCredit": "IBM (IBM Archives)"
   },
   {
-    "month": "1982-01",
-    "kind": "company",
-    "headline": "An oil glut, and the oil-service darlings slide",
-    "text": "The world has too much oil. Demand in the free world fell to about 47 million barrels a day in 1981 from 49.5 million in 1980, and in October OPEC cut its base price by 2 dollars to 34 dollars a barrel, the first cut since it was founded in 1960. Analysts are divided on whether the glut will last. Schlumberger's shares are down more than a third from their record of November 1980.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://www.upi.com/Archives/1982/01/01/Focus-82-Global-oil-glut-cuts-prices/3355378709200/ (read 2026-10-03); data/out/slb.json (share price versus November 1980)",
-    "image": "/news/slb/1982-01-north-sea-rig.jpg",
-    "imageCaption": "An offshore oil platform with its gas flare in the North Sea, 1975",
-    "imageCredit": "unknown author"
-  },
-  {
     "month": "1982-03",
     "kind": "world",
     "headline": "Gold falls to 330 dollars as inflation retreats",
@@ -91,14 +78,6 @@
   {
     "month": "1982-06",
     "kind": "world",
-    "headline": "Israel invades Lebanon",
-    "text": "Israeli forces invaded Lebanon on 6 June with about 60,000 troops and more than 800 tanks, saying they would push PLO fighters 40 kilometres back from the border. By the end of the month they stood at the edge of Beirut, surrounding PLO and Syrian forces in the west of the city.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War (read 2026-10-03)"
-  },
-  {
-    "month": "1982-06",
-    "kind": "world",
     "headline": "A million people march against the bomb",
     "text": "On 12 June about one million people filled the streets of New York to demand an end to the arms race, the largest peace rally in American history. The United States and the Soviet Union each keep enough nuclear missiles to destroy the other even after being attacked first, so neither could win a war: the idea is called 'mutual assured destruction', MAD for short. At the last count the Soviet Union had about 30,000 nuclear warheads and the United States 23,000. Together they have the force of more than a million Hiroshima bombs, far more than it would take to destroy every city on Earth: people call it 'overkill'. The marchers want a 'freeze': both sides should stop building, testing and deploying new weapons.",
     "assets": [],
@@ -109,25 +88,25 @@
     "imageCredit": "US Air Force"
   },
   {
-    "month": "1982-07",
-    "kind": "company",
-    "headline": "Goizueta's two bets: Columbia Pictures and Diet Coke",
-    "text": "Coca-Cola unveiled Diet Coke on 8 July and launched it in New York City; it is to reach most of the United States by the end of the year. It is the first new product to carry the Coca-Cola trademark since 1886. Last month the company agreed to buy the Hollywood studio Columbia Pictures for about 750 million dollars, a controversial move: chairman Goizueta argues entertainment has good growth prospects and can use Coca-Cola's skill in market research. Pepsi has been gaining market share in soft drinks.",
-    "assets": [
-      "ko"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Diet_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Columbia Pictures section, read 2026-10-03)",
-    "image": "/news/ko/1982-07-diet-coke-premiere.jpg",
-    "imageCaption": "The Rockettes at the 'world premiere' of Diet Coke, Radio City Music Hall, New York, July 1982",
-    "imageCredit": "The Coca-Cola Company (company picture)"
+    "month": "1982-06",
+    "kind": "world",
+    "headline": "Israel invades Lebanon",
+    "text": "Israeli forces invaded Lebanon on 6 June with about 60,000 troops and more than 800 tanks, saying they would push PLO fighters 40 kilometres back from the border. By the end of the month they stood at the edge of Beirut, surrounding PLO and Syrian forces in the west of the city.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War (read 2026-10-03)"
   },
   {
     "month": "1982-07",
-    "kind": "colour",
-    "headline": "Italy win the World Cup in Spain",
-    "text": "Italy beat West Germany 3-1 in the World Cup final in Madrid on 11 July, with goals from Paolo Rossi, Marco Tardelli and Alessandro Altobelli. It is Italy's third title. Rossi was named the tournament's top scorer and best player.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_final (read 2026-10-03)"
+    "kind": "company",
+    "headline": "Diet Coke: the first new Coca-Cola in almost a hundred years",
+    "text": "Coca-Cola unveiled Diet Coke on 8 July and launched it in New York City; it is to reach most of the United States by the end of the year. It is the first new product to carry the Coca-Cola trademark since 1886. The company can afford a big launch: last year it earned 447 million dollars on sales of 5.9 billion. Pepsi has been gaining market share in soft drinks.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Diet_Coke (read 2026-10-03); https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Columbia Pictures section, read 2026-10-03); https://www.upi.com/Archives/1983/02/14/Coca-Cola-earnings-up-recommends-dividend-increase/9194414046800/ (search result read 2026-10-04); https://ycharts.com/companies/KO/revenues_annual (search result read 2026-10-04)",
+    "image": "/news/ko/1982-07-diet-coke-premiere.jpg",
+    "imageCaption": "The Rockettes at the 'world premiere' of Diet Coke, Radio City Music Hall, New York, July 1982",
+    "imageCredit": "The Coca-Cola Company (company picture)"
   },
   {
     "month": "1982-07",
@@ -156,16 +135,6 @@
     "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
-    "month": "1982-08",
-    "kind": "company",
-    "headline": "Wall Street rallies, and Apple leads the way up",
-    "text": "The stock market rose 12% in August after a long slide during the recession. Fast-growing technology companies such as Apple, whose shares had more than halved since the start of 1981, rose much more than the market.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "data/reference/sp500.json and data/out/aapl.json (monthly prices); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03)"
-  },
-  {
     "month": "1982-09",
     "kind": "world",
     "headline": "Gold jumps 20 percent as rates fall and Mexico wobbles",
@@ -182,17 +151,31 @@
     "imageCredit": "White House Photographic Office, Reagan Library"
   },
   {
+    "month": "1982-09",
+    "kind": "company",
+    "headline": "The Boeing 767 carries its first passengers",
+    "text": "Boeing delivered the first 767 to United Airlines on 19 August, and on 8 September it flew its first paying passengers from Chicago to Denver. The 767 is Boeing's first wide-body aircraft with only two engines, and the first big jet flown by two pilots instead of three, helped by computer screens in the cockpit. It seats about 216 people. Boeing spent 3.5 to 4 billion dollars developing it together with its smaller sister, the 757; United ordered the first 30 back in 1978.",
+    "assets": [
+      "ba"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-04)",
+    "image": "/news/ba/1982-09-boeing-767.jpg",
+    "imageCaption": "A Boeing 767, here a later, longer version flying for Delta Air Lines",
+    "imageCredit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk)"
+  },
+  {
     "month": "1982-10",
     "kind": "company",
     "headline": "Falling interest rates power a second leap",
-    "text": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks.",
+    "text": "By October inflation had fallen to about 5% and long-term interest rates were coming down as the Federal Reserve let its key rate fall back to about 9%. The stock market rose another 11% in October. Apple, the best-known maker of personal computers, is one of the most popular growth stocks. The numbers: the Fed's rate 9.7 percent. Inflation 4.9 percent. Unemployment 10.1 percent.",
     "assets": [
       "aapl"
     ],
-    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices)",
-    "image": "/news/aapl/1982-10-volcker.jpg",
-    "imageCaption": "Paul Volcker, chairman of the Federal Reserve, with President Reagan at the White House",
-    "imageCredit": "President (1981-1989 : Reagan). White House Photographic Off"
+    "source": "https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); data/reference/sp500.json and data/out/aapl.json (monthly prices); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
+    "thread": "rates",
+    "image": "/news/aapl/1982-10-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to October 1982",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "1982-10",

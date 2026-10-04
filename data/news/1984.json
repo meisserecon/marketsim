@@ -3,27 +3,16 @@
     "month": "1984-01",
     "kind": "company",
     "headline": "The Macintosh",
-    "text": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars.",
+    "text": "Apple presented the Macintosh on 24 January, two days after a 1.5 million dollar television commercial by the film director Ridley Scott ran during the Super Bowl. The Mac is worked with a mouse and pictures on the screen, has a 9-inch screen and 128 kilobytes of memory, and costs 2,495 dollars. The commercial, seen by some 43 million Americans, shows a young woman smashing the screen of a 'Big Brother' who stands for IBM.",
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K (read 2026-10-03, via data/news/1984.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/1984_(advertisement) (search result read 2026-10-04)",
+    "link": "https://www.youtube.com/watch?v=ErwS24cBZPc",
+    "linkLabel": "Watch the '1984' advert",
     "image": "/news/aapl/1984-01-macintosh.jpg",
     "imageCaption": "Steve Jobs with the Macintosh, January 1984",
     "imageCredit": "Bernard Gotfryd (Library of Congress)"
-  },
-  {
-    "month": "1984-01",
-    "kind": "company",
-    "headline": "Ray Kroc dies",
-    "text": "Ray Kroc, who built McDonald's from a single restaurant he franchised in 1955, died of heart failure in San Diego on 14 January, aged 81. McDonald's now has about 7,500 restaurants in the United States and 31 other countries and territories. Fred Turner is chairman and Michael Quinlan president.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Ray_Kroc (read 2026-10-03); https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03)",
-    "image": "/news/mcd/1984-01-kroc-hamburger.jpg",
-    "imageCaption": "Ray Kroc, the founder of McDonald's Corporation, with a hamburger in front of one of his restaurants",
-    "imageCredit": "Associated Press"
   },
   {
     "month": "1984-01",
@@ -38,8 +27,8 @@
   {
     "month": "1984-02",
     "kind": "company",
-    "headline": "Diet Coke takes off; Columbia earns more than expected",
-    "text": "Coca-Cola's net income rose 9% to 559 million dollars in 1983 on revenue of 6.8 billion. Diet Coke, launched only in July 1982, captured 17% of the fast-growing US diet soft drink market by the end of 1983 and became the fourth best-selling soft drink in North America; it has been introduced in 28 markets abroad. Columbia Pictures' profits in its first full year were well above expectations. Coca-Cola products make up more than 35% of the soft drinks drunk worldwide.",
+    "headline": "Diet Coke takes off",
+    "text": "Coca-Cola's net income rose 9% to 559 million dollars in 1983 on revenue of 6.8 billion. Diet Coke, launched only in July 1982, captured 17% of the fast-growing US diet soft drink market by the end of 1983 and became the fourth best-selling soft drink in North America; it has been introduced in 28 markets abroad. Coca-Cola products make up more than 35% of the soft drinks drunk worldwide.",
     "assets": [
       "ko"
     ],
@@ -82,6 +71,19 @@
     "source": "https://timeline.intel.com/1983/financial-year-1983 (read 2026-10-03)"
   },
   {
+    "month": "1984-04",
+    "kind": "company",
+    "headline": "'Apple II Forever': a portable Apple, and the shares jump 27 percent",
+    "text": "Three months after the Macintosh, Apple showed on 24 April that it is not giving up the computer that made it big. At an event called 'Apple II Forever' it presented the Apple IIc, a small Apple II that weighs 3.4 kilograms, has the disk drive built in and can be carried from room to room. It costs 1,295 dollars, about half as much as a Macintosh, and Apple wants to sell 400,000 of them this year. The shares gained 27 percent in April.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Apple_IIc (read 2026-10-04)",
+    "image": "/news/aapl/1984-04-apple-iic.jpg",
+    "imageCaption": "The Apple IIc with its small monitor, 1984",
+    "imageCredit": "Bilby"
+  },
+  {
     "month": "1984-05",
     "kind": "company",
     "headline": "Swiss voters keep bank secrecy",
@@ -107,19 +109,6 @@
     "source": "https://time.com/archive/6860495/greenmailing-mickey-mouse/ (read 2026-10-03)",
     "image": "/news/dis/1984-06-magic-kingdom.jpg",
     "imageCaption": "Magic Kingdom, Walt Disney World, 1982 ;;"
-  },
-  {
-    "month": "1984-07",
-    "kind": "company",
-    "headline": "GE buys a big reinsurer and builds a finance arm",
-    "text": "General Electric paid Texaco 1.075 billion dollars in cash for Employers Reinsurance, one of the three largest US property and casualty reinsurers. It formed General Electric Financial Services to hold it together with GE Credit, which has 16 billion dollars of assets and is the largest diversified finance and leasing company in the country.",
-    "assets": [
-      "ge"
-    ],
-    "source": "https://www.upi.com/Archives/1984/07/02/General-Electric-Corp-expanded-its-interests-into-fast-growth-financial/8730457588800/ (read 2026-10-03)",
-    "image": "/news/ge/1984-07-welch.jpg",
-    "imageCaption": "Jack Welch, chairman and chief executive of General Electric",
-    "imageCredit": "Challenge Future"
   },
   {
     "month": "1984-08",
@@ -193,15 +182,5 @@
       "ust2000"
     ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
-  },
-  {
-    "month": "1984-12",
-    "kind": "company",
-    "headline": "Siemens bets on memory chips with the MEGA project",
-    "text": "This year Siemens launched the MEGA project to develop memory chips that hold 1 and 4 million bits. US and Japanese firms dominate the semiconductor industry, and Siemens wants to catch up.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
   }
 ]

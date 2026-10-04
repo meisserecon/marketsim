@@ -40,18 +40,20 @@
       "pct": 48
     },
     "thread": "rates",
-    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json; https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/UNRATE.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)"
+    "source": "https://www.upi.com/Archives/1982/08/18/Wall-Street-has-first-100-million-share-day/9743398491200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-03). The 12 August low of 777 is from data/news/1982.json.; price changes from data/out/ba.json and data/out/aapl.json; https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/UNRATE.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
+    "lead": true
   },
   {
-    "id": "10db7685",
-    "month": "1983-12",
-    "title": "Recovery year: the 1,000th 737",
-    "what": "The economy began to recover in 1983 and Boeing assembled its 1,000th 737. Its new 757 and 767 are in service, and airlines are again looking at new planes, though Airbus of Europe is a growing competitor.",
-    "why": "The 1983-1985 upswing (+29%, +29%, +38%).",
+    "id": "2c4773bd",
+    "month": "1982-09",
+    "title": "The Boeing 767 carries its first passengers",
+    "what": "Boeing delivered the first 767 to United Airlines on 19 August, and on 8 September it flew its first paying passengers from Chicago to Denver. The 767 is Boeing's first wide-body aircraft with only two engines, and the first big jet flown by two pilots instead of three, helped by computer screens in the cockpit. It seats about 216 people. Boeing spent 3.5 to 4 billion dollars developing it together with its smaller sister, the 757; United ordered the first 30 back in 1978.",
+    "why": "Two engines and two pilots make flying cheaper: the 767 opens the age of twin-engine jets across the oceans and sells for more than forty years.",
     "assets": [
       "ba"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Boeing (read 2026-10-03, '1980s' section)"
+    "source": "https://en.wikipedia.org/wiki/Boeing_767 (read 2026-10-04)",
+    "changed": "new beat from a note to the writer (the note sat on an Apple beat)"
   },
   {
     "id": "5f74b5d8",

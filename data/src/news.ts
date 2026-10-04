@@ -16,7 +16,7 @@ const NEWS = path.join(DATA_DIR, "news");
 
 interface Beat {
   id: string; month: string; title: string; what: string; assets: string[]; move?: { asset: string; pct: number };
-  source: string; lead?: boolean; thread?: string;
+  source: string; lead?: boolean; thread?: string; link?: string; linkLabel?: string;
 }
 interface Picture { beat: string; file: string; caption: string; credit?: string; licence: string }
 
@@ -64,6 +64,7 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
     items.push({
       month: b.month, kind, headline: b.title, text: b.what, assets: tagged, source: b.source,
       ...(b.thread ? { thread: b.thread } : {}),
+      ...(b.link ? { link: b.link, linkLabel: b.linkLabel ?? "More" } : {}),
       ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),
       // The lead first, then entries and exits, then world news before company news, the bigger price move first.
       rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + (company ? 2 : 1) - Math.min(0.9, Math.abs(b.move?.pct ?? 0) / 100),

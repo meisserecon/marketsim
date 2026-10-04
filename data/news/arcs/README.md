@@ -61,6 +61,7 @@ A JSON array in ascending month order:
 - There are no priorities and no hidden beats: every beat in a file is shown to the players. A beat that should not be shown is deleted (git keeps it).
 - `source`: where the facts come from, with the date read. Nothing from memory alone.
 - `changed`: optional, set by a writer on a beat it added, restored or rewrote after the curator's review: one line on what was done and why. The review desk lists these under "Changed"; the curator clears the mark when he accepts the beat.
+- `link`, `linkLabel`: optional, a web address shown under the story with the words to click on (e.g. a film of the event).
 - `thread`: optional, the grand storyline the beat belongs to (a key of `THREADS` in `shared/src/news.ts`, e.g. `euro`). Each storyline is described in `data/news/threads/<thread>.md` and must read as a continuous story: early signs, escalation, peak, aftermath.
 
 ## Coverage rules

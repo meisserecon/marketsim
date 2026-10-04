@@ -1,16 +1,5 @@
 [
   {
-    "id": "001d79d5",
-    "month": "1981-12",
-    "title": "A strong dollar hits Siemens in dollar terms",
-    "what": "Siemens shares lost about a third of their dollar value in 1981. Much of it is the currency: the dollar rose from about 2 marks in January to 2.5 marks in August.",
-    "why": "A reminder that for a dollar player a German stock is also a bet on the mark. Siemens' dollar price bottoms in mid-1982, the lowest of the game.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "data/out/siemens.json (read 2026-10-03); data/raw/fred/EXGEUS.csv (read 2026-10-03)"
-  },
-  {
     "id": "dbebbfa8",
     "month": "1983-08",
     "title": "Siemens installs its first commercial MRI scanner",
@@ -19,18 +8,8 @@
     "assets": [
       "siemens"
     ],
-    "source": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/mri (read 2026-10-03)"
-  },
-  {
-    "id": "52164536",
-    "month": "1984-12",
-    "title": "Siemens bets on memory chips with the MEGA project",
-    "what": "This year Siemens launched the MEGA project to develop memory chips that hold 1 and 4 million bits. US and Japanese firms dominate the semiconductor industry, and Siemens wants to catch up.",
-    "why": "The start of the semiconductor business that Siemens spins off as Infineon in 1999; with Toshiba it became the first Western maker to mass-produce 1-megabit chips in 1987.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+    "source": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/mri (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "8feab122",

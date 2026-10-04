@@ -29,6 +29,9 @@ export interface NewsItem {
   text: string;
   /** Ids of the companies concerned; empty when none. */
   assets: string[];
+  /** An optional link shown under the story, e.g. to a film of the event, with the words to click on. */
+  link?: string;
+  linkLabel?: string;
   /** The storyline this item continues, a key of THREADS. */
   thread?: string;
   /** Where the facts come from. For maintainers; not sent to players. */

@@ -3,15 +3,16 @@
     "id": "388ba00b",
     "month": "1983-06",
     "title": "Technology shares at a record",
-    "what": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned.",
+    "what": "The Nasdaq index closed at a record 328.91 on 24 June, about 40% higher than at the start of the year. Computer and chip companies lead the rise: Intel gained about 30% in June alone. IBM has sold its PC far faster than it planned. The business behind the shares is growing fast: last year more than a hundred companies sold 2.8 million personal computers for 4.9 billion dollars. Apple's sales rose 74 percent to 583 million dollars, and Intel's reached a record 900 million.",
     "why": "The top of the 1983 high-tech boom. By July 1984 the Nasdaq was 32% lower as home computers turned into a price war.",
     "assets": [
       "intc",
       "aapl",
       "ibm"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03)",
-    "lead": true
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); data/out/intc.json (read 2026-10-03); https://en.wikipedia.org/wiki/IBM_Personal_Computer (read 2026-10-03); https://www.islandnet.com/~kpolsson/comphist/comp1982.htm (search result read 2026-10-04); https://timeline.intel.com/1982/financial-year-1982 (search result read 2026-10-04); https://wallstreetnumbers.com/stocks/aapl/revenue (search result read 2026-10-04)",
+    "lead": true,
+    "changed": "note to the writer addressed: sales figures of 1982 added"
   },
   {
     "id": "0d836c9c",

@@ -214,10 +214,11 @@
     "id": "06c51d27",
     "month": "2010-09",
     "title": "German car shares race ahead",
-    "what": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month.",
+    "what": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month. BMW gained 32 percent in the month and Daimler 30 percent.",
     "why": "+30% in dollars: about 21% in euros plus the euro's rebound after the spring's Greek crisis. German auto shares rose 56% in 2010.",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "bmw"
     ],
     "move": {
       "asset": "mercedes",
@@ -225,7 +226,7 @@
     },
     "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
     "lead": true,
-    "note": "Add reference to BMW"
+    "changed": "note to the writer addressed: BMW added (text and tag)"
   },
   {
     "id": "e5f568f3",

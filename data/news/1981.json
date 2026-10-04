@@ -293,18 +293,5 @@
       "aapl"
     ],
     "source": "https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)"
-  },
-  {
-    "month": "1981-12",
-    "kind": "company",
-    "headline": "A strong dollar hits Siemens in dollar terms",
-    "text": "Siemens shares lost about a third of their dollar value in 1981. Much of it is the currency: the dollar rose from about 2 marks in January to 2.5 marks in August.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "data/out/siemens.json (read 2026-10-03); data/raw/fred/EXGEUS.csv (read 2026-10-03)",
-    "image": "/news/siemens/1981-12-cable.jpg",
-    "imageCaption": "Siemens Nederland presents a cable system that carries 30 channels over a single cable, March 1981",
-    "imageCredit": "Hans van Dijk for Anefo"
   }
 ]

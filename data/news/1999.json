@@ -149,17 +149,6 @@
   },
   {
     "month": "1999-05",
-    "kind": "colour",
-    "headline": "A new Star Wars film, sixteen years on",
-    "text": "Star Wars: Episode I, The Phantom Menace opened in American cinemas on 19 May, almost 16 years after Return of the Jedi. Its premiere was covered by media around the world.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace (read 2026-10-03)",
-    "image": "/news/life/1999-05-poster-for-star-wars-episode-i-the-phant.jpg",
-    "imageCaption": "Poster for Star Wars: Episode I, The Phantom Menace, 1999",
-    "imageCredit": "Lucasfilm / 20th Century Fox"
-  },
-  {
-    "month": "1999-05",
     "kind": "world",
     "headline": "Britain will sell half its gold",
     "text": "On 7 May the British government said it would sell about 395 tonnes of gold, roughly half its reserves, in auctions from July; gold stood at 282.40 dollars that day. Gold averaged 276 dollars in May, its lowest monthly average since 1979. With inflation around 2 percent (April) and shares booming, few investors want a metal that pays nothing.",
@@ -170,6 +159,19 @@
     "image": "/news/rates/1999-05-gordon-brown.jpg",
     "imageCaption": "Gordon Brown, Britain's Chancellor of the Exchequer",
     "imageCredit": "HM Treasury"
+  },
+  {
+    "month": "1999-06",
+    "kind": "company",
+    "headline": "Wal-Mart buys Britain's Asda for 10.8 billion dollars",
+    "text": "On 14 June Wal-Mart agreed to pay 6.7 billion pounds, about 10.8 billion dollars or 220 pence a share in cash, for Asda, Britain's third-largest supermarket chain. Its offer trumped a merger planned with the British retailer Kingfisher, which withdrew. Asda's board recommends the bid.",
+    "assets": [
+      "wmt"
+    ],
+    "source": "https://money.cnn.com/1999/06/14/worldbiz/asda/ (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Asda (read 2026-10-03)",
+    "image": "/news/wmt/1999-06-asda.jpg",
+    "imageCaption": "An Asda supermarket, Britain",
+    "imageCredit": "David Anstiss"
   },
   {
     "month": "1999-06",
@@ -209,19 +211,6 @@
     "image": "/news/ko/1999-06-coca-cola-can.jpg",
     "imageCaption": "A European Coca-Cola can",
     "imageCredit": "M0tty"
-  },
-  {
-    "month": "1999-06",
-    "kind": "company",
-    "headline": "Wal-Mart buys Britain's Asda for 10.8 billion dollars",
-    "text": "On 14 June Wal-Mart agreed to pay 6.7 billion pounds, about 10.8 billion dollars or 220 pence a share in cash, for Asda, Britain's third-largest supermarket chain. Its offer trumped a merger planned with the British retailer Kingfisher, which withdrew. Asda's board recommends the bid.",
-    "assets": [
-      "wmt"
-    ],
-    "source": "https://money.cnn.com/1999/06/14/worldbiz/asda/ (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Asda (read 2026-10-03)",
-    "image": "/news/wmt/1999-06-asda.jpg",
-    "imageCaption": "An Asda supermarket, Britain",
-    "imageCredit": "David Anstiss"
   },
   {
     "month": "1999-07",
@@ -303,6 +292,19 @@
   },
   {
     "month": "1999-09",
+    "kind": "company",
+    "headline": "Coca-Cola warns: fourth quarterly profit decline in a row",
+    "text": "On 3 September Coca-Cola warned that third-quarter earnings will fall short of forecasts, at 34 to 35 cents a share against 36 expected, because of weak sales abroad and higher marketing costs, and that the European recall will cut another 2 to 3 cents. It would be the fourth straight quarter of lower earnings. In June chairman Ivester had said 'the worst is behind us.' The shares lost about 19% in September.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.latimes.com/archives/la-xpm-1999-sep-04-fi-6777-story.html (read 2026-10-03); move from data/out/ko.json",
+    "image": "/news/ko/1999-09-atlanta-tower.jpg",
+    "imageCaption": "Coca-Cola headquarters tower, Atlanta",
+    "imageCredit": "DXR"
+  },
+  {
+    "month": "1999-09",
     "kind": "world",
     "headline": "147 million online, and a book called 'Dow 36,000'",
     "text": "At the start of this year 147 million people used the internet, again twice as many as the year before. The forecasts grow with it. A new book by James Glassman and Kevin Hassett, 'Dow 36,000', argues that shares are still far too cheap: the Dow Jones index of big American companies should stand about four times higher than today, at 36,000, within a few years.",
@@ -314,17 +316,17 @@
     "imageCredit": "American Enterprise Institute"
   },
   {
-    "month": "1999-09",
+    "month": "1999-10",
     "kind": "company",
-    "headline": "Coca-Cola warns: fourth quarterly profit decline in a row",
-    "text": "On 3 September Coca-Cola warned that third-quarter earnings will fall short of forecasts, at 34 to 35 cents a share against 36 expected, because of weak sales abroad and higher marketing costs, and that the European recall will cut another 2 to 3 cents. It would be the fourth straight quarter of lower earnings. In June chairman Ivester had said 'the worst is behind us.' The shares lost about 19% in September.",
+    "headline": "Florida court revives a giant smokers' class action: bankruptcy fears",
+    "text": "In July a Miami jury in the Engle class action found the tobacco companies liable to Florida's sick smokers, estimated at 500,000 to a million people. In October a panel of three appeals judges ruled that punitive damages must be decided in one lump sum for the whole class, and analysts say they could exceed 300 billion dollars. Philip Morris shares fell to about 21 dollars, down almost 40% since August; experts say bankruptcy of the tobacco companies is a real possibility. This year Philip Morris began saying on its website, for the first time, that smoking can cause lung cancer and other diseases.",
     "assets": [
-      "ko"
+      "mo"
     ],
-    "source": "https://www.latimes.com/archives/la-xpm-1999-sep-04-fi-6777-story.html (read 2026-10-03); move from data/out/ko.json",
-    "image": "/news/ko/1999-09-atlanta-tower.jpg",
-    "imageCaption": "Coca-Cola headquarters tower, Atlanta",
-    "imageCredit": "DXR"
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1116948/ (BMJ, 30 October 1999, read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (website, read 2026-10-03)",
+    "image": "/news/mo/1999-10-dade-courthouse.jpg",
+    "imageCaption": "Dade County Courthouse, Miami, Florida",
+    "imageCredit": "Tamanoeconomico"
   },
   {
     "month": "1999-10",
@@ -355,19 +357,6 @@
   {
     "month": "1999-10",
     "kind": "company",
-    "headline": "Florida court revives a giant smokers' class action: bankruptcy fears",
-    "text": "In July a Miami jury in the Engle class action found the tobacco companies liable to Florida's sick smokers, estimated at 500,000 to a million people. In October a panel of three appeals judges ruled that punitive damages must be decided in one lump sum for the whole class, and analysts say they could exceed 300 billion dollars. Philip Morris shares fell to about 21 dollars, down almost 40% since August; experts say bankruptcy of the tobacco companies is a real possibility. This year Philip Morris began saying on its website, for the first time, that smoking can cause lung cancer and other diseases.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1116948/ (BMJ, 30 October 1999, read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (website, read 2026-10-03)",
-    "image": "/news/mo/1999-10-dade-courthouse.jpg",
-    "imageCaption": "Dade County Courthouse, Miami, Florida",
-    "imageCredit": "Tamanoeconomico"
-  },
-  {
-    "month": "1999-10",
-    "kind": "company",
     "headline": "Coca-Cola shares bounce as key markets recover",
     "text": "Coca-Cola reported on 21 October that third-quarter profit fell 11% to 787 million dollars, the fourth decline in a row, but said sales in Japan, Mexico, Brazil and the United States, four of its five biggest markets, were 'very encouraging' and that most European markets were back to their levels before the recall. It also plans to refresh the Coca-Cola Classic look and bring back the 'Enjoy' slogan in 2000. The shares, down 20% for the year before the results, gained about 22% in October.",
     "assets": [
@@ -393,18 +382,6 @@
   },
   {
     "month": "1999-11",
-    "kind": "world",
-    "headline": "Nearly ten million Americans now trade shares online",
-    "text": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
-    "assets": [],
-    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)",
-    "thread": "dotcom",
-    "image": "/news/tech/1999-11-day-trading.jpg",
-    "imageCaption": "Day trading, 2026",
-    "imageCredit": "London Stock Exchange"
-  },
-  {
-    "month": "1999-11",
     "kind": "company",
     "headline": "The GeForce sells, and Nvidia's revenue nearly triples",
     "text": "The GeForce 256 went on sale on 11 October and is in strong demand at higher prices than older chips. Nvidia's revenue for the first nine months of its financial year was 246.1 million dollars, 184% more than a year earlier, driven by its RIVA TNT2 chips and the new GeForce.",
@@ -418,6 +395,18 @@
   },
   {
     "month": "1999-11",
+    "kind": "world",
+    "headline": "Nearly ten million Americans now trade shares online",
+    "text": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
+    "assets": [],
+    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/1999-11-day-trading.jpg",
+    "imageCaption": "Day trading, 2026",
+    "imageCredit": "London Stock Exchange"
+  },
+  {
+    "month": "1999-11",
     "kind": "company",
     "headline": "ExxonMobil is born",
     "text": "The Federal Trade Commission approved the merger on 30 November, after Exxon and Mobil agreed to sell 2,431 petrol stations and other assets, and the deal closed the same day. Shareholders had approved the 81.2 billion dollar merger in May. The new Exxon Mobil Corporation, based in Irving, Texas, is the world's largest oil company and keeps the Exxon, Mobil and Esso brands.",
@@ -428,6 +417,17 @@
     "image": "/news/xom/1999-11-downtown-houston.jpg",
     "imageCaption": "ExxonMobil's downtown Houston office building, with the company flag",
     "imageCredit": "WhisperToMe"
+  },
+  {
+    "month": "1999-12",
+    "kind": "world",
+    "headline": "Yeltsin resigns; Putin takes over",
+    "text": "In a televised New Year's Eve address on 31 December Boris Yeltsin resigned as president of Russia and named his prime minister, Vladimir Putin, as acting president. Putin, a former KGB officer, became prime minister only in August. A presidential election must be held within three months.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Putin (read 2026-10-03); https://en.wikipedia.org/wiki/Boris_Yeltsin (read 2026-10-03)",
+    "image": "/news/world/1999-12-yeltsin-putin.jpg",
+    "imageCaption": "Boris Yeltsin and Vladimir Putin, Moscow, 31 December 1999",
+    "imageCredit": "Presidential Press and Information Office"
   },
   {
     "month": "1999-12",
@@ -461,17 +461,6 @@
     "image": "/news/tech/1999-12-linus-torvalds.jpg",
     "imageCaption": "Linus Torvalds, 2014",
     "imageCredit": "Krd (photo)Von Sprat (crop/extraction)"
-  },
-  {
-    "month": "1999-12",
-    "kind": "world",
-    "headline": "Yeltsin resigns; Putin takes over",
-    "text": "In a televised New Year's Eve address on 31 December Boris Yeltsin resigned as president of Russia and named his prime minister, Vladimir Putin, as acting president. Putin, a former KGB officer, became prime minister only in August. A presidential election must be held within three months.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Vladimir_Putin (read 2026-10-03); https://en.wikipedia.org/wiki/Boris_Yeltsin (read 2026-10-03)",
-    "image": "/news/world/1999-12-yeltsin-putin.jpg",
-    "imageCaption": "Boris Yeltsin and Vladimir Putin, Moscow, 31 December 1999",
-    "imageCredit": "Presidential Press and Information Office"
   },
   {
     "month": "1999-12",

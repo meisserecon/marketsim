@@ -1,18 +1,6 @@
 [
   {
     "month": "2000-01",
-    "kind": "world",
-    "headline": "AOL, an internet company, agrees to buy Time Warner",
-    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)",
-    "thread": "dotcom",
-    "image": "/news/tech/2000-01-steve-case.jpg",
-    "imageCaption": "Steve Case, 2024",
-    "imageCredit": "TechCrunch"
-  },
-  {
-    "month": "2000-01",
     "kind": "company",
     "headline": "Enron says it will trade internet bandwidth; shares soar",
     "text": "At its annual analyst meeting on 20 January, Enron presented Enron Broadband Services, a high-speed network it says is run by software intelligence, and plans to trade network capacity the way it trades gas and power. Chairman Kenneth Lay cited a 700% return to shareholders over the decade. The shares rose by more than half in the month, to a record.",
@@ -23,6 +11,18 @@
     "image": "/news/enron/2000-01-enron-building.jpg",
     "imageCaption": "The Enron Building, 1400 Smith Street, Houston",
     "imageCredit": "Dewliter"
+  },
+  {
+    "month": "2000-01",
+    "kind": "world",
+    "headline": "AOL, an internet company, agrees to buy Time Warner",
+    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/2000-01-steve-case.jpg",
+    "imageCaption": "Steve Case, 2024",
+    "imageCredit": "TechCrunch"
   },
   {
     "month": "2000-01",
@@ -52,20 +52,6 @@
   },
   {
     "month": "2000-02",
-    "kind": "listing",
-    "headline": "Pets.com, the sock puppet company, goes public",
-    "text": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11 at $11 each, raising $82.5 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it.",
-    "assets": [
-      "pets-com",
-      "amzn"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
-    "image": "/news/pets-com/2000-02-sock-puppet-filming.jpg",
-    "imageCaption": "The Pets.com sock puppet, microphone in paw, during the filming of a television commercial in Los Angeles, 11 January 2000",
-    "imageCredit": "Bob Riha, Jr./Getty Images"
-  },
-  {
-    "month": "2000-02",
     "kind": "world",
     "headline": "New economy up, old economy down",
     "text": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised. About 248 million people were online at the end of 1999, fifteen times as many as four years earlier.",
@@ -85,6 +71,20 @@
   },
   {
     "month": "2000-02",
+    "kind": "listing",
+    "headline": "Pets.com, the sock puppet company, goes public",
+    "text": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11 at $11 each, raising $82.5 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it.",
+    "assets": [
+      "pets-com",
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
+    "image": "/news/pets-com/2000-02-sock-puppet-filming.jpg",
+    "imageCaption": "The Pets.com sock puppet, microphone in paw, during the filming of a television commercial in Los Angeles, 11 January 2000",
+    "imageCredit": "Bob Riha, Jr./Getty Images"
+  },
+  {
+    "month": "2000-02",
     "kind": "company",
     "headline": "Siemens profits double and the Infineon offer opens",
     "text": "On 24 January Siemens reported that first-quarter profit nearly doubled, raised its forecast and said all divisions were in the black; sales at Infineon rose more than 70%. From 21 February investors could subscribe for 25 to 30% of Infineon ahead of a listing in Frankfurt and New York on 13 March. Siemens shares rose 31% in February.",
@@ -95,6 +95,21 @@
     "image": "/news/siemens/2000-02-infineon.jpg",
     "imageCaption": "Infineon, Siemens' chip arm, at a trade fair stand",
     "imageCredit": "Bjoertvedt"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
+    "headline": "Cisco becomes the world's most valuable company",
+    "text": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
+    "assets": [
+      "csco",
+      "msft"
+    ],
+    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
+    "thread": "dotcom",
+    "image": "/news/csco/2000-03-campus-aerial.jpg",
+    "imageCaption": "Aerial view of Cisco's San Jose campus under construction, May 1999",
+    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
     "month": "2000-03",
@@ -151,32 +166,6 @@
   {
     "month": "2000-03",
     "kind": "company",
-    "headline": "Buffett's worst year; Berkshire recovers as tech shares slide",
-    "text": "Buffett's letter of 1 March calls 1999 Berkshire's worst year under his management: book value rose just 0.5%, the worst result of his tenure both in absolute terms and compared with the S&P 500. Berkshire will buy back its shares only when they sell well below their value, he writes. On 10 March, the day the Nasdaq index reached a record 5,132, Berkshire's shares traded at 40,800 dollars, their lowest since mid-1997; since then technology shares have fallen and Berkshire's have risen sharply.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/2001pdf.pdf (read 2026-10-03)",
-    "image": "/news/brk/2000-03-buffett.jpg",
-    "imageCaption": "Warren Buffett (second from left) and Charlie Munger (right) with shareholders at a Berkshire Hathaway annual meeting, Omaha, 1998",
-    "imageCredit": "FrankTursetta"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "Out of the 'new economy', back into banks",
-    "text": "In March investors began to sell technology, media and telecom shares and the Nasdaq fell from its 10 March high; the hedge fund manager Julian Robertson closed his value-oriented Tiger funds, saying he no longer understood the markets. In Zurich the broad SPI rose in March, and Credit Suisse Group shares ended the month at 331 francs, their highest in a year.",
-    "assets": [
-      "credit-suisse"
-    ],
-    "source": "Neue Zürcher Zeitung, 1 April 2000, p. 33 ('Die überfällige Nasdaq-Korrektur'; 'Der Schweizer Aktienmarkt vom 27. bis zum 31. März: Kreuzfahrt im dichten Nebel', weekly price table), scan data/manual/scans/nzz/NZZ_2000-04-01.pdf (read 2026-10-03)",
-    "image": "/news/credit-suisse/2000-03-paradeplatz.jpg",
-    "imageCaption": "Paradeplatz, 2007",
-    "imageCredit": "Photo: Andreas Praefcke"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
     "headline": "BMW breaks up Rover and the shares jump",
     "text": "On 16 March BMW announced that it is giving up Rover. Rover Cars and the Longbridge plant go to the British investor Alchemy Partners, with BMW paying to be rid of them; Land Rover is to be sold to Ford, reportedly for 1.8 billion pounds. BMW keeps the Cowley plant near Oxford to build the new Mini. A one-off charge of 3.15 billion euros produced a net loss of 2.49 billion euros for 1999.",
     "assets": [
@@ -186,34 +175,6 @@
     "image": "/news/bmw/2000-03-longbridge.jpg",
     "imageCaption": "The Rover car plant at Longbridge, Birmingham, 1998",
     "imageCredit": "Chris Allen"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "Cisco becomes the world's most valuable company",
-    "text": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
-    "assets": [
-      "csco",
-      "msft"
-    ],
-    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
-    "thread": "dotcom",
-    "image": "/news/csco/2000-03-campus-aerial.jpg",
-    "imageCaption": "Aerial view of Cisco's San Jose campus under construction, May 1999",
-    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "PlayStation 2 goes on sale",
-    "text": "Sony released the PlayStation 2 in Japan on 4 March. It plays DVDs as well as games.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_2 (read 2026-10-03)",
-    "image": "/news/sony/2000-03-ps2.jpg",
-    "imageCaption": "The PlayStation 2 console",
-    "imageCredit": "Evan-Amos"
   },
   {
     "month": "2000-04",
@@ -247,17 +208,16 @@
     "imageCredit": "United States Department of Justice"
   },
   {
-    "month": "2000-04",
-    "kind": "company",
-    "headline": "The Nasdaq's worst week",
-    "text": "The Nasdaq composite index fell 25% in the week to April 14, including 9% on the Friday, as investors sold technology and internet shares ahead of the tax deadline.",
-    "assets": [
-      "pets-com"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "image": "/news/pets-com/2000-04-the-nasdaq-sign-on-times-square-new-york.jpg",
-    "imageCaption": "The Nasdaq sign on Times Square, New York",
-    "imageCredit": "giggel"
+    "month": "2000-05",
+    "kind": "world",
+    "headline": "'Maybe the music has stopped': the Nasdaq is down a third",
+    "text": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
+    "assets": [],
+    "source": "https://www.spokesman.com/stories/2000/may/23/markets-have-wild-ride/ (search result read 2026-10-04); https://www.cnn.com/TRANSCRIPTS/0005/16/bn.01.html (search result read 2026-10-04); https://money.cnn.com/2000/04/28/mutualfunds/soros/ (search result read 2026-10-04); https://www.safalniveshak.com/risks-of-speculating-during-rising-markets/ (search result read 2026-10-04); https://en.wikipedia.org/wiki/Julian_Robertson (read 2026-10-04); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04)",
+    "thread": "dotcom",
+    "image": "/news/tech/2000-05-george-soros.jpg",
+    "imageCaption": "George Soros, photographed years later on a visit to the European Commission",
+    "imageCredit": "European Commission (see source page)"
   },
   {
     "month": "2000-05",
@@ -269,17 +229,6 @@
     "image": "/news/life/2000-05-the-iloveyou-e-mail-with-its-love-letter.jpg",
     "imageCaption": "The 'ILOVEYOU' e-mail with its LOVE-LETTER attachment",
     "imageCredit": "Mario23"
-  },
-  {
-    "month": "2000-05",
-    "kind": "world",
-    "headline": "Swiss voters back the bilateral treaties with the EU",
-    "text": "On 21 May Swiss voters approved the seven sector agreements with the European Union, Bilaterals I, by 67.2 percent. They cover the free movement of people, land and air transport, trade barriers, farm goods, research and public procurement.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2000_Swiss_referendums (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations (read 2026-10-03)",
-    "image": "/news/world/2000-05-deiss.jpg",
-    "imageCaption": "Joseph Deiss, Switzerland's foreign minister and negotiator of the bilateral treaties",
-    "imageCredit": "World Economic Forum"
   },
   {
     "month": "2000-05",
@@ -310,32 +259,6 @@
   {
     "month": "2000-06",
     "kind": "company",
-    "headline": "Pets.com takes over its rival Petstore.com",
-    "text": "Pets.com agreed on June 12 to buy the main assets of its competitor Petstore.com in exchange for Pets.com shares, receiving $3 million in cash as part of the deal. It also gains a promotion agreement with Discovery Communications' television channels, including Animal Planet, and a marketing deal with the Safeway supermarket chain. A retail version of the sock puppet goes on sale.",
-    "assets": [
-      "pets-com"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004116/e8-k.txt (8-K, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
-    "image": "/news/pets-com/2000-06-the-petscom-sock-puppet-the-companys-adv.jpg",
-    "imageCaption": "The Pets.com sock puppet, the company's advertising mascot",
-    "imageCredit": "Atomic Taco from Seattle, WA, USA"
-  },
-  {
-    "month": "2000-06",
-    "kind": "company",
-    "headline": "eBay buys Half.com",
-    "text": "eBay acquired Half.com, a site where people sell used books, music and films at fixed prices, for $312 million in eBay shares.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
-    "image": "/news/ebay/2000-06-the-welcome-sign-of-halfway-oregon-which.jpg",
-    "imageCaption": "The welcome sign of Halfway, Oregon, which agreed in 2000 to call itself Half.com for a year",
-    "imageCredit": "Hussain Sekha"
-  },
-  {
-    "month": "2000-06",
-    "kind": "company",
     "headline": "The court orders Microsoft split in two",
     "text": "On 7 June the court ordered Microsoft to submit within four months a plan to split into two companies, one for operating systems and one for applications, which may not merge or share technology for ten years. Microsoft is appealing.",
     "assets": [
@@ -358,19 +281,6 @@
     "image": "/news/amzn/2000-07-time-person-of-the-year.jpg",
     "imageCaption": "Time's Person of the Year issue of 27 December 1999: Jeff Bezos in an Amazon shipping box, 'E-commerce is changing the way the world shops'",
     "imageCredit": "Gregory Heisler (cover photograph), TIME"
-  },
-  {
-    "month": "2000-07",
-    "kind": "company",
-    "headline": "Enron and Blockbuster plan movies on demand",
-    "text": "Enron and Blockbuster agreed a 20-year exclusive deal to stream films to homes over Enron's broadband network, with the service due to start in several U.S. cities by the end of the year.",
-    "assets": [
-      "enron"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
-    "image": "/news/enron/2000-07-a-blockbuster-video-store.jpg",
-    "imageCaption": "A Blockbuster Video store",
-    "imageCredit": "RegionalQueenslander"
   },
   {
     "month": "2000-07",

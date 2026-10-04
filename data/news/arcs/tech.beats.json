@@ -209,7 +209,8 @@
       "mcd"
     ],
     "thread": "dotcom",
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://www.stackscale.com/blog/internet-evolution-statistics/ (search result read 2026-10-04); https://www.allaboutmarketresearch.com/internet.htm (search result read 2026-10-04) (figures of Internet World Stats)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://www.stackscale.com/blog/internet-evolution-statistics/ (search result read 2026-10-04); https://www.allaboutmarketresearch.com/internet.htm (search result read 2026-10-04) (figures of Internet World Stats)",
+    "lead": true
   },
   {
     "id": "9d262fe0",
@@ -225,7 +226,20 @@
       "amzn"
     ],
     "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "lead": true
+  },
+  {
+    "id": "60096261",
+    "month": "2000-05",
+    "lead": true,
+    "title": "'Maybe the music has stopped': the Nasdaq is down a third",
+    "what": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
+    "why": "The mood turns: after March the question is no longer how high, but whether it was a bubble all along. The professionals lost both ways, those who joined in late and those who stayed out too early. The Nasdaq still had three quarters of its fall ahead of it.",
+    "assets": [],
+    "thread": "dotcom",
+    "source": "https://www.spokesman.com/stories/2000/may/23/markets-have-wild-ride/ (search result read 2026-10-04); https://www.cnn.com/TRANSCRIPTS/0005/16/bn.01.html (search result read 2026-10-04); https://money.cnn.com/2000/04/28/mutualfunds/soros/ (search result read 2026-10-04); https://www.safalniveshak.com/risks-of-speculating-during-rising-markets/ (search result read 2026-10-04); https://en.wikipedia.org/wiki/Julian_Robertson (read 2026-10-04); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04)",
+    "changed": "New Economy storyline: new lead story for May 2000 requested by the curator"
   },
   {
     "id": "dcb51390",

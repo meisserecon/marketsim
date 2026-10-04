@@ -423,19 +423,6 @@
   },
   {
     "month": "2000-11",
-    "kind": "company",
-    "headline": "Syngenta is born; Novartis is now pure healthcare",
-    "text": "Syngenta, the farm-chemicals and seeds company combining the agribusiness of Novartis and AstraZeneca, started on 13 November, based in Basel. Novartis shareholders received Syngenta shares. Novartis now makes only medicines, including low-priced copies of drugs whose patents have expired, and nutrition products.",
-    "assets": [
-      "novartis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Syngenta (read 2026-10-03); data/src/profiles.ts",
-    "image": "/news/novartis/2000-11-syngenta.jpg",
-    "imageCaption": "The Syngenta headquarters in Basel",
-    "imageCredit": "Syngenta Group"
-  },
-  {
-    "month": "2000-11",
     "kind": "world",
     "headline": "The Nasdaq's worst month since 1987; Pets.com closes",
     "text": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies.",
@@ -493,19 +480,6 @@
   },
   {
     "month": "2000-11",
-    "kind": "company",
-    "headline": "Coca-Cola walks away from Quaker Oats and settles a race lawsuit",
-    "text": "In November Coca-Cola's board pulled out of a tentative 15.75 billion dollar deal to buy Quaker Oats, the owner of the Gatorade sports drink, mainly because the price was too high. In the same month it agreed to pay 192.5 million dollars to settle a class action by African American employees, and to let an outside task force oversee its employment practices.",
-    "assets": [
-      "ko"
-    ],
-    "source": "https://www.company-histories.com/The-CocaCola-Company-Company-History.html (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (racial discrimination section, read 2026-10-03)",
-    "image": "/news/ko/2000-11-gatorade-truck.jpg",
-    "imageCaption": "A Gatorade delivery, Gatorade being the Quaker Oats brand",
-    "imageCredit": "Ser Amantio di Nicolao"
-  },
-  {
-    "month": "2000-11",
     "kind": "world",
     "headline": "Profit warnings and an undecided election send shares down 8 percent",
     "text": "Shares fell sharply in November on a stream of gloomy profit reports and signs of slower growth, with technology companies hit hardest. The presidential election of 7 November was still undecided at month's end, with Florida certifying Bush ahead by 537 votes on 26 November and court fights continuing. The online pet shop Pets.com shut down on 9 November, and the S&P 500 lost 8% in the month to 1,314.95.",
@@ -520,19 +494,6 @@
   {
     "month": "2000-11",
     "kind": "company",
-    "headline": "Chrysler's losses force a rescue team",
-    "text": "On 17 November DaimlerChrysler ousted Chrysler's president Jim Holden and sent a German team led by Dieter Zetsche to Detroit. Chrysler lost a record 579 million euros in the third quarter and its sales are falling; the group warned that profits will miss its forecast. The shares hit a low for the year.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "BBC News, 'Ailing car giant installs rescue team', 17 November 2000, http://news.bbc.co.uk/2/hi/business/1028230.stm (read 2026-10-03); F&I and Showroom, 'Chrysler to Cut Dealer Payments, Perks; Cutting 26,000 Jobs', 29 January 2001, https://www.fi-magazine.com/news/chrysler-to-cut-dealer-payments-perks-cutting-26000-jobs (read 2026-10-03)",
-    "image": "/news/mercedes/2000-11-intrepid.jpg",
-    "imageCaption": "A Dodge Intrepid, one of the Chrysler Group models built in 2000",
-    "imageCredit": "MercurySable99"
-  },
-  {
-    "month": "2000-11",
-    "kind": "company",
     "headline": "UBS takes over PaineWebber",
     "text": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets. It makes UBS a big player in American wealth management.",
     "assets": [
@@ -541,6 +502,33 @@
     "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)",
     "image": "/news/ubs/2000-11-painewebber.jpg",
     "imageCaption": "The Paine Webber office in the early twentieth century"
+  },
+  {
+    "month": "2000-11",
+    "kind": "world",
+    "headline": "Bush or Gore? America votes and has no winner",
+    "text": "Americans voted on 7 November, and three weeks later they still do not know who their next president is. Everything hangs on Florida: on election night the television networks called the state for Al Gore, then for George W. Bush, then for nobody, and Gore phoned Bush to concede and took it back. Bush led by 1,784 votes on election night and by 327 after a machine recount; Gore asked for recounts by hand in four counties, where officials now study punch cards that voters did not punch through cleanly. On 26 November Florida declared Bush the winner by 537 votes, and Gore went to court the next day.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-04)"
+  },
+  {
+    "month": "2000-12",
+    "kind": "world",
+    "headline": "The Supreme Court decides the election for Bush",
+    "text": "Five weeks after the vote of 7 November, the US Supreme Court stopped the Florida recount on 12 December in Bush v. Gore, and Al Gore conceded the next day. George W. Bush won Florida by 537 votes and the electoral college by 271 to 266, while Gore won more votes nationwide.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election (read 2026-10-03)"
+  },
+  {
+    "month": "2000-12",
+    "kind": "world",
+    "headline": "2000 in review: the first losing year in a decade",
+    "text": "The S&P 500 fell 10% in 2000 to 1,320.28, its first losing year since 1994 and its worst since 1977; the Dow lost 6.2%. Internet shares have collapsed: most are down 75% or more from their highs, and the dot-com crash has wiped out about 1.75 trillion dollars of value by November.",
+    "assets": [],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "image": "/news/markets/2000-12-greenspan-george.jpg",
+    "imageCaption": "Federal Reserve Chairman Alan Greenspan with Bank of England Governor Eddie George, Prague, 24 September 2000",
+    "imageCredit": " (IMF)"
   },
   {
     "month": "2000-12",
@@ -554,17 +542,6 @@
     "image": "/news/enron/2000-12-skilling-lay-sutton.jpg",
     "imageCaption": "Jeffrey Skilling, Kenneth Lay and Joseph Sutton of Enron, 1999 (left to right)",
     "imageCredit": "Enron Corp. (1999 annual report)"
-  },
-  {
-    "month": "2000-12",
-    "kind": "world",
-    "headline": "2000 in review: the first losing year in a decade",
-    "text": "The S&P 500 fell 10% in 2000 to 1,320.28, its first losing year since 1994 and its worst since 1977; the Dow lost 6.2%. Internet shares have collapsed: most are down 75% or more from their highs, and the dot-com crash has wiped out about 1.75 trillion dollars of value by November.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
-    "image": "/news/markets/2000-12-greenspan-george.jpg",
-    "imageCaption": "Federal Reserve Chairman Alan Greenspan with Bank of England Governor Eddie George, Prague, 24 September 2000",
-    "imageCredit": " (IMF)"
   },
   {
     "month": "2000-12",
@@ -592,21 +569,5 @@
     "image": "/news/oil/2000-12-caiso-control-room.jpg",
     "imageCaption": "A dispatcher in the control room of California's grid operator takes the call for a stage two power emergency, Alhambra, 11 December 2000",
     "imageCredit": "Photo by David McNew/Newsmakers"
-  },
-  {
-    "month": "2000-12",
-    "kind": "world",
-    "headline": "The Nasdaq's worst year: down 39%",
-    "text": "The Nasdaq ended 2000 at 2,470.52, down 39% for the year, the worst in its history, and 51% below its March record. Even a record one-day jump of 10.5% on 5 December did not last.",
-    "assets": [
-      "csco",
-      "intc",
-      "msft",
-      "amzn"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2000-12-nasdaq-screens.jpg",
-    "imageCaption": "The wall of screens inside the Nasdaq MarketSite, Times Square",
-    "imageCredit": "Luis Villa del Campo"
   }
 ]

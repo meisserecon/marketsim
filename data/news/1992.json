@@ -64,6 +64,14 @@
   },
   {
     "month": "1992-11",
+    "kind": "world",
+    "headline": "Clinton wins the White House",
+    "text": "Bill Clinton, the 46-year-old governor of Arkansas, won the US presidency on 3 November with 370 electoral votes and 43 percent of the vote, against 37.5 percent for President George Bush and 18.9 percent for the independent Ross Perot. The recession has ended, but unemployment remains above 7 percent.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election (read 2026-10-03); https://en.wikipedia.org/wiki/Early_1990s_recession_in_the_United_States (read 2026-10-03)"
+  },
+  {
+    "month": "1992-11",
     "kind": "company",
     "headline": "Cisco doubles sales and signs up telephone companies",
     "text": "Cisco reported on November 9 that sales in the quarter to late October rose 99% to $126 million and net income 115% to $33 million. It announced partnerships with Alcatel, Olivetti, Bell Atlantic and US West and new router families, including an ISDN router for Japan.",
@@ -78,19 +86,6 @@
   {
     "month": "1992-12",
     "kind": "company",
-    "headline": "IBM to cut 25,000 more jobs and warns on its dividend",
-    "text": "On 15 December IBM announced it will shed about 25,000 more employees in 1993, which may mean the first layoffs in its history, and take a charge of about 6 billion dollars. For the first time it said it might cut its dividend. The shares fell to a ten-year low of 56 dollars and dragged the whole market down.",
-    "assets": [
-      "ibm"
-    ],
-    "source": "https://www.baltimoresun.com/1992/12/16/ibm-drags-dow-down-784-points-in-5th-straight-loss/ (read 2026-10-03); https://www.lmtribune.com/northwest/in-the-red-ibm-to-cut-about-25000-workers-no-details-yet-on-where-jobs-will-be-cut-24f326fa/ (headline and summary via search result, read 2026-10-03)",
-    "image": "/news/ibm/1992-12-akers.jpg",
-    "imageCaption": "John Akers, IBM's chairman and chief executive",
-    "imageCredit": "IBM (IBM Archives)"
-  },
-  {
-    "month": "1992-12",
-    "kind": "company",
     "headline": "Nestlé buys Perrier",
     "text": "This year Nestlé took over the French mineral water group Perrier, after a contest with the Agnelli family of Italy. Perrier is still recovering from 1990, when benzene found in its bottles forced it to recall about 160 million bottles worldwide. With Vittel already in hand, Nestlé becomes a leader in bottled water.",
     "assets": [
@@ -100,6 +95,19 @@
     "image": "/news/nestle/1992-12-perrier.jpg",
     "imageCaption": "A bottle of Perrier sparkling water",
     "imageCredit": "Rodrigo Paredes"
+  },
+  {
+    "month": "1992-12",
+    "kind": "company",
+    "headline": "IBM to cut 25,000 more jobs and warns on its dividend",
+    "text": "On 15 December IBM announced it will shed about 25,000 more employees in 1993, which may mean the first layoffs in its history, and take a charge of about 6 billion dollars. For the first time it said it might cut its dividend. The shares fell to a ten-year low of 56 dollars and dragged the whole market down.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://www.baltimoresun.com/1992/12/16/ibm-drags-dow-down-784-points-in-5th-straight-loss/ (read 2026-10-03); https://www.lmtribune.com/northwest/in-the-red-ibm-to-cut-about-25000-workers-no-details-yet-on-where-jobs-will-be-cut-24f326fa/ (headline and summary via search result, read 2026-10-03)",
+    "image": "/news/ibm/1992-12-akers.jpg",
+    "imageCaption": "John Akers, IBM's chairman and chief executive",
+    "imageCredit": "IBM (IBM Archives)"
   },
   {
     "month": "1992-12",

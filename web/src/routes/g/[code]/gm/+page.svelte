@@ -378,6 +378,9 @@
   }
   .age {
     all: unset;
+    display: block;
+    /* clear the descenders of the month above (the g in August) */
+    margin-top: 0.7rem;
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: 650;

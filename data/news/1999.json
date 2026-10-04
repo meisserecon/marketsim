@@ -1,19 +1,6 @@
 [
   {
     "month": "1999-01",
-    "kind": "listing",
-    "headline": "Nvidia, a maker of 3D graphics chips, goes public",
-    "text": "Nvidia sold 3.5 million shares to the public on 22 January at 12 dollars, raising 42 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/1999-01-riva-tnt.jpg",
-    "imageCaption": "A graphics card with Nvidia's RIVA TNT chip, 1998",
-    "imageCredit": "ja:User:A758"
-  },
-  {
-    "month": "1999-01",
     "kind": "world",
     "headline": "The euro is born",
     "text": "On 1 January eleven EU countries, among them Germany, France and Italy, fixed their exchange rates irrevocably and adopted the euro, which now trades on currency markets and is used by banks and bond markets; notes and coins follow in 2002. The European Central Bank in Frankfurt sets one interest rate for all of them. Britain, Sweden and Denmark stay out, and so, of course, does Switzerland.",
@@ -27,6 +14,19 @@
     "image": "/news/world/1999-01-duisenberg-euro.jpg",
     "imageCaption": "Wim Duisenberg, president of the European Central Bank, at the launch of the euro, 31 December 1998",
     "imageCredit": "Danny Gys /  European Communities, 1998 / EC - Audiovisual Service"
+  },
+  {
+    "month": "1999-01",
+    "kind": "listing",
+    "headline": "Nvidia, a maker of 3D graphics chips, goes public",
+    "text": "Nvidia sold 3.5 million shares to the public on 22 January at 12 dollars, raising 42 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "image": "/news/nvda/1999-01-riva-tnt.jpg",
+    "imageCaption": "A graphics card with Nvidia's RIVA TNT chip, 1998",
+    "imageCredit": "ja:User:A758"
   },
   {
     "month": "1999-01",
@@ -62,7 +62,10 @@
     "assets": [
       "nokia"
     ],
-    "source": "https://money.cnn.com/1999/01/29/europe/nokia/ via web.archive.org (read 2026-10-03)"
+    "source": "https://money.cnn.com/1999/01/29/europe/nokia/ via web.archive.org (read 2026-10-03)",
+    "image": "/news/nokia/1999-01-a-nokia-5110-one-of-nokias-best-selling.jpg",
+    "imageCaption": "A Nokia 5110, one of Nokia's best-selling phones of 1998",
+    "imageCredit": "Soltys0"
   },
   {
     "month": "1999-03",
@@ -87,18 +90,10 @@
     "headline": "Dow 10,000",
     "text": "The Dow Jones average closed above 10,000 for the first time on 29 March, celebrated on the floor of the New York Stock Exchange with party hats. It was below 4,000 at the start of 1995.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03)"
-  },
-  {
-    "month": "1999-03",
-    "kind": "world",
-    "headline": "OPEC and its rivals cut together",
-    "text": "On 23 March OPEC and non-OPEC producers including Mexico and Norway agreed to cut output by a combined 2.1 million barrels a day for one year. OPEC's revenues fell about 30% in 1998. US crude rose 23% in March to about $15.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1990%E2%80%931999_world_oil_market_chronology (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/1999-03-naimi-abu-dhabi.jpg",
-    "imageCaption": "Saudi oil minister Ali al-Naimi at the Gulf oil ministers' meeting in Abu Dhabi that prepared the joint output cut, 20 March 1999",
-    "imageCredit": "Photo by -/WAM/AFP via Getty Images"
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03)",
+    "image": "/news/markets/1999-03-people-in-front-of-the-new-york-stock-ex.jpg",
+    "imageCaption": "People in front of the New York Stock Exchange at lunchtime, November 1997",
+    "imageCredit": "LBM1948"
   },
   {
     "month": "1999-03",
@@ -147,7 +142,10 @@
     "assets": [
       "enron"
     ],
-    "source": "https://enroncorp.com/corp/pressroom/releases/1999/ene/1q99ene (Enron press release, 13 April 1999; read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/1999/ene/1q99ene (Enron press release, 13 April 1999; read 2026-10-03)",
+    "image": "/news/enron/1999-04-houstons-downtown-ballpark-whose-naming.jpg",
+    "imageCaption": "Houston's downtown ballpark, whose naming rights Enron bought in 1999",
+    "imageCredit": "Another Believer"
   },
   {
     "month": "1999-05",
@@ -155,7 +153,10 @@
     "headline": "A new Star Wars film, sixteen years on",
     "text": "Star Wars: Episode I, The Phantom Menace opened in American cinemas on 19 May, almost 16 years after Return of the Jedi. Its premiere was covered by media around the world.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace (read 2026-10-03)",
+    "image": "/news/life/1999-05-poster-for-star-wars-episode-i-the-phant.jpg",
+    "imageCaption": "Poster for Star Wars: Episode I, The Phantom Menace, 1999",
+    "imageCredit": "Lucasfilm / 20th Century Fox"
   },
   {
     "month": "1999-05",
@@ -191,7 +192,10 @@
     "assets": [
       "enron"
     ],
-    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)",
+    "image": "/news/enron/1999-06-a-wessex-water-water-tower-in-england.jpg",
+    "imageCaption": "A Wessex Water water tower in England",
+    "imageCredit": "Roger Templeman"
   },
   {
     "month": "1999-06",
@@ -382,7 +386,10 @@
     "assets": [
       "ibm"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1999-10-25 'The Strategy For I.B.M.: Loss-Leader PC Sales' and 1999-10-22 'Big Blue to combine PC division with PSG')"
+    "source": "https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03, citing NYT 1999-10-25 'The Strategy For I.B.M.: Loss-Leader PC Sales' and 1999-10-22 'Big Blue to combine PC division with PSG')",
+    "image": "/news/ibm/1999-10-an-ibm-aptiva-home-computer-of-the-mid-1.jpg",
+    "imageCaption": "An IBM Aptiva home computer of the mid-1990s",
+    "imageCredit": "Ruben de Rijcke"
   },
   {
     "month": "1999-11",

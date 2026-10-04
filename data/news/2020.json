@@ -598,7 +598,10 @@
       "ust2030",
       "ust2040"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)",
+    "image": "/news/markets/2020-12-year-chart.png",
+    "imageCaption": "American shares (S&P 500) at the end of each month of 2020: up 16 percent in the year",
+    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   },
   {
     "month": "2020-12",

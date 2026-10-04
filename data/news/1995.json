@@ -10,7 +10,10 @@
       "intc",
       "msft"
     ],
-    "source": "https://en.wikipedia.org/wiki/Compaq (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Compaq (read 2026-10-03)",
+    "image": "/news/tech/1995-01-a-compaq-presario-desktop-computer.jpg",
+    "imageCaption": "A Compaq Presario desktop computer",
+    "imageCredit": "Rderijcke"
   },
   {
     "month": "1995-02",
@@ -18,22 +21,10 @@
     "headline": "Kobe earthquake, then Barings collapses on Nikkei bets",
     "text": "An earthquake struck Kobe on 17 January, killing more than 5,000 people and wrecking the port; the Nikkei fell 1,025 points the next day. On 26 February Barings, Britain's oldest merchant bank, collapsed after its Singapore trader Nick Leeson lost hundreds of millions of pounds betting on Nikkei futures.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake (read 2026-10-03); https://en.wikipedia.org/wiki/Barings_Bank (read 2026-10-03)"
-  },
-  {
-    "month": "1995-03",
-    "kind": "company",
-    "headline": "The dollar collapses, the franc soars",
-    "text": "The dollar fell to new lows in March: on 31 March it was traded at about 1.17 francs in New York, almost 13% less than at the end of 1994. The swings drove the Zurich exchange; the Swiss National Bank and the Bundesbank lowered interest rates during the last week of March. Swiss shares are down for the year in francs, and bank shares were also weighed down by currency-trading worries.",
-    "assets": [
-      "sbv",
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Neuer schwerer Schwächeanfall des Dollars'; 'Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)",
-    "image": "/news/sbv/1995-03-lusser.jpg",
-    "imageCaption": "Markus Lusser, chairman of the Swiss National Bank",
-    "imageCredit": "Regina Kühne (Universität St. Gallen, HSG Archiv)"
+    "source": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake (read 2026-10-03); https://en.wikipedia.org/wiki/Barings_Bank (read 2026-10-03)",
+    "image": "/news/asia/1995-02-a-collapsed-section-of-elevated-highway.jpg",
+    "imageCaption": "A collapsed section of elevated highway in Kobe after the earthquake, 17 January 1995",
+    "imageCredit": "Kobe (神戸市)"
   },
   {
     "month": "1995-03",
@@ -51,12 +42,17 @@
   {
     "month": "1995-03",
     "kind": "company",
-    "headline": "Profits fall for a second year",
-    "text": "Schlumberger's accounts for 1994 show net income of 536 million dollars on revenue of 6.7 billion, down 8 percent from the year before, after a 12 percent fall in 1993. US crude averaged less than 20 dollars a barrel in every month of 1994.",
+    "headline": "The dollar collapses, the franc soars",
+    "text": "The dollar fell to new lows in March: on 31 March it was traded at about 1.17 francs in New York, almost 13% less than at the end of 1994. The swings drove the Zurich exchange; the Swiss National Bank and the Bundesbank lowered interest rates during the last week of March. Swiss shares are down for the year in francs, and bank shares were also weighed down by currency-trading worries.",
     "assets": [
-      "slb"
+      "sbv",
+      "ubs",
+      "credit-suisse"
     ],
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/schlumberger-limited (1994 revenue and net income) (read 2026-10-03); Schlumberger Form 10-K for 1997, selected financial data (yearly changes), https://www.sec.gov/Archives/edgar/data/87347/0000950130-98-001558.txt (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
+    "source": "Neue Zürcher Zeitung, 1 April 1995, p. 33 ('Neuer schwerer Schwächeanfall des Dollars'; 'Die Zürcher Börse vom 27. bis zum 31. März: Diktat des Dollars an den Aktienringen'), scan data/manual/scans/nzz/NZZ_1995-04-01.pdf (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)",
+    "image": "/news/sbv/1995-03-lusser.jpg",
+    "imageCaption": "Markus Lusser, chairman of the Swiss National Bank",
+    "imageCredit": "Regina Kühne (Universität St. Gallen, HSG Archiv)"
   },
   {
     "month": "1995-04",
@@ -72,19 +68,6 @@
   {
     "month": "1995-05",
     "kind": "company",
-    "headline": "Bankverein buys S.G. Warburg",
-    "text": "The Bankverein is buying S.G. Warburg, the leading London merchant bank, for about £860 million ($1.34 billion), after earlier buying the Chicago options trader O'Connor & Associates and the Chicago asset manager Brinson Partners. Combined with its own investment bank, the business will be called SBC Warburg.",
-    "assets": [
-      "sbv"
-    ],
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)",
-    "image": "/news/sbv/1995-05-blum.jpg",
-    "imageCaption": "Georges Blum, head of the Schweizerischer Bankverein, at the St. Gallen management symposium, 1994",
-    "imageCredit": "Regina Kühne (Universität St. Gallen, HSG Archiv)"
-  },
-  {
-    "month": "1995-05",
-    "kind": "company",
     "headline": "LDDS becomes WorldCom and buys WilTel's network",
     "text": "At its annual meeting LDDS renamed itself WorldCom. It is buying WilTel Network Services of Tulsa, Oklahoma, a long-distance network operator, for $2.5 billion in cash. WorldCom lost nearly $150 million in 1994 because of the IDB merger, on revenue that doubled to $2.2 billion.",
     "assets": [
@@ -94,6 +77,19 @@
     "image": "/news/worldcom/1995-05-clinton-mississippi.jpg",
     "imageCaption": "Clinton, Mississippi, 2024",
     "imageCredit": "Chillin662"
+  },
+  {
+    "month": "1995-05",
+    "kind": "company",
+    "headline": "Bankverein buys S.G. Warburg",
+    "text": "The Bankverein is buying S.G. Warburg, the leading London merchant bank, for about £860 million ($1.34 billion), after earlier buying the Chicago options trader O'Connor & Associates and the Chicago asset manager Brinson Partners. Combined with its own investment bank, the business will be called SBC Warburg.",
+    "assets": [
+      "sbv"
+    ],
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_Bank_Corporation (read 2026-10-03)",
+    "image": "/news/sbv/1995-05-blum.jpg",
+    "imageCaption": "Georges Blum, head of the Schweizerischer Bankverein, at the St. Gallen management symposium, 1994",
+    "imageCredit": "Regina Kühne (Universität St. Gallen, HSG Archiv)"
   },
   {
     "month": "1995-06",
@@ -111,18 +107,6 @@
   {
     "month": "1995-08",
     "kind": "world",
-    "headline": "Netscape's IPO: 2.9 billion dollars for a company without profits",
-    "text": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
-    "thread": "dotcom",
-    "image": "/news/tech/1995-08-netscape-clark-andreessen.jpg",
-    "imageCaption": "Netscape's founders Jim Clark and Marc Andreessen, the 24-year-old who wrote the first popular web browser, mid-1990s",
-    "imageCredit": "press photograph"
-  },
-  {
-    "month": "1995-08",
-    "kind": "world",
     "headline": "Windows 95 launches with a billion-dollar campaign",
     "text": "Microsoft launched Windows 95 on 24 August, with the Rolling Stones' Start Me Up in its advertising and a marketing effort estimated at a billion dollars. One million copies shipped worldwide in the first four days. It has a Start button and a taskbar, and runs on Intel chips.",
     "assets": [
@@ -135,6 +119,18 @@
     "image": "/news/tech/1995-08-windows95-gates-leno.jpg",
     "imageCaption": "Bill Gates and Jay Leno on stage at the Windows 95 launch, Microsoft's campus in Redmond, 24 August 1995",
     "imageCredit": "Getty Images"
+  },
+  {
+    "month": "1995-08",
+    "kind": "world",
+    "headline": "Netscape's IPO: 2.9 billion dollars for a company without profits",
+    "text": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
+    "thread": "dotcom",
+    "image": "/news/tech/1995-08-netscape-clark-andreessen.jpg",
+    "imageCaption": "Netscape's founders Jim Clark and Marc Andreessen, the 24-year-old who wrote the first popular web browser, mid-1990s",
+    "imageCredit": "press photograph"
   },
   {
     "month": "1995-09",
@@ -156,7 +152,21 @@
     "assets": [
       "sony"
     ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)",
+    "image": "/news/sony/1995-09-the-original-sony-playstation-with-its-c.jpg",
+    "imageCaption": "The original Sony PlayStation with its controller",
+    "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "1995-11",
+    "kind": "world",
+    "headline": "Yitzhak Rabin assassinated at a peace rally",
+    "text": "Israeli Prime Minister Yitzhak Rabin was shot dead on 4 November in Tel Aviv as he left a rally for the peace process attended by more than 100,000 people. The killer, Yigal Amir, is a 25-year-old Israeli law student opposed to the Oslo Accords. Shimon Peres has taken over.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin (read 2026-10-03)",
+    "image": "/news/middle-east/1995-11-yitzhak-rabin-speaks-at-the-peace-rally.jpg",
+    "imageCaption": "Yitzhak Rabin speaks at the peace rally in Tel Aviv, 4 November 1995",
+    "imageCredit": "Israel Press and Photo Agency (I.P.P.A.) photographer"
   },
   {
     "month": "1995-11",
@@ -166,15 +176,23 @@
     "assets": [
       "dis"
     ],
-    "source": "https://en.wikipedia.org/wiki/Toy_Story (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Toy_Story (read 2026-10-03)",
+    "image": "/news/life/1995-11-poster-for-toy-story-1995.jpg",
+    "imageCaption": "Poster for Toy Story, 1995",
+    "imageCredit": "Walt Disney Pictures / Pixar"
   },
   {
-    "month": "1995-11",
-    "kind": "world",
-    "headline": "Yitzhak Rabin assassinated at a peace rally",
-    "text": "Israeli Prime Minister Yitzhak Rabin was shot dead on 4 November in Tel Aviv as he left a rally for the peace process attended by more than 100,000 people. The killer, Yigal Amir, is a 25-year-old Israeli law student opposed to the Oslo Accords. Shimon Peres has taken over.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin (read 2026-10-03)"
+    "month": "1995-12",
+    "kind": "company",
+    "headline": "Nokia warns on profits; shares plunge",
+    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
+    "image": "/news/nokia/1995-12-2110i.jpg",
+    "imageCaption": "A Nokia 2110i handset, 1995",
+    "imageCredit": "Santeri Viinamäki"
   },
   {
     "month": "1995-12",
@@ -199,21 +217,8 @@
       "ust2010"
     ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/1990s_United_States_boom (read 2026-10-03)",
-    "image": "/news/markets/1995-12-clinton-budget.jpg",
-    "imageCaption": "President Clinton meets congressional leaders on the budget, White House, 19 December 1995",
-    "imageCredit": " (White House Photograph Office)"
-  },
-  {
-    "month": "1995-12",
-    "kind": "company",
-    "headline": "Nokia warns on profits; shares plunge",
-    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
-    "assets": [
-      "nokia"
-    ],
-    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
-    "image": "/news/nokia/1995-12-2110i.jpg",
-    "imageCaption": "A Nokia 2110i handset, 1995",
-    "imageCredit": "Santeri Viinamäki"
+    "image": "/news/markets/1995-12-year-chart.png",
+    "imageCaption": "American shares (S&P 500) at the end of each month of 1995: up 34 percent in the year",
+    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   }
 ]

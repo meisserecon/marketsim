@@ -20,7 +20,10 @@
     "assets": [
       "lehman"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999, giving the 1997 figures; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (10-K fiscal 1998; read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/0000806085-99-000002.txt (Lehman press release, 7 January 1999, giving the 1997 figures; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/0001047469-99-007702.txt (10-K fiscal 1998; read 2026-10-03)",
+    "image": "/news/lehman/1998-01-lehman-brothers-office-in-frankfurt.jpg",
+    "imageCaption": "Lehman Brothers' office in Frankfurt",
+    "imageCredit": "Karsten11"
   },
   {
     "month": "1998-03",
@@ -30,7 +33,10 @@
     "assets": [
       "ibj"
     ],
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)"
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03)",
+    "image": "/news/ibj/1998-03-japans-ministry-of-finance-in-tokyo.jpg",
+    "imageCaption": "Japan's Ministry of Finance in Tokyo",
+    "imageCredit": "Kakidai"
   },
   {
     "month": "1998-04",
@@ -72,19 +78,6 @@
   },
   {
     "month": "1998-05",
-    "kind": "company",
-    "headline": "Daimler-Benz and Chrysler agree to merge",
-    "text": "On 7 May Daimler-Benz and the American car maker Chrysler signed a contract to merge into DaimlerChrysler, a deal valued at about 38 billion dollars, the largest cross-border merger ever. Schrempp calls it a merger of equals. The new company will build Mercedes, Chrysler, Jeep and Dodge cars.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1998 ('Merger: contract signed with Chrysler', 7 May 1998), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1998.xhtml?oid=4912914 (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (read 2026-10-03)",
-    "image": "/news/mercedes/1998-05-auburn-hills-michigan.jpg",
-    "imageCaption": "Auburn Hills, Michigan, 2021",
-    "imageCredit": "ajay_suresh"
-  },
-  {
-    "month": "1998-05",
     "kind": "world",
     "headline": "Eleven countries qualify for the euro; Greece does not",
     "text": "On 3 May, at a summit in Brussels, EU leaders chose the eleven countries that will adopt the euro on 1 January 1999: Germany, France, Italy, Spain, the Netherlands, Belgium, Austria, Portugal, Finland, Ireland and Luxembourg. Belgium and Italy were let in although their government debts, about 122 percent of their annual economic output in 1997, are twice the 60 percent limit. Greece failed the tests: its 1997 deficit of 4.0 percent was above the 3 percent limit, and its inflation of 5.4 percent was far too high.",
@@ -98,6 +91,19 @@
     "image": "/news/world/1998-05-eurotower-frankfurt-am-main.jpg",
     "imageCaption": "Eurotower, 2013",
     "imageCredit": "Epizentrum"
+  },
+  {
+    "month": "1998-05",
+    "kind": "company",
+    "headline": "Daimler-Benz and Chrysler agree to merge",
+    "text": "On 7 May Daimler-Benz and the American car maker Chrysler signed a contract to merge into DaimlerChrysler, a deal valued at about 38 billion dollars, the largest cross-border merger ever. Schrempp calls it a merger of equals. The new company will build Mercedes, Chrysler, Jeep and Dodge cars.",
+    "assets": [
+      "mercedes"
+    ],
+    "source": "Mercedes-Benz Classic, Illustrated Chronicle 1998 ('Merger: contract signed with Chrysler', 7 May 1998), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1998.xhtml?oid=4912914 (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (read 2026-10-03)",
+    "image": "/news/mercedes/1998-05-auburn-hills-michigan.jpg",
+    "imageCaption": "Auburn Hills, Michigan, 2021",
+    "imageCredit": "ajay_suresh"
   },
   {
     "month": "1998-06",
@@ -341,7 +347,10 @@
       "ust2005",
       "ust2010"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)",
+    "image": "/news/markets/1998-12-year-chart.png",
+    "imageCaption": "American shares (S&P 500) at the end of each month of 1998: up 26 percent in the year",
+    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   },
   {
     "month": "1998-12",

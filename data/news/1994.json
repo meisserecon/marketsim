@@ -152,6 +152,19 @@
   },
   {
     "month": "1994-12",
+    "kind": "company",
+    "headline": "The PlayStation goes on sale in Japan",
+    "text": "Sony released the PlayStation in Japan on 3 December, a week after Sega's Saturn. Launches in North America and Europe are planned for 1995.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)",
+    "image": "/news/sony/1994-12-playstation.jpg",
+    "imageCaption": "The original Sony PlayStation (SCPH-1000) with controller",
+    "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "1994-12",
     "kind": "world",
     "headline": "1994 in review: the Fed's rate rises bring the bond market's worst year",
     "text": "The S&P 500 fell 2% in 1994 to 459.27, while the Dow edged up 2.1%. Starting on 4 February the Federal Reserve raised its key rate from 3 to 5.5 percent by November, and the yield on 30-year Treasury bonds rose from 6.2 to 8.2 percent; bond investors lost about 1.5 trillion dollars worldwide. At year's end Mexico's markets are in crisis.",
@@ -161,9 +174,9 @@
       "ust2010"
     ],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)",
-    "image": "/news/markets/1994-12-clinton-greenspan.jpg",
-    "imageCaption": "President Clinton and Vice President Gore meet Federal Reserve Chairman Alan Greenspan in the Oval Office, 28 January 1993",
-    "imageCredit": " (White House Photograph Office)"
+    "image": "/news/markets/1994-12-year-chart.png",
+    "imageCaption": "American shares (S&P 500) at the end of each month of 1994: down 1 percent in the year",
+    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   },
   {
     "month": "1994-12",
@@ -187,18 +200,5 @@
     "image": "/news/siemens/1994-12-a-siemens-s3-one-of-the-companys-early-g.jpg",
     "imageCaption": "A Siemens S3, one of the company's early GSM phones",
     "imageCredit": "Ulli1105"
-  },
-  {
-    "month": "1994-12",
-    "kind": "company",
-    "headline": "The PlayStation goes on sale in Japan",
-    "text": "Sony released the PlayStation in Japan on 3 December, a week after Sega's Saturn. Launches in North America and Europe are planned for 1995.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)",
-    "image": "/news/sony/1994-12-playstation.jpg",
-    "imageCaption": "The original Sony PlayStation (SCPH-1000) with controller",
-    "imageCredit": "Evan-Amos"
   }
 ]

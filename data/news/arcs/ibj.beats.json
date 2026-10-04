@@ -31,7 +31,7 @@
     "id": "9a8e722b",
     "month": "1987-01",
     "title": "Tokyo passes 20,000; IBJ soars",
-    "what": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. IBJ shares rose 69% in January.",
+    "what": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. The cuts are meant to cushion exporters from the soaring yen: the dollar, which bought about 240 yen just before the Plaza agreement of September 1985, now buys about 153. IBJ shares rose 69% in January.",
     "why": "IBJ's best month in the game; it gains another 41% in April. Over the twelve months to April 1987 it quadruples.",
     "assets": [
       "ibj"
@@ -41,7 +41,8 @@
       "pct": 69
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03)"
+    "thread": "japan",
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)"
   },
   {
     "id": "7f5be32b",
@@ -53,6 +54,7 @@
       "ibj"
     ],
     "importance": 2,
+    "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-04); Nikkei 225: FRED series NIKKEI225 (read 2026-10-04)",
     "lead": true
   },
@@ -67,6 +69,7 @@
       "xom"
     ],
     "importance": 1,
+    "thread": "japan",
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
     "lead": true
   },
@@ -108,6 +111,7 @@
       "pct": 40
     },
     "importance": 2,
+    "thread": "japan",
     "source": "https://www.csmonitor.com/1992/0831/31011.html (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)",
     "lead": true
   },
@@ -155,13 +159,14 @@
     "id": "07c32d5a",
     "month": "1997-11",
     "title": "Yamaichi and Hokkaido Takushoku collapse",
-    "what": "Major financial firms failed almost weekly in November: Sanyo Securities on 3 November, Hokkaido Takushoku Bank, and on 24 November Yamaichi Securities, one of Japan's four largest brokers. Japanese banks' bad debts are estimated at 264 to 304 billion dollars.",
+    "what": "Major financial firms failed almost weekly in November: Sanyo Securities on 3 November, Hokkaido Takushoku Bank, and on 24 November Yamaichi Securities, one of Japan's four largest brokers. Japanese banks' bad debts are estimated at 264 to 304 billion dollars. Since the outcry over the 685 billion yen of taxpayers' money used in 1996 to wind up the jusen, the failed housing lenders, public money for banks has been almost taboo in Tokyo.",
     "why": "The peak of the 1997 crisis; politicians start to discuss public money for the banks.",
     "assets": [
       "ibj"
     ],
     "importance": 2,
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03)",
+    "thread": "japan",
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03); https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (re-read 2026-10-04)",
     "lead": true
   },
   {
@@ -206,6 +211,7 @@
       "pct": 26
     },
     "importance": 1,
+    "thread": "japan",
     "source": "https://www.deseret.com/1999/8/20/19461545/3-japanese-banks-merge/ (read 2026-10-03); https://money.cnn.com/1999/08/20/asia/japan_banks/ via web.archive.org (read 2026-10-03)"
   },
   {

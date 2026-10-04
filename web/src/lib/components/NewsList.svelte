@@ -42,7 +42,6 @@
             <button class="zoom" onclick={() => (zoomed = item)} aria-label="Show the picture larger">
               <img src={item.image} alt={item.imageCaption ?? ''} loading="lazy" />
             </button>
-            {#if item.imageCaption || item.imageCredit}<figcaption class="sub">{item.imageCaption ?? ''}{#if item.imageCredit}{item.imageCaption ? ' · ' : ''}<span class="credit">Photo: {item.imageCredit}</span>{/if}</figcaption>{/if}
           </figure>
         {/if}
         <div class="body">

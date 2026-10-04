@@ -16,6 +16,11 @@
   /** Long lines scroll slowly; the speed is steady whatever the number of headlines. */
   const seconds = $derived(Math.max(20, items.reduce((n, i) => n + i.headline.length, 0) / 5));
 
+  // The headlines only move when they do not fit on the line.
+  let tapeWidth = $state(0);
+  let setWidth = $state(0);
+  const moving = $derived(setWidth > tapeWidth + 1);
+
   function pick(id: string) {
     open = false;
     onselect?.(id);
@@ -30,13 +35,16 @@
 {#if items.length}
   <button class="ticker" onclick={() => (open = true)} aria-label="Open The News for this month">
     <span class="label">The News</span>
-    <span class="tape">
+    <span class="tape" class:moving bind:clientWidth={tapeWidth}>
       <span class="run" style:animation-duration="{seconds}s">
-        {#each [0, 1] as copy (copy)}
-          <span class="set" aria-hidden={copy === 1}>
+        <span class="set" bind:clientWidth={setWidth}>
+          {#each items as item, i (i)}<span class="headline" class:last={!moving && i === items.length - 1}>{item.headline}</span>{/each}
+        </span>
+        {#if moving}
+          <span class="set" aria-hidden="true">
             {#each items as item, i (i)}<span class="headline">{item.headline}</span>{/each}
           </span>
-        {/each}
+        {/if}
       </span>
     </span>
     <span class="more">Read</span>
@@ -89,11 +97,19 @@
   .tape {
     overflow: hidden;
     white-space: nowrap;
+  }
+  .tape.moving {
     mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
   }
-  .run {
+  .run,
+  .set {
     display: inline-block;
+  }
+  .moving .run {
     animation: slide linear infinite;
+  }
+  .headline.last::after {
+    content: none;
   }
   .ticker:hover .run {
     animation-play-state: paused;
@@ -118,7 +134,7 @@
     }
   }
   @media (prefers-reduced-motion: reduce) {
-    .run {
+    .moving .run {
       animation: none;
     }
     .set[aria-hidden='true'] {

@@ -642,20 +642,6 @@
     "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md; https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30); https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json; WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)"
   },
   {
-    "id": "2744a482",
-    "month": "2020-04",
-    "title": "Locked-down world, rescued economies",
-    "what": "Much of the world spent April at home. Governments and central banks kept adding to their rescue packages, and Switzerland's emergency loans and short-time work schemes are running. With new infections falling, Switzerland began to ease its restrictions step by step at the end of April.",
-    "why": "The money from governments and the Fed, plus the first reopenings, drove a +13% month for the S&P 500, led by Amazon, Tesla and eBay, the winners of the lockdown.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 13
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03)"
-  },
-  {
     "id": "349288ab",
     "month": "2020-11",
     "title": "Biden wins, and a vaccine works",

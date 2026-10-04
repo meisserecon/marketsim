@@ -20,6 +20,10 @@
     markets?: { indices: { name: string; change: number }[]; movers: { name: string; change: number }[] };
   }
   let { month, items, nameOf, openable, onselect, big = false, markets }: Props = $props();
+  // The strip slides only when it does not fit on one line.
+  let stripWidth = $state(0);
+  let setWidth = $state(0);
+  const sliding = $derived(setWidth > stripWidth + 1);
   const fmt = (c: number) => `${c > 0 ? '+' : c < 0 ? '−' : ''}${Math.abs(c * 100).toFixed(0)}%`;
 
   const KIND_LABEL: Record<string, string> = { listing: 'Now trading', delisting: 'Leaving the market' };
@@ -62,6 +66,12 @@
   {/if}
 {/snippet}
 
+{#snippet strip(m: NonNullable<Props['markets']>)}
+  {#each m.indices as x (x.name)}<span class="mk index">{x.name} <b class:up={x.change > 0} class:down={x.change < 0}>{fmt(x.change)}</b></span>{/each}
+  {#if m.indices.length && m.movers.length}<span class="mk-sep" aria-hidden="true"></span>{/if}
+  {#each m.movers as x (x.name)}<span class="mk">{x.name} <b class:up={x.change > 0} class:down={x.change < 0}>{fmt(x.change)}</b></span>{/each}
+{/snippet}
+
 <article class="paper" class:big>
   <header class="masthead">
     <div class="rule double"></div>
@@ -73,11 +83,17 @@
     </p>
     <div class="rule"></div>
     {#if markets && (markets.indices.length || markets.movers.length)}
-      <p class="markets">
-        {#each markets.indices as m (m.name)}<span class="mk index">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
-        {#if markets.indices.length && markets.movers.length}<span class="mk-sep" aria-hidden="true"></span>{/if}
-        {#each markets.movers as m (m.name)}<span class="mk">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
-      </p>
+      <div class="markets" class:sliding bind:clientWidth={stripWidth}>
+        <div class="run" style:animation-duration="{Math.max(18, (markets.indices.length + markets.movers.length) * 4)}s">
+          {#each sliding ? [0, 1] : [0] as copy (copy)}
+            {#if copy === 0}
+              <span class="set" bind:clientWidth={setWidth}>{@render strip(markets)}</span>
+            {:else}
+              <span class="set" aria-hidden="true">{@render strip(markets)}</span>
+            {/if}
+          {/each}
+        </div>
+      </div>
       <div class="rule"></div>
     {/if}
   </header>
@@ -181,16 +197,42 @@
     font-weight: 700;
   }
   .markets {
-    display: flex;
-    flex-wrap: nowrap;
     overflow: hidden;
-    justify-content: center;
-    align-items: baseline;
-    gap: 4px 18px;
-    margin: 4px 0 !important;
+    white-space: nowrap;
+    text-align: center;
+    margin: 4px 0;
     font-family: var(--font);
     font-size: 0.9rem;
-    hyphens: none !important;
+  }
+  .markets.sliding {
+    text-align: left;
+    mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+  }
+  .run,
+  .set {
+    display: inline-block;
+  }
+  .sliding .run {
+    animation: strip-slide linear infinite;
+  }
+  .markets:hover .run {
+    animation-play-state: paused;
+  }
+  .set > :global(*) {
+    margin: 0 9px;
+  }
+  @keyframes strip-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sliding .run {
+      animation: none;
+    }
   }
   .mk {
     white-space: nowrap;
@@ -208,13 +250,17 @@
     color: #a32222;
   }
   .mk-sep {
+    display: inline-block;
     width: 1px;
-    align-self: stretch;
+    height: 1em;
+    vertical-align: middle;
     background: rgba(42, 39, 34, 0.45);
   }
   .big .markets {
     font-size: 1.2rem;
-    gap: 6px 26px;
+  }
+  .big .set > :global(*) {
+    margin: 0 13px;
   }
   .quiet {
     text-align: center;

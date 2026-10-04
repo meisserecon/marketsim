@@ -15,8 +15,7 @@
     },
     "thread": "rates",
     "source": "data/out/gold.json (LBMA monthly averages via datahub.io/core/gold-prices, read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.federalreservehistory.org/essays/anti-inflation-measures (read 2026-10-03)",
-    "lead": true,
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "lead": true
   },
   {
     "id": "84d7f36a",
@@ -50,7 +49,6 @@
     },
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json",
     "lead": true,
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story",
     "thread": "rates"
   },
   {
@@ -68,8 +66,7 @@
       "pct": -14
     },
     "thread": "rates",
-    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story"
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
   },
   {
     "id": "80da83c4",
@@ -86,7 +83,6 @@
       "pct": -11
     },
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story",
     "thread": "rates"
   },
   {
@@ -108,8 +104,7 @@
     },
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true,
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story"
+    "lead": true
   },
   {
     "id": "12320a20",
@@ -169,8 +164,7 @@
     ],
     "thread": "rates",
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true,
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "lead": true
   },
   {
     "id": "a8281700",
@@ -182,8 +176,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "7f98fea0",
@@ -227,8 +220,7 @@
       "worldcom"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/ (read 2026-10-03); https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/ (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://money.cnn.com/2001/01/03/markets/markets_newyork/ (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "7a8b5a59",
@@ -240,8 +232,7 @@
       "bonds"
     ],
     "thread": "housing-crisis",
-    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/MORTGAGE30US.txt (read 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/MORTGAGE30US.txt (read 2026-10-04)"
   },
   {
     "id": "ad2cf020",
@@ -253,8 +244,7 @@
       "bonds"
     ],
     "source": "https://www.federalreserve.gov/boarddocs/hh/2005/february/testimony.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "b0b300fd",
@@ -270,8 +260,7 @@
       "pct": -12
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "02686580",
@@ -288,8 +277,7 @@
     },
     "thread": "rates",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
-    "lead": true,
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "lead": true
   },
   {
     "id": "ca8586b6",
@@ -301,8 +289,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "76a44a32",
@@ -314,8 +301,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "a4f7a932",
@@ -327,8 +313,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20110809a.htm (search result read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "e762e5d4",
@@ -341,8 +326,7 @@
       "bonds"
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "76331f68",
@@ -371,8 +355,7 @@
       "bonds"
     ],
     "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "eed0a3a0",
@@ -384,8 +367,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/Quantitative_easing (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "914a10c0",
@@ -397,8 +379,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)"
   },
   {
     "id": "3460c8de",
@@ -411,8 +392,7 @@
       "bonds"
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "9a55fbf6",
@@ -425,7 +405,6 @@
       "bonds"
     ],
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story",
     "thread": "rates"
   },
   {
@@ -438,8 +417,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "33f590f3",
@@ -451,8 +429,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "559196a1",
@@ -464,8 +441,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: new beat so that every year of free money (2009 to 2019) has one"
+    "source": "https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "25006799",
@@ -477,8 +453,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "d8ab1d2d",
@@ -495,8 +470,7 @@
       "pct": 7
     },
     "source": "data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "4bfdfd27",
@@ -508,8 +482,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "c806db40",
@@ -522,8 +495,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "91dd355a",
@@ -539,8 +511,7 @@
       "pct": -8
     },
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "281974e4",
@@ -556,8 +527,7 @@
       "pct": -9
     },
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); data/out/ust2030.json (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "cfcbe3df",
@@ -571,8 +541,7 @@
       "ubs"
     ],
     "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "98d41543",
@@ -584,8 +553,7 @@
       "bonds"
     ],
     "thread": "rates",
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
-    "changed": "interest-rate storyline: now told with the Fed's rate, the same metric in every story"
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)"
   },
   {
     "id": "7a7429cb",
@@ -598,8 +566,7 @@
       "bonds"
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "cb073ed8",
@@ -645,8 +612,7 @@
       "pct": -8
     },
     "source": "https://en.wikipedia.org/wiki/Kevin_Warsh (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03); https://londongoldexchange.co.uk/blog/gold-price-crash-january-2026 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "282e2f5b",
@@ -658,7 +624,6 @@
       "bonds"
     ],
     "source": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026 (read 2026-10-03); https://www.raisin.com/en-us/news/fed-rate-decision-policy-breakdown-september-2026/ (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   }
 ]

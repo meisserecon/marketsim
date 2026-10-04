@@ -149,8 +149,7 @@
     ],
     "thread": "rates",
     "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "lead": true,
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "lead": true
   },
   {
     "id": "8218e651",
@@ -269,8 +268,7 @@
       "pct": 11
     },
     "thread": "rates",
-    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "changed": "interest-rate storyline: the three numbers added (the Fed's rate, inflation, unemployment)"
+    "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)"
   },
   {
     "id": "f40c0d37",
@@ -338,8 +336,7 @@
       "pct": 8
     },
     "source": "https://www.federalreserve.gov/fomc/minutes/19981117.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "14b0fbef",
@@ -399,8 +396,7 @@
       "pct": 8
     },
     "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "542b57c2",
@@ -503,8 +499,7 @@
     "why": "The build-up to the crisis in one story: cheap loans, rising prices, and people who believe that houses cannot fall. The television show 'Flip This House' started that July; in 2005 investors bought 28 percent of all homes sold. Prices began to fall in 2006.",
     "assets": [],
     "thread": "housing-crisis",
-    "source": "https://fortune.com/2013/07/14/riding-the-boom-fortune-2005 (Fortune, 2005, republished; read 2026-10-04); https://www.nar.realtor/blogs/economists-outlook/share-of-homes-sold-by-use-2001-to-2010 (search result read 2026-10-04); https://en.wikipedia.org/wiki/Flip_This_House (search result read 2026-10-04)",
-    "changed": "Housing storyline: new build-up beat on house flipping; May 2005 had no news"
+    "source": "https://fortune.com/2013/07/14/riding-the-boom-fortune-2005 (Fortune, 2005, republished; read 2026-10-04); https://www.nar.realtor/blogs/economists-outlook/share-of-homes-sold-by-use-2001-to-2010 (search result read 2026-10-04); https://en.wikipedia.org/wiki/Flip_This_House (search result read 2026-10-04)"
   },
   {
     "id": "0c6d6aae",
@@ -612,8 +607,7 @@
       "pct": -6
     },
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "ea5fb498",
@@ -873,8 +867,7 @@
       "pct": -9
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json; https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "be310846",
@@ -890,8 +883,7 @@
       "pct": 8
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "14752fd9",
@@ -988,8 +980,7 @@
       "pct": -9
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "065d7d23",
@@ -1042,8 +1033,7 @@
       "pct": 9
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, CPIAUCSL and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "changed": "interest-rate storyline: joined the storyline"
+    "thread": "rates"
   },
   {
     "id": "65517be9",

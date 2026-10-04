@@ -40,7 +40,8 @@
       "pct": 69
     },
     "thread": "japan",
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)",
+    "lead": true
   },
   {
     "id": "7f5be32b",
@@ -66,8 +67,7 @@
       "xom"
     ],
     "thread": "japan",
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)"
   },
   {
     "id": "7e29c476",
@@ -78,7 +78,8 @@
     "assets": [
       "ibj"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "23a7fb71",

@@ -8,7 +8,8 @@
     "assets": [
       "worldcom"
     ],
-    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Bernard_Ebbers (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "note": "Title should be more explicit about the listing. \"... enters game\" or so."
   },
   {
     "id": "21a96a14",
@@ -19,7 +20,8 @@
     "assets": [
       "worldcom"
     ],
-    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
+    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "12c3fd31",

@@ -1,6 +1,20 @@
 [
   {
     "month": "1987-01",
+    "kind": "company",
+    "headline": "Tokyo passes 20,000; IBJ soars",
+    "text": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. The cuts are meant to cushion exporters from the soaring yen: the dollar, which bought about 240 yen just before the Plaza agreement of September 1985, now buys about 153. IBJ shares rose 69% in January.",
+    "assets": [
+      "ibj"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)",
+    "thread": "japan",
+    "image": "/news/ibj/1987-01-tse-artefact.jpg",
+    "imageCaption": "A control panel of the Tokyo Stock Exchange's computerised trading system, on display at the exchange",
+    "imageCredit": "Syced"
+  },
+  {
+    "month": "1987-01",
     "kind": "world",
     "headline": "The Dow passes 2,000 as shares soar 13 percent in January",
     "text": "The Dow Jones average closed above 2,000 for the first time on 8 January, and shares kept climbing all month to new highs. The S&P 500 rose 13% in January to 274.08, its biggest monthly gain since at least 1975.",
@@ -25,20 +39,6 @@
     "image": "/news/tech/1987-01-compaq-deskpro-386.jpg",
     "imageCaption": "Compaq Deskpro 386, 2023",
     "imageCredit": "Tecnoxarxa"
-  },
-  {
-    "month": "1987-01",
-    "kind": "company",
-    "headline": "Tokyo passes 20,000; IBJ soars",
-    "text": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. The cuts are meant to cushion exporters from the soaring yen: the dollar, which bought about 240 yen just before the Plaza agreement of September 1985, now buys about 153. IBJ shares rose 69% in January.",
-    "assets": [
-      "ibj"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)",
-    "thread": "japan",
-    "image": "/news/ibj/1987-01-tse-artefact.jpg",
-    "imageCaption": "A control panel of the Tokyo Stock Exchange's computerised trading system, on display at the exchange",
-    "imageCredit": "Syced"
   },
   {
     "month": "1987-02",
@@ -71,17 +71,6 @@
   },
   {
     "month": "1987-05",
-    "kind": "colour",
-    "headline": "A German teenager lands a small plane next to Red Square",
-    "text": "On 28 May Mathias Rust, an 18-year-old amateur pilot from West Germany with about 50 hours of flying experience, landed a rented Cessna on a bridge next to Red Square in Moscow. He had flown from Helsinki through Soviet air defences without being stopped. He was arrested two hours later.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Mathias_Rust (read 2026-10-03)",
-    "image": "/news/life/1987-05-rust-red-square.jpg",
-    "imageCaption": "Mathias Rust, in a red flying suit, beside his Cessna next to St Basil's Cathedral in Moscow, 28 May 1987",
-    "imageCredit": "press photograph of 1987 (agency not named by the page)"
-  },
-  {
-    "month": "1987-05",
     "kind": "company",
     "headline": "Apple pays its first dividend",
     "text": "On 11 May Apple declared its first dividend. The Macintosh Plus and the new Macintosh II with colour are selling well to businesses, designers and schools, and the Mac with Apple's LaserWriter printer has become the tool for desktop publishing.",
@@ -93,25 +82,26 @@
     "imageCaption": "The Macintosh II, introduced in March 1987"
   },
   {
+    "month": "1987-05",
+    "kind": "colour",
+    "headline": "A German teenager lands a small plane next to Red Square",
+    "text": "On 28 May Mathias Rust, an 18-year-old amateur pilot from West Germany with about 50 hours of flying experience, landed a rented Cessna on a bridge next to Red Square in Moscow. He had flown from Helsinki through Soviet air defences without being stopped. He was arrested two hours later.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Mathias_Rust (read 2026-10-03)",
+    "image": "/news/life/1987-05-rust-red-square.jpg",
+    "imageCaption": "Mathias Rust, in a red flying suit, beside his Cessna next to St Basil's Cathedral in Moscow, 28 May 1987",
+    "imageCredit": "press photograph of 1987 (agency not named by the page)"
+  },
+  {
     "month": "1987-07",
     "kind": "world",
     "headline": "US warships escort Kuwaiti tankers; the UN demands a ceasefire",
     "text": "The US Navy began escorting Kuwaiti tankers re-registered under the American flag through the Gulf, and on 24 July the first convoy's tanker Bridgeton struck a mine. On 20 July the UN Security Council unanimously passed Resolution 598 demanding an immediate ceasefire between Iran and Iraq; Iraq accepted, Iran has not. On 31 July a clash between Iranian pilgrims and Saudi police in Mecca left 402 dead, 275 of them Iranians, by Saudi count; Iran says the police opened fire.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Tanker_war (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/1987_Mecca_incident (read 2026-10-03); https://en.wikipedia.org/wiki/First_Battle_of_al-Faw (read 2026-10-03)"
-  },
-  {
-    "month": "1987-07",
-    "kind": "company",
-    "headline": "Edzard Reuter to lead Daimler-Benz",
-    "text": "Werner Breitschwerdt is stepping down as chairman of Daimler-Benz; Edzard Reuter, the board member for planning who arranged the purchases of MTU, Dornier and AEG, will succeed him on 1 September. Deutsche Bank's chief Alfred Herrhausen backed the choice. Reuter wants to forge the car maker and its new subsidiaries into an integrated technology group. The company is worth about 47.6 billion marks on the stock market.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://de.wikipedia.org/wiki/Edzard_Reuter (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1987 ('Edzard Reuter becomes Chairman of the Board of Management', 1 September 1987), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1987.xhtml?oid=4911147 (read 2026-10-03); Der Spiegel 31/1995, https://www.spiegel.de/spiegel/print/d-9205712.html (read 2026-10-03)",
-    "image": "/news/mercedes/1987-07-reuter.jpg",
-    "imageCaption": "Edzard Reuter, who became chairman of Daimler-Benz in 1987, speaking in St. Gallen in 1988",
-    "imageCredit": "Regina Kühne"
+    "source": "https://en.wikipedia.org/wiki/Tanker_war (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/1987_Mecca_incident (read 2026-10-03); https://en.wikipedia.org/wiki/First_Battle_of_al-Faw (read 2026-10-03)",
+    "image": "/news/middle-east/1987-07-a-sailor-on-a-us-navy-frigate-scans-the.jpg",
+    "imageCaption": "A sailor on a US Navy frigate scans the Gulf for mines during the tanker escorts, 1988",
+    "imageCredit": "Senior Chief Photographer's Mate Mitchell"
   },
   {
     "month": "1987-08",
@@ -135,7 +125,21 @@
     "headline": "Dirty Dancing opens",
     "text": "The dance film Dirty Dancing, with Patrick Swayze and Jennifer Grey, opened in American cinemas on 21 August. The small studio Vestron made it on a low budget.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Dirty_Dancing (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dirty_Dancing (read 2026-10-03)",
+    "image": "/news/life/1987-08-poster-for-dirty-dancing-1987.jpg",
+    "imageCaption": "Poster for Dirty Dancing, 1987",
+    "imageCredit": "Vestron Pictures"
+  },
+  {
+    "month": "1987-10",
+    "kind": "world",
+    "headline": "Black Monday: the S&P 500 falls 20 percent in a day",
+    "text": "After a bad trade deficit report on 14 October pushed interest rates up, shares fell 9% in a week; then on Monday 19 October the Dow plunged 508 points or 22.6% and the S&P 500 20.5%, the largest one-day falls in their history. Blamed are the dollar and the trade deficit, rising interest rates, a public row between Treasury Secretary Baker and Germany over the dollar, a bill to curb tax breaks for takeovers, and 'portfolio insurance' programs that sold automatically as prices fell. On 20 October the Fed said it stood ready to supply cash to the financial system; markets around the world crashed too, and the S&P 500 ended October down 22% at 251.79.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/1987-10-black-monday-1987.jpg",
+    "imageCaption": "Black Monday, 2006",
+    "imageCredit": "Mark Carlson, US Federal Reserve Board of Governors"
   },
   {
     "month": "1987-10",
@@ -151,17 +155,6 @@
     "imageCredit": "Maria Bastone / AFP - Getty Images file"
   },
   {
-    "month": "1987-10",
-    "kind": "world",
-    "headline": "Black Monday: the S&P 500 falls 20 percent in a day",
-    "text": "After a bad trade deficit report on 14 October pushed interest rates up, shares fell 9% in a week; then on Monday 19 October the Dow plunged 508 points or 22.6% and the S&P 500 20.5%, the largest one-day falls in their history. Blamed are the dollar and the trade deficit, rising interest rates, a public row between Treasury Secretary Baker and Germany over the dollar, a bill to curb tax breaks for takeovers, and 'portfolio insurance' programs that sold automatically as prices fell. On 20 October the Fed said it stood ready to supply cash to the financial system; markets around the world crashed too, and the S&P 500 ended October down 22% at 251.79.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/1987-10-black-monday-1987.jpg",
-    "imageCaption": "Black Monday, 2006",
-    "imageCredit": "Mark Carlson, US Federal Reserve Board of Governors"
-  },
-  {
     "month": "1987-11",
     "kind": "world",
     "headline": "No relief after the crash: the dollar slides and shares fall another 9 percent",
@@ -171,6 +164,18 @@
     "image": "/news/markets/1987-11-wall-street.jpg",
     "imageCaption": "Brokers on Wall Street in the weeks of the crash, New York, autumn 1987",
     "imageCredit": "Andrew Popper"
+  },
+  {
+    "month": "1987-12",
+    "kind": "world",
+    "headline": "Reagan and Gorbachev sign the INF treaty",
+    "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield. It is the first treaty that makes the arsenals smaller: until now, agreements only slowed their growth to the 70,000 warheads reached last year.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)",
+    "thread": "soviet",
+    "image": "/news/world/1987-12-intermediate-range-nuclear-forces-treaty.jpg",
+    "imageCaption": "Intermediate-Range Nuclear Forces Treaty, 1987",
+    "imageCredit": "White House Photographic Office"
   },
   {
     "month": "1987-12",
@@ -186,17 +191,5 @@
     "image": "/news/markets/1987-12-black-monday-nyse.jpg",
     "imageCaption": "Traders on the floor of the New York Stock Exchange watch the monitors on Black Monday, 19 October 1987",
     "imageCredit": "AP / Corbis / Getty Images / The Canadian Press (collective credit printed for the page's photographs)"
-  },
-  {
-    "month": "1987-12",
-    "kind": "world",
-    "headline": "Reagan and Gorbachev sign the INF treaty",
-    "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield. It is the first treaty that makes the arsenals smaller: until now, agreements only slowed their growth to the 70,000 warheads reached last year.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)",
-    "thread": "soviet",
-    "image": "/news/world/1987-12-intermediate-range-nuclear-forces-treaty.jpg",
-    "imageCaption": "Intermediate-Range Nuclear Forces Treaty, 1987",
-    "imageCredit": "White House Photographic Office"
   }
 ]

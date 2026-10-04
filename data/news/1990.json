@@ -1,6 +1,20 @@
 [
   {
     "month": "1990-01",
+    "kind": "company",
+    "headline": "McDonald's opens in Moscow",
+    "text": "The first McDonald's in the Soviet Union opened on Moscow's Pushkin Square on 31 January, after 14 years of negotiations led by McDonald's Canada's president George Cohon. About 38,000 customers queued for hours on the first day, a company record.",
+    "assets": [
+      "mcd"
+    ],
+    "source": "https://en.wikipedia.org/wiki/McDonald%27s_in_Russia (read 2026-10-03)",
+    "thread": "soviet",
+    "image": "/news/mcd/1990-01-moscow-queue.jpg",
+    "imageCaption": "Muscovites queue outside the first McDonald's in the Soviet Union on its opening day, Pushkin Square, Moscow, 31 January 1990",
+    "imageCredit": "Alexander Zemlianichenko/AP"
+  },
+  {
+    "month": "1990-01",
     "kind": "listing",
     "headline": "Enron: a pipeline giant that wants to trade gas",
     "text": "Enron, the Houston company formed in 1985 by the merger of Houston Natural Gas and InterNorth, owns one of the largest natural gas pipeline networks in the United States, more than 36,000 miles of pipe. Chairman Kenneth Lay is adding power plants and has started a 'Gas Bank' that lets producers and buyers lock in gas supplies and prices years ahead. The company is still living down 1987, when traders at its oil-trading unit in Valhalla, New York, ran up losses that Enron put at $85 million.",
@@ -24,20 +38,6 @@
     "image": "/news/worldcom/1990-01-hattiesburg.jpg",
     "imageCaption": "Downtown Hattiesburg, Mississippi, where LDDS was founded in 1983",
     "imageCredit": "Aaron Manning"
-  },
-  {
-    "month": "1990-01",
-    "kind": "company",
-    "headline": "McDonald's opens in Moscow",
-    "text": "The first McDonald's in the Soviet Union opened on Moscow's Pushkin Square on 31 January, after 14 years of negotiations led by McDonald's Canada's president George Cohon. About 38,000 customers queued for hours on the first day, a company record.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://en.wikipedia.org/wiki/McDonald%27s_in_Russia (read 2026-10-03)",
-    "thread": "soviet",
-    "image": "/news/mcd/1990-01-moscow-queue.jpg",
-    "imageCaption": "Muscovites queue outside the first McDonald's in the Soviet Union on its opening day, Pushkin Square, Moscow, 31 January 1990",
-    "imageCredit": "Alexander Zemlianichenko/AP"
   },
   {
     "month": "1990-02",
@@ -90,15 +90,10 @@
     "assets": [
       "credit-suisse"
     ],
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)"
-  },
-  {
-    "month": "1990-05",
-    "kind": "colour",
-    "headline": "Zurich's S-Bahn starts running",
-    "text": "Zurich's S-Bahn began running on 27 May, with a new tunnel under the city and new stations. The main lines run every half hour. From the same day one ticket from the new Zurich transport association, the ZVV, is valid on S-Bahn trains, express trains, buses and trams.",
-    "assets": [],
-    "source": "https://de.wikipedia.org/wiki/S-Bahn_Z%C3%BCrich (read 2026-10-03)"
+    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03)",
+    "image": "/news/credit-suisse/1990-04-zurichs-bahnhofstrasse-seen-from-paradep.jpg",
+    "imageCaption": "Zurich's Bahnhofstrasse seen from Paradeplatz, where Bank Leu had its head office",
+    "imageCredit": "sidonius 20:44, 7 June 2006 (UTC)"
   },
   {
     "month": "1990-05",
@@ -116,12 +111,15 @@
     "imageCredit": "Microsoft (still from the launch video, as printed by Steven Sinofsky, Hardcore Software)"
   },
   {
-    "month": "1990-06",
-    "kind": "world",
-    "headline": "Earthquake devastates Gilan and Zanjan",
-    "text": "A magnitude 7.4 earthquake struck northern Iran near the Caspian Sea in the early hours of 21 June, while most people slept in mud-brick houses. Tens of thousands are dead and hundreds of thousands homeless in the towns of Manjil and Rudbar and the villages around them. Iran has accepted aid from abroad, including from countries with which it has tense relations.",
+    "month": "1990-05",
+    "kind": "colour",
+    "headline": "Zurich's S-Bahn starts running",
+    "text": "Zurich's S-Bahn began running on 27 May, with a new tunnel under the city and new stations. The main lines run every half hour. From the same day one ticket from the new Zurich transport association, the ZVV, is valid on S-Bahn trains, express trains, buses and trams.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1990_Manjil%E2%80%93Rudbar_earthquake (read 2026-10-03)"
+    "source": "https://de.wikipedia.org/wiki/S-Bahn_Z%C3%BCrich (read 2026-10-03)",
+    "image": "/news/life/1990-05-a-re-450-locomotive-built-for-the-zurich.jpg",
+    "imageCaption": "A Re 450 locomotive, built for the Zurich S-Bahn's double-deck trains",
+    "imageCredit": "Vsler"
   },
   {
     "month": "1990-07",
@@ -142,7 +140,10 @@
     "headline": "West Germany win the World Cup in Italy",
     "text": "West Germany beat Argentina 1-0 in the World Cup final in Rome on 8 July, through a late penalty by Andreas Brehme. It is their third title, won as the two Germanies prepare to unite.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_final (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_final (read 2026-10-03)",
+    "image": "/news/life/1990-07-the-stadio-olimpico-in-rome-where-the-19.jpg",
+    "imageCaption": "The Stadio Olimpico in Rome, where the 1990 World Cup final was played",
+    "imageCredit": "Andrew"
   },
   {
     "month": "1990-08",

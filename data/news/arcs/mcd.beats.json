@@ -22,17 +22,6 @@
     "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json"
   },
   {
-    "id": "393504e9",
-    "month": "1986-09",
-    "title": "The Economist invents the Big Mac Index",
-    "what": "In September The Economist introduced the Big Mac Index, a semi-humorous way to judge whether currencies are over- or undervalued by comparing the price of a McDonald's Big Mac around the world.",
-    "why": "A sign of how global and uniform the McDonald's product had become.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Big_Mac_Index (read 2026-10-03)"
-  },
-  {
     "id": "a1871e2f",
     "month": "1988-04",
     "title": "The 10,000th McDonald's",
@@ -41,7 +30,8 @@
     "assets": [
       "mcd"
     ],
-    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); https://www.upi.com/Archives/1988/04/29/McDonalds-signs-deal-for-20-Moscow-restaurants/2155578289600/ (read 2026-10-03)"
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03); https://www.upi.com/Archives/1988/04/29/McDonalds-signs-deal-for-20-Moscow-restaurants/2155578289600/ (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "80eb5038",
@@ -53,7 +43,8 @@
       "mcd"
     ],
     "source": "https://en.wikipedia.org/wiki/McDonald%27s_in_Russia (read 2026-10-03)",
-    "thread": "soviet"
+    "thread": "soviet",
+    "lead": true
   },
   {
     "id": "0f007495",

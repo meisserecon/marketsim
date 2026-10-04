@@ -32,21 +32,10 @@
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger 1988 annual report, chairman's letter dated 7 February 1989, https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)"
-  },
-  {
-    "month": "1989-03",
-    "kind": "company",
-    "headline": "Buffett reveals a 600 million dollar bet on Coca-Cola",
-    "text": "Berkshire's annual letter, dated 28 February, shows that in 1988 it bought 14,172,500 shares of Coca-Cola for 592.5 million dollars, worth 632.4 million at year end, and the maximum allowed stake in Freddie Mac. Buffett says Berkshire intends to hold such stocks for a long time. Net worth rose 20% in 1988.",
-    "assets": [
-      "brk",
-      "ko"
-    ],
-    "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03)",
-    "image": "/news/brk/1989-03-coke.jpg",
-    "imageCaption": "A Coca-Cola can of the 1980s",
-    "imageCredit": "National Folk Museum of Korea"
+    "source": "Schlumberger 1988 annual report, chairman's letter dated 7 February 1989, https://investorcenter.slb.com/static-files/20c0ec6e-3664-4591-9972-cfee50f8ace3 (read 2026-10-03)",
+    "image": "/news/slb/1989-02-a-schlumberger-wireline-truck-which-lowe.jpg",
+    "imageCaption": "A Schlumberger wireline truck, which lowers measuring tools into oil wells",
+    "imageCredit": "Joshua Doubek"
   },
   {
     "month": "1989-03",
@@ -62,12 +51,18 @@
     "imageCredit": "Exxon Valdez Oil Spill Trustee Council"
   },
   {
-    "month": "1989-04",
-    "kind": "colour",
-    "headline": "Nintendo's Game Boy goes on sale in Japan",
-    "text": "Nintendo released the Game Boy, a hand-held game machine, in Japan on 21 April for 12,500 yen. It has a black-and-white screen and runs for up to 30 hours on four AA batteries. It is due in America in the summer.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Game_Boy (read 2026-10-03); data/news/1989.json"
+    "month": "1989-03",
+    "kind": "company",
+    "headline": "Buffett reveals a 600 million dollar bet on Coca-Cola",
+    "text": "Berkshire's annual letter, dated 28 February, shows that in 1988 it bought 14,172,500 shares of Coca-Cola for 592.5 million dollars, worth 632.4 million at year end, and the maximum allowed stake in Freddie Mac. Buffett says Berkshire intends to hold such stocks for a long time. Net worth rose 20% in 1988.",
+    "assets": [
+      "brk",
+      "ko"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/1988.html (read 2026-10-03)",
+    "image": "/news/brk/1989-03-coke.jpg",
+    "imageCaption": "A Coca-Cola can of the 1980s",
+    "imageCredit": "National Folk Museum of Korea"
   },
   {
     "month": "1989-04",
@@ -85,13 +80,27 @@
   },
   {
     "month": "1989-04",
+    "kind": "colour",
+    "headline": "Nintendo's Game Boy goes on sale in Japan",
+    "text": "Nintendo released the Game Boy, a hand-held game machine, in Japan on 21 April for 12,500 yen. It has a black-and-white screen and runs for up to 30 hours on four AA batteries. It is due in America in the summer.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Game_Boy (read 2026-10-03); data/news/1989.json",
+    "image": "/news/life/1989-04-the-original-nintendo-game-boy.jpg",
+    "imageCaption": "The original Nintendo Game Boy",
+    "imageCredit": "Transfrom JPEG version and remove white background. Original by Evan-Amos."
+  },
+  {
+    "month": "1989-04",
     "kind": "company",
     "headline": "Intel announces the 486",
     "text": "Intel announced the i486 processor on 10 April at the Comdex show. It is the first x86 chip with more than a million transistors and, Intel says, about twice as fast as the 386 at the same clock speed. Samples are due in the third quarter.",
     "assets": [
       "intc"
     ],
-    "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)"
+    "source": "https://en.wikipedia.org/wiki/Intel_80486 (read 2026-10-03, via data/news/1989.json)",
+    "image": "/news/intc/1989-04-the-silicon-die-of-an-intel-486-processo.jpg",
+    "imageCaption": "The silicon die of an Intel 486 processor in its package",
+    "imageCredit": "Die prepared by Matt Britt w:User:Matt Britt = w:User:Uberpenguin = w:User:Uberpenguin~enwiki = https://web.archive.org/web/20080605030548/http://mattb.alwayssl"
   },
   {
     "month": "1989-05",
@@ -140,7 +149,10 @@
       "ubs",
       "credit-suisse"
     ],
-    "source": "Neue Zürcher Zeitung, 1 July 1989, p. 39 ('Zürcher Börse vom 26. Juni zum 30. Juni: Gegen Zinserhöhungen resistente Aktienkurse'), scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)"
+    "source": "Neue Zürcher Zeitung, 1 July 1989, p. 39 ('Zürcher Börse vom 26. Juni zum 30. Juni: Gegen Zinserhöhungen resistente Aktienkurse'), scan data/manual/scans/nzz/NZZ_1989-07-01.pdf (read 2026-10-03)",
+    "image": "/news/sbv/1989-06-the-swiss-bank-corporations-office-in-ba.jpg",
+    "imageCaption": "The Swiss Bank Corporation's office in Basel, about 1920",
+    "imageCredit": "Swiss Bank Corporation / Bankers Magazine"
   },
   {
     "month": "1989-07",
@@ -165,7 +177,10 @@
     "assets": [
       "brk"
     ],
-    "source": "https://www.upi.com/Archives/1989/07/21/Gillette-stock-up-on-Berkshire-Hathaway-purchase-of-stake-in-company/8300616996800/ (read 2026-10-03)"
+    "source": "https://www.upi.com/Archives/1989/07/21/Gillette-stock-up-on-Berkshire-Hathaway-purchase-of-stake-in-company/8300616996800/ (read 2026-10-03)",
+    "image": "/news/brk/1989-07-a-gillette-safety-razor-and-a-packet-of.jpg",
+    "imageCaption": "A Gillette safety razor and a packet of Gillette Blue blades",
+    "imageCredit": "Joe Haupt from USA"
   },
   {
     "month": "1989-08",
@@ -175,7 +190,10 @@
     "assets": [
       "mo"
     ],
-    "source": "https://www.upi.com/Archives/1989/08/30/Philip-Morris-splits-stock-and-raises-dividend/4918620452800/ (read 2026-10-03); price change from data/out/mo.json"
+    "source": "https://www.upi.com/Archives/1989/08/30/Philip-Morris-splits-stock-and-raises-dividend/4918620452800/ (read 2026-10-03); price change from data/out/mo.json",
+    "image": "/news/mo/1989-08-philip-morriss-headquarters-at-120-park.jpg",
+    "imageCaption": "Philip Morris's headquarters at 120 Park Avenue, New York",
+    "imageCredit": "Eden, Janine and Jim from New York City"
   },
   {
     "month": "1989-09",
@@ -197,7 +215,10 @@
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Macintosh_Portable (read 2026-10-03, via data/news/1989.json); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "image": "/news/aapl/1989-09-the-macintosh-portable.jpg",
+    "imageCaption": "The Macintosh Portable",
+    "imageCredit": "Rama"
   },
   {
     "month": "1989-09",
@@ -281,32 +302,17 @@
     "imageCredit": "Klaus Lehnartz; REGIERUNGonline; B 145 Bild-00046833"
   },
   {
-    "month": "1989-11",
-    "kind": "company",
-    "headline": "The Little Mermaid opens to strong reviews",
-    "text": "Disney's animated musical The Little Mermaid opened on 17 November to strong reviews and ticket sales.",
-    "assets": [
-      "dis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/Disney_Renaissance (read 2026-10-03)",
-    "image": "/news/dis/1989-11-little-mermaid.jpg",
-    "imageCaption": "Poster of The Little Mermaid, 1989",
-    "imageCredit": "Walt Disney Pictures (film poster on English Wikipedia)"
-  },
-  {
     "month": "1989-12",
     "kind": "company",
-    "headline": "IBJ among the world's most valuable companies as Tokyo hits a record",
-    "text": "The Nikkei 225 hit a record intraday high of 38,957 on 29 December, six times its level at the start of the decade, despite another rate rise to 4.25% on 25 December. By some counts the Industrial Bank of Japan is now the most valuable company in the world, worth more than 100 billion dollars, ahead of Exxon.",
+    "headline": "The 'Germany boom': Daimler soars after the Wall falls",
+    "text": "Since the opening of the Berlin Wall in November, foreign investors have been buying German blue chips, seeing West German industry as the main winner of the new markets in the East. The DAX reached a new post-war high before Christmas. In November the government allowed Daimler-Benz to take over MBB from 1 January, making it Germany's largest technology and defence group; Daimler also raised 1.9 billion marks by issuing new shares at 460 marks.",
     "assets": [
-      "ibj",
-      "xom"
+      "mercedes"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
-    "thread": "japan",
-    "image": "/news/ibj/1989-12-tse.jpg",
-    "imageCaption": "The trading hall of the Tokyo Stock Exchange",
-    "imageCredit": "ehnmark"
+    "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); Die Zeit, 'Daimler/MBB: Prinzip Hoffnung', 24 November 1989, https://www.zeit.de/1989/48/prinzip-hoffnung (read 2026-10-03); Daimler-Benz Annual Report 1989, 'Allocation of Earnings' (capital increase of November 1989), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1989.pdf (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1989 ('Mercedes-Benz AG formed', 29 June 1989), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1989.xhtml?oid=4912361 (read 2026-10-03)",
+    "image": "/news/mercedes/1989-12-brandenburg.jpg",
+    "imageCaption": "Chancellor Helmut Kohl at the opening of the Brandenburg Gate border crossing, Berlin, 22 December 1989",
+    "imageCredit": "Rainer Mittelstädt (Bundesarchiv)"
   },
   {
     "month": "1989-12",
@@ -314,7 +320,10 @@
     "headline": "1989 in review: up 27 percent and above the 1987 peak",
     "text": "The S&P 500 gained 27% in 1989 to 353.40, its best year since the bull market began, and the Dow rose 27.0% to 2,753.20. Both are now above their pre-crash records. The October scare raised doubts whether the takeover boom, which drove much of the rise, can keep finding borrowed money.",
     "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Friday_the_13th_mini-crash (read 2026-10-03)",
+    "image": "/news/markets/1989-12-east-and-west-germans-on-the-berlin-wall.jpg",
+    "imageCaption": "East and West Germans on the Berlin Wall at the Brandenburg Gate, November 1989",
+    "imageCredit": "Unknown photographer, Reproduction by Lear 21 at English Wikipedia."
   },
   {
     "month": "1989-12",
@@ -331,15 +340,17 @@
   {
     "month": "1989-12",
     "kind": "company",
-    "headline": "The 'Germany boom': Daimler soars after the Wall falls",
-    "text": "Since the opening of the Berlin Wall in November, foreign investors have been buying German blue chips, seeing West German industry as the main winner of the new markets in the East. The DAX reached a new post-war high before Christmas. In November the government allowed Daimler-Benz to take over MBB from 1 January, making it Germany's largest technology and defence group; Daimler also raised 1.9 billion marks by issuing new shares at 460 marks.",
+    "headline": "IBJ among the world's most valuable companies as Tokyo hits a record",
+    "text": "The Nikkei 225 hit a record intraday high of 38,957 on 29 December, six times its level at the start of the decade, despite another rate rise to 4.25% on 25 December. By some counts the Industrial Bank of Japan is now the most valuable company in the world, worth more than 100 billion dollars, ahead of Exxon.",
     "assets": [
-      "mercedes"
+      "ibj",
+      "xom"
     ],
-    "source": "Die Zeit, 'Mehr Optimismus bei Ausländern', 1 December 1989, https://www.zeit.de/1989/49/mehr-optimismus-bei-auslaendern (read 2026-10-03); Die Zeit, 'Schöne Bescherung', 29 December 1989, https://www.zeit.de/1990/01/schoene-bescherung (read 2026-10-03); Die Zeit, 'Daimler/MBB: Prinzip Hoffnung', 24 November 1989, https://www.zeit.de/1989/48/prinzip-hoffnung (read 2026-10-03); Daimler-Benz Annual Report 1989, 'Allocation of Earnings' (capital increase of November 1989), https://bib.kuleuven.be/files/ebib/jaarverslagen/Daimler-Benz_1989.pdf (read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1989 ('Mercedes-Benz AG formed', 29 June 1989), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1989.xhtml?oid=4912361 (read 2026-10-03)",
-    "image": "/news/mercedes/1989-12-brandenburg.jpg",
-    "imageCaption": "Chancellor Helmut Kohl at the opening of the Brandenburg Gate border crossing, Berlin, 22 December 1989",
-    "imageCredit": "Rainer Mittelstädt (Bundesarchiv)"
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
+    "thread": "japan",
+    "image": "/news/ibj/1989-12-tse.jpg",
+    "imageCaption": "The trading hall of the Tokyo Stock Exchange",
+    "imageCredit": "ehnmark"
   },
   {
     "month": "1989-12",

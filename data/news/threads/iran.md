@@ -51,3 +51,7 @@ Bam earthquakes (6f0fb318, 06bb87a2), Ahmadinejad's election (26740841), Boeing 
 (73068a15), the strikes on Israel (9e2761c3), Raisi's death (2c07a9d4), the ceasefire and its
 breakdown (bfdbd812, 59d27fbd). The oil arc's Iran beats of 2015-07, 2025-06 and 2026-03 have
 been folded into the thread beats of those months (da58066e, d3b6cf90, 3508acd3).
+
+Added on 4 October 2026:
+- 1988-08 The war between Iran and Iraq ends after eight years (c6a5b343, middle-east, new)
+- 2026-01 America masses warships around Iran (82b82613, middle-east, new)

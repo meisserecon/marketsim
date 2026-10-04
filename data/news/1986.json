@@ -79,7 +79,10 @@
     "headline": "Top Gun opens",
     "text": "Top Gun, starring Tom Cruise as a US Navy fighter pilot, opened in 1,028 American cinemas on 16 May. Reviews were mixed; critics praised the flying scenes and the soundtrack.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Top_Gun (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Top_Gun (read 2026-10-03)",
+    "image": "/news/life/1986-05-a-us-navy-f-14-tomcat-the-fighter-flown.jpg",
+    "imageCaption": "A US Navy F-14 Tomcat, the fighter flown in Top Gun",
+    "imageCredit": "U.S. Navy photo"
   },
   {
     "month": "1986-06",
@@ -87,7 +90,10 @@
     "headline": "Maradona's Argentina win the World Cup",
     "text": "Argentina beat West Germany 3-2 in the World Cup final in Mexico City on 29 June. In the quarter-final against England on 22 June Diego Maradona scored both goals, one of them with his hand.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/1986 (read 2026-10-03); data/news/1986.json"
+    "source": "https://en.wikipedia.org/wiki/1986 (read 2026-10-03); data/news/1986.json",
+    "image": "/news/life/1986-06-diego-maradona-holds-up-the-world-cup-tr.jpg",
+    "imageCaption": "Diego Maradona holds up the World Cup trophy after the final in Mexico City, 29 June 1986",
+    "imageCredit": "Unknown authorUnknown author"
   },
   {
     "month": "1986-08",
@@ -112,7 +118,10 @@
       "ubs",
       "credit-suisse"
     ],
-    "source": "Neue Zürcher Zeitung, 30 August 1986, p. 23 ('Zürcher Börse vom 25. August bis zum 29. August: Verlangsamt nach oben'), scan data/manual/scans/nzz/NZZ_1986-08-30.pdf (read 2026-10-03)"
+    "source": "Neue Zürcher Zeitung, 30 August 1986, p. 23 ('Zürcher Börse vom 25. August bis zum 29. August: Verlangsamt nach oben'), scan data/manual/scans/nzz/NZZ_1986-08-30.pdf (read 2026-10-03)",
+    "image": "/news/sbv/1986-08-the-swiss-bank-corporations-head-office.jpg",
+    "imageCaption": "The Swiss Bank Corporation's head office on Paradeplatz in Zurich, built in 1956",
+    "imageCredit": "Port(u*o)s"
   },
   {
     "month": "1986-09",
@@ -130,16 +139,6 @@
     "imageCredit": " (NARA)"
   },
   {
-    "month": "1986-09",
-    "kind": "company",
-    "headline": "The Economist invents the Big Mac Index",
-    "text": "In September The Economist introduced the Big Mac Index, a semi-humorous way to judge whether currencies are over- or undervalued by comparing the price of a McDonald's Big Mac around the world.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Big_Mac_Index (read 2026-10-03)"
-  },
-  {
     "month": "1986-10",
     "kind": "world",
     "headline": "Reykjavik: so close to scrapping the missiles",
@@ -150,19 +149,6 @@
     "image": "/news/world/1986-10-reykjavik-summit.jpg",
     "imageCaption": "Reykjavík Summit, 1986",
     "imageCredit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989"
-  },
-  {
-    "month": "1986-10",
-    "kind": "company",
-    "headline": "Schlumberger ousts its chairman as the oil slump bites",
-    "text": "On 2 October Schlumberger's board removed chairman Michel Vaillaud after about a year and elected Euan Baird, 49, as chairman, president and chief executive, the first non-Frenchman to run the company. First-half profit fell to 203 million dollars from 516 million. Oilfield services bring 65 percent of revenue, and 86 percent of 1985 profit came from the US and Canadian oilfields, where drilling has collapsed.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://www.upi.com/Archives/1986/10/02/Schlumberger-ousts-chairman/2096528609600/ (read 2026-10-03); https://www.tshaonline.org/handbook/entries/schlumberger (read 2026-10-03)",
-    "image": "/news/slb/1986-10-p51.jpg",
-    "imageCaption": "The P-51 offshore oil platform, Brazil",
-    "imageCredit": "Petrobras / Agencia Brasil"
   },
   {
     "month": "1986-11",
@@ -178,18 +164,6 @@
     "imageCredit": "Silvio Mettler / Keystone"
   },
   {
-    "month": "1986-11",
-    "kind": "world",
-    "headline": "Secret American arms sales to Iran come out",
-    "text": "On 3 November a Lebanese magazine, Ash-Shiraa, revealed that the United States had secretly sold anti-tank and anti-aircraft missiles to Iran, the country Washington publicly treats as an enemy. President Reagan said on television on 13 November that Iran should use its influence to free the American hostages held in Lebanon. On 25 November Attorney General Edwin Meese said money from the sales had been passed on to the Contra rebels fighting Nicaragua's government; National Security Adviser John Poindexter resigned and his aide Oliver North was fired.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair (read 2026-10-04)",
-    "thread": "iran",
-    "image": "/news/middle-east/1986-11-irancontra-affair.jpg",
-    "imageCaption": "Iran–Contra affair, 1986",
-    "imageCredit": "Series: Reagan White House Photographs, 1/20/1981 - 1/20/1989 Collection: White House Photographic Collection, 1/20/1981 - 1/20/1989"
-  },
-  {
     "month": "1986-12",
     "kind": "world",
     "headline": "1986 in review: another strong year",
@@ -199,7 +173,10 @@
       "ust1995",
       "ust2000"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03)",
+    "image": "/news/markets/1986-12-president-reagan-signs-the-tax-reform-ac.jpg",
+    "imageCaption": "President Reagan signs the Tax Reform Act on the White House lawn, 22 October 1986",
+    "imageCredit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989"
   },
   {
     "month": "1986-12",
@@ -209,16 +186,9 @@
     "assets": [
       "nestle"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nespresso (read 2026-10-03)"
-  },
-  {
-    "month": "1986-12",
-    "kind": "company",
-    "headline": "A strong yen squeezes Sony",
-    "text": "The yen kept rising through 1986, from about 200 to about 160 per dollar, making Sony's exports more expensive abroad. Sony's ADR ended the year almost exactly where it started, while Tokyo's market index rose to about 18,800 from about 13,000.",
-    "assets": [
-      "sony"
-    ],
-    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03, via data/news/1986.json for the index level)"
+    "source": "https://en.wikipedia.org/wiki/Nespresso (read 2026-10-03)",
+    "image": "/news/nestle/1986-12-nespresso-coffee-capsules.jpg",
+    "imageCaption": "Nespresso coffee capsules",
+    "imageCredit": "Chepry 💬 (Andrzej Barabasz) 📷 🇵🇱"
   }
 ]

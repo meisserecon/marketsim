@@ -12,16 +12,6 @@
   },
   {
     "month": "1991-02",
-    "kind": "company",
-    "headline": "Hopes of peace in the Gulf lift shares",
-    "text": "Stock markets rose in February as the Gulf war neared its end, after Iraq said it was ready, under conditions, to leave Kuwait.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); Die Zeit, 'Markt-Report: Jubel-Hausse blieb aus', 1 March 1991, https://www.zeit.de/1991/10/jubel-hausse-blieb-aus (read 2026-10-03); data/out/bmw.json (read 2026-10-03)"
-  },
-  {
-    "month": "1991-02",
     "kind": "world",
     "headline": "Kuwait is free after a hundred hours of ground war",
     "text": "The attack on the ground began on 24 February and ended after one hundred hours: on 28 February President Bush declared a ceasefire, with Kuwait freed and Iraq's army driven out. A coalition of 42 countries with more than 950,000 soldiers took part. Retreating Iraqi troops set fire to more than six hundred Kuwaiti oil wells.",
@@ -30,6 +20,19 @@
     "image": "/news/middle-east/1991-02-kuwaiti-oil-fires.jpg",
     "imageCaption": "Kuwaiti oil fires, 1991",
     "imageCredit": "Habib Hassan Kuwait"
+  },
+  {
+    "month": "1991-02",
+    "kind": "company",
+    "headline": "Hopes of peace in the Gulf lift shares",
+    "text": "Stock markets rose in February as the Gulf war neared its end, after Iraq said it was ready, under conditions, to leave Kuwait.",
+    "assets": [
+      "bmw"
+    ],
+    "source": "Die Zeit, 'Markt-Report: Spekulation auf Frieden', 22 February 1991, https://www.zeit.de/1991/09/spekulation-auf-frieden (read 2026-10-03); Die Zeit, 'Markt-Report: Jubel-Hausse blieb aus', 1 March 1991, https://www.zeit.de/1991/10/jubel-hausse-blieb-aus (read 2026-10-03); data/out/bmw.json (read 2026-10-03)",
+    "image": "/news/bmw/1991-02-the-frankfurt-stock-exchange-building.jpg",
+    "imageCaption": "The Frankfurt Stock Exchange building",
+    "imageCredit": "Mylius"
   },
   {
     "month": "1991-03",
@@ -52,7 +55,10 @@
     "assets": [
       "mcd"
     ],
-    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03; the month of launch is not given there, only the year 1991)"
+    "source": "https://www.company-histories.com/McDonalds-Corporation-Company-History.html (read 2026-10-03; the month of launch is not given there, only the year 1991)",
+    "image": "/news/mcd/1991-03-muscovites-queue-at-the-mcdonalds-on-pus.jpg",
+    "imageCaption": "Muscovites queue at the McDonald's on Pushkin Square in Moscow, 1991",
+    "imageCredit": "fdecomite"
   },
   {
     "month": "1991-05",
@@ -83,6 +89,19 @@
   {
     "month": "1991-07",
     "kind": "company",
+    "headline": "LDDS shares have quadrupled in eighteen months",
+    "text": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
+    "assets": [
+      "worldcom"
+    ],
+    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "image": "/news/worldcom/1991-07-jackson-mississippi.jpg",
+    "imageCaption": "Jackson, Mississippi, 2018",
+    "imageCredit": "formulanone from Huntsville, United States"
+  },
+  {
+    "month": "1991-07",
+    "kind": "company",
     "headline": "Apple and IBM, enemies for a decade, agree to work together",
     "text": "On 3 July Apple and IBM signed a letter of intent for an alliance that would have been unthinkable a few years ago: a new family of microprocessors with Motorola, derived from IBM's POWER chips, a joint company to build a next-generation operating system from Apple's \"Pink\" project, and another for multimedia software. The aim is a common platform that other makers can build on, a direct challenge to the Microsoft-and-Intel world of the PC. Apple shares rose 11% in July.",
     "assets": [
@@ -97,17 +116,17 @@
     "imageCredit": "David E Larsson"
   },
   {
-    "month": "1991-07",
+    "month": "1991-08",
     "kind": "company",
-    "headline": "LDDS shares have quadrupled in eighteen months",
-    "text": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
+    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
+    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
     "assets": [
-      "worldcom"
+      "ibj"
     ],
-    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
-    "image": "/news/worldcom/1991-07-jackson-mississippi.jpg",
-    "imageCaption": "Jackson, Mississippi, 2018",
-    "imageCredit": "formulanone from Huntsville, United States"
+    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
+    "image": "/news/ibj/1991-08-osaka.jpg",
+    "imageCaption": "Osaka, 2009",
+    "imageCredit": "663highland"
   },
   {
     "month": "1991-08",
@@ -147,19 +166,6 @@
     "imageCredit": "Mark Richards (photographer), Cisco Archive Collection"
   },
   {
-    "month": "1991-08",
-    "kind": "company",
-    "headline": "The Onoue scandal: IBJ lent billions to a restaurant owner",
-    "text": "On 8 August forged deposit certificates worth 342 billion yen issued to Nui Onoue, the owner of an Osaka restaurant, came to light; she was arrested on 13 August. Onoue, once the largest individual investor in Japan, had used the forged certificates to borrow from a dozen financial institutions. IBJ's Osaka branch had sold her about 290 billion yen of its debentures at the peak and lent about 240 billion yen against them.",
-    "assets": [
-      "ibj"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nui_Onoue (read 2026-10-03); https://the-shashi.com/en/tse/8302/ (read 2026-10-03)",
-    "image": "/news/ibj/1991-08-osaka.jpg",
-    "imageCaption": "Osaka, 2009",
-    "imageCredit": "663highland"
-  },
-  {
     "month": "1991-10",
     "kind": "company",
     "headline": "A bank run in Thun",
@@ -195,7 +201,10 @@
     "assets": [
       "xom"
     ],
-    "source": "https://www.upi.com/Archives/1991/10/08/Exxon-pleads-guilty-judge-accepts-1-billion-settlement/7997686894400/ (read 2026-10-03); https://evostc.state.ak.us/oil-spill-facts/settlement/ (read 2026-10-03)"
+    "source": "https://www.upi.com/Archives/1991/10/08/Exxon-pleads-guilty-judge-accepts-1-billion-settlement/7997686894400/ (read 2026-10-03); https://evostc.state.ak.us/oil-spill-facts/settlement/ (read 2026-10-03)",
+    "image": "/news/xom/1991-10-the-exxon-valdez-aground-in-prince-willi.jpg",
+    "imageCaption": "The Exxon Valdez aground in Prince William Sound, Alaska, March 1989",
+    "imageCredit": "NOAA's National Ocean Service"
   },
   {
     "month": "1991-12",

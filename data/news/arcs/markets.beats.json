@@ -160,7 +160,8 @@
       "asset": "sp500",
       "pct": -22
     },
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "id": "d222d2e4",
@@ -185,8 +186,7 @@
     "assets": [
       "bonds"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)",
-    "lead": true
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19871216.pdf (read 2026-10-03)"
   },
   {
     "id": "50bc8169",
@@ -250,7 +250,8 @@
     "assets": [
       "bonds"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.upi.com/Archives/1990/12/21/The-Week-in-Review/1864661755600/ (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.upi.com/Archives/1990/12/21/The-Week-in-Review/1864661755600/ (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "0610238d",

@@ -74,7 +74,6 @@
     <div class="rule"></div>
     {#if markets && (markets.indices.length || markets.movers.length)}
       <p class="markets">
-        <span class="mk-label">Markets this month</span>
         {#each markets.indices as m (m.name)}<span class="mk index">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
         {#if markets.indices.length && markets.movers.length}<span class="mk-sep" aria-hidden="true"></span>{/if}
         {#each markets.movers as m (m.name)}<span class="mk">{m.name} <b class:up={m.change > 0} class:down={m.change < 0}>{fmt(m.change)}</b></span>{/each}
@@ -183,7 +182,8 @@
   }
   .markets {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow: hidden;
     justify-content: center;
     align-items: baseline;
     gap: 4px 18px;
@@ -191,12 +191,6 @@
     font-family: var(--font);
     font-size: 0.9rem;
     hyphens: none !important;
-  }
-  .mk-label {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
   }
   .mk {
     white-space: nowrap;
@@ -221,9 +215,6 @@
   .big .markets {
     font-size: 1.2rem;
     gap: 6px 26px;
-  }
-  .big .mk-label {
-    font-size: 0.85rem;
   }
   .quiet {
     text-align: center;

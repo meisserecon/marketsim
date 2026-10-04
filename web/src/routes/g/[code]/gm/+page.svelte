@@ -43,23 +43,17 @@
   });
 
   const nameOf = (id: string) => market?.assets.find((a) => a.id === id)?.name ?? id;
-  /** The month's biggest rises and falls among everything quoted, for a one-line market summary. */
-  const movers = $derived.by(() => {
-    const rows = (market?.assets ?? [])
-      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
-      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
-      .sort((a, b) => b.change - a.change);
-    return { up: rows.slice(0, 3).filter((r) => r.change > 0), down: rows.slice(-3).reverse().filter((r) => r.change < 0) };
-  });
-  /** The strip under the masthead: the stock market and gold, then the biggest movers up and down. */
+  /** The strip under the masthead: the market, then the five assets that moved most this month, up or down. */
   const marketStrip = $derived.by(() => {
     const indices: { name: string; change: number }[] = [];
     const h = board?.benchmark?.history ?? [];
-    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) indices.push({ name: 'Stock market', change: h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1 });
-    const gold = market?.assets.find((a) => a.kind === 'gold');
-    if (gold?.pricePrev) indices.push({ name: 'Gold', change: gold.price / gold.pricePrev - 1 });
-    // Gold has its own place among the indices.
-    return { indices, movers: [...movers.up, ...movers.down].filter((m) => m.name !== gold?.name) };
+    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) indices.push({ name: 'Market', change: h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1 });
+    const movers = (market?.assets ?? [])
+      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
+      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
+      .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
+      .slice(0, 5);
+    return { indices, movers };
   });
   let lastJoined = $state('');
 

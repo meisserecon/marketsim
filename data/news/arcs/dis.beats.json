@@ -196,18 +196,6 @@
     "source": "https://en.wikipedia.org/wiki/History_of_the_Walt_Disney_Company (read 2026-10-03); https://en.wikipedia.org/wiki/Pixar (read 2026-10-03)"
   },
   {
-    "id": "d35c0255",
-    "month": "2008-11",
-    "title": "Disney's profit holds up so far, but the recession looms",
-    "what": "On 6 November Disney reported earnings per share of 2.28 dollars for its business year to September, 2.27 dollars excluding one-off items, up 18%. Quarterly earnings excluding those items were 43 cents, against 42 cents a year earlier. The shares have fallen with the market since September.",
-    "why": "The calm before the earnings drop reported in February 2009; Disney shares fell 16% in October and 13% in November.",
-    "assets": [
-      "dis"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312508227930/dex991.htm (Disney earnings release of 6 November 2008, read 2026-10-03); data/out/dis.json price series"
-  },
-  {
     "id": "c4a1a5ee",
     "month": "2009-02",
     "title": "Recession cuts Disney's profit by a third",
@@ -233,7 +221,8 @@
       "dis"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Marvel_Entertainment (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Marvel_Entertainment (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "b117d624",

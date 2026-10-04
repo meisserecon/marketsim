@@ -165,32 +165,6 @@
     "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
-    "id": "0edb0fea",
-    "month": "2006-06",
-    "title": "New chief and a networks merger with Siemens",
-    "what": "On 1 June Olli-Pekka Kallasvuo succeeded Jorma Ollila as chief executive; Ollila stays as chairman. On 19 June Nokia and Siemens agreed to merge most of their network equipment businesses into a 50-50 venture, Nokia Siemens Networks, with 20 billion dollars of sales last year.",
-    "why": "The networks venture is the part of Nokia that survives the phone collapse.",
-    "assets": [
-      "nokia",
-      "siemens"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://money.cnn.com/2006/06/19/news/international/nokia_siemens.reut/index.htm via web.archive.org (read 2026-10-03)"
-  },
-  {
-    "id": "9ff6b994",
-    "month": "2007-01",
-    "title": "Apple unveils the iPhone",
-    "what": "On 9 January Steve Jobs introduced the iPhone at Macworld in San Francisco, a phone controlled by touching its screen with a finger. It goes on sale in the US in June. Nokia, which makes more than a third of the phones sold worldwide, is also the largest smartphone maker, with Symbian software.",
-    "why": "The turning point of the arc, though nobody priced it in: Nokia's ADR nearly doubles during 2007 before the collapse.",
-    "assets": [
-      "nokia",
-      "aapl"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation) (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
-  },
-  {
     "id": "cf1e3b42",
     "month": "2007-10",
     "title": "Nokia nearly doubles its profit",
@@ -203,23 +177,6 @@
     "source": "https://money.cnn.com/2007/10/18/news/international/bc.apfn.eu.fin.earns.finland.nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
-    "id": "5457ffe7",
-    "month": "2008-09",
-    "title": "Nokia expects to lose market share",
-    "what": "On 5 September Nokia said its share of the phone market in the third quarter will be lower than in the second, instead of stable as forecast in July, as weaker consumer confidence hits several markets. Its shares fell 10.5% in Helsinki. Later in the month Lehman Brothers' bankruptcy shook all markets.",
-    "why": "The start of the long decline, compounded by the financial crisis.",
-    "assets": [
-      "nokia",
-      "lehman"
-    ],
-    "move": {
-      "asset": "nokia",
-      "pct": -26
-    },
-    "importance": 2,
-    "source": "https://money.cnn.com/2008/09/05/news/international/nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
-  },
-  {
     "id": "bcbb499e",
     "month": "2010-09",
     "title": "Nokia fires its chief and hires Microsoft's Stephen Elop",
@@ -230,7 +187,7 @@
       "msft",
       "aapl"
     ],
-    "importance": 2,
+    "importance": 1,
     "source": "https://www.theguardian.com/business/2010/sep/10/nokia-replaces-kallasvuo-microsoft-stephen-elop (read 2026-10-03); https://money.cnn.com/2010/09/10/technology/nokia_ceo/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2010/06/16/technology/nokia_cuts_outlook/index.htm via web.archive.org (read 2026-10-03)"
   },
   {
@@ -507,22 +464,6 @@
     },
     "importance": 1,
     "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03)"
-  },
-  {
-    "id": "91658daa",
-    "month": "2026-04",
-    "title": "AI demand lifts Nokia as markets rebound",
-    "what": "On 23 April Nokia reported that sales to AI and cloud customers grew 49% in the first quarter and now make up 8% of the group, with 1 billion euros of new orders from them, and raised its estimate of that market's growth to 27% a year through 2028 from 16%. Markets rallied after the US-Iran ceasefire of 8 April. Nokia's ADR rose 61% in April.",
-    "why": "The second AI leg, amplified by the market rebound (S&P 500 +10%). Nokia reaches a 16-year high in May.",
-    "assets": [
-      "nokia"
-    ],
-    "move": {
-      "asset": "nokia",
-      "pct": 61
-    },
-    "importance": 2,
-    "source": "https://www.nokia.com/about-us/news/releases/2026/04/23/nokia-corporation-interim-report-for-q1-2026/ (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
     "id": "7f681f5c",

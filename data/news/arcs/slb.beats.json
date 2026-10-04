@@ -224,34 +224,6 @@
     "source": "Schlumberger press release of 18 January 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508008380/dex991.htm (read 2026-10-03); data/reference/sp500.json (S&P 500 month)"
   },
   {
-    "id": "3c1f9fc0",
-    "month": "2008-10",
-    "title": "Credit crisis and falling oil: Schlumberger loses a third",
-    "what": "US crude fell from about 101 dollars at the end of September to 68 at the end of October, and stock markets crashed as the credit crisis spread. On 17 October Schlumberger reported record third-quarter profit of 1.53 billion dollars, but warned that the rapid deterioration in credit markets will hit activity, and that some North American gas customers are already cutting spending.",
-    "why": "Schlumberger's worst month until 2020 (-34%); the shares fell about 60% from June to December 2008.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -34
-    },
-    "importance": 1,
-    "source": "Schlumberger press release of 17 October 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508211885/dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
-  },
-  {
-    "id": "de3dbad7",
-    "month": "2010-02",
-    "title": "Schlumberger buys Smith International for 11 billion dollars",
-    "what": "On 21 February Schlumberger agreed to buy Smith International, a maker of drill bits and drilling fluids, in an all-share deal: 0.6966 Schlumberger shares per Smith share, a 37.5 percent premium, valuing the deal at about 11.3 billion dollars.",
-    "why": "The first of the 2010s mega-deals that made Schlumberger a one-stop shop for drilling; completed in August 2010.",
-    "assets": [
-      "slb"
-    ],
-    "importance": 2,
-    "source": "Schlumberger and Smith press release of 21 February 2010, https://www.sec.gov/Archives/edgar/data/87347/000119312510035707/dex991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value, completion) (read 2026-10-03)"
-  },
-  {
     "id": "24a5e6ce",
     "month": "2011-07",
     "title": "Andrew Gould retires; Paal Kibsgaard takes over",
@@ -442,22 +414,6 @@
     ],
     "importance": 2,
     "source": "SLB and ChampionX press release of 2 April 2024, https://www.sec.gov/Archives/edgar/data/87347/000119312524084191/ (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value) (read 2026-10-03); SLB Form 8-K of 16 July 2025 (closing), https://www.sec.gov/Archives/edgar/data/87347/000119312525159859/ (read 2026-10-03)"
-  },
-  {
-    "id": "ecc0fdb8",
-    "month": "2026-01",
-    "title": "SLB says the worst is over",
-    "what": "On 23 January SLB reported fourth-quarter revenue up 9 percent from the third quarter and raised its dividend by 3.5 percent, with more than 4 billion dollars to be returned to shareholders in 2026. Chief executive Olivier Le Peuch said the headwinds of 2025 are behind it and expects more drilling in the Middle East. Oil rose from about 57 to 65 dollars during January, after the US capture of Venezuela's president on 3 January opened talk of rebuilding Venezuela's oil industry, and as unrest in Iran threatened supply.",
-    "why": "+26% this month, the end of a two-year slide. SLB's growth case was the Middle East, which the Iran war would disrupt a month later.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": 26
-    },
-    "importance": 2,
-    "source": "SLB press release of 23 January 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526020133/d59412dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03)"
   },
   {
     "id": "a9b4298c",

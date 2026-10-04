@@ -176,18 +176,6 @@
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "id": "bae6dd19",
-    "month": "2005-12",
-    "title": "Nvidia buys ULi Electronics",
-    "what": "On 14 December Nvidia agreed to buy ULi Electronics of Taiwan, a developer of core-logic chips, to strengthen its nForce chipsets that sit next to the main processor on a PC's motherboard. Nvidia calls itself the worldwide leader in programmable graphics processors.",
-    "why": "Part of Nvidia's push into PC chipsets, which ended in the legal fight with Intel in 2009-2011.",
-    "assets": [
-      "nvda"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581005000030/pressreleaseulielectronics.htm (Nvidia press release of 14 December 2005) (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
-  },
-  {
     "id": "d92813b7",
     "month": "2007-02",
     "title": "CUDA: graphics chips for general computing",
@@ -228,19 +216,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm (Nvidia 8-K of 2 July 2008, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
   },
   {
-    "id": "b83b38a9",
-    "month": "2009-02",
-    "title": "Intel sues Nvidia over chipsets",
-    "what": "On 17 February Intel sued Nvidia in Delaware, asking the court to declare that their 2004 licence does not allow Nvidia to make chipsets for Intel's newer processors. Nvidia says it does and will fight.",
-    "why": "The dispute that ended Nvidia's chipset business and, in the settlement of January 2011, paid it 1.5 billion dollars.",
-    "assets": [
-      "nvda",
-      "intc"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03)"
-  },
-  {
     "id": "766be39b",
     "month": "2011-01",
     "title": "Intel will pay Nvidia 1.5 billion dollars",
@@ -255,7 +230,8 @@
       "pct": 55
     },
     "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "f1f0c7ec",

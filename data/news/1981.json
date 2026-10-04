@@ -120,6 +120,27 @@
     "imageCredit": "Hans Gerber, Comet Photo AG / ETH-Bibliothek"
   },
   {
+    "month": "1981-07",
+    "kind": "colour",
+    "headline": "Charles and Diana marry before a world audience",
+    "text": "Prince Charles, heir to the British throne, married Lady Diana Spencer at St Paul's Cathedral in London on 29 July. Two million people lined the route, and the ceremony was watched on television by an estimated 750 million people around the world.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer (read 2026-10-03)"
+  },
+  {
+    "month": "1981-07",
+    "kind": "world",
+    "headline": "The Fed holds rates near 20 percent and gold slides below 410",
+    "text": "The prime rate went back up to 20.5 percent on 8 July, and the Federal Reserve has held the rate banks charge each other near 19 percent since May; it reached about 20 percent in June. Consumer prices in June were 9.6 percent higher than a year earlier, so lenders now earn far more than inflation. Gold averaged 409 dollars in July, 11 percent below June and the lowest since November 1979.",
+    "assets": [
+      "gold",
+      "ust1985",
+      "ust1990",
+      "ust2000"
+    ],
+    "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)"
+  },
+  {
     "month": "1981-08",
     "kind": "company",
     "headline": "IBM launches the Personal Computer",

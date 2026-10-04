@@ -198,52 +198,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465908002661/a08-1961_1ex99d1.htm (Citigroup press release, 15 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465908002663/a08-1948_1ex99d1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420408003260/v100398_ex99-1.htm (22 January 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420407066977/v096976_ex99-1.htm (read 2026-10-03)"
   },
   {
-    "id": "91c2ade0",
-    "month": "2008-06",
-    "title": "Bank shares slide again; Citigroup shuts Old Lane",
-    "what": "In June Lehman Brothers announced its first loss and raised fresh capital, and the S&P 500 lost 9%. Citigroup said on 12 June it will restructure Old Lane, one of its hedge funds, because all outside investors were expected to withdraw their money. Citigroup's shares fell 23% in the month.",
-    "why": "No single Citigroup event: the fall tracks the sector-wide sell-off. The second-quarter loss reported in July was $2.5 billion from continuing operations.",
-    "assets": [
-      "c",
-      "lehman"
-    ],
-    "move": {
-      "asset": "c",
-      "pct": -23
-    },
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000114420408034836/v117215_ex99-1.htm (Citigroup press release, 12 June 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008; read 2026-10-03); data/news/arcs/movers.md"
-  },
-  {
-    "id": "c1fec443",
-    "month": "2008-09",
-    "title": "Citigroup agrees to buy Wachovia's bank with FDIC help",
-    "what": "In the turmoil after Lehman's bankruptcy, Citigroup reached an agreement in principle on 29 September to buy the banking operations of Wachovia for $2.2 billion in stock, with the FDIC protecting it against losses on Wachovia's loans. The deal would give Citigroup almost 10% of U.S. deposits.",
-    "why": "A deposit base would have fixed Citigroup's reliance on wholesale funding; the deal fell apart within days. (Time check: 'as the crisis peaked' was a later verdict.)",
-    "assets": [
-      "c",
-      "lehman"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465908061114/a08-24559_1ex99d1.htm (Citigroup press release, 29 September 2008; read 2026-10-03)"
-  },
-  {
-    "id": "20f3ddf8",
-    "month": "2008-10",
-    "title": "Wachovia goes to Wells Fargo; Citigroup takes $25 billion from the Treasury",
-    "what": "Wachovia instead agreed to a takeover by Wells Fargo; on 9 October Citigroup ended negotiations and said it would seek damages for breach of contract. Citigroup received $25 billion from the U.S. Treasury in exchange for preferred shares. On 16 October it reported a third-quarter loss of $2.8 billion. The shares fell a third in the month.",
-    "why": "Government money had arrived, and investors began to ask whether Citigroup could survive without more.",
-    "assets": [
-      "c"
-    ],
-    "move": {
-      "asset": "c",
-      "pct": -33
-    },
-    "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308012514/y71790exv99w1.htm (Citigroup press release, 9 October 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012308013952/y72146exv99w1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465908064321/a08-26164_1ex99d1.htm (read 2026-10-03)"
-  },
-  {
     "id": "fe39e62b",
     "month": "2008-11",
     "title": "Government rescues Citigroup",
@@ -257,7 +211,8 @@
       "pct": -39
     },
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308016585/y72849exv99w1.htm (Citigroup press release, 24 November 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308016585/y72849exv99w1.htm (Citigroup press release, 24 November 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "47239996",
@@ -289,7 +244,8 @@
       "pct": -58
     },
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095010309000421/dp12698_ex9901.htm (Citigroup press release, 27 February 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420409011311/v141465_ex99-1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095010309000421/dp12698_ex9901.htm (Citigroup press release, 27 February 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420409011311/v141465_ex99-1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "9feb7f9d",
@@ -345,7 +301,8 @@
       "c"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03, citing Reuters and Washington Post, 7 December 2010); https://www.sec.gov/Archives/edgar/data/831001/000110465911001741/a11-4145_1ex99d1.htm (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03, citing Reuters and Washington Post, 7 December 2010); https://www.sec.gov/Archives/edgar/data/831001/000110465911001741/a11-4145_1ex99d1.htm (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "0b7524c3",
@@ -558,17 +515,5 @@
     },
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926042942/c-20260414xex99d1.htm (Citigroup press release, 14 April 2026; read 2026-10-03); data/news/arcs/movers.md"
-  },
-  {
-    "id": "73e2ec39",
-    "month": "2026-07",
-    "title": "Citigroup's best quarterly revenue in a decade",
-    "what": "Citigroup reported second-quarter net income up 45% and its best quarterly revenue in a decade, with record revenue in its Services business. The company earned $14.3 billion in 2025 and returned about $17.6 billion to shareholders that year.",
-    "why": "Where the arc stands today: a profitable, simpler bank whose shares are still below their 2006 level.",
-    "assets": [
-      "c"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926083383/c-20260714xex99d1.htm (Citigroup press release, 14 July 2026; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465926003604/c-20260114xex99d1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
   }
 ]

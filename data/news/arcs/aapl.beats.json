@@ -439,23 +439,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312508009715/dex991.htm (Apple press release of 22 January 2008, read 2026-10-03)"
   },
   {
-    "id": "b27247c0",
-    "month": "2008-09",
-    "title": "The financial crisis",
-    "what": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
-    "why": "-33% in the month for Apple; the market fell 9%.",
-    "assets": [
-      "aapl",
-      "lehman"
-    ],
-    "move": {
-      "asset": "aapl",
-      "pct": -33
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); data/out/aapl.json (monthly prices)"
-  },
-  {
     "id": "990a1f2f",
     "month": "2010-01",
     "title": "Apple announces the iPad",
@@ -465,7 +448,8 @@
       "aapl"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "1c970dd4",

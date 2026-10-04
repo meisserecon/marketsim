@@ -138,42 +138,6 @@
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
   },
   {
-    "id": "7e7d4b94",
-    "month": "2008-07",
-    "title": "Oil hits $147",
-    "what": "US crude futures touched an all-time high of $147.27 a barrel on 11 July, more than a third above the 1980 peak in real terms. US gasoline averaged over $4 a gallon in June and July. By month-end the price had fallen back to about $124 as Americans drive less.",
-    "why": "The peak of the whole story. High oil squeezed consumers just as the credit crisis deepened; demand destruction followed.",
-    "assets": [],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)"
-  },
-  {
-    "id": "4a5e58b1",
-    "month": "2008-10",
-    "title": "Oil crashes with the banks",
-    "what": "US crude fell 32% in October to $68.10 a barrel, less than half its July high, as the financial crisis turned into a global recession and demand for oil fell.",
-    "why": "Oil fell with everything else; oilfield services lost a third (Schlumberger -34%) in the market's worst month since 1987. Review 2026-10: cut a demand estimate that ran into November.",
-    "assets": [
-      "slb"
-    ],
-    "move": {
-      "asset": "slb",
-      "pct": -34
-    },
-    "importance": 1,
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
-  },
-  {
-    "id": "5b90e828",
-    "month": "2008-12",
-    "title": "Oil falls near $30",
-    "what": "US crude fell to $30.28 a barrel on 23 December, down almost 80% from July. US gasoline averaged $1.69 a gallon in December, against $4.06 in July. In November the IEA warned that low prices could choke off investment in costly oil such as Canada's oil sands.",
-    "why": "The bottom of the crash. Prices doubled again within six months.",
-    "assets": [],
-    "importance": 3,
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)"
-  },
-  {
     "id": "053bd9ae",
     "month": "2010-05",
     "title": "The Gulf spill halts deep drilling",
@@ -186,7 +150,7 @@
       "asset": "slb",
       "pct": -21
     },
-    "importance": 2,
+    "importance": 1,
     "source": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)"
   },
   {
@@ -513,20 +477,6 @@
     "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging (read 2026-10-03); https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States) (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   },
   {
-    "id": "649aa803",
-    "month": "2026-04",
-    "title": "Ceasefire, and the UAE quits OPEC",
-    "what": "A two-week ceasefire took effect on 8 April. Physical Brent cargoes, which had touched $138 on 7 April, dropped to $122 the next day, and stocks rallied. The strait reopened briefly on 17 April but was closed again the next day, and the US imposed its own naval blockade. On 28 April the United Arab Emirates said it will leave OPEC and OPEC+ on 1 May.",
-    "why": "Relief that the worst was passing drove the market's +10% month. The UAE exit is the biggest crack in OPEC since its founding.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 10
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03)"
-  },
-  {
     "id": "910d2eef",
     "month": "2026-06",
     "title": "A US-Iran memorandum, oil back to $70",
@@ -535,15 +485,5 @@
     "assets": [],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
-  },
-  {
-    "id": "166bd508",
-    "month": "2026-09",
-    "title": "Attacks spread to the Red Sea",
-    "what": "The Iran-backed Houthis in Yemen escalated in September, threatening shipping through the Bab al-Mandab strait, while at least ten tankers were attacked around the Gulf. Physical Brent reached about $131 a barrel on 15 September and US crude $107.",
-    "why": "The second wave of the 2026 shock, with both of the Middle East's sea exits under threat.",
-    "assets": [],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)"
   }
 ]

@@ -215,19 +215,6 @@
     "source": "https://en.wikipedia.org/wiki/BenQ_Mobile (read 2026-10-03)"
   },
   {
-    "id": "c04ecda2",
-    "month": "2006-06",
-    "title": "Siemens and Nokia merge their network businesses",
-    "what": "On 19 June Siemens and Nokia agreed to combine most of their telecom equipment businesses in a 50-50 venture, Nokia Siemens Networks, with 20 billion dollars of sales last year. Up to 9,000 jobs are expected to go. Siemens shares jumped 8.3% on the day.",
-    "why": "Siemens' exit from telecom equipment, its historic core. It sells its half to Nokia in 2013.",
-    "assets": [
-      "siemens",
-      "nokia"
-    ],
-    "importance": 2,
-    "source": "https://money.cnn.com/2006/06/19/news/international/nokia_siemens.reut/index.htm via web.archive.org (read 2026-10-03)"
-  },
-  {
     "id": "e20d13d2",
     "month": "2006-11",
     "title": "Police raid Siemens in a bribery investigation",
@@ -236,7 +223,7 @@
     "assets": [
       "siemens"
     ],
-    "importance": 1,
+    "importance": 2,
     "source": "https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   },
   {
@@ -252,23 +239,6 @@
     "source": "https://money.cnn.com/2007/04/19/news/international/bc.siemens.chairman.resignation.reut/index.htm via web.archive.org (read 2026-10-03); https://money.cnn.com/2007/04/25/news/international/siemens_ceo_resigns.reut/index.htm via web.archive.org (read 2026-10-03)"
   },
   {
-    "id": "b1be72c5",
-    "month": "2008-10",
-    "title": "The financial crisis hits Siemens, and the euro falls",
-    "what": "After Lehman Brothers filed for bankruptcy on 15 September, stock markets crashed in October. The euro fell about 10% against the dollar during the month as investors fled to the dollar. Siemens shares lost 36% in dollar terms, 29% in euros.",
-    "why": "Siemens' worst month in the game. The currency explains about a quarter of the fall for a dollar-based player.",
-    "assets": [
-      "siemens",
-      "lehman"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": -36
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03); data/out/siemens.json (read 2026-10-03)"
-  },
-  {
     "id": "24d4cb68",
     "month": "2008-12",
     "title": "Siemens settles the bribery case for about $1.4 billion",
@@ -281,24 +251,8 @@
       "asset": "siemens",
       "pct": 23
     },
-    "importance": 1,
+    "importance": 2,
     "source": "https://money.cnn.com/2008/12/15/news/companies/siemens_bribery/index.htm via web.archive.org (read 2026-10-03); https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
-  },
-  {
-    "id": "b2658e01",
-    "month": "2009-01",
-    "title": "Siemens leaves its nuclear venture with Areva as markets slide",
-    "what": "On 26 January Siemens said it will terminate its agreement with Areva and sell its 34% stake in the Franco-German nuclear company Areva NP, which it formed in 2001. Markets fell again in January and the euro lost about 8% against the dollar. Siemens shares fell 23% in dollars.",
-    "why": "Mostly market and currency; the Areva exit is a strategic footnote, and the first step out of nuclear power.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": -23
-    },
-    "importance": 3,
-    "source": "https://press.siemens.com/global/en/pressrelease/siemens-divest-its-stake-areva-np-joint-venture-loscher-nuclear-power-essential-part (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
   },
   {
     "id": "c314a050",
@@ -309,7 +263,7 @@
     "assets": [
       "siemens"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   },
   {
@@ -480,21 +434,5 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)"
-  },
-  {
-    "id": "fed562d1",
-    "month": "2026-04",
-    "title": "Ceasefire rally; Siemens sets the Healthineers vote",
-    "what": "A two-week ceasefire between the US and Iran began on 8 April and the Strait of Hormuz reopened for its duration; stocks rebounded from their 30 March low. On 17 April Siemens said shareholders will vote on the direct spin-off of its Healthineers shares at the annual meeting in February 2027. Siemens shares rose 25% in April.",
-    "why": "Mostly the relief rally (S&P 500 +10%), with the spin-off timeline as a company-specific boost.",
-    "assets": [
-      "siemens"
-    ],
-    "move": {
-      "asset": "siemens",
-      "pct": 25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-clarifies-timeline-spin-siemens-healthineers-shares (read 2026-10-03)"
   }
 ]

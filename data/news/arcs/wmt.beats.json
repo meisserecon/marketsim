@@ -240,35 +240,8 @@
       "wmt"
     ],
     "importance": 2,
-    "source": "https://www.forbes.com/2006/07/28/walmart-germany-metro-cx_po_0728walmart.html (search result summary read 2026-10-03); https://www.cbsnews.com/news/wal-marts-german-flop/ (search result summary read 2026-10-03)"
-  },
-  {
-    "id": "cb6c53fa",
-    "month": "2008-11",
-    "title": "Shoppers flock to Wal-Mart as the crisis deepens",
-    "what": "Wal-Mart's US comparable-store sales rose 2.4% in October while many retailers report falling sales. 'We see more customers shopping more often at Walmart,' said the head of its US stores, adding that a family of four can save 700 dollars a year on groceries there. Falling petrol prices should help its customers into the holidays.",
-    "why": "The defensive side of the stock: Wal-Mart's share price rose about 18% in 2008 while the market lost about 40%.",
-    "assets": [
-      "wmt"
-    ],
-    "importance": 2,
-    "source": "https://corporate.walmart.com/news/2008/11/06/wal-mart-reports-october-sales (read 2026-10-03); data/out/wmt.json price series"
-  },
-  {
-    "id": "f16b6af7",
-    "month": "2009-01",
-    "title": "Wal-Mart cuts its profit forecast after a hard Christmas",
-    "what": "On 8 January Wal-Mart said the holiday season was 'more challenging for retailers than expected'. US comparable sales rose only 1.7% in December, and it cut its forecast for quarterly earnings to 91 to 94 cents a share from 1.03 to 1.07 dollars, citing the strong dollar and lawsuit settlements. Customers are focused on necessities.",
-    "why": "Even the recession winner was not immune; the shares fell 16% in January, about twice the market's fall.",
-    "assets": [
-      "wmt"
-    ],
-    "move": {
-      "asset": "wmt",
-      "pct": -16
-    },
-    "importance": 3,
-    "source": "https://corporate.walmart.com/newsroom/2009/01/08/wal-mart-reports-december-sales (read 2026-10-03)"
+    "source": "https://www.forbes.com/2006/07/28/walmart-germany-metro-cx_po_0728walmart.html (search result summary read 2026-10-03); https://www.cbsnews.com/news/wal-marts-german-flop/ (search result summary read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "72a39a29",

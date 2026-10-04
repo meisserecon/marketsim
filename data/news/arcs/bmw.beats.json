@@ -257,39 +257,6 @@
     "source": "BMW Group Annual Report 2007 ('Strategic realignment of the BMW Group announced'), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2007.pdf (read 2026-10-03)"
   },
   {
-    "id": "4fede8ff",
-    "month": "2008-10",
-    "title": "The financial crisis crushes BMW",
-    "what": "After the collapse of Lehman Brothers, stock markets fell worldwide in October and the credit markets are severely disrupted, which makes refinancing BMW's large car-finance business harder. The euro fell from 1.41 to 1.27 dollars, which deepened the loss in dollars.",
-    "why": "-34% in dollars (-26% in euros), BMW's worst month; the worst stretch ran from May 2007 to January 2009 (-64%). BMW still did better than most European car makers in 2008.",
-    "assets": [
-      "bmw",
-      "lehman"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": -34
-    },
-    "importance": 1,
-    "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, BMW common stock -49%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
-  },
-  {
-    "id": "710d69d1",
-    "month": "2010-09",
-    "title": "BMW joins Europe's blue-chip index as car shares boom",
-    "what": "German car makers are profiting from robust economic growth, and their shares are leading the DAX. In September BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month.",
-    "why": "+32% in dollars (+23% in euros). BMW was the best DAX share of 2010 (+85%).",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": 32
-    },
-    "importance": 2,
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
-  },
-  {
     "id": "718d6915",
     "month": "2011-08",
     "title": "Euro crisis drags car shares down from their highs",

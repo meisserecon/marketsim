@@ -201,7 +201,8 @@
       "pct": 15
     },
     "importance": 2,
-    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "da8ba26f",
@@ -215,23 +216,6 @@
     "move": {
       "asset": "ubs",
       "pct": -28
-    },
-    "importance": 3,
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
-  },
-  {
-    "id": "674ab8df",
-    "month": "2008-09",
-    "title": "Lehman fails; UBS shares slump",
-    "what": "Stress in money markets and bond markets increased dramatically in the third quarter, culminating in the bankruptcy of Lehman Brothers in September. UBS, still holding large positions in illiquid mortgage securities, lost a quarter of its value in the month.",
-    "why": "Unlike Credit Suisse (+4% in September), UBS was seen as one of the most exposed European banks.",
-    "assets": [
-      "ubs",
-      "lehman"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -25
     },
     "importance": 2,
     "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
@@ -251,23 +235,8 @@
       "pct": 1
     },
     "importance": 1,
-    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)"
-  },
-  {
-    "id": "fdecabb1",
-    "month": "2008-11",
-    "title": "Head of wealth management steps aside",
-    "what": "On 12 November Raoul Weil, head of UBS's global wealth management, relinquished his duties; Marten Hoekstra takes over on an interim basis. US authorities are investigating UBS's cross-border business with American clients. On 27 November shareholders approved the capital needed for the Confederation's convertible notes.",
-    "why": "The US tax case moves to the top of the bank. Bank shares also fell worldwide in November.",
-    "assets": [
-      "ubs"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": -25
-    },
-    "importance": 3,
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "6ec9fa77",
@@ -331,7 +300,8 @@
       "pct": 27
     },
     "importance": 3,
-    "source": "UBS Form 6-K of 27 July 2010 (second-quarter report), https://www.sec.gov/Archives/edgar/data/1114446/000095012310068336/y85737e6vk.htm (read 2026-10-03)"
+    "source": "UBS Form 6-K of 27 July 2010 (second-quarter report), https://www.sec.gov/Archives/edgar/data/1114446/000095012310068336/y85737e6vk.htm (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "96e5063b",

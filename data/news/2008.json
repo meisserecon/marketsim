@@ -136,6 +136,19 @@
   {
     "month": "2008-04",
     "kind": "company",
+    "headline": "Ospel goes after another $19 billion write-down",
+    "text": "On 1 April UBS pre-announced a first-quarter net loss of about 12 billion francs on $19 billion of write-downs on US real-estate assets, a fully underwritten rights issue of about 15 billion francs and a separate unit for its bad mortgage positions. Chairman Marcel Ospel is not standing for re-election; the general counsel, Peter Kurer, was elected chairman at the meeting on 23 April. Investors were relieved: the shares rose 15% in dollars in April.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
+    "image": "/news/ubs/2008-04-ospel-kurer.jpg",
+    "imageCaption": "Marcel Ospel (right) at his last general meeting as chairman of UBS, with his successor Peter Kurer, 23 April 2008",
+    "imageCredit": "Georgios Kefalas / Keystone"
+  },
+  {
+    "month": "2008-04",
+    "kind": "company",
     "headline": "GE misses its numbers for the first time in years",
     "text": "On 11 April General Electric reported first-quarter earnings per share of 44 cents, down 8%, and cut its full-year forecast to 2.20 to 2.30 dollars. Chairman Jeff Immelt said the financial services businesses were hit by a slowing US economy and difficult capital markets, and that he was disappointed.",
     "assets": [
@@ -149,15 +162,12 @@
   {
     "month": "2008-04",
     "kind": "company",
-    "headline": "Ospel goes after another $19 billion write-down",
-    "text": "On 1 April UBS pre-announced a first-quarter net loss of about 12 billion francs on $19 billion of write-downs on US real-estate assets, a fully underwritten rights issue of about 15 billion francs and a separate unit for its bad mortgage positions. Chairman Marcel Ospel is not standing for re-election; the general counsel, Peter Kurer, was elected chairman at the meeting on 23 April. Investors were relieved: the shares rose 15% in dollars in April.",
+    "headline": "Lehman raises $4 billion",
+    "text": "Lehman Brothers raised $4 billion of new capital by selling convertible preferred shares. Its shares recovered part of their March losses.",
     "assets": [
-      "ubs"
+      "lehman"
     ],
-    "source": "UBS Form 20-F/A for 2007, filed 14 April 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012308004121/y54449e20vfza.htm (read 2026-10-03); UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
-    "image": "/news/ubs/2008-04-ospel-kurer.jpg",
-    "imageCaption": "Marcel Ospel (right) at his last general meeting as chairman of UBS, with his successor Peter Kurer, 23 April 2008",
-    "imageCredit": "Georgios Kefalas / Keystone"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008, reporting the April issue; read 2026-10-03)"
   },
   {
     "month": "2008-05",
@@ -171,6 +181,16 @@
     "image": "/news/lehman/2008-05-lehman-sign.jpg",
     "imageCaption": "The Lehman Brothers building, Times Square, New York",
     "imageCredit": "David Shankbone"
+  },
+  {
+    "month": "2008-05",
+    "kind": "company",
+    "headline": "Rights issue: seven new shares for every twenty",
+    "text": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at 21 francs. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
   },
   {
     "month": "2008-06",
@@ -187,17 +207,6 @@
   },
   {
     "month": "2008-06",
-    "kind": "colour",
-    "headline": "Euro 2008 in Switzerland and Austria",
-    "text": "Switzerland and Austria hosted the European Championship from 7 to 29 June. Switzerland opened the tournament in Basel and lost to the Czech Republic, then to Turkey, and was the first team out, though it beat Portugal in its last game; captain Alexander Frei was injured in the first match. Spain won the final in Vienna, 1-0 against Germany.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
-    "image": "/news/life/2008-06-euro08-basel.jpg",
-    "imageCaption": "Euro 2008 at the St. Jakob-Park in Basel: Netherlands v Russia, 21 June 2008",
-    "imageCredit": "Akutagawa (Акутагава)"
-  },
-  {
-    "month": "2008-06",
     "kind": "world",
     "headline": "Record oil and bank losses send shares down 9 percent",
     "text": "Oil jumped nearly 11 dollars on 6 June to a record 138.54 dollars a barrel, raising fears of inflation and recession at once. Banks kept reporting mortgage losses: Wachovia, the fourth-largest American bank, ousted its chief executive on 2 June, and General Motors announced plant closures and 10,000 job cuts. The S&P 500 lost 9% in June to 1,280.00.",
@@ -206,17 +215,6 @@
     "image": "/news/markets/2008-06-nyse-trader.jpg",
     "imageCaption": "A trader bites his nails on the floor of the New York Stock Exchange as shares slide to a three-month low, 20 June 2008",
     "imageCredit": "Photo by Jin Lee/Bloomberg via Getty Images"
-  },
-  {
-    "month": "2008-07",
-    "kind": "world",
-    "headline": "Oil hits $147",
-    "text": "US crude futures touched an all-time high of $147.27 a barrel on 11 July, more than a third above the 1980 peak in real terms. US gasoline averaged over $4 a gallon in June and July. By month-end the price had fallen back to about $124 as Americans drive less.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M (read 2026-10-03)",
-    "image": "/news/oil/2008-07-nymex-traders.jpg",
-    "imageCaption": "Traders on the floor of the New York Mercantile Exchange as oil climbs to a new high of almost 144 dollars a barrel, 2 July 2008",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
   },
   {
     "month": "2008-07",
@@ -244,19 +242,6 @@
     "image": "/news/xom/2008-07-gas-price-sign.jpg",
     "imageCaption": "A petrol station sign that has run out of fours: regular at $4.03, July 2008",
     "imageCredit": "Ildar Sagdejev (Specious)"
-  },
-  {
-    "month": "2008-07",
-    "kind": "colour",
-    "headline": "The iPhone 3G and the App Store",
-    "text": "On 11 July Apple released the iPhone 3G in 22 countries. A day earlier it opened the App Store, where iPhone owners can download programs from other companies; it started with 500 apps.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/IPhone_3G (read 2026-10-03); https://en.wikipedia.org/wiki/App_Store_(Apple) (read 2026-10-03)",
-    "image": "/news/life/2008-07-iphone3g.jpg",
-    "imageCaption": "The iPhone 3G, on sale from July 2008",
-    "imageCredit": "David JAFRA"
   },
   {
     "month": "2008-07",
@@ -295,6 +280,14 @@
     "image": "/news/world/2008-08-georgia-gori.jpg",
     "imageCaption": "Georgian troops near Gori, 9 August 2008",
     "imageCredit": "Giorgi Abdaladze"
+  },
+  {
+    "month": "2008-08",
+    "kind": "colour",
+    "headline": "Beijing Olympics: Federer and Wawrinka win doubles gold",
+    "text": "At the Olympics in Beijing, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)"
   },
   {
     "month": "2008-08",
@@ -337,20 +330,6 @@
   {
     "month": "2008-09",
     "kind": "world",
-    "headline": "Lehman Brothers goes bankrupt; AIG is taken over",
-    "text": "After the government took over the mortgage giants Fannie Mae and Freddie Mac on 7 September, Lehman Brothers filed for bankruptcy on 15 September, the largest bankruptcy in American history, and Merrill Lynch agreed to be bought by Bank of America; the Dow fell 504 points that day. On 16 September the Fed took control of the insurer AIG with an 85 billion dollar loan, and a money market fund holding Lehman debt 'broke the buck', setting off a run of 144 billion dollars on such funds. Goldman Sachs and Morgan Stanley became banks, Berkshire Hathaway invested 5 billion in Goldman, and Washington Mutual was seized on 26 September.",
-    "assets": [
-      "lehman",
-      "brk"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2008-09-lehman-box.jpg",
-    "imageCaption": "An employee walks out of the Lehman Brothers building in New York carrying a box of his belongings, 15 September 2008",
-    "imageCredit": "Joshua Lott / Reuters"
-  },
-  {
-    "month": "2008-09",
-    "kind": "world",
     "headline": "The House votes down the bailout and the Dow falls 778 points",
     "text": "On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
     "assets": [],
@@ -375,72 +354,6 @@
   },
   {
     "month": "2008-09",
-    "kind": "company",
-    "headline": "The financial crisis",
-    "text": "Lehman Brothers filed for bankruptcy on 15 September, the largest in US history, and the Dow fell about 500 points that day; on 29 September Congress first rejected the bank rescue plan and the Dow fell almost 7%. Shares of companies selling to consumers, Apple among them, fell with the market.",
-    "assets": [
-      "aapl",
-      "lehman"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); data/out/aapl.json (monthly prices)",
-    "image": "/news/aapl/2008-09-lehman.jpg",
-    "imageCaption": "Crowds outside the Lehman Brothers building, New York, 15 September 2008",
-    "imageCredit": "Robert Scoble"
-  },
-  {
-    "month": "2008-09",
-    "kind": "company",
-    "headline": "Machinists strike in a falling market",
-    "text": "About 27,000 Boeing machinists in Washington, Oregon and Kansas went on strike on 6 September after talks failed. The 787 is already more than a year behind its original schedule, and the financial crisis is hitting airline customers.",
-    "assets": [
-      "ba"
-    ],
-    "source": "https://boeing.mediaroom.com/2008-09-05-Boeing-Statement-Renegotiation-Fails-Strike-Called (read 2026-10-03); https://boeing.mediaroom.com/2008-11-01-Machinists-Vote-to-Ratify-Contract-Offer-and-Return-to-Work (read 2026-10-03); https://boeing.mediaroom.com/2007-10-10-Boeing-Reschedules-Initial-787-Deliveries-and-First-Flight (read 2026-10-03)",
-    "image": "/news/ba/2008-09-everett-plant.jpg",
-    "imageCaption": "Boeing's Everett plant, Washington",
-    "imageCredit": "Maurice King"
-  },
-  {
-    "month": "2008-09",
-    "kind": "company",
-    "headline": "Korea talks end; Lehman loses $3.9 billion",
-    "text": "Lehman's shares fell 45% to $7.79 on 9 September after reports that Korea Development Bank had put its talks on hold. On 10 September Lehman said it expected a third-quarter loss of $3.9 billion after $5.6 billion of net write-downs, mostly on mortgages and commercial property, and announced plans to sell most of its investment management business and spin off its commercial real estate.",
-    "assets": [
-      "lehman"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908057829/a08-22764_2ex99d1.htm (Lehman press release, 10 September 2008; read 2026-10-03)",
-    "image": "/news/lehman/2008-09-lehman-sign.jpg",
-    "imageCaption": "Lehman Brothers headquarters, New York, September 2008",
-    "imageCredit": "Robert Scoble"
-  },
-  {
-    "month": "2008-09",
-    "kind": "company",
-    "headline": "Altria buys UST, the maker of Copenhagen and Skoal",
-    "text": "On 8 September Altria agreed to buy UST, the world's leading maker of moist smokeless tobacco (Copenhagen, Skoal), for 69.50 dollars a share in cash, about 11.7 billion dollars including debt. It also gets the Ste. Michelle wine business. Altria expects 250 million dollars of annual savings by 2011.",
-    "assets": [
-      "mo"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312508191587/dex991.htm (read 2026-10-03)",
-    "image": "/news/mo/2008-09-copenhagen.jpg",
-    "imageCaption": "A can of Copenhagen smokeless tobacco, a UST brand ;;",
-    "imageCredit": "GamblinMan22"
-  },
-  {
-    "month": "2008-09",
-    "kind": "company",
-    "headline": "Nokia expects to lose market share",
-    "text": "On 5 September Nokia said its share of the phone market in the third quarter will be lower than in the second, instead of stable as forecast in July, as weaker consumer confidence hits several markets. Its shares fell 10.5% in Helsinki. Later in the month Lehman Brothers' bankruptcy shook all markets.",
-    "assets": [
-      "nokia",
-      "lehman"
-    ],
-    "source": "https://money.cnn.com/2008/09/05/news/international/nokia.ap/index.htm via web.archive.org (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)",
-    "image": "/news/nokia/2008-09-n95.jpg",
-    "imageCaption": "The Nokia N95 and N95 8GB, Nokia's flagship smartphones"
-  },
-  {
-    "month": "2008-09",
     "kind": "world",
     "headline": "The first Android phone",
     "text": "On 23 September T-Mobile announced the G1, made by HTC, the first phone using Android, Google's free operating system for phones. It will cost 179 dollars with a two-year contract from 20 October.",
@@ -454,45 +367,18 @@
     "imageCredit": "Michael Oryl"
   },
   {
-    "month": "2008-09",
+    "month": "2008-10",
     "kind": "company",
-    "headline": "Lehman fails; UBS shares slump",
-    "text": "Stress in money markets and bond markets increased dramatically in the third quarter, culminating in the bankruptcy of Lehman Brothers in September. UBS, still holding large positions in illiquid mortgage securities, lost a quarter of its value in the month.",
+    "headline": "The Swiss state rescues UBS",
+    "text": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse, which raised capital privately, does not use the facility.",
     "assets": [
       "ubs",
-      "lehman"
+      "credit-suisse"
     ],
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
-    "image": "/news/ubs/2008-09-lehman.jpg",
-    "imageCaption": "The Lehman Brothers building, New York, 15 September 2008",
-    "imageCredit": "Robert Scoble"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "The financial crisis crushes BMW",
-    "text": "After the collapse of Lehman Brothers, stock markets fell worldwide in October and the credit markets are severely disrupted, which makes refinancing BMW's large car-finance business harder. The euro fell from 1.41 to 1.27 dollars, which deepened the loss in dollars.",
-    "assets": [
-      "bmw",
-      "lehman"
-    ],
-    "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, BMW common stock -49%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/bmw/2008-10-welt.jpg",
-    "imageCaption": "BMW Welt and the BMW headquarters tower, Munich",
-    "imageCredit": "Richard Bartz"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "Wachovia goes to Wells Fargo; Citigroup takes $25 billion from the Treasury",
-    "text": "Wachovia instead agreed to a takeover by Wells Fargo; on 9 October Citigroup ended negotiations and said it would seek damages for breach of contract. Citigroup received $25 billion from the U.S. Treasury in exchange for preferred shares. On 16 October it reported a third-quarter loss of $2.8 billion. The shares fell a third in the month.",
-    "assets": [
-      "c"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308012514/y71790exv99w1.htm (Citigroup press release, 9 October 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012308013952/y72146exv99w1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465908064321/a08-26164_1ex99d1.htm (read 2026-10-03)",
-    "image": "/news/c/2008-10-paulson.jpg",
-    "imageCaption": "Henry Paulson, US Treasury Secretary",
-    "imageCredit": "US Treasury Department"
+    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
+    "image": "/news/ubs/2008-10-rescue-press-conference.jpg",
+    "imageCaption": "Jean-Pierre Roth of the National Bank (second from left) and federal councillor Eveline Widmer-Schlumpf (fourth from left) present the rescue package for UBS, Bern, 16 October 2008",
+    "imageCredit": "Lukas Lehmann / Keystone"
   },
   {
     "month": "2008-10",
@@ -538,179 +424,6 @@
     "imageCredit": "Photo by Mario Tama/Getty Images"
   },
   {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "The financial crisis crushes car shares",
-    "text": "After the collapse of Lehman Brothers in September, stock markets plunged worldwide in October, credit markets are disrupted and the crisis is spreading to the wider economy. The euro fell from 1.41 to 1.27 dollars during the month, which made the fall worse in dollars.",
-    "assets": [
-      "mercedes",
-      "lehman"
-    ],
-    "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, Prime Automobile index -35.3%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/mercedes/2008-10-frankfurt.jpg",
-    "imageCaption": "The trading hall of the Frankfurt Stock Exchange",
-    "imageCredit": "Ank Kumar"
-  },
-  {
-    "month": "2008-10",
-    "kind": "world",
-    "headline": "Oil crashes with the banks",
-    "text": "US crude fell 32% in October to $68.10 a barrel, less than half its July high, as the financial crisis turned into a global recession and demand for oil fell.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2000s_energy_crisis (read 2026-10-03)",
-    "image": "/news/oil/2008-10-nymex-traders.jpg",
-    "imageCaption": "Oil traders on the floor of the New York Mercantile Exchange as crude falls to its lowest in more than a year, 24 October 2008",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "Credit crisis and falling oil: Schlumberger loses a third",
-    "text": "US crude fell from about 101 dollars at the end of September to 68 at the end of October, and stock markets crashed as the credit crisis spread. On 17 October Schlumberger reported record third-quarter profit of 1.53 billion dollars, but warned that the rapid deterioration in credit markets will hit activity, and that some North American gas customers are already cutting spending.",
-    "assets": [
-      "slb"
-    ],
-    "source": "Schlumberger press release of 17 October 2008, https://www.sec.gov/Archives/edgar/data/87347/000119312508211885/dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
-    "image": "/news/slb/2008-10-north-sea-rig.jpg",
-    "imageCaption": "A North Sea drilling rig",
-    "imageCredit": "Gary Bembridge"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "The Swiss state rescues UBS",
-    "text": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse, which raised capital privately, does not use the facility.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
-    "image": "/news/ubs/2008-10-rescue-press-conference.jpg",
-    "imageCaption": "Jean-Pierre Roth of the National Bank (second from left) and federal councillor Eveline Widmer-Schlumpf (fourth from left) present the rescue package for UBS, Bern, 16 October 2008",
-    "imageCredit": "Lukas Lehmann / Keystone"
-  },
-  {
-    "month": "2008-10",
-    "kind": "world",
-    "headline": "Bern and the National Bank rescue UBS",
-    "text": "On 16 October the Swiss government and the Swiss National Bank announced a rescue for UBS: the Confederation will inject 6 billion francs of capital, and the National Bank will take over 54 billion dollars of illiquid securities into a special fund. A month after the collapse of Lehman Brothers, interbank lending has frozen; a failure of UBS would threaten the savings of a million Swiss customers and the accounts of 300,000 companies.",
-    "assets": [
-      "ubs",
-      "lehman"
-    ],
-    "source": "https://www.swissinfo.ch/eng/business/2008-crisis_the-day-ubs-the-biggest-swiss-bank-was-saved/44474630 (read 2026-10-03)",
-    "image": "/news/world/2008-10-ubs-rescue-press-conference.jpg",
-    "imageCaption": "Eugen Haltiner (banking commission), Jean-Pierre Roth (SNB), President Pascal Couchepin and Eveline Widmer-Schlumpf present the rescue of UBS, Bern, 16 October 2008",
-    "imageCredit": "Lukas Lehmann / Keystone"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "Xstrata drops Lonmin and secures its banks",
-    "text": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
-    "assets": [
-      "xstrata"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
-    "image": "/news/xstrata/2008-10-wallstreet.jpg",
-    "imageCaption": "The New York Stock Exchange on Wall Street, October 2008",
-    "imageCredit": "Faizul Latif Chowdhury"
-  },
-  {
-    "month": "2008-10",
-    "kind": "world",
-    "headline": "Nikkei sinks below 7,000 as the yen soars",
-    "text": "The Nikkei fell to 6,994.90 on 28 October during the day, its lowest since the bubble. The yen jumped as investors unwound bets financed with cheap yen: the dollar fell from about 106 to about 98 yen during the month. Japan's exporters, from carmakers to electronics firms, face a world recession with a dearer currency.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Endaka (read 2026-10-03)",
-    "image": "/news/asia/2008-10-tokyo-board.jpg",
-    "imageCaption": "A passer-by with an umbrella in front of a board showing the world's markets as the Nikkei falls 486 points to a 26-year low, Tokyo, 27 October 2008",
-    "imageCredit": "Photo by Kiyoshi Ota/Getty Images"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "eBay cuts 10% of its staff and buys Bill Me Later",
-    "text": "On October 6 eBay said it will cut about 1,000 jobs, 10% of its workforce, and buy the online payment company Bill Me Later for about $820 million in cash and the Danish classified sites dba.dk and bilbasen.dk for about $390 million. It expects revenue at the low end of its forecast.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001299933-08-004651.txt (8-K with press release, read 2026-10-03)",
-    "image": "/news/ebay/2008-10-headquarters.jpg",
-    "imageCaption": "Fuel-cell power units at eBay's headquarters, San Jose",
-    "imageCredit": "Bloom Energy"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "IBM keeps its forecast as markets crash",
-    "text": "In a month of crashing markets IBM reported third-quarter earnings of 2.05 dollars a share, up 22%, on revenue of 25.3 billion dollars, and said it still expects at least 8.75 dollars for the year. 'We remain confident in our full-year 2008 outlook,' chief executive Sam Palmisano said.",
-    "assets": [
-      "ibm"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000110465908064449/a08-26220_28k.htm (IBM 8-K with the results release of 2008-10-16, read 2026-10-03)",
-    "image": "/news/ibm/2008-10-palmisano-2005.jpg",
-    "imageCaption": "Sam Palmisano, IBM's chairman and chief executive, in the portrait from IBM's 2005 annual report",
-    "imageCredit": "IBM (2005 annual report; no photographer named on the page)"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "The financial crisis: even Coca-Cola falls 17%",
-    "text": "Stock markets crashed worldwide in October as the financial crisis deepened after Lehman Brothers' failure in September. Coca-Cola shares lost about 17%, as much as the S&P 500. Muhtar Kent became chief executive on 1 July. In September Coca-Cola offered 2.4 billion dollars for China Huiyuan Juice, the leader in Chinese fruit juice.",
-    "assets": [
-      "ko",
-      "lehman"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Global_financial_crisis_in_October_2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Muhtar_Kent (read 2026-10-03); https://en.wikipedia.org/wiki/The_Coca-Cola_Company (Huiyuan section, read 2026-10-03)",
-    "image": "/news/ko/2008-10-olympia-sign.jpg",
-    "imageCaption": "Coca-Cola neon sign, Atlanta",
-    "imageCredit": "Marc Merlin"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "The financial crisis hits Siemens, and the euro falls",
-    "text": "After Lehman Brothers filed for bankruptcy on 15 September, stock markets crashed in October. The euro fell about 10% against the dollar during the month as investors fled to the dollar. Siemens shares lost 36% in dollar terms, 29% in euros.",
-    "assets": [
-      "siemens",
-      "lehman"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03); data/out/siemens.json (read 2026-10-03)",
-    "image": "/news/siemens/2008-10-frankfurt.jpg",
-    "imageCaption": "The bull and bear statues outside the Frankfurt stock exchange",
-    "imageCredit": "Eva K."
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
-    "headline": "Crisis and a soaring yen hit Sony",
-    "text": "After Lehman Brothers collapsed in September, stock markets crashed in October. The yen rose about 8% against the dollar during the month, which cuts the value of Sony's foreign sales, about 80% of its total. Sony's ADR fell 25%.",
-    "assets": [
-      "sony",
-      "lehman"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); https://money.cnn.com/2008/12/09/news/international/sony_cuts.ap/index.htm via web.archive.org (read 2026-10-03)",
-    "image": "/news/sony/2008-10-stringer.jpg",
-    "imageCaption": "Howard Stringer, chairman and chief executive of Sony",
-    "imageCredit": "David Shankbone"
-  },
-  {
-    "month": "2008-11",
-    "kind": "world",
-    "headline": "China announces a 4 trillion yuan stimulus",
-    "text": "On 9 November China's State Council announced a stimulus of 4 trillion yuan, about $586 billion, with 1.5 trillion for railways, roads and other infrastructure and money for earthquake rebuilding and cheap housing. Growth has fallen towards 6% from double digits.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program (read 2026-10-03)",
-    "image": "/news/asia/2008-11-chongqing-investors.jpg",
-    "imageCaption": "Investors watch share prices in Chongqing the day after China announced its 4 trillion yuan stimulus, 10 November 2008",
-    "imageCredit": "Photo by China Photos/Getty Images"
-  },
-  {
     "month": "2008-11",
     "kind": "company",
     "headline": "Government rescues Citigroup",
@@ -726,41 +439,13 @@
   {
     "month": "2008-11",
     "kind": "world",
-    "headline": "The government rescues Citigroup",
-    "text": "By 17 November Citigroup's shares had fallen so far that the whole bank was valued at 6 billion dollars, against 300 billion two years ago. On 23 November the government agreed to back about 306 billion dollars of its loans and securities and to invest another 20 billion dollars of capital. AIG got a second, 150 billion dollar rescue on 10 November, and the S&P 500 fell 7% in November to 896.24.",
-    "assets": [
-      "c"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/November_2008 (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2008-11-citibank-atm.jpg",
-    "imageCaption": "Customers at Citibank cash machines in New York the morning after the government moved to shore up Citigroup, 24 November 2008",
-    "imageCredit": "Photo by Chris Hondros/Getty Images"
-  },
-  {
-    "month": "2008-11",
-    "kind": "company",
-    "headline": "The crisis reaches the chip business",
-    "text": "On 12 November Intel said fourth-quarter revenue will be about 9 billion dollars, down from its earlier forecast of 10.1 to 10.9 billion, because demand is much weaker than expected in all regions and PC makers are cutting their inventories. It also lowered its margin forecast.",
-    "assets": [
-      "intc"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086308000316/exh991.htm (read 2026-10-03)",
-    "image": "/news/intc/2008-11-hq.jpg",
-    "imageCaption": "Intel's headquarters in Santa Clara, California",
-    "imageCredit": "BrokenSphere"
-  },
-  {
-    "month": "2008-11",
-    "kind": "company",
-    "headline": "Shoppers flock to Wal-Mart as the crisis deepens",
-    "text": "Wal-Mart's US comparable-store sales rose 2.4% in October while many retailers report falling sales. 'We see more customers shopping more often at Walmart,' said the head of its US stores, adding that a family of four can save 700 dollars a year on groceries there. Falling petrol prices should help its customers into the holidays.",
-    "assets": [
-      "wmt"
-    ],
-    "source": "https://corporate.walmart.com/news/2008/11/06/wal-mart-reports-october-sales (read 2026-10-03); data/out/wmt.json price series",
-    "image": "/news/wmt/2008-11-store.jpg",
-    "imageCaption": "A Walmart store",
-    "imageCredit": "Ktkvtsh"
+    "headline": "China announces a 4 trillion yuan stimulus",
+    "text": "On 9 November China's State Council announced a stimulus of 4 trillion yuan, about $586 billion, with 1.5 trillion for railways, roads and other infrastructure and money for earthquake rebuilding and cheap housing. Growth has fallen towards 6% from double digits.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program (read 2026-10-03)",
+    "image": "/news/asia/2008-11-chongqing-investors.jpg",
+    "imageCaption": "Investors watch share prices in Chongqing the day after China announced its 4 trillion yuan stimulus, 10 November 2008",
+    "imageCredit": "Photo by China Photos/Getty Images"
   },
   {
     "month": "2008-11",
@@ -772,21 +457,6 @@
     "image": "/news/world/2008-11-obama-crowd.jpg",
     "imageCaption": "The crowd in Grant Park, Chicago, listens to John McCain's concession on election night, 4 November 2008",
     "imageCredit": "TheeErin from Chicago, USA"
-  },
-  {
-    "month": "2008-12",
-    "kind": "world",
-    "headline": "2008 in review: shares lose 38 percent",
-    "text": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
-    "assets": [
-      "ust2010",
-      "ust2015",
-      "ust2020"
-    ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)",
-    "image": "/news/markets/2008-12-nyse-last-day.jpg",
-    "imageCaption": "Traders in the Merrill Lynch booth on the floor of the New York Stock Exchange after the closing bell on the last trading day of 2008, 31 December 2008",
-    "imageCredit": "Photo by Spencer Platt/Getty Images"
   },
   {
     "month": "2008-12",
@@ -805,16 +475,18 @@
   },
   {
     "month": "2008-12",
-    "kind": "company",
-    "headline": "Siemens settles the bribery case for about $1.4 billion",
-    "text": "On 15 December Siemens agreed to pay about 1.4 billion dollars to US and German authorities to settle the bribery charges, including a 350 million dollar payment to the SEC and 569 million to the Munich prosecutor. The SEC called it the largest settlement in the history of the Foreign Corrupt Practices Act. The euro also recovered strongly in December.",
+    "kind": "world",
+    "headline": "2008 in review: shares lose 38 percent",
+    "text": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
     "assets": [
-      "siemens"
+      "ust2010",
+      "ust2015",
+      "ust2020"
     ],
-    "source": "https://money.cnn.com/2008/12/15/news/companies/siemens_bribery/index.htm via web.archive.org (read 2026-10-03); https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/siemens/2008-12-hq.jpg",
-    "imageCaption": "Siemens headquarters on Wittelsbacherplatz, Munich",
-    "imageCredit": "Fentriss"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)",
+    "image": "/news/markets/2008-12-nyse-last-day.jpg",
+    "imageCaption": "Traders in the Merrill Lynch booth on the floor of the New York Stock Exchange after the closing bell on the last trading day of 2008, 31 December 2008",
+    "imageCredit": "Photo by Spencer Platt/Getty Images"
   },
   {
     "month": "2008-12",
@@ -828,5 +500,18 @@
     "image": "/news/xstrata/2008-12-copper.jpg",
     "imageCaption": "An open-pit copper mine at Elshitsa, Bulgaria",
     "imageCredit": "Edal Anton Lefterov"
+  },
+  {
+    "month": "2008-12",
+    "kind": "company",
+    "headline": "Siemens settles the bribery case for about $1.4 billion",
+    "text": "On 15 December Siemens agreed to pay about 1.4 billion dollars to US and German authorities to settle the bribery charges, including a 350 million dollar payment to the SEC and 569 million to the Munich prosecutor. The SEC called it the largest settlement in the history of the Foreign Corrupt Practices Act. The euro also recovered strongly in December.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://money.cnn.com/2008/12/15/news/companies/siemens_bribery/index.htm via web.archive.org (read 2026-10-03); https://www.propublica.org/article/siemens-bribery-1220 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "image": "/news/siemens/2008-12-hq.jpg",
+    "imageCaption": "Siemens headquarters on Wittelsbacherplatz, Munich",
+    "imageCredit": "Fentriss"
   }
 ]

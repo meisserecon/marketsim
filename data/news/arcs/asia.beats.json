@@ -245,7 +245,8 @@
     "why": "The commodity supercycle at full speed, the story behind the miners in the game (Xstrata, later Glencore) and Schlumberger. It peaked in 2011 and ended from 2014.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2000s_commodities_boom (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2000s_commodities_boom (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "e5cd44c7",
@@ -258,22 +259,6 @@
     ],
     "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Chinese_stock_bubble_of_2007 (read 2026-10-03); https://en.wikipedia.org/wiki/SSE_Composite_Index (read 2026-10-03)"
-  },
-  {
-    "id": "194cb6c9",
-    "month": "2008-10",
-    "title": "Nikkei sinks below 7,000 as the yen soars",
-    "what": "The Nikkei fell to 6,994.90 on 28 October during the day, its lowest since the bubble. The yen jumped as investors unwound bets financed with cheap yen: the dollar fell from about 106 to about 98 yen during the month. Japan's exporters, from carmakers to electronics firms, face a world recession with a dearer currency.",
-    "why": "Japan's share of the global crash: exporters such as Sony were hit twice, by collapsing demand and the yen.",
-    "assets": [
-      "sony"
-    ],
-    "move": {
-      "asset": "sony",
-      "pct": -25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2008 (read 2026-10-03); https://en.wikipedia.org/wiki/Endaka (read 2026-10-03)"
   },
   {
     "id": "b3555f58",
@@ -293,7 +278,8 @@
     "why": "The symbolic handover of the arc from Japan to China.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/2010_in_China (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/2010_in_China (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "d6a27d34",

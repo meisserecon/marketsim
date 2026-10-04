@@ -209,22 +209,6 @@
     "source": "Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
-    "id": "456650ed",
-    "month": "2008-10",
-    "title": "Xstrata drops Lonmin and secures its banks",
-    "what": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
-    "why": "Another 44% gone. Debt, not operations, became the issue, setting up the emergency rights issue three months later.",
-    "assets": [
-      "xstrata"
-    ],
-    "move": {
-      "asset": "xstrata",
-      "pct": -44
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
-  },
-  {
     "id": "e225ba0d",
     "month": "2008-12",
     "title": "Copper at a four-year low, mines shut",
@@ -237,24 +221,8 @@
       "asset": "xstrata",
       "pct": -34
     },
-    "importance": 2,
-    "source": "World Bank Pink Sheet monthly averages; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
-  },
-  {
-    "id": "c2d4aa49",
-    "month": "2009-01",
-    "title": "£4.1bn rescue rights issue, Glencore sells its Colombian coal",
-    "what": "On 29 January Xstrata announced a two-for-one rights issue to raise about £4.1bn ($5.9bn) at 210p a share, a 66% discount to the previous close of 623p, to repay debt. At the same time it will buy Glencore's Prodeco coal mines in Colombia for $2bn, with Glencore keeping an option to buy them back within a year for $2.25bn; Glencore, which owns 34.5%, will use the money to take up its new shares. There will be no final dividend for 2008, 2009 capital spending is cut 45% to $3.4bn, and 2008 EBITDA fell 11% to $9.7bn.",
-    "why": "The survival move. Shareholders were diluted heavily but the balance sheet was fixed just before the 2009 rebound, which is why the shares could rise more than 250% in the following year.",
-    "assets": [
-      "xstrata"
-    ],
-    "move": {
-      "asset": "xstrata",
-      "pct": -12
-    },
     "importance": 1,
-    "source": "Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (read 2026-10-03)"
+    "source": "World Bank Pink Sheet monthly averages; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf (both read 2026-10-03)"
   },
   {
     "id": "34161c98",
@@ -286,7 +254,8 @@
       "pct": 23
     },
     "importance": 3,
-    "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
+    "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "60eb07bd",
@@ -303,22 +272,6 @@
     },
     "importance": 3,
     "source": "World Bank Pink Sheet monthly averages; data/news/arcs/movers.md (both read 2026-10-03)"
-  },
-  {
-    "id": "744ea929",
-    "month": "2010-05",
-    "title": "Australia's super-profits tax and the Greek crisis",
-    "what": "Australia's government has proposed a 40% Resource Super Profits Tax on mining profits; Xstrata, which mines much of its coal, copper and zinc in Australia, is among its loudest opponents, and the industry has started an advertising war against it. At the same time Greece needed a €110bn rescue, and copper fell to an average $6,838 a tonne in May from $7,745 in April.",
-    "why": "Xstrata fell 12% in April, 12% in May and 10% in June. The tax was watered down in July after Kevin Rudd was replaced by Julia Gillard and Xstrata, BHP and Rio negotiated changes.",
-    "assets": [
-      "xstrata"
-    ],
-    "move": {
-      "asset": "xstrata",
-      "pct": -12
-    },
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Minerals_Resource_Rent_Tax; https://en.wikipedia.org/wiki/Euro_area_crisis; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
   },
   {
     "id": "00e80439",

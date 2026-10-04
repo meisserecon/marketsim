@@ -91,18 +91,6 @@
     "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03); https://en.wikipedia.org/wiki/Sandoz_Group (read 2026-10-03)"
   },
   {
-    "id": "ad9ad9d8",
-    "month": "2006-12",
-    "title": "Novartis takes over Chiron",
-    "what": "This year Novartis acquired the California biotechnology company Chiron.",
-    "why": "Chiron was known for vaccines and blood testing (not confirmed in a source read); Novartis sells its vaccines business to GSK in 2014. Year-end summary.",
-    "assets": [
-      "novartis"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
-  },
-  {
     "id": "e5489aac",
     "month": "2007-04",
     "title": "Novartis sells Gerber to Nestlé",
@@ -127,22 +115,6 @@
     ],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Alcon (read 2026-10-03)"
-  },
-  {
-    "id": "2ed18b7c",
-    "month": "2009-01",
-    "title": "Crisis winter: shares fall and the franc too",
-    "what": "Stock markets kept falling in January after the collapse of Lehman Brothers last September; the S&P 500 lost 9%. The dollar rose from 1.07 to 1.16 francs over the month.",
-    "why": "Novartis lost 16% in dollars, about half of it the franc's fall; a defensive drug stock is no shelter in dollar terms when the franc weakens.",
-    "assets": [
-      "novartis"
-    ],
-    "move": {
-      "asset": "novartis",
-      "pct": -16
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; FRED DEXSZUS (read 2026-10-03)"
   },
   {
     "id": "f3a973c0",

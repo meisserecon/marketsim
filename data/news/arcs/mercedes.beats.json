@@ -231,23 +231,6 @@
     "source": "Mercedes-Benz Classic, Illustrated Chronicle 2007 ('DaimlerChrysler AG becomes Daimler AG', 4 October 2007; 'Cerberus acquires majority of Chrysler Group', 3 August 2007), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2007.xhtml?oid=4913464 (read 2026-10-03)"
   },
   {
-    "id": "f77b46ae",
-    "month": "2008-10",
-    "title": "The financial crisis crushes car shares",
-    "what": "After the collapse of Lehman Brothers in September, stock markets plunged worldwide in October, credit markets are disrupted and the crisis is spreading to the wider economy. The euro fell from 1.41 to 1.27 dollars during the month, which made the fall worse in dollars.",
-    "why": "Daimler fell 24% in euros and 32% in dollars; the DAX ended 2008 down about 40%. The bottom came in February-March 2009.",
-    "assets": [
-      "mercedes",
-      "lehman"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -32
-    },
-    "importance": 1,
-    "source": "BMW Group Annual Report 2008, 'BMW Stock and Bonds' (DAX -40% in 2008, Prime Automobile index -35.3%), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2008.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
-  },
-  {
     "id": "54ed8d3f",
     "month": "2009-03",
     "title": "Abu Dhabi buys 9.1% of Daimler",
@@ -256,7 +239,7 @@
     "assets": [
       "mercedes"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "Mercedes-Benz Classic, Illustrated Chronicle 2009 ('Aabar Investments (Abu Dhabi) becomes major Daimler investor', 22 March 2009; short-time working, 11 March 2009), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/2009.xhtml?oid=4913607 (read 2026-10-03); Al Jazeera, 'Daimler boosted by UAE investment', 23 March 2009 (headline, via Google News) (read 2026-10-03)"
   },
   {
@@ -289,7 +272,9 @@
       "pct": 30
     },
     "importance": 2,
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
+    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "lead": true,
+    "note": "Add reference to BMW"
   },
   {
     "id": "70c7e19a",

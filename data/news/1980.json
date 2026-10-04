@@ -157,6 +157,14 @@
     "imageCredit": "Anna Gerdén"
   },
   {
+    "month": "1980-07",
+    "kind": "colour",
+    "headline": "Moscow Olympics: the Swiss compete under the Olympic flag",
+    "text": "The Summer Olympics opened in Moscow on 19 July without the United States and dozens of other countries, which boycott the Games over the Soviet invasion of Afghanistan. Only 80 nations take part. Switzerland sent 73 athletes but, in partial support of the boycott, marched under the Olympic flag instead of its own. Robert Dill-Bundi won gold in the 4,000 metres cycling pursuit and Jürg Röthlisberger in judo.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1980_Summer_Olympics (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_at_the_1980_Summer_Olympics (read 2026-10-03)"
+  },
+  {
     "month": "1980-09",
     "kind": "world",
     "headline": "Iraq invades Iran",
@@ -216,6 +224,18 @@
     "image": "/news/aapl/1980-12-apple-ii-ad.jpg",
     "imageCaption": "\"Introducing Apple II\": Apple's advertisement for the computer that made the company, with the machine on a kitchen table",
     "imageCredit": "Apple Computer advertisement, from Byte, November 1977 (scan: nosher.net)"
+  },
+  {
+    "month": "1980-12",
+    "kind": "world",
+    "headline": "1980 in review: shares up 26 percent despite record interest rates",
+    "text": "The S&P 500 ended 1980 at 135.76, up 26% on the year, after falling to about 102 in March. The Dow Jones average closed the year at 963.99, up 14.9%. The year closes with the Federal Reserve's key interest rate approaching 20 percent as it fights inflation, and on 19 December the banks' prime rate reached a record 21.5 percent, a heavy weight on shares going into 1981.",
+    "assets": [
+      "ust1985",
+      "ust1990",
+      "ust2000"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03)"
   },
   {
     "month": "1980-12",

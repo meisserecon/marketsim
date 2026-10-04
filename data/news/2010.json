@@ -2,16 +2,15 @@
   {
     "month": "2010-01",
     "kind": "company",
-    "headline": "Nestlé agrees to sell the rest of Alcon to Novartis",
-    "text": "On 4 January Nestlé agreed to sell its remaining majority stake in Alcon to Novartis, part of a $39.3 billion offer by Novartis for all of Alcon. Nestlé also agreed to buy Kraft's American frozen pizza business, including DiGiorno and Tombstone, for $3.7 billion.",
+    "headline": "Apple announces the iPad",
+    "text": "On 27 January Apple announced the iPad, a tablet computer with a screen twice the size of the iPhone's, without phone functions. It goes on sale in April.",
     "assets": [
-      "nestle",
-      "novartis"
+      "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)",
-    "image": "/news/nestle/2010-01-bulcke.jpg",
-    "imageCaption": "Paul Bulcke, chief executive of Nestlé, Davos, January 2010",
-    "imageCredit": "World Economic Forum"
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "image": "/news/aapl/2010-01-ipad.jpg",
+    "imageCaption": "Steve Jobs introduces the iPad, San Francisco, 27 January 2010",
+    "imageCredit": "matt buchanan"
   },
   {
     "month": "2010-01",
@@ -28,19 +27,6 @@
     "imageCredit": "World Economic Forum"
   },
   {
-    "month": "2010-01",
-    "kind": "company",
-    "headline": "Apple announces the iPad",
-    "text": "On 27 January Apple announced the iPad, a tablet computer with a screen twice the size of the iPhone's, without phone functions. It goes on sale in April.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
-    "image": "/news/aapl/2010-01-ipad.jpg",
-    "imageCaption": "Steve Jobs introduces the iPad, San Francisco, 27 January 2010",
-    "imageCredit": "matt buchanan"
-  },
-  {
     "month": "2010-02",
     "kind": "company",
     "headline": "Coca-Cola to buy back its North American bottler",
@@ -52,19 +38,6 @@
     "image": "/news/ko/2010-02-truck.jpg",
     "imageCaption": "A Coca-Cola delivery truck",
     "imageCredit": "Rundvald"
-  },
-  {
-    "month": "2010-02",
-    "kind": "company",
-    "headline": "Schlumberger buys Smith International for 11 billion dollars",
-    "text": "On 21 February Schlumberger agreed to buy Smith International, a maker of drill bits and drilling fluids, in an all-share deal: 0.6966 Schlumberger shares per Smith share, a 37.5 percent premium, valuing the deal at about 11.3 billion dollars.",
-    "assets": [
-      "slb"
-    ],
-    "source": "Schlumberger and Smith press release of 21 February 2010, https://www.sec.gov/Archives/edgar/data/87347/000119312510035707/dex991.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (value, completion) (read 2026-10-03)",
-    "image": "/news/slb/2010-02-rig-platform.jpg",
-    "imageCaption": "Offshore drilling rigs being refurbished at Corpus Christi, Texas",
-    "imageCredit": "Jim Evans"
   },
   {
     "month": "2010-04",
@@ -82,15 +55,12 @@
     "imageCredit": "matt buchanan"
   },
   {
-    "month": "2010-05",
-    "kind": "world",
-    "headline": "Greece and the flash crash: shares fall 8 percent",
-    "text": "After Standard and Poor's cut Greece's credit rating to junk on 27 April, fears about Europe's debt crisis gripped markets. On 6 May the Dow, already down more than 300 points, plunged almost 1,000 points within minutes in the afternoon, about 9%, before recovering most of it; roughly a trillion dollars of value vanished and reappeared within half an hour. The S&P 500 lost 8% in May to 1,089.41.",
+    "month": "2010-04",
+    "kind": "colour",
+    "headline": "Volcanic ash from Iceland grounds Europe's planes",
+    "text": "After the Eyjafjallajökull volcano in Iceland erupted on 14 April, its ash cloud drifted over Europe, and much of European airspace was closed from 15 April for nearly a week, for fear the ash would damage jet engines. Over 95,000 flights were cancelled and millions of passengers were stranded.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2010-05-flash-crash.jpg",
-    "imageCaption": "Traders on the floor of the New York Stock Exchange in the final minutes of the flash crash, when the Dow lost almost 1,000 points before recovering, 6 May 2010",
-    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
+    "source": "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption (read 2026-10-03)"
   },
   {
     "month": "2010-05",
@@ -105,16 +75,26 @@
   },
   {
     "month": "2010-05",
-    "kind": "company",
-    "headline": "IBM promises at least 20 dollars a share by 2015",
-    "text": "At its investor meeting IBM set out a '2015 roadmap': operating earnings of at least 20 dollars a share by 2015, against about 11 dollars for 2010, growth from emerging markets, analytics and cloud computing, and 100 billion dollars of free cash flow, 70% of it returned to shareholders, including about 50 billion dollars of share buybacks.",
+    "kind": "world",
+    "headline": "Greece and the flash crash: shares fall 8 percent",
+    "text": "After Standard and Poor's cut Greece's credit rating to junk on 27 April, fears about Europe's debt crisis gripped markets. On 6 May the Dow, already down more than 300 points, plunged almost 1,000 points within minutes in the afternoon, about 9%, before recovering most of it; roughly a trillion dollars of value vanished and reappeared within half an hour. The S&P 500 lost 8% in May to 1,089.41.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (read 2026-10-03); data/reference/sp500.json",
+    "image": "/news/markets/2010-05-flash-crash.jpg",
+    "imageCaption": "Traders on the floor of the New York Stock Exchange in the final minutes of the flash crash, when the Dow lost almost 1,000 points before recovering, 6 May 2010",
+    "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
+  },
+  {
+    "month": "2010-05",
+    "kind": "world",
+    "headline": "The Gulf spill halts deep drilling",
+    "text": "The Deepwater Horizon rig exploded on 20 April, killing 11 workers, and the well is still gushing tens of thousands of barrels a day into the Gulf of Mexico. The US government has imposed a six-month moratorium on deepwater drilling, stopping work on 33 rigs. US crude fell 14% in May to $74.",
     "assets": [
-      "ibm"
+      "slb"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465910027974/a10-9848_18k.htm (IBM 8-K of 2010-05-12 with the investor presentation, read 2026-10-03)",
-    "image": "/news/ibm/2010-05-palmisano.jpg",
-    "imageCaption": "Sam Palmisano, IBM's chairman and chief executive",
-    "imageCredit": "Gage Skidmore"
+    "source": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
+    "image": "/news/oil/2010-05-deepwater-fire.jpg",
+    "imageCaption": "The Deepwater Horizon drilling rig on fire in the Gulf of Mexico, 21 April 2010"
   },
   {
     "month": "2010-05",
@@ -131,18 +111,6 @@
     "imageCredit": "matt buchanan"
   },
   {
-    "month": "2010-05",
-    "kind": "world",
-    "headline": "The Gulf spill halts deep drilling",
-    "text": "The Deepwater Horizon rig exploded on 20 April, killing 11 workers, and the well is still gushing tens of thousands of barrels a day into the Gulf of Mexico. The US government has imposed a six-month moratorium on deepwater drilling, stopping work on 33 rigs. US crude fell 14% in May to $74.",
-    "assets": [
-      "slb"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=D (read 2026-10-03)",
-    "image": "/news/oil/2010-05-deepwater-fire.jpg",
-    "imageCaption": "The Deepwater Horizon drilling rig on fire in the Gulf of Mexico, 21 April 2010"
-  },
-  {
     "month": "2010-06",
     "kind": "listing",
     "headline": "Tesla, the electric car maker, goes public",
@@ -154,19 +122,6 @@
     "image": "/news/tsla/2010-06-musk-ipo-times-square.jpg",
     "imageCaption": "Elon Musk beside a Tesla Roadster in Times Square, New York, on the day Tesla's shares began trading on Nasdaq, 29 June 2010",
     "imageCredit": "CNN (still from CNN's 2010 interview)"
-  },
-  {
-    "month": "2010-09",
-    "kind": "company",
-    "headline": "BMW joins Europe's blue-chip index as car shares boom",
-    "text": "German car makers are profiting from robust economic growth, and their shares are leading the DAX. In September BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/bmw/2010-09-f10.jpg",
-    "imageCaption": "The BMW 5 Series (F10), 2010",
-    "imageCredit": "nakhon100"
   },
   {
     "month": "2010-09",
@@ -221,5 +176,15 @@
     "image": "/news/c/2010-12-geithner.jpg",
     "imageCaption": "Timothy Geithner, US Treasury Secretary",
     "imageCredit": "Medill DC"
+  },
+  {
+    "month": "2010-12",
+    "kind": "company",
+    "headline": "Siemens sells its IT services arm to Atos",
+    "text": "In December Siemens agreed to sell its IT Solutions and Services subsidiary to the French company Atos for 850 million euros.",
+    "assets": [
+      "siemens"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03)"
   }
 ]

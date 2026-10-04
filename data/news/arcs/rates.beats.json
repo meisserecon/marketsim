@@ -309,7 +309,8 @@
       "pct": 10
     },
     "importance": 1,
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03)"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "bacf7bc4",

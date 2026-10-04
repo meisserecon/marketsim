@@ -169,18 +169,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/50863/000115752308000317/a5586061ex99_1.htm (Intel press release of 15 January 2008) (read 2026-10-03)"
   },
   {
-    "id": "2075e596",
-    "month": "2008-11",
-    "title": "The crisis reaches the chip business",
-    "what": "On 12 November Intel said fourth-quarter revenue will be about 9 billion dollars, down from its earlier forecast of 10.1 to 10.9 billion, because demand is much weaker than expected in all regions and PC makers are cutting their inventories. It also lowered its margin forecast.",
-    "why": "The financial crisis in Intel's numbers; the stock reached its low for the whole period in February 2009, 83% below the 2000 peak.",
-    "assets": [
-      "intc"
-    ],
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086308000316/exh991.htm (read 2026-10-03)"
-  },
-  {
     "id": "17d36494",
     "month": "2009-05",
     "title": "The EU fines Intel 1.06 billion euros",
@@ -191,19 +179,6 @@
     ],
     "importance": 2,
     "source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_09_745 (read 2026-10-03, via search summary)"
-  },
-  {
-    "id": "452286e9",
-    "month": "2011-01",
-    "title": "Intel settles with Nvidia for 1.5 billion dollars",
-    "what": "On 10 January Intel and Nvidia signed a patent cross-licence and ended their lawsuits over Nvidia's right to make chipsets for Intel processors. Intel will pay Nvidia 1.5 billion dollars in licence fees over six years.",
-    "why": "For Intel a cost of doing business; for Nvidia a cash stream and the end of the chipset business, which pushed it further into graphics and computing.",
-    "assets": [
-      "intc",
-      "nvda"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (read 2026-10-03)"
   },
   {
     "id": "5b2763e8",
@@ -413,7 +388,8 @@
       "pct": 114
     },
     "importance": 1,
-    "source": "https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html (read 2026-10-03, via search summary)"
+    "source": "https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html (read 2026-10-03, via search summary)",
+    "lead": true
   },
   {
     "id": "116984e2",

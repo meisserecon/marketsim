@@ -242,22 +242,6 @@
     "source": "https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); ExxonMobil press release of 31 July 2008, https://www.sec.gov/Archives/edgar/data/34088/000003408808000102/r8k2q991.htm (read 2026-10-03); data/out/xom.json and data/reference/sp500.json (2008 changes, for the why)"
   },
   {
-    "id": "d43380c4",
-    "month": "2009-12",
-    "title": "ExxonMobil buys XTO for 41 billion dollars and bets on shale gas",
-    "what": "On 14 December ExxonMobil agreed to buy XTO Energy, a leading US producer of natural gas from shale and other 'unconventional' rock, in an all-stock deal valued at 41 billion dollars including 10 billion of XTO debt. XTO shareholders get 0.7098 ExxonMobil shares each, a 25 percent premium.",
-    "why": "ExxonMobil's big bet on US shale gas, made just before gas prices fell for years; in November 2020 it wrote down US dry gas fields by 17 to 20 billion dollars. Its shares fell 9% this month.",
-    "assets": [
-      "xom"
-    ],
-    "move": {
-      "asset": "xom",
-      "pct": -9
-    },
-    "importance": 2,
-    "source": "ExxonMobil and XTO press release of 14 December 2009, https://www.sec.gov/Archives/edgar/data/34088/000095010309003246/dp15865_ex9901.htm (read 2026-10-03)"
-  },
-  {
     "id": "c2f24a31",
     "month": "2011-08",
     "title": "Tillerson and Putin's oil chief sign an Arctic deal",

@@ -272,35 +272,8 @@
       "ibm"
     ],
     "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465906067047/a06-19062_48k.htm (IBM 8-K with the results release of 2006-10-17, read 2026-10-03)"
-  },
-  {
-    "id": "028336df",
-    "month": "2008-10",
-    "title": "IBM keeps its forecast as markets crash",
-    "what": "In a month of crashing markets IBM reported third-quarter earnings of 2.05 dollars a share, up 22%, on revenue of 25.3 billion dollars, and said it still expects at least 8.75 dollars for the year. 'We remain confident in our full-year 2008 outlook,' chief executive Sam Palmisano said.",
-    "why": "Explains the -21% month as pure market (-17%): IBM's business held up, and the stock was one of the first to recover in 2009 (+56%). (Time check: 'the worst month of the crisis' was a later verdict.)",
-    "assets": [
-      "ibm"
-    ],
-    "move": {
-      "asset": "ibm",
-      "pct": -21
-    },
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000110465908064449/a08-26220_28k.htm (IBM 8-K with the results release of 2008-10-16, read 2026-10-03)"
-  },
-  {
-    "id": "76e6467e",
-    "month": "2010-05",
-    "title": "IBM promises at least 20 dollars a share by 2015",
-    "what": "At its investor meeting IBM set out a '2015 roadmap': operating earnings of at least 20 dollars a share by 2015, against about 11 dollars for 2010, growth from emerging markets, analytics and cloud computing, and 100 billion dollars of free cash flow, 70% of it returned to shareholders, including about 50 billion dollars of share buybacks.",
-    "why": "The promise that defined the stock for four years and was abandoned in October 2014.",
-    "assets": [
-      "ibm"
-    ],
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465910027974/a10-9848_18k.htm (IBM 8-K of 2010-05-12 with the investor presentation, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465906067047/a06-19062_48k.htm (IBM 8-K with the results release of 2006-10-17, read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "3577ce85",
@@ -500,21 +473,5 @@
     ],
     "importance": 3,
     "source": "https://newsroom.ibm.com/2026-09-16-anderon,-an-ibm-company,-finalizes-agreement-with-the-u-s-department-of-commerce-for-a-1-billion-chips-award-to-accelerate-r-d-for-u-s-based-pure-play-quantum-foundry (read 2026-10-03; refers to the May 2026 letter of intent); https://newsroom.ibm.com/announcements (release list, read 2026-10-03)"
-  },
-  {
-    "id": "f4b08536",
-    "month": "2026-07",
-    "title": "IBM warns that big deals failed to close",
-    "what": "On 14 July IBM released early second-quarter figures: revenue of 17.2 billion dollars, up 1%, below forecasts of about 17.9 billion. Chief executive Arvind Krishna said 'numerous large deals failed to close' as clients diverted budgets to servers and storage for AI, and admitted 'we faltered'. The shares fell about 22% in early trading, close to their worst day since 1987.",
-    "why": "Explains the -20% month and gives back the May rally.",
-    "assets": [
-      "ibm"
-    ],
-    "move": {
-      "asset": "ibm",
-      "pct": -20
-    },
-    "importance": 1,
-    "source": "https://newsroom.ibm.com/2026-07-14-Arvind-Krishnas-Letter-to-IBM-Investors (read 2026-10-03); https://www.aol.com/articles/ibm-tumbles-22-toward-worst-130646000.html (read 2026-10-03)"
   }
 ]

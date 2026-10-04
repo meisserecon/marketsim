@@ -286,7 +286,7 @@
       "nokia",
       "siemens"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.democracynow.org/2009/6/22/headlines/irans_web_spying_aided_by_european_firms_siemens_and_nokia (read 2026-10-03); https://observers.france24.com/en/20090624-siemens-nokia-helps-iran-bust-protesters-did-wall-street-journal-go-far-internet-mobile-phones-censorship (read 2026-10-03)"
   },
   {
@@ -298,7 +298,7 @@
     "assets": [
       "credit-suisse"
     ],
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.nbcnews.com/id/wbna34447412 (read 2026-10-03); https://www.bloomberg.com/news/articles/2009-12-16/credit-suisse-to-pay-536-million-in-u-s-sanction-settlement (read 2026-10-03)"
   },
   {
@@ -506,7 +506,8 @@
     "why": "The bloodiest crackdown in the Islamic Republic's history, and a direct cause of the war that followed. Death tolls are fiercely disputed: by early February HRANA had confirmed over 7,000 deaths, some media citing health officials gave 30,000 or more, the government 3,117. 'What' therefore says only 'thousands'.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "43b51230",
@@ -531,20 +532,6 @@
     },
     "importance": 1,
     "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)"
-  },
-  {
-    "id": "bfdbd812",
-    "month": "2026-04",
-    "title": "Ceasefire brokered by Pakistan; markets surge",
-    "what": "The United States and Iran agreed on 7 to 8 April to a two-week ceasefire mediated by Pakistan, with the Strait of Hormuz to reopen. Talks in Islamabad on 11 and 12 April ended without a deal over the nuclear programme and the strait, and President Trump announced a naval blockade of Iran from 13 April. The truce is fragile, but share prices have rebounded strongly from their low of 30 March.",
-    "why": "The relief rally: the S&P 500's best month in years came as the worst of the oil shock passed. AI enthusiasm (Intel, Nokia) also drove April, so the ceasefire is part, not all, of the move. On 17 June Presidents Trump and Pezeshkian signed a 14-point 'Islamabad Memorandum' lifting the blockade and reopening Hormuz; it frayed within weeks.",
-    "assets": [],
-    "move": {
-      "asset": "sp500",
-      "pct": 10
-    },
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Islamabad_Talks (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03)"
   },
   {
     "id": "59d27fbd",

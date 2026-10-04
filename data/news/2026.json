@@ -1,6 +1,17 @@
 [
   {
     "month": "2026-01",
+    "kind": "world",
+    "headline": "Uprising over the collapsing rial meets a massacre",
+    "text": "Protests that began on 28 December as the rial fell to record lows, near 1.5 million to the dollar, and food prices soared, spread to hundreds of towns in every province. On 8 and 9 January, as huge crowds filled the streets, the authorities shut down the internet and security forces opened fire. Rights groups say thousands of people were killed in those two days, and tens of thousands arrested; the government gives lower figures, and with the internet cut the numbers cannot be checked.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)",
+    "image": "/news/middle-east/2026-01-uprising.jpg",
+    "imageCaption": "Demonstrators with Iranian flags in support of the uprising in Iran, 10 January 2026",
+    "imageCredit": "Anahita Mehdizadeh"
+  },
+  {
+    "month": "2026-01",
     "kind": "company",
     "headline": "Greg Abel takes over Berkshire",
     "text": "Greg Abel became Berkshire Hathaway's chief executive on 1 January, with Warren Buffett staying on as chairman. This month Berkshire completed the purchase of the chemicals maker OxyChem from Occidental Petroleum, announced last year.",
@@ -24,17 +35,6 @@
     "image": "/news/glencore/2026-01-collahuasi.jpg",
     "imageCaption": "The high Andes near the Collahuasi copper mine, Chile",
     "imageCredit": "Diego Delso"
-  },
-  {
-    "month": "2026-01",
-    "kind": "world",
-    "headline": "Uprising over the collapsing rial meets a massacre",
-    "text": "Protests that began on 28 December as the rial fell to record lows, near 1.5 million to the dollar, and food prices soared, spread to hundreds of towns in every province. On 8 and 9 January, as huge crowds filled the streets, the authorities shut down the internet and security forces opened fire. Rights groups say thousands of people were killed in those two days, and tens of thousands arrested; the government gives lower figures, and with the internet cut the numbers cannot be checked.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)",
-    "image": "/news/middle-east/2026-01-uprising.jpg",
-    "imageCaption": "Demonstrators with Iranian flags in support of the uprising in Iran, 10 January 2026",
-    "imageCredit": "Anahita Mehdizadeh"
   },
   {
     "month": "2026-01",
@@ -75,19 +75,6 @@
     "image": "/news/oil/2026-01-maduro.jpg",
     "imageCaption": "Nicolas Maduro aboard the USS Iwo Jima after his capture, January 2026",
     "imageCredit": "US Military"
-  },
-  {
-    "month": "2026-01",
-    "kind": "company",
-    "headline": "SLB says the worst is over",
-    "text": "On 23 January SLB reported fourth-quarter revenue up 9 percent from the third quarter and raised its dividend by 3.5 percent, with more than 4 billion dollars to be returned to shareholders in 2026. Chief executive Olivier Le Peuch said the headwinds of 2025 are behind it and expects more drilling in the Middle East. Oil rose from about 57 to 65 dollars during January, after the US capture of Venezuela's president on 3 January opened talk of rebuilding Venezuela's oil industry, and as unrest in Iran threatened supply.",
-    "assets": [
-      "slb"
-    ],
-    "source": "SLB press release of 23 January 2026, https://www.sec.gov/Archives/edgar/data/87347/000119312526020133/d59412dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela (read 2026-10-03); https://en.wikipedia.org/wiki/Price_of_oil (read 2026-10-03)",
-    "image": "/news/slb/2026-01-drillship.jpg",
-    "imageCaption": "The drillship Deep Value Driller in port in Norway",
-    "imageCredit": "Christoffer Hjeltnes Stoele"
   },
   {
     "month": "2026-01",
@@ -305,19 +292,6 @@
   {
     "month": "2026-04",
     "kind": "company",
-    "headline": "Tim Cook will hand over to John Ternus",
-    "text": "On 20 April Apple announced that Tim Cook will become executive chair on 1 September and that John Ternus, 50, head of hardware engineering and at Apple since 2001, will succeed him as chief executive. On 30 April Apple reported record March-quarter revenue of 111.2 billion dollars, up 17%, with strong demand for the iPhone 17.",
-    "assets": [
-      "aapl"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm (Apple 8-K of 20 April 2026, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm (Apple press release of 30 April 2026, read 2026-10-03)",
-    "image": "/news/aapl/2026-04-ternus.jpg",
-    "imageCaption": "John Ternus, Apple's head of hardware engineering, at Apple's 50th anniversary event, March 2026",
-    "imageCredit": "Tessa Bury"
-  },
-  {
-    "month": "2026-04",
-    "kind": "company",
     "headline": "Intel more than doubles in a month",
     "text": "On 9 April Intel's foundry won Tesla as a long-term partner for a planned chip plant and Alphabet committed to Intel processors for Google Cloud. On 23 April Intel reported first-quarter revenue of 13.6 billion dollars, up 7%, and adjusted earnings of 29 cents a share against two cents expected; chief executive Lip-Bu Tan said demand for data-centre processors now exceeds supply. The shares rose 24% the next day and 114% for the month.",
     "assets": [
@@ -331,6 +305,19 @@
   },
   {
     "month": "2026-04",
+    "kind": "company",
+    "headline": "Tim Cook will hand over to John Ternus",
+    "text": "On 20 April Apple announced that Tim Cook will become executive chair on 1 September and that John Ternus, 50, head of hardware engineering and at Apple since 2001, will succeed him as chief executive. On 30 April Apple reported record March-quarter revenue of 111.2 billion dollars, up 17%, with strong demand for the iPhone 17.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm (Apple 8-K of 20 April 2026, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm (Apple press release of 30 April 2026, read 2026-10-03)",
+    "image": "/news/aapl/2026-04-ternus.jpg",
+    "imageCaption": "John Ternus, Apple's head of hardware engineering, at Apple's 50th anniversary event, March 2026",
+    "imageCredit": "Tessa Bury"
+  },
+  {
+    "month": "2026-04",
     "kind": "world",
     "headline": "Ceasefire and strong earnings: the best month since 2020",
     "text": "President Trump announced a two-week ceasefire with Iran late on 7 April; the next day oil fell about 15% and the Dow jumped 1,326 points. The S&P 500 closed at a record 7,022.95 on 15 April, though the Strait of Hormuz stayed effectively closed, as 84% of companies beat profit forecasts and technology shares led on optimism about AI. The S&P 500 rose 10% in April to a record 7,209.01, its best month since November 2020.",
@@ -339,84 +326,6 @@
     "image": "/news/markets/2026-04-ceasefire-briefing.jpg",
     "imageCaption": "Pentagon briefing on the ceasefire agreement between the United States and Iran, 8 April 2026",
     "imageCredit": "Benjamin D. Applebaum)"
-  },
-  {
-    "month": "2026-04",
-    "kind": "world",
-    "headline": "Ceasefire brokered by Pakistan; markets surge",
-    "text": "The United States and Iran agreed on 7 to 8 April to a two-week ceasefire mediated by Pakistan, with the Strait of Hormuz to reopen. Talks in Islamabad on 11 and 12 April ended without a deal over the nuclear programme and the strait, and President Trump announced a naval blockade of Iran from 13 April. The truce is fragile, but share prices have rebounded strongly from their low of 30 March.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Islamabad_Talks (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03)",
-    "image": "/news/middle-east/2026-04-islamabad-talks.jpg",
-    "imageCaption": "On the sidelines of the Islamabad talks, April 2026",
-    "imageCredit": "Hamed Malekpour"
-  },
-  {
-    "month": "2026-04",
-    "kind": "world",
-    "headline": "Ceasefire, and the UAE quits OPEC",
-    "text": "A two-week ceasefire took effect on 8 April. Physical Brent cargoes, which had touched $138 on 7 April, dropped to $122 the next day, and stocks rallied. The strait reopened briefly on 17 April but was closed again the next day, and the US imposed its own naval blockade. On 28 April the United Arab Emirates said it will leave OPEC and OPEC+ on 1 May.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/OPEC (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03)",
-    "image": "/news/oil/2026-04-opec-hq.jpg",
-    "imageCaption": "The OPEC headquarters in Vienna, 5 April 2026",
-    "imageCredit": "Bloomberg via Getty Images"
-  },
-  {
-    "month": "2026-04",
-    "kind": "world",
-    "headline": "The chip rally: technology's best month since 2000",
-    "text": "The Nasdaq rose 15.3% in April and the technology sector of the S&P 500 about 20%, as companies kept setting records for spending on AI chips; the S&P 500 had its best month since November 2020, helped by a ceasefire between the US and Iran. Intel more than doubled after deals with Google and Tesla and strong results on 23 April, and Nokia rose 61%; its sales to AI and cloud customers rose by nearly half in the first quarter.",
-    "assets": [
-      "intc",
-      "nokia",
-      "nvda",
-      "siemens",
-      "tsla"
-    ],
-    "source": "https://www.communityamerica.com/blog/2026/may-2026-market-insights (read 2026-10-03); https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
-    "image": "/news/tech/2026-04-huang-stanford.jpg",
-    "imageCaption": "Jensen Huang, chief executive of Nvidia, with students at Stanford University, 30 April 2026",
-    "imageCredit": "Anderseidesvik"
-  },
-  {
-    "month": "2026-04",
-    "kind": "company",
-    "headline": "Amazon's cloud accelerates",
-    "text": "On April 29 Amazon reported first-quarter sales of $181.5 billion, up 17%, with AWS sales up 28% to $37.6 billion and net income of $30.3 billion. Earlier in the month Amazon invested a further $5 billion in Anthropic.",
-    "assets": [
-      "amzn"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-26-000012.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)",
-    "image": "/news/amzn/2026-04-aws-data-centres.jpg",
-    "imageCaption": "Three Amazon Web Services data centres in the us-west-2 region, Oregon",
-    "imageCredit": "Tedder"
-  },
-  {
-    "month": "2026-04",
-    "kind": "company",
-    "headline": "AI demand lifts Nokia as markets rebound",
-    "text": "On 23 April Nokia reported that sales to AI and cloud customers grew 49% in the first quarter and now make up 8% of the group, with 1 billion euros of new orders from them, and raised its estimate of that market's growth to 27% a year through 2028 from 16%. Markets rallied after the US-Iran ceasefire of 8 April. Nokia's ADR rose 61% in April.",
-    "assets": [
-      "nokia"
-    ],
-    "source": "https://www.nokia.com/about-us/news/releases/2026/04/23/nokia-corporation-interim-report-for-q1-2026/ (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)",
-    "image": "/news/nokia/2026-04-hq.jpg",
-    "imageCaption": "Nokia's headquarters in Espoo, Finland",
-    "imageCredit": "Villeke"
-  },
-  {
-    "month": "2026-04",
-    "kind": "company",
-    "headline": "Ceasefire rally; Siemens sets the Healthineers vote",
-    "text": "A two-week ceasefire between the US and Iran began on 8 April and the Strait of Hormuz reopened for its duration; stocks rebounded from their 30 March low. On 17 April Siemens said shareholders will vote on the direct spin-off of its Healthineers shares at the annual meeting in February 2027. Siemens shares rose 25% in April.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-clarifies-timeline-spin-siemens-healthineers-shares (read 2026-10-03)",
-    "image": "/news/siemens/2026-04-frankfurt.jpg",
-    "imageCaption": "The trading floor of the Frankfurt stock exchange",
-    "imageCredit": "Ank Kumar"
   },
   {
     "month": "2026-05",
@@ -487,19 +396,6 @@
   {
     "month": "2026-07",
     "kind": "company",
-    "headline": "IBM warns that big deals failed to close",
-    "text": "On 14 July IBM released early second-quarter figures: revenue of 17.2 billion dollars, up 1%, below forecasts of about 17.9 billion. Chief executive Arvind Krishna said 'numerous large deals failed to close' as clients diverted budgets to servers and storage for AI, and admitted 'we faltered'. The shares fell about 22% in early trading, close to their worst day since 1987.",
-    "assets": [
-      "ibm"
-    ],
-    "source": "https://newsroom.ibm.com/2026-07-14-Arvind-Krishnas-Letter-to-IBM-Investors (read 2026-10-03); https://www.aol.com/articles/ibm-tumbles-22-toward-worst-130646000.html (read 2026-10-03)",
-    "image": "/news/ibm/2026-07-krishna-poughkeepsie.jpg",
-    "imageCaption": "IBM's chief executive Arvind Krishna greets President Biden at IBM Poughkeepsie",
-    "imageCredit": "IBM (IBM Archives)"
-  },
-  {
-    "month": "2026-07",
-    "kind": "company",
     "headline": "Intel falls a third from its June high",
     "text": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
     "assets": [
@@ -509,17 +405,6 @@
     "image": "/news/intc/2026-07-mission-college.jpg",
     "imageCaption": "Intel's headquarters on Mission College Boulevard, Santa Clara",
     "imageCredit": "Coolcaesar"
-  },
-  {
-    "month": "2026-07",
-    "kind": "colour",
-    "headline": "Switzerland reach a World Cup quarter-final for the first time since 1954",
-    "text": "At the World Cup in the United States, Canada and Mexico, Switzerland won its group, then beat Colombia on penalties after a goalless game, with a save by Gregor Kobel and the winning penalty by Rubén Vargas. It was their first World Cup quarter-final since 1954. There they lost to Argentina, after Breel Embolo was sent off. Spain won the final against Argentina 1-0 after extra time on 19 July.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage (read 2026-10-03); https://en.wikipedia.org/wiki/2026_FIFA_World_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
-    "image": "/news/life/2026-07-wc-arg-sui.jpg",
-    "imageCaption": "Argentina v Switzerland, quarter-final of the 2026 World Cup, 11 July 2026",
-    "imageCredit": "Tdwildcats3"
   },
   {
     "month": "2026-07",
@@ -655,21 +540,6 @@
   },
   {
     "month": "2026-09",
-    "kind": "world",
-    "headline": "Bond yields at multi-year highs and a Fed rate rise cool the rally",
-    "text": "After a record close of 7,798.99 on 13 August, shares stalled in September as long-term interest rates climbed: the 10-year Treasury yield rose to about 5.25%, the highest since 2007, and the 30-year to about 5.6%, the highest since 2002. On 16 September the Federal Reserve raised its key rate by a quarter point to 3.75-4 percent, saying inflation remains elevated. The S&P 500 slipped 0.5% in September to 7,651.54, still up 12% for the year.",
-    "assets": [
-      "ust2030",
-      "ust2035",
-      "ust2040"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://eurasiabusinessnews.com/2026/09/29/stock-market-today-treasury-yields-rise-despite-falling-oil-prices-as-dow-slips/ (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2026-09-warsh.jpg",
-    "imageCaption": "Kevin Warsh is sworn in as Federal Reserve Chair at the White House, 22 May 2026",
-    "imageCredit": " (The White House)"
-  },
-  {
-    "month": "2026-09",
     "kind": "company",
     "headline": "Mercedes falls to a new low on China and Washington",
     "text": "Mercedes-Benz shares hit a 52-week low of about 40 euros on 30 September, down a third this year. Its sales in China collapsed by 30% in the second quarter. A US Senate bill against Chinese-owned car makers would have covered Mercedes, which is almost 20% owned by Chinese investors, until a senator said at the end of the month that Mercedes will be exempted. The company is buying back shares and plans a voluntary severance scheme.",
@@ -680,16 +550,5 @@
     "image": "/news/mercedes/2026-09-untertuerkheim.jpg",
     "imageCaption": "Stuttgart with the Mercedes-Benz Untertürkheim plant",
     "imageCredit": "MSeses"
-  },
-  {
-    "month": "2026-09",
-    "kind": "world",
-    "headline": "Attacks spread to the Red Sea",
-    "text": "The Iran-backed Houthis in Yemen escalated in September, threatening shipping through the Bab al-Mandab strait, while at least ten tankers were attacked around the Gulf. Physical Brent reached about $131 a barrel on 15 September and US crude $107.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03)",
-    "image": "/news/oil/2026-09-bab-al-mandeb.jpg",
-    "imageCaption": "Commercial vessels anchored off Yemen's coast at Bab al-Mandeb, the strait between the Red Sea and the Gulf of Aden, 12 September 2026",
-    "imageCredit": "Photo by -/AFP via Getty Images"
   }
 ]

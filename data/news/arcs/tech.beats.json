@@ -399,19 +399,6 @@
     "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services (read 2026-10-03)"
   },
   {
-    "id": "a3b75fa6",
-    "month": "2007-01",
-    "title": "Apple announces the iPhone",
-    "what": "On 9 January Steve Jobs presented the iPhone, a phone with a touch screen instead of keys that also plays music and browses the web. It will go on sale in June in the US with AT&T, at 499 dollars for 4 GB and 599 for 8 GB with a two-year contract.",
-    "why": "The start of the mobile wave. Nokia then held about 40% of the world phone market; within five years it had lost the smartphone race, and Apple became the world's most valuable company.",
-    "assets": [
-      "aapl",
-      "nokia"
-    ],
-    "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation) (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
-  },
-  {
     "id": "d843bc58",
     "month": "2008-07",
     "title": "The App Store opens",
@@ -422,7 +409,8 @@
       "nokia"
     ],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/App_Store_(Apple) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/App_Store_(Apple) (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "226cf72d",
@@ -450,7 +438,8 @@
       "intc"
     ],
     "importance": 3,
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "72c98751",
@@ -464,7 +453,8 @@
       "msft"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "1926d44c",
@@ -688,26 +678,6 @@
     },
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
-  },
-  {
-    "id": "0fac16cd",
-    "month": "2026-04",
-    "title": "The chip rally: technology's best month since 2000",
-    "what": "The Nasdaq rose 15.3% in April and the technology sector of the S&P 500 about 20%, as companies kept setting records for spending on AI chips; the S&P 500 had its best month since November 2020, helped by a ceasefire between the US and Iran. Intel more than doubled after deals with Google and Tesla and strong results on 23 April, and Nokia rose 61%; its sales to AI and cloud customers rose by nearly half in the first quarter.",
-    "why": "The AI wave's broadest surge, reaching the old names of the PC and telecom eras. The S&P's +10% month is shared with the end of the Iran war scare.",
-    "assets": [
-      "intc",
-      "nokia",
-      "nvda",
-      "siemens",
-      "tsla"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": 10
-    },
-    "importance": 1,
-    "source": "https://www.communityamerica.com/blog/2026/may-2026-market-insights (read 2026-10-03); https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
   },
   {
     "id": "7c384c2e",

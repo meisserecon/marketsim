@@ -329,20 +329,8 @@
     "why": "Russia's first war against a neighbour since the Soviet end; the muted Western response is the prelude to Crimea in 2014.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Russo-Georgian_War (read 2026-10-03)"
-  },
-  {
-    "id": "9cbd7175",
-    "month": "2008-10",
-    "title": "Bern and the National Bank rescue UBS",
-    "what": "On 16 October the Swiss government and the Swiss National Bank announced a rescue for UBS: the Confederation will inject 6 billion francs of capital, and the National Bank will take over 54 billion dollars of illiquid securities into a special fund. A month after the collapse of Lehman Brothers, interbank lending has frozen; a failure of UBS would threaten the savings of a million Swiss customers and the accounts of 300,000 companies.",
-    "why": "The second state rescue of a Swiss icon after Swissair; it worked (the state and the SNB earned billions from it) and led to the 'too big to fail' rules that were tested again by Credit Suisse in 2023.",
-    "assets": [
-      "ubs",
-      "lehman"
-    ],
-    "importance": 1,
-    "source": "https://www.swissinfo.ch/eng/business/2008-crisis_the-day-ubs-the-biggest-swiss-bank-was-saved/44474630 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Russo-Georgian_War (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "5a1719c4",
@@ -353,18 +341,6 @@
     "assets": [],
     "importance": 2,
     "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election (read 2026-10-03)"
-  },
-  {
-    "id": "b5d8be0b",
-    "month": "2009-02",
-    "title": "UBS hands client names to the United States",
-    "what": "On 18 February UBS agreed to pay a 780 million dollar fine and entered a deferred prosecution agreement with the US Justice Department over helping Americans evade taxes, and to release information on American clients suspected of tax evasion, a breach in Swiss bank secrecy. The next day the US government sued to obtain the names of all 52,000 American clients with secret UBS accounts.",
-    "why": "The beginning of the end of Swiss bank secrecy for foreign clients: within months Switzerland accepts OECD standards on tax information, and the automatic exchange of information follows years later.",
-    "assets": [
-      "ubs"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/UBS_tax_evasion_controversies (read 2026-10-03); https://en.wikipedia.org/wiki/Bradley_Birkenfeld (read 2026-10-03)"
   },
   {
     "id": "9a1c1481",
@@ -378,7 +354,8 @@
       "pct": -8
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "e485afe7",
@@ -424,7 +401,8 @@
     "why": "Every presidential election gets a beat (curator rule).",
     "assets": [],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/2012_United_States_presidential_election (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2012_United_States_presidential_election (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "0c10de3a",
@@ -625,15 +603,5 @@
     "assets": [],
     "importance": 2,
     "source": "https://www.tagesschau.de/ausland/europa/schweiz-reaktionen-us-zoelle-100.html (read 2026-10-03); https://www.tagesschau.de/ausland/amerika/usa-schweiz-zoelle-100.html (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland%E2%80%93United_States_relations (read 2026-10-03)"
-  },
-  {
-    "id": "9b88c4cd",
-    "month": "2026-01",
-    "title": "Trump seizes Maduro and reaches for Greenland",
-    "what": "On 3 January US airstrikes on Venezuela ended with the capture of President Nicolas Maduro and his wife; Switzerland froze his assets two days later. Trump's renewed threats to take Greenland from Denmark led Copenhagen to send troops to the island on 14 January with other European countries, and thousands protested in Copenhagen.",
-    "why": "An America that uses force in its hemisphere and pressures its own allies; the Greenland dispute ended with a security agreement in September 2026. A month later the US and Israel went to war with Iran (Middle East arc).",
-    "assets": [],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/2026 (read 2026-10-03); https://en.wikipedia.org/wiki/2026_in_Switzerland (read 2026-10-03)"
   }
 ]

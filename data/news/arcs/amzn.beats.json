@@ -195,18 +195,6 @@
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-07-088806.txt (8-K with press release, read 2026-10-03)"
   },
   {
-    "id": "ab362fa4",
-    "month": "2008-10",
-    "title": "Amazon keeps growing in the crisis",
-    "what": "On October 22 Amazon reported third-quarter sales of $4.26 billion, up 31%, and net income of $118 million, up 48%. Its Kindle electronic reader now offers 185,000 books, and Kindle titles make up more than 10% of unit sales of books available in both forms.",
-    "why": "Amazon fell with the market (-21% in October, -25% in November 2008) despite growing, then recovered fast.",
-    "assets": [
-      "amzn"
-    ],
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-08-214425.txt (8-K with press release, read 2026-10-03)"
-  },
-  {
     "id": "b9255aa9",
     "month": "2009-10",
     "title": "Kindle becomes Amazon's best-seller",
@@ -219,8 +207,9 @@
       "asset": "amzn",
       "pct": 27
     },
-    "importance": 3,
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-09-211972.txt (8-K with press release, read 2026-10-03)"
+    "importance": 2,
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001193125-09-211972.txt (8-K with press release, read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "91f1cc14",
@@ -409,21 +398,5 @@
     ],
     "importance": 3,
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-25-000002.txt (8-K with press release, read 2026-10-03)"
-  },
-  {
-    "id": "4481fb53",
-    "month": "2026-04",
-    "title": "Amazon's cloud accelerates",
-    "what": "On April 29 Amazon reported first-quarter sales of $181.5 billion, up 17%, with AWS sales up 28% to $37.6 billion and net income of $30.3 billion. Earlier in the month Amazon invested a further $5 billion in Anthropic.",
-    "why": "AI demand for cloud computing lifts the shares 27% in April 2026, in a strong month for the market (+10%).",
-    "assets": [
-      "amzn"
-    ],
-    "move": {
-      "asset": "amzn",
-      "pct": 27
-    },
-    "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0001018724-26-000012.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/Amazon_(company) (read 2026-10-03)"
   }
 ]

@@ -238,25 +238,8 @@
     "assets": [
       "sony"
     ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)"
-  },
-  {
-    "id": "9ca6acb4",
-    "month": "2008-10",
-    "title": "Crisis and a soaring yen hit Sony",
-    "what": "After Lehman Brothers collapsed in September, stock markets crashed in October. The yen rose about 8% against the dollar during the month, which cuts the value of Sony's foreign sales, about 80% of its total. Sony's ADR fell 25%.",
-    "why": "The strong yen is the exporters' curse of the crisis years. In yen terms Sony fell even more, about 30%.",
-    "assets": [
-      "sony",
-      "lehman"
-    ],
-    "move": {
-      "asset": "sony",
-      "pct": -25
-    },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); https://money.cnn.com/2008/12/09/news/international/sony_cuts.ap/index.htm via web.archive.org (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)"
   },
   {
     "id": "ea6a98ec",
@@ -271,24 +254,8 @@
       "asset": "sony",
       "pct": 25
     },
-    "importance": 3,
+    "importance": 1,
     "source": "data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
-  },
-  {
-    "id": "1ef8ef57",
-    "month": "2009-04",
-    "title": "Stringer takes direct control and merges games with electronics",
-    "what": "On 1 April Howard Stringer added the job of president, replacing Ryoji Chubachi, and Sony merged its electronics and games businesses into two new groups. Stock markets kept rallying; Sony's ADR rose another 25% in April.",
-    "why": "The reorganization was read as a prelude to broader restructuring; together with the market rally it doubled the shares from their low.",
-    "assets": [
-      "sony"
-    ],
-    "move": {
-      "asset": "sony",
-      "pct": 25
-    },
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Howard_Stringer (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Hirai (read 2026-10-03)"
   },
   {
     "id": "55c952e8",
@@ -476,18 +443,6 @@
       "sony"
     ],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
-  },
-  {
-    "id": "18619241",
-    "month": "2026-07",
-    "title": "Sony plans to phase out PlayStation game discs",
-    "what": "Sony announced plans to phase out physical disc production for PlayStation consoles from January 2028, provoking a backlash from players worried about game preservation and digital ownership.",
-    "why": "A strategic bet on digital sales; the shares rose 16% in July regardless, and no other cause for the rise was found.",
-    "assets": [
-      "sony"
-    ],
-    "importance": 3,
     "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03)"
   }
 ]

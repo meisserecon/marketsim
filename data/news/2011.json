@@ -2,6 +2,20 @@
   {
     "month": "2011-01",
     "kind": "company",
+    "headline": "Intel will pay Nvidia 1.5 billion dollars",
+    "text": "On 10 January Nvidia and Intel settled their legal fight with a patent cross-licence: Intel will pay Nvidia 1.5 billion dollars in licence fees over six years. Nvidia will not make chipsets for Intel's newer processors; it is building up its Tegra processors for mobile devices.",
+    "assets": [
+      "nvda",
+      "intc"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "image": "/news/nvda/2011-01-huang.jpg",
+    "imageCaption": "Jensen Huang, Nvidia's chief executive, at Computex, Taipei, May 2010",
+    "imageCredit": "Masaru Kamikura"
+  },
+  {
+    "month": "2011-01",
+    "kind": "company",
     "headline": "Another strong year: 62 million customers a day",
     "text": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11% to 4.58 dollars, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
     "assets": [
@@ -15,16 +29,12 @@
   {
     "month": "2011-01",
     "kind": "company",
-    "headline": "Intel will pay Nvidia 1.5 billion dollars",
-    "text": "On 10 January Nvidia and Intel settled their legal fight with a patent cross-licence: Intel will pay Nvidia 1.5 billion dollars in licence fees over six years. Nvidia will not make chipsets for Intel's newer processors; it is building up its Tegra processors for mobile devices.",
+    "headline": "Altria grows earnings despite falling cigarette volumes",
+    "text": "Altria reported on 27 January that its adjusted earnings per share rose 8.6% in 2010 to 1.90 dollars, helped by higher profits from cigarettes and smokeless tobacco, and announced a new 1 billion dollar share buyback. It expects 6 to 9% earnings growth in 2011.",
     "assets": [
-      "nvda",
-      "intc"
+      "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000119312511005134/d8k.htm (Nvidia 8-K of 10 January 2011, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
-    "image": "/news/nvda/2011-01-huang.jpg",
-    "imageCaption": "Jensen Huang, Nvidia's chief executive, at Computex, Taipei, May 2010",
-    "imageCredit": "Masaru Kamikura"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312511015372/dex991.htm (release of 27 January 2011, read 2026-10-03)"
   },
   {
     "month": "2011-02",

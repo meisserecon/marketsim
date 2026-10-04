@@ -134,7 +134,8 @@
       "lehman"
     ],
     "importance": 2,
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465906081389/a06-24932_9ex99d1.htm (Lehman press release, 14 December 2006; read 2026-10-03); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465906081389/a06-24932_9ex99d1.htm (Lehman press release, 14 December 2006; read 2026-10-03); https://en.wikipedia.org/wiki/Richard_S._Fuld_Jr. (read 2026-10-03); https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "73711407",
@@ -217,7 +218,7 @@
       "asset": "lehman",
       "pct": 18
     },
-    "importance": 3,
+    "importance": 2,
     "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008, reporting the April issue; read 2026-10-03)"
   },
   {
@@ -234,7 +235,8 @@
       "pct": -17
     },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/David_Einhorn_(hedge_fund_manager) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/David_Einhorn_(hedge_fund_manager) (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "c28d939d",
@@ -250,31 +252,8 @@
       "pct": -46
     },
     "importance": 1,
-    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (12 June 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
-  },
-  {
-    "id": "94a25550",
-    "month": "2008-08",
-    "title": "Korean bank considers buying Lehman",
-    "what": "Lehman Brothers plans to cut about 1,500 jobs, 6% of its staff. On 22 August its shares rose 5%, 16% for the week, on reports that the state-owned Korea Development Bank was considering buying the firm.",
-    "why": "The search for a buyer was now public, and every report of talks moved the stock.",
-    "assets": [
-      "lehman"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03, citing New York Times, 22 August 2008)"
-  },
-  {
-    "id": "67e98c97",
-    "month": "2008-09",
-    "title": "Korea talks end; Lehman loses $3.9 billion",
-    "what": "Lehman's shares fell 45% to $7.79 on 9 September after reports that Korea Development Bank had put its talks on hold. On 10 September Lehman said it expected a third-quarter loss of $3.9 billion after $5.6 billion of net write-downs, mostly on mortgages and commercial property, and announced plans to sell most of its investment management business and spin off its commercial real estate.",
-    "why": "A plan that needed months, announced by a firm that had days.",
-    "assets": [
-      "lehman"
-    ],
-    "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908057829/a08-22764_2ex99d1.htm (Lehman press release, 10 September 2008; read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/806085/000110465908038647/a08-16256_1ex99d1.htm (Lehman press release, 9 June 2008; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/806085/000110465908040477/a08-15739_16ex99d1.htm (12 June 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "aa999dba",
@@ -290,6 +269,7 @@
       "pct": -99
     },
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)",
+    "lead": true
   }
 ]

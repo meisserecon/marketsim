@@ -132,23 +132,6 @@
   },
   {
     "month": "2000-03",
-    "kind": "world",
-    "headline": "The Nasdaq hits a record 5,048; Cisco the world's most valuable company",
-    "text": "The Nasdaq closed at a record 5,048.62 on 10 March, five times its level of 1995. On 20 March Barron's warned that internet companies are running out of cash, fast, and the index ended the month 2.6% down. Money moved into the biggest technology names instead: in late March Cisco, which makes the routers of the internet, became the world's most valuable company at more than 500 billion dollars, and the S&P 500 reached a record on 24 March.",
-    "assets": [
-      "csco",
-      "intc",
-      "msft",
-      "nokia",
-      "pets-com"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2000-03-palm-ipo-nasdaq.jpg",
-    "imageCaption": "3Com's chief executive Eric Benhamou at the Nasdaq studios as shares of its spin-off Palm soar 167% in their first trading, New York, 2 March 2000",
-    "imageCredit": "Bebeto Matthews / AP"
-  },
-  {
-    "month": "2000-03",
     "kind": "company",
     "headline": "Lehman's quarterly profit more than doubles",
     "text": "Lehman Brothers earned a record $541 million in the quarter to February, up 156% from a year earlier, on record revenues of $2.2 billion, driven by share underwriting and merger advice in the technology boom. 'The firm is clearly hitting on all cylinders,' said Richard Fuld.",
@@ -159,19 +142,6 @@
     "image": "/news/lehman/2000-03-nyse-floor.jpg",
     "imageCaption": "The trading floor of the New York Stock Exchange",
     "imageCredit": "Carol M. Highsmith"
-  },
-  {
-    "month": "2000-03",
-    "kind": "company",
-    "headline": "Blue chips roar back: McDonald's up 18%",
-    "text": "In mid-March the battered blue chips came back: on 16 March the Dow jumped 499 points, or 4.9%, its biggest one-day point gain ever, a day after another of its biggest gains, lifting it out of a 10% correction. McDonald's shares gained about 18% in March, more than making up February's loss.",
-    "assets": [
-      "mcd"
-    ],
-    "source": "https://www.chicagotribune.com/2000/03/17/dow-soars-to-record-gain/ (read 2026-10-03); move from data/out/mcd.json",
-    "image": "/news/mcd/2000-03-restaurant.jpg",
-    "imageCaption": "A McDonald's drive-thru restaurant",
-    "imageCredit": "Ian Thomson"
   },
   {
     "month": "2000-03",

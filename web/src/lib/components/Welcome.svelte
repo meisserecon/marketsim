@@ -1,7 +1,7 @@
 <script lang="ts">
   /**
    * The welcome screen: what the game is, how a month works, and the three things it wants to
-   * teach. Shown once when a player enters a game, and again from "How to play".
+   * teach. Shown once when a player enters a game.
    */
   import { MAX_POSITIONS, STARTING_CASH } from '@marketsim/shared';
   import { monthName, usd } from '$lib/format';
@@ -52,30 +52,29 @@
         <li>
           <span class="n">1</span>
           <div>
-            <h3>Don't put all your eggs in one basket</h3>
-            <p>Some of these companies will multiply your money a hundred times. Some will go bankrupt, and you cannot tell in advance which. Spread your money over several, and one disaster will not ruin you.</p>
+            <h3>Diversification</h3>
+            <p>Don't put all your eggs in one basket. (Unless you know the future.)</p>
           </div>
         </li>
         <li>
           <span class="n">2</span>
           <div>
-            <h3>Stay in the market</h3>
-            <p>Cash earns nothing. Markets crash, sometimes brutally, and they recover; on average, being invested pays. Time in the market beats timing the market.</p>
+            <h3>Buy and Hold</h3>
+            <p>At average, it is better to be invested than not.</p>
           </div>
         </li>
         <li>
           <span class="n">3</span>
           <div>
-            <h3>Know your history</h3>
-            <p>Oil shocks, the fall of the Wall, the internet, the financial crisis, the pandemic: you will live through {years} years of history and see what each event did to people's savings.</p>
+            <h3>Historical Awareness</h3>
+            <p>Markets are embedded in world history.</p>
           </div>
         </li>
       </ul>
     </section>
 
     <div class="go">
-      <button class="btn primary" onclick={onclose}>Start investing</button>
-      <span class="sub muted">You can read this again any time under "How to play".</span>
+      <button class="btn primary" onclick={onclose}>Let's Go</button>
     </div>
   </div>
 </div>

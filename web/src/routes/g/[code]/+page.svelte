@@ -85,7 +85,7 @@
     if (token) api.ages(code, token).then((a) => (ages = a)).catch(() => {});
   });
 
-  // The welcome screen shows once per game on this browser, and again from "How to play".
+  // The welcome screen shows once per game on this browser.
   const welcomeKey = `marketsim:welcome:${code}`;
   const seenWelcome = () => { try { return localStorage.getItem(welcomeKey) === '1'; } catch { return false; } };
   let showWelcome = $state(!seenWelcome());
@@ -314,7 +314,7 @@
 {:else if game && market && portfolio}
   <header class="top">
     <div class="game">
-      <span class="sub"><a class="brand" href="/">Month by Month</a> · {game.name} · {game.code} · {portfolio.name} · <button class="how" onclick={() => (showWelcome = true)}>How to play</button></span>
+      <span class="sub"><a class="brand" href="/">Month by Month</a> · {game.name} · {game.code} · {portfolio.name}</span>
       <h1>{monthName(game.currentMonth)}</h1>
       <button class="age" onclick={() => (ageOpen = true)} title="About this age">{age.name}</button>
     </div>
@@ -573,16 +573,6 @@
     text-decoration: underline;
   }
   .age:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-  .how {
-    all: unset;
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-  .how:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }

@@ -23,8 +23,7 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   name stays in the header and reopens the screen. The index (S&P 500, a reference series, not an asset) is also
   the dashed benchmark line on the leaderboard chart.
 - **Welcome screen.** On first entering a game a player sees what the game is, how a month works, and the three
-  lessons it wants to teach, stated openly: diversify, stay in the market, know your history. It can be reopened
-  from "How to play" in the header.
+  lessons it wants to teach, stated openly: diversify, stay in the market, know your history.
 - **Playing alone.** Anyone can start a single-player game from the start page (`POST /api/solo`): it is
   created and joined in one step, nobody else can join, and the player's own token advances the clock
   with a button in the player view.

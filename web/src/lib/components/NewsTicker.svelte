@@ -9,12 +9,16 @@
     nameOf: (id: string) => string;
     openable?: Set<string>;
     onselect?: (id: string) => void;
+    /** Shown instead of headlines in a month without news: the market and the biggest movers. */
+    quiet?: string[];
   }
-  let { month, items, nameOf, openable, onselect }: Props = $props();
+  let { month, items, nameOf, openable, onselect, quiet = [] }: Props = $props();
+  /** What runs across the line: the headlines, or the market moves when there are none. */
+  const lines = $derived(items.length ? items.map((i) => i.headline) : quiet);
 
   let open = $state(false);
   /** Long lines scroll slowly; the speed is steady whatever the number of headlines. */
-  const seconds = $derived(Math.max(20, items.reduce((n, i) => n + i.headline.length, 0) / 5));
+  const seconds = $derived(Math.max(20, lines.reduce((n, l) => n + l.length, 0) / 5));
 
   // The headlines only move when they do not fit on the line.
   let tapeWidth = $state(0);
@@ -32,22 +36,22 @@
 
 <svelte:window onkeydown={onKey} />
 
-{#if items.length}
-  <button class="ticker" onclick={() => (open = true)} aria-label="Open The News for this month">
-    <span class="label">The News</span>
+{#if lines.length}
+  <button class="ticker" class:quiet={!items.length} onclick={() => (open = true)} disabled={!items.length} aria-label="Open The News for this month">
+    <span class="label">{items.length ? 'The News' : 'Markets'}</span>
     <span class="tape" class:moving bind:clientWidth={tapeWidth}>
       <span class="run" style:animation-duration="{seconds}s">
         <span class="set" bind:clientWidth={setWidth}>
-          {#each items as item, i (i)}<span class="headline" class:last={!moving && i === items.length - 1}>{item.headline}</span>{/each}
+          {#each lines as line, i (i)}<span class="headline" class:last={!moving && i === lines.length - 1}>{line}</span>{/each}
         </span>
         {#if moving}
           <span class="set" aria-hidden="true">
-            {#each items as item, i (i)}<span class="headline">{item.headline}</span>{/each}
+            {#each lines as line, i (i)}<span class="headline">{line}</span>{/each}
           </span>
         {/if}
       </span>
     </span>
-    <span class="more">Read</span>
+    {#if items.length}<span class="more">Read</span>{/if}
   </button>
 {/if}
 
@@ -77,6 +81,13 @@
     border: 1px solid rgba(0, 0, 0, 0.14);
     cursor: pointer;
     font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+  }
+  .ticker.quiet {
+    cursor: default;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .ticker.quiet .headline {
+    font-weight: 400;
   }
   .ticker:hover {
     border-color: rgba(0, 0, 0, 0.4);

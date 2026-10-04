@@ -99,7 +99,7 @@
   </header>
 
   {#if !lead}
-    <p class="quiet">No news this month.</p>
+    <p class="quiet">A quiet month: no news to report.</p>
   {:else}
     <section class="lead" class:with-picture={!!lead.image}>
       <div class="lead-head">
@@ -117,12 +117,17 @@
       <div class="rule"></div>
       <section class="columns" style:column-count={Math.min(3, rest.length)}>
         {#each rest as item, i (i)}
-          <div class="story">
-            {#if KIND_LABEL[item.kind]}<p class="kicker">{KIND_LABEL[item.kind]}</p>{/if}
-            <h4>{item.headline}</h4>
-            {@render picture(item)}
-            <p>{item.text}</p>
-            {@render tags(item)}
+          <!-- a story alone under the lead has the whole width: its picture goes beside the text -->
+          {@const beside = rest.length === 1 && !!item.image}
+          <div class="story" class:beside>
+            {#if beside}{@render picture(item)}{/if}
+            <div class="story-body">
+              {#if KIND_LABEL[item.kind]}<p class="kicker">{KIND_LABEL[item.kind]}</p>{/if}
+              <h4>{item.headline}</h4>
+              {#if !beside}{@render picture(item)}{/if}
+              <p>{item.text}</p>
+              {@render tags(item)}
+            </div>
           </div>
         {/each}
       </section>
@@ -335,6 +340,15 @@
   .story:last-child {
     border-bottom: none;
   }
+  .story.beside {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 22px;
+    align-items: start;
+  }
+  .story.beside img {
+    margin-bottom: 0;
+  }
   h4 {
     font-size: 1.15rem;
     font-weight: 800;
@@ -440,6 +454,10 @@
     }
     .lead:not(.with-picture) .lead-text {
       columns: 1;
+    }
+    .story.beside {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 8px;
     }
     .dateline span:not(.date) {
       display: none;

@@ -207,7 +207,7 @@
       {#if advanceError}<p class="notice error" role="alert">{advanceError}</p>{/if}
     </section>
 
-    {#if news && news.month === game.currentMonth && news.items.length}
+    {#if news && news.month === game.currentMonth}
       <FrontPage month={news.month} items={news.items} {nameOf} big markets={marketStrip} />
     {/if}
 

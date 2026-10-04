@@ -261,6 +261,21 @@
     }
   }
 
+  /** For a month without news: the market's move and the five biggest movers, as lines for the ticker. */
+  const quietLines = $derived.by(() => {
+    const sign = (c: number) => pct(c, { sign: true, digits: 0 });
+    const out: string[] = [];
+    const h = board?.benchmark?.history ?? [];
+    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) out.push(`Market ${sign(h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1)}`);
+    const movers = (market?.assets ?? [])
+      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
+      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
+      .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
+      .slice(0, 5);
+    for (const m of movers) out.push(`${m.name} ${sign(m.change)}`);
+    return out;
+  });
+
   /** Every trade moves one step: this share of the portfolio's total value. */
   const STEP = 0.05;
   const step = $derived((portfolio?.totalValue ?? 0) * STEP);
@@ -426,7 +441,7 @@
 
   <div class="portfolio-wrap">
     {#if news && news.month === game.currentMonth}
-      <div class="news-card"><NewsTicker month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} /></div>
+      <div class="news-card"><NewsTicker month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} quiet={quietLines} /></div>
     {/if}
     {#if board}
       <section class="card">

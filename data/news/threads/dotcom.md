@@ -34,3 +34,4 @@ Added on 4 October 2026 (the internet before Netscape, and its growth year by ye
 - 1998-04 Faster than radio, faster than television: the internet reaches 70 million (a8821897, tech)
 - 1999-09 147 million online, and a book called 'Dow 36,000' (5f7998d3, tech)
 - 2000-12 The Nasdaq's worst year: down 39% (0d8709ae, tech)
+- 1995-12 Switzerland's first internet café opens in Zurich (0f7cbe77, life, new)

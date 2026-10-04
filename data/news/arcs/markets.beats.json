@@ -168,13 +168,14 @@
     "id": "9603bcbc",
     "month": "1987-08",
     "title": "Shares hit a record as Greenspan takes over the Fed",
-    "what": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising.",
+    "what": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August.",
     "why": "The peak before the crash; the S&P 500 did not close above it again until July 1989.",
     "assets": [
       "bonds"
     ],
     "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03)",
+    "thread": "rates",
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
     "lead": true
   },
   {
@@ -288,6 +289,7 @@
       "pct": 11
     },
     "importance": 1,
+    "thread": "rates",
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json"
   },
   {
@@ -597,6 +599,17 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
+    "id": "0c6d6aae",
+    "month": "2005-07",
+    "title": "Home prices up 15 percent in a year; Greenspan sees 'froth'",
+    "what": "Americans bought existing homes at a record annual rate of 7.33 million in June, and the median price reached a record 219,000 dollars, 14.7 percent more than a year earlier, the biggest jump since 1980. On 9 June Fed chairman Alan Greenspan told Congress that exceptionally low interest rates on home mortgages were a major factor in the steep climb in home prices, and that there were 'at a minimum, signs of froth in some local markets'. He called the rapid spread of interest-only loans and other exotic adjustable-rate mortgages a particular concern. A 30-year mortgage costs about 5.7 percent.",
+    "why": "The housing boom at full speed: the Fed had been raising its rate for a year, but mortgage rates barely moved, so cheap money kept flowing into homes. Between 2004 and 2006 subprime loans made up 18 to 21 percent of all new mortgages.",
+    "assets": [],
+    "importance": 2,
+    "thread": "housing-crisis",
+    "source": "https://www.nbcnews.com/news/amp/wbna8700218 (AP, 25 July 2005; read 2026-10-04); https://www.federalreserve.gov/boarddocs/testimony/2005/200506092/default.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Subprime_mortgage_crisis (read 2026-10-04)"
+  },
+  {
     "id": "7299f29c",
     "month": "2005-12",
     "title": "2005 in review: a flat year under rising rates",
@@ -605,6 +618,17 @@
     "assets": [],
     "importance": 3,
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+  },
+  {
+    "id": "63148479",
+    "month": "2006-10",
+    "title": "House prices are falling",
+    "what": "The median price of an existing single-family home fell to 219,800 dollars in September, 2.5 percent less than a year earlier and the biggest drop in records going back nearly four decades; prices had also fallen in August. Sales slowed to an annual rate of 6.18 million, the lowest since January 2004, and 3.75 million unsold homes are on the market, enough for 7.3 months. Between June 2004 and June 2006 the Fed raised its rate seventeen times, from 1 to 5.25 percent, and the era of cheap mortgages is over. The realtors' chief economist says 'the worst is behind us'.",
+    "why": "The first clear crack: national house prices falling year on year, which every loan written on the assumption of rising prices could not survive. The optimism was misplaced; prices kept falling and reached new lows only in 2011.",
+    "assets": [],
+    "importance": 2,
+    "thread": "housing-crisis",
+    "source": "https://www.nbcnews.com/news/amp/wbna15412842 (AP, 25 October 2006; read 2026-10-04); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-04); https://en.wikipedia.org/wiki/United_States_housing_bubble (read 2026-10-04)"
   },
   {
     "id": "826aa2ee",
@@ -617,6 +641,28 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
+    "id": "17570b0b",
+    "month": "2007-03",
+    "title": "Subprime lender New Century stops lending",
+    "what": "New Century Financial, the biggest independent lender to home buyers with weak credit, so-called subprime borrowers, said on 8 March that it would stop accepting loan applications. Its shares lost 89 percent in March before the New York Stock Exchange halted trading on the 12th and removed them a day later. Last year New Century made 51.6 billion dollars of subprime loans, more than any lender except HSBC Finance.",
+    "why": "The first big casualty of the housing bust: with prices no longer rising, weak borrowers defaulted and lenders that lived on selling loans to Wall Street could no longer fund themselves. New Century filed for bankruptcy on 2 April, and about 3,200 people lost their jobs.",
+    "assets": [],
+    "importance": 2,
+    "thread": "housing-crisis",
+    "source": "https://en.wikipedia.org/wiki/New_Century_Financial (read 2026-10-04)"
+  },
+  {
+    "id": "edd2e744",
+    "month": "2007-07",
+    "title": "Two Bear Stearns funds lose nearly everything on subprime bets",
+    "what": "In the week of 16 July the Wall Street investment bank Bear Stearns disclosed that two of its hedge funds, invested in securities built from subprime mortgages, had lost nearly all their value. In June Bear Stearns had pledged loans of up to 3.2 billion dollars to rescue one of them. The S&P 500 fell 3 percent in July.",
+    "why": "The housing losses reach Wall Street: the first sign that banks and their funds held the bad mortgages themselves. Bear Stearns itself collapsed eight months later.",
+    "assets": [],
+    "importance": 2,
+    "thread": "housing-crisis",
+    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-04); data/reference/sp500.json"
+  },
+  {
     "id": "5cd24386",
     "month": "2007-08",
     "title": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
@@ -626,6 +672,7 @@
       "bonds"
     ],
     "importance": 2,
+    "thread": "housing-crisis",
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
@@ -678,6 +725,7 @@
       "bonds"
     ],
     "importance": 1,
+    "thread": "housing-crisis",
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
@@ -698,11 +746,12 @@
     "id": "098294a8",
     "month": "2008-09",
     "title": "The House votes down the bailout and the Dow falls 778 points",
-    "what": "On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
+    "what": "On 7 September the government took over the two big mortgage companies Fannie Mae and Freddie Mac, which had more than 5 trillion dollars of mortgage securities and debt outstanding. On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
     "why": "Politics meets panic; the vote was reversed days later, but October was worse.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json"
+    "thread": "housing-crisis",
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac (read 2026-10-04)"
   },
   {
     "id": "84b43038",
@@ -785,6 +834,7 @@
     "why": "A year of recovery that rewarded those who held on through the March panic.",
     "assets": [],
     "importance": 3,
+    "thread": "housing-crisis",
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
   },
   {

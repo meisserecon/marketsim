@@ -3,7 +3,7 @@
     "id": "9637cc49",
     "month": "1979-12",
     "title": "Iran votes for an Islamic constitution while Americans stay hostage in Tehran",
-    "what": "On 2 and 3 December Iranians approved a new constitution that makes the country an Islamic republic led by a senior cleric; the official result was 99.5 percent yes, though leftists, secular nationalists, followers of Ayatollah Shariatmadari and the Mojahedin boycotted the vote. In Tehran, students who stormed the US embassy on 4 November still hold 53 Americans, after freeing 13 women and African Americans in November. Washington stopped buying Iranian oil on 12 November and froze about 8 billion dollars of Iranian assets on 14 November. Gold ended the month above 500 dollars an ounce.",
+    "what": "On 2 and 3 December Iranians approved a new constitution that makes the country an Islamic republic led by a senior cleric; the official result was 99.5 percent yes, though leftists, secular nationalists, followers of Ayatollah Shariatmadari and the Mojahedin boycotted the vote. In Tehran, students who stormed the US embassy on 4 November still hold 53 Americans, after freeing 13 women and African Americans in November. The students demand that the Shah, who left Iran in January and was let into the United States for cancer treatment on 22 October, be sent back for trial. Many Iranians remember 1953, when a coup organised by the American CIA and British intelligence toppled Prime Minister Mohammad Mosaddegh, who had nationalised Iran's oil, and strengthened the Shah's rule; now they fear another. Washington stopped buying Iranian oil on 12 November and froze about 8 billion dollars of Iranian assets on 14 November. Gold ended the month above 500 dollars an ounce.",
     "why": "Opens the arc: the revolution's first winter, a new state built around Khomeini and a standoff with America that sets the tone for forty years. The hostage crisis, the oil cut-off and (late in the month) the Soviet entry into Afghanistan together drove gold's December jump; the hostages are only part of it.",
     "assets": [
       "gold"
@@ -13,7 +13,8 @@
       "pct": 16
     },
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03)"
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat (read 2026-10-04); https://en.wikipedia.org/wiki/Iranian_revolution (read 2026-10-04)"
   },
   {
     "id": "df4d202c",
@@ -29,11 +30,12 @@
     "id": "4869b58f",
     "month": "1980-09",
     "title": "Iraq invades Iran",
-    "what": "On 22 September Iraqi aircraft struck ten Iranian airfields, and the next day Iraqi troops crossed the border along a front of more than 600 kilometres, aiming above all at the oil province of Khuzestan and the Shatt al-Arab waterway. Saddam Hussein had torn up the 1975 border agreement with Iran days before. Iran, its army purged after the revolution, is fighting back with regular troops, Revolutionary Guards and volunteers. Oil output from both countries is disrupted.",
+    "what": "On 22 September Iraqi aircraft struck ten Iranian airfields, and the next day Iraqi troops crossed the border along a front of more than 600 kilometres, aiming above all at the oil province of Khuzestan and the Shatt al-Arab waterway. Saddam Hussein had torn up the 1975 border agreement with Iran days before. Iran, its army purged after the revolution, is fighting back with regular troops, Revolutionary Guards and volunteers. Oil output from both countries is disrupted. The revolution had already cut Iran's oil output and helped lift the price of crude from 15.85 dollars a barrel in April 1979 to 39.50 within a year.",
     "why": "Begins the eight-year war that Iranians call the 'imposed war' or the 'sacred defence', which killed hundreds of thousands and shaped a generation. The war took further oil off the market (about 7 percent of world output by one estimate), which belongs to the oil arc.",
     "assets": [],
     "importance": 2,
-    "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03)",
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/1979_oil_crisis (read 2026-10-03, again 2026-10-04)",
     "lead": true
   },
   {
@@ -46,6 +48,7 @@
       "gold"
     ],
     "importance": 2,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Algiers_Accords_(1981) (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03)",
     "lead": true
   },
@@ -92,6 +95,17 @@
     "cut": true
   },
   {
+    "id": "f008940c",
+    "month": "1986-11",
+    "title": "Secret American arms sales to Iran come out",
+    "what": "On 3 November a Lebanese magazine, Ash-Shiraa, revealed that the United States had secretly sold anti-tank and anti-aircraft missiles to Iran, the country Washington publicly treats as an enemy. President Reagan said on television on 13 November that Iran should use its influence to free the American hostages held in Lebanon. On 25 November Attorney General Edwin Meese said money from the sales had been passed on to the Contra rebels fighting Nicaragua's government; National Security Adviser John Poindexter resigned and his aide Oliver North was fired.",
+    "why": "The Iran-Contra affair shows the enmity is not the whole story: behind the scenes both sides dealt when it suited them. It is the worst scandal of Reagan's presidency.",
+    "assets": [],
+    "importance": 2,
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair (read 2026-10-04)"
+  },
+  {
     "id": "63457049",
     "month": "1987-07",
     "title": "US warships escort Kuwaiti tankers; the UN demands a ceasefire",
@@ -115,11 +129,12 @@
     "id": "37f0ca7b",
     "month": "1988-07",
     "title": "Khomeini accepts a ceasefire: 'more deadly than poison'",
-    "what": "Iran said in mid-July that it accepts Resolution 598 and a ceasefire with Iraq. Ayatollah Khomeini said that accepting it was 'more deadly than drinking from a poisoned chalice'. UN observers are to supervise the truce. The war has lasted almost eight years; the dead are counted in the hundreds of thousands.",
+    "what": "On 3 July the American cruiser USS Vincennes shot down Iran Air Flight 655 over the Gulf on its way from Bandar Abbas to Dubai, killing all 290 people aboard, 65 of them children; the US Navy says the crew took the airliner for an Iranian F-14 fighter, and Iran calls it a deliberate attack. Iran said in mid-July that it accepts Resolution 598 and a ceasefire with Iraq. Ayatollah Khomeini said that accepting it was 'more deadly than drinking from a poisoned chalice'. UN observers are to supervise the truce. The war has lasted almost eight years; the dead are counted in the hundreds of thousands.",
     "why": "The end of the war. The ceasefire took effect on 20 August; no peace treaty was ever signed. In the weeks after, thousands of political prisoners were executed in secret, which the outside world learned of only slowly (see the .md).",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03)"
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598 (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_Air_Flight_655 (read 2026-10-04)"
   },
   {
     "id": "725db8cb",
@@ -129,6 +144,7 @@
     "why": "The end of the founding era. Khamenei ruled for almost 37 years until he was killed in the 2026 war, which closes the arc. Rafsanjani, elected president in July with 94.5 percent (only two candidates approved), led the reconstruction years.",
     "assets": [],
     "importance": 2,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Ruhollah_Khomeini (read 2026-10-03); https://en.wikipedia.org/wiki/1989_Iranian_presidential_election (read 2026-10-03)"
   },
   {
@@ -167,6 +183,17 @@
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin (read 2026-10-03)"
   },
   {
+    "id": "234f71e0",
+    "month": "1997-05",
+    "title": "Iranians elect the reformer Khatami by a landslide",
+    "what": "Mohammad Khatami, a reformist cleric, won Iran's presidential election on 23 May with 69 percent of the vote, against 25 percent for the conservative Ali Akbar Nateq-Nouri. Turnout was about 80 percent, up from 50 percent last time; women and young voters carried him, in a country where more than half the people are under 25 and the voting age is 15. He promises a more open society at home, with fewer restrictions on dress and on satellite television, and better relations abroad. The Guardian Council had barred 234 hopefuls, leaving four candidates.",
+    "why": "The start of the reform era: hopes for change at home and a thaw with the West, checked by the unelected institutions (the student protests of 1999) and ended by Bush's 'axis of evil' and Ahmadinejad.",
+    "assets": [],
+    "importance": 1,
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/1997_Iranian_presidential_election (read 2026-10-04)"
+  },
+  {
     "id": "2152e96b",
     "month": "1999-07",
     "title": "Police storm Tehran University dormitories; students protest for days",
@@ -174,6 +201,7 @@
     "why": "'18 Tir', the first mass uprising of the generation born under the Islamic Republic, and the moment the limits of Khatami's reforms showed.",
     "assets": [],
     "importance": 2,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/1999_Iranian_student_protests (read 2026-10-03); https://www.rferl.org/a/Iran_Student_Protests/1182717.html (read 2026-10-03)"
   },
   {
@@ -194,11 +222,12 @@
     "id": "c4267bf1",
     "month": "2002-08",
     "title": "Exiles reveal secret nuclear sites at Natanz and Arak",
-    "what": "In August an Iranian exile opposition group made public the existence of two undeclared nuclear sites in Iran: a uranium enrichment plant at Natanz and a heavy-water facility at Arak. Iran says its programme is for electricity only. The International Atomic Energy Agency wants to inspect.",
+    "what": "In August an Iranian exile opposition group made public the existence of two undeclared nuclear sites in Iran: a uranium enrichment plant at Natanz and a heavy-water facility at Arak. Iran says its programme is for electricity only. The International Atomic Energy Agency wants to inspect. In January President Bush had named Iran, with Iraq and North Korea, part of an 'axis of evil', saying that in Iran 'an unelected few repress the Iranian people's hope for freedom'.",
     "why": "Starts the nuclear dispute that dominates the next 24 years of the arc, through sanctions, the 2015 deal and the strikes of 2025 and 2026.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Natanz_Nuclear_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Nuclear_program_of_Iran (read 2026-10-03)"
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/Natanz_Nuclear_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Nuclear_program_of_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/Axis_of_evil (read 2026-10-04)"
   },
   {
     "id": "6a2a4240",
@@ -264,6 +293,7 @@
     "why": "The first of four UN sanctions resolutions (2006-2010); with US and EU measures they squeezed Iran's economy for a decade. US sanctions go back to Clinton's ban on all trade with Iran in May 1995 and a 1996 law aimed at foreign investors in Iranian energy; the EU oil embargo (agreed January 2012, in force July 2012) and the cut-off from SWIFT in March 2012 followed.",
     "assets": [],
     "importance": 2,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1737 (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03)"
   },
   {
@@ -274,6 +304,7 @@
     "why": "The Green Movement: a defining moment for a generation of Iranians, at home and abroad. Final counts: 36 deaths acknowledged by the government, at least 72 by the opposition, about 4,000 arrests. Figures as of late June were lower, so 'what' stays general.",
     "assets": [],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2009_Iranian_presidential_election_protests (read 2026-10-03); https://www.globalsecurity.org/wmd/library/news/iran/2009/iran-090621-rianovosti01.htm (read 2026-10-03)"
   },
   {
@@ -315,11 +346,12 @@
     "id": "401e18a3",
     "month": "2012-10",
     "title": "The rial collapses and Tehran's bazaar shuts",
-    "what": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring.",
+    "what": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring. Since July the European Union has bought no Iranian oil, and in March Iranian banks under EU sanctions were cut off from the SWIFT payment network; the International Energy Agency puts Iran's oil exports in September at 860,000 barrels a day, down from 2.2 million at the end of 2011.",
     "why": "Sanctions reach every household: savings melt, medicine imports fell about 30 percent in 2012. A key reason Iranians voted for a negotiator in 2013.",
     "assets": [],
     "importance": 2,
-    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03)"
+    "thread": "iran",
+    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-04)"
   },
   {
     "id": "769b5fce",
@@ -329,6 +361,7 @@
     "why": "The opening that led to the 2015 nuclear deal (an interim deal followed in November 2013).",
     "assets": [],
     "importance": 2,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2013_Iranian_presidential_election (read 2026-10-03)"
   },
   {
@@ -367,11 +400,12 @@
     "id": "da58066e",
     "month": "2015-07",
     "title": "Nuclear deal in Vienna",
-    "what": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it.",
+    "what": "On 14 July Iran and six world powers agreed the Joint Comprehensive Plan of Action: Iran will cut its stock of enriched uranium by about 97 percent to 300 kilograms, enrich only to 3.67 percent, reduce its working centrifuges by two-thirds and accept close inspections, in return for the lifting of nuclear-related UN, EU and US sanctions. The UN Security Council is to endorse it. That evening families and young people celebrated in the streets of Tehran; Israel's prime minister Benjamin Netanyahu called the deal 'a bad mistake of historic proportions'.",
     "why": "The high point of hope in the Rouhani years and of the sanctions-relief trade. It lasted less than three years for the US side. The deal took effect on 'Implementation Day', 16 January 2016, the same month Saudi Arabia broke relations with Iran after its embassy in Tehran was stormed.",
     "assets": [],
     "importance": 1,
-    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03)"
+    "thread": "iran",
+    "source": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_relations (read 2026-10-03); https://en.wikipedia.org/wiki/Reactions_to_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-04)"
   },
   {
     "id": "c7daca18",
@@ -396,6 +430,7 @@
       "siemens"
     ],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action (read 2026-10-03); https://money.cnn.com/2018/05/14/investing/iran-sanctions-siemens-europe/index.html (read 2026-10-03); https://money.cnn.com/2018/08/07/investing/us-iran-sanctions-daimler/index.html (read 2026-10-03); https://en.wikipedia.org/wiki/2017%E2%80%932018_Iranian_protests (read 2026-10-03)"
   },
   {
@@ -436,6 +471,7 @@
     "why": "The largest challenge to the Islamic Republic since 1979 and the defining moment for a new generation. By late 2023 Iran Human Rights counted at least 551 protesters killed, 68 of them minors; 'what' stays with the figures of September. Raisi had won the presidency in June 2021 on a turnout of about 48 percent, the lowest since 1979, after mass disqualifications.",
     "assets": [],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)"
   },
   {
@@ -496,6 +532,7 @@
     "why": "The first open war between Iran and Israel, and the end of the nuclear standoff as it had stood since 2002. Final counts were about 1,060 to 1,190 dead in Iran and 33 in Israel. France, Germany and Britain triggered the return of UN sanctions on 28 August 2025, and Iran declared itself out of the 2015 deal in October.",
     "assets": [],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03)"
   },
   {
@@ -506,6 +543,7 @@
     "why": "The bloodiest crackdown in the Islamic Republic's history, and a direct cause of the war that followed. Death tolls are fiercely disputed: by early February HRANA had confirmed over 7,000 deaths, some media citing health officials gave 30,000 or more, the government 3,117. 'What' therefore says only 'thousands'.",
     "assets": [],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests (read 2026-10-03)",
     "lead": true
   },
@@ -517,6 +555,7 @@
     "why": "The climax of the arc: the man who ruled Iran for 37 years is dead and the country is at war. For Iranian families abroad, days of silence from relatives behind the blackout.",
     "assets": [],
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03)"
   },
   {
@@ -531,6 +570,7 @@
       "pct": -5
     },
     "importance": 1,
+    "thread": "iran",
     "source": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war (read 2026-10-03); https://en.wikipedia.org/wiki/Ali_Khamenei (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Iran_war (read 2026-10-03)"
   },
   {

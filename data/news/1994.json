@@ -3,13 +3,14 @@
     "month": "1994-02",
     "kind": "world",
     "headline": "The Fed raises rates for the first time in five years",
-    "text": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January).",
+    "text": "On 4 February the Federal Reserve raised its target for the rate banks charge each other from 3 to 3.25 percent, its first increase since 1989. Long-term rates had come a long way down: the 10-year Treasury yield averaged 5.3 percent last October, against 15.3 percent in September 1981. Bond prices fell: the 30-year Treasury yield, 6.17 percent on 12 January, and the 10-year yield, which averaged 5.75 percent in January, are both rising. Inflation is only about 2.5 percent (January).",
     "assets": [
       "ust1995",
       "ust2000",
       "ust2010"
     ],
-    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
+    "thread": "rates",
     "image": "/news/rates/1994-02-greenspan-oval.jpg",
     "imageCaption": "President Clinton meets Fed chairman Alan Greenspan and advisers in the Oval Office",
     "imageCredit": "Clinton Presidential Library"
@@ -106,6 +107,15 @@
     "imageCredit": "NOAA National Ocean Service"
   },
   {
+    "month": "1994-10",
+    "kind": "world",
+    "headline": "Mosaic Netscape, a new web browser, appears",
+    "text": "On 13 October Mosaic Communications, a start-up founded in April by Marc Andreessen and Jim Clark, released a test version of its browser, Mosaic Netscape 0.9, free to download.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
+    "thread": "dotcom"
+  },
+  {
     "month": "1994-11",
     "kind": "world",
     "headline": "Sixth hike of the year as bond losses mount",
@@ -116,6 +126,7 @@
       "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03)",
+    "thread": "rates",
     "image": "/news/rates/1994-11-greenspan-clinton.jpg",
     "imageCaption": "President Clinton and Vice President Gore meet Fed chairman Alan Greenspan and others in the Oval Office",
     "imageCredit": "Clinton Presidential Library"

@@ -39,6 +39,15 @@
     "imageCredit": "Kraft Foods Incorporated"
   },
   {
+    "month": "2007-03",
+    "kind": "world",
+    "headline": "Subprime lender New Century stops lending",
+    "text": "New Century Financial, the biggest independent lender to home buyers with weak credit, so-called subprime borrowers, said on 8 March that it would stop accepting loan applications. Its shares lost 89 percent in March before the New York Stock Exchange halted trading on the 12th and removed them a day later. Last year New Century made 51.6 billion dollars of subprime loans, more than any lender except HSBC Finance.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/New_Century_Financial (read 2026-10-04)",
+    "thread": "housing-crisis"
+  },
+  {
     "month": "2007-04",
     "kind": "company",
     "headline": "Scandal takes down von Pierer and Kleinfeld",
@@ -132,6 +141,15 @@
   },
   {
     "month": "2007-07",
+    "kind": "world",
+    "headline": "Two Bear Stearns funds lose nearly everything on subprime bets",
+    "text": "In the week of 16 July the Wall Street investment bank Bear Stearns disclosed that two of its hedge funds, invested in securities built from subprime mortgages, had lost nearly all their value. In June Bear Stearns had pledged loans of up to 3.2 billion dollars to rescue one of them. The S&P 500 fell 3 percent in July.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Bear_Stearns (read 2026-10-04); data/reference/sp500.json",
+    "thread": "housing-crisis"
+  },
+  {
+    "month": "2007-07",
     "kind": "company",
     "headline": "Chief executive Peter Wuffli steps down",
     "text": "On 6 July Peter Wuffli unexpectedly stepped down as chief executive of UBS; Marcel Rohner succeeds him. In May UBS had closed Dillon Read Capital Management, its in-house hedge fund, after losses on US mortgage securities. Markets for such securities are now in turmoil.",
@@ -167,6 +185,7 @@
       "ust2020"
     ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json",
+    "thread": "housing-crisis",
     "image": "/news/markets/2007-08-nyse-traders.jpg",
     "imageCaption": "Traders on the floor of the New York Stock Exchange in the credit-crunch week, 16 August 2007",
     "imageCredit": "Photo by TIMOTHY A. CLARY/AFP via Getty Images"
@@ -234,6 +253,7 @@
       "c"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465907079495/a07-28417_1ex99d1.htm (Citigroup press release, 4 November 2007; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420407059387/v092955_ex99-1.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420407064349/v095633_ex99-1.htm (read 2026-10-03)",
+    "thread": "housing-crisis",
     "image": "/news/c/2007-11-prince.jpg",
     "imageCaption": "Chuck Prince, Citigroup's chief executive, at Davos, January 2007",
     "imageCredit": "Ricardo Stuckert / Presidency of Brazil"

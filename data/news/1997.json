@@ -62,6 +62,7 @@
       "amzn"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
+    "thread": "dotcom",
     "image": "/news/amzn/1997-05-bezos-books.jpg",
     "imageCaption": "Jeff Bezos among stacks of books in Amazon's Seattle warehouse, January 1997, four months before the listing",
     "imageCredit": "Paul Souders—Getty Images"
@@ -80,6 +81,24 @@
     "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
+    "month": "1997-05",
+    "kind": "world",
+    "headline": "Iranians elect the reformer Khatami by a landslide",
+    "text": "Mohammad Khatami, a reformist cleric, won Iran's presidential election on 23 May with 69 percent of the vote, against 25 percent for the conservative Ali Akbar Nateq-Nouri. Turnout was about 80 percent, up from 50 percent last time; women and young voters carried him, in a country where more than half the people are under 25 and the voting age is 15. He promises a more open society at home, with fewer restrictions on dress and on satellite television, and better relations abroad. The Guardian Council had barred 234 hopefuls, leaving four candidates.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1997_Iranian_presidential_election (read 2026-10-04)",
+    "thread": "iran"
+  },
+  {
+    "month": "1997-05",
+    "kind": "world",
+    "headline": "Speculators attack the Thai baht",
+    "text": "Thailand's economy has grown by more than 9% a year on average since 1985, and its neighbours have boomed too: the 'tigers' South Korea, Taiwan, Singapore and Hong Kong, and the younger 'tiger cubs' Malaysia, Indonesia and the Philippines. Much of the boom was financed with foreign loans, often short-term and in dollars, and a good part went into property; the baht has been pegged at about 25 to the dollar, so borrowers felt safe. On 14 and 15 May the baht was hit by massive speculative attacks, as traders bet that Thailand, which spends far more abroad than it earns, cannot hold the peg.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); https://en.wikipedia.org/wiki/Tiger_Cub_Economies (read 2026-10-04)",
+    "thread": "asia-ltcm"
+  },
+  {
     "month": "1997-06",
     "kind": "company",
     "headline": "Tobacco industry offers a 368.5 billion dollar national settlement",
@@ -91,6 +110,24 @@
     "image": "/news/mo/1997-06-marlboro-man-billboard.jpg",
     "imageCaption": "A Marlboro Man billboard in downtown Atlanta, mid-1990s; the proposed settlement would end such outdoor advertising",
     "imageCredit": "In Pictures Ltd./Corbis via Getty Images"
+  },
+  {
+    "month": "1997-07",
+    "kind": "world",
+    "headline": "Hong Kong returns to China",
+    "text": "Britain handed Hong Kong back to China at a ceremony in the new wing of the city's convention centre on the night of 30 June; Tung Chee-hwa took office on 1 July as head of the new Special Administrative Region. With about 6.5 million people, Hong Kong was Britain's last major colony. Under the agreement Margaret Thatcher and China's premier Zhao Ziyang signed in 1984, its capitalist system and way of life are to stay unchanged for 50 years: 'one country, two systems'.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Handover_of_Hong_Kong (read 2026-10-04)",
+    "thread": "china"
+  },
+  {
+    "month": "1997-07",
+    "kind": "world",
+    "headline": "Thailand lets the baht go",
+    "text": "On 2 July Thailand gave up its peg of about 25 baht to the dollar and let the currency float, two days after Prime Minister Chavalit Yongchaiyudh had said he would not devalue; it lacked the foreign reserves needed to defend it. The dollar cost on average about 30 baht in July. Companies that borrowed in dollars now owe far more in baht. Within days speculators turned on Malaysia's ringgit.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://www.federalreservehistory.org/essays/asian-financial-crisis (read 2026-10-04); FRED series EXTHUS, monthly baht per dollar, https://fred.stlouisfed.org/data/EXTHUS.txt (read 2026-10-04)",
+    "thread": "asia-ltcm"
   },
   {
     "month": "1997-07",
@@ -109,13 +146,14 @@
     "month": "1997-08",
     "kind": "company",
     "headline": "Asian currency crisis hits Coca-Cola and other multinationals",
-    "text": "Since Thailand let its currency fall in July, the crisis has spread through Southeast Asia, and the dollar has jumped against Asian currencies. Shares of multinationals like Coca-Cola, Gillette, General Electric and McDonald's fell in August on worries that slower growth in Asia and the strong dollar will eat into their earnings. Coca-Cola shares lost about 17% in the month.",
+    "text": "Since Thailand let its currency fall in July, the crisis has spread through Southeast Asia, and the dollar has jumped against Asian currencies. On 11 August the IMF unveiled a rescue package of more than $17 billion for Thailand. Shares of multinationals like Coca-Cola, Gillette, General Electric and McDonald's fell in August on worries that slower growth in Asia and the strong dollar will eat into their earnings. Coca-Cola shares lost about 17% in the month.",
     "assets": [
       "ko",
       "mcd",
       "ge"
     ],
-    "source": "https://www.nytimes.com/1997/08/30/business/asian-stock-damage-has-wider-effects.html (via web.archive.org, read 2026-10-03); move from data/out/ko.json",
+    "source": "https://www.nytimes.com/1997/08/30/business/asian-stock-damage-has-wider-effects.html (via web.archive.org, read 2026-10-03); move from data/out/ko.json; https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04)",
+    "thread": "asia-ltcm",
     "image": "/news/ko/1997-08-okinawa-can.jpg",
     "imageCaption": "A Coca-Cola can from Japan",
     "imageCredit": "Jun"
@@ -141,6 +179,7 @@
     "text": "Hong Kong's Hang Seng index fell 23% between 20 and 23 October as speculators attacked the Hong Kong dollar's peg. On 27 October the Dow Jones fell 554 points, or 7.2%, and trading was halted early; it regained 337 points the next day. Indonesia agreed a $23 billion rescue led by the IMF on 31 October.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/October_27,_1997,_mini-crash (read 2026-10-03); https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-03)",
+    "thread": "asia-ltcm",
     "image": "/news/asia/1997-10-hong-kong-trader.jpg",
     "imageCaption": "A floor trader at the Hong Kong stock exchange the day after the crash, as the Hang Seng rebounds, 29 October 1997",
     "imageCredit": "Photo by David Wong/South China Morning Post via Getty Images"
@@ -162,11 +201,12 @@
     "month": "1997-11",
     "kind": "company",
     "headline": "Yamaichi and Hokkaido Takushoku collapse",
-    "text": "Major financial firms failed almost weekly in November: Sanyo Securities on 3 November, Hokkaido Takushoku Bank, and on 24 November Yamaichi Securities, one of Japan's four largest brokers. Japanese banks' bad debts are estimated at 264 to 304 billion dollars.",
+    "text": "Major financial firms failed almost weekly in November: Sanyo Securities on 3 November, Hokkaido Takushoku Bank, and on 24 November Yamaichi Securities, one of Japan's four largest brokers. Japanese banks' bad debts are estimated at 264 to 304 billion dollars. Since the outcry over the 685 billion yen of taxpayers' money used in 1996 to wind up the jusen, the failed housing lenders, public money for banks has been almost taboo in Tokyo.",
     "assets": [
       "ibj"
     ],
-    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03)",
+    "source": "https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (read 2026-10-03); https://money.cnn.com/1997/11/14/markets/japan_banks/ via web.archive.org (read 2026-10-03); https://www.bis.org/publications/paper-6-financial-crisis-japan-during-1990s-how-bank-japan-responded-and-lessons-learnt.pdf (re-read 2026-10-04)",
+    "thread": "japan",
     "image": "/news/ibj/1997-11-yamaichi.jpg",
     "imageCaption": "Kayabacho Tower in Tokyo, the headquarters of Yamaichi Securities",
     "imageCredit": "Harani0403"
@@ -198,5 +238,14 @@
     "image": "/news/ubs/1997-12-ospel-cabiallavetta.jpg",
     "imageCaption": "Marcel Ospel of the Bankverein (left) and Mathis Cabiallavetta of the Bankgesellschaft on their way to the press conference announcing the merger, Zurich, 8 December 1997",
     "imageCredit": "Martin Rütschi / Keystone"
+  },
+  {
+    "month": "1997-12",
+    "kind": "world",
+    "headline": "South Korea needs the IMF",
+    "text": "On 3 December South Korea agreed a three-year rescue with the International Monetary Fund, part of a package of $58.4 billion. Korean banks and companies owe an estimated $100 billion in short-term foreign debt, and foreign lenders pulled back after Hong Kong's crash in October. The won lost about 20% against the dollar by the end of November and shares fell by some 30% to a ten-year low. Big conglomerates have been failing since the Hanbo group went bankrupt early in the year, and Kia Motors needed emergency loans in July.",
+    "assets": [],
+    "source": "https://www.imf.org/external/np/loi/120397.HTM (Korea letter of intent, 3 December 1997, read 2026-10-04); https://en.wikipedia.org/wiki/1997_Asian_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/South_Korean_International_Monetary_Fund_Agreement,_1997 (read 2026-10-04)",
+    "thread": "asia-ltcm"
   }
 ]

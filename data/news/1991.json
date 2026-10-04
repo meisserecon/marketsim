@@ -90,6 +90,15 @@
   },
   {
     "month": "1991-08",
+    "kind": "world",
+    "headline": "Hardliners try a coup in Moscow and fail",
+    "text": "On 19 August eight hardliners, among them Vice President Gennady Yanayev, KGB chief Vladimir Kryuchkov and Defence Minister Dmitry Yazov, announced that they had taken power, saying Mikhail Gorbachev was unable to govern; he was held at his holiday home in Crimea, a day before he was to sign a new union treaty giving the republics more power. Tanks came into Moscow, but Russia's president Boris Yeltsin climbed onto one outside the Russian parliament and called for resistance; three civilians were killed on 21 August, and the coup collapsed. Gorbachev gave up the leadership of the Communist Party on 24 August, the day Ukraine declared independence; Estonia and Latvia had declared theirs during the coup.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt (read 2026-10-04); https://en.wikipedia.org/wiki/State_Committee_on_the_State_of_Emergency (read 2026-10-04); https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-04)",
+    "thread": "soviet"
+  },
+  {
+    "month": "1991-08",
     "kind": "company",
     "headline": "Cisco's sales more than double again",
     "text": "Cisco closed its fiscal year at the end of July with sales of $183 million, up from $70 million the year before, and net income of $43 million. Demand for routers that tie together company networks of different makes keeps growing faster than the company can hire.",
@@ -147,6 +156,7 @@
     "text": "The leaders of Russia, Ukraine and Belarus declared on 8 December that the Soviet Union no longer exists and founded a Commonwealth of Independent States, which eight more republics joined on 21 December. Mikhail Gorbachev resigned on 25 December and handed the nuclear codes to Boris Yeltsin; the red flag was lowered over the Kremlin, and the Soviet Union was formally dissolved the next day.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union (read 2026-10-03)",
+    "thread": "soviet",
     "image": "/news/world/1991-12-cis-signing.jpg",
     "imageCaption": "The heads of eleven former Soviet republics sign the protocol founding the Commonwealth of Independent States, Alma-Ata, December 1991",
     "imageCredit": "Yuriy Kuydin / Юрий Куйдин"
@@ -162,6 +172,7 @@
       "ust2010"
     ],
     "source": "https://www.upi.com/Archives/1991/12/20/Fed-slashes-discount-rate-to-35-percent/6075693205200/ (read 2026-10-03); https://archive.seattletimes.com/archive/19920102/1468134/the-market-in-1991----record-year-for-stocks----northwest-stocks-do-well-in-strange-year-end-rally (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/files/fomcropa19911217.pdf (read 2026-10-03); data/reference/sp500.json",
+    "thread": "rates",
     "image": "/news/markets/1991-12-greenspan-testifies.jpg",
     "imageCaption": "Fed Chairman Alan Greenspan consults his briefing book while testifying to the House Ways and Means Committee, Washington, 18 December 1991",
     "imageCredit": "Photo by LUKE FRAZZA/AFP via Getty Images"
@@ -177,6 +188,7 @@
       "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty (read 2026-10-03)",
+    "thread": "euro",
     "image": "/news/world/1991-12-maastricht-summit.jpg",
     "imageCaption": "Press conference at the European summit, Maastricht, 11 December 1991",
     "imageCredit": "Unknown photographer (Openbare Werken Gemeente Maastricht)"

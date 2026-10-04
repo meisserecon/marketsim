@@ -114,6 +114,7 @@
       "ust2040"
     ],
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/gold.json (read 2026-10-03)",
+    "thread": "rates",
     "image": "/news/rates/2022-03-powell-livestream.jpg",
     "imageCaption": "Fed Chair Jerome Powell on screen at the live-streamed press conference after the first rate rise since 2018, 16 March 2022",
     "imageCredit": "Bloomberg via Getty Images"
@@ -231,6 +232,7 @@
     "text": "Consumer prices in May were 8.6 percent higher than a year earlier, the most since 1981. On 15 June the Fed raised its rate by three quarters of a point to 1.5 to 1.75 percent, its largest step in nearly three decades, and said it was 'strongly committed' to bringing inflation back to 2 percent; one member preferred half a point. A 30-year mortgage costs about 5.8 percent. The S&P 500 fell 8 percent in June and is down a fifth since the start of the year.",
     "assets": [],
     "source": "https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm (read 2026-10-03); https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); data/reference/sp500.json (read 2026-10-03)",
+    "thread": "rates",
     "image": "/news/rates/2022-06-powell-press.jpg",
     "imageCaption": "Fed Chair Jerome Powell at the press conference after the three-quarter-point rise, Washington, 15 June 2022",
     "imageCredit": "Photo by Drew Angerer/Getty Images"
@@ -270,6 +272,7 @@
     "text": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/Timeline_of_the_Mahsa_Amini_protests (read 2026-10-03); https://en.wikipedia.org/wiki/2021_Iranian_presidential_election (read 2026-10-03)",
+    "thread": "iran",
     "image": "/news/middle-east/2022-09-amir-kabir-students.jpg",
     "imageCaption": "Students of Amirkabir University in Tehran protest after the death of Mahsa Amini, 20 September 2022",
     "imageCredit": "Darafsh"
@@ -388,6 +391,7 @@
       "nvda"
     ],
     "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China (read 2026-10-03)",
+    "thread": "china",
     "image": "/news/asia/2022-10-tsmc-fab.jpg",
     "imageCaption": "A chip factory of TSMC, Hsinchu, Taiwan",
     "imageCredit": "曾 成訓"

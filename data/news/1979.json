@@ -11,6 +11,7 @@
       "ust2000"
     ],
     "source": "data/out/gold.json (LBMA monthly averages via datahub.io/core/gold-prices, read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://www.federalreservehistory.org/essays/anti-inflation-measures (read 2026-10-03)",
+    "thread": "rates",
     "image": "/news/rates/1979-12-gold-queue-denver.jpg",
     "imageCaption": "Customers wait in line to buy or sell gold and silver at a Denver dealer as the gold rush peaks, turn of 1979 to 1980",
     "imageCredit": "Denver Post via Getty Images"
@@ -19,11 +20,12 @@
     "month": "1979-12",
     "kind": "world",
     "headline": "Iran votes for an Islamic constitution while Americans stay hostage in Tehran",
-    "text": "On 2 and 3 December Iranians approved a new constitution that makes the country an Islamic republic led by a senior cleric; the official result was 99.5 percent yes, though leftists, secular nationalists, followers of Ayatollah Shariatmadari and the Mojahedin boycotted the vote. In Tehran, students who stormed the US embassy on 4 November still hold 53 Americans, after freeing 13 women and African Americans in November. Washington stopped buying Iranian oil on 12 November and froze about 8 billion dollars of Iranian assets on 14 November. Gold ended the month above 500 dollars an ounce.",
+    "text": "On 2 and 3 December Iranians approved a new constitution that makes the country an Islamic republic led by a senior cleric; the official result was 99.5 percent yes, though leftists, secular nationalists, followers of Ayatollah Shariatmadari and the Mojahedin boycotted the vote. In Tehran, students who stormed the US embassy on 4 November still hold 53 Americans, after freeing 13 women and African Americans in November. The students demand that the Shah, who left Iran in January and was let into the United States for cancer treatment on 22 October, be sent back for trial. Many Iranians remember 1953, when a coup organised by the American CIA and British intelligence toppled Prime Minister Mohammad Mosaddegh, who had nationalised Iran's oil, and strengthened the Shah's rule; now they fear another. Washington stopped buying Iranian oil on 12 November and froze about 8 billion dollars of Iranian assets on 14 November. Gold ended the month above 500 dollars an ounce.",
     "assets": [
       "gold"
     ],
-    "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/Gold_as_an_investment (read 2026-10-03); https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat (read 2026-10-04); https://en.wikipedia.org/wiki/Iranian_revolution (read 2026-10-04)",
+    "thread": "iran",
     "image": "/news/middle-east/1979-12-embassy-hostages.jpg",
     "imageCaption": "American hostages at a Christmas meal inside the US Embassy, Tehran, 24 December 1979",
     "imageCredit": "Library of Congress, no known restrictions"
@@ -35,6 +37,7 @@
     "text": "Soviet forces took key points in Kabul from 25 December, and on the 27th they stormed the palace of Afghanistan's president Hafizullah Amin, who was killed. Moscow installed Babrak Karmal in his place; some 30,000 Soviet troops were sent. Washington calls it a grave threat to peace; how the West will answer is not yet clear.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Afghanistan (read 2026-10-03)",
+    "thread": "soviet",
     "image": "/news/world/1979-12-kabul-palace.jpg",
     "imageCaption": "The Amin palace in Kabul, later headquarters of the Soviet 40th army",
     "imageCredit": "Mikhail Evstafiev"

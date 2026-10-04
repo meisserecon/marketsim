@@ -39,6 +39,15 @@
     "imageCredit": "Martin Olsson (username 'mnemo' on en/sv wikipedia and commo"
   },
   {
+    "month": "2000-01",
+    "kind": "world",
+    "headline": "AOL, an internet company, agrees to buy Time Warner",
+    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04); https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/aol-time-warner-inc (read 2026-10-04); https://en.wikipedia.org/wiki/AOL (read 2026-10-04); https://en.wikipedia.org/wiki/WarnerMedia (read 2026-10-04)",
+    "thread": "dotcom"
+  },
+  {
     "month": "2000-02",
     "kind": "listing",
     "headline": "Pets.com, the sock puppet company, goes public",
@@ -64,6 +73,22 @@
     "image": "/news/siemens/2000-02-infineon.jpg",
     "imageCaption": "Infineon, Siemens' chip arm, at a trade fair stand",
     "imageCredit": "Bjoertvedt"
+  },
+  {
+    "month": "2000-02",
+    "kind": "world",
+    "headline": "New economy up, old economy down",
+    "text": "The Nasdaq rose 19% in February to 4,697 while the S&P 500 of large established companies fell 2%. Chip, telecom and internet shares are bought, while old-economy favourites are sold: Nvidia rose 73% this month and Siemens 31%, while Coca-Cola and McDonald's fell about 15%. At the Super Bowl at the end of January, a record 17 dot-com companies advertised.",
+    "assets": [
+      "nvda",
+      "siemens",
+      "csco",
+      "pets-com",
+      "ko",
+      "mcd"
+    ],
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "thread": "dotcom"
   },
   {
     "month": "2000-03",
@@ -101,6 +126,7 @@
       "msft"
     ],
     "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
+    "thread": "dotcom",
     "image": "/news/csco/2000-03-campus-aerial.jpg",
     "imageCaption": "Aerial view of Cisco's San Jose campus under construction, May 1999",
     "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
@@ -112,6 +138,7 @@
     "text": "The Nasdaq index closed at a record 5,048.62 on 10 March, and the S&P 500 rose 10% in March, closing above 1,500 for the first time on 22 March and setting a new record on 24 March. Fed officials worry that the high valuations of many technology shares could see a sizable correction, as the market grows more volatile.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20000321.htm (read 2026-10-03); data/reference/sp500.json",
+    "thread": "dotcom",
     "image": "/news/markets/2000-03-nasdaq-5000.jpg",
     "imageCaption": "A woman walks past the Nasdaq sign in Times Square, New York, on 9 March 2000, the day the Nasdaq Composite first closed above 5,000",
     "imageCredit": "Photo by Chris Hondros"
@@ -195,6 +222,7 @@
       "amzn"
     ],
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "dotcom",
     "image": "/news/tech/2000-04-nasdaq-plunge-times-square.jpg",
     "imageCaption": "An investor peers through a window at the Nasdaq board in Times Square while the news ticker reads 'Nasdaq continues its plunge', New York, 4 April 2000",
     "imageCredit": "Chris Hondros / Getty Images"
@@ -419,6 +447,7 @@
       "csco"
     ],
     "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "dotcom",
     "image": "/news/tech/2000-11-petscom-puppet.jpg",
     "imageCaption": "The Pets.com sock puppet, the most famous mascot of the dot-com boom, during the filming of a commercial, Los Angeles, January 2000",
     "imageCredit": "Bob Riha, Jr. / Getty Images"

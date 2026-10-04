@@ -103,6 +103,7 @@
       "ust2020"
     ],
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "thread": "housing-crisis",
     "image": "/news/markets/2008-03-bear-stearns-hq.jpg",
     "imageCaption": "A woman walks out of the Bear Stearns headquarters on Madison Avenue, New York, 24 March 2008",
     "imageCredit": "Photo by Chris Hondros/Getty Images"
@@ -285,9 +286,10 @@
     "month": "2008-08",
     "kind": "colour",
     "headline": "Beijing Olympics: Federer and Wawrinka win doubles gold",
-    "text": "At the Olympics in Beijing, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
+    "text": "The Olympic Games in Beijing, from 8 to 24 August with 10,942 athletes from 204 nations, were China's showcase to the world, and China topped the gold medal table for the first time. For Switzerland, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)",
+    "thread": "china"
   },
   {
     "month": "2008-08",
@@ -311,6 +313,7 @@
       "lehman"
     ],
     "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers (read 2026-10-03); https://en.wikipedia.org/wiki/Lehman_Brothers (read 2026-10-03)",
+    "thread": "housing-crisis",
     "image": "/news/lehman/2008-09-employee-box.jpg",
     "imageCaption": "Photographers surround a man carrying a box out of Lehman Brothers' headquarters on the morning of the bankruptcy filing, New York, 15 September 2008",
     "imageCredit": "Mary Altaffer | AP"
@@ -331,9 +334,10 @@
     "month": "2008-09",
     "kind": "world",
     "headline": "The House votes down the bailout and the Dow falls 778 points",
-    "text": "On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
+    "text": "On 7 September the government took over the two big mortgage companies Fannie Mae and Freddie Mac, which had more than 5 trillion dollars of mortgage securities and debt outstanding. On 20 September Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to buy toxic mortgage assets ('If it doesn't pass, then heaven help us all'). On 29 September the House of Representatives rejected the bill 225 to 208; the Dow fell 777.68 points, its largest point drop ever, and the S&P 500 8.8%. The S&P 500 ended September down 9% at 1,166.36.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json",
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac (read 2026-10-04)",
+    "thread": "housing-crisis",
     "image": "/news/markets/2008-09-house-vote-traders.jpg",
     "imageCaption": "Traders on the floor of the New York Stock Exchange as the House rejects the 700 billion dollar rescue plan, 29 September 2008",
     "imageCredit": "Photo by Spencer Platt/Getty Images"
@@ -376,6 +380,7 @@
       "credit-suisse"
     ],
     "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
+    "thread": "housing-crisis",
     "image": "/news/ubs/2008-10-rescue-press-conference.jpg",
     "imageCaption": "Jean-Pierre Roth of the National Bank (second from left) and federal councillor Eveline Widmer-Schlumpf (fourth from left) present the rescue package for UBS, Bern, 16 October 2008",
     "imageCredit": "Lukas Lehmann / Keystone"
@@ -432,6 +437,7 @@
       "c"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308016585/y72849exv99w1.htm (Citigroup press release, 24 November 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "thread": "housing-crisis",
     "image": "/news/c/2008-11-paulson.jpg",
     "imageCaption": "Henry Paulson, US Treasury Secretary",
     "imageCredit": "US Treasury Department"
@@ -443,6 +449,7 @@
     "text": "On 9 November China's State Council announced a stimulus of 4 trillion yuan, about $586 billion, with 1.5 trillion for railways, roads and other infrastructure and money for earthquake rebuilding and cheap housing. Growth has fallen towards 6% from double digits.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Chinese_economic_stimulus_program (read 2026-10-03)",
+    "thread": "china",
     "image": "/news/asia/2008-11-chongqing-investors.jpg",
     "imageCaption": "Investors watch share prices in Chongqing the day after China announced its 4 trillion yuan stimulus, 10 November 2008",
     "imageCredit": "Photo by China Photos/Getty Images"
@@ -462,13 +469,14 @@
     "month": "2008-12",
     "kind": "world",
     "headline": "Zero interest rates and the Fed starts buying bonds",
-    "text": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December.",
+    "text": "On 16 December the Fed cut its rate target to a range of 0 to 0.25 percent, the lowest ever, and said rates would stay exceptionally low 'for some time'. In January 1981 the same rate had averaged 19 percent. On 25 November it had announced it would buy up to 500 billion dollars of mortgage bonds and 100 billion of mortgage-agency debt, and it is considering buying Treasury bonds as well. The 10-year Treasury yield averaged 2.4 percent in December, and consumer prices in November were only 1.1 percent higher than a year earlier. Long Treasury bonds gained about a quarter in November and December.",
     "assets": [
       "ust2010",
       "ust2015",
       "ust2020"
     ],
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03)",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm (read 2026-10-03); https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2020.json (read 2026-10-03); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04)",
+    "thread": "rates",
     "image": "/news/rates/2008-12-bernanke.jpg",
     "imageCaption": "Fed Chairman Ben Bernanke speaks at a conference on housing and mortgage markets, Washington, 4 December 2008",
     "imageCredit": "Photo by Alex Wong/Getty Images"

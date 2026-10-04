@@ -36,6 +36,7 @@
       "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/Euro (read 2026-10-03)",
+    "thread": "euro",
     "image": "/news/world/1999-01-duisenberg-euro.jpg",
     "imageCaption": "Wim Duisenberg, president of the European Central Bank, at the launch of the euro, 31 December 1998",
     "imageCredit": "Danny Gys /  European Communities, 1998 / EC - Audiovisual Service"
@@ -52,6 +53,7 @@
       "ust2010"
     ],
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03)",
+    "thread": "japan",
     "image": "/news/asia/1999-03-hayami.jpg",
     "imageCaption": "Masaru Hayami, governor of the Bank of Japan (left)",
     "imageCredit": "IMF"
@@ -165,6 +167,7 @@
     "text": "After students protested on 8 July against the closing of the reformist newspaper Salam, police and plainclothes militiamen raided a Tehran University dormitory before dawn on 9 July, beating students and setting rooms on fire; at least one student was killed. Protests spread over the following days, with tens of thousands of students in Tehran and other cities, before they were put down and many were arrested.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1999_Iranian_student_protests (read 2026-10-03); https://www.rferl.org/a/Iran_Student_Protests/1182717.html (read 2026-10-03)",
+    "thread": "iran",
     "image": "/news/middle-east/1999-07-tehran-street.jpg",
     "imageCaption": "A woman photographs and a masked student crosses an emptied Tehran street during the student protests of July 1999",
     "imageCredit": "Hassan Sarbakhshian (RFE/RL)"
@@ -191,6 +194,7 @@
       "ibj"
     ],
     "source": "https://www.deseret.com/1999/8/20/19461545/3-japanese-banks-merge/ (read 2026-10-03); https://money.cnn.com/1999/08/20/asia/japan_banks/ via web.archive.org (read 2026-10-03)",
+    "thread": "japan",
     "image": "/news/ibj/1999-08-dkb.jpg",
     "imageCaption": "The head office of Dai-Ichi Kangyo Bank in Hibiya, Tokyo, one of the three banks to merge with IBJ",
     "imageCredit": "EXECUTOR)"
@@ -300,6 +304,15 @@
     "imageCredit": "Hyins"
   },
   {
+    "month": "1999-11",
+    "kind": "world",
+    "headline": "Nearly ten million Americans now trade shares online",
+    "text": "On 22 November the SEC, America's stock market regulator, reported that online brokerage accounts have almost tripled, from 3.7 million in 1997 to 9.7 million by the middle of 1999. More than half a million trades a day are now placed over the internet, against fewer than 100,000 in 1996, and online trades made up 15.9 percent of all share trades early this year. Some of the new investors are day traders who buy shares in the morning and sell them in the afternoon, often with borrowed money, and stories of people quitting their jobs to trade are common.",
+    "assets": [],
+    "source": "SEC special study 'On-Line Brokerage: Keeping Apace of Cyberspace', 22 November 1999, https://www.sec.gov/news/studies/cyberspace.htm (read 2026-10-04); https://en.wikipedia.org/wiki/Day_trading (read 2026-10-04)",
+    "thread": "dotcom"
+  },
+  {
     "month": "1999-12",
     "kind": "company",
     "headline": "Ivester to retire after two and a half years",
@@ -327,7 +340,17 @@
       "ebay",
       "nvda"
     ],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "dotcom"
+  },
+  {
+    "month": "1999-12",
+    "kind": "world",
+    "headline": "VA Linux jumps 698% on its first day; a web address sells for 7.5 million dollars",
+    "text": "On 9 December VA Linux, a company named after the free Linux operating system, went public at 30 dollars a share; the shares opened at 299 and closed at 239.25, up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)",
+    "thread": "dotcom"
   },
   {
     "month": "1999-12",

@@ -8,6 +8,7 @@
       "gold"
     ],
     "source": "https://en.wikipedia.org/wiki/Algiers_Accords_(1981) (read 2026-10-03); https://en.wikipedia.org/wiki/Iran_hostage_crisis (read 2026-10-03)",
+    "thread": "iran",
     "image": "/news/middle-east/1981-01-hostages-wiesbaden.jpg",
     "imageCaption": "Former President Jimmy Carter welcomes the freed American hostages at Wiesbaden, West Germany, January 1981"
   },
@@ -93,7 +94,8 @@
     "headline": "Japan is now the world's biggest car maker",
     "text": "Japan built more cars than the United States last year, for the first time. Its exports of passenger cars rose from 100,000 in 1965 to 1.8 million in 1975 and have kept climbing, as American drivers hit by two oil shocks turned to small Toyotas, Datsuns and Hondas that use less petrol and break down less. Detroit is losing money and laying off workers, and under pressure from Washington Japan has agreed to limit its car exports to the United States to 1.68 million a year from this month. Cars are only the most visible part: Japanese cameras, television sets and steel are winning markets everywhere.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Voluntary_export_restraint (read 2026-10-03); https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Voluntary_export_restraint (read 2026-10-03); https://en.wikipedia.org/wiki/Automotive_industry_in_Japan (read 2026-10-04)",
+    "thread": "japan"
   },
   {
     "month": "1981-05",
@@ -182,6 +184,7 @@
       "ust2000"
     ],
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://www.federalreservehistory.org/essays/recession-of-1981-82 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2000.json (read 2026-10-03); price changes from data/out",
+    "thread": "rates",
     "image": "/news/rates/1981-09-volcker-cigar.jpg",
     "imageCaption": "Fed Chairman Paul Volcker, cigar in hand, testifying in 1981",
     "imageCredit": "Photo by James K.w. Atherton/The The Washington Post via Getty Images"
@@ -239,5 +242,14 @@
     "image": "/news/siemens/1981-12-cable.jpg",
     "imageCaption": "Siemens Nederland presents a cable system that carries 30 channels over a single cable, March 1981",
     "imageCredit": "Hans van Dijk for Anefo"
+  },
+  {
+    "month": "1981-12",
+    "kind": "world",
+    "headline": "Martial law in Poland",
+    "text": "General Wojciech Jaruzelski, Poland's Communist Party leader and defence minister, declared martial law on 13 December. Thousands of activists of Solidarity, the free trade union born in the Gdansk shipyard strikes of August 1980, were locked up without trial, among them its leader Lech Walesa; telephone lines were cut, borders and airports closed, and a curfew runs from 7 in the evening to 6 in the morning. On 16 December security forces killed 9 striking miners at the Wujek coal mine. On 23 December the United States imposed economic sanctions on the Polish government.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Martial_law_in_Poland (read 2026-10-04)",
+    "thread": "soviet"
   }
 ]

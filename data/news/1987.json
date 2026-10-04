@@ -3,11 +3,12 @@
     "month": "1987-01",
     "kind": "company",
     "headline": "Tokyo passes 20,000; IBJ soars",
-    "text": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. IBJ shares rose 69% in January.",
+    "text": "Japan's Nikkei 225 index closed above 20,000 for the first time on 30 January, up from about 13,000 a year earlier. The Bank of Japan has cut its discount rate four times since January 1986, to 3%, and cheap money is pushing up shares and land prices. The cuts are meant to cushion exporters from the soaring yen: the dollar, which bought about 240 yen just before the Plaza agreement of September 1985, now buys about 153. IBJ shares rose 69% in January.",
     "assets": [
       "ibj"
     ],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03, via data/news/1987.json for the 30 January close); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); data/out/ibj.json (read 2026-10-03); data/raw/fred/DEXJPUS.csv (Federal Reserve daily yen rates, read 2026-10-04)",
+    "thread": "japan",
     "image": "/news/ibj/1987-01-tse-artefact.jpg",
     "imageCaption": "A control panel of the Tokyo Stock Exchange's computerised trading system, on display at the exchange",
     "imageCredit": "Syced"
@@ -35,6 +36,19 @@
     "image": "/news/slb/1987-02-platforms.jpg",
     "imageCaption": "Offshore drilling platforms under construction in a shipyard",
     "imageCredit": "KJRSeattle"
+  },
+  {
+    "month": "1987-04",
+    "kind": "world",
+    "headline": "America imposes trade sanctions on Japan over chips",
+    "text": "On 17 April President Reagan raised tariffs on $300 million of Japanese exports to the US, saying Japan had broken the semiconductor agreement of September 1986 by dumping chips in other countries and keeping its own market closed. It is the first US trade retaliation against Japan since the war. The dollar fell below 140 yen this month, although six countries agreed at the Louvre in Paris in February to stop its fall and the Bank of Japan then cut its rate to 2.5%, the lowest in its history.",
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
+    "source": "https://www.reaganlibrary.gov/archives/speech/statement-tariff-increases-japanese-semiconductor-products (read 2026-10-03); https://www.washingtonpost.com/archive/politics/1987/04/18/sanctions-imposed-on-japan/f0daac66-74fe-4f5c-96ce-3aa08898b4bd/ (via search, 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1987 (read 2026-10-03); https://en.wikipedia.org/wiki/Louvre_Accord (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03)",
+    "thread": "japan"
   },
   {
     "month": "1987-05",
@@ -71,6 +85,19 @@
     "image": "/news/mercedes/1987-07-reuter.jpg",
     "imageCaption": "Edzard Reuter, who became chairman of Daimler-Benz in 1987, speaking in St. Gallen in 1988",
     "imageCredit": "Regina Kühne"
+  },
+  {
+    "month": "1987-08",
+    "kind": "world",
+    "headline": "Shares hit a record as Greenspan takes over the Fed",
+    "text": "The S&P 500 closed at a record 336.77 on 25 August and the Dow at 2,722.42, both up more than a third since New Year. Alan Greenspan was sworn in on 11 August as chairman of the Federal Reserve, taking over from Paul Volcker with the dollar weak and interest rates rising. Volcker leaves after eight years in which inflation fell from a peak of 14.8 percent in March 1980 to 3.9 percent (July), and the 10-year Treasury yield from 15.3 percent in September 1981 to 8.8 percent in August.",
+    "assets": [
+      "ust1990",
+      "ust1995",
+      "ust2000"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Black_Monday_(1987) (read 2026-10-03); https://en.wikipedia.org/wiki/Paul_Volcker (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
+    "thread": "rates"
   },
   {
     "month": "1987-10",
@@ -110,5 +137,14 @@
     "image": "/news/markets/1987-12-black-monday-nyse.jpg",
     "imageCaption": "Traders on the floor of the New York Stock Exchange watch the monitors on Black Monday, 19 October 1987",
     "imageCredit": "AP / Corbis / Getty Images / The Canadian Press (collective credit printed for the page's photographs)"
+  },
+  {
+    "month": "1987-12",
+    "kind": "world",
+    "headline": "Reagan and Gorbachev sign the INF treaty",
+    "text": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)",
+    "thread": "soviet"
   }
 ]

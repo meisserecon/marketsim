@@ -325,13 +325,14 @@
     "month": "2023-10",
     "kind": "world",
     "headline": "Ten-year yields near 5 percent, mortgages near 8",
-    "text": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
+    "text": "The 10-year Treasury yield averaged 4.8 percent in October, the highest since 2007, and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. As recently as July 2020 the 10-year yield averaged just 0.6 percent. The Fed has held its rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July. Inflation is 3.7 percent (September). Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling.",
     "assets": [
       "ust2025",
       "ust2030",
       "ust2040"
     ],
-    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
+    "thread": "rates",
     "image": "/news/rates/2023-10-home-for-sale.jpg",
     "imageCaption": "A house for sale in Austin, Texas, as mortgage rates near 8 percent slow home sales, 16 October 2023",
     "imageCredit": "Photo by Brandon Bell/Getty Images"

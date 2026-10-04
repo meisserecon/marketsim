@@ -172,12 +172,22 @@
     "imageCredit": "Steve Jurvetson"
   },
   {
+    "month": "2012-06",
+    "kind": "world",
+    "headline": "Spain asks Europe to save its banks; half its young people are out of work",
+    "text": "On 9 June euro finance ministers agreed to lend Spain up to 100 billion euros to recapitalise its banks, which are weighed down by failed mortgages; Bankia, the country's biggest mortgage lender, was nationalised in May and asked for 23.5 billion euros. In June the interest rate on Spain's ten-year bonds reached 7 percent. Almost a quarter of Spaniards, 24.4 percent, were unemployed in March, and among those under 25 the rate is up to 50 percent.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2008%E2%80%932014_Spanish_financial_crisis (read 2026-10-04)",
+    "thread": "euro"
+  },
+  {
     "month": "2012-07",
     "kind": "world",
     "headline": "Draghi: whatever it takes",
     "text": "Speaking in London on 26 July, the president of the European Central Bank, Mario Draghi, said that within its mandate the ECB 'is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.' Borrowing costs for Spain and Italy, which had climbed to danger levels, fell after the speech.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Mario_Draghi (read 2026-10-03); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-03)",
+    "thread": "euro",
     "image": "/news/world/2012-07-draghi.jpg",
     "imageCaption": "Mario Draghi, president of the European Central Bank, Davos, January 2012",
     "imageCredit": "World Economic Forum"
@@ -253,9 +263,10 @@
     "month": "2012-10",
     "kind": "world",
     "headline": "The rial collapses and Tehran's bazaar shuts",
-    "text": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring.",
+    "text": "Iran's currency lost about a third of its value in ten days, falling to around 36,000 rials per dollar on the open market at the start of October. On 3 October riot police broke up the currency market and clashed with money changers, and traders in Tehran's Grand Bazaar closed their shops. Prices of imported food and medicine are soaring. Since July the European Union has bought no Iranian oil, and in March Iranian banks under EU sanctions were cut off from the SWIFT payment network; the International Energy Agency puts Iran's oil exports in September at 860,000 barrels a day, down from 2.2 million at the end of 2011.",
     "assets": [],
-    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03)",
+    "source": "https://uk.finance.yahoo.com/news/iran-currency-collapse-sparks-second-123932541.html (read 2026-10-03); https://www.aljazeera.com/amp/economy/2012/10/6/tehran-bazaar-reopens-but-tensions-remain (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-03); https://en.wikipedia.org/wiki/International_sanctions_against_Iran (read 2026-10-04)",
+    "thread": "iran",
     "image": "/news/middle-east/2012-10-tehran-bazaar.jpg",
     "imageCaption": "Tehran's Grand Bazaar",
     "imageCredit": "Babak Farrokhi"

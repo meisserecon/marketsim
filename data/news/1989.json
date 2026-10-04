@@ -13,6 +13,15 @@
     "imageCredit": "Ank Kumar"
   },
   {
+    "month": "1989-02",
+    "kind": "world",
+    "headline": "The last Soviet soldiers leave Afghanistan",
+    "text": "On 15 February the last Soviet military column left Afghanistan, crossing the Friendship Bridge at Termez into Soviet Uzbekistan; its commander, General Boris Gromov, crossed last. The withdrawal, agreed in the Geneva Accords of April 1988, began in May, and half the troops were gone by August. In more than nine years of war thousands of Soviet soldiers and hundreds of thousands of Afghans have died, and some five million Afghans have fled abroad, most of them to Pakistan and Iran. The Afghan government of Najibullah fights on with Soviet aid.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Soviet_withdrawal_from_Afghanistan (read 2026-10-04); https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War (read 2026-10-04)",
+    "thread": "soviet"
+  },
+  {
     "month": "1989-03",
     "kind": "company",
     "headline": "Buffett reveals a 600 million dollar bet on Coca-Cola",
@@ -62,6 +71,7 @@
       "ibj"
     ],
     "source": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-04); Nikkei 225: FRED series NIKKEI225 (read 2026-10-04)",
+    "thread": "japan",
     "image": "/news/ibj/1989-05-boj.jpg",
     "imageCaption": "The Bank of Japan headquarters, Tokyo"
   },
@@ -72,6 +82,7 @@
     "text": "Soldiers cleared Tiananmen Square in Beijing on 3 and 4 June in bloody clashes, ending seven weeks of protests that began on 15 April; martial law had been declared on 20 May. The number of dead is not known. Western nations have begun to impose arms embargoes on China. Prices had risen by about 30% in Beijing between 1987 and 1988, which fed the anger.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre (read 2026-10-03)",
+    "thread": "china",
     "image": "/news/asia/1989-06-tank-man.jpg",
     "imageCaption": "A lone man stands in front of a column of tanks at the entrance to Tiananmen Square, Beijing, 5 June 1989",
     "imageCredit": "Photo by CNN via Getty Images"
@@ -83,6 +94,7 @@
     "text": "Ayatollah Ruhollah Khomeini, leader of the revolution, died on 3 June aged 86. On 4 June the Assembly of Experts chose President Ali Khamenei as the new Supreme Leader. Millions of mourners filled Tehran for the funeral; in the crush people died and the body fell from its coffin, and a second ceremony had to be held.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Ruhollah_Khomeini (read 2026-10-03); https://en.wikipedia.org/wiki/1989_Iranian_presidential_election (read 2026-10-03)",
+    "thread": "iran",
     "image": "/news/middle-east/1989-06-khomeini-funeral.jpg",
     "imageCaption": "Mourners at the funeral of Ayatollah Khomeini, Tehran, 4 June 1989",
     "imageCredit": "Khamenei.ir"
@@ -140,6 +152,7 @@
       "sony"
     ],
     "source": "https://en.wikipedia.org/wiki/Rockefeller_Group (read 2026-10-03; cites New York Times, 31 October 1989); https://en.wikipedia.org/wiki/Rockefeller_Center (read 2026-10-03); data/news/1989.json",
+    "thread": "japan",
     "image": "/news/asia/1989-10-mitsubishi-rockefeller.jpg",
     "imageCaption": "Mitsubishi Estate's president (right) and a senior vice president of the Rockefeller Group at the Tokyo press conference announcing the purchase, 31 October 1989",
     "imageCredit": "Photo by The Asahi Shimbun via Getty Images"
@@ -177,6 +190,7 @@
     "text": "On the evening of 9 November an East German spokesman, Guenter Schabowski, announced at a press conference that citizens could cross the border, effective immediately as he understood it; that night crowds pushed through the checkpoints in Berlin and the guards gave way. It follows a year of change in eastern Europe, with free elections in Poland in June and Hungary opening its border. On 17 November mass protests began in Czechoslovakia.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall (read 2026-10-03); https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03)",
+    "thread": "soviet",
     "image": "/news/world/1989-11-brandenburg-gate.jpg",
     "imageCaption": "East and West Berliners on the Wall in front of the Brandenburg Gate, the night after it opened, 10 November 1989",
     "imageCredit": "Klaus Lehnartz; REGIERUNGonline; B 145 Bild-00046833"
@@ -204,6 +218,7 @@
       "xom"
     ],
     "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_asset_price_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/Industrial_Bank_of_Japan (read 2026-10-03); data/news/1989.json for the 104 billion dollar estimate (finance.yahoo.com source could not be re-fetched)",
+    "thread": "japan",
     "image": "/news/ibj/1989-12-tse.jpg",
     "imageCaption": "The trading hall of the Tokyo Stock Exchange",
     "imageCredit": "ehnmark"
@@ -241,6 +256,7 @@
     "text": "Presidents Bush and Gorbachev met off Malta on 2 and 3 December. In Prague the communists gave up power after weeks of peaceful protest, and the dissident playwright Vaclav Havel was elected president on 29 December. In Romania an uprising that began in Timisoara on 16 December reached Bucharest, and the dictator Nicolae Ceausescu was executed on 25 December.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Revolutions_of_1989 (read 2026-10-03); https://en.wikipedia.org/wiki/Romanian_revolution (read 2026-10-03)",
+    "thread": "soviet",
     "image": "/news/world/1989-12-bucharest-revolution.jpg",
     "imageCaption": "Crowds face tanks and militia on Magheru Boulevard in Bucharest during the Romanian revolution, December 1989",
     "imageCredit": "Attribution: Romanian National History Museum"

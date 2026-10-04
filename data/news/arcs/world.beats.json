@@ -140,7 +140,7 @@
     "what": "President Reagan and Mikhail Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington on 8 December. It removes all American and Soviet land-based missiles with ranges of 500 to 5,500 kilometres, including the Pershing II and cruise missiles in western Europe and the Soviet SS-20s, with inspections on both sides. At Reykjavik in October 1986 the two leaders had come close to far deeper cuts but parted over Reagan's missile shield.",
     "why": "The first treaty to abolish a whole class of nuclear weapons; with the crash of October behind them, markets had other worries, but for Europe the missile scare of 1983 is over.",
     "assets": [],
-    "importance": 3,
+    "importance": 2,
     "thread": "soviet",
     "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty (read 2026-10-03); https://en.wikipedia.org/wiki/1987_in_the_United_States (read 2026-10-03); https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit (read 2026-10-04)"
   },
@@ -446,20 +446,6 @@
     "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election (read 2026-10-03)"
   },
   {
-<<<<<<< HEAD
-=======
-    "id": "b5d8be0b",
-    "month": "2009-02",
-    "title": "UBS hands client names to the United States",
-    "what": "On 18 February UBS agreed to pay a 780 million dollar fine and entered a deferred prosecution agreement with the US Justice Department over helping Americans evade taxes, and to release information on American clients suspected of tax evasion, a breach in Swiss bank secrecy. The next day the US government sued to obtain the names of all 52,000 American clients with secret UBS accounts.",
-    "why": "The beginning of the end of Swiss bank secrecy for foreign clients: within months Switzerland accepts OECD standards on tax information, and the automatic exchange of information follows years later.",
-    "assets": [
-      "ubs"
-    ],
-    "importance": 3,
-    "source": "https://en.wikipedia.org/wiki/UBS_tax_evasion_controversies (read 2026-10-03); https://en.wikipedia.org/wiki/Bradley_Birkenfeld (read 2026-10-03)"
-  },
-  {
     "id": "16aca12d",
     "month": "2009-10",
     "title": "Greece's new government finds a deficit of 12.7 percent",
@@ -471,7 +457,6 @@
     "source": "https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-04)"
   },
   {
->>>>>>> worktree-agent-a4a2ea336cfae2978
     "id": "9a1c1481",
     "month": "2010-05",
     "title": "Europe bails out Greece and sets up a rescue fund",
@@ -483,12 +468,9 @@
       "pct": -8
     },
     "importance": 1,
-<<<<<<< HEAD
-    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03)",
-    "lead": true
-=======
     "thread": "euro",
-    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/2010_flash_crash (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)",
+    "lead": true
   },
   {
     "id": "864a99ca",
@@ -500,7 +482,6 @@
     "importance": 2,
     "thread": "euro",
     "source": "https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/PIGS_(economics) (read 2026-10-04)"
->>>>>>> worktree-agent-a4a2ea336cfae2978
   },
   {
     "id": "e485afe7",

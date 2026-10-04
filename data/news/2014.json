@@ -163,6 +163,15 @@
   },
   {
     "month": "2014-10",
+    "kind": "world",
+    "headline": "By one measure, China's economy is now the world's largest",
+    "text": "New figures from the International Monetary Fund show that, measured by purchasing power, China's economy will be the world's largest in 2014: $17.6 trillion against $17.4 trillion for the United States, about 16.5% and 16.3% of the world's output. Purchasing power takes into account that things cost less in China: a shirt is cheaper in Shanghai than in San Francisco. Measured in dollars at market exchange rates, the US economy is still more than $6.5 trillion larger.",
+    "assets": [],
+    "source": "https://www.csmonitor.com/Business/Latest-News-Wires/2014/1008/China-just-overtook-US-as-the-world-s-largest-economy-IMF-says (8 October 2014, read 2026-10-04)",
+    "thread": "china"
+  },
+  {
+    "month": "2014-10",
     "kind": "company",
     "headline": "IBM pays to get rid of its chip factories and drops its 2015 target",
     "text": "On 20 October IBM agreed to hand its chip manufacturing business to GlobalFoundries and to pay it 1.5 billion dollars over three years, taking a 4.7 billion dollar charge. It also said it no longer expects to earn at least 20 dollars a share in 2015, a target it had promised for years. Chief executive Ginni Rometty said the results were not what IBM expected.",
@@ -199,5 +208,18 @@
     "image": "/news/xom/2014-11-tanker.jpg",
     "imageCaption": "A petroleum tanker at sea",
     "imageCredit": "Sarvesh Lutchmun"
+  },
+  {
+    "month": "2014-12",
+    "kind": "world",
+    "headline": "Switzerland introduces negative interest rates",
+    "text": "On 18 December the Swiss National Bank announced that from 22 January banks will pay 0.25 percent a year on large deposits held with it: a negative interest rate, meant to stop the franc from rising further. The European Central Bank began charging banks 0.1 percent on their deposits in June. In America the Fed's rate has stayed near zero since December 2008, and the 10-year Treasury yield averaged 2.2 percent in December, with inflation at 1.3 percent (November).",
+    "assets": [
+      "ust2015",
+      "ust2020",
+      "ust2030"
+    ],
+    "source": "https://www.snb.ch/en/publications/communication/press-releases/2014/pre_20141218 (read 2026-10-04); https://www.aei.org/economics/negative-interest-rates-swiss-central-bank-joins/ (read 2026-10-04); https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html (read 2026-10-04); https://fred.stlouisfed.org/data/FEDFUNDS.txt (read 2026-10-04); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04); https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-10-04)",
+    "thread": "rates"
   }
 ]

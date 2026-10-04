@@ -40,9 +40,10 @@
     "month": "2011-02",
     "kind": "world",
     "headline": "China passes Japan as the world's second-largest economy",
-    "text": "China's economy was larger than Japan's in 2010, which makes China the world's second-largest economy behind the United States. Japan had held that place since before the 1980s. A year ago China also overtook Germany as the world's biggest exporter.",
+    "text": "Figures released by Japan's government on 14 February put Japan's economy in 2010 at $5.47 trillion and China's at $5.88 trillion, measured in dollars at market exchange rates. That makes China the world's second-largest economy behind the United States, a place Japan had held for 42 years. Japan is still about ten times richer per person. A year ago China also overtook Germany as the world's biggest exporter.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Chinese_economic_reform (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/2010_in_China (read 2026-10-03)",
+    "thread": "china",
     "image": "/news/asia/2011-02-beijing-shoppers.jpg",
     "imageCaption": "Shoppers on a busy Beijing shopping street on the day figures confirmed that China had overtaken Japan as the second-largest economy, 14 February 2011",
     "imageCredit": "Photo by PETER PARKS/AFP via Getty Images"
@@ -327,12 +328,26 @@
     "month": "2011-10",
     "kind": "world",
     "headline": "Euro summit: banks to take half off Greek debt",
-    "text": "In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
+    "text": "Three euro countries now live on rescue loans: Greece since May 2010, Ireland since November 2010 and Portugal since May, with 78 billion euros. In the night of 26 to 27 October euro leaders agreed that private banks will write off 50 percent of their Greek bonds, that Europe's banks must raise more capital, and that the rescue fund's firepower is to be raised to about one trillion euros. On 31 October the Greek prime minister, George Papandreou, surprised his partners by announcing a referendum on the deal.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/European_Financial_Stability_Facility (read 2026-10-03); https://en.wikipedia.org/wiki/Greek_government-debt_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-03); https://en.wikipedia.org/wiki/2010%E2%80%932014_Portuguese_financial_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04)",
+    "thread": "euro",
     "image": "/news/world/2011-10-euro-summit.jpg",
     "imageCaption": "Angela Merkel and Nicolas Sarkozy at the euro summit in Brussels that agreed a 50 percent cut in Greek debt, October 2011",
     "imageCredit": "press photograph (via Al Jazeera)"
+  },
+  {
+    "month": "2011-11",
+    "kind": "world",
+    "headline": "Italy's borrowing costs pass 7 percent; Berlusconi and Papandreou go",
+    "text": "On 9 November the interest rate on Italy's ten-year bonds rose above 7 percent, to as much as 7.45 percent, a level many economists see as unbearable; Italy's debt equals 120 percent of its economic output, and it is seen as too big to rescue with the funds available. Silvio Berlusconi resigned as prime minister on 12 November, and the economist Mario Monti was sworn in on 16 November at the head of a government of unelected experts. In Greece, George Papandreou dropped his referendum plan and resigned on 10 November; Lucas Papademos now leads a national unity government.",
+    "assets": [
+      "ust2015",
+      "ust2020",
+      "ust2030"
+    ],
+    "source": "https://www.rte.ie/news/business/2011/1109/308452-italy-business/ (read 2026-10-04); https://en.wikipedia.org/wiki/Berlusconi_IV_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/Monti_Cabinet (read 2026-10-04); https://en.wikipedia.org/wiki/George_Papandreou (read 2026-10-04)",
+    "thread": "euro"
   },
   {
     "month": "2011-12",

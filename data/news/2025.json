@@ -28,6 +28,17 @@
   },
   {
     "month": "2025-01",
+    "kind": "world",
+    "headline": "China's DeepSeek shakes the AI trade",
+    "text": "The Chinese start-up DeepSeek released its R1 AI model on 20 January, saying it matches US rivals at a fraction of the cost and on older chips. By 27 January its chatbot was the most downloaded free app in the US, and Nvidia's shares fell about 18%.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://en.wikipedia.org/wiki/DeepSeek (read 2026-10-03)",
+    "thread": "china"
+  },
+  {
+    "month": "2025-01",
     "kind": "company",
     "headline": "GE Aerospace orders jump 46%",
     "text": "On 23 January GE Aerospace reported fourth-quarter orders up 46% to 15.5 billion dollars, revenue up 14%, and operating profit up 49%. It expects another year of substantial growth in 2025.",
@@ -85,6 +96,7 @@
     "text": "On 2 April President Trump announced tariffs on most of the world, 34% on China. After China retaliated, the US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)",
+    "thread": "china",
     "image": "/news/asia/2025-04-yantai-port.jpg",
     "imageCaption": "Shipping containers stacked at the port of Yantai, Shandong, as the tariff war escalates, 3 April 2025",
     "imageCredit": "Photo by -/AFP via Getty Images"
@@ -187,6 +199,7 @@
     "text": "On 13 June Israel launched surprise strikes across Iran, killing senior military commanders and nuclear scientists and hitting nuclear and missile sites; Iran answered with hundreds of ballistic missiles and drones fired at Israeli cities. On 22 June US bombers struck the nuclear sites at Fordow, Natanz and Isfahan, and Iran fired missiles at a US base in Qatar. A ceasefire took hold on 24 June. Hundreds were killed in Iran, many of them civilians, and dozens in Israel.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Twelve-Day_War (read 2026-10-03); https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_2231 (read 2026-10-03)",
+    "thread": "iran",
     "image": "/news/middle-east/2025-06-tehran-attack.jpg",
     "imageCaption": "Smoke over Tehran after the Israeli attack of 13 June 2025",
     "imageCredit": "Mohammadjavad Alikhani"

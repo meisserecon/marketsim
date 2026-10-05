@@ -247,3 +247,33 @@ What this implies for 1980 to 1998 (all scans):
   itself (the following issue's "Vortag" column is the natural choice, which doubles the downloads).
 - The traps found here will recur: snapshot tables before holidays, two-day headers, year-end issues,
   share-class lines appearing and disappearing, and nominal changes visible only through the year range.
+
+## Netscape and America Online (tried 2026-10-05, not added)
+
+Wanted: Netscape Communications (Nasdaq NSCP, August 1995 to its takeover by America Online in March 1999)
+and America Online (Nasdaq then NYSE AOL from March 1992; AOL Time Warner from January 2001, Time Warner Inc.
+from October 2003, ticker TWX, taken over by AT&T in June 2018; the AOL that Verizon bought in June 2015 is
+a different share, spun off from Time Warner in December 2009).
+
+Monthly closes could not be sourced:
+
+- Yahoo Finance (`query1.finance.yahoo.com/v8/finance/chart`): NSCP, AOL and TWX all answer "No data found,
+  symbol may be delisted".
+- companiesmarketcap.com: no page for Netscape or America Online. `/time-warner/` is the old Time Warner Inc.
+  (133 monthly points, January 1990 to 11 January 2001, the day of the merger). `/aol-inc/` is the spun-off
+  AOL (68 monthly points, November 2009 to 22 June 2015, the last at 49.99 against Verizon's 50 dollars).
+- Stooq (`stooq.com/q/d/l/?s=nscp.us&i=m` and the same for aol.us, twx.us): answers with a browser check.
+- BigCharts historical quotes: HTTP 401. Barchart: download needs an account.
+- historicalstockprice.com: pages exist for TWX and AOL with the last trading days only; its price-by-date
+  lookup returns no figures for these tickers, and it has no page for NSCP.
+- Internet Archive: one capture of Yahoo's old `chart.yahoo.com/table.csv?s=aol`, from May 2003, with about
+  ten trading days. None for NSCP.
+
+Found, but not enough: yearly opening and closing prices of the AOL/Time Warner share from 1993 to 2018 on
+1stock1.com (`1stock1_376.htm`), with the split years marked; AOL's seven 2-for-1 splits (November 1994,
+April and November 1995, March and November 1998, February and November 1999) and Time Warner's 1-for-3
+reverse split of March 2009; quarterly highs and lows in the companies' 10-K filings on EDGAR, which would
+serve as the cross-check once monthly closes exist.
+
+What would work: a CSV of month-end closes from a terminal or a paid data service (Bloomberg, Refinitiv,
+CRSP, Barchart), or Stooq's monthly download fetched by hand in a browser if it carries the delisted tickers.

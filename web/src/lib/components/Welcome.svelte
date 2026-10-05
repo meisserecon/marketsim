@@ -73,6 +73,14 @@
       </ul>
     </section>
 
+    <section class="limits">
+      <h2>Limitations</h2>
+      <ul>
+        <li>You can only buy a handpicked selection of companies, not the whole market. They were chosen with hindsight, because their stories are worth telling.</li>
+        <li>The game cannot teach you much about choosing shares by solid measures such as a company's sales and profits: it does not have that data. What you get is prices, dividends and the news.</li>
+      </ul>
+    </section>
+
     <div class="go">
       <button class="btn primary" onclick={onclose}>Let's Go</button>
     </div>
@@ -168,6 +176,14 @@
   .lessons p {
     margin: 0;
     line-height: 1.5;
+  }
+  .limits ul {
+    margin: 0;
+    padding-left: 1.3em;
+    display: grid;
+    gap: 6px;
+    line-height: 1.5;
+    color: var(--ink-2);
   }
   .go {
     display: flex;

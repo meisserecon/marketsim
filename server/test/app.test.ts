@@ -203,6 +203,8 @@ test("creating a game needs the password when one is configured", async () => {
     assert.equal((await call(locked, "POST", "/api/games", { name: "x" })).status, 401);
     assert.equal((await call(locked, "POST", "/api/games", { name: "x", password: "wrong" })).body.error, "unauthorized");
     assert.equal((await call(locked, "POST", "/api/games", { name: "x", password: "s3cret" })).status, 201);
+    assert.equal((await call(locked, "POST", "/api/solo", { name: "Dana" })).body.error, "unauthorized");
+    assert.equal((await call(locked, "POST", "/api/solo", { name: "Dana", password: "s3cret" })).status, 201);
   } finally {
     await locked.close();
   }

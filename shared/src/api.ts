@@ -47,7 +47,7 @@ export interface GameView {
   solo?: boolean;
 }
 
-export interface SoloRequest { name: string }
+export interface SoloRequest { name: string; password?: string }
 /** The one token is both the player's and the game master's. */
 export interface SoloResponse { game: GameView; playerId: string; playerToken: string }
 

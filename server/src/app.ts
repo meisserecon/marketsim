@@ -41,11 +41,17 @@ function bearer(req: FastifyRequest): string {
   return h.slice(7).trim();
 }
 
+/** Throws unless `given` is the password; compared by hash in constant time. */
+function checkPassword(given: unknown, password: string): void {
+  const h = hash(typeof given === "string" ? given : "");
+  if (!timingSafeEqual(Buffer.from(h), Buffer.from(hash(password)))) throw new HttpError(401, "unauthorized", "Wrong password");
+}
+
 export interface AppOptions {
   /** Directory with the built web client; served with an SPA fallback when it exists. */
   staticDir?: string;
   logger?: boolean;
-  /** When set, creating a game requires this password. */
+  /** When set, starting a game (with a game master, or alone) requires this password. */
   createPassword?: string;
   /** News items, sorted by month. Default: none. */
   news?: NewsItem[];
@@ -224,8 +230,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   app.post("/api/games", async (req, reply): Promise<CreateGameResponse> => {
     const body = (req.body ?? {}) as { name?: unknown; password?: unknown };
     if (opts.createPassword) {
-      const given = hash(typeof body.password === "string" ? body.password : "");
-      if (!timingSafeEqual(Buffer.from(given), Buffer.from(hash(opts.createPassword)))) throw new HttpError(401, "unauthorized", "Wrong password");
+      checkPassword(body.password, opts.createPassword);
     }
     const name = typeof body.name === "string" ? body.name.trim() : "";
     if (!name || name.length > 60) throw new HttpError(400, "bad_request", "A game needs a name of at most 60 characters");
@@ -244,9 +249,10 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     }
   });
 
-  /** A game for one: created and joined in one step, and the player's token also advances the clock. Open to anyone. */
+  /** A game for one: created and joined in one step, and the player's token also advances the clock. Needs the same password as creating a game. */
   app.post("/api/solo", async (req, reply): Promise<SoloResponse> => {
-    const body = (req.body ?? {}) as { name?: unknown };
+    const body = (req.body ?? {}) as { name?: unknown; password?: unknown };
+    if (opts.createPassword) checkPassword(body.password, opts.createPassword);
     const name = typeof body.name === "string" ? body.name.trim() : "";
     if (!name || name.length > 30) throw new HttpError(400, "bad_request", "A player needs a name of at most 30 characters");
     const token = newToken();

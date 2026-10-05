@@ -173,7 +173,7 @@
     "id": "a8281700",
     "month": "1994-11",
     "title": "Sixth hike of the year as bond losses mount",
-    "what": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. The numbers: the Fed's rate 5.5 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
+    "what": "On 15 November the Fed raised its rate target by three quarters of a point to 5.5 percent, its sixth increase this year, and banks raised the prime rate to 8.5 percent. The 30-year Treasury yield reached 8.16 percent on 4 November, up from 6.17 percent in January. Inflation is still under 3 percent, yet a 16-year zero-coupon Treasury has lost about 14 percent of its value this year. In November itself long-term bonds steadied: the US Treasury 2010 gained 2 percent. The numbers: the Fed's rate 5.5 percent. Inflation 2.6 percent. Unemployment 5.8 percent.",
     "why": "The worst year for bonds in decades, with global losses later put at about 1.5 trillion dollars, and the backdrop to the Mexican peso crisis. Rates peaked in early 1995 and the bond rally that followed was enormous.",
     "assets": [
       "bonds"
@@ -181,7 +181,7 @@
     "thread": "rates",
     "source": "https://en.wikipedia.org/wiki/1994_bond_market_crisis (read 2026-10-03); https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2010.json (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "lead": true,
-    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
+    "changed": "interest-rate storyline: a sentence on what bonds did that month, because they moved against the Fed's step"
   },
   {
     "id": "7f98fea0",
@@ -562,7 +562,7 @@
     "id": "cfcbe3df",
     "month": "2023-03",
     "title": "Silicon Valley Bank fails on its bond losses",
-    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent. The numbers: the Fed's rate 4.75 to 5 percent. Inflation 6.0 percent. Unemployment 3.6 percent.",
+    "what": "On 8 March Silicon Valley Bank said it had sold over 21 billion dollars of bonds at a loss of 1.8 billion; customers withdrew 42 billion dollars the next day, and on 10 March regulators seized the bank, which had 209 billion dollars of assets. The bonds had lost value as interest rates rose. The authorities created a new lending facility for banks, and short-term Treasury yields fell sharply. On 22 March the Fed still raised its rate by a quarter point to 4.75 to 5 percent. Signature Bank failed two days later and regional bank shares fell sharply, but the S&P 500 ended March up 4 percent. In the panic investors fled into government bonds, and their prices rose although the Fed raised its rate once more: the US Treasury 2040 gained almost 6 percent in March. The numbers: the Fed's rate 4.75 to 5 percent. Inflation 6.0 percent. Unemployment 3.6 percent.",
     "why": "The bill for the fastest hikes in forty years: bonds bought at near-zero yields sank, and a bank run followed. It marked the beginning of the end of the hiking cycle.",
     "assets": [
       "bonds",
@@ -571,12 +571,12 @@
     ],
     "source": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); data/out/ust2025.json (read 2026-10-03); https://en.wikipedia.org/wiki/2023_United_States_banking_crisis (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
-    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
+    "changed": "interest-rate storyline: a sentence on what bonds did that month, because they moved against the Fed's step"
   },
   {
     "id": "98d41543",
     "month": "2023-10",
-    "title": "The Fed holds its rate at 5.3 percent, the highest in 22 years; mortgages near 8",
+    "title": "The Fed holds its rate at 5.25 to 5.5 percent, the highest in 22 years; mortgages near 8",
     "what": "The Fed has held its interest rate at 5.25 to 5.5 percent, the highest since 2001, since its increase in July; in early 2022 it was still zero. Long-term rates have followed: lending to the government for ten years pays 4.8 percent, the most since 2007 (in July 2020 it was just 0.6 percent), and a 30-year mortgage costs nearly 8 percent, the most in more than twenty years. Long-dated Treasury bonds have lost about 8 percent in September alone and are still falling. The numbers: the Fed's rate 5.25 to 5.5 percent. Inflation 3.7 percent. Unemployment 3.7 percent.",
     "why": "The low point for bonds in the post-2020 cycle: from here yields fell sharply into December, and anyone who bought long bonds this month made double-digit gains within weeks. Review 2026-10: 'last' increase was hindsight.",
     "assets": [
@@ -584,7 +584,7 @@
     ],
     "thread": "rates",
     "source": "https://fred.stlouisfed.org/series/GS10 (read 2026-10-03); https://fred.stlouisfed.org/series/MORTGAGE30US (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/CPIAUCNS (read 2026-10-03); data/out/ust2040.json (read 2026-10-03); https://fred.stlouisfed.org/data/GS10.txt (read 2026-10-04)",
-    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
+    "changed": "interest-rate storyline: the title now gives the target, like the numbers line"
   },
   {
     "id": "7a7429cb",

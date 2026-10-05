@@ -1,6 +1,5 @@
 <script lang="ts">
-  // Not linked from anywhere: only whoever knows this address (and the password, if the server
-  // has one configured) can start a game.
+  // Not linked from anywhere: only whoever knows this address and the password can start a game.
   import { goto } from '$app/navigation';
   import { api } from '$lib/api';
   import { setToken } from '$lib/api/tokens';
@@ -42,7 +41,7 @@
     </label>
     <label class="field">
       <span>Password</span>
-      <input class="input" type="password" bind:value={password} autocomplete="current-password" placeholder="Leave empty if the server has none" />
+      <input class="input" type="password" bind:value={password} autocomplete="current-password" />
     </label>
     {#if createError}<p class="notice error" role="alert">{createError}</p>{/if}
     <button class="btn primary" type="submit" disabled={creating}>{creating ? 'Creating…' : 'Create game'}</button>

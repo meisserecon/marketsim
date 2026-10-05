@@ -16,11 +16,11 @@ await migrate(db);
 const app = await buildApp(db, market, {
   staticDir: process.env.STATIC_DIR ?? path.resolve(here, "..", "..", "web", "build"),
   logger: process.env.LOG === "1",
-  createPassword: process.env.CREATE_PASSWORD || undefined,
+  createPassword: process.env.CREATE_PASSWORD || "password",
   news,
   index: loadIndex(),
 });
-if (!process.env.CREATE_PASSWORD) console.warn("CREATE_PASSWORD is not set: anyone who finds /create can start a game");
+if (!process.env.CREATE_PASSWORD) console.warn('CREATE_PASSWORD is not set: /create and /single use the default password "password"');
 const port = Number(process.env.PORT ?? 3000);
 await app.listen({ port, host: "0.0.0.0" });
 console.log(`marketsim server on :${port}, ${market.ids().length} assets, ${news.length} news items, ${market.startMonth} to ${market.finalMonth}`);

@@ -13,7 +13,7 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   time. Every player in the game sees the same month.
 - **Starting cash.** Every player starts with 1,000 USD. This is fixed, not a game setting.
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
-  from anywhere and asks for a password when the server has `CREATE_PASSWORD` set.
+  from anywhere and asks for a password: `CREATE_PASSWORD` on the server, or `password` when that is not set.
 - **Ages.** The game is told in six ages (`shared/src/ages.ts`): The Cold War (to January 1990), The Peace
   Dividend (to July 1995), The New Economy (to December 2002), Safe as Houses (to March 2009), Free Money (to
   October 2022) and The Age of AI. When the clock enters a new age, players and the game master see a screen
@@ -24,7 +24,7 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   the dashed benchmark line on the leaderboard chart.
 - **Welcome screen.** On first entering a game a player sees what the game is, how a month works, and the three
   lessons it wants to teach, stated openly: diversify, stay in the market, know your history.
-- **Playing alone.** Anyone can start a single-player game from the start page (`POST /api/solo`): it is
+- **Playing alone.** A single-player game is started on `/single`, which is not linked from anywhere and asks for the same password as `/create` (`POST /api/solo`): it is
   created and joined in one step, nobody else can join, and the player's own token advances the clock
   with a button in the player view.
 - **Highscores.** `/highscores` ranks the portfolios of all games ever played. Values are compared at

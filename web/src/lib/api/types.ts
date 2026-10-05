@@ -7,7 +7,7 @@ import type {
   GameEvent,
   GameView,
   HoldingsView,
-  HighscoresView,
+  HighscoresView, AdminGamesView, AdminRequest,
   SoloRequest,
   SoloResponse,
   JoinRequest,
@@ -28,6 +28,8 @@ export interface Api {
   createGame(req: CreateGameRequest): Promise<CreateGameResponse>;
   solo(req: SoloRequest): Promise<SoloResponse>;
   highscores(board?: string): Promise<HighscoresView>;
+  adminGames(req: AdminRequest): Promise<AdminGamesView>;
+  adminDelete(code: string, req: AdminRequest): Promise<AdminGamesView>;
   getGame(code: string): Promise<GameView>;
   join(code: string, req: JoinRequest): Promise<JoinResponse>;
   /** The read routes are public in the contract; a token is sent along when we have one. */

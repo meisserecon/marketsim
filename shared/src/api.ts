@@ -13,6 +13,8 @@
  *   POST /api/games                         CreateGameRequest  -> CreateGameResponse
  *   POST /api/solo                          SoloRequest        -> SoloResponse (a game for one player who advances time himself)
  *   GET  /api/highscores?board=overall|<age id>                -> HighscoresView
+ *   POST /api/admin/games                   AdminRequest       -> AdminGamesView (every game, newest first)
+ *   POST /api/admin/games/:code/delete      AdminRequest       -> AdminGamesView (the game, its players and their highscores are gone)
  *   GET  /api/games/:code                                      -> GameView
  *   POST /api/games/:code/join              JoinRequest        -> JoinResponse
  *   GET  /api/games/:code/market                               -> MarketView
@@ -72,6 +74,12 @@ export interface HighscoresView {
   entries: { rank: number; name: string; game: string; solo: boolean; totalValue: number; gain: number; playedAt: string }[];
   /** What the stock market index gained over the same span. */
   market?: number;
+}
+
+/** The host's password, as for creating a game. */
+export interface AdminRequest { password?: string }
+export interface AdminGamesView {
+  games: { code: string; name: string; solo: boolean; status: GameStatus; startMonth: string; currentMonth: string; players: string[]; createdAt: string; lastPlayedAt: string }[];
 }
 
 /** `password` is required when the server has a create password configured. Starting cash is fixed (STARTING_CASH). */

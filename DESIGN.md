@@ -36,6 +36,8 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   the way, and each board also shows what the stock market gained. A game appears once it has moved past
   the board's last month. It reads the month-end snapshots, so it needs a database that persists
   (`DATABASE_URL` or `PGLITE_DIR`).
+- **Admin.** `/admin`, not linked from anywhere, lists every game on the server and deletes one with its
+  players and their highscores. It asks for `ADMIN_PASSWORD`, or the password of `/create` when that is not set.
 - **Seats and rejoining.** Joining returns a token that the browser keeps in localStorage, so
   reopening `/g/CODE` there returns to the same seat. There are no passwords. To come back from
   another device or after clearing site data, the address bar itself is the personal link: the

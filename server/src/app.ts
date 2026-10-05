@@ -10,7 +10,7 @@ import fastifyStatic from "@fastify/static";
 import {
   AGES, Market, STARTING_CASH, TradeError, profileAt, logoAt, advanceMonth, applyTrade, nameAt, portfolioValue,
   type ApiError, type AssetHistory, type AssetView, type CreateGameResponse, type GameEvent, type GameStatus, type GameView,
-  type AgeReview, type AgesView, type HoldingsView, type HighscoresView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
+  type AgeReview, type AgesView, type HoldingsView, type HighscoresView, AdminGamesView, type JoinResponse, type SoloResponse, type NewsItem, type NewsView, newsView, type LeaderboardView, type LedgerEntry, type MarketView, type Portfolio, type PortfolioView,
   type Trade, type TradeResponse,
 } from "@marketsim/shared";
 import type { Db, Queryable } from "./db.js";
@@ -53,6 +53,8 @@ export interface AppOptions {
   logger?: boolean;
   /** When set, starting a game (with a game master, or alone) requires this password. */
   createPassword?: string;
+  /** When set, the admin page (listing and deleting games) requires this password; defaults to `createPassword`. */
+  adminPassword?: string;
   /** News items, sorted by month. Default: none. */
   news?: NewsItem[];
   /** The stock market index, for the benchmark line and the age reviews. Default: none. */
@@ -318,6 +320,31 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       entries: rows.map((r, i) => ({ rank: i + 1, name: r.name, game: r.game, solo: !!r.solo, totalValue: Number(r.v1), gain: Number(r.v1) / Number(r.v0) - 1, playedAt: new Date(r.played).toISOString().slice(0, 10) })),
       ...(i0 && i1 ? { market: i1 / i0 - 1 } : {}),
     };
+  });
+
+  // --- the host's admin page: every game, and deleting one with everything that belongs to it
+  const adminPassword = opts.adminPassword ?? opts.createPassword;
+  async function adminGames(): Promise<AdminGamesView> {
+    const { rows } = await db.query<GameRow & { created_at: Date; advanced_at: Date | null; players: string[] | null }>(
+      `select g.*, (select array_agg(p.name order by p.name) from players p where p.game_id = g.id) as players
+       from games g order by g.created_at desc`);
+    return {
+      games: rows.map((g) => ({
+        code: g.code, name: g.name, solo: !!g.solo, status: g.status, startMonth: startOf(g), currentMonth: g.current_month, players: g.players ?? [],
+        createdAt: new Date(g.created_at).toISOString().slice(0, 10), lastPlayedAt: new Date(g.advanced_at ?? g.created_at).toISOString().slice(0, 10),
+      })),
+    };
+  }
+  app.post("/api/admin/games", async (req): Promise<AdminGamesView> => {
+    if (adminPassword) checkPassword((req.body as { password?: unknown } | undefined)?.password, adminPassword);
+    return adminGames();
+  });
+  app.post<{ Params: { code: string } }>("/api/admin/games/:code/delete", async (req): Promise<AdminGamesView> => {
+    if (adminPassword) checkPassword((req.body as { password?: unknown } | undefined)?.password, adminPassword);
+    // Players, holdings, ledger and snapshots go with the game (on delete cascade), and with the snapshots its highscores.
+    const { rows } = await db.query("delete from games where code = $1 returning id", [req.params.code.toUpperCase()]);
+    if (!rows.length) throw new HttpError(404, "not_found", "No such game");
+    return adminGames();
   });
 
   app.get<{ Params: { code: string } }>("/api/games/:code", async (req): Promise<GameView> => {

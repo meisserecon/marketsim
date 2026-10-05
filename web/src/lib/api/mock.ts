@@ -265,6 +265,8 @@ export function createMockApi(options: { bots?: boolean; latencyMs?: number } = 
     // The mock keeps no record across games, so solo play and highscores are only offered by the real server.
     solo: () => respond(() => fail(400, 'bad_request', 'Single-player games need the real server.')),
     highscores: (board) => respond(() => ({ board: board ?? 'overall', boards: [], entries: [] })),
+    adminGames: () => respond(() => fail(400, 'bad_request', 'The admin page needs the real server.')),
+    adminDelete: () => respond(() => fail(400, 'bad_request', 'The admin page needs the real server.')),
 
     getGame: (code) => respond(() => gameView(findGame(load(), code))),
 

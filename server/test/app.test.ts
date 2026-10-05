@@ -1,7 +1,7 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import type { FastifyInstance } from "fastify";
-import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView, type SoloResponse, type HighscoresView, type AgesView } from "@marketsim/shared";
+import { Market, type AssetSeries, type GameView, type MarketView, type PortfolioView, type AssetHistory, type LeaderboardView, type HoldingsView, type NewsView, type SoloResponse, type HighscoresView, AdminGamesView, type AgesView } from "@marketsim/shared";
 import { buildApp } from "../src/app.js";
 import { migrate, openEmbedded, type Db } from "../src/db.js";
 import { loadIndex, loadMarket } from "../src/market.js";
@@ -225,6 +225,20 @@ test("a full round: create, join, trade, advance, income, leaderboard, no lookah
   assert.ok(bob);
 });
 
+test("the admin page lists every game and deletes one with its highscores", async () => {
+  const solo = await call<SoloResponse>(app, "POST", "/api/solo", { name: "Gone", startAge: "age-of-ai" });
+  assert.equal(solo.status, 201);
+  const code = solo.body.game.code;
+  const list = (await call<AdminGamesView>(app, "POST", "/api/admin/games", {})).body;
+  const mine = list.games.find((g) => g.code === code)!;
+  assert.ok(mine && mine.solo && mine.players.join() === "Gone" && mine.startMonth === "2022-11");
+  const after = await call<AdminGamesView>(app, "POST", `/api/admin/games/${code}/delete`, {});
+  assert.equal(after.status, 200);
+  assert.ok(!after.body.games.some((g) => g.code === code));
+  assert.equal((await call(app, "GET", `/api/games/${code}`)).status, 404);
+  assert.equal((await call(app, "POST", `/api/admin/games/${code}/delete`, {})).status, 404);
+});
+
 test("creating a game needs the password when one is configured", async () => {
   const locked = await buildApp(db, loadMarket(), { createPassword: "s3cret" });
   try {
@@ -233,6 +247,8 @@ test("creating a game needs the password when one is configured", async () => {
     assert.equal((await call(locked, "POST", "/api/games", { name: "x", password: "s3cret" })).status, 201);
     assert.equal((await call(locked, "POST", "/api/solo", { name: "Dana" })).body.error, "unauthorized");
     assert.equal((await call(locked, "POST", "/api/solo", { name: "Dana", password: "s3cret" })).status, 201);
+    assert.equal((await call(locked, "POST", "/api/admin/games", {})).body.error, "unauthorized");
+    assert.equal((await call(locked, "POST", "/api/admin/games", { password: "s3cret" })).status, 200);
   } finally {
     await locked.close();
   }

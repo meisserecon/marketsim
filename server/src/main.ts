@@ -17,6 +17,7 @@ const app = await buildApp(db, market, {
   staticDir: process.env.STATIC_DIR ?? path.resolve(here, "..", "..", "web", "build"),
   logger: process.env.LOG === "1",
   createPassword: process.env.CREATE_PASSWORD || "password",
+  adminPassword: process.env.ADMIN_PASSWORD || process.env.CREATE_PASSWORD || "password",
   news,
   index: loadIndex(),
 });

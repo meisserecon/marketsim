@@ -44,6 +44,8 @@ export const httpApi: Api = {
   createGame: (req) => request('POST', '/games', { body: req }),
   solo: (req) => request('POST', '/solo', { body: req }),
   highscores: (board) => request('GET', `/highscores${board ? `?board=${board}` : ''}`),
+  adminGames: (req) => request('POST', '/admin/games', { body: req }),
+  adminDelete: (code, req) => request('POST', `/admin/games/${code}/delete`, { body: req }),
   getGame: (code) => request('GET', game(code)),
   join: (code, req) => request('POST', `${game(code)}/join`, { body: req }),
   market: (code, token) => request('GET', `${game(code)}/market`, { token }),

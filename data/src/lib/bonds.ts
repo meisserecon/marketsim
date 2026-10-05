@@ -10,6 +10,13 @@
  * Treasuries appeared from 1982, the official STRIPS programme in 1985). The prices are what
  * such a bond would have cost given the yield curve of the day.
  *
+ * One exception: until mid-1981 the curve is fitted to maturities of up to 15 years only, and the
+ * 20-year bond of the opening set (US Treasury 2000) lies beyond it. From October 1980 the
+ * extrapolation agrees with the observed 20-year Treasury yield, but from December 1979 to
+ * September 1980 it does not (in June 1980 the fit sits at its bounds and prices the bond 18%
+ * down in a month in which long yields fell). For those ten months the bond is priced with the
+ * 20-year constant-maturity Treasury yield instead (FRED DGS20, last observation of the month).
+ *
  * Three bonds are available at any time: one maturing within 5 years, one within 10 and one
  * within 20. Maturities fall every five years. When a bond matures, the longest maturity that
  * restores that rule is listed: 1985/1990/2000 at the start, then 1995 joins in 1985, 2010 in
@@ -70,8 +77,11 @@ export function bondSchedule(gameStart: string, lastMonth: string, historyFrom: 
 
 export interface BondRow { month: string; price: number; income: number; extra: { yield: number; years: number } }
 
-/** Monthly prices of one bond from month-end curve observations (map month -> curve point). */
-export function buildZeroBondRows(def: BondDef, curve: Map<string, CurvePoint>, months: string[]): BondRow[] {
+/**
+ * Monthly prices of one bond from month-end curve observations (map month -> curve point).
+ * `observed` replaces the curve in the months it names: month -> yield in percent, continuously compounded.
+ */
+export function buildZeroBondRows(def: BondDef, curve: Map<string, CurvePoint>, months: string[], observed?: Map<string, number>): BondRow[] {
   const rows: BondRow[] = [];
   for (const month of months) {
     if (month < def.from || month > def.until) continue;
@@ -79,7 +89,7 @@ export function buildZeroBondRows(def: BondDef, curve: Map<string, CurvePoint>, 
     if (!c) throw new Error(`no yield curve for ${month}`);
     const years = Math.max(0, yearsToMaturity(c.date, def.maturityYear));
     const last = month === def.until;
-    const y = zeroYield(c, years) / 100;
+    const y = (observed?.get(month) ?? zeroYield(c, years)) / 100;
     // In its final month the bond is worth its repayment; a day or two of discounting is noise.
     const price = last ? 100 : 100 * Math.exp(-y * years);
     // Shown to players as the yearly return from holding to maturity (annual compounding).

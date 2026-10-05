@@ -50,6 +50,14 @@ const curve = new Map<string, CurvePoint>(
 );
 const curveMonths = [...curve.keys()].sort();
 const endMonth = curveMonths[curveMonths.length - 1];
+// The 2000 bond from December 1979 to September 1980: the observed 20-year Treasury yield instead of the curve, see lib/bonds.ts.
+// DGS20 is a bond-equivalent yield (compounded twice a year); the bonds are priced with continuous compounding.
+const observed2000 = new Map<string, number>();
+for (const r of readCsv(path.join(RAW_DIR, "fred", "DGS20.csv"))) {
+  const [date, value] = Object.values(r) as string[];
+  const month = date.slice(0, 7);
+  if (month >= "1979-12" && month <= "1980-09" && value && value !== ".") observed2000.set(month, 200 * Math.log(1 + Number(value) / 200));
+}
 for (const def of bondSchedule(GAME_START_MONTH, endMonth, START_MONTH)) {
   const matured = def.until <= endMonth;
   write({
@@ -63,7 +71,7 @@ for (const def of bondSchedule(GAME_START_MONTH, endMonth, START_MONTH)) {
     maturity: `${def.maturityYear}-01-01`,
     ...profileFields(bondProfile(def.maturityYear)),
     ...(matured ? { end: { month: def.until, type: "maturity" as const, note: `Matured on 1 January ${def.maturityYear} and repaid 100 per unit` } } : {}),
-    rows: buildZeroBondRows(def, curve, monthRange(START_MONTH, endMonth)),
+    rows: buildZeroBondRows(def, curve, monthRange(START_MONTH, endMonth), def.maturityYear === 2000 ? observed2000 : undefined),
   });
 }
 

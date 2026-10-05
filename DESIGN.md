@@ -54,7 +54,10 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
   offer at any time, one maturing within 5 years, one within 10 and one within 20, with
   maturities every five years: 1985, 1990 and 2000 at the start; when a bond is repaid, the
   longest maturity that restores the rule is listed (1995 in 1985, 2010 in 1990, 2005 in 1995,
-  and so on). A bond that has not matured when the game ends is valued at its last price. Such
+  and so on). A bond that has not matured when the game ends is valued at its last price.
+  (One exception: from December 1979 to September 1980 the 2000 bond is priced with the observed
+  20-year Treasury yield, FRED DGS20, because the fitted curve does not reach that far yet and
+  its extrapolation is wrong in those months; see `data/src/lib/bonds.ts`.) Such
   bonds were not sold to the public in 1980; the prices are what they would have cost given
   the yield curve of the day.
 - **Income is paid out, never reinvested.** Stock dividends are credited to cash in the month

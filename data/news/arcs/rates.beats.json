@@ -37,7 +37,7 @@
     "id": "9cc82a5f",
     "month": "1980-06",
     "title": "The Fed's rate tumbles from 17.6 to 9.5 percent; bonds and gold bounce back",
-    "what": "Interest rates are falling as fast as they rose. The Fed's interest rate, the rate at which banks lend to each other, averaged under 9.5 percent in June against 17.6 percent in April, because the economy is in recession. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000 has gained 19 percent since the end of March. It is still 23 percent below where it started the year, after the collapse of the first quarter. Gold rebounded and averaged 601 dollars, 17 percent more than in May. The numbers: the Fed's rate 9.5 percent. Inflation 14.4 percent. Unemployment 7.5 percent.",
+    "what": "Interest rates are falling as fast as they rose. The Fed's interest rate, the rate at which banks lend to each other, averaged under 9.5 percent in June against 17.6 percent in April, because the economy is in recession. When rates fall, existing bonds become more valuable, because they still promise the old, higher return: the US Treasury 2000, which lost a third of its value in the first three months of the year, has gained almost 60 percent since the end of March, 8 percent of it in June, and is worth more again than at New Year. Gold rebounded and averaged 601 dollars, 17 percent more than in May. The numbers: the Fed's rate 9.5 percent. Inflation 14.4 percent. Unemployment 7.5 percent.",
     "why": "Volcker's first squeeze ends in retreat: the Fed lets rates drop with the recession, and gold and long bond yields start rising again over the summer. Inflation was not yet beaten, which is why the second squeeze in the autumn had to be harder. The Treasury 2000 is down 23% since December 1979 (13.09 to 10.11), so the year-to-date figure the curator asked for is negative; the beat gives it together with the rebound since March. [Curator note applied 2026-10-04: \"You should make a connection to how falling rates sends the price of bonds upwards. The article should mention the 2000 vintage bond price return ytd from the game.\"]",
     "assets": [
       "gold",
@@ -49,7 +49,8 @@
     },
     "source": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm (read 2026-10-03); https://fred.stlouisfed.org/series/FEDFUNDS (read 2026-10-03); https://fred.stlouisfed.org/series/INTDSRUSM193N (read 2026-10-03); data/out/gold.json (read 2026-10-03); bond price changes from data/out/ust2000.json",
     "lead": true,
-    "thread": "rates"
+    "thread": "rates",
+    "changed": "bond data corrected: the US Treasury 2000 now rises in June 1980, as long-term rates fell; the figures in the text follow the new prices"
   },
   {
     "id": "67433d77",

@@ -17,6 +17,7 @@ const FRED_SERIES = [
   "DEXUSEU", // USD per EUR, daily, from 1999
   "EXGEUS", // DEM per USD, monthly average, 1971-2001; used for EUR before 1999 via the fixed 1.95583 DEM/EUR rate
   "FEDFUNDS", "CPIAUCSL", "UNRATE", // the Fed's interest rate (monthly average), consumer prices and unemployment, monthly: for the charts of the interest-rate stories
+  "DGS20", // 20-year Treasury yield, daily: prices the 2000 bond in 1979-80, where the fitted curve does not reach (see lib/bonds.ts)
   "DFEDTAR", "DFEDTARL", "DFEDTARU", "CPIAUCNS", // the Fed's target (a single rate to 2008, a range since) and the headline consumer price index: the numbers quoted in the stories
 ];
 const GOLD_URL = "https://datahub.io/core/gold-prices/r/monthly.csv"; // LBMA monthly average, USD/oz

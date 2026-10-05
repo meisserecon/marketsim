@@ -268,7 +268,7 @@
     {/if}
   </main>
   {#if ageOpen}
-    {@const ended = previousAge(age)}
+    {@const ended = (game.startMonth ?? '') < age.from ? previousAge(age) : undefined}
     <AgeScreen {age} {ended} review={ages?.ended.find((r) => r.id === ended?.id)} {board} big onclose={() => (ageOpen = false)} />
   {/if}
 {/if}

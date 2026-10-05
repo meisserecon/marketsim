@@ -485,11 +485,11 @@
   </main>
 
   {#if showWelcome && !finished}
-    <Welcome playerName={portfolio.name} startMonth={GAME_START_MONTH} finalMonth={game.finalMonth} {solo} onclose={closeWelcome} />
+    <Welcome playerName={portfolio.name} startMonth={game.startMonth ?? GAME_START_MONTH} finalMonth={game.finalMonth} {solo} onclose={closeWelcome} />
   {/if}
 
   {#if ageOpen && !showWelcome}
-    {@const ended = previousAge(age)}
+    {@const ended = (game.startMonth ?? GAME_START_MONTH) < age.from ? previousAge(age) : undefined}
     <AgeScreen {age} {ended} review={ages?.ended.find((r) => r.id === ended?.id)} board={board} meId={portfolio.playerId} onclose={closeAge} />
   {/if}
 

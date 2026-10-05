@@ -3,10 +3,13 @@
   import { goto } from '$app/navigation';
   import { api } from '$lib/api';
   import { setToken } from '$lib/api/tokens';
-  import { errorMessage } from '$lib/format';
+  import { errorMessage, monthName } from '$lib/format';
+  import { AGES } from '@marketsim/shared';
 
   let name = $state('');
   let password = $state('');
+  /** The age the game begins with; empty for the first, i.e. the whole game. */
+  let startAge = $state('');
   let starting = $state(false);
   let error = $state('');
 
@@ -17,7 +20,7 @@
     if (!name.trim()) return void (error = 'Enter your name.');
     starting = true;
     try {
-      const res = await api.solo({ name: name.trim(), ...(password ? { password } : {}) });
+      const res = await api.solo({ name: name.trim(), ...(password ? { password } : {}), ...(startAge ? { startAge } : {}) });
       setToken('player', res.game.code, res.playerToken);
       await goto(`/g/${res.game.code}`);
     } catch (err) {
@@ -37,6 +40,12 @@
     <label class="field">
       <span>Your name</span>
       <input class="input" bind:value={name} autocomplete="nickname" placeholder="Shown in the highscores" maxlength="30" />
+    </label>
+    <label class="field">
+      <span>Start with</span>
+      <select class="input" bind:value={startAge}>
+        {#each AGES as a, i (a.id)}<option value={i === 0 ? '' : a.id}>{a.name} ({monthName(a.from)}){i === 0 ? ': the whole game' : ''}</option>{/each}
+      </select>
     </label>
     <label class="field">
       <span>Password</span>

@@ -64,4 +64,5 @@ export async function migrate(db: Db): Promise<void> {
   // Columns added after the first release; harmless on a fresh schema.
   await db.exec("alter table holdings add column if not exists cost numeric(20, 6) not null default 0");
   await db.exec("alter table games add column if not exists solo boolean not null default false");
+  await db.exec("alter table games add column if not exists start_month text");
 }

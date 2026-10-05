@@ -3,11 +3,13 @@
   import { goto } from '$app/navigation';
   import { api } from '$lib/api';
   import { setToken } from '$lib/api/tokens';
-  import { errorMessage, usd } from '$lib/format';
-  import { STARTING_CASH } from '@marketsim/shared';
+  import { errorMessage, monthName, usd } from '$lib/format';
+  import { AGES, STARTING_CASH } from '@marketsim/shared';
 
   let gameName = $state('');
   let password = $state('');
+  /** The age the game begins with; empty for the first, i.e. the whole game. */
+  let startAge = $state('');
   let creating = $state(false);
   let createError = $state('');
 
@@ -18,7 +20,7 @@
     if (!gameName.trim()) return void (createError = 'Give the game a name.');
     creating = true;
     try {
-      const res = await api.createGame({ name: gameName.trim(), ...(password ? { password } : {}) });
+      const res = await api.createGame({ name: gameName.trim(), ...(password ? { password } : {}), ...(startAge ? { startAge } : {}) });
       setToken('gm', res.game.code, res.gameMasterToken);
       await goto(`/g/${res.game.code}/gm`);
     } catch (err) {
@@ -38,6 +40,12 @@
     <label class="field">
       <span>Game name</span>
       <input class="input" bind:value={gameName} placeholder="e.g. Family game, autumn 2026" maxlength="60" />
+    </label>
+    <label class="field">
+      <span>Start with</span>
+      <select class="input" bind:value={startAge}>
+        {#each AGES as a, i (a.id)}<option value={i === 0 ? '' : a.id}>{a.name} ({monthName(a.from)}){i === 0 ? ': the whole game' : ''}</option>{/each}
+      </select>
     </label>
     <label class="field">
       <span>Password</span>

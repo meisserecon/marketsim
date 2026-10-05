@@ -27,7 +27,7 @@ class HttpError extends Error {
 
 interface GameRow {
   id: string; code: string; name: string; status: GameStatus; current_month: string; final_month: string;
-  starting_cash: string; gm_token_hash: string; solo: boolean;
+  starting_cash: string; gm_token_hash: string; solo: boolean; start_month: string | null;
 }
 interface PlayerRow { id: string; game_id: string; name: string; cash: string }
 
@@ -65,12 +65,25 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   const news = opts.news ?? [];
   const indexAt = new Map((opts.index?.rows ?? []).map((r) => [r.month, r.price]));
 
+  /** Where a game began: games from before ages could be chosen began in the first month. */
+  const startOf = (g: { start_month: string | null }) => g.start_month ?? market.startMonth;
+
+  /** The month a new game begins in: the first month of the chosen age (default: the first age). */
+  function startMonthFor(ageId: unknown): string {
+    if (ageId === undefined || ageId === null || ageId === "") return market.startMonth;
+    const age = AGES.find((a) => a.id === ageId);
+    if (!age) throw new HttpError(400, "bad_request", "Unknown age");
+    const month = age.from < market.startMonth ? market.startMonth : age.from;
+    if (month >= market.finalMonth) throw new HttpError(400, "bad_request", "That age has not begun in the data");
+    return month;
+  }
+
   /** The starting cash following the index from the game's first month, never past `month`. */
-  function benchmark(startingCash: number, month: string) {
-    const base = indexAt.get(market.startMonth);
+  function benchmark(startingCash: number, month: string, start: string) {
+    const base = indexAt.get(start);
     if (!opts.index || !base) return undefined;
     const history: { month: string; totalValue: number }[] = [];
-    for (let m = market.startMonth; m <= month; m = addMonths(m, 1)) {
+    for (let m = start; m <= month; m = addMonths(m, 1)) {
       const p = indexAt.get(m);
       if (p !== undefined) history.push({ month: m, totalValue: (startingCash * p) / base });
     }
@@ -127,6 +140,7 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       code: g.code, name: g.name, status: g.status, currentMonth: g.current_month, finalMonth: g.final_month,
       startingCash: Number(g.starting_cash), playerCount: Number(rows[0].n),
       ...(g.solo ? { solo: true } : {}),
+      startMonth: startOf(g),
     };
   }
 
@@ -228,7 +242,8 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
   // --- routes ----------------------------------------------------------------
 
   app.post("/api/games", async (req, reply): Promise<CreateGameResponse> => {
-    const body = (req.body ?? {}) as { name?: unknown; password?: unknown };
+    const body = (req.body ?? {}) as { name?: unknown; password?: unknown; startAge?: unknown };
+    const start = startMonthFor(body.startAge);
     if (opts.createPassword) {
       checkPassword(body.password, opts.createPassword);
     }
@@ -240,9 +255,9 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       const taken = await db.query("select 1 from games where code = $1", [code]);
       if (taken.rows.length) { if (attempt > 20) throw new Error("could not allocate a game code"); continue; }
       const { rows } = await db.query<GameRow>(
-        `insert into games (code, name, current_month, final_month, starting_cash, gm_token_hash)
-         values ($1, $2, $3, $4, $5, $6) returning *`,
-        [code, name, market.startMonth, market.finalMonth, STARTING_CASH, hash(token)],
+        `insert into games (code, name, current_month, start_month, final_month, starting_cash, gm_token_hash)
+         values ($1, $2, $3, $3, $4, $5, $6) returning *`,
+        [code, name, start, market.finalMonth, STARTING_CASH, hash(token)],
       );
       reply.code(201);
       return { game: await gameView(db, rows[0]), gameMasterToken: token };
@@ -251,7 +266,8 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
 
   /** A game for one: created and joined in one step, and the player's token also advances the clock. Needs the same password as creating a game. */
   app.post("/api/solo", async (req, reply): Promise<SoloResponse> => {
-    const body = (req.body ?? {}) as { name?: unknown; password?: unknown };
+    const body = (req.body ?? {}) as { name?: unknown; password?: unknown; startAge?: unknown };
+    const start = startMonthFor(body.startAge);
     if (opts.createPassword) checkPassword(body.password, opts.createPassword);
     const name = typeof body.name === "string" ? body.name.trim() : "";
     if (!name || name.length > 30) throw new HttpError(400, "bad_request", "A player needs a name of at most 30 characters");
@@ -263,9 +279,9 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
         code = newCode();
       }
       const { rows: games } = await q.query<GameRow>(
-        `insert into games (code, name, current_month, final_month, starting_cash, gm_token_hash, solo)
-         values ($1, $2, $3, $4, $5, $6, true) returning *`,
-        [code, `${name}'s game`, market.startMonth, market.finalMonth, STARTING_CASH, hash(token)],
+        `insert into games (code, name, current_month, start_month, final_month, starting_cash, gm_token_hash, solo)
+         values ($1, $2, $3, $3, $4, $5, $6, true) returning *`,
+        [code, `${name}'s game`, start, market.finalMonth, STARTING_CASH, hash(token)],
       );
       const g = games[0];
       const { rows } = await q.query<PlayerRow>(
@@ -277,23 +293,30 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
     return { game: result.game, playerId: result.player.id, playerToken: token };
   });
 
-  const MILESTONES = ["1984-12", "1989-12", "1994-12", "1999-12", "2004-12", "2009-12", "2014-12", "2019-12", "2024-12"];
-  app.get<{ Querystring: { at?: string } }>("/api/highscores", async (req): Promise<HighscoresView> => {
-    const milestones = [...MILESTONES.filter((m) => m < market.finalMonth), "final"];
-    const at = req.query.at && milestones.includes(req.query.at) ? req.query.at : "final";
-    // Values are compared at one month, so everybody had the same markets. "final": finished games at their last month.
-    const { rows } = at === "final"
-      ? await db.query<{ name: string; game: string; solo: boolean; total_value: string; played: Date }>(
-          `select p.name, g.name as game, g.solo, s.total_value, coalesce(g.advanced_at, g.created_at) as played
-           from games g join players p on p.game_id = g.id join snapshots s on s.player_id = p.id and s.month = g.current_month
-           where g.status = 'finished' order by s.total_value desc, p.name limit 50`)
-      : await db.query<{ name: string; game: string; solo: boolean; total_value: string; played: Date }>(
-          `select p.name, g.name as game, g.solo, s.total_value, coalesce(g.advanced_at, g.created_at) as played
-           from games g join players p on p.game_id = g.id join snapshots s on s.player_id = p.id and s.month = $1
-           where g.current_month > $1 or g.status = 'finished' order by s.total_value desc, p.name limit 50`, [at]);
+  app.get<{ Querystring: { board?: string } }>("/api/highscores", async (req): Promise<HighscoresView> => {
+    const first = market.startMonth;
+    const boards = [
+      { id: "overall", name: "The whole game", from: first, to: market.finalMonth },
+      // an age counts once the data covers it; the last one runs to the last month of the data
+      ...AGES.filter((a) => a.from < market.finalMonth).map((a) => ({ id: a.id, name: a.name, from: a.from < first ? first : a.from, to: a.to && a.to < market.finalMonth ? a.to : market.finalMonth })),
+    ];
+    const board = boards.find((b) => b.id === req.query.board) ?? boards[0];
+    // Everybody is compared over the same months: the value at the end against the value at the start of the span.
+    // A game counts once it has moved past the end month, or is finished; "overall" needs a game that began in the first month.
+    const { rows } = await db.query<{ name: string; game: string; solo: boolean; v0: string; v1: string; played: Date }>(
+      `select p.name, g.name as game, g.solo, s0.total_value as v0, s1.total_value as v1, coalesce(g.advanced_at, g.created_at) as played
+       from games g join players p on p.game_id = g.id
+         join snapshots s0 on s0.player_id = p.id and s0.month = $1
+         join snapshots s1 on s1.player_id = p.id and s1.month = $2
+       where (g.current_month > $2 or g.status = 'finished') and coalesce(g.start_month, $3) <= $1 and s0.total_value > 0
+         and ($4 = false or coalesce(g.start_month, $3) = $3)
+       order by ${board.id === "overall" ? "s1.total_value" : "s1.total_value / s0.total_value"} desc, p.name limit 50`,
+      [board.from, board.to, first, board.id === "overall"]);
+    const i0 = indexAt.get(board.from), i1 = indexAt.get(board.to);
     return {
-      at, milestones,
-      entries: rows.map((r, i) => ({ rank: i + 1, name: r.name, game: r.game, solo: !!r.solo, totalValue: Number(r.total_value), playedAt: new Date(r.played).toISOString().slice(0, 10) })),
+      board: board.id, boards,
+      entries: rows.map((r, i) => ({ rank: i + 1, name: r.name, game: r.game, solo: !!r.solo, totalValue: Number(r.v1), gain: Number(r.v1) / Number(r.v0) - 1, playedAt: new Date(r.played).toISOString().slice(0, 10) })),
+      ...(i0 && i1 ? { market: i1 / i0 - 1 } : {}),
     };
   });
 
@@ -393,14 +416,15 @@ export async function buildApp(db: Db, market: Market, opts: AppOptions = {}): P
       if (v.totalValue !== last) { rank = i + 1; last = v.totalValue; }
       return { ...v, rank };
     });
-    const bench = benchmark(Number(g.starting_cash), g.current_month);
+    const bench = benchmark(Number(g.starting_cash), g.current_month, startOf(g));
     return { month: g.current_month, players: ranked, ...(bench ? { benchmark: bench } : {}) };
   });
 
   app.get<{ Params: { code: string } }>("/api/games/:code/ages", async (req): Promise<AgesView> => {
     const g = await gameByCode(db, req.params.code);
     // Only ages that are over: the current one is still a secret.
-    return { ended: AGES.filter((a) => a.to && a.to < g.current_month).map(ageReview) };
+    // And only ages the game has lived through: one that starts with a later age has nothing to look back on.
+    return { ended: AGES.filter((a) => a.to && a.to < g.current_month && a.to >= startOf(g)).map(ageReview) };
   });
 
   app.get<{ Params: { code: string }; Querystring: { month?: string } }>("/api/games/:code/news", async (req): Promise<NewsView> => {

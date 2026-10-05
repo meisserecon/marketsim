@@ -12,7 +12,7 @@
  *
  *   POST /api/games                         CreateGameRequest  -> CreateGameResponse
  *   POST /api/solo                          SoloRequest        -> SoloResponse (a game for one player who advances time himself)
- *   GET  /api/highscores?at=YYYY-MM|final                      -> HighscoresView
+ *   GET  /api/highscores?board=overall|<age id>                -> HighscoresView
  *   GET  /api/games/:code                                      -> GameView
  *   POST /api/games/:code/join              JoinRequest        -> JoinResponse
  *   GET  /api/games/:code/market                               -> MarketView
@@ -45,9 +45,12 @@ export interface GameView {
   playerCount: number;
   /** A single-player game: its one player also advances the clock, with the player token. */
   solo?: boolean;
+  /** The month the game began in: the start of the first age, or of a later age chosen when it was created. */
+  startMonth?: string;
 }
 
-export interface SoloRequest { name: string; password?: string }
+/** `startAge`: the id of the age the game begins with (default: the first). */
+export interface SoloRequest { name: string; password?: string; startAge?: string }
 /** The one token is both the player's and the game master's. */
 export interface SoloResponse { game: GameView; playerId: string; playerToken: string }
 
@@ -56,15 +59,23 @@ export interface SoloResponse { game: GameView; playerId: string; playerToken: s
  * comparison is fair: everybody had the same markets up to then. `at` is a milestone month or
  * "final" (finished games, at their last month).
  */
+/**
+ * Highscores across all games. "overall": the portfolio value at the end of games played the whole
+ * distance from the first age. An age: the gain during that age, from its first month to its last,
+ * of everybody who played it through, whichever age their game started with.
+ */
 export interface HighscoresView {
-  at: string;
-  /** Milestones on offer, oldest first, ending with "final". */
-  milestones: string[];
-  entries: { rank: number; name: string; game: string; solo: boolean; totalValue: number; playedAt: string }[];
+  board: string;
+  /** The boards on offer: "overall", then the ages in order. */
+  boards: { id: string; name: string; from: string; to: string }[];
+  /** `gain` is a fraction (0.25 = +25%) over the board's span; `totalValue` the value at its end. */
+  entries: { rank: number; name: string; game: string; solo: boolean; totalValue: number; gain: number; playedAt: string }[];
+  /** What the stock market index gained over the same span. */
+  market?: number;
 }
 
 /** `password` is required when the server has a create password configured. Starting cash is fixed (STARTING_CASH). */
-export interface CreateGameRequest { name: string; password?: string }
+export interface CreateGameRequest { name: string; password?: string; startAge?: string }
 export interface CreateGameResponse { game: GameView; gameMasterToken: string }
 
 export interface JoinRequest { name: string }

@@ -92,7 +92,7 @@
     {/if}
 
     <section class="next">
-      <p class="eyebrow">{ended ? 'A new age begins' : 'The first age'} · {monthName(age.from)}</p>
+      <p class="eyebrow">{ended ? 'A new age begins' : 'The game begins'} · {monthName(age.from)}</p>
       <h1 id="age-title">{age.name}</h1>
       <p class="motto">{age.motto}</p>
       <p class="text">{age.intro}</p>

@@ -29,7 +29,7 @@ async function call<T = any>(a: FastifyInstance, method: "GET" | "POST", url: st
   return { status: res.statusCode, body: (res.body ? res.json() : undefined) as T };
 }
 
-test("a solo game: one token plays and advances; highscores compare at a milestone", async () => {
+test("a solo game: one token plays and advances; no highscore before an age is complete", async () => {
   const solo = await call<SoloResponse>(app, "POST", "/api/solo", { name: "Dana" });
   assert.equal(solo.status, 201);
   const { game, playerToken } = solo.body;
@@ -49,15 +49,43 @@ test("a solo game: one token plays and advances; highscores compare at a milesto
   assert.equal(lbSolo.benchmark!.history.at(-1)!.month, "1985-01");
   // no age has ended by January 1985, so none is reviewed
   assert.deepEqual((await call<AgesView>(app, "GET", `/api/games/${game.code}/ages`)).body.ended, []);
-  // past December 1984, so the 1984 milestone lists Dana with her value at that month
-  const hs = (await call<HighscoresView>(app, "GET", "/api/highscores?at=1984-12")).body;
-  assert.equal(hs.at, "1984-12");
-  assert.ok(hs.milestones.includes("final") && hs.milestones[0] === "1984-12");
-  const dana = hs.entries.find((e) => e.name === "Dana")!;
-  assert.ok(dana && dana.solo && dana.totalValue === me.history.find((h) => h.month === "1984-12")!.totalValue);
-  // not yet at 1989, and not finished
-  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores?at=1989-12")).body.entries.some((e) => e.name === "Dana"));
-  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores")).body.entries.some((e) => e.name === "Dana"));
+  // January 1985 is in the middle of the first age: Dana is on no board yet
+  const hs = (await call<HighscoresView>(app, "GET", "/api/highscores")).body;
+  assert.equal(hs.board, "overall");
+  assert.deepEqual(hs.boards.slice(0, 3).map((b) => b.id), ["overall", "cold-war", "peace-dividend"]);
+  assert.ok(!hs.entries.some((e) => e.name === "Dana"));
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores?board=cold-war")).body.entries.some((e) => e.name === "Dana"));
+});
+
+test("a game can begin with a later age and is ranked on that age's board by its gain", async () => {
+  const solo = await call<SoloResponse>(app, "POST", "/api/solo", { name: "Ines", startAge: "peace-dividend" });
+  assert.equal(solo.status, 201);
+  const { game, playerToken } = solo.body;
+  assert.equal(game.startMonth, "1990-02");
+  assert.equal(game.currentMonth, "1990-02");
+  assert.equal((await call(app, "POST", "/api/solo", { name: "Nobody", startAge: "stone-age" })).status, 400);
+  assert.equal((await call(app, "POST", `/api/games/${game.code}/trades`, { assetId: "ko", side: "buy", amount: { usd: 600 } }, playerToken)).status, 200);
+  // through the whole age: it ends in July 1995, so one step further
+  for (let i = 0; i < 66; i++) assert.equal((await call(app, "POST", `/api/games/${game.code}/advance`, undefined, playerToken)).status, 200);
+  const me = (await call<PortfolioView>(app, "GET", `/api/games/${game.code}/me`, undefined, playerToken)).body;
+  assert.equal(me.month, "1995-08");
+  // the benchmark starts where the game started, and only the age that was played is looked back on
+  const lb = (await call<LeaderboardView>(app, "GET", `/api/games/${game.code}/leaderboard`)).body;
+  assert.equal(lb.benchmark!.history[0].month, "1990-02");
+  assert.equal(lb.benchmark!.history[0].totalValue, 1_000);
+  assert.deepEqual((await call<AgesView>(app, "GET", `/api/games/${game.code}/ages`)).body.ended.map((a) => a.id), ["peace-dividend"]);
+  // on the board of her age with the gain from its first to its last month; on no other board
+  const board = (await call<HighscoresView>(app, "GET", "/api/highscores?board=peace-dividend")).body;
+  const ines = board.entries.find((e) => e.name === "Ines")!;
+  const atEnd = me.history.find((h) => h.month === "1995-07")!.totalValue;
+  assert.ok(ines && ines.solo && ines.totalValue === atEnd);
+  assert.ok(Math.abs(ines.gain - (atEnd / 1_000 - 1)) < 1e-9);
+  assert.ok(board.market !== undefined && board.market > 0);
+  assert.equal(board.boards.find((b) => b.id === "peace-dividend")!.from, "1990-02");
+  assert.equal(board.boards.find((b) => b.id === "peace-dividend")!.to, "1995-07");
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores?board=cold-war")).body.entries.some((e) => e.name === "Ines"));
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores?board=new-economy")).body.entries.some((e) => e.name === "Ines"));
+  assert.ok(!(await call<HighscoresView>(app, "GET", "/api/highscores")).body.entries.some((e) => e.name === "Ines"));
 });
 
 test("a full round: create, join, trade, advance, income, leaderboard, no lookahead", async () => {

@@ -27,10 +27,15 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Playing alone.** A single-player game is started on `/single`, which is not linked from anywhere and asks for the same password as `/create` (`POST /api/solo`): it is
   created and joined in one step, nobody else can join, and the player's own token advances the clock
   with a button in the player view.
-- **Highscores.** `/highscores` ranks the portfolios of all games ever played. Values are compared at
-  one month, so that everybody had the same markets: the end of 1984, 1989, ... 2024 for every game that
-  has passed that month, and "finished" for games played to the last month. It reads the month-end
-  snapshots, so it needs a database that persists (`DATABASE_URL` or `PGLITE_DIR`).
+- **Starting with a later age.** A game normally begins in December 1979. On `/create` and `/single` it can
+  instead begin with any later age: it then starts in that age's first month, with the same starting cash.
+- **Highscores.** `/highscores` has one board for the whole game and one for each age. "Overall" ranks the
+  portfolio value at the end of games played the whole distance from the first month. An age's board ranks
+  the gain during that age, the value in its last month against the value in its first, of everybody who
+  played it through; so a game that begins with a later age competes on equal terms with one that came all
+  the way, and each board also shows what the stock market gained. A game appears once it has moved past
+  the board's last month. It reads the month-end snapshots, so it needs a database that persists
+  (`DATABASE_URL` or `PGLITE_DIR`).
 - **Seats and rejoining.** Joining returns a token that the browser keeps in localStorage, so
   reopening `/g/CODE` there returns to the same seat. There are no passwords. To come back from
   another device or after clearing site data, the address bar itself is the personal link: the

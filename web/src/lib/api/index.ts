@@ -22,7 +22,7 @@ export function getApi(): Promise<Api> {
 export const api: Api = {
   createGame: async (req) => (await getApi()).createGame(req),
   solo: async (req) => (await getApi()).solo(req),
-  highscores: async (at) => (await getApi()).highscores(at),
+  highscores: async (board) => (await getApi()).highscores(board),
   getGame: async (code) => (await getApi()).getGame(code),
   join: async (code, req) => (await getApi()).join(code, req),
   market: async (code, token) => (await getApi()).market(code, token),

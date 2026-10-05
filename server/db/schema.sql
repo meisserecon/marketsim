@@ -8,6 +8,7 @@ create table games (
   name            text not null,
   status          text not null default 'lobby' check (status in ('lobby', 'running', 'finished')),
   current_month   text not null,                   -- 'YYYY-MM'
+  start_month     text,                            -- where the game began; null in games from before ages could be chosen: the first month
   final_month     text not null,
   starting_cash   numeric(20, 6) not null,
   gm_token_hash   text not null,

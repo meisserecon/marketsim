@@ -8,9 +8,32 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 |---|---|---|---|---|
 | 1994-10 | Mosaic Netscape, a new web browser, appears | 0a3255e7 | tech | existing |
 | 1995-08 | Netscape's IPO: 2.9 billion dollars for a company without profits | 35251842 | tech | existing |
+| 1995-09 | Netscape, the maker of the web browser, can now be bought | 42b62e6e | netscape | new (14 October 2026) |
+| 1995-10 | Netscape's sales jump 75% in a quarter; Navigator 2.0 goes out for testing | 19c95804 | netscape | new (14 October 2026) |
+| 1995-11 | Netscape splits its shares; its founder is now a billionaire | 6b70d710 | netscape | new (14 October 2026) |
+| 1996-02 | Microsoft gives its browser away; Netscape's shares fall | 79f53d4c | netscape | new (14 October 2026) |
+| 1996-04 | Netscape beats forecasts as the Nasdaq sets records | 60f02e4c | netscape | new (14 October 2026) |
+| 1996-07 | Technology shares slump; Microsoft builds its browser into Windows | 65a21dcd | netscape | new (14 October 2026) |
+| 1996-09 | Navigator 3.0 is downloaded 2.5 million times in two weeks | ebb87a08 | netscape | new (14 October 2026) |
 | 1996-12 | Greenspan asks about 'irrational exuberance'; shares end 1996 up 20 percent | f8cd1793 | markets | existing |
+| 1997-02 | Analysts turn against Netscape | 569f9b0a | netscape | new (14 October 2026) |
+| 1997-02 | America Online, swamped by its own success, can now be bought | 0d8c5d4f | aol | new (14 October 2026) |
 | 1997-05 | Amazon.com, the online bookstore, goes public | 04ba3ee2 | amzn | existing |
+| 1998-01 | Netscape's first loss, layoffs, and a free browser | 686eccbe | netscape | new (14 October 2026) |
+| 1998-02 | AOL raises its price, and its shares hit a high | 8bdf7620 | aol | new (14 October 2026) |
+| 1998-04 | Netscape opens its code, and investors discover Netcenter | ed02118f | netscape | new (14 October 2026) |
+| 1998-06 | AOL pays $287 million for ICQ, a free chat program | 0e8f6b51 | aol | new (14 October 2026) |
+| 1998-08 | Netscape breaks even, but the market falls | 69395f14 | netscape | new (14 October 2026) |
+| 1998-08 | Good results do not save AOL's shares from the August slump | e7173e38 | aol | new (14 October 2026) |
+| 1998-09 | Hopes of a rate cut bring internet shares roaring back | 1f35d799 | aol | new (14 October 2026) |
 | 1998-11 | theglobe.com rises 606% on its first day | 2d38a9cb | tech | existing |
+| 1998-11 | America Online agrees to buy Netscape | 7add79e1 | netscape | new (14 October 2026) |
+| 1998-11 | AOL buys Netscape and teams up with Sun | 235a7712 | aol | new (14 October 2026) |
+| 1998-12 | Netscape rises with America Online | b28255bf | netscape | new (14 October 2026) |
+| 1998-12 | AOL joins the S&P 500 and its shares soar | 4b8c3762 | aol | new (14 October 2026) |
+| 1999-03 | America Online completes its purchase of Netscape | 3880cc5a | netscape | new (14 October 2026) |
+| 1999-03 | AOL completes the Netscape deal, now worth $10 billion | a3d99605 | aol | new (14 October 2026) |
+| 1999-10 | AOL passes 18 million members and beats forecasts | 56a802a5 | aol | new (14 October 2026) |
 | 1999-11 | Nearly ten million Americans now trade shares online | 35866db6 | tech | new |
 | 1999-12 | VA Linux jumps 698% on its first day; a web address sells for 7.5 million dollars | 9a953413 | tech | new |
 | 1999-12 | The Nasdaq ends 1999 up 86%, above 4,000 | e7332310 | tech | existing |
@@ -20,7 +43,11 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 | 2000-03 | Cisco becomes the world's most valuable company | 20a60ab7 | csco | existing |
 | 2000-04 | The Nasdaq loses 25% in a week | 9d262fe0 | tech | existing |
 | 2000-11 | The Nasdaq's worst month since 1987; Pets.com closes | dcb51390 | tech | existing |
+| 2001-01 | AOL Time Warner is born | baedbcae | aol | new (14 October 2026) |
 | 2001-03 | Cisco announces the first layoffs in its history | 10132a8c | csco | existing, enriched (look-back to March 2000) |
+| 2001-04 | AOL Time Warner beats forecasts on the day of a surprise rate cut | 50f83740 | aol | new (14 October 2026) |
+| 2002-04 | AOL Time Warner loses $54 billion in a quarter | 3e415b72 | aol | new (14 October 2026) |
+| 2002-07 | Pittman leaves, and the SEC looks at AOL's accounts | 7808c277 | aol | new (14 October 2026) |
 | 2002-10 | The Nasdaq falls 78% below its record, then rebounds | 4b102c67 | tech | existing |
 
 Added on 4 October 2026 (build-up):

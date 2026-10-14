@@ -97,6 +97,36 @@
   },
   {
     "month": "1999-03",
+    "kind": "delisting",
+    "headline": "America Online completes its purchase of Netscape",
+    "text": "America Online completed its takeover of Netscape on 17 March, after Netscape's shareholders approved it the same day. Each Netscape share was converted into 0.90 America Online share: twice the 0.45 agreed in November, because AOL split its shares two for one in February. Rising AOL shares lifted the deal's value to about $10 billion. Netscape's business software will be sold with Sun Microsystems, and 350 to 500 jobs at Netscape will go. In this game, Netscape shares are converted into America Online shares of the same value.",
+    "assets": [
+      "netscape",
+      "aol"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K and press release of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/01/27/technology/aol/ (CNNfn, 27 January 1999, on the split effective 22 February, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, deal value, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1999-03-aol-mountain-view.jpg",
+    "imageCaption": "AOL's Silicon Valley office in Mountain View, California, in 2008",
+    "imageCredit": "Coolcaesar at English Wikipedia / Wikimedia Commons"
+  },
+  {
+    "month": "1999-03",
+    "kind": "company",
+    "headline": "AOL completes the Netscape deal, now worth $10 billion",
+    "text": "America Online completed its purchase of Netscape on 17 March. Agreed at $4.2 billion in November, the deal was worth about $10 billion at the close, because AOL's own shares have soared since. On 24 March AOL announced a new structure with four groups, one of them serving Netscape's business customers together with Sun Microsystems, and said up to 1,000 jobs, 8% of the combined workforce, will go. AOL now has more than 16 million members, CompuServe 2 million, and Netscape's Netcenter more than 13 million registered users.",
+    "assets": [
+      "aol",
+      "netscape"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1999-03-aol-office.jpg",
+    "imageCaption": "An AOL office building in Beverly Hills",
+    "imageCredit": "Coolcaesar at English Wikipedia / Wikimedia Commons"
+  },
+  {
+    "month": "1999-03",
     "kind": "company",
     "headline": "Amazon backs Pets.com",
     "text": "Amazon led a $10.5 million investment in Pets.com, a San Francisco start-up that sells pet food and supplies online, taking a majority stake. Amazon is investing in a string of young online shops.",
@@ -340,6 +370,20 @@
     "image": "/news/rates/1999-10-hatton-garden.jpg",
     "imageCaption": "Shoppers at a goldsmith's window in Hatton Garden, London, as gold jumps after the central banks' agreement to limit sales, 28 September 1999",
     "imageCredit": "Photo by ADRIAN DENNIS/AFP via Getty Images"
+  },
+  {
+    "month": "1999-10",
+    "kind": "company",
+    "headline": "AOL passes 18 million members and beats forecasts",
+    "text": "America Online reported on 20 October a profit of $184 million, or 15 cents a share, for its first fiscal quarter, against 13 cents expected by analysts. Revenue rose 47% to $1.5 billion, and advertising and commerce revenue doubled to $350 million. The service gained 1.1 million members in the quarter and now has more than 18 million worldwide. AOL also agreed with the computer maker Gateway to put its service on Gateway's PCs and to run Gateway's internet service.",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1999/10/20/news/aol/ (CNNfn, 20 October 1999, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1999-10-gateway-pc.jpg",
+    "imageCaption": "A Gateway 2000 personal computer",
+    "imageCredit": "MBlairMartin / Wikimedia Commons"
   },
   {
     "month": "1999-10",

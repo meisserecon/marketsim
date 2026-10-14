@@ -153,7 +153,7 @@ for (const s of UNIVERSE) {
   const sources: string[] = [];
   const manualFile = path.join(DATA_DIR, "manual", `${s.id}.csv`);
   const manual = fs.existsSync(manualFile)
-    ? readCsv(manualFile).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income || 0), ...(r.currency ? { currency: r.currency as Currency } : {}) }))
+    ? readCsv(manualFile).map((r) => ({ month: r.month, price: Number(r.price), income: Number(r.income || 0), ...(r.spinoff ? { maxdiv: Number(r.spinoff) } : {}), ...(r.currency ? { currency: r.currency as Currency } : {}) }))
     : [];
   for (const r of manual) if (r.currency && !(r.currency in usdPer)) throw new Error(`${s.id}: unknown currency ${r.currency} in ${r.month}`);
   if (s.source === "yahoo" && manual.some((r) => r.currency)) throw new Error(`${s.id}: a currency column is only supported for manual series`);

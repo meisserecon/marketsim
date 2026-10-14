@@ -139,6 +139,26 @@ Biggest months:
 - 2005-07: +36% (market +4%)
 - 2007-04: +54% (market +4%)
 
+### aol: America Online / AOL Time Warner / Time Warner
+
+In the game 1997-02 to 2001-10; price 2.3438 to 31.21 (+1232% over 4.8 years).
+Worst stretch: -59% from 1999-12 to 2001-10. Best twelve months: +755% from 1998-03 to 1999-03.
+
+Biggest months:
+
+- 1998-02: +27% (market +7%)
+- 1998-06: +27% (market +4%)
+- 1998-08: -30% (market -15%)
+- 1998-09: +36% (market +6%)
+- 1998-11: +38% (market +6%)
+- 1998-12: +83% (market +6%)
+- 1999-03: +64% (market +4%)
+- 1999-06: -23% (market +5%)
+- 1999-10: +25% (market +6%)
+- 2000-01: -26% (market -5%)
+- 2001-01: +51% (market +3%)
+- 2001-04: +26% (market +8%)
+
 ### ba: Boeing
 
 In the game 1975-01 to 2026-09; price 0.5597 to 186.05 (+33141% over 51.8 years).
@@ -558,6 +578,26 @@ Biggest months:
 - 1999-01: -16% (market +4%)
 - 2025-02: +13% (market -1%)
 - 2026-02: +15% (market -1%)
+
+### netscape: Netscape Communications
+
+In the game 1995-09 to 1999-02 (merger: Taken over by America Online, 0.45 America Online shares per Netscape share); price 31.25 to 77.4375 (+148% over 3.5 years).
+Worst stretch: -80% from 1996-01 to 1998-01. Best twelve months: +360% from 1998-01 to 1999-01.
+
+Biggest months:
+
+- 1995-10: +41% (market -0%)
+- 1995-11: +57% (market +4%)
+- 1996-02: -38% (market +1%)
+- 1996-04: +48% (market +1%)
+- 1996-07: -37% (market -5%)
+- 1996-09: +33% (market +5%)
+- 1997-02: -48% (market +1%)
+- 1998-01: -34% (market +1%)
+- 1998-04: +50% (market +1%)
+- 1998-08: -37% (market -15%)
+- 1998-11: +73% (market +6%)
+- 1998-12: +64% (market +6%)
 
 ### nokia: Nokia
 
@@ -1084,30 +1124,30 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 1995-07: market +3%; IBM +13%, Sony +12%, Industrial Bank of Japan +11%
 - 1995-08: market -0%; Cisco +18%, WorldCom +13%, Schweizerische Bankgesellschaft -10%
 - 1995-09: market +4%; Berkshire Hathaway +15%, Schweizerische Bankgesellschaft +15%, CS Holding +15%
-- 1995-10: market -0%; Nokia -20%, Intel +16%, Sony -13%
-- 1995-11: market +4%; Sony +18%, Intel -13%, Microsoft -13%
+- 1995-10: market -0%; Netscape Communications +41%, Nokia -20%, Intel +16%
+- 1995-11: market +4%; Netscape Communications +57%, Sony +18%, Intel -13%
 - 1995-12: market +2%; Nokia -28%, Apple Computer -16%, Sony +14%
 ### 1996
 
-- 1996-01: market +3%; Lehman Brothers +21%, IBM +19%, BMW +13%
-- 1996-02: market +1%; Cisco +14%, IBM +13%, Berkshire Hathaway +11%
-- 1996-03: market +1%; Sandoz +24%, WorldCom +17%, Philip Morris -11%
-- 1996-04: market +1%; Intel +19%, Cisco +12%, Schlumberger +12%
-- 1996-05: market +2%; Nokia +19%, Coca-Cola +13%, Intel +11%
+- 1996-01: market +3%; Lehman Brothers +21%, IBM +19%, Netscape Communications +18%
+- 1996-02: market +1%; Netscape Communications -38%, Cisco +14%, IBM +13%
+- 1996-03: market +1%; Sandoz +24%, Netscape Communications -19%, WorldCom +17%
+- 1996-04: market +1%; Netscape Communications +48%, Intel +19%, Cisco +12%
+- 1996-05: market +2%; Nokia +19%, Coca-Cola +13%, Netscape Communications +12%
 - 1996-06: market +0%; Apple Computer -20%, Nokia -15%, WorldCom +13%
-- 1996-07: market -5%; Industrial Bank of Japan -13%, Disney -12%, CS Holding +11%
+- 1996-07: market -5%; Netscape Communications -37%, Industrial Bank of Japan -13%, Disney -12%
 - 1996-08: market +2%; Nokia +20%, WorldCom -19%, Philip Morris -14%
-- 1996-09: market +5%; Lehman Brothers +22%, Intel +20%, Cisco +18%
+- 1996-09: market +5%; Netscape Communications +33%, Lehman Brothers +22%, Intel +20%
 - 1996-10: market +3%; Schlumberger +17%, Intel +15%, Enron +14%
 - 1996-11: market +7%; IBM +24%, Nokia +21%, Lehman Brothers +16%
-- 1996-12: market -2%; Apple Computer -13%, WorldCom +12%, Industrial Bank of Japan -12%
+- 1996-12: market -2%; Netscape Communications +27%, Apple Computer -13%, WorldCom +12%
 ### 1997
 
 - 1997-01: market +6%; Industrial Bank of Japan -27%, Intel +24%, Microsoft +23%
-- 1997-02: market +1%; Cisco -20%, Philip Morris +14%, Nokia -13%
+- 1997-02: market +1%; Netscape Communications -48%, Cisco -20%, Philip Morris +14%
 - 1997-03: market -4%; WorldCom -17%, BMW +16%, Philip Morris -16%
 - 1997-04: market +6%; Microsoft +33%, IBM +17%, Lehman Brothers +16%
-- 1997-05: market +6%; Cisco +31%, WorldCom +23%, Lehman Brothers +21%
+- 1997-05: market +6%; Cisco +31%, WorldCom +23%, America Online +22%
 - 1997-06: market +4%; Industrial Bank of Japan +29%, Novartis +18%, Apple Computer -14%
 - 1997-07: market +8%; Amazon +55%, Intel +29%, Lehman Brothers +23%
 - 1997-08: market -6%; Apple Computer +24%, Coca-Cola -17%, BMW -16%
@@ -1117,26 +1157,26 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 1997-12: market +2%; Apple Computer -26%, Amazon +22%, Industrial Bank of Japan -20%
 ### 1998
 
-- 1998-01: market +1%; Apple Computer +40%, Industrial Bank of Japan +19%, WorldCom +18%
+- 1998-01: market +1%; Apple Computer +40%, Netscape Communications -34%, Industrial Bank of Japan +19%
 - 1998-02: market +7%; Nokia +33%, Amazon +31%, Apple Computer +29%
 - 1998-03: market +5%; Berkshire Hathaway +20%, Lehman Brothers +18%, Industrial Bank of Japan -17%
-- 1998-04: market +1%; Nokia +24%, Disney +17%, Siemens -13%
+- 1998-04: market +1%; Netscape Communications +50%, Nokia +24%, America Online +17%
 - 1998-05: market -2%; Intel -12%, Siemens +11%, Nestlé +10%
-- 1998-06: market +4%; Amazon +126%, Microsoft +28%, Cisco +22%
+- 1998-06: market +4%; Amazon +126%, Microsoft +28%, America Online +27%
 - 1998-07: market -1%; Apple Computer +21%, Nokia +20%, Industrial Bank of Japan -19%
-- 1998-08: market -15%; Lehman Brothers -45%, Credit Suisse Group -30%, Industrial Bank of Japan -29%
-- 1998-09: market +6%; UBS -40%, Credit Suisse Group -37%, Amazon +33%
+- 1998-08: market -15%; Lehman Brothers -45%, Netscape Communications -37%, Credit Suisse Group -30%
+- 1998-09: market +6%; UBS -40%, Credit Suisse Group -37%, America Online +36%
 - 1998-10: market +8%; eBay +84%, UBS +40%, Credit Suisse Group +39%
-- 1998-11: market +6%; eBay +138%, Amazon +52%, Lehman Brothers +32%
-- 1998-12: market +6%; Amazon +67%, Apple Computer +28%, Cisco +23%
+- 1998-11: market +6%; eBay +138%, Netscape Communications +73%, Amazon +52%
+- 1998-12: market +6%; America Online +83%, Amazon +67%, Netscape Communications +64%
 ### 1999
 
-- 1999-01: market +4%; Microsoft +26%, Lehman Brothers +24%, Cisco +20%
+- 1999-01: market +4%; Microsoft +26%, Lehman Brothers +24%, Netscape Communications +22%
 - 1999-02: market -3%; eBay +20%, Philip Morris -17%, Apple Computer -15%
-- 1999-03: market +4%; Industrial Bank of Japan +35%, Amazon +34%, Schlumberger +24%
+- 1999-03: market +4%; America Online +64%, Industrial Bank of Japan +35%, Amazon +34%
 - 1999-04: market +4%; eBay +52%, Apple Computer +28%, Industrial Bank of Japan +23%
 - 1999-05: market -2%; Amazon -31%, Industrial Bank of Japan -15%, eBay -15%
-- 1999-06: market +5%; Nokia +29%, Cisco +18%, Sony +18%
+- 1999-06: market +5%; Nokia +29%, America Online -23%, Cisco +18%
 - 1999-07: market -3%; eBay -35%, Apple Computer +20%, Amazon -20%
 - 1999-08: market -1%; Nvidia +40%, eBay +29%, Industrial Bank of Japan +26%
 - 1999-09: market -3%; Nvidia -32%, Amazon +29%, Industrial Bank of Japan +20%
@@ -1145,7 +1185,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 1999-12: market +6%; Sony +55%, Nokia +36%, Nvidia +36%
 ### 2000
 
-- 2000-01: market -5%; Enron +53%, BMW -26%, Disney +24%
+- 2000-01: market -5%; Enron +53%, BMW -26%, America Online -26%
 - 2000-02: market -2%; Nvidia +73%, Siemens +31%, Sony +24%
 - 2000-03: market +10%; Pets.com -39%, Lehman Brothers +34%, Nvidia +32%
 - 2000-04: market -3%; Microsoft -34%, Pets.com -33%, Sony -19%
@@ -1159,7 +1199,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2000-12: market +0%; Amazon -37%, Lehman Brothers +36%, Schlumberger +29%
 ### 2001
 
-- 2001-01: market +3%; Nvidia +58%, WorldCom +53%, eBay +50%
+- 2001-01: market +3%; Nvidia +58%, WorldCom +53%, AOL Time Warner +51%
 - 2001-02: market -9%; Amazon -41%, Cisco -37%, Nokia -36%
 - 2001-03: market -6%; Nvidia +45%, Cisco -33%, Apple Computer +21%
 - 2001-04: market +8%; Amazon +54%, Nokia +42%, eBay +39%

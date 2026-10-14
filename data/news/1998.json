@@ -15,6 +15,21 @@
   {
     "month": "1998-01",
     "kind": "company",
+    "headline": "Netscape's first loss, layoffs, and a free browser",
+    "text": "On 5 January Netscape warned that it would report a loss of $85 to $89 million for the fourth quarter, its first since going public, and its shares fell 20% to an all-time low. Browser revenue fell to $17 million from $52 million a year before, as Microsoft gives its browser away. On 22 January, with its browser share down to about 60%, Netscape said Navigator and Communicator will now be free, and that it will publish the program's source code. On 27 January it reported a quarterly loss of $88.3 million; about 300 jobs will go.",
+    "assets": [
+      "netscape",
+      "msft"
+    ],
+    "source": "https://money.cnn.com/1998/01/05/technology/netscape/ (CNNfn, 5 January 1998, read 2026-10-14); https://money.cnn.com/1998/01/22/technology/netscape/ (CNNfn, 22 January 1998, read 2026-10-14); https://money.cnn.com/1998/01/27/technology/netscape/ (CNNfn, 27 January 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1998-01-marc-andreessen.jpg",
+    "imageCaption": "Marc Andreessen, co-founder of Netscape",
+    "imageCredit": "JD Lasica from Pleasanton, CA, US / Wikimedia Commons"
+  },
+  {
+    "month": "1998-01",
+    "kind": "company",
     "headline": "Record year for Lehman",
     "text": "Lehman Brothers earned a record $647 million in the year to November 1997, or $4.72 a share, in a year of near-record underwriting volumes and mergers on Wall Street.",
     "assets": [
@@ -24,6 +39,20 @@
     "image": "/news/lehman/1998-01-lehman-brothers-office-in-frankfurt.jpg",
     "imageCaption": "Lehman Brothers' office in Frankfurt",
     "imageCredit": "Karsten11"
+  },
+  {
+    "month": "1998-02",
+    "kind": "company",
+    "headline": "AOL raises its price, and its shares hit a high",
+    "text": "On 9 February America Online said it will raise its unlimited monthly fee by 10%, to $21.95, from April. Its members now spend 23 hours a month online on average, against 7 hours before the flat rate, and every minute costs AOL money. Its shares jumped to a 52-week high on the news. AOL also cut 500 jobs at CompuServe, the rival online service it has just acquired, and made Robert Pittman president and chief executive of America Online, with founder Steve Case remaining chairman.",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1998/02/09/technology/aol/ (CNNfn, 9 February 1998, read 2026-10-14); https://money.cnn.com/1998/01/30/technology/aol/ (CNNfn, 30 January 1998, on the CompuServe purchase, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-02-compuserve-hq.jpg",
+    "imageCaption": "The former CompuServe headquarters in Upper Arlington near Columbus, Ohio",
+    "imageCredit": "Wiki Historian N OH / Wikimedia Commons"
   },
   {
     "month": "1998-03",
@@ -49,6 +78,20 @@
     "image": "/news/tech/1998-04-modem.jpg",
     "imageCaption": "Modem (photograph from 2008)",
     "imageCredit": "secretlondon123"
+  },
+  {
+    "month": "1998-04",
+    "kind": "company",
+    "headline": "Netscape opens its code, and investors discover Netcenter",
+    "text": "On 31 March Netscape put the source code of its next browser on the internet, free for any programmer to use and improve, under the name Mozilla. In April investors started to buy its shares again, for another reason: Netcenter, the web site that opens whenever someone starts Navigator, draws a huge amount of traffic, which puts Netscape in the same business as Yahoo!, Excite and Lycos, whose shares have soared. 'It is changing from a company that had been viewed as a failed competitor to Microsoft to a company in the same business as Yahoo,' said one fund manager.",
+    "assets": [
+      "netscape"
+    ],
+    "source": "https://www.fundinguniverse.com/company-histories/netscape-communications-corporation-history/ (source code posted on 31 March 1998, read 2026-10-14); https://www.deseret.com/1998/4/19/19374932/netscape-aims-to-net-business-by-turning-site-into-web-gateway/ (Deseret News, 19 April 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1998-04-mozilla.png",
+    "imageCaption": "The Mozilla dinosaur, emblem of the project that took over Netscape's browser code",
+    "imageCredit": "Original: Mozilla Vector: Hilst / Wikimedia Commons"
   },
   {
     "month": "1998-04",
@@ -111,7 +154,8 @@
     "headline": "The American government sues Microsoft",
     "text": "On 18 May the Justice Department, twenty states and the District of Columbia took Microsoft to court. Almost every personal computer runs Microsoft's Windows, and the government says the company abuses that power to win the next market as well, the one for internet browsers: it builds its own Internet Explorer into Windows and stops computer makers from removing it or offering Netscape's Navigator instead. 'Microsoft follows the rules,' says Bill Gates, who denies that his company is a monopoly. Already in 1994 Microsoft had promised not to tie other products to Windows; it now argues that the browser is a feature of Windows, not a separate product.",
     "assets": [
-      "msft"
+      "msft",
+      "netscape"
     ],
     "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-04)",
     "thread": "dotcom",
@@ -144,6 +188,20 @@
     "image": "/news/amzn/1998-06-cd-player.jpg",
     "imageCaption": "CD player (photograph from 2011)",
     "imageCredit": "Mk2010"
+  },
+  {
+    "month": "1998-06",
+    "kind": "company",
+    "headline": "AOL pays $287 million for ICQ, a free chat program",
+    "text": "America Online announced on 8 June that it has bought Mirabilis, an Israeli company whose free program ICQ tells users when their friends are online and lets them exchange messages instantly. AOL paid $287 million in cash and may pay up to $120 million more over three years if ICQ meets growth targets. ICQ, launched in November 1996, will stay a free service based in Tel Aviv with its own brand.",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378098000023/0000883780-98-000023.txt (America Online 8-K of June 1998, read 2026-10-14);",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-06-icq.png",
+    "imageCaption": "The ICQ flower logo",
+    "imageCredit": "Original: ICQ Vector: Sebastian Wallroth / Wikimedia Commons"
   },
   {
     "month": "1998-06",
@@ -201,6 +259,35 @@
     "imageCredit": "Heavy Frisker"
   },
   {
+    "month": "1998-08",
+    "kind": "company",
+    "headline": "Netscape breaks even, but the market falls",
+    "text": "Netscape broke even in its quarter to 31 July, better than Wall Street expected: revenue rose 10% to $150.2 million and net income was $88,000, against a loss of $45 million a year earlier. On 3 August it agreed to promote America Online's local city guides on its Netcenter site. But August was a bad month for shares: by its end the Dow Jones index had fallen more than 18% from its July record amid crises in several countries, and internet shares, which tend to overreact, fell further.",
+    "assets": [
+      "netscape",
+      "aol"
+    ],
+    "source": "https://www.theregister.com/1998/08/19/netscape_gets_back/ (The Register, 19 August 1998, read 2026-10-14); https://www.deseret.com/1998/8/4/19394690/aol-netscape-reach-accord/ (Deseret News, 4 August 1998, read 2026-10-14); https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, on the fall from the July high, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1998-08-wall-street.jpg",
+    "imageCaption": "Wall Street, Manhattan, July 1997",
+    "imageCredit": "LBM1948 / Wikimedia Commons"
+  },
+  {
+    "month": "1998-08",
+    "kind": "company",
+    "headline": "Good results do not save AOL's shares from the August slump",
+    "text": "America Online reported on 4 August results for its fiscal year to June that beat Wall Street's forecasts, and said it was comfortable with analysts' estimates for the coming year. Internet shares rallied for a few days. But August turned into a bad month for the stock market: by its end the Dow Jones index had fallen more than 18% from its July record amid crises in several countries. Internet shares are 'high beta, high risk stocks,' said one analyst. 'They seem to overreact to whichever direction the market is in.'",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378098000039/0000883780-98-000039.txt (America Online 8-K of 4 August 1998, read 2026-10-14); https://money.cnn.com/1998/08/07/markets/internet/ (CNNfn, 7 August 1998, read 2026-10-14); https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-08-nyse-flag.jpg",
+    "imageCaption": "Columns and flag of the New York Stock Exchange, November 1997",
+    "imageCredit": "LBM1948 / Wikimedia Commons"
+  },
+  {
     "month": "1998-09",
     "kind": "company",
     "headline": "UBS caught in the LTCM collapse",
@@ -227,6 +314,20 @@
     "image": "/news/ebay/1998-09-omidyar-whitman.jpg",
     "imageCaption": "eBay's founder and chairman Pierre Omidyar and chief executive Meg Whitman with collectibles in front of an eBay poster, California, June 1998",
     "imageCredit": "James D. Wilson / Liaison Agency (via Getty Images)"
+  },
+  {
+    "month": "1998-09",
+    "kind": "company",
+    "headline": "Hopes of a rate cut bring internet shares roaring back",
+    "text": "On 4 September Federal Reserve chairman Alan Greenspan said the American economy could not remain untouched while the rest of the world slows down. Investors took it as a hint that interest rates may be cut, and on 8 September the Dow Jones index rose 380 points, its biggest one-day gain ever. Internet shares, the market's most volatile, rebounded hardest after their sharp fall, and America Online's shares were among the biggest gainers.",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-09-federal-reserve.jpg",
+    "imageCaption": "The words 'Federal Reserve' above the entrance of the Fed's building in Washington",
+    "imageCredit": "Tim Evanson / Wikimedia Commons"
   },
   {
     "month": "1998-10",
@@ -302,6 +403,36 @@
   {
     "month": "1998-11",
     "kind": "company",
+    "headline": "America Online agrees to buy Netscape",
+    "text": "On 24 November America Online, the biggest online service with 14 million subscribers, agreed to buy Netscape in a deal worth $4.2 billion, paid in shares: Netscape holders will receive 0.45 America Online share for each share they own. At AOL's price that is slightly below Netscape's own share price, which had more than doubled in the past month on talk of a deal. AOL gets the Navigator browser, Netscape's business software and Netcenter, one of the ten most-visited sites. Sun Microsystems will help sell the business software. The deal is expected to close next spring.",
+    "assets": [
+      "netscape",
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1998/11/23/deals/netscape/ (CNNfn, 23 November 1998, read 2026-10-14); https://money.cnn.com/1998/11/24/technology/aol/ (CNNfn, 24 November 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1998-11-steve-case.jpg",
+    "imageCaption": "Steve Case, chairman and chief executive of America Online, the buyer of Netscape",
+    "imageCredit": "Christopher Carfi / Wikimedia Commons"
+  },
+  {
+    "month": "1998-11",
+    "kind": "company",
+    "headline": "AOL buys Netscape and teams up with Sun",
+    "text": "America Online, with 14 million subscribers, agreed on 24 November to buy Netscape for shares worth $4.2 billion, gaining the Navigator browser and Netcenter, one of the ten most-visited web sites. In a separate three-year alliance, AOL will buy $500 million of computers and services from Sun Microsystems, and Sun will pay AOL more than $350 million in licence, marketing and advertising fees. AOL will keep shipping Microsoft's Internet Explorer with its software. Its shares rose on the news.",
+    "assets": [
+      "aol",
+      "netscape"
+    ],
+    "source": "https://money.cnn.com/1998/11/24/technology/aol/ (CNNfn, 24 November 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-11-sun-briefing-center.jpg",
+    "imageCaption": "Sun Microsystems' Executive Briefing Center in Menlo Park, California",
+    "imageCredit": "NapoliRoma / Wikimedia Commons"
+  },
+  {
+    "month": "1998-11",
+    "kind": "company",
     "headline": "Third rate cut; Wall Street recovers",
     "text": "The Federal Reserve has now cut interest rates three times since the end of September, and central banks in Europe have followed. Stocks have recovered most of the summer's losses, and the market for new share issues has reopened. Lehman's shares rose another third in November.",
     "assets": [
@@ -369,6 +500,20 @@
   {
     "month": "1998-12",
     "kind": "company",
+    "headline": "AOL joins the S&P 500 and its shares soar",
+    "text": "On 22 December Standard & Poor's said America Online will join its index of 500 leading American shares, replacing Venator, the former Woolworth's. AOL's shares jumped more than 13% in trading after the close, and Deutsche Bank raised its price target the next morning. Funds that track the index must now buy the shares. AOL was worth about $41 billion at the time, making it one of the most valuable companies on the New York Stock Exchange; the new member gives the old index a technology slant.",
+    "assets": [
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1998/12/22/markets/afterbell/ (CNNfn, 22 December 1998, read 2026-10-14); https://money.cnn.com/1998/12/23/companies/aol/ (CNNfn, 23 December 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/aol/1998-12-nyse-building.jpg",
+    "imageCaption": "The New York Stock Exchange building on Wall Street, January 1997",
+    "imageCredit": "LBM1948 / Wikimedia Commons"
+  },
+  {
+    "month": "1998-12",
+    "kind": "company",
     "headline": "Analyst predicts $400 for Amazon",
     "text": "Henry Blodget, an internet analyst, predicted that Amazon's shares, trading at about $240, would reach $400 within a year. Many investors thought the forecast absurd for a company that has never made a profit.",
     "assets": [
@@ -379,6 +524,21 @@
     "image": "/news/amzn/1998-12-henry-blodget.jpg",
     "imageCaption": "Henry Blodget (photograph from 2012)",
     "imageCredit": "Financial Times photos"
+  },
+  {
+    "month": "1998-12",
+    "kind": "company",
+    "headline": "Netscape rises with America Online",
+    "text": "Since the takeover agreement each Netscape share stands for 0.45 America Online share, so Netscape's price now follows AOL's. And AOL's shares soared in December. On 22 December Standard & Poor's said it would add America Online to its index of 500 leading shares, replacing Venator, the former Woolworth's; AOL's shares jumped more than 13% in trading after the close. Index funds must buy the shares of companies that join the index.",
+    "assets": [
+      "netscape",
+      "aol"
+    ],
+    "source": "https://money.cnn.com/1998/11/24/technology/aol/ (CNNfn, 24 November 1998, read 2026-10-14); https://money.cnn.com/1998/12/22/markets/afterbell/ (CNNfn, 22 December 1998, read 2026-10-14); https://money.cnn.com/1998/12/23/companies/aol/ (CNNfn, 23 December 1998, read 2026-10-14)",
+    "thread": "dotcom",
+    "image": "/news/netscape/1998-12-navigator-mac-disk.jpg",
+    "imageCaption": "Install disk of Netscape Navigator 1.1 for the Macintosh",
+    "imageCredit": "Kevin van Haaren / Wikimedia Commons"
   },
   {
     "month": "1998-12",

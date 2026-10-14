@@ -1,0 +1,66 @@
+# Netscape Communications (Nasdaq: NSCP), month-end close in USD.
+# Source: Neue Zuercher Zeitung, month-end issues in data/manual/scans/nzz/, page "USA/Kanada", table "Nasdaq",
+# row "Netscape Comm.", column Tagesschluss (or Vortag where the issue carries the next month's first trading day),
+# read by eye on 2026-10-14. Issue, page, trading date and printed fraction of every month: raw/netscape-nzz.csv.
+# Share basis: shares after the 2-for-1 split of early 1996 (the only split; the 10-K says "effective January
+# 1996", the NZZ tables still print the old basis on 31 Jan 1996, 164 1/4, year high 172, and the new one on
+# 29 Feb 1996, 51, year high 86). 1995-09 to 1996-01 are the printed closes divided by 2; 1996-02 on as printed.
+# Months: 1995-09 (IPO 9 Aug 1995; the 31 Aug 1995 Nasdaq table is a bid/ask list without Netscape) to 1999-02
+# (26 Feb 1999 close, the last quote: America Online completed the takeover on 17 March 1999 and the table of
+# 31 March 1999 no longer lists Netscape). Missing: 1996-11 (the issue of 30.11.1996 has no USA/Kanada page) and
+# 1997-01 (the quotes of 31 Jan 1997 are 15.30 New York time, not closes, by a note in the table; 38).
+# 1995-12 is the close of 29 Dec 1995 (last trading day). 1996-12 (56 1/8), 1997-12 (24 3/8), 1998-12 (60 3/4)
+# are the 31 December closes from the Vortag column of the first January issue.
+# Doubtful fractions (coarse 1995-97 scans, the integer is certain, the fraction may be off by 1/16 to 1/4):
+# 1996-05, 1996-08, 1996-09, 1996-10, 1996-12, 1997-02, 1997-03, 1997-04, 1997-05, 1997-08, 1997-10, 1997-12.
+# Income: 0. Netscape never paid a dividend ("The Company has never declared or paid any cash dividends on its
+# common stock", 10-K for 1996, 1997 and 1998, SEC EDGAR CIK 944458).
+# Cross-check: the quarterly high and low sale prices in Netscape's 10-K filings on EDGAR (10-K for 1996, filed
+# 28.3.1997, accession 0000912057-97-010695: 1995 Q3-Q4 split-adjusted; 10-K for 1997, 27.3.1998,
+# 0001047469-98-012170: 1996; 10-K for 1998, 29.1.1999, 0001047469-99-006509: 1997 by calendar quarter, January
+# 1998, fiscal quarters Feb-Apr, May-Jul, Aug-Oct 1998 after the change of fiscal year, and Nov 1998 to 12 Jan 1999).
+# All 38 months from 1995-09 to 1998-12 lie within their period's high and low on this share basis; 1999-01 and
+# 1999-02 are after the last period printed (1999-01-29 close 73 13/16 is above the high of 71 1/2 through
+# 12 January, so not comparable). The 1996 Q4 high differs between the filings (66 in the 1996 10-K, 65 in the 1997
+# 10-K); no month is affected.
+month,price,income
+1995-09,31.25,0
+1995-10,44,0
+1995-11,69.125,0
+1995-12,69.5,0
+1996-01,82.125,0
+1996-02,51,0
+1996-03,41.25,0
+1996-04,61,0
+1996-05,68.0625,0
+1996-06,62.75,0
+1996-07,39.5,0
+1996-08,35.125,0
+1996-09,46.625,0
+1996-10,44.125,0
+1996-12,56.125,0
+1997-02,29.125,0
+1997-03,30.0625,0
+1997-04,27.0625,0
+1997-05,29.5625,0
+1997-06,32.0625,0
+1997-07,36.6875,0
+1997-08,39.6875,0
+1997-09,36,0
+1997-10,32.875,0
+1997-11,28.5,0
+1997-12,24.375,0
+1998-01,16.0625,0
+1998-02,19.375,0
+1998-03,18.1875,0
+1998-04,27.3125,0
+1998-05,24.5,0
+1998-06,27.4375,0
+1998-07,28.5625,0
+1998-08,18,0
+1998-09,21.875,0
+1998-10,21.4375,0
+1998-11,37,0
+1998-12,60.75,0
+1999-01,73.8125,0
+1999-02,77.4375,0

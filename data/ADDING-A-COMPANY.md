@@ -21,7 +21,12 @@ from its first month to its last, in one currency and on one share basis.
     company's 10-K, a newspaper table, an exchange yearbook) and say in the header what agreed.
   - Sources that have worked: companiesmarketcap.com (some delisted US companies, daily or
     monthly points embedded in the page), SEC filings on EDGAR for cross-checks, the scanned NZZ
-    and Journal de Genève price tables for Swiss, German and New York blue chips before 1999.
+    and Journal de Genève price tables for Swiss, German and New York blue chips before 1999. The NZZ
+    scans in `manual/scans/nzz/` (month-end issues to November 2001) also carry a Nasdaq table and the
+    larger New York shares; for later months the table page of an issue can be downloaded from the NZZ
+    archive (zeitungsarchiv.nzz.ch, subscription) into `manual/scans/nzz-pages/`. Reading a table by eye
+    is slow (an agent needs about an hour per fifty months) but it is a real source: note the issue,
+    page and printed fraction of every month in `manual/raw/<id>-nzz.csv`.
   - Sources that do not work from this machine: Yahoo for delisted tickers, Stooq (bot check),
     BigCharts and Barchart (login), the price-by-date sites (no data for delisted tickers).
 - **Never estimate a price.** A month without a sourced close stays empty; the build fills gaps

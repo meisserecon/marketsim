@@ -1,0 +1,183 @@
+# America Online / AOL Time Warner: month-end readings from the Neue Zuercher Zeitung, read by eye on 2026-10-14.
+# Source: scanned month-end issues data/manual/scans/nzz/NZZ_YYYY-MM-DD.pdf, page "USA/Kanada", table
+# "New York Stock Exchange", row "America Online" (first seen in the issue of 1.2.1997; not in the NYSE table of
+# 1.10.1996, 31.12.1996, 3.1.1997, and not in the Nasdaq table of 30.9.1995, 1.11.1995, 2.8.1996, 31.8.1996), from the
+# issue of 1.2.2001 row "AOL Time Warner" (ticker AOL). Prices in USD as printed (fractions to 2000, decimals mixed in
+# from 1998 and throughout 2001); decimal_close is the exact value. Nothing from memory or Yahoo.
+# Prices are as printed, i.e. on the share basis of their date (not adjusted); the splits are in aol.csv.
+# How the pages were found and read: as in netscape-nzz.csv (header strips, overviews, row crops at 2400 px, zooms
+# at 1500 to 1800 px; from 1999 vector pages, the text layer used only to find the row). pdf_page_index is 0-based.
+# trading_date is the date of the value taken, from the header "Kurse vom <date>"; for issues carrying the first
+# trading day of the next month the Vortag column (= month-end close) was taken, as the note says.
+# Crops and the working log: scratchpad nsaol/ (log.txt, ov/, rows/) of session 6ff800c7.
+# Extension 2001-11 to 2009-12 (read on 2026-10-14): scans data/manual/scans/nzz-pages/NZZ_<issue>_p<page>.pdf
+# (two-page spreads; list and doubtful months in LOG.md there), page "Aktien Amerika", table "S&P 500" (column
+# "table" below), row "AOL Time Warner", from the issue of 1.11.2003 "Time Warner", from the issue of 31.10.2009
+# (new layout: 52-week H/T, name, previous day's Schluss, volume, the day's Schluss, change %) "Time Warner New";
+# "Time Warner Cable" ("Time Warner Cbl") is a separate row from 2009. Columns before October 2009: 52-Wochen H./T.,
+# Vortag, Tages-H./T., Vol. (1000), P/E, Schluss. printed_close is the value taken (Schluss, or Vortag where the
+# issue carries the next month's first trading day, as the note says); printed_vortag is the table's previous-day
+# column. Every value read by eye from crops rendered with PyMuPDF at about 1500 px per table column (header,
+# column heads and row); the text layer used to find the row only, and agrees with every value taken.
+# Divisor: printed prices to 2009-02 are on the file's basis (divisor 1); from 2009-03, after the 1-for-3 reverse
+# split of 27 March 2009, divisor 3 (price in aol.csv = printed / 3); the note of each row states it.
+# Crops and scripts: scratchpad tw0109/ (sheet.py, out/s1..s14.png, out/new.png) of session 6ff800c7.
+month,trading_date,issue_file,pdf_page_index,table,printed_close,decimal_close,printed_vortag,year_high,year_low,notes
+1996-09,1996-09-30,NZZ_1996-10-01.pdf,39,NYSE,,,,,,"Not listed in the NYSE table (A block: Amerada Hess, Am. Brands, Am. El. Power ...). Not in the Nasdaq table either in the issues checked before (30.9.1995, 1.11.1995, 2.8.1996, 31.8.1996)."
+1996-12,1996-12-30,NZZ_1996-12-31.pdf,34,NYSE,,,,,,Not listed (A block Amerada Hess -> Am. Brands); also not in the issue of 3.1.1997 (p.42).
+1997-01,1997-01-31,NZZ_1997-02-01.pdf,38,NYSE,37 1/4,37.25,37 7/8,43 1/4,31 1/4,First appearance in the NYSE table. NOT A CLOSE: boxed note: quotes of 15.30 New York time owing to technical problems. Day H 38 1/4 T 37 1/8. Left out of aol.csv.
+1997-02,1997-02-28,NZZ_1997-03-01.pdf,39,NYSE,37 1/2,37.5,37,43 1/4,31 1/4,Tagesschluss; day H 38 5/8 T 36 1/4; two crops agree.
+1997-03,1997-03-31,NZZ_1997-04-01.pdf,34,NYSE,42 1/8,42.125,42 1/4,47 1/4,31 1/4,Tagesschluss; day H 43 1/2 T 41 1/4. DOUBTFUL fraction (1/8 or 3/8).
+1997-04,1997-04-30,NZZ_1997-05-02.pdf,39,NYSE,45 1/8,45.125,,49 1/2,31 1/4,Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 47. DOUBTFUL fraction.
+1997-05,1997-05-30,NZZ_1997-05-31.pdf,39,NYSE,55 1/4,55.25,55 1/4,55 1/2,31 1/4,Tagesschluss; day H 55 1/4 T 53 1/4; two crops agree.
+1997-06,1997-06-30,NZZ_1997-07-01.pdf,39,NYSE,55 5/8,55.625,53 11/16,62 3/4,31 1/4,Tagesschluss; day H 56 3/4 T 53 3/4. Fraction 5/8 against 3/8 doubtful.
+1997-07,1997-07-31,NZZ_1997-08-02.pdf,37,NYSE,67 1/2,67.5,,74 1/4,31 1/4,Vortag column of the table 'Kurse vom 1. August' (= 31 July close); 1 Aug close 70 5/8?.
+1997-08,1997-08-29,NZZ_1997-08-30.pdf,39,NYSE,64 1/2,64.5,64 1/4,75 1/2,31 1/4,Tagesschluss; day H 65 1/8 T 64 1/8; two crops agree.
+1997-09,1997-09-30,NZZ_1997-10-01.pdf,39,NYSE,75 1/16,75.0625,75 1/2,80 1/2,31 1/4,"Tagesschluss; day H 76 5/16 T 74 11/16. DOUBTFUL fraction: the overview crop read 5/16, the row zoom shows a thin numerator (1/16)."
+1997-10,1997-10-31,NZZ_1997-11-01.pdf,38,NYSE,77,77,75 3/4,91 1/16,31 1/4,Tagesschluss; day H 77 1/4 T 75 5/8; two crops agree.
+1997-11,1997-11-28,NZZ_1997-11-29.pdf,39,NYSE,75 1/2,75.5,73,91 1/16,31 1/4,Tagesschluss; day H 75 13/16 T 73 1/2; two crops agree.
+1997-12,1997-12-31,NZZ_1998-01-03.pdf,41,NYSE,89 3/16,89.1875,,91 1/4,31 1/4,"Vortag column of the table 'Kurse vom 2. Januar' (= 31 Dec close); 2 Jan close 89 3/4. DOUBTFUL fraction (wide numerator /16). The issue of 31.12.1997 (p.40, 30 Dec) gives close 88 1/2."
+1998-01,1998-01-30,NZZ_1998-01-31.pdf,39,NYSE,95 11/16,95.6875,95 1/4,97 1/4,82 1/2,Tagesschluss; day H 97 3/8 T 95 3/8; two crops agree.
+1998-02,1998-02-27,NZZ_1998-02-28.pdf,39,NYSE,121 1/8,121.125,123.81,125,82 1/2,"Tagesschluss; Vortag, day H 123.81 and day T 121.06 printed as decimals; two crops agree."
+1998-03,1998-03-31,NZZ_1998-04-01.pdf,39,NYSE,68 5/16,68.3125,67 3/4,69 7/8,41 1/4,"Tagesschluss; day H 69 1/2 T 68 3/16; two crops 5/16. Year columns restated (high 125 -> 69 7/8, low 82 1/2 -> 41 1/4): 2-for-1 split between 27 Feb and 31 March 1998."
+1998-04,1998-04-30,NZZ_1998-05-02.pdf,39,NYSE,80,80,,82 11/16,41 1/4,Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 83 1/2.
+1998-05,1998-05-29,NZZ_1998-05-30.pdf,39,NYSE,83 5/16,83.3125,83 1/2,92 1/4,41 1/4,Tagesschluss; day H 84 7/8 T 83 3/16; two crops agree.
+1998-06,1998-06-30,NZZ_1998-07-01.pdf,36,NYSE,106,106,104 7/8,109 3/4,41 1/4,Tagesschluss; day H 106.69 T 103 1/16; two crops agree.
+1998-07,1998-07-31,NZZ_1998-08-03.pdf,35,NYSE,117,117,117 9/16,140 1/2,41 1/4,Tagesschluss; day H 122 1/8 T 116; two crops agree.
+1998-08,1998-08-31,NZZ_1998-09-01.pdf,39,NYSE,81 15/16,81.9375,95 7/16,140 1/2,41 1/4,Tagesschluss; day H 98 3/4 T 80; two crops agree.
+1998-09,1998-09-30,NZZ_1998-10-01.pdf,39,NYSE,111 1/4,111.25,117 1/2,140 1/2,41 1/4,Tagesschluss; day H 114 15/16 T 110 1/8 (as printed); two crops agree.
+1998-10,1998-10-30,NZZ_1998-10-31.pdf,37,NYSE,127 1/16,127.0625,128 7/16,140 1/2,41 1/4,Tagesschluss; day H 129 11/16 T 126 1/16; two crops agree.
+1998-11,1998-11-30,NZZ_1998-12-01.pdf,39,NYSE,87 9/16,87.5625,94 11/16,95 5/8,20 3/4,Tagesschluss; day H 96 1/8 T 87 1/4; two crops agree. Year columns restated (140 1/2 / 41 1/4 -> 95 5/8 / 20 3/4): 2-for-1 split between 30 Oct and 30 Nov 1998.
+1998-12,1998-12-31,NZZ_1999-01-04.pdf,34,NYSE,160,160,,,,"Vortag column of the table 'Kurse vom 31. Dezember' (issue of 4.1.1999, only the Vortag column filled). It differs from the 30 Dec close 148 of the issue of 31.12.1998 (p.38: Vortag 153 1/4, H 159 3/4, T 20 3/4), so it is the 31 Dec close. Vector page."
+1999-01,1999-01-29,NZZ_1999-01-30.pdf,31,NYSE,175 11/16,175.6875,174 7/16,174 15/16,134,"Tagesschluss; day H 177 T 170 5/8; vector page, row and zoom agree."
+1999-02,1999-02-26,NZZ_1999-02-27.pdf,31,NYSE,88 15/16,88.9375,87 3/16,91 1/2,67,Tagesschluss; day H 89 3/4 T 86 1/8. Year columns restated (174 15/16 -> 91 1/2): 2-for-1 split between 29 Jan and 26 Feb 1999.
+1999-03,1999-03-31,NZZ_1999-04-01.pdf,30,NYSE,146,146,144 3/4,149,67,Tagesschluss; day H 153 3/4 T 142.
+1999-04,1999-04-30,NZZ_1999-05-03.pdf,37,NYSE,142 3/4,142.75,141 1/16,175,67,Tagesschluss; day H 147 1/2 T 136 1/8.
+1999-05,,NZZ_1999-06-01.pdf,,,,,,,,"Missing: 31 May 1999 was Memorial Day (NYSE closed); the issue of 1.6.1999 has no NYSE table, and the issue of 29.5.1999 (28 May close) is not in the set."
+1999-06,1999-06-30,NZZ_1999-07-01.pdf,28,NYSE,110 1/2,110.5,106 3/8,175,67,Tagesschluss; day H 113 1/4 T 104 5/16.
+1999-07,1999-07-30,NZZ_1999-07-31.pdf,25,NYSE,95 1/8,95.125,98 3/4,175,67,Tagesschluss; day H 100 7/16 T 95.
+1999-08,1999-08-31,NZZ_1999-09-01.pdf,30,NYSE,91 5/16,91.3125,93 3/8,199 1/2,17 1/4,Tagesschluss; day H 93 7/8 T 89 1/16. The year columns are from now on 52-week high/low restated for splits.
+1999-09,1999-09-30,NZZ_1999-10-01.pdf,30,NYSE,104,104,109 1/4,199 1/2,20 5/8,Tagesschluss; day H 109 9/16 T 103 13/16.
+1999-10,1999-10-29,NZZ_1999-10-30.pdf,31,NYSE,129 11/16,129.6875,122 3/8,175 1/2,21.09,Tagesschluss; day H 130 5/8 T 128 3/4 (as printed).
+1999-11,1999-11-30,NZZ_1999-12-01.pdf,30,NYSE,72 11/16,72.6875,80 1/16,87 3/4,10.55,Tagesschluss; day H 77 3/4 T 71 11/16. Year columns restated (175 1/2 -> 87 3/4): 2-for-1 split between 29 Oct and 30 Nov 1999.
+1999-12,1999-12-30,NZZ_1999-12-31.pdf,28,NYSE,76 9/16,76.5625,77 7/8,95.81,10.55,"Close of 30 Dec 1999, NOT of 31 Dec: the issue of 3.1.2000 (48 pages) has no USA/Kanada page. Day H 79 1/2 T 76 1/2. Used in aol.csv as the last close available for December (flagged in its header)."
+2000-01,2000-01-31,NZZ_2000-02-01.pdf,26,NYSE,56 15/16,56.9375,58 13/16,95.81,10.55,Tagesschluss; day H 58 3/4 T 55 1/4.
+2000-02,2000-02-29,NZZ_2000-03-01.pdf,29,NYSE,59,59,60 9/16,95.81,38.47,Tagesschluss; day H 61 15/16 T 58 9/16.
+2000-03,2000-03-31,NZZ_2000-04-01.pdf,31,NYSE,67 1/4,67.25,64 5/8,95.81,38.47,Tagesschluss; day H 68 T 63 7/8.
+2000-04,2000-04-28,NZZ_2000-04-29.pdf,30,NYSE,59 13/16,59.8125,60 1/4,95.81,38.47,Tagesschluss; day H 61 3/16 T 59 9/16.
+2000-05,2000-05-31,NZZ_2000-06-02.pdf,31,NYSE,53,53,,95.81,38.47,"Vortag column of the table 'Kurse vom 1. Juni' (= 31 May close); 1 June close also 53, day H 54 7/16 T 52 5/16."
+2000-06,2000-06-30,NZZ_2000-07-01.pdf,31,NYSE,52 3/4,52.75,52,95.81,38.47,Tagesschluss; day H 52 3/4 T 51 5/16.
+2000-07,2000-07-31,NZZ_2000-08-02.pdf,25,NYSE,53 5/16,53.3125,,95.81,36 1/4,Vortag column of the table 'Kurse vom 1. August' (= 31 July close); 1 Aug close 52 11/16.
+2000-08,2000-08-31,NZZ_2000-09-01.pdf,30,NYSE,58 5/8,58.625,59 9/16,95.81,36 1/4,Tagesschluss; day H 59 1/2 T 58 1/4 (as printed).
+2000-09,2000-09-29,NZZ_2000-09-30.pdf,30,NYSE,53 3/4,53.75,54.35,95.81,36 1/4,Tagesschluss; day H 54.66 T 53.19 (as printed).
+2000-10,2000-10-31,NZZ_2000-11-01.pdf,29,NYSE,50.43,50.43,47 3/4,95.81,36 1/4,Tagesschluss printed as a decimal; day H 50 1/2 T 47.7.
+2000-11,2000-11-30,NZZ_2000-12-01.pdf,30,NYSE,40.74,40.74,43.36,95.81,36 1/4,Tagesschluss; day H 41.99 T 39 (as printed).
+2000-12,2000-12-29,NZZ_2000-12-30.pdf,27,NYSE,34.8,34.8,35 1/4,83 3/8,34.48,Tagesschluss; day H 34.99 T 32.9; read in two separate passes. Still 'America Online'.
+2001-01,2001-01-31,NZZ_2001-02-01.pdf,29,NYSE,52.56,52.56,54.31,74 5/8,31.66,Now 'AOL Time Warner' (between Anh.-Busch and AON Corp.); 'America Online' no longer in the table. Day H 56 1/2 T 52.2.
+2001-02,2001-02-28,NZZ_2001-03-01.pdf,30,NYSE,44.03,44.03,44.7,74 5/8,31.66,Tagesschluss; AOL Time Warner; day H 45 1/2 T 42.26.
+2001-03,2001-03-30,NZZ_2001-03-31.pdf,31,NYSE,40.15,40.15,40 3/4,69 3/8,31.66,Tagesschluss; AOL Time Warner; day H 40.76 T 38.7.
+2001-04,2001-04-30,NZZ_2001-05-02.pdf,30,NYSE,50 1/2,50.5,,63 1/4,31.66,Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 51.96. AOL Time Warner.
+2001-05,2001-05-31,NZZ_2001-06-01.pdf,30,NYSE,52.23,52.23,51.1,63 1/4,31.66,Tagesschluss; AOL Time Warner; day H 52.9 T 51.
+2001-06,2001-06-29,NZZ_2001-06-30.pdf,29,NYSE,53,53,52.08,63 1/4,31.66,Tagesschluss; AOL Time Warner; day H 53.15 T 51.61.
+2001-07,2001-07-31,NZZ_2001-08-02.pdf,24,NYSE,45.45,45.45,,62.27,31.66,Vortag column of the table 'Kurse vom 1. August' (= 31 July close); 1 Aug close 46.08. AOL Time Warner.
+2001-08,2001-08-31,NZZ_2001-09-01.pdf,36,NYSE,37.35,37.35,36,62.27,31.66,Tagesschluss; AOL Time Warner; day H 37.99 T 35.85.
+2001-09,2001-09-28,NZZ_2001-09-29.pdf,36,NYSE,33.1,33.1,32.35,62.27,27.4,Tagesschluss; AOL Time Warner; day H 33.4 T 32.8 (as printed).
+2001-10,2001-10-31,NZZ_2001-11-01.pdf,33,NYSE,31.21,31.21,31.57,59.41,27.4,Tagesschluss; AOL Time Warner; day H 32.42 T 31.05.
+2001-11,2001-11-30,NZZ_2001-12-01_p37.pdf,1,S&P 500,34.9,34.9,35.38,58 1/2,27.42,"Tagesschluss column; day close 34.9, Vortag 35.38. Divisor 1."
+2001-12,2001-12-31,NZZ_2002-01-03_p21.pdf,1,S&P 500,32.1,32.1,32.1,58 1/2,27.42,"DOUBTFUL month in LOG: table 'Kurse vom 2. Januar'; Vortag column (= 31 Dec close, 1 Jan closed) taken; 2 Jan close 31.6. Divisor 1."
+2002-01,2002-01-31,NZZ_2002-02-01_p35.pdf,1,S&P 500,26.31,26.31,26.4,58 1/2,24.05,"Tagesschluss column; day close 26.31, Vortag 26.4. Divisor 1."
+2002-02,2002-02-28,NZZ_2002-03-01_p35.pdf,1,S&P 500,24.8,24.8,23 3/4,58 1/2,22.1,"Tagesschluss column; day close 24.8, Vortag 23 3/4. Divisor 1."
+2002-03,2002-03-28,NZZ_2002-03-30_p35.pdf,1,S&P 500,23.65,23.65,23.6,58 1/2,22.1,"Tagesschluss column; day close 23.65, Vortag 23.6. 28 March was the last trading day (29 March Good Friday). Divisor 1."
+2002-04,2002-04-30,NZZ_2002-05-02_p33.pdf,1,S&P 500,19.02,19.02,19.02,58 1/2,17.8,"DOUBTFUL month in LOG: table 'Kurse vom 30. April/1. Mai'; Vortag column (= 30 April close) taken; 1 May close 19.39. Divisor 1."
+2002-05,2002-05-31,NZZ_2002-06-01_p35.pdf,1,S&P 500,18.7,18.7,18 1/2,55,16.88,"Tagesschluss column; day close 18.7, Vortag 18 1/2. Divisor 1."
+2002-06,2002-06-28,NZZ_2002-06-29_p35.pdf,1,S&P 500,14.71,14.71,13.63,53.3,12.8,"Tagesschluss column; day close 14.71, Vortag 13.63. Divisor 1."
+2002-07,2002-07-31,NZZ_2002-08-02_p37.pdf,1,S&P 500,11 1/2,11.5,11 1/2,47 1/4,8.7,"DOUBTFUL month in LOG: table 'Kurse vom 1. August'; Vortag column (= 31 July close) taken; 1 Aug close 11.32. Divisor 1."
+2002-08,2002-08-30,NZZ_2002-08-31_p33.pdf,1,S&P 500,12.65,12.65,13.06,39.55,8.7,"Tagesschluss column; day close 12.65, Vortag 13.06. Divisor 1."
+2002-09,2002-09-30,NZZ_2002-10-01_p33.pdf,1,S&P 500,11.7,11.7,12.12,39.2,8.7,"Tagesschluss column; day close 11.7, Vortag 12.12. Divisor 1."
+2002-10,2002-10-31,NZZ_2002-11-01_p35.pdf,1,S&P 500,14 3/4,14.75,14.38,39.21,8.7,"Tagesschluss column; day close 14 3/4, Vortag 14.38. Divisor 1."
+2002-11,2002-11-29,NZZ_2002-11-30_p35.pdf,1,S&P 500,16.37,16.37,16.4,36.04,8.7,"Tagesschluss column; day close 16.37, Vortag 16.4. Divisor 1."
+2002-12,2002-12-31,NZZ_2003-01-03_p21.pdf,1,S&P 500,13.1,13.1,13.1,32.92,8.7,"DOUBTFUL month in LOG: table 'Kurse vom 2. Januar'; Vortag column (= 31 Dec close) taken; 2 Jan close 13.31. Divisor 1."
+2003-01,2003-01-31,NZZ_2003-02-01_p35.pdf,1,S&P 500,11.66,11.66,12,28.53,8.7,"Tagesschluss column; day close 11.66, Vortag 12. Divisor 1."
+2003-02,2003-02-28,NZZ_2003-03-01_p35.pdf,1,S&P 500,11.32,11.32,10.74,27.88,8.7,"Tagesschluss column; day close 11.32, Vortag 10.74. Divisor 1."
+2003-03,2003-03-31,NZZ_2003-04-01_p33.pdf,1,S&P 500,10.86,10.86,11.35,23.95,8.7,"Tagesschluss column; day close 10.86, Vortag 11.35. Divisor 1."
+2003-04,2003-04-30,NZZ_2003-05-02_p33.pdf,1,S&P 500,13.68,13.68,13.68,20.13,8.7,"DOUBTFUL month in LOG: table 'Kurse vom 30. April/1. Mai'; Vortag column (= 30 April close) taken; 1 May close 13.58. Divisor 1."
+2003-05,2003-05-30,NZZ_2003-05-31_p35.pdf,1,S&P 500,15.22,15.22,14.85,18.92,8.7,"Tagesschluss column; day close 15.22, Vortag 14.85. Divisor 1."
+2003-06,2003-06-30,NZZ_2003-07-01_p28.pdf,0,S&P 500,16.09,16.09,15.82,17.1,8.7,"Tagesschluss column; day close 16.09, Vortag 15.82. Divisor 1."
+2003-07,2003-07-31,NZZ_2003-08-02_p36.pdf,0,S&P 500,15.43,15.43,15.43,17.1,9.3,"DOUBTFUL month in LOG: table 'Kurse vom 1. August'; Vortag column (= 31 July close) taken; 1 Aug close 15.3. Divisor 1."
+2003-08,2003-08-29,NZZ_2003-08-30_p40.pdf,0,S&P 500,16.36,16.36,16.18,17.1,9.91,"Tagesschluss column; day close 16.36, Vortag 16.18. Divisor 1."
+2003-09,2003-09-30,NZZ_2003-10-01_p36.pdf,0,S&P 500,15.11,15.11,15,17.1,9.91,"Tagesschluss column; day close 15.11, Vortag 15. Last month as 'AOL Time Warner'. Divisor 1."
+2003-10,2003-10-31,NZZ_2003-11-01_p40.pdf,0,S&P 500,15.29,15.29,15.41,17.1,9.91,"Tagesschluss column; day close 15.29, Vortag 15.41. Row now 'Time Warner' (same place, between Anh.-Busch and AON Corp.). Divisor 1."
+2003-11,2003-11-28,NZZ_2003-11-29_p40.pdf,0,S&P 500,16.28,16.28,16.35,17.1,9.91,"Tagesschluss column; day close 16.28, Vortag 16.35. Time Warner, now sorted under T (Tiffany above, TJX below). Divisor 1."
+2003-12,2003-12-31,NZZ_2004-01-03_p32.pdf,0,S&P 500,17.99,17.99,17.99,18.31,9.91,"DOUBTFUL month in LOG: table 'Kurse vom 2. Januar'; Vortag column (= 31 Dec close) taken; 2 Jan close 18.22. Divisor 1."
+2004-01,2004-01-30,NZZ_2004-01-31_p38.pdf,0,S&P 500,17.57,17.57,17 3/4,19.3,9.91,"Tagesschluss column; day close 17.57, Vortag 17 3/4. Divisor 1."
+2004-02,2004-02-27,NZZ_2004-02-28_p38.pdf,0,S&P 500,17 1/4,17.25,17.47,19.3,10.27,"Tagesschluss column; day close 17 1/4, Vortag 17.47. Divisor 1."
+2004-03,2004-03-31,NZZ_2004-04-01_p36.pdf,0,S&P 500,16.86,16.86,16.88,19.3,10.8,"Tagesschluss column; day close 16.86, Vortag 16.88. Divisor 1."
+2004-04,2004-04-30,NZZ_2004-05-03_p38.pdf,0,S&P 500,16.82,16.82,16.97,19.3,12.95,"Tagesschluss column; day close 16.82, Vortag 16.97. Header 'Kurse vom 30. April': the 30 April close. Divisor 1."
+2004-05,2004-05-28,NZZ_2004-05-29_p38.pdf,0,S&P 500,17.04,17.04,17.19,19.3,14.72,"Tagesschluss column; day close 17.04, Vortag 17.19. 31 May Memorial Day; 28 May was the last trading day. Divisor 1."
+2004-06,2004-06-30,NZZ_2004-07-01_p40.pdf,0,S&P 500,17.58,17.58,17.4,19.3,14.72,"Tagesschluss column; day close 17.58, Vortag 17.4. Divisor 1."
+2004-07,2004-07-30,NZZ_2004-07-31_p36.pdf,0,S&P 500,16.65,16.65,16.53,19.3,14.72,"Tagesschluss column; day close 16.65, Vortag 16.53. Divisor 1."
+2004-08,2004-08-31,NZZ_2004-09-01_p40.pdf,0,S&P 500,16.35,16.35,16.4,19.3,14.77,"Tagesschluss column; day close 16.35, Vortag 16.4. Divisor 1."
+2004-09,2004-09-30,NZZ_2004-10-01_p38.pdf,0,S&P 500,16.14,16.14,16.07,19.3,14.77,"Tagesschluss column; day close 16.14, Vortag 16.07. Divisor 1."
+2004-10,2004-10-29,NZZ_2004-10-30_p40.pdf,0,S&P 500,16.64,16.64,16.48,19.3,15.24,"Tagesschluss column; day close 16.64, Vortag 16.48. Divisor 1."
+2004-11,2004-11-30,NZZ_2004-12-01_p38.pdf,0,S&P 500,17.71,17.71,17.82,19.3,15.47,"Tagesschluss column; day close 17.71, Vortag 17.82. Divisor 1."
+2004-12,2004-12-31,NZZ_2005-01-03_p20.pdf,0,S&P 500,19.44,19.44,19.41,19.85,15.47,"Tagesschluss column; day close 19.44, Vortag 19.41. Header 'Kurse vom 31. Dezember': the 31 Dec close. Divisor 1."
+2005-01,2005-01-31,NZZ_2005-02-01_p33.pdf,1,S&P 500,18,18,17.93,19.85,15.47,"Tagesschluss column; day close 18, Vortag 17.93. Divisor 1."
+2005-02,2005-02-28,NZZ_2005-03-01_p37.pdf,1,S&P 500,17.23,17.23,17.14,19.85,15.47,"Tagesschluss column; day close 17.23, Vortag 17.14. Divisor 1."
+2005-03,2005-03-31,NZZ_2005-04-01_p35.pdf,1,S&P 500,17.55,17.55,17.49,19.85,15.47,"Tagesschluss column; day close 17.55, Vortag 17.49. Divisor 1."
+2005-04,2005-04-29,NZZ_2005-04-30_p37.pdf,1,S&P 500,16.81,16.81,16.86,19.85,15.47,"Tagesschluss column; day close 16.81, Vortag 16.86. Divisor 1."
+2005-05,2005-05-31,NZZ_2005-06-01_p33.pdf,1,S&P 500,17.40,17.4,17.59,19.85,15.47,"Tagesschluss column; day close 17.40, Vortag 17.59. Divisor 1."
+2005-06,2005-06-30,NZZ_2005-07-01_p35.pdf,1,S&P 500,16.71,16.71,16.78,19.85,15.47,"Tagesschluss column; day close 16.71, Vortag 16.78. Divisor 1."
+2005-07,2005-07-29,NZZ_2005-07-30_p35.pdf,1,S&P 500,17.02,17.02,17.25,19.85,15.47,"Tagesschluss column; day close 17.02, Vortag 17.25. Divisor 1."
+2005-08,2005-08-31,NZZ_2005-09-01_p37.pdf,1,S&P 500,17.92,17.92,17.89,19.85,15.96,"Tagesschluss column; day close 17.92, Vortag 17.89. Divisor 1."
+2005-09,2005-09-30,NZZ_2005-10-01_p37.pdf,1,S&P 500,18.11,18.11,18.15,19.85,16.03,"Tagesschluss column; day close 18.11, Vortag 18.15. Divisor 1."
+2005-10,2005-10-31,NZZ_2005-11-01_p33.pdf,1,S&P 500,17.83,17.83,17.75,19.85,16.11,"Tagesschluss column; day close 17.83, Vortag 17.75. Divisor 1."
+2005-11,2005-11-30,NZZ_2005-12-01_p37.pdf,1,S&P 500,17.98,17.98,17.87,19.85,16.11,"Tagesschluss column; day close 17.98, Vortag 17.87. Divisor 1."
+2005-12,2005-12-30,NZZ_2005-12-31_p35.pdf,1,S&P 500,17.44,17.44,17.48,19.63,16.11,"Tagesschluss column; day close 17.44, Vortag 17.48. 30 Dec 2005 was the last trading day. Divisor 1."
+2006-01,2006-01-31,NZZ_2006-02-01_p33.pdf,1,S&P 500,17.53,17.53,17.55,19.00,16.11,"Tagesschluss column; day close 17.53, Vortag 17.55. Divisor 1."
+2006-02,2006-02-28,NZZ_2006-03-01_p35.pdf,1,S&P 500,17.31,17.31,17.31,19.00,16.11,"Tagesschluss column; day close 17.31, Vortag 17.31. Divisor 1."
+2006-03,2006-03-31,NZZ_2006-04-01_p39.pdf,1,S&P 500,16.79,16.79,16.85,19.00,16.11,"Tagesschluss column; day close 16.79, Vortag 16.85. Divisor 1."
+2006-04,2006-04-28,NZZ_2006-04-29_p39.pdf,1,S&P 500,17.40,17.4,17.36,19.00,16.11,"Tagesschluss column; day close 17.40, Vortag 17.36. Divisor 1."
+2006-05,2006-05-31,NZZ_2006-06-01_p35.pdf,1,S&P 500,17.21,17.21,17.22,19.00,16.11,"Tagesschluss column; day close 17.21, Vortag 17.22. Divisor 1."
+2006-06,2006-06-30,NZZ_2006-07-01_p35.pdf,1,S&P 500,17.30,17.3,17.29,19.00,16.11,"Tagesschluss column; day close 17.30, Vortag 17.29. Divisor 1."
+2006-07,2006-07-31,NZZ_2006-08-02_p33.pdf,1,S&P 500,16.50,16.5,16.50,19.00,15.70,"DOUBTFUL month in LOG: table 'Kurse vom 1. August'; Vortag column (= 31 July close) taken; 1 Aug close 16.25. Divisor 1."
+2006-08,2006-08-31,NZZ_2006-09-01_p35.pdf,1,S&P 500,16.62,16.62,16.58,19.00,15.70,"Tagesschluss column; day close 16.62, Vortag 16.58. Divisor 1."
+2006-09,2006-09-29,NZZ_2006-09-30_p39.pdf,1,S&P 500,18.23,18.23,18.20,18.89,15.70,"Tagesschluss column; day close 18.23, Vortag 18.20. Divisor 1."
+2006-10,2006-10-31,NZZ_2006-11-01_p35.pdf,1,S&P 500,20.01,20.01,19.94,20.07,15.70,"Tagesschluss column; day close 20.01, Vortag 19.94. Divisor 1."
+2006-11,2006-11-30,NZZ_2006-12-01_p37.pdf,1,S&P 500,20.14,20.14,20.33,20.91,15.70,"Tagesschluss column; day close 20.14, Vortag 20.33. Divisor 1."
+2006-12,2006-12-29,NZZ_2006-12-30_p33.pdf,1,S&P 500,21.78,21.78,22.00,22.25,15.70,"Tagesschluss column; day close 21.78, Vortag 22.00. 29 Dec 2006 was the last trading day. Divisor 1."
+2007-01,2007-01-31,NZZ_2007-02-01_p39.pdf,1,S&P 500,21.87,21.87,22.04,23.04,15.70,"Tagesschluss column; day close 21.87, Vortag 22.04. Divisor 1."
+2007-02,2007-02-28,NZZ_2007-03-01_p43.pdf,1,S&P 500,20.35,20.35,20.21,23.04,15.70,"Tagesschluss column; day close 20.35, Vortag 20.21. Divisor 1."
+2007-03,2007-03-30,NZZ_2007-03-31_p39.pdf,1,S&P 500,19.72,19.72,19.85,23.04,15.70,"Tagesschluss column; day close 19.72, Vortag 19.85. Divisor 1."
+2007-04,2007-04-30,NZZ_2007-05-02_p35.pdf,1,S&P 500,20.63,20.63,20.63,23.04,15.70,"DOUBTFUL month in LOG: table 'Kurse vom 30. April/1. Mai'; Vortag column (= 30 April close) taken; 1 May close 20.59. Divisor 1."
+2007-05,2007-05-31,NZZ_2007-06-01_p35.pdf,1,S&P 500,21.37,21.37,21.55,23.04,15.70,"Tagesschluss column; day close 21.37, Vortag 21.55. Divisor 1."
+2007-06,2007-06-29,NZZ_2007-06-30_p39.pdf,1,S&P 500,21.04,21.04,21.21,23.04,15.70,"Tagesschluss column; day close 21.04, Vortag 21.21. Divisor 1."
+2007-07,2007-07-31,NZZ_2007-08-02_p31.pdf,1,S&P 500,19.26,19.26,19.26,23.04,15.77,"DOUBTFUL month in LOG: table 'Kurse vom 1. August'; Vortag column (= 31 July close) taken; 1 Aug close 18.64. Divisor 1."
+2007-08,2007-08-31,NZZ_2007-09-01_p39.pdf,1,S&P 500,18.98,18.98,18.61,23.04,16.64,"Tagesschluss column; day close 18.98, Vortag 18.61. Divisor 1."
+2007-09,2007-09-28,NZZ_2007-09-29_p43.pdf,1,S&P 500,18.36,18.36,18.20,23.04,17.77,"Tagesschluss column; day close 18.36, Vortag 18.20. Divisor 1."
+2007-10,2007-10-31,NZZ_2007-11-01_p39.pdf,1,S&P 500,18.26,18.26,17.97,23.04,17.60,"Tagesschluss column; day close 18.26, Vortag 17.97. Divisor 1."
+2007-11,2007-11-30,NZZ_2007-12-01_p41.pdf,1,S&P 500,17.26,17.26,17.29,23.04,16.17,"Tagesschluss column; day close 17.26, Vortag 17.29. Divisor 1."
+2007-12,2007-12-31,NZZ_2008-01-03_p28.pdf,0,S&P 500,16.51,16.51,16.51,23.04,16.17,"DOUBTFUL month in LOG: table 'Kurse vom 2. Januar'; Vortag column (= 31 Dec close) taken; 2 Jan close 16.29. Divisor 1."
+2008-01,2008-01-31,NZZ_2008-02-01_p35.pdf,1,S&P 500,15.74,15.74,15.39,21.96,14.64,"Tagesschluss column; day close 15.74, Vortag 15.39. Divisor 1."
+2008-02,2008-02-29,NZZ_2008-03-01_p37.pdf,1,S&P 500,15.61,15.61,16.02,21.96,14.64,"Tagesschluss column; day close 15.61, Vortag 16.02. Divisor 1."
+2008-03,2008-03-31,NZZ_2008-04-01_p35.pdf,1,S&P 500,14.02,14.02,13.87,21.96,13.72,"Tagesschluss column; day close 14.02, Vortag 13.87. Divisor 1."
+2008-04,2008-04-30,NZZ_2008-05-02_p35.pdf,1,S&P 500,14.85,14.85,14.85,21.96,13.72,"DOUBTFUL month in LOG: table 'Kurse vom 30. April/1. Mai'; Vortag column (= 30 April close) taken; 1 May close 15.65. Divisor 1."
+2008-05,2008-05-30,NZZ_2008-05-31_p39.pdf,1,S&P 500,15.88,15.88,16.08,21.96,13.72,"Tagesschluss column; day close 15.88, Vortag 16.08. Divisor 1."
+2008-06,2008-06-30,NZZ_2008-07-01_p33.pdf,1,S&P 500,14.80,14.8,14.42,21.51,13.72,"Tagesschluss column; day close 14.80, Vortag 14.42. Divisor 1."
+2008-07,2008-07-31,NZZ_2008-08-02_p33.pdf,1,S&P 500,14.32,14.32,14.32,19.34,13.50,"DOUBTFUL month in LOG: table 'Kurse vom 1. August'; Vortag column (= 31 July close) taken; 1 Aug close 14.23. Divisor 1."
+2008-08,2008-08-29,NZZ_2008-08-30_p39.pdf,1,S&P 500,16.37,16.37,16.25,19.34,13.50,"Tagesschluss column; day close 16.37, Vortag 16.25. Divisor 1."
+2008-09,2008-09-30,NZZ_2008-10-01_p37.pdf,1,S&P 500,13.11,13.11,12.90,19.20,12.68,"Tagesschluss column; day close 13.11, Vortag 12.90. Divisor 1."
+2008-10,2008-10-31,NZZ_2008-11-01_p35.pdf,1,S&P 500,10.09,10.09,9.96,18.55,8.68,"Tagesschluss column; day close 10.09, Vortag 9.96. Divisor 1."
+2008-11,2008-11-28,NZZ_2008-11-29_p37.pdf,1,S&P 500,9.05,9.05,8.65,17.50,7.00,"Tagesschluss column; day close 9.05, Vortag 8.65. Divisor 1."
+2008-12,2008-12-31,NZZ_2009-01-03_p28.pdf,0,S&P 500,10.06,10.06,10.06,16.90,7.00,"DOUBTFUL month in LOG: table 'Kurse vom 2. Januar'; Vortag column (= 31 Dec close) taken; 2 Jan close 10.63. Divisor 1."
+2009-01,2009-01-30,NZZ_2009-01-31_p33.pdf,1,S&P 500,9.33,9.33,9.90,16.90,7.00,"Tagesschluss column; day close 9.33, Vortag 9.90. Divisor 1."
+2009-02,2009-02-27,NZZ_2009-02-28_p33.pdf,1,S&P 500,7.63,7.63,7.54,16.90,7.00,"Tagesschluss column; day close 7.63, Vortag 7.54. Last month before the 1-for-3 reverse split. Divisor 1."
+2009-03,2009-03-31,NZZ_2009-04-01_p33.pdf,1,S&P 500,19.30,19.3,18.23,50.70,18.00,"Tagesschluss column; day close 19.30, Vortag 18.23. Post reverse split (effective 7 p.m. 27 March 2009) and ex the Time Warner Cable distribution: price 7.63 -> 19.30, 52-week high restated 16.90 -> 50.70 (x3). Row 'Time Warner Cbl' below: close 24.80, Vortag 25.25, day H 25.45 T 24.69, 52w 27.98/21.00. Divisor 3. On the file's basis 6.433333."
+2009-04,2009-04-30,NZZ_2009-05-02_p33.pdf,1,S&P 500,21.83,21.83,21.83,50.70,18.00,"DOUBTFUL month in LOG: table 'Kurse vom 30. April/1. Mai'; Vortag column (= 30 April close) taken; 1 May close 22.84. Divisor 3. On the file's basis 7.276667."
+2009-05,2009-05-29,NZZ_2009-05-30_p33.pdf,1,S&P 500,23.42,23.42,23.55,50.70,18.00,"Tagesschluss column; day close 23.42, Vortag 23.55. Divisor 3. On the file's basis 7.806667."
+2009-06,2009-06-30,NZZ_2009-07-01_p31.pdf,1,S&P 500,25.19,25.19,25.33,50.70,18.00,"Tagesschluss column; day close 25.19, Vortag 25.33. Divisor 3. On the file's basis 8.396667."
+2009-07,2009-07-31,NZZ_2009-08-03_p25.pdf,1,S&P 500,26.66,26.66,26.81,50.70,18.00,"Tagesschluss column; day close 26.66, Vortag 26.81. Header 'Kurse vom 31. Juli': the 31 July close. Divisor 3. On the file's basis 8.886667."
+2009-08,2009-08-31,NZZ_2009-09-01_p31.pdf,1,S&P 500,27.91,27.91,28.33,50.70,18.00,"Tagesschluss column; day close 27.91, Vortag 28.33. Divisor 3. On the file's basis 9.303333."
+2009-09,,NZZ_2009-10-01_p41.pdf,1,S&P 500,,,,,,"Missing: the table of the issue of 1.10.2009 (30 Sep closes) has no Time Warner row (nor Time Warner Cable): Tiffany is followed by Titanium Metals and TJX Companies. Left out of aol.csv (the build fills one month)."
+2009-10,2009-10-30,NZZ_2009-10-31_p40.pdf,0,S&P 500,30.12,30.12,30.67,33.66,17.81,"Tagesschluss column; day close 30.12, Vortag 30.67. New layout from autumn 2009: columns 52w H/T, name, Schluss of the previous day, volume, Schluss of the day (bold), change %; header 'Schluss 30.10.'. Row 'Time Warner New' (Time Warner Cable above). Divisor 3. On the file's basis 10.04."
+2009-11,2009-11-30,NZZ_2009-12-01_p33.pdf,1,S&P 500,30.72,30.72,30.85,33.45,17.81,"Tagesschluss column; day close 30.72, Vortag 30.85. New layout; header 'Schluss 30.11.'; row 'Time Warner New'. Divisor 3. On the file's basis 10.24."
+2009-12,2009-12-31,NZZ_2010-01-04_p26.pdf,0,S&P 500,29.14,29.14,29.25,33.45,17.81,"Tagesschluss column; day close 29.14, Vortag 29.25. New layout; header 'Schluss 31.12.' (the issue of 4.1.2010 carries the 31 Dec close, so not doubtful); row 'Time Warner New'. Divisor 3. On the file's basis 9.713333."

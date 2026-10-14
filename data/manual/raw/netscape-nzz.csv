@@ -1,0 +1,62 @@
+# Netscape Communications: month-end readings from the Neue Zuercher Zeitung, read by eye on 2026-10-14.
+# Source: scanned month-end issues data/manual/scans/nzz/NZZ_YYYY-MM-DD.pdf, page "USA/Kanada", table "Nasdaq"
+# (right-hand column of the page, under the "New York Stock Exchange" box), row "Netscape Comm.". Prices in USD,
+# fractions as printed; decimal_close is the exact value of the printed fraction. Nothing from memory or Yahoo.
+# How the pages were found: header strips of pages 18 to 55 of every issue stacked on one sheet (page title
+# "USA/Kanada" / "Aktien USA/Kanada"), checked on a thumbnail sheet where unclear; pdf_page_index is 0-based
+# (the 1-based page is one higher). From 1999 the PDFs are vector pages with a text layer; the text layer was used
+# only to locate the row, all values were read from rendered crops.
+# How the values were read: for each issue an overview of the page (header, NYSE A block, Nasdaq column, 760 px per
+# column), then a crop of the row (about a quarter of the page wide, 2400 px) and a zoom of the price columns
+# (1500 to 1800 px); doubtful fractions also from the native scan pixels enlarged 12x. 1995 to 1997 scans are coarse:
+# fraction digits are 2 to 4 pixels high, the numerator 1 (a thin stroke) can be told from 3/5/7, the denominator
+# 4/8/16 often not; such rows say DOUBTFUL. 1998 is sharper, 1999 on is sharp vector type.
+# trading_date is the date of the value taken, from the table header "Kurse vom <date>". Where the issue carries the
+# first trading day of the next month (1 May, 1 August, 2 January), the Vortag column (the previous trading day =
+# month end) was taken, and the note says so.
+# Crops and the working log: scratchpad nsaol/ (log.txt, ov/, rows/, r_*.jpg, g_*.png) of session 6ff800c7.
+month,trading_date,issue_file,pdf_page_index,table,printed_close,decimal_close,printed_vortag,year_high,year_low,notes
+1995-08,,NZZ_1995-09-01.pdf,40,Nasdaq,,,,,,Not in the table: the Nasdaq table of this issue (Kurse vom 31. August) is a bid/ask list without Netscape (Multimedia is followed by NEXTEL). Missing.
+1995-09,1995-09-29,NZZ_1995-09-30.pdf,39,Nasdaq,62 1/2,62.5,64,75,45 3/4,"Tagesschluss; day H 64 3/4 T 61 1/4; two crops (1600, 2600 px) agree. Pre-split."
+1995-10,1995-10-31,NZZ_1995-11-01.pdf,39,Nasdaq,88,88,88 1/2,88 1/2,45 3/4,Tagesschluss; day H 91 1/4 T 87 1/2; two crops agree. Pre-split.
+1995-11,1995-11-30,NZZ_1995-12-01.pdf,39,Nasdaq,138 1/4,138.25,140,142 1/4,45 3/4,"Tagesschluss; day H 140 3/4 T 133 1/4; three crops (1400, 2800 px, 1800 px close zoom); the fraction is the same glyph as in 133 1/4. Pre-split."
+1995-12,1995-12-29,NZZ_1995-12-30.pdf,34,Nasdaq,139,139,137 1/4,,45 3/4,Tagesschluss of 29 Dec (31 Dec a Sunday); day H 140 T 133 1/2; two crops agree; year high cut off in the crops. Pre-split.
+1996-01,1996-01-31,NZZ_1996-02-01.pdf,37,Nasdaq,164 1/4,164.25,167,172,117 1/2,Tagesschluss; day H 167 3/4 T 162 3/4; two crops agree. Year columns now 1996. Still pre-split.
+1996-02,1996-02-29,NZZ_1996-03-01.pdf,39,Nasdaq,51,51,51 1/2,86,47 1/4,Tagesschluss; day H 54 1/4 T 49 3/4; two crops agree. Year high 86 = 172/2: the 2-for-1 split shows between 31 Jan and 29 Feb 1996.
+1996-03,1996-03-29,NZZ_1996-03-30.pdf,39,Nasdaq,41 1/4,41.25,38 1/2,86,34 3/4,"Tagesschluss; day H 42 1/2 T 39 1/4; three crops (1000, 2400, 1500 px), thin numerator = 1/4."
+1996-04,1996-04-30,NZZ_1996-05-02.pdf,39,Nasdaq,61,61,,86,34 3/4,"Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 59 5/8?, day H 61 1/4 T 58 3/4; two crops agree on 61."
+1996-05,1996-05-31,NZZ_1996-06-01.pdf,39,Nasdaq,68 1/16,68.0625,70,86,34 3/4,"Tagesschluss; day H 71 1/4 T 67 1/2. DOUBTFUL fraction: 68 and the denominator 16 clear in three crops and the native pixels; the numerator a faint single stroke, read as 1."
+1996-06,1996-06-28,NZZ_1996-06-29.pdf,39,Nasdaq,62 3/4,62.75,61,86,34 3/4,Tagesschluss; day H 63 3/4 T 61 1/4; three crops agree.
+1996-07,1996-07-31,NZZ_1996-08-02.pdf,35,Nasdaq,39 1/2,39.5,,86,34 3/4,"Vortag column of the table 'Kurse vom 1. August' (= 31 July close); 1 Aug close 43 3/4. A first crop (900 px) suggested 39 1/4; two zooms (2400, 1400 px) show the denominator 2: 39 1/2."
+1996-08,1996-08-30,NZZ_1996-08-31.pdf,39,Nasdaq,35 1/8,35.125,36 1/4,86,34 3/4,"Tagesschluss; day H 36 1/4? T 34 1/4. DOUBTFUL fraction: denominator 8, numerator a thin stroke read as 1 (three crops and native pixels)."
+1996-09,1996-09-30,NZZ_1996-10-01.pdf,39,Nasdaq,46 5/8,46.625,49 1/2,86,34 3/4,"Tagesschluss; day H 49 1/2 T 45 1/4. DOUBTFUL fraction: the numerator a blob (3, 5 or 7)/8, read 5/8."
+1996-10,1996-10-31,NZZ_1996-11-01.pdf,37,Nasdaq,44 1/8,44.125,46 1/8,86,34 1/2,"Tagesschluss; day H 45 3/4 T 43. DOUBTFUL fraction: numerator thin = 1, denominator unclear (8 or 4) in three crops and the native pixels; read 1/8."
+1996-11,,NZZ_1996-11-30.pdf,,,,,,,,Missing: the Saturday issue of 30.11.1996 has no USA/Kanada page (Europa and Asien only); no other late-November issue is in the set.
+1996-12,1996-12-31,NZZ_1997-01-03.pdf,41,Nasdaq,56 1/8,56.125,,86,34 1/2,"Vortag column of the table 'Kurse vom 2. Januar' (= 31 Dec close); 2 Jan close 55 1/2. DOUBTFUL fraction (numerator thin, read 1/8). The issue of 31.12.1996 (Kurse vom 30. Dezember) gives the 30 Dec close 55."
+1997-01,1997-01-31,NZZ_1997-02-01.pdf,38,Nasdaq,38,38,35 5/8,59 1/4,35 5/8,"NOT A CLOSE: boxed note on the page: owing to technical problems the quotes are those of 15.30 New York time. Column 'Tagesschluss' 38, day H 38 1/8 T 37 1/8. Left out of netscape.csv."
+1997-02,1997-02-28,NZZ_1997-03-01.pdf,39,Nasdaq,29 1/8,29.125,28 1/4,59 1/4,28 1/4,Tagesschluss; day H 29 5/8 T 27 3/4. DOUBTFUL fraction (1/8 or 5/8; the numerator looks thin).
+1997-03,1997-03-31,NZZ_1997-04-01.pdf,34,Nasdaq,30 1/16,30.0625,31 1/8,59 1/4,25 1/2,"Tagesschluss; day H 31 1/4 T 29 1/4. DOUBTFUL fraction (numerator thin, /16)."
+1997-04,1997-04-30,NZZ_1997-05-02.pdf,39,Nasdaq,27 1/16,27.0625,,59 1/4,22 3/4,"Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 26 7/8?, day H 27 5/8 T 26. DOUBTFUL fraction (numerator thin)."
+1997-05,1997-05-30,NZZ_1997-05-31.pdf,39,Nasdaq,29 9/16,29.5625,28 3/4,59 1/4,22 3/4,"Tagesschluss; day H 29 7/8? T 27 1/2. DOUBTFUL fraction: denominator 16, numerator a wide blob (not 1), read 9."
+1997-06,1997-06-30,NZZ_1997-07-01.pdf,39,Nasdaq,32 1/16,32.0625,33 1/2,59 1/4,22 3/4,Tagesschluss; day H 33 T 31 1/2; two crops agree (numerator thin).
+1997-07,1997-07-31,NZZ_1997-08-02.pdf,37,Nasdaq,36 11/16,36.6875,,59 1/4,22 3/4,"Vortag column of the table 'Kurse vom 1. August' (= 31 July close); 1 Aug close 37 1/4, day H 38 T 36 3/4."
+1997-08,1997-08-29,NZZ_1997-08-30.pdf,39,Nasdaq,39 11/16,39.6875,38 5/8,59 1/4,22 3/4,"Tagesschluss; day H 40 1/16 T 38. DOUBTFUL fraction: two-digit numerator, 11 most likely (13 or 15 possible)."
+1997-09,1997-09-30,NZZ_1997-10-01.pdf,39,Nasdaq,36,36,38 1/2,59 1/4,22 3/4,"Tagesschluss; day H 38 5/8 T 35 3/4; whole number, two crops."
+1997-10,1997-10-31,NZZ_1997-11-01.pdf,38,Nasdaq,32 7/8,32.875,32 11/16,59 1/4,22 3/4,Tagesschluss; day H 34 15/16 T 32 5/8. DOUBTFUL fraction (5/8 or 7/8).
+1997-11,1997-11-28,NZZ_1997-11-29.pdf,39,Nasdaq,28 1/2,28.5,27 7/16,59 1/4,22 3/4,Tagesschluss; day H 28 3/4 T 27 3/8; two crops agree.
+1997-12,1997-12-31,NZZ_1998-01-03.pdf,41,Nasdaq,24 3/8,24.375,,59 1/4,22 3/4,Vortag column of the table 'Kurse vom 2. Januar' (= 31 Dec close; year columns still 1997); 2 Jan close 23 3/4. DOUBTFUL fraction (3/8 or 5/8). The issue of 31.12.1997 (Kurse vom 30. Dezember) gives the 30 Dec close 26 1/8?.
+1998-01,1998-01-30,NZZ_1998-01-31.pdf,39,Nasdaq,16 1/16,16.0625,16 3/8,24 7/8,14 7/8,Tagesschluss; day H 16 5/8 T 15 7/8; two crops agree (sharper print from 1998).
+1998-02,1998-02-27,NZZ_1998-02-28.pdf,39,Nasdaq,19 3/8,19.375,18 13/16,24 7/8,14 7/8,Tagesschluss; day H 20 7/8 T 18 15/16; two crops agree.
+1998-03,1998-03-31,NZZ_1998-04-01.pdf,39,Nasdaq,18 3/16,18.1875,18 7/8,24 7/8,14 7/8,Tagesschluss; day H 19 1/16 T 18 1/8; two crops agree.
+1998-04,1998-04-30,NZZ_1998-05-02.pdf,39,Nasdaq,27 5/16,27.3125,,29 3/16,14 7/8,"Vortag column of the table 'Kurse vom 1. Mai' (= 30 April close); 1 May close 27 11/16, day H 28 T 27 1/8."
+1998-05,1998-05-29,NZZ_1998-05-30.pdf,39,Nasdaq,24 1/2,24.5,25 1/8,32,14 7/8,Tagesschluss; day H 25 1/4 T 23 5/8; two crops agree.
+1998-06,1998-06-30,NZZ_1998-07-01.pdf,36,Nasdaq,27 7/16,27.4375,27 7/8,32,14 7/8,Tagesschluss; day H 28 7/16? T 26 7/8. Two crops left 1/16 or 7/16 open; a third crop (1800 px) shows 7/16.
+1998-07,1998-07-31,NZZ_1998-08-03.pdf,35,Nasdaq,28 9/16,28.5625,31 1/4,44 1/2,14 7/8,Tagesschluss; day H 31 13/16 T 28 3/8; two crops agree.
+1998-08,1998-08-31,NZZ_1998-09-01.pdf,39,Nasdaq,18,18,23 1/2,44 1/2,14 7/8,Tagesschluss; day H 24 5/8 T 17 1/2; two crops agree.
+1998-09,1998-09-30,NZZ_1998-10-01.pdf,39,Nasdaq,21 7/8,21.875,23,44 1/2,14 7/8,Tagesschluss; day H 22 7/8 T 21 5/16 (as printed); two crops agree.
+1998-10,1998-10-30,NZZ_1998-10-31.pdf,37,Nasdaq,21 7/16,21.4375,22 9/16,44 1/2,14 7/8,Tagesschluss; day H 22 3/4 T 21; two crops agree.
+1998-11,1998-11-30,NZZ_1998-12-01.pdf,39,Nasdaq,37,37,39 15/16,45 1/4,14 7/8,Tagesschluss; day H 40 21/32 T 36 5/8; two crops agree.
+1998-12,1998-12-31,NZZ_1999-01-04.pdf,34,Nasdaq,60 3/4,60.75,,,,"Vortag column of the table 'Kurse vom 31. Dezember' in the issue of 4.1.1999: only the Vortag column is filled, all others '-'. It differs from the 30 Dec close (62 3/8 in the issue of 31.12.1998, p.38: Vortag 66 5/16, H 69 1/4, T 14 7/8), so it is the 31 Dec close. Vector page; row and zoom agree."
+1999-01,1999-01-29,NZZ_1999-01-30.pdf,31,Nasdaq,73 13/16,73.8125,73 5/8,74 7/8,52 7/8,"Tagesschluss; day H 74 13/16 T 71 1/2; vector page (sharp type), row and zoom agree."
+1999-02,1999-02-26,NZZ_1999-02-27.pdf,31,Nasdaq,77 7/16,77.4375,75 3/4,80,52 7/8,"Tagesschluss; day H 78 5/8 T 75; vector page, row and zoom agree. Last quote found."
+1999-03,1999-03-31,NZZ_1999-04-01.pdf,30,Nasdaq,,,,,,"Not listed: the Nasdaq N block runs Medaphis, Molex, Networks Assoc., Nextel Comm. (takeover by America Online completed 17 March 1999)."

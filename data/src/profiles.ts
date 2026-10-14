@@ -317,6 +317,20 @@ export const PROFILES: Record<string, CompanyProfile> = {
       { from: "2000-02", tagline: "Because pets can't drive.", about: "Sells pet food and supplies over the internet and delivers them to the door. It is famous for the sock puppet in its television advertising, and it is spending far more than it earns to win customers." },
     ],
   },
+  netscape: {
+    country: "United States", sector: "Internet software",
+    versions: [
+      { from: "1995-09", tagline: "Our Navigator is how the world sees the web, and every company will need our software to do business on it.", about: "Makes Netscape Navigator, the most widely used program for viewing pages on the World Wide Web, and sells server software to companies building web sites. Founded in Mountain View, California, in 1994, it is growing very fast." },
+    ],
+  },
+  aol: {
+    country: "United States", sector: "Internet and media",
+    versions: [
+      { from: "1997-02", tagline: "We are bringing the internet to everyone, for one flat monthly price.", about: "America Online, of Dulles, Virginia, is the biggest online service: for a monthly fee its more than 8 million members get e-mail, chat, news and access to the internet. Its network is struggling to keep up with demand since it introduced unlimited use." },
+      { from: "2001-01", tagline: "The first media company of the internet age: our content, delivered everywhere.", about: "AOL Time Warner, formed when America Online took over Time Warner, owns the AOL online service, CNN, HBO, Time magazine, the Warner Bros. film studio, music labels and the second-largest American cable television network." },
+      { from: "2003-10", tagline: "Great brands in film, television, publishing and the internet, run for steady growth.", about: "Time Warner, the world's largest media company, owns the Warner Bros. studio, CNN, HBO and other television channels, Time Inc. magazines, Time Warner Cable and the AOL internet service. Until October 2003 it was called AOL Time Warner." },
+    ],
+  },
 };
 
 /** Profile of gold. */

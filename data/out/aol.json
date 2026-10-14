@@ -1,0 +1,338 @@
+{
+ "id": "aol",
+ "name": "America Online",
+ "renames": [
+  {
+   "from": "2001-01",
+   "name": "AOL Time Warner"
+  },
+  {
+   "from": "2003-10",
+   "name": "Time Warner"
+  }
+ ],
+ "country": "United States",
+ "sector": "Internet and media",
+ "profiles": [
+  {
+   "from": "1997-02",
+   "tagline": "We are bringing the internet to everyone, for one flat monthly price.",
+   "about": "America Online, of Dulles, Virginia, is the biggest online service: for a monthly fee its more than 8 million members get e-mail, chat, news and access to the internet. Its network is struggling to keep up with demand since it introduced unlimited use."
+  },
+  {
+   "from": "2001-01",
+   "tagline": "The first media company of the internet age: our content, delivered everywhere.",
+   "about": "AOL Time Warner, formed when America Online took over Time Warner, owns the AOL online service, CNN, HBO, Time magazine, the Warner Bros. film studio, music labels and the second-largest American cable television network."
+  },
+  {
+   "from": "2003-10",
+   "tagline": "Great brands in film, television, publishing and the internet, run for steady growth.",
+   "about": "Time Warner, the world's largest media company, owns the Warner Bros. studio, CNN, HBO and other television channels, Time Inc. magazines, Time Warner Cable and the AOL internet service. Until October 2003 it was called AOL Time Warner."
+  }
+ ],
+ "logos": [
+  {
+   "from": "1997-02",
+   "file": "aol/1997.svg"
+  },
+  {
+   "from": "2001-01",
+   "file": "aol/2001.svg"
+  },
+  {
+   "from": "2003-10",
+   "file": "aol/2003.svg"
+  }
+ ],
+ "kind": "stock",
+ "currency": "USD",
+ "source": "manual/aol.csv",
+ "notes": "Month-end closes read from the NZZ New York table, see manual/aol.csv. America Online shares after the split of November 1999, exchanged one for one into AOL Time Warner in January 2001.",
+ "rows": [
+  {
+   "month": "1997-02",
+   "price": 2.3438,
+   "income": 0
+  },
+  {
+   "month": "1997-03",
+   "price": 2.6328,
+   "income": 0
+  },
+  {
+   "month": "1997-04",
+   "price": 2.8203,
+   "income": 0
+  },
+  {
+   "month": "1997-05",
+   "price": 3.4531,
+   "income": 0
+  },
+  {
+   "month": "1997-06",
+   "price": 3.4766,
+   "income": 0
+  },
+  {
+   "month": "1997-07",
+   "price": 4.2188,
+   "income": 0
+  },
+  {
+   "month": "1997-08",
+   "price": 4.0313,
+   "income": 0
+  },
+  {
+   "month": "1997-09",
+   "price": 4.6914,
+   "income": 0
+  },
+  {
+   "month": "1997-10",
+   "price": 4.8125,
+   "income": 0
+  },
+  {
+   "month": "1997-11",
+   "price": 4.7188,
+   "income": 0
+  },
+  {
+   "month": "1997-12",
+   "price": 5.5742,
+   "income": 0
+  },
+  {
+   "month": "1998-01",
+   "price": 5.9805,
+   "income": 0
+  },
+  {
+   "month": "1998-02",
+   "price": 7.5703,
+   "income": 0
+  },
+  {
+   "month": "1998-03",
+   "price": 8.5391,
+   "income": 0
+  },
+  {
+   "month": "1998-04",
+   "price": 10,
+   "income": 0
+  },
+  {
+   "month": "1998-05",
+   "price": 10.4141,
+   "income": 0
+  },
+  {
+   "month": "1998-06",
+   "price": 13.25,
+   "income": 0
+  },
+  {
+   "month": "1998-07",
+   "price": 14.625,
+   "income": 0
+  },
+  {
+   "month": "1998-08",
+   "price": 10.2422,
+   "income": 0
+  },
+  {
+   "month": "1998-09",
+   "price": 13.9063,
+   "income": 0
+  },
+  {
+   "month": "1998-10",
+   "price": 15.8828,
+   "income": 0
+  },
+  {
+   "month": "1998-11",
+   "price": 21.8906,
+   "income": 0
+  },
+  {
+   "month": "1998-12",
+   "price": 40,
+   "income": 0
+  },
+  {
+   "month": "1999-01",
+   "price": 43.9219,
+   "income": 0
+  },
+  {
+   "month": "1999-02",
+   "price": 44.4688,
+   "income": 0
+  },
+  {
+   "month": "1999-03",
+   "price": 73,
+   "income": 0
+  },
+  {
+   "month": "1999-04",
+   "price": 71.375,
+   "income": 0
+  },
+  {
+   "month": "1999-05",
+   "price": 71.375,
+   "income": 0
+  },
+  {
+   "month": "1999-06",
+   "price": 55.25,
+   "income": 0
+  },
+  {
+   "month": "1999-07",
+   "price": 47.5625,
+   "income": 0
+  },
+  {
+   "month": "1999-08",
+   "price": 45.6563,
+   "income": 0
+  },
+  {
+   "month": "1999-09",
+   "price": 52,
+   "income": 0
+  },
+  {
+   "month": "1999-10",
+   "price": 64.8438,
+   "income": 0
+  },
+  {
+   "month": "1999-11",
+   "price": 72.6875,
+   "income": 0
+  },
+  {
+   "month": "1999-12",
+   "price": 76.5625,
+   "income": 0
+  },
+  {
+   "month": "2000-01",
+   "price": 56.9375,
+   "income": 0
+  },
+  {
+   "month": "2000-02",
+   "price": 59,
+   "income": 0
+  },
+  {
+   "month": "2000-03",
+   "price": 67.25,
+   "income": 0
+  },
+  {
+   "month": "2000-04",
+   "price": 59.8125,
+   "income": 0
+  },
+  {
+   "month": "2000-05",
+   "price": 53,
+   "income": 0
+  },
+  {
+   "month": "2000-06",
+   "price": 52.75,
+   "income": 0
+  },
+  {
+   "month": "2000-07",
+   "price": 53.3125,
+   "income": 0
+  },
+  {
+   "month": "2000-08",
+   "price": 58.625,
+   "income": 0
+  },
+  {
+   "month": "2000-09",
+   "price": 53.75,
+   "income": 0
+  },
+  {
+   "month": "2000-10",
+   "price": 50.43,
+   "income": 0
+  },
+  {
+   "month": "2000-11",
+   "price": 40.74,
+   "income": 0
+  },
+  {
+   "month": "2000-12",
+   "price": 34.8,
+   "income": 0
+  },
+  {
+   "month": "2001-01",
+   "price": 52.56,
+   "income": 0
+  },
+  {
+   "month": "2001-02",
+   "price": 44.03,
+   "income": 0
+  },
+  {
+   "month": "2001-03",
+   "price": 40.15,
+   "income": 0
+  },
+  {
+   "month": "2001-04",
+   "price": 50.5,
+   "income": 0
+  },
+  {
+   "month": "2001-05",
+   "price": 52.23,
+   "income": 0
+  },
+  {
+   "month": "2001-06",
+   "price": 53,
+   "income": 0
+  },
+  {
+   "month": "2001-07",
+   "price": 45.45,
+   "income": 0
+  },
+  {
+   "month": "2001-08",
+   "price": 37.35,
+   "income": 0
+  },
+  {
+   "month": "2001-09",
+   "price": 33.1,
+   "income": 0
+  },
+  {
+   "month": "2001-10",
+   "price": 31.21,
+   "income": 0
+  }
+ ]
+}

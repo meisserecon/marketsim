@@ -10,6 +10,9 @@ month,price,income
 
 - `price`: month-end close per share in the asset's currency (as declared in the universe).
 - `income`: dividend per share paid that month, same currency. Omit or 0 if none.
+- `spinoff` (optional column): the value per share of a spin-off distributed that month, in the asset's
+  currency, included in `income` as well. The universe entry declares the spin-off in `spinoffs`, and the
+  build folds it into the earlier price history like a spin-off that Yahoo booked as a dividend.
 - Lines starting with `#` are comments. Put the source of the numbers at the top of the file.
 - The build cuts the series at the `end.month` from the universe and fills gaps of up to two months
   with the previous price.

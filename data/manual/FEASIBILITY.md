@@ -248,7 +248,7 @@ What this implies for 1980 to 1998 (all scans):
 - The traps found here will recur: snapshot tables before holidays, two-day headers, year-end issues,
   share-class lines appearing and disappearing, and nominal changes visible only through the year range.
 
-## Netscape and America Online (tried 2026-10-05, not added)
+## Netscape and America Online (online sources tried 2026-10-05; added from the NZZ price tables on 2026-10-14)
 
 Wanted: Netscape Communications (Nasdaq NSCP, August 1995 to its takeover by America Online in March 1999)
 and America Online (Nasdaq then NYSE AOL from March 1992; AOL Time Warner from January 2001, Time Warner Inc.
@@ -275,5 +275,10 @@ April and November 1995, March and November 1998, February and November 1999) an
 reverse split of March 2009; quarterly highs and lows in the companies' 10-K filings on EDGAR, which would
 serve as the cross-check once monthly closes exist.
 
-What would work: a CSV of month-end closes from a terminal or a paid data service (Bloomberg, Refinitiv,
-CRSP, Barchart), or Stooq's monthly download fetched by hand in a browser if it carries the delisted tickers.
+What worked (2026-10-14): the scanned month-end issues of the Neue Zuercher Zeitung in `scans/nzz/` carry a
+"USA/Kanada" page with a New York Stock Exchange table (America Online from the issue of 1 February 1997, AOL Time
+Warner from 1 February 2001) and a Nasdaq table (Netscape Comm. from September 1995 to February 1999). The closes
+were read by eye, split-adjusted with the splits confirmed in the tables themselves, and cross-checked against the
+quarterly highs and lows in the 10-K filings: `netscape.csv`, `aol.csv`, raw readings in `raw/`. For the months
+after October 2001 the single table page of each month-end issue was downloaded from the NZZ archive
+(zeitungsarchiv.nzz.ch, subscription) into `scans/nzz-pages/`.

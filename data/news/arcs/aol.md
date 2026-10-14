@@ -1,6 +1,6 @@
 # America Online / AOL Time Warner / Time Warner: from busy signals to the deal of the century, and the long unwinding
 
-Span: 1997-02 to 2009-11 (Time Warner spun off AOL on 9 December 2009; exit beat 2009-12). Price data so far 1997-02 to 2001-10.
+Span: 1997-02 to 2009-11 (Time Warner spun off AOL on 9 December 2009; exit beat 2009-12). Price data 1997-02 to 2009-12 from the NZZ tables (manual/aol.csv); the game ends the position in November 2009, the last month end before the spin-off, and pays holders out at that price.
 
 ## The story
 
@@ -13,13 +13,14 @@ The merger failed almost at once. Online advertising collapsed with the dot-com 
 ## Best and worst moments
 
 - Listing: 1997-02 at 2.34 (on the basis of the November 1999 split).
-- Best months: 1998-12 (+83%), S&P 500; 1999-03 (+64%), the internet frenzy and the Netscape closing; 2001-01 (+51%), merger approval; 1998-11 (+38%), Netscape and Sun; 1998-09 (+36%), rebound.
+- Best months: 1998-12 (+83%), S&P 500; 1999-03 (+64%), the internet frenzy and the Netscape closing (told in the Netscape exit beat 3880cc5a, which carries the move); 2001-01 (+51%), merger approval; 1998-11 (+38%), Netscape and Sun; 1998-09 (+36%), rebound.
 - Worst months: 1998-08 (-30%), the August 1998 sell-off; 2000-01 (-26%), the Time Warner deal (tech 1f8b5752); 1999-06 (-23%).
-- Best twelve months: +755% from 1998-03 to 1999-03. Worst stretch so far: -59% from 1999-12 to 2001-10 (the data stop there; the share fell much further in 2002).
+- Best twelve months: +755% from 1998-03 to 1999-03. Worst stretch: -82% from 1999-12 to 2003-02 on the file basis (the Time Warner Cable spin-off of March 2009 is folded into the earlier prices by the build).
 
 ## Unexplained moves
 
 - 1999-06 (-23%, market +5%): no AOL-specific cause found. Checked CNNfn of 1 June 1999 (AOL buys Nullsoft and Spinner; AOL down with other internet shares), 3 June (Microsoft targets the AOL-Netscape deal in the antitrust trial), 24 June (an internet fund manager leaves; AOL, Amazon and Yahoo "hit hard in the recent sell-off") and 30 June (MSN and AOL PC rebates). It reads as a sector sell-off of internet shares.
+- 2002-10 (+26%, market +9%) and 2003-04 (+26%, market +8%): the market rebounds after the lows of October 2002 and March 2003; no beat, the moves are within 20 points of the market.
 - 2000-01 (-26%): not unexplained; it is carried by the existing beat tech 1f8b5752 (AOL agrees to buy Time Warner), which has `aol` in its assets and the move.
 
 ## Sources

@@ -141,8 +141,8 @@ Biggest months:
 
 ### aol: America Online / AOL Time Warner / Time Warner
 
-In the game 1997-02 to 2001-10; price 2.3438 to 31.21 (+1232% over 4.8 years).
-Worst stretch: -59% from 1999-12 to 2001-10. Best twelve months: +755% from 1998-03 to 1999-03.
+In the game 1997-02 to 2009-11 (acquisition: Time Warner spun off AOL in December 2009 and the game lets the share go: paid out in cash at the November 2009 price, before the spin-off); price 1.7064 to 10.24 (+500% over 12.8 years).
+Worst stretch: -90% from 1999-12 to 2009-02. Best twelve months: +755% from 1998-03 to 1999-03.
 
 Biggest months:
 
@@ -153,11 +153,11 @@ Biggest months:
 - 1998-11: +38% (market +6%)
 - 1998-12: +83% (market +6%)
 - 1999-03: +64% (market +4%)
-- 1999-06: -23% (market +5%)
-- 1999-10: +25% (market +6%)
 - 2000-01: -26% (market -5%)
 - 2001-01: +51% (market +3%)
 - 2001-04: +26% (market +8%)
+- 2002-10: +26% (market +9%)
+- 2003-04: +26% (market +8%)
 
 ### ba: Boeing
 
@@ -581,7 +581,7 @@ Biggest months:
 
 ### netscape: Netscape Communications
 
-In the game 1995-09 to 1999-02 (merger: Taken over by America Online, 0.45 America Online shares per Netscape share); price 31.25 to 77.4375 (+148% over 3.5 years).
+In the game 1995-09 to 1999-02 (merger: Taken over by America Online: 0.9 America Online shares per Netscape share (0.45 before AOL's split of February 1999)); price 31.25 to 77.4375 (+148% over 3.5 years).
 Worst stretch: -80% from 1996-01 to 1998-01. Best twelve months: +360% from 1998-01 to 1999-01.
 
 Biggest months:
@@ -1213,7 +1213,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2001-12: market +1%; Enron +131%, Nvidia +22%, Schlumberger +14%
 ### 2002
 
-- 2002-01: market -2%; Amazon +31%, WorldCom -29%, Apple Computer +13%
+- 2002-01: market -2%; Amazon +31%, WorldCom -29%, AOL Time Warner -18%
 - 2002-02: market -2%; Cisco -28%, WorldCom -25%, Nvidia -22%
 - 2002-03: market +4%; Cisco +19%, Lehman Brothers +14%, DaimlerChrysler +13%
 - 2002-04: market -6%; WorldCom -63%, Nokia -22%, Nvidia -22%
@@ -1224,13 +1224,13 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2002-09: market -11%; Siemens -29%, McDonald's -26%, Cisco -24%
 - 2002-10: market +9%; Siemens +41%, Nvidia +39%, IBM +35%
 - 2002-11: market +6%; Nvidia +44%, Cisco +33%, Credit Suisse Group +23%
-- 2002-12: market -6%; Nvidia -33%, Intel -25%, Nokia -19%
+- 2002-12: market -6%; Nvidia -33%, Intel -25%, AOL Time Warner -20%
 ### 2003
 
 - 2003-01: market -3%; Xstrata -18%, Amazon +16%, McDonald's -11%
 - 2003-02: market -2%; Nvidia +22%, Credit Suisse Group -15%, Boeing -13%
 - 2003-03: market +1%; Altria -22%, Amazon +18%, Xstrata -17%
-- 2003-04: market +8%; Credit Suisse Group +38%, Sony -30%, Siemens +21%
+- 2003-04: market +8%; Credit Suisse Group +38%, Sony -30%, AOL Time Warner +26%
 - 2003-05: market +5%; Nvidia +83%, Altria +34%, Apple Computer +26%
 - 2003-06: market +1%; McDonald's +18%, Nvidia -12%, Boeing +12%
 - 2003-07: market +2%; Intel +20%, Credit Suisse Group +19%, Nvidia -17%
@@ -1304,7 +1304,7 @@ Market = S&P 500. Movers = the three largest moves among the companies in the ga
 - 2008-05: market +1%; UBS -28%, Nvidia +20%, Lehman Brothers -17%
 - 2008-06: market -9%; Lehman Brothers -46%, Nvidia -24%, Citigroup -23%
 - 2008-07: market -1%; Nvidia -39%, Sony -14%, Lehman Brothers -12%
-- 2008-08: market +1%; Xstrata -23%, UBS +13%, Siemens -11%
+- 2008-08: market +1%; Xstrata -23%, Time Warner +14%, UBS +13%
 - 2008-09: market -9%; Lehman Brothers -99%, Xstrata -45%, Apple -33%
 - 2008-10: market -17%; Xstrata -44%, Siemens -36%, Schlumberger -34%
 - 2008-11: market -7%; Citigroup -39%, Amazon -25%, UBS -25%

@@ -32,7 +32,7 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 | 1998-12 | Netscape rises with America Online | b28255bf | netscape | new (14 October 2026) |
 | 1998-12 | AOL joins the S&P 500 and its shares soar | 4b8c3762 | aol | new (14 October 2026) |
 | 1999-03 | America Online completes its purchase of Netscape | 3880cc5a | netscape | new (14 October 2026) |
-| 1999-03 | AOL completes the Netscape deal, now worth $10 billion | a3d99605 | aol | new (14 October 2026) |
+
 | 1999-10 | AOL passes 18 million members and beats forecasts | 56a802a5 | aol | new (14 October 2026) |
 | 1999-11 | Nearly ten million Americans now trade shares online | 35866db6 | tech | new |
 | 1999-12 | VA Linux jumps 698% on its first day; a web address sells for 7.5 million dollars | 9a953413 | tech | new |

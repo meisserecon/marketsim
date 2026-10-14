@@ -18,7 +18,8 @@
 # Vortag, Tages-H./T., Vol. (1000), P/E, Schluss. printed_close is the value taken (Schluss, or Vortag where the
 # issue carries the next month's first trading day, as the note says); printed_vortag is the table's previous-day
 # column. Every value read by eye from crops rendered with PyMuPDF at about 1500 px per table column (header,
-# column heads and row); the text layer used to find the row only, and agrees with every value taken.
+# column heads and row); the text layer used to find the row only; it agrees with every decimal value read (fractions
+# such as 14 3/4 are glyph-coded in it).
 # Divisor: printed prices to 2009-02 are on the file's basis (divisor 1); from 2009-03, after the 1-for-3 reverse
 # split of 27 March 2009, divisor 3 (price in aol.csv = printed / 3); the note of each row states it.
 # Crops and scripts: scratchpad tw0109/ (sheet.py, out/s1..s14.png, out/new.png) of session 6ff800c7.

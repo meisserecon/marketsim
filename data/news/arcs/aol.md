@@ -15,7 +15,7 @@ The merger failed almost at once. Online advertising collapsed with the dot-com 
 - Listing: 1997-02 at 2.34 (on the basis of the November 1999 split).
 - Best months: 1998-12 (+83%), S&P 500; 1999-03 (+64%), the internet frenzy and the Netscape closing (told in the Netscape exit beat 3880cc5a, which carries the move); 2001-01 (+51%), merger approval; 1998-11 (+38%), Netscape and Sun; 1998-09 (+36%), rebound.
 - Worst months: 1998-08 (-30%), the August 1998 sell-off; 2000-01 (-26%), the Time Warner deal (tech 1f8b5752); 1999-06 (-23%).
-- Best twelve months: +755% from 1998-03 to 1999-03. Worst stretch: -82% from 1999-12 to 2003-02 on the file basis (the Time Warner Cable spin-off of March 2009 is folded into the earlier prices by the build).
+- Best twelve months: +755% from 1998-03 to 1999-03. Worst stretch: -90% from 1999-12 to 2009-02 on the file basis (the Time Warner Cable spin-off of March 2009 is folded into the earlier prices by the build).
 
 ## Unexplained moves
 

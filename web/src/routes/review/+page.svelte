@@ -80,13 +80,24 @@
     for (const [a, beats] of Object.entries(arcs)) beats.forEach((beat, index) => out.push({ arc: a, index, beat }));
     return out.sort((x, y) => x.beat.month.localeCompare(y.beat.month) || Number(!!y.beat.lead) - Number(!!x.beat.lead));
   });
+  // Every month of the game, also the ones without a story, so that uncovered price moves are seen:
+  // `flag` is the biggest move of the month against the market, when it is 20 points or more and no
+  // story of the month concerns that company.
   const months = $derived.by(() => {
-    const m = new Map<string, { total: number; kept: number }>();
+    const m = new Map<string, { total: number; kept: number; flag?: { id: string; c: number } }>();
+    const last = Object.keys(assets.sp500?.prices ?? {}).sort().at(-1) ?? '1979-12';
+    for (let mon = '1979-12'; mon <= last; mon = nextMonth(mon)) m.set(mon, { total: 0, kept: 0 });
     for (const r of all) {
       const e = m.get(r.beat.month) ?? { total: 0, kept: 0 };
       e.total++;
       e.kept++;
       m.set(r.beat.month, e);
+    }
+    for (const [mon, e] of m) {
+      const market = change('sp500', mon) ?? 0;
+      const covered = new Set(all.filter((r) => r.beat.month === mon).flatMap((r) => r.beat.assets));
+      const x = movers(mon, 1, (id, c) => Math.abs(c - market) >= 0.2 && !covered.has(id))[0];
+      if (x) e.flag = x;
     }
     return [...m.entries()].sort();
   });
@@ -111,6 +122,10 @@
     for (const r of a.renames ?? []) if (r.from <= m) n = r.name;
     return n;
   };
+  const nextMonth = (m: string) => {
+    const [y, mm] = m.split('-').map(Number);
+    return mm === 12 ? `${y + 1}-01` : `${y}-${String(mm + 1).padStart(2, '0')}`;
+  };
   const prevMonth = (m: string) => {
     const [y, mm] = m.split('-').map(Number);
     return mm === 1 ? `${y - 1}-12` : `${y}-${String(mm - 1).padStart(2, '0')}`;
@@ -121,13 +136,13 @@
     return p[m] / p[prevMonth(m)] - 1;
   };
   const pct = (x: number | undefined) => (x === undefined ? '' : `${x >= 0 ? '+' : ''}${(x * 100).toFixed(1)}%`);
-  const movers = (m: string) =>
+  const movers = (m: string, n = 4, keep: (id: string, c: number) => boolean = () => true) =>
     Object.keys(assets)
       .filter((id) => id !== 'sp500' && id !== 'gold')
       .map((id) => ({ id, c: change(id, m) }))
-      .filter((x): x is { id: string; c: number } => x.c !== undefined && assets[x.id].listed <= m)
+      .filter((x): x is { id: string; c: number } => x.c !== undefined && assets[x.id].listed <= m && keep(x.id, x.c))
       .sort((a, b) => Math.abs(b.c) - Math.abs(a.c))
-      .slice(0, 4);
+      .slice(0, n);
 
   async function patch(row: Row, p: Partial<Beat>) {
     const r = await fetch('/__review/beat', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ arc: row.arc, index: row.index, id: row.beat.id, patch: p }) });
@@ -201,7 +216,9 @@
           {#each months as [m, c] (m)}
             <li>
               <button class:on={m === month} onclick={() => { month = m; cursor = 0; }}>
-                <span>{m}</span><span class="count" class:fat={c.total > 5}>{c.total}</span>
+                <span>{m}</span>
+                {#if c.flag}<span class="flag" title="the biggest move against the market this month, by a company no story of the month concerns">{nameAt(c.flag.id, m)} <span class={c.flag.c < 0 ? 'down' : 'up'}>{pct(c.flag.c)}</span></span>{/if}
+                <span class="count" class:zero={c.total === 0} class:fat={c.total > 5}>{c.total}</span>
               </button>
             </li>
           {/each}
@@ -356,6 +373,18 @@
   }
   .count.fat {
     color: var(--warn-ink);
+  }
+  .count.zero {
+    opacity: 0.35;
+  }
+  .flag {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 0.85em;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .month-head {
     display: flex;

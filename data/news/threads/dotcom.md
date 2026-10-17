@@ -7,7 +7,7 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 | Month | Title | Beat id | Arc file | Status |
 |---|---|---|---|---|
 | 1994-10 | Mosaic Netscape, a new web browser, appears | 0a3255e7 | tech | existing |
-| 1995-08 | Netscape's IPO: 2.9 billion dollars for a company without profits | 35251842 | tech | existing |
+| 1995-08 | Netscape's IPO: 2.9 billion dollars for a company without profits | 35251842 | netscape | existing, moved from tech on 17 October 2026 (now the listing beat) |
 | 1995-09 | Netscape, the maker of the web browser, can now be bought | 42b62e6e | netscape | new (14 October 2026) |
 | 1995-10 | Netscape's sales jump 75% in a quarter; Navigator 2.0 goes out for testing | 19c95804 | netscape | new (14 October 2026) |
 | 1995-11 | Netscape splits its shares; its founder is now a billionaire | 6b70d710 | netscape | new (14 October 2026) |

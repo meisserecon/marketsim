@@ -122,13 +122,15 @@
   },
   {
     "month": "1995-08",
-    "kind": "world",
+    "kind": "listing",
     "headline": "Netscape's IPO: 2.9 billion dollars for a company without profits",
-    "text": "Netscape, the maker of the most popular web browser, went public on 9 August. The offer price was doubled at the last minute; on the first day the shares closed 108% above it, valuing the 16-month-old company at 2.9 billion dollars.",
-    "assets": [],
+    "text": "Netscape, the maker of the most popular web browser, went public on 9 August. The offer price was doubled at the last minute; on the first day the shares closed 108% above it, valuing the 16-month-old company at 2.9 billion dollars. In this game the share can be bought from this month, at its first-day close.",
+    "assets": [
+      "netscape"
+    ],
     "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
     "thread": "dotcom",
-    "image": "/news/tech/1995-08-netscape-clark-andreessen.jpg",
+    "image": "/news/netscape/1995-08-netscape-clark-andreessen.jpg",
     "imageCaption": "Netscape's founders Jim Clark and Marc Andreessen, the 24-year-old who wrote the first popular web browser, mid-1990s",
     "imageCredit": "press photograph"
   },
@@ -146,9 +148,9 @@
   },
   {
     "month": "1995-09",
-    "kind": "listing",
-    "headline": "Netscape, the maker of the web browser, can now be bought",
-    "text": "Shares of Netscape Communications of Mountain View, California, can be bought from this month. The company was founded in April 1994 and makes Netscape Navigator, the program that most people use to look at pages on the World Wide Web, and sells server software to companies building their own web sites. On 18 September it announced Navigator 2.0. In August Microsoft launched Windows 95 together with the first version of its own browser, Internet Explorer. Netscape's revenue rose to $11.9 million in the second quarter; buyers are betting that the internet will grow fast and that Netscape will remain its main door.",
+    "kind": "company",
+    "headline": "Netscape announces Navigator 2.0 as Microsoft's browser arrives",
+    "text": "Netscape Communications of Mountain View, California, founded in April 1994, makes Netscape Navigator, the program that most people use to look at pages on the World Wide Web, and sells server software to companies building their own web sites. On 18 September it announced Navigator 2.0. In August Microsoft launched Windows 95 together with the first version of its own browser, Internet Explorer. Netscape's revenue rose to $11.9 million in the second quarter; buyers are betting that the internet will grow fast and that Netscape will remain its main door.",
     "assets": [
       "netscape",
       "msft"
@@ -227,19 +229,6 @@
   },
   {
     "month": "1995-12",
-    "kind": "company",
-    "headline": "Nokia warns on profits; shares plunge",
-    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
-    "assets": [
-      "nokia"
-    ],
-    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
-    "image": "/news/nokia/1995-12-2110i.jpg",
-    "imageCaption": "A Nokia 2110i handset, 1995",
-    "imageCredit": "Santeri Viinamäki"
-  },
-  {
-    "month": "1995-12",
     "kind": "colour",
     "headline": "Switzerland's first internet café opens in Zurich",
     "text": "On Friday 15 December the first internet café in Switzerland opened at Uraniastrasse 3 in Zurich: coffee, pizza and ten computers connected to the internet. Hardly anybody has the internet at home yet, so for many visitors it is the first time they see a web page; the café also gives courses for beginners. Such cafés are appearing in cities all over the world: Helsinki had one in 1993, London's Cyberia opened in September 1994, and three opened in New York's East Village this June.",
@@ -264,5 +253,18 @@
     "image": "/news/markets/1995-12-year-chart.png",
     "imageCaption": "American shares (S&P 500) at the end of each month of 1995: up 34 percent in the year",
     "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
+  },
+  {
+    "month": "1995-12",
+    "kind": "company",
+    "headline": "Nokia warns on profits; shares plunge",
+    "text": "After four years of very fast growth, Nokia's mobile phone business has hit trouble: delayed chip deliveries halted some assembly lines, inventories are building, and North American carriers are switching to digital more slowly than Nokia expected. On 14 December Nokia warned that profits may suffer. Its share price fell 28% within five days.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://stuff.mit.edu/afs/athena/course/15/15.795/Nokia%20Supply%20Chain%20Case%20Study.pdf (IMD case, read 2026-10-03)",
+    "image": "/news/nokia/1995-12-2110i.jpg",
+    "imageCaption": "A Nokia 2110i handset, 1995",
+    "imageCredit": "Santeri Viinamäki"
   }
 ]

@@ -320,7 +320,7 @@ export const PROFILES: Record<string, CompanyProfile> = {
   netscape: {
     country: "United States", sector: "Internet software",
     versions: [
-      { from: "1995-09", tagline: "Our Navigator is how the world sees the web, and every company will need our software to do business on it.", about: "Makes Netscape Navigator, the most widely used program for viewing pages on the World Wide Web, and sells server software to companies building web sites. Founded in Mountain View, California, in 1994, it is growing very fast." },
+      { from: "1995-08", tagline: "Our Navigator is how the world sees the web, and every company will need our software to do business on it.", about: "Makes Netscape Navigator, the most widely used program for viewing pages on the World Wide Web, and sells server software to companies building web sites. Founded in Mountain View, California, in 1994, it is growing very fast." },
     ],
   },
   aol: {

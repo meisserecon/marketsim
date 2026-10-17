@@ -5,7 +5,12 @@
 # Share basis: shares after the 2-for-1 split of early 1996 (the only split; the 10-K says "effective January
 # 1996", the NZZ tables still print the old basis on 31 Jan 1996, 164 1/4, year high 172, and the new one on
 # 29 Feb 1996, 51, year high 86). 1995-09 to 1996-01 are the printed closes divided by 2; 1996-02 on as printed.
-# Months: 1995-09 (IPO 9 Aug 1995; the 31 Aug 1995 Nasdaq table is a bid/ask list without Netscape) to 1999-02
+# 1995-08: the close of the first trading day, 9 August 1995 (58 1/4 printed basis, 29.125 here), by the curator's
+# decision of 2026-10-17, so that the share enters the game in the month of its IPO: no 31 August close could be
+# sourced (the NZZ carries Netscape in its Nasdaq table only from 20 September 1995; Computerworld's table of
+# 4 September 1995 gives a 3 pm quote of 1 September). Source: https://en.wikipedia.org/wiki/Netscape ("The stock
+# closed at US$58.25", read 2026-10-17); within the third-quarter range of the 10-K (22 7/8 to 37 3/8 split-adjusted).
+# Months: 1995-09 (first month-end close; the 31 Aug 1995 Nasdaq table is a bid/ask list without Netscape) to 1999-02
 # (26 Feb 1999 close, the last quote: America Online completed the takeover on 17 March 1999 and the table of
 # 31 March 1999 no longer lists Netscape). Missing: 1996-11 (the issue of 30.11.1996 has no USA/Kanada page) and
 # 1997-01 (the quotes of 31 Jan 1997 are 15.30 New York time, not closes, by a note in the table; 38).
@@ -24,6 +29,7 @@
 # 12 January, so not comparable). The 1996 Q4 high differs between the filings (66 in the 1996 10-K, 65 in the 1997
 # 10-K); no month is affected.
 month,price,income
+1995-08,29.125,0
 1995-09,31.25,0
 1995-10,44,0
 1995-11,69.125,0

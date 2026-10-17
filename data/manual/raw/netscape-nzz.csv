@@ -16,7 +16,7 @@
 # month end) was taken, and the note says so.
 # Crops and the working log: scratchpad nsaol/ (log.txt, ov/, rows/, r_*.jpg, g_*.png) of session 6ff800c7.
 month,trading_date,issue_file,pdf_page_index,table,printed_close,decimal_close,printed_vortag,year_high,year_low,notes
-1995-08,,NZZ_1995-09-01.pdf,40,Nasdaq,,,,,,Not in the table: the Nasdaq table of this issue (Kurse vom 31. August) is a bid/ask list without Netscape (Multimedia is followed by NEXTEL). Missing.
+1995-08,,NZZ_1995-09-01.pdf,40,Nasdaq,,,,,,"Not in the table: the Nasdaq table of this issue (Kurse vom 31. August) is a bid/ask list without Netscape (Multimedia is followed by NEXTEL). Netscape appears in the NZZ Nasdaq table only from the issue of 20.9.1995 (archive full-text search, 2026-10-17). netscape.csv uses the first-day close of 9 August 1995 (58 1/4, Wikipedia) for this month by the curator's decision."
 1995-09,1995-09-29,NZZ_1995-09-30.pdf,39,Nasdaq,62 1/2,62.5,64,75,45 3/4,"Tagesschluss; day H 64 3/4 T 61 1/4; two crops (1600, 2600 px) agree. Pre-split."
 1995-10,1995-10-31,NZZ_1995-11-01.pdf,39,Nasdaq,88,88,88 1/2,88 1/2,45 3/4,Tagesschluss; day H 91 1/4 T 87 1/2; two crops agree. Pre-split.
 1995-11,1995-11-30,NZZ_1995-12-01.pdf,39,Nasdaq,138 1/4,138.25,140,142 1/4,45 3/4,"Tagesschluss; day H 140 3/4 T 133 1/4; three crops (1400, 2800 px, 1800 px close zoom); the fraction is the same glyph as in 133 1/4. Pre-split."

@@ -5,21 +5,21 @@
  "sector": "Internet software",
  "profiles": [
   {
-   "from": "1995-09",
+   "from": "1995-08",
    "tagline": "Our Navigator is how the world sees the web, and every company will need our software to do business on it.",
    "about": "Makes Netscape Navigator, the most widely used program for viewing pages on the World Wide Web, and sells server software to companies building web sites. Founded in Mountain View, California, in 1994, it is growing very fast."
   }
  ],
  "logos": [
   {
-   "from": "1995-09",
+   "from": "1995-08",
    "file": "netscape/1995.svg"
   }
  ],
  "kind": "stock",
  "currency": "USD",
  "source": "manual/netscape.csv",
- "notes": "Month-end closes read from the NZZ Nasdaq table, see manual/netscape.csv. The IPO was on 9 August 1995; the first sourced close is September 1995. The last quote is February 1999; the takeover closed on 17 March 1999.",
+ "notes": "Month-end closes read from the NZZ Nasdaq table, see manual/netscape.csv. The IPO was on 9 August 1995; August 1995 carries the first-day close (curator's decision, see the file header), the first month-end close is September 1995. The last quote is February 1999; the takeover closed on 17 March 1999.",
  "end": {
   "month": "1999-02",
   "type": "merger",
@@ -27,6 +27,11 @@
   "successor": "aol"
  },
  "rows": [
+  {
+   "month": "1995-08",
+   "price": 29.125,
+   "income": 0
+  },
   {
    "month": "1995-09",
    "price": 31.25,

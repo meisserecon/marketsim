@@ -581,7 +581,7 @@ Biggest months:
 
 ### netscape: Netscape Communications
 
-In the game 1995-09 to 1999-02 (merger: Taken over by America Online: 0.9 America Online shares per Netscape share (0.45 before AOL's split of February 1999)); price 31.25 to 77.4375 (+148% over 3.5 years).
+In the game 1995-08 to 1999-02 (merger: Taken over by America Online: 0.9 America Online shares per Netscape share (0.45 before AOL's split of February 1999)); price 29.125 to 77.4375 (+166% over 3.6 years).
 Worst stretch: -80% from 1996-01 to 1998-01. Best twelve months: +360% from 1998-01 to 1999-01.
 
 Biggest months:

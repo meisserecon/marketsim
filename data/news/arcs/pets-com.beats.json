@@ -9,15 +9,14 @@
       "pets-com",
       "amzn"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (same prospectus, 'Shares Eligible for Future Sale': 180-day lock-up agreements; 13,420,045 shares eligible 180 days after the prospectus of 10 February 2000, further blocks to January 2001; read 2026-10-17)",
-    "changed": "IPO story: valuation at the offer price added, from the prospectus already in source: 29,544,737 shares outstanding after the offering (including 3,152,327 unvested shares) x $11.00 = $325.0 million (excluding unvested shares: 26,392,410 x $11.00 = $290.3 million); 180-day lock-up added: 13.4 million shares free from August 2000 (curator's wish, research note lockups.md)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (same prospectus, 'Shares Eligible for Future Sale': 180-day lock-up agreements; 13,420,045 shares eligible 180 days after the prospectus of 10 February 2000, further blocks to January 2001; read 2026-10-17)"
   },
   {
     "id": "86113a72",
     "month": "2000-03",
-    "title": "Investors ask how long the dot-coms' cash will last",
-    "what": "On March 20 the financial weekly Barron's published a cover story warning that many internet companies are running out of cash fast. The Nasdaq index, which set a record on March 10, has fallen since.",
-    "why": "The question that killed Pets.com: -39% in March 2000, to well below the $11 issue price. (Time check: 'peaked' assumed the record would not be beaten.)",
+    "title": "Pets.com loses 39% as investors count the dot-coms' cash",
+    "what": "Pets.com's prospectus shows how fast the money goes: in the last three months of 1999 it sold pet supplies for $5.2 million, paid more for the goods and shipping than customers paid for them, and lost $42.4 million. It had $30.2 million in cash at the end of the year and about $76 million more from its February share sale, which the company says is enough for at least twelve months; at the fourth quarter's pace that money covers only about two and a half quarters of losses. On March 20 the financial weekly Barron's warned in a cover story that at least 51 of 207 internet companies it studied will run out of cash within twelve months. Pets.com shares fell 39% in March, while the S&P 500 rose 10%.",
+    "why": "The question that killed Pets.com: -39% in March 2000, a month after the IPO, while the market rose. The Barron's cash-burn study of 20 March is the context; whether Pets.com was on its list is unknown (the full table is not reproduced online).",
     "assets": [
       "pets-com"
     ],
@@ -25,7 +24,8 @@
       "asset": "pets-com",
       "pct": -39
     },
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (Pets.com prospectus, 424B4 of 11 February 2000: summary financial data, liquidity) (read 2026-10-17); https://pages.stern.nyu.edu/~adamodar/New_Home_Page/articles/cashburn.htm (Jack Willoughby, 'Burning Up', Barron's, 20 March 2000) (read 2026-10-17); data/out/pets-com.json and data/reference/sp500.json (March 2000 changes) (read 2026-10-17)",
+    "changed": "note to the writer addressed: the story is now about Pets.com (its fourth-quarter 1999 loss, its cash after the IPO, its 39% fall against a rising S&P 500), with Barron's cash warning for internet companies as the context and no crash; Pets.com is not named in the reproduced Barron's text and its place in the full table could not be found, and no 10-K for 1999 is on EDGAR, so the figures come from the February prospectus"
   },
   {
     "id": "7ed8c6e0",

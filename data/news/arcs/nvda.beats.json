@@ -14,14 +14,14 @@
   {
     "id": "ae930689",
     "month": "1999-07",
-    "title": "Nvidia's lock-up ends without a sell-off",
+    "title": "Nvidia's lock-up ends and the shares rise",
     "what": "On 20 July, six months after Nvidia's public offering, the lock-up ended for its early shareholders, including all officers and directors: 18 million of its 28.6 million shares may now be sold. Large blocks belong to the three founders, Jen-Hsun Huang, Chris Malachowsky and Curtis Priem, and to the venture firms Sequoia Capital and Sutter Hill. The shares did not fall: they rose 5% in July, while the stock market lost 3%.",
     "why": "The lock-up expiry named in the IPO story (f34c9d17). Another case where the expected selling did not show; the shares rose 40% in August.",
     "assets": [
       "nvda"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (IPO prospectus of 21 January 1999: 17,991,627 shares eligible on expiry of the 180-day lock-up agreements; 28,595,976 shares outstanding; holdings of Huang, Malachowsky, Priem, Sequoia and Sutter Hill; read 2026-10-17); data/out/nvda.json and data/reference/sp500.json (July 1999: nvda +5.3%, S&P 500 -3.2%; read 2026-10-17)",
-    "note": "If the price went up, we should not say \"sell-off\"."
+    "changed": "note to the writer addressed: the title no longer says sell-off, the shares rose"
   },
   {
     "id": "6d1b93e1",

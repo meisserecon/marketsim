@@ -128,12 +128,12 @@
   {
     "month": "2000-03",
     "kind": "company",
-    "headline": "Investors ask how long the dot-coms' cash will last",
-    "text": "On March 20 the financial weekly Barron's published a cover story warning that many internet companies are running out of cash fast. The Nasdaq index, which set a record on March 10, has fallen since.",
+    "headline": "Pets.com loses 39% as investors count the dot-coms' cash",
+    "text": "Pets.com's prospectus shows how fast the money goes: in the last three months of 1999 it sold pet supplies for $5.2 million, paid more for the goods and shipping than customers paid for them, and lost $42.4 million. It had $30.2 million in cash at the end of the year and about $76 million more from its February share sale, which the company says is enough for at least twelve months; at the fourth quarter's pace that money covers only about two and a half quarters of losses. On March 20 the financial weekly Barron's warned in a cover story that at least 51 of 207 internet companies it studied will run out of cash within twelve months. Pets.com shares fell 39% in March, while the S&P 500 rose 10%.",
     "assets": [
       "pets-com"
     ],
-    "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (Pets.com prospectus, 424B4 of 11 February 2000: summary financial data, liquidity) (read 2026-10-17); https://pages.stern.nyu.edu/~adamodar/New_Home_Page/articles/cashburn.htm (Jack Willoughby, 'Burning Up', Barron's, 20 March 2000) (read 2026-10-17); data/out/pets-com.json and data/reference/sp500.json (March 2000 changes) (read 2026-10-17)",
     "image": "/news/pets-com/2000-03-barrons-burning-up.jpg",
     "imageCaption": "Barron's cover of 20 March 2000, 'Burning Fast': dozens of internet companies are likely to run through their cash this year",
     "imageCredit": "Barron's cover (not credited on the page)"

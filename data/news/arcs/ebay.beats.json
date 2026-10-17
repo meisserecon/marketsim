@@ -3,18 +3,19 @@
     "id": "748e896b",
     "month": "1998-09",
     "title": "eBay, the online auction site, goes public",
-    "what": "eBay of San Jose sold 3.5 million shares on the Nasdaq at $18 each; on the first day they closed at about $53, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit.",
+    "what": "eBay of San Jose sold 3.5 million shares on the Nasdaq; on the first day they closed at nearly three times the issue price, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit.",
     "why": "The listing beat (importance 1). The case for buying: a marketplace that holds no stock, ships nothing and is profitable; the shares rose 839% in their first year.",
     "assets": [
       "ebay"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "changed": "rule on metrics: issue price and first-day close replaced by the first-day gain"
   },
   {
     "id": "40df0dbc",
     "month": "1999-04",
-    "title": "eBay raises $700 million at $170 a share",
-    "what": "eBay sold 4.25 million new shares at $170 each, raising about $696 million. Its online revenue grew 74% in the first quarter over the previous quarter. Its registered users passed 2.1 million at the end of 1998, when revenue for the year reached $47 million.",
+    "title": "eBay raises $700 million in a share sale",
+    "what": "eBay sold 4.25 million new shares, raising about $696 million. Its online revenue grew 74% in the first quarter over the previous quarter. Its registered users passed 2.1 million at the end of 1998, when revenue for the year reached $47 million.",
     "why": "eBay uses its sky-high share price to raise cash; the shares rose 52% in April 1999, the top of the first eBay bubble.",
     "assets": [
       "ebay"
@@ -23,7 +24,8 @@
       "asset": "ebay",
       "pct": 52
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-001110.txt (prospectus, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-002671.txt (10-Q, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-000878.txt (10-K for 1998, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-001110.txt (prospectus, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-002671.txt (10-Q, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-99-000878.txt (10-K for 1998, read 2026-10-03)",
+    "changed": "rule on metrics: offering price per share removed, total raised kept"
   },
   {
     "id": "eded4e35",
@@ -225,7 +227,7 @@
     "id": "b92df1d0",
     "month": "2019-01",
     "title": "eBay pays its first dividend",
-    "what": "On January 29 eBay announced its first-ever dividend, 14 cents a share each quarter from March, and $4 billion more for share buybacks, planning to return about $7 billion to shareholders over two years. It has 179 million active buyers.",
+    "what": "On January 29 eBay announced its first-ever dividend, to be paid each quarter from March, and $4 billion more for share buybacks, planning to return about $7 billion to shareholders over two years. It has 179 million active buyers.",
     "why": "Under pressure from activist investors, eBay becomes a cash-return stock; +20% in January 2019.",
     "assets": [
       "ebay"
@@ -234,7 +236,8 @@
       "asset": "ebay",
       "pct": 20
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-19-000003.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001065088-19-000003.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed, buyback and total return kept"
   },
   {
     "id": "17430a3c",

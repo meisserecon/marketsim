@@ -3,13 +3,14 @@
     "id": "9ddbe06d",
     "month": "1990-02",
     "title": "Cisco Systems goes public",
-    "what": "Cisco Systems, a Menlo Park maker of routers that link different computer networks, sold 2.8 million shares to the public on February 16 at $18 each. The shares closed the first day at $22.25. The company, founded in 1984 by two Stanford computer staff, had sales of about $28 million in its last fiscal year and is profitable; the offering values it at roughly $224 million.",
+    "what": "Cisco Systems, a Menlo Park maker of routers that link different computer networks, sold 2.8 million shares to the public on February 16. The shares closed the first day 24% above the issue price. The company, founded in 1984 by two Stanford computer staff, had sales of about $28 million in its last fiscal year and is profitable; the offering values it at roughly $224 million.",
     "why": "The listing beat (importance 1). The case for buying: a small, profitable, fast-growing company selling the boxes that connect the computer networks companies are building, years before the public internet. Whoever bought at the IPO held one of the best stocks of the decade.",
     "assets": [
       "csco"
     ],
     "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); market value at IPO from https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: issue price and first-day close replaced by the first-day gain in percent"
   },
   {
     "id": "b4903b33",
@@ -89,13 +90,14 @@
     "id": "d4367b5f",
     "month": "1996-04",
     "title": "Cisco buys StrataCom for about $4 billion",
-    "what": "Cisco agreed on April 22 to acquire StrataCom, a maker of high-speed switches used by telephone carriers, in exchange for Cisco shares. Each StrataCom share is to be exchanged for one Cisco share or $50 of Cisco stock, putting the deal at around $4 billion, one of the largest in the industry. Chambers said Cisco will be the only vendor to offer connections across public and private networks.",
+    "what": "Cisco agreed on April 22 to acquire StrataCom, a maker of high-speed switches used by telephone carriers, in exchange for Cisco shares. Each StrataCom share is to be exchanged for about one Cisco share, putting the deal at around $4 billion, one of the largest in the industry. Chambers said Cisco will be the only vendor to offer connections across public and private networks.",
     "why": "Cisco buys its way into the carrier market as the internet takes off; acquisitions paid in its high-priced shares become its trademark.",
     "assets": [
       "csco"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/858877/0000891618-96-000253.txt (8-K with press release, read 2026-10-03); https://en.wikipedia.org/wiki/StrataCom (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: takeover value per share removed, exchange ratio and total kept"
   },
   {
     "id": "e5cc843f",
@@ -272,12 +274,13 @@
     "id": "95f8d8e0",
     "month": "2005-11",
     "title": "Cisco buys Scientific-Atlanta for $6.9 billion",
-    "what": "Cisco agreed on November 18 to buy Scientific-Atlanta, a Georgia maker of cable television set-top boxes and network equipment, for $43 a share in cash, about $6.9 billion. Cisco's sales are now about $25 billion a year.",
+    "what": "Cisco agreed on November 18 to buy Scientific-Atlanta, a Georgia maker of cable television set-top boxes and network equipment, for about $6.9 billion in cash. Cisco's sales are now about $25 billion a year.",
     "why": "Cisco's biggest deal since Cerent, part of a push into the living room that it later abandoned (the set-top business was sold to Technicolor in 2015 for $600 million).",
     "assets": [
       "csco"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-05-229535.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Scientific_Atlanta (read 2026-10-03); sales from https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/cisco-systems-inc (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-05-229535.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Scientific_Atlanta (read 2026-10-03); sales from https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/cisco-systems-inc (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, total value kept"
   },
   {
     "id": "c0ecf780",
@@ -294,12 +297,13 @@
     "id": "5a17dfb9",
     "month": "2011-03",
     "title": "Cisco pays its first dividend",
-    "what": "Cisco announced on March 18 its first cash dividend, 6 cents a share each quarter, payable April 20 to holders of record on March 31. At the current share price that is a yield of about 1.4%. The finance chief called it 'an important part of our commitment to bring value to shareholders.'",
+    "what": "Cisco announced on March 18 its first cash dividend, to be paid each quarter, the first payable April 20 to holders of record on March 31. At the current share price that is a yield of about 1.4%. The finance chief called it 'an important part of our commitment to bring value to shareholders.'",
     "why": "Cisco becomes an income stock. The dividend rose almost every year, to 42 cents a quarter by 2026, and from 2011 on the dividend was a large part of what Cisco shareholders earned.",
     "assets": [
       "csco"
     ],
-    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2011/m03/cisco-announces-first-ever-cash-dividend.html (read 2026-10-03); yield from https://www.fool.com/investing/2016/09/23/cisco-stock-history-what-investors-need-to-know.aspx (read 2026-10-03)"
+    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2011/m03/cisco-announces-first-ever-cash-dividend.html (read 2026-10-03); yield from https://www.fool.com/investing/2016/09/23/cisco-stock-history-what-investors-need-to-know.aspx (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed, yield in percent kept"
   },
   {
     "id": "827d6c80",
@@ -427,12 +431,13 @@
     "id": "f477434e",
     "month": "2023-09",
     "title": "Cisco to buy Splunk for $28 billion",
-    "what": "Cisco agreed on September 21 to buy Splunk, a cybersecurity and data-monitoring software company, for $157 a share in cash, about $28 billion. It is by far the largest acquisition in Cisco's history.",
+    "what": "Cisco agreed on September 21 to buy Splunk, a cybersecurity and data-monitoring software company, for about $28 billion in cash. It is by far the largest acquisition in Cisco's history.",
     "why": "Cisco bets on software and security for growth; the deal closed in March 2024.",
     "assets": [
       "csco"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-23-239165.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Splunk (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-23-239165.txt (8-K, read 2026-10-03); https://en.wikipedia.org/wiki/Splunk (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, total value kept"
   },
   {
     "id": "0af01011",

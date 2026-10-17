@@ -53,18 +53,19 @@
     "id": "fbeb7fb2",
     "month": "2000-07",
     "title": "Nokia warns, and the shares lose a quarter in a day",
-    "what": "On 27 July Nokia reported record second-quarter profit, up 62%, but said third-quarter earnings per share will fall below the 0.20 euros just reported, before new internet-enabled phones take hold. Its ADR fell 26.5% in a day in New York.",
+    "what": "On 27 July Nokia reported record second-quarter profit, up 62%, but said third-quarter earnings per share will fall below the second quarter's, before new internet-enabled phones take hold. Its ADR fell 26.5% in a day in New York.",
     "why": "The first crack in the bubble story; the shares had touched a lifetime high of 65 euros in Helsinki on 20 June.",
     "assets": [
       "nokia"
     ],
-    "source": "https://money.cnn.com/2000/07/27/europe/nokia/ via web.archive.org (read 2026-10-03); https://news.bbc.co.uk/2/hi/business/1055805.stm (read 2026-10-03)"
+    "source": "https://money.cnn.com/2000/07/27/europe/nokia/ via web.archive.org (read 2026-10-03); https://news.bbc.co.uk/2/hi/business/1055805.stm (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share figure dropped"
   },
   {
     "id": "a908d942",
     "month": "2001-06",
     "title": "Nokia warns again as the slowdown spreads",
-    "what": "On 12 June Nokia warned that second-quarter earnings will be 0.15-0.17 euros a share, below expectations, that sales growth will be under 10%, and that it will take a restructuring charge, citing the spread of the US slowdown and less aggressive marketing by operators. Its ADR fell nearly 20% that day.",
+    "what": "On 12 June Nokia warned that second-quarter earnings will be below expectations, that sales growth will be under 10%, and that it will take a restructuring charge, citing the spread of the US slowdown and less aggressive marketing by operators. Its ADR fell nearly 20% that day.",
     "why": "The telecom bust reaches the market leader.",
     "assets": [
       "nokia"
@@ -73,13 +74,14 @@
       "asset": "nokia",
       "pct": -24
     },
-    "source": "https://money.cnn.com/2001/06/12/companies/nokia/ via web.archive.org (read 2026-10-03)"
+    "source": "https://money.cnn.com/2001/06/12/companies/nokia/ via web.archive.org (read 2026-10-03)",
+    "changed": "rule on metrics: earnings forecast per share dropped"
   },
   {
     "id": "47bc861a",
     "month": "2001-10",
     "title": "Nokia's results beat fears",
-    "what": "On 19 October Nokia said third-quarter profit before one-off items fell 18% to 760 million euros, better than the 25% fall analysts expected, and forecast fourth-quarter earnings of 0.18-0.20 euros a share. Its shares rose.",
+    "what": "On 19 October Nokia said third-quarter profit before one-off items fell 18% to 760 million euros, better than the 25% fall analysts expected, and gave a forecast for fourth-quarter earnings. Its shares rose.",
     "why": "Relief after the September collapse; the ADR rose 31% in October and kept rising into January.",
     "assets": [
       "nokia"
@@ -88,7 +90,8 @@
       "asset": "nokia",
       "pct": 31
     },
-    "source": "https://money.cnn.com/2001/10/19/international/nokia/ via web.archive.org (read 2026-10-03)"
+    "source": "https://money.cnn.com/2001/10/19/international/nokia/ via web.archive.org (read 2026-10-03)",
+    "changed": "rule on metrics: earnings forecast per share dropped"
   },
   {
     "id": "24c6f5a6",
@@ -384,7 +387,7 @@
     "id": "a43be103",
     "month": "2025-10",
     "title": "Nvidia invests $1 billion in Nokia",
-    "what": "On 23 October Nokia reported third-quarter sales up 9% on a comparable basis, with optical networks up 19%. On 28 October Nvidia announced it will invest 1 billion dollars in Nokia at 6.01 dollars a share and work with it on AI-powered mobile networks for 5G-Advanced and 6G, with T-Mobile US trials from 2026. Nokia's shares rose 44% in October.",
+    "what": "On 23 October Nokia reported third-quarter sales up 9% on a comparable basis, with optical networks up 19%. On 28 October Nvidia announced it will invest 1 billion dollars in new Nokia shares and work with it on AI-powered mobile networks for 5G-Advanced and 6G, with T-Mobile US trials from 2026. Nokia's shares rose 44% in October.",
     "why": "The AI rerating: the ADR jumps 44% in October, its best month since the Microsoft deal.",
     "assets": [
       "nokia",
@@ -394,7 +397,8 @@
       "asset": "nokia",
       "pct": 44
     },
-    "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
+    "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx (read 2026-10-03); https://www.nokia.com/about-us/news/releases/2025/10/23/nokia-corporation-interim-report-for-q3-2025/ (read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/Nokia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
+    "changed": "rule on metrics: subscription price per share dropped, the total kept"
   },
   {
     "id": "91658daa",

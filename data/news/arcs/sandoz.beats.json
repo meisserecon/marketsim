@@ -52,7 +52,7 @@
     "id": "175f5c0d",
     "month": "1996-03",
     "title": "Sandoz and Ciba-Geigy to merge as Novartis",
-    "what": "On 7 March Sandoz and Ciba-Geigy, Basel's old rivals, announced that they will merge into a new company called Novartis, the largest corporate merger ever; the two had combined sales of nearly $30 billion last year. Ciba-Geigy's chairman Alex Krauer is to be chairman and Sandoz's pharma chief Daniel Vasella chief executive. Sandoz's bearer share jumped from 1,126 to 1,384 francs in March, Ciba-Geigy's from 1,067 to 1,475.",
+    "what": "On 7 March Sandoz and Ciba-Geigy, Basel's old rivals, announced that they will merge into a new company called Novartis, the largest corporate merger ever; the two had combined sales of nearly $30 billion last year. Ciba-Geigy's chairman Alex Krauer is to be chairman and Sandoz's pharma chief Daniel Vasella chief executive. Sandoz's bearer share jumped 23% in March, Ciba-Geigy's 38%.",
     "why": "The defining event of the Sandoz arc: +24% in a month (23% in francs) and the end of an independent Sandoz. The exchange terms were not confirmed in a source read.",
     "assets": [
       "sandoz"
@@ -62,6 +62,7 @@
       "pct": 24
     },
     "source": "https://live.novartis.com/en/article/49 (read 2026-10-03); https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); search excerpt of https://pubs.acs.org/doi/10.1021/cen-v074n011.p007 (combined sales, read 2026-10-03); NZZ prices in data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: share prices in francs replaced by the changes in percent (1,126 to 1,384; 1,067 to 1,475)"
   }
 ]

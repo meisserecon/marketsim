@@ -29,7 +29,7 @@
     "id": "437f5a83",
     "month": "2003-04",
     "title": "Xstrata bids for Australia's MIM",
-    "what": "On 7 April Xstrata agreed to buy MIM Holdings, the troubled Australian copper, zinc, lead and coal miner that owns the Mount Isa mines, for A$1.72 a share in cash, about US$3bn. The deal would more than double Xstrata's size and give it copper and coking coal for the first time. Xstrata plans to fund part of it by selling new shares to its existing investors.",
+    "what": "On 7 April Xstrata agreed to buy MIM Holdings, the troubled Australian copper, zinc, lead and coal miner that owns the Mount Isa mines, for about US$3bn in cash. The deal would more than double Xstrata's size and give it copper and coking coal for the first time. Xstrata plans to fund part of it by selling new shares to its existing investors.",
     "why": "The first of Davis's three transforming deals, struck at the bottom of the metals cycle. Hindsight calls the timing a masterstroke: copper started climbing within months.",
     "assets": [
       "xstrata"
@@ -38,7 +38,8 @@
       "asset": "xstrata",
       "pct": 18
     },
-    "source": "https://en.wikipedia.org/wiki/MIM_Holdings; https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054 (both read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/MIM_Holdings; https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054 (both read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "0ab57bd9",
@@ -85,7 +86,7 @@
     "id": "ecb2a99d",
     "month": "2005-03",
     "title": "BHP outbids Xstrata for WMC",
-    "what": "On 8 March BHP Billiton offered US$6.22 a share in cash, about US$7.3bn, for Australia's WMC Resources, owner of the giant Olympic Dam copper and uranium mine, topping Xstrata's hostile offer by 85 US cents a share. Xstrata had launched its bid in November at A$6.35 a share, valuing WMC at A$7.4bn, and WMC had rejected it as inadequate. WMC's board now recommends BHP's offer.",
+    "what": "On 8 March BHP Billiton offered about US$7.3bn in cash for Australia's WMC Resources, owner of the giant Olympic Dam copper and uranium mine, topping Xstrata's hostile offer by about 16%. Xstrata had launched its bid in November, valuing WMC at A$7.4bn, and WMC had rejected it as inadequate. WMC's board now recommends BHP's offer.",
     "why": "Davis's first big defeat: he lost Olympic Dam to the industry leader and kept his discipline. The share price dipped 9% in the month.",
     "assets": [
       "xstrata"
@@ -94,7 +95,8 @@
       "asset": "xstrata",
       "pct": -9
     },
-    "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)"
+    "source": "https://www.nbcnews.com/news/amp/wbna7126848; https://www.abc.net.au/news/2004-11-23/wmc-rejects-new-xstrata-takeover-bid/590410; https://en.wikipedia.org/wiki/WMC_Resources (all read 2026-10-03)",
+    "changed": "rule on metrics: offer prices per share dropped; the margin over Xstrata given in percent (85 cents on 6.22 dollars), totals kept"
   },
   {
     "id": "a6d21608",
@@ -115,7 +117,7 @@
     "id": "3617b036",
     "month": "2006-05",
     "title": "Hostile bid for Falconbridge as copper hits records",
-    "what": "On 18 May Xstrata launched a hostile all-cash bid of C$52.50 a share for the 80% of Falconbridge it does not own, challenging an agreed takeover by the Canadian nickel miner Inco. Copper averaged a record $8,046 a tonne in May, up from $4,734 in January, and nickel and zinc are also at records.",
+    "what": "On 18 May Xstrata launched a hostile all-cash bid for the 80% of Falconbridge it does not own, challenging an agreed takeover by the Canadian nickel miner Inco. Copper averaged a record $8,046 a tonne in May, up from $4,734 in January, and nickel and zinc are also at records.",
     "why": "The metals price explosion of spring 2006 made Falconbridge's mines worth far more than the bids, and Xstrata was the one willing to pay in cash.",
     "assets": [
       "xstrata"
@@ -124,18 +126,20 @@
       "asset": "xstrata",
       "pct": 10
     },
-    "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Falconbridge_Ltd.; https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "changed": "rule on metrics: offer price per share dropped"
   },
   {
     "id": "553caa1b",
     "month": "2006-08",
     "title": "Xstrata wins Falconbridge",
-    "what": "After raising its offer to C$62.50 a share in cash, Xstrata took up 257.7 million Falconbridge shares on 14 August and now owns about 92% of the company; Inco's competing bid lapsed in July. The bid values Falconbridge at more than C$20bn; it adds Sudbury nickel and large copper interests, and the business will become Xstrata Nickel, based in Toronto.",
+    "what": "After raising its cash offer, Xstrata took up 257.7 million Falconbridge shares on 14 August and now owns about 92% of the company; Inco's competing bid lapsed in July. The bid values Falconbridge at more than C$20bn; it adds Sudbury nickel and large copper interests, and the business will become Xstrata Nickel, based in Toronto.",
     "why": "The deal that turned Xstrata into one of the world's five largest diversified miners and a major copper producer, financed at the top of a price boom that kept going for two more years.",
     "assets": [
       "xstrata"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; https://en.wikipedia.org/wiki/Falconbridge_Ltd. (both read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/0000889211/000104746906010982/a2172709zsc14d1fa.htm; https://en.wikipedia.org/wiki/Falconbridge_Ltd. (both read 2026-10-03)",
+    "changed": "rule on metrics: offer price per share dropped, the total value kept"
   },
   {
     "id": "e954b04a",
@@ -167,7 +171,7 @@
     "id": "bfe414f6",
     "month": "2008-08",
     "title": "Xstrata bids £5bn for Lonmin as commodities turn",
-    "what": "On 6 August Xstrata said it would offer £33 a share in cash, about £5bn ($10bn), for the platinum producer Lonmin, a 42% premium; Lonmin rejected it as opportunistic and its shares jumped above the offer price. Commodity prices fell in August: copper averaged $7,635 a tonne against $8,414 in July, coal $158 against $180, and oil dropped from its July record.",
+    "what": "On 6 August Xstrata said it would offer about £5bn ($10bn) in cash for the platinum producer Lonmin, a 42% premium; Lonmin rejected it as opportunistic and its shares jumped above the offer price. Commodity prices fell in August: copper averaged $7,635 a tonne against $8,414 in July, coal $158 against $180, and oil dropped from its July record.",
     "why": "The last deal of the boom, launched just as prices rolled over. The 23% fall in the month is mostly the commodity turn; the bid itself moved Xstrata only 1% on the day. [Lookahead review: 'peak' implied the final high.]",
     "assets": [
       "xstrata"
@@ -176,7 +180,8 @@
       "asset": "xstrata",
       "pct": -23
     },
-    "source": "https://www.rnz.co.nz/news/business/26135/lonmin-snubs-takeover-offer-by-xstrata; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
+    "source": "https://www.rnz.co.nz/news/business/26135/lonmin-snubs-takeover-offer-by-xstrata; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "changed": "rule on metrics: offer price per share dropped, total and premium kept"
   },
   {
     "id": "456650ed",

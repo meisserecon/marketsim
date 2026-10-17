@@ -158,13 +158,14 @@
     "id": "d647be84",
     "month": "1999-06",
     "title": "Wal-Mart buys Britain's Asda for 10.8 billion dollars",
-    "what": "On 14 June Wal-Mart agreed to pay 6.7 billion pounds, about 10.8 billion dollars or 220 pence a share in cash, for Asda, Britain's third-largest supermarket chain. Its offer trumped a merger planned with the British retailer Kingfisher, which withdrew. Asda's board recommends the bid.",
+    "what": "On 14 June Wal-Mart agreed to pay 6.7 billion pounds in cash, about 10.8 billion dollars, for Asda, Britain's third-largest supermarket chain. Its offer trumped a merger planned with the British retailer Kingfisher, which withdrew. Asda's board recommends the bid.",
     "why": "Wal-Mart's biggest foreign bet; it made Wal-Mart the world's largest retailer and was sold in 2021 at roughly the same value in pounds.",
     "assets": [
       "wmt"
     ],
     "source": "https://money.cnn.com/1999/06/14/worldbiz/asda/ (search result summary read 2026-10-03); https://en.wikipedia.org/wiki/Asda (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "e5c54a67",
@@ -237,12 +238,13 @@
     "id": "3e96d25b",
     "month": "2015-10",
     "title": "Wal-Mart warns profits will fall; shares drop 10% in a day",
-    "what": "On 14 October Wal-Mart said earnings per share will fall 6 to 12% next year, mainly because it is spending 1.5 billion dollars on higher pay, raising its minimum wage from 9 to 10 dollars an hour, and investing in online shopping and lower prices. The shares fell 10% to 60.03 dollars, their worst day in more than 17 years, wiping out almost 20 billion dollars of market value.",
+    "what": "On 14 October Wal-Mart said earnings per share will fall 6 to 12% next year, mainly because it is spending 1.5 billion dollars on higher pay, raising its minimum wage from 9 to 10 dollars an hour, and investing in online shopping and lower prices. The shares fell 10%, their worst day in more than 17 years, wiping out almost 20 billion dollars of market value.",
     "why": "The low point of the McMillon reset; the stock lost about 29% in 2015 and then recovered as the investments paid off.",
     "assets": [
       "wmt"
     ],
-    "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)"
+    "source": "https://www.nbcnews.com/business/markets/wal-mart-stock-hammered-profit-warning-triggers-price-war-fears-n444706 (read 2026-10-03)",
+    "changed": "rule on metrics: closing price dropped, the 10% fall kept"
   },
   {
     "id": "f2046994",
@@ -260,7 +262,7 @@
     "id": "f12b4fe1",
     "month": "2018-02",
     "title": "Now Walmart Inc., the shares slide on slower online growth",
-    "what": "From 1 February the company is called Walmart Inc. instead of Wal-Mart Stores. On 20 February its shares fell about 10% after holiday-quarter profit came in below forecasts (1.33 dollars a share against 1.36 expected) and US online sales grew 23%, after 50% the quarter before.",
+    "what": "From 1 February the company is called Walmart Inc. instead of Wal-Mart Stores. On 20 February its shares fell about 10% after holiday-quarter profit came in about 2% below forecasts and US online sales grew 23%, after 50% the quarter before.",
     "why": "Profit-taking after a 43% gain in 2017; the market judged Walmart by its online growth now.",
     "assets": [
       "wmt"
@@ -269,7 +271,8 @@
       "asset": "wmt",
       "pct": -16
     },
-    "source": "https://www.fool.com/investing/2018/02/20/why-walmart-stock-plunged-today.aspx (read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)"
+    "source": "https://www.fool.com/investing/2018/02/20/why-walmart-stock-plunged-today.aspx (read 2026-10-03); https://en.wikipedia.org/wiki/Walmart (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the shortfall in percent (1.33 against 1.36 expected)"
   },
   {
     "id": "04d446e0",
@@ -298,7 +301,7 @@
     "id": "d3532e4a",
     "month": "2022-05",
     "title": "Inflation squeezes Walmart; worst day since 1987",
-    "what": "On 17 May Walmart reported quarterly earnings of 1.30 dollars a share against 1.48 expected, and said full-year profit would now fall about 1% instead of rising. Higher fuel and wage costs and swollen inventories ate into margins. The shares fell 11.4%, their worst day since 16 October 1987.",
+    "what": "On 17 May Walmart reported quarterly earnings 12 percent below expectations, and said full-year profit would now fall about 1% instead of rising. Higher fuel and wage costs and swollen inventories ate into margins. The shares fell 11.4%, their worst day since 16 October 1987.",
     "why": "Inflation hit the low-price model before it helped it; the stock recovered within a year as better-off shoppers traded down to Walmart.",
     "assets": [
       "wmt"
@@ -307,7 +310,8 @@
       "asset": "wmt",
       "pct": -16
     },
-    "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)"
+    "source": "https://www.fool.com/investing/2022/05/19/walmart-stock-suffers-biggest-crash-in-35-years (read 2026-10-03); https://www.fool.com/investing/2022/05/17/why-walmart-stock-plunged-today (search result read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the shortfall in percent (1.30 against 1.48 expected)"
   },
   {
     "id": "edef6045",

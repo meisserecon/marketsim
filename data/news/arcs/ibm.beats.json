@@ -142,7 +142,7 @@
     "id": "5f67ca9d",
     "month": "2001-04",
     "title": "IBM stays on course and the Fed surprises",
-    "what": "IBM reported first-quarter earnings of 98 cents a share, up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. On 18 April the Federal Reserve cut rates by half a point between meetings.",
+    "what": "IBM reported first-quarter earnings per share up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. On 18 April the Federal Reserve cut rates by half a point between meetings.",
     "why": "Explains the +20% month, together with the market's +8%.",
     "assets": [
       "ibm"
@@ -151,7 +151,8 @@
       "asset": "ibm",
       "pct": 20
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205701509402/a2045870zex-99_1.txt (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205701509402/a2045870zex-99_1.txt (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share amount removed, growth rate kept"
   },
   {
     "id": "098d5ba1",
@@ -168,7 +169,7 @@
     "id": "f722187c",
     "month": "2002-04",
     "title": "IBM warns, then reports a 31% profit drop",
-    "what": "On 8 April IBM warned that first-quarter revenue would fall to about 18.5 billion dollars from 21 billion, as customers put off spending, and that its chip unit would lose money. The results confirmed it: earnings per share fell 31% to 68 cents. New chief executive Sam Palmisano said customers everywhere deferred technology purchases.",
+    "what": "On 8 April IBM warned that first-quarter revenue would fall to about 18.5 billion dollars from 21 billion, as customers put off spending, and that its chip unit would lose money. The results confirmed it: earnings per share fell 31%. New chief executive Sam Palmisano said customers everywhere deferred technology purchases.",
     "why": "Explains the -19% month: the first profit warning in years for the stock that had seemed immune to the tech bust.",
     "assets": [
       "ibm"
@@ -177,13 +178,14 @@
       "asset": "ibm",
       "pct": -19
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000100547702001549/d02-37080.txt (IBM 8-K of 2002-04-08, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/0000051143/000089155402002124/d02-37159.txt (IBM results release of 2002-04-17, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000100547702001549/d02-37080.txt (IBM 8-K of 2002-04-08, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/0000051143/000089155402002124/d02-37159.txt (IBM results release of 2002-04-17, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share amount removed, change in percent kept"
   },
   {
     "id": "c94d1357",
     "month": "2002-10",
     "title": "IBM surprises with growing profits and buys PwC Consulting",
-    "what": "On 16 October IBM reported third-quarter earnings of 99 cents a share from continuing operations, up from 97 cents, on flat revenue of 19.8 billion dollars, in what it called one of the toughest spending environments it has faced. On 1 October it completed the purchase of PricewaterhouseCoopers' consulting arm for about 3.5 billion dollars. The stock market hit a new low on 9 October and then rallied.",
+    "what": "On 16 October IBM reported third-quarter earnings per share from continuing operations up about 2%, on flat revenue of 19.8 billion dollars, in what it called one of the toughest spending environments it has faced. On 1 October it completed the purchase of PricewaterhouseCoopers' consulting arm for about 3.5 billion dollars. The stock market hit a new low on 9 October and then rallied.",
     "why": "Explains the +35% month, IBM's best in the game: relief that the bellwether was still growing, on top of a market rebound (+9%). (Time check: 'bottomed' was known only later.)",
     "assets": [
       "ibm"
@@ -192,7 +194,8 @@
       "asset": "ibm",
       "pct": 35
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205702038827/a2091373z8-k.txt (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205702038827/a2091373z8-k.txt (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_IBM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the change in percent"
   },
   {
     "id": "c8e2dcf5",
@@ -210,13 +213,14 @@
     "id": "53259bb9",
     "month": "2006-10",
     "title": "IBM's profits keep growing without PCs",
-    "what": "On 17 October IBM reported third-quarter earnings of 1.45 dollars a share, up 15% excluding a one-time tax charge a year ago, on revenue of 22.6 billion dollars, up 5%. Mainframe revenue rose 25%. Chief executive Sam Palmisano credited the repositioning of IBM's business model toward the growth and profit areas of the industry.",
+    "what": "On 17 October IBM reported third-quarter earnings per share up 15% excluding a one-time tax charge a year ago, on revenue of 22.6 billion dollars, up 5%. Mainframe revenue rose 25%. Chief executive Sam Palmisano credited the repositioning of IBM's business model toward the growth and profit areas of the industry.",
     "why": "The quiet Palmisano years: steady earnings growth and buybacks after the PC sale (stock +18% in 2006, +11% in 2007). The month was +13%.",
     "assets": [
       "ibm"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465906067047/a06-19062_48k.htm (IBM 8-K with the results release of 2006-10-17, read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: earnings per share amount removed, growth rate kept"
   },
   {
     "id": "3577ce85",
@@ -245,7 +249,7 @@
     "id": "a770c7b8",
     "month": "2014-10",
     "title": "IBM pays to get rid of its chip factories and drops its 2015 target",
-    "what": "On 20 October IBM agreed to hand its chip manufacturing business to GlobalFoundries and to pay it 1.5 billion dollars over three years, taking a 4.7 billion dollar charge. It also said it no longer expects to earn at least 20 dollars a share in 2015, a target it had promised for years. Chief executive Ginni Rometty said the results were not what IBM expected.",
+    "what": "On 20 October IBM agreed to hand its chip manufacturing business to GlobalFoundries and to pay it 1.5 billion dollars over three years, taking a 4.7 billion dollar charge. It also said it no longer expects to reach its profit target for 2015, which it had promised for years. Chief executive Ginni Rometty said the results were not what IBM expected.",
     "why": "The start of IBM's lost years under Rometty: the stock fell 14% in both 2014 and 2015 and was lower in 2020 than in 2011.",
     "assets": [
       "ibm"
@@ -254,7 +258,8 @@
       "asset": "ibm",
       "pct": -13
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465914072335/a14-22457_48k.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/51143/000110465914072339/a14-22457_18k.htm (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/51143/000110465914072335/a14-22457_48k.htm (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/51143/000110465914072339/a14-22457_18k.htm (read 2026-10-03)",
+    "changed": "rule on metrics: per-share earnings target removed"
   },
   {
     "id": "1af6dfce",

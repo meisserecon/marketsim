@@ -15,36 +15,39 @@
     "id": "9bb6db37",
     "month": "1985-11",
     "title": "Philip Morris completes the 5.75 billion dollar purchase of General Foods",
-    "what": "Philip Morris completed its takeover of General Foods, the maker of Maxwell House coffee, Jell-O and Kool-Aid, which it agreed in late September at 120 dollars a share, 5.75 billion dollars in all. It is the biggest takeover outside the oil industry so far and creates the largest consumer products company in the United States. This year Philip Morris is also passing Reynolds as the biggest US cigarette maker.",
+    "what": "Philip Morris completed its takeover of General Foods, the maker of Maxwell House coffee, Jell-O and Kool-Aid, which it agreed in late September for 5.75 billion dollars in all. It is the biggest takeover outside the oil industry so far and creates the largest consumer products company in the United States. This year Philip Morris is also passing Reynolds as the biggest US cigarette maker.",
     "why": "The start of the food diversification financed by cigarette cash. It later took two spin-offs (Kraft in 2007, PMI in 2008) to undo the conglomerate.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.csmonitor.com/1985/1001/fphil.html (read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03); https://en.wikipedia.org/wiki/General_Foods (completion in November 1985, read 2026-10-03)"
+    "source": "https://www.csmonitor.com/1985/1001/fphil.html (read 2026-10-03); https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03); https://en.wikipedia.org/wiki/General_Foods (completion in November 1985, read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "e3f01c7a",
     "month": "1988-10",
     "title": "Philip Morris buys Kraft for 13.1 billion dollars",
-    "what": "On 30 October Kraft agreed to be bought by Philip Morris for 106 dollars a share, about 13.1 billion dollars, after Philip Morris raised its hostile offer from 90 dollars. It is the second-largest takeover in US history and makes Philip Morris the world's largest consumer goods company, with Kraft cheese, Philadelphia cream cheese and Velveeta next to General Foods' brands.",
+    "what": "On 30 October Kraft agreed to be bought by Philip Morris for about 13.1 billion dollars, after Philip Morris raised its hostile offer by about 18%. It is the second-largest takeover in US history and makes Philip Morris the world's largest consumer goods company, with Kraft cheese, Philadelphia cream cheese and Velveeta next to General Foods' brands.",
     "why": "Food became more than half the group's revenue, but cigarettes stayed most of the profit; Kraft and General Foods were merged into Kraft General Foods.",
     "assets": [
       "mo"
     ],
     "source": "https://www.upi.com/Archives/1988/10/31/The-merger-of-Philip-Morris-Cos-and-Kraft-Inc/6672594277200/ (read 2026-10-03); https://en.wikipedia.org/wiki/Kraft_Foods_Inc. (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: offer prices per share replaced by the raise in percent (106 against 90 dollars), the total kept"
   },
   {
     "id": "7faf529f",
     "month": "1989-08",
     "title": "Four-for-one split and a 22% higher dividend",
-    "what": "Philip Morris's board approved a four-for-one stock split and raised the quarterly dividend 22%, to 1.375 dollars a share before the split. The shares closed at 163.50 dollars. The company earned 1.34 billion dollars in the first half, on revenue of 22.4 billion against 15.4 billion a year earlier, thanks to Kraft.",
+    "what": "Philip Morris's board approved a four-for-one stock split and raised the quarterly dividend 22%. The company earned 1.34 billion dollars in the first half, on revenue of 22.4 billion against 15.4 billion a year earlier, thanks to Kraft.",
     "why": "The late 1980s were the stock's golden years: from the end of 1985 to the end of 1991 the share price rose about sevenfold.",
     "assets": [
       "mo"
     ],
     "source": "https://www.upi.com/Archives/1989/08/30/Philip-Morris-splits-stock-and-raises-dividend/4918620452800/ (read 2026-10-03); price change from data/out/mo.json",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: dividend per share and closing price dropped"
   },
   {
     "id": "2c7fabaf",
@@ -177,12 +180,13 @@
     "id": "75ee6431",
     "month": "2001-06",
     "title": "Kraft goes public in the second-largest IPO ever",
-    "what": "Philip Morris sold about 16% of Kraft Foods to the public in June, raising 8.7 billion dollars in the second-largest initial public offering to date; it keeps 84% of the shares and 98% of the votes. Kraft now includes Nabisco, the maker of Oreo and Ritz, which Philip Morris bought in 2000 for 55 dollars a share in cash, an enterprise value of 18.9 billion dollars. It is the largest food company in North America.",
+    "what": "Philip Morris sold about 16% of Kraft Foods to the public in June, raising 8.7 billion dollars in the second-largest initial public offering to date; it keeps 84% of the shares and 98% of the votes. Kraft now includes Nabisco, the maker of Oreo and Ritz, which Philip Morris bought in 2000 in cash, at an enterprise value of 18.9 billion dollars. It is the largest food company in North America.",
     "why": "Gave the market a price for the food business and prepared the full spin-off of 2007.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/764180/000095013000003538/0000950130-00-003538-0002.txt (Nabisco terms, Philip Morris 8-K of 26 June 2000, read 2026-10-03)"
+    "source": "https://www.referenceforbusiness.com/history2/72/Philip-Morris-Companies-Inc.html (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/764180/000095013000003538/0000950130-00-003538-0002.txt (Nabisco terms, Philip Morris 8-K of 26 June 2000, read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the enterprise value kept"
   },
   {
     "id": "880b38da",
@@ -259,12 +263,13 @@
     "id": "4b8a7def",
     "month": "2004-11",
     "title": "Altria considers breaking itself up",
-    "what": "On 4 November chairman Louis Camilleri told investors that Altria's tobacco businesses are significantly undervalued compared with other tobacco companies, and that Altria is looking at separating into two or three independent companies, preparing to act 'when the litigation environment permits'. He expects 2004 earnings at the top of the guided range of 4.55 to 4.60 dollars a share. Altria shares gained about 19% in November.",
+    "what": "On 4 November chairman Louis Camilleri told investors that Altria's tobacco businesses are significantly undervalued compared with other tobacco companies, and that Altria is looking at separating into two or three independent companies, preparing to act 'when the litigation environment permits'. He expects 2004 earnings at the top of the guided range. Altria shares gained about 19% in November.",
     "why": "The first public statement of the break-up plan carried out in 2007 and 2008; the link to the November gain is plausible but not confirmed by a source read here.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000115752304010378/a4758835ex99.txt (Altria press release of 4 November 2004, read 2026-10-03); month change from data/out/mo.json"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000115752304010378/a4758835ex99.txt (Altria press release of 4 November 2004, read 2026-10-03); month change from data/out/mo.json",
+    "changed": "rule on metrics: earnings forecast per share dropped"
   },
   {
     "id": "4de69165",
@@ -304,34 +309,37 @@
     "id": "8f8e429c",
     "month": "2011-01",
     "title": "Altria grows earnings despite falling cigarette volumes",
-    "what": "Altria reported on 27 January that its adjusted earnings per share rose 8.6% in 2010 to 1.90 dollars, helped by higher profits from cigarettes and smokeless tobacco, and announced a new 1 billion dollar share buyback. It expects 6 to 9% earnings growth in 2011.",
+    "what": "Altria reported on 27 January that its adjusted earnings per share rose 8.6% in 2010, helped by higher profits from cigarettes and smokeless tobacco, and announced a new 1 billion dollar share buyback. It expects 6 to 9% earnings growth in 2011.",
     "why": "The template of the post-spin-off years: rising prices, cost cuts and buybacks more than offset falling volumes.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312511015372/dex991.htm (release of 27 January 2011, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312511015372/dex991.htm (release of 27 January 2011, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share figure dropped, the 8.6% growth kept"
   },
   {
     "id": "1f223a2d",
     "month": "2012-05",
     "title": "Barrington succeeds Szymanczyk at Altria",
-    "what": "Martin Barrington became chairman and chief executive of Altria on 17 May, succeeding Michael Szymanczyk, who retired after 23 years with the company, including four as Altria CEO and 12 as head of Philip Morris USA. Altria pays a quarterly dividend of 41 cents a share.",
+    "what": "Martin Barrington became chairman and chief executive of Altria on 17 May, succeeding Michael Szymanczyk, who retired after 23 years with the company, including four as Altria CEO and 12 as head of Philip Morris USA. Altria pays a quarterly dividend.",
     "why": "The quiet years: a shrinking cigarette market offset by price increases and buybacks, with the shares rising steadily until 2017.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312512238426/d353312dex991.htm (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000119312512238426/d353312dex991.htm (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share dropped"
   },
   {
     "id": "55fbb113",
     "month": "2014-01",
     "title": "Another year of 7.7% earnings growth",
-    "what": "Altria reported on 30 January that adjusted earnings per share grew 7.7% in 2013 to 2.38 dollars, with higher prices and brand-building lifting income in all three of its main businesses. It forecasts 6 to 9% growth for 2014.",
+    "what": "Altria reported on 30 January that adjusted earnings per share grew 7.7% in 2013, with higher prices and brand-building lifting income in all three of its main businesses. It forecasts 6 to 9% growth for 2014.",
     "why": "Steady and predictable: the kind of results that made Altria a favourite of income investors.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418014000011/exhibit9912013q4er.htm (release of 30 January 2014, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418014000011/exhibit9912013q4er.htm (release of 30 January 2014, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share figure dropped, the 7.7% growth kept"
   },
   {
     "id": "ed148629",
@@ -359,12 +367,13 @@
     "id": "a30e2dfe",
     "month": "2018-05",
     "title": "Howard Willard takes over at Altria",
-    "what": "Howard Willard, a 25-year company veteran who has been chief operating officer and finance chief, succeeded Marty Barrington as chairman and chief executive on 17 May. Altria expects adjusted earnings per share to grow 15 to 19% in 2018, helped by the US tax cut, and raised its share buyback to 2 billion dollars; the quarterly dividend is 70 cents.",
+    "what": "Howard Willard, a 25-year company veteran who has been chief operating officer and finance chief, succeeded Marty Barrington as chairman and chief executive on 17 May. Altria expects adjusted earnings per share to grow 15 to 19% in 2018, helped by the US tax cut, and raised its share buyback to 2 billion dollars.",
     "why": "Willard's tenure (to 2020) is defined by the Juul investment of December 2018.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418018000042/exhibit9912018asm.htm (release of 17 May 2018, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/764180/000076418018000042/exhibit9912018asm.htm (release of 17 May 2018, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share dropped"
   },
   {
     "id": "ce2ef73d",

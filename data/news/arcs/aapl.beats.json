@@ -3,13 +3,14 @@
     "id": "c39ec28f",
     "month": "1980-12",
     "title": "Apple Computer, maker of the Apple II, goes public",
-    "what": "Apple Computer went public on 12 December: 4.6 million shares at 22 dollars raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded at 29. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires.",
+    "what": "Apple Computer went public on 12 December: 4.6 million shares raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded 32% above the issue price. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires.",
     "why": "The listing beat. Apple was the leader of the young personal computer market; nobody yet knew that IBM would enter it eight months later.",
     "assets": [
       "aapl"
     ],
     "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: issue price and first-day close replaced by the first-day gain in percent"
   },
   {
     "id": "c01495cc",
@@ -93,7 +94,7 @@
     "id": "d1779f1c",
     "month": "1983-09",
     "title": "Apple shares lose more than a third in a month",
-    "what": "Apple's shares, which stood at 63 dollars in June, have collapsed: in September alone they lost 38%. Computer shares fell across the board after Osborne, a maker of portable computers, went bankrupt. Apple has troubles of its own: its new Lisa costs 10,000 dollars and sells poorly, it has cut the price of its best seller, the Apple IIe, and IBM, only two years after launching its PC, now sells more personal computers by value than Apple.",
+    "what": "Apple's shares have collapsed since June: in September alone they lost 38%. Computer shares fell across the board after Osborne, a maker of portable computers, went bankrupt. Apple has troubles of its own: its new Lisa costs 10,000 dollars and sells poorly, it has cut the price of its best seller, the Apple IIe, and IBM, only two years after launching its PC, now sells more personal computers by value than Apple.",
     "why": "The first Apple crash: the company that invented the market is being overtaken by IBM. It sets up the Macintosh of January 1984 as the answer.",
     "assets": [
       "aapl",
@@ -104,7 +105,8 @@
       "pct": -38
     },
     "source": "https://fortune.com/1984/02/20/apple-bites-back-fortune-1984 (read 2026-10-04)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: absolute share price removed"
   },
   {
     "id": "b5ae4948",

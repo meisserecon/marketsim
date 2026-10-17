@@ -112,7 +112,7 @@
     "id": "56a802a5",
     "month": "1999-10",
     "title": "AOL passes 18 million members and beats forecasts",
-    "what": "America Online reported on 20 October a profit of $184 million, or 15 cents a share, for its first fiscal quarter, against 13 cents expected by analysts. Revenue rose 47% to $1.5 billion, and advertising and commerce revenue doubled to $350 million. The service gained 1.1 million members in the quarter and now has more than 18 million worldwide. AOL also agreed with the computer maker Gateway to put its service on Gateway's PCs and to run Gateway's internet service.",
+    "what": "America Online reported on 20 October a profit of $184 million for its first fiscal quarter, about 15% more than analysts expected. Revenue rose 47% to $1.5 billion, and advertising and commerce revenue doubled to $350 million. The service gained 1.1 million members in the quarter and now has more than 18 million worldwide. AOL also agreed with the computer maker Gateway to put its service on Gateway's PCs and to run Gateway's internet service.",
     "why": "Growth still beating forecasts: +25% in October 1999.",
     "assets": [
       "aol"
@@ -122,7 +122,8 @@
       "pct": 25
     },
     "thread": "dotcom",
-    "source": "https://money.cnn.com/1999/10/20/news/aol/ (CNNfn, 20 October 1999, read 2026-10-14)"
+    "source": "https://money.cnn.com/1999/10/20/news/aol/ (CNNfn, 20 October 1999, read 2026-10-14)",
+    "changed": "rule on metrics: earnings per share replaced by the total profit and the beat against expectations in percent"
   },
   {
     "id": "baedbcae",
@@ -160,13 +161,14 @@
     "id": "3e415b72",
     "month": "2002-04",
     "title": "AOL Time Warner loses $54 billion in a quarter",
-    "what": "AOL Time Warner reported on 24 April a net loss of $54.2 billion for the first quarter, one of the biggest in corporate history, almost all of it a one-time charge for the fall in value of the businesses combined in the merger, booked under a new accounting rule. Revenue rose 4% to $9.8 billion. Richard Parsons, who becomes chief executive next month when Gerald Levin retires, cut the year's profit growth target and blamed weak online advertising at America Online. The shares closed at $19.30.",
+    "what": "AOL Time Warner reported on 24 April a net loss of $54.2 billion for the first quarter, one of the biggest in corporate history, almost all of it a one-time charge for the fall in value of the businesses combined in the merger, booked under a new accounting rule. Revenue rose 4% to $9.8 billion. Richard Parsons, who becomes chief executive next month when Gerald Levin retires, cut the year's profit growth target and blamed weak online advertising at America Online.",
     "why": "The merger's failure in numbers: the write-down admitted that AOL had paid with overvalued shares.",
     "assets": [
       "aol"
     ],
     "thread": "dotcom",
-    "source": "https://money.cnn.com/2002/04/24/technology/aol/ (CNN/Money, 24 April 2002, read 2026-10-14)"
+    "source": "https://money.cnn.com/2002/04/24/technology/aol/ (CNN/Money, 24 April 2002, read 2026-10-14)",
+    "changed": "rule on metrics: closing share price removed"
   },
   {
     "id": "7808c277",

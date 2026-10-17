@@ -58,7 +58,7 @@
     "id": "47f45f82",
     "month": "1999-04",
     "title": "Enron's profit up 18% as trading booms",
-    "what": "Enron's first-quarter net income rose 18% to $253 million, or 68 cents a share, from $214 million a year earlier. Earnings from selling gas and power and managing the contracts rose 74% to $224 million, and chairman Kenneth Lay said he expects 1999 to be another excellent year for earnings and shareholder returns.",
+    "what": "Enron's first-quarter net income rose 18% to $253 million from $214 million a year earlier. Earnings from selling gas and power and managing the contracts rose 74% to $224 million, and chairman Kenneth Lay said he expects 1999 to be another excellent year for earnings and shareholder returns.",
     "why": "The trading machine was now the profit engine, and the market began to pay a growth-stock price for it.",
     "assets": [
       "enron"
@@ -67,7 +67,8 @@
       "asset": "enron",
       "pct": 17
     },
-    "source": "https://enroncorp.com/corp/pressroom/releases/1999/ene/1q99ene (Enron press release, 13 April 1999; read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/1999/ene/1q99ene (Enron press release, 13 April 1999; read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share removed, total profit kept"
   },
   {
     "id": "7700b84e",
@@ -115,7 +116,7 @@
     "id": "a4b9ff02",
     "month": "2000-11",
     "title": "Enron denies rumours of a profit warning",
-    "what": "Enron's president Jeffrey Skilling said on 24 November that rumours of a profit warning were untrue, adding that the company was very comfortable with analysts' forecasts of 35 cents a share for the fourth quarter and $1.65 for 2001. The shares fell about a fifth in November as the market slid and as Wall Street worried about California's power market, where a leading utility analyst suspended his ratings on energy companies in October.",
+    "what": "Enron's president Jeffrey Skilling said on 24 November that rumours of a profit warning were untrue, adding that the company was very comfortable with analysts' profit forecasts for the fourth quarter and for 2001. The shares fell about a fifth in November as the market slid and as Wall Street worried about California's power market, where a leading utility analyst suspended his ratings on energy companies in October.",
     "why": "The first crack. A short-seller, Jim Chanos, started betting against Enron this month after reading its annual report.",
     "assets": [
       "enron"
@@ -124,13 +125,14 @@
       "asset": "enron",
       "pct": -21
     },
-    "source": "https://enroncorp.com/corp/pressroom/releases/2000/ene/104-rumoursuntrue (Enron press release, 24 November 2000; read 2026-10-03); https://en.wikipedia.org/wiki/Enron (read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/2000/ene/104-rumoursuntrue (Enron press release, 24 November 2000; read 2026-10-03); https://en.wikipedia.org/wiki/Enron (read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
+    "changed": "rule on metrics: per-share earnings forecasts removed (no total figures available)"
   },
   {
     "id": "24d452e8",
     "month": "2000-12",
     "title": "Skilling to become Enron's chief executive",
-    "what": "Enron's board elected Jeffrey Skilling chief executive from 12 February 2001, with Kenneth Lay remaining chairman; Skilling said Lay had put rumours of a move to Washington to rest. Enron had revenues of $40 billion in 1999 and $60 billion in the first nine months of 2000. It also agreed to buy back the public shares of its water company Azurix at $8.375 each.",
+    "what": "Enron's board elected Jeffrey Skilling chief executive from 12 February 2001, with Kenneth Lay remaining chairman; Skilling said Lay had put rumours of a move to Washington to rest. Enron had revenues of $40 billion in 1999 and $60 billion in the first nine months of 2000. It also agreed to buy back the public shares of its water company Azurix.",
     "why": "The relief rally took the stock back above $80 at the year end, when the company was valued at about 70 times earnings.",
     "assets": [
       "enron"
@@ -139,7 +141,8 @@
       "asset": "enron",
       "pct": 28
     },
-    "source": "https://enroncorp.com/corp/pressroom/releases/2000/ene/107-skilling (Enron press release, 13 December 2000; read 2026-10-03); https://enroncorp.com/corp/pressroom/releases/2000/press_chron2000 (read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/2000/ene/107-skilling (Enron press release, 13 December 2000; read 2026-10-03); https://enroncorp.com/corp/pressroom/releases/2000/press_chron2000 (read 2026-10-03)",
+    "changed": "rule on metrics: buyback price per share removed"
   },
   {
     "id": "a196403a",
@@ -171,12 +174,13 @@
     "id": "c03ee8fc",
     "month": "2001-04",
     "title": "Skilling insults an analyst on a conference call",
-    "what": "Enron reported record recurring earnings of 47 cents a share for the first quarter and raised its outlook for 2001. On the conference call, when analyst Richard Grubman complained that Enron was the only company that could not release a balance sheet with its earnings, chief executive Jeffrey Skilling called him an obscenity.",
+    "what": "Enron reported record recurring earnings for the first quarter and raised its outlook for 2001. On the conference call, when analyst Richard Grubman complained that Enron was the only company that could not release a balance sheet with its earnings, chief executive Jeffrey Skilling called him an obscenity.",
     "why": "A small scene that told investors a lot: a company that will not show its balance sheet and attacks those who ask.",
     "assets": [
       "enron"
     ],
-    "source": "https://enroncorp.com/corp/pressroom/releases/2001/press_chron2001 (Enron press release, 17 April 2001; read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)"
+    "source": "https://enroncorp.com/corp/pressroom/releases/2001/press_chron2001 (Enron press release, 17 April 2001; read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share removed"
   },
   {
     "id": "99cbad19",
@@ -238,7 +242,7 @@
     "id": "e3f28f31",
     "month": "2001-11",
     "title": "Dynegy rescue collapses; Enron cut to junk",
-    "what": "Enron admitted it had overstated profits since 1997 by about $590 million and agreed on 9 November to be taken over by its smaller Houston rival Dynegy for about $8 billion in stock. A filing on 19 November showed about $9 billion of debt due by the end of 2002 and warned of the risk to Enron's survival. On 28 November the rating agencies cut Enron to junk, making $3.9 billion of debt due at once, and Dynegy walked away; the shares closed at 61 cents.",
+    "what": "Enron admitted it had overstated profits since 1997 by about $590 million and agreed on 9 November to be taken over by its smaller Houston rival Dynegy for about $8 billion in stock. A filing on 19 November showed about $9 billion of debt due by the end of 2002 and warned of the risk to Enron's survival. On 28 November the rating agencies cut Enron to junk, making $3.9 billion of debt due at once, and Dynegy walked away; the shares lost 98% in November and are nearly worthless.",
     "why": "A takeover offer is not a floor: once the buyer's due diligence found the hole, the deal died and the shares went to almost nothing.",
     "assets": [
       "enron"
@@ -247,7 +251,8 @@
       "asset": "enron",
       "pct": -98
     },
-    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03); https://www.pbs.org/newshour/nation/business-july-dec01-enron_11-28 (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03); https://www.pbs.org/newshour/nation/business-july-dec01-enron_11-28 (read 2026-10-03)",
+    "changed": "rule on metrics: closing price in cents replaced by the fall in percent from the move"
   },
   {
     "id": "64c025f7",

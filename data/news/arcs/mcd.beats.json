@@ -197,12 +197,13 @@
     "id": "0e6df9c1",
     "month": "2006-10",
     "title": "McDonald's lets go of Chipotle and raises its dividend 50%",
-    "what": "McDonald's raised its annual dividend by nearly 50% to 1 dollar a share in late September, four times the level of 2002, and offered its shareholders Chipotle shares in exchange for McDonald's shares; in October it fully divested its majority stake in the Mexican grill chain. It is concentrating on the McDonald's brand and returning cash to shareholders.",
+    "what": "McDonald's raised its annual dividend by nearly 50% in late September, to four times the level of 2002, and offered its shareholders Chipotle shares in exchange for McDonald's shares; in October it fully divested its majority stake in the Mexican grill chain. It is concentrating on the McDonald's brand and returning cash to shareholders.",
     "why": "The template of the Skinner years: a focused, franchise-heavy, cash-returning business. Chipotle, in which McDonald's first invested in 1998, grew into a large company on its own.",
     "assets": [
       "mcd"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000110465906064616/a06-19377_23ex99d1.htm (release of 27 September 2006, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (Chipotle divestment, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000110465906064616/a06-19377_23ex99d1.htm (release of 27 September 2006, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (Chipotle divestment, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share dropped, the 50% rise kept"
   },
   {
     "id": "879a112a",
@@ -219,23 +220,25 @@
     "id": "9a32e306",
     "month": "2009-01",
     "title": "McDonald's thrives in the recession",
-    "what": "McDonald's reported on 26 January that 2008 was 'a strong year': worldwide sales at existing restaurants rose 6.9%, guest counts rose in every quarter, and earnings per share from continuing operations grew 16%. It returned 5.8 billion dollars to shareholders and raised the quarterly dividend 33% to 50 cents. McDonald's shares ended 2008 higher than they started, while the S&P 500 lost more than a third.",
+    "what": "McDonald's reported on 26 January that 2008 was 'a strong year': worldwide sales at existing restaurants rose 6.9%, guest counts rose in every quarter, and earnings per share from continuing operations grew 16%. It returned 5.8 billion dollars to shareholders and raised the quarterly dividend 33%. McDonald's shares ended 2008 higher than they started, while the S&P 500 lost more than a third.",
     "why": "Cheap food in a recession: McDonald's was one of very few large stocks to rise in 2008.",
     "assets": [
       "mcd"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312509010789/dex991.htm (release of 26 January 2009, read 2026-10-03); yearly changes from data/out/mcd.json and data/reference/sp500.json"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312509010789/dex991.htm (release of 26 January 2009, read 2026-10-03); yearly changes from data/out/mcd.json and data/reference/sp500.json",
+    "changed": "rule on metrics: dividend per share dropped, the 33% rise kept"
   },
   {
     "id": "cba50463",
     "month": "2011-01",
     "title": "Another strong year: 62 million customers a day",
-    "what": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11% to 4.58 dollars, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
+    "what": "McDonald's reported on 24 January that worldwide sales at existing restaurants rose 5.0% in 2010, positive in every region in every quarter. Revenue reached a record 24 billion dollars, earnings per share rose 11%, and it returned 5.1 billion dollars to shareholders. More than 62 million customers visit its restaurants every day.",
     "why": "The peak of the Skinner era; the shares gained about 30% in 2011.",
     "assets": [
       "mcd"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312511012490/dex991.htm (release of 24 January 2011, read 2026-10-03); yearly change from data/out/mcd.json"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000119312511012490/dex991.htm (release of 24 January 2011, read 2026-10-03); yearly change from data/out/mcd.json",
+    "changed": "rule on metrics: earnings per share figure dropped, the 11% growth kept"
   },
   {
     "id": "ae794fe2",
@@ -263,7 +266,7 @@
     "id": "8f24f59e",
     "month": "2015-10",
     "title": "All-day breakfast and a turnaround quarter",
-    "what": "Steve Easterbrook, the British chief brand officer, replaced Don Thompson as chief executive in March after customer visits fell 4.1% in 2014. McDonald's began serving part of its breakfast menu all day in US restaurants in October. On 22 October it reported that worldwide sales at existing restaurants rose 4.0% in the third quarter, with growth in every segment including the US, and earnings per share up 28% to 1.40 dollars. The shares gained about 14% in October as the market rallied.",
+    "what": "Steve Easterbrook, the British chief brand officer, replaced Don Thompson as chief executive in March after customer visits fell 4.1% in 2014. McDonald's began serving part of its breakfast menu all day in US restaurants in October. On 22 October it reported that worldwide sales at existing restaurants rose 4.0% in the third quarter, with growth in every segment including the US, and earnings per share up 28%. The shares gained about 14% in October as the market rallied.",
     "why": "The quarter that convinced investors that Easterbrook's turnaround was real; the shares roughly doubled during his four and a half years in charge.",
     "assets": [
       "mcd"
@@ -272,7 +275,8 @@
       "asset": "mcd",
       "pct": 14
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390815000076/exhibit991-9302015.htm (release of 22 October 2015, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (all-day breakfast 2015, read 2026-10-03); move from data/out/mcd.json; https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390815000076/exhibit991-9302015.htm (release of 22 October 2015, read 2026-10-03); https://en.wikipedia.org/wiki/McDonald%27s (all-day breakfast 2015, read 2026-10-03); move from data/out/mcd.json; https://en.wikipedia.org/wiki/Don_Thompson_(executive) (read 2026-10-03); https://en.wikipedia.org/wiki/Steve_Easterbrook (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share figure dropped, the 28% growth kept"
   },
   {
     "id": "146437d9",

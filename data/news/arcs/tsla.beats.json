@@ -450,7 +450,7 @@
     "id": "38f48334",
     "month": "2026-07",
     "title": "Record deliveries, but profits disappoint",
-    "what": "Tesla delivered a record 480,126 cars in the second quarter, but on 22 July it reported earnings of 33 cents a share against expected 53 cents; its operating margin fell to 1.4%, regulatory credit income collapsed and spending on factories and AI more than doubled, so it burned cash. The shares fell about 10% the next day. Musk's SpaceX listed its shares in June in the biggest stock market debut ever, competing for the same investors.",
+    "what": "Tesla delivered a record 480,126 cars in the second quarter, but on 22 July it reported earnings per share 38% below expectations; its operating margin fell to 1.4%, regulatory credit income collapsed and spending on factories and AI more than doubled, so it burned cash. The shares fell about 10% the next day. Musk's SpaceX listed its shares in June in the biggest stock market debut ever, competing for the same investors.",
     "why": "-26%: the gap between the AI valuation and the car profits showed again; Tesla's value fell back below 1 trillion dollars.",
     "assets": [
       "tsla"
@@ -459,7 +459,8 @@
       "asset": "tsla",
       "pct": -26
     },
-    "source": "Tesla Q2 2026 Production and Deliveries, 2 July 2026, https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/exhibit99111111.htm (read 2026-10-03); Electrek, 'Tesla (TSLA) releases Q2 2026 financial results: record revenue, big profit miss', 22 July 2026, https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/ (read 2026-10-03); 24/7 Wall St., 'Tesla Slides 10% on Earnings Miss Despite Record Deliveries', 23 July 2026 (headline via Google News) (read 2026-10-03); NPR, 'SpaceX IPO makes history as largest ever', 12 June 2026 (headline via Google News) (read 2026-10-03); https://www.fool.com/investing/2026/08/06/why-tesla-stock-plunged-26-in-july/ (read 2026-10-03)"
+    "source": "Tesla Q2 2026 Production and Deliveries, 2 July 2026, https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/exhibit99111111.htm (read 2026-10-03); Electrek, 'Tesla (TSLA) releases Q2 2026 financial results: record revenue, big profit miss', 22 July 2026, https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/ (read 2026-10-03); 24/7 Wall St., 'Tesla Slides 10% on Earnings Miss Despite Record Deliveries', 23 July 2026 (headline via Google News) (read 2026-10-03); NPR, 'SpaceX IPO makes history as largest ever', 12 June 2026 (headline via Google News) (read 2026-10-03); https://www.fool.com/investing/2026/08/06/why-tesla-stock-plunged-26-in-july/ (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the shortfall in percent (33 against 53 cents expected)"
   },
   {
     "id": "06181062",

@@ -14,13 +14,14 @@
     "id": "de77a264",
     "month": "1982-12",
     "title": "IBM buys 12% of Intel for 250 million dollars",
-    "what": "IBM agreed on 22 December to buy 12% of Intel's shares for 250 million dollars, at 40 dollars a share, with the option to go up to 30%. Intel makes the chips in IBM's personal computers, and the cash helps it through the recession.",
+    "what": "IBM agreed on 22 December to buy 12% of Intel's shares for 250 million dollars, with the option to go up to 30%. Intel makes the chips in IBM's personal computers, and the cash helps it through the recession.",
     "why": "Shows how important and how fragile Intel was in the early 1980s: its biggest customer propped it up. IBM sold most of the stake again in 1987 once Intel had recovered.",
     "assets": [
       "intc",
       "ibm"
     ],
-    "source": "https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03, via data/news/1982.json); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03)"
+    "source": "https://www.washingtonpost.com/archive/business/1982/12/23/ibm-buys-into-intel/42d6b870-e675-4618-ade2-f47632e726ed/ (read 2026-10-03, via data/news/1982.json); https://timeline.intel.com/1987/financial-year-1987 (read 2026-10-03)",
+    "changed": "rule on metrics: purchase price per share removed, total kept"
   },
   {
     "id": "753c8a14",
@@ -71,7 +72,7 @@
     "id": "3b929e85",
     "month": "2000-09",
     "title": "Intel warns, and loses a fifth in a day",
-    "what": "On 21 September Intel said third-quarter revenue would grow only 3 to 5% from the second quarter, to 8.5 to 8.7 billion dollars, well short of what analysts expected, blaming weak sales in Europe. The shares fell 21% in after-hours trading, from 61.48 to 48.06 dollars, and kept falling; it was a record trading day for a US stock.",
+    "what": "On 21 September Intel said third-quarter revenue would grow only 3 to 5% from the second quarter, to 8.5 to 8.7 billion dollars, well short of what analysts expected, blaming weak sales in Europe. The shares fell 21% in after-hours trading and kept falling; it was a record trading day for a US stock.",
     "why": "The end of the PC boom and the start of an 83% fall to February 2009. Intel had peaked at about 75 dollars in August 2000 and did not see that price again until 2026.",
     "assets": [
       "intc"
@@ -80,7 +81,8 @@
       "asset": "intc",
       "pct": -44
     },
-    "source": "https://www.spokesman.com/stories/2000/sep/22/intel-warns-of-earnings-drop/ (read 2026-10-03); https://www.washingtonpost.com/archive/business/2000/09/23/markets-recover-from-intel-news/86f1f046-3970-447b-8152-2fa4c425ae46/ (read 2026-10-03, via search summary)"
+    "source": "https://www.spokesman.com/stories/2000/sep/22/intel-warns-of-earnings-drop/ (read 2026-10-03); https://www.washingtonpost.com/archive/business/2000/09/23/markets-recover-from-intel-news/86f1f046-3970-447b-8152-2fa4c425ae46/ (read 2026-10-03, via search summary)",
+    "changed": "rule on metrics: share prices removed, fall in percent kept"
   },
   {
     "id": "841dfb20",
@@ -324,7 +326,7 @@
     "id": "a8fc2718",
     "month": "2026-04",
     "title": "Intel more than doubles in a month",
-    "what": "On 9 April Intel's foundry won Tesla as a long-term partner for a planned chip plant and Alphabet committed to Intel processors for Google Cloud. On 23 April Intel reported first-quarter revenue of 13.6 billion dollars, up 7%, and adjusted earnings of 29 cents a share against two cents expected; chief executive Lip-Bu Tan said demand for data-centre processors now exceeds supply. The shares rose 24% the next day and 114% for the month.",
+    "what": "On 9 April Intel's foundry won Tesla as a long-term partner for a planned chip plant and Alphabet committed to Intel processors for Google Cloud. On 23 April Intel reported first-quarter revenue of 13.6 billion dollars, up 7%, and adjusted earnings per share about 14 times what analysts expected; chief executive Lip-Bu Tan said demand for data-centre processors now exceeds supply. The shares rose 24% the next day and 114% for the month.",
     "why": "Its best month in 55 years on Nasdaq: AI agents turned out to need ordinary processors as well as Nvidia's accelerators.",
     "assets": [
       "intc",
@@ -335,7 +337,8 @@
       "pct": 114
     },
     "source": "https://www.fool.com/investing/2026/05/04/how-intel-stock-more-than-doubled-last-month/ (read 2026-10-03); https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html (read 2026-10-03, via search summary)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: earnings per share against expectations replaced by the ratio computed from them"
   },
   {
     "id": "116984e2",

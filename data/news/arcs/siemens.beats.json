@@ -182,34 +182,37 @@
     "id": "eebc0a5b",
     "month": "2016-11",
     "title": "Siemens buys Mentor Graphics; wind merger with Gamesa",
-    "what": "In November Siemens agreed to buy the US chip-design software company Mentor Graphics for 4.5 billion dollars. In June it agreed to merge its wind power business with Spain's Gamesa, holding 59% of the combined company and funding a cash payment of 3.75 euros a share to Gamesa's other shareholders.",
+    "what": "In November Siemens agreed to buy the US chip-design software company Mentor Graphics for 4.5 billion dollars. In June it agreed to merge its wind power business with Spain's Gamesa, holding 59% of the combined company and funding a cash payment to Gamesa's other shareholders.",
     "why": "Vision 2020 in action: software for the digital factory, and wind power as a separate listed company that later becomes part of Siemens Energy.",
     "assets": [
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-and-gamesa-merge-wind-businesses-create-leading-wind-power-player (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Siemens (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-and-gamesa-merge-wind-businesses-create-leading-wind-power-player (read 2026-10-03)",
+    "changed": "rule on metrics: cash payment per share dropped; the source gives no total"
   },
   {
     "id": "ddf56eab",
     "month": "2018-03",
     "title": "Siemens Healthineers goes public",
-    "what": "Siemens listed its medical technology business, Siemens Healthineers, on the Frankfurt stock exchange on 16 March, selling a 15% stake at 28 euros a share. The flotation was billed as Germany's largest since Deutsche Telekom's in 1996.",
+    "what": "Siemens listed its medical technology business, Siemens Healthineers, on the Frankfurt stock exchange on 16 March, selling a 15% stake. The flotation was billed as Germany's largest since Deutsche Telekom's in 1996.",
     "why": "The healthcare carve-out; Siemens keeps a large majority and later plans to hand the rest to its own shareholders.",
     "assets": [
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Siemens_Healthineers (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Siemens_Healthineers (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)",
+    "changed": "rule on metrics: IPO price per share dropped"
   },
   {
     "id": "93d3e6b1",
     "month": "2019-11",
     "title": "Siemens confirms the plan to spin off its energy business",
-    "what": "On 7 November Siemens said it plans to carve out its Gas and Power division, add its 59% stake in Siemens Gamesa, and spin off and list the new Siemens Energy before the end of fiscal 2020. It expects earnings per share of 6.30 to 7.00 euros in fiscal 2020. Siemens shares rose 12% in November.",
+    "what": "On 7 November Siemens said it plans to carve out its Gas and Power division, add its 59% stake in Siemens Gamesa, and spin off and list the new Siemens Energy before the end of fiscal 2020. It expects earnings per share in fiscal 2020 between 2% below and 9% above fiscal 2019. Siemens shares rose 12% in November.",
     "why": "The final break-up step of the Kaeser era is now on a timetable.",
     "assets": [
       "siemens"
     ],
-    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2019 (read 2026-10-03)"
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2019 (read 2026-10-03)",
+    "changed": "rule on metrics: earnings forecast per share replaced by the range in percent against fiscal 2019 (6.30-7.00 against 6.41 euros, from the same release)"
   },
   {
     "id": "bb4bd91c",
@@ -237,7 +240,7 @@
     "id": "e7c22454",
     "month": "2022-11",
     "title": "Record profit as Siemens closes fiscal 2022",
-    "what": "On 17 November Siemens reported an outstanding fiscal 2022 with record profit of more than 10 billion euros in its industrial businesses and free cash flow of 8.2 billion euros, and forecast earnings per share of 8.70 to 9.20 euros for 2023 on a high order backlog. The euro also rose against the dollar. Siemens shares gained 24% in November.",
+    "what": "On 17 November Siemens reported an outstanding fiscal 2022 with record profit of more than 10 billion euros in its industrial businesses and free cash flow of 8.2 billion euros, and forecast earnings per share 59 to 68% higher in 2023 on a high order backlog. The euro also rose against the dollar. Siemens shares gained 24% in November.",
     "why": "The market rewards the slimmed-down industrial Siemens; about 4 points of the gain is the euro.",
     "assets": [
       "siemens"
@@ -246,7 +249,8 @@
       "asset": "siemens",
       "pct": 24
     },
-    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2022 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-q4-fy-2022 (read 2026-10-03); data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "changed": "rule on metrics: earnings forecast per share replaced by the growth in percent (8.70-9.20 against 5.47 euros pre-PPA, from the same release)"
   },
   {
     "id": "0daa8fa4",

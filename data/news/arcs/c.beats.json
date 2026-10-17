@@ -176,7 +176,7 @@
     "id": "fe39e62b",
     "month": "2008-11",
     "title": "Government rescues Citigroup",
-    "what": "On 17 November Citigroup announced about 52,000 more job cuts, and its market value fell to about $20 billion from $244 billion two years earlier. On 23 November the Treasury, the Federal Reserve and the FDIC agreed to guarantee losses on $306 billion of Citigroup's loans and securities and to invest a further $20 billion. In return the government gets preferred shares and warrants, a say in pay and lending, and the dividend is cut to a cent a share.",
+    "what": "On 17 November Citigroup announced about 52,000 more job cuts, and its market value fell to about $20 billion from $244 billion two years earlier. On 23 November the Treasury, the Federal Reserve and the FDIC agreed to guarantee losses on $306 billion of Citigroup's loans and securities and to invest a further $20 billion. In return the government gets preferred shares and warrants, a say in pay and lending, and the dividend is cut to a token amount.",
     "why": "The largest bank rescue of the crisis. The shares fell 39% in November despite it: shareholders were being kept alive, not made whole.",
     "assets": [
       "c"
@@ -187,7 +187,8 @@
     },
     "thread": "housing-crisis",
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012308016585/y72849exv99w1.htm (Citigroup press release, 24 November 2008; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: dividend per share replaced by a description without the amount"
   },
   {
     "id": "47239996",
@@ -277,12 +278,13 @@
     "id": "0b7524c3",
     "month": "2011-05",
     "title": "Citigroup completes a 1-for-10 reverse split",
-    "what": "Citigroup combined every ten of its shares into one, effective after trading on 6 May; the shares trade on a split-adjusted basis from 9 May. A shareholder's stake is unchanged: ten times fewer shares, each worth ten times more. Citigroup plans to reinstate a quarterly dividend of 1 cent a share now that the split is done. It earned $10.6 billion in 2010.",
+    "what": "Citigroup combined every ten of its shares into one, effective after trading on 6 May; the shares trade on a split-adjusted basis from 9 May. A shareholder's stake is unchanged: ten times fewer shares, each worth ten times more. Citigroup plans to reinstate a small quarterly dividend now that the split is done. It earned $10.6 billion in 2010.",
     "why": "The game's price series is adjusted for the split, so the chart shows no jump; news quoted before May 2011 uses prices one tenth of the game's. The split was the formal close of the rescue era.",
     "assets": [
       "c"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000119312511131957/dex991.htm (Citigroup press release, 9 May 2011; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420411016019/v215370_ex99-1.htm (21 March 2011; read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000119312511131957/dex991.htm (Citigroup press release, 9 May 2011; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420411016019/v215370_ex99-1.htm (21 March 2011; read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share replaced by a description without the amount"
   },
   {
     "id": "c1d6367a",

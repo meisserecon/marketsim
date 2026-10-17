@@ -136,23 +136,25 @@
     "id": "04995711",
     "month": "2003-01",
     "title": "Microsoft pays its first dividend",
-    "what": "On 16 January Microsoft's board declared the company's first dividend, 16 cents a share for the year (8 cents after a two-for-one split also announced that day). For a company that has always kept its profits, it is a change of character.",
+    "what": "On 16 January Microsoft's board declared the company's first dividend, to be paid once a year, together with a two-for-one split. For a company that has always kept its profits, it is a change of character.",
     "why": "The growth company becomes a mature one; the shares were flat for the rest of the decade.",
     "assets": [
       "msft"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000103221003000121/d10q.htm (Microsoft 10-Q for the quarter to 31 December 2002, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000103221003000121/d10q.htm (Microsoft 10-Q for the quarter to 31 December 2002, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share dropped"
   },
   {
     "id": "2b675511",
     "month": "2004-07",
-    "title": "A 3-dollar special dividend and a 30 billion dollar buyback",
-    "what": "Microsoft's board approved a one-time special dividend of 3 dollars a share, a quarterly dividend of 8 cents, and plans to buy back up to 30 billion dollars of its own shares over four years. The company had accumulated more cash than it could use.",
+    "title": "Microsoft pays out 32 billion dollars in one go",
+    "what": "Microsoft's board approved a one-time special dividend of 32 billion dollars, the largest ever, a regular quarterly dividend that about doubles the yearly payout to some 3.5 billion dollars, and plans to buy back up to 30 billion dollars of its own shares over four years. The company had accumulated more cash than it could use.",
     "why": "A very large cash return; it appears in the game as dividend income, not as a price rise.",
     "assets": [
       "msft"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312504122829/dex991.htm (Microsoft press release of 22 July 2004, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312504122829/dex991.htm (Microsoft press release of 22 July 2004, read 2026-10-03); https://news.microsoft.com/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/ (Microsoft press release of 20 July 2004, read 2026-10-17)",
+    "changed": "rule on metrics: the special dividend is given as its 32 billion dollar total (Microsoft press release of 20 July 2004), not per share"
   },
   {
     "id": "96e36c2a",
@@ -180,12 +182,13 @@
     "id": "a6445d16",
     "month": "2008-02",
     "title": "Microsoft bids 44.6 billion dollars for Yahoo",
-    "what": "On 1 February Microsoft offered to buy Yahoo for 31 dollars a share, half in cash and half in shares, about 44.6 billion dollars and a 62% premium. Microsoft wants to compete with Google in online advertising, which it expects to double from 40 billion dollars in 2007 to nearly 80 billion by 2010.",
+    "what": "On 1 February Microsoft offered to buy Yahoo for about 44.6 billion dollars, half in cash and half in shares, a 62% premium. Microsoft wants to compete with Google in online advertising, which it expects to double from 40 billion dollars in 2007 to nearly 80 billion by 2010.",
     "why": "The bid showed how far Microsoft had fallen behind Google on the internet.",
     "assets": [
       "msft"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000095012308001037/y47867exv99w1.htm (Microsoft press release of 1 February 2008, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000095012308001037/y47867exv99w1.htm (Microsoft press release of 1 February 2008, read 2026-10-03)",
+    "changed": "rule on metrics: offer price per share dropped, total and premium kept"
   },
   {
     "id": "27afc354",
@@ -317,13 +320,14 @@
     "id": "11d62139",
     "month": "2022-01",
     "title": "Microsoft will buy Activision Blizzard for 68.7 billion dollars",
-    "what": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 95 dollars a share in cash, 68.7 billion dollars. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
+    "what": "On 18 January Microsoft agreed to buy the games company Activision Blizzard, maker of Call of Duty, World of Warcraft and Candy Crush, for 68.7 billion dollars in cash. It would make Microsoft the third-largest games company by revenue after Tencent and Sony.",
     "why": "The biggest deal in Microsoft's history, held up by regulators until October 2023; announced as technology shares began the 2022 slide.",
     "assets": [
       "msft",
       "sony"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312522010667/d301984dex991.htm (Microsoft press release of 18 January 2022, read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "265d2698",

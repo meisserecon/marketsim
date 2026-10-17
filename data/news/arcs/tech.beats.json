@@ -86,11 +86,12 @@
     "id": "35251842",
     "month": "1995-08",
     "title": "Netscape's IPO: 2.9 billion dollars for a company without profits",
-    "what": "Netscape, the maker of the most popular web browser, went public on 9 August. The price was doubled at the last minute to 28 dollars; the shares opened at 71, touched 75 and closed at 58.25, valuing the 16-month-old company at 2.9 billion dollars.",
+    "what": "Netscape, the maker of the most popular web browser, went public on 9 August. The offer price was doubled at the last minute; on the first day the shares closed 108% above it, valuing the 16-month-old company at 2.9 billion dollars.",
     "why": "The starting gun of the dot-com era: it showed that investors would pay billions for internet growth without profits.",
     "assets": [],
     "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Netscape (read 2026-10-03)",
+    "changed": "rule on metrics: IPO price and first-day prices replaced by the first-day gain in percent (28 to 58.25)"
   },
   {
     "id": "4031fa8e",
@@ -144,14 +145,15 @@
     "id": "2d38a9cb",
     "month": "1998-11",
     "title": "theglobe.com rises 606% on its first day",
-    "what": "theglobe.com, a website for online communities, went public on 13 November at 9 dollars a share; it touched 97 and closed at 63.50, a first-day gain of 606%. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
+    "what": "theglobe.com, a website for online communities, went public on 13 November and closed its first day 606% above the offer price. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
     "why": "The moment the internet boom turned into a mania of first-day pops. theglobe.com was worth under 10 cents a share by 2001.",
     "assets": [
       "ebay",
       "amzn"
     ],
     "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "changed": "rule on metrics: IPO price and first-day prices dropped, the 606% gain kept"
   },
   {
     "id": "5f7998d3",
@@ -196,11 +198,12 @@
     "id": "9a953413",
     "month": "1999-12",
     "title": "VA Linux jumps 698% on its first day; a web address sells for 7.5 million dollars",
-    "what": "On 9 December VA Linux, a company named after the free Linux operating system, went public at 30 dollars a share; the shares opened at 299 and closed at 239.25, up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
+    "what": "On 9 December VA Linux, a company named after the free Linux operating system, went public; the shares opened at nearly ten times the offer price and closed up 698 percent, the biggest first-day gain on record. Web addresses have become prized too: this year Marc Ostrofsky sold the name business.com for 7.5 million dollars, a record price for a domain name; he had paid 150,000 dollars for it in the mid-1990s.",
     "why": "Peak froth: first-day jumps and domain-name prices measured how much money was chasing anything with 'internet' in its name, three months before the Nasdaq's top.",
     "assets": [],
     "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)",
+    "changed": "rule on metrics: IPO price and first-day prices dropped, the 698% gain kept and the opening given as a multiple (30 to 299)"
   },
   {
     "id": "1f8b5752",
@@ -489,10 +492,11 @@
     "id": "29844f8e",
     "month": "2012-05",
     "title": "Facebook's IPO disappoints",
-    "what": "Facebook, the social network, went public on 18 May at 38 dollars a share, raising 16 billion dollars and valuing it at 104 billion, the highest ever for a newly listed company. Technical problems at Nasdaq delayed trading, and the shares closed the first day at just 38.23. By the end of May they were below 28 dollars.",
+    "what": "Facebook, the social network, went public on 18 May, raising 16 billion dollars and valuing it at 104 billion, the highest ever for a newly listed company. Technical problems at Nasdaq delayed trading, and the shares closed the first day barely above the offer price. By the end of May they were more than a quarter below it.",
     "why": "Social media's coming of age on the stock market; the shares bottomed below 18 in September.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook (read 2026-10-03)",
+    "changed": "rule on metrics: IPO price and closes replaced by changes against the offer price (38 to 38.23; below 28)"
   },
   {
     "id": "1085855f",

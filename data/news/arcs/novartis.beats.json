@@ -3,13 +3,14 @@
     "id": "7490ea7d",
     "month": "1996-11",
     "title": "Sandoz and Ciba-Geigy become Novartis",
-    "what": "The merger of Sandoz and Ciba-Geigy, announced on 7 March as the largest corporate merger ever, is being completed: Sandoz shares, last traded at 1,516 francs on 29 November, are exchanged for shares of the new Novartis. Ciba-Geigy's chairman Alex Krauer is chairman and Sandoz's Daniel Vasella chief executive.",
+    "what": "The merger of Sandoz and Ciba-Geigy, announced on 7 March as the largest corporate merger ever, is being completed: Sandoz shares, last traded on 29 November, are exchanged for shares of the new Novartis. Ciba-Geigy's chairman Alex Krauer is chairman and Sandoz's Daniel Vasella chief executive.",
     "why": "The merger beat from the Novartis side: holders of Sandoz in the game become Novartis holders at the November prices.",
     "assets": [
       "novartis",
       "sandoz"
     ],
-    "source": "https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03); data/src/universe.ts"
+    "source": "https://pmlive.com/pharma_news/this_month_in_1996_ciba-geigy_and_sandoz_merge_553502 (read 2026-10-03); data/manual/raw/nzz-notes-1995-1998.md (read 2026-10-03); data/src/universe.ts",
+    "changed": "rule on metrics: last share price in francs dropped"
   },
   {
     "id": "fbf6652d",
@@ -180,12 +181,13 @@
     "id": "55e7640e",
     "month": "2018-12",
     "title": "Novartis buys AveXis for gene therapy",
-    "what": "This year Novartis bought AveXis, a developer of gene therapy for spinal muscular atrophy, for $218 a share, $8.7 billion in total. Novartis also sold its stake in the consumer health joint venture to GlaxoSmithKline for $13 billion in March.",
+    "what": "This year Novartis bought AveXis, a developer of gene therapy for spinal muscular atrophy, for $8.7 billion. Novartis also sold its stake in the consumer health joint venture to GlaxoSmithKline for $13 billion in March.",
     "why": "AveXis brings Zolgensma, one of the most expensive treatments in the world. Month of AveXis not confirmed, hence a year-end summary.",
     "assets": [
       "novartis"
     ],
-    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "eaaa52b2",
@@ -202,12 +204,13 @@
     "id": "eb0623c3",
     "month": "2019-11",
     "title": "Novartis buys The Medicines Company",
-    "what": "In late November Novartis agreed to buy The Medicines Company for $9.7 billion, $85 a share. It is Novartis's second big purchase under Narasimhan after AveXis.",
+    "what": "In late November Novartis agreed to buy The Medicines Company for $9.7 billion. It is Novartis's second big purchase under Narasimhan after AveXis.",
     "why": "A bet on mass-market cardiology under Narasimhan.",
     "assets": [
       "novartis"
     ],
-    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Novartis (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped, the total kept"
   },
   {
     "id": "e6eef2a8",

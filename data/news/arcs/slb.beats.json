@@ -165,23 +165,25 @@
     "id": "5bca0ac6",
     "month": "2013-01",
     "title": "Revenue passes 42 billion dollars",
-    "what": "Schlumberger reported on 18 January that its 2012 revenue rose to 42.15 billion dollars from 36.96 billion, and that income from continuing operations, excluding one-off items, was 5.58 billion dollars, or 4.17 dollars a share against 3.61 in 2011. US crude averaged between 82 and 106 dollars a barrel in every month of 2012.",
+    "what": "Schlumberger reported on 18 January that its 2012 revenue rose to 42.15 billion dollars from 36.96 billion, and that income from continuing operations, excluding one-off items, was 5.58 billion dollars, up 16 percent per share from 2011. US crude averaged between 82 and 106 dollars a barrel in every month of 2012.",
     "why": "The plateau of the 2010s boom: the shares rose 13% this month and reached their all-time high in June 2014, a year before the bust.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger press release of 18 January 2013, https://www.sec.gov/Archives/edgar/data/87347/000119312513016649/d469041dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
+    "source": "Schlumberger press release of 18 January 2013, https://www.sec.gov/Archives/edgar/data/87347/000119312513016649/d469041dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the total profit and the per-share growth (4.17 against 3.61)"
   },
   {
     "id": "12cc0211",
     "month": "2015-01",
     "title": "Oil halves; Schlumberger cuts jobs but raises its dividend",
-    "what": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.27 dollars a share for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
+    "what": "US crude, about 107 dollars in June, ended 2014 near 53 and kept falling. On 15 January Schlumberger reported fourth-quarter charges of 1.6 billion dollars after tax for restructuring its seismic business, a currency loss in Venezuela, a workforce reduction and impairments. It still raised its dividend by 25 percent, the fifth increase in a row, saying it can generate superior cash flows despite the more challenging environment.",
     "why": "The start of the worst stretch of the game: -89% from June 2014 to March 2020. Schlumberger cut more than 20,000 jobs in 2015.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)"
+    "source": "Schlumberger press release of 15 January 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/87347/000119312515011936/d852325dex991.htm (charges after tax, read 2026-10-17); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)",
+    "changed": "rule on metrics: charges per share replaced by the total after tax from the release (1,639 million)"
   },
   {
     "id": "2a6fba43",
@@ -209,23 +211,25 @@
     "id": "e2ed082c",
     "month": "2018-01",
     "title": "US fracking boom lifts revenue, write-offs hit profit",
-    "what": "Schlumberger reported on 19 January that its 2017 revenue rose 9 percent to 30.4 billion dollars, with a full year of Cameron. Its North American land activity grew 82 percent, in line with the rig count. Fourth-quarter charges of 2.11 dollars a share turned the quarter into a loss. US crude averaged more than 60 dollars in January, the highest monthly average since 2014.",
+    "what": "Schlumberger reported on 19 January that its 2017 revenue rose 9 percent to 30.4 billion dollars, with a full year of Cameron. Its North American land activity grew 82 percent, in line with the rig count. Fourth-quarter charges of 3.0 billion dollars before tax turned the quarter into a loss. US crude averaged more than 60 dollars in January, the highest monthly average since 2014.",
     "why": "The last good month before the long slide: the shares rose 9% in January 2018 and then fell about 80% to the March 2020 low.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger press release of 19 January 2018, https://www.sec.gov/Archives/edgar/data/87347/000119312518013992/d504704dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)"
+    "source": "Schlumberger press release of 19 January 2018, https://www.sec.gov/Archives/edgar/data/87347/000119312518013992/d504704dex99.htm (read 2026-10-03); https://fred.stlouisfed.org/series/MCOILWTICO (read 2026-10-03)",
+    "changed": "rule on metrics: charges per share replaced by the pretax total from the release (3.041 billion)"
   },
   {
     "id": "cf3d9e46",
     "month": "2019-10",
     "title": "New boss, 11 billion dollar loss",
-    "what": "Olivier Le Peuch, who became chief executive on 1 August in place of Paal Kibsgaard, reported on 18 October a third-quarter net loss of 11.38 billion dollars after charges of 8.65 dollars a share. Excluding charges, earnings per share rose 23 percent from the second quarter.",
+    "what": "Olivier Le Peuch, who became chief executive on 1 August in place of Paal Kibsgaard, reported on 18 October a third-quarter net loss of 11.38 billion dollars after a pretax charge of 12.7 billion dollars driven by market conditions. Excluding charges, earnings per share rose 23 percent from the second quarter.",
     "why": "A reset under a new chief executive, five months before the pandemic.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger press release of 18 October 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/ (read 2026-10-03); Schlumberger press release of 19 July 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519197816/ (read 2026-10-03)"
+    "source": "Schlumberger press release of 18 October 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/ (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/87347/000119312519269681/d816501dex99.htm (pretax charge, read 2026-10-17); Schlumberger press release of 19 July 2019, https://www.sec.gov/Archives/edgar/data/87347/000119312519197816/ (read 2026-10-03)",
+    "changed": "rule on metrics: charges per share replaced by the pretax total from the release"
   },
   {
     "id": "89c89ea5",

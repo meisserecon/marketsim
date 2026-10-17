@@ -25,7 +25,7 @@
     "id": "92998078",
     "month": "1984-03",
     "title": "Disney shares soar on takeover buying",
-    "what": "Disney shares jumped in March amid heavy buying and talk of a takeover. The financier Saul Steinberg began buying the stock on 12 March, at about 50 dollars a share, attracted by Disney's land, film library and low share price compared with the value of its assets.",
+    "what": "Disney shares jumped in March amid heavy buying and talk of a takeover. The financier Saul Steinberg began buying the stock on 12 March, attracted by Disney's land, film library and low share price compared with the value of its assets.",
     "why": "Explains the +34% month (market +1%). Steinberg's stake (12.2% by late April) was disclosed only later; whether his name was public by the end of March is not confirmed, so the news item should speak of takeover buying rather than name him.",
     "assets": [
       "dis"
@@ -34,13 +34,14 @@
       "asset": "dis",
       "pct": 34
     },
-    "source": "https://time.com/archive/6860495/greenmailing-mickey-mouse/ (read 2026-10-03)"
+    "source": "https://time.com/archive/6860495/greenmailing-mickey-mouse/ (read 2026-10-03)",
+    "changed": "rule on metrics: purchase price per share removed"
   },
   {
     "id": "008e003a",
     "month": "1984-06",
     "title": "Disney pays the raider to go away",
-    "what": "Disney agreed to buy back Saul Steinberg's 4.2 million shares at 70.83 dollars each, 297.4 million dollars, plus 28 million for his expenses, giving him a profit of about 32 million dollars. He had offered to buy 37.9% of the company at 67.50 dollars a share. After the deal Disney's stock fell nearly 16 dollars to 49.50 in five trading days, and shareholders sued. Paying a raider to leave is called greenmail.",
+    "what": "Disney agreed to buy back Saul Steinberg's 4.2 million shares for 297.4 million dollars, plus 28 million for his expenses, giving him a profit of about 32 million dollars. He had offered to buy 37.9% of the company. After the deal Disney's stock fell about a quarter in five trading days, and shareholders sued. Paying a raider to leave is called greenmail.",
     "why": "Explains the -24% month: the takeover premium vanished and Disney's debt doubled. It led directly to the change of management in September.",
     "assets": [
       "dis"
@@ -50,7 +51,8 @@
       "pct": -24
     },
     "source": "https://time.com/archive/6860495/greenmailing-mickey-mouse/ (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: buyback and offer prices per share removed, total kept; price fall given in percent"
   },
   {
     "id": "c4d35d73",
@@ -123,7 +125,7 @@
     "id": "c4a1a5ee",
     "month": "2009-02",
     "title": "Recession cuts Disney's profit by a third",
-    "what": "On 3 February Disney reported that profit fell 32% and revenue 8% in the last three months of 2008, with earnings of 45 cents a share against 63 cents a year earlier. 'We faced a challenging first quarter with many of our businesses impacted to various degrees by the economic downturn,' said chief executive Bob Iger.",
+    "what": "On 3 February Disney reported that profit fell 32% and revenue 8% in the last three months of 2008. 'We faced a challenging first quarter with many of our businesses impacted to various degrees by the economic downturn,' said chief executive Bob Iger.",
     "why": "Explains part of the -19% month (market -11%): the recession hit parks, advertising and DVD sales at once. The stock had lost about 30% in 2008.",
     "assets": [
       "dis"
@@ -132,30 +134,33 @@
       "asset": "dis",
       "pct": -19
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312509017564/dex991.htm (Disney earnings release of 3 February 2009, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312509017564/dex991.htm (Disney earnings release of 3 February 2009, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share removed, profit change in percent kept"
   },
   {
     "id": "aff64a01",
     "month": "2009-08",
     "title": "Disney buys Marvel for 4 billion dollars",
-    "what": "On 31 August Disney agreed to buy Marvel Entertainment, owner of Spider-Man, Iron Man and the X-Men, for about 4 billion dollars in cash and Disney shares; Marvel shareholders get 30 dollars a share in cash plus Disney stock.",
+    "what": "On 31 August Disney agreed to buy Marvel Entertainment, owner of Spider-Man, Iron Man and the X-Men, for about 4 billion dollars in cash and Disney shares.",
     "why": "The purchase behind the Marvel film series that dominated the box office in the 2010s.",
     "assets": [
       "dis"
     ],
     "source": "https://en.wikipedia.org/wiki/Marvel_Entertainment (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: takeover price per share removed, total value kept"
   },
   {
     "id": "b117d624",
     "month": "2011-11",
     "title": "Record year for Disney",
-    "what": "On 10 November Disney reported record revenue and profit for its business year to October: earnings per share rose 24% to 2.52 dollars and net income 21% to 4.8 billion dollars. Chief executive Bob Iger called it a great year financially and strategically.",
+    "what": "On 10 November Disney reported record revenue and profit for its business year to October: earnings per share rose 24% and net income 21% to 4.8 billion dollars. Chief executive Bob Iger called it a great year financially and strategically.",
     "why": "The Iger growth years: Pixar, Marvel and ESPN fees drove steady earnings gains, and the stock nearly tripled from the end of 2011 to the end of 2015.",
     "assets": [
       "dis"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312511307001/d253675d8k.htm (Disney earnings release of 10 November 2011, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000119312511307001/d253675d8k.htm (Disney earnings release of 10 November 2011, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share amount removed, growth rate kept"
   },
   {
     "id": "082e2a34",
@@ -172,12 +177,13 @@
     "id": "3c1e9adb",
     "month": "2014-02",
     "title": "Disney earnings jump 34%",
-    "what": "On 5 February Disney reported record quarterly earnings, up 34% to 1.03 dollars a share, with double-digit growth in operating income in every business. Revenue rose 9% to 12.3 billion dollars.",
+    "what": "On 5 February Disney reported record quarterly earnings per share, up 34%, with double-digit growth in operating income in every business. Revenue rose 9% to 12.3 billion dollars.",
     "why": "Peak of the 2012-2015 run, when every business grew at once.",
     "assets": [
       "dis"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000100103914000081/fy2014_q1x8kxcover.htm (Disney earnings release of 5 February 2014, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1001039/000100103914000081/fy2014_q1x8kxcover.htm (Disney earnings release of 5 February 2014, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share amount removed, growth rate kept"
   },
   {
     "id": "72d26b09",
@@ -284,12 +290,13 @@
     "id": "1f127d38",
     "month": "2022-11",
     "title": "Chapek ousted; Iger returns as chief executive",
-    "what": "On 8 November Disney reported weaker-than-expected results, with adjusted earnings of 30 cents a share against 37 a year earlier and large losses in streaming. On 20 November the board dismissed Bob Chapek and brought back Bob Iger as chief executive.",
+    "what": "On 8 November Disney reported weaker-than-expected results, with adjusted earnings per share down 19% from a year earlier and large losses in streaming. On 20 November the board dismissed Bob Chapek and brought back Bob Iger as chief executive.",
     "why": "The stock lost about 44% in 2022 as streaming losses mounted; Iger's return marked the bottom area.",
     "assets": [
       "dis"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000192/dis-20221108.htm (Disney earnings release of 8 November 2022, read 2026-10-03); https://en.wikipedia.org/wiki/Bob_Chapek (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000192/dis-20221108.htm (Disney earnings release of 8 November 2022, read 2026-10-03); https://en.wikipedia.org/wiki/Bob_Chapek (read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share replaced by the change in percent"
   },
   {
     "id": "8480f631",
@@ -325,7 +332,7 @@
     "id": "718cb3fd",
     "month": "2025-05",
     "title": "Disney beats forecasts and raises its outlook",
-    "what": "On 7 May Disney reported quarterly revenue up 7% to 23.6 billion dollars and adjusted earnings up 20% to 1.45 dollars a share. Disney+ added 1.4 million subscribers instead of losing them, US parks profit rose 13%, and Disney raised its full-year earnings forecast to 5.75 dollars a share.",
+    "what": "On 7 May Disney reported quarterly revenue up 7% to 23.6 billion dollars and adjusted earnings per share up 20%. Disney+ added 1.4 million subscribers instead of losing them, US parks profit rose 13%, and Disney raised its full-year forecast to growth of 16% in adjusted earnings per share.",
     "why": "Explains the +24% month (market +6%), with the market up 6%.",
     "assets": [
       "dis"
@@ -334,7 +341,8 @@
       "asset": "dis",
       "pct": 24
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000096/dis-20250507.htm (Disney earnings release of 7 May 2025, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000096/dis-20250507.htm (Disney earnings release of 7 May 2025, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1744489/000174448925000096/fy2025_q2xprxex991.htm (the release itself, outlook section, read 2026-10-17)",
+    "changed": "rule on metrics: earnings per share amounts replaced by growth rates (forecast growth from the earnings release)"
   },
   {
     "id": "7d9e42d1",

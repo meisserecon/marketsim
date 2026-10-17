@@ -81,12 +81,13 @@
     "id": "a5626d72",
     "month": "2008-04",
     "title": "GE misses its numbers for the first time in years",
-    "what": "On 11 April General Electric reported first-quarter earnings per share of 44 cents, down 8%, and cut its full-year forecast to 2.20 to 2.30 dollars. Chairman Jeff Immelt said the financial services businesses were hit by a slowing US economy and difficult capital markets, and that he was disappointed.",
+    "what": "On 11 April General Electric reported first-quarter earnings per share down 8%, and cut its full-year forecast. Chairman Jeff Immelt said the financial services businesses were hit by a slowing US economy and difficult capital markets, and that he was disappointed.",
     "why": "The first crack: GE Capital, the engine of steady earnings, is exposed to the credit crisis. The stock fell 56% in 2008.",
     "assets": [
       "ge"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054508000014/ex99.htm (GE results release of 2008-04-11, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000004054508000014/ex99.htm (GE results release of 2008-04-11, read 2026-10-03)",
+    "changed": "rule on metrics: earnings per share amounts removed, change in percent kept"
   },
   {
     "id": "a2ea0b72",
@@ -178,12 +179,13 @@
     "id": "d608bafc",
     "month": "2018-01",
     "title": "A surprise insurance charge at GE Capital",
-    "what": "General Electric took a charge of about 0.91 dollars a share to top up reserves for old long-term care insurance policies it stopped writing more than a decade ago, and suspended dividends from GE Capital to the parent. Regulators require it to put billions into the insurance business over several years.",
+    "what": "General Electric took an after-tax charge of 6.2 billion dollars to top up reserves for old long-term care insurance policies it stopped writing more than a decade ago, and suspended dividends from GE Capital to the parent. Regulators require it to put billions into the insurance business over several years.",
     "why": "The ghost of Welch-era insurance: it led to an SEC investigation and the 2019 fraud accusations. Feb 2018 was -13%.",
     "assets": [
       "ge"
     ],
-    "source": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, $14.5 billion required by the Kansas regulator over seven years). The charge was announced in January 2018 with fourth-quarter results; exact date not re-confirmed."
+    "source": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, $14.5 billion required by the Kansas regulator over seven years). The charge was announced in January 2018 with fourth-quarter results; exact date not re-confirmed.",
+    "changed": "rule on metrics: charge per share replaced by the total after-tax charge from the same annual report"
   },
   {
     "id": "1fca702c",

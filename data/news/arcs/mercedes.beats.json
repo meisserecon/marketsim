@@ -277,7 +277,7 @@
     "id": "0434b8c0",
     "month": "2019-05",
     "title": "Ola Källenius takes over as trade war worries hit car shares",
-    "what": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend of 3.25 euros a share in May. Tesla fell 22% to a three-year low, hit harder than other car makers because it is building a factory in Shanghai and counts on selling many cars in China.",
+    "what": "Dieter Zetsche handed over to Ola Källenius on 22 May after 13 years as chief executive, and Daimler is restructuring its organisation. In May the US raised tariffs on Chinese goods and threatened Mexico with tariffs, hitting car shares worldwide. Daimler paid its dividend in May. Tesla fell 22% to a three-year low, hit harder than other car makers because it is building a factory in Shanghai and counts on selling many cars in China.",
     "why": "About 7 points of the -21% are the dividend (prices exclude dividends); the rest is trade-war fear and a run of profit warnings over diesel costs.",
     "assets": [
       "mercedes",
@@ -287,7 +287,8 @@
       "asset": "mercedes",
       "pct": -21
     },
-    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03); The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Dieter_Zetsche (read 2026-10-03); electrive.com, 'Daimler restructures as Zetsche hands reins to Källenius', 22 May 2019 (headline via Google News) (read 2026-10-03); The Japan Times, 'Carmakers see $17 billion wiped out by Trump's Mexico threat', 1 June 2019 (headline via Google News) (read 2026-10-03); data/out/mercedes.json (dividend in May 2019) (read 2026-10-03); The Detroit News, 'Tesla hammered hardest by China tariff fears', 13 May 2019 (headline via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Tesla,_Inc. (Gigafactory Shanghai from January 2019, read 2026-10-03); data/out/tsla.json (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share dropped"
   },
   {
     "id": "58a36d4f",

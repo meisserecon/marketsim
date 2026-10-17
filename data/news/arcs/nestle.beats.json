@@ -37,12 +37,13 @@
     "id": "a4310bfd",
     "month": "1984-09",
     "title": "Nestlé agrees to buy Carnation for $3 billion",
-    "what": "On 4 September Nestlé agreed to buy the American food company Carnation for $83 a share in cash, about $3 billion, with the board's support; it is buying the 27% held by the founder's descendants first. Carnation, with 1983 sales of $3.4 billion and 22,000 employees, makes evaporated milk, Coffee-Mate creamer and Friskies pet food. Carnation shares rose $4 to $79.50 in New York.",
+    "what": "On 4 September Nestlé agreed to buy the American food company Carnation for about $3 billion in cash, with the board's support; it is buying the 27% held by the founder's descendants first. Carnation, with 1983 sales of $3.4 billion and 22,000 employees, makes evaporated milk, Coffee-Mate creamer and Friskies pet food. Carnation shares rose about 5% in New York.",
     "why": "The first of Maucher's big American deals, a huge one for its time, and it gives Nestlé the pet food business that Ralston Purina later doubles.",
     "assets": [
       "nestle"
     ],
-    "source": "https://www.upi.com/Archives/1984/09/04/Nestle-to-acquire-Carnation-Co/2482463118400/ (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)"
+    "source": "https://www.upi.com/Archives/1984/09/04/Nestle-to-acquire-Carnation-Co/2482463118400/ (read 2026-10-03); https://www.nestle.com/about/history/nestle-company-history (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share dropped; share price replaced by the change in percent (up 4 dollars to 79.50)"
   },
   {
     "id": "47bea86d",
@@ -83,7 +84,7 @@
     "id": "7b6efd0b",
     "month": "1988-11",
     "title": "Nestlé opens its registered share to foreigners; the bearer share tumbles",
-    "what": "On 17 November Nestlé's board decided that foreigners may now hold its registered shares, which until now only Swiss investors could own and which traded at about half the price of the bearer share. The registered share rose from 4,375 to 6,000 francs in November, while the bearer share, until now the only class open to foreigners, fell from 8,890 to 6,875. Bearer shares of other Swiss companies fell too.",
+    "what": "On 17 November Nestlé's board decided that foreigners may now hold its registered shares, which until now only Swiss investors could own and which traded at about half the price of the bearer share. The registered share rose 37% in November, while the bearer share, until now the only class open to foreigners, fell 23%. Bearer shares of other Swiss companies fell too.",
     "why": "The defining Nestlé price event of the game: the bearer premium collapsed (-23% in francs, -20% in dollars) because foreigners no longer needed it. Our series follows the bearer share until 1993, so the game shows a crash although the company was unchanged; a lesson in share classes. Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 1995, studied it.",
     "assets": [
       "nestle",
@@ -93,7 +94,8 @@
       "asset": "nestle",
       "pct": -20
     },
-    "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03); Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 37(3), 1995, abstract via search result summary (read 2026-10-03)"
+    "source": "NZZ prices of 31 Oct and 30 Nov 1988 in data/manual/raw/nzz-notes-1988.md (from scan NZZ_1988-12-01.pdf p. 41, read 2026-10-03); Loderer and Jacobs, 'The Nestlé crash', Journal of Financial Economics 37(3), 1995, abstract via search result summary (read 2026-10-03)",
+    "changed": "rule on metrics: share prices in francs replaced by the changes in percent (4,375 to 6,000; 8,890 to 6,875)"
   },
   {
     "id": "aaf7822e",

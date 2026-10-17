@@ -617,14 +617,15 @@
   {
     "id": "ea5fb498",
     "month": "2008-03",
-    "title": "Bear Stearns is rescued by JPMorgan for 2 dollars a share",
-    "what": "The investment bank Bear Stearns, heavy with 46 billion dollars of mortgage assets, faced collapse in mid-March. On 16-17 March JPMorgan Chase agreed to buy it for 2 dollars a share, with the Fed guaranteeing bad loans; the shares were at 60 dollars a week earlier and 178 a year ago. The Fed cut its key rate by another 0.75 point to 2.25 percent on 18 March.",
+    "title": "Bear Stearns is rescued by JPMorgan at a fire-sale price",
+    "what": "The investment bank Bear Stearns, heavy with 46 billion dollars of mortgage assets, faced collapse in mid-March. On 16-17 March JPMorgan Chase agreed to buy it, with the Fed guaranteeing bad loans, at a price 97% below the share price of a week earlier and 99% below that of a year ago. The Fed cut its key rate by another 0.75 point to 2.25 percent on 18 March.",
     "why": "The first big Wall Street casualty. Because Bear was saved, many assumed Lehman would be too.",
     "assets": [
       "bonds"
     ],
     "thread": "housing-crisis",
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price and share prices replaced by the discount in percent computed from them"
   },
   {
     "id": "381e7dea",

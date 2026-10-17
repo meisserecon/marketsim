@@ -3,14 +3,14 @@
     "id": "db3b3e68",
     "month": "2000-02",
     "title": "Pets.com, the sock puppet company, goes public",
-    "what": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11, raising $82.5 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it.",
+    "what": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11, raising $82.5 million at a price that valued the company at about $325 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it.",
     "why": "The listing beat (importance 1). The case for buying was the brand, the Amazon connection and a huge pet-supplies market; the case against was in the prospectus: it sold heavy, low-margin goods below cost and spent heavily on advertising. The shares closed the month at 7, already below the issue price.",
     "assets": [
       "pets-com",
       "amzn"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)",
-    "changed": "rule on metrics: IPO price per share dropped, the total raised kept"
+    "changed": "IPO story: valuation at the offer price added, from the prospectus already in source: 29,544,737 shares outstanding after the offering (including 3,152,327 unvested shares) x $11.00 = $325.0 million (excluding unvested shares: 26,392,410 x $11.00 = $290.3 million)"
   },
   {
     "id": "86113a72",

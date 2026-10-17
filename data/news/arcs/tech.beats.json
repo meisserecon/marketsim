@@ -392,12 +392,13 @@
   {
     "id": "f92e4ca0",
     "month": "2004-08",
-    "title": "Google goes public at 85 dollars",
-    "what": "Google, the most used search engine, sold shares at 85 dollars on 19 August, raising 1.67 billion dollars and valuing the company at more than 23 billion.",
+    "title": "Google goes public",
+    "what": "Google, the most used search engine, sold shares to the public on 19 August, raising 1.67 billion dollars and valuing the company at more than 23 billion.",
     "why": "The first great internet IPO after the bust, and proof that the web could make huge profits from advertising.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Google (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "rule on metrics: offer price removed from title and text; the valuation at the offer price (23 billion, Wikipedia) kept"
   },
   {
     "id": "edb48ebf",

@@ -3,13 +3,14 @@
     "id": "484d7937",
     "month": "2010-06",
     "title": "Tesla, the electric car maker, goes public",
-    "what": "Tesla Motors sold 13.3 million shares at 17 dollars on the Nasdaq on 29 June, raising 226 million dollars; it is the first American car maker to go public since Ford in 1956. Tesla builds the Roadster, an expensive electric sports car, and plans a family saloon, the Model S. It loses money; in May it bought the former NUMMI car plant in Fremont, California, from Toyota, which is buying 50 million dollars of Tesla shares.",
+    "what": "Tesla Motors sold 13.3 million shares on the Nasdaq on 29 June, raising 226 million dollars at a price that valued the company at about 1.6 billion dollars; the shares closed the first day about 40% higher. It is the first American car maker to go public since Ford in 1956. Tesla builds the Roadster, an expensive electric sports car, and plans a family saloon, the Model S. It loses money; in May it bought the former NUMMI car plant in Fremont, California, from Toyota, which is buying 50 million dollars of Tesla shares.",
     "why": "The listing beat. From here the share rose more than 200-fold by 2026, with near-death moments in 2013, 2018 and 2019 along the way.",
     "assets": [
       "tsla"
     ],
-    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (IPO, NUMMI, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (Toyota partnership, read 2026-10-03)",
-    "lead": true
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (IPO, NUMMI, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (Toyota partnership, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1318605/000119312510149105/d424b4.htm (Tesla final prospectus, 424B4 of 29 June 2010: 93,109,393 shares outstanding after the offering and the concurrent private placement, offer price $17.00; read 2026-10-17); https://www.theregister.com/2010/06/30/tesla_ipo (The Register, 30 June 2010: priced at $17, closed at $23.89, up 40 per cent on the first day; read 2026-10-17)",
+    "lead": true,
+    "changed": "rule on metrics: offer price replaced by the valuation at the offer price (424B4: 93,109,393 shares x $17.00 = $1.58 billion) and the first-day gain (The Register: 17 to 23.89, +40%)"
   },
   {
     "id": "b5bd0ec9",

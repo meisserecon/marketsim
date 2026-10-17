@@ -3,14 +3,15 @@
     "id": "2e468634",
     "month": "1986-03",
     "title": "Microsoft, maker of the software inside the PC, goes public",
-    "what": "Microsoft sold shares to the public for the first time on 13 March at 21 dollars, raising 61 million dollars; they closed the first day at about 28 dollars. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars.",
+    "what": "Microsoft sold shares to the public for the first time on 13 March, raising 61 million dollars at a price that valued the company at more than half a billion dollars; by the close of the first day the shares were 32% above the offer price. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars.",
     "why": "The listing beat. Every PC sold with MS-DOS paid Microsoft a fee; a buyer at the IPO is buying the toll on the whole PC industry. 21 dollars in 1986 became more than 5,000 times its value by 2026, before dividends.",
     "assets": [
       "msft",
       "ibm"
     ],
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03)",
-    "lead": true
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03); https://fortune.com/2011/03/13/inside-the-deal-that-made-bill-gates-350000000/amp (Fortune, 21 July 1986, reprinted 2011: 'a price of $20 would push Microsoft's market value above half-a-billion dollars'; offered at $21, first-day close $27.75; read 2026-10-17)",
+    "lead": true,
+    "changed": "rule on metrics: offer price and first-day close replaced by the valuation at the offer price (more than half a billion: Fortune 1986 says $20 a share would put it above half a billion, and the price was $21) and the first-day gain (27.75 / 21 = +32%)"
   },
   {
     "id": "b9411397",

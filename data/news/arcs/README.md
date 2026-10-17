@@ -54,6 +54,11 @@ A JSON array in ascending month order:
 
 - `month`: when the event became public. An event that spans months gets the beat in the month of its milestone.
 - `what`: facts as of the end of the month, no lookahead: no later names, outcomes or figures. Numbers where they tell the story.
+  - Metrics (the curator's rule of 17 October 2026): a company's price/earnings ratio and its total profit or
+    loss, yes; earnings per share, dividends per share, book value per share and takeover prices per share, no.
+    Price changes in percent, yes; absolute share prices (an IPO price, a close, a record), no. The game shows
+    prices on its own adjusted basis, so dollar prices and per-share amounts of the time only confuse. Index
+    levels, exchange rates, oil, gold and interest rates, exchange ratios of mergers and total amounts stay.
 - `why`: hindsight is fine here; it never reaches the players.
 - `assets`: company ids concerned (empty for a pure world beat). Only companies in the game by that month (see `listed` in universe.ts and the first month in `data/out/<id>.json`).
 - `move`: optional, the price move this beat explains, as in movers.md: the asset id (`sp500` and `gold` allowed) and the month's change in percent, rounded. Give it only when the connection is real; a beat may have none.

@@ -3,25 +3,25 @@
     "id": "f34c9d17",
     "month": "1999-01",
     "title": "Nvidia, a maker of 3D graphics chips, goes public",
-    "what": "Nvidia sold 3.5 million shares to the public on 22 January, raising 42 million dollars at a price that valued the company at about 343 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss. Its early shareholders, including all officers and directors, have agreed not to sell for 180 days: 18 million of the 28.6 million shares will be free to sell from July, after a smaller block of 5 million from April.",
+    "what": "Nvidia sold 3.5 million shares to the public on 22 January, raising 42 million dollars at a price that valued the company at about 343 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss. Its early shareholders, including all officers and directors, have agreed not to sell until July, apart from a smaller block that comes free in April.",
     "why": "The listing beat. One of about seventy graphics start-ups of the 1990s, and one of only two to survive; 12 dollars at the IPO became more than 5,000 times its value by 2026, before dividends.",
     "assets": [
       "nvda"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (same prospectus, 'Shares Eligible for Future Sale': 4,990,000 shares eligible 90 days and 17,991,627 shares 180 days after the prospectus of 21 January 1999, on expiry of the lock-up agreements; read 2026-10-17)",
-    "changed": "rule on metrics: offer price replaced by the valuation at the offer price, from the final prospectus already in source: 28,595,976 shares outstanding after the offering x $12.00 = $343.2 million; 180-day lock-up of 18 million shares added, ending July 1999 (curator's wish, research note lockups.md)"
+    "changed": "rule on metrics: offer price replaced by the valuation at the offer price, from the final prospectus already in source: 28,595,976 shares outstanding after the offering x $12.00 = $343.2 million; 180-day lock-up of 18 million shares added, ending July 1999 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "ae930689",
     "month": "1999-07",
     "title": "Nvidia's lock-up ends and the shares rise",
-    "what": "On 20 July, six months after Nvidia's public offering, the lock-up ended for its early shareholders, including all officers and directors: 18 million of its 28.6 million shares may now be sold. Large blocks belong to the three founders, Jen-Hsun Huang, Chris Malachowsky and Curtis Priem, and to the venture firms Sequoia Capital and Sutter Hill. The shares did not fall: they rose 5% in July, while the stock market lost 3%.",
+    "what": "On 20 July the lock-up from Nvidia's public offering ended for its early shareholders, including all officers and directors, who hold most of the shares. Large blocks belong to the three founders, Jen-Hsun Huang, Chris Malachowsky and Curtis Priem, and to the venture firms Sequoia Capital and Sutter Hill. The shares did not fall: they rose 5% in July, while the stock market lost 3%.",
     "why": "The lock-up expiry named in the IPO story (f34c9d17). Another case where the expected selling did not show; the shares rose 40% in August.",
     "assets": [
       "nvda"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (IPO prospectus of 21 January 1999: 17,991,627 shares eligible on expiry of the 180-day lock-up agreements; 28,595,976 shares outstanding; holdings of Huang, Malachowsky, Priem, Sequoia and Sutter Hill; read 2026-10-17); data/out/nvda.json and data/reference/sp500.json (July 1999: nvda +5.3%, S&P 500 -3.2%; read 2026-10-17)",
-    "changed": "note to the writer addressed: the title no longer says sell-off, the shares rose"
+    "changed": "note to the writer addressed: the title no longer says sell-off, the shares rose; lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "6d1b93e1",

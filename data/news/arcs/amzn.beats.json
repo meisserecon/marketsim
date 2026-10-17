@@ -3,14 +3,14 @@
     "id": "04ba3ee2",
     "month": "1997-05",
     "title": "Amazon.com, the online bookstore, goes public",
-    "what": "Amazon.com of Seattle sold 3 million shares on the Nasdaq on May 15, raising $54 million at a price that valued the company at about $430 million. The company, which opened as 'Earth's Biggest Bookstore' on the World Wide Web in July 1995, had sales of $15.7 million in 1996, up from $511,000, and a net loss of $5.8 million. Executives, directors and some early shareholders and employees, who hold about 20.8 million of the 23.9 million shares, have agreed not to sell for 180 days, so from November they will be free to sell. Founder Jeff Bezos says it will keep spending to grow; Barnes & Noble sued it days before the listing over its claim to be the world's largest bookstore.",
+    "what": "Amazon.com of Seattle sold 3 million shares on the Nasdaq on May 15, raising $54 million at a price that valued the company at about $430 million. The company, which opened as 'Earth's Biggest Bookstore' on the World Wide Web in July 1995, had sales of $15.7 million in 1996, up from $511,000, and a net loss of $5.8 million. Executives, directors and some early shareholders and employees, who hold most of the shares, have agreed not to sell until November. Founder Jeff Bezos says it will keep spending to grow; Barnes & Noble sued it days before the listing over its claim to be the world's largest bookstore.",
     "why": "The listing beat (importance 1). The case for buying: the fastest-growing shop on the young internet with a famous brand; the case against: no profit in sight. A share at the IPO was worth over 3,000 times as much by 2026.",
     "assets": [
       "amzn"
     ],
     "thread": "dotcom",
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (same prospectus, 'Shares Eligible for Future Sale': about 20,826,909 restricted shares under 180-day lock-up agreements; read 2026-10-17)",
-    "changed": "IPO story: valuation at the offer price added, from the prospectus already in source: 23,858,702 shares outstanding after the offering x $18.00 = $429.5 million; 180-day lock-up of 20.8 million shares added, ending November 1997 (curator's wish, research note lockups.md)"
+    "changed": "IPO story: valuation at the offer price added, from the prospectus already in source: 23,858,702 shares outstanding after the offering x $18.00 = $429.5 million; 180-day lock-up of 20.8 million shares added, ending November 1997 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "988e5497",
@@ -31,14 +31,14 @@
     "id": "5c94c24b",
     "month": "1997-11",
     "title": "Amazon's lock-up ends, and the bears are disappointed",
-    "what": "On 12 November, six months after Amazon.com's public offering, the lock-up ended for its executives, directors and early shareholders and employees, and about 19.3 million of its 23.9 million shares became eligible for sale. Bears had counted on the date to topple the shares, and many investors had sold them short on this alone. Some shares were sold, but on the day itself the share price rose. Over the whole month Amazon's shares still fell 19%, while the stock market rose 4.5%.",
+    "what": "On 12 November the lock-up from Amazon.com's public offering ended for its executives, directors and early shareholders and employees, who hold most of the shares. Bears had counted on the date to topple the shares, and many investors had sold them short on this alone. Some shares were sold, but on the day itself the share price rose. Over the whole month Amazon's shares still fell 19%, while the stock market rose 4.5%.",
     "why": "The lock-up expiry named in the IPO story (04ba3ee2). A lesson both ways: the expected crash did not come on the day, and the shares rose 22% in December.",
     "assets": [
       "amzn"
     ],
     "thread": "dotcom",
     "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus of 15 May 1997: 180-day lock-up; 19,331,253 restricted shares eligible on expiry; 23,858,702 shares outstanding; read 2026-10-17); https://g.foolcdn.com/FoolPort/1997/FoolPort971216.htm (Motley Fool, 16 December 1997: bears counted on the November lock-up termination, many shorted the stock on this event alone, some shares were sold, the stock rose; read 2026-10-17); data/out/amzn.json and data/reference/sp500.json (November 1997: amzn -18.9%, S&P 500 +4.5%; read 2026-10-17)",
-    "changed": "new beat: end of the 180-day lock-up named in the IPO story (curator's wish, research note lockups.md)"
+    "changed": "new beat: end of the 180-day lock-up named in the IPO story (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "2c61783f",

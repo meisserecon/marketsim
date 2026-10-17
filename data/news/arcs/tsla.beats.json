@@ -3,14 +3,14 @@
     "id": "484d7937",
     "month": "2010-06",
     "title": "Tesla, the electric car maker, goes public",
-    "what": "Tesla Motors sold 13.3 million shares on the Nasdaq on 29 June, raising 226 million dollars at a price that valued the company at about 1.6 billion dollars; the shares closed the first day about 40% higher. It is the first American car maker to go public since Ford in 1956. Tesla builds the Roadster, an expensive electric sports car, and plans a family saloon, the Model S. Elon Musk, Daimler, the other early investors and the employees hold 79.5 million of the 93.1 million shares and have agreed not to sell for 180 days, so from late December they will be free to sell. The company loses money; in May it bought the former NUMMI car plant in Fremont, California, from Toyota, which is buying 50 million dollars of Tesla shares.",
+    "what": "Tesla Motors sold 13.3 million shares on the Nasdaq on 29 June, raising 226 million dollars at a price that valued the company at about 1.6 billion dollars; the shares closed the first day about 40% higher. It is the first American car maker to go public since Ford in 1956. Tesla builds the Roadster, an expensive electric sports car, and plans a family saloon, the Model S. Elon Musk, Daimler, the other early investors and the employees hold most of the shares and have agreed not to sell until late December. The company loses money; in May it bought the former NUMMI car plant in Fremont, California, from Toyota, which is buying 50 million dollars of Tesla shares.",
     "why": "The listing beat. From here the share rose more than 200-fold by 2026, with near-death moments in 2013, 2018 and 2019 along the way.",
     "assets": [
       "tsla"
     ],
     "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. (IPO, NUMMI, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Tesla,_Inc. (Toyota partnership, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1318605/000119312510149105/d424b4.htm (Tesla final prospectus, 424B4 of 29 June 2010: 93,109,393 shares outstanding after the offering and the concurrent private placement, offer price $17.00; read 2026-10-17); https://www.theregister.com/2010/06/30/tesla_ipo (The Register, 30 June 2010: priced at $17, closed at $23.89, up 40 per cent on the first day; read 2026-10-17); https://www.sec.gov/Archives/edgar/data/1318605/000119312510149105/d424b4.htm (same prospectus, 'Shares Eligible for Future Sale': 79,467,957 shares, 85.35%, eligible 180 days after the prospectus of 28 June 2010 under lock-up agreements; read 2026-10-17)",
     "lead": true,
-    "changed": "rule on metrics: offer price replaced by the valuation at the offer price (424B4: 93,109,393 shares x $17.00 = $1.58 billion) and the first-day gain (The Register: 17 to 23.89, +40%); 180-day lock-up of 79.5 million shares added, ending December 2010 (curator's wish, research note lockups.md)"
+    "changed": "rule on metrics: offer price replaced by the valuation at the offer price (424B4: 93,109,393 shares x $17.00 = $1.58 billion) and the first-day gain (The Register: 17 to 23.89, +40%); 180-day lock-up of 79.5 million shares added, ending December 2010 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "b5bd0ec9",
@@ -32,7 +32,7 @@
     "id": "05a16853",
     "month": "2010-12",
     "title": "Tesla falls 15% in a day as its lock-up ends",
-    "what": "On 25 December, six months after Tesla's public offering, the lock-up ended for Elon Musk, Daimler, the Abu Dhabi fund Al Wahda, the other early investors and the employees, who hold 79.5 million of its 93.1 million shares. On 27 December, the first trading day after Christmas, the shares fell 15%, their steepest drop since July, and an analyst at Capstone rated them a sell. After rising 62% in November, Tesla's shares lost 25% in December, while the stock market rose 6.5%.",
+    "what": "On 25 December the lock-up from Tesla's public offering ended for Elon Musk, Daimler, the Abu Dhabi fund Al Wahda, the other early investors and the employees, who hold most of the shares. On 27 December, the first trading day after Christmas, the shares fell 15%, their steepest drop since July, and an analyst at Capstone rated them a sell. After rising 62% in November, Tesla's shares lost 25% in December, while the stock market rose 6.5%.",
     "why": "The textbook lock-up case, named in the IPO story (484d7937): a big run-up first, an exact date, explicit press, and the fall on the first trading day.",
     "assets": [
       "tsla"
@@ -42,7 +42,7 @@
       "pct": -25
     },
     "source": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510149105/d424b4.htm (IPO prospectus of 28 June 2010: 79,467,957 shares eligible 180 days after the prospectus; holders including Musk, Blackstar/Daimler and Al Wahda; read 2026-10-17); https://autonews.gasgoo.com/articles/news/tesla-falls-the-most-since-july-after-lock-up-ends-stock-rated-a-sell-1018249 (Bloomberg via Gasgoo, 28 December 2010: fell 15 percent, the steepest drop since July 6, lock-up ended on Dec. 25, Capstone rated a sell; read 2026-10-17); https://www.autoguide.com/auto-news/2010/12/tesla-shares-fall-15-after-investors-dump-holdings.html (AutoGuide, 28 December 2010; read 2026-10-17); data/out/tsla.json and data/reference/sp500.json (December 2010: tsla -24.6%, S&P 500 +6.5%; read 2026-10-17)",
-    "changed": "new beat: end of the 180-day lock-up named in the IPO story, explains the -25% of December 2010 (curator's wish, research note lockups.md)"
+    "changed": "new beat: end of the 180-day lock-up named in the IPO story, explains the -25% of December 2010 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "0e752eec",

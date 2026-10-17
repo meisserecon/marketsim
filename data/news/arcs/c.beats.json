@@ -251,7 +251,7 @@
     "id": "8133c1b2",
     "month": "2009-12",
     "title": "Citigroup repays $20 billion of rescue money with a record share sale",
-    "what": "Citigroup agreed with the government to repay $20 billion of rescue money and end the loss-sharing guarantee, and sold $17 billion of new shares plus $3.5 billion of other equity to pay for it, the largest share offering in U.S. history. The sale cuts the Treasury's stake to about 27%; it agreed not to sell for 90 days. The shares fell 19% in December.",
+    "what": "Citigroup agreed with the government to repay $20 billion of rescue money and end the loss-sharing guarantee, and sold $17 billion of new shares plus $3.5 billion of other equity to pay for it, the largest share offering in U.S. history. The sale cuts the Treasury's stake to about 27%; it agreed not to sell before March. The shares fell 19% in December.",
     "why": "Freedom from the government's pay limits, paid for by more dilution.",
     "assets": [
       "c"
@@ -260,7 +260,8 @@
       "asset": "c",
       "pct": -19
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012309070361/y80976exv99w1.htm (Citigroup press release, 14 December 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012309071395/y81063exv99w1.htm (16 December 2009; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012309070361/y80976exv99w1.htm (Citigroup press release, 14 December 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000095012309071395/y81063exv99w1.htm (16 December 2009; read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)",
+    "changed": "lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "fb4cea4d",

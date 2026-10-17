@@ -3,14 +3,14 @@
     "id": "01e73180",
     "month": "2011-05",
     "title": "Glencore goes public in London's largest premium listing",
-    "what": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata, much of whose output it markets. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company. Their shares are locked up in stages: from the first anniversary in May 2012 shares worth about 40% of the company will be free to sell, more each year after, and the executive directors' last shares only after five years. The cornerstone investors, who bought about 5%, have agreed not to sell for six months, so from November they will be free to sell.",
+    "what": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata, much of whose output it markets. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company. Their shares are locked up in stages: the first of them until May 2012, more each year after, and the executive directors' last shares until 2016. The cornerstone investors, who bought about 5%, have agreed not to sell until November.",
     "why": "The listing beat. A buyer got the inside track on the commodity trade from the firm that knows the flows best, but at the moment copper and coal were near their highs; the shares never closed a month above the IPO level again. [Lookahead review: 'top of the boom' was hindsight.]",
     "assets": [
       "glencore",
       "xstrata"
     ],
     "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03); https://www.hkexnews.hk/listedco/listconews/sehk/2011/0513/00805_1074520/ewpglencore-20110511-33.pdf (Glencore prospectus as filed with HKEX, Section X para 17: cornerstone investors, 5.1%, six months; employee shareholders one to four years, executive directors five years, releases on each anniversary; first-anniversary release about 39.7% of the capital, computed from its table; read 2026-10-17)",
-    "changed": "rule on metrics: offer price per share removed; the valuation at the offer price ($59.2bn, Glencore RNS of 19 May 2011) kept; staged lock-ups added: cornerstone investors free from November 2011, about 40% of the company from May 2012 (computed from the prospectus table; curator's wish, research note lockups.md)"
+    "changed": "rule on metrics: offer price per share removed; the valuation at the offer price ($59.2bn, Glencore RNS of 19 May 2011) kept; staged lock-ups added: cornerstone investors free from November 2011, about 40% of the company from May 2012 (computed from the prospectus table; curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "bc4ad6ce",
@@ -31,19 +31,19 @@
     "id": "f6f7ed8e",
     "month": "2011-11",
     "title": "Glencore's cornerstone investors are free to sell",
-    "what": "On 24 November, six months after Glencore's listing, the lock-up ended for the cornerstone investors who had bought about 5% of the company in the offering; they had agreed to sell, if at all, in an orderly way through the banks. At the listing an IPO research site had warned that their stakes could depress the share price as the lock-ups neared their end. The managers' and employees' shares, more than four fifths of the company, stay locked, the first of them until May 2012. Glencore's shares fell 11.5% in November, while the stock market was almost unchanged.",
+    "what": "On 24 November the lock-up from Glencore's listing ended for the cornerstone investors who had bought about 5% of the company in the offering; they had agreed to sell, if at all, in an orderly way through the banks. At the listing an IPO research site had warned that their stakes could depress the share price as the lock-ups neared their end. The managers' and employees' shares, more than four fifths of the company, stay locked, the first of them until May 2012. Glencore's shares fell 11.5% in November, while the stock market was almost unchanged.",
     "why": "The first lock-up expiry named in the IPO story (01e73180). The fall cannot be separated from the euro crisis and the pound; the press did not blame the lock-up.",
     "assets": [
       "glencore"
     ],
     "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2011/0513/00805_1074520/ewpglencore-20110511-33.pdf (Glencore prospectus as filed with HKEX, Section X para 17: cornerstone investors, 5.1% of the capital, locked up for six months after UK admission, sales within a month after expiry coordinated through the banks; employee and director lock-ups of one to five years; read 2026-10-17); https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (RNS of 19 May 2011: directors and employees about 83.1%, cornerstones locked up for 6 months post-admission, admission 24 May; read 2026-10-17); https://www.ipo-book.com/?p=1385 (IPO-Book, 10 May 2011: the cornerstones' stakes could markedly depress the share price as the lock-ups near expiry; read 2026-10-17); data/out/glencore.json and data/reference/sp500.json (November 2011: glencore -11.5% in dollars, S&P 500 -0.5%; read 2026-10-17)",
-    "changed": "new beat: end of the cornerstone investors' six-month lock-up named in the IPO story (curator's wish, research note lockups.md)"
+    "changed": "new beat: end of the cornerstone investors' six-month lock-up named in the IPO story (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "cc89ac7b",
     "month": "2012-05",
     "title": "Grexit fears drag down commodities",
-    "what": "Greece's failure to form a government after the 6 May election revived fears that it could leave the euro; stock markets fell about 6%. Coal, copper and oil all fell: Australian thermal coal averaged $96 a tonne in May, down from $117 in February, and Brent oil $110 from $120. In March Glencore had agreed to buy the Canadian grain handler Viterra for about $6.1bn, whose shareholders approved at the end of May. Xstrata fell 26% in May, and in Peru two people died on 28 May when police broke up protests against alleged pollution at its Tintaya copper mine. On 24 May, the first anniversary of Glencore's listing, the first lock-ups of its employees ended: shares worth about 40% of the company may now be sold.",
+    "what": "Greece's failure to form a government after the 6 May election revived fears that it could leave the euro; stock markets fell about 6%. Coal, copper and oil all fell: Australian thermal coal averaged $96 a tonne in May, down from $117 in February, and Brent oil $110 from $120. In March Glencore had agreed to buy the Canadian grain handler Viterra for about $6.1bn, whose shareholders approved at the end of May. Xstrata fell 26% in May, and in Peru two people died on 28 May when police broke up protests against alleged pollution at its Tintaya copper mine. On 24 May, the first anniversary of Glencore's listing, the first lock-ups of its managers and employees ended, and they may now sell a large part of their shares.",
     "why": "Glencore fell 24% in the month, almost exactly in step with Xstrata because of the fixed merger ratio.",
     "assets": [
       "glencore",
@@ -54,7 +54,7 @@
       "pct": -24
     },
     "source": "https://en.wikipedia.org/wiki/Euro_area_crisis; https://en.wikipedia.org/wiki/Viterra; https://www.investegate.co.uk/announcement/rns/glencore--glen/response-to-viterra-shareholder-approval/3137670 (listing title); World Bank Pink Sheet monthly averages (all read 2026-10-03); https://en.wikipedia.org/wiki/Xstrata; https://www.hkexnews.hk/listedco/listconews/sehk/2011/0513/00805_1074520/ewpglencore-20110511-33.pdf (Glencore prospectus as filed with HKEX, Section X para 17: releases on the first anniversary of admission, about 39.7% of the capital computed from its table; read 2026-10-17)",
-    "changed": "end of the first employee lock-ups on 24 May 2012 added (curator's wish, research note lockups.md); move kept"
+    "changed": "end of the first employee lock-ups on 24 May 2012 added (curator's wish, research note lockups.md); move kept; lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "4a01befc",

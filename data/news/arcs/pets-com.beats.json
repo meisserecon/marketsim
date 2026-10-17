@@ -3,13 +3,14 @@
     "id": "db3b3e68",
     "month": "2000-02",
     "title": "Pets.com, the sock puppet company, goes public",
-    "what": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11, raising $82.5 million at a price that valued the company at about $325 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it. Amazon, the other early investors and the managers have agreed not to sell for 180 days, so from August, 13.4 million of the 29.5 million shares will be free to sell, and more in the months after.",
+    "what": "Pets.com of San Francisco sold 7.5 million shares on the Nasdaq on February 11, raising $82.5 million at a price that valued the company at about $325 million. It sells pet food and supplies online and is famous for its sock-puppet mascot, which appeared in a Super Bowl advertisement in January. In its first year, to December 1999, it had sales of $5.8 million and a net loss of $61.8 million; Amazon.com owns about 30% of it. Amazon, the other early investors and the managers have agreed not to sell until August, and some of them longer.",
     "why": "The listing beat (importance 1). The case for buying was the brand, the Amazon connection and a huge pet-supplies market; the case against was in the prospectus: it sold heavy, low-margin goods below cost and spent heavily on advertising. The shares closed the month at 7, already below the issue price.",
     "assets": [
       "pets-com",
       "amzn"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (same prospectus, 'Shares Eligible for Future Sale': 180-day lock-up agreements; 13,420,045 shares eligible 180 days after the prospectus of 10 February 2000, further blocks to January 2001; read 2026-10-17)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800000749/0000891618-00-000749.txt (IPO prospectus, 424B4 of February 11, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (same prospectus, 'Shares Eligible for Future Sale': 180-day lock-up agreements; 13,420,045 shares eligible 180 days after the prospectus of 10 February 2000, further blocks to January 2001; read 2026-10-17)",
+    "changed": "lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "86113a72",
@@ -46,7 +47,7 @@
     "id": "2abd9f4f",
     "month": "2000-08",
     "title": "Pets.com says its cash will last only into early 2001",
-    "what": "In its quarterly report filed on August 14 Pets.com said its cash should be enough only into the first quarter of 2001 and that it expects to have to raise more money then. It is still selling goods for less than they cost. And on 8 August, six months after the public offering, the lock-up ended: Amazon, the other early investors and the managers may now sell 13.4 million shares, 45% of the company. In August the shares fell 40%, while the stock market rose 6%.",
+    "what": "In its quarterly report filed on August 14 Pets.com said its cash should be enough only into the first quarter of 2001 and that it expects to have to raise more money then. It is still selling goods for less than they cost. And on 8 August the lock-up from the public offering ended: Amazon, the other early investors and the managers may now sell. In August the shares fell 40%, while the stock market rose 6%.",
     "why": "With investors no longer funding loss-making dot-coms, this was close to a death notice: -40% in August.",
     "assets": [
       "pets-com"
@@ -56,7 +57,7 @@
       "pct": -40
     },
     "source": "https://www.sec.gov/Archives/edgar/data/1100683/000089161800004394/e10-q.txt (10-Q for the quarter to June 30, 2000, read 2026-10-03); https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1100683/0000891618-00-000749.txt (IPO prospectus: 13,420,045 shares, 45.4%, eligible 180 days after the prospectus of 10 February 2000, i.e. 8 August 2000; read 2026-10-17)",
-    "changed": "end of the lock-up on 8 August 2000 added (curator's wish, research note lockups.md); move kept"
+    "changed": "end of the lock-up on 8 August 2000 added (curator's wish, research note lockups.md); move kept; lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "2e982a43",

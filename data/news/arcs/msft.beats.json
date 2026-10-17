@@ -3,7 +3,7 @@
     "id": "2e468634",
     "month": "1986-03",
     "title": "Microsoft, maker of the software inside the PC, goes public",
-    "what": "Microsoft sold shares to the public for the first time on 13 March, raising 61 million dollars at a price that valued the company at more than half a billion dollars; by the close of the first day the shares were 32% above the offer price. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars. The company, the shareholders who sold in the offering and the officers and directors, who together hold about 21 million of the 24.7 million shares, have agreed not to sell for 120 days, so from July they will be free to sell.",
+    "what": "Microsoft sold shares to the public for the first time on 13 March, raising 61 million dollars at a price that valued the company at more than half a billion dollars; by the close of the first day the shares were 32% above the offer price. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars. The company, the shareholders who sold in the offering and the officers and directors, who together hold most of the shares, have agreed not to sell until July.",
     "why": "The listing beat. Every PC sold with MS-DOS paid Microsoft a fee; a buyer at the IPO is buying the toll on the whole PC industry. 21 dollars in 1986 became more than 5,000 times its value by 2026, before dividends.",
     "assets": [
       "msft",
@@ -11,19 +11,19 @@
     ],
     "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03); https://fortune.com/2011/03/13/inside-the-deal-that-made-bill-gates-350000000/amp (Fortune, 21 July 1986, reprinted 2011: 'a price of $20 would push Microsoft's market value above half-a-billion dollars'; offered at $21, first-day close $27.75; read 2026-10-17); http://web.archive.org/web/20190214180418id_/http://www.lannigan.org:80/pdf/Microsoft_prospectus.pdf (Microsoft prospectus of 13 March 1986, 'Shares Eligible for Future Sale': holders of about 21,070,000 shares agreed not to sell for 120 days; 24,715,113 shares outstanding after the offering; read 2026-10-17)",
     "lead": true,
-    "changed": "rule on metrics: offer price and first-day close replaced by the valuation at the offer price (more than half a billion: Fortune 1986 says $20 a share would put it above half a billion, and the price was $21) and the first-day gain (27.75 / 21 = +32%); 120-day lock-up of about 21 million shares added, ending July 1986 (curator's wish, research note lockups.md)"
+    "changed": "rule on metrics: offer price and first-day close replaced by the valuation at the offer price (more than half a billion: Fortune 1986 says $20 a share would put it above half a billion, and the price was $21) and the first-day gain (27.75 / 21 = +32%); 120-day lock-up of about 21 million shares added, ending July 1986 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "74453582",
     "month": "1986-07",
     "title": "Microsoft's insiders are free to sell",
-    "what": "About 11 July, 120 days after Microsoft's public offering, the lock-up ended for the company, the shareholders who sold in the offering and the officers and directors. Together they hold about 21 million of Microsoft's 24.7 million shares and may now sell. Microsoft's shares fell 7% in July, a little more than the stock market, which lost 6%; in June they had already fallen 12%.",
+    "what": "About 11 July the lock-up from Microsoft's public offering ended for the company, the shareholders who sold in the offering and the officers and directors. Together they hold most of the shares and may now sell. Microsoft's shares fell 7% in July, a little more than the stock market, which lost 6%; in June they had already fallen 12%.",
     "why": "The lock-up expiry named in the IPO story (2e468634). It passed without a marked sell-off: the fall was roughly in line with the market.",
     "assets": [
       "msft"
     ],
     "source": "http://web.archive.org/web/20190214180418id_/http://www.lannigan.org:80/pdf/Microsoft_prospectus.pdf (Microsoft prospectus of 13 March 1986: holders of about 21,070,000 shares agreed not to sell for 120 days, i.e. to about 11 July 1986; 24,715,113 shares outstanding; read 2026-10-17); data/out/msft.json and data/reference/sp500.json (June 1986 msft -12.1%; July 1986 msft -7.3%, S&P 500 -5.9%; read 2026-10-17)",
-    "changed": "new beat: end of the 120-day lock-up named in the IPO story (curator's wish, research note lockups.md)"
+    "changed": "new beat: end of the 120-day lock-up named in the IPO story (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "b9411397",

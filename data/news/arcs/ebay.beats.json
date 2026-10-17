@@ -3,26 +3,26 @@
     "id": "748e896b",
     "month": "1998-09",
     "title": "eBay, the online auction site, goes public",
-    "what": "eBay of San Jose sold 3.5 million shares on the Nasdaq; on the first day they closed at nearly three times the issue price, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit. The existing shareholders, led by founder Pierre Omidyar, hold 24.5 million of the 39.7 million shares and have agreed not to sell for only 120 days, so from late January they will be free to sell.",
+    "what": "eBay of San Jose sold 3.5 million shares on the Nasdaq; on the first day they closed at nearly three times the issue price, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit. The existing shareholders, led by founder Pierre Omidyar, hold most of the shares and have agreed not to sell until late January, an unusually short lock-up.",
     "why": "The listing beat (importance 1). The case for buying: a marketplace that holds no stock, ships nothing and is profitable; the shares rose 839% in their first year.",
     "assets": [
       "ebay"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (same prospectus: 120-day lock-up; 24,549,579 shares eligible for sale from 121 days after the prospectus of 24 September 1998; 39,739,073 shares outstanding; Omidyar 38.3%; read 2026-10-17)",
-    "changed": "rule on metrics: issue price and first-day close replaced by the first-day gain; 120-day lock-up of 24.5 million shares added, ending January 1999 (curator's wish, research note lockups.md)"
+    "changed": "rule on metrics: issue price and first-day close replaced by the first-day gain; 120-day lock-up of 24.5 million shares added, ending January 1999 (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "bca8c4f5",
     "month": "1999-01",
     "title": "eBay's insiders are free to sell, and the shares rise",
-    "what": "On 22 January, only 120 days after eBay's public offering, the lock-up ended for its existing shareholders: 24.5 million of its 39.7 million shares, most of them held by founder Pierre Omidyar, Jeffrey Skoll, the venture firm Benchmark and chief executive Meg Whitman, may now be sold. Most lock-ups last six months; eBay's lasted four. Yet the shares did not fall: they rose 15% in January, while the stock market rose 4%.",
+    "what": "On 22 January the lock-up from eBay's public offering ended, unusually early: the existing shareholders, above all founder Pierre Omidyar, Jeffrey Skoll, the venture firm Benchmark and chief executive Meg Whitman, may now sell. Yet the shares did not fall: they rose 15% in January, while the stock market rose 4%.",
     "why": "The lock-up expiry named in the IPO story (748e896b). The counter-example: in the internet mania there were more than enough buyers, and the shares rose another 20% in February.",
     "assets": [
       "ebay"
     ],
     "thread": "dotcom",
     "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus of 24 September 1998: 120-day lock-up, 24,549,579 shares eligible from the 121st day, 39,739,073 shares outstanding; holdings of Omidyar, Skoll, Benchmark and Whitman; read 2026-10-17); https://internetnews.com/it-management/emailbag-monday-lock-ups-insider-selling-jds-uniphase-ndb (1999: eBay's lock-up 'only four months'; read 2026-10-17); data/out/ebay.json and data/reference/sp500.json (January 1999: ebay +15.1%, S&P 500 +4.1%; read 2026-10-17)",
-    "changed": "new beat: end of the 120-day lock-up named in the IPO story; the share rose (curator's wish, research note lockups.md)"
+    "changed": "new beat: end of the 120-day lock-up named in the IPO story; the share rose (curator's wish, research note lockups.md); lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
     "id": "40df0dbc",

@@ -61,6 +61,9 @@ A JSON array in ascending month order:
     levels, exchange rates, oil, gold and interest rates, exchange ratios of mergers and total amounts stay.
   - Stock splits (also reverse splits and the absence of splits) are never mentioned: the prices are
     split-adjusted, so a split changes nothing a player can see. A beat that was only about a split is deleted.
+  - IPO lock-ups: the IPO story says who has agreed not to sell and until which month ("until February"),
+    nothing more: no share counts, no "180 days". The story of that month says the lock-up ended and what
+    the share did.
 - `why`: hindsight is fine here; it never reaches the players.
 - `assets`: company ids concerned (empty for a pure world beat). Only companies in the game by that month (see `listed` in universe.ts and the first month in `data/out/<id>.json`).
 - `move`: optional, the price move this beat explains, as in movers.md: the asset id (`sp500` and `gold` allowed) and the month's change in percent, rounded. Give it only when the connection is real; a beat may have none.

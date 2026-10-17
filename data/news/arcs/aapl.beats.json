@@ -3,14 +3,14 @@
     "id": "c39ec28f",
     "month": "1980-12",
     "title": "Apple Computer, maker of the Apple II, goes public",
-    "what": "Apple Computer went public on 12 December: 4.6 million shares raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded 32% above the issue price, valuing the company at about 1.8 billion dollars. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires.",
+    "what": "Apple Computer went public on 12 December: 4.6 million shares raised over 100 million dollars, the biggest offering since Ford in 1956, and by the close they traded 32% above the issue price, valuing the company at about 1.8 billion dollars. It makes the Apple II, a small computer for homes, schools and offices; sales were 118 million dollars in its last financial year. The founders, Steve Jobs and Steve Wozniak, and about 300 others became millionaires. Most of the shares stay locked up: the shareholders who sold in the offering have agreed not to sell their remaining 3.8 million shares until 12 March, and 18 officers, directors and major shareholders, holding 32 million of the 54.6 million shares, not to sell for nine months except small amounts, so from September they will be free to sell.",
     "why": "The listing beat. Apple was the leader of the young personal computer market; nobody yet knew that IBM would enter it eight months later.",
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03); https://www.edn.com/apple-ipo-makes-instant-millionaires-december-12-1980 (EDN, 12 December 2018, cited by Wikipedia: 'to close at $29, leaving the company with a market value of $1.778 billion'; read 2026-10-17)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); data/news/1980.json item of 1980-12 (read 2026-10-03); https://www.edn.com/apple-ipo-makes-instant-millionaires-december-12-1980 (EDN, 12 December 2018, cited by Wikipedia: 'to close at $29, leaving the company with a market value of $1.778 billion'; read 2026-10-17); https://www.sec.gov/files/18-02062-FOIA.pdf (Apple preliminary prospectus of 31 December 1980, released under FOIA, 'Shares Eligible for Future Sale': the selling shareholders' 3,775,816 shares locked until 12 March 1981; 18 officers, directors and major shareholders with 32,026,443 of 54,621,932 shares locked for nine months after 12 December 1980, except sales of up to 10% after 90 days; read 2026-10-17)",
     "lead": true,
-    "changed": "IPO story: valuation at the first-day close added ($1.778 billion, EDN as cited by Wikipedia's History of Apple Inc.)"
+    "changed": "IPO story: valuation at the first-day close added ($1.778 billion, EDN as cited by Wikipedia's History of Apple Inc.); lock-ups added: selling shareholders to 12 March 1981, 18 insiders nine months to September 1981 (curator's wish, research note lockups.md)"
   },
   {
     "id": "c01495cc",
@@ -30,6 +30,18 @@
     "changed": "note to the writer addressed: the Boeing 767 has a story of its own in September 1982, when it entered service with United"
   },
   {
+    "id": "f97e0954",
+    "month": "1981-03",
+    "title": "Apple's first lock-up ends",
+    "what": "On 12 March, three months after Apple's public offering, the shareholders who sold shares in it became free to sell their remaining 3.8 million shares, and about 31.8 million restricted shares became eligible for sale under the securities rules. The 18 officers, directors and major shareholders, among them the founders, remain bound until September, except for small amounts. Apple's shares fell 7.5% in March, while the stock market rose almost 4%.",
+    "why": "The first of Apple's two lock-up expiries, named in the IPO story (c39ec28f); a modest fall against a rising market, before a recovery in April and May.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/files/18-02062-FOIA.pdf (Apple preliminary prospectus of 31 December 1980, released under FOIA, 'Shares Eligible for Future Sale': the selling shareholders' 3,775,816 shares locked until 12 March 1981; 31,753,231 restricted shares eligible under Rule 144 from 12 March 1981; 18 insiders bound for nine months; read 2026-10-17); data/out/aapl.json and data/reference/sp500.json (March 1981: aapl -7.5%, S&P 500 +3.6%; read 2026-10-17)",
+    "changed": "new beat: end of the 90-day lock-up named in the IPO story (curator's wish, research note lockups.md)"
+  },
+  {
     "id": "78f913f2",
     "month": "1981-06",
     "title": "Apple shares drop 21% from their May high",
@@ -45,6 +57,22 @@
     },
     "source": "price changes from data/out/aapl.json and data/reference/sp500.json; context https://en.wikipedia.org/wiki/Apple_III (read 2026-10-03)",
     "lead": true
+  },
+  {
+    "id": "e16409e2",
+    "month": "1981-09",
+    "title": "Apple's founders and largest shareholders are free to sell",
+    "what": "On 12 September, nine months after Apple's public offering, the lock-up of its 18 officers, directors and major shareholders ended. Together they hold about 32 million shares, more than half the company, and may now sell as they wish. In May Apple had already completed a second offering of 2.6 million shares. Apple's shares fell 24% in September, after 20% in August; the stock market fell 5%.",
+    "why": "The second and larger lock-up expiry named in the IPO story (c39ec28f). The fall came in a falling market and after IBM's entry into personal computers in August, so the lock-up is one cause among several.",
+    "assets": [
+      "aapl"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -24
+    },
+    "source": "https://www.sec.gov/files/18-02062-FOIA.pdf (Apple preliminary prospectus of 31 December 1980, released under FOIA, 'Shares Eligible for Future Sale': 18 officers, directors and major shareholders with 32,026,443 of 54,621,932 shares bound for nine months after 12 December 1980; read 2026-10-17); https://downloads.reactivemicro.com/Users/Grant_Stockley/AppleCorporateTimeline.pdf (Apple Corporate Timeline, May 1981: second offering of 2.6 million shares completed; read 2026-10-17); data/out/aapl.json and data/reference/sp500.json (August 1981 aapl -19.5%; September 1981 aapl -24.2%, S&P 500 -5.4%; read 2026-10-17)",
+    "changed": "new beat: end of the nine-month lock-up of the 18 insiders named in the IPO story, explains the -24% of September 1981 (curator's wish, research note lockups.md)"
   },
   {
     "id": "d97b27ca",
@@ -474,13 +502,14 @@
   {
     "id": "5844788c",
     "month": "2014-04",
-    "title": "A seven-for-one split and 130 billion dollars for shareholders",
-    "what": "On 23 April Apple said it will return more than 130 billion dollars to shareholders by the end of 2015, raise its share buyback to 90 billion dollars and its dividend by about 8%, and split its shares seven for one. Apple has paid a dividend again since 2012, its first since 1995.",
+    "title": "130 billion dollars for shareholders and a higher dividend",
+    "what": "On 23 April Apple said it will return more than 130 billion dollars to shareholders by the end of 2015, raise its share buyback to 90 billion dollars and its dividend by about 8%. Apple has paid a dividend again since 2012, its first since 1995.",
     "why": "Cook's Apple as a cash machine; the shares recovered from the 2013 slump.",
     "assets": [
       "aapl"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312514154883/d715379dex991.htm (Apple press release of 23 April 2014) (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000119312514154883/d715379dex991.htm (Apple press release of 23 April 2014) (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "changed": "rule on splits: the split is no longer mentioned"
   },
   {
     "id": "174ac70b",

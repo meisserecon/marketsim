@@ -39,15 +39,15 @@
   {
     "id": "7faf529f",
     "month": "1989-08",
-    "title": "Four-for-one split and a 22% higher dividend",
-    "what": "Philip Morris's board approved a four-for-one stock split and raised the quarterly dividend 22%. The company earned 1.34 billion dollars in the first half, on revenue of 22.4 billion against 15.4 billion a year earlier, thanks to Kraft.",
+    "title": "Philip Morris raises its dividend 22%",
+    "what": "Philip Morris's board raised the quarterly dividend 22%. The company earned 1.34 billion dollars in the first half, on revenue of 22.4 billion against 15.4 billion a year earlier, thanks to Kraft.",
     "why": "The late 1980s were the stock's golden years: from the end of 1985 to the end of 1991 the share price rose about sevenfold.",
     "assets": [
       "mo"
     ],
     "source": "https://www.upi.com/Archives/1989/08/30/Philip-Morris-splits-stock-and-raises-dividend/4918620452800/ (read 2026-10-03); price change from data/out/mo.json",
     "lead": true,
-    "changed": "rule on metrics: dividend per share and closing price dropped"
+    "changed": "rule on metrics: dividend per share and closing price dropped; rule on splits: the split is no longer mentioned"
   },
   {
     "id": "2c7fabaf",

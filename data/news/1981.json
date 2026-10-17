@@ -61,6 +61,19 @@
     "imageCredit": "Lars Karlsson (Keqs)"
   },
   {
+    "month": "1981-03",
+    "kind": "company",
+    "headline": "Apple's first lock-up ends",
+    "text": "On 12 March, three months after Apple's public offering, the shareholders who sold shares in it became free to sell their remaining 3.8 million shares, and about 31.8 million restricted shares became eligible for sale under the securities rules. The 18 officers, directors and major shareholders, among them the founders, remain bound until September, except for small amounts. Apple's shares fell 7.5% in March, while the stock market rose almost 4%.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/files/18-02062-FOIA.pdf (Apple preliminary prospectus of 31 December 1980, released under FOIA, 'Shares Eligible for Future Sale': the selling shareholders' 3,775,816 shares locked until 12 March 1981; 31,753,231 restricted shares eligible under Rule 144 from 12 March 1981; 18 insiders bound for nine months; read 2026-10-17); data/out/aapl.json and data/reference/sp500.json (March 1981: aapl -7.5%, S&P 500 +3.6%; read 2026-10-17)",
+    "image": "/news/aapl/1981-03-ipo-prospectus.jpg",
+    "imageCaption": "The cover of Apple Computer's prospectus of 12 December 1980, the document that set out the lock-ups",
+    "imageCredit": "Morgan Stanley & Co. and Hambrecht & Quist; scanned by Michael Holley (Swtpc6800), July 2010"
+  },
+  {
     "month": "1981-04",
     "kind": "listing",
     "headline": "BMW, the maker of sporty cars, is now available to you",
@@ -223,6 +236,19 @@
     "image": "/news/rates/1981-09-rates-chart.png",
     "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to September 1981",
     "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
+  },
+  {
+    "month": "1981-09",
+    "kind": "company",
+    "headline": "Apple's founders and largest shareholders are free to sell",
+    "text": "On 12 September, nine months after Apple's public offering, the lock-up of its 18 officers, directors and major shareholders ended. Together they hold about 32 million shares, more than half the company, and may now sell as they wish. In May Apple had already completed a second offering of 2.6 million shares. Apple's shares fell 24% in September, after 20% in August; the stock market fell 5%.",
+    "assets": [
+      "aapl"
+    ],
+    "source": "https://www.sec.gov/files/18-02062-FOIA.pdf (Apple preliminary prospectus of 31 December 1980, released under FOIA, 'Shares Eligible for Future Sale': 18 officers, directors and major shareholders with 32,026,443 of 54,621,932 shares bound for nine months after 12 December 1980; read 2026-10-17); https://downloads.reactivemicro.com/Users/Grant_Stockley/AppleCorporateTimeline.pdf (Apple Corporate Timeline, May 1981: second offering of 2.6 million shares completed; read 2026-10-17); data/out/aapl.json and data/reference/sp500.json (August 1981 aapl -19.5%; September 1981 aapl -24.2%, S&P 500 -5.4%; read 2026-10-17)",
+    "image": "/news/aapl/1981-09-apple-ii-plus.jpg",
+    "imageCaption": "An Apple II Plus, the model Apple sold in 1981",
+    "imageCredit": "Bilby / Wikimedia Commons"
   },
   {
     "month": "1981-09",

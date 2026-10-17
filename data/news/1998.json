@@ -14,6 +14,18 @@
   },
   {
     "month": "1998-01",
+    "kind": "world",
+    "headline": "Asia's crisis deepens as Indonesia's rupiah collapses",
+    "text": "Indonesia's rupiah fell 26 percent on 8 January to a record low, beyond 10,000 to the dollar; it has lost nearly 70 percent of its value since July. Jakarta residents emptied supermarket shelves, and on 15 January the government promised the IMF tougher reforms in return for the $43 billion rescue agreed last autumn. In Hong Kong, Peregrine, the largest Asian investment bank outside Japan, collapsed, brought down partly by Indonesian debt. With oil stocks swelling, Brent crude fell below $15 a barrel, a 45-month low. That is bad news for exporters such as Russia, where foreign investors are selling stocks and bonds: on 30 January its central bank raised its key rate from 28 to 42 percent.",
+    "assets": [],
+    "source": "http://www.cnn.com/WORLD/9801/09/indonesia/index.html (CNN, 9 January 1998, via web.archive.org; read 2026-10-17); https://www.imf.org/external/np/loi/011598.htm (Indonesia, Memorandum of Economic and Financial Policies, Jakarta, 15 January 1998; read 2026-10-17); http://www.cnn.com/ASIANOW/asiaweek/98/0123/cs7.html (Asiaweek, 23 January 1998, on Peregrine, via web.archive.org; read 2026-10-17); https://money.cnn.com/1998/01/22/companies/oilcos/ (CNNfn, 22 January 1998, via web.archive.org; read 2026-10-17); https://www.rferl.org/a/1141584.html (RFE/RL Newsline, 30 January 1998; read 2026-10-17)",
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1998-01-rupiah-note.jpg",
+    "imageCaption": "A 10,000-rupiah note of the series in use in 1998; on 8 January one dollar bought more than 10,000 rupiah",
+    "imageCredit": "Bank Indonesia (scan via http://aes.iupui.edu/rwise/countries/indonesia.html)"
+  },
+  {
+    "month": "1998-01",
     "kind": "company",
     "headline": "Netscape's first loss, layoffs, and a free browser",
     "text": "On 5 January Netscape warned that it would report a loss of $85 to $89 million for the fourth quarter, its first since going public, and its shares fell 20% to an all-time low. Browser revenue fell to $17 million from $52 million a year before, as Microsoft gives its browser away. On 22 January, with its browser share down to about 60%, Netscape said Navigator and Communicator will now be free, and that it will publish the program's source code. On 27 January it reported a quarterly loss of $88.3 million; about 300 jobs will go.",
@@ -96,8 +108,8 @@
   {
     "month": "1998-04",
     "kind": "company",
-    "headline": "Amazon buys bookstores in Britain and Germany, splits its shares",
-    "text": "On April 27 Amazon reported sales of $87.4 million for the first quarter, up 446% from a year earlier, and a net loss of $9.3 million. It has more than 2.26 million customer accounts. It announced a two-for-one share split and the purchase of online booksellers in the UK and Germany and of the Internet Movie Database.",
+    "headline": "Amazon buys bookstores in Britain and Germany",
+    "text": "On April 27 Amazon reported sales of $87.4 million for the first quarter, up 446% from a year earlier, and a net loss of $9.3 million. It has more than 2.26 million customer accounts. It announced the purchase of online booksellers in the UK and Germany and of the Internet Movie Database.",
     "assets": [
       "amzn"
     ],
@@ -134,6 +146,18 @@
     "image": "/news/world/1998-05-eurotower-frankfurt-am-main.jpg",
     "imageCaption": "Eurotower (photograph from 2013)",
     "imageCredit": "Epizentrum"
+  },
+  {
+    "month": "1998-05",
+    "kind": "world",
+    "headline": "Russia triples its key rate to 150 percent",
+    "text": "Investors now call the rouble the rupiah of the Slavic world. Unsettled by Asia, a growing budget deficit, unpaid miners on strike and a plunge in oil prices, they are dumping Russian assets: the Moscow Times index of the 50 largest companies has lost about half its value this year, and buyers shun government Treasury bills, whose yields shot up to 80 percent. On 27 May the central bank tripled its key rate to 150 percent, having already spent reserves to defend the rouble. The government of Prime Minister Sergei Kiriyenko, 35, insists it will not devalue; Yeltsin has ordered spending cuts of more than $6.5 billion, and Russia hopes for more money from the IMF.",
+    "assets": [],
+    "source": "https://money.cnn.com/1998/05/26/economy/russia/ (CNNfn, 26 May 1998, via web.archive.org; read 2026-10-17); https://money.cnn.com/1998/05/27/markets/russia/ (CNNfn, 27 May 1998, via web.archive.org; read 2026-10-17); https://money.cnn.com/1998/05/27/economy/russrate/ (CNNfn, 27 May 1998, via web.archive.org; read 2026-10-17); https://www.rferl.org/a/1088751.html (RFE/RL, 27 May 1998; read 2026-10-17); https://en.wikipedia.org/wiki/1998_Russian_financial_crisis (Kiriyenko named on 23 March 1998, aged 35; read 2026-10-17)",
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1998-05-central-bank-of-russia.jpg",
+    "imageCaption": "The Central Bank of Russia on Neglinnaya Street, Moscow (photo 2016)",
+    "imageCredit": "Ludvig14, own work"
   },
   {
     "month": "1998-05",
@@ -180,11 +204,11 @@
     "month": "1998-06",
     "kind": "company",
     "headline": "Amazon opens a music store",
-    "text": "Amazon began selling music CDs in June, its first big step beyond books, and its two-for-one share split took effect. Investors are piling into internet shares.",
+    "text": "Amazon began selling music CDs in June, its first big step beyond books. Investors are piling into internet shares.",
     "assets": [
       "amzn"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000662.txt (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
     "image": "/news/amzn/1998-06-cd-player.jpg",
     "imageCaption": "CD player (photograph from 2011)",
     "imageCredit": "Mk2010"
@@ -219,6 +243,18 @@
   },
   {
     "month": "1998-07",
+    "kind": "world",
+    "headline": "A $22.6 billion rescue for Russia brings only brief relief",
+    "text": "On 13 July the IMF, the World Bank and Japan announced loans of $22.6 billion to Russia through 1999 to defend the rouble, in return for spending cuts and tax reforms. Yields on Russian Treasury bills, about 120 percent early in the month, halved the next day. But the Duma rejected part of the tax package, so the IMF cut its first payment from $5.6 billion to $4.8 billion, and by 24 July yields were back up to 66 percent. In New York the S&P 500 closed at a record 1,186.69 on 17 July. By 31 July, worried about Japan and slowing profits, it had fallen to 1,120.67.",
+    "assets": [],
+    "source": "https://www.imf.org/external/np/tr/1998/tr980713.htm (IMF press briefing by Stanley Fischer, 13 July 1998; read 2026-10-17); https://www.rferl.org/a/1089052.html (RFE/RL, 8 July 1998; read 2026-10-17); https://www.rferl.org/a/1089081.html (RFE/RL, 13 July 1998; read 2026-10-17); https://www.rferl.org/a/1141702.html (RFE/RL Newsline, 22 July 1998; read 2026-10-17); https://www.brookings.edu/wp-content/uploads/2001/01/2001a_bpea_kharas.pdf (Kharas, Pinto, Ulatov, Brookings Papers 2001, on GKO yields after 13 July and on 24 July; read 2026-10-17); https://money.cnn.com/1998/07/17/markets/marketwrap/ (CNNfn, 17 July 1998, via web.archive.org; read 2026-10-17); https://money.cnn.com/1998/07/31/markets/marketwrap/ (CNNfn, 31 July 1998, via web.archive.org; read 2026-10-17)",
+    "thread": "asia-ltcm",
+    "image": "/news/asia/1998-07-yeltsin-camdessus.jpg",
+    "imageCaption": "Boris Yeltsin receives IMF managing director Michel Camdessus (left) in the Kremlin, 19 February 1998",
+    "imageCredit": "Vladimir Rodionov / RIA Novosti archive, image #858219"
+  },
+  {
+    "month": "1998-07",
     "kind": "company",
     "headline": "Enron bids for Britain's Wessex Water",
     "text": "Enron is forming a global water company and has made an all-cash offer for Wessex Water, a British water utility, valued at about $2.9 billion. Enron believes water is the next utility market to be opened to competition.",
@@ -243,51 +279,6 @@
     "imageCredit": "Photo by Sacha Orlov (Getty Images)"
   },
   {
-    "month": "1998-08",
-    "kind": "world",
-    "headline": "Yen at an eight-year low, Japan's banks under siege",
-    "text": "The dollar reached 147 yen on 11 August, the yen's weakest in about eight years. Shares of the Long-Term Credit Bank of Japan have fallen by more than 70% this summer as its bad loans came out; a planned rescue merger with Sumitomo Trust is faltering. Japan's economy is shrinking. In June the US Treasury and Federal Reserve sold $833 million for yen to slow its fall, with little lasting effect.",
-    "assets": [
-      "ibj",
-      "ust2000",
-      "ust2005",
-      "ust2010"
-    ],
-    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-1998 (read 2026-10-03); https://en.wikipedia.org/wiki/Long-Term_Credit_Bank_of_Japan (read 2026-10-03); https://www.newyorkfed.org/medialibrary/media/newsevents/news/markets/1998/fxq298.pdf (read 2026-10-03)",
-    "image": "/news/asia/1998-08-japanese-yen.jpg",
-    "imageCaption": "Japanese yen (photograph from 2021)",
-    "imageCredit": "Heavy Frisker"
-  },
-  {
-    "month": "1998-08",
-    "kind": "company",
-    "headline": "Netscape breaks even, but the market falls",
-    "text": "Netscape broke even in its quarter to 31 July, better than Wall Street expected: revenue rose 10% to $150.2 million and net income was $88,000, against a loss of $45 million a year earlier. On 3 August it agreed to promote America Online's local city guides on its Netcenter site. But August was a bad month for shares: by its end the Dow Jones index had fallen more than 18% from its July record amid crises in several countries, and internet shares, which tend to overreact, fell further.",
-    "assets": [
-      "netscape",
-      "aol"
-    ],
-    "source": "https://www.theregister.com/1998/08/19/netscape_gets_back/ (The Register, 19 August 1998, read 2026-10-14); https://www.deseret.com/1998/8/4/19394690/aol-netscape-reach-accord/ (Deseret News, 4 August 1998, read 2026-10-14); https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, on the fall from the July high, read 2026-10-14)",
-    "thread": "dotcom",
-    "image": "/news/netscape/1998-08-wall-street.jpg",
-    "imageCaption": "Wall Street, Manhattan, July 1997",
-    "imageCredit": "LBM1948 / Wikimedia Commons"
-  },
-  {
-    "month": "1998-08",
-    "kind": "company",
-    "headline": "Good results do not save AOL's shares from the August slump",
-    "text": "America Online reported on 4 August results for its fiscal year to June that beat Wall Street's forecasts, and said it was comfortable with analysts' estimates for the coming year. Internet shares rallied for a few days. But August turned into a bad month for the stock market: by its end the Dow Jones index had fallen more than 18% from its July record amid crises in several countries. Internet shares are 'high beta, high risk stocks,' said one analyst. 'They seem to overreact to whichever direction the market is in.'",
-    "assets": [
-      "aol"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378098000039/0000883780-98-000039.txt (America Online 8-K of 4 August 1998, read 2026-10-14); https://money.cnn.com/1998/08/07/markets/internet/ (CNNfn, 7 August 1998, read 2026-10-14); https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, read 2026-10-14)",
-    "thread": "dotcom",
-    "image": "/news/aol/1998-08-nyse-flag.jpg",
-    "imageCaption": "Columns and flag of the New York Stock Exchange, November 1997",
-    "imageCredit": "LBM1948 / Wikimedia Commons"
-  },
-  {
     "month": "1998-09",
     "kind": "company",
     "headline": "UBS caught in the LTCM collapse",
@@ -306,11 +297,11 @@
     "month": "1998-09",
     "kind": "listing",
     "headline": "eBay, the online auction site, goes public",
-    "text": "eBay of San Jose sold 3.5 million shares on the Nasdaq; on the first day they closed at nearly three times the issue price, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit.",
+    "text": "eBay of San Jose sold 3.5 million shares on the Nasdaq; on the first day they closed at nearly three times the issue price, valuing the company at nearly $1.9 billion. eBay runs a website where people auction goods to each other, from Beanie Babies to collectibles, and takes a fee on each sale. It had more than 1 million registered users at the end of August and, unlike most internet companies, it makes a profit. The existing shareholders, led by founder Pierre Omidyar, hold 24.5 million of the 39.7 million shares and have agreed not to sell for only 120 days, so from late January they will be free to sell.",
     "assets": [
       "ebay"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/EBay (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (same prospectus: 120-day lock-up; 24,549,579 shares eligible for sale from 121 days after the prospectus of 24 September 1998; 39,739,073 shares outstanding; Omidyar 38.3%; read 2026-10-17)",
     "image": "/news/ebay/1998-09-omidyar-whitman.jpg",
     "imageCaption": "eBay's founder and chairman Pierre Omidyar and chief executive Meg Whitman with collectibles in front of an eBay poster, California, June 1998",
     "imageCredit": "James D. Wilson / Liaison Agency (via Getty Images)"
@@ -387,36 +378,6 @@
   },
   {
     "month": "1998-11",
-    "kind": "world",
-    "headline": "theglobe.com rises 606% on its first day",
-    "text": "theglobe.com, a website for online communities, went public on 13 November and closed its first day 606% above the offer price. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
-    "assets": [
-      "ebay",
-      "amzn"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "thread": "dotcom",
-    "image": "/news/tech/1998-11-theglobecom.jpg",
-    "imageCaption": "TheGlobe.com",
-    "imageCredit": "not credited on the page"
-  },
-  {
-    "month": "1998-11",
-    "kind": "company",
-    "headline": "America Online agrees to buy Netscape",
-    "text": "On 24 November America Online, the biggest online service with 14 million subscribers, agreed to buy Netscape in a deal worth $4.2 billion, paid in shares: Netscape holders will receive 0.45 America Online share for each share they own. At AOL's price that is slightly below Netscape's own share price, which had more than doubled in the past month on talk of a deal. AOL gets the Navigator browser, Netscape's business software and Netcenter, one of the ten most-visited sites. Sun Microsystems will help sell the business software. The deal is expected to close next spring.",
-    "assets": [
-      "netscape",
-      "aol"
-    ],
-    "source": "https://money.cnn.com/1998/11/23/deals/netscape/ (CNNfn, 23 November 1998, read 2026-10-14); https://money.cnn.com/1998/11/24/technology/aol/ (CNNfn, 24 November 1998, read 2026-10-14)",
-    "thread": "dotcom",
-    "image": "/news/netscape/1998-11-steve-case.jpg",
-    "imageCaption": "Steve Case, chairman and chief executive of America Online, the buyer of Netscape",
-    "imageCredit": "Christopher Carfi / Wikimedia Commons"
-  },
-  {
-    "month": "1998-11",
     "kind": "company",
     "headline": "AOL buys Netscape and teams up with Sun",
     "text": "America Online, with 14 million subscribers, agreed on 24 November to buy Netscape for shares worth $4.2 billion, gaining the Navigator browser and Netcenter, one of the ten most-visited web sites. In a separate three-year alliance, AOL will buy $500 million of computers and services from Sun Microsystems, and Sun will pay AOL more than $350 million in licence, marketing and advertising fees. AOL will keep shipping Microsoft's Internet Explorer with its software. Its shares rose on the news.",
@@ -446,12 +407,12 @@
   {
     "month": "1998-11",
     "kind": "company",
-    "headline": "DaimlerChrysler shares start trading",
-    "text": "The merger was completed on 17 November and the new DaimlerChrysler share began trading in Frankfurt and New York. Daimler-Benz shareholders had approved the deal with 99.9% in September. Stock markets have recovered from the summer's Russian crisis.",
+    "headline": "Daimler-Benz and Chrysler become DaimlerChrysler",
+    "text": "The German Daimler-Benz and the American Chrysler Corporation have merged into a new company, DaimlerChrysler AG, whose share began trading in Frankfurt and New York on 17 November. Daimler-Benz shareholders swap each of their shares for 1.005 DaimlerChrysler shares, and more than 98% of them tendered their shares in the exchange offer; Chrysler holders receive 0.6235 DaimlerChrysler shares for each Chrysler share. The former Daimler-Benz shareholders own about 58% of the new company, the former Chrysler shareholders about 42%. Stock markets have recovered from the summer's Russian crisis.",
     "assets": [
       "mercedes"
     ],
-    "source": "https://de.wikipedia.org/wiki/Daimler-Benz (merger on 17 November 1998, read 2026-10-03); Mercedes-Benz Classic, Illustrated Chronicle 1998 (Extraordinary General Meeting, 17 September 1998), https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/1998.xhtml?oid=4912914 (read 2026-10-03)",
+    "source": "DaimlerChrysler AG, Form F-4 (1998), cover page: ownership about 58% Daimler-Benz / 42% Chrysler, exchange ratio 1.005, https://www.sec.gov/Archives/edgar/data/1067318/000104746998029563/0001047469-98-029563.txt (read 2026-10-17); DaimlerChrysler AG, Form 20-F for 1998, Introduction (more than 98% of Daimler-Benz shares tendered), market information (17 November 1998 first trading day in Frankfurt and New York) and notes (1.005 shares per Daimler-Benz share, .6235 per Chrysler share), https://www.sec.gov/Archives/edgar/data/1067318/000104746999012557/0001047469-99-012557.txt (read 2026-10-17); https://de.wikipedia.org/wiki/Daimler-Benz (merger on 17 November 1998, read 2026-10-03)",
     "image": "/news/mercedes/1998-11-schrempp-eaton-dcx.jpg",
     "imageCaption": "Jürgen Schrempp (left) and Robert Eaton, the two chairmen of DaimlerChrysler, under the new DCX ticker as the shares start trading, November 1998",
     "imageCredit": "Foto: Imago"
@@ -468,19 +429,6 @@
     "image": "/news/mo/1998-11-state-ags.jpg",
     "imageCaption": "State attorneys general who sued the tobacco industry ;;",
     "imageCredit": "Ferrell, Scott J., photographer"
-  },
-  {
-    "month": "1998-11",
-    "kind": "company",
-    "headline": "Siemens plans to spin off its chip business",
-    "text": "On 4 November Siemens said it will spin off its semiconductor division and sell other units, as part of a plan to raise profits presented by chief executive von Pierer. The chip division lost 1.2 billion marks before tax in the year to September as chip prices collapsed; group sales rose 10% to 117.8 billion marks and Siemens takes a 4 billion mark restructuring charge.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://money.cnn.com/1998/11/04/companies/siemens/ via web.archive.org (read 2026-10-03); https://www.siemens.com/en-us/company/history-heritage/history-timeline/ (read 2026-10-03)",
-    "image": "/news/siemens/1998-11-infineon.jpg",
-    "imageCaption": "Siemens' semiconductor business is based in the Munich suburb of Neubiberg; the campus shown was photographed in 2020",
-    "imageCredit": "Mucber"
   },
   {
     "month": "1998-12",

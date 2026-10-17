@@ -45,8 +45,8 @@
   {
     "id": "6b70d710",
     "month": "1995-11",
-    "title": "Netscape splits its shares; its founder is now a billionaire",
-    "what": "Netscape said on 14 November that it will split its shares two for one in January, only three months after going public. Its shares then rose further after Rick Sherlund, the software analyst of Goldman Sachs, said that smaller, nimbler internet companies threaten late-comers such as Microsoft; he lowered his rating of Microsoft and raised Netscape's. The 19-month-old company is now worth about $4 billion on the stock market, and the stake of its chairman and co-founder Jim Clark, who started it with $4.1 million, is worth more than $1 billion.",
+    "title": "Netscape's founder is now a billionaire",
+    "what": "Netscape's shares kept climbing in November, only three months after the company went public, and rose further after Rick Sherlund, the software analyst of Goldman Sachs, said that smaller, nimbler internet companies threaten late-comers such as Microsoft; he lowered his rating of Microsoft and raised Netscape's. The 19-month-old company is now worth about $4 billion on the stock market, and the stake of its chairman and co-founder Jim Clark, who started it with $4.1 million, is worth more than $1 billion.",
     "why": "The peak of the first internet mania: +57% in November 1995. The share peaked on 5 December, just before Microsoft announced its internet strategy.",
     "assets": [
       "netscape",
@@ -57,7 +57,8 @@
       "pct": 57
     },
     "thread": "dotcom",
-    "source": "https://www.spokesman.com/stories/1995/nov/18/netscape-founder-hits-jackpot-jim-clarks-41/ (Spokesman-Review, 18 November 1995, read 2026-10-14); https://archive.seattletimes.com/archive/?date=19970311&slug=2528165 (Seattle Times, on the Goldman Sachs rating change of November 1995, read 2026-10-14)"
+    "source": "https://www.spokesman.com/stories/1995/nov/18/netscape-founder-hits-jackpot-jim-clarks-41/ (Spokesman-Review, 18 November 1995, read 2026-10-14); https://archive.seattletimes.com/archive/?date=19970311&slug=2528165 (Seattle Times, on the Goldman Sachs rating change of November 1995, read 2026-10-14)",
+    "changed": "rule on splits: the split is no longer mentioned; new title"
   },
   {
     "id": "79f53d4c",
@@ -178,40 +179,6 @@
     "source": "https://www.fundinguniverse.com/company-histories/netscape-communications-corporation-history/ (source code posted on 31 March 1998, read 2026-10-14); https://www.deseret.com/1998/4/19/19374932/netscape-aims-to-net-business-by-turning-site-into-web-gateway/ (Deseret News, 19 April 1998, read 2026-10-14)"
   },
   {
-    "id": "69395f14",
-    "month": "1998-08",
-    "title": "Netscape breaks even, but the market falls",
-    "what": "Netscape broke even in its quarter to 31 July, better than Wall Street expected: revenue rose 10% to $150.2 million and net income was $88,000, against a loss of $45 million a year earlier. On 3 August it agreed to promote America Online's local city guides on its Netcenter site. But August was a bad month for shares: by its end the Dow Jones index had fallen more than 18% from its July record amid crises in several countries, and internet shares, which tend to overreact, fell further.",
-    "why": "A market move more than a company one: -37% in August 1998 against -15% for the market.",
-    "assets": [
-      "netscape",
-      "aol"
-    ],
-    "move": {
-      "asset": "netscape",
-      "pct": -37
-    },
-    "thread": "dotcom",
-    "source": "https://www.theregister.com/1998/08/19/netscape_gets_back/ (The Register, 19 August 1998, read 2026-10-14); https://www.deseret.com/1998/8/4/19394690/aol-netscape-reach-accord/ (Deseret News, 4 August 1998, read 2026-10-14); https://money.cnn.com/1998/09/08/markets/marketwrap/ (CNNfn, 8 September 1998, on the fall from the July high, read 2026-10-14)"
-  },
-  {
-    "id": "7add79e1",
-    "month": "1998-11",
-    "title": "America Online agrees to buy Netscape",
-    "what": "On 24 November America Online, the biggest online service with 14 million subscribers, agreed to buy Netscape in a deal worth $4.2 billion, paid in shares: Netscape holders will receive 0.45 America Online share for each share they own. At AOL's price that is slightly below Netscape's own share price, which had more than doubled in the past month on talk of a deal. AOL gets the Navigator browser, Netscape's business software and Netcenter, one of the ten most-visited sites. Sun Microsystems will help sell the business software. The deal is expected to close next spring.",
-    "why": "The end of independent Netscape: +73% in November 1998, most of it before the announcement. From now on its price follows AOL's.",
-    "assets": [
-      "netscape",
-      "aol"
-    ],
-    "move": {
-      "asset": "netscape",
-      "pct": 73
-    },
-    "thread": "dotcom",
-    "source": "https://money.cnn.com/1998/11/23/deals/netscape/ (CNNfn, 23 November 1998, read 2026-10-14); https://money.cnn.com/1998/11/24/technology/aol/ (CNNfn, 24 November 1998, read 2026-10-14)"
-  },
-  {
     "id": "b28255bf",
     "month": "1998-12",
     "title": "Netscape rises with America Online",
@@ -232,17 +199,18 @@
     "id": "3880cc5a",
     "month": "1999-03",
     "title": "America Online completes its purchase of Netscape",
-    "what": "America Online completed its takeover of Netscape on 17 March, after Netscape's shareholders approved it the same day. Each Netscape share was converted into 0.90 America Online share: twice the 0.45 agreed in November, because AOL split its shares two for one in February. Agreed at $4.2 billion, the deal was worth about $10 billion at the close, because AOL's own shares have soared since. On 24 March AOL announced a new structure with four groups, one of them serving Netscape's business customers together with Sun Microsystems, and said up to 1,000 jobs will go. AOL now has more than 16 million members and Netscape's Netcenter more than 13 million registered users. In this game, Netscape shares are converted into America Online shares of the same value.",
+    "what": "America Online completed its takeover of Netscape on 17 March, after Netscape's shareholders approved it the same day. Each Netscape share became 0.90 America Online share. Agreed at $4.2 billion, the deal was worth about $10 billion at the close, because AOL's own shares have soared since. On 24 March AOL announced a new structure with four groups, one of them serving Netscape's business customers together with Sun Microsystems, and said up to 1,000 jobs will go. AOL now has more than 16 million members and Netscape's Netcenter more than 13 million registered users. In this game, Netscape shares are converted into America Online shares of the same value.",
     "why": "The exit beat. Holders who bought at the September 1995 listing ended with AOL shares worth about two and a half times what they paid, after a fall of 80% along the way. For AOL the completed deal is the visible news of a +64% month; the rise itself was mostly the market's appetite for internet shares. Merged with the AOL arc's beat on the same event (one story per event).",
     "assets": [
       "netscape",
       "aol"
     ],
     "thread": "dotcom",
-    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K and press release of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/01/27/technology/aol/ (CNNfn, 27 January 1999, on the split effective 22 February, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, deal value, new structure, job cuts, members, read 2026-10-14)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K and press release of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, deal value, new structure, job cuts, members, read 2026-10-14)",
     "move": {
       "asset": "aol",
       "pct": 64
-    }
+    },
+    "changed": "rule on splits: the split is no longer mentioned; the exchange ratio is given without the explanation via AOL's split; source for the split dropped"
   }
 ]

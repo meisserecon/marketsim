@@ -19,11 +19,11 @@
     "month": "1999-01",
     "kind": "listing",
     "headline": "Nvidia, a maker of 3D graphics chips, goes public",
-    "text": "Nvidia sold 3.5 million shares to the public on 22 January, raising 42 million dollars at a price that valued the company at about 343 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss.",
+    "text": "Nvidia sold 3.5 million shares to the public on 22 January, raising 42 million dollars at a price that valued the company at about 343 million dollars. Founded in 1993, it designs graphics processors that draw three-dimensional images in personal computers, mainly for games, and has other companies manufacture them; its RIVA TNT chip of 1998 has made its name. Revenue for the nine months to October 1998 was 92.7 million dollars, with a small loss. Its early shareholders, including all officers and directors, have agreed not to sell for 180 days: 18 million of the 28.6 million shares will be free to sell from July, after a smaller block of 5 million from April.",
     "assets": [
       "nvda"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (Nvidia final prospectus, 22 January 1999, read 2026-10-03); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (same prospectus, 'Shares Eligible for Future Sale': 4,990,000 shares eligible 90 days and 17,991,627 shares 180 days after the prospectus of 21 January 1999, on expiry of the lock-up agreements; read 2026-10-17)",
     "image": "/news/nvda/1999-01-riva-tnt.jpg",
     "imageCaption": "A graphics card with Nvidia's RIVA TNT chip, 1998",
     "imageCredit": "ja:User:A758"
@@ -57,8 +57,22 @@
   {
     "month": "1999-01",
     "kind": "company",
-    "headline": "Record 1998 results and a stock split",
-    "text": "On 29 January Nokia reported record 1998 earnings, with sales up 51% to 79.2 billion markka, and announced a 2-for-1 stock split. The shares have more than quadrupled in a year.",
+    "headline": "eBay's insiders are free to sell, and the shares rise",
+    "text": "On 22 January, only 120 days after eBay's public offering, the lock-up ended for its existing shareholders: 24.5 million of its 39.7 million shares, most of them held by founder Pierre Omidyar, Jeffrey Skoll, the venture firm Benchmark and chief executive Meg Whitman, may now be sold. Most lock-ups last six months; eBay's lasted four. Yet the shares did not fall: they rose 15% in January, while the stock market rose 4%.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1065088/0001012870-98-002475.txt (IPO prospectus of 24 September 1998: 120-day lock-up, 24,549,579 shares eligible from the 121st day, 39,739,073 shares outstanding; holdings of Omidyar, Skoll, Benchmark and Whitman; read 2026-10-17); https://internetnews.com/it-management/emailbag-monday-lock-ups-insider-selling-jds-uniphase-ndb (1999: eBay's lock-up 'only four months'; read 2026-10-17); data/out/ebay.json and data/reference/sp500.json (January 1999: ebay +15.1%, S&P 500 +4.1%; read 2026-10-17)",
+    "thread": "dotcom",
+    "image": "/news/ebay/1999-01-jeff-skoll.jpg",
+    "imageCaption": "Jeff Skoll, eBay's first president and its second-largest shareholder (photograph from 2011)",
+    "imageCredit": "Skoll World Forum (uploaded by Schreibvieh)"
+  },
+  {
+    "month": "1999-01",
+    "kind": "company",
+    "headline": "Record 1998 results for Nokia",
+    "text": "On 29 January Nokia reported record 1998 earnings, with sales up 51% to 79.2 billion markka. The shares have more than quadrupled in a year.",
     "assets": [
       "nokia"
     ],
@@ -88,12 +102,12 @@
     "month": "1999-03",
     "kind": "delisting",
     "headline": "America Online completes its purchase of Netscape",
-    "text": "America Online completed its takeover of Netscape on 17 March, after Netscape's shareholders approved it the same day. Each Netscape share was converted into 0.90 America Online share: twice the 0.45 agreed in November, because AOL split its shares two for one in February. Agreed at $4.2 billion, the deal was worth about $10 billion at the close, because AOL's own shares have soared since. On 24 March AOL announced a new structure with four groups, one of them serving Netscape's business customers together with Sun Microsystems, and said up to 1,000 jobs will go. AOL now has more than 16 million members and Netscape's Netcenter more than 13 million registered users. In this game, Netscape shares are converted into America Online shares of the same value.",
+    "text": "America Online completed its takeover of Netscape on 17 March, after Netscape's shareholders approved it the same day. Each Netscape share became 0.90 America Online share. Agreed at $4.2 billion, the deal was worth about $10 billion at the close, because AOL's own shares have soared since. On 24 March AOL announced a new structure with four groups, one of them serving Netscape's business customers together with Sun Microsystems, and said up to 1,000 jobs will go. AOL now has more than 16 million members and Netscape's Netcenter more than 13 million registered users. In this game, Netscape shares are converted into America Online shares of the same value.",
     "assets": [
       "netscape",
       "aol"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K and press release of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/01/27/technology/aol/ (CNNfn, 27 January 1999, on the split effective 22 February, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, deal value, new structure, job cuts, members, read 2026-10-14)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000883780/000088378099000038/0000883780-99-000038.txt (America Online 8-K and press release of 17 March 1999, read 2026-10-14); https://money.cnn.com/1999/03/24/technology/aol/ (CNNfn, 24 March 1999, deal value, new structure, job cuts, members, read 2026-10-14)",
     "thread": "dotcom",
     "image": "/news/netscape/1999-03-aol-mountain-view.jpg",
     "imageCaption": "AOL's Silicon Valley office in Mountain View, California, in 2008",
@@ -251,6 +265,19 @@
     "image": "/news/ebay/1999-07-meg-whitman.jpg",
     "imageCaption": "Meg Whitman (photograph from 2022)",
     "imageCredit": "United States Department of State"
+  },
+  {
+    "month": "1999-07",
+    "kind": "company",
+    "headline": "Nvidia's lock-up ends without a sell-off",
+    "text": "On 20 July, six months after Nvidia's public offering, the lock-up ended for its early shareholders, including all officers and directors: 18 million of its 28.6 million shares may now be sold. Large blocks belong to the three founders, Jen-Hsun Huang, Chris Malachowsky and Curtis Priem, and to the venture firms Sequoia Capital and Sutter Hill. The shares did not fall: they rose 5% in July, while the stock market lost 3%.",
+    "assets": [
+      "nvda"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-99-000192.txt (IPO prospectus of 21 January 1999: 17,991,627 shares eligible on expiry of the 180-day lock-up agreements; 28,595,976 shares outstanding; holdings of Huang, Malachowsky, Priem, Sequoia and Sutter Hill; read 2026-10-17); data/out/nvda.json and data/reference/sp500.json (July 1999: nvda +5.3%, S&P 500 -3.2%; read 2026-10-17)",
+    "image": "/news/nvda/1999-07-riva-tnt2-ultra.jpg",
+    "imageCaption": "Nvidia's RIVA TNT2 Ultra graphics chip of 1999",
+    "imageCredit": "Hyins / Wikimedia Commons"
   },
   {
     "month": "1999-07",

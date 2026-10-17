@@ -73,13 +73,14 @@
     "id": "5b9c7428",
     "month": "1995-03",
     "title": "McDonald's: 26 billion dollars of sales in 79 countries",
-    "what": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home. The shares were split two-for-one in June 1994.",
+    "what": "Systemwide sales reached nearly 26 billion dollars in 1994 and net income passed 1.2 billion. McDonald's had 15,205 restaurants at the end of the year in 79 countries, up from 70 a year earlier; 5,461 restaurants are now outside the United States, and sales abroad are growing much faster than at home.",
     "why": "The shares gained about 54% in 1995 as the expansion abroad accelerated.",
     "assets": [
       "mcd"
     ],
     "source": "https://archive.org/download/mcdonaldscorpannualreports/mcdonalds1994_djvu.txt (1994 annual report, 11-year summary, read 2026-10-03); yearly change from data/out/mcd.json",
-    "lead": true
+    "lead": true,
+    "changed": "rule on splits: the split is no longer mentioned"
   },
   {
     "id": "2d20d507",

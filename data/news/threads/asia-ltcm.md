@@ -11,5 +11,8 @@ East Asia's 'tigers' and 'tiger cubs' grew by up to ten percent a year into the 
 | 1997-08 | Asian currency crisis hits Coca-Cola and other multinationals | cccac4da | ko | existing, enriched (IMF package for Thailand) |
 | 1997-10 | Hong Kong crash drags down Wall Street | 6d854101 | asia | existing |
 | 1997-12 | South Korea needs the IMF | b981c663 | asia | new |
+| 1998-01 | Asia's crisis deepens as Indonesia's rupiah collapses | a40b7323 | asia | new (build-up to the Russian default) |
+| 1998-05 | Russia triples its key rate to 150 percent | 6861b3eb | asia | new (build-up to the Russian default) |
+| 1998-07 | A $22.6 billion rescue for Russia brings only brief relief | 429766a2 | asia | new (build-up to the Russian default) |
 | 1998-08 | Russia defaults and the crisis goes global | f1f55058 | asia | existing |
 | 1998-09 | UBS caught in the LTCM collapse | 0d3a9de1 | ubs | existing, enriched (what LTCM was and how it was leveraged) |

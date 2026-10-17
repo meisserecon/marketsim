@@ -14,12 +14,12 @@
     "month": "1986-03",
     "kind": "listing",
     "headline": "Microsoft, maker of the software inside the PC, goes public",
-    "text": "Microsoft sold shares to the public for the first time on 13 March, raising 61 million dollars at a price that valued the company at more than half a billion dollars; by the close of the first day the shares were 32% above the offer price. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars.",
+    "text": "Microsoft sold shares to the public for the first time on 13 March, raising 61 million dollars at a price that valued the company at more than half a billion dollars; by the close of the first day the shares were 32% above the offer price. Founded in 1975 by Bill Gates and Paul Allen, it writes MS-DOS, the operating system of the IBM PC and its many copies, and released Windows 1.0 in November 1985. Sales for the year to June 1986 are about 198 million dollars. The company, the shareholders who sold in the offering and the officers and directors, who together hold about 21 million of the 24.7 million shares, have agreed not to sell for 120 days, so from July they will be free to sell.",
     "assets": [
       "msft",
       "ibm"
     ],
-    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03); https://fortune.com/2011/03/13/inside-the-deal-that-made-bill-gates-350000000/amp (Fortune, 21 July 1986, reprinted 2011: 'a price of $20 would push Microsoft's market value above half-a-billion dollars'; offered at $21, first-day close $27.75; read 2026-10-17)",
+    "source": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1986 (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Microsoft (read 2026-10-03); data/news/1986.json item of 1986-03 (read 2026-10-03); https://fortune.com/2011/03/13/inside-the-deal-that-made-bill-gates-350000000/amp (Fortune, 21 July 1986, reprinted 2011: 'a price of $20 would push Microsoft's market value above half-a-billion dollars'; offered at $21, first-day close $27.75; read 2026-10-17); http://web.archive.org/web/20190214180418id_/http://www.lannigan.org:80/pdf/Microsoft_prospectus.pdf (Microsoft prospectus of 13 March 1986, 'Shares Eligible for Future Sale': holders of about 21,070,000 shares agreed not to sell for 120 days; 24,715,113 shares outstanding after the offering; read 2026-10-17)",
     "image": "/news/msft/1986-03-gates-tandy.jpg",
     "imageCaption": "Bill Gates with a Tandy 2000 running Windows 1.0, 1984",
     "imageCredit": "Tandy Corporation"
@@ -94,6 +94,19 @@
     "image": "/news/life/1986-06-diego-maradona-holds-up-the-world-cup-tr.jpg",
     "imageCaption": "Diego Maradona holds up the World Cup trophy after the final in Mexico City, 29 June 1986",
     "imageCredit": "Unknown authorUnknown author"
+  },
+  {
+    "month": "1986-07",
+    "kind": "company",
+    "headline": "Microsoft's insiders are free to sell",
+    "text": "About 11 July, 120 days after Microsoft's public offering, the lock-up ended for the company, the shareholders who sold in the offering and the officers and directors. Together they hold about 21 million of Microsoft's 24.7 million shares and may now sell. Microsoft's shares fell 7% in July, a little more than the stock market, which lost 6%; in June they had already fallen 12%.",
+    "assets": [
+      "msft"
+    ],
+    "source": "http://web.archive.org/web/20190214180418id_/http://www.lannigan.org:80/pdf/Microsoft_prospectus.pdf (Microsoft prospectus of 13 March 1986: holders of about 21,070,000 shares agreed not to sell for 120 days, i.e. to about 11 July 1986; 24,715,113 shares outstanding; read 2026-10-17); data/out/msft.json and data/reference/sp500.json (June 1986 msft -12.1%; July 1986 msft -7.3%, S&P 500 -5.9%; read 2026-10-17)",
+    "image": "/news/msft/1986-07-allen-gates-lakeside.jpg",
+    "imageCaption": "Paul Allen (left) and Bill Gates at Lakeside School in Seattle, 1970: Microsoft's two founders, its largest shareholders",
+    "imageCredit": "Bruce Burgess (The Bruce Burgess Photo Archive)"
   },
   {
     "month": "1986-08",

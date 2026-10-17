@@ -25,7 +25,7 @@ Since 2023 the share follows Musk as much as the car business: price cuts and a 
 
 ## Unexplained moves
 
-None of the "Biggest months" is left unexplained. Not covered by beats: 2010-12 (-25%, giving back part of November's gain; no specific news found) and the 2026-05 rise (+14%; only modest news such as strong Chinese sales in April was found).
+None of the "Biggest months" is left unexplained. 2010-12 (-25%) is now explained by the end of the IPO lock-up (beat 05a16853). Not covered by beats: the 2026-05 rise (+14%; only modest news such as strong Chinese sales in April was found).
 
 ## Sources
 

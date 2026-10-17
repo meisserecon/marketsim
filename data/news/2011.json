@@ -190,12 +190,12 @@
     "month": "2011-05",
     "kind": "listing",
     "headline": "Glencore goes public in London's largest premium listing",
-    "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata, much of whose output it markets. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company.",
+    "text": "Glencore, the Baar-based trader founded in 1974 as Marc Rich + Co and bought out by its managers in 1994, priced its IPO on 19 May, raising about $10bn and valuing itself at $59.2bn, the largest premium listing ever in London. It handles an estimated 60% of the world's traded zinc and half of its traded copper, plus oil, coal and grain, and owns mines and a third of Xstrata, much of whose output it markets. Shares began trading in London on 24 May and in Hong Kong a day later; managers keep about 83% of the company. Their shares are locked up in stages: from the first anniversary in May 2012 shares worth about 40% of the company will be free to sell, more each year after, and the executive directors' last shares only after five years. The cornerstone investors, who bought about 5%, have agreed not to sell for six months, so from November they will be free to sell.",
     "assets": [
       "glencore",
       "xstrata"
     ],
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03)",
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217; https://en.wikipedia.org/wiki/Glencore (history and 2010 market shares, citing the Guardian 19 May 2011); https://en.wikipedia.org/wiki/Marc_Rich (all read 2026-10-03); https://www.hkexnews.hk/listedco/listconews/sehk/2011/0513/00805_1074520/ewpglencore-20110511-33.pdf (Glencore prospectus as filed with HKEX, Section X para 17: cornerstone investors, 5.1%, six months; employee shareholders one to four years, executive directors five years, releases on each anniversary; first-anniversary release about 39.7% of the capital, computed from its table; read 2026-10-17)",
     "image": "/news/glencore/2011-05-baar.jpg",
     "imageCaption": "Glencore's headquarters in Baar, Switzerland",
     "imageCredit": "Paradise Chronicle"
@@ -212,19 +212,6 @@
     "image": "/news/nokia/2011-05-stephen-elop.jpg",
     "imageCaption": "Stephen Elop, 2008",
     "imageCredit": "luca.sartoni"
-  },
-  {
-    "month": "2011-05",
-    "kind": "company",
-    "headline": "Citigroup completes a 1-for-10 reverse split",
-    "text": "Citigroup combined every ten of its shares into one, effective after trading on 6 May; the shares trade on a split-adjusted basis from 9 May. A shareholder's stake is unchanged: ten times fewer shares, each worth ten times more. Citigroup plans to reinstate a small quarterly dividend now that the split is done. It earned $10.6 billion in 2010.",
-    "assets": [
-      "c"
-    ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000119312511131957/dex991.htm (Citigroup press release, 9 May 2011; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000114420411016019/v215370_ex99-1.htm (21 March 2011; read 2026-10-03)",
-    "image": "/news/c/2011-05-open-outcry.jpg",
-    "imageCaption": "Open outcry, 2001",
-    "imageCredit": "en:User:Taak"
   },
   {
     "month": "2011-05",
@@ -535,6 +522,19 @@
     "image": "/news/dis/2011-11-the-mickey-mouse-ferris-wheel-at-disney.jpg",
     "imageCaption": "The Mickey Mouse Ferris wheel at Disney California Adventure",
     "imageCredit": "CrispyCream27"
+  },
+  {
+    "month": "2011-11",
+    "kind": "company",
+    "headline": "Glencore's cornerstone investors are free to sell",
+    "text": "On 24 November, six months after Glencore's listing, the lock-up ended for the cornerstone investors who had bought about 5% of the company in the offering; they had agreed to sell, if at all, in an orderly way through the banks. At the listing an IPO research site had warned that their stakes could depress the share price as the lock-ups neared their end. The managers' and employees' shares, more than four fifths of the company, stay locked, the first of them until May 2012. Glencore's shares fell 11.5% in November, while the stock market was almost unchanged.",
+    "assets": [
+      "glencore"
+    ],
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2011/0513/00805_1074520/ewpglencore-20110511-33.pdf (Glencore prospectus as filed with HKEX, Section X para 17: cornerstone investors, 5.1% of the capital, locked up for six months after UK admission, sales within a month after expiry coordinated through the banks; employee and director lock-ups of one to five years; read 2026-10-17); https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-ipo-successfully-priced/2640217 (RNS of 19 May 2011: directors and employees about 83.1%, cornerstones locked up for 6 months post-admission, admission 24 May; read 2026-10-17); https://www.ipo-book.com/?p=1385 (IPO-Book, 10 May 2011: the cornerstones' stakes could markedly depress the share price as the lock-ups near expiry; read 2026-10-17); data/out/glencore.json and data/reference/sp500.json (November 2011: glencore -11.5% in dollars, S&P 500 -0.5%; read 2026-10-17)",
+    "image": "/news/glencore/2011-11-paternoster-square.jpg",
+    "imageCaption": "Paternoster Square in London, home of the London Stock Exchange, June 2011",
+    "imageCredit": "Ramón Cutanda López (Flickr)"
   },
   {
     "month": "2011-12",

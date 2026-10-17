@@ -84,12 +84,12 @@
   {
     "month": "1997-02",
     "kind": "company",
-    "headline": "Exxon splits its shares as profits climb",
-    "text": "Exxon's board approved a two-for-one stock split on 26 February. Exxon earned 7.51 billion dollars in 1996, up from 6.47 billion in 1995 and 5.10 billion in 1994, and raised its dividend again.",
+    "headline": "Exxon's profits keep climbing",
+    "text": "Exxon earned 7.51 billion dollars in 1996, up from 6.47 billion in 1995 and 5.10 billion in 1994, and raised its dividend again.",
     "assets": [
       "xom"
     ],
-    "source": "Exxon Form 10-K405 for 1997, https://www.sec.gov/Archives/edgar/data/34088/0000930661-98-000526.txt (split date, selected financial data) (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
+    "source": "Exxon Form 10-K405 for 1997, https://www.sec.gov/Archives/edgar/data/34088/0000930661-98-000526.txt (selected financial data) (read 2026-10-03); https://en.wikipedia.org/wiki/Lee_Raymond (read 2026-10-03)",
     "image": "/news/xom/1997-02-sunrise-over-refineries-and-chemical-pla.jpg",
     "imageCaption": "Sunrise over refineries and chemical plants on the Houston Ship Channel near Baytown, home of Exxon's largest refinery",
     "imageCredit": "Baytownbert"
@@ -137,11 +137,11 @@
     "month": "1997-05",
     "kind": "listing",
     "headline": "Amazon.com, the online bookstore, goes public",
-    "text": "Amazon.com of Seattle sold 3 million shares on the Nasdaq on May 15, raising $54 million at a price that valued the company at about $430 million. The company, which opened as 'Earth's Biggest Bookstore' on the World Wide Web in July 1995, had sales of $15.7 million in 1996, up from $511,000, and a net loss of $5.8 million. Founder Jeff Bezos says it will keep spending to grow; Barnes & Noble sued it days before the listing over its claim to be the world's largest bookstore.",
+    "text": "Amazon.com of Seattle sold 3 million shares on the Nasdaq on May 15, raising $54 million at a price that valued the company at about $430 million. The company, which opened as 'Earth's Biggest Bookstore' on the World Wide Web in July 1995, had sales of $15.7 million in 1996, up from $511,000, and a net loss of $5.8 million. Executives, directors and some early shareholders and employees, who hold about 20.8 million of the 23.9 million shares, have agreed not to sell for 180 days, so from November they will be free to sell. Founder Jeff Bezos says it will keep spending to grow; Barnes & Noble sued it days before the listing over its claim to be the world's largest bookstore.",
     "assets": [
       "amzn"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus, read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Amazon (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (same prospectus, 'Shares Eligible for Future Sale': about 20,826,909 restricted shares under 180-day lock-up agreements; read 2026-10-17)",
     "thread": "dotcom",
     "image": "/news/amzn/1997-05-bezos-books.jpg",
     "imageCaption": "Jeff Bezos among stacks of books in Amazon's Seattle warehouse, January 1997, four months before the listing",
@@ -314,6 +314,20 @@
     "image": "/news/ibj/1997-11-yamaichi.jpg",
     "imageCaption": "Kayabacho Tower in Tokyo, the headquarters of Yamaichi Securities",
     "imageCredit": "Harani0403"
+  },
+  {
+    "month": "1997-11",
+    "kind": "company",
+    "headline": "Amazon's lock-up ends, and the bears are disappointed",
+    "text": "On 12 November, six months after Amazon.com's public offering, the lock-up ended for its executives, directors and early shareholders and employees, and about 19.3 million of its 23.9 million shares became eligible for sale. Bears had counted on the date to topple the shares, and many investors had sold them short on this alone. Some shares were sold, but on the day itself the share price rose. Over the whole month Amazon's shares still fell 19%, while the stock market rose 4.5%.",
+    "assets": [
+      "amzn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt (IPO prospectus of 15 May 1997: 180-day lock-up; 19,331,253 restricted shares eligible on expiry; 23,858,702 shares outstanding; read 2026-10-17); https://g.foolcdn.com/FoolPort/1997/FoolPort971216.htm (Motley Fool, 16 December 1997: bears counted on the November lock-up termination, many shorted the stock on this event alone, some shares were sold, the stock rose; read 2026-10-17); data/out/amzn.json and data/reference/sp500.json (November 1997: amzn -18.9%, S&P 500 +4.5%; read 2026-10-17)",
+    "thread": "dotcom",
+    "image": "/news/amzn/1997-11-bull-and-bear.jpg",
+    "imageCaption": "Bull and bear, the symbols of rising and falling markets: Reinhard Dachlauer's sculpture in front of the Frankfurt Stock Exchange",
+    "imageCredit": "Dietmar Rabich / Wikimedia Commons"
   },
   {
     "month": "1997-11",

@@ -14,15 +14,16 @@
   {
     "id": "21a96a14",
     "month": "1991-07",
-    "title": "LDDS shares have quadrupled in eighteen months",
-    "what": "Shares of LDDS have roughly quadrupled since the start of 1990 as the company keeps buying smaller long-distance companies.",
+    "title": "LDDS shares have quadrupled in eighteen months, Cisco climbs too",
+    "what": "Shares of LDDS, a long-distance company from Jackson, Mississippi, led by Bernard Ebbers, have roughly quadrupled since the start of 1990. Since the break-up of AT&T, carriers like LDDS can lease capacity on the big networks cheaply and resell long-distance calls at a discount to small businesses; LDDS now serves 16 states with yearly revenues of more than $154 million and a profit of $9.8 million, and grows by buying regional rivals, paying partly in its own shares, as in this summer's purchase of MidAmerican Communications of Omaha. Investors are also paying up for Cisco Systems, up about 29% this month: its routers link computer networks of universities, government agencies and companies, and in the nine months to April its sales reached $126 million with a profit of $30 million, against $70 million in sales for the whole year to July 1990.",
     "why": "The early run (+30% in June 1990, +31% in January 1991, +26% in July 1991) has no confirmed single cause; the price data for 1990-92 is also unverified (see Unexplained moves).",
     "assets": [
-      "worldcom"
+      "worldcom",
+      "csco"
     ],
-    "source": "data/out/worldcom.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "source": "data/out/worldcom.json and data/out/csco.json (monthly prices); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (1983: AT&T break-up, Ebbers, discount long distance to small businesses, buying regional rivals with LDDS stock; read 2026-10-17); California PUC Decision 91-06-061 of 24 June 1991, LDDS acquisition of MidAmerican Communications (16 states, revenues exceeding $154,000,000, net income $9,791,666, reseller of long distance), https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D840200_to_D9212077/D9106061_19910624_A9104021.pdf (read 2026-10-17); Cisco release of 13 May 1992 with the comparison figures for the nine months ended April 1991 (net sales $126,417,000, net income $29,967,000), https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1992/m05/cisco-systems-reports-third-quarter-earnings-1992-.html (read 2026-10-17); EBSCO Research Starters, Cisco Systems (sales $69.8 million and net income $13.9 million by mid-1990; customers universities, government agencies, then corporations), https://ebsco.com/research-starters/computer-science/cisco-systems-inc (read 2026-10-17)",
     "lead": true,
-    "note": "Add some of the reasoning for why this company is seen as so valuable, i.e. building the infrastructure for modern telecommunication. Add a note on Cisco, which is also up 28.7%"
+    "changed": "note to the writer addressed: explains why investors pay up for LDDS (discount long-distance reseller after the AT&T break-up, acquisitions, 1991 revenue and profit from a California PUC decision) and adds Cisco (routers, sales and profit growth from Cisco's own figures); the curator may add the asset id csco"
   },
   {
     "id": "12c3fd31",

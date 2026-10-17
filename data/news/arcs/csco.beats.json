@@ -129,7 +129,7 @@
     "id": "20a60ab7",
     "month": "2000-03",
     "title": "Cisco becomes the world's most valuable company",
-    "what": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. The shares were split two-for-one on March 22, the ninth split since the 1990 listing. Investors value Cisco as the company whose equipment carries the internet.",
+    "what": "On March 27 Cisco's stock market value reached about $555 billion, more than Microsoft's, making it the most valuable company in the world. Investors value Cisco as the company whose equipment carries the internet.",
     "why": "The peak (77.3 in game terms at the end of March 2000). From here the shares fell 86% to September 2002, and it took until December 2025 to regain the March 2000 closing high. (Time check: dropped 'briefly', which knows the lead was lost.)",
     "assets": [
       "csco",
@@ -140,8 +140,9 @@
       "pct": 17
     },
     "thread": "dotcom",
-    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); split from https://www.sec.gov/Archives/edgar/data/858877/0000891618-00-001722.txt (read 2026-10-03), count of splits from https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m05/cisco-systems-reports-third-quarter-earnings-and-two-for-one-stock-split.html (eighth split, read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
-    "lead": true
+    "source": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public (read 2026-10-03); https://en.wikipedia.org/wiki/Cisco (read 2026-10-03)",
+    "lead": true,
+    "changed": "rule on splits: the split is no longer mentioned; sources for the split and the count of splits dropped"
   },
   {
     "id": "fa42f192",

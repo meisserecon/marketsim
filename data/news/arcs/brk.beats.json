@@ -3,14 +3,14 @@
     "id": "3bbed311",
     "month": "1980-05",
     "title": "Berkshire Hathaway, Warren Buffett's holding company, enters the game",
-    "what": "Berkshire Hathaway of Omaha is the company of Warren Buffett, 49, one of the most successful investors in America. He learned his method from Benjamin Graham, his teacher at Columbia University: a share is a piece of a business, and one should buy it only when it costs clearly less than the business is worth, with a 'margin of safety'. This is called value investing. And what Buffett buys he keeps: the ideal time to hold a good share, he believes, is forever. Berkshire, once a textile maker, owns insurance companies, See's Candies and the Buffalo Evening News, and invests its insurers' money in shares. Since he took control in the mid-1960s its book value per share has grown more than seventeenfold. It pays no dividend and has never split its share, so a single share is unusually expensive.",
+    "what": "Berkshire Hathaway of Omaha is the company of Warren Buffett, 49, one of the most successful investors in America. He learned his method from Benjamin Graham, his teacher at Columbia University: a share is a piece of a business, and one should buy it only when it costs clearly less than the business is worth, with a 'margin of safety'. This is called value investing. And what Buffett buys he keeps: the ideal time to hold a good share, he believes, is forever. Berkshire, once a textile maker, owns insurance companies, See's Candies and the Buffalo Evening News, and invests its insurers' money in shares. Since he took control in the mid-1960s its book value per share has grown more than seventeenfold. It pays no dividend.",
     "why": "Listing beat: Yahoo's history starts in March 1980, and the game lists the share in May, a quiet month. From here to today a single share rises from 260 to about 750,000 dollars, the steadiest compounder of the game.",
     "assets": [
       "brk"
     ],
     "source": "https://www.berkshirehathaway.com/letters/1979.html (read 2026-10-03); https://www.berkshirehathaway.com/letters/1980.html (read 2026-10-03); https://en.wikipedia.org/wiki/Warren_Buffett (read 2026-10-04)",
     "lead": true,
-    "changed": "rule on metrics: book value per share replaced by its growth multiple; share price in dollars removed"
+    "changed": "rule on metrics: book value per share replaced by its growth multiple; share price in dollars removed; rule on splits: the split is no longer mentioned"
   },
   {
     "id": "a0feaa8b",
@@ -143,12 +143,13 @@
     "id": "72a75a2f",
     "month": "2009-11",
     "title": "Berkshire buys the BNSF railway: 'an all-in bet on America'",
-    "what": "On 3 November Berkshire offered 26 billion dollars in cash and shares for the 77% of Burlington Northern Santa Fe it does not already own, valuing the railway at about 44 billion dollars including debt. It is the largest acquisition in Berkshire's history. To let small BNSF holders take Berkshire stock, Berkshire will split its B shares 50 for 1; the A share is not split.",
+    "what": "On 3 November Berkshire offered 26 billion dollars in cash and shares for the 77% of Burlington Northern Santa Fe it does not already own, valuing the railway at about 44 billion dollars including debt. It is the largest acquisition in Berkshire's history.",
     "why": "The turn towards capital-heavy businesses (railway, utilities) that defines today's Berkshire. The deal closed in February 2010.",
     "assets": [
       "brk"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312509222271/d8k.htm (Berkshire press release of 3 November 2009, read 2026-10-03); https://en.wikipedia.org/wiki/BNSF_Railway (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312509222271/d8k.htm (Berkshire press release of 3 November 2009, read 2026-10-03); https://en.wikipedia.org/wiki/BNSF_Railway (read 2026-10-03)",
+    "changed": "rule on splits: the split is no longer mentioned"
   },
   {
     "id": "f95141e7",

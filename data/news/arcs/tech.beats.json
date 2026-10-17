@@ -131,20 +131,6 @@
     "lead": true
   },
   {
-    "id": "2d38a9cb",
-    "month": "1998-11",
-    "title": "theglobe.com rises 606% on its first day",
-    "what": "theglobe.com, a website for online communities, went public on 13 November and closed its first day 606% above the offer price. Internet shares are surging after the autumn's market scare: eBay more than doubled in November and Amazon rose about half. The Nasdaq, which first closed above 2,000 in July, rose 10% this month.",
-    "why": "The moment the internet boom turned into a mania of first-day pops. theglobe.com was worth under 10 cents a share by 2001.",
-    "assets": [
-      "ebay",
-      "amzn"
-    ],
-    "thread": "dotcom",
-    "source": "https://en.wikipedia.org/wiki/Theglobe.com (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "changed": "rule on metrics: IPO price and first-day prices dropped, the 606% gain kept"
-  },
-  {
     "id": "5f7998d3",
     "month": "1999-09",
     "title": "147 million online, and a book called 'Dow 36,000'",
@@ -192,7 +178,8 @@
     "assets": [],
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Geeknet (VA Linux IPO) (read 2026-10-04); https://en.wikipedia.org/wiki/Marc_Ostrofsky (read 2026-10-04); https://en.wikipedia.org/wiki/Business.com (read 2026-10-04)",
-    "changed": "rule on metrics: IPO price and first-day prices dropped, the 698% gain kept and the opening given as a multiple (30 to 299)"
+    "changed": "rule on metrics: IPO price and first-day prices dropped, the 698% gain kept and the opening given as a multiple (30 to 299)",
+    "note": "Adjust the story to only cover the expensive domain names. Also mention that the Swiss artists collective \"etoy\" for a million dollar, but they declined. "
   },
   {
     "id": "1f8b5752",

@@ -33,7 +33,7 @@ Culp's fix is to break the company up. Announced in November 2021, the split sen
 
 ## Unexplained moves
 
-- 2018-11 (-26%, market +2%): no November-specific cause confirmed. Checked GE's 8-K filings for November 2018 (only the 13 November agreements with Baker Hughes, a GE company, on selling down GE's stake), the GE 2018 annual report letter by Larry Culp, and the General Electric, GE Capital and Larry Culp Wikipedia articles. The fall continued the slide after the 30 October results (22.8 billion dollar loss, dividend cut to one cent, see the 2018-10 beat); worries about GE's debt and credit rating are the likely driver but no source read in this session documents them, and press coverage could not be searched.
+- 2018-11 (-26%, market +2%): now told by the beat "GE falls another 26% as fears about its debt grow", added with sources in the review of November 2026. The earlier note: no November-specific cause confirmed. Checked GE's 8-K filings for November 2018 (only the 13 November agreements with Baker Hughes, a GE company, on selling down GE's stake), the GE 2018 annual report letter by Larry Culp, and the General Electric, GE Capital and Larry Culp Wikipedia articles. The fall continued the slide after the 30 October results (22.8 billion dollar loss, dividend cut to one cent, see the 2018-10 beat); worries about GE's debt and credit rating are the likely driver but no source read in this session documents them, and press coverage could not be searched.
 
 ## Sources
 

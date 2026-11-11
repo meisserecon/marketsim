@@ -190,23 +190,25 @@
     "id": "2a6fba43",
     "month": "2015-08",
     "title": "Schlumberger buys Cameron for 14.8 billion dollars",
-    "what": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, for 0.716 Schlumberger shares plus 14.44 dollars in cash per Cameron share, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
+    "what": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, in shares and cash, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
     "why": "Buying in the bust, at a low price, to sell complete drilling and production systems; much of the value was written off in 2019.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger and Cameron press release of 26 August 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515302267/d86257dex991.htm (read 2026-10-03)"
+    "source": "Schlumberger and Cameron press release of 26 August 2015, https://www.sec.gov/Archives/edgar/data/87347/000119312515302267/d86257dex991.htm (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, the total kept"
   },
   {
     "id": "fbe314a5",
     "month": "2016-04",
     "title": "Cameron deal closes in the oil bust",
-    "what": "On 1 April Schlumberger completed its purchase of Cameron, issuing about 138 million new shares plus 14.44 dollars in cash per Cameron share. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
+    "what": "On 1 April Schlumberger completed its purchase of Cameron, paying in new shares and cash. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
     "why": "Just after the low of the 2014-16 bust for oil; the shares recovered in 2016 and then drifted down from 2017. Review 2026-10: title \"in the depth of the bust\" implied the bottom was known.",
     "assets": [
       "slb"
     ],
-    "source": "Schlumberger press release of 1 April 2016, https://www.sec.gov/Archives/edgar/data/87347/000119312516528742/d172441dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)"
+    "source": "Schlumberger press release of 1 April 2016, https://www.sec.gov/Archives/edgar/data/87347/000119312516528742/d172441dex991.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03); https://en.wikipedia.org/wiki/Schlumberger (2015 layoffs) (read 2026-10-03)",
+    "changed": "rule on metrics: cash per share and share count removed"
   },
   {
     "id": "e2ed082c",
@@ -236,7 +238,7 @@
     "id": "89c89ea5",
     "month": "2020-04",
     "title": "Schlumberger cuts its dividend by 75 percent",
-    "what": "On 9 April Saudi Arabia and Russia agreed to cut output by about 10 million barrels a day; on 20 April US crude briefly fell to minus 37 dollars. On 17 April Schlumberger cut its quarterly dividend by 75 percent to 12.5 cents and took an 8.5 billion dollar charge, mostly writing down goodwill after the collapse in market values in March. Stock markets rebounded strongly from their lows.",
+    "what": "On 17 April, with oil prices collapsing, Schlumberger cut its quarterly dividend by 75 percent and took an 8.5 billion dollar charge, mostly writing down goodwill after the collapse in market values in March. Stock markets rebounded strongly from their lows, and the shares rose 25% in April.",
     "why": "The rebound month (+25%) despite a 75 percent dividend cut: the market had priced in worse.",
     "assets": [
       "slb"
@@ -245,7 +247,8 @@
       "asset": "slb",
       "pct": 25
     },
-    "source": "Schlumberger press release of 17 April 2020, https://www.sec.gov/Archives/edgar/data/87347/000119312520109899/ (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)"
+    "source": "Schlumberger press release of 17 April 2020, https://www.sec.gov/Archives/edgar/data/87347/000119312520109899/ (read 2026-10-03); https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the output cut and the negative oil price are told in 'Oil goes negative'; rule on metrics: dividend per share removed"
   },
   {
     "id": "eda3818a",

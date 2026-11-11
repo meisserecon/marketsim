@@ -42,7 +42,7 @@ A free web browser from a sixteen-month-old start-up, Netscape, showed in August
 | 2000-03 | The Nasdaq tops 5,000 and the S&P 500 sets a record | 104e5fa1 | markets | existing |
 | 2000-03 | Cisco becomes the world's most valuable company | 20a60ab7 | csco | existing |
 | 2000-04 | The Nasdaq loses 25% in a week | 9d262fe0 | tech | existing |
-| 2000-11 | The Nasdaq's worst month since 1987; Pets.com closes | dcb51390 | tech | existing |
+| 2000-11 | The Nasdaq's worst month since 1987 | dcb51390 | tech | existing |
 | 2001-01 | AOL Time Warner is born | baedbcae | aol | new (14 October 2026) |
 | 2001-03 | Cisco announces the first layoffs in its history | 10132a8c | csco | existing, enriched (look-back to March 2000) |
 | 2001-04 | AOL Time Warner beats forecasts on the day of a surprise rate cut | 50f83740 | aol | new (14 October 2026) |

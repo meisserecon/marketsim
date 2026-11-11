@@ -45,7 +45,7 @@
     "month": "2008-01",
     "kind": "company",
     "headline": "Jeff Bewkes takes over Time Warner",
-    "text": "Jeffrey Bewkes, the former head of HBO, became chief executive of Time Warner on 1 January, succeeding Richard Parsons, who stays on as chairman; the change was announced in November. Time Warner owns the Warner Bros. studio, CNN, HBO, AOL and most of Time Warner Cable. Its shares, at about $18 when the change was announced, were roughly where they stood when Parsons took over in May 2002, and have lagged those of Disney and News Corp.",
+    "text": "Jeffrey Bewkes, the former head of HBO, became chief executive of Time Warner on 1 January, succeeding Richard Parsons, who stays on as chairman; the change was announced in November. Time Warner owns the Warner Bros. studio, CNN, HBO, AOL and most of Time Warner Cable. When the change was announced, its shares were roughly where they stood when Parsons took over in May 2002, and have lagged those of Disney and News Corp.",
     "assets": [
       "aol"
     ],
@@ -165,7 +165,7 @@
     "month": "2008-03",
     "kind": "company",
     "headline": "Bear Stearns falls, and fears turn to Lehman",
-    "text": "Bear Stearns, the smallest of the big Wall Street firms, ran out of cash and was sold to JPMorgan Chase for a fraction of its recent value with Federal Reserve support on 16 March; analysts named Lehman as the next firm at risk. Lehman answered on 18 March with a first-quarter profit of $489 million and a cash reserve of $34 billion at the parent company, and its shares jumped 46% that day. They still ended the month down by a quarter.",
+    "text": "After Bear Stearns, the smallest of the big Wall Street firms, ran out of cash and was sold to JPMorgan Chase on 16 March, analysts named Lehman as the next firm at risk. Lehman answered on 18 March with a first-quarter profit of $489 million and a cash reserve of $34 billion at the parent company, and its shares jumped 46% that day. They still ended the month down by a quarter.",
     "assets": [
       "lehman"
     ],
@@ -256,7 +256,7 @@
     "month": "2008-05",
     "kind": "company",
     "headline": "Rights issue: seven new shares for every twenty",
-    "text": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at 21 francs. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
+    "text": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at a discount. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
     "assets": [
       "ubs"
     ],
@@ -356,18 +356,6 @@
   },
   {
     "month": "2008-08",
-    "kind": "colour",
-    "headline": "Beijing Olympics: Federer and Wawrinka win doubles gold",
-    "text": "The Olympic Games in Beijing, from 8 to 24 August with 10,942 athletes from 204 nations, were China's showcase to the world, and China topped the gold medal table for the first time. For Switzerland, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)",
-    "thread": "china",
-    "image": "/news/life/2008-08-stan-wawrinka.jpg",
-    "imageCaption": "Stan Wawrinka (photograph from 2019)",
-    "imageCredit": "si.robi"
-  },
-  {
-    "month": "2008-08",
     "kind": "company",
     "headline": "Xstrata bids £5bn for Lonmin as commodities turn",
     "text": "On 6 August Xstrata said it would offer about £5bn ($10bn) in cash for the platinum producer Lonmin, a 42% premium; Lonmin rejected it as opportunistic and its shares jumped above the offer price. Commodity prices fell in August: copper averaged $7,635 a tonne against $8,414 in July, coal $158 against $180, and oil dropped from its July record.",
@@ -378,6 +366,18 @@
     "image": "/news/xstrata/2008-08-lonmin.jpg",
     "imageCaption": "Lonmin's platinum mines at Marikana, South Africa",
     "imageCredit": "JMK"
+  },
+  {
+    "month": "2008-08",
+    "kind": "colour",
+    "headline": "Beijing Olympics: Federer and Wawrinka win doubles gold",
+    "text": "The Olympic Games in Beijing, from 8 to 24 August with 10,942 athletes from 204 nations, were China's showcase to the world, and China topped the gold medal table for the first time. For Switzerland, Roger Federer and Stanislas Wawrinka won gold in the men's tennis doubles, and Fabian Cancellara won the cycling time trial.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Switzerland_at_the_2008_Summer_Olympics (read 2026-10-03)",
+    "thread": "china",
+    "image": "/news/life/2008-08-stan-wawrinka.jpg",
+    "imageCaption": "Stan Wawrinka (photograph from 2019)",
+    "imageCredit": "si.robi"
   },
   {
     "month": "2008-09",
@@ -411,6 +411,17 @@
   {
     "month": "2008-09",
     "kind": "world",
+    "headline": "After Lehman: Merrill Lynch is sold, AIG is rescued, Washington Mutual fails",
+    "text": "On the weekend its talks with Lehman failed, Bank of America agreed to buy Merrill Lynch instead, for about 50 billion dollars in shares, and on 16 September the Federal Reserve lent the insurer AIG up to 85 billion dollars, for which the government receives 79.9% of the company. The same day a large money-market fund, the Reserve Primary Fund, 'broke the buck': its units, meant always to be worth one dollar, fell to 97 cents because it held Lehman debt; investors pulled 144 billion dollars out of such funds the next day, and on 19 September the Treasury offered to guarantee them. On 21 September Goldman Sachs and Morgan Stanley converted from investment banks into bank holding companies. On 25 September regulators seized Washington Mutual, with 307 billion dollars of assets the largest bank failure in American history, and sold most of it to JPMorgan Chase. In Switzerland UBS, which has already lost 42 billion dollars in the crisis, fell 15% on 15 September after a Sunday newspaper reported another 5 billion dollars of write-downs to come, and lost 25% in the month.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm (read 2026-11-10); https://en.wikipedia.org/wiki/Merrill_Lynch (read 2026-11-10); https://en.wikipedia.org/wiki/Money_market_fund (read 2026-11-10); https://en.wikipedia.org/wiki/Reserve_Primary_Fund (read 2026-11-10); https://en.wikipedia.org/wiki/Washington_Mutual (read 2026-11-10); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-11-10); https://www.swissinfo.ch/eng/banking-fintech/financial-failures-infect-world-stock-markets/67808 (15 September 2008, read 2026-11-10); data/out/ubs.json (read 2026-11-10)",
+    "thread": "housing-crisis"
+  },
+  {
+    "month": "2008-09",
+    "kind": "world",
     "headline": "The first Android phone",
     "text": "On 23 September T-Mobile announced the G1, made by HTC, the first phone using Android, Google's free operating system for phones. It will cost 179 dollars with a two-year contract from 20 October.",
     "assets": [
@@ -437,13 +448,13 @@
   {
     "month": "2008-10",
     "kind": "company",
-    "headline": "The Swiss state rescues UBS",
-    "text": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse, which raised capital privately, does not use the facility.",
+    "headline": "The Swiss state rescues UBS; Credit Suisse raises 10 billion francs privately",
+    "text": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse does not use the facility: the same day it announced it had raised about 10 billion francs of new capital from a small group of investors; Qatar Holding reported holding 8.9% of its shares on 22 October. Credit Suisse cancelled its share buyback.",
     "assets": [
       "ubs",
       "credit-suisse"
     ],
-    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
+    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03); Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)",
     "thread": "housing-crisis",
     "image": "/news/ubs/2008-10-rescue-press-conference.jpg",
     "imageCaption": "Jean-Pierre Roth of the National Bank (second from left) and federal councillor Eveline Widmer-Schlumpf (fourth from left) present the rescue package for UBS, Bern, 16 October 2008",
@@ -453,8 +464,17 @@
     "month": "2008-10",
     "kind": "world",
     "headline": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
-    "text": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
+    "text": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash. Hardly a share escaped: Siemens, Schlumberger, BMW, Daimler, Citigroup and eBay each lost about a third.",
     "assets": [
+      "siemens",
+      "slb",
+      "bmw",
+      "mercedes",
+      "c",
+      "ebay",
+      "sony",
+      "ibm",
+      "ko",
       "ust2010",
       "ust2015",
       "ust2020"
@@ -468,7 +488,7 @@
     "month": "2008-10",
     "kind": "company",
     "headline": "Xstrata drops Lonmin and secures its banks",
-    "text": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
+    "text": "On 1 October Xstrata abandoned its offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
     "assets": [
       "xstrata"
     ],
@@ -480,22 +500,8 @@
   {
     "month": "2008-10",
     "kind": "company",
-    "headline": "Credit Suisse raises 10 billion francs without the state",
-    "text": "On 16 October, the day the Swiss state rescued UBS, Credit Suisse announced it had raised new capital from a small group of investors, about 10 billion francs from three existing shareholders; Qatar Holding reported holding 8.9% of the shares on 22 October. Credit Suisse said it would not use the National Bank's facility for illiquid assets. The bank cancelled its share buyback.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "source": "Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)",
-    "image": "/news/credit-suisse/2008-10-dougan.jpg",
-    "imageCaption": "Brady Dougan, chief executive of Credit Suisse, at the St. Gallen Symposium",
-    "imageCredit": "International Students' Committee"
-  },
-  {
-    "month": "2008-10",
-    "kind": "company",
     "headline": "Buffett backs GE as it raises 15 billion dollars",
-    "text": "On 1 October General Electric announced it will sell at least 12 billion dollars of new shares to the public and 3 billion dollars of preferred stock with a 10% dividend to Warren Buffett's Berkshire Hathaway, which also gets warrants to buy GE shares at 22.25 dollars. 'GE is the symbol of American business to the world,' Buffett said. Jeff Immelt said GE remains committed to its triple-A rating and is meeting its commercial paper needs.",
+    "text": "On 1 October General Electric announced it will sell at least 12 billion dollars of new shares to the public and 3 billion dollars of preferred stock with a 10% dividend to Warren Buffett's Berkshire Hathaway, which also gets warrants to buy GE shares. 'GE is the symbol of American business to the world,' Buffett said. Jeff Immelt said GE remains committed to its triple-A rating and is meeting its commercial paper needs.",
     "assets": [
       "ge",
       "brk"
@@ -562,7 +568,7 @@
     "month": "2008-12",
     "kind": "world",
     "headline": "2008 in review: shares lose 38 percent",
-    "text": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
+    "text": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day.",
     "assets": [
       "ust2010",
       "ust2015",
@@ -572,6 +578,14 @@
     "image": "/news/markets/2008-12-year-chart.png",
     "imageCaption": "American shares (S&P 500) at the end of each month of 2008: down 38 percent in the year",
     "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
+  },
+  {
+    "month": "2008-12",
+    "kind": "world",
+    "headline": "Bernard Madoff arrested: a 50 billion dollar fraud",
+    "text": "On 11 December Bernard Madoff, a New York investment manager and former chairman of the Nasdaq stock market, was arrested and charged with securities fraud; he was released on bail of 10 million dollars. According to the charges he told his sons that his investment business was 'a giant Ponzi scheme', a fraud in which early investors are paid with the money of later ones; the charges put the losses at about 50 billion dollars. Banks, funds and charities around the world had money with him: clients of Spain's Santander have 2.33 billion euros at risk and clients of HSBC about 1 billion dollars, and in Switzerland the private banks Union Bancaire Privée, Reichmuth (385 million francs) and Bénédict Hentsch (56 million francs) reported client money invested with Madoff, while the newspaper Le Temps estimates that Geneva firms had placed about 5 billion francs with him. On 16 December the chairman of the market regulator SEC said that 'credible and specific allegations' about Madoff had reached its staff repeatedly since at least 1999 and had never led to action.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Madoff_investment_scandal (read 2026-11-10); https://www.sec.gov/news/press/2008/2008-297.htm (read 2026-11-10); https://www.inquirer.com/philly/news/year-in-review/20081215_Lautenberg__Braman_among_losers_in_alleged_Madoff_fraud.html (Associated Press, 15 December 2008, read 2026-11-10); https://www.swissinfo.ch/eng/another-swiss-bank-admits-madoff-exposure/7097086 (13 December 2008, read 2026-11-10); https://www.wealthbriefing.com/html/article.php?id=15482 (18 December 2008, read 2026-11-10)"
   },
   {
     "month": "2008-12",

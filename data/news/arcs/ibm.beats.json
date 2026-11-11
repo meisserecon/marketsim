@@ -141,8 +141,8 @@
   {
     "id": "5f67ca9d",
     "month": "2001-04",
-    "title": "IBM stays on course and the Fed surprises",
-    "what": "IBM reported first-quarter earnings per share up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. On 18 April the Federal Reserve cut rates by half a point between meetings.",
+    "title": "IBM stays on course",
+    "what": "IBM reported first-quarter earnings per share up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. The shares rose 20% in April, helped by the Fed's surprise rate cut on 18 April.",
     "why": "Explains the +20% month, together with the market's +8%.",
     "assets": [
       "ibm"
@@ -152,7 +152,7 @@
       "pct": 20
     },
     "source": "https://www.sec.gov/Archives/edgar/data/0000051143/000091205701509402/a2045870zex-99_1.txt (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm (read 2026-10-03)",
-    "changed": "rule on metrics: earnings per share amount removed, growth rate kept"
+    "changed": "rule on metrics: earnings per share amount removed, growth rate kept; consistency review of November 2026: the rate cut is told in the market story; this one says what IBM's shares did"
   },
   {
     "id": "098d5ba1",
@@ -208,6 +208,22 @@
     ],
     "thread": "china",
     "source": "https://en.wikipedia.org/wiki/Acquisition_of_the_IBM_PC_business_by_Lenovo (read 2026-10-03)"
+  },
+  {
+    "id": "83e5eef3",
+    "month": "2005-04",
+    "title": "IBM misses its targets and loses 16%",
+    "what": "On 14 April, two business days earlier than planned, IBM reported first-quarter sales of 22.9 billion dollars, up 3% (only 1% without the help of the weak dollar) where analysts had expected about 23.7 billion, and a profit of 1.4 billion dollars, also less than expected. Chief executive Sam Palmisano said IBM 'had difficulty closing transactions in the final weeks of the quarter', above all in Germany, France, Italy and Japan, and finance chief Mark Loughridge hinted at a 'sizable restructuring'. The shares fell 8.3% the next day, the biggest loser in the Dow Jones index in its worst week since March 2003, and 16% in April.",
+    "why": "A rare stumble for the IBM of the services era, four months after it sold its PC business; the restructuring Loughridge hinted at followed within weeks and fell mostly on Europe. The miss also fed the slowdown fears that pushed Wall Street to its low of the year.",
+    "assets": [
+      "ibm"
+    ],
+    "move": {
+      "asset": "ibm",
+      "pct": -16
+    },
+    "source": "https://www.theregister.com/2005/04/15/ibm_q1_2005/ (read 2026-11-10); https://www.nbcnews.com/news/amp/wbna7505672 (AP, 14 April 2005, read 2026-11-10); https://www.nbcnews.com/id/wbna7544182 (market report on 15 April 2005, read 2026-11-10); https://www.rte.ie/news/business/2005/0415/62004-ibm-business (read 2026-11-10); https://www.internetnews.com/it-management/ibm-apple-fuel-slowdown-fears (read 2026-11-10); data/out/ibm.json",
+    "changed": "new beat, consistency review of November 2026: IBM's -16% had no story"
   },
   {
     "id": "53259bb9",

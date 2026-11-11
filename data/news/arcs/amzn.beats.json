@@ -98,6 +98,23 @@
     "source": "https://en.wikipedia.org/wiki/Pets.com (read 2026-10-03)"
   },
   {
+    "id": "3b1ade64",
+    "month": "2000-06",
+    "title": "A Lehman bond analyst doubts Amazon's finances, and the shares fall 19% in a day",
+    "what": "On 23 June Ravi Suria, a bond analyst at Lehman Brothers, published a report calling Amazon's credit 'extremely weak and deteriorating'. Since 1997, he wrote, Amazon has raised 2.8 billion dollars, mostly by borrowing, while taking in only 2.9 billion dollars in sales, and it could run out of cash within a year unless it finds new money. Amazon called the report 'pure hogwash' and said it had more than 1 billion dollars in the bank. The same day Morgan Stanley Dean Witter's Mary Meeker said Amazon's sales might fall short of her forecasts; the shares fell 19% that day and 25% in June.",
+    "why": "The first time Wall Street asked openly whether Amazon could go bankrupt; the question hung over the share until the first quarterly profit in January 2002. It is also a lesson in who reads a company most soberly: the bond analyst, not the share analysts.",
+    "assets": [
+      "amzn",
+      "lehman"
+    ],
+    "move": {
+      "asset": "amzn",
+      "pct": -25
+    },
+    "source": "https://web.archive.org/web/20020603213700/http://money.cnn.com/2000/06/23/companies/amazon/ (read 2026-11-10); https://www.newson6.com/story/5e3685402f69d76f6209a9a7/amazoncoms-stock-plunges (AP, read 2026-11-10); https://wirednews.pages.dev/2000/06/analysts-send-amazon-down-river (Wired News 23 June 2000, read 2026-11-10); https://wirednews.pages.dev/2000/06/bezos-blasts-low-cash-report (Wired News 28 June 2000, read 2026-11-10); data/out/amzn.json",
+    "changed": "new beat, consistency review of November 2026: Amazon's -25% had no story (June 2000 had one story in all)"
+  },
+  {
     "id": "6900c644",
     "month": "2000-07",
     "title": "Amazon grows 84% but keeps losing money",
@@ -112,7 +129,7 @@
   {
     "id": "ffcf3329",
     "month": "2001-04",
-    "title": "Amazon's losses narrow",
+    "title": "Amazon's sales rise 22% and the shares rebound",
     "what": "Amazon reported first-quarter sales of $700 million, up 22% from a year earlier. Technology shares rallied in April after months of falls.",
     "why": "The first hint that Amazon could survive the crash; the shares rose 54% in the month. The release date in late April was not confirmed (the quarterly filing is dated April 27).",
     "assets": [
@@ -122,7 +139,8 @@
       "asset": "amzn",
       "pct": 54
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/1018724/000095010901500823/d10q.htm (10-Q for the quarter to March 31, 2001, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1018724/000095010901500823/d10q.htm (10-Q for the quarter to March 31, 2001, read 2026-10-03)",
+    "changed": "consistency review of November 2026: the title spoke of narrowing losses, of which the text says nothing; title now matches the text"
   },
   {
     "id": "0cb772be",

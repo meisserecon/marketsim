@@ -3,7 +3,7 @@
     "month": "2021-01",
     "kind": "world",
     "headline": "The GameStop frenzy: small investors squeeze the hedge funds",
-    "text": "Users of the Reddit forum r/wallstreetbets piled into GameStop, a struggling video game retailer, whose shares had been heavily sold short by hedge funds; the stock rose from 17 dollars at New Year to as much as 483 dollars on 28 January. The hedge fund Melvin Capital needed a 2.75 billion dollar rescue, and on 28 January Robinhood and other brokers stopped customers from buying the shares, causing an outcry. Trading volumes beat the peaks of 2008, and the market had its worst week since October.",
+    "text": "Users of the Reddit forum r/wallstreetbets piled into GameStop, a struggling video game retailer, whose shares had been heavily sold short by hedge funds; the stock rose to as much as 28 times its New Year price on 28 January. The hedge fund Melvin Capital needed a 2.75 billion dollar rescue, and on 28 January Robinhood and other brokers stopped customers from buying the shares, causing an outcry. Trading volumes beat the peaks of 2008, and the market had its worst week since October.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/GameStop_short_squeeze (read 2026-10-03)",
     "image": "/news/markets/2021-01-gamestop.jpg",
@@ -50,6 +50,19 @@
   },
   {
     "month": "2021-02",
+    "kind": "world",
+    "headline": "Bond yields jump on recovery hopes: the 2040 Treasury loses 7 percent",
+    "text": "Investors expecting a strong recovery sold government bonds in February: vaccinations are under way, Congress is preparing President Biden's 1.9 trillion dollar relief package, and inflation is expected to rise. The yield on 10-year Treasuries, 1.11 percent at the end of January, jumped to 1.54 percent on 25 February, the highest in a year, when a sale of 62 billion dollars of seven-year notes drew bids for only about twice that amount, the lowest ratio on record; it ended the month at 1.44 percent. A bond's price falls when yields rise, and the longer the bond runs the more it falls: the Treasury bond due in 2040 lost 7 percent in February. Technology shares suffered as well, with the Nasdaq down 3.5 percent on 25 February, although Fed chairman Jerome Powell told the Senate on 23 February that he did not expect inflation to rise to 'troublesome levels'. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.4 percent. Unemployment 6.4 percent.",
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
+    "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2021-01-25&coed=2021-04-02 (FRED DGS10, daily 10-year yield, read 2026-11-10); https://au.finance.yahoo.com/news/treasuries-inflation-bets-poor-auction-193130410.html (Reuters, 25 February 2021: 7-year auction, 1.614% high, read 2026-11-10); https://www.pressherald.com/2021/02/26/a-bumpy-day-leaves-stocks-mostly-lower-bond-yields-ease/ (AP, 26 February 2021, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-2-26-2021 (AP, read 2026-11-10); https://ng.investing.com/news/stock-market-news/us-stockswall-street-ends-sharply-lower-tech-selloff-weighs-as-bond-yields-climb-351306 (Reuters, 25 February 2021: Nasdaq -3.52%, read 2026-11-10); https://www.pbs.org/newshour/economy/fed-chair-powell-says-recovery-incomplete-higher-inflation-unlikely (AP, 23 February 2021, read 2026-11-10); data/out/ust2040.json; https://fred.stlouisfed.org/series/DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (CSV downloads read 2026-11-10)",
+    "thread": "rates"
+  },
+  {
+    "month": "2021-02",
     "kind": "company",
     "headline": "A 20 billion dollar loss, and the shares jump anyway",
     "text": "ExxonMobil reported on 2 February a fourth-quarter loss of 20.1 billion dollars, almost all of it write-downs; for 2020 as a whole it lost 22.4 billion dollars. But oil kept rising: US crude passed 60 dollars and closed February at about 62, up from 52 at the end of January. The company says it has cut costs faster than planned. Schlumberger, which supplies the drillers, rose 26 percent.",
@@ -66,7 +79,7 @@
     "month": "2021-02",
     "kind": "company",
     "headline": "Payouts resume as copper soars",
-    "text": "On 16 February Glencore reported flat 2020 adjusted EBITDA of $11.6bn, a net loss of $1.9bn after write-downs, and net debt down to $15.8bn, back in its target range. It will pay 12 US cents a share, about $1.6bn, resuming distributions. Copper averaged $8,471 a tonne in February, up from $5,183 last March.",
+    "text": "On 16 February Glencore reported flat 2020 adjusted EBITDA of $11.6bn, a net loss of $1.9bn after write-downs, and net debt down to $15.8bn, back in its target range. It will pay about $1.6bn to shareholders, resuming distributions. Copper averaged $8,471 a tonne in February, up from $5,183 last March.",
     "assets": [
       "glencore"
     ],
@@ -225,17 +238,6 @@
   },
   {
     "month": "2021-07",
-    "kind": "colour",
-    "headline": "Belinda Bencic wins Olympic gold in Tokyo",
-    "text": "At the Olympics in Tokyo, held a year late without spectators, Belinda Bencic won the women's tennis tournament, the biggest title of her career, and a silver medal in the doubles.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Belinda_Bencic (read 2026-10-03)",
-    "image": "/news/life/2021-07-belinda-bencic-olympic-champion-of-2021.jpg",
-    "imageCaption": "Belinda Bencic, Olympic champion of 2021",
-    "imageCredit": "Hameltion"
-  },
-  {
-    "month": "2021-07",
     "kind": "company",
     "headline": "Altria sells its wine business",
     "text": "On 9 July Altria agreed to sell Ste. Michelle Wine Estates, which it got with UST in 2009, to the private equity firm Sycamore Partners for about 1.2 billion dollars in cash, and plans to use the proceeds for share buybacks. Chief executive Billy Gifford says Altria will focus on moving adult smokers to non-combustible products.",
@@ -246,6 +248,17 @@
     "image": "/news/mo/2021-07-the-chateau-ste-michelle-winery-in-washi.jpg",
     "imageCaption": "The Chateau Ste. Michelle winery in Washington state",
     "imageCredit": "David Herrera"
+  },
+  {
+    "month": "2021-07",
+    "kind": "colour",
+    "headline": "Belinda Bencic wins Olympic gold in Tokyo",
+    "text": "At the Olympics in Tokyo, held a year late without spectators, Belinda Bencic won the women's tennis tournament, the biggest title of her career, and a silver medal in the doubles.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Belinda_Bencic (read 2026-10-03)",
+    "image": "/news/life/2021-07-belinda-bencic-olympic-champion-of-2021.jpg",
+    "imageCaption": "Belinda Bencic, Olympic champion of 2021",
+    "imageCredit": "Hameltion"
   },
   {
     "month": "2021-08",
@@ -280,6 +293,17 @@
     "image": "/news/life/2021-09-fans-dressed-as-squid-game-players-in-to.jpg",
     "imageCaption": "Fans dressed as Squid Game players in Tokyo, Halloween 2021",
     "imageCredit": "Dick Thomas Johnson"
+  },
+  {
+    "month": "2021-10",
+    "kind": "world",
+    "headline": "Strong profits lift shares 7 percent to records; Microsoft overtakes Apple",
+    "text": "After losing 4.8 percent in September, the S&P 500 gained 6.9 percent in October, its best month since November 2020, and closed at a record 4,605.38 on 29 October; the Dow and the Nasdaq ended at records too. Company results for the third quarter drove the rise: of the 279 companies in the index that had reported by then, 82 percent earned more than analysts expected, and profits are on course to be about 39 percent higher than a year earlier. The shortages are not over: Apple warned that supply problems would hurt even more in the Christmas quarter, and Amazon forecast weak sales for lack of workers. Apple's shares fell on 29 October, and Microsoft, up 18 percent in the month, overtook it as the most valuable American company, worth about 2.49 trillion dollars.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "source": "https://www.cheddar.com/media/stocks-stock-markets-10-29-2021 (AP, 29 October 2021, read 2026-11-10); https://gulfnews.com/business/markets/wall-street-shakes-off-amazon-apple-weakness-to-end-modestly-higher-1.83307047 (Reuters, 29 October 2021: earnings statistics, market values, read 2026-11-10); https://uk.marketscreener.com/quote/stock/STARBUCKS-CORPORATION-4905/news/Wall-Street-shakes-off-Amazon-Apple-weakness-to-end-modestly-higher-36835877/ (Reuters, read 2026-11-10); https://www.schaeffersresearch.com/content/ezines/2021/10/29/s-p-500-nasdaq-log-record-highs-in-best-month-of-2021 (read 2026-11-10); data/reference/sp500.json; data/out/msft.json"
   },
   {
     "month": "2021-10",

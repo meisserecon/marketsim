@@ -44,7 +44,7 @@ player the yen matters both ways: a strong yen hurts Sony's profits but lifts it
 - 1988-07 (+33%): checked Wikipedia and the UPI and CNN archive listings; no cause found.
 - 2001-07 (-25%): the market was flat; Sony's first-quarter results (late July) could not be
   found in the CNN archive or Sony's press archive.
-- 2003-04 (-30%): Sony normally reports annual results in late April, so the results are the
+- 2003-04 (-30%): now told by the beat "The 'Sony shock': a surprise loss and a 30% fall", added with sources in the review of November 2026. The earlier note: Sony normally reports annual results in late April, so the results are the
   likely trigger, but no source describing them or the reaction could be read (CNN Money, the Japan Times and Sony's IR
   archive were unavailable or incomplete in the Wayback Machine); the market rose 8%.
 

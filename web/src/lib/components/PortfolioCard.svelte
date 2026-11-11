@@ -21,7 +21,8 @@
 
   const total = $derived(portfolio.totalValue);
   const weight = (v: number) => (total > 0 ? v / total : 0);
-  const positions = $derived([...portfolio.positions].sort((a, b) => b.value - a.value));
+  // By name, not by value: a row must not jump when the player buys or sells a step of it.
+  const positions = $derived([...portfolio.positions].sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' })));
   const sinceStart = $derived(startingCash > 0 ? total / startingCash - 1 : undefined);
 </script>
 
@@ -94,6 +95,10 @@
 </section>
 
 <style>
+  /* On a narrow screen the table scrolls sideways inside the card. */
+  .card-body {
+    overflow-x: auto;
+  }
   .link {
     all: unset;
     cursor: pointer;

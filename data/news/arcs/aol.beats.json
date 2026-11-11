@@ -129,7 +129,7 @@
     "id": "50f83740",
     "month": "2001-04",
     "title": "AOL Time Warner beats forecasts on the day of a surprise rate cut",
-    "what": "AOL Time Warner reported on 18 April first-quarter earnings that were better than Wall Street expected. The same morning the Federal Reserve surprised the market with its fourth interest-rate cut of the year, half a percentage point, a month before its next meeting. The Nasdaq index jumped 8.1%, one of its biggest daily gains, and AOL Time Warner's shares rose $5.10 to $49.",
+    "what": "AOL Time Warner reported on 18 April first-quarter earnings that were better than Wall Street expected, on the morning the Federal Reserve surprised the market with a rate cut. Its shares rose about 12% that day and 26% in April.",
     "why": "A rebound from the winter's lows: +26% in April 2001 against +8% for the market.",
     "assets": [
       "aol"
@@ -139,7 +139,8 @@
       "pct": 26
     },
     "thread": "dotcom",
-    "source": "https://money.cnn.com/2001/04/18/markets/markets_newyork/ (CNNfn, 18 April 2001, read 2026-10-14); https://www.sec.gov/Archives/edgar/data/0001105705/000095015701500021/aol-8k.txt (AOL Time Warner 8-K of 18 April 2001, read 2026-10-14)"
+    "source": "https://money.cnn.com/2001/04/18/markets/markets_newyork/ (CNNfn, 18 April 2001, read 2026-10-14); https://www.sec.gov/Archives/edgar/data/0001105705/000095015701500021/aol-8k.txt (AOL Time Warner 8-K of 18 April 2001, read 2026-10-14)",
+    "changed": "consistency review of November 2026: the rate cut is told in the market story; rule on metrics: share prices replaced by the day's rise in percent computed from them (5.10 on 43.90 dollars)"
   },
   {
     "id": "3e415b72",
@@ -236,23 +237,25 @@
     "id": "2e4799dc",
     "month": "2008-01",
     "title": "Jeff Bewkes takes over Time Warner",
-    "what": "Jeffrey Bewkes, the former head of HBO, became chief executive of Time Warner on 1 January, succeeding Richard Parsons, who stays on as chairman; the change was announced in November. Time Warner owns the Warner Bros. studio, CNN, HBO, AOL and most of Time Warner Cable. Its shares, at about $18 when the change was announced, were roughly where they stood when Parsons took over in May 2002, and have lagged those of Disney and News Corp.",
+    "what": "Jeffrey Bewkes, the former head of HBO, became chief executive of Time Warner on 1 January, succeeding Richard Parsons, who stays on as chairman; the change was announced in November. Time Warner owns the Warner Bros. studio, CNN, HBO, AOL and most of Time Warner Cable. When the change was announced, its shares were roughly where they stood when Parsons took over in May 2002, and have lagged those of Disney and News Corp.",
     "why": "Bewkes went on to take the group apart: Time Warner Cable in 2009, AOL at the end of 2009.",
     "assets": [
       "aol"
     ],
-    "source": "https://money.cnn.com/2007/11/05/news/companies/twx_parsons_bewkes/ (CNNMoney, 5 November 2007, read 2026-10-14)"
+    "source": "https://money.cnn.com/2007/11/05/news/companies/twx_parsons_bewkes/ (CNNMoney, 5 November 2007, read 2026-10-14)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "6f2604e4",
     "month": "2009-03",
-    "title": "Time Warner spins off its cable business and merges its shares three into one",
-    "what": "Time Warner separated Time Warner Cable on 12 March and began handing its cable shares to its own shareholders on 27 March: 0.083670 Time Warner Cable share for each Time Warner share held on 12 March. The same evening it merged every three of its own shares into one. A holder of 300 Time Warner shares thus now owns 100 new Time Warner shares and about 25 Time Warner Cable shares; fractions are paid in cash. Chief executive Jeff Bewkes says Time Warner is now one of the leading pure content companies.",
+    "title": "Time Warner spins off its cable business",
+    "what": "Time Warner separated Time Warner Cable on 12 March and began handing its cable shares to its own shareholders on 27 March: 0.083670 Time Warner Cable share for each Time Warner share held on 12 March. Chief executive Jeff Bewkes says Time Warner is now one of the leading pure content companies.",
     "why": "The first step in undoing the AOL Time Warner merger. For the game's price series: the spun-off cable shares are value paid out to holders, and the reverse split changes the share basis.",
     "assets": [
       "aol"
     ],
-    "source": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/time-warner-documents/time-warner-cable-separation-information/final-twx-twc-separationfinalpr-032709.pdf (Time Warner press release of 27 March 2009, read 2026-10-14); https://investors.att.com/stockholder-services/time-warner-stockholders/time-warner-cable-separation/how-many-shares-of-time-warner-cable-common-stock-did-time-warner-stockholders-receive (read 2026-10-14)"
+    "source": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/time-warner-documents/time-warner-cable-separation-information/final-twx-twc-separationfinalpr-032709.pdf (Time Warner press release of 27 March 2009, read 2026-10-14); https://investors.att.com/stockholder-services/time-warner-stockholders/time-warner-cable-separation/how-many-shares-of-time-warner-cable-common-stock-did-time-warner-stockholders-receive (read 2026-10-14)",
+    "changed": "rule on splits: the reverse split is no longer mentioned (title, text and the worked example)"
   },
   {
     "id": "3a037cd8",

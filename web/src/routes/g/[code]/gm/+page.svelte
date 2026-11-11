@@ -7,6 +7,7 @@
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { errorMessage, monthName, pct, usd } from '$lib/format';
+  import { marketSummary } from '$lib/movers';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
   import FrontPage from '$lib/components/FrontPage.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
@@ -44,18 +45,7 @@
 
   const nameOf = (id: string) => market?.assets.find((a) => a.id === id)?.name ?? id;
   /** The strip under the masthead: the market, then the five assets that moved most this month, up or down. */
-  const marketStrip = $derived.by(() => {
-    const indices: { name: string; change: number }[] = [];
-    const h = board?.benchmark?.history ?? [];
-    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) indices.push({ name: 'Market', change: h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1 });
-    const movers = (market?.assets ?? [])
-      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
-      // Short names keep the strip on one line: "Bankverein" for "Schweizerischer Bankverein".
-      .map((a) => ({ name: a.name.replace(/^Schweizerische[rs]? /, ''), change: a.price / a.pricePrev! - 1 }))
-      .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
-      .slice(0, 5);
-    return { indices, movers };
-  });
+  const marketStrip = $derived(marketSummary(board, market, game?.currentMonth));
   let lastJoined = $state('');
 
   let advancing = $state(false);

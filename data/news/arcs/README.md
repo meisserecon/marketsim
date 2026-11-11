@@ -67,7 +67,7 @@ A JSON array in ascending month order:
 - `why`: hindsight is fine here; it never reaches the players.
 - `assets`: company ids concerned (empty for a pure world beat). Only companies in the game by that month (see `listed` in universe.ts and the first month in `data/out/<id>.json`).
 - `move`: optional, the price move this beat explains, as in movers.md: the asset id (`sp500` and `gold` allowed) and the month's change in percent, rounded. Give it only when the connection is real; a beat may have none.
-- `lead`: optional, set by the curator: this beat is the lead story of its month. Without one, entries and exits come first, then world news before company news, the bigger price move first.
+- `lead`: optional, set by the curator: this beat is the lead story of its month. Without one, entries and exits come first, then world news before company news, the bigger price move first, and life-of-the-time stories last.
 - There are no priorities and no hidden beats: every beat in a file is shown to the players. A beat that should not be shown is deleted (git keeps it).
 - `source`: where the facts come from, with the date read. Nothing from memory alone.
 - `changed`: optional, set by a writer on a beat it added, restored or rewrote after the curator's review: one line on what was done and why. The review desk lists these under "Changed"; the curator clears the mark when he accepts the beat.

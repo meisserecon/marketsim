@@ -182,7 +182,13 @@ export function applyTrade(p: Portfolio, market: Market, month: string, trade: T
 
   if (trade.side === "buy") {
     // Spend exactly the amount asked for; units * price can be off by a rounding error.
-    const cost = "usd" in amount ? amount.usd : "all" in amount ? p.cash : units * price;
+    let cost = "usd" in amount ? amount.usd : "all" in amount ? p.cash : units * price;
+    // Less than half a cent over the cash is rounding (cash is stored to six decimals, the browser's step is
+    // computed from unrounded values): spend all the cash instead of refusing.
+    if (cost > cash && cost <= cash + 0.005) {
+      cost = cash;
+      units = cash / price;
+    }
     if (cost > cash * (1 + tolerance) + tolerance) throw new TradeError("insufficient_cash", `Costs ${cost.toFixed(2)}, cash is ${cash.toFixed(2)}`);
     cash = Math.max(0, cash - cost);
     holdings[trade.assetId] = held + units;

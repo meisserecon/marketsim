@@ -226,21 +226,6 @@
     "source": "BMW Group Annual Report 2007 ('Strategic realignment of the BMW Group announced'), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2007.pdf (read 2026-10-03)"
   },
   {
-    "id": "710d69d1",
-    "month": "2010-09",
-    "title": "BMW joins Europe's blue-chip index as car shares boom",
-    "what": "German car makers are profiting from robust economic growth, and their shares are leading the DAX. In September BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month.",
-    "why": "+32% in dollars (+23% in euros). BMW was the best DAX share of 2010 (+85%).",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": 32
-    },
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)"
-  },
-  {
     "id": "013a556d",
     "month": "2012-01",
     "title": "Record sales and cheap ECB money lift BMW",
@@ -276,43 +261,6 @@
       "bmw"
     ],
     "source": "bmwblog, 'Harald Krüger to become BMW's CEO in May 2015', 9 December 2014, https://www.bmwblog.com/2014/12/09/harald-kruger-become-bmws-ceo-may-2015/ (via Google News, read 2026-10-03); https://en.wikipedia.org/wiki/Norbert_Reithofer (read 2026-10-03)"
-  },
-  {
-    "id": "3122660e",
-    "month": "2015-09",
-    "title": "The diesel scandal reaches BMW",
-    "what": "After Volkswagen admitted cheating on diesel emissions tests, the German magazine Auto Bild reported on 24 September that a diesel BMW X3 emitted 11 times the European limit for nitrogen oxides in a road test. BMW denied any manipulation, but its shares fell almost 10% that day. The new chief executive Harald Krüger, in office since May, collapsed on stage at a news conference in Frankfurt on 15 September; BMW said it was not serious.",
-    "why": "BMW kept denying the report, and the shares rebounded in October (+17%).",
-    "assets": [
-      "bmw"
-    ],
-    "source": "CBC News, 'BMW disputes report its diesel X3 also failed emissions test', 24 September 2015, https://www.cbc.ca/news/business/volkswagen-emissions-bmw-1.3241472 (read 2026-10-03); https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03)"
-  },
-  {
-    "id": "42df87da",
-    "month": "2016-06",
-    "title": "Britain votes to leave the EU",
-    "what": "In the referendum of 23 June, 51.9% of British voters chose to leave the European Union. BMW builds the Mini in Oxford and Rolls-Royce at Goodwood.",
-    "why": "-14% in the month; Brexit hung over the Mini plant in Oxford for years.",
-    "assets": [
-      "bmw"
-    ],
-    "move": {
-      "asset": "bmw",
-      "pct": -14
-    },
-    "source": "https://en.wikipedia.org/wiki/Brexit (read 2026-10-03); https://en.wikipedia.org/wiki/Mini_(marque) (read 2026-10-03)"
-  },
-  {
-    "id": "af752d4e",
-    "month": "2017-07",
-    "title": "Cartel allegations against German car makers",
-    "what": "Reports in July said that German car makers, BMW among them, had coordinated technology, costs and suppliers in secret working groups for years, including on diesel exhaust cleaning. BMW denied colluding on emissions equipment.",
-    "why": "Part of the long diesel overhang on German car shares.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "The New York Times, 'BMW Denies Colluding With Carmakers on Emissions Equipment', 23 July 2017 (headline via Google News) (read 2026-10-03); Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headline via Google News) (read 2026-10-03)"
   },
   {
     "id": "74004c4f",
@@ -351,13 +299,15 @@
   {
     "id": "77a97906",
     "month": "2024-09",
-    "title": "Brake recall and China force a profit warning",
-    "what": "On 10 September BMW recalled more than 1.5 million cars because of a faulty brake component from the supplier Continental and stopped deliveries of 320,000 cars not yet handed over. Together with weak demand in China, the recall made BMW cut its profit forecast for 2024, and the shares plunged.",
-    "why": "The first of the warnings of the China slump years.",
+    "title": "BMW and Mercedes warn on profits as China weakens",
+    "what": "On 10 September BMW recalled more than 1.5 million cars because of a faulty brake component from the supplier Continental and stopped deliveries of 320,000 cars not yet handed over. Together with weak demand in China, the recall made BMW cut its profit forecast for 2024, and the shares plunged. On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast, and its shares slumped too. Other European car makers also issued warnings this month.",
+    "why": "The first of the warnings of the China slump years. The China problem that dominates the arc from 2024 to 2026.",
     "assets": [
-      "bmw"
+      "bmw",
+      "mercedes"
     ],
-    "source": "DW, 'BMW recalls 1.5 million cars over brake issue', 10 September 2024, https://www.dw.com/en/bmw-recalls-15-million-cars-over-brake-issue/a-70182052 (read 2026-10-03); Reuters, 'BMW cuts 2024 outlook on Continental brake issues, shares plunge', 10 September 2024 (headline via Google News) (read 2026-10-03)"
+    "source": "DW, 'BMW recalls 1.5 million cars over brake issue', 10 September 2024, https://www.dw.com/en/bmw-recalls-15-million-cars-over-brake-issue/a-70182052 (read 2026-10-03); Reuters, 'BMW cuts 2024 outlook on Continental brake issues, shares plunge', 10 September 2024 (headline via Google News) (read 2026-10-03); Reuters, 'Mercedes-Benz cuts margin outlook on weak Chinese market, shares fall', 20 September 2024; Bloomberg, 'Mercedes Slumps After Warning China Rout Is Hurting Profits', 19 September 2024 (headlines via Google News) (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the two German profit warnings of September 2024 told as one story (with mercedes/0a6d7fb6)"
   },
   {
     "id": "5bd218db",
@@ -373,17 +323,19 @@
   {
     "id": "cca9bf15",
     "month": "2026-06",
-    "title": "BMW warns of a 'significant' profit fall",
-    "what": "On 16 June BMW cut its forecast for 2026: it now expects a significant fall in pre-tax profit and a car margin of only 1 to 3%, down from 4 to 6%, because the Chinese market is shrinking faster than expected under strong local competition and the war with Iran keeps energy costs high and weighs on demand. The shares fell to their lowest level since 2020.",
-    "why": "-25% in June, one of BMW's worst months; it also pulled down Mercedes. BMW paid its dividend in May, so the fall is not a dividend effect.",
+    "title": "BMW warns of a 'significant' profit fall and drags Mercedes down",
+    "what": "On 16 June BMW cut its forecast for 2026: it now expects a significant fall in pre-tax profit and a car margin of only 1 to 3%, down from 4 to 6%, because the Chinese market is shrinking faster than expected under strong local competition and the war with Iran keeps energy costs high and weighs on demand. The shares fell to their lowest level since 2020. European car shares fell the next day on fears that others will follow; Mercedes, already weak and preparing further cost cuts, lost another 3% that day and 18% in June.",
+    "why": "-25% in June, one of BMW's worst months; it also pulled down Mercedes. BMW paid its dividend in May, so the fall is not a dividend effect. The -18% month has no single Mercedes announcement; it reflects the sector-wide derating on China and energy costs.",
     "assets": [
-      "bmw"
+      "bmw",
+      "mercedes"
     ],
     "move": {
       "asset": "bmw",
       "pct": -25
     },
-    "source": "Yahoo Finance, 'BMW warns of significant profit decline as shares fall 7%', 17 June 2026, https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); Reuters, 'BMW shares sink after profit warning highlights China and Iran risk', 17 June 2026 (headline via Google News) (read 2026-10-03); data/out/bmw.json (dividend in May 2026) (read 2026-10-03)"
+    "source": "Yahoo Finance, 'BMW warns of significant profit decline as shares fall 7%', 17 June 2026, https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); Reuters, 'BMW shares sink after profit warning highlights China and Iran risk', 17 June 2026 (headline via Google News) (read 2026-10-03); data/out/bmw.json (dividend in May 2026) (read 2026-10-03); Investing.com, 'European car stocks fall on BMW profit warning contagion fears; Mercedes down 3%', 17 June 2026 (headline via Google News) (read 2026-10-03); https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); just-auto.com, 'Mercedes Cost-Cutting Faces Labour Scrutiny', 22 June 2026 (headline via Google News) (read 2026-10-03)",
+    "changed": "consistency review of November 2026: BMW's warning of June 2026 was told twice; now one story for both car makers (with mercedes/3c4cb3ef)"
   },
   {
     "id": "ac14fcce",

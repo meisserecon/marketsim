@@ -1,17 +1,6 @@
 [
   {
     "month": "2017-01",
-    "kind": "colour",
-    "headline": "Federer's comeback: the Australian Open at 35",
-    "text": "Roger Federer beat Rafael Nadal in five sets in the Australian Open final, his 18th Grand Slam title and his first since 2012. He had missed half of 2016 after knee surgery. At 35 he is the oldest Grand Slam men's champion since 1972.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2017_Australian_Open_%E2%80%93_Men%27s_singles (read 2026-10-03); https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2017-01-roger-federer-and-rafael-nadal-in-the-au.jpg",
-    "imageCaption": "Roger Federer and Rafael Nadal in the Australian Open final, Melbourne, 29 January 2017",
-    "imageCredit": "Phil Whitehouse from London, United Kingdom"
-  },
-  {
-    "month": "2017-01",
     "kind": "company",
     "headline": "Citigroup returned $10.7 billion to shareholders in 2016",
     "text": "Citigroup reported fourth-quarter net income of $3.6 billion and said it returned $10.7 billion to shareholders in 2016 through dividends and share buybacks, buying back 196 million shares. In April 2016 it announced it would wind up Citi Holdings, its 'bad bank'.",
@@ -22,20 +11,6 @@
     "image": "/news/c/2017-01-citicorp-center-in-new-york.jpg",
     "imageCaption": "Citicorp Center in New York",
     "imageCredit": "Pablo Costa Tirado (…"
-  },
-  {
-    "month": "2017-01",
-    "kind": "company",
-    "headline": "The end of bank secrecy for foreign clients",
-    "text": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
-    "assets": [
-      "credit-suisse",
-      "ubs"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)",
-    "image": "/news/credit-suisse/2017-01-credit-suisses-head-office-on-paradeplat.jpg",
-    "imageCaption": "Credit Suisse's head office on Paradeplatz, Zurich",
-    "imageCredit": "Thomas Wolf, www.foto-tw.de"
   },
   {
     "month": "2017-01",
@@ -78,6 +53,25 @@
     "imageCredit": "Photo: Andreas Praefcke"
   },
   {
+    "month": "2017-01",
+    "kind": "colour",
+    "headline": "Federer's comeback: the Australian Open at 35",
+    "text": "Roger Federer beat Rafael Nadal in five sets in the Australian Open final, his 18th Grand Slam title and his first since 2012. He had missed half of 2016 after knee surgery. At 35 he is the oldest Grand Slam men's champion since 1972.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_Australian_Open_%E2%80%93_Men%27s_singles (read 2026-10-03); https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2017-01-roger-federer-and-rafael-nadal-in-the-au.jpg",
+    "imageCaption": "Roger Federer and Rafael Nadal in the Australian Open final, Melbourne, 29 January 2017",
+    "imageCredit": "Phil Whitehouse from London, United Kingdom"
+  },
+  {
+    "month": "2017-02",
+    "kind": "world",
+    "headline": "Twelve Dow records in a row; shares up 4 percent on hopes of tax cuts",
+    "text": "The Dow Jones index closed at a record on twelve trading days in a row up to 27 February, matching a run of 1987; it had first closed above 20,000 on 25 January. Investors are betting on President Trump's promises: a 'phenomenal' tax plan, spending on infrastructure and a bigger military budget. The climb was gentle, 3.9% over the twelve days against 9.2% in the run of 1987. The S&P 500 gained 4% in February to 2,363.64 and stands about 11% higher than on election day in November; the Dow's run ended on 28 February, hours before Trump addressed Congress.",
+    "assets": [],
+    "source": "https://fortune.com/2017/02/28/dow-winning-streak-trump-index/ (Reuters; read 2026-11-10); https://www.foxbusiness.com/markets/stocks-finish-higher-for-fourth-straight-month-dow-snaps-record-run (MarketWatch, 28 February 2017; read 2026-11-10); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-11-10); data/reference/sp500.json"
+  },
+  {
     "month": "2017-03",
     "kind": "company",
     "headline": "McDonald's growth plan: digital, delivery and new restaurants",
@@ -89,6 +83,14 @@
     "image": "/news/mcd/2017-03-kiosk.jpg",
     "imageCaption": "Self-service ordering kiosks in a McDonald's, 2017 ;;",
     "imageCredit": "N509FZ"
+  },
+  {
+    "month": "2017-04",
+    "kind": "world",
+    "headline": "France: Macron and Le Pen reach the run-off, and markets breathe out",
+    "text": "In the first round of the French presidential election on 23 April, Emmanuel Macron, 39, of the movement En Marche!, came first with 24.0% and Marine Le Pen, who wants to take France out of the euro, second with 21.3%; two more candidates had about 20% each. For the first time in the Fifth Republic neither the traditional right nor the traditional left has a candidate in the run-off, which is on 7 May. The next day the French share index rose 4.1% to its highest level in more than nine years, Germany's DAX closed at a record, and the euro climbed to 1.09 dollars, its highest in more than five months; bookmakers put Macron's chances at about 90%.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_French_presidential_election (read 2026-11-10); https://uk.finance.yahoo.com/news/euro-soars-five-month-high-063801314.html (Telegraph markets report of 24 April 2017; read 2026-11-10)"
   },
   {
     "month": "2017-05",
@@ -144,17 +146,6 @@
   },
   {
     "month": "2017-07",
-    "kind": "colour",
-    "headline": "Federer's record eighth Wimbledon",
-    "text": "Roger Federer beat Marin Čilić in the Wimbledon final without losing a set all tournament, his record eighth Wimbledon title and 19th Grand Slam title.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2017_Wimbledon_Championships_%E2%80%93_Men%27s_singles (read 2026-10-03)",
-    "image": "/news/life/2017-07-roger-federer-hits-a-forehand.jpg",
-    "imageCaption": "Roger Federer hits a forehand",
-    "imageCredit": "TigerPuppala"
-  },
-  {
-    "month": "2017-07",
     "kind": "company",
     "headline": "Cash floods in: Boeing raises its forecast",
     "text": "On 26 July Boeing reported strong second-quarter results, operating cash flow of 5 billion dollars and 2.5 billion dollars of share buybacks in the quarter, and raised its earnings and cash flow forecasts.",
@@ -182,25 +173,13 @@
   {
     "month": "2017-07",
     "kind": "company",
-    "headline": "Cartel allegations against German car makers",
-    "text": "Reports in July said that German car makers, BMW among them, had coordinated technology, costs and suppliers in secret working groups for years, including on diesel exhaust cleaning. BMW denied colluding on emissions equipment.",
+    "headline": "Diesel recall and cartel allegations against German car makers",
+    "text": "Daimler said on 18 July it will update the software of more than 3 million Mercedes diesel cars in Europe to cut emissions. Days later reports said German car makers, Daimler and BMW among them, had for years coordinated technology, costs and suppliers in secret working groups, including on diesel exhaust cleaning. BMW denied colluding on emissions equipment.",
     "assets": [
+      "mercedes",
       "bmw"
     ],
-    "source": "The New York Times, 'BMW Denies Colluding With Carmakers on Emissions Equipment', 23 July 2017 (headline via Google News) (read 2026-10-03); Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/bmw/2017-07-the-bmw-tower-and-museum-in-munich.jpg",
-    "imageCaption": "The BMW tower and museum in Munich",
-    "imageCredit": "Diego Delso"
-  },
-  {
-    "month": "2017-07",
-    "kind": "company",
-    "headline": "Diesel recall and cartel allegations",
-    "text": "Daimler said on 18 July it will update the software of more than 3 million Mercedes diesel cars in Europe to cut emissions. Days later reports said German car makers including Daimler had for years coordinated technology in secret working groups, including on diesel exhaust cleaning.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "The Guardian, 'Mercedes recalls 3m diesel cars over emissions concerns', 19 July 2017; Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headlines via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (2020 Clean Air Act fine, read 2026-10-03)",
+    "source": "The Guardian, 'Mercedes recalls 3m diesel cars over emissions concerns', 19 July 2017; Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headlines via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (2020 Clean Air Act fine, read 2026-10-03); The New York Times, 'BMW Denies Colluding With Carmakers on Emissions Equipment', 23 July 2017 (headline via Google News) (read 2026-10-03); Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headline via Google News) (read 2026-10-03)",
     "image": "/news/mercedes/2017-07-a-mercedes-benz-om651-diesel-engine-one.jpg",
     "imageCaption": "A Mercedes-Benz OM651 diesel engine, one of the engines in the recall",
     "imageCredit": "Chris1287"
@@ -232,6 +211,27 @@
     "imageCredit": "HANDOUT / Reuters (Tesla Motors handout)"
   },
   {
+    "month": "2017-07",
+    "kind": "colour",
+    "headline": "Federer's record eighth Wimbledon",
+    "text": "Roger Federer beat Marin Čilić in the Wimbledon final without losing a set all tournament, his record eighth Wimbledon title and 19th Grand Slam title.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_Wimbledon_Championships_%E2%80%93_Men%27s_singles (read 2026-10-03)",
+    "image": "/news/life/2017-07-roger-federer-hits-a-forehand.jpg",
+    "imageCaption": "Roger Federer hits a forehand",
+    "imageCredit": "TigerPuppala"
+  },
+  {
+    "month": "2017-08",
+    "kind": "world",
+    "headline": "'Fire and fury': the North Korea scare lifts gold 4 percent",
+    "text": "North Korea tested its first intercontinental missile in July, and on 8 August President Trump warned that further threats would be met with 'fire and fury like the world has never seen'; North Korea answered with a plan to fire four missiles into the sea near the American island of Guam. On 10 August the S&P 500 fell 1.4%, its worst day since May, a week after the Dow had first passed 22,000. On 29 August a North Korean missile flew over the Japanese island of Hokkaido, and gold, where investors seek safety, rose above 1,320 dollars an ounce, its highest price since November. Gold gained 4% in August; the S&P 500 ended the month where it began.",
+    "assets": [
+      "gold"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2017%E2%80%932018_North_Korea_crisis (read 2026-11-10); https://wtop.com/news/2017/08/north-korea-threats-rattle-u-s-markets (US News; read 2026-11-10); https://www.cnbc.com/2017/08/10/us-stocks-north-korea-retail-earnings.html (read 2026-11-10); https://fortune.com/2017/08/10/markets-trump-north-korea-warning/ (read 2026-11-10); https://fortune.com/2017/08/29/gold-year-high-north-korea-missile/ (Bloomberg; read 2026-11-10); data/out/gold.json; data/reference/sp500.json"
+  },
+  {
     "month": "2017-09",
     "kind": "company",
     "headline": "The iPhone X",
@@ -258,10 +258,42 @@
     "imageCredit": "World Economic Forum"
   },
   {
+    "month": "2017-10",
+    "kind": "world",
+    "headline": "Four technology giants report on one evening; Amazon jumps 13% in a day",
+    "text": "After the market closed on 26 October, Amazon, Microsoft, Google's parent Alphabet and Intel all reported results that pleased investors. Amazon's sales rose 34% to 43.7 billion dollars, and those of its cloud business, which rents out computing power, 42%; Microsoft's sales rose 12% to 24.5 billion, with its Azure cloud up 90%; Intel earned 4.5 billion dollars and raised its forecast for the year. The next day Amazon rose 13.2%, Intel 7.4%, Microsoft 6.4% and Alphabet 4.3%, adding 146 billion dollars to their combined value, more than all of IBM is worth, and the Nasdaq index rose 2.2% to a record 6,701. Over October Intel gained 19%, Amazon 15% and Microsoft 12%.",
+    "assets": [
+      "amzn",
+      "msft",
+      "intc"
+    ],
+    "source": "https://www.pressherald.com/2017/10/27/tech-giants-lead-rally-as-nasdaq-sp-set-records/ (AP; read 2026-11-10); https://www.foxbusiness.com/features/tech-stocks-roar-again-in-faint-echo-of-2000 (Dow Jones; read 2026-11-10); https://www.cnbc.com/2017/10/27/tech-stocks-leaping-higher-after-blowout-earnings-from-amazon-alphabet-and-microsoft.html (read 2026-11-10); https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx (read 2026-11-10); https://www.cnbc.com/2017/10/26/microsoft-earnings-q1-2018.html (read 2026-11-10); https://www.cnbc.com/2017/10/26/intel-earnings-q3-2017.html (read 2026-11-10); data/out/amzn.json; data/out/msft.json; data/out/intc.json"
+  },
+  {
+    "month": "2017-10",
+    "kind": "company",
+    "headline": "Nokia warns that network spending will keep shrinking; shares fall 18%",
+    "text": "On 26 October Nokia reported that sales of its network equipment fell 9% in the third quarter, to 4.8 billion euros, and that the networks' operating profit fell 23% to 334 million euros, well below forecasts. It now expects its market to shrink by 4 to 5% this year and by another 2 to 5% in 2018, a third year of decline: phone companies have finished building their 4G networks, serious spending on the next generation, 5G, is not expected before 2019, and competition in China has become tougher. The shares fell more than 15% that day and ended October 18% lower.",
+    "assets": [
+      "nokia"
+    ],
+    "source": "https://www.cnbc.com/2017/10/26/nokia-q3-earnings.html (Reuters; read 2026-11-10); https://fortune.com/2017/10/26/nokia-stock-down-share-price/ (read 2026-11-10); https://techcentral.co.za/nokia-predicts-gloom-network-makers/198964/ (Bloomberg; read 2026-11-10); data/out/nokia.json"
+  },
+  {
+    "month": "2017-10",
+    "kind": "company",
+    "headline": "'Unacceptable': GE's new chief cuts the profit forecast by a third; shares down 17%",
+    "text": "On 20 October General Electric reported its first quarterly results under John Flannery: profit fell to 1.8 billion dollars, far below analysts' forecasts. Flannery called the results 'unacceptable, to say the least' and said he was deeply disappointed in the power business; he cut the profit forecast for 2017 by a third and the forecast for cash flow from at least 12 billion dollars to about 7 billion, and plans to leave businesses worth more than 20 billion dollars within two years. He would not promise to keep the dividend at its level, and on 23 October Morgan Stanley and UBS downgraded the shares, expecting a cut. GE fell 17% in October, while the market stood at records; details of the new plan are due on 13 November.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://www.foxbusiness.com/features/new-ge-chief-slashes-forecasts-plans-to-exit-20-billion-in-businesses-2nd-update (Dow Jones, 20 October 2017; read 2026-11-10); https://www.wbur.org/news/2017/10/20/ge-third-quarter-earnings (AP; read 2026-11-10); https://sg.finance.yahoo.com/news/ge-slumps-5-dividend-cut-182800091.html (Investing.com, 23 October 2017; read 2026-11-10); data/out/ge.json"
+  },
+  {
     "month": "2017-11",
     "kind": "company",
     "headline": "GE halves its dividend",
-    "text": "Under new chief executive John Flannery, General Electric cut its quarterly dividend in half, from 24 cents to 12 cents, its first cut since 2009. Earnings are heading for the low end of a reduced forecast, cash flow is weak, and the power business faces a shrinking market for gas turbines.",
+    "text": "Under new chief executive John Flannery, General Electric cut its quarterly dividend in half, its first cut since 2009. Earnings are heading for the low end of a reduced forecast, cash flow is weak, and the power business faces a shrinking market for gas turbines.",
     "assets": [
       "ge"
     ],
@@ -272,20 +304,9 @@
   },
   {
     "month": "2017-12",
-    "kind": "colour",
-    "headline": "A used rocket carries a used capsule to the space station",
-    "text": "Rockets used to be thrown away after one flight. On 15 December SpaceX launched supplies for NASA from Cape Canaveral on a Falcon 9 rocket whose first stage had already flown in June, topped by a Dragon capsule that had been to space in 2015. It is the first time NASA has trusted a reused rocket. The first stage flew back and landed upright near the launch pad, and two days later the capsule reached the International Space Station with 2,205 kilograms of cargo.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/SpaceX_CRS-13 (read 2026-10-04)",
-    "image": "/news/life/2017-12-spacex-crs-13.jpg",
-    "imageCaption": "SpaceX CRS-13, 2017",
-    "imageCredit": "NASA"
-  },
-  {
-    "month": "2017-12",
     "kind": "world",
     "headline": "2017 in review: a calm climb and a big tax cut",
-    "text": "The S&P 500 gained 19% in 2017 to 2,673.61 and the Dow 25.1%, after passing 20,000 on 25 January. On 22 December President Trump signed a tax law that cuts the corporate tax rate to a flat 21%. The Federal Reserve raised rates three times during the year.",
+    "text": "The S&P 500 gained 19% in 2017 to 2,673.61 and the Dow 25.1%, after passing 20,000 on 25 January. On 22 December President Trump signed a tax law that cuts the corporate tax rate to a flat 21%.",
     "assets": [],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Tax_Cuts_and_Jobs_Act (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
     "image": "/news/markets/2017-12-year-chart.png",
@@ -333,5 +354,24 @@
     "image": "/news/sony/2017-12-sony-building.jpg",
     "imageCaption": "The Sony Building in the Ginza district, Tokyo",
     "imageCredit": "Simone Urbinati"
+  },
+  {
+    "month": "2017-12",
+    "kind": "colour",
+    "headline": "A used rocket carries a used capsule to the space station",
+    "text": "Rockets used to be thrown away after one flight. On 15 December SpaceX launched supplies for NASA from Cape Canaveral on a Falcon 9 rocket whose first stage had already flown in June, topped by a Dragon capsule that had been to space in 2015. It is the first time NASA has trusted a reused rocket. The first stage flew back and landed upright near the launch pad, and two days later the capsule reached the International Space Station with 2,205 kilograms of cargo.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/SpaceX_CRS-13 (read 2026-10-04)",
+    "image": "/news/life/2017-12-spacex-crs-13.jpg",
+    "imageCaption": "SpaceX CRS-13, 2017",
+    "imageCredit": "NASA"
+  },
+  {
+    "month": "2017-12",
+    "kind": "colour",
+    "headline": "Bitcoin: from 1,000 dollars to nearly 20,000 in a year",
+    "text": "Bitcoin, a digital currency run by a network of computers rather than by a central bank, began 2017 below 1,000 dollars, passed 2,000 in May and reached nearly 20,000 dollars on 17 December, twenty times its price in January. In the same month two big Chicago exchanges began to trade bitcoin futures, contracts that let investors bet on the price without owning the coins: the Cboe on 10 December and the CME on 17 December. Within five days of the peak bitcoin lost a third of its value, falling as low as 11,159 dollars on 22 December, and the value of all digital currencies together dropped from about 650 to 440 billion dollars in a day. The head of Denmark's central bank called bitcoin a 'deadly' gamble.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/History_of_bitcoin (read 2026-11-10); https://www.voanews.com/a/bitcoin-plunges-below-twelve-thousand-heads-worst-week/4175362.html (Reuters, 22 December 2017; read 2026-11-10); https://finance.yahoo.com/news/bitcoin-slips-below-14-000-053144814.html (Reuters, 22 December 2017; read 2026-11-10); https://www.foxbusiness.com/markets/bitcoin-hits-another-record-high-in-march-towards-20000 (Reuters, 12 December 2017; read 2026-11-10)"
   }
 ]

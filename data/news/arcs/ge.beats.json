@@ -93,7 +93,7 @@
     "id": "a2ea0b72",
     "month": "2008-10",
     "title": "Buffett backs GE as it raises 15 billion dollars",
-    "what": "On 1 October General Electric announced it will sell at least 12 billion dollars of new shares to the public and 3 billion dollars of preferred stock with a 10% dividend to Warren Buffett's Berkshire Hathaway, which also gets warrants to buy GE shares at 22.25 dollars. 'GE is the symbol of American business to the world,' Buffett said. Jeff Immelt said GE remains committed to its triple-A rating and is meeting its commercial paper needs.",
+    "what": "On 1 October General Electric announced it will sell at least 12 billion dollars of new shares to the public and 3 billion dollars of preferred stock with a 10% dividend to Warren Buffett's Berkshire Hathaway, which also gets warrants to buy GE shares. 'GE is the symbol of American business to the world,' Buffett said. Jeff Immelt said GE remains committed to its triple-A rating and is meeting its commercial paper needs.",
     "why": "Explains the -23% month: the market crashed (-17%) and investors feared that GE Capital, funded by short-term borrowing, could not roll over its debt.",
     "assets": [
       "ge",
@@ -103,13 +103,14 @@
       "asset": "ge",
       "pct": -23
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/40545/000090951808000745/mm10-0108_8ke991.htm (GE press release of 2008-10-01, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000090951808000745/mm10-0108_8ke991.htm (GE press release of 2008-10-01, read 2026-10-03)",
+    "changed": "rule on metrics: exercise price per share removed"
   },
   {
     "id": "cc033edc",
     "month": "2009-02",
     "title": "GE cuts its dividend by two thirds",
-    "what": "On 27 February General Electric's board decided to cut the quarterly dividend from 31 cents to 10 cents from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
+    "what": "On 27 February General Electric's board decided to cut the quarterly dividend by two thirds from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
     "why": "Explains the -30% month, GE's worst in the game: the dividend had been the reason many families owned GE. The stock bottomed in early March 2009.",
     "assets": [
       "ge"
@@ -118,7 +119,8 @@
       "asset": "ge",
       "pct": -30
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/40545/000079746309000010/exhibit99.htm (GE press release of 2009-02-27, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/40545/000079746309000010/exhibit99.htm (GE press release of 2009-02-27, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share replaced by the cut in percent"
   },
   {
     "id": "49972bfd",
@@ -165,15 +167,32 @@
     "source": "https://en.wikipedia.org/wiki/Jeff_Immelt (read 2026-10-03, citing NYT 2017-06-12 and Fortune 2017-06-12)"
   },
   {
+    "id": "92506875",
+    "month": "2017-10",
+    "title": "'Unacceptable': GE's new chief cuts the profit forecast by a third; shares down 17%",
+    "what": "On 20 October General Electric reported its first quarterly results under John Flannery: profit fell to 1.8 billion dollars, far below analysts' forecasts. Flannery called the results 'unacceptable, to say the least' and said he was deeply disappointed in the power business; he cut the profit forecast for 2017 by a third and the forecast for cash flow from at least 12 billion dollars to about 7 billion, and plans to leave businesses worth more than 20 billion dollars within two years. He would not promise to keep the dividend at its level, and on 23 October Morgan Stanley and UBS downgraded the shares, expecting a cut. GE fell 17% in October, while the market stood at records; details of the new plan are due on 13 November.",
+    "why": "The moment the scale of GE's problems in Power and in its cash flow became public; the dividend cut of November and the collapse of 2018 follow. Explains the -17% month.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -17
+    },
+    "source": "https://www.foxbusiness.com/features/new-ge-chief-slashes-forecasts-plans-to-exit-20-billion-in-businesses-2nd-update (Dow Jones, 20 October 2017; read 2026-11-10); https://www.wbur.org/news/2017/10/20/ge-third-quarter-earnings (AP; read 2026-11-10); https://sg.finance.yahoo.com/news/ge-slumps-5-dividend-cut-182800091.html (Investing.com, 23 October 2017; read 2026-11-10); data/out/ge.json",
+    "changed": "new beat, consistency review of November 2026: October 2017 had no story at all; GE's -17%"
+  },
+  {
     "id": "bc96192c",
     "month": "2017-11",
     "title": "GE halves its dividend",
-    "what": "Under new chief executive John Flannery, General Electric cut its quarterly dividend in half, from 24 cents to 12 cents, its first cut since 2009. Earnings are heading for the low end of a reduced forecast, cash flow is weak, and the power business faces a shrinking market for gas turbines.",
+    "what": "Under new chief executive John Flannery, General Electric cut its quarterly dividend in half, its first cut since 2009. Earnings are heading for the low end of a reduced forecast, cash flow is weak, and the power business faces a shrinking market for gas turbines.",
     "why": "Begins the 2017-2018 collapse (-45% in 2017, -57% in 2018). The 2017-10 results (-17% month) and this cut are one story. The exact announcement date (13 November investor day) is not confirmed in sources read.",
     "assets": [
       "ge"
     ],
-    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Dividends' section); https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, 'Dividends' section); https://www.annualreports.com/HostedData/AnnualReportArchive/g/NYSE_GE_2017.pdf (GE 2017 annual report letter, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed"
   },
   {
     "id": "d608bafc",
@@ -201,13 +220,30 @@
   {
     "id": "cfdf8431",
     "month": "2018-10",
-    "title": "Flannery out, Culp in; a 22 billion dollar write-off and a one-cent dividend",
-    "what": "On 1 October General Electric replaced John Flannery with board member Larry Culp, former head of Danaher and the first outsider to run GE. On 30 October it reported a third-quarter loss of 22.8 billion dollars, mostly a write-off on the power business, and cut the quarterly dividend from 12 cents to 1 cent.",
+    "title": "Flannery out, Culp in; a 22 billion dollar write-off and a token dividend",
+    "what": "On 1 October General Electric replaced John Flannery with board member Larry Culp, former head of Danaher and the first outsider to run GE. On 30 October it reported a third-quarter loss of 22.8 billion dollars, mostly a write-off on the power business, and cut the quarterly dividend to a token amount.",
     "why": "The bottom of the old GE. Culp's plan: sell assets, cut debt, fix Power, and eventually break up the company.",
     "assets": [
       "ge"
     ],
-    "source": "https://en.wikipedia.org/wiki/Larry_Culp (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054518000079/ge3q2018ex99.htm (GE third-quarter 2018 results, read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Larry_Culp (read 2026-10-03); https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03); https://www.sec.gov/Archives/edgar/data/40545/000004054518000079/ge3q2018ex99.htm (GE third-quarter 2018 results, read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed from title and text"
+  },
+  {
+    "id": "3144833a",
+    "month": "2018-11",
+    "title": "GE falls another 26% as fears about its debt grow",
+    "what": "On 9 November Stephen Tusa of JPMorgan, the analyst who has long warned about General Electric, cut his price target by 40% to the lowest on Wall Street, pointing to about 100 billion dollars of net liabilities and a weaker outlook for cash flow. On 12 November the new chief executive Larry Culp said on television that GE has 'no higher priority right now' than bringing its debt down and would do so by selling assets; the shares fell as much as 10% that day, to their lowest since March 2009, and the cost of insuring GE's debt against default rose to a six-year high. Within days GE moved to sell about 4 billion dollars of its shares in the oil-services company Baker Hughes. GE lost 26% in November; more than 200 billion dollars of market value has gone since the end of 2016.",
+    "why": "The low point of confidence in GE: for a few weeks the market priced a company that could not carry its debt. Culp's asset sales (above all the biopharma business in 2019) and the better cash flow of January 2019 turned it. Explains the -26% month.",
+    "assets": [
+      "ge"
+    ],
+    "move": {
+      "asset": "ge",
+      "pct": -26
+    },
+    "source": "https://pbn.com/ge-tumbles-back-toward-2009-bear-market-low-on-jpmorgan-warning/ (Bloomberg, 9 November 2018; read 2026-11-10); https://www.businessday.co.za/bd/companies/2018-11-12-ge-shares-dive-again-as-investors-ignore-ceo-larry-culps-comforting-words/ (Bloomberg; read 2026-11-10); https://www.omanobserver.om/ampArticle/43656 (Reuters, 13 November 2018; read 2026-11-10); https://foxbusiness.com/industrials/general-electrics-baker-hughes-sale-too-little-too-late (14 November 2018; read 2026-11-10); https://fortune.com/2018/11/30/ge-stock-shares-general-electric/ (Bloomberg; read 2026-11-10); https://www.fool.com/investing/2018/12/11/why-general-electric-stock-lost-more-than-25-in-no.aspx (read 2026-11-10); data/out/ge.json",
+    "changed": "new beat, consistency review of November 2026: GE's -26% had no story. To check: the 100 billion dollars of net liabilities is the analyst's estimate"
   },
   {
     "id": "b8afb8ff",

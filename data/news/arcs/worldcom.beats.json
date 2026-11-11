@@ -98,27 +98,17 @@
     "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205701505916/a2043540z10-k405.txt (WorldCom 10-K for 2000, describing the 1 November announcement and the third-quarter charge; read 2026-10-03); http://usatoday30.usatoday.com/money/industries/telecom/2002-11-05-ebbers-loans-timeline_x.htm (read 2026-10-03)"
   },
   {
-    "id": "7674e542",
-    "month": "2001-02",
-    "title": "WorldCom cuts 6,000 jobs",
-    "what": "WorldCom is laying off about 6,000 workers across the country.",
-    "why": "Cost cuts as revenue growth stalled; behind the scenes, the improper capitalisation of line costs started in 2001.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "https://www.foxnews.com/story/worldcom-timeline (Associated Press timeline, 8 August 2002; read 2026-10-03)"
-  },
-  {
     "id": "9c3a4318",
     "month": "2001-06",
     "title": "WorldCom's two tracking stocks begin trading",
-    "what": "Shareholders approved the split, and from 8 June each WorldCom share became one share of WorldCom group stock plus 1/25 of a share of MCI group stock, which will pay a quarterly dividend of 60 cents. WorldCom group revenues grew 12% in the first quarter. In May it raised billions of dollars by selling bonds through a syndicate led by Citigroup's Salomon Smith Barney.",
+    "what": "Shareholders approved the split, and from 8 June each WorldCom share became one share of WorldCom group stock plus 1/25 of a share of MCI group stock, which will pay a quarterly dividend. WorldCom group revenues grew 12% in the first quarter. In May it raised billions of dollars by selling bonds through a syndicate led by Citigroup's Salomon Smith Barney.",
     "why": "The game follows the WorldCom group share; the small MCI group distribution is not added back. The bonds sold in May 2001 and May 2002 came to about $17 billion, money the bondholders largely lost.",
     "assets": [
       "worldcom",
       "c"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/723527/000089375001500127/exh99_1.txt (WorldCom press release, 7 June 2001; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547701500032/ex99-1.txt (26 April 2001; read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/723527/000089375001500127/exh99_1.txt (WorldCom press release, 7 June 2001; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000100547701500032/ex99-1.txt (26 April 2001; read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed"
   },
   {
     "id": "22a01cbd",
@@ -140,7 +130,7 @@
     "id": "df18f7df",
     "month": "2002-02",
     "title": "WorldCom paid $199 million to cover its chief's margin loans",
-    "what": "WorldCom disclosed on 7 February that, after the fall in its shares, it had paid about $198.7 million to Bank of America under its guarantee of loans to chief executive Bernard Ebbers, and had lent him another $142 million, all secured by his WorldCom shares. Ebbers used the money to meet calls on loans backed by his stock, taken out for private businesses. The same day the company felt it had to reaffirm the MCI group's 60-cent dividend.",
+    "what": "WorldCom disclosed on 7 February that, after the fall in its shares, it had paid about $198.7 million to Bank of America under its guarantee of loans to chief executive Bernard Ebbers, and had lent him another $142 million, all secured by his WorldCom shares. Ebbers used the money to meet calls on loans backed by his stock, taken out for private businesses. The same day the company felt it had to reaffirm the MCI group's dividend.",
     "why": "The clearest public warning: shareholders' money was being used to stop the chief executive's share sales. The stock fell another quarter.",
     "assets": [
       "worldcom"
@@ -149,7 +139,8 @@
       "asset": "worldcom",
       "pct": -25
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702004505/a2069923z8-k.txt (WorldCom 8-K, 7 February 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702004378/a2069923z8-k.txt (read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/723527/000091205702004505/a2069923z8-k.txt (WorldCom 8-K, 7 February 2002; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/723527/000091205702004378/a2069923z8-k.txt (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed"
   },
   {
     "id": "901402a9",
@@ -166,7 +157,7 @@
     "id": "4553bebe",
     "month": "2002-04",
     "title": "Ebbers resigns as WorldCom's shares collapse",
-    "what": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April, to below $3.",
+    "what": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April.",
     "why": "The founder gone, the regulator in, the cheerleader silent. Grubman had kept a 'buy' while the stock fell over 90% from its 1999 peak.",
     "assets": [
       "worldcom"
@@ -175,7 +166,8 @@
       "asset": "worldcom",
       "pct": -63
     },
-    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/MCI_Inc. (read 2026-10-03); https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/wcom/cron.html (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "2ece2622",

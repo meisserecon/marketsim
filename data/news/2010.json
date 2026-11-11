@@ -40,6 +40,21 @@
     "imageCredit": "Rundvald"
   },
   {
+    "month": "2010-03",
+    "kind": "world",
+    "headline": "A year after the low: the S&P 500 gains another 6%",
+    "text": "On 9 March it was a year since the S&P 500 closed at 676.53, its low of the crisis; by the anniversary it had risen almost 70 percent and the Dow more than 60 percent, though the market was still about a quarter below its peak of October 2007. The rally continued through the month: the jobs report of 5 March showed employment 'little changed' in February, on 16 March the Fed repeated that its rate would stay exceptionally low 'for an extended period', and on 25 March the leaders of the euro countries agreed to lend to Greece, together with the IMF, as a last resort. The S&P 500 ended March up 6% at 1,169.43, 73 percent above the low. Bank shares did better than the market: Citigroup gained 19%, UBS 18% and Credit Suisse 15%; Xstrata rose 21%, and eBay and Siemens 17% each.",
+    "assets": [
+      "c",
+      "ubs",
+      "credit-suisse",
+      "xstrata",
+      "ebay",
+      "siemens"
+    ],
+    "source": "http://www.marketplace.org/story/2010/03/09/stock-market-comeback-actually-slow/ (9 March 2010, read 2026-11-10); https://www.fool.com/investing/general/2010/03/09/one-year-later-have-we-learned-anything.aspx (read 2026-11-10); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-11-10); https://www.bls.gov/news.release/archives/empsit_03052010.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100316.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100428.htm (read 2026-11-10); https://euobserver.com/economic/29773 (25 March 2010, read 2026-11-10); data/reference/sp500.json and data/out/c.json, ubs.json, credit-suisse.json, xstrata.json, ebay.json, siemens.json (read 2026-11-10)"
+  },
+  {
     "month": "2010-04",
     "kind": "world",
     "headline": "The iPad sells 300,000 on its first day",
@@ -130,31 +145,31 @@
     "imageCredit": "KeanoManu"
   },
   {
-    "month": "2010-09",
-    "kind": "company",
-    "headline": "German car shares race ahead",
-    "text": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month. BMW gained 32 percent in the month and Daimler 30 percent.",
+    "month": "2010-08",
+    "kind": "world",
+    "headline": "The recovery falters: long Treasury bonds gain 11%",
+    "text": "Signs that the recovery is faltering drove investors out of shares and into government bonds. On 10 August the Fed said the pace of the recovery 'has slowed in recent months' and decided to put the money from its maturing mortgage bonds into long-term Treasury bonds, so that its holdings do not shrink; on 27 August Ben Bernanke said at the central bankers' meeting in Jackson Hole that the Fed is prepared to do more if the outlook worsens, in the first place by buying more long-term bonds. The yield on 10-year Treasury bonds fell from 2.99 percent at the start of August to 2.47 percent at the end, having averaged 3.85 percent in April; when yields fall, the prices of existing bonds rise, and long Treasury bonds gained about 11% in the month. The S&P 500 lost 5%, its worst August since 2001, and stands 14 percent below its high of April. The numbers: the Fed's rate 0 to 0.25 percent. Inflation 1.2 percent. Unemployment 9.4 percent.",
     "assets": [
-      "mercedes",
-      "bmw"
+      "ust2015",
+      "ust2020",
+      "ust2030"
     ],
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/mercedes/2010-09-sls.jpg",
-    "imageCaption": "The Mercedes-Benz SLS AMG, 2010",
-    "imageCredit": "AngMoKio"
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20100810a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/speech/bernanke20100827a.htm (read 2026-11-10); https://fred.stlouisfed.org/data/DGS10.txt and https://fred.stlouisfed.org/data/GS10.txt (read 2026-11-10); https://www.nbcnews.com/news/amp/wbna38930832 (Associated Press, 31 August 2010, read 2026-11-10); https://www.heraldnet.com/business/another-bad-month-for-stocks/ (Associated Press, 31 August 2010, read 2026-11-10); https://fred.stlouisfed.org/data/UNRATE.txt and https://fred.stlouisfed.org/data/CPIAUCNS.txt (read 2026-11-10); data/out/ust2030.json and data/reference/sp500.json (read 2026-11-10)",
+    "thread": "rates"
   },
   {
     "month": "2010-09",
     "kind": "company",
-    "headline": "BMW joins Europe's blue-chip index as car shares boom",
-    "text": "German car makers are profiting from robust economic growth, and their shares are leading the DAX. In September BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month.",
+    "headline": "German car shares race ahead",
+    "text": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX, and BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month. BMW gained 32 percent in the month and Daimler 30 percent.",
     "assets": [
+      "mercedes",
       "bmw"
     ],
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
-    "image": "/news/bmw/2010-09-f10.jpg",
-    "imageCaption": "The BMW 5 Series (F10), 2010",
-    "imageCredit": "nakhon100"
+    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03); BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03)",
+    "image": "/news/mercedes/2010-09-sls.jpg",
+    "imageCaption": "The Mercedes-Benz SLS AMG, 2010",
+    "imageCredit": "AngMoKio"
   },
   {
     "month": "2010-09",
@@ -172,10 +187,20 @@
     "imageCredit": "luca.sartoni"
   },
   {
+    "month": "2010-10",
+    "kind": "company",
+    "headline": "PayPal drives eBay's profit up 23%; the shares gain 22%",
+    "text": "On 20 October eBay reported a net profit of 432 million dollars for the third quarter, 23% more than a year earlier, on revenue of 2.25 billion dollars; without Skype, the internet telephone service it sold late last year, revenue grew 10%. The growth comes from PayPal, its online payment service, whose revenue rose 22% to 838 million dollars and which now has 90 million active accounts; the marketplace business grew only 3%. The outlook for the Christmas quarter was better than analysts had expected, and the shares rose about 7% in late trading that evening; they ended October 22% higher.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0001065088/000119312510232699/dex991.htm (eBay press release of 20 October 2010, read 2026-11-10); https://phys.org/news/2010-10-ebay-3q-profit-percent.amp (Associated Press, 20 October 2010, read 2026-11-10); https://www.rte.ie/news/business/2010/1022/137150-ebay-business (read 2026-11-10); data/out/ebay.json (read 2026-11-10)"
+  },
+  {
     "month": "2010-11",
     "kind": "company",
     "headline": "Panasonic and Toyota deals send Tesla soaring",
-    "text": "Panasonic, the world's leading maker of lithium-ion battery cells, bought 30 million dollars of Tesla shares at 21.15 dollars. Tesla's third-quarter revenue rose 10% to 31.2 million dollars and its loss narrowed to 34.9 million. At the Los Angeles motor show Toyota showed an electric RAV4 'powered by Tesla'. The shares closed at a record 35.47 dollars on 24 November, more than double the IPO price.",
+    "text": "Panasonic, the world's leading maker of lithium-ion battery cells, bought 30 million dollars of Tesla shares. Tesla's third-quarter revenue rose 10% to 31.2 million dollars and its loss narrowed to 34.9 million. At the Los Angeles motor show Toyota showed an electric RAV4 'powered by Tesla'. The shares closed at a record on 24 November, more than double the IPO price.",
     "assets": [
       "tsla"
     ],

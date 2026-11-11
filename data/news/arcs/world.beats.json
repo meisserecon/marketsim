@@ -355,6 +355,17 @@
     "lead": true
   },
   {
+    "id": "4ad4026f",
+    "month": "2000-10",
+    "title": "The euro sinks to 82 cents, 30% below its start",
+    "what": "On 26 October the euro fell to a record low of about 82.3 US cents; at its launch in January 1999 it was worth $1.18, so it has lost 30% against the dollar in under two years. On 22 September the European Central Bank, joined by the central banks of the United States, Japan and other rich countries, had bought euros to stop the slide and lifted the currency to about 88 cents, but the effect faded within weeks. The selling resumed after the ECB's president, Wim Duisenberg, said in an interview published in The Times on 16 October that he would not favour another intervention even if a war in the Middle East shook the markets. A weak euro makes oil and other imports dearer: inflation in the euro countries reached 2.8% in September, well above the ECB's limit of 2%, and on 5 October the bank raised its interest rate to 4.75%. On 28 September the Danes had voted by 53% to 47% not to adopt the euro.",
+    "why": "The low point of the euro's first years; from here it recovered, passed one dollar in 2002 and peaked near 1.60 dollars in 2008. The story fills the gap in the euro thread between the launch (1999) and Greece's entry (2001): the early doubts were about the currency's value and the ECB's clumsy words, not yet about its members' debts.",
+    "assets": [],
+    "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU&cosd=2000-09-15&coed=2000-11-03 (read 2026-11-10; launch rate from data/raw/fred/DEXUSEU.csv); https://www.ecb.europa.eu/press/pr/date/2000/html/pr000922.en.html (read 2026-11-10); https://www.ecb.europa.eu/press/pr/date/2000/html/pr001005.en.html (read 2026-11-10); https://www.ecb.europa.eu/press/pressconf/2000/html/is001019.en.html (ECB press conference of 19 October 2000, inflation of 2.8%, read 2026-11-10); https://web.archive.org/web/20020604083037/http://money.cnn.com/2000/10/25/worldbiz/euro_dollar/index.htm (read 2026-11-10); https://web.archive.org/web/20020219051632/http://money.cnn.com/2000/10/26/europe/markets_europe/ (read 2026-11-10); https://www.irishtimes.com/business/fresh-collapse-in-euro-value-ahead-of-ecb-paris-meeting-1.1110940 (read 2026-11-10); https://www.wsws.org/en/articles/2000/10/euro-o19.html (read 2026-11-10); https://www.wsws.org/en/articles/2000/11/euro-n07.html (read 2026-11-10); https://www.rte.ie/news/business/2022/0705/1308587-key-euro-dollar-moments (read 2026-11-10); https://en.wikipedia.org/wiki/2000_Danish_euro_referendum (read 2026-11-10)",
+    "thread": "euro",
+    "changed": "new beat, consistency review of November 2026: October 2000 had no story at all; the euro's record low. To check: Duisenberg's words are paraphrased from press reports of the Times interview; five sentences"
+  },
+  {
     "id": "3d756577",
     "month": "2000-11",
     "title": "Bush or Gore? America votes and has no winner",
@@ -407,14 +418,15 @@
     "id": "48ae8c38",
     "month": "2001-10",
     "title": "Swissair grounded",
-    "what": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles. On 7 October the United States began bombing Afghanistan.",
+    "what": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles.",
     "why": "A national trauma: the flag carrier, a symbol of Swiss reliability, failed, and the big banks were blamed. It is the first of three moments (with UBS in 2008 and Credit Suisse in 2023) when the state had to step in for a Swiss icon.",
     "assets": [
       "ubs",
       "credit-suisse"
     ],
     "source": "https://www.swissinfo.ch/eng/banking-fintech/swissair-debacle-still-leaves-a-bitter-taste/2952088 (read 2026-10-03); https://en.wikipedia.org/wiki/Swissair (read 2026-10-03); https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan (read 2026-10-03); https://en.wikipedia.org/wiki/Lukas_M%C3%BChlemann (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "consistency review of November 2026: the start of the war in Afghanistan has its own story this month; sentence removed here"
   },
   {
     "id": "ba813dc5",
@@ -537,6 +549,16 @@
     "source": "https://en.wikipedia.org/wiki/European_debt_crisis (read 2026-10-04); https://en.wikipedia.org/wiki/PIGS_(economics) (read 2026-10-04)"
   },
   {
+    "id": "f3b2546a",
+    "month": "2011-05",
+    "title": "Osama bin Laden is killed in Pakistan",
+    "what": "Late on Sunday 1 May President Obama announced that American forces had killed Osama bin Laden, the leader of al-Qaeda, hunted for almost ten years as the man behind the attacks of 11 September 2001: 'Justice has been done.' About two dozen Navy commandos, flown in by helicopter from Afghanistan, stormed his compound in Abbottabad, 55 kilometres from Pakistan's capital Islamabad and little more than a kilometre from the country's military academy; the raid took 40 minutes and no American was harmed. Bin Laden was buried at sea within a day, and al-Qaeda confirmed his death on 6 May. Pakistan was told only when the raid was over; on 9 May its prime minister called it a violation of sovereignty and rejected as 'absurd' the charge that Pakistan had sheltered him.",
+    "why": "Closes the storyline opened in September and October 2001: the man the war in Afghanistan was meant to catch was found in Pakistan, next to its military academy. Markets hardly moved, and the war itself went on for another ten years, until August 2021.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Killing_of_Osama_bin_Laden (read 2026-11-10); https://obamawhitehouse.archives.gov/the-press-office/2011/05/02/remarks-president-osama-bin-laden (read 2026-11-10); https://csmonitor.com/World/Asia-South-Central/2011/0509/Pakistan-PM-Gilani-defends-military-intelligence-in-wake-of-bin-Laden-raid (9 May 2011, read 2026-11-10); https://today.thefinancialexpress.com.bd/print/raid-was-a-violation-of-sovereignty-pak-pm (10 May 2011, read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: the killing of bin Laden closes the storyline that began in September 2001"
+  },
+  {
     "id": "2feb0d58",
     "month": "2011-10",
     "title": "Euro summit: banks to take half off Greek debt",
@@ -634,17 +656,32 @@
     "id": "e3810ba9",
     "month": "2016-06",
     "title": "Britain votes to leave the EU",
-    "what": "In the referendum of 23 June, 51.9 percent of British voters chose to leave the European Union on a turnout of 72 percent. Prime Minister David Cameron announced his resignation. The pound fell to a 31-year low against the dollar and stock markets fell around the world on the day after the vote.",
-    "why": "Brexit is the EU's biggest setback; the shock hit European banks hardest, Credit Suisse (-22% in June) and UBS (-17%) among them, while the S&P 500 recovered within days.",
+    "what": "In the referendum of 23 June, 51.9 percent of British voters chose to leave the European Union on a turnout of 72 percent. Prime Minister David Cameron announced his resignation. The pound fell to a 31-year low against the dollar and stock markets fell around the world on the day after the vote. European banks and car makers were hit hard: Credit Suisse lost 22% in June, UBS 17%, and BMW, which builds the Mini in Oxford and Rolls-Royce at Goodwood, 14%.",
+    "why": "Brexit is the EU's biggest setback; the shock hit European banks hardest, Credit Suisse (-22% in June) and UBS (-17%) among them, while the S&P 500 recovered within days. -14% in the month; Brexit hung over the Mini plant in Oxford for years.",
     "assets": [
       "credit-suisse",
-      "ubs"
+      "ubs",
+      "bmw"
     ],
     "move": {
       "asset": "credit-suisse",
       "pct": -22
     },
-    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); data/out/credit-suisse.json (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); data/out/credit-suisse.json (read 2026-10-03); https://en.wikipedia.org/wiki/Brexit (read 2026-10-03); https://en.wikipedia.org/wiki/Mini_(marque) (read 2026-10-03)",
+    "changed": "consistency review of November 2026: 'Britain votes to leave the EU' was the title of two stories in June 2016; now one (with bmw/42df87da)"
+  },
+  {
+    "id": "f17b29c1",
+    "month": "2016-09",
+    "title": "Washington demands 14 billion dollars from Deutsche Bank",
+    "what": "In mid-September Deutsche Bank confirmed that the US Department of Justice wants 14 billion dollars to settle claims over mortgage securities it sold from 2005 to 2007, a sum equal to about 80% of the bank's stock market value; it has set aside about 5.5 billion euros for all its legal disputes. Deutsche said it had 'no intent' to pay anywhere near that, but on 16 September its shares fell 8.5%, and other banks fell with them: Credit Suisse 3.9%, UBS 2.5%. In the last week of the month, after a magazine reported that Chancellor Angela Merkel had ruled out state aid, Deutsche's shares fell to the lowest level on record, about half their value at the start of the year. On 30 September an unconfirmed report of a settlement near 5.4 billion dollars lifted them 6%. UBS ended September 6% lower; Credit Suisse ended it about where it began.",
+    "why": "For two weeks markets asked whether Germany's largest bank could become a new Lehman; the IMF had called it the biggest potential risk among global banks earlier in the year. The scare passed when the demand was negotiated down in December 2016, when Credit Suisse settled the same kind of claims. The only story of the month, and the banks in the game were pulled along (UBS -6%).",
+    "assets": [
+      "credit-suisse",
+      "ubs"
+    ],
+    "source": "https://www.cityam.com/deutsche-bank-asked-pay-14bn-over-mortgage-backed/ (16 September 2016; read 2026-11-10); https://www.irishtimes.com/business/financial-services/is-deutsche-bank-about-to-become-the-next-lehman-1.2811798 (30 September 2016; read 2026-11-10); https://www.investmentnews.com/equities/deutsche-bank-shares-fall-to-a-record-low/69310 (Bloomberg; read 2026-11-10); https://fortune.com/2016/09/30/deutsche-bank-settlement-mortgages/ (Reuters; read 2026-11-10); https://fortune.com/2016/10/03/deutsche-bank-settlement-2/ (Reuters; read 2026-11-10); https://fora.ie/deutsche-bank-3011069-Oct2016/ (read 2026-11-10); data/out/ubs.json; data/out/credit-suisse.json",
+    "changed": "new beat, consistency review of November 2026: September 2016 had no story at all. To check: the day of the record low is not dated in the sources read ('in the last week of the month')"
   },
   {
     "id": "ac766ae1",
@@ -660,6 +697,32 @@
       "pct": 15
     },
     "source": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election (read 2026-10-03); https://www.fool.com/investing/2016/12/01/why-bank-of-america-stock-climbed-28-in-november.aspx (read 2026-10-03); https://www.cnbc.com/2016/11/14/with-donald-trump-win-its-a-whole-new-day-for-banks-and-bank-stocks.html (read 2026-10-03)"
+  },
+  {
+    "id": "d75133d5",
+    "month": "2017-04",
+    "title": "France: Macron and Le Pen reach the run-off, and markets breathe out",
+    "what": "In the first round of the French presidential election on 23 April, Emmanuel Macron, 39, of the movement En Marche!, came first with 24.0% and Marine Le Pen, who wants to take France out of the euro, second with 21.3%; two more candidates had about 20% each. For the first time in the Fifth Republic neither the traditional right nor the traditional left has a candidate in the run-off, which is on 7 May. The next day the French share index rose 4.1% to its highest level in more than nine years, Germany's DAX closed at a record, and the euro climbed to 1.09 dollars, its highest in more than five months; bookmakers put Macron's chances at about 90%.",
+    "why": "After Brexit and Trump, markets feared a third upset that would have put the euro itself in question; Macron won the run-off with 66%. The only story of the month.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2017_French_presidential_election (read 2026-11-10); https://uk.finance.yahoo.com/news/euro-soars-five-month-high-063801314.html (Telegraph markets report of 24 April 2017; read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: April 2017 had no story at all. To check: the euro's high is 'five months' in some reports, 'almost six' in others"
+  },
+  {
+    "id": "518bbfbd",
+    "month": "2017-08",
+    "title": "'Fire and fury': the North Korea scare lifts gold 4 percent",
+    "what": "North Korea tested its first intercontinental missile in July, and on 8 August President Trump warned that further threats would be met with 'fire and fury like the world has never seen'; North Korea answered with a plan to fire four missiles into the sea near the American island of Guam. On 10 August the S&P 500 fell 1.4%, its worst day since May, a week after the Dow had first passed 22,000. On 29 August a North Korean missile flew over the Japanese island of Hokkaido, and gold, where investors seek safety, rose above 1,320 dollars an ounce, its highest price since November. Gold gained 4% in August; the S&P 500 ended the month where it began.",
+    "why": "The most serious war scare of the decade for markets, and yet shares barely moved: a lesson in how quickly markets get used to political threats. The crisis peaked with the nuclear test of September 2017 and eased with the summits of 2018. Explains gold's +4%.",
+    "assets": [
+      "gold"
+    ],
+    "move": {
+      "asset": "gold",
+      "pct": 4
+    },
+    "source": "https://en.wikipedia.org/wiki/2017%E2%80%932018_North_Korea_crisis (read 2026-11-10); https://wtop.com/news/2017/08/north-korea-threats-rattle-u-s-markets (US News; read 2026-11-10); https://www.cnbc.com/2017/08/10/us-stocks-north-korea-retail-earnings.html (read 2026-11-10); https://fortune.com/2017/08/10/markets-trump-north-korea-warning/ (read 2026-11-10); https://fortune.com/2017/08/29/gold-year-high-north-korea-missile/ (Bloomberg; read 2026-11-10); data/out/gold.json; data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: August 2017 had no story at all (gold +4%). To check: Bloomberg also credits a weaker dollar for gold's rise"
   },
   {
     "id": "28664d81",
@@ -682,7 +745,8 @@
       "asset": "sp500",
       "pct": -13
     },
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md; https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30); https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json; WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Disney%2B (read 2026-10-03); https://en.wikipedia.org/wiki/BMW (UK plants shut from 23 March 2020, read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm (read 2026-10-03); data/news/arcs/movers.md; https://en.wikipedia.org/wiki/General_Electric (read 2026-10-03, ventilator protest 2020-03-30); https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-covid-19/6071958; https://www.investegate.co.uk/announcement/rns/glencore--glen/2020-distribution-and-revolving-credit-facilities/6205549; World Bank Pink Sheet monthly averages (all read 2026-10-03); https://www.sec.gov/Archives/edgar/data/21344/000002134420000011/a2020q1earningsrelease.htm (released 21 April 2020, used for hindsight only, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000024/form8kmainbody.htm (8-K of 16 March 2020, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/63908/000006390820000026/form8kmainbody.htm (8-K of 25 March 2020, read 2026-10-03); move from data/out/mcd.json; WCIV, 'Mercedes-Benz stops production at North Charleston van plant over COVID-19', 23 March 2020 (headline via Google News) (read 2026-10-03)",
+    "lead": true
   },
   {
     "id": "349288ab",
@@ -734,6 +798,17 @@
     "why": "The build-up to the invasion of 24 February 2022.",
     "assets": [],
     "source": "https://en.wikipedia.org/wiki/Prelude_to_the_Russian_invasion_of_Ukraine (read 2026-10-04)"
+  },
+  {
+    "id": "90e1664c",
+    "month": "2022-02",
+    "title": "Russia invades Ukraine; Switzerland joins the EU's sanctions",
+    "what": "On 24 February Vladimir Putin announced a 'special military operation', and Russian forces attacked Ukraine from Belarus in the north, the Donbas in the east and Crimea in the south. President Volodymyr Zelensky declared martial law and stayed in Kyiv; Russian troops came within about 9 kilometres of the parliament there and entered Kharkiv, but by 28 February neither city had fallen, and first talks that day ended without result. The UN counts more than 500,000 refugees, over half of them in Poland. The United States, its European allies and Canada agreed to cut major Russian banks off from SWIFT, the banks' network for payments abroad, and the Russian central bank was blocked from its reserves held in the West; on 28 February the rouble fell by up to 30 percent to a record low, the central bank raised its interest rate from 9.5 to 20 percent, and the Moscow stock exchange stayed closed. The same day Switzerland adopted the EU's sanctions and froze the assets of those listed, Putin among them, something it had not done after the annexation of Crimea in 2014; President Ignazio Cassis said neutrality 'remains intact'.",
+    "why": "The largest war in Europe since 1945 and the origin of the energy shock, the sanctions regime and much of the inflation of 2022; the freezing of a central bank's reserves was without precedent for an economy of Russia's size. Switzerland's adoption of the EU's sanctions was a turning point in how it reads its neutrality, and it concerns the Swiss banks and commodity traders in the game.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_the_Russian_invasion_of_Ukraine_(24_February_%E2%80%93_7_April_2022) (read 2026-11-10); https://www.aljazeera.com/news/2022/2/28/500000-people-have-fled-ukraine-conflict-un (28 February 2022, read 2026-11-10); https://www.cnbc.com/2022/02/28/russia-central-bank-hikes-interest-rates-to-20percent-from-9point5percent-to-bolster-ruble.html (28 February 2022: rouble, rate, SWIFT, market closed, read 2026-11-10); https://en.wikipedia.org/wiki/International_sanctions_during_the_Russian_invasion_of_Ukraine (read 2026-11-10); https://www.admin.ch/en/nsb?id=87386 (Federal Council, 28 February 2022, read 2026-11-10); https://www.businessday.co.za/bd/world/europe/2022-02-28-neutral-swiss-adopt-eu-sanctions-against-russia-in-break-with-past/ (Reuters, 28 February 2022, read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: the invasion of Ukraine had no story of its own (three sentences in an oil story). To check: five long sentences; the war details are from Wikipedia's timeline. Proposed as the month's lead (it tied with the oil story, which came first by file order)",
+    "lead": true
   },
   {
     "id": "d0ae1798",

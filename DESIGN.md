@@ -15,7 +15,7 @@ today, one month at a time, all synchronized to a shared clock advanced by a gam
 - **Creating games.** Players can only join. Games are created on `/create`, which is not linked
   from anywhere and asks for a password: `CREATE_PASSWORD` on the server, or `password` when that is not set.
 - **Ages.** The game is told in six ages (`shared/src/ages.ts`): The Cold War (to January 1990), The Peace
-  Dividend (to July 1995), The New Economy (to December 2002), Safe as Houses (to March 2009), Free Money (to
+  Dividend (to July 1995), The New Economy (to December 2002), Safe as Houses (to February 2009), Free Money (to
   October 2022) and The Age of AI. When the clock enters a new age, players and the game master see a screen
   that looks back at the age that ended (its story, the stock market index and every player on one chart, all
   rebased to the start of the age, and the best and worst assets) and then sets the scene for the new one. The
@@ -165,6 +165,7 @@ maintainers and are never sent to players before the event has happened.
 npm install
 npm test            # engine and server tests
 npm run dev         # API on http://localhost:3000, restarts on change
+npm run dev:web
 ```
 
 Without `DATABASE_URL` the server uses an embedded Postgres in memory, so no database setup
@@ -225,6 +226,13 @@ The server serves a month's items only once the game has reached it (`GET /news`
 asset history carries "the story so far": the company's items up to the current month. The
 player view shows the month's news above the leaderboard; the game master page shows it large,
 to be read to the room before anyone trades; the company panel shows the story so far.
+In a shared game the player's news is one line, a ticker of the headlines (the room has just
+heard the paper read), and the market's moves take its place only in a month without news. A
+player on his own has nobody to read to him, so he gets a taller section
+(`NewsPreview.svelte`): the market and the five biggest movers of the month, every month; the
+lead story with a small view of its picture and the start of its text; and the headlines of all
+the other stories. Ticker and section both open the full front page, the section at the story
+that was clicked.
 `npm run data:validate` checks the files, the company ids against their listing months, and
 that every listing and exit in a covered year has its item.
 

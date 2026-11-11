@@ -98,7 +98,7 @@
     "id": "7bf129e0",
     "month": "2000-04",
     "title": "Judge rules Microsoft broke the antitrust law",
-    "what": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and the Nasdaq index 8%, adding to the slide in technology shares that began in March.",
+    "what": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and 34% in April.",
     "why": "The -34% month: the legal blow and the bursting of the dot-com bubble arrived together.",
     "assets": [
       "msft"
@@ -107,7 +107,8 @@
       "asset": "msft",
       "pct": -34
     },
-    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the Nasdaq's fall that day is told in the month's lead (tech/9d262fe0); this story keeps to Microsoft"
   },
   {
     "id": "8807c2c1",
@@ -120,6 +121,22 @@
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/789019/0001032210-00-001222.txt (Microsoft 8-K of 7 June 2000, read 2026-10-03); https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp. (read 2026-10-03)",
     "lead": true
+  },
+  {
+    "id": "dddead8d",
+    "month": "2000-12",
+    "title": "Microsoft warns on sales for the first time in ten years",
+    "what": "On 14 December, after the market had closed, Microsoft said that revenue for the quarter to December would be 6.4 to 6.5 billion dollars, 5 to 6% less than it had forecast and well below the 6.8 billion dollars analysts expected, and it cut its forecast for the financial year to June by about 5%. Finance chief John Connors blamed a worldwide slowdown in sales of PCs, in companies' spending on technology and in online advertising; Compaq, Gateway, Hewlett-Packard, Intel and AMD have given similar warnings in recent weeks. A Goldman Sachs analyst called it 'a big miss' and Microsoft's first sales warning in ten years. The shares fell 11% the next day and 24% in December.",
+    "why": "Proof that the slowdown had reached even the most profitable company of the PC era, eight months after the antitrust ruling. The fall set up January 2001's rebound of 41% after the Fed's surprise rate cut.",
+    "assets": [
+      "msft"
+    ],
+    "move": {
+      "asset": "msft",
+      "pct": -24
+    },
+    "source": "https://web.archive.org/web/20020602145929/http://money.cnn.com/2000/12/14/technology/microsoft/ (read 2026-11-10); https://news.microsoft.com/source/2000/12/14/microsoft-lowers-revenue-and-earnings-expectations/ (read 2026-11-10); https://www.heraldnet.com/?p=444053 (AP market report of 15 December 2000, read 2026-11-10); https://www.internetnews.com/it-management/microsoft-cuts-forecasts-amid-pc-slowdown/ (read 2026-11-10); data/out/msft.json",
+    "changed": "new beat, consistency review of November 2026: Microsoft's -24% had no story. To check: 'first in ten years' is the Goldman Sachs analyst's statement, attributed to him"
   },
   {
     "id": "6b0e9723",

@@ -64,17 +64,6 @@
   },
   {
     "month": "2004-04",
-    "kind": "colour",
-    "headline": "Google offers free e-mail with a whole gigabyte",
-    "text": "On 1 April Google launched Gmail, a free e-mail service with one gigabyte of storage per user, a significantly higher amount than competitors offer.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Gmail (read 2026-10-03)",
-    "image": "/news/life/2004-04-googles-headquarters-the-googleplex-in-m.jpg",
-    "imageCaption": "Google's headquarters, the Googleplex, in Mountain View",
-    "imageCredit": "Austin McKinley"
-  },
-  {
-    "month": "2004-04",
     "kind": "company",
     "headline": "Nokia loses market share and warns",
     "text": "On 6 April Nokia said first-quarter sales fell 2% to 6.6 billion euros instead of rising 3-7%, as its handset volumes grew 19% in a market that grew more than 25%; its ADR fell more than 15% before trading opened. On 16 April it confirmed its market share had fallen to about 35% and warned of second-quarter earnings well below last year's.",
@@ -137,6 +126,17 @@
     "image": "/news/mercedes/2004-04-a-mitsubishi-colt-of-2004-developed-with.jpg",
     "imageCaption": "A Mitsubishi Colt of 2004, developed with DaimlerChrysler",
     "imageCredit": "not credited on the page"
+  },
+  {
+    "month": "2004-04",
+    "kind": "colour",
+    "headline": "Google offers free e-mail with a whole gigabyte",
+    "text": "On 1 April Google launched Gmail, a free e-mail service with one gigabyte of storage per user, a significantly higher amount than competitors offer.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Gmail (read 2026-10-03)",
+    "image": "/news/life/2004-04-googles-headquarters-the-googleplex-in-m.jpg",
+    "imageCaption": "Google's headquarters, the Googleplex, in Mountain View",
+    "imageCredit": "Austin McKinley"
   },
   {
     "month": "2004-05",
@@ -291,6 +291,16 @@
     "imageCredit": "World Economic Forum from Cologny, Switzerland"
   },
   {
+    "month": "2004-09",
+    "kind": "company",
+    "headline": "Coca-Cola warns on profits, and the shares fall 10%",
+    "text": "On 15 September Coca-Cola's new chief Neville Isdell warned that profits in the second half of 2004 will fall well short of what Wall Street expects, and that the company will sell only 1 to 2% more drinks this year. He named weak sales of bottles and cans in North America, a cold, wet summer in northern Europe, and Germany, where a new deposit on non-returnable bottles and cans has upset the market and volume is falling by around 15%; Coca-Cola will write off 375 to 450 million dollars, mainly in Germany. 'We have not reacted as quickly or as effectively as I would like,' he said. The shares fell as much as 5% that day, to their lowest in 16 months, and 10% in September.",
+    "assets": [
+      "ko"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/0000021344/000002134404000138/ko8k9150499-1.txt (press release of 15 September 2004, read 2026-11-10); https://www.irishtimes.com/news/coca-cola-issues-warning-on-future-earnings-1.990179 (read 2026-11-10); https://beveragedaily.com/Article/2004/09/20/Coke-shares-sink-to-new-low (read 2026-11-10); https://brecorder.com/news/amp/3081886 (AFP, read 2026-11-10); data/out/ko.json"
+  },
+  {
     "month": "2004-10",
     "kind": "company",
     "headline": "Two million iPods in a quarter",
@@ -375,6 +385,14 @@
     "image": "/news/mo/2004-11-marlboro.jpg",
     "imageCaption": "Marlboro cigarettes ;;",
     "imageCredit": "Santeri Viinamäki"
+  },
+  {
+    "month": "2004-12",
+    "kind": "world",
+    "headline": "A tsunami kills more than 120,000 around the Indian Ocean",
+    "text": "On 26 December a huge undersea earthquake off the Indonesian island of Sumatra sent giant waves onto coasts from Malaysia to East Africa. By 31 December more than 124,000 dead had been counted, about 80,000 of them in Indonesia, 28,500 in Sri Lanka, 10,800 in India and 4,500 in Thailand; at least 5,000 Europeans are missing, and an estimated five million survivors lack water, food or shelter. The United States raised its aid tenfold to 350 million dollars. Switzerland counts 13 dead and has given up hope for 70 more, most of them in Thailand, with some 700 Swiss still unaccounted for; the government has pledged 26 million francs, and the Swiss Solidarity appeal had raised 11 million francs by 30 December.",
+    "assets": [],
+    "source": "https://web.archive.org/web/20060324184305/http://news.bbc.co.uk/2/hi/asia-pacific/4136781.stm (BBC, last updated 31 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/hope-fades-for-70-swiss-tsunami-victims/4280840 (31 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/switzerland-pledges-extra-aid-to-asia/4279430 (30 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/swiss-tourists-feared-dead-after-earthquake/4273832 (27 December 2004, read 2026-11-10)"
   },
   {
     "month": "2004-12",

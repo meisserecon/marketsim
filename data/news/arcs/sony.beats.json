@@ -121,19 +121,20 @@
     "source": "https://en.wikipedia.org/wiki/PlayStation_(console) (read 2026-10-03)"
   },
   {
-    "id": "439f3f21",
-    "month": "2001-11",
-    "title": "Technology shares recover from the September lows",
-    "what": "Stock markets recovered in October and November from their lows after the September attacks; the S&P 500 rose 8% in November. Sony's ADR rose 25%.",
-    "why": "The rebound; nothing Sony-specific has been found for the month.",
+    "id": "b08ce778",
+    "month": "2003-04",
+    "title": "The 'Sony shock': a surprise loss and a 30% fall",
+    "what": "On 24 April Sony reported a net loss of 111 billion yen (about 930 million dollars) for the three months to March, almost three times what some analysts had expected, as sales of televisions and Vaio computers shrank and prices fell. For the year to March 2004 it forecasts a net profit of only 50 billion yen, less than half the 115.5 billion of the year just ended, after about 140 billion yen of restructuring costs. In Tokyo the shares fell the next day by the maximum the exchange allows, about 13%, and by about a quarter within two days; Japanese newspapers speak of the 'Sony shock', and the Nikkei index dropped to its lowest in 20 years. Sony's shares lost 30% in April, while the S&P 500 rose 8%.",
+    "why": "The moment investors stopped treating Sony as the unassailable leader of consumer electronics; the 20,000 job cuts of October 2003 and the change of chief in 2005 follow from it. The shock also marked the Nikkei's low after the bubble, on 28 April 2003.",
     "assets": [
       "sony"
     ],
     "move": {
       "asset": "sony",
-      "pct": 25
+      "pct": -30
     },
-    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
+    "source": "https://sony.mediaroom.com/2003-04-24-Consolidated-Financial-Results-for-the-Fiscal-Year-Ended-March-31-2003,1 (read 2026-11-10); https://www.irishtimes.com/news/sony-shares-fall-on-weak-profits-shock-1.473943 (25 April 2003, read 2026-11-10); https://www.taipeitimes.com/News/biz/archives/2003/05/02/0000204358 (Bloomberg, read 2026-11-10); https://nzherald.co.nz/business/emyoung-sam-cho-and-tomoko-yamazakiem-east-looks-west-to-get-out-of-sony-shock/ZFZ5TDBLLLTDTUHS3AFMIO5ZDE (Bloomberg 2005, for the name 'Sony Shock' and the two-day fall, read 2026-11-10); data/out/sony.json; data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: Sony's -30% (one of its twelve biggest months) had no story. To check: limit-down is confirmed for 25 April only; the text says 'about a quarter within two days'"
   },
   {
     "id": "758ec0cc",
@@ -167,21 +168,6 @@
       "sony"
     ],
     "source": "https://en.wikipedia.org/wiki/PlayStation_3 (read 2026-10-03)"
-  },
-  {
-    "id": "ea6a98ec",
-    "month": "2009-03",
-    "title": "Stocks rally after a year of falls",
-    "what": "After falling for most of a year, stocks rallied in March; the S&P 500 rose 9% in the month. Sony's ADR rose 25%.",
-    "why": "A market beat; the rally continued in April.",
-    "assets": [
-      "sony"
-    ],
-    "move": {
-      "asset": "sony",
-      "pct": 25
-    },
-    "source": "data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
   },
   {
     "id": "55c952e8",
@@ -307,17 +293,6 @@
       "sony"
     ],
     "source": "https://en.wikipedia.org/wiki/Sony (read 2026-10-03); https://en.wikipedia.org/wiki/Sony_Financial_Group (read 2026-10-03)"
-  },
-  {
-    "id": "11bb3da7",
-    "month": "2022-10",
-    "title": "The yen falls to its weakest in decades",
-    "what": "The yen fell to nearly 150 to the dollar in October, its weakest since 1990. A weak yen raises the value of Sony's foreign earnings in yen, but lowers its share price in dollars.",
-    "why": "Currency beat for a dollar-based player: Sony's ADR fell 19% in September and rose 23% in November as the yen swung.",
-    "assets": [
-      "sony"
-    ],
-    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)"
   },
   {
     "id": "882ac058",

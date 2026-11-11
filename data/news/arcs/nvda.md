@@ -33,7 +33,7 @@ Nvidia's history in the game is one of extreme moves: a dozen months with moves 
 - 1999-08: +40% (market -1%). The GeForce 256 was announced on 31 August, the last day of the month, so it cannot explain the rise; the 10-Q for the quarter to July 1999 was not checked in detail. Possibly anticipation of the new chip or strong quarterly results, not confirmed.
 - 2001-03: +45% (market -6%). Checked Nvidia's filings around the period (10-K for fiscal 2001 filed April 2001, the 3dfx closing in April 2001); no event in March 2001 found in the sources read. Annual results were probably published in February, not March.
 - 2001-10: +56% (market +2%). The Xbox launch (15 November) and the strong growth reported in the 10-Q for the quarter to October 2001 are the likely background, but no dated October event was found.
-- 2002-06: -49% (market -7%). Checked the 10-Q filed 10 June 2002 (no new warning found), the April restatement and Xbox arbitration (beat 2002-04) and the SEC enforcement letter of August 2002; the cause of the June fall (beyond the falling market and the earlier accounting cloud) was not found.
+- 2002-06: now told by the beat "Nvidia loses half its value in a month of chip warnings", added with sources in the review of November 2026. The earlier note: -49% (market -7%). Checked the 10-Q filed 10 June 2002 (no new warning found), the April restatement and Xbox arbitration (beat 2002-04) and the SEC enforcement letter of August 2002; the cause of the June fall (beyond the falling market and the earlier accounting cloud) was not found.
 - 2009-12: +43% (market +2%). Checked the results of 5 November 2009 (revenue up 16% from the previous quarter) and the Wikipedia history; no December 2009 event found.
 
 ## Sources

@@ -236,3 +236,13 @@ test("the cost of a position follows the average-cost method and survives a merg
   assert.ok(Math.abs(step.portfolio.cost.a - 360) < 1e-9); // 160 plus the 200 paid for the merged company
   assert.deepEqual(Object.keys(step.portfolio.cost), Object.keys(step.portfolio.holdings));
 });
+
+test("a buy that exceeds the cash by a rounding error spends all the cash", () => {
+  // The database keeps cash to six decimals; the step the browser computes from the unrounded value can be a hair more.
+  const m = market();
+  const p: Portfolio = { cash: 106.5895, holdings: {}, cost: {} };
+  const { portfolio, entry } = applyTrade(p, m, "1979-12", { assetId: "a", side: "buy", amount: { usd: 106.5895003 } });
+  assert.equal(portfolio.cash, 0);
+  assert.equal(entry.cash, -106.5895);
+  assert.equal(portfolio.holdings.a, 10.65895);
+});

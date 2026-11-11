@@ -113,17 +113,6 @@
   },
   {
     "month": "2003-03",
-    "kind": "colour",
-    "headline": "Alinghi wins the America's Cup for landlocked Switzerland",
-    "text": "On 2 March the Geneva yacht Alinghi, owned by Ernesto Bertarelli and skippered by New Zealander Russell Coutts, won the America's Cup in Auckland, beating Team New Zealand five races to none. Switzerland, without a coastline, now holds sailing's oldest trophy.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2003_America%27s_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Alinghi (read 2026-10-03)",
-    "image": "/news/life/2003-03-alinghi.jpg",
-    "imageCaption": "The Swiss America's Cup yacht Alinghi under sail",
-    "imageCredit": "Sergio Calleja (SuperKeko)"
-  },
-  {
-    "month": "2003-03",
     "kind": "world",
     "headline": "The US and Britain invade Iraq",
     "text": "After President Bush's ultimatum to Saddam Hussein expired, US-led forces invaded Iraq on 20 March, with British, Australian and Polish troops. The stated aim is to disarm Iraq of weapons of mass destruction, which UN inspectors had not found, and remove Saddam. France, Germany and Canada opposed the war, which the UN Security Council did not authorise. US crude, which had reached $37.87 a barrel on 12 March as war approached, fell to $27.18 by the 21st once the invasion began.",
@@ -186,6 +175,17 @@
     "imageCredit": "ハイパーアジア"
   },
   {
+    "month": "2003-03",
+    "kind": "colour",
+    "headline": "Alinghi wins the America's Cup for landlocked Switzerland",
+    "text": "On 2 March the Geneva yacht Alinghi, owned by Ernesto Bertarelli and skippered by New Zealander Russell Coutts, won the America's Cup in Auckland, beating Team New Zealand five races to none. Switzerland, without a coastline, now holds sailing's oldest trophy.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2003_America%27s_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Alinghi (read 2026-10-03)",
+    "image": "/news/life/2003-03-alinghi.jpg",
+    "imageCaption": "The Swiss America's Cup yacht Alinghi under sail",
+    "imageCredit": "Sergio Calleja (SuperKeko)"
+  },
+  {
     "month": "2003-04",
     "kind": "world",
     "headline": "Baghdad falls, and markets rally",
@@ -194,6 +194,16 @@
     "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq (read 2026-10-03); https://law.yale.edu/sites/default/files/documents/pdf/Using_Markets_to_Inform_Policy.pdf (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20030506.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Portal:Current_events/April_2003 (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/middle-east/2003-04-saddam-statue.jpg",
     "imageCaption": "A statue of Saddam Hussein comes down in Firdos Square, Baghdad, 9 April 2003"
+  },
+  {
+    "month": "2003-04",
+    "kind": "company",
+    "headline": "The 'Sony shock': a surprise loss and a 30% fall",
+    "text": "On 24 April Sony reported a net loss of 111 billion yen (about 930 million dollars) for the three months to March, almost three times what some analysts had expected, as sales of televisions and Vaio computers shrank and prices fell. For the year to March 2004 it forecasts a net profit of only 50 billion yen, less than half the 115.5 billion of the year just ended, after about 140 billion yen of restructuring costs. In Tokyo the shares fell the next day by the maximum the exchange allows, about 13%, and by about a quarter within two days; Japanese newspapers speak of the 'Sony shock', and the Nikkei index dropped to its lowest in 20 years. Sony's shares lost 30% in April, while the S&P 500 rose 8%.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://sony.mediaroom.com/2003-04-24-Consolidated-Financial-Results-for-the-Fiscal-Year-Ended-March-31-2003,1 (read 2026-11-10); https://www.irishtimes.com/news/sony-shares-fall-on-weak-profits-shock-1.473943 (25 April 2003, read 2026-11-10); https://www.taipeitimes.com/News/biz/archives/2003/05/02/0000204358 (Bloomberg, read 2026-11-10); https://nzherald.co.nz/business/emyoung-sam-cho-and-tomoko-yamazakiem-east-looks-west-to-get-out-of-sony-shock/ZFZ5TDBLLLTDTUHS3AFMIO5ZDE (Bloomberg 2005, for the name 'Sony Shock' and the two-day fall, read 2026-11-10); data/out/sony.json; data/reference/sp500.json"
   },
   {
     "month": "2003-04",
@@ -264,7 +274,7 @@
     "month": "2003-05",
     "kind": "company",
     "headline": "Canberra clears the MIM takeover",
-    "text": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's A$1.72-a-share bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
+    "text": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
     "assets": [
       "xstrata"
     ],
@@ -318,14 +328,16 @@
   },
   {
     "month": "2003-07",
-    "kind": "colour",
-    "headline": "Federer wins Wimbledon",
-    "text": "Roger Federer won Wimbledon in early July, beating Mark Philippoussis in the final after beating Andy Roddick in the semi-final. At 21 it is his first Grand Slam title and the first by a Swiss man.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2003-07-federer-wimbledon-trophy.jpg",
-    "imageCaption": "Roger Federer holds the Wimbledon trophy after beating Mark Philippoussis in the final, 6 July 2003",
-    "imageCredit": "keystone-sda.ch (EPA)"
+    "kind": "world",
+    "headline": "Bond prices tumble as yields jump: the 2020 Treasury loses 14% in a month",
+    "text": "In mid-June yields on US government bonds were at a 45-year low, because investors expected the Fed to cut its rate by half a point and perhaps even to buy long-term bonds itself to keep yields down. The Fed cut by only a quarter point on 25 June, and on 15 July Alan Greenspan told Congress that there are signs of recovery and that such special measures are 'most unlikely' to be needed. The yield on 10-year Treasuries leapt from 3.13 percent on 13 June to 4.49 percent on 31 July, the sharpest rise since 1994, made worse by investors in mortgage securities, who sell Treasuries to protect themselves when rates rise. A bond pays a fixed amount of interest, so when new bonds offer more, existing ones are worth less, and the longer a bond still runs, the more it loses: in July the Treasury due in 2005 hardly moved, the one due in 2010 fell 6% and the one due in 2020 fell 14%. A 30-year mortgage now costs about 5.9 percent, up from 5.2 percent in June. The numbers: the Fed's rate 1 percent. Inflation 2.1 percent. Unemployment 6.3 percent.",
+    "assets": [
+      "ust2005",
+      "ust2010",
+      "ust2020"
+    ],
+    "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2003-06-02&coed=2003-08-05 (read 2026-11-10); https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US&cosd=2003-06-01&coed=2003-08-07 (read 2026-11-10); https://www.federalreserve.gov/boarddocs/hh/2003/july/testimony.htm (read 2026-11-10); https://www.federalreserve.gov/boarddocs/press/monetary/2003/20030625/default.htm (read 2026-11-10); https://web.archive.org/web/20030720053449/http://money.cnn.com/2003/07/15/markets/bondcenter/bonds/index.htm (CNN/Money, 15 July 2003, read 2026-11-10); https://www.bis.org/publications/qr/r-qt0309a.pdf (BIS Quarterly Review, September 2003, overview, read 2026-11-10); https://www.stlouisfed.org/publications/regional-economist/april-2004/miscommunication-shook-up-mortgage-bond-markets (read 2026-11-10); https://www.hedgeweek.com/growth-us-mortgage-market-challenges-bond-managers/ (read 2026-11-10); data/out/ust2005.json, data/out/ust2010.json, data/out/ust2020.json; https://fred.stlouisfed.org/series/DFEDTAR, CPIAUCNS and UNRATE (data/raw/fred, downloaded 2026-10-04)",
+    "thread": "rates"
   },
   {
     "month": "2003-07",
@@ -352,6 +364,17 @@
     "image": "/news/lehman/2003-07-neuberger-berman.jpg",
     "imageCaption": "Neuberger Berman, New York",
     "imageCredit": "David Shankbone"
+  },
+  {
+    "month": "2003-07",
+    "kind": "colour",
+    "headline": "Federer wins Wimbledon",
+    "text": "Roger Federer won Wimbledon in early July, beating Mark Philippoussis in the final after beating Andy Roddick in the semi-final. At 21 it is his first Grand Slam title and the first by a Swiss man.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2003-07-federer-wimbledon-trophy.jpg",
+    "imageCaption": "Roger Federer holds the Wimbledon trophy after beating Mark Philippoussis in the final, 6 July 2003",
+    "imageCredit": "keystone-sda.ch (EPA)"
   },
   {
     "month": "2003-08",
@@ -458,13 +481,17 @@
     "month": "2003-12",
     "kind": "world",
     "headline": "2003 in review: the bull returns, up 26 percent",
-    "text": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back.",
+    "text": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back. The Nasdaq rose 50% and closed the year just under 2,000, after briefly passing it on 29 December; the survivors of the bust, from Amazon to Nvidia, have multiplied from their lows.",
     "assets": [
+      "amzn",
+      "nvda",
+      "intc",
+      "csco",
       "ust2005",
       "ust2010",
       "ust2020"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
     "image": "/news/markets/2003-12-year-chart.png",
     "imageCaption": "American shares (S&P 500) at the end of each month of 2003: up 26 percent in the year",
     "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
@@ -479,22 +506,6 @@
     "image": "/news/middle-east/2003-12-bam.jpg",
     "imageCaption": "The citadel of Bam, Iran, September 2003",
     "imageCredit": "Wikimedia Commons user (IP 194.231.230.60)"
-  },
-  {
-    "month": "2003-12",
-    "kind": "world",
-    "headline": "The Nasdaq gains 50% in 2003",
-    "text": "The Nasdaq rose 50% in 2003 and closed the year just under 2,000, after briefly passing it on 29 December. The survivors of the bust, from Amazon to Nvidia, have multiplied from their lows.",
-    "assets": [
-      "amzn",
-      "nvda",
-      "intc",
-      "csco"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2003-12-nasdaq-marketsite.jpg",
-    "imageCaption": "The Nasdaq MarketSite on Times Square, New York, June 2003",
-    "imageCredit": "vobios"
   },
   {
     "month": "2003-12",

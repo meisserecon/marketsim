@@ -134,20 +134,6 @@
   {
     "month": "2007-04",
     "kind": "company",
-    "headline": "Novartis sells Gerber to Nestlé",
-    "text": "Novartis agreed in April to sell the American baby food maker Gerber to Nestlé for $5.5 billion. Nestlé is also buying Novartis's medical nutrition business for $2.5 billion.",
-    "assets": [
-      "novartis",
-      "nestle"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nestl%C3%A9 (read 2026-10-03); https://en.wikipedia.org/wiki/Gerber_Products_Company (read 2026-10-03)",
-    "image": "/news/novartis/2007-04-jars-of-gerber-baby-food.jpg",
-    "imageCaption": "Jars of Gerber baby food",
-    "imageCredit": "ParentingPatch"
-  },
-  {
-    "month": "2007-04",
-    "kind": "company",
     "headline": "Scandal takes down von Pierer and Kleinfeld",
     "text": "On 19 April supervisory board chairman Heinrich von Pierer said he will resign, denying any guilt over events during his time as chief executive. On 25 April chief executive Klaus Kleinfeld said he will not seek to renew his contract, which ends in September, after board members disagreed publicly about extending it.",
     "assets": [
@@ -238,17 +224,6 @@
   },
   {
     "month": "2007-07",
-    "kind": "colour",
-    "headline": "The last Harry Potter book, and Alinghi keeps the America's Cup",
-    "text": "On 21 July the seventh and final Harry Potter book, Harry Potter and the Deathly Hallows, went on sale and set sales records in its first 24 hours. On 3 July in Valencia the Swiss yacht Alinghi defended the America's Cup against Team New Zealand, winning 5-2, the last race by one second.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows (read 2026-10-03); https://en.wikipedia.org/wiki/2007_America%27s_Cup (read 2026-10-03)",
-    "image": "/news/life/2007-07-cover-of-harry-potter-and-the-deathly-ha.jpg",
-    "imageCaption": "Cover of Harry Potter and the Deathly Hallows, 2007",
-    "imageCredit": "Bloomsbury Publishing"
-  },
-  {
-    "month": "2007-07",
     "kind": "world",
     "headline": "Two Bear Stearns funds lose nearly everything on subprime bets",
     "text": "In the week of 16 July the Wall Street investment bank Bear Stearns disclosed that two of its hedge funds, invested in securities built from subprime mortgages, had lost nearly all their value. In June Bear Stearns had pledged loans of up to 3.2 billion dollars to rescue one of them. The S&P 500 fell 3 percent in July.",
@@ -299,6 +274,17 @@
     "imageCredit": "Katie Chan"
   },
   {
+    "month": "2007-07",
+    "kind": "colour",
+    "headline": "The last Harry Potter book, and Alinghi keeps the America's Cup",
+    "text": "On 21 July the seventh and final Harry Potter book, Harry Potter and the Deathly Hallows, went on sale and set sales records in its first 24 hours. On 3 July in Valencia the Swiss yacht Alinghi defended the America's Cup against Team New Zealand, winning 5-2, the last race by one second.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows (read 2026-10-03); https://en.wikipedia.org/wiki/2007_America%27s_Cup (read 2026-10-03)",
+    "image": "/news/life/2007-07-cover-of-harry-potter-and-the-deathly-ha.jpg",
+    "imageCaption": "Cover of Harry Potter and the Deathly Hallows, 2007",
+    "imageCredit": "Bloomsbury Publishing"
+  },
+  {
     "month": "2007-08",
     "kind": "world",
     "headline": "Credit markets freeze: BNP Paribas blocks funds, the Fed steps in",
@@ -326,6 +312,19 @@
     "image": "/news/lehman/2007-08-lehman-times-square.jpg",
     "imageCaption": "Lehman Brothers headquarters, Times Square, New York, August 2007",
     "imageCredit": "David Shankbone"
+  },
+  {
+    "month": "2007-09",
+    "kind": "world",
+    "headline": "A run on Northern Rock, then the Fed cuts by half a point: shares up 4%",
+    "text": "On 14 September savers queued outside the branches of Northern Rock, one of Britain's five biggest mortgage lenders, after it had to ask the Bank of England for emergency loans: it raised about three quarters of its money on the credit markets, which stopped lending to mortgage banks after the American subprime losses. About 1 billion pounds was withdrawn that day, in the first run on a British bank in more than a century, and the queues ended only after the government guaranteed all the bank's deposits on 17 September. On 18 September the Federal Reserve cut its key rate by half a point to 4.75 percent, its first cut since 2003 and a larger one than expected, to keep the trouble in the credit markets from deepening the housing slump and hurting the wider economy. The Dow rose 336 points or 2.5% that day, its biggest one-day gain in nearly five years, and the S&P 500 ended September up 4% at 1,526.75.",
+    "assets": [
+      "ust2010",
+      "ust2015",
+      "ust2020"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nationalisation_of_Northern_Rock (read 2026-11-10); https://en.wikipedia.org/wiki/Northern_Rock (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070918a.htm (read 2026-11-10); https://www.inquirer.com/philly/business/20070919_Stocks_Soar_On_Rate_Slash.html (read 2026-11-10); https://www.aljazeera.com/news/2007/09/18/federal-reserve-cuts-interest-rate/ (read 2026-11-10); data/reference/sp500.json (read 2026-11-10)",
+    "thread": "housing-crisis"
   },
   {
     "month": "2007-09",

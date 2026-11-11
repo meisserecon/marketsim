@@ -179,7 +179,7 @@
     "id": "4af6c92a",
     "month": "2012-04",
     "title": "Another warning sends Nokia to a 14-year low",
-    "what": "On 11 April Nokia again said results will miss its forecasts. Its US shares fell 16% to 4.24 dollars, the lowest since February 1998. Nokia has sold about 2 million Lumia Windows phones; in the past quarter it burned about 700 million euros of cash.",
+    "what": "On 11 April Nokia again said results will miss its forecasts. Its US shares fell 16%, to the lowest since February 1998. Nokia has sold about 2 million Lumia Windows phones; in the past quarter it burned about 700 million euros of cash.",
     "why": "Bankruptcy talk begins; the ADR falls 34% in April and keeps falling into the summer.",
     "assets": [
       "nokia"
@@ -188,7 +188,8 @@
       "asset": "nokia",
       "pct": -34
     },
-    "source": "https://money.cnn.com/2012/04/11/technology/nokia/index.htm via web.archive.org (read 2026-10-03); http://www.businessinsider.com/nokia-bankrupt-2012-4 (read 2026-10-03)"
+    "source": "https://money.cnn.com/2012/04/11/technology/nokia/index.htm via web.archive.org (read 2026-10-03); http://www.businessinsider.com/nokia-bankrupt-2012-4 (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "27f08c4f",
@@ -275,6 +276,22 @@
       "nokia"
     ],
     "source": "https://en.wikipedia.org/wiki/Nokia (read 2026-10-03)"
+  },
+  {
+    "id": "38794908",
+    "month": "2017-10",
+    "title": "Nokia warns that network spending will keep shrinking; shares fall 18%",
+    "what": "On 26 October Nokia reported that sales of its network equipment fell 9% in the third quarter, to 4.8 billion euros, and that the networks' operating profit fell 23% to 334 million euros, well below forecasts. It now expects its market to shrink by 4 to 5% this year and by another 2 to 5% in 2018, a third year of decline: phone companies have finished building their 4G networks, serious spending on the next generation, 5G, is not expected before 2019, and competition in China has become tougher. The shares fell more than 15% that day and ended October 18% lower.",
+    "why": "The hangover between 4G and 5G that weighs on Nokia (and Ericsson) until the end of the decade; explains the -18% month.",
+    "assets": [
+      "nokia"
+    ],
+    "move": {
+      "asset": "nokia",
+      "pct": -18
+    },
+    "source": "https://www.cnbc.com/2017/10/26/nokia-q3-earnings.html (Reuters; read 2026-11-10); https://fortune.com/2017/10/26/nokia-stock-down-share-price/ (read 2026-11-10); https://techcentral.co.za/nokia-predicts-gloom-network-makers/198964/ (Bloomberg; read 2026-11-10); data/out/nokia.json",
+    "changed": "new beat, consistency review of November 2026: October 2017 had no story at all; Nokia's -18%. To check: the day's fall is 'more than 15%' in the reports read during trading"
   },
   {
     "id": "cb118a34",

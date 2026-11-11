@@ -94,6 +94,23 @@
     "source": "https://www.sec.gov/Archives/edgar/data/1045810/0001012870-02-002921.txt (Nvidia 10-Q/A for the quarter to April 2002, read 2026-10-03); https://www.sec.gov/Archives/edgar/data/1045810/000095016802001118/d8k.htm (read 2026-10-03)"
   },
   {
+    "id": "b8a16fe4",
+    "month": "2002-06",
+    "title": "Nvidia loses half its value in a month of chip warnings",
+    "what": "Nvidia shares fell 49% in June, in three steps. On 12 June the broker RBC Capital Markets lowered its rating, telling clients to stay on the sidelines until Nvidia has a permanent finance chief and the SEC's inquiry into its accounts is settled; the shares fell 8.7% that day. On 19 June, after AMD and Apple had followed Intel in warning of weak PC sales, the Philadelphia index of chip shares dropped 6.7% and Nvidia 16%. On 25 June the chipmaker Cirrus Logic warned of slack production of Microsoft's Xbox console, and Nvidia, which earned 22% of its revenue from Microsoft in the quarter to April, lost another 19% in two days.",
+    "why": "The worst month of Nvidia's 2002 collapse (-87% from December 2001 to September 2002). No single event explains it: the accounting cloud of April, the PC slump and doubts about the Xbox came on top of each other, a month before Nvidia's own warning of 30 July.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "move": {
+      "asset": "nvda",
+      "pct": -49
+    },
+    "source": "https://web.archive.org/web/20021225115841/http://money.cnn.com/2002/06/12/technology/techwrap/index.htm (read 2026-11-10); https://web.archive.org/web/20021225120356/http://money.cnn.com/2002/06/19/technology/techwrap/index.htm (read 2026-11-10); https://web.archive.org/web/20020705150238/http://money.cnn.com/2002/06/27/markets/hotstox/index.htm (read 2026-11-10); https://gamedeveloper.com/game-platforms/xbox-related-stocks-drop-after-cirrus-warning (read 2026-11-10); https://www.sec.gov/Archives/edgar/data/1045810/000101287002002660/d10q.htm (read 2026-11-10); daily closes of NVDA, https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1022198400&period2=1026432000&interval=1d (read 2026-11-10); data/out/nvda.json",
+    "changed": "new beat, consistency review of November 2026: Nvidia's -49% (one of its twelve biggest months) had no story. To check: no single cause: three steps are told; for 19 June no report names Nvidia"
+  },
+  {
     "id": "756036de",
     "month": "2002-11",
     "title": "Nvidia unveils the GeForce FX",

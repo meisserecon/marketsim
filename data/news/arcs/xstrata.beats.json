@@ -45,7 +45,7 @@
     "id": "0ab57bd9",
     "month": "2003-05",
     "title": "Canberra clears the MIM takeover",
-    "what": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's A$1.72-a-share bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
+    "what": "On 28 May Australian Treasurer Peter Costello said he would raise no objection under foreign investment policy to Xstrata's bid for MIM, which values the company at A$4.9bn. MIM shareholders still have to vote; Xstrata's coal chief Peter Coates says MIM's board looked for alternatives and found none better. Metal prices firmed during the month as the Iraq war ended.",
     "why": "With the political hurdle gone the deal was nearly done (MIM holders approved it on 6 June and MIM left the ASX on 30 June). The 24% jump reflects relief that Xstrata got MIM at a trough price.",
     "assets": [
       "xstrata"
@@ -54,7 +54,8 @@
       "asset": "xstrata",
       "pct": 24
     },
-    "source": "https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054; https://en.wikipedia.org/wiki/MIM_Holdings (both read 2026-10-03)"
+    "source": "https://www.abc.net.au/news/2003-05-28/govt-gives-green-light-to-xstrata-bid-for-mim/1861054; https://en.wikipedia.org/wiki/MIM_Holdings (both read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, the total kept"
   },
   {
     "id": "2d43c8a1",
@@ -187,7 +188,7 @@
     "id": "456650ed",
     "month": "2008-10",
     "title": "Xstrata drops Lonmin and secures its banks",
-    "what": "On 1 October Xstrata abandoned its £33-a-share offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
+    "what": "On 1 October Xstrata abandoned its offer for Lonmin, blaming 'unprecedented uncertainty in financial markets', and kept its 24.9% stake. The same day it signed a $5bn facility with its relationship banks to refinance existing debt. Copper averaged $4,926 a tonne in October, down 30% in a month, and coal fell to $108.",
     "why": "Another 44% gone. Debt, not operations, became the issue, setting up the emergency rights issue three months later.",
     "assets": [
       "xstrata"
@@ -196,7 +197,8 @@
       "asset": "xstrata",
       "pct": -44
     },
-    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Lonmin; Xstrata circular 2 Feb 2009, https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (all read 2026-10-03)",
+    "changed": "rule on metrics: offer price per share removed"
   },
   {
     "id": "e225ba0d",
@@ -279,7 +281,7 @@
     "id": "7f54f483",
     "month": "2012-02",
     "title": "Glencore and Xstrata agree a 'merger of equals'",
-    "what": "After confirming talks on 2 February, Glencore and Xstrata announced on 7 February a recommended all-share merger: Xstrata holders would get 2.8 new Glencore shares each, valuing Xstrata at 1,290p a share or £39.1bn, a 15% premium. Glencore already owns 34% of Xstrata. Mick Davis would run the combined Glencore Xstrata, with Ivan Glasenberg as deputy and president; the deal needs 75% of the votes of Xstrata's independent shareholders. Completion is expected in the third quarter.",
+    "what": "After confirming talks on 2 February, Glencore and Xstrata announced on 7 February a recommended all-share merger: Xstrata holders would get 2.8 new Glencore shares each, valuing Xstrata at £39.1bn, a 15% premium. Glencore already owns 34% of Xstrata. Mick Davis would run the combined Glencore Xstrata, with Ivan Glasenberg as deputy and president; the deal needs 75% of the votes of Xstrata's independent shareholders. Completion is expected in the third quarter.",
     "why": "The defining event of both arcs: the trader moves to swallow the miner it created. The low premium immediately drew shareholder resistance.",
     "assets": [
       "xstrata",
@@ -289,14 +291,15 @@
       "asset": "xstrata",
       "pct": 13
     },
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/recommended-merger-of-glencore-and-xstrata/2979372; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-rule-2-10-announcement/2939813 (both read 2026-10-03)"
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/recommended-merger-of-glencore-and-xstrata/2979372; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-rule-2-10-announcement/2939813 (both read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, the total kept"
   },
   {
     "id": "6cf70534",
     "month": "2012-06",
     "title": "Qatar demands more for Xstrata",
-    "what": "On 26 June Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said it would only back the merger at 3.25 Glencore shares per Xstrata share instead of 2.8; with other dissenting investors it is close to the 16.5% needed to block the deal. Investors are also angry about retention payments of more than £170m for 73 Xstrata executives, and Xstrata's board has proposed changes. Glencore is postponing its shareholder meeting set for 11 July.",
-    "why": "The sovereign fund turned the friendly merger into a takeover. Ivan Glasenberg said publicly he would not overpay.",
+    "what": "On 26 June Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said it would only back the merger at 3.25 Glencore shares per Xstrata share instead of 2.8; with other dissenting investors it is close to the 16.5% needed to block the deal. Investors are also angry about retention payments of more than £170m for 73 Xstrata executives, and Xstrata's board has proposed changes. Glencore is postponing its shareholder meeting set for 11 July, and Ivan Glasenberg says Glencore will not overpay. Both shares lost 12% in June.",
+    "why": "The sovereign fund turned the friendly merger into a takeover. Ivan Glasenberg said publicly he would not overpay. The deal looked close to collapse. Glencore's shares fell 12% in the month.",
     "assets": [
       "xstrata",
       "glencore"
@@ -305,7 +308,8 @@
       "asset": "xstrata",
       "pct": -12
     },
-    "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update/3327708; https://en.wikipedia.org/wiki/Xstrata (all read 2026-10-03)"
+    "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/merger-update/3327708; https://en.wikipedia.org/wiki/Xstrata (all read 2026-10-03); https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-merger-update/3328691 (all read 2026-10-03)",
+    "changed": "consistency review of November 2026: Qatar's demand was told twice in June 2012, once from each side; now one story (with glencore/4a01befc)"
   },
   {
     "id": "c79b9290",

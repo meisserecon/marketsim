@@ -468,13 +468,16 @@
   {
     "id": "1c970dd4",
     "month": "2011-08",
-    "title": "Jobs resigns; Tim Cook is chief executive",
-    "what": "On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
-    "why": "The handover the market had feared went smoothly; the shares barely moved.",
+    "title": "Apple is the world's most valuable company; Jobs hands over to Tim Cook",
+    "what": "In August Apple passed ExxonMobil as the most valuable listed company in the world. It had passed Microsoft in May 2010, for the first time since 1989. On 24 August Steve Jobs resigned as Apple's chief executive, writing to the board that he could no longer meet his duties and expectations. Tim Cook succeeds him.",
+    "why": "The handover the market had feared went smoothly; the shares barely moved. The changing of the guard: the mobile wave's winner overtook both the oil giant and the PC era's champion.",
     "assets": [
-      "aapl"
+      "aapl",
+      "xom",
+      "msft"
     ],
-    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)",
+    "changed": "consistency review of November 2026: two short Apple stories in August 2011; now one (with tech/8a51bd95)"
   },
   {
     "id": "a7b12682",
@@ -545,6 +548,23 @@
     "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
+    "id": "559818c9",
+    "month": "2018-11",
+    "title": "Apple stops counting iPhones and its shares fall 18%",
+    "what": "On 1 November Apple reported sales of 62.9 billion dollars for the quarter to September, up 20%, but forecast 89 to 93 billion for the Christmas quarter, growth of only 1 to 5%, and said it will no longer report how many iPhones, iPads and Macs it sells. It sold 46.9 million iPhones, about as many as a year earlier, though at higher prices: iPhone revenue rose 29%. The shares fell 6% the next day, taking Apple's value back below 1 trillion dollars. Later in the month suppliers such as Lumentum, which makes lasers for the iPhone's 3D sensors, and Japan Display cut their own forecasts, and the Wall Street Journal reported that Apple had cut production orders for its newest iPhones; on 30 November Microsoft ended the day as the world's most valuable listed company, ahead of Apple.",
+    "why": "The market's first serious doubt that the iPhone can keep growing; it leads straight to Tim Cook's revenue warning of January 2019 and to Apple's turn towards services. Explains the -18% month.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "move": {
+      "asset": "aapl",
+      "pct": -18
+    },
+    "source": "https://www.apple.com/newsroom/2018/11/apple-reports-fourth-quarter-results/ (read 2026-11-10); https://www.techpartner.news/news/apple-loses-us1-trillion-status-after-tough-holiday-forecast-515064 (Reuters; read 2026-11-10); https://www.fool.com/investing/2018/12/11/why-apple-stock-plunged-184-in-november.aspx (read 2026-11-10); https://arynews.tv/apple-drop-iphone-supplier-warnings (Reuters, 12-13 November 2018; read 2026-11-10); https://fortune.com/2018/11/19/apple-iphone-production-orders-cut/ (read 2026-11-10); https://www.ktvu.com/news/microsoft-surpasses-apple-as-most-valuable-public-company (AP, 30 November 2018; read 2026-11-10); data/out/aapl.json",
+    "changed": "new beat, consistency review of November 2026: Apple's -18% had no story. To check: 'at higher prices' is inferred from flat unit sales and revenue up 29%"
+  },
+  {
     "id": "4f4c2a21",
     "month": "2019-01",
     "title": "Tim Cook warns: China and fewer iPhone upgrades",
@@ -559,7 +579,7 @@
     "id": "4b4f3282",
     "month": "2020-08",
     "title": "Two trillion dollars",
-    "what": "On 19 August Apple's shares briefly topped 467 dollars, making it the first US company worth two trillion dollars, despite the pandemic. Apple has also announced that it will move its Macs from Intel processors to chips of its own design.",
+    "what": "On 19 August Apple briefly became the first US company worth two trillion dollars, despite the pandemic. Apple has also announced that it will move its Macs from Intel processors to chips of its own design.",
     "why": "+21% in the month; Apple recovered quickly from the pandemic shock of early 2020. (Time check: in August 2020 the switch was announced, not yet under way.)",
     "assets": [
       "aapl",
@@ -569,7 +589,8 @@
       "asset": "aapl",
       "pct": 21
     },
-    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "dd3de77d",
@@ -585,13 +606,14 @@
   {
     "id": "3ef30def",
     "month": "2023-06",
-    "title": "The Vision Pro headset",
-    "what": "At its developer conference Apple presented the Vision Pro, a headset that mixes the real world with digital images and is controlled by hand gestures, for 3,500 dollars.",
-    "why": "Apple's first new product category since the Watch; it was considered a financial failure at first.",
+    "title": "Apple shows the Vision Pro headset",
+    "what": "On 5 June, at its developer conference, Apple presented the Vision Pro, a headset worn over the eyes that mixes the real world, filmed by its cameras, with apps and films floating in the room, and is controlled by hand gestures. It is due in the United States early next year for 3,499 dollars.",
+    "why": "Apple's first new product category since the Watch; it was considered a financial failure at first. Apple's bet on the next device after the phone; it stays a niche.",
     "assets": [
       "aapl"
     ],
-    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc. (read 2026-10-03); https://en.wikipedia.org/wiki/Apple_Vision_Pro (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the Vision Pro was told twice in June 2023 (at 3,500 and at 3,499 dollars); now one story (with life/354be1d0)"
   },
   {
     "id": "a68414c4",

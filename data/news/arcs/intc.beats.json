@@ -269,7 +269,7 @@
     "id": "b5989af7",
     "month": "2024-08",
     "title": "Intel suspends its dividend and cuts 15% of jobs",
-    "what": "On 1 August Intel reported a second-quarter loss of 1.6 billion dollars, said it will cut more than 15% of its workforce, about 15,000 jobs, and suspend its dividend from the fourth quarter. The shares fell 26% the next day to 21.48 dollars, their worst day in decades.",
+    "what": "On 1 August Intel reported a second-quarter loss of 1.6 billion dollars, said it will cut more than 15% of its workforce, about 15,000 jobs, and suspend its dividend from the fourth quarter. The shares fell 26% the next day, their worst day in decades.",
     "why": "The low point of the turnaround.",
     "assets": [
       "intc"
@@ -278,7 +278,8 @@
       "asset": "intc",
       "pct": -28
     },
-    "source": "https://www.rappler.com/technology/intel-job-cuts-suspend-dividend-august-2024/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+    "source": "https://www.rappler.com/technology/intel-job-cuts-suspend-dividend-august-2024/ (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "e83a7e0a",
@@ -295,7 +296,7 @@
     "id": "3035db24",
     "month": "2025-08",
     "title": "The US government takes 10% of Intel",
-    "what": "Lip-Bu Tan, a veteran chip investor, has been chief executive since March. On 18 August SoftBank agreed to invest 2 billion dollars in Intel. On 22 August President Trump announced that the government will convert grants promised to Intel under the CHIPS Act into shares: it buys 433.3 million shares at 20.47 dollars, 8.9 billion dollars for about 10% of the company.",
+    "what": "Lip-Bu Tan, a veteran chip investor, has been chief executive since March. On 18 August SoftBank agreed to invest 2 billion dollars in Intel. On 22 August President Trump announced that the government will convert grants promised to Intel under the CHIPS Act into shares: it pays 8.9 billion dollars for about 10% of the company.",
     "why": "State backing removed the fear that Intel could run out of money; +23% for the month.",
     "assets": [
       "intc"
@@ -304,14 +305,15 @@
       "asset": "intc",
       "pct": 23
     },
-    "source": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)"
+    "source": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Intel (read 2026-10-03)",
+    "changed": "rule on metrics: price per share and share count removed, the total kept"
   },
   {
     "id": "16ccab23",
     "month": "2025-09",
     "title": "Nvidia invests 5 billion dollars in Intel",
-    "what": "On 18 September Nvidia agreed to buy 5 billion dollars of Intel shares at 23.28 dollars, about 4% of the company, and the two will develop chips together for PCs and data centres. Intel's shares closed 22.8% higher at 30.57 dollars, their best day since 1987. Four days later Nvidia also signed a memorandum under which it would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
-    "why": "The market leader in AI chips backing its fallen rival; +38% for the month.",
+    "what": "On 18 September Nvidia agreed to buy 5 billion dollars of Intel shares, about 4% of the company, and the two will develop chips together for PCs and data centres. Intel's shares closed 22.8% higher, their best day since 1987, and rose 38% in September. Four days later Nvidia also signed a memorandum under which it would invest up to 100 billion dollars in OpenAI, which would use Nvidia systems for data centres of at least 10 gigawatts.",
+    "why": "The market leader in AI chips backing its fallen rival; +38% for the month. The circular deals that made critics speak of an AI bubble, and the start of the AI wave lifting old technology names.",
     "assets": [
       "intc",
       "nvda"
@@ -320,7 +322,8 @@
       "asset": "intc",
       "pct": 38
     },
-    "source": "https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03)"
+    "source": "https://www.cnbc.com/2025/09/18/intel-nvidia-investment.html (read 2026-10-03, via search summary); https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)",
+    "changed": "consistency review of November 2026: Nvidia's investments in Intel and OpenAI were told twice in September 2025; now one story. Rule on metrics: share prices removed (with tech/8baab321)"
   },
   {
     "id": "a8fc2718",
@@ -344,7 +347,7 @@
     "id": "116984e2",
     "month": "2026-05",
     "title": "Intel passes its 2000 peak on talk of an Apple deal",
-    "what": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded above 130 dollars, far above their August 2000 record of 74.88 dollars.",
+    "what": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded far above their record of August 2000.",
     "why": "Twenty-six years to regain the dot-com peak. Reports later in May spoke of a preliminary agreement; the details remain unconfirmed by the companies in the sources read.",
     "assets": [
       "intc",
@@ -354,13 +357,14 @@
       "asset": "intc",
       "pct": 21
     },
-    "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)"
+    "source": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html (read 2026-10-03, via search summary); https://www.ghacks.net/2026/05/08/intel-stock-hits-all-time-high-after-report-of-apple-chip-manufacturing-talks/ (read 2026-10-03, via search summary)",
+    "changed": "rule on metrics: share prices removed"
   },
   {
     "id": "95b2a402",
     "month": "2026-07",
     "title": "Intel falls a third from its June high",
-    "what": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
+    "what": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
     "why": "A valuation correction after a fivefold rise in a year; -35% for the month.",
     "assets": [
       "intc"
@@ -369,13 +373,14 @@
       "asset": "intc",
       "pct": -35
     },
-    "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)"
+    "source": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm (read 2026-10-03); https://www.tradingkey.com/analysis/stocks/us-stocks/262068420-intel-stock-price-forecast-stock-price-fallen-30-july-continue-fall-tradingkey (read 2026-10-03); https://phemex.com/blogs/intel-stock-crash-18a-delay-amd-data-center-surge (read 2026-10-03, via search summary)",
+    "changed": "rule on metrics: earnings per share removed"
   },
   {
     "id": "2195b025",
     "month": "2026-09",
     "title": "AI agents lift Intel again",
-    "what": "Intel's shares rose more than 40% in September. On 21 September they jumped 12% when reports said the success of Meta's Muse AI agent app could raise demand for processors; AMD rose 10% the same day. Intel had said in July that data-centre revenue grew 59% and that server chip demand exceeds supply.",
+    "what": "Intel's shares rose 34% in September. On 21 September they jumped 12% when reports said the success of Meta's Muse AI agent app could raise demand for processors; AMD rose 10% the same day. Intel had said in July that data-centre revenue grew 59% and that server chip demand exceeds supply.",
     "why": "The rally rests on demand for processors in AI data centres; commentators warned that the shares now trade at more than 80 times this year's expected earnings.",
     "assets": [
       "intc"
@@ -384,6 +389,7 @@
       "asset": "intc",
       "pct": 34
     },
-    "source": "https://www.trefis.com/stock/intc/articles/616955/what-changed-for-intel-stock-and-what-did-not/2026-09-29 (read 2026-10-03); https://www.fool.com/investing/2026/09/27/intel-stock-surged-over-40-in-september-history-sh/ (read 2026-10-03); https://247wallst.com/investing/2026/09/30/intel-rises-3-as-chip-contender-caps-off-surprisingly-strong-september-nvidia-ticks-up-amd-slips/ (read 2026-10-03)"
+    "source": "https://www.trefis.com/stock/intc/articles/616955/what-changed-for-intel-stock-and-what-did-not/2026-09-29 (read 2026-10-03); https://www.fool.com/investing/2026/09/27/intel-stock-surged-over-40-in-september-history-sh/ (read 2026-10-03); https://247wallst.com/investing/2026/09/30/intel-rises-3-as-chip-contender-caps-off-surprisingly-strong-september-nvidia-ticks-up-amd-slips/ (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the text said 'more than 40%', the game's month-end prices give +34% (89.51 to 120.23)"
   }
 ]

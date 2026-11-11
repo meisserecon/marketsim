@@ -15,6 +15,18 @@
   },
   {
     "month": "2022-01",
+    "kind": "world",
+    "headline": "The Fed signals rate rises and shares fall 5 percent",
+    "text": "The S&P 500 set a record on 3 January and then fell 5 percent in the month to 4,515.55, its worst month since March 2020. Minutes published on 5 January showed the Fed, with inflation at its highest in nearly 40 years, discussing raising its rate sooner and faster and shrinking its bond holdings; on 26 January it said it would 'soon be appropriate' to raise the rate, and investors expect the first step in March. Higher rates hurt expensive growth shares most: the Nasdaq lost 9 percent and stands more than 10 percent below its November record, which Wall Street calls a correction, and Nvidia fell 17 percent, Tesla 11 percent and Amazon 10 percent. On 24 January, amid fears that Russia would invade Ukraine, the S&P 500 was down about 4 percent during the day and still closed higher.",
+    "assets": [
+      "nvda",
+      "tsla",
+      "amzn"
+    ],
+    "source": "https://www.cheddar.com/media/stocks-stock-markets-01-31-2022 (AP, 31 January 2022, read 2026-11-10); https://www.cnbc.com/2022/01/30/stock-market-futures-open-to-close-news.html (CNBC, 31 January 2022: Nasdaq, Tesla, Nvidia, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-05-2022/ (AP, 5 January 2022: the minutes, read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220126a.htm (read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-26-2022/ (AP, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-19-2022/ (AP: Nasdaq 10.7% below its record of 19 November, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-24-2022/ (AP, 24 January 2022, read 2026-11-10); https://en.wikipedia.org/wiki/2022_stock_market_decline (record of 3 January, read 2026-11-10); data/reference/sp500.json; data/out/nvda.json, tsla.json, amzn.json"
+  },
+  {
+    "month": "2022-01",
     "kind": "company",
     "headline": "Schlumberger sees a new 'supercycle'",
     "text": "On 21 January Schlumberger reported 2021 earnings per share up 88 percent excluding charges and 3.0 billion dollars of free cash flow. Chief executive Olivier Le Peuch said conditions are strikingly similar to the last industry supercycle and expects an exceptional multiyear growth cycle. US crude rose from about 75 to 89 dollars during January, while the S&P 500 fell about 5 percent. Energy shares were the place to be: ExxonMobil rose 24 percent, as the monthly average oil price was the highest since 2014.",
@@ -56,20 +68,17 @@
   },
   {
     "month": "2022-02",
-    "kind": "colour",
-    "headline": "Switzerland lifts almost all Covid rules",
-    "text": "On 17 February Switzerland lifted almost all its coronavirus measures. The certificate is no longer needed, and masks remain mandatory only on public transport and in healthcare institutions.",
+    "kind": "world",
+    "headline": "Russia invades Ukraine; Switzerland joins the EU's sanctions",
+    "text": "On 24 February Vladimir Putin announced a 'special military operation', and Russian forces attacked Ukraine from Belarus in the north, the Donbas in the east and Crimea in the south. President Volodymyr Zelensky declared martial law and stayed in Kyiv; Russian troops came within about 9 kilometres of the parliament there and entered Kharkiv, but by 28 February neither city had fallen, and first talks that day ended without result. The UN counts more than 500,000 refugees, over half of them in Poland. The United States, its European allies and Canada agreed to cut major Russian banks off from SWIFT, the banks' network for payments abroad, and the Russian central bank was blocked from its reserves held in the West; on 28 February the rouble fell by up to 30 percent to a record low, the central bank raised its interest rate from 9.5 to 20 percent, and the Moscow stock exchange stayed closed. The same day Switzerland adopted the EU's sanctions and froze the assets of those listed, Putin among them, something it had not done after the annexation of Crimea in 2014; President Ignazio Cassis said neutrality 'remains intact'.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03)",
-    "image": "/news/life/2022-02-federal-palace-of-switzerland.jpg",
-    "imageCaption": "Federal Palace of Switzerland, 2010",
-    "imageCredit": "Mike Lehmann, Mike Switzerland (talk) 05:54, 14 July 2010 (UTC)"
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_the_Russian_invasion_of_Ukraine_(24_February_%E2%80%93_7_April_2022) (read 2026-11-10); https://www.aljazeera.com/news/2022/2/28/500000-people-have-fled-ukraine-conflict-un (28 February 2022, read 2026-11-10); https://www.cnbc.com/2022/02/28/russia-central-bank-hikes-interest-rates-to-20percent-from-9point5percent-to-bolster-ruble.html (28 February 2022: rouble, rate, SWIFT, market closed, read 2026-11-10); https://en.wikipedia.org/wiki/International_sanctions_during_the_Russian_invasion_of_Ukraine (read 2026-11-10); https://www.admin.ch/en/nsb?id=87386 (Federal Council, 28 February 2022, read 2026-11-10); https://www.businessday.co.za/bd/world/europe/2022-02-28-neutral-swiss-adopt-eu-sanctions-against-russia-in-break-with-past/ (Reuters, 28 February 2022, read 2026-11-10)"
   },
   {
     "month": "2022-02",
     "kind": "world",
-    "headline": "Russia invades Ukraine, oil tops $100",
-    "text": "Russia invaded Ukraine on 24 February. Brent passed $100 a barrel for the first time since 2014 and ended the month at $103. Europe, which depends on Russian gas, faces the larger energy problem.",
+    "headline": "Oil tops $100 as war breaks out",
+    "text": "After Russia's invasion of Ukraine on 24 February, Brent passed $100 a barrel for the first time since 2014 and ended the month at $103. Europe, which depends on Russian gas, faces the larger energy problem.",
     "assets": [],
     "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D (read 2026-10-03); https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis (read 2026-10-03)",
     "image": "/news/oil/2022-02-kyiv.jpg",
@@ -101,6 +110,17 @@
     "image": "/news/mercedes/2022-02-eqs.jpg",
     "imageCaption": "The Mercedes-EQ EQS electric sedan, 2022",
     "imageCredit": "Tokumeigakarinoaoshima"
+  },
+  {
+    "month": "2022-02",
+    "kind": "colour",
+    "headline": "Switzerland lifts almost all Covid rules",
+    "text": "On 17 February Switzerland lifted almost all its coronavirus measures. The certificate is no longer needed, and masks remain mandatory only on public transport and in healthcare institutions.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Switzerland (read 2026-10-03)",
+    "image": "/news/life/2022-02-federal-palace-of-switzerland.jpg",
+    "imageCaption": "Federal Palace of Switzerland, 2010",
+    "imageCredit": "Mike Lehmann, Mike Switzerland (talk) 05:54, 14 July 2010 (UTC)"
   },
   {
     "month": "2022-03",
@@ -370,6 +390,19 @@
   },
   {
     "month": "2022-08",
+    "kind": "world",
+    "headline": "Powell promises 'some pain': shares fall 4 percent, long bonds 6",
+    "text": "By 16 August the S&P 500 had risen more than 17 percent from its June low, on hopes that the Fed would soon change course. On 26 August, at the Kansas City Fed's symposium in Jackson Hole, Wyoming, Fed chairman Jerome Powell dashed them: bringing inflation down would require high rates 'for some time' and would 'bring some pain to households and businesses', and history 'cautions strongly against prematurely loosening policy'. The S&P 500 fell 3.4 percent that day and ended August down 4 percent at 3,955.00. The 10-year Treasury yield rose from 2.67 percent at the end of July to 3.15 percent, and because bond prices fall when yields rise, the Treasury bond due in 2040 lost 6 percent. The numbers: the Fed's rate 2.25 to 2.5 percent. Inflation 8.5 percent. Unemployment 3.5 percent.",
+    "assets": [
+      "ust2025",
+      "ust2030",
+      "ust2040"
+    ],
+    "source": "https://www.federalreserve.gov/newsevents/speech/powell20220826a.htm (read 2026-11-10); https://www.pbs.org/newshour/economy/dow-jones-drop-3-percent-after-fed-chair-powell-warns-interest-rates-to-stay-high (AP, 26 August 2022, read 2026-11-10); https://www.cnbc.com/2022/08/30/stock-market-futures-open-to-close-news.html (CNBC, 31 August 2022: the 17% rally to 16 August, the month, read 2026-11-10); https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2022-07-25&coed=2022-09-02 (FRED DGS10, read 2026-11-10); data/reference/sp500.json; data/out/ust2040.json; https://fred.stlouisfed.org/series/DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (CSV downloads read 2026-11-10)",
+    "thread": "rates"
+  },
+  {
+    "month": "2022-08",
     "kind": "company",
     "headline": "Sandoz to be spun off by the end of 2023",
     "text": "Novartis said in August that it will complete the separation of its generics business Sandoz into an independent company by the end of 2023. It had announced in 2018 that Sandoz would become a stand-alone unit.",
@@ -399,17 +432,6 @@
   },
   {
     "month": "2022-09",
-    "kind": "colour",
-    "headline": "Roger Federer retires",
-    "text": "On 15 September Roger Federer, 41, announced that he will retire from professional tennis after the Laver Cup later this month, a team competition he helped create. He won 20 Grand Slam titles and was the first man to reach 20. He had played little since knee operations.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2022-09-federer-nadal-hands.jpg",
-    "imageCaption": "Roger Federer and Rafael Nadal, in tears and holding hands, at Federer's farewell at the Laver Cup in London, 23 September 2022",
-    "imageCredit": "Ella Ling/Shutterstock"
-  },
-  {
-    "month": "2022-09",
     "kind": "world",
     "headline": "Mahsa Amini dies in custody: 'Woman, Life, Freedom'",
     "text": "Mahsa (Jina) Amini, a 22-year-old Kurdish woman from Saqqez, was detained in Tehran by the morality police on 13 September for allegedly wearing her headscarf improperly; she fell into a coma and died on 16 September. Protests began at her funeral and spread across the country, led by women and girls, under the slogan 'Woman, Life, Freedom'. Security forces have responded with force; rights groups counted dozens of deaths within the first week. The internet is heavily restricted.",
@@ -421,10 +443,21 @@
     "imageCredit": "Darafsh"
   },
   {
+    "month": "2022-09",
+    "kind": "colour",
+    "headline": "Roger Federer retires",
+    "text": "On 15 September Roger Federer, 41, announced that he will retire from professional tennis after the Laver Cup later this month, a team competition he helped create. He won 20 Grand Slam titles and was the first man to reach 20. He had played little since knee operations.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2022-09-federer-nadal-hands.jpg",
+    "imageCaption": "Roger Federer and Rafael Nadal, in tears and holding hands, at Federer's farewell at the Laver Cup in London, 23 September 2022",
+    "imageCredit": "Ella Ling/Shutterstock"
+  },
+  {
     "month": "2022-10",
     "kind": "company",
     "headline": "Körner's rescue plan: 4 billion francs and 9,000 jobs",
-    "text": "After rumours about its health spread on social media early in the month, Credit Suisse announced on 27 October a fourth consecutive quarterly loss and a new plan: a capital increase of 4 billion francs, with the Saudi National Bank investing up to 1.5 billion for a stake of up to 9.9%; about 9,000 jobs cut by 2025; and a separate investment bank, CS First Boston, to be built up under Michael Klein. The shares opened 14% lower at 4.10 francs.",
+    "text": "After rumours about its health spread on social media early in the month, Credit Suisse announced on 27 October a fourth consecutive quarterly loss and a new plan: a capital increase of 4 billion francs, with the Saudi National Bank investing up to 1.5 billion for a stake of up to 9.9%; about 9,000 jobs cut by 2025; and a separate investment bank, CS First Boston, to be built up under Michael Klein. The shares opened 14% lower.",
     "assets": [
       "credit-suisse"
     ],
@@ -476,9 +509,11 @@
     "month": "2022-10",
     "kind": "world",
     "headline": "The yen falls past 150 per dollar",
-    "text": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998.",
-    "assets": [],
-    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03)",
+    "text": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998. For a company like Sony, a weak yen raises the value of foreign earnings in yen, but lowers its share price in dollars.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
     "image": "/news/asia/2022-10-masato-kanda-japans-top-currency-officia.jpg",
     "imageCaption": "Masato Kanda, Japan's top currency official in 2022",
     "imageCredit": "Masato Kanda"
@@ -546,30 +581,24 @@
     "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03); https://www.berkshirehathaway.com/letters/2024ltr.pdf (read 2026-10-03); data/out/brk.json price series"
   },
   {
-    "month": "2022-10",
-    "kind": "company",
-    "headline": "eBay buys TCGplayer",
-    "text": "eBay bought TCGplayer, a marketplace for collectible card games, for about $295 million.",
+    "month": "2022-11",
+    "kind": "world",
+    "headline": "Inflation eases to 7.7 percent: shares up 5 percent, with their best day since 2020",
+    "text": "On 10 November the government reported that consumer prices in October were 7.7 percent higher than a year earlier, less than the 8 percent economists expected and the smallest rise since January; in June it had been 9.1 percent. The S&P 500 jumped 5.5 percent that day, its best day since April 2020, the Nasdaq 7.4 percent, and the 10-year Treasury yield dropped from 4.12 to 3.82 percent. The Fed had raised its rate by three quarters of a point for the fourth time in a row on 2 November, to 3.75 to 4 percent, but on 30 November chairman Jerome Powell said the time for smaller steps 'may come as soon as the December meeting'. The S&P 500 ended November up 5 percent at 4,080.11, still about 14 percent lower than at the start of the year, and the Treasury bond due in 2040 gained 8 percent.",
     "assets": [
-      "ebay"
+      "ust2025",
+      "ust2030",
+      "ust2040"
     ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
-    "image": "/news/ebay/2022-10-a-collection-of-pokemon-trading-cards.jpg",
-    "imageCaption": "A collection of Pokémon trading cards",
-    "imageCredit": "Jarek Tuszyński"
+    "source": "https://www.bls.gov/news.release/archives/cpi_11102022.htm (read 2026-11-10); https://abc17news.com/news/ap-national-news/2022/11/10/wall-street-surges-dow-up-1200-points-on-cooling-inflation/ (AP, 10 November 2022, read 2026-11-10); https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2022-10-20&coed=2022-12-01 (FRED DGS10, read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20221102a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm (read 2026-11-10); https://www.nhpr.org/national/2022-11-30/stocks-rally-after-fed-chair-signals-slowdown-in-rate-hikes (AP, 30 November 2022, read 2026-11-10); data/reference/sp500.json; data/out/ust2040.json"
   },
   {
-    "month": "2022-10",
-    "kind": "company",
-    "headline": "The yen falls to its weakest in decades",
-    "text": "The yen fell to nearly 150 to the dollar in October, its weakest since 1990. A weak yen raises the value of Sony's foreign earnings in yen, but lowers its share price in dollars.",
-    "assets": [
-      "sony"
-    ],
-    "source": "data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
-    "image": "/news/sony/2022-10-sonys-headquarters-at-sony-city-tokyo.jpg",
-    "imageCaption": "Sony's headquarters at Sony City, Tokyo",
-    "imageCredit": "Tyvic"
+    "month": "2022-11",
+    "kind": "world",
+    "headline": "The crypto exchange FTX goes bankrupt",
+    "text": "FTX, a cryptocurrency exchange based in the Bahamas that investors valued at 32 billion dollars in January, filed for bankruptcy on 11 November together with its sister trading firm Alameda Research and more than 100 affiliated companies; its founder Sam Bankman-Fried, 30, resigned. The run began after a report on 2 November that about 40 percent of Alameda's assets consisted of FTT, a token created by FTX itself: the rival exchange Binance said it would sell its FTT, customers demanded about 6 billion dollars back within three days, FTX stopped paying out, and Binance, which had agreed on 8 November to buy it, withdrew a day later. The new chief executive John Ray, who oversaw the restructuring of Enron after its collapse, wrote that he had never seen 'such a complete failure of corporate controls'; there may be a million creditors. Bitcoin fell below 16,000 dollars on 9 November, its lowest since November 2020; a year earlier it had reached a record of almost 69,000.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX (read 2026-11-10); https://en.wikipedia.org/wiki/FTX (read 2026-11-10); https://fortune.com/2022/11/11/ftx-chapter-11-bankruptcy-sam-bankman-fried-resigns/ (11 November 2022, read 2026-11-10); https://abc30.com/post/ftx-crypto-chapter-11-bankruptcy-price/12442197/ (ABC News, 11 November 2022, read 2026-11-10); https://www.ibj.com/articles/ftx-says-it-owes-more-than-3-billion-to-creditors (AP, 20 November 2022: Ray's statement, creditors, read 2026-11-10); https://www.coindesk.com/markets/2022/11/09/bitcoin-falls-below-17k-amid-latest-ftx-meltdown/ (9 November 2022, read 2026-11-10); https://www.aljazeera.com/economy/2021/11/10/bitcoin-flirts-with-69000-on-heels-of-surging-inflation-news (Bloomberg, 10 November 2021: record of about 68,991 dollars, read 2026-11-10)"
   },
   {
     "month": "2022-11",
@@ -624,22 +653,17 @@
   },
   {
     "month": "2022-12",
-    "kind": "colour",
-    "headline": "ChatGPT, and Messi's World Cup",
-    "text": "ChatGPT, a chatbot from the American company OpenAI that answers questions and writes texts in ordinary language, was released on 30 November and gained one million users in five days. On 18 December Argentina won the World Cup final in Qatar against France on penalties after a 3-3 draw, with two goals by Lionel Messi and a hat-trick by Kylian Mbappé.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final (read 2026-10-03)",
-    "image": "/news/life/2022-12-chatgpt-altman.jpg",
-    "imageCaption": "Sam Altman, chief executive of OpenAI, November 2022",
-    "imageCredit": "Village Global"
-  },
-  {
-    "month": "2022-12",
     "kind": "world",
     "headline": "2022 in review: the worst year since 2008",
-    "text": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Nasdaq 33%; the Dow lost 8.8%. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "text": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Dow lost 8.8%. The Nasdaq ended the year at 10,466, down 33%, after the worst first half in its history. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
+    "assets": [
+      "nvda",
+      "amzn",
+      "tsla",
+      "msft",
+      "aapl"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
     "image": "/news/markets/2022-12-year-chart.png",
     "imageCaption": "American shares (S&P 500) at the end of each month of 2022: down 19 percent in the year",
     "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
@@ -657,23 +681,6 @@
   },
   {
     "month": "2022-12",
-    "kind": "world",
-    "headline": "The Nasdaq loses a third in 2022",
-    "text": "The Nasdaq ended 2022 at 10,466, down 33% for the year, its worst since 2008, after the worst first half in its history.",
-    "assets": [
-      "nvda",
-      "amzn",
-      "tsla",
-      "msft",
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2022-12-the-nasdaq-tower-on-times-square-novembe.jpg",
-    "imageCaption": "The Nasdaq tower on Times Square, November 2022",
-    "imageCredit": "Aylakinn"
-  },
-  {
-    "month": "2022-12",
     "kind": "company",
     "headline": "Tesla's worst month as Musk is busy with Twitter",
     "text": "Tesla shares fell to their lowest in more than two years in late December and have lost more than half their value since the start of October. Investors worry that Twitter, which Musk bought in October and now runs, takes too much of his time.",
@@ -684,5 +691,16 @@
     "image": "/news/tsla/2022-12-musk.jpg",
     "imageCaption": "Elon Musk, July 2022",
     "imageCredit": "U.S. Air Force / Trevor Cokley"
+  },
+  {
+    "month": "2022-12",
+    "kind": "colour",
+    "headline": "Messi's World Cup, and a million people try ChatGPT",
+    "text": "On 18 December Argentina won the World Cup final in Qatar against France on penalties after a 3-3 draw, with two goals by Lionel Messi and a hat-trick by Kylian Mbappé. ChatGPT, the chatbot that OpenAI released on 30 November, gained one million users in five days.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final (read 2026-10-03)",
+    "image": "/news/life/2022-12-chatgpt-altman.jpg",
+    "imageCaption": "Sam Altman, chief executive of OpenAI, November 2022",
+    "imageCredit": "Village Global"
   }
 ]

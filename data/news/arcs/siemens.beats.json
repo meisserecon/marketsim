@@ -136,24 +136,14 @@
   {
     "id": "db0746b3",
     "month": "2013-07",
-    "title": "Löscher is ousted; finance chief Joe Kaeser takes over",
-    "what": "In July Siemens replaced Peter Löscher with its finance chief Joe Kaeser, four years before Löscher's contract was due to end, after late deliveries of ICE high-speed trains and delays at offshore wind projects. Kaeser has worked at Siemens since 1980.",
-    "why": "The start of the Kaeser era: Vision 2020, the spin-offs of Healthineers and Siemens Energy, and a share price that more than doubles with dividends by 2021.",
+    "title": "Siemens ousts Löscher and spins off Osram",
+    "what": "In July Siemens replaced Peter Löscher with its finance chief Joe Kaeser, four years before Löscher's contract was due to end, after late deliveries of ICE high-speed trains and delays at offshore wind projects. Kaeser has worked at Siemens since 1980. Earlier in the month, on 5 July, Siemens spun off Osram, its light bulb maker since 1978: Siemens shareholders received Osram shares directly, and they began trading in Frankfurt on 8 July.",
+    "why": "The start of the Kaeser era: Vision 2020, the spin-offs of Healthineers and Siemens Energy, and a share price that more than doubles with dividends by 2021. The first of the Kaeser-era separations, though planned under Löscher. The price series is adjusted for the spin-off.",
     "assets": [
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03)"
-  },
-  {
-    "id": "c25e6fb1",
-    "month": "2013-07",
-    "title": "Siemens spins off its lighting arm Osram",
-    "what": "Siemens spun off Osram, its light bulb maker since 1978, on 5 July; Osram shares began trading in Frankfurt on 8 July. Siemens shareholders received Osram shares directly, after more than 98% of them approved the plan in January.",
-    "why": "The first of the Kaeser-era separations, though planned under Löscher. The price series is adjusted for the spin-off.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03); https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)",
+    "changed": "consistency review of November 2026: two Siemens stories in July 2013; now one (with siemens/c25e6fb1)"
   },
   {
     "id": "687adf32",
@@ -245,7 +235,7 @@
     "id": "0daa8fa4",
     "month": "2023-11",
     "title": "Another record year and a higher dividend",
-    "what": "On 16 November Siemens reported a record fiscal 2023, with free cash flow above 10 billion euros for the first time, proposed raising the dividend to 4.70 euros and expanded its share buyback. Stock markets rallied strongly in November. Siemens shares rose 27%.",
+    "what": "On 16 November Siemens reported a record fiscal 2023, with free cash flow above 10 billion euros for the first time, proposed a higher dividend and expanded its share buyback. Stock markets rallied strongly in November. Siemens shares rose 27%.",
     "why": "Strong results meet a broad market rally (S&P 500 +9%).",
     "assets": [
       "siemens"
@@ -254,7 +244,8 @@
       "asset": "siemens",
       "pct": 27
     },
-    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2023 (read 2026-10-03)"
+    "source": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2023 (read 2026-10-03)",
+    "changed": "rule on metrics: dividend per share removed"
   },
   {
     "id": "d7af40ac",

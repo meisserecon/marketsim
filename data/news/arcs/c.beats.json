@@ -248,6 +248,22 @@
     "source": "https://www.sec.gov/Archives/edgar/data/831001/000095012309027722/y78559exv99w1.htm (Citigroup press release, 30 July 2009; read 2026-10-03); https://www.sec.gov/Archives/edgar/data/831001/000110465909043573/a09-18333_1ex99d1.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Citigroup (read 2026-10-03)"
   },
   {
+    "id": "0383fad8",
+    "month": "2009-08",
+    "title": "Citigroup rises 58% in a month on a wave of speculation",
+    "what": "Citigroup's shares rose 58% in August although the bank announced nothing that would explain it. With Bank of America and the state-controlled mortgage companies Fannie Mae and Freddie Mac it dominated the stock market: on 24 August these four made up about 43% of all trading in shares listed on the New York Stock Exchange, and all four have more than doubled from this year's lows. Traders called it a 'dash for trash', short-term speculation in the most battered financial shares, probably pushed along by investors who had bet on falling prices and now had to buy the shares back. On 27 August Citigroup gained another 9% after the New York Post reported that the hedge fund manager John Paulson had bought about 2% of the bank; the shares are still 72% lower than a year ago.",
+    "why": "Citigroup's second-largest monthly gain in the game after March 2009, and a case where the honest answer is speculation: a rescued bank a third owned by the government became the most traded share in America. Paulson's stake was confirmed by filings in November 2009.",
+    "assets": [
+      "c"
+    ],
+    "move": {
+      "asset": "c",
+      "pct": 58
+    },
+    "source": "https://www.ibtimes.com/four-banks-dominate-august-market-dash-trash-316521 and https://www.ibtimes.com/four-banks-dominate-august-market-dash-trash-316591 (Reuters, 25 August 2009, read 2026-11-10); https://www.nbcnews.com/news/amp/wbna32577837 (Reuters, 27 August 2009, read 2026-11-10); https://www.americanbanker.com/news/hedge-fund-boss-said-to-buy-citi-stake (27 August 2009, read 2026-11-10); data/out/c.json (read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: Citigroup's +58% (one of its twelve biggest months) had no story. To check: no single cause was found: the story tells the speculation in rescued financial shares; Paulson's stake was an unconfirmed press report"
+  },
+  {
     "id": "8133c1b2",
     "month": "2009-12",
     "title": "Citigroup repays $20 billion of rescue money with a record share sale",
@@ -408,12 +424,13 @@
     "id": "142a175b",
     "month": "2025-10",
     "title": "Citigroup agrees to sell a quarter of Banamex",
-    "what": "Citigroup reported third-quarter net income of $3.8 billion, up from $3.2 billion, and said it has agreed to sell a 25% stake in its Mexican bank Banamex, a step toward selling it entirely; it took a $726 million goodwill charge on the deal. It returned $12 billion to shareholders in the first nine months. The shares are around $100, the highest since the autumn of 2008.",
+    "what": "Citigroup reported third-quarter net income of $3.8 billion, up from $3.2 billion, and said it has agreed to sell a 25% stake in its Mexican bank Banamex, a step toward selling it entirely; it took a $726 million goodwill charge on the deal. It returned $12 billion to shareholders in the first nine months. The shares are at their highest since the autumn of 2008.",
     "why": "The long recovery made visible; the price was still far below the pre-crisis peak, and the share count much higher.",
     "assets": [
       "c"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465925099097/c-20251014xex99d1.htm (Citigroup press release, 14 October 2025; read 2026-10-03); data/out/c.json"
+    "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465925099097/c-20251014xex99d1.htm (Citigroup press release, 14 October 2025; read 2026-10-03); data/out/c.json",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "321f9171",

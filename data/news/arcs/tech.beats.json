@@ -184,7 +184,7 @@
     "id": "1f8b5752",
     "month": "2000-01",
     "title": "AOL, an internet company, agrees to buy Time Warner",
-    "what": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "what": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners. AOL's own shares fell 26% in January.",
     "why": "The new economy buying the old with inflated paper, two months before the Nasdaq's top; the deal became a byword for the excesses of the bubble.",
     "assets": [
       "aol"
@@ -194,7 +194,8 @@
     "move": {
       "asset": "aol",
       "pct": -26
-    }
+    },
+    "changed": "consistency review of November 2026: the story carried AOL's -26% but never said the shares fell; one sentence added from the game's prices"
   },
   {
     "id": "2d403d86",
@@ -218,7 +219,7 @@
     "id": "9d262fe0",
     "month": "2000-04",
     "title": "The Nasdaq loses 25% in a week",
-    "what": "On 3 April a judge ruled that Microsoft broke antitrust law; Microsoft fell 15% and the Nasdaq 8% that day. On 14 April the Nasdaq fell 9.7%, ending a week in which it lost 25%. It ended April at 3,861, almost a quarter below its March record.",
+    "what": "The Nasdaq fell 8% on 3 April, the day a judge ruled that Microsoft broke antitrust law. On 14 April it fell 9.7%, ending a week in which it lost 25%. It ended April at 3,861, almost a quarter below its March record.",
     "why": "The bubble bursts. There were sharp rallies to come, but the March peak was the high for fifteen years.",
     "assets": [
       "msft",
@@ -229,25 +230,30 @@
     ],
     "thread": "dotcom",
     "source": "https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "consistency review of November 2026: the Microsoft ruling was told twice in April 2000; the details are left to the Microsoft story"
   },
   {
     "id": "60096261",
     "month": "2000-05",
     "lead": true,
     "title": "'Maybe the music has stopped': the Nasdaq is down a third",
-    "what": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
+    "what": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. Apple lost a third of its value in May, eBay a fifth and Cisco 18 percent. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
     "why": "The mood turns: after March the question is no longer how high, but whether it was a bubble all along. The professionals lost both ways, those who joined in late and those who stayed out too early. The Nasdaq still had three quarters of its fall ahead of it.",
-    "assets": [],
+    "assets": [
+      "aapl",
+      "ebay",
+      "csco"
+    ],
     "thread": "dotcom",
     "source": "https://www.spokesman.com/stories/2000/may/23/markets-have-wild-ride/ (search result read 2026-10-04); https://www.cnn.com/TRANSCRIPTS/0005/16/bn.01.html (search result read 2026-10-04); https://money.cnn.com/2000/04/28/mutualfunds/soros/ (search result read 2026-10-04); https://www.safalniveshak.com/risks-of-speculating-during-rising-markets/ (search result read 2026-10-04); https://en.wikipedia.org/wiki/Julian_Robertson (read 2026-10-04); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04)",
-    "changed": "New Economy storyline: new lead story for May 2000 requested by the curator"
+    "changed": "New Economy storyline: new lead story for May 2000 requested by the curator; consistency review of November 2026: Apple's -32% (one of its twelve biggest months) had no story; the month's lead now names the worst hit, from the game's prices"
   },
   {
     "id": "dcb51390",
     "month": "2000-11",
-    "title": "The Nasdaq's worst month since 1987; Pets.com closes",
-    "what": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
+    "title": "The Nasdaq's worst month since 1987",
+    "what": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. The sell-off has spread from internet start-ups such as Pets.com, which is shutting down nine months after its IPO, to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
     "why": "The second leg of the crash, when the internet sell-off spread to the big technology companies. The S&P 500's -8% month was driven by tech.",
     "assets": [
       "pets-com",
@@ -261,14 +267,15 @@
       "pct": -8
     },
     "thread": "dotcom",
-    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.nbcnewyork.com/news/business/money-report/dot-com-bust-1987-crash-had-massive-relief-rallies-similar-to-wednesdays-pop/6219144/ (read 2026-10-03); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20001219.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida (read 2026-10-03); data/reference/sp500.json",
+    "changed": "consistency review of November 2026: the closing of Pets.com was told twice in November 2000 (and dated 7 November in one story, 9 November in the other); it now has its own story only"
   },
   {
     "id": "d892ed14",
     "month": "2001-02",
     "title": "The telecom bust: network gear makers crash",
-    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
-    "why": "The telecom bubble, financed by more than 500 billion dollars mostly of debt since 1996, began to burst; telecom companies lost about 700 billion dollars of market value over two years. The S&P's -9% month is this sell-off.",
+    "what": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales; WorldCom is laying off about 6,000 workers. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
+    "why": "The telecom bubble, financed by more than 500 billion dollars mostly of debt since 1996, began to burst; telecom companies lost about 700 billion dollars of market value over two years. The S&P's -9% month is this sell-off. Cost cuts as revenue growth stalled; behind the scenes, the improper capitalisation of line costs started in 2001.",
     "assets": [
       "csco",
       "nokia",
@@ -280,7 +287,8 @@
       "asset": "sp500",
       "pct": -9
     },
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)"
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03); https://www.foxnews.com/story/worldcom-timeline (Associated Press timeline, 8 August 2002; read 2026-10-03)",
+    "changed": "consistency review of November 2026: WorldCom's one-sentence story on 6,000 job cuts folded in (with worldcom/7674e542)"
   },
   {
     "id": "05b10b61",
@@ -294,39 +302,6 @@
       "intc"
     ],
     "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "d1f2d773",
-    "month": "2001-04",
-    "title": "Another rate cut, another rally",
-    "what": "The Nasdaq rose 8.9% on 5 April and 8.1% on 18 April, when the Fed again cut rates between meetings, and gained 15% in the month to 2,116. Internet survivors led: Amazon rose about half, Nokia 42%.",
-    "why": "A bear-market rally; by September the index was far lower.",
-    "assets": [
-      "amzn",
-      "nokia",
-      "ebay",
-      "csco",
-      "bonds"
-    ],
-    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "1f5646bf",
-    "month": "2001-11",
-    "title": "Technology leads the rebound after September",
-    "what": "After falling 17% in September, the month of the attacks of 11 September, the Nasdaq rose 13% in October and 14% in November, to 1,931. Chipmakers led: Nvidia gained 56% in October, Intel 34% in November.",
-    "why": "The autumn 2001 rally; the bust had another year to run.",
-    "assets": [
-      "nvda",
-      "intc",
-      "csco",
-      "amzn"
-    ],
-    "move": {
-      "asset": "sp500",
-      "pct": 8
-    },
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "id": "4b102c67",
@@ -359,20 +334,6 @@
       "csco"
     ],
     "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "6e2fc338",
-    "month": "2003-12",
-    "title": "The Nasdaq gains 50% in 2003",
-    "what": "The Nasdaq rose 50% in 2003 and closed the year just under 2,000, after briefly passing it on 29 December. The survivors of the bust, from Amazon to Nvidia, have multiplied from their lows.",
-    "why": "The calendar-year turn of the recovery; the S&P's +24% year (shown as 2003 in the movers list) owes much to it.",
-    "assets": [
-      "amzn",
-      "nvda",
-      "intc",
-      "csco"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
     "id": "f92e4ca0",
@@ -422,21 +383,6 @@
     "source": "https://en.wikipedia.org/wiki/HTC_Dream (read 2026-10-03)"
   },
   {
-    "id": "1987b069",
-    "month": "2009-12",
-    "title": "Technology leads the recovery: Nasdaq up 44% in 2009",
-    "what": "The Nasdaq ended 2009 at 2,269, up 44% for the year and 79% above its low of 1,268.64 on 9 March.",
-    "why": "The financial crisis interrupted the mobile wave only briefly; technology led the next decade's bull market.",
-    "assets": [
-      "aapl",
-      "amzn",
-      "nvda",
-      "intc"
-    ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "lead": true
-  },
-  {
     "id": "72c98751",
     "month": "2010-04",
     "title": "The iPad sells 300,000 on its first day",
@@ -449,19 +395,6 @@
     ],
     "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation) (read 2026-10-03)",
     "lead": true
-  },
-  {
-    "id": "8a51bd95",
-    "month": "2011-08",
-    "title": "Apple becomes the world's most valuable company",
-    "what": "In August Apple passed ExxonMobil as the most valuable listed company in the world. It had passed Microsoft in May 2010, for the first time since 1989.",
-    "why": "The changing of the guard: the mobile wave's winner overtook both the oil giant and the PC era's champion.",
-    "assets": [
-      "aapl",
-      "xom",
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Apple_Inc. (read 2026-10-03)"
   },
   {
     "id": "29844f8e",
@@ -489,24 +422,32 @@
     "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
   },
   {
-    "id": "44a0d949",
-    "month": "2016-03",
-    "title": "A Google computer beats the world's best Go player",
-    "what": "From 9 to 15 March AlphaGo, a program from Google's DeepMind, beat the Korean Go master Lee Sedol 4 to 1 in Seoul. Go was thought to be decades beyond computers. About 60 million people watched in China.",
-    "why": "An early sign of the artificial-intelligence wave; the learning methods behind it run on the graphics chips that made Nvidia the AI boom's winner.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)"
-  },
-  {
     "id": "99338b76",
     "month": "2016-03",
     "title": "A computer beats one of the world's best Go players",
     "what": "Go is an ancient board game from Asia and far harder for computers than chess: until last year the best programs played like amateurs. From 9 to 15 March in Seoul, AlphaGo, a program built by Google's DeepMind, beat Lee Sedol, one of the best players in the world, by 4 games to 1. In the second game it played a move that professionals called creative, one that most of them would never have considered. About 60 million people watched in China alone.",
-    "why": "An early sign of what artificial intelligence can do, six years before ChatGPT: the build-up to the Age of AI.",
+    "why": "An early sign of what artificial intelligence can do, six years before ChatGPT: the build-up to the Age of AI. An early sign of the artificial-intelligence wave; the learning methods behind it run on the graphics chips that made Nvidia the AI boom's winner.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04)"
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04); https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)",
+    "changed": "consistency review of November 2026: AlphaGo's win was told twice in March 2016; the fuller story is kept (with tech/44a0d949)"
+  },
+  {
+    "id": "6d0ee66a",
+    "month": "2017-10",
+    "title": "Four technology giants report on one evening; Amazon jumps 13% in a day",
+    "what": "After the market closed on 26 October, Amazon, Microsoft, Google's parent Alphabet and Intel all reported results that pleased investors. Amazon's sales rose 34% to 43.7 billion dollars, and those of its cloud business, which rents out computing power, 42%; Microsoft's sales rose 12% to 24.5 billion, with its Azure cloud up 90%; Intel earned 4.5 billion dollars and raised its forecast for the year. The next day Amazon rose 13.2%, Intel 7.4%, Microsoft 6.4% and Alphabet 4.3%, adding 146 billion dollars to their combined value, more than all of IBM is worth, and the Nasdaq index rose 2.2% to a record 6,701. Over October Intel gained 19%, Amazon 15% and Microsoft 12%.",
+    "why": "The day the market understood how much money the cloud makes, and a marker of the concentration of the index in a handful of technology companies that shapes the years after. Explains three of the month's biggest moves.",
+    "assets": [
+      "amzn",
+      "msft",
+      "intc"
+    ],
+    "move": {
+      "asset": "amzn",
+      "pct": 15
+    },
+    "source": "https://www.pressherald.com/2017/10/27/tech-giants-lead-rally-as-nasdaq-sp-set-records/ (AP; read 2026-11-10); https://www.foxbusiness.com/features/tech-stocks-roar-again-in-faint-echo-of-2000 (Dow Jones; read 2026-11-10); https://www.cnbc.com/2017/10/27/tech-stocks-leaping-higher-after-blowout-earnings-from-amazon-alphabet-and-microsoft.html (read 2026-11-10); https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx (read 2026-11-10); https://www.cnbc.com/2017/10/26/microsoft-earnings-q1-2018.html (read 2026-11-10); https://www.cnbc.com/2017/10/26/intel-earnings-q3-2017.html (read 2026-11-10); data/out/amzn.json; data/out/msft.json; data/out/intc.json",
+    "changed": "new beat, consistency review of November 2026: October 2017 had no story at all, with Intel +19%, Amazon +15% and Microsoft +12%"
   },
   {
     "id": "d5b8ee47",
@@ -535,47 +476,6 @@
       "nvda"
     ],
     "source": "https://en.wikipedia.org/wiki/ChatGPT (read 2026-10-03); https://en.wikipedia.org/wiki/OpenAI (read 2026-10-03)"
-  },
-  {
-    "id": "3607edbd",
-    "month": "2022-12",
-    "title": "The Nasdaq loses a third in 2022",
-    "what": "The Nasdaq ended 2022 at 10,466, down 33% for the year, its worst since 2008, after the worst first half in its history.",
-    "why": "The calendar-year turn of the post-pandemic bust, just before the AI boom began.",
-    "assets": [
-      "nvda",
-      "amzn",
-      "tsla",
-      "msft",
-      "aapl"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "4290e3c4",
-    "month": "2023-12",
-    "title": "The Nasdaq gains 43% in 2023",
-    "what": "The Nasdaq rose 43% in 2023 to 15,011, close to its 2021 record. A handful of large companies tied to artificial intelligence did most of the work.",
-    "why": "The calendar-year turn of the AI boom's first year.",
-    "assets": [
-      "nvda",
-      "msft",
-      "aapl",
-      "amzn"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
-  },
-  {
-    "id": "8baab321",
-    "month": "2025-09",
-    "title": "Nvidia's money flows to Intel and OpenAI",
-    "what": "On 18 September Nvidia said it will invest 5 billion dollars in Intel, and on 22 September it announced a plan to invest up to 100 billion dollars in OpenAI, which will use the money to fill data centres with Nvidia chips. Nvidia passed 4 trillion dollars of market value in July. Intel rose 38% in September.",
-    "why": "The circular deals that made critics speak of an AI bubble, and the start of the AI wave lifting old technology names.",
-    "assets": [
-      "nvda",
-      "intc"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Nvidia (read 2026-10-03); https://en.wikipedia.org/wiki/AI_bubble (read 2026-10-03)"
   },
   {
     "id": "7c384c2e",

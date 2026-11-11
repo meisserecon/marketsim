@@ -40,20 +40,9 @@
   },
   {
     "month": "2002-02",
-    "kind": "colour",
-    "headline": "Simon Ammann's double gold in Salt Lake City",
-    "text": "At the Winter Olympics in Salt Lake City, the 20-year-old Swiss ski jumper Simon Ammann won both individual events, on the normal and the large hill, weeks after a crash in training. With his glasses and boyish face he is being compared to Harry Potter, and he appeared on David Letterman's American talk show.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Simon_Ammann (read 2026-10-03)",
-    "image": "/news/life/2002-02-simon-ammann-the-swiss-ski-jumper.jpg",
-    "imageCaption": "Simon Ammann, the Swiss ski jumper",
-    "imageCredit": "Sławek"
-  },
-  {
-    "month": "2002-02",
     "kind": "company",
     "headline": "WorldCom paid $199 million to cover its chief's margin loans",
-    "text": "WorldCom disclosed on 7 February that, after the fall in its shares, it had paid about $198.7 million to Bank of America under its guarantee of loans to chief executive Bernard Ebbers, and had lent him another $142 million, all secured by his WorldCom shares. Ebbers used the money to meet calls on loans backed by his stock, taken out for private businesses. The same day the company felt it had to reaffirm the MCI group's 60-cent dividend.",
+    "text": "WorldCom disclosed on 7 February that, after the fall in its shares, it had paid about $198.7 million to Bank of America under its guarantee of loans to chief executive Bernard Ebbers, and had lent him another $142 million, all secured by his WorldCom shares. Ebbers used the money to meet calls on loans backed by his stock, taken out for private businesses. The same day the company felt it had to reaffirm the MCI group's dividend.",
     "assets": [
       "worldcom"
     ],
@@ -74,6 +63,17 @@
     "image": "/news/ko/2002-02-coca-colas-headquarters-tower-in-atlanta.jpg",
     "imageCaption": "Coca-Cola's headquarters tower in Atlanta",
     "imageCredit": "DXR"
+  },
+  {
+    "month": "2002-02",
+    "kind": "colour",
+    "headline": "Simon Ammann's double gold in Salt Lake City",
+    "text": "At the Winter Olympics in Salt Lake City, the 20-year-old Swiss ski jumper Simon Ammann won both individual events, on the normal and the large hill, weeks after a crash in training. With his glasses and boyish face he is being compared to Harry Potter, and he appeared on David Letterman's American talk show.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Simon_Ammann (read 2026-10-03)",
+    "image": "/news/life/2002-02-simon-ammann-the-swiss-ski-jumper.jpg",
+    "imageCaption": "Simon Ammann, the Swiss ski jumper",
+    "imageCredit": "Sławek"
   },
   {
     "month": "2002-03",
@@ -116,7 +116,7 @@
     "month": "2002-04",
     "kind": "company",
     "headline": "Ebbers resigns as WorldCom's shares collapse",
-    "text": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April, to below $3.",
+    "text": "Bernard Ebbers resigned as chief executive on 30 April after the board, which had lost patience with his loans, demanded he go; John Sidgmore, former head of UUNet, replaces him. The SEC is investigating WorldCom's accounting. On 22 April Salomon Smith Barney analyst Jack Grubman, long WorldCom's biggest supporter, cut his rating to 'neutral'. The shares fell 63% in April.",
     "assets": [
       "worldcom"
     ],
@@ -165,17 +165,6 @@
     "image": "/news/aol/2002-04-time-warner-building.jpg",
     "imageCaption": "The Time Warner Building in New York",
     "imageCredit": "Rob Young from United Kingdom / Wikimedia Commons"
-  },
-  {
-    "month": "2002-05",
-    "kind": "colour",
-    "headline": "Expo.02, the Swiss national exhibition, opens on the lakes",
-    "text": "Switzerland's sixth national exhibition, Expo.02, opened on 15 May and runs until 20 October. It is spread over four 'Arteplages' built for the event on the lake shores at Biel, Murten, Neuchâtel and Yverdon-les-Bains, plus a converted gravel barge that travels between them. It was planned for 2001 and postponed by a year.",
-    "assets": [],
-    "source": "https://de.wikipedia.org/wiki/Expo.02 (read 2026-10-03)",
-    "image": "/news/life/2002-05-expo02.jpg",
-    "imageCaption": "Expo.02 at Biel/Bienne: the 'Empire of Silence' pavilion on the lakeshore",
-    "imageCredit": "Norbert Aepli"
   },
   {
     "month": "2002-05",
@@ -230,6 +219,17 @@
     "imageCredit": "TGCP"
   },
   {
+    "month": "2002-05",
+    "kind": "colour",
+    "headline": "Expo.02, the Swiss national exhibition, opens on the lakes",
+    "text": "Switzerland's sixth national exhibition, Expo.02, opened on 15 May and runs until 20 October. It is spread over four 'Arteplages' built for the event on the lake shores at Biel, Murten, Neuchâtel and Yverdon-les-Bains, plus a converted gravel barge that travels between them. It was planned for 2001 and postponed by a year.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Expo.02 (read 2026-10-03)",
+    "image": "/news/life/2002-05-expo02.jpg",
+    "imageCaption": "Expo.02 at Biel/Bienne: the 'Empire of Silence' pavilion on the lakeshore",
+    "imageCredit": "Norbert Aepli"
+  },
+  {
     "month": "2002-06",
     "kind": "company",
     "headline": "WorldCom admits a $3.8 billion accounting fraud",
@@ -241,6 +241,17 @@
     "image": "/news/worldcom/2002-06-ebbers.jpg",
     "imageCaption": "Bernard Ebbers, former chief executive of WorldCom, 2001",
     "imageCredit": " U.S. National Communications System"
+  },
+  {
+    "month": "2002-06",
+    "kind": "company",
+    "headline": "Nvidia loses half its value in a month of chip warnings",
+    "text": "Nvidia shares fell 49% in June, in three steps. On 12 June the broker RBC Capital Markets lowered its rating, telling clients to stay on the sidelines until Nvidia has a permanent finance chief and the SEC's inquiry into its accounts is settled; the shares fell 8.7% that day. On 19 June, after AMD and Apple had followed Intel in warning of weak PC sales, the Philadelphia index of chip shares dropped 6.7% and Nvidia 16%. On 25 June the chipmaker Cirrus Logic warned of slack production of Microsoft's Xbox console, and Nvidia, which earned 22% of its revenue from Microsoft in the quarter to April, lost another 19% in two days.",
+    "assets": [
+      "nvda",
+      "msft"
+    ],
+    "source": "https://web.archive.org/web/20021225115841/http://money.cnn.com/2002/06/12/technology/techwrap/index.htm (read 2026-11-10); https://web.archive.org/web/20021225120356/http://money.cnn.com/2002/06/19/technology/techwrap/index.htm (read 2026-11-10); https://web.archive.org/web/20020705150238/http://money.cnn.com/2002/06/27/markets/hotstox/index.htm (read 2026-11-10); https://gamedeveloper.com/game-platforms/xbox-related-stocks-drop-after-cirrus-warning (read 2026-11-10); https://www.sec.gov/Archives/edgar/data/1045810/000101287002002660/d10q.htm (read 2026-11-10); daily closes of NVDA, https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1022198400&period2=1026432000&interval=1d (read 2026-11-10); data/out/nvda.json"
   },
   {
     "month": "2002-06",
@@ -259,7 +270,7 @@
     "month": "2002-06",
     "kind": "company",
     "headline": "A string of verdicts revives litigation fears",
-    "text": "On 11 June a Miami jury ordered Philip Morris, Brown & Williamson and Liggett to pay 37.5 million dollars to a former smoker, John Lukacs, a member of the Engle class, and found him entitled to a share of the 145 billion dollar Engle punitive award. On 21 June a federal judge in Kansas ordered R.J. Reynolds to pay 15 million dollars in punitive damages, and the industry has lost five verdicts in a row on the West Coast. On 24 June Philip Morris shares fell 7.3% to 48.80 dollars. They had been among the best blue chips this year. At the end of May Philip Morris agreed to sell Miller Brewing to South African Breweries for 3.6 billion dollars in shares plus 2 billion of debt, keeping 36% of the new SABMiller.",
+    "text": "On 11 June a Miami jury ordered Philip Morris, Brown & Williamson and Liggett to pay 37.5 million dollars to a former smoker, John Lukacs, a member of the Engle class, and found him entitled to a share of the 145 billion dollar Engle punitive award. On 21 June a federal judge in Kansas ordered R.J. Reynolds to pay 15 million dollars in punitive damages, and the industry has lost five verdicts in a row on the West Coast. On 24 June Philip Morris shares fell 7.3%. They had been among the best blue chips this year. At the end of May Philip Morris agreed to sell Miller Brewing to South African Breweries for 3.6 billion dollars in shares plus 2 billion of debt, keeping 36% of the new SABMiller.",
     "assets": [
       "mo"
     ],
@@ -297,8 +308,8 @@
   {
     "month": "2002-07",
     "kind": "world",
-    "headline": "WorldCom's collapse caps a month of accounting scandals",
-    "text": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
+    "headline": "Accounting scandals send shares down 8 percent",
+    "text": "Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, WorldCom filed for bankruptcy on 21 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
     "assets": [
       "worldcom",
       "csco",

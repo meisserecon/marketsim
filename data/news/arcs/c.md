@@ -60,7 +60,7 @@ big to fail saved the bank, not its shareholders' money.
 
 ## Unexplained moves
 
-- 2009-08 (+58%, market +3%): no Citigroup announcement in August 2009 among its 8-K filings (the
+- 2009-08 (+58%, market +3%): now told by the beat "Citigroup rises 58% in a month on a wave of speculation", added with sources in the review of November 2026. The earlier note: no Citigroup announcement in August 2009 among its 8-K filings (the
   exchange of preferred for common shares closed in late July, second-quarter results came on 17 July).
   The move came during a broad rally in the most-hit financial stocks after the share swap tripled the
   number of tradable shares, but no source read here explains it. Checked: Citigroup 8-K exhibits

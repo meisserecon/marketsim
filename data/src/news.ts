@@ -67,7 +67,9 @@ for (const f of fs.readdirSync(ARCS).filter((f) => f.endsWith(".beats.json")).so
       ...(b.link ? { link: b.link, linkLabel: b.linkLabel ?? "More" } : {}),
       ...(p ? { image: `/${p.file}`, imageCaption: p.caption, imageCredit: credit(p) } : {}),
       // The lead first, then entries and exits, then world news before company news, the bigger price move first.
-      rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + (company ? 2 : 1) - Math.min(0.9, Math.abs(b.move?.pct ?? 0) / 100),
+      // Life of the time comes last unless the curator makes it the lead: it used to rank with world news and so
+      // led every month in which no world story carried a price move.
+      rank: (b.lead ? 0 : 10) + (kind === "listing" || kind === "delisting" ? 0 : 1) + (kind === "colour" ? 3 : company ? 2 : 1) - Math.min(0.9, Math.abs(b.move?.pct ?? 0) / 100),
     });
   }
 }

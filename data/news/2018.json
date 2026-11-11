@@ -1,17 +1,6 @@
 [
   {
     "month": "2018-01",
-    "kind": "colour",
-    "headline": "Federer wins his 20th Grand Slam title",
-    "text": "Roger Federer won the Australian Open again, the first man to win 20 Grand Slam singles titles. He is 36.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2018-01-roger-federer.jpg",
-    "imageCaption": "Roger Federer",
-    "imageCredit": "Carine06 from UK"
-  },
-  {
-    "month": "2018-01",
     "kind": "company",
     "headline": "eBay replaces PayPal with Adyen",
     "text": "On January 31 eBay announced that it will replace PayPal as its main payment processor with the Dutch company Adyen, lowering its costs and giving it more control over payments.",
@@ -87,6 +76,17 @@
     "image": "/news/slb/2018-01-hydraulic-fracturing-at-a-well-in-north.jpg",
     "imageCaption": "Hydraulic fracturing at a well in North Dakota",
     "imageCredit": "Joshua Doubek"
+  },
+  {
+    "month": "2018-01",
+    "kind": "colour",
+    "headline": "Federer wins his 20th Grand Slam title",
+    "text": "Roger Federer won the Australian Open again, the first man to win 20 Grand Slam singles titles. He is 36.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2018-01-roger-federer.jpg",
+    "imageCaption": "Roger Federer",
+    "imageCredit": "Carine06 from UK"
   },
   {
     "month": "2018-02",
@@ -277,17 +277,6 @@
   },
   {
     "month": "2018-06",
-    "kind": "colour",
-    "headline": "The 'eagle' goals against Serbia",
-    "text": "At the World Cup in Russia, Switzerland drew 1-1 with Brazil and beat Serbia 2-1 with a late goal by Xherdan Shaqiri. Shaqiri and Granit Xhaka, both of Albanian descent, celebrated their goals with a double-headed eagle gesture, the Albanian emblem, which caused a controversy; FIFA did not ban them.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
-    "image": "/news/life/2018-06-xherdan-shaqiri-at-the-world-cup-in-russ.jpg",
-    "imageCaption": "Xherdan Shaqiri at the World Cup in Russia, June 2018",
-    "imageCredit": "Антон Зайцев"
-  },
-  {
-    "month": "2018-06",
     "kind": "company",
     "headline": "GE is dropped from the Dow after 111 years",
     "text": "General Electric was removed from the Dow Jones Industrial Average on 26 June and replaced by Walgreens Boots Alliance. It had been in the index continuously since 1907, the longest of any company, and was its worst performer, down more than 55% in a year.",
@@ -324,6 +313,17 @@
     "image": "/news/msft/2018-06-githubs-letterbox-at-its-amsterdam-offic.jpg",
     "imageCaption": "GitHub's letterbox at its Amsterdam office",
     "imageCredit": "Rrustema"
+  },
+  {
+    "month": "2018-06",
+    "kind": "colour",
+    "headline": "The 'eagle' goals against Serbia",
+    "text": "At the World Cup in Russia, Switzerland drew 1-1 with Brazil and beat Serbia 2-1 with a late goal by Xherdan Shaqiri. Shaqiri and Granit Xhaka, both of Albanian descent, celebrated their goals with a double-headed eagle gesture, the Albanian emblem, which caused a controversy; FIFA did not ban them.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
+    "image": "/news/life/2018-06-xherdan-shaqiri-at-the-world-cup-in-russ.jpg",
+    "imageCaption": "Xherdan Shaqiri at the World Cup in Russia, June 2018",
+    "imageCredit": "Антон Зайцев"
   },
   {
     "month": "2018-07",
@@ -406,7 +406,7 @@
     "month": "2018-08",
     "kind": "company",
     "headline": "'Funding secured': Musk tweets about taking Tesla private",
-    "text": "On 7 August Elon Musk wrote on Twitter that he was considering taking Tesla private at 420 dollars a share and that 'funding' was 'secured'. The shares jumped, then fell back as doubts grew about whether the money was really lined up.",
+    "text": "On 7 August Elon Musk wrote on Twitter that he was considering taking Tesla private and that 'funding' was 'secured'. The shares jumped, then fell back as doubts grew about whether the money was really lined up.",
     "assets": [
       "tsla"
     ],
@@ -427,6 +427,17 @@
     "image": "/news/tsla/2018-09-robyn-denholm-who-became-teslas-chair-ma.jpg",
     "imageCaption": "Robyn Denholm, who became Tesla's chair, May 2018",
     "imageCredit": "CeBIT Australia"
+  },
+  {
+    "month": "2018-10",
+    "kind": "world",
+    "headline": "Shares lose 7 percent in October, their worst month since 2011",
+    "text": "On 3 October Fed chairman Jerome Powell said interest rates were still 'a long way' from neutral, the level that neither spurs nor slows the economy, and the yield on 10-year Treasury bonds jumped above 3.2%, the highest in seven years. Shares began to slide the same day: the Dow lost 832 points on 10 October, and on 24 October the Nasdaq fell 4.4%, its worst day since 2011, as investors also worried about the trade dispute with China and about slower profit growth once the boost from this year's tax cut fades. The S&P 500 lost 7% in October to 2,711.74, its worst month since September 2011, and the Nasdaq 9.2%, its worst since November 2008. Technology shares were hit hardest: Amazon fell 20%, which wiped about 200 billion dollars off its value, and Nvidia 25%.",
+    "assets": [
+      "amzn",
+      "nvda"
+    ],
+    "source": "https://www.cnbc.com/2018/10/03/powell-says-were-a-long-way-from-neutral-on-interest-rates.html (read 2026-11-10); https://www.mprnews.org/story/2018/10/10/dow-industrials-sink-831-points-as-tech-companies-plunge (AP; read 2026-11-10); https://www.pbs.org/newshour/economy/stock-sell-off-extends-losing-streak-led-by-tech-companies (AP, 24 October 2018; read 2026-11-10); https://spokesman.com/stories/2018/oct/31/us-stocks-rally-again-but-finish-october-with-stee (AP; read 2026-11-10); https://www.foxbusiness.com/features/october-marks-worst-month-for-us-stocks-in-7-years (AP; read 2026-11-10); data/out/amzn.json; data/out/nvda.json; data/reference/sp500.json"
   },
   {
     "month": "2018-10",
@@ -472,8 +483,8 @@
   {
     "month": "2018-10",
     "kind": "company",
-    "headline": "Flannery out, Culp in; a 22 billion dollar write-off and a one-cent dividend",
-    "text": "On 1 October General Electric replaced John Flannery with board member Larry Culp, former head of Danaher and the first outsider to run GE. On 30 October it reported a third-quarter loss of 22.8 billion dollars, mostly a write-off on the power business, and cut the quarterly dividend from 12 cents to 1 cent.",
+    "headline": "Flannery out, Culp in; a 22 billion dollar write-off and a token dividend",
+    "text": "On 1 October General Electric replaced John Flannery with board member Larry Culp, former head of Danaher and the first outsider to run GE. On 30 October it reported a third-quarter loss of 22.8 billion dollars, mostly a write-off on the power business, and cut the quarterly dividend to a token amount.",
     "assets": [
       "ge"
     ],
@@ -481,6 +492,16 @@
     "image": "/news/ge/2018-10-culp.jpg",
     "imageCaption": "Larry Culp, the former Danaher chief named General Electric's chairman and chief executive on 1 October 2018",
     "imageCredit": "rights holder not named (portrait published by CNBC at his appointment)"
+  },
+  {
+    "month": "2018-11",
+    "kind": "company",
+    "headline": "GE falls another 26% as fears about its debt grow",
+    "text": "On 9 November Stephen Tusa of JPMorgan, the analyst who has long warned about General Electric, cut his price target by 40% to the lowest on Wall Street, pointing to about 100 billion dollars of net liabilities and a weaker outlook for cash flow. On 12 November the new chief executive Larry Culp said on television that GE has 'no higher priority right now' than bringing its debt down and would do so by selling assets; the shares fell as much as 10% that day, to their lowest since March 2009, and the cost of insuring GE's debt against default rose to a six-year high. Within days GE moved to sell about 4 billion dollars of its shares in the oil-services company Baker Hughes. GE lost 26% in November; more than 200 billion dollars of market value has gone since the end of 2016.",
+    "assets": [
+      "ge"
+    ],
+    "source": "https://pbn.com/ge-tumbles-back-toward-2009-bear-market-low-on-jpmorgan-warning/ (Bloomberg, 9 November 2018; read 2026-11-10); https://www.businessday.co.za/bd/companies/2018-11-12-ge-shares-dive-again-as-investors-ignore-ceo-larry-culps-comforting-words/ (Bloomberg; read 2026-11-10); https://www.omanobserver.om/ampArticle/43656 (Reuters, 13 November 2018; read 2026-11-10); https://foxbusiness.com/industrials/general-electrics-baker-hughes-sale-too-little-too-late (14 November 2018; read 2026-11-10); https://fortune.com/2018/11/30/ge-stock-shares-general-electric/ (Bloomberg; read 2026-11-10); https://www.fool.com/investing/2018/12/11/why-general-electric-stock-lost-more-than-25-in-no.aspx (read 2026-11-10); data/out/ge.json"
   },
   {
     "month": "2018-11",
@@ -494,6 +515,17 @@
     "image": "/news/nvda/2018-11-mining.jpg",
     "imageCaption": "A cryptocurrency mining rig built from graphics cards",
     "imageCredit": "Jasper Reichardt"
+  },
+  {
+    "month": "2018-11",
+    "kind": "company",
+    "headline": "Apple stops counting iPhones and its shares fall 18%",
+    "text": "On 1 November Apple reported sales of 62.9 billion dollars for the quarter to September, up 20%, but forecast 89 to 93 billion for the Christmas quarter, growth of only 1 to 5%, and said it will no longer report how many iPhones, iPads and Macs it sells. It sold 46.9 million iPhones, about as many as a year earlier, though at higher prices: iPhone revenue rose 29%. The shares fell 6% the next day, taking Apple's value back below 1 trillion dollars. Later in the month suppliers such as Lumentum, which makes lasers for the iPhone's 3D sensors, and Japan Display cut their own forecasts, and the Wall Street Journal reported that Apple had cut production orders for its newest iPhones; on 30 November Microsoft ended the day as the world's most valuable listed company, ahead of Apple.",
+    "assets": [
+      "aapl",
+      "msft"
+    ],
+    "source": "https://www.apple.com/newsroom/2018/11/apple-reports-fourth-quarter-results/ (read 2026-11-10); https://www.techpartner.news/news/apple-loses-us1-trillion-status-after-tough-holiday-forecast-515064 (Reuters; read 2026-11-10); https://www.fool.com/investing/2018/12/11/why-apple-stock-plunged-184-in-november.aspx (read 2026-11-10); https://arynews.tv/apple-drop-iphone-supplier-warnings (Reuters, 12-13 November 2018; read 2026-11-10); https://fortune.com/2018/11/19/apple-iphone-production-orders-cut/ (read 2026-11-10); https://www.ktvu.com/news/microsoft-surpasses-apple-as-most-valuable-public-company (AP, 30 November 2018; read 2026-11-10); data/out/aapl.json"
   },
   {
     "month": "2018-12",

@@ -91,15 +91,10 @@
   {
     "month": "2016-03",
     "kind": "world",
-    "headline": "A Google computer beats the world's best Go player",
-    "text": "From 9 to 15 March AlphaGo, a program from Google's DeepMind, beat the Korean Go master Lee Sedol 4 to 1 in Seoul. Go was thought to be decades beyond computers. About 60 million people watched in China.",
-    "assets": [
-      "nvda"
-    ],
-    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)",
-    "image": "/news/tech/2016-03-the-computer-racks-that-ran-alphago-on-d.jpg",
-    "imageCaption": "The computer racks that ran AlphaGo, on display",
-    "imageCredit": "Immigrant laborer"
+    "headline": "Shares rebound 7 percent as oil recovers and central banks step in",
+    "text": "American shares began 2016 badly: at their worst the main indexes were more than 11% below their level at New Year, and oil fell to 26 dollars a barrel in mid-February. Then oil turned, rising almost 14% in March to 38 dollars, and the central banks helped. On 10 March the European Central Bank cut its deposit rate to minus 0.4% and raised its bond purchases to 80 billion euros a month; on 16 March the Federal Reserve left its rate at 0.25 to 0.5%, and its officials now expect two small rises this year instead of the four they pencilled in in December. The S&P 500 gained almost 7% in March to 2,059.74, 13% above its level of mid-February and slightly higher than at the start of the year.",
+    "assets": [],
+    "source": "https://www.cnbc.com/2016/03/31/dow-posts-biggest-quarterly-comeback-since-1933.html (read 2026-11-10); https://finance.yahoo.com/news/wall-street-little-changed-open-133343171--finance.html (Reuters, 31 March 2016; read 2026-11-10); https://www.schaeffersresearch.com/content/ezines/2016/03/31/dow-jones-industrial-average-ends-monster-month-on-a-whimper (read 2026-11-10); https://www.foxbusiness.com/markets/wall-street-puts-rough-1q-in-rearview-mirror-looks-for-steady-2q (read 2026-11-10); https://www.ecb.europa.eu/press/pr/date/2016/html/pr160310.en.html (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20160316a.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20160316.htm (read 2026-11-10); data/news/arcs/oil.beats.json (February 2016: oil at 26 dollars); data/reference/sp500.json"
   },
   {
     "month": "2016-03",
@@ -107,7 +102,7 @@
     "headline": "A computer beats one of the world's best Go players",
     "text": "Go is an ancient board game from Asia and far harder for computers than chess: until last year the best programs played like amateurs. From 9 to 15 March in Seoul, AlphaGo, a program built by Google's DeepMind, beat Lee Sedol, one of the best players in the world, by 4 games to 1. In the second game it played a move that professionals called creative, one that most of them would never have considered. About 60 million people watched in China alone.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04)",
+    "source": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-04); https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol (read 2026-10-03)",
     "image": "/news/tech/2016-03-lee-sedol.jpg",
     "imageCaption": "Lee Sedol, 2016",
     "imageCredit": "LG Electronics"
@@ -155,7 +150,7 @@
     "month": "2016-04",
     "kind": "company",
     "headline": "Cameron deal closes in the oil bust",
-    "text": "On 1 April Schlumberger completed its purchase of Cameron, issuing about 138 million new shares plus 14.44 dollars in cash per Cameron share. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
+    "text": "On 1 April Schlumberger completed its purchase of Cameron, paying in new shares and cash. US crude, which fell to about 26 dollars in February, the lowest since 2003, closed April at about 46. Schlumberger cut more than 20,000 jobs in 2015.",
     "assets": [
       "slb"
     ],
@@ -208,39 +203,16 @@
     "month": "2016-06",
     "kind": "world",
     "headline": "Britain votes to leave the EU",
-    "text": "In the referendum of 23 June, 51.9 percent of British voters chose to leave the European Union on a turnout of 72 percent. Prime Minister David Cameron announced his resignation. The pound fell to a 31-year low against the dollar and stock markets fell around the world on the day after the vote.",
+    "text": "In the referendum of 23 June, 51.9 percent of British voters chose to leave the European Union on a turnout of 72 percent. Prime Minister David Cameron announced his resignation. The pound fell to a 31-year low against the dollar and stock markets fell around the world on the day after the vote. European banks and car makers were hit hard: Credit Suisse lost 22% in June, UBS 17%, and BMW, which builds the Mini in Oxford and Rolls-Royce at Goodwood, 14%.",
     "assets": [
       "credit-suisse",
-      "ubs"
+      "ubs",
+      "bmw"
     ],
-    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); data/out/credit-suisse.json (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum (read 2026-10-03); data/out/credit-suisse.json (read 2026-10-03); https://en.wikipedia.org/wiki/Brexit (read 2026-10-03); https://en.wikipedia.org/wiki/Mini_(marque) (read 2026-10-03)",
     "image": "/news/world/2016-06-cameron-resigns.jpg",
     "imageCaption": "David Cameron, with his wife Samantha, announces his resignation outside 10 Downing Street the morning after the referendum, 24 June 2016",
     "imageCredit": "Alastair Grant/AP"
-  },
-  {
-    "month": "2016-06",
-    "kind": "colour",
-    "headline": "The Gotthard Base Tunnel opens",
-    "text": "The Gotthard Base Tunnel was inaugurated on 1 June. At 57 kilometres it is the longest railway tunnel in the world, the first flat, low-level route through the Alps, for trains between central Switzerland and Ticino. Regular service begins in December.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel (read 2026-10-03)",
-    "image": "/news/life/2016-06-gotthard.jpg",
-    "imageCaption": "Celebrations for the opening of the Gotthard Base Tunnel, June 2016",
-    "imageCredit": "Rama"
-  },
-  {
-    "month": "2016-06",
-    "kind": "company",
-    "headline": "Britain votes to leave the EU",
-    "text": "In the referendum of 23 June, 51.9% of British voters chose to leave the European Union. BMW builds the Mini in Oxford and Rolls-Royce at Goodwood.",
-    "assets": [
-      "bmw"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Brexit (read 2026-10-03); https://en.wikipedia.org/wiki/Mini_(marque) (read 2026-10-03)",
-    "image": "/news/bmw/2016-06-a-polling-station-sign-on-the-day-of-the.jpg",
-    "imageCaption": "A polling station sign on the day of the EU referendum, 23 June 2016",
-    "imageCredit": "Ungry Young Man from Vienna, Austria"
   },
   {
     "month": "2016-06",
@@ -256,15 +228,15 @@
     "imageCredit": "TechCrunch on Flickr"
   },
   {
-    "month": "2016-07",
+    "month": "2016-06",
     "kind": "colour",
-    "headline": "Solar Impulse flies round the world; Pokémon Go sends players into the streets",
-    "text": "On 26 July the Swiss solar-powered plane Solar Impulse 2, flown by Bertrand Piccard and André Borschberg, landed in Abu Dhabi, completing the first flight around the world on solar power alone after 16 months. Since 6 July the smartphone game Pokémon Go has had millions of people walking through towns to catch virtual creatures on their screens; it was downloaded more than 10 million times in its first week.",
+    "headline": "The Gotthard Base Tunnel opens",
+    "text": "The Gotthard Base Tunnel was inaugurated on 1 June. At 57 kilometres it is the longest railway tunnel in the world, the first flat, low-level route through the Alps, for trains between central Switzerland and Ticino. Regular service begins in December.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Solar_Impulse (read 2026-10-03); https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go (read 2026-10-03)",
-    "image": "/news/life/2016-07-the-solar-aircraft-solar-impulse-landing.jpg",
-    "imageCaption": "The solar aircraft Solar Impulse landing at Brussels",
-    "imageCredit": "Brussels Airport"
+    "source": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel (read 2026-10-03)",
+    "image": "/news/life/2016-06-gotthard.jpg",
+    "imageCaption": "Celebrations for the opening of the Gotthard Base Tunnel, June 2016",
+    "imageCredit": "Rama"
   },
   {
     "month": "2016-07",
@@ -310,6 +282,17 @@
     "imageCredit": "Alchemist-hp (talk) (www.pse-mendelejew.de)"
   },
   {
+    "month": "2016-07",
+    "kind": "colour",
+    "headline": "Solar Impulse flies round the world; Pokémon Go sends players into the streets",
+    "text": "On 26 July the Swiss solar-powered plane Solar Impulse 2, flown by Bertrand Piccard and André Borschberg, landed in Abu Dhabi, completing the first flight around the world on solar power alone after 16 months. Since 6 July the smartphone game Pokémon Go has had millions of people walking through towns to catch virtual creatures on their screens; it was downloaded more than 10 million times in its first week.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Solar_Impulse (read 2026-10-03); https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go (read 2026-10-03)",
+    "image": "/news/life/2016-07-the-solar-aircraft-solar-impulse-landing.jpg",
+    "imageCaption": "The solar aircraft Solar Impulse landing at Brussels",
+    "imageCredit": "Brussels Airport"
+  },
+  {
     "month": "2016-08",
     "kind": "company",
     "headline": "Nvidia gives OpenAI its first AI supercomputer",
@@ -335,6 +318,17 @@
     "image": "/news/wmt/2016-08-home-office.jpg",
     "imageCaption": "Walmart home office, Bentonville, Arkansas",
     "imageCredit": "Monkeyvan"
+  },
+  {
+    "month": "2016-09",
+    "kind": "world",
+    "headline": "Washington demands 14 billion dollars from Deutsche Bank",
+    "text": "In mid-September Deutsche Bank confirmed that the US Department of Justice wants 14 billion dollars to settle claims over mortgage securities it sold from 2005 to 2007, a sum equal to about 80% of the bank's stock market value; it has set aside about 5.5 billion euros for all its legal disputes. Deutsche said it had 'no intent' to pay anywhere near that, but on 16 September its shares fell 8.5%, and other banks fell with them: Credit Suisse 3.9%, UBS 2.5%. In the last week of the month, after a magazine reported that Chancellor Angela Merkel had ruled out state aid, Deutsche's shares fell to the lowest level on record, about half their value at the start of the year. On 30 September an unconfirmed report of a settlement near 5.4 billion dollars lifted them 6%. UBS ended September 6% lower; Credit Suisse ended it about where it began.",
+    "assets": [
+      "credit-suisse",
+      "ubs"
+    ],
+    "source": "https://www.cityam.com/deutsche-bank-asked-pay-14bn-over-mortgage-backed/ (16 September 2016; read 2026-11-10); https://www.irishtimes.com/business/financial-services/is-deutsche-bank-about-to-become-the-next-lehman-1.2811798 (30 September 2016; read 2026-11-10); https://www.investmentnews.com/equities/deutsche-bank-shares-fall-to-a-record-low/69310 (Bloomberg; read 2026-11-10); https://fortune.com/2016/09/30/deutsche-bank-settlement-mortgages/ (Reuters; read 2026-11-10); https://fortune.com/2016/10/03/deutsche-bank-settlement-2/ (Reuters; read 2026-11-10); https://fora.ie/deutsche-bank-3011069-Oct2016/ (read 2026-11-10); data/out/ubs.json; data/out/credit-suisse.json"
   },
   {
     "month": "2016-10",

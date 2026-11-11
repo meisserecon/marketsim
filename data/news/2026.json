@@ -118,17 +118,6 @@
   },
   {
     "month": "2026-02",
-    "kind": "colour",
-    "headline": "Franjo von Allmen's three golds at Milano Cortina",
-    "text": "At the Winter Olympics in Milan and Cortina d'Ampezzo, from 6 to 22 February, Franjo von Allmen won the downhill, the super-G and the team combined with Tanguy Nef, the first alpine skier with three golds at one Games since 2002. Loïc Meillard won the slalom, Mathilde Gremaud the freeski slopestyle and Marianne Fatton the first Olympic ski mountaineering sprint. Switzerland won six golds and 23 medals in all.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Franjo_von_Allmen (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_at_the_2026_Winter_Olympics (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Winter_Olympics (read 2026-10-03)",
-    "image": "/news/life/2026-02-franjo-von-allmen-in-the-olympic-downhil.jpg",
-    "imageCaption": "Franjo von Allmen in the Olympic downhill at Bormio, February 2026",
-    "imageCredit": "Dispe"
-  },
-  {
-    "month": "2026-02",
     "kind": "world",
     "headline": "US and Israel go to war with Iran; Khamenei is killed",
     "text": "On 28 February, after weeks of the biggest US military build-up in the region since 2003 and while nuclear talks were still under way, American missiles and drones and Israeli jets struck targets across Iran. Supreme Leader Ali Khamenei was killed in Tehran along with several senior officials. Hundreds of Iranians have been killed or injured, the Red Crescent reports damage in 24 provinces, and the internet is almost entirely cut. The Revolutionary Guards have warned ships that none may pass through the Strait of Hormuz.",
@@ -229,6 +218,17 @@
     "image": "/news/wmt/2026-02-furner-mcmillon.jpg",
     "imageCaption": "John Furner (left), Walmart's incoming chief executive, with Doug McMillon",
     "imageCredit": "Walmart (company picture, via PYMNTS)"
+  },
+  {
+    "month": "2026-02",
+    "kind": "colour",
+    "headline": "Franjo von Allmen's three golds at Milano Cortina",
+    "text": "At the Winter Olympics in Milan and Cortina d'Ampezzo, from 6 to 22 February, Franjo von Allmen won the downhill, the super-G and the team combined with Tanguy Nef, the first alpine skier with three golds at one Games since 2002. Loïc Meillard won the slalom, Mathilde Gremaud the freeski slopestyle and Marianne Fatton the first Olympic ski mountaineering sprint. Switzerland won six golds and 23 medals in all.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Franjo_von_Allmen (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_at_the_2026_Winter_Olympics (read 2026-10-03); https://en.wikipedia.org/wiki/2026_Winter_Olympics (read 2026-10-03)",
+    "image": "/news/life/2026-02-franjo-von-allmen-in-the-olympic-downhil.jpg",
+    "imageCaption": "Franjo von Allmen in the Olympic downhill at Bormio, February 2026",
+    "imageCredit": "Dispe"
   },
   {
     "month": "2026-03",
@@ -365,7 +365,7 @@
     "month": "2026-05",
     "kind": "company",
     "headline": "Intel passes its 2000 peak on talk of an Apple deal",
-    "text": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded above 130 dollars, far above their August 2000 record of 74.88 dollars.",
+    "text": "Bloomberg reported that Apple has held talks with Intel and Samsung about making its main device processors in the United States, which would reduce its dependence on TSMC. Intel's shares jumped 13% on 5 May and on 8 May traded far above their record of August 2000.",
     "assets": [
       "intc",
       "aapl"
@@ -455,29 +455,16 @@
   {
     "month": "2026-06",
     "kind": "company",
-    "headline": "BMW warns of a 'significant' profit fall",
-    "text": "On 16 June BMW cut its forecast for 2026: it now expects a significant fall in pre-tax profit and a car margin of only 1 to 3%, down from 4 to 6%, because the Chinese market is shrinking faster than expected under strong local competition and the war with Iran keeps energy costs high and weighs on demand. The shares fell to their lowest level since 2020.",
+    "headline": "BMW warns of a 'significant' profit fall and drags Mercedes down",
+    "text": "On 16 June BMW cut its forecast for 2026: it now expects a significant fall in pre-tax profit and a car margin of only 1 to 3%, down from 4 to 6%, because the Chinese market is shrinking faster than expected under strong local competition and the war with Iran keeps energy costs high and weighs on demand. The shares fell to their lowest level since 2020. European car shares fell the next day on fears that others will follow; Mercedes, already weak and preparing further cost cuts, lost another 3% that day and 18% in June.",
     "assets": [
-      "bmw"
+      "bmw",
+      "mercedes"
     ],
-    "source": "Yahoo Finance, 'BMW warns of significant profit decline as shares fall 7%', 17 June 2026, https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); Reuters, 'BMW shares sink after profit warning highlights China and Iran risk', 17 June 2026 (headline via Google News) (read 2026-10-03); data/out/bmw.json (dividend in May 2026) (read 2026-10-03)",
+    "source": "Yahoo Finance, 'BMW warns of significant profit decline as shares fall 7%', 17 June 2026, https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); Reuters, 'BMW shares sink after profit warning highlights China and Iran risk', 17 June 2026 (headline via Google News) (read 2026-10-03); data/out/bmw.json (dividend in May 2026) (read 2026-10-03); Investing.com, 'European car stocks fall on BMW profit warning contagion fears; Mercedes down 3%', 17 June 2026 (headline via Google News) (read 2026-10-03); https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); just-auto.com, 'Mercedes Cost-Cutting Faces Labour Scrutiny', 22 June 2026 (headline via Google News) (read 2026-10-03)",
     "image": "/news/bmw/2026-06-tower.jpg",
     "imageCaption": "The BMW headquarters and plant at Munich seen from above",
     "imageCredit": "Flocci Nivis"
-  },
-  {
-    "month": "2026-06",
-    "kind": "company",
-    "headline": "BMW's warning drags Mercedes down",
-    "text": "On 16 June BMW cut its profit forecast for 2026 because of a faster downturn in China and the effects of the war with Iran. European car shares fell the next day on fears that others will follow; Mercedes, already weak, lost another 3%. Mercedes is preparing further cost cuts.",
-    "assets": [
-      "mercedes",
-      "bmw"
-    ],
-    "source": "Investing.com, 'European car stocks fall on BMW profit warning contagion fears; Mercedes down 3%', 17 June 2026 (headline via Google News) (read 2026-10-03); https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); just-auto.com, 'Mercedes Cost-Cutting Faces Labour Scrutiny', 22 June 2026 (headline via Google News) (read 2026-10-03)",
-    "image": "/news/mercedes/2026-06-the-mercedes-benz-museum-in-stuttgart.jpg",
-    "imageCaption": "The Mercedes-Benz Museum in Stuttgart",
-    "imageCredit": "Julian Herzog (Website)"
   },
   {
     "month": "2026-07",
@@ -509,7 +496,7 @@
     "month": "2026-07",
     "kind": "company",
     "headline": "Intel falls a third from its June high",
-    "text": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings of 42 cents, double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
+    "text": "Chip shares fell from 1 July after Bank of America warned that AI chip valuations had run ahead of demand. On 23 July Intel reported second-quarter revenue of 16.1 billion dollars, up 25%, and adjusted earnings double the forecast, but raised its 2026 capital spending plan to more than 20 billion dollars; the shares closed 7.9% lower the next day. Reports also said its newest 18A process may not reach profitable yields until late 2026 or 2027.",
     "assets": [
       "intc"
     ],
@@ -640,7 +627,7 @@
     "month": "2026-09",
     "kind": "company",
     "headline": "AI agents lift Intel again",
-    "text": "Intel's shares rose more than 40% in September. On 21 September they jumped 12% when reports said the success of Meta's Muse AI agent app could raise demand for processors; AMD rose 10% the same day. Intel had said in July that data-centre revenue grew 59% and that server chip demand exceeds supply.",
+    "text": "Intel's shares rose 34% in September. On 21 September they jumped 12% when reports said the success of Meta's Muse AI agent app could raise demand for processors; AMD rose 10% the same day. Intel had said in July that data-centre revenue grew 59% and that server chip demand exceeds supply.",
     "assets": [
       "intc"
     ],
@@ -653,7 +640,7 @@
     "month": "2026-09",
     "kind": "company",
     "headline": "Mercedes falls to a new low on China and Washington",
-    "text": "Mercedes-Benz shares hit a 52-week low of about 40 euros on 30 September, down a third this year. Its sales in China collapsed by 30% in the second quarter. A US Senate bill against Chinese-owned car makers would have covered Mercedes, which is almost 20% owned by Chinese investors, until a senator said at the end of the month that Mercedes will be exempted. The company is buying back shares and plans a voluntary severance scheme.",
+    "text": "Mercedes-Benz shares hit a 52-week low on 30 September, down a third this year. Its sales in China collapsed by 30% in the second quarter. A US Senate bill against Chinese-owned car makers would have covered Mercedes, which is almost 20% owned by Chinese investors, until a senator said at the end of the month that Mercedes will be exempted. The company is buying back shares and plans a voluntary severance scheme.",
     "assets": [
       "mercedes"
     ],

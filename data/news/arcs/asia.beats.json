@@ -307,6 +307,16 @@
     "source": "https://www.aljazeera.com/news/2003/11/19/china-wants-to-replace-dvds (read 2026-10-04); https://slashdot.org/story/04/08/14/1853245/dvd-player-makers-margins-just-1 (read 2026-10-04)"
   },
   {
+    "id": "d6a9af1b",
+    "month": "2004-12",
+    "title": "A tsunami kills more than 120,000 around the Indian Ocean",
+    "what": "On 26 December a huge undersea earthquake off the Indonesian island of Sumatra sent giant waves onto coasts from Malaysia to East Africa. By 31 December more than 124,000 dead had been counted, about 80,000 of them in Indonesia, 28,500 in Sri Lanka, 10,800 in India and 4,500 in Thailand; at least 5,000 Europeans are missing, and an estimated five million survivors lack water, food or shelter. The United States raised its aid tenfold to 350 million dollars. Switzerland counts 13 dead and has given up hope for 70 more, most of them in Thailand, with some 700 Swiss still unaccounted for; the government has pledged 26 million francs, and the Swiss Solidarity appeal had raised 11 million francs by 30 December.",
+    "why": "One of the deadliest natural disasters on record; the toll kept rising for weeks, to well over 200,000, and for Switzerland it became the worst loss of life abroad in decades. Markets hardly reacted (the S&P 500 rose 3% in December): a reminder that human catastrophe and market impact are different things.",
+    "assets": [],
+    "source": "https://web.archive.org/web/20060324184305/http://news.bbc.co.uk/2/hi/asia-pacific/4136781.stm (BBC, last updated 31 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/hope-fades-for-70-swiss-tsunami-victims/4280840 (31 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/switzerland-pledges-extra-aid-to-asia/4279430 (30 December 2004, read 2026-11-10); https://www.swissinfo.ch/eng/swiss-tourists-feared-dead-after-earthquake/4273832 (27 December 2004, read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: the Indian Ocean tsunami was missing. To check: figures as of 31 December 2004 (BBC, swissinfo)"
+  },
+  {
     "id": "cdc37aa9",
     "month": "2005-07",
     "title": "China lets the yuan rise",
@@ -496,17 +506,6 @@
     "lead": true
   },
   {
-    "id": "0f9b1189",
-    "month": "2020-08",
-    "title": "Buffett buys into Japan's trading houses",
-    "what": "Berkshire Hathaway said it has bought just over 5% of each of Japan's five biggest trading houses, Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo, over the past year, worth over $6 billion.",
-    "why": "The most famous vote of confidence in Japan's revival; Berkshire later raised its stakes to about 10% as Tokyo hit records.",
-    "assets": [
-      "brk"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)"
-  },
-  {
     "id": "4d1fcca7",
     "month": "2021-07",
     "title": "China turns on Didi days after its New York listing",
@@ -550,10 +549,13 @@
     "id": "4392e55f",
     "month": "2022-10",
     "title": "The yen falls past 150 per dollar",
-    "what": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998.",
-    "why": "The cost of Japan staying alone with ultra-low rates; it forced the first policy change in December.",
-    "assets": [],
-    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03)"
+    "what": "The dollar reached 151 yen on 21 October, the yen's weakest since 1990, as US rates rise while the Bank of Japan keeps its rates below zero. Japan's Finance Ministry has bought yen in September and October, its first such intervention since 1998. For a company like Sony, a weak yen raises the value of foreign earnings in yen, but lowers its share price in dollars.",
+    "why": "The cost of Japan staying alone with ultra-low rates; it forced the first policy change in December. Currency beat for a dollar-based player: Sony's ADR fell 19% in September and rose 23% in November as the yen swung.",
+    "assets": [
+      "sony"
+    ],
+    "source": "https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2022 (read 2026-10-03); https://en.wikipedia.org/wiki/Japanese_yen (read 2026-10-03); https://en.wikipedia.org/wiki/Currency_intervention (read 2026-10-03); data/raw/fred/DEXJPUS.csv (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the yen's fall was told twice in October 2022 (a month of twelve stories); now one (with sony/11bb3da7)"
   },
   {
     "id": "8a32435a",
@@ -576,11 +578,12 @@
   {
     "id": "181c3a0e",
     "month": "2024-08",
-    "title": "Tokyo's worst day since 1987 as the yen snaps back",
-    "what": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen, the dollar fell to about 143 yen and on 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458. The next day it gained more than 3,200 points, its biggest daily rise.",
-    "why": "A two-day panic, not a turn: the Nikkei was back at records within months.",
+    "title": "A yen shock and weak jobs data: Tokyo's worst day since 1987",
+    "what": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen and American jobs figures came in weaker than expected, the dollar fell to about 143 yen, and on Monday 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458, its worst day since 1987; the Dow fell 1,034 points. The next day the Nikkei gained more than 3,200 points, its biggest daily rise. The panic passed within days, and the S&P 500 ended August up 2%.",
+    "why": "A two-day panic, not a turn: the Nikkei was back at records within months. A scare that came from Japan (told in the Asia arc); the quick recovery is the point.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
+    "changed": "consistency review of November 2026: the sell-off of 5 August 2024 was told twice; now one story (with markets/749a32b7)"
   },
   {
     "id": "a9a1ef18",
@@ -599,11 +602,12 @@
     "id": "25b38c66",
     "month": "2025-04",
     "title": "Tariffs of 145% on China",
-    "what": "On 2 April President Trump announced tariffs on most of the world, 34% on China. After China retaliated, the US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
+    "what": "After the tariffs of 2 April, which put 34% on Chinese goods, China retaliated. The US raised its tariff on Chinese goods to 104% and then 145%; China replied with 125%. Trade between the two biggest economies is close to a halt.",
     "why": "The trade war's climax; markets fell sharply early in the month and recovered much of the loss by its end.",
     "assets": [],
     "thread": "china",
-    "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-10-03); https://en.wikipedia.org/wiki/2025_in_China (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the announcement of 2 April is told in 'Liberation Day' (world/6d1f168a); this story keeps to the escalation with China"
   },
   {
     "id": "ec26df30",

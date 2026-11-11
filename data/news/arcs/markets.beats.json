@@ -390,33 +390,43 @@
     "id": "203cc7b8",
     "month": "2001-04",
     "title": "A surprise rate cut and better earnings bring an 8 percent bounce",
-    "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
-    "why": "A bear-market rally; the low was still eighteen months away.",
+    "what": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The Nasdaq, which rose 8.9% on 5 April and 8.1% on the day of the cut, gained 15% in the month to 2,116; internet survivors led, with Amazon up about half and Nokia 42%. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
+    "why": "A bear-market rally; the low was still eighteen months away. A bear-market rally; by September the index was far lower.",
     "assets": [
-      "bonds"
+      "bonds",
+      "amzn",
+      "nokia",
+      "ebay",
+      "csco"
     ],
     "move": {
       "asset": "sp500",
       "pct": 8
     },
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
+    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
     "thread": "rates",
-    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
+    "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text; consistency review of November 2026: the surprise rate cut of 18 April 2001 was told in four stories; the two market stories are now one (with tech/d1f2d773)"
   },
   {
     "id": "542b57c2",
     "month": "2001-11",
     "title": "Good news from Afghanistan and the economy lifts shares 8 percent",
-    "what": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September.",
-    "why": "The post-9/11 recovery; it fizzled in 2002 as accounting scandals spread.",
+    "what": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September. Technology led the rebound: after falling 17% in September, the Nasdaq rose 13% in October and 14% in November, to 1,931. Nvidia gained 56% in October, Intel 34% in November and Sony 25%.",
+    "why": "The post-9/11 recovery; it fizzled in 2002 as accounting scandals spread. The autumn 2001 rally; the bust had another year to run. The rebound; nothing Sony-specific has been found for the month.",
     "assets": [
-      "bonds"
+      "bonds",
+      "nvda",
+      "intc",
+      "csco",
+      "amzn",
+      "sony"
     ],
     "move": {
       "asset": "sp500",
       "pct": 8
     },
-    "source": "https://www.federalreserve.gov/fomc/minutes/20011211.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/fomc/minutes/20011211.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
+    "changed": "consistency review of November 2026: three stories told the rebound after September 2001 (two of them with the S&P's +8%); now one (with tech/1f5646bf, sony/439f3f21)"
   },
   {
     "id": "af40b6b8",
@@ -432,8 +442,8 @@
   {
     "id": "5dc79940",
     "month": "2002-07",
-    "title": "WorldCom's collapse caps a month of accounting scandals",
-    "what": "WorldCom, brought down by an accounting scandal, filed for bankruptcy on 21 July, the largest corporate insolvency ever. Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
+    "title": "Accounting scandals send shares down 8 percent",
+    "what": "Revelations of corporate fraud and fears of more restated earnings sent shares plunging; President Bush gave a stern speech on accounting scandals on 9 July, WorldCom filed for bankruptcy on 21 July, and the Dow closed below 8,000 on 23 July before a late rebound. The S&P 500 lost 8% in July to 911.62. The head of the FCC told the Senate that the telecom industry owes about a trillion dollars, much of which will never be repaid, and the Nasdaq fell 9% in July to 1,328.",
     "why": "The crisis of trust that turned the bust into a three-year bear market.",
     "assets": [
       "worldcom",
@@ -444,7 +454,8 @@
       "asset": "sp500",
       "pct": -8
     },
-    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Portal:Current_events/July_2002 (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20020813.htm (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "changed": "consistency review of November 2026: WorldCom's bankruptcy was the headline of two stories in July 2002; this one is now the market's story"
   },
   {
     "id": "c36951fa",
@@ -480,12 +491,17 @@
     "id": "7166afad",
     "month": "2003-12",
     "title": "2003 in review: the bull returns, up 26 percent",
-    "what": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back.",
-    "why": "Cheap money lifted shares and, less visibly, house prices: the seed of 2008.",
+    "what": "The S&P 500 rose 26% in 2003 to 1,111.92, its first gain in four years, and the Dow 25.3% to 10,453.92. The Federal Reserve cut its key rate to 1 percent in June, and the end of major fighting in Iraq and rising profits brought investors back. The Nasdaq rose 50% and closed the year just under 2,000, after briefly passing it on 29 December; the survivors of the bust, from Amazon to Nvidia, have multiplied from their lows.",
+    "why": "Cheap money lifted shares and, less visibly, house prices: the seed of 2008. The calendar-year turn of the recovery; the S&P's +24% year (shown as 2003 in the movers list) owes much to it.",
     "assets": [
-      "bonds"
+      "bonds",
+      "amzn",
+      "nvda",
+      "intc",
+      "csco"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the year's review and the Nasdaq's year were two stories in December 2003; now one (with tech/6e2fc338)"
   },
   {
     "id": "a0bdd28e",
@@ -577,6 +593,23 @@
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070817a.htm (read 2026-10-03); data/reference/sp500.json"
   },
   {
+    "id": "47348a79",
+    "month": "2007-09",
+    "title": "A run on Northern Rock, then the Fed cuts by half a point: shares up 4%",
+    "what": "On 14 September savers queued outside the branches of Northern Rock, one of Britain's five biggest mortgage lenders, after it had to ask the Bank of England for emergency loans: it raised about three quarters of its money on the credit markets, which stopped lending to mortgage banks after the American subprime losses. About 1 billion pounds was withdrawn that day, in the first run on a British bank in more than a century, and the queues ended only after the government guaranteed all the bank's deposits on 17 September. On 18 September the Federal Reserve cut its key rate by half a point to 4.75 percent, its first cut since 2003 and a larger one than expected, to keep the trouble in the credit markets from deepening the housing slump and hurting the wider economy. The Dow rose 336 points or 2.5% that day, its biggest one-day gain in nearly five years, and the S&P 500 ended September up 4% at 1,526.75.",
+    "why": "The first bank run of the crisis and the first cut of the Fed's key rate: investors took the cut as the cure, and the S&P 500 went on to its record of 9 October. Northern Rock was nationalised in February 2008.",
+    "assets": [
+      "bonds"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 4
+    },
+    "source": "https://en.wikipedia.org/wiki/Nationalisation_of_Northern_Rock (read 2026-11-10); https://en.wikipedia.org/wiki/Northern_Rock (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20070918a.htm (read 2026-11-10); https://www.inquirer.com/philly/business/20070919_Stocks_Soar_On_Rate_Slash.html (read 2026-11-10); https://www.aljazeera.com/news/2007/09/18/federal-reserve-cuts-interest-rate/ (read 2026-11-10); data/reference/sp500.json (read 2026-11-10)",
+    "thread": "housing-crisis",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's +4% and the Fed's first cut had only a clause in October; the run on Northern Rock was missing. To check: the 1 billion pounds withdrawn and the bank's rank are from Wikipedia only"
+  },
+  {
     "id": "a0117bf1",
     "month": "2007-10",
     "title": "The S&P 500 sets a record after Fed rate cuts",
@@ -655,30 +688,64 @@
     "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json; https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac (read 2026-10-04); Xstrata circular 2 Feb 2009 (current trading and prospects), https://www.rns-pdf.londonstockexchange.com/rns/6630M_-2009-2-2.pdf; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
   },
   {
+    "id": "c1a61047",
+    "month": "2008-09",
+    "title": "After Lehman: Merrill Lynch is sold, AIG is rescued, Washington Mutual fails",
+    "what": "On the weekend its talks with Lehman failed, Bank of America agreed to buy Merrill Lynch instead, for about 50 billion dollars in shares, and on 16 September the Federal Reserve lent the insurer AIG up to 85 billion dollars, for which the government receives 79.9% of the company. The same day a large money-market fund, the Reserve Primary Fund, 'broke the buck': its units, meant always to be worth one dollar, fell to 97 cents because it held Lehman debt; investors pulled 144 billion dollars out of such funds the next day, and on 19 September the Treasury offered to guarantee them. On 21 September Goldman Sachs and Morgan Stanley converted from investment banks into bank holding companies. On 25 September regulators seized Washington Mutual, with 307 billion dollars of assets the largest bank failure in American history, and sold most of it to JPMorgan Chase. In Switzerland UBS, which has already lost 42 billion dollars in the crisis, fell 15% on 15 September after a Sunday newspaper reported another 5 billion dollars of write-downs to come, and lost 25% in the month.",
+    "why": "The fortnight in which the independent Wall Street investment bank disappeared and the panic reached ordinary savers through their money-market funds; it is what made Paulson ask Congress for 700 billion dollars. For UBS it is the run-up to the state rescue of 16 October. Left out on purpose: Wachovia's agreed sale to Citigroup on 29 September, which Wells Fargo overturned in October.",
+    "assets": [
+      "ubs"
+    ],
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm (read 2026-11-10); https://en.wikipedia.org/wiki/Merrill_Lynch (read 2026-11-10); https://en.wikipedia.org/wiki/Money_market_fund (read 2026-11-10); https://en.wikipedia.org/wiki/Reserve_Primary_Fund (read 2026-11-10); https://en.wikipedia.org/wiki/Washington_Mutual (read 2026-11-10); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-11-10); https://www.swissinfo.ch/eng/banking-fintech/financial-failures-infect-world-stock-markets/67808 (15 September 2008, read 2026-11-10); data/out/ubs.json (read 2026-11-10)",
+    "thread": "housing-crisis",
+    "changed": "new beat, consistency review of November 2026: the week after Lehman (Merrill Lynch, AIG, the money-market funds, Washington Mutual) was missing; UBS's -25% had no story. To check: five sentences; the '97 cents' is the fund's unit value, not a share price"
+  },
+  {
     "id": "84b43038",
     "month": "2008-10",
     "title": "Crash month: the worst week ever, then the biggest daily gain since the 1930s",
-    "what": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash.",
+    "what": "Congress passed the 700 billion dollar rescue on 3 October, but panic spread worldwide: in the week of 6 to 10 October the Dow fell 18.2%, its worst week ever, and on 8 October central banks cut rates together in an emergency move. On 13 October the S&P 500 jumped 11.6%, then fell 9.0% on 15 October and rose 10.8% on 28 October. The S&P 500 lost 17% in October to 968.75, its worst month since the 1987 crash. Hardly a share escaped: Siemens, Schlumberger, BMW, Daimler, Citigroup and eBay each lost about a third.",
     "why": "The climax of the panic; the biggest monthly fall of the game after October 1987.",
     "assets": [
-      "bonds"
+      "bonds",
+      "siemens",
+      "slb",
+      "bmw",
+      "mercedes",
+      "c",
+      "ebay",
+      "sony",
+      "ibm",
+      "ko"
     ],
     "move": {
       "asset": "sp500",
       "pct": -17
     },
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03); data/reference/sp500.json",
+    "changed": "consistency review of November 2026: October 2008 is among the twelve biggest months of nine companies that no story named; the crash story now names the worst hit and is tagged with them, from the game's prices"
   },
   {
     "id": "ef1be746",
     "month": "2008-12",
     "title": "2008 in review: shares lose 38 percent",
-    "what": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day. On 16 December the Federal Reserve cut its key rate to between 0 and 0.25 percent, as low as it can go.",
+    "what": "The S&P 500 fell 38% in 2008 to 903.25, its worst year in the game's data, and the Dow 33.8% to 8,776.39. On 1 December economists declared that a recession had begun in December 2007, and the S&P 500 fell 8.9% that day.",
     "why": "The worst year of the game. The final low came in March 2009, 57% below the 2007 peak.",
     "assets": [
       "bonds"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the cut to zero is this month's lead story; sentence removed from the review"
+  },
+  {
+    "id": "c38cfcb0",
+    "month": "2008-12",
+    "title": "Bernard Madoff arrested: a 50 billion dollar fraud",
+    "what": "On 11 December Bernard Madoff, a New York investment manager and former chairman of the Nasdaq stock market, was arrested and charged with securities fraud; he was released on bail of 10 million dollars. According to the charges he told his sons that his investment business was 'a giant Ponzi scheme', a fraud in which early investors are paid with the money of later ones; the charges put the losses at about 50 billion dollars. Banks, funds and charities around the world had money with him: clients of Spain's Santander have 2.33 billion euros at risk and clients of HSBC about 1 billion dollars, and in Switzerland the private banks Union Bancaire Privée, Reichmuth (385 million francs) and Bénédict Hentsch (56 million francs) reported client money invested with Madoff, while the newspaper Le Temps estimates that Geneva firms had placed about 5 billion francs with him. On 16 December the chairman of the market regulator SEC said that 'credible and specific allegations' about Madoff had reached its staff repeatedly since at least 1999 and had never led to action.",
+    "why": "The largest Ponzi scheme in history came to light because the crash made clients ask for their money back; Madoff pleaded guilty in March 2009 and was sentenced to 150 years. A lesson for the player about returns that are too steady to be true, and the Swiss angle is real: Geneva private banks and funds of funds were among the biggest channels.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Madoff_investment_scandal (read 2026-11-10); https://www.sec.gov/news/press/2008/2008-297.htm (read 2026-11-10); https://www.inquirer.com/philly/news/year-in-review/20081215_Lautenberg__Braman_among_losers_in_alleged_Madoff_fraud.html (Associated Press, 15 December 2008, read 2026-11-10); https://www.swissinfo.ch/eng/another-swiss-bank-admits-madoff-exposure/7097086 (13 December 2008, read 2026-11-10); https://www.wealthbriefing.com/html/article.php?id=15482 (18 December 2008, read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: the Madoff fraud was missing. To check: no company in the game is tagged; Le Temps's 5 billion francs is money placed from Geneva, not a confirmed loss"
   },
   {
     "id": "3c4b65c5",
@@ -713,17 +780,19 @@
     "id": "dcbf3de0",
     "month": "2009-03",
     "title": "The S&P 500 sinks to 676, then a sudden rally",
-    "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
-    "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time. Review 2026-10: 'The bottom' was hindsight.",
+    "what": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87; among the battered shares that rebounded with it, Sony gained 25%.",
+    "why": "The bottom of the 2007-09 bear market and the start of a bull market that lasted eleven years, until February 2020. Few believed it at the time. Review 2026-10: 'The bottom' was hindsight. A market beat; the rally continued in April.",
     "assets": [
       "c",
-      "bonds"
+      "bonds",
+      "sony"
     ],
     "move": {
       "asset": "sp500",
       "pct": 9
     },
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json; data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
+    "changed": "consistency review of November 2026: Sony's story for March 2009 only said that the market rallied; folded in here (with sony/ea6a98ec)"
   },
   {
     "id": "0fda0844",
@@ -742,11 +811,39 @@
     "id": "ac1cc7ba",
     "month": "2009-12",
     "title": "2009 in review: up 23 percent, and 65 percent from the March low",
-    "what": "The S&P 500 rose 23% in 2009 to 1,115.10, 65% above its March low, and the Dow 18.8%. The Federal Reserve kept its key rate near zero all year and bought bonds on a huge scale, but unemployment has risen to about 10 percent.",
-    "why": "A year of recovery that rewarded those who held on through the March panic.",
-    "assets": [],
+    "what": "The S&P 500 rose 23% in 2009 to 1,115.10, 65% above its March low, and the Dow 18.8%. Technology led the recovery: the Nasdaq ended the year at 2,269, up 44% and 79% above its low of 1,268.64 on 9 March. The Federal Reserve kept its key rate near zero all year and bought bonds on a huge scale, but unemployment has risen to about 10 percent.",
+    "why": "A year of recovery that rewarded those who held on through the March panic. The financial crisis interrupted the mobile wave only briefly; technology led the next decade's bull market.",
+    "assets": [
+      "aapl",
+      "amzn",
+      "nvda",
+      "intc"
+    ],
     "thread": "housing-crisis",
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "lead": true,
+    "changed": "consistency review of November 2026: the year's review and the Nasdaq's year (the lead, one sentence) were two stories in December 2009; now one, and the lead (with tech/1987b069)"
+  },
+  {
+    "id": "ddf59265",
+    "month": "2010-03",
+    "title": "A year after the low: the S&P 500 gains another 6%",
+    "what": "On 9 March it was a year since the S&P 500 closed at 676.53, its low of the crisis; by the anniversary it had risen almost 70 percent and the Dow more than 60 percent, though the market was still about a quarter below its peak of October 2007. The rally continued through the month: the jobs report of 5 March showed employment 'little changed' in February, on 16 March the Fed repeated that its rate would stay exceptionally low 'for an extended period', and on 25 March the leaders of the euro countries agreed to lend to Greece, together with the IMF, as a last resort. The S&P 500 ended March up 6% at 1,169.43, 73 percent above the low. Bank shares did better than the market: Citigroup gained 19%, UBS 18% and Credit Suisse 15%; Xstrata rose 21%, and eBay and Siemens 17% each.",
+    "why": "A strong month without a single trigger, in the middle of the recovery: better data, free money and relief over Greece. The Greek promise of 25 March is the step before the bailout of May 2010, when the S&P 500 fell 8%.",
+    "assets": [
+      "c",
+      "ubs",
+      "credit-suisse",
+      "xstrata",
+      "ebay",
+      "siemens"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 6
+    },
+    "source": "http://www.marketplace.org/story/2010/03/09/stock-market-comeback-actually-slow/ (9 March 2010, read 2026-11-10); https://www.fool.com/investing/general/2010/03/09/one-year-later-have-we-learned-anything.aspx (read 2026-11-10); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-11-10); https://www.bls.gov/news.release/archives/empsit_03052010.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100316.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcminutes20100428.htm (read 2026-11-10); https://euobserver.com/economic/29773 (25 March 2010, read 2026-11-10); data/reference/sp500.json and data/out/c.json, ubs.json, credit-suisse.json, xstrata.json, ebay.json, siemens.json (read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: March 2010 had no story at all (S&P 500 +6%). To check: that the three events named drove the month is the writer's reading; the Fed's minutes only say that data beat expectations"
   },
   {
     "id": "16e9203c",
@@ -819,13 +916,28 @@
   {
     "id": "d979d9e5",
     "month": "2015-12",
-    "title": "2015 in review: a flat year and the first Fed rate rise since 2006",
-    "what": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. On 16 December the Federal Reserve raised its key rate for the first time since June 2006, to between 0.25 and 0.5 percent.",
+    "title": "2015 in review: a flat year",
+    "what": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. In December the Federal Reserve raised its key rate for the first time since 2006.",
     "why": "The end of the zero-rate era; a pause in the bull market.",
     "assets": [
       "bonds"
     ],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the first rate rise has its own story this month; shortened in the review"
+  },
+  {
+    "id": "000ced5b",
+    "month": "2016-03",
+    "title": "Shares rebound 7 percent as oil recovers and central banks step in",
+    "what": "American shares began 2016 badly: at their worst the main indexes were more than 11% below their level at New Year, and oil fell to 26 dollars a barrel in mid-February. Then oil turned, rising almost 14% in March to 38 dollars, and the central banks helped. On 10 March the European Central Bank cut its deposit rate to minus 0.4% and raised its bond purchases to 80 billion euros a month; on 16 March the Federal Reserve left its rate at 0.25 to 0.5%, and its officials now expect two small rises this year instead of the four they pencilled in in December. The S&P 500 gained almost 7% in March to 2,059.74, 13% above its level of mid-February and slightly higher than at the start of the year.",
+    "why": "The February low was the bottom of the 2015-16 scare over oil and China; shares were back at records by July 2016 and the Fed in the end raised only once that year, in December. Explains the +7% month.",
+    "assets": [],
+    "move": {
+      "asset": "sp500",
+      "pct": 7
+    },
+    "source": "https://www.cnbc.com/2016/03/31/dow-posts-biggest-quarterly-comeback-since-1933.html (read 2026-11-10); https://finance.yahoo.com/news/wall-street-little-changed-open-133343171--finance.html (Reuters, 31 March 2016; read 2026-11-10); https://www.schaeffersresearch.com/content/ezines/2016/03/31/dow-jones-industrial-average-ends-monster-month-on-a-whimper (read 2026-11-10); https://www.foxbusiness.com/markets/wall-street-puts-rough-1q-in-rearview-mirror-looks-for-steady-2q (read 2026-11-10); https://www.ecb.europa.eu/press/pr/date/2016/html/pr160310.en.html (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20160316a.htm (read 2026-11-10); https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20160316.htm (read 2026-11-10); data/news/arcs/oil.beats.json (February 2016: oil at 26 dollars); data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's +7% had no market story. To check: 'two rises instead of four' is derived from the Fed's median projections (0.9% against 1.4%)"
   },
   {
     "id": "403ad6aa",
@@ -837,13 +949,28 @@
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
   },
   {
+    "id": "d36f1e12",
+    "month": "2017-02",
+    "title": "Twelve Dow records in a row; shares up 4 percent on hopes of tax cuts",
+    "what": "The Dow Jones index closed at a record on twelve trading days in a row up to 27 February, matching a run of 1987; it had first closed above 20,000 on 25 January. Investors are betting on President Trump's promises: a 'phenomenal' tax plan, spending on infrastructure and a bigger military budget. The climb was gentle, 3.9% over the twelve days against 9.2% in the run of 1987. The S&P 500 gained 4% in February to 2,363.64 and stands about 11% higher than on election day in November; the Dow's run ended on 28 February, hours before Trump addressed Congress.",
+    "why": "The 'Trump rally' at its most confident: the Dow passed 21,000 on 1 March, and the tax cut the market was betting on was signed in December 2017. The only story of the month and the cause of the +4%.",
+    "assets": [],
+    "move": {
+      "asset": "sp500",
+      "pct": 4
+    },
+    "source": "https://fortune.com/2017/02/28/dow-winning-streak-trump-index/ (Reuters; read 2026-11-10); https://www.foxbusiness.com/markets/stocks-finish-higher-for-fourth-straight-month-dow-snaps-record-run (MarketWatch, 28 February 2017; read 2026-11-10); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-11-10); data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: February 2017 had no story at all (S&P 500 +4%)"
+  },
+  {
     "id": "432a2e3c",
     "month": "2017-12",
     "title": "2017 in review: a calm climb and a big tax cut",
-    "what": "The S&P 500 gained 19% in 2017 to 2,673.61 and the Dow 25.1%, after passing 20,000 on 25 January. On 22 December President Trump signed a tax law that cuts the corporate tax rate to a flat 21%. The Federal Reserve raised rates three times during the year.",
+    "what": "The S&P 500 gained 19% in 2017 to 2,673.61 and the Dow 25.1%, after passing 20,000 on 25 January. On 22 December President Trump signed a tax law that cuts the corporate tax rate to a flat 21%.",
     "why": "An unusually calm year; the calm ended abruptly in February 2018.",
     "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Tax_Cuts_and_Jobs_Act (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/Tax_Cuts_and_Jobs_Act (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the three rate rises have their own story this month"
   },
   {
     "id": "504ab9d8",
@@ -859,6 +986,23 @@
       "pct": -4
     },
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20180321.htm (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
+  },
+  {
+    "id": "9a4b7a30",
+    "month": "2018-10",
+    "title": "Shares lose 7 percent in October, their worst month since 2011",
+    "what": "On 3 October Fed chairman Jerome Powell said interest rates were still 'a long way' from neutral, the level that neither spurs nor slows the economy, and the yield on 10-year Treasury bonds jumped above 3.2%, the highest in seven years. Shares began to slide the same day: the Dow lost 832 points on 10 October, and on 24 October the Nasdaq fell 4.4%, its worst day since 2011, as investors also worried about the trade dispute with China and about slower profit growth once the boost from this year's tax cut fades. The S&P 500 lost 7% in October to 2,711.74, its worst month since September 2011, and the Nasdaq 9.2%, its worst since November 2008. Technology shares were hit hardest: Amazon fell 20%, which wiped about 200 billion dollars off its value, and Nvidia 25%.",
+    "why": "The first leg of the autumn 2018 fall that ended on Christmas Eve; Powell's 'long way from neutral' is the remark he walked back in November and the Fed reversed in 2019. Explains the -7% month and the falls of Amazon and Nvidia (IBM has its own story).",
+    "assets": [
+      "amzn",
+      "nvda"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -7
+    },
+    "source": "https://www.cnbc.com/2018/10/03/powell-says-were-a-long-way-from-neutral-on-interest-rates.html (read 2026-11-10); https://www.mprnews.org/story/2018/10/10/dow-industrials-sink-831-points-as-tech-companies-plunge (AP; read 2026-11-10); https://www.pbs.org/newshour/economy/stock-sell-off-extends-losing-streak-led-by-tech-companies (AP, 24 October 2018; read 2026-11-10); https://spokesman.com/stories/2018/oct/31/us-stocks-rally-again-but-finish-october-with-stee (AP; read 2026-11-10); https://www.foxbusiness.com/features/october-marks-worst-month-for-us-stocks-in-7-years (AP; read 2026-11-10); data/out/amzn.json; data/out/nvda.json; data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's -7% had no market story. To check: Nvidia's 25% is the game's figure; the pages read do not name it"
   },
   {
     "id": "393d6f65",
@@ -893,6 +1037,23 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
     "thread": "rates",
     "changed": "interest-rate storyline: the numbers line now gives the Fed's target at the end of the month (not the monthly average) and the headline inflation figure, so it agrees with the text"
+  },
+  {
+    "id": "eec8992b",
+    "month": "2019-06",
+    "title": "The Fed hints at a rate cut and shares have their best June since 1955",
+    "what": "After May's fall over the trade war, Fed chairman Jerome Powell said on 4 June that the Fed would 'act as appropriate to sustain the expansion', and on 19 June it dropped its promise to be 'patient' and said that uncertainties had increased. Investors took this as the announcement of a rate cut: the yield on 10-year Treasury bonds fell below 2% for the first time since 2016, gold rose above 1,400 dollars an ounce for the first time since 2013, and the S&P 500 closed at a record of 2,954 on 20 June. It gained 7% in June to 2,941.76, its best June since 1955, and 17% in the first half of the year, its best first half since 1997. On 29 June Presidents Trump and Xi agreed at the G20 summit in Osaka to return to trade talks and to hold off on new tariffs.",
+    "why": "The Fed's turn from raising to cutting, half a year after the Christmas fall: the cut itself came on 31 July. A textbook case of bad news for the economy being good news for shares, bonds and gold at once. Explains the +7% month and gold's +6%.",
+    "assets": [
+      "bonds",
+      "gold"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 7
+    },
+    "source": "https://www.federalreserve.gov/newsevents/speech/powell20190604a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20190501a.htm (read 2026-11-10); https://pressherald.com/2019/06/20/stocks-rise-to-record-high-on-speculation-about-fed-rate-cut (Washington Post; read 2026-11-10); https://www.businessday.co.za/bd/markets/2019-06-21-gold-surges-above-1400oz-for-the-first-time-since-2013-with-more-gains-ahead/ (read 2026-11-10); https://www.voanews.com/a/economy-business_wall-street-wraps-its-best-june-decades-g-20-convenes/6170809.html (Reuters, 28 June 2019; read 2026-11-10); https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war (read 2026-11-10); data/reference/sp500.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's +7% had only the women's strike"
   },
   {
     "id": "14752fd9",
@@ -931,7 +1092,8 @@
       "asset": "sp500",
       "pct": 13
     },
-    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm (read 2026-10-03); https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "id": "3f78a34e",
@@ -944,7 +1106,8 @@
       "asset": "sp500",
       "pct": 7
     },
-    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json"
+    "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash (read 2026-10-03); data/reference/sp500.json",
+    "lead": true
   },
   {
     "id": "b3a26a97",
@@ -961,10 +1124,28 @@
     "id": "f032f45a",
     "month": "2021-01",
     "title": "The GameStop frenzy: small investors squeeze the hedge funds",
-    "what": "Users of the Reddit forum r/wallstreetbets piled into GameStop, a struggling video game retailer, whose shares had been heavily sold short by hedge funds; the stock rose from 17 dollars at New Year to as much as 483 dollars on 28 January. The hedge fund Melvin Capital needed a 2.75 billion dollar rescue, and on 28 January Robinhood and other brokers stopped customers from buying the shares, causing an outcry. Trading volumes beat the peaks of 2008, and the market had its worst week since October.",
+    "what": "Users of the Reddit forum r/wallstreetbets piled into GameStop, a struggling video game retailer, whose shares had been heavily sold short by hedge funds; the stock rose to as much as 28 times its New Year price on 28 January. The hedge fund Melvin Capital needed a 2.75 billion dollar rescue, and on 28 January Robinhood and other brokers stopped customers from buying the shares, causing an outcry. Trading volumes beat the peaks of 2008, and the market had its worst week since October.",
     "why": "The mania of the zero-rate era and of trading apps; a lesson in bubbles.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/GameStop_short_squeeze (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/GameStop_short_squeeze (read 2026-10-03)",
+    "changed": "rule on metrics: share prices replaced by the multiple computed from them (17 to 483 dollars)"
+  },
+  {
+    "id": "9b7c71ed",
+    "month": "2021-10",
+    "title": "Strong profits lift shares 7 percent to records; Microsoft overtakes Apple",
+    "what": "After losing 4.8 percent in September, the S&P 500 gained 6.9 percent in October, its best month since November 2020, and closed at a record 4,605.38 on 29 October; the Dow and the Nasdaq ended at records too. Company results for the third quarter drove the rise: of the 279 companies in the index that had reported by then, 82 percent earned more than analysts expected, and profits are on course to be about 39 percent higher than a year earlier. The shortages are not over: Apple warned that supply problems would hurt even more in the Christmas quarter, and Amazon forecast weak sales for lack of workers. Apple's shares fell on 29 October, and Microsoft, up 18 percent in the month, overtook it as the most valuable American company, worth about 2.49 trillion dollars.",
+    "why": "Explains the S&P 500's 7% gain in a month whose only story was Tesla's, and records two things about late 2021: the profit boom of the reopening and the supply-chain and labour shortages that fed inflation. Microsoft and Apple kept trading the top spot in the years that followed.",
+    "assets": [
+      "msft",
+      "aapl"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 7
+    },
+    "source": "https://www.cheddar.com/media/stocks-stock-markets-10-29-2021 (AP, 29 October 2021, read 2026-11-10); https://gulfnews.com/business/markets/wall-street-shakes-off-amazon-apple-weakness-to-end-modestly-higher-1.83307047 (Reuters, 29 October 2021: earnings statistics, market values, read 2026-11-10); https://uk.marketscreener.com/quote/stock/STARBUCKS-CORPORATION-4905/news/Wall-Street-shakes-off-Amazon-Apple-weakness-to-end-modestly-higher-36835877/ (Reuters, read 2026-11-10); https://www.schaeffersresearch.com/content/ezines/2021/10/29/s-p-500-nasdaq-log-record-highs-in-best-month-of-2021 (read 2026-11-10); data/reference/sp500.json; data/out/msft.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's +7% had only Tesla's story. To check: the 39% profit growth is the figure expected on 29 October (Refinitiv via Reuters), not the final one"
   },
   {
     "id": "e1a6e1f7",
@@ -974,6 +1155,24 @@
     "why": "The top of the cheap-money boom; the 2022 bear market started three days into the new year.",
     "assets": [],
     "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03)"
+  },
+  {
+    "id": "c5b8f613",
+    "month": "2022-01",
+    "title": "The Fed signals rate rises and shares fall 5 percent",
+    "what": "The S&P 500 set a record on 3 January and then fell 5 percent in the month to 4,515.55, its worst month since March 2020. Minutes published on 5 January showed the Fed, with inflation at its highest in nearly 40 years, discussing raising its rate sooner and faster and shrinking its bond holdings; on 26 January it said it would 'soon be appropriate' to raise the rate, and investors expect the first step in March. Higher rates hurt expensive growth shares most: the Nasdaq lost 9 percent and stands more than 10 percent below its November record, which Wall Street calls a correction, and Nvidia fell 17 percent, Tesla 11 percent and Amazon 10 percent. On 24 January, amid fears that Russia would invade Ukraine, the S&P 500 was down about 4 percent during the day and still closed higher.",
+    "why": "The start of the 2022 bear market: the record of 3 January 2022 stood for two years. The Fed's turn from 'transitory' (the December 2021 review) to rate rises hit first the growth shares that cheap money had lifted most; the first rise followed in March.",
+    "assets": [
+      "nvda",
+      "tsla",
+      "amzn"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": -5
+    },
+    "source": "https://www.cheddar.com/media/stocks-stock-markets-01-31-2022 (AP, 31 January 2022, read 2026-11-10); https://www.cnbc.com/2022/01/30/stock-market-futures-open-to-close-news.html (CNBC, 31 January 2022: Nasdaq, Tesla, Nvidia, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-05-2022/ (AP, 5 January 2022: the minutes, read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20220126a.htm (read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-26-2022/ (AP, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-19-2022/ (AP: Nasdaq 10.7% below its record of 19 November, read 2026-11-10); https://www.cheddar.com/media/stocks-stock-markets-01-24-2022/ (AP, 24 January 2022, read 2026-11-10); https://en.wikipedia.org/wiki/2022_stock_market_decline (record of 3 January, read 2026-11-10); data/reference/sp500.json; data/out/nvda.json, tsla.json, amzn.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's -5%, the start of the 2022 bear market, had no market story"
   },
   {
     "id": "7016a204",
@@ -1021,13 +1220,46 @@
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); data/reference/sp500.json"
   },
   {
+    "id": "975dc64f",
+    "month": "2022-11",
+    "title": "The crypto exchange FTX goes bankrupt",
+    "what": "FTX, a cryptocurrency exchange based in the Bahamas that investors valued at 32 billion dollars in January, filed for bankruptcy on 11 November together with its sister trading firm Alameda Research and more than 100 affiliated companies; its founder Sam Bankman-Fried, 30, resigned. The run began after a report on 2 November that about 40 percent of Alameda's assets consisted of FTT, a token created by FTX itself: the rival exchange Binance said it would sell its FTT, customers demanded about 6 billion dollars back within three days, FTX stopped paying out, and Binance, which had agreed on 8 November to buy it, withdrew a day later. The new chief executive John Ray, who oversaw the restructuring of Enron after its collapse, wrote that he had never seen 'such a complete failure of corporate controls'; there may be a million creditors. Bitcoin fell below 16,000 dollars on 9 November, its lowest since November 2020; a year earlier it had reached a record of almost 69,000.",
+    "why": "The largest failure of the crypto boom and the end of its 2021 mania; Bankman-Fried was later convicted of fraud and sentenced to 25 years in prison. It gives the game a story on the crypto crash of 2022, which it otherwise only touches through Nvidia's 'crypto hangover' of 2018 and Tesla's bitcoin purchase of February 2021, and it echoes Enron, which players lived through in 2001.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX (read 2026-11-10); https://en.wikipedia.org/wiki/FTX (read 2026-11-10); https://fortune.com/2022/11/11/ftx-chapter-11-bankruptcy-sam-bankman-fried-resigns/ (11 November 2022, read 2026-11-10); https://abc30.com/post/ftx-crypto-chapter-11-bankruptcy-price/12442197/ (ABC News, 11 November 2022, read 2026-11-10); https://www.ibj.com/articles/ftx-says-it-owes-more-than-3-billion-to-creditors (AP, 20 November 2022: Ray's statement, creditors, read 2026-11-10); https://www.coindesk.com/markets/2022/11/09/bitcoin-falls-below-17k-amid-latest-ftx-meltdown/ (9 November 2022, read 2026-11-10); https://www.aljazeera.com/economy/2021/11/10/bitcoin-flirts-with-69000-on-heels-of-surging-inflation-news (Bloomberg, 10 November 2021: record of about 68,991 dollars, read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: crypto was almost absent from the news; FTX's collapse. To check: 'more than 100' companies (Wikipedia) against 'about 130' (AP); 'a million creditors' are potential creditors in a court filing"
+  },
+  {
+    "id": "af60cfb3",
+    "month": "2022-11",
+    "title": "Inflation eases to 7.7 percent: shares up 5 percent, with their best day since 2020",
+    "what": "On 10 November the government reported that consumer prices in October were 7.7 percent higher than a year earlier, less than the 8 percent economists expected and the smallest rise since January; in June it had been 9.1 percent. The S&P 500 jumped 5.5 percent that day, its best day since April 2020, the Nasdaq 7.4 percent, and the 10-year Treasury yield dropped from 4.12 to 3.82 percent. The Fed had raised its rate by three quarters of a point for the fourth time in a row on 2 November, to 3.75 to 4 percent, but on 30 November chairman Jerome Powell said the time for smaller steps 'may come as soon as the December meeting'. The S&P 500 ended November up 5 percent at 4,080.11, still about 14 percent lower than at the start of the year, and the Treasury bond due in 2040 gained 8 percent.",
+    "why": "The October 2022 inflation report was the turning point of the inflation scare: the peak in inflation (June), in yields (October) and the low in shares (12 October) all lay behind, and the Fed slowed to half a point in December. Explains November's 5% gain in shares and the 8% rebound of the 2040 bond.",
+    "assets": [
+      "bonds"
+    ],
+    "move": {
+      "asset": "sp500",
+      "pct": 5
+    },
+    "source": "https://www.bls.gov/news.release/archives/cpi_11102022.htm (read 2026-11-10); https://abc17news.com/news/ap-national-news/2022/11/10/wall-street-surges-dow-up-1200-points-on-cooling-inflation/ (AP, 10 November 2022, read 2026-11-10); https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2022-10-20&coed=2022-12-01 (FRED DGS10, read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20221102a.htm (read 2026-11-10); https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm (read 2026-11-10); https://www.nhpr.org/national/2022-11-30/stocks-rally-after-fed-chair-signals-slowdown-in-rate-hikes (AP, 30 November 2022, read 2026-11-10); data/reference/sp500.json; data/out/ust2040.json",
+    "changed": "new beat, consistency review of November 2026: the S&P 500's +5% had no market story"
+  },
+  {
     "id": "cd56f81a",
     "month": "2022-12",
     "title": "2022 in review: the worst year since 2008",
-    "what": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Nasdaq 33%; the Dow lost 8.8%. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
-    "why": "The year cheap money ended; one of the rare years when bonds offered no shelter.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
+    "what": "The S&P 500 fell 19% in 2022 to 3,839.50, its worst year since 2008, and the Dow lost 8.8%. The Nasdaq ended the year at 10,466, down 33%, after the worst first half in its history. The Federal Reserve raised its key rate seven times, from near zero to 4.25-4.5 percent, to fight inflation, and bonds fell as well as shares.",
+    "why": "The year cheap money ended; one of the rare years when bonds offered no shelter. The calendar-year turn of the post-pandemic bust, just before the AI boom began.",
+    "assets": [
+      "nvda",
+      "amzn",
+      "tsla",
+      "msft",
+      "aapl"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/2022_stock_market_decline (read 2026-10-03); https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the year's review and the Nasdaq's year were two stories in December 2022; now one (with tech/3607edbd)"
   },
   {
     "id": "83717eb0",
@@ -1050,19 +1282,16 @@
     "id": "65517be9",
     "month": "2023-12",
     "title": "2023 in review: up 24 percent, out of the bear market",
-    "what": "The S&P 500 gained 24% in 2023 to 4,769.83, just short of its January 2022 record, and the Dow 13.7%, passing 37,000 on 13 December. The index left its bear market on 8 June, 20% above the October 2022 low, despite the spring banking scare and rates raised to 5.25-5.5 percent in July.",
-    "why": "The recovery year, led by a few giant technology companies (told in the tech arc).",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03)"
-  },
-  {
-    "id": "749a32b7",
-    "month": "2024-08",
-    "title": "A yen shock and weak jobs data: a one-day global scare",
-    "what": "Weaker-than-expected American jobs figures and the unwinding of trades financed with cheap yen set off a global sell-off on Monday 5 August: Tokyo's Nikkei fell 12.4%, its worst day since 1987, and the Dow fell 1,034 points. The panic passed within days, and the S&P 500 ended August up 2%.",
-    "why": "A scare that came from Japan (told in the Asia arc); the quick recovery is the point.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json"
+    "what": "The S&P 500 gained 24% in 2023 to 4,769.83, just short of its January 2022 record, and the Dow 13.7%, passing 37,000 on 13 December. The index left its bear market on 8 June, 20% above the October 2022 low, despite the spring banking scare and rates raised to 5.25-5.5 percent in July. The Nasdaq rose 43% to 15,011, close to its 2021 record; a handful of large companies tied to artificial intelligence did most of the work.",
+    "why": "The recovery year, led by a few giant technology companies (told in the tech arc). The calendar-year turn of the AI boom's first year.",
+    "assets": [
+      "nvda",
+      "msft",
+      "aapl",
+      "amzn"
+    ],
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); https://en.wikipedia.org/wiki/Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the year's review and the Nasdaq's year were two stories in December 2023; now one (with tech/4290e3c4)"
   },
   {
     "id": "bea4d2f8",

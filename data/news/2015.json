@@ -202,17 +202,6 @@
   },
   {
     "month": "2015-06",
-    "kind": "colour",
-    "headline": "Wawrinka wins the French Open",
-    "text": "Stan Wawrinka beat world number one Novak Djokovic in the French Open final, his second Grand Slam title. On the way he also beat Roger Federer.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2015_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
-    "image": "/news/life/2015-06-stan-wawrinka-at-the-french-open-in-pari.jpg",
-    "imageCaption": "Stan Wawrinka at the French Open in Paris, 2 June 2015",
-    "imageCredit": "Fred Romero from Paris, France"
-  },
-  {
-    "month": "2015-06",
     "kind": "company",
     "headline": "Dennis Muilenburg to succeed McNerney",
     "text": "On 23 June Boeing named its chief operating officer, Dennis Muilenburg, as chief executive from 1 July, succeeding Jim McNerney. Muilenburg, an engineer, joined Boeing as an intern.",
@@ -223,6 +212,17 @@
     "image": "/news/ba/2015-06-dennis-muilenburg-of-boeing.jpg",
     "imageCaption": "Dennis Muilenburg of Boeing",
     "imageCredit": "Hawaii Air National Guard"
+  },
+  {
+    "month": "2015-06",
+    "kind": "colour",
+    "headline": "Wawrinka wins the French Open",
+    "text": "Stan Wawrinka beat world number one Novak Djokovic in the French Open final, his second Grand Slam title. On the way he also beat Roger Federer.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2015_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
+    "image": "/news/life/2015-06-stan-wawrinka-at-the-french-open-in-pari.jpg",
+    "imageCaption": "Stan Wawrinka at the French Open in Paris, 2 June 2015",
+    "imageCredit": "Fred Romero from Paris, France"
   },
   {
     "month": "2015-07",
@@ -366,7 +366,7 @@
     "month": "2015-08",
     "kind": "company",
     "headline": "Schlumberger buys Cameron for 14.8 billion dollars",
-    "text": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, for 0.716 Schlumberger shares plus 14.44 dollars in cash per Cameron share, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
+    "text": "On 26 August Schlumberger agreed to buy Cameron, a maker of wellheads, valves and drilling equipment, in shares and cash, a total of 14.8 billion dollars. It promises 300 million dollars of savings in the first year and 600 million in the second.",
     "assets": [
       "slb"
     ],
@@ -379,7 +379,7 @@
     "month": "2015-09",
     "kind": "company",
     "headline": "Debt panic: dividend cut, emergency share sale",
-    "text": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed at 125p on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
+    "text": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
     "assets": [
       "glencore"
     ],
@@ -391,25 +391,13 @@
   {
     "month": "2015-09",
     "kind": "company",
-    "headline": "The diesel scandal reaches BMW",
-    "text": "After Volkswagen admitted cheating on diesel emissions tests, the German magazine Auto Bild reported on 24 September that a diesel BMW X3 emitted 11 times the European limit for nitrogen oxides in a road test. BMW denied any manipulation, but its shares fell almost 10% that day. The new chief executive Harald Krüger, in office since May, collapsed on stage at a news conference in Frankfurt on 15 September; BMW said it was not serious.",
+    "headline": "Volkswagen's diesel cheating shakes German car makers",
+    "text": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems: when the magazine Auto Bild reported on 24 September that a diesel BMW X3 emitted 11 times the European limit for nitrogen oxides in a road test, BMW denied any manipulation, but its shares fell almost 10% that day. BMW's new chief executive Harald Krüger, in office since May, had collapsed on stage at a news conference in Frankfurt on 15 September; BMW said it was not serious.",
     "assets": [
+      "mercedes",
       "bmw"
     ],
-    "source": "CBC News, 'BMW disputes report its diesel X3 also failed emissions test', 24 September 2015, https://www.cbc.ca/news/business/volkswagen-emissions-bmw-1.3241472 (read 2026-10-03); https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03)",
-    "image": "/news/bmw/2015-09-320d.jpg",
-    "imageCaption": "A BMW 320d, the diesel version of the 3 Series",
-    "imageCredit": "Damian B Oh"
-  },
-  {
-    "month": "2015-09",
-    "kind": "company",
-    "headline": "Volkswagen's diesel cheating shakes German car makers",
-    "text": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal (read 2026-10-03); CBC News, 'BMW disputes report its diesel X3 also failed emissions test', 24 September 2015, https://www.cbc.ca/news/business/volkswagen-emissions-bmw-1.3241472 (read 2026-10-03); https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03)",
     "image": "/news/mercedes/2015-09-a-volkswagen-golf-tdi-clean-diesel-at-a.jpg",
     "imageCaption": "A Volkswagen Golf TDI 'Clean Diesel' at a motor show in 2010",
     "imageCredit": "Mariordo Mario Roberto Duran Ortiz"
@@ -518,22 +506,9 @@
   },
   {
     "month": "2015-12",
-    "kind": "colour",
-    "headline": "Star Wars returns, now made by Disney",
-    "text": "Star Wars: The Force Awakens opened on 18 December, the first Star Wars film since Disney bought Lucasfilm from George Lucas in 2012, and broke box-office records in its first days. Harrison Ford, Carrie Fisher and Mark Hamill return.",
-    "assets": [
-      "dis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens (read 2026-10-03)",
-    "image": "/news/life/2015-12-poster-for-star-wars-the-force-awakens-2.jpg",
-    "imageCaption": "Poster for Star Wars: The Force Awakens, 2015",
-    "imageCredit": "Lucasfilm / Walt Disney Studios"
-  },
-  {
-    "month": "2015-12",
     "kind": "world",
-    "headline": "2015 in review: a flat year and the first Fed rate rise since 2006",
-    "text": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. On 16 December the Federal Reserve raised its key rate for the first time since June 2006, to between 0.25 and 0.5 percent.",
+    "headline": "2015 in review: a flat year",
+    "text": "The S&P 500 slipped 1% in 2015 to 2,043.94 and the Dow 2.2%, after the August scare over China and a slump in oil. In December the Federal Reserve raised its key rate for the first time since 2006.",
     "assets": [
       "ust2020",
       "ust2025",
@@ -584,5 +559,18 @@
     "image": "/news/sony/2015-12-alpha7.jpg",
     "imageCaption": "The Sony Alpha 7 full-frame camera, which uses a Sony image sensor",
     "imageCredit": "Jürgen Matern"
+  },
+  {
+    "month": "2015-12",
+    "kind": "colour",
+    "headline": "Star Wars returns, now made by Disney",
+    "text": "Star Wars: The Force Awakens opened on 18 December, the first Star Wars film since Disney bought Lucasfilm from George Lucas in 2012, and broke box-office records in its first days. Harrison Ford, Carrie Fisher and Mark Hamill return.",
+    "assets": [
+      "dis"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens (read 2026-10-03)",
+    "image": "/news/life/2015-12-poster-for-star-wars-the-force-awakens-2.jpg",
+    "imageCaption": "Poster for Star Wars: The Force Awakens, 2015",
+    "imageCredit": "Lucasfilm / Walt Disney Studios"
   }
 ]

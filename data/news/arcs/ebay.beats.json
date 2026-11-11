@@ -167,6 +167,22 @@
     "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
   },
   {
+    "id": "27748c7a",
+    "month": "2010-10",
+    "title": "PayPal drives eBay's profit up 23%; the shares gain 22%",
+    "what": "On 20 October eBay reported a net profit of 432 million dollars for the third quarter, 23% more than a year earlier, on revenue of 2.25 billion dollars; without Skype, the internet telephone service it sold late last year, revenue grew 10%. The growth comes from PayPal, its online payment service, whose revenue rose 22% to 838 million dollars and which now has 90 million active accounts; the marketplace business grew only 3%. The outlook for the Christmas quarter was better than analysts had expected, and the shares rose about 7% in late trading that evening; they ended October 22% higher.",
+    "why": "+22%: investors begin to value eBay for PayPal rather than for the auction site, the logic that led to PayPal's spin-off in 2015. It also tells the player that the Skype purchase of 2005 has been undone.",
+    "assets": [
+      "ebay"
+    ],
+    "move": {
+      "asset": "ebay",
+      "pct": 22
+    },
+    "source": "https://www.sec.gov/Archives/edgar/data/0001065088/000119312510232699/dex991.htm (eBay press release of 20 October 2010, read 2026-11-10); https://phys.org/news/2010-10-ebay-3q-profit-percent.amp (Associated Press, 20 October 2010, read 2026-11-10); https://www.rte.ie/news/business/2010/1022/137150-ebay-business (read 2026-11-10); data/out/ebay.json (read 2026-11-10)",
+    "changed": "new beat, consistency review of November 2026: October 2010 had no story at all; eBay's +22%. To check: the month still has no market story (S&P 500 +4%)"
+  },
+  {
     "id": "218762b7",
     "month": "2011-06",
     "title": "eBay buys GSI Commerce",
@@ -295,17 +311,6 @@
     "title": "eBay sells its Korean business",
     "what": "eBay sold its South Korean business to the retailer Emart for $3 billion.",
     "why": "Part of the slimming down to the core marketplace and cash returns.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)"
-  },
-  {
-    "id": "8ad318d4",
-    "month": "2022-10",
-    "title": "eBay buys TCGplayer",
-    "what": "eBay bought TCGplayer, a marketplace for collectible card games, for about $295 million.",
-    "why": "Part of eBay's focus on collectibles.",
     "assets": [
       "ebay"
     ],

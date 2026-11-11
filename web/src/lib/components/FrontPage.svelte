@@ -3,8 +3,10 @@
    * The month's news as the front page of "The News": a masthead, the lead story across the
    * page with its picture, and the other stories in columns below.
    */
-  import { THREADS, type NewsItemView } from '@marketsim/shared';
+  import type { NewsItemView } from '@marketsim/shared';
   import { monthName } from '$lib/format';
+  import { signedPct as fmt, type MarketSummary } from '$lib/movers';
+  import { kicker } from '$lib/news';
 
   interface Props {
     month: string;
@@ -17,18 +19,14 @@
     /** Larger type for the projector. */
     big?: boolean;
     /** The month's market summary, shown as a strip under the masthead: the indices first, then the biggest movers. */
-    markets?: { indices: { name: string; change: number }[]; movers: { name: string; change: number }[] };
+    markets?: MarketSummary;
   }
   let { month, items, nameOf, openable, onselect, big = false, markets }: Props = $props();
   // The strip slides only when it does not fit on one line.
   let stripWidth = $state(0);
   let setWidth = $state(0);
   const sliding = $derived(setWidth > stripWidth + 1);
-  const fmt = (c: number) => `${c > 0 ? '+' : c < 0 ? '−' : ''}${Math.abs(c * 100).toFixed(0)}%`;
 
-  const KIND_LABEL: Record<string, string> = { listing: 'Now trading', delisting: 'Leaving the market' };
-  /** The line above a headline: an entry or exit, or the storyline the item continues. */
-  const kicker = (item: NewsItemView) => KIND_LABEL[item.kind] ?? (item.thread ? THREADS[item.thread] : undefined);
   const lead = $derived(items[0]);
   const rest = $derived(items.slice(1));
   /** Papers count their years: volume 1 is the game's first year. */
@@ -107,7 +105,7 @@
   {#if !lead}
     <p class="quiet">A quiet month: no news to report.</p>
   {:else}
-    <section class="lead" class:with-picture={!!lead.image}>
+    <section class="lead" class:with-picture={!!lead.image} data-story="0">
       <div class="lead-head">
         {#if kicker(lead)}<p class="kicker">{kicker(lead)}</p>{/if}
         <h3>{lead.headline}</h3>
@@ -126,7 +124,7 @@
         {#each rest as item, i (i)}
           <!-- a story alone under the lead has the whole width: its picture goes beside the text -->
           {@const beside = rest.length === 1 && !!item.image}
-          <div class="story" class:beside>
+          <div class="story" class:beside data-story={i + 1}>
             {#if beside}{@render picture(item)}{/if}
             <div class="story-body">
               {#if kicker(item)}<p class="kicker">{kicker(item)}</p>{/if}

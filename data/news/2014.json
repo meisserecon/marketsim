@@ -1,17 +1,6 @@
 [
   {
     "month": "2014-01",
-    "kind": "colour",
-    "headline": "Stan Wawrinka wins the Australian Open",
-    "text": "Stan Wawrinka beat Rafael Nadal in the final of the Australian Open, his first Grand Slam title, after beating world number two Novak Djokovic on the way. Switzerland now has two Grand Slam champions.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2014_Australian_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
-    "image": "/news/life/2014-01-stan-wawrinka-with-the-australian-open-t.jpg",
-    "imageCaption": "Stan Wawrinka with the Australian Open trophy he won in 2014",
-    "imageCredit": "Tourism Victoria from Australia"
-  },
-  {
-    "month": "2014-01",
     "kind": "company",
     "headline": "McDonald's stalls: fewer customers in 2013",
     "text": "McDonald's reported on 23 January that worldwide sales at existing restaurants rose only 0.2% in 2013, with higher average checks but fewer customer visits; earnings per share rose 4%. Chief executive Don Thompson calls 2013 'a challenging year'.",
@@ -35,6 +24,17 @@
     "image": "/news/mo/2014-01-packs-of-marlboro-cigarettes.jpg",
     "imageCaption": "Packs of Marlboro cigarettes",
     "imageCredit": "Marco Papale from Milano, Italy"
+  },
+  {
+    "month": "2014-01",
+    "kind": "colour",
+    "headline": "Stan Wawrinka wins the Australian Open",
+    "text": "Stan Wawrinka beat Rafael Nadal in the final of the Australian Open, his first Grand Slam title, after beating world number two Novak Djokovic on the way. Switzerland now has two Grand Slam champions.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2014_Australian_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
+    "image": "/news/life/2014-01-stan-wawrinka-with-the-australian-open-t.jpg",
+    "imageCaption": "Stan Wawrinka with the Australian Open trophy he won in 2014",
+    "imageCredit": "Tourism Victoria from Australia"
   },
   {
     "month": "2014-02",
@@ -251,6 +251,19 @@
   },
   {
     "month": "2014-09",
+    "kind": "company",
+    "headline": "eBay to spin off PayPal",
+    "text": "On September 30 eBay announced it will separate PayPal into an independent listed company, as the activist investor Carl Icahn demanded at the start of the year.",
+    "assets": [
+      "ebay"
+    ],
+    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
+    "image": "/news/ebay/2014-09-carl-icahn.jpg",
+    "imageCaption": "Carl Icahn (photograph from 2021)",
+    "imageCredit": "AviateHistory"
+  },
+  {
+    "month": "2014-09",
     "kind": "colour",
     "headline": "Netflix arrives in Switzerland",
     "text": "In September the American streaming service Netflix started in Switzerland, Germany, Austria, France, Belgium and Luxembourg. For a monthly fee it shows films and series over the internet, whenever the viewer wants.",
@@ -270,19 +283,6 @@
     "image": "/news/life/2014-09-mars-orbiter-mission.jpg",
     "imageCaption": "Mars Orbiter Mission, 2014",
     "imageCredit": "Kevin Gill from Nashua, NH, United States"
-  },
-  {
-    "month": "2014-09",
-    "kind": "company",
-    "headline": "eBay to spin off PayPal",
-    "text": "On September 30 eBay announced it will separate PayPal into an independent listed company, as the activist investor Carl Icahn demanded at the start of the year.",
-    "assets": [
-      "ebay"
-    ],
-    "source": "https://en.wikipedia.org/wiki/EBay (read 2026-10-03)",
-    "image": "/news/ebay/2014-09-carl-icahn.jpg",
-    "imageCaption": "Carl Icahn (photograph from 2021)",
-    "imageCredit": "AviateHistory"
   },
   {
     "month": "2014-10",
@@ -368,17 +368,6 @@
   },
   {
     "month": "2014-11",
-    "kind": "colour",
-    "headline": "Federer and Wawrinka win the Davis Cup",
-    "text": "Switzerland won tennis's Davis Cup for the first time, beating France in the final in Lille from 21 to 23 November. Roger Federer and Stan Wawrinka led the team.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/2014_Davis_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2014-11-the-stade-pierre-mauroy-in-lille-where-s.jpg",
-    "imageCaption": "The Stade Pierre-Mauroy in Lille, where Switzerland won the Davis Cup final",
-    "imageCredit": "Liondartois"
-  },
-  {
-    "month": "2014-11",
     "kind": "company",
     "headline": "Kaeser starts Vision 2020",
     "text": "On 6 November Siemens reported fourth-quarter net income up 40% at 1.5 billion euros and said it has begun carrying out 'Vision 2020', its plan to concentrate on electrification, automation and digitalization and to cut costs by a billion euros. Earlier this year it agreed to buy Rolls-Royce's gas turbine business for 1 billion pounds and, with Mitsubishi Heavy Industries, bid against General Electric for Alstom's energy business.",
@@ -390,6 +379,17 @@
     "image": "/news/siemens/2014-11-joe-kaeser-siemens-chief-executive-march.jpg",
     "imageCaption": "Joe Kaeser, Siemens' chief executive, March 2014",
     "imageCredit": "Presidential Press and Information Office"
+  },
+  {
+    "month": "2014-11",
+    "kind": "colour",
+    "headline": "Federer and Wawrinka win the Davis Cup",
+    "text": "Switzerland won tennis's Davis Cup for the first time, beating France in the final in Lille from 21 to 23 November. Roger Federer and Stan Wawrinka led the team.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/2014_Davis_Cup (read 2026-10-03); https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2014-11-the-stade-pierre-mauroy-in-lille-where-s.jpg",
+    "imageCaption": "The Stade Pierre-Mauroy in Lille, where Switzerland won the Davis Cup final",
+    "imageCredit": "Liondartois"
   },
   {
     "month": "2014-12",

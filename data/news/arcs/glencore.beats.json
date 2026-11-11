@@ -57,22 +57,6 @@
     "changed": "end of the first employee lock-ups on 24 May 2012 added (curator's wish, research note lockups.md); move kept; lock-up rule: only the month the lock-up ends, no share counts or durations"
   },
   {
-    "id": "4a01befc",
-    "month": "2012-06",
-    "title": "Qatar holds out for a better price",
-    "what": "Qatar Holding, Xstrata's second-largest shareholder with more than 10%, said on 26 June it would only support the merger at 3.25 Glencore shares per Xstrata share rather than 2.8. Glencore received proposed changes to the contested retention payments for Xstrata managers and will postpone its 11 July shareholder meeting. Ivan Glasenberg says Glencore will not overpay.",
-    "why": "The deal looked close to collapse. Glencore's shares fell 12% in the month.",
-    "assets": [
-      "glencore",
-      "xstrata"
-    ],
-    "move": {
-      "asset": "glencore",
-      "pct": -12
-    },
-    "source": "https://www.fool.com/investing/international/2012/06/27/glencores-bid-for-xstrata-under-threat.aspx; https://gulfnews.com/business/investment/qatar-likely-to-lower-xstrata-price-demand-1.1070926; https://www.investegate.co.uk/announcement/rns/glencore--glen/glencore-international-plc-merger-update/3328691 (all read 2026-10-03)"
-  },
-  {
     "id": "ff82540f",
     "month": "2012-08",
     "title": "Half-year profit dips, shares rebound",
@@ -170,7 +154,7 @@
     "id": "426c6130",
     "month": "2015-09",
     "title": "Debt panic: dividend cut, emergency share sale",
-    "what": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed at 125p on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
+    "what": "On 7 September Glencore unveiled a plan to cut debt by up to $10.2bn: a $2.5bn share sale, no dividends for the 2015 final and 2016 interim payments, $2bn of asset sales and lower spending, aiming for net debt in the 'low $20s billion' by end-2016. It also halted its Katanga and Mopani copper mines in Africa for 18 months, removing about 400,000 tonnes of copper. New shares were placed on 16 September, with managers taking 22%. After a further steep fall late in the month the company said on 30 September it has 'absolutely no solvency issues' and no debt covenants.",
     "why": "The near-death month: -39%, with the shares at about a sixth of the IPO price in dollars. The specific analyst report blamed for the 28 September crash could not be confirmed from a readable source, so it is left out.",
     "assets": [
       "glencore"
@@ -179,7 +163,8 @@
       "asset": "glencore",
       "pct": -39
     },
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-glencore-s-plans-to-reduce-net-debt/4174987; https://www.investegate.co.uk/announcement/rns/glencore--glen/african-copper-operational-update/4175016; https://www.investegate.co.uk/announcement/rns/glencore--glen/results-of-placing-of-1-307-794-600-new-shares/4264833; https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement/4069843 (all read 2026-10-03)"
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/update-on-glencore-s-plans-to-reduce-net-debt/4174987; https://www.investegate.co.uk/announcement/rns/glencore--glen/african-copper-operational-update/4175016; https://www.investegate.co.uk/announcement/rns/glencore--glen/results-of-placing-of-1-307-794-600-new-shares/4264833; https://www.investegate.co.uk/announcement/rns/glencore--glen/media-statement/4069843 (all read 2026-10-03)",
+    "changed": "rule on metrics: placing price per share removed"
   },
   {
     "id": "419999fd",
@@ -334,7 +319,7 @@
     "id": "c1234808",
     "month": "2021-02",
     "title": "Payouts resume as copper soars",
-    "what": "On 16 February Glencore reported flat 2020 adjusted EBITDA of $11.6bn, a net loss of $1.9bn after write-downs, and net debt down to $15.8bn, back in its target range. It will pay 12 US cents a share, about $1.6bn, resuming distributions. Copper averaged $8,471 a tonne in February, up from $5,183 last March.",
+    "what": "On 16 February Glencore reported flat 2020 adjusted EBITDA of $11.6bn, a net loss of $1.9bn after write-downs, and net debt down to $15.8bn, back in its target range. It will pay about $1.6bn to shareholders, resuming distributions. Copper averaged $8,471 a tonne in February, up from $5,183 last March.",
     "why": "Glencore +20%: the start of the 2021-22 commodity boom.",
     "assets": [
       "glencore"
@@ -343,7 +328,8 @@
       "asset": "glencore",
       "pct": 20
     },
-    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2020/6364685; World Bank Pink Sheet monthly averages (both read 2026-10-03)"
+    "source": "https://www.investegate.co.uk/announcement/rns/glencore--glen/preliminary-results-2020/6364685; World Bank Pink Sheet monthly averages (both read 2026-10-03)",
+    "changed": "rule on metrics: payout per share removed, the total kept"
   },
   {
     "id": "308c332e",

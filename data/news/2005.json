@@ -96,6 +96,16 @@
   {
     "month": "2005-04",
     "kind": "company",
+    "headline": "IBM misses its targets and loses 16%",
+    "text": "On 14 April, two business days earlier than planned, IBM reported first-quarter sales of 22.9 billion dollars, up 3% (only 1% without the help of the weak dollar) where analysts had expected about 23.7 billion, and a profit of 1.4 billion dollars, also less than expected. Chief executive Sam Palmisano said IBM 'had difficulty closing transactions in the final weeks of the quarter', above all in Germany, France, Italy and Japan, and finance chief Mark Loughridge hinted at a 'sizable restructuring'. The shares fell 8.3% the next day, the biggest loser in the Dow Jones index in its worst week since March 2003, and 16% in April.",
+    "assets": [
+      "ibm"
+    ],
+    "source": "https://www.theregister.com/2005/04/15/ibm_q1_2005/ (read 2026-11-10); https://www.nbcnews.com/news/amp/wbna7505672 (AP, 14 April 2005, read 2026-11-10); https://www.nbcnews.com/id/wbna7544182 (market report on 15 April 2005, read 2026-11-10); https://www.rte.ie/news/business/2005/0415/62004-ibm-business (read 2026-11-10); https://www.internetnews.com/it-management/ibm-apple-fuel-slowdown-fears (read 2026-11-10); data/out/ibm.json"
+  },
+  {
+    "month": "2005-04",
+    "kind": "company",
     "headline": "Brabeck becomes chairman as well as chief executive",
     "text": "Peter Brabeck-Letmathe became chairman of Nestlé in April while staying chief executive. Combining both jobs is controversial among shareholders who want a separate check on management.",
     "assets": [
@@ -247,17 +257,6 @@
   },
   {
     "month": "2005-08",
-    "kind": "colour",
-    "headline": "Floods in central Switzerland",
-    "text": "After days of heavy rain, floods and landslides hit central Switzerland and the Bernese Oberland around 22 August. Engelberg, with 4,000 inhabitants and 1,000 tourists, was cut off and could only be reached by helicopter, and two firemen were killed in the Entlebuch by a landslide. Six to ten people died in Switzerland, and damage runs into billions of francs.",
-    "assets": [],
-    "source": "https://de.wikipedia.org/wiki/Alpenhochwasser_2005 (read 2026-10-03)",
-    "image": "/news/life/2005-08-a-flooded-hotel-on-lake-ageri-in-unterag.jpg",
-    "imageCaption": "A flooded hotel on Lake Ägeri in Unterägeri, canton Zug, August 2005",
-    "imageCredit": "Roy Egloff"
-  },
-  {
-    "month": "2005-08",
     "kind": "world",
     "headline": "Hurricane Katrina hits the Gulf oil coast",
     "text": "Hurricane Katrina struck the Gulf coast on 29 August. The region supplies about a tenth of US crude and refines almost half its gasoline; on 31 August eight Gulf refineries were still shut. US crude futures topped $70 a barrel, a record, and the government is releasing oil from the strategic reserve.",
@@ -279,6 +278,25 @@
     "image": "/news/xstrata/2005-08-falconbridges-nickel-refinery-in-kristia.jpg",
     "imageCaption": "Falconbridge's nickel refinery in Kristiansand, Norway",
     "imageCredit": "Bjoertvedt"
+  },
+  {
+    "month": "2005-08",
+    "kind": "colour",
+    "headline": "Floods in central Switzerland",
+    "text": "After days of heavy rain, floods and landslides hit central Switzerland and the Bernese Oberland around 22 August. Engelberg, with 4,000 inhabitants and 1,000 tourists, was cut off and could only be reached by helicopter, and two firemen were killed in the Entlebuch by a landslide. Six to ten people died in Switzerland, and damage runs into billions of francs.",
+    "assets": [],
+    "source": "https://de.wikipedia.org/wiki/Alpenhochwasser_2005 (read 2026-10-03)",
+    "image": "/news/life/2005-08-a-flooded-hotel-on-lake-ageri-in-unterag.jpg",
+    "imageCaption": "A flooded hotel on Lake Ägeri in Unterägeri, canton Zug, August 2005",
+    "imageCredit": "Roy Egloff"
+  },
+  {
+    "month": "2005-09",
+    "kind": "world",
+    "headline": "New Orleans under water, petrol above $3, and a second hurricane",
+    "text": "When Hurricane Katrina broke the levees of New Orleans, 80% of the city was flooded; more than 1,000 people are confirmed dead, the head of the federal disaster agency resigned on 12 September, and Congress has approved 62.3 billion dollars of emergency aid. With refineries on the Gulf coast shut, the average US price of petrol jumped within a week from $2.61 to a record $3.07 a gallon. On 24 September a second hurricane, Rita, came ashore on the border of Texas and Louisiana after some three million people had fled the coast; together the two storms closed 20 refineries, about a third of the country's capacity. The Fed nevertheless raised its rate to 3.75 percent on 20 September: the storm, it said, sets the economy back in the near term but is no lasting threat.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Hurricane_Katrina (read 2026-11-10); https://en.wikipedia.org/wiki/Timeline_of_Hurricane_Katrina (read 2026-11-10); https://en.wikipedia.org/wiki/Hurricane_Rita (read 2026-11-10); https://www.pbs.org/newshour/world/weather-july-dec05-economic_budget (read 2026-11-10); https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=W (weekly US regular gasoline price, read 2026-11-10); https://www.federalreserve.gov/boarddocs/press/monetary/2005/20050920/default.htm (read 2026-11-10)"
   },
   {
     "month": "2005-10",

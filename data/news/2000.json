@@ -16,7 +16,7 @@
     "month": "2000-01",
     "kind": "world",
     "headline": "AOL, an internet company, agrees to buy Time Warner",
-    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners.",
+    "text": "On 10 January America Online, which brings more than 20 million customers onto the internet, announced that it will take over the media group Time Warner for about 165 billion dollars, paid in its own shares. Although Time Warner has far bigger revenues and assets, AOL's shareholders will own 55 percent of the combined company, because the stock market values AOL more highly. The deal shows how much buying power soaring internet shares have given their owners. AOL's own shares fell 26% in January.",
     "assets": [
       "aol"
     ],
@@ -168,6 +168,16 @@
   {
     "month": "2000-03",
     "kind": "company",
+    "headline": "Buffett admits his worst year, weighs a buyback, and Berkshire jumps 30%",
+    "text": "On Friday 10 March, the day the Nasdaq set its record, Berkshire Hathaway shares closed at their lowest since May 1997, about half their level of a year earlier. The next day the annual report appeared, in which Warren Buffett, who owns no technology shares, writes: 'We had the worst absolute performance of my tenure and, compared to the S&P, the worst relative performance as well.' He adds that Berkshire recently considered buying back its own shares and may yet do so if they sell well below what the business is worth, though never to prop up the price. The shares rose 8.5% on the Monday and another 17% on 15 and 16 March, when money poured back into 'old economy' companies and the Dow gained a record 499 points in one day; they ended March 30% higher.",
+    "assets": [
+      "brk"
+    ],
+    "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-11-10); https://berkshirehathaway.com/news/mar0800.html (read 2026-11-10); https://g.foolcdn.com/news/2000/foolplate000313.htm (read 2026-11-10); https://web.archive.org/web/20020603103605/http://money.cnn.com/2000/03/16/markets/markets_newyork/ (read 2026-11-10); daily closes of BRK-A, https://query1.finance.yahoo.com/v8/finance/chart/BRK-A?period1=852076800&period2=954806400&interval=1d (read 2026-11-10); data/out/brk.json"
+  },
+  {
+    "month": "2000-03",
+    "kind": "company",
     "headline": "BMW breaks up Rover and the shares jump",
     "text": "On 16 March BMW announced that it is giving up Rover. Rover Cars and the Longbridge plant go to the British investor Alchemy Partners, with BMW paying to be rid of them; Land Rover is to be sold to Ford, reportedly for 1.8 billion pounds. BMW keeps the Cowley plant near Oxford to build the new Mini. A one-off charge of 3.15 billion euros produced a net loss of 2.49 billion euros for 1999.",
     "assets": [
@@ -182,7 +192,7 @@
     "month": "2000-04",
     "kind": "world",
     "headline": "The Nasdaq loses 25% in a week",
-    "text": "On 3 April a judge ruled that Microsoft broke antitrust law; Microsoft fell 15% and the Nasdaq 8% that day. On 14 April the Nasdaq fell 9.7%, ending a week in which it lost 25%. It ended April at 3,861, almost a quarter below its March record.",
+    "text": "The Nasdaq fell 8% on 3 April, the day a judge ruled that Microsoft broke antitrust law. On 14 April it fell 9.7%, ending a week in which it lost 25%. It ended April at 3,861, almost a quarter below its March record.",
     "assets": [
       "msft",
       "csco",
@@ -200,7 +210,7 @@
     "month": "2000-04",
     "kind": "company",
     "headline": "Judge rules Microsoft broke the antitrust law",
-    "text": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and the Nasdaq index 8%, adding to the slide in technology shares that began in March.",
+    "text": "On 3 April Judge Jackson ruled that Microsoft illegally monopolised the market for PC operating systems and illegally tied its browser to Windows. Microsoft's shares fell 15% that day and 34% in April.",
     "assets": [
       "msft"
     ],
@@ -213,24 +223,17 @@
     "month": "2000-05",
     "kind": "world",
     "headline": "'Maybe the music has stopped': the Nasdaq is down a third",
-    "text": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
-    "assets": [],
+    "text": "The slide of technology shares goes on. On 23 May the Nasdaq index fell as low as 3,173, 37 percent below its record of 5,049 on 10 March. Apple lost a third of its value in May, eBay a fifth and Cisco 18 percent. A week earlier, on 16 May, the Fed had raised its interest rate by half a point to 6.5 percent to cool the economy. Even the most famous investors have been caught out. George Soros, whose Quantum Fund lost 19 percent this year on internet shares, said: 'Maybe I don't understand the market. Maybe the music has stopped, but people are still dancing.' His chief investor Stanley Druckenmiller resigned on 28 April: 'I overplayed my hand.' Julian Robertson, who refused to buy internet shares at all, had given up a month earlier and closed his Tiger funds.",
+    "assets": [
+      "aapl",
+      "ebay",
+      "csco"
+    ],
     "source": "https://www.spokesman.com/stories/2000/may/23/markets-have-wild-ride/ (search result read 2026-10-04); https://www.cnn.com/TRANSCRIPTS/0005/16/bn.01.html (search result read 2026-10-04); https://money.cnn.com/2000/04/28/mutualfunds/soros/ (search result read 2026-10-04); https://www.safalniveshak.com/risks-of-speculating-during-rising-markets/ (search result read 2026-10-04); https://en.wikipedia.org/wiki/Julian_Robertson (read 2026-10-04); https://en.wikipedia.org/wiki/Dot-com_bubble (read 2026-10-04)",
     "thread": "dotcom",
     "image": "/news/tech/2000-05-george-soros.jpg",
     "imageCaption": "George Soros, photographed years later on a visit to the European Commission",
     "imageCredit": "European Commission (see source page)"
-  },
-  {
-    "month": "2000-05",
-    "kind": "colour",
-    "headline": "The 'I love you' virus",
-    "text": "From 4 May an e-mail with the subject 'ILOVEYOU' spread around the world, first in Asia, then in Europe as people arrived at work, then in America. Its attachment, a computer worm, overwrites files and sends itself to everyone in the victim's address book. Companies shut down their e-mail systems. It was traced to the Philippines.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/ILOVEYOU (read 2026-10-03)",
-    "image": "/news/life/2000-05-the-iloveyou-e-mail-with-its-love-letter.jpg",
-    "imageCaption": "The 'ILOVEYOU' e-mail with its LOVE-LETTER attachment",
-    "imageCredit": "Mario23"
   },
   {
     "month": "2000-05",
@@ -259,6 +262,17 @@
     "imageCredit": "Tamanoeconomico"
   },
   {
+    "month": "2000-05",
+    "kind": "colour",
+    "headline": "The 'I love you' virus",
+    "text": "From 4 May an e-mail with the subject 'ILOVEYOU' spread around the world, first in Asia, then in Europe as people arrived at work, then in America. Its attachment, a computer worm, overwrites files and sends itself to everyone in the victim's address book. Companies shut down their e-mail systems. It was traced to the Philippines.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/ILOVEYOU (read 2026-10-03)",
+    "image": "/news/life/2000-05-the-iloveyou-e-mail-with-its-love-letter.jpg",
+    "imageCaption": "The 'ILOVEYOU' e-mail with its LOVE-LETTER attachment",
+    "imageCredit": "Mario23"
+  },
+  {
     "month": "2000-06",
     "kind": "company",
     "headline": "The court orders Microsoft split in two",
@@ -270,6 +284,17 @@
     "image": "/news/msft/2000-06-courthouse.jpg",
     "imageCaption": "The federal courthouse in Washington, where the Microsoft case was tried",
     "imageCredit": "AgnosticPreachersKid"
+  },
+  {
+    "month": "2000-06",
+    "kind": "company",
+    "headline": "A Lehman bond analyst doubts Amazon's finances, and the shares fall 19% in a day",
+    "text": "On 23 June Ravi Suria, a bond analyst at Lehman Brothers, published a report calling Amazon's credit 'extremely weak and deteriorating'. Since 1997, he wrote, Amazon has raised 2.8 billion dollars, mostly by borrowing, while taking in only 2.9 billion dollars in sales, and it could run out of cash within a year unless it finds new money. Amazon called the report 'pure hogwash' and said it had more than 1 billion dollars in the bank. The same day Morgan Stanley Dean Witter's Mary Meeker said Amazon's sales might fall short of her forecasts; the shares fell 19% that day and 25% in June.",
+    "assets": [
+      "amzn",
+      "lehman"
+    ],
+    "source": "https://web.archive.org/web/20020603213700/http://money.cnn.com/2000/06/23/companies/amazon/ (read 2026-11-10); https://www.newson6.com/story/5e3685402f69d76f6209a9a7/amazoncoms-stock-plunges (AP, read 2026-11-10); https://wirednews.pages.dev/2000/06/analysts-send-amazon-down-river (Wired News 23 June 2000, read 2026-11-10); https://wirednews.pages.dev/2000/06/bezos-blasts-low-cash-report (Wired News 28 June 2000, read 2026-11-10); data/out/amzn.json"
   },
   {
     "month": "2000-07",
@@ -327,7 +352,7 @@
     "month": "2000-08",
     "kind": "delisting",
     "headline": "IBJ's last month: Mizuho Holdings takes over",
-    "text": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
+    "text": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks that agreed to combine a year ago: the Industrial Bank of Japan, Fuji Bank and Dai-Ichi Kangyo Bank. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
     "assets": [
       "ibj"
     ],
@@ -352,8 +377,8 @@
   {
     "month": "2000-08",
     "kind": "company",
-    "headline": "Enron shares hit a record near $90",
-    "text": "Enron's shares reached a record of about $90 on 23 August. Rebecca Mark, who built Enron's international power business and ran its water company Azurix, has left after a slump in Azurix's shares.",
+    "headline": "Enron shares hit a record",
+    "text": "Enron's shares reached a record on 23 August. Rebecca Mark, who built Enron's international power business and ran its water company Azurix, has left after a slump in Azurix's shares.",
     "assets": [
       "enron"
     ],
@@ -415,6 +440,15 @@
     "imageCredit": "Brenna"
   },
   {
+    "month": "2000-10",
+    "kind": "world",
+    "headline": "The euro sinks to 82 cents, 30% below its start",
+    "text": "On 26 October the euro fell to a record low of about 82.3 US cents; at its launch in January 1999 it was worth $1.18, so it has lost 30% against the dollar in under two years. On 22 September the European Central Bank, joined by the central banks of the United States, Japan and other rich countries, had bought euros to stop the slide and lifted the currency to about 88 cents, but the effect faded within weeks. The selling resumed after the ECB's president, Wim Duisenberg, said in an interview published in The Times on 16 October that he would not favour another intervention even if a war in the Middle East shook the markets. A weak euro makes oil and other imports dearer: inflation in the euro countries reached 2.8% in September, well above the ECB's limit of 2%, and on 5 October the bank raised its interest rate to 4.75%. On 28 September the Danes had voted by 53% to 47% not to adopt the euro.",
+    "assets": [],
+    "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU&cosd=2000-09-15&coed=2000-11-03 (read 2026-11-10; launch rate from data/raw/fred/DEXUSEU.csv); https://www.ecb.europa.eu/press/pr/date/2000/html/pr000922.en.html (read 2026-11-10); https://www.ecb.europa.eu/press/pr/date/2000/html/pr001005.en.html (read 2026-11-10); https://www.ecb.europa.eu/press/pressconf/2000/html/is001019.en.html (ECB press conference of 19 October 2000, inflation of 2.8%, read 2026-11-10); https://web.archive.org/web/20020604083037/http://money.cnn.com/2000/10/25/worldbiz/euro_dollar/index.htm (read 2026-11-10); https://web.archive.org/web/20020219051632/http://money.cnn.com/2000/10/26/europe/markets_europe/ (read 2026-11-10); https://www.irishtimes.com/business/fresh-collapse-in-euro-value-ahead-of-ecb-paris-meeting-1.1110940 (read 2026-11-10); https://www.wsws.org/en/articles/2000/10/euro-o19.html (read 2026-11-10); https://www.wsws.org/en/articles/2000/11/euro-n07.html (read 2026-11-10); https://www.rte.ie/news/business/2022/0705/1308587-key-euro-dollar-moments (read 2026-11-10); https://en.wikipedia.org/wiki/2000_Danish_euro_referendum (read 2026-11-10)",
+    "thread": "euro"
+  },
+  {
     "month": "2000-11",
     "kind": "world",
     "headline": "Bush or Gore? America votes and has no winner",
@@ -429,7 +463,7 @@
     "month": "2000-11",
     "kind": "delisting",
     "headline": "Pets.com shuts down",
-    "text": "On November 7 Pets.com said it will stop taking orders on November 9, lay off 255 of its 320 employees and sell its inventory, warehouse equipment, web addresses and the sock-puppet brand. More than 50 possible buyers and investors were approached; none would fund or buy the company. The shares, issued at $11 in February, traded at about 19 cents, and the company warned that shareholders may receive little or nothing.",
+    "text": "On November 7 Pets.com said it will stop taking orders on November 9, lay off 255 of its 320 employees and sell its inventory, warehouse equipment, web addresses and the sock-puppet brand. More than 50 possible buyers and investors were approached; none would fund or buy the company. The shares have lost about 98% since they were issued in February, and the company warned that shareholders may receive little or nothing.",
     "assets": [
       "pets-com",
       "amzn"
@@ -442,8 +476,8 @@
   {
     "month": "2000-11",
     "kind": "world",
-    "headline": "The Nasdaq's worst month since 1987; Pets.com closes",
-    "text": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. Pets.com announced on 9 November that it will shut down, nine months after its IPO. The sell-off has spread from internet start-ups to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
+    "headline": "The Nasdaq's worst month since 1987",
+    "text": "The Nasdaq fell 23% in November to 2,598, half its March record and its worst month since October 1987. The sell-off has spread from internet start-ups such as Pets.com, which is shutting down nine months after its IPO, to the big chip, PC and telecom equipment companies. Gloomy profit reports and signs of slower growth sent the S&P 500 down 8% in the month to 1,314.95.",
     "assets": [
       "pets-com",
       "amzn",
@@ -486,19 +520,6 @@
   {
     "month": "2000-11",
     "kind": "company",
-    "headline": "Credit Suisse buys Donaldson, Lufkin & Jenrette",
-    "text": "In November Credit Suisse completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette for about $12.4 billion, to be merged into Credit Suisse First Boston.",
-    "assets": [
-      "credit-suisse"
-    ],
-    "source": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)",
-    "image": "/news/credit-suisse/2000-11-muehlemann.jpg",
-    "imageCaption": "Lukas Mühlemann, chief executive of Credit Suisse Group, speaking at the St. Gallen Management Symposium, 1996",
-    "imageCredit": "Regina Kühne"
-  },
-  {
-    "month": "2000-11",
-    "kind": "company",
     "headline": "Cisco says it sees no slowdown",
     "text": "Cisco's sales are still growing fast, and in November its chief strategy officer said: 'We haven't seen any sign of a slowdown.' Some component suppliers have begun to lower their forecasts. Cisco's shares are down by about 40% from their March high.",
     "assets": [
@@ -512,12 +533,13 @@
   {
     "month": "2000-11",
     "kind": "company",
-    "headline": "UBS takes over PaineWebber",
-    "text": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets. It makes UBS a big player in American wealth management.",
+    "headline": "The Swiss banks buy on Wall Street: PaineWebber and DLJ",
+    "text": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets, and makes UBS a big player in American wealth management. Credit Suisse also completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette in November, for about $12.4 billion, to be merged into Credit Suisse First Boston.",
     "assets": [
-      "ubs"
+      "ubs",
+      "credit-suisse"
     ],
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)",
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)",
     "image": "/news/ubs/2000-11-painewebber.jpg",
     "imageCaption": "The Paine Webber office in the early twentieth century"
   },
@@ -569,6 +591,16 @@
     "image": "/news/enron/2000-12-skilling-lay-sutton.jpg",
     "imageCaption": "Jeffrey Skilling, Kenneth Lay and Joseph Sutton of Enron, 1999 (left to right)",
     "imageCredit": "Enron Corp. (1999 annual report)"
+  },
+  {
+    "month": "2000-12",
+    "kind": "company",
+    "headline": "Microsoft warns on sales for the first time in ten years",
+    "text": "On 14 December, after the market had closed, Microsoft said that revenue for the quarter to December would be 6.4 to 6.5 billion dollars, 5 to 6% less than it had forecast and well below the 6.8 billion dollars analysts expected, and it cut its forecast for the financial year to June by about 5%. Finance chief John Connors blamed a worldwide slowdown in sales of PCs, in companies' spending on technology and in online advertising; Compaq, Gateway, Hewlett-Packard, Intel and AMD have given similar warnings in recent weeks. A Goldman Sachs analyst called it 'a big miss' and Microsoft's first sales warning in ten years. The shares fell 11% the next day and 24% in December.",
+    "assets": [
+      "msft"
+    ],
+    "source": "https://web.archive.org/web/20020602145929/http://money.cnn.com/2000/12/14/technology/microsoft/ (read 2026-11-10); https://news.microsoft.com/source/2000/12/14/microsoft-lowers-revenue-and-earnings-expectations/ (read 2026-11-10); https://www.heraldnet.com/?p=444053 (AP market report of 15 December 2000, read 2026-11-10); https://www.internetnews.com/it-management/microsoft-cuts-forecasts-amid-pc-slowdown/ (read 2026-11-10); data/out/msft.json"
   },
   {
     "month": "2000-12",

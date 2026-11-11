@@ -117,6 +117,22 @@
     "source": "https://www.berkshirehathaway.com/letters/1992.html (read 2026-10-03); data/out/brk.json price series"
   },
   {
+    "id": "904f600d",
+    "month": "2000-03",
+    "title": "Buffett admits his worst year, weighs a buyback, and Berkshire jumps 30%",
+    "what": "On Friday 10 March, the day the Nasdaq set its record, Berkshire Hathaway shares closed at their lowest since May 1997, about half their level of a year earlier. The next day the annual report appeared, in which Warren Buffett, who owns no technology shares, writes: 'We had the worst absolute performance of my tenure and, compared to the S&P, the worst relative performance as well.' He adds that Berkshire recently considered buying back its own shares and may yet do so if they sell well below what the business is worth, though never to prop up the price. The shares rose 8.5% on the Monday and another 17% on 15 and 16 March, when money poured back into 'old economy' companies and the Dow gained a record 499 points in one day; they ended March 30% higher.",
+    "why": "Berkshire's biggest month in the game, and the mirror image of the dot-com peak: the champion of the 'old economy' hit its low on the very day the Nasdaq hit its high. It shows the player that the unloved share of a bubble can turn as fast as the loved ones.",
+    "assets": [
+      "brk"
+    ],
+    "move": {
+      "asset": "brk",
+      "pct": 30
+    },
+    "source": "https://www.berkshirehathaway.com/letters/1999htm.html (read 2026-11-10); https://berkshirehathaway.com/news/mar0800.html (read 2026-11-10); https://g.foolcdn.com/news/2000/foolplate000313.htm (read 2026-11-10); https://web.archive.org/web/20020603103605/http://money.cnn.com/2000/03/16/markets/markets_newyork/ (read 2026-11-10); daily closes of BRK-A, https://query1.finance.yahoo.com/v8/finance/chart/BRK-A?period1=852076800&period2=954806400&interval=1d (read 2026-11-10); data/out/brk.json",
+    "changed": "new beat, consistency review of November 2026: Berkshire's +30% (one of its twelve biggest months) had no story. To check: the daily moves and 'lowest close since May 1997' are computed from Yahoo's price history"
+  },
+  {
     "id": "fa58b257",
     "month": "2003-05",
     "title": "Berkshire buys Wal-Mart's distribution arm McLane",
@@ -214,12 +230,13 @@
     "id": "8e94a24c",
     "month": "2020-08",
     "title": "Berkshire buys into Japan's five big trading houses",
-    "what": "On 31 August Berkshire said it had bought slightly more than 5% of each of Japan's five leading trading companies, Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo, over about twelve months. It intends to hold them for the long term and may go up to 9.9% in each.",
-    "why": "A rare big foreign bet that paid off handsomely; it came after a pandemic year in which Berkshire had found little to buy.",
+    "what": "On 31 August Berkshire said it had bought slightly more than 5% of each of Japan's five leading trading companies, Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo, over about twelve months, worth over $6 billion. It intends to hold them for the long term and may go up to 9.9% in each.",
+    "why": "A rare big foreign bet that paid off handsomely; it came after a pandemic year in which Berkshire had found little to buy. The most famous vote of confidence in Japan's revival; Berkshire later raised its stakes to about 10% as Tokyo hit records.",
     "assets": [
       "brk"
     ],
-    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312520235925/d947341d8k.htm (Berkshire press release of 31 August 2020, read 2026-10-03)"
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312520235925/d947341d8k.htm (Berkshire press release of 31 August 2020, read 2026-10-03); https://en.wikipedia.org/wiki/Berkshire_Hathaway (read 2026-10-03)",
+    "changed": "consistency review of November 2026: Berkshire's Japanese purchases were told twice in August 2020; now one story (with asia/0f9b1189)"
   },
   {
     "id": "244507e4",

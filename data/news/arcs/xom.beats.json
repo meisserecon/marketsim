@@ -257,7 +257,7 @@
     "id": "db7c4002",
     "month": "2020-11",
     "title": "A vaccine lifts oil shares; ExxonMobil writes off up to 20 billion",
-    "what": "On 9 November Pfizer and BioNTech said their Covid vaccine was more than 90 percent effective in its first analysis, and oil shares, among the hardest hit by the pandemic, jumped. US crude rose from about 36 to 45 dollars during the month. On 30 November ExxonMobil said it would take a 17 to 20 billion dollar write-down on gas fields it no longer plans to develop, cut spending further and reduce its workforce by 15 percent by the end of 2021, while keeping the dividend.",
+    "what": "Oil shares, among the hardest hit by the pandemic, jumped on the vaccine news of 9 November. US crude rose from about 36 to 45 dollars during the month. On 30 November ExxonMobil said it would take a 17 to 20 billion dollar write-down on gas fields it no longer plans to develop, cut spending further and reduce its workforce by 15 percent by the end of 2021, while keeping the dividend.",
     "why": "The turn: ExxonMobil's shares had bottomed in October; the vaccine rally (+17% this month) began the climb that made 2021-22 its best two years in the game.",
     "assets": [
       "xom"
@@ -266,7 +266,8 @@
       "asset": "xom",
       "pct": 17
     },
-    "source": "Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); ExxonMobil press release of 30 November 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000093/xomexhibit9911302020.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)"
+    "source": "Pfizer and BioNTech press release of 9 November 2020 (BioNTech Form 6-K exhibit 99.1), https://www.sec.gov/Archives/edgar/data/1776985/000156459020052228/ (read 2026-10-03); ExxonMobil press release of 30 November 2020, https://www.sec.gov/Archives/edgar/data/34088/000003408820000093/xomexhibit9911302020.htm (read 2026-10-03); https://fred.stlouisfed.org/series/DCOILWTICO (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the vaccine news opened three stories in November 2020; it is told in the month's world story"
   },
   {
     "id": "03375e31",
@@ -303,12 +304,13 @@
     "id": "893d0186",
     "month": "2023-10",
     "title": "ExxonMobil buys Pioneer for 59.5 billion dollars",
-    "what": "On 11 October ExxonMobil agreed to buy Pioneer Natural Resources, a large shale oil producer in the Permian Basin, in an all-stock deal valued at 59.5 billion dollars, or 253 dollars a Pioneer share, an 18 percent premium. Pioneer owners get 2.3234 ExxonMobil shares each. It is ExxonMobil's biggest deal since Mobil and needs regulators' approval.",
+    "what": "On 11 October ExxonMobil agreed to buy Pioneer Natural Resources, a large shale oil producer in the Permian Basin, in an all-stock deal valued at 59.5 billion dollars, an 18 percent premium. Pioneer owners get 2.3234 ExxonMobil shares each. It is ExxonMobil's biggest deal since Mobil and needs regulators' approval.",
     "why": "Uses the 2022 windfall and a high share price to double down on US shale; the deal closed in May 2024 and more than doubled ExxonMobil's Permian output.",
     "assets": [
       "xom"
     ],
-    "source": "ExxonMobil and Pioneer press release of 11 October 2023 (Form 8-K), https://www.sec.gov/Archives/edgar/data/34088/000095010323014885/ (read 2026-10-03); ExxonMobil press release of 3 May 2024 (closing), https://www.sec.gov/Archives/edgar/data/34088/000095010324006322/dp210867_ex9901.htm (read 2026-10-03)"
+    "source": "ExxonMobil and Pioneer press release of 11 October 2023 (Form 8-K), https://www.sec.gov/Archives/edgar/data/34088/000095010323014885/ (read 2026-10-03); ExxonMobil press release of 3 May 2024 (closing), https://www.sec.gov/Archives/edgar/data/34088/000095010324006322/dp210867_ex9901.htm (read 2026-10-03)",
+    "changed": "rule on metrics: takeover price per share removed, the total kept"
   },
   {
     "id": "d9c54d5d",

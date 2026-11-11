@@ -82,7 +82,7 @@
     "month": "2009-02",
     "kind": "company",
     "headline": "GE cuts its dividend by two thirds",
-    "text": "On 27 February General Electric's board decided to cut the quarterly dividend from 31 cents to 10 cents from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
+    "text": "On 27 February General Electric's board decided to cut the quarterly dividend by two thirds from the second half of 2009, saving about 9 billion dollars a year. Jeff Immelt called it a precautionary step and said GE has no plans to raise more equity.",
     "assets": [
       "ge"
     ],
@@ -95,7 +95,7 @@
     "month": "2009-02",
     "kind": "company",
     "headline": "UBS settles with the US and hands over client names",
-    "text": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell to about 11 francs.",
+    "text": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell 25% in February.",
     "assets": [
       "ubs"
     ],
@@ -121,14 +121,15 @@
     "month": "2009-03",
     "kind": "world",
     "headline": "The S&P 500 sinks to 676, then a sudden rally",
-    "text": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87.",
+    "text": "The S&P 500 closed at 676.53 on 9 March, 57% below its October 2007 record, and the Dow at 6,547.05, its lowest since 1997. On 10 March Citigroup said it had been profitable in January and February, and its shares jumped 38% while the indexes rose 5 to 7%. On 18 March the Fed said it would buy up to 300 billion dollars of Treasury bonds and 750 billion more of mortgage securities. The S&P 500 ended March up 9% at 797.87; among the battered shares that rebounded with it, Sony gained 25%.",
     "assets": [
       "c",
+      "sony",
       "ust2010",
       "ust2015",
       "ust2020"
     ],
-    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json",
+    "source": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S%26P_500 (read 2026-10-03); https://en.wikipedia.org/wiki/Closing_milestones_of_the_Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090318a.htm (read 2026-10-03); data/reference/sp500.json; data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
     "image": "/news/markets/2009-03-nyse-trader-chart.jpg",
     "imageCaption": "A trader in front of a chart of the falling Dow at the New York Stock Exchange at the end of the day, 2 March 2009",
     "imageCredit": "Photo by Mario Tama/Getty Images"
@@ -165,21 +166,8 @@
   {
     "month": "2009-03",
     "kind": "company",
-    "headline": "Stocks rally after a year of falls",
-    "text": "After falling for most of a year, stocks rallied in March; the S&P 500 rose 9% in the month. Sony's ADR rose 25%.",
-    "assets": [
-      "sony"
-    ],
-    "source": "data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)",
-    "image": "/news/sony/2009-03-tokyo-stock-exchange.jpg",
-    "imageCaption": "Tokyo Stock Exchange (photograph from 2018)",
-    "imageCredit": "Kakidai"
-  },
-  {
-    "month": "2009-03",
-    "kind": "company",
-    "headline": "Time Warner spins off its cable business and merges its shares three into one",
-    "text": "Time Warner separated Time Warner Cable on 12 March and began handing its cable shares to its own shareholders on 27 March: 0.083670 Time Warner Cable share for each Time Warner share held on 12 March. The same evening it merged every three of its own shares into one. A holder of 300 Time Warner shares thus now owns 100 new Time Warner shares and about 25 Time Warner Cable shares; fractions are paid in cash. Chief executive Jeff Bewkes says Time Warner is now one of the leading pure content companies.",
+    "headline": "Time Warner spins off its cable business",
+    "text": "Time Warner separated Time Warner Cable on 12 March and began handing its cable shares to its own shareholders on 27 March: 0.083670 Time Warner Cable share for each Time Warner share held on 12 March. Chief executive Jeff Bewkes says Time Warner is now one of the leading pure content companies.",
     "assets": [
       "aol"
     ],
@@ -292,17 +280,6 @@
   },
   {
     "month": "2009-06",
-    "kind": "colour",
-    "headline": "Michael Jackson dies; Federer wins the French Open",
-    "text": "Michael Jackson died in Los Angeles on 25 June, aged 50, weeks before a series of comeback concerts in London; the news brought unprecedented surges of internet traffic. Earlier in June Roger Federer finally won the French Open, beating Robin Söderling in the final, which gives him all four Grand Slam titles and equals Pete Sampras's record of 14.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson (read 2026-10-03); https://en.wikipedia.org/wiki/2009_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
-    "image": "/news/life/2009-06-federer-fo.jpg",
-    "imageCaption": "Roger Federer at the French Open, Paris, June 2009",
-    "imageCredit": "Yann Caradec"
-  },
-  {
-    "month": "2009-06",
     "kind": "world",
     "headline": "'Where is my vote?' Millions protest Ahmadinejad's re-election",
     "text": "Official results gave President Ahmadinejad about 63 percent in the election of 12 June; his challengers Mir-Hossein Mousavi and Mehdi Karroubi rejected the count. Huge crowds marched in Tehran from 13 June, many wearing Mousavi's campaign green, in the biggest protests since the revolution. Supreme Leader Khamenei backed the result on 19 June; security forces and Basij militia have used batons and live fire. A young woman, Neda Agha-Soltan, was shot dead on 20 June and video of her death has gone around the world. State media report more than a dozen deaths; the opposition says many more.",
@@ -328,6 +305,17 @@
     "imageCredit": "not credited on the page"
   },
   {
+    "month": "2009-06",
+    "kind": "colour",
+    "headline": "Michael Jackson dies; Federer wins the French Open",
+    "text": "Michael Jackson died in Los Angeles on 25 June, aged 50, weeks before a series of comeback concerts in London; the news brought unprecedented surges of internet traffic. Earlier in June Roger Federer finally won the French Open, beating Robin Söderling in the final, which gives him all four Grand Slam titles and equals Pete Sampras's record of 14.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson (read 2026-10-03); https://en.wikipedia.org/wiki/2009_French_Open_%E2%80%93_Men%27s_singles (read 2026-10-03)",
+    "image": "/news/life/2009-06-federer-fo.jpg",
+    "imageCaption": "Roger Federer at the French Open, Paris, June 2009",
+    "imageCredit": "Yann Caradec"
+  },
+  {
     "month": "2009-07",
     "kind": "company",
     "headline": "Copper passes $5,000",
@@ -339,19 +327,6 @@
     "image": "/news/xstrata/2009-07-chuquicamata.jpg",
     "imageCaption": "Chuquicamata (photograph from 2016)",
     "imageCredit": "Diego Delso"
-  },
-  {
-    "month": "2009-07",
-    "kind": "company",
-    "headline": "The recovery reaches the drug makers",
-    "text": "Stock markets extended their recovery from the March low; the S&P 500 rose 7% in July. Novartis rose 11% in francs.",
-    "assets": [
-      "novartis"
-    ],
-    "source": "https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/novartis/2009-07-the-novartis-campus-on-the-rhine-in-base.jpg",
-    "imageCaption": "The Novartis campus on the Rhine in Basel",
-    "imageCredit": "Andreas Schwarzkopf"
   },
   {
     "month": "2009-07",
@@ -382,6 +357,16 @@
   {
     "month": "2009-08",
     "kind": "company",
+    "headline": "Citigroup rises 58% in a month on a wave of speculation",
+    "text": "Citigroup's shares rose 58% in August although the bank announced nothing that would explain it. With Bank of America and the state-controlled mortgage companies Fannie Mae and Freddie Mac it dominated the stock market: on 24 August these four made up about 43% of all trading in shares listed on the New York Stock Exchange, and all four have more than doubled from this year's lows. Traders called it a 'dash for trash', short-term speculation in the most battered financial shares, probably pushed along by investors who had bet on falling prices and now had to buy the shares back. On 27 August Citigroup gained another 9% after the New York Post reported that the hedge fund manager John Paulson had bought about 2% of the bank; the shares are still 72% lower than a year ago.",
+    "assets": [
+      "c"
+    ],
+    "source": "https://www.ibtimes.com/four-banks-dominate-august-market-dash-trash-316521 and https://www.ibtimes.com/four-banks-dominate-august-market-dash-trash-316591 (Reuters, 25 August 2009, read 2026-11-10); https://www.nbcnews.com/news/amp/wbna32577837 (Reuters, 27 August 2009, read 2026-11-10); https://www.americanbanker.com/news/hedge-fund-boss-said-to-buy-citi-stake (27 August 2009, read 2026-11-10); data/out/c.json (read 2026-11-10)"
+  },
+  {
+    "month": "2009-08",
+    "kind": "company",
     "headline": "Tax deal with the US; the state cashes in",
     "text": "On 19 August UBS settled the US 'John Doe' summons case, and the US and Switzerland signed an agreement under which the IRS asks the Swiss tax administration for information on about 4,450 accounts of American clients. The same day the Confederation announced the conversion of its 6 billion francs of convertible notes into UBS shares.",
     "assets": [
@@ -391,6 +376,16 @@
     "image": "/news/ubs/2009-08-merz.jpg",
     "imageCaption": "Hans-Rudolf Merz, the Swiss finance minister, 2009",
     "imageCredit": "Attribution, Swiss Federal Chancellery"
+  },
+  {
+    "month": "2009-09",
+    "kind": "world",
+    "headline": "Gold passes 1,000 dollars again as the dollar weakens",
+    "text": "On 8 September gold rose above 1,000 dollars an ounce for the first time since February, its highest since March 2008, when it set a record a little above 1,030 dollars; the dollar weakened and the euro rose to about 1.45 dollars. With interest rates near zero in many large economies it costs little to hold gold, which pays no interest, and on 23 September the Fed repeated that its rate would stay exceptionally low 'for an extended period'. Gold averaged 997 dollars in September, 5 percent more than in August. Shares rose too: on 15 September, a year after Lehman's bankruptcy, Fed chairman Ben Bernanke said the recession was 'very likely over', though unemployment stood at 9.7 percent, a 26-year high, and the S&P 500 gained 4% in the month to 1,057.08.",
+    "assets": [
+      "gold"
+    ],
+    "source": "https://vindyarchives.com/news/2009/sep/09/gold-price-rises-over-1000-per-ounce (Associated Press, 9 September 2009, read 2026-11-10); https://www.arabnews.com/node/327856 (Associated Press, 9 September 2009, read 2026-11-10); https://www.federalreserve.gov/newsevents/pressreleases/monetary20090923a.htm (read 2026-11-10); https://www.mprnews.org/story/2009/09/15/bernanke-recession (Associated Press, 15 September 2009, read 2026-11-10); data/out/gold.json (read 2026-11-10); data/reference/sp500.json (read 2026-11-10)"
   },
   {
     "month": "2009-10",
@@ -433,18 +428,19 @@
   {
     "month": "2009-12",
     "kind": "world",
-    "headline": "Technology leads the recovery: Nasdaq up 44% in 2009",
-    "text": "The Nasdaq ended 2009 at 2,269, up 44% for the year and 79% above its low of 1,268.64 on 9 March.",
+    "headline": "2009 in review: up 23 percent, and 65 percent from the March low",
+    "text": "The S&P 500 rose 23% in 2009 to 1,115.10, 65% above its March low, and the Dow 18.8%. Technology led the recovery: the Nasdaq ended the year at 2,269, up 44% and 79% above its low of 1,268.64 on 9 March. The Federal Reserve kept its key rate near zero all year and bought bonds on a huge scale, but unemployment has risen to about 10 percent.",
     "assets": [
       "aapl",
       "amzn",
       "nvda",
       "intc"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2009-12-iphone-3gs.jpg",
-    "imageCaption": "IPhone 3GS (photograph from 2025)",
-    "imageCredit": "JoBot164"
+    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "housing-crisis",
+    "image": "/news/markets/2009-12-year-chart.png",
+    "imageCaption": "American shares (S&P 500) at the end of each month of 2009: up 23 percent in the year",
+    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   },
   {
     "month": "2009-12",
@@ -458,18 +454,6 @@
     "image": "/news/aol/2009-12-aol-770-broadway.jpg",
     "imageCaption": "AOL's offices at 770 Broadway, Manhattan, 2013",
     "imageCredit": "Gino DePinto / Wikimedia Commons"
-  },
-  {
-    "month": "2009-12",
-    "kind": "world",
-    "headline": "2009 in review: up 23 percent, and 65 percent from the March low",
-    "text": "The S&P 500 rose 23% in 2009 to 1,115.10, 65% above its March low, and the Dow 18.8%. The Federal Reserve kept its key rate near zero all year and bought bonds on a huge scale, but unemployment has risen to about 10 percent.",
-    "assets": [],
-    "source": "data/reference/sp500.json; https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average (read 2026-10-03); https://en.wikipedia.org/wiki/2008_financial_crisis (read 2026-10-03)",
-    "thread": "housing-crisis",
-    "image": "/news/markets/2009-12-year-chart.png",
-    "imageCaption": "American shares (S&P 500) at the end of each month of 2009: up 23 percent in the year",
-    "imageCredit": "Chart: Month by Month. Data: Yahoo Finance (^GSPC, month-end closes)"
   },
   {
     "month": "2009-12",

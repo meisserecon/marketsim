@@ -26,6 +26,7 @@ As for all Swiss shares in the game, the franc matters: in January 2009 half of 
 
 - 2000-01 (-16%, -13% in francs): no Novartis-specific news found. Swiss blue chips fell in January 2000 (a Credit Suisse Swiss blue-chip fund was down 6.2% for the year on 31 January, NZZ 1 February 2000, fund table p. 16), and investors favoured technology shares at the time, but that does not explain the full fall. Checked: NZZ of 1 February 2000 (text layer), Wikipedia.
 - 2002-02 (+11%, +10% in francs): no cause found. Checked: Wikipedia, Novartis history pages. No NZZ scans exist after 2001.
+- 2009-07 (+13%, +11% in francs, market +7%): the market's recovery from the March low; no Novartis-specific cause. A beat that said only this was deleted in the review of November 2026.
 - 2016-01 (-11%, -10% in francs, market -5%): partly the market; no Novartis-specific cause confirmed (fourth-quarter results are usually published in late January but were not read).
 - 2023-04 (+11%, +9% in francs): first-quarter results month; no source read confirmed what was reported.
 - 2026-02 (+14%): the fourth-quarter results of 4 February look weak (sales -1% at constant currencies, net income -15%); Nestlé rose 15% the same month, so a move into Swiss defensive shares is possible but not confirmed.

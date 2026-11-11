@@ -87,13 +87,15 @@
   {
     "id": "95b48d88",
     "month": "2000-11",
-    "title": "UBS takes over PaineWebber",
-    "what": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets. It makes UBS a big player in American wealth management.",
-    "why": "UBS's bet on America: the US wealth business becomes a pillar, but the US presence also exposes the bank to American prosecutors in the tax case of 2008.",
+    "title": "The Swiss banks buy on Wall Street: PaineWebber and DLJ",
+    "what": "UBS completed its takeover of the US broker PaineWebber on 3 November for about $11.8 billion. PaineWebber has 1.9 million mostly affluent clients with $452 billion of assets, and makes UBS a big player in American wealth management. Credit Suisse also completed its purchase of the US investment bank Donaldson, Lufkin & Jenrette in November, for about $12.4 billion, to be merged into Credit Suisse First Boston.",
+    "why": "UBS's bet on America: the US wealth business becomes a pillar, but the US presence also exposes the bank to American prosecutors in the tax case of 2008. Bought at the top of the market; in 2021 Credit Suisse writes off 1.6 billion francs of goodwill from this deal.",
     "assets": [
-      "ubs"
+      "ubs",
+      "credit-suisse"
     ],
-    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03)"
+    "source": "https://www.encyclopedia.com/books/politics-and-business-magazines/ubs-ag (read 2026-10-03); https://en.wikipedia.org/wiki/UBS (read 2026-10-03); https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/credit-suisse-group (read 2026-10-03); Credit Suisse Form 20-F for 2021, https://www.sec.gov/Archives/edgar/data/1053092/000137036822000019/cs-20211231.htm (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the two Swiss purchases on Wall Street of November 2000 told as one story (with credit-suisse/a97b6ba9)"
   },
   {
     "id": "4c2ffe00",
@@ -145,7 +147,7 @@
     "id": "da8ba26f",
     "month": "2008-05",
     "title": "Rights issue: seven new shares for every twenty",
-    "what": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at 21 francs. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
+    "what": "UBS shareholders received one free share for every 20 held (record date 25 April, delivered 19 May) instead of a dividend, and then subscription rights for the 15-billion-franc capital increase: for every 20 rights, holders can buy seven new shares at a discount. The shares trade ex-rights from the end of May. On 20 May UBS also sold $15 billion of US mortgage securities to a fund run by BlackRock, lending most of the money itself.",
     "why": "Part of the -28% is mechanical: the series is not adjusted for the stock dividend or the rights issue (worth very roughly 10% together). The rest is the market's verdict on UBS.",
     "assets": [
       "ubs"
@@ -154,14 +156,15 @@
       "asset": "ubs",
       "pct": -28
     },
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)"
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03)",
+    "changed": "rule on metrics: subscription price per share removed"
   },
   {
     "id": "50914c59",
     "month": "2008-10",
-    "title": "The Swiss state rescues UBS",
-    "what": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse, which raised capital privately, does not use the facility.",
-    "why": "The defining moment of UBS's crisis. The share barely moved in October (+1%) because the rescue removed the risk of collapse; the state later exits with a profit.",
+    "title": "The Swiss state rescues UBS; Credit Suisse raises 10 billion francs privately",
+    "what": "On 16 October the Swiss National Bank and the federal government announced measures to strengthen the Swiss financial system. UBS can transfer up to $60 billion of illiquid securities, mostly backed by US home and commercial mortgages, to a fund controlled by the National Bank, which lends it up to $54 billion; UBS puts in up to $6 billion of equity. The Confederation subscribes 6 billion francs of mandatory convertible notes in UBS. Credit Suisse does not use the facility: the same day it announced it had raised about 10 billion francs of new capital from a small group of investors; Qatar Holding reported holding 8.9% of its shares on 22 October. Credit Suisse cancelled its share buyback.",
+    "why": "The defining moment of UBS's crisis. The share barely moved in October (+1%) because the rescue removed the risk of collapse; the state later exits with a profit. Credit Suisse survives the crisis without state aid, a point of pride that later makes it harder to admit weakness. The new shares and the crash pushed the stock down 23% in October.",
     "assets": [
       "ubs",
       "credit-suisse"
@@ -171,14 +174,15 @@
       "pct": 1
     },
     "thread": "housing-crisis",
-    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03)",
-    "lead": true
+    "source": "Swiss National Bank, media release of 16 October 2008, https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/press-releases/2008/pre_20081016_1/publications0/pre_20081016_1.de.pdf (read 2026-10-03); UBS Form 20-F for 2008 (read 2026-10-03); Credit Suisse Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1053092/000137036809000006/a090324ar20f.htm (read 2026-10-03); Swiss National Bank, media release of 16 October 2008 (read 2026-10-03)",
+    "lead": true,
+    "changed": "consistency review of November 2026: the Swiss bank package of 16 October 2008 was told in two stories that quoted each other; now one (with credit-suisse/6fefe3ff)"
   },
   {
     "id": "6ec9fa77",
     "month": "2009-02",
     "title": "UBS settles with the US and hands over client names",
-    "what": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell to about 11 francs.",
+    "what": "On 18 February UBS entered a deferred prosecution agreement with the US Department of Justice and pays $780 million; with the backing of the Swiss regulator FINMA it hands over data on a few hundred American clients, breaching the usual reach of bank secrecy. The US tax authorities are separately seeking information on many more accounts. UBS reported a 2008 net loss of 20.9 billion francs, and on 26 February Oswald Grübel replaced Marcel Rohner as chief executive. The shares fell 25% in February.",
     "why": "The beginning of the end of Swiss bank secrecy for foreign clients, and the low point of UBS's crisis: -86% from the April 2007 peak to March 2009.",
     "assets": [
       "ubs"
@@ -187,7 +191,8 @@
       "asset": "ubs",
       "pct": -25
     },
-    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03); prices: data/raw/yahoo/ubs.csv (read 2026-10-03)"
+    "source": "UBS Form 20-F for 2008, https://www.sec.gov/Archives/edgar/data/1114446/000095012309004436/y75024e20vf.htm (read 2026-10-03); https://de.wikipedia.org/wiki/UBS (read 2026-10-03); prices: data/raw/yahoo/ubs.csv (read 2026-10-03)",
+    "changed": "rule on metrics: share price replaced by the month's fall"
   },
   {
     "id": "1eafc895",
@@ -239,7 +244,7 @@
     "id": "96e5063b",
     "month": "2011-09",
     "title": "A rogue trader costs UBS $2.3 billion; Grübel resigns",
-    "what": "On 15 September UBS said unauthorised trading by a trader in London, Kweku Adoboli, had caused a loss estimated at $2 billion, later put at $2.3 billion; the shares fell 10.8% that day. On 24 September chief executive Oswald Grübel resigned; Sergio Ermotti takes over on an interim basis. Earlier in the month, on 6 September, the Swiss National Bank set a minimum exchange rate of 1.20 francs per euro, and the franc fell about 11% against the dollar in September.",
+    "what": "On 15 September UBS said unauthorised trading by a trader in London, Kweku Adoboli, had caused a loss estimated at $2 billion, later put at $2.3 billion; the shares fell 10.8% that day. On 24 September chief executive Oswald Grübel resigned; Sergio Ermotti takes over on an interim basis. In dollars the shares fell 20% in September, about half of it because the franc weakened once the National Bank capped it at 1.20 per euro.",
     "why": "Ermotti's arrival leads to the 2012 retreat from investment banking. The -20% in dollars is the scandal plus the weaker franc.",
     "assets": [
       "ubs"
@@ -248,7 +253,8 @@
       "asset": "ubs",
       "pct": -20
     },
-    "source": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/2011_UBS_rogue_trader_scandal (read 2026-10-03); https://en.wikipedia.org/wiki/Swiss_National_Bank (read 2026-10-03); data/raw/fred/DEXSZUS.csv (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the franc's cap has its own story this month; here only what it did to the share in dollars"
   },
   {
     "id": "ce4fcf0c",
@@ -281,12 +287,13 @@
     "month": "2017-01",
     "title": "The end of bank secrecy for foreign clients",
     "what": "From 2017 Switzerland applies the international standard for the automatic exchange of information on bank accounts: Swiss banks collect data on accounts of foreign residents, which will be sent to their home tax authorities from 2018. For depositors who do not live in Switzerland, bank secrecy is effectively over.",
-    "why": "Closes the bank-secrecy strand that began with the 1984 vote; from 2019 Switzerland shares details of 3.1 million foreign-held accounts.",
+    "why": "Closes the bank-secrecy strand that began with the 1984 vote; from 2019 Switzerland shares details of 3.1 million foreign-held accounts. Closes the bank-secrecy strand that began with the 1984 vote.",
     "assets": [
       "ubs",
       "credit-suisse"
     ],
-    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Banking_in_Switzerland (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the same story stood twice in January 2017, once for each bank; now one (with credit-suisse/627eb026)"
   },
   {
     "id": "aa1e725f",
@@ -298,22 +305,6 @@
       "ubs"
     ],
     "source": "https://de.wikipedia.org/wiki/UBS (read 2026-10-03)"
-  },
-  {
-    "id": "435bf6c2",
-    "month": "2023-06",
-    "title": "Credit Suisse becomes part of UBS",
-    "what": "On 12 June UBS completed the takeover; Credit Suisse Group is now a subsidiary of UBS. Sergio Ermotti, who returned as chief executive in April, has said integrating the two banks will take years. Credit Suisse shareholders received UBS shares.",
-    "why": "Completion beat from the acquirer's side; the game's credit-suisse holders now own ubs.",
-    "assets": [
-      "ubs",
-      "credit-suisse"
-    ],
-    "move": {
-      "asset": "ubs",
-      "pct": 7
-    },
-    "source": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS (read 2026-10-03); https://de.wikipedia.org/wiki/Credit_Suisse (read 2026-10-03)"
   },
   {
     "id": "f9cbd518",

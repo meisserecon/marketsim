@@ -204,8 +204,8 @@
     "id": "06c51d27",
     "month": "2010-09",
     "title": "German car shares race ahead",
-    "what": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX. The euro rose from 1.27 to 1.36 dollars during the month. BMW gained 32 percent in the month and Daimler 30 percent.",
-    "why": "+30% in dollars: about 21% in euros plus the euro's rebound after the spring's Greek crisis. German auto shares rose 56% in 2010.",
+    "what": "German car makers are booming as the economy recovers; in July Daimler raised its profit target for 2010. In September stock markets rallied worldwide and German car shares led the DAX, and BMW's ordinary shares were taken into the EURO STOXX 50 index of the eurozone's largest companies. The euro rose from 1.27 to 1.36 dollars during the month. BMW gained 32 percent in the month and Daimler 30 percent.",
+    "why": "+30% in dollars: about 21% in euros plus the euro's rebound after the spring's Greek crisis. German auto shares rose 56% in 2010. +32% in dollars (+23% in euros). BMW was the best DAX share of 2010 (+85%).",
     "assets": [
       "mercedes",
       "bmw"
@@ -214,9 +214,9 @@
       "asset": "mercedes",
       "pct": 30
     },
-    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03)",
+    "source": "BMW Group Annual Report 2010, 'Automobile stocks boost DAX' (Prime Automobile index +56.5% in 2010), https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03); Times of Malta, 'Daimler raises 2010 earnings target', 28 July 2010 (headline, via Google News) (read 2026-10-03); FRED DEXUSEU, data/raw/fred/DEXUSEU.csv (read 2026-10-03); BMW Group Annual Report 2010, 'Automobile stocks boost DAX', https://bib.kuleuven.be/files/ebib/jaarverslagen/BMW_2010.pdf (read 2026-10-03)",
     "lead": true,
-    "changed": "note to the writer addressed: BMW added (text and tag)"
+    "changed": "note to the writer addressed: BMW added (text and tag); consistency review of November 2026: the rally of the German car shares was told twice in September 2010 in nearly the same words; now one story (with bmw/710d69d1)"
   },
   {
     "id": "e5f568f3",
@@ -245,23 +245,27 @@
     "id": "aaa36b45",
     "month": "2015-09",
     "title": "Volkswagen's diesel cheating shakes German car makers",
-    "what": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems.",
-    "why": "Start of the diesel-scandal years that later reached Daimler itself (recalls 2017, US fine 2020).",
+    "what": "On 18 September US authorities accused Volkswagen of using software to cheat diesel emissions tests. VW said about 11 million cars worldwide carry the software, its chief executive Martin Winterkorn resigned, and its shares lost a third within days. Investors now ask whether other diesel makers have similar problems: when the magazine Auto Bild reported on 24 September that a diesel BMW X3 emitted 11 times the European limit for nitrogen oxides in a road test, BMW denied any manipulation, but its shares fell almost 10% that day. BMW's new chief executive Harald Krüger, in office since May, had collapsed on stage at a news conference in Frankfurt on 15 September; BMW said it was not serious.",
+    "why": "Start of the diesel-scandal years that later reached Daimler itself (recalls 2017, US fine 2020). BMW kept denying the report, and the shares rebounded in October (+17%).",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "bmw"
     ],
-    "source": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal (read 2026-10-03); CBC News, 'BMW disputes report its diesel X3 also failed emissions test', 24 September 2015, https://www.cbc.ca/news/business/volkswagen-emissions-bmw-1.3241472 (read 2026-10-03); https://en.wikipedia.org/wiki/Harald_Krüger (read 2026-10-03)",
+    "changed": "consistency review of November 2026: Volkswagen's diesel scandal was told twice in September 2015; now one story for both German car makers (with bmw/3122660e)"
   },
   {
     "id": "99d253c5",
     "month": "2017-07",
-    "title": "Diesel recall and cartel allegations",
-    "what": "Daimler said on 18 July it will update the software of more than 3 million Mercedes diesel cars in Europe to cut emissions. Days later reports said German car makers including Daimler had for years coordinated technology in secret working groups, including on diesel exhaust cleaning.",
-    "why": "The diesel issue moved from Volkswagen to Mercedes; Daimler later paid a US fine for emissions cheating.",
+    "title": "Diesel recall and cartel allegations against German car makers",
+    "what": "Daimler said on 18 July it will update the software of more than 3 million Mercedes diesel cars in Europe to cut emissions. Days later reports said German car makers, Daimler and BMW among them, had for years coordinated technology, costs and suppliers in secret working groups, including on diesel exhaust cleaning. BMW denied colluding on emissions equipment.",
+    "why": "The diesel issue moved from Volkswagen to Mercedes; Daimler later paid a US fine for emissions cheating. Part of the long diesel overhang on German car shares.",
     "assets": [
-      "mercedes"
+      "mercedes",
+      "bmw"
     ],
-    "source": "The Guardian, 'Mercedes recalls 3m diesel cars over emissions concerns', 19 July 2017; Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headlines via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (2020 Clean Air Act fine, read 2026-10-03)"
+    "source": "The Guardian, 'Mercedes recalls 3m diesel cars over emissions concerns', 19 July 2017; Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headlines via Google News) (read 2026-10-03); https://en.wikipedia.org/wiki/Mercedes-Benz_Group (2020 Clean Air Act fine, read 2026-10-03); The New York Times, 'BMW Denies Colluding With Carmakers on Emissions Equipment', 23 July 2017 (headline via Google News) (read 2026-10-03); Bloomberg, 'German Carmakers Can't Catch a Break as Next Scandal Looms Large', 21 July 2017 (headline via Google News) (read 2026-10-03)",
+    "changed": "consistency review of November 2026: the cartel allegations were told twice in July 2017; now one story (with bmw/af752d4e)"
   },
   {
     "id": "6276d642",
@@ -329,37 +333,10 @@
     "source": "CNBC, 'Mercedes shares climb 5% on share buyback, despite exceptional uncertainty ahead', 22 February 2024; Reuters, 'Mercedes-Benz delays electrification goal, beefs up combustion engine line-up', 22 February 2024 (headlines via Google News) (read 2026-10-03)"
   },
   {
-    "id": "0a6d7fb6",
-    "month": "2024-09",
-    "title": "China's slump forces a profit warning",
-    "what": "On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast. The shares slumped. Other European car makers also issued warnings this month.",
-    "why": "The China problem that dominates the arc from 2024 to 2026.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "Reuters, 'Mercedes-Benz cuts margin outlook on weak Chinese market, shares fall', 20 September 2024; Bloomberg, 'Mercedes Slumps After Warning China Rout Is Hurting Profits', 19 September 2024 (headlines via Google News) (read 2026-10-03)"
-  },
-  {
-    "id": "3c4cb3ef",
-    "month": "2026-06",
-    "title": "BMW's warning drags Mercedes down",
-    "what": "On 16 June BMW cut its profit forecast for 2026 because of a faster downturn in China and the effects of the war with Iran. European car shares fell the next day on fears that others will follow; Mercedes, already weak, lost another 3%. Mercedes is preparing further cost cuts.",
-    "why": "The -18% month has no single Mercedes announcement; it reflects the sector-wide derating on China and energy costs.",
-    "assets": [
-      "mercedes",
-      "bmw"
-    ],
-    "move": {
-      "asset": "mercedes",
-      "pct": -18
-    },
-    "source": "Investing.com, 'European car stocks fall on BMW profit warning contagion fears; Mercedes down 3%', 17 June 2026 (headline via Google News) (read 2026-10-03); https://finance.yahoo.com/markets/stocks/articles/bmw-warns-significant-profit-decline-104414505.html (read 2026-10-03); just-auto.com, 'Mercedes Cost-Cutting Faces Labour Scrutiny', 22 June 2026 (headline via Google News) (read 2026-10-03)"
-  },
-  {
     "id": "8c9973de",
     "month": "2026-09",
     "title": "Mercedes falls to a new low on China and Washington",
-    "what": "Mercedes-Benz shares hit a 52-week low of about 40 euros on 30 September, down a third this year. Its sales in China collapsed by 30% in the second quarter. A US Senate bill against Chinese-owned car makers would have covered Mercedes, which is almost 20% owned by Chinese investors, until a senator said at the end of the month that Mercedes will be exempted. The company is buying back shares and plans a voluntary severance scheme.",
+    "what": "Mercedes-Benz shares hit a 52-week low on 30 September, down a third this year. Its sales in China collapsed by 30% in the second quarter. A US Senate bill against Chinese-owned car makers would have covered Mercedes, which is almost 20% owned by Chinese investors, until a senator said at the end of the month that Mercedes will be exempted. The company is buying back shares and plans a voluntary severance scheme.",
     "why": "Late in the arc the luxury strategy is under pressure from China on two fronts: lost sales there and its Chinese shareholders in Washington.",
     "assets": [
       "mercedes"
@@ -368,6 +345,7 @@
       "asset": "mercedes",
       "pct": -15
     },
-    "source": "AD HOC NEWS, 'Mercedes-Benz Dodges Washington's China Crosshairs as Buyback Engine Idles Toward October Test', 1 October 2026, https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/mercedes-benz-dodges-washington-s-china-crosshairs-as-buyback-engine-idles-toward-october-test/70210921 (read 2026-10-03); Carscoops, 'Mercedes Will Avoid US Ban, Despite 20% Chinese Ownership', https://www.carscoops.com/2026/10/mercedes-benz-avoids-chinese-car-ban-us/ (read 2026-10-03)"
+    "source": "AD HOC NEWS, 'Mercedes-Benz Dodges Washington's China Crosshairs as Buyback Engine Idles Toward October Test', 1 October 2026, https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/mercedes-benz-dodges-washington-s-china-crosshairs-as-buyback-engine-idles-toward-october-test/70210921 (read 2026-10-03); Carscoops, 'Mercedes Will Avoid US Ban, Despite 20% Chinese Ownership', https://www.carscoops.com/2026/10/mercedes-benz-avoids-chinese-car-ban-us/ (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   }
 ]

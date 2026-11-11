@@ -18,7 +18,7 @@ After the dot-com bust the Fed cut its rate to 1 percent in June 2003, and mortg
 | 2008-03 | Bear Stearns is rescued by JPMorgan for 2 dollars a share | ea5fb498 | markets.beats.json | existing |
 | 2008-09 | Lehman Brothers files for bankruptcy | aa999dba | lehman.beats.json | existing |
 | 2008-09 | The House votes down the bailout and the Dow falls 778 points | 098294a8 | markets.beats.json | existing, enriched (Fannie Mae and Freddie Mac taken over on 7 September) |
-| 2008-10 | The Swiss state rescues UBS | 50914c59 | ubs.beats.json | existing |
+| 2008-10 | The Swiss state rescues UBS; Credit Suisse raises 10 billion francs privately | 50914c59 | ubs.beats.json | existing |
 | 2008-11 | Government rescues Citigroup | fe39e62b | c.beats.json | existing |
 | 2009-12 | 2009 in review: up 23 percent, and 65 percent from the March low | ac1cc7ba | markets.beats.json | existing |
 

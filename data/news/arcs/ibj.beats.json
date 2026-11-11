@@ -181,12 +181,13 @@
     "id": "7d6af6ce",
     "month": "2000-08",
     "title": "IBJ's last month: Mizuho Holdings takes over",
-    "what": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
+    "what": "The holding company Mizuho Holdings is to be created on 29 September through an exchange of shares of the three banks that agreed to combine a year ago: the Industrial Bank of Japan, Fuji Bank and Dai-Ichi Kangyo Bank. August is the last month IBJ shares can be traded in the game; holders are paid out at the August price.",
     "why": "The exit: Mizuho Holdings is not in the game. A dollar investor who bought at the 1985 listing ends 49% up after a 92% fall; one who bought at the 1989 peak loses more than 80%.",
     "assets": [
       "ibj"
     ],
     "source": "https://www.sec.gov/Archives/edgar/data/1335730/000119312506210651/d20fr12b.htm (read 2026-10-03); https://en.wikipedia.org/wiki/Mizuho_Financial_Group (read 2026-10-03); data/src/universe.ts (read 2026-10-03)",
-    "lead": true
+    "lead": true,
+    "changed": "consistency review of November 2026: 'the three banks' are now named (from the August 1999 story)"
   }
 ]

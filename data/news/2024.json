@@ -156,6 +156,16 @@
   {
     "month": "2024-04",
     "kind": "world",
+    "headline": "Gold passes 2,400 dollars, up 8 percent in a month",
+    "text": "Gold rose above 2,300 dollars an ounce for the first time in the first days of April and above 2,400 on 12 April, as Israel braced for an attack by Iran; it averaged 2,331 dollars in April, 8 percent more than in March and 15 percent more than in February. It climbed although the dollar is strong and hopes of early interest-rate cuts in America have faded, which would normally weigh on a metal that pays no interest. The World Gold Council points to buyers in Asia and to central banks, which added 290 tonnes in the first quarter, the most in a first quarter since its figures begin in 2000; China's central bank has reported purchases for 17 months in a row.",
+    "assets": [
+      "gold"
+    ],
+    "source": "data/out/gold.json (monthly averages 2,023, 2,158 and 2,331 dollars); https://www.kitco.com/news/off-the-wire/2024-04-04/gold-powers-new-high-above-2300oz-rate-cut-optimism (Reuters, 4 April 2024, read 2026-11-10); https://www.kitco.com/news/off-the-wire/2024-04-12/gold-races-past-2400oz-middle-east-tensions-spur-safe-haven-rush (Reuters, 12 April 2024, read 2026-11-10); https://www.investmentnews.com/alternatives/gold-rises-to-more-than-2400-amid-middle-east-tensions/252135 (Bloomberg, 12 April 2024: Iran, the dollar, read 2026-11-10); https://www.gold.org/news-and-events/press-releases/global-gold-demand-stays-strong-supporting-record-high-prices (World Gold Council, 30 April 2024, read 2026-11-10); https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2024/central-banks (read 2026-11-10)"
+  },
+  {
+    "month": "2024-04",
+    "kind": "world",
     "headline": "Iran strikes Israel directly for the first time",
     "text": "On the night of 13 to 14 April Iran launched about 170 drones, 30 cruise missiles and 120 ballistic missiles at Israel, its first direct attack, in answer to an Israeli strike on its consulate in Damascus on 1 April that killed a senior Revolutionary Guards commander. Israel says 99 percent were shot down; a seven-year-old Bedouin girl was badly hurt and no one was killed. On 19 April Israel struck back with a limited strike near Isfahan.",
     "assets": [],
@@ -205,17 +215,6 @@
   },
   {
     "month": "2024-05",
-    "kind": "colour",
-    "headline": "Nemo wins Eurovision for Switzerland",
-    "text": "The Swiss singer Nemo won the Eurovision Song Contest in Malmö on 11 May with 'The Code', winning the combined and the jury vote. Nemo is the first openly non-binary winner. Switzerland will host the contest next year.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Nemo_(singer) (read 2026-10-03)",
-    "image": "/news/life/2024-05-nemo.jpg",
-    "imageCaption": "Nemo with the Eurovision trophy at the winners' press conference, Malmo, May 2024",
-    "imageCredit": "VDanDesign"
-  },
-  {
-    "month": "2024-05",
     "kind": "world",
     "headline": "President Raisi killed in a helicopter crash",
     "text": "President Ebrahim Raisi, Foreign Minister Hossein Amir-Abdollahian and six others died on 19 May when their helicopter crashed in fog in the mountains of East Azerbaijan province. First Vice President Mohammad Mokhber is acting president, and an election is set for 28 June.",
@@ -252,15 +251,15 @@
     "imageCredit": "Lazarus1255"
   },
   {
-    "month": "2024-06",
+    "month": "2024-05",
     "kind": "colour",
-    "headline": "Switzerland knock out holders Italy at Euro 2024",
-    "text": "At the European Championship in Germany, Switzerland beat the defending champions Italy in the round of 16 and reached the quarter-finals for the second tournament in a row.",
+    "headline": "Nemo wins Eurovision for Switzerland",
+    "text": "The Swiss singer Nemo won the Eurovision Song Contest in Malmö on 11 May with 'The Code', winning the combined and the jury vote. Nemo is the first openly non-binary winner. Switzerland will host the contest next year.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
-    "image": "/news/life/2024-06-fans-watch-switzerland-play-at-a-euro-20.jpg",
-    "imageCaption": "Fans watch Switzerland play at a Euro 2024 fan zone in Hamburg, June 2024",
-    "imageCredit": "Frank Schwichtenberg"
+    "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Nemo_(singer) (read 2026-10-03)",
+    "image": "/news/life/2024-05-nemo.jpg",
+    "imageCaption": "Nemo with the Eurovision trophy at the winners' press conference, Malmo, May 2024",
+    "imageCredit": "VDanDesign"
   },
   {
     "month": "2024-06",
@@ -305,6 +304,17 @@
     "imageCredit": "Photographer: Peter Dasilva"
   },
   {
+    "month": "2024-06",
+    "kind": "colour",
+    "headline": "Switzerland knock out holders Italy at Euro 2024",
+    "text": "At the European Championship in Germany, Switzerland beat the defending champions Italy in the round of 16 and reached the quarter-finals for the second tournament in a row.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Switzerland_national_football_team (read 2026-10-03)",
+    "image": "/news/life/2024-06-fans-watch-switzerland-play-at-a-euro-20.jpg",
+    "imageCaption": "Fans watch Switzerland play at a Euro 2024 fan zone in Hamburg, June 2024",
+    "imageCredit": "Frank Schwichtenberg"
+  },
+  {
     "month": "2024-07",
     "kind": "company",
     "headline": "Boeing buys back Spirit and picks Kelly Ortberg",
@@ -320,30 +330,19 @@
   {
     "month": "2024-08",
     "kind": "world",
-    "headline": "Tokyo's worst day since 1987 as the yen snaps back",
-    "text": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen, the dollar fell to about 143 yen and on 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458. The next day it gained more than 3,200 points, its biggest daily rise.",
+    "headline": "A yen shock and weak jobs data: Tokyo's worst day since 1987",
+    "text": "The yen hit 161 per dollar in July, its weakest in 37 years, and then the Bank of Japan, which had ended eight years of negative rates in March, raised rates again on 31 July. As traders unwound bets funded with cheap yen and American jobs figures came in weaker than expected, the dollar fell to about 143 yen, and on Monday 5 August the Nikkei fell 12.4%, 4,451 points, to 31,458, its worst day since 1987; the Dow fell 1,034 points. The next day the Nikkei gained more than 3,200 points, its biggest daily rise. The panic passed within days, and the S&P 500 ended August up 2%.",
     "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Nikkei_225 (read 2026-10-03); https://en.wikipedia.org/wiki/Economy_of_Japan (read 2026-10-03); https://www.poundsterlinglive.com/bank-of-england-spot/historical-spot-exchange-rates/usd/USD-to-JPY-2024 (read 2026-10-03); https://en.wikipedia.org/wiki/Bank_of_Japan (read 2026-10-03); https://en.wikipedia.org/wiki/Kazuo_Ueda (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
     "image": "/news/asia/2024-08-nikkei-rebound.jpg",
     "imageCaption": "A board in Tokyo shows the Nikkei up 3,286 points the day after its worst fall since 1987, 6 August 2024",
     "imageCredit": "Photo by KAZUHIRO NOGI/AFP via Getty Images"
   },
   {
     "month": "2024-08",
-    "kind": "world",
-    "headline": "A yen shock and weak jobs data: a one-day global scare",
-    "text": "Weaker-than-expected American jobs figures and the unwinding of trades financed with cheap yen set off a global sell-off on Monday 5 August: Tokyo's Nikkei fell 12.4%, its worst day since 1987, and the Dow fell 1,034 points. The panic passed within days, and the S&P 500 ended August up 2%.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets (read 2026-10-03); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2024-08-the-trading-floor-of-the-tokyo-stock-exc.jpg",
-    "imageCaption": "The trading floor of the Tokyo Stock Exchange",
-    "imageCredit": "franck injapan from Tokyo, Japan"
-  },
-  {
-    "month": "2024-08",
     "kind": "company",
     "headline": "Intel suspends its dividend and cuts 15% of jobs",
-    "text": "On 1 August Intel reported a second-quarter loss of 1.6 billion dollars, said it will cut more than 15% of its workforce, about 15,000 jobs, and suspend its dividend from the fourth quarter. The shares fell 26% the next day to 21.48 dollars, their worst day in decades.",
+    "text": "On 1 August Intel reported a second-quarter loss of 1.6 billion dollars, said it will cut more than 15% of its workforce, about 15,000 jobs, and suspend its dividend from the fourth quarter. The shares fell 26% the next day, their worst day in decades.",
     "assets": [
       "intc"
     ],
@@ -425,34 +424,22 @@
   {
     "month": "2024-09",
     "kind": "company",
-    "headline": "Brake recall and China force a profit warning",
-    "text": "On 10 September BMW recalled more than 1.5 million cars because of a faulty brake component from the supplier Continental and stopped deliveries of 320,000 cars not yet handed over. Together with weak demand in China, the recall made BMW cut its profit forecast for 2024, and the shares plunged.",
+    "headline": "BMW and Mercedes warn on profits as China weakens",
+    "text": "On 10 September BMW recalled more than 1.5 million cars because of a faulty brake component from the supplier Continental and stopped deliveries of 320,000 cars not yet handed over. Together with weak demand in China, the recall made BMW cut its profit forecast for 2024, and the shares plunged. On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast, and its shares slumped too. Other European car makers also issued warnings this month.",
     "assets": [
-      "bmw"
+      "bmw",
+      "mercedes"
     ],
-    "source": "DW, 'BMW recalls 1.5 million cars over brake issue', 10 September 2024, https://www.dw.com/en/bmw-recalls-15-million-cars-over-brake-issue/a-70182052 (read 2026-10-03); Reuters, 'BMW cuts 2024 outlook on Continental brake issues, shares plunge', 10 September 2024 (headline via Google News) (read 2026-10-03)",
+    "source": "DW, 'BMW recalls 1.5 million cars over brake issue', 10 September 2024, https://www.dw.com/en/bmw-recalls-15-million-cars-over-brake-issue/a-70182052 (read 2026-10-03); Reuters, 'BMW cuts 2024 outlook on Continental brake issues, shares plunge', 10 September 2024 (headline via Google News) (read 2026-10-03); Reuters, 'Mercedes-Benz cuts margin outlook on weak Chinese market, shares fall', 20 September 2024; Bloomberg, 'Mercedes Slumps After Warning China Rout Is Hurting Profits', 19 September 2024 (headlines via Google News) (read 2026-10-03)",
     "image": "/news/bmw/2024-09-tower.jpg",
     "imageCaption": "The BMW headquarters tower, Munich",
     "imageCredit": "Flocci Nivis"
   },
   {
-    "month": "2024-09",
-    "kind": "company",
-    "headline": "China's slump forces a profit warning",
-    "text": "On 19 September Mercedes-Benz cut its margin forecast for cars because sales in China, its largest market, are weakening fast. The shares slumped. Other European car makers also issued warnings this month.",
-    "assets": [
-      "mercedes"
-    ],
-    "source": "Reuters, 'Mercedes-Benz cuts margin outlook on weak Chinese market, shares fall', 20 September 2024; Bloomberg, 'Mercedes Slumps After Warning China Rout Is Hurting Profits', 19 September 2024 (headlines via Google News) (read 2026-10-03)",
-    "image": "/news/mercedes/2024-09-kallenius.jpg",
-    "imageCaption": "Ola Källenius, chairman of Mercedes-Benz, at talks in China, 2024",
-    "imageCredit": "China News Service"
-  },
-  {
     "month": "2024-10",
     "kind": "company",
     "headline": "Boeing raises 21 billion dollars of new capital",
-    "text": "On 28 October Boeing sold 112.5 million new shares at 143 dollars and 5 billion dollars of mandatory convertible preferred shares, raising about 21 billion dollars to protect its credit rating. The machinists' strike is still on.",
+    "text": "On 28 October Boeing sold new shares and 5 billion dollars of mandatory convertible preferred shares, raising about 21 billion dollars to protect its credit rating. The machinists' strike is still on.",
     "assets": [
       "ba"
     ],

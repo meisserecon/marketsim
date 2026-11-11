@@ -7,9 +7,11 @@
   import { api, isApiFailure } from '$lib/api';
   import { clearToken, fragmentToken, getToken, setToken, showTokenInAddress } from '$lib/api/tokens';
   import { LEDGER_LABEL, errorMessage, monthName, pct, usd } from '$lib/format';
+  import { marketSummary, signedPct } from '$lib/movers';
   import { loadNames, saveNames } from '$lib/names';
   import AssetDetail from '$lib/components/AssetDetail.svelte';
   import Leaderboard from '$lib/components/Leaderboard.svelte';
+  import NewsPreview from '$lib/components/NewsPreview.svelte';
   import NewsTicker from '$lib/components/NewsTicker.svelte';
   import Welcome from '$lib/components/Welcome.svelte';
   import MarketTable from '$lib/components/MarketTable.svelte';
@@ -261,20 +263,10 @@
     }
   }
 
-  /** For a month without news: the market's move and the five biggest movers, as lines for the ticker. */
-  const quietLines = $derived.by(() => {
-    const sign = (c: number) => pct(c, { sign: true, digits: 0 });
-    const out: string[] = [];
-    const h = board?.benchmark?.history ?? [];
-    if (h.length >= 2 && h[h.length - 1].month === game?.currentMonth) out.push(`Market ${sign(h[h.length - 1].totalValue / h[h.length - 2].totalValue - 1)}`);
-    const movers = (market?.assets ?? [])
-      .filter((a) => a.pricePrev !== undefined && a.pricePrev > 0)
-      .map((a) => ({ name: a.name, change: a.price / a.pricePrev! - 1 }))
-      .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
-      .slice(0, 5);
-    for (const m of movers) out.push(`${m.name} ${sign(m.change)}`);
-    return out;
-  });
+  /** The market's move and the five biggest movers of the month. Playing alone, they are shown with the news every month. */
+  const marketStrip = $derived(marketSummary(board, market, game?.currentMonth));
+  /** In a shared game, for a month without news: the same, as lines for the ticker. */
+  const quietLines = $derived([...marketStrip.indices, ...marketStrip.movers].map((m) => `${m.name} ${signedPct(m.change)}`));
 
   /** Every trade moves one step: this share of the portfolio's total value. */
   const STEP = 0.05;
@@ -303,7 +295,8 @@
   async function quickTrade(id: string, side: 'buy' | 'sell') {
     if (!token || !portfolio || trading) return;
     const position = portfolio.positions.find((p) => p.assetId === id);
-    const all = side === 'buy' ? portfolio.cash <= step : !position || position.value <= step * 1.001;
+    // Within a cent of the step counts as all: the step and the cash are rounded differently.
+    const all = side === 'buy' ? portfolio.cash <= step + 0.01 : !position || position.value <= step * 1.001;
     trading = true;
     try {
       const res = await api.trade(code, token, { assetId: id, side, amount: all ? { all: true } : { usd: step } });
@@ -441,7 +434,12 @@
 
   <div class="portfolio-wrap">
     {#if news && news.month === game.currentMonth}
-      <div class="news-card"><NewsTicker month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} quiet={quietLines} /></div>
+      {#if solo}
+        <!-- Nobody reads the paper to a lone player: the lead story, the other headlines and the movers are on the page. -->
+        <NewsPreview month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} markets={marketStrip} />
+      {:else}
+        <div class="news-card"><NewsTicker month={news.month} items={news.items} {nameOf} openable={tradable} onselect={select} quiet={quietLines} /></div>
+      {/if}
     {/if}
     {#if board}
       <section class="card">
@@ -663,6 +661,8 @@
   }
   .portfolio-wrap {
     display: grid;
+    /* one column no wider than the screen: a wide table scrolls inside its card instead of stretching the page */
+    grid-template-columns: minmax(0, 1fr);
     gap: 14px;
     padding: 14px 20px 0;
     max-width: 1500px;

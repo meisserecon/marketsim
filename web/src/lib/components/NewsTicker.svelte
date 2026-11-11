@@ -1,7 +1,7 @@
 <script lang="ts">
   /** The month's headlines on one line; clicking opens the full front page of The News. */
   import type { NewsItemView } from '@marketsim/shared';
-  import FrontPage from './FrontPage.svelte';
+  import NewsModal from './NewsModal.svelte';
 
   interface Props {
     month: string;
@@ -24,17 +24,7 @@
   let tapeWidth = $state(0);
   let setWidth = $state(0);
   const moving = $derived(setWidth > tapeWidth + 1);
-
-  function pick(id: string) {
-    open = false;
-    onselect?.(id);
-  }
-  function onKey(e: KeyboardEvent) {
-    if (open && e.key === 'Escape') open = false;
-  }
 </script>
-
-<svelte:window onkeydown={onKey} />
 
 {#if lines.length}
   <button class="ticker" class:quiet={!items.length} onclick={() => (open = true)} disabled={!items.length} aria-label="Open The News for this month">
@@ -56,13 +46,7 @@
 {/if}
 
 {#if open}
-  <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
-  <div class="backdrop" role="dialog" aria-modal="true" aria-label="The News" tabindex="-1" onclick={(e) => { if (e.target === e.currentTarget) open = false; }}>
-    <div class="page">
-      <button class="btn small close" onclick={() => (open = false)}>Close ✕</button>
-      <FrontPage {month} {items} {nameOf} {openable} onselect={pick} />
-    </div>
-  </div>
+  <NewsModal {month} {items} {nameOf} {openable} {onselect} onclose={() => (open = false)} />
 {/if}
 
 <style>
@@ -162,26 +146,5 @@
     text-decoration: underline;
     text-underline-offset: 3px;
     white-space: nowrap;
-  }
-  .backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 38;
-    background: color-mix(in srgb, var(--page) 86%, transparent);
-    backdrop-filter: blur(5px);
-    overflow-y: auto;
-    padding: 20px 16px 48px;
-    display: grid;
-    justify-items: center;
-    align-items: start;
-  }
-  .page {
-    width: min(1100px, 100%);
-    display: grid;
-    gap: 8px;
-    justify-items: end;
-  }
-  .page > :global(.paper) {
-    justify-self: stretch;
   }
 </style>

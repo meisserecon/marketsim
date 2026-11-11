@@ -64,7 +64,7 @@
     "month": "2001-02",
     "kind": "world",
     "headline": "The telecom bust: network gear makers crash",
-    "text": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
+    "text": "The Nasdaq fell 22% in February to 2,152, its lowest since late 1998. Telephone companies, which have borrowed heavily to build fibre-optic and mobile networks and paid billions for mobile licences in Europe, are cutting orders, and the makers of their equipment warn of falling sales; WorldCom is laying off about 6,000 workers. Cisco lost more than a third in February, and the makers of optical parts for the networks fared worse. Disappointing company earnings sent the S&P 500 down 9% to 1,239.94, despite two Fed rate cuts in January. Nokia cut its first-quarter sales growth forecast and its estimate for world phone sales this year, and its shares lost 36% in February.",
     "assets": [
       "csco",
       "nokia",
@@ -72,7 +72,7 @@
       "siemens",
       "amzn"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03)",
+    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Telecoms_crash (read 2026-10-03); https://money.cnn.com/2001/02/22/markets/markets_newyork/ (read 2026-10-03); https://www.federalreserve.gov/fomc/minutes/20010320.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://money.cnn.com/2001/01/30/europe/nokia/ via web.archive.org (read 2026-10-03); https://money.cnn.com/2001/03/15/europe/nokia/ via web.archive.org (read 2026-10-03); https://www.foxnews.com/story/worldcom-timeline (Associated Press timeline, 8 August 2002; read 2026-10-03)",
     "image": "/news/tech/2001-02-lucent-hq.jpg",
     "imageCaption": "Lucent Technologies' headquarters at Murray Hill, New Jersey",
     "imageCredit": "Blaxthos"
@@ -120,7 +120,7 @@
     "month": "2001-02",
     "kind": "company",
     "headline": "Philip Morris was the best Dow stock of 2000",
-    "text": "Philip Morris shares gained 90% in 2000, the best performance among the 30 Dow Jones stocks in a year when most indexes fell; at about 46 dollars they are more than twice their level of January 2000. The company earned 8.5 billion dollars in 2000. Investors expect the Engle verdict to be overturned, think the new Bush administration will be gentler on tobacco, and like a business that sells in any economy as technology stocks crash.",
+    "text": "Philip Morris shares gained 90% in 2000, the best performance among the 30 Dow Jones stocks in a year when most indexes fell; they are more than twice their level of January 2000. The company earned 8.5 billion dollars in 2000. Investors expect the Engle verdict to be overturned, think the new Bush administration will be gentler on tobacco, and like a business that sells in any economy as technology stocks crash.",
     "assets": [
       "mo"
     ],
@@ -128,16 +128,6 @@
     "image": "/news/mo/2001-02-nyse-floor.jpg",
     "imageCaption": "The trading floor of the New York Stock Exchange",
     "imageCredit": "en:User:Taak"
-  },
-  {
-    "month": "2001-02",
-    "kind": "company",
-    "headline": "WorldCom cuts 6,000 jobs",
-    "text": "WorldCom is laying off about 6,000 workers across the country.",
-    "assets": [
-      "worldcom"
-    ],
-    "source": "https://www.foxnews.com/story/worldcom-timeline (Associated Press timeline, 8 August 2002; read 2026-10-03)"
   },
   {
     "month": "2001-03",
@@ -211,23 +201,7 @@
     "month": "2001-04",
     "kind": "world",
     "headline": "A surprise rate cut and better earnings bring an 8 percent bounce",
-    "text": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04)",
-    "thread": "rates",
-    "image": "/news/markets/2001-04-rates-chart.png",
-    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to April 2001",
-    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
-  },
-  {
-    "month": "2001-04",
-    "kind": "world",
-    "headline": "Another rate cut, another rally",
-    "text": "The Nasdaq rose 8.9% on 5 April and 8.1% on 18 April, when the Fed again cut rates between meetings, and gained 15% in the month to 2,116. Internet survivors led: Amazon rose about half, Nokia 42%.",
+    "text": "On 18 April the Federal Reserve cut its key rate by half a point to 4.5 percent between meetings, its fourth cut this year. Together with better-than-expected first-quarter earnings, the surprise lifted shares substantially: the S&P 500 rose 8% in April to 1,249.46. The Nasdaq, which rose 8.9% on 5 April and 8.1% on the day of the cut, gained 15% in the month to 2,116; internet survivors led, with Amazon up about half and Nokia 42%. The numbers: the Fed's rate 4.5 percent. Inflation 2.9 percent. Unemployment 4.3 percent.",
     "assets": [
       "amzn",
       "nokia",
@@ -237,15 +211,16 @@
       "ust2010",
       "ust2020"
     ],
-    "source": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2001-04-eccles-building.jpg",
-    "imageCaption": "Eccles Building (photograph from 2011)",
-    "imageCredit": "Federalreserve"
+    "source": "https://www.federalreserve.gov/fomc/minutes/20010515.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/FEDFUNDS, DFEDTAR, DFEDTARL, DFEDTARU, CPIAUCNS and UNRATE (downloaded 2026-10-04); https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Nasdaq_Composite (read 2026-10-03); https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
+    "thread": "rates",
+    "image": "/news/markets/2001-04-rates-chart.png",
+    "imageCaption": "The Fed's interest rate (blue), inflation (red) and unemployment (grey) in the United States, 1955 to April 2001",
+    "imageCredit": "Chart: Month by Month. Data: Federal Reserve Bank of St. Louis (FRED)"
   },
   {
     "month": "2001-04",
     "kind": "company",
-    "headline": "Amazon's losses narrow",
+    "headline": "Amazon's sales rise 22% and the shares rebound",
     "text": "Amazon reported first-quarter sales of $700 million, up 22% from a year earlier. Technology shares rallied in April after months of falls.",
     "assets": [
       "amzn"
@@ -272,7 +247,7 @@
     "month": "2001-04",
     "kind": "company",
     "headline": "AOL Time Warner beats forecasts on the day of a surprise rate cut",
-    "text": "AOL Time Warner reported on 18 April first-quarter earnings that were better than Wall Street expected. The same morning the Federal Reserve surprised the market with its fourth interest-rate cut of the year, half a percentage point, a month before its next meeting. The Nasdaq index jumped 8.1%, one of its biggest daily gains, and AOL Time Warner's shares rose $5.10 to $49.",
+    "text": "AOL Time Warner reported on 18 April first-quarter earnings that were better than Wall Street expected, on the morning the Federal Reserve surprised the market with a rate cut. Its shares rose about 12% that day and 26% in April.",
     "assets": [
       "aol"
     ],
@@ -285,8 +260,8 @@
   {
     "month": "2001-04",
     "kind": "company",
-    "headline": "IBM stays on course and the Fed surprises",
-    "text": "IBM reported first-quarter earnings per share up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. On 18 April the Federal Reserve cut rates by half a point between meetings.",
+    "headline": "IBM stays on course",
+    "text": "IBM reported first-quarter earnings per share up 18%, on revenue of 21 billion dollars, up 9%. Chairman Lou Gerstner warned that IBM is 'not immune to broad cutbacks in customer spending' but expects to outperform its rivals. The shares rose 20% in April, helped by the Fed's surprise rate cut on 18 April.",
     "assets": [
       "ibm"
     ],
@@ -294,19 +269,6 @@
     "image": "/news/ibm/2001-04-lou-gerstner-ibms-chairman-about-1995.jpg",
     "imageCaption": "Lou Gerstner, IBM's chairman, about 1995",
     "imageCredit": "Kenneth C. Zirkel"
-  },
-  {
-    "month": "2001-04",
-    "kind": "company",
-    "headline": "Cisco warns sales will fall and cuts 8,500 jobs",
-    "text": "On April 16 Cisco said sales in the quarter to April will be about $4.7 billion, below the year before, after $6.7 billion in the previous quarter. It raised its job cuts to 8,500 and expects restructuring charges of $800 million to $1.2 billion. Chambers said the slowdown 'may be the fastest any industry our size has ever decelerated.'",
-    "assets": [
-      "csco"
-    ],
-    "source": "https://www.computerworld.com/article/1436798/cisco-warns-of-revenue-slide-increases-job-cuts.html (read 2026-10-03)",
-    "image": "/news/csco/2001-04-ethernet-modules.jpg",
-    "imageCaption": "Cisco Ethernet and ATM fibre modules",
-    "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
   },
   {
     "month": "2001-04",
@@ -338,11 +300,11 @@
     "month": "2001-05",
     "kind": "company",
     "headline": "Cisco writes off $2.2 billion of inventory",
-    "text": "Cisco reported on May 8 a net loss of $2.69 billion for the quarter to April, on sales of $4.73 billion, down 4% from a year earlier. The loss includes a $2.2 billion charge for excess inventory and $1.17 billion of restructuring costs. Chambers said bookings went from growth of more than 70% in November to a decline of 30% within a few months.",
+    "text": "Cisco reported on May 8 a net loss of $2.69 billion for the quarter to April, on sales of $4.73 billion, down 4% from a year earlier and far below the $6.7 billion of the previous quarter. The loss includes a $2.2 billion charge for excess inventory and $1.17 billion of restructuring costs; in April Cisco had raised its job cuts to 8,500. Chambers said the slowdown 'may be the fastest any industry our size has ever decelerated': bookings went from growth of more than 70% in November to a decline of 30% within a few months.",
     "assets": [
       "csco"
     ],
-    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html (read 2026-10-03)",
+    "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html (read 2026-10-03); https://www.computerworld.com/article/1436798/cisco-warns-of-revenue-slide-increases-job-cuts.html (read 2026-10-03)",
     "image": "/news/csco/2001-05-optical-shelves.jpg",
     "imageCaption": "Cisco ONS 15454 optical systems in a rack",
     "imageCredit": "Cisco Systems (Center for Cisco Heritage archive, Computer History Museum)"
@@ -416,7 +378,7 @@
     "month": "2001-06",
     "kind": "company",
     "headline": "WorldCom's two tracking stocks begin trading",
-    "text": "Shareholders approved the split, and from 8 June each WorldCom share became one share of WorldCom group stock plus 1/25 of a share of MCI group stock, which will pay a quarterly dividend of 60 cents. WorldCom group revenues grew 12% in the first quarter. In May it raised billions of dollars by selling bonds through a syndicate led by Citigroup's Salomon Smith Barney.",
+    "text": "Shareholders approved the split, and from 8 June each WorldCom share became one share of WorldCom group stock plus 1/25 of a share of MCI group stock, which will pay a quarterly dividend. WorldCom group revenues grew 12% in the first quarter. In May it raised billions of dollars by selling bonds through a syndicate led by Citigroup's Salomon Smith Barney.",
     "assets": [
       "worldcom",
       "c"
@@ -425,17 +387,6 @@
     "image": "/news/worldcom/2001-06-optical-fiber.jpg",
     "imageCaption": "Optical fiber",
     "imageCredit": "BigRiz"
-  },
-  {
-    "month": "2001-07",
-    "kind": "colour",
-    "headline": "Young Roger Federer beats Sampras at Wimbledon",
-    "text": "The 19-year-old Roger Federer of Basel beat Pete Sampras, the four-time defending champion, in five sets in the fourth round at Wimbledon, ending Sampras's run of 31 wins there. Federer then lost in the quarter-finals. He was Wimbledon junior champion in 1998.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
-    "image": "/news/life/2001-07-federer-sampras.jpg",
-    "imageCaption": "Roger Federer and Pete Sampras shake hands after their fourth-round match, Wimbledon, 2 July 2001",
-    "imageCredit": "photo agency picture via tennisworldusa.org (photographer not named)"
   },
   {
     "month": "2001-07",
@@ -462,6 +413,17 @@
     "image": "/news/ge/2001-07-monti.jpg",
     "imageCaption": "Mario Monti, the European Commissioner for Competition",
     "imageCredit": "Christian Lambiotte, European Commission Audiovisual Service"
+  },
+  {
+    "month": "2001-07",
+    "kind": "colour",
+    "headline": "Young Roger Federer beats Sampras at Wimbledon",
+    "text": "The 19-year-old Roger Federer of Basel beat Pete Sampras, the four-time defending champion, in five sets in the fourth round at Wimbledon, ending Sampras's run of 31 wins there. Federer then lost in the quarter-finals. He was Wimbledon junior champion in 1998.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Roger_Federer (read 2026-10-03)",
+    "image": "/news/life/2001-07-federer-sampras.jpg",
+    "imageCaption": "Roger Federer and Pete Sampras shake hands after their fourth-round match, Wimbledon, 2 July 2001",
+    "imageCredit": "photo agency picture via tennisworldusa.org (photographer not named)"
   },
   {
     "month": "2001-08",
@@ -534,7 +496,7 @@
     "month": "2001-10",
     "kind": "world",
     "headline": "Swissair grounded",
-    "text": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles. On 7 October the United States began bombing Afghanistan.",
+    "text": "On 2 October Swissair grounded its entire fleet when fuel suppliers refused to fill its planes without cash and UBS would not release a bridging loan for daily operations; thousands of passengers were stranded around the world. Federal President Moritz Leuenberger called it a disaster and blamed UBS and Credit Suisse for abandoning the airline, and angry crowds protested at the UBS headquarters, some calling UBS chairman Marcel Ospel 'Bin Ospel'. The government granted a bridging loan of 450 million francs on 3 October so that flights could resume, and a new airline is to be built around Crossair, whose stake UBS and Credit Suisse bought from SAirGroup. Lukas Mühlemann, chairman of Credit Suisse, sat on the Swissair board during its troubles.",
     "assets": [
       "ubs",
       "credit-suisse"
@@ -559,7 +521,7 @@
     "month": "2001-10",
     "kind": "company",
     "headline": "Enron loses $618 million; SEC asks questions; finance chief out",
-    "text": "On 16 October Enron reported a third-quarter loss of $618 million after $1.01 billion of charges on its water, broadband and other ventures, and cut shareholders' equity by $1.2 billion over deals with partnerships run by finance chief Andrew Fastow. On 22 October it disclosed an SEC inquiry and the shares fell $5.40 to $20.65 in a day; Fastow was replaced on 24 October. Enron drew on its bank credit lines to repay $3.3 billion of commercial paper, and Moody's cut its credit rating.",
+    "text": "On 16 October Enron reported a third-quarter loss of $618 million after $1.01 billion of charges on its water, broadband and other ventures, and cut shareholders' equity by $1.2 billion over deals with partnerships run by finance chief Andrew Fastow. On 22 October it disclosed an SEC inquiry and the shares fell about 21% in a day; Fastow was replaced on 24 October. Enron drew on its bank credit lines to repay $3.3 billion of commercial paper, and Moody's cut its credit rating.",
     "assets": [
       "enron"
     ],
@@ -611,43 +573,21 @@
     "month": "2001-11",
     "kind": "world",
     "headline": "Good news from Afghanistan and the economy lifts shares 8 percent",
-    "text": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September.",
-    "assets": [
-      "ust2005",
-      "ust2010",
-      "ust2020"
-    ],
-    "source": "https://www.federalreserve.gov/fomc/minutes/20011211.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json",
-    "image": "/news/markets/2001-11-kabul-the-afghan-capital.jpg",
-    "imageCaption": "Kabul, the Afghan capital",
-    "imageCredit": "davered1101"
-  },
-  {
-    "month": "2001-11",
-    "kind": "world",
-    "headline": "Technology leads the rebound after September",
-    "text": "After falling 17% in September, the month of the attacks of 11 September, the Nasdaq rose 13% in October and 14% in November, to 1,931. Chipmakers led: Nvidia gained 56% in October, Intel 34% in November.",
+    "text": "Shares rose significantly in November on better-than-expected economic data and favourable news on the military campaign in Afghanistan. The Fed cut its key rate again on 6 November, to 2 percent. The S&P 500 gained 8% in the month to 1,139.45, above where it stood before 11 September. Technology led the rebound: after falling 17% in September, the Nasdaq rose 13% in October and 14% in November, to 1,931. Nvidia gained 56% in October, Intel 34% in November and Sony 25%.",
     "assets": [
       "nvda",
       "intc",
       "csco",
-      "amzn"
+      "amzn",
+      "sony",
+      "ust2005",
+      "ust2010",
+      "ust2020"
     ],
-    "source": "https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03)",
-    "image": "/news/tech/2001-11-pentium-4.jpg",
-    "imageCaption": "Pentium 4 (photograph from 2007)",
-    "imageCredit": "László Szalai (Beyond silence)"
-  },
-  {
-    "month": "2001-11",
-    "kind": "colour",
-    "headline": "Harry Potter comes to the cinema",
-    "text": "Harry Potter and the Philosopher's Stone, the film of J. K. Rowling's first book about a boy wizard, opened in Britain and America on 16 November. It is released by Warner Bros.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film) (read 2026-10-03)",
-    "image": "/news/life/2001-11-poster-for-harry-potter-and-the-philosop.jpg",
-    "imageCaption": "Poster for Harry Potter and the Philosopher's Stone, 2001",
-    "imageCredit": "Warner Bros."
+    "source": "https://www.federalreserve.gov/fomc/minutes/20011211.htm (read 2026-10-03); https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions (read 2026-10-03); data/reference/sp500.json; https://fred.stlouisfed.org/series/NASDAQCOM (read 2026-10-03); https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
+    "image": "/news/markets/2001-11-kabul-the-afghan-capital.jpg",
+    "imageCaption": "Kabul, the Afghan capital",
+    "imageCredit": "davered1101"
   },
   {
     "month": "2001-11",
@@ -661,19 +601,6 @@
     "image": "/news/enron/2001-11-dynegy-plaza.jpg",
     "imageCaption": "Wells Fargo Bank Plaza, 1000 Louisiana Street, Houston, headquarters of Dynegy",
     "imageCredit": "Gabor Eszes"
-  },
-  {
-    "month": "2001-11",
-    "kind": "company",
-    "headline": "Technology shares recover from the September lows",
-    "text": "Stock markets recovered in October and November from their lows after the September attacks; the S&P 500 rose 8% in November. Sony's ADR rose 25%.",
-    "assets": [
-      "sony"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002 (read 2026-10-03); data/reference/sp500.json (read 2026-10-03); data/out/sony.json (read 2026-10-03)",
-    "image": "/news/sony/2001-11-playstation-2.jpg",
-    "imageCaption": "PlayStation 2 (photograph from 2026)",
-    "imageCredit": "Perchybits"
   },
   {
     "month": "2001-11",
@@ -701,6 +628,17 @@
     "image": "/news/msft/2001-11-xbox.jpg",
     "imageCaption": "The original Xbox console, launched 15 November 2001",
     "imageCredit": "Evan-Amos"
+  },
+  {
+    "month": "2001-11",
+    "kind": "colour",
+    "headline": "Harry Potter comes to the cinema",
+    "text": "Harry Potter and the Philosopher's Stone, the film of J. K. Rowling's first book about a boy wizard, opened in Britain and America on 16 November. It is released by Warner Bros.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film) (read 2026-10-03)",
+    "image": "/news/life/2001-11-poster-for-harry-potter-and-the-philosop.jpg",
+    "imageCaption": "Poster for Harry Potter and the Philosopher's Stone, 2001",
+    "imageCredit": "Warner Bros."
   },
   {
     "month": "2001-12",

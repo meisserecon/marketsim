@@ -99,8 +99,8 @@
   {
     "id": "38506807",
     "month": "2000-08",
-    "title": "Enron shares hit a record near $90",
-    "what": "Enron's shares reached a record of about $90 on 23 August. Rebecca Mark, who built Enron's international power business and ran its water company Azurix, has left after a slump in Azurix's shares.",
+    "title": "Enron shares hit a record",
+    "what": "Enron's shares reached a record on 23 August. Rebecca Mark, who built Enron's international power business and ran its water company Azurix, has left after a slump in Azurix's shares.",
     "why": "The peak. From here the stock lost nearly everything in fifteen months.",
     "assets": [
       "enron"
@@ -109,7 +109,8 @@
       "asset": "enron",
       "pct": 15
     },
-    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)"
+    "source": "https://en.wikipedia.org/wiki/Enron (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed from title and text"
   },
   {
     "id": "a4b9ff02",
@@ -226,7 +227,7 @@
     "id": "2e737aee",
     "month": "2001-10",
     "title": "Enron loses $618 million; SEC asks questions; finance chief out",
-    "what": "On 16 October Enron reported a third-quarter loss of $618 million after $1.01 billion of charges on its water, broadband and other ventures, and cut shareholders' equity by $1.2 billion over deals with partnerships run by finance chief Andrew Fastow. On 22 October it disclosed an SEC inquiry and the shares fell $5.40 to $20.65 in a day; Fastow was replaced on 24 October. Enron drew on its bank credit lines to repay $3.3 billion of commercial paper, and Moody's cut its credit rating.",
+    "what": "On 16 October Enron reported a third-quarter loss of $618 million after $1.01 billion of charges on its water, broadband and other ventures, and cut shareholders' equity by $1.2 billion over deals with partnerships run by finance chief Andrew Fastow. On 22 October it disclosed an SEC inquiry and the shares fell about 21% in a day; Fastow was replaced on 24 October. Enron drew on its bank credit lines to repay $3.3 billion of commercial paper, and Moody's cut its credit rating.",
     "why": "The unravelling. Banks would no longer lend while Fastow stayed, and the company that lived on its credit rating was running out of cash.",
     "assets": [
       "enron"
@@ -235,7 +236,8 @@
       "asset": "enron",
       "pct": -49
     },
-    "source": "https://www.power-eng.com/news/enron-reports-third-quarter-loss-on-1-billion-charge-for-non-energy-assets/ (read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)"
+    "source": "https://www.power-eng.com/news/enron-reports-third-quarter-loss-on-1-billion-charge-for-non-energy-assets/ (read 2026-10-03); https://en.wikipedia.org/wiki/Enron_scandal (read 2026-10-03)",
+    "changed": "rule on metrics: share prices replaced by the fall in percent computed from them (5.40 on 26.05 dollars)"
   },
   {
     "id": "e3f28f31",

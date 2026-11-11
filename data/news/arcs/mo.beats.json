@@ -169,12 +169,13 @@
     "id": "65255502",
     "month": "2001-02",
     "title": "Philip Morris was the best Dow stock of 2000",
-    "what": "Philip Morris shares gained 90% in 2000, the best performance among the 30 Dow Jones stocks in a year when most indexes fell; at about 46 dollars they are more than twice their level of January 2000. The company earned 8.5 billion dollars in 2000. Investors expect the Engle verdict to be overturned, think the new Bush administration will be gentler on tobacco, and like a business that sells in any economy as technology stocks crash.",
+    "what": "Philip Morris shares gained 90% in 2000, the best performance among the 30 Dow Jones stocks in a year when most indexes fell; they are more than twice their level of January 2000. The company earned 8.5 billion dollars in 2000. Investors expect the Engle verdict to be overturned, think the new Bush administration will be gentler on tobacco, and like a business that sells in any economy as technology stocks crash.",
     "why": "Explains the rally of 2000, including big monthly gains in October and December 2000 for which no single cause was found.",
     "assets": [
       "mo"
     ],
-    "source": "https://www.latimes.com/archives/la-xpm-2001-feb-02-fi-20218-story.html (read 2026-10-03)"
+    "source": "https://www.latimes.com/archives/la-xpm-2001-feb-02-fi-20218-story.html (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "75ee6431",
@@ -192,7 +193,7 @@
     "id": "880b38da",
     "month": "2002-06",
     "title": "A string of verdicts revives litigation fears",
-    "what": "On 11 June a Miami jury ordered Philip Morris, Brown & Williamson and Liggett to pay 37.5 million dollars to a former smoker, John Lukacs, a member of the Engle class, and found him entitled to a share of the 145 billion dollar Engle punitive award. On 21 June a federal judge in Kansas ordered R.J. Reynolds to pay 15 million dollars in punitive damages, and the industry has lost five verdicts in a row on the West Coast. On 24 June Philip Morris shares fell 7.3% to 48.80 dollars. They had been among the best blue chips this year. At the end of May Philip Morris agreed to sell Miller Brewing to South African Breweries for 3.6 billion dollars in shares plus 2 billion of debt, keeping 36% of the new SABMiller.",
+    "what": "On 11 June a Miami jury ordered Philip Morris, Brown & Williamson and Liggett to pay 37.5 million dollars to a former smoker, John Lukacs, a member of the Engle class, and found him entitled to a share of the 145 billion dollar Engle punitive award. On 21 June a federal judge in Kansas ordered R.J. Reynolds to pay 15 million dollars in punitive damages, and the industry has lost five verdicts in a row on the West Coast. On 24 June Philip Morris shares fell 7.3%. They had been among the best blue chips this year. At the end of May Philip Morris agreed to sell Miller Brewing to South African Breweries for 3.6 billion dollars in shares plus 2 billion of debt, keeping 36% of the new SABMiller.",
     "why": "The litigation discount returned after the 2000-2001 rally; the shares lost about 24% in June.",
     "assets": [
       "mo"
@@ -201,7 +202,8 @@
       "asset": "mo",
       "pct": -24
     },
-    "source": "https://www.latimes.com/archives/la-xpm-2002-jun-25-fi-tobacco25-story.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-2002-jun-12-fi-rup12.1-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/Miller_Brewing_Company (read 2026-10-03); https://en.wikipedia.org/wiki/SABMiller (read 2026-10-03)"
+    "source": "https://www.latimes.com/archives/la-xpm-2002-jun-25-fi-tobacco25-story.html (read 2026-10-03); https://www.latimes.com/archives/la-xpm-2002-jun-12-fi-rup12.1-story.html (read 2026-10-03); https://en.wikipedia.org/wiki/Miller_Brewing_Company (read 2026-10-03); https://en.wikipedia.org/wiki/SABMiller (read 2026-10-03)",
+    "changed": "rule on metrics: share price removed"
   },
   {
     "id": "cf23ddf3",

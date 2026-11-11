@@ -1,1 +1,0 @@
-This is the readme. The project is still empty for now.

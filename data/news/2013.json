@@ -295,28 +295,15 @@
   {
     "month": "2013-07",
     "kind": "company",
-    "headline": "Löscher is ousted; finance chief Joe Kaeser takes over",
-    "text": "In July Siemens replaced Peter Löscher with its finance chief Joe Kaeser, four years before Löscher's contract was due to end, after late deliveries of ICE high-speed trains and delays at offshore wind projects. Kaeser has worked at Siemens since 1980.",
+    "headline": "Siemens ousts Löscher and spins off Osram",
+    "text": "In July Siemens replaced Peter Löscher with its finance chief Joe Kaeser, four years before Löscher's contract was due to end, after late deliveries of ICE high-speed trains and delays at offshore wind projects. Kaeser has worked at Siemens since 1980. Earlier in the month, on 5 July, Siemens spun off Osram, its light bulb maker since 1978: Siemens shareholders received Osram shares directly, and they began trading in Frankfurt on 8 July.",
     "assets": [
       "siemens"
     ],
-    "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03)",
+    "source": "https://en.wikipedia.org/wiki/Peter_L%C3%B6scher (read 2026-10-03); https://en.wikipedia.org/wiki/Joe_Kaeser (read 2026-10-03); https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)",
     "image": "/news/siemens/2013-07-loescher.jpg",
     "imageCaption": "Peter Löscher, Siemens chief executive, at the World Economic Forum, Davos, January 2012",
     "imageCredit": "Financial Times"
-  },
-  {
-    "month": "2013-07",
-    "kind": "company",
-    "headline": "Siemens spins off its lighting arm Osram",
-    "text": "Siemens spun off Osram, its light bulb maker since 1978, on 5 July; Osram shares began trading in Frankfurt on 8 July. Siemens shareholders received Osram shares directly, after more than 98% of them approved the plan in January.",
-    "assets": [
-      "siemens"
-    ],
-    "source": "https://en.wikipedia.org/wiki/Osram (read 2026-10-03); https://press.siemens.com/global/en/pressrelease/siemens-drive-osram-spinoff (read 2026-10-03)",
-    "image": "/news/siemens/2013-07-an-osram-light-bulb.jpg",
-    "imageCaption": "An Osram light bulb",
-    "imageCredit": "Kirk"
   },
   {
     "month": "2013-08",
@@ -367,17 +354,6 @@
   },
   {
     "month": "2013-09",
-    "kind": "colour",
-    "headline": "Breaking Bad ends; series are binged on Netflix",
-    "text": "The American series Breaking Bad, about a chemistry teacher who becomes a drug maker, ended on 29 September after five seasons. Its audience grew as viewers caught up on earlier seasons on Netflix, and the finale was one of the most-watched cable episodes of recent years.",
-    "assets": [],
-    "source": "https://en.wikipedia.org/wiki/Breaking_Bad (read 2026-10-03)",
-    "image": "/news/life/2013-09-a-model-of-the-camper-van-from-breaking.jpg",
-    "imageCaption": "A model of the camper van from Breaking Bad in its show packaging",
-    "imageCredit": "Kenyirotsuru"
-  },
-  {
-    "month": "2013-09",
     "kind": "company",
     "headline": "Microsoft buys Nokia's phone business",
     "text": "On 3 September Microsoft agreed to buy Nokia's devices and services business for 3.79 billion euros and to license its patents for 1.65 billion euros, 5.44 billion euros in all, about 7.2 billion dollars. About 32,000 Nokia staff will move to Microsoft. Nokia keeps its networks business, its maps and its patents.",
@@ -391,6 +367,17 @@
     "imageCredit": "Petar Milošević"
   },
   {
+    "month": "2013-09",
+    "kind": "colour",
+    "headline": "Breaking Bad ends; series are binged on Netflix",
+    "text": "The American series Breaking Bad, about a chemistry teacher who becomes a drug maker, ended on 29 September after five seasons. Its audience grew as viewers caught up on earlier seasons on Netflix, and the finale was one of the most-watched cable episodes of recent years.",
+    "assets": [],
+    "source": "https://en.wikipedia.org/wiki/Breaking_Bad (read 2026-10-03)",
+    "image": "/news/life/2013-09-a-model-of-the-camper-van-from-breaking.jpg",
+    "imageCaption": "A model of the camper van from Breaking Bad in its show packaging",
+    "imageCredit": "Kenyirotsuru"
+  },
+  {
     "month": "2013-10",
     "kind": "company",
     "headline": "Amazon grows 24% while barely breaking even",
@@ -402,20 +389,6 @@
     "image": "/news/amzn/2013-10-an-amazon-fulfillment-centre-in-troutdal.jpg",
     "imageCaption": "An Amazon fulfillment centre in Troutdale, Oregon",
     "imageCredit": "Tedder"
-  },
-  {
-    "month": "2013-11",
-    "kind": "colour",
-    "headline": "Sony's PlayStation 4",
-    "text": "Sony launched the PlayStation 4 in North America on 15 November and in Europe on 29 November, at 399 euros. Sony wants to avoid the mistakes of the PlayStation 3, which came a year after Microsoft's Xbox 360.",
-    "assets": [
-      "sony",
-      "msft"
-    ],
-    "source": "https://en.wikipedia.org/wiki/PlayStation_4 (read 2026-10-03)",
-    "image": "/news/life/2013-11-playstation-4-consoles-with-a-controller.jpg",
-    "imageCaption": "PlayStation 4 consoles with a controller",
-    "imageCredit": "JoeJohnson2 (complied cropped adjusted)"
   },
   {
     "month": "2013-11",
@@ -442,6 +415,20 @@
     "image": "/news/wmt/2013-11-mcmillon.jpg",
     "imageCaption": "Doug McMillon ;;",
     "imageCredit": "Shane Bevel"
+  },
+  {
+    "month": "2013-11",
+    "kind": "colour",
+    "headline": "Sony's PlayStation 4",
+    "text": "Sony launched the PlayStation 4 in North America on 15 November and in Europe on 29 November, at 399 euros. Sony wants to avoid the mistakes of the PlayStation 3, which came a year after Microsoft's Xbox 360.",
+    "assets": [
+      "sony",
+      "msft"
+    ],
+    "source": "https://en.wikipedia.org/wiki/PlayStation_4 (read 2026-10-03)",
+    "image": "/news/life/2013-11-playstation-4-consoles-with-a-controller.jpg",
+    "imageCaption": "PlayStation 4 consoles with a controller",
+    "imageCredit": "JoeJohnson2 (complied cropped adjusted)"
   },
   {
     "month": "2013-12",

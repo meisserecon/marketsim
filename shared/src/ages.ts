@@ -54,7 +54,7 @@ export const AGES: Age[] = [
     id: "safe-as-houses",
     name: "Safe as Houses",
     from: "2003-01",
-    to: "2009-03",
+    to: "2009-02",
     motto: "Bricks and mortar never fall",
     intro:
       "After the dot-com crash nobody wants to hear about shares that promise the future. People want something solid. Interest rates are at their lowest in forty years, so borrowing is cheap, and house prices are rising everywhere from Florida to Spain. Banks have found clever ways to turn mortgages into securities and sell them around the world. A house, everyone agrees, is the one investment that cannot lose its value.",
@@ -64,7 +64,7 @@ export const AGES: Age[] = [
   {
     id: "free-money",
     name: "Free Money",
-    from: "2009-04",
+    from: "2009-03",
     to: "2022-10",
     motto: "When borrowing costs nothing",
     intro:
